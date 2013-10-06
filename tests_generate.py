@@ -210,15 +210,15 @@ class TestParseHand1(unittest.TestCase):
         self.assertFalse(hand.parsed)
 
 
-def create_test_function(hand, attribute, result):
-    def test_function(self):
+def create_function(hand, attribute, result):
+    def function(self):
         self.assertEqual(getattr(hand, attribute), result)
-    return test_function
+    return function
 
 
 for attr, result in HAND1['header_results'].items():
     hand = PokerStarsHand(HAND1['file'], parse=False)
     hand.parse_header()
-    test_function = create_test_function(hand, attr, result)
+    test_function = create_function(hand, attr, result)
     test_function.__name__ = 'test_%s' % attr
     setattr(TestParseHand1, test_function.__name__, test_function)
