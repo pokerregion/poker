@@ -40,13 +40,11 @@ class PokerStarsHand(object):
     _table_pattern = re.compile(r"Table '(.*)' (\d)-max Seat #(\d) is the button$")
     _seat_pattern = re.compile(r"Seat (\d): (.*) \((\d*) in chips\)$")
     _dealt_to_pattern = re.compile(r"Dealt to (.*) \[(.{2}) (.{2})\]$")
-    _flop_pattern = re.compile(r"\*\*\* FLOP \*\*\* \[(.{2}) (.{2}) (.{2})\]$")
-    _turn_pattern = re.compile(r"\*\*\* TURN \*\*\* \[.*\] \[(.{2})\]")
-    _river_pattern = re.compile(r"\*\*\* RIVER \*\*\* \[.*\] \[(.{2})\]")
     _pot_pattern = re.compile(r"Total pot (\d*) .*\| Rake (\d*)$")
     _summary_winner_pattern = re.compile(r"Seat (\d): (.*) collected \((\d*)\)$")
     _summary_showdown_pattern = re.compile(r"Seat (\d): (.*) showed .* and won")
     _ante_pattern = re.compile(r".*posts the ante (\d*)")
+    _board_pattern = re.compile(r"(?<=[\[ ])(.{2})(?=[\] ])")
 
     def __init__(self, hand_text, parse=True):
         self.raw = hand_text
@@ -128,23 +126,10 @@ class PokerStarsHand(object):
         self.preflop_actions = self._parse_actions()
 
     def _parse_street(self, street):
-        if (street == 'river' and not self.turn or
-                    "SUMMARY" in self._hand.last_line):
+        if "SUMMARY" in self._hand.last_line:
             setattr(self, street, None)
             setattr(self, '%s_actions' % street, None)
             return
-
-        try:
-            street_regex = getattr(self, '_%s_pattern' % street)
-            match = street_regex.match(self._hand.last_line)
-            if street == 'flop':
-                # Three cards from flop
-                self.flop = match.group(1, 2, 3)
-            else:
-                # One card from turn and river
-                setattr(self, street, match.group(1))
-        except AttributeError:
-            setattr(self, street, None)
 
         try:
             setattr(self, "%s_actions" % street, self._parse_actions())
@@ -159,12 +144,21 @@ class PokerStarsHand(object):
             self.show_down = False
 
     def _parse_summary(self):
-        hand_readline = self._hand.readline()
-        match = self._pot_pattern.match(hand_readline)
+        match = self._pot_pattern.match(self._hand.readline())
         self.total_pot = int(match.group(1))
 
-        # Skip Board [.. .. .. .. ..]
-        self._hand.readline()
+        boardline = self._hand.readline()
+        if boardline.startswith('Board'):
+            cards = self._board_pattern.findall(boardline)
+            self.flop = tuple(cards[:3]) if cards else None
+            try:
+                self.turn = cards[3]
+            except IndexError:
+                self.turn = None
+            try:
+                self.river = cards[4]
+            except IndexError:
+                self.river = None
 
         winners = set()
         for line in self._hand:

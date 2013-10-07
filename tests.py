@@ -112,7 +112,7 @@ class TestHeaderHand2(BaseHeaderTest):
         assert_equal(getattr(self.hand, attr), res)
 
 
-class TestBodyHand2(BaseBodyTest):
+class TestBodyAllinPreflop(BaseBodyTest):
     hh = HAND2
 
     @parameterized.expand([('table_name', '797536898 9'),
