@@ -150,6 +150,7 @@ class PokerStarsHand(object):
         boardline = self._hand.readline()
         if boardline.startswith('Board'):
             cards = self._board_pattern.findall(boardline)
+            self.board = tuple(cards)
             self.flop = tuple(cards[:3]) if cards else None
             try:
                 self.turn = cards[3]
@@ -181,16 +182,3 @@ class PokerStarsHand(object):
         else:
             return
         return tuple(actions) if actions else None
-
-    @property
-    def board(self):
-        board = []
-        if self.flop:
-            board.extend(self.flop)
-            if self.turn:
-                board.append(self.turn)
-                if self.river:
-                    board.append(self.river)
-
-        return tuple(board) if board else None
-
