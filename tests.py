@@ -50,7 +50,7 @@ class TestHeaderHand1(BaseHeaderTest):
         assert_equal(getattr(self.hand, attr), res)
 
 
-class TestBodyHand1(BaseBodyTest):
+class TestBodyFlopOnly(BaseBodyTest):
     hh = HAND1
 
     @parameterized.expand([('table_name', '797469411 15'),
