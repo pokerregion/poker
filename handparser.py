@@ -144,6 +144,10 @@ class PokerStarsHand(object):
             self.flop_actions = None
 
     def _parse_turn(self):
+        if "SUMMARY" in self._hand.last_line:
+            self.turn, self.turn_actions = None, None
+            return
+
         try:
             self.turn = self._turn_pattern.match(self._hand.last_line).group(1)
         except AttributeError:
@@ -155,6 +159,9 @@ class PokerStarsHand(object):
             self.turn_actions = None
 
     def _parse_river(self):
+        if not self.turn:
+            self.river, self.river_actions = None, None
+            return
         try:
             self.river = self._river_pattern.match(self._hand.last_line).group(1)
         except AttributeError:
@@ -168,6 +175,7 @@ class PokerStarsHand(object):
     def _parse_showdown(self):
         if "SHOW DOWN" in self._hand.last_line:
             self.show_down = True
+            self._parse_actions()
         else:
             self.show_down = False
         self._parse_actions()
