@@ -40,13 +40,11 @@ class PokerStarsHand(object):
     _table_pattern = re.compile(r"Table '(.*)' (\d)-max Seat #(\d) is the button$")
     _seat_pattern = re.compile(r"Seat (\d): (.*) \((\d*) in chips\)$")
     _dealt_to_pattern = re.compile(r"Dealt to (.*) \[(.{2}) (.{2})\]$")
-    _flop_pattern = re.compile(r"\*\*\* FLOP \*\*\* \[(.{2}) (.{2}) (.{2})\]$")
-    _turn_pattern = re.compile(r"\*\*\* TURN \*\*\* \[.*\] \[(.{2})\]")
-    _river_pattern = re.compile(r"\*\*\* RIVER \*\*\* \[.*\] \[(.{2})\]")
     _pot_pattern = re.compile(r"Total pot (\d*) .*\| Rake (\d*)$")
     _summary_winner_pattern = re.compile(r"Seat (\d): (.*) collected \((\d*)\)$")
     _summary_showdown_pattern = re.compile(r"Seat (\d): (.*) showed .* and won")
     _ante_pattern = re.compile(r".*posts the ante (\d*)")
+    _board_pattern = re.compile(r"(?<=[\[ ])(.{2})(?=[\] ])")
 
     def __init__(self, hand_text, parse=True):
         self.raw = hand_text
@@ -87,9 +85,9 @@ class PokerStarsHand(object):
         self._parse_table()
         self._parse_players()
         self._parse_preflop()
-        self._parse_flop()
-        self._parse_turn()
-        self._parse_river()
+        self._parse_street('flop')
+        self._parse_street('turn')
+        self._parse_street('river')
         self._parse_showdown()
         self._parse_summary()
 
@@ -127,49 +125,16 @@ class PokerStarsHand(object):
         self.hero_hole_cards = match.group(2, 3)
         self.preflop_actions = self._parse_actions()
 
-    def _parse_flop(self):
+    def _parse_street(self, street):
         if "SUMMARY" in self._hand.last_line:
-            self.flop, self.flop_actions = None, None
+            setattr(self, street, None)
+            setattr(self, '%s_actions' % street, None)
             return
 
         try:
-            self.flop = self._flop_pattern.match(self._hand.last_line).group(1, 2, 3)
+            setattr(self, "%s_actions" % street, self._parse_actions())
         except AttributeError:
-            self.flop = None
-
-        try:
-            self.flop_actions = self._parse_actions()
-        except AttributeError:
-            self.flop_actions = None
-
-    def _parse_turn(self):
-        if "SUMMARY" in self._hand.last_line:
-            self.turn, self.turn_actions = None, None
-            return
-
-        try:
-            self.turn = self._turn_pattern.match(self._hand.last_line).group(1)
-        except AttributeError:
-            self.turn = None
-
-        try:
-            self.turn_actions = self._parse_actions()
-        except AttributeError:
-            self.turn_actions = None
-
-    def _parse_river(self):
-        if not self.turn:
-            self.river, self.river_actions = None, None
-            return
-        try:
-            self.river = self._river_pattern.match(self._hand.last_line).group(1)
-        except AttributeError:
-            self.river = None
-
-        try:
-            self.river_actions = self._parse_actions()
-        except AttributeError:
-            self.river_actions = None
+            setattr(self, street, None)
 
     def _parse_showdown(self):
         if "SHOW DOWN" in self._hand.last_line:
@@ -179,12 +144,23 @@ class PokerStarsHand(object):
             self.show_down = False
 
     def _parse_summary(self):
-        hand_readline = self._hand.readline()
-        match = self._pot_pattern.match(hand_readline)
+        match = self._pot_pattern.match(self._hand.readline())
         self.total_pot = int(match.group(1))
 
-        # Skip Board [.. .. .. .. ..]
-        self._hand.readline()
+        self.board = None
+        boardline = self._hand.readline()
+        if boardline.startswith('Board'):
+            cards = self._board_pattern.findall(boardline)
+            self.board = tuple(cards)
+            self.flop = tuple(cards[:3]) if cards else None
+            try:
+                self.turn = cards[3]
+            except IndexError:
+                self.turn = None
+            try:
+                self.river = cards[4]
+            except IndexError:
+                self.river = None
 
         winners = set()
         for line in self._hand:
@@ -207,16 +183,3 @@ class PokerStarsHand(object):
         else:
             return
         return tuple(actions) if actions else None
-
-    @property
-    def board(self):
-        board = []
-        if self.flop:
-            board.extend(self.flop)
-            if self.turn:
-                board.append(self.turn)
-                if self.river:
-                    board.append(self.river)
-
-        return tuple(board) if board else None
-
