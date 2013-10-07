@@ -220,5 +220,8 @@ for attr, result in HAND1['header_results'].items():
     hand = PokerStarsHand(HAND1['file'], parse=False)
     hand.parse_header()
     test_function = create_function(hand, attr, result)
-    test_function.__name__ = 'test_%s' % attr
+    test_function.__name__ = 'test_attr_%s' % attr
     setattr(TestParseHand1, test_function.__name__, test_function)
+
+if __name__ == '__main__':
+    unittest.main()
