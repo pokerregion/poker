@@ -1,5 +1,5 @@
 from nose_parameterized import parameterized
-from nose.tools import nottest, assert_equal
+from nose.tools import assert_equal
 from test_data import HAND1, HAND2
 import unittest
 import pytz
@@ -48,7 +48,7 @@ class TestHeaderHand1(BaseHeaderTest):
         ('date', ET.localize(datetime(2013, 10, 4, 13, 53, 27)))
     ])
     def test_header(self, attr, res):
-        assert getattr(self.hand, attr) == res
+        assert_equal(getattr(self.hand, attr), res)
 
 
 class TestBodyHand1(BaseBodyTest):
@@ -86,7 +86,7 @@ class TestBodyHand1(BaseBodyTest):
         ('winners', ('W2lkm2n',)),
     ])
     def test_body(self, attr, res):
-        assert getattr(self.hand, attr) == res
+        assert_equal(getattr(self.hand, attr), res)
 
 
 class TestHeaderHand2(BaseHeaderTest):
@@ -144,4 +144,4 @@ class TestBodyHand2(BaseBodyTest):
                            ('winners', ('costamar',)),
     ])
     def test_body(self, attr, res):
-        assert getattr(self.hand, attr) == res
+        assert_equal(getattr(self.hand, attr), res)
