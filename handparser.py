@@ -87,9 +87,9 @@ class PokerStarsHand(object):
         self._parse_table()
         self._parse_players()
         self._parse_preflop()
-        self._parse_flop()
-        self._parse_turn()
-        self._parse_river()
+        self._parse_street('flop')
+        self._parse_street('turn')
+        self._parse_street('river')
         self._parse_showdown()
         self._parse_summary()
 
@@ -127,49 +127,29 @@ class PokerStarsHand(object):
         self.hero_hole_cards = match.group(2, 3)
         self.preflop_actions = self._parse_actions()
 
-    def _parse_flop(self):
-        if "SUMMARY" in self._hand.last_line:
-            self.flop, self.flop_actions = None, None
+    def _parse_street(self, street):
+        if (street == 'river' and not self.turn or
+                    "SUMMARY" in self._hand.last_line):
+            setattr(self, street, None)
+            setattr(self, '%s_actions' % street, None)
             return
 
         try:
-            self.flop = self._flop_pattern.match(self._hand.last_line).group(1, 2, 3)
+            street_regex = getattr(self, '_%s_pattern' % street)
+            match = street_regex.match(self._hand.last_line)
+            if street == 'flop':
+                # Three cards from flop
+                self.flop = match.group(1, 2, 3)
+            else:
+                # One card from turn and river
+                setattr(self, street, match.group(1))
         except AttributeError:
-            self.flop = None
+            setattr(self, street, None)
 
         try:
-            self.flop_actions = self._parse_actions()
+            setattr(self, "%s_actions" % street, self._parse_actions())
         except AttributeError:
-            self.flop_actions = None
-
-    def _parse_turn(self):
-        if "SUMMARY" in self._hand.last_line:
-            self.turn, self.turn_actions = None, None
-            return
-
-        try:
-            self.turn = self._turn_pattern.match(self._hand.last_line).group(1)
-        except AttributeError:
-            self.turn = None
-
-        try:
-            self.turn_actions = self._parse_actions()
-        except AttributeError:
-            self.turn_actions = None
-
-    def _parse_river(self):
-        if not self.turn:
-            self.river, self.river_actions = None, None
-            return
-        try:
-            self.river = self._river_pattern.match(self._hand.last_line).group(1)
-        except AttributeError:
-            self.river = None
-
-        try:
-            self.river_actions = self._parse_actions()
-        except AttributeError:
-            self.river_actions = None
+            setattr(self, street, None)
 
     def _parse_showdown(self):
         if "SHOW DOWN" in self._hand.last_line:
