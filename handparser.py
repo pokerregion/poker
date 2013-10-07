@@ -147,6 +147,7 @@ class PokerStarsHand(object):
         match = self._pot_pattern.match(self._hand.readline())
         self.total_pot = int(match.group(1))
 
+        self.board = None
         boardline = self._hand.readline()
         if boardline.startswith('Board'):
             cards = self._board_pattern.findall(boardline)
