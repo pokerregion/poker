@@ -199,10 +199,12 @@ class PokerStarsHand(object):
     @property
     def board(self):
         board = []
-        for street in (self.flop, self.turn, self.river):
-            if street:
-                board.extend(street)
-            else:
-                break
-        return tuple(board)
+        if self.flop:
+            board.extend(self.flop)
+            if self.turn:
+                board.append(self.turn)
+                if self.river:
+                    board.append(self.river)
+
+        return tuple(board) if board else None
 
