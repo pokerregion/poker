@@ -106,7 +106,7 @@ class PokerStarsHand(object):
         self.button_seat = int(match.group(3))
 
     def _parse_players(self):
-        players = [None] * self.max_players
+        players = [('Empty Seat %s' % num, 0) for num in range(1, self.max_players + 1)]
         for line in self._hand:
             if not line.startswith('Seat'):
                 self._hand.last_line = line
@@ -132,6 +132,10 @@ class PokerStarsHand(object):
         self.preflop_actions = self._parse_actions()
 
     def _parse_flop(self):
+        if "SUMMARY" in self._hand.last_line:
+            self.flop, self.flop_actions = None, None
+            return
+
         try:
             print " FLOP VONALA:", self._hand.last_line
             self.flop = self._flop_pattern.match(self._hand.last_line).group(1, 2, 3)
@@ -178,7 +182,6 @@ class PokerStarsHand(object):
             self._parse_actions()
         else:
             self.show_down = False
-        self._parse_actions()
 
     def _parse_summary(self):
         print "LAST LINE:", self._hand.last_line
