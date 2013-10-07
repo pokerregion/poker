@@ -126,7 +126,7 @@ class TestBodyHand2(BaseBodyTest):
                            ('flop', ('3c', '6s', '9d')),
                            ('turn', '8d'),
                            ('river', 'Ks'),
-                           ('board', ('2s', '6d', '6h')),
+                           ('board', ('3c', '6s', '9d', '8d', 'Ks')),
                            ('preflop_actions', ("lkenny44, folds",
                                                 "Newfie_187, raises 155 to 955 and is all-in",
                                                 "Hokolix, folds",
