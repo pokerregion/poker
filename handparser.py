@@ -194,7 +194,7 @@ class PokerStarsHand(object):
             actions.append(line)
         else:
             return
-        return tuple(actions)
+        return tuple(actions) if actions else None
 
     @property
     def board(self):
