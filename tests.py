@@ -83,6 +83,7 @@ class TestBodyHand1(BaseBodyTest):
         ('turn_actions', None),
         ('river_actions', None),
         ('total_pot', Decimal(150)),
+        ('show_down', False),
         ('winners', ('W2lkm2n',)),
     ])
     def test_body(self, attr, res):
@@ -141,6 +142,7 @@ class TestBodyHand2(BaseBodyTest):
                            ('turn_actions', None),
                            ('river_actions', None),
                            ('total_pot', Decimal(26310)),
+                           ('show_down', True),
                            ('winners', ('costamar',)),
     ])
     def test_body(self, attr, res):

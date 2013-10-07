@@ -44,7 +44,8 @@ class PokerStarsHand(object):
     _turn_pattern = re.compile(r"\*\*\* TURN \*\*\* \[.*\] \[(.{2})\]")
     _river_pattern = re.compile(r"\*\*\* RIVER \*\*\* \[.*\] \[(.{2})\]")
     _pot_pattern = re.compile(r"Total pot (\d*) .*\| Rake (\d*)$")
-    _summary_pattern = re.compile(r"Seat (\d): (.*) collected \((\d*)\)$")
+    _summary_winner_pattern = re.compile(r"Seat (\d): (.*) collected \((\d*)\)$")
+    _summary_showdown_pattern = re.compile(r"Seat (\d): (.*) showed .* and won")
     _ante_pattern = re.compile(r".*posts the ante (\d*)")
 
     def __init__(self, hand_text, parse=True):
@@ -165,6 +166,10 @@ class PokerStarsHand(object):
             self.river_actions = None
 
     def _parse_showdown(self):
+        if "SHOW DOWN" in self._hand.last_line:
+            self.show_down = True
+        else:
+            self.show_down = False
         self._parse_actions()
 
     def _parse_summary(self):
@@ -177,11 +182,15 @@ class PokerStarsHand(object):
         # Skip Board [.. .. .. .. ..]
         self._hand.readline()
 
-        winners = []
+        winners = set()
         for line in self._hand:
-            if "collected" in line:
-                match = self._summary_pattern.match(line)
-                winners.append(match.group(2))
+            if not self.show_down and "collected" in line:
+                match = self._summary_winner_pattern.match(line)
+                winners.add(match.group(2))
+            elif self.show_down and "won" in line:
+                match = self._summary_showdown_pattern.match(line)
+                winners.add(match.group(2))
+
         self.winners = tuple(winners)
 
     def _parse_actions(self):
