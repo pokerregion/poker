@@ -88,13 +88,9 @@ class PokerStarsHand(object):
         self._parse_players()
         self._parse_preflop()
         self._parse_flop()
-        print "FLOP PARSED"
         self._parse_turn()
-        print "TURN PARSED"
         self._parse_river()
-        print "RIVER PARSED"
         self._parse_showdown()
-        print "SHOWDOWN PARSED"
         self._parse_summary()
 
         self.parsed = True
@@ -137,7 +133,6 @@ class PokerStarsHand(object):
             return
 
         try:
-            print " FLOP VONALA:", self._hand.last_line
             self.flop = self._flop_pattern.match(self._hand.last_line).group(1, 2, 3)
         except AttributeError:
             self.flop = None
@@ -184,9 +179,7 @@ class PokerStarsHand(object):
             self.show_down = False
 
     def _parse_summary(self):
-        print "LAST LINE:", self._hand.last_line
         hand_readline = self._hand.readline()
-        print "     READ LINE:", hand_readline
         match = self._pot_pattern.match(hand_readline)
         self.total_pot = int(match.group(1))
 
@@ -207,7 +200,6 @@ class PokerStarsHand(object):
     def _parse_actions(self):
         actions = []
         for line in self._hand:
-            print line
             if line.startswith("***"):
                 self._hand.last_line = line
                 break
