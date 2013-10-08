@@ -2,7 +2,7 @@ import re
 from StringIO import StringIO
 from datetime import datetime
 from decimal import Decimal
-from collections import OrderedDict
+from collections import OrderedDict, MutableMapping
 import pytz
 
 
@@ -20,7 +20,7 @@ class _StringIONoNewLine(StringIO):
         return StringIO.readline(self, length=length).rstrip()
 
 
-class PokerStarsHand(object):
+class PokerStarsHand(MutableMapping):
     date_format = '%Y/%m/%d %H:%M:%S'
     _header_pattern = re.compile(r"""
                                 (?P<poker_room>PokerStars)[ ]           # Poker Room
@@ -53,6 +53,29 @@ class PokerStarsHand(object):
 
         if parse:
             self.parse()
+
+    def __len__(self):
+        return len(self.keys())
+
+    def __getitem__(self, key):
+        if key != 'raw':
+            return getattr(self, key)
+        else:
+            raise KeyError('You can only get it via the attribute like "hand.raw"')
+
+    def __setitem__(self, key, value):
+        self.header_parsed, self.parsed = False, False
+        setattr(self, key, value)
+
+    def __delitem__(self, key):
+        self.header_parsed, self.parsed = False, False
+        delattr(self, key)
+
+    def keys(self):
+        return [attr for attr in vars(self) if not attr.startswith('_') and attr != 'raw']
+
+    def __iter__(self):
+        return iter(self.keys())
 
     def parse_header(self):
         """
