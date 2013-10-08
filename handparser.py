@@ -176,14 +176,8 @@ class PokerStarsHand(MutableMapping):
             cards = self._board_pattern.findall(boardline)
             self.board = tuple(cards)
             self.flop = tuple(cards[:3]) if cards else None
-            try:
-                self.turn = cards[3]
-            except IndexError:
-                self.turn = None
-            try:
-                self.river = cards[4]
-            except IndexError:
-                self.river = None
+            self.turn = cards[3] if len(cards) > 3 else None
+            self.river = cards[4] if len(cards) > 4 else None
 
         winners = set()
         for line in self._hand:
