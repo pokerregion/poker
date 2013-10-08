@@ -23,16 +23,16 @@ class _StringIONoNewLine(StringIO):
 class PokerStarsHand(object):
     date_format = '%Y/%m/%d %H:%M:%S'
     _header_pattern = re.compile(r"""
-                                (?P<room>PokerStars)[ ]         # Poker Room
+                                (?P<poker_room>PokerStars)[ ]   # Poker Room
                                 Hand[ ]\#(?P<number>\d*):[ ]    # Hand number
-                                (?P<type>Tournament)[ ]         # Type
-                                \#(?P<tour_number>\d*),[ ]      # Tournament Number
+                                (?P<game_type>Tournament)[ ]    # Type
+                                \#(?P<tournament_ident>\d*),[ ] # Tournament Number
                                 \$(?P<buyin>\d*\.\d{2})\+       # buyin
                                 \$(?P<rake>\d*\.\d{2})[ ]       # rake
                                 (?P<currency>USD|EUR)[ ]        # currency
                                 (?P<game>.*)[ ]                 # game
                                 (?P<limit>No[ ]Limit)[ ]        # limit
-                                -[ ]Level[ ](?P<tour_level>.*)[ ] # Level
+                                -[ ]Level[ ](?P<tournament_level>.*)[ ] # Level
                                 \((?P<sb>.*)/(?P<bb>.*)\)[ ]    # blinds
                                 -[ ].*[ ]                       # localized date
                                 \[(?P<date>.*)[ ]ET\]$          # ET date
@@ -59,8 +59,8 @@ class PokerStarsHand(object):
         Parses the first line of a hand history.
         """
         match = self._header_pattern.match(self._hand.readline())
-        self.room = POKER_ROOMS[match.group('room')]
-        self.type = TYPES[match.group('type')]
+        self.poker_room = POKER_ROOMS[match.group('poker_room')]
+        self.game_type = TYPES[match.group('game_type')]
         self.sb = Decimal(match.group('sb'))
         self.bb = Decimal(match.group('bb'))
         self.buyin = Decimal(match.group('buyin'))
@@ -69,8 +69,8 @@ class PokerStarsHand(object):
         self.game = GAMES[match.group('game')]
         self.limit = LIMITS[match.group('limit')]
         self.number = match.group('number')
-        self.tour_number = match.group('tour_number')
-        self.tour_level = match.group('tour_level')
+        self.tournament_ident = match.group('tournament_ident')
+        self.tournament_level = match.group('tournament_level')
         self.currency = match.group('currency')
 
         self.header_parsed = True

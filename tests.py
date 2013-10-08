@@ -32,11 +32,11 @@ class BaseBodyTest(unittest.TestCase):
 class TestHeaderHand1(BaseHeaderTest):
     hh = HAND1
 
-    @parameterized.expand([('room', 'STARS'),
+    @parameterized.expand([('poker_room', 'STARS'),
                            ('number', '105024000105'),
-                           ('type', 'TOUR'),
-                           ('tour_number', '797469411'),
-                           ('tour_level', 'I'),
+                           ('game_type', 'TOUR'),
+                           ('tournament_ident', '797469411'),
+                           ('tournament_level', 'I'),
                            ('currency', 'USD'),
                            ('buyin', Decimal('3.19')),
                            ('rake', Decimal('0.31')),
@@ -94,11 +94,11 @@ class TestBodyFlopOnly(BaseBodyTest):
 class TestHeaderHand2(BaseHeaderTest):
     hh = HAND2
 
-    @parameterized.expand([('room', 'STARS'),
+    @parameterized.expand([('poker_room', 'STARS'),
                            ('number', '105034215446'),
-                           ('type', 'TOUR'),
-                           ('tour_number', '797536898'),
-                           ('tour_level', 'XI'),
+                           ('game_type', 'TOUR'),
+                           ('tournament_ident', '797536898'),
+                           ('tournament_level', 'XI'),
                            ('currency', 'USD'),
                            ('buyin', Decimal('3.19')),
                            ('rake', Decimal('0.31')),
@@ -153,11 +153,11 @@ class TestBodyAllinPreflop(BaseBodyTest):
 class TestHeaderHand3(BaseHeaderTest):
     hh = HAND3
 
-    @parameterized.expand([('room', 'STARS'),
+    @parameterized.expand([('poker_room', 'STARS'),
                            ('number', '105026771696'),
-                           ('type', 'TOUR'),
-                           ('tour_number', '797469411'),
-                           ('tour_level', 'X'),
+                           ('game_type', 'TOUR'),
+                           ('tournament_ident', '797469411'),
+                           ('tournament_level', 'X'),
                            ('currency', 'USD'),
                            ('buyin', Decimal('3.19')),
                            ('rake', Decimal('0.31')),
@@ -213,11 +213,11 @@ class TestBodyMissingPlayerNoBoard(BaseBodyTest):
 class TestHeaderHand4(BaseHeaderTest):
     hh = HAND4
 
-    @parameterized.expand([('room', 'STARS'),
+    @parameterized.expand([('poker_room', 'STARS'),
                            ('number', '105025168298'),
-                           ('type', 'TOUR'),
-                           ('tour_number', '797469411'),
-                           ('tour_level', 'IV'),
+                           ('game_type', 'TOUR'),
+                           ('tournament_ident', '797469411'),
+                           ('tournament_level', 'IV'),
                            ('currency', 'USD'),
                            ('buyin', Decimal('3.19')),
                            ('rake', Decimal('0.31')),
