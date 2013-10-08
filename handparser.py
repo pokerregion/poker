@@ -23,19 +23,19 @@ class _StringIONoNewLine(StringIO):
 class PokerStarsHand(object):
     date_format = '%Y/%m/%d %H:%M:%S'
     _header_pattern = re.compile(r"""
-                                (?P<poker_room>PokerStars)[ ]   # Poker Room
-                                Hand[ ]\#(?P<number>\d*):[ ]    # Hand number
-                                (?P<game_type>Tournament)[ ]    # Type
-                                \#(?P<tournament_ident>\d*),[ ] # Tournament Number
-                                \$(?P<buyin>\d*\.\d{2})\+       # buyin
-                                \$(?P<rake>\d*\.\d{2})[ ]       # rake
-                                (?P<currency>USD|EUR)[ ]        # currency
-                                (?P<game>.*)[ ]                 # game
-                                (?P<limit>No[ ]Limit)[ ]        # limit
+                                (?P<poker_room>PokerStars)[ ]           # Poker Room
+                                Hand[ ]\#(?P<number>\d*):[ ]            # Hand number
+                                (?P<game_type>Tournament)[ ]            # Type
+                                \#(?P<tournament_ident>\d*),[ ]         # Tournament Number
+                                \$(?P<buyin>\d*\.\d{2})\+               # buyin
+                                \$(?P<rake>\d*\.\d{2})[ ]               # rake
+                                (?P<currency>USD|EUR)[ ]                # currency
+                                (?P<game>.*)[ ]                         # game
+                                (?P<limit>No[ ]Limit)[ ]                # limit
                                 -[ ]Level[ ](?P<tournament_level>.*)[ ] # Level
-                                \((?P<sb>.*)/(?P<bb>.*)\)[ ]    # blinds
-                                -[ ].*[ ]                       # localized date
-                                \[(?P<date>.*)[ ]ET\]$          # ET date
+                                \((?P<sb>.*)/(?P<bb>.*)\)[ ]            # blinds
+                                -[ ].*[ ]                               # localized date
+                                \[(?P<date>.*)[ ]ET\]$                  # ET date
                                 """, re.VERBOSE)
     _table_pattern = re.compile(r"Table '(.*)' (\d)-max Seat #(\d) is the button$")
     _seat_pattern = re.compile(r"Seat (\d): (.*) \((\d*) in chips\)$")
