@@ -35,3 +35,6 @@
 2.) WOW
     Single results average: 38.9719517231
     Repeated results average: 41.7646817962
+
+    Single results average: 42.623277545
+    Repeated results average: 41.5501109759
