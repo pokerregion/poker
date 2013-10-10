@@ -1,6 +1,6 @@
 from nose_parameterized import parameterized
 from nose.tools import assert_equal
-from test_data import HAND1, HAND2, HAND3, HAND4
+import test_data
 import unittest
 import pytz
 from decimal import Decimal
@@ -30,7 +30,7 @@ class BaseBodyTest(unittest.TestCase):
 
 
 class TestHeaderHand1(BaseHeaderTest):
-    hh = HAND1
+    hh = test_data.HAND1
 
     @parameterized.expand([('poker_room', 'STARS'),
                            ('number', '105024000105'),
@@ -51,7 +51,7 @@ class TestHeaderHand1(BaseHeaderTest):
 
 
 class TestBodyFlopOnly(BaseBodyTest):
-    hh = HAND1
+    hh = test_data.HAND1
 
     @parameterized.expand([('table_name', '797469411 15'),
                            ('max_players', 9),
@@ -92,7 +92,7 @@ class TestBodyFlopOnly(BaseBodyTest):
 
 
 class TestHeaderHand2(BaseHeaderTest):
-    hh = HAND2
+    hh = test_data.HAND2
 
     @parameterized.expand([('poker_room', 'STARS'),
                            ('number', '105034215446'),
@@ -113,7 +113,7 @@ class TestHeaderHand2(BaseHeaderTest):
 
 
 class TestBodyAllinPreflop(BaseBodyTest):
-    hh = HAND2
+    hh = test_data.HAND2
 
     @parameterized.expand([('table_name', '797536898 9'),
                            ('max_players', 9),
@@ -151,7 +151,7 @@ class TestBodyAllinPreflop(BaseBodyTest):
 
 
 class TestHeaderHand3(BaseHeaderTest):
-    hh = HAND3
+    hh = test_data.HAND3
 
     @parameterized.expand([('poker_room', 'STARS'),
                            ('number', '105026771696'),
@@ -172,7 +172,7 @@ class TestHeaderHand3(BaseHeaderTest):
 
 
 class TestBodyMissingPlayerNoBoard(BaseBodyTest):
-    hh = HAND3
+    hh = test_data.HAND3
 
     @parameterized.expand([('table_name', '797469411 11'),
                            ('max_players', 9),
@@ -211,7 +211,7 @@ class TestBodyMissingPlayerNoBoard(BaseBodyTest):
 
 
 class TestHeaderHand4(BaseHeaderTest):
-    hh = HAND4
+    hh = test_data.HAND4
 
     @parameterized.expand([('poker_room', 'STARS'),
                            ('number', '105025168298'),
@@ -232,7 +232,7 @@ class TestHeaderHand4(BaseHeaderTest):
 
 
 class TestBodyEveryStreet(BaseBodyTest):
-    hh = HAND4
+    hh = test_data.HAND4
 
     @parameterized.expand([('table_name', '797469411 15'),
                            ('max_players', 9),
@@ -279,7 +279,7 @@ class TestBodyEveryStreet(BaseBodyTest):
 
 class TestDictHand1(unittest.TestCase):
     def setUp(self):
-        self.hand = PokerStarsHand(HAND1)
+        self.hand = PokerStarsHand(test_data.HAND1)
 
     def tearDown(self):
         del self.hand
@@ -288,11 +288,11 @@ class TestDictHand1(unittest.TestCase):
         self.assertIsInstance(self.hand, MutableMapping)
 
     def test_all_keys_set(self):
-        excpected_keys = {'number', 'currency', 'hero_hole_cards', 'preflop_actions', 'parsed', 'turn', 'header_parsed',
-                          'show_down', 'poker_room', 'winners', 'board', 'limit', 'river_actions', 'hero',
-                          'turn_actions', 'bb', 'button_seat', 'tournament_ident', 'rake', 'buyin', 'game', 'hero_seat',
-                          'date', 'max_players', 'flop_actions', 'button', 'flop', 'game_type', 'players', 'table_name',
-                          'sb', 'total_pot', 'river', 'tournament_level'}
+        excpected_keys = {'number', 'currency', 'hero_hole_cards', 'preflop_actions', 'turn', 'show_down', 'poker_room',
+                          'winners', 'board', 'limit', 'river_actions', 'hero', 'turn_actions', 'bb', 'button_seat',
+                          'tournament_ident', 'rake', 'buyin', 'game', 'hero_seat', 'date', 'max_players',
+                          'flop_actions', 'button', 'flop', 'game_type', 'players', 'table_name', 'sb', 'total_pot',
+                          'river', 'tournament_level'}
         self.assertSetEqual(excpected_keys, set(self.hand.keys()))
 
     def test_raw_is_not_a_key(self):
@@ -303,5 +303,13 @@ class TestDictHand1(unittest.TestCase):
         self.assertTrue(hasattr(self.hand, 'raw'))
 
     def test_there_should_be_not_only_one_but_thirtyfour_keys(self):
-        self.assertEqual(34, len(self.hand))
-        self.assertEqual(34, len(self.hand.keys()))
+        self.assertEqual(32, len(self.hand))
+        self.assertEqual(32, len(self.hand.keys()))
+
+
+class TestPlayerNameStartsWithDot(BaseBodyTest):
+    hh = test_data.HAND5
+
+    def test_player_name_with_dot_should_not_fail(self):
+        self.assertIn('.prestige.U$', self.hand.players)
+        self.assertEqual(self.hand.players['.prestige.U$'], 3000)

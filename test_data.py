@@ -202,3 +202,54 @@ Seat 7: blak_douglas (big blind) folded on the River
 Seat 8: sinus91 folded before Flop (didn't bet)
 Seat 9: STBIJUJA folded before Flop (didn't bet)
 """
+
+
+HAND5 = """PokerStars Hand #105039163226: Tournament #797613600, $3.19+$0.31 USD Hold'em No Limit - Level I (10/20) - 2013/10/05 1:18:18 CET [2013/10/04 19:18:18 ET]
+Table '797613600 9' 9-max Seat #1 is the button
+Seat 1: pjo80 (1500 in chips)
+Seat 2: Brimill (3000 in chips)
+Seat 3: XZ18 (1500 in chips)
+Seat 4: .prestige.U$ (3000 in chips)
+Seat 5: schnetzger (1500 in chips)
+Seat 6: W2lkm2n (3000 in chips)
+Seat 7: sednanref (1500 in chips)
+Seat 8: daoudi007708 (1500 in chips)
+Seat 9: IPODpoker88 (3000 in chips)
+Brimill: posts small blind 10
+XZ18: posts big blind 20
+*** HOLE CARDS ***
+Dealt to W2lkm2n [7d 6h]
+.prestige.U$: raises 20 to 40
+schnetzger: folds
+W2lkm2n: folds
+sednanref: folds
+daoudi007708: calls 40
+IPODpoker88: folds
+pjo80: folds
+Brimill: folds
+XZ18: folds
+*** FLOP *** [Kd Qc Ad]
+.prestige.U$: checks
+daoudi007708: bets 20
+.prestige.U$: calls 20
+*** TURN *** [Kd Qc Ad] [Th]
+.prestige.U$: checks
+daoudi007708: bets 40
+.prestige.U$: calls 40
+*** RIVER *** [Kd Qc Ad Th] [Qs]
+.prestige.U$: bets 230
+daoudi007708: folds
+Uncalled bet (230) returned to .prestige.U$
+.prestige.U$ collected 230 from pot
+*** SUMMARY ***
+Total pot 230 | Rake 0
+Board [Kd Qc Ad Th Qs]
+Seat 1: pjo80 (button) folded before Flop (didn't bet)
+Seat 2: Brimill (small blind) folded before Flop
+Seat 3: XZ18 (big blind) folded before Flop
+Seat 4: .prestige.U$ collected (230)
+Seat 5: schnetzger folded before Flop (didn't bet)
+Seat 6: W2lkm2n folded before Flop (didn't bet)
+Seat 7: sednanref folded before Flop (didn't bet)
+Seat 8: daoudi007708 folded on the River
+Seat 9: IPODpoker88 folded before Flop (didn't bet)"""
