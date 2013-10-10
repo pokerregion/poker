@@ -5,5 +5,5 @@ setup(
     name="handparser",
     version='0.2.0',
     py_modules=['handparser'],
-    requires=['pytz', 'nose'],
+    requires=['pytz', 'nose', 'nose-parameterized'],
 )
