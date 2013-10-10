@@ -1,3 +1,9 @@
+"""Poker hand history parser module.
+
+For now, it only parser PokerStars Tournament hands, but the plan is to parse a lot.
+
+"""
+
 import re
 from datetime import datetime
 from decimal import Decimal
@@ -13,6 +19,50 @@ LIMITS = {'No Limit': 'NL'}
 
 
 class PokerStarsHand(MutableMapping):
+    """Parses PokerStars Tournament hands.
+
+    The attributes can be iterated
+    The class can read like a dictionary.
+    Every attribute default value is None.
+
+    Public attributes:
+        poker_room          -- STARS for PokerStars
+        number              -- hand id
+        game_type           -- TOUR for tournaments or SNG for Sit&Go-s
+        tournament_ident    -- tournament id
+        tournament_level
+        currency            -- 3 letter iso code USD, HUF, EUR, etc.
+        buyin               -- buyin without rake
+        rake
+        game                -- game type: HOLDEM, OMAHA, STUD, RAZZ, etc.
+        limit               -- NL, PL or FL
+        sb                  -- amount of small blind
+        bb                  -- amount of big blind
+        date                -- hand date in ET (localized)
+
+        table_name      -- name of the table. it's 'tournament number[ ]table number'
+        max_player      -- maximum players can sit on the table, 2, 4, 6, 7, 8, 9
+        button_seat     -- seat of button player, starting from 1
+        button          -- player name on the button
+        hero            -- name of hero
+        hero_seat (int) -- seat of hero, starting from 1
+        players         -- OrderedDict of tuples in form (playername, starting_stack)
+                           the sequence is the seating order at the table at the start of the hand
+        hero_hole_cards -- tuple of two cards, ex. ('Ah', 'As')
+        flop            -- tuple of flop cards, ex. ('Ah', '2s', '2h')
+        turn            -- str of turn card, ex. 'Ah'
+        river           -- str of river card, ex. '2d'
+        board           -- tuple of board cards, ex. ('4s', 4d', '4c', '5h')
+        preflop actions -- tuple of action lines in str
+        flop_actions    -- tuple of flop action lines
+        turn_actions
+        river_actions
+        total_pot       -- total pot after end of actions
+        show_down       -- There was showd_down or wasn't (bool)
+        winners         -- tuple of winner names, even when there is only one winner. ex. ('W2lkm2n')
+    """
+
+    _non_hand_attributes = ('raw', 'parsed', 'header_parsed')
     date_format = '%Y/%m/%d %H:%M:%S'
     _split_pattern = re.compile(r" ?\*\*\* ?\n?|\n")
     _header_pattern = re.compile(r"""
@@ -40,10 +90,17 @@ class PokerStarsHand(MutableMapping):
     _board_pattern = re.compile(r"(?<=[\[ ])(..)(?=[\] ])")
 
     def __init__(self, hand_text, parse=True):
+        """Save raw hand history, split by sections and parse.
+
+        Parameters:
+            hand_text   -- str of poker hand
+            parse       -- if False, hand will not parsed immediately.
+                           Useful if you just want to quickly check header first.
+        """
         self.raw = hand_text
         self._splitted = self._split_pattern.split(hand_text.strip())
 
-        # search split locations
+        # search split locations (basically empty strings)
         # sections[0] is before HOLE CARDS
         # sections[-1] is before SUMMARY
         self._sections = [ind for ind, elem in enumerate(self._splitted) if not elem]
@@ -57,29 +114,32 @@ class PokerStarsHand(MutableMapping):
         return len(self.keys())
 
     def __getitem__(self, key):
-        if key != 'raw':
+        if key not in self._non_hand_attributes:
             return getattr(self, key)
         else:
-            raise KeyError('You can only get it via the attribute like "hand.raw"')
+            raise KeyError('You can only get it via the attribute like "hand.%s"' % key)
 
     def __setitem__(self, key, value):
-        self.header_parsed, self.parsed = False, False
+        self.raw = None
+        self.header_parsed = False
+        self.parsed = False
         setattr(self, key, value)
 
     def __delitem__(self, key):
-        self.header_parsed, self.parsed = False, False
+        self.raw = None
+        self.header_parsed = False
+        self.parsed = False
         delattr(self, key)
 
     def keys(self):
-        return [attr for attr in vars(self) if not attr.startswith('_') and attr != 'raw']
+        return [attr for attr in vars(self) if not attr.startswith('_') and attr not in self._non_hand_attributes]
 
     def __iter__(self):
         return iter(self.keys())
 
     def parse_header(self):
-        """
-        Parses the first line of a hand history.
-        """
+        """Parses the first line of a hand history."""
+
         match = self._header_pattern.match(self._splitted[0])
         self.poker_room = POKER_ROOMS[match.group('poker_room')]
         self.game_type = TYPES[match.group('game_type')]
@@ -98,9 +158,8 @@ class PokerStarsHand(MutableMapping):
         self.header_parsed = True
 
     def parse(self):
-        """
-        Parse the body of the hand history, but first parse header if not yet parsed.
-        """
+        """Parse the body of the hand history, but first parse header if not yet parsed."""
+
         if not self.header_parsed:
             self.parse_header()
 
