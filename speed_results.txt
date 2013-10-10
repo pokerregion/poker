@@ -29,3 +29,9 @@
 2.)
     Single results average: 52.6417962909
     Repeated results average: 52.5379586617
+
+##### Splitting lines first
+
+2.) WOW
+    Single results average: 38.9719517231
+    Repeated results average: 41.7646817962
