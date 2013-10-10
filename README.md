@@ -57,6 +57,9 @@ datetime.datetime(2013, 10, 4, 19, 18, 18, tzinfo=<DstTzInfo 'US/Eastern' EDT-1 
         show_down       -- There was showd_down or wasn't (bool)
         winners         -- tuple of winner names, even when there is only one winner. ex. ('W2lkm2n')
 
+## Testing
+    $ nosetests tests.py
+
 #### Me
 [@Walkman_](https://twitter.com/Walkman_) on twitter or you can reach me on my public Github e-mail.
 
