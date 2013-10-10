@@ -150,7 +150,7 @@ class PokerStarsHand(MutableMapping):
     def _parse_street(self, street):
         try:
             start = self._splitted.index(street.upper()) + 2
-            stop = start + self._splitted[start:].index('')
+            stop = self._splitted.index('', start)
             street_actions = self._splitted[start:stop]
             setattr(self, "%s_actions" % street.lower(), tuple(street_actions) if street_actions else None)
         except ValueError:
