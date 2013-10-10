@@ -8,7 +8,7 @@ It only parses PokerStars tournament hands right now, but very efficiently and w
 
 ```python
 >>> from handparser import PokerStarsHand
->>> hand_text = open('HH20131004 T797613600 No Limit Hold'em $3.19 + $0.31').read()
+>>> hand_text = open("HH20131004 T797613600 No Limit Hold'em $3.19 + $0.31").read()
 >>> hand = PokerStarsHand(hand_text)
 
 >>> hand['players']
@@ -58,7 +58,7 @@ datetime.datetime(2013, 10, 4, 19, 18, 18, tzinfo=<DstTzInfo 'US/Eastern' EDT-1 
         winners         -- tuple of winner names, even when there is only one winner. ex. ('W2lkm2n')
 
 #### Me
-@Walkman_ on twitter or you can reach me on my public Github e-mail.
+[@Walkman_](https://twitter.com/Walkman_) on twitter or you can reach me on my public Github e-mail.
 
 
 #### LICENSE
