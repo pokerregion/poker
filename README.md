@@ -1,4 +1,4 @@
-handparser
+handparser [![Build Status](https://travis-ci.org/stakingadmin/handparser.png?branch=master)](https://travis-ci.org/stakingadmin/handparser)
 ==========
 
 Hand history parser library.  
