@@ -34,8 +34,8 @@ class PokerStarsHand(MutableMapping):
     _seat_pattern = re.compile(r"Seat (\d): (.*) \((\d*) in chips\)$")
     _dealt_to_pattern = re.compile(r"Dealt to (.*) \[(.{2}) (.{2})\]$")
     _pot_pattern = re.compile(r"Total pot (\d*) .*\| Rake (\d*)$")
-    _summary_winner_pattern = re.compile(r"Seat (\d): (.*) collected \((\d*)\)$")
-    _summary_showdown_pattern = re.compile(r"Seat (\d): (.*) showed .* and won")
+    _winner_pattern = re.compile(r"Seat (\d): (.*) collected \((\d*)\)$")
+    _showdown_pattern = re.compile(r"Seat (\d): (.*) showed .* and won")
     _ante_pattern = re.compile(r".*posts the ante (\d*)")
     _board_pattern = re.compile(r"(?<=[\[ ])(..)(?=[\] ])")
 
@@ -151,8 +151,8 @@ class PokerStarsHand(MutableMapping):
         try:
             start = self._splitted.index(street.upper()) + 2
             stop = start + self._splitted[start:].index('')
-            flop_actions = self._splitted[start:stop]
-            setattr(self, "%s_actions" % street.lower(), tuple(flop_actions) if flop_actions else None)
+            street_actions = self._splitted[start:stop]
+            setattr(self, "%s_actions" % street.lower(), tuple(street_actions) if street_actions else None)
         except ValueError:
             setattr(self, street, None)
             setattr(self, '%s_actions' % street.lower(), None)
@@ -178,10 +178,10 @@ class PokerStarsHand(MutableMapping):
         start = self._sections[-1] + 4
         for line in self._splitted[start:]:
             if not self.show_down and "collected" in line:
-                match = self._summary_winner_pattern.match(line)
+                match = self._winner_pattern.match(line)
                 winners.add(match.group(2))
             elif self.show_down and "won" in line:
-                match = self._summary_showdown_pattern.match(line)
+                match = self._showdown_pattern.match(line)
                 winners.add(match.group(2))
 
         self.winners = tuple(winners)
