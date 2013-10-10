@@ -1,5 +1,4 @@
 import re
-from StringIO import StringIO
 from datetime import datetime
 from decimal import Decimal
 from collections import OrderedDict, MutableMapping
@@ -13,15 +12,9 @@ GAMES = {"Hold'em": 'HOLDEM'}
 LIMITS = {'No Limit': 'NL'}
 
 
-class _StringIONoNewLine(StringIO):
-    last_line = None
-
-    def readline(self, length=None):
-        return StringIO.readline(self, length=length).rstrip()
-
-
 class PokerStarsHand(MutableMapping):
     date_format = '%Y/%m/%d %H:%M:%S'
+    _split_pattern = re.compile(r" ?\*\*\* ?\n?|\n")
     _header_pattern = re.compile(r"""
                                 (?P<poker_room>PokerStars)[ ]           # Poker Room
                                 Hand[ ]\#(?P<number>\d*):[ ]            # Hand number
@@ -44,11 +37,17 @@ class PokerStarsHand(MutableMapping):
     _summary_winner_pattern = re.compile(r"Seat (\d): (.*) collected \((\d*)\)$")
     _summary_showdown_pattern = re.compile(r"Seat (\d): (.*) showed .* and won")
     _ante_pattern = re.compile(r".*posts the ante (\d*)")
-    _board_pattern = re.compile(r"(?<=[\[ ])(.{2})(?=[\] ])")
+    _board_pattern = re.compile(r"(?<=[\[ ])(..)(?=[\] ])")
 
     def __init__(self, hand_text, parse=True):
         self.raw = hand_text
-        self._hand = _StringIONoNewLine(hand_text.strip())
+        self._splitted = self._split_pattern.split(hand_text.strip())
+
+        # search split locations
+        # sections[0] is before HOLE CARDS
+        # sections[-1] is before SUMMARY
+        self._sections = [ind for ind, elem in enumerate(self._splitted) if not elem]
+
         self.header_parsed, self.parsed = False, False
 
         if parse:
@@ -81,7 +80,7 @@ class PokerStarsHand(MutableMapping):
         """
         Parses the first line of a hand history.
         """
-        match = self._header_pattern.match(self._hand.readline())
+        match = self._header_pattern.match(self._splitted[0])
         self.poker_room = POKER_ROOMS[match.group('poker_room')]
         self.game_type = TYPES[match.group('game_type')]
         self.sb = Decimal(match.group('sb'))
@@ -107,80 +106,77 @@ class PokerStarsHand(MutableMapping):
 
         self._parse_table()
         self._parse_players()
+        self._parse_hole_cards()
         self._parse_preflop()
         self._parse_street('flop')
         self._parse_street('turn')
         self._parse_street('river')
-        self._parse_showdown()
-        self._parse_summary()
+        self.show_down = "SHOW DOWN" in self._splitted
+        self._parse_pot()
+        self._parse_board()
+        self._parse_winners()
 
         self.parsed = True
 
     def _parse_table(self):
-        match = self._table_pattern.match(self._hand.readline())
+        match = self._table_pattern.match(self._splitted[1])
         self.table_name = match.group(1)
         self.max_players = int(match.group(2))
         self.button_seat = int(match.group(3))
 
     def _parse_players(self):
         players = [('Empty Seat %s' % num, 0) for num in range(1, self.max_players + 1)]
-        for line in self._hand:
-            if not line.startswith('Seat'):
-                self._hand.last_line = line
-                break
+        for line in self._splitted[2:]:
             match = self._seat_pattern.match(line)
+            if not match:
+                break
             players[int(match.group(1)) - 1] = (match.group(2), int(match.group(3)))
+
         self.button = players[self.button_seat - 1][0]
         self.players = OrderedDict(players)
 
-    def _parse_preflop(self):
-        if 'ante' in self._hand.last_line:
-            match = self._ante_pattern.match(self._hand.last_line)
-            self.ante = int(match.group(1))
-
-        for line in self._hand:
-            if line.startswith('*** HOLE CARDS'):
-                break
-
-        match = self._dealt_to_pattern.match(self._hand.readline())
+    def _parse_hole_cards(self):
+        hole_cards_line = self._splitted[self._sections[0] + 2]
+        match = self._dealt_to_pattern.match(hole_cards_line)
         self.hero = match.group(1)
         self.hero_seat = self.players.keys().index(self.hero) + 1
         self.hero_hole_cards = match.group(2, 3)
-        self.preflop_actions = self._parse_actions()
+
+    def _parse_preflop(self):
+        start = self._sections[0] + 3
+        stop = self._sections[1]
+        self.preflop_actions = tuple(self._splitted[start:stop])
 
     def _parse_street(self, street):
-        if "SUMMARY" in self._hand.last_line:
-            setattr(self, street, None)
-            setattr(self, '%s_actions' % street, None)
-            return
-
         try:
-            setattr(self, "%s_actions" % street, self._parse_actions())
-        except AttributeError:
+            start = self._splitted.index(street.upper()) + 2
+            stop = start + self._splitted[start:].index('')
+            flop_actions = self._splitted[start:stop]
+            setattr(self, "%s_actions" % street.lower(), tuple(flop_actions) if flop_actions else None)
+        except ValueError:
             setattr(self, street, None)
+            setattr(self, '%s_actions' % street.lower(), None)
 
-    def _parse_showdown(self):
-        if "SHOW DOWN" in self._hand.last_line:
-            self.show_down = True
-            self._parse_actions()
-        else:
-            self.show_down = False
-
-    def _parse_summary(self):
-        match = self._pot_pattern.match(self._hand.readline())
+    def _parse_pot(self):
+        potline = self._splitted[self._sections[-1] + 2]
+        match = self._pot_pattern.match(potline)
         self.total_pot = int(match.group(1))
 
+    def _parse_board(self):
         self.board = None
-        boardline = self._hand.readline()
-        if boardline.startswith('Board'):
-            cards = self._board_pattern.findall(boardline)
-            self.board = tuple(cards)
-            self.flop = tuple(cards[:3]) if cards else None
-            self.turn = cards[3] if len(cards) > 3 else None
-            self.river = cards[4] if len(cards) > 4 else None
+        boardline = self._splitted[self._sections[-1] + 3]
+        if not boardline.startswith('Board'):
+            return
+        cards = self._board_pattern.findall(boardline)
+        self.board = tuple(cards)
+        self.flop = tuple(cards[:3]) if cards else None
+        self.turn = cards[3] if len(cards) > 3 else None
+        self.river = cards[4] if len(cards) > 4 else None
 
+    def _parse_winners(self):
         winners = set()
-        for line in self._hand:
+        start = self._sections[-1] + 4
+        for line in self._splitted[start:]:
             if not self.show_down and "collected" in line:
                 match = self._summary_winner_pattern.match(line)
                 winners.add(match.group(2))
@@ -189,14 +185,3 @@ class PokerStarsHand(MutableMapping):
                 winners.add(match.group(2))
 
         self.winners = tuple(winners)
-
-    def _parse_actions(self):
-        actions = []
-        for line in self._hand:
-            if line.startswith("***"):
-                self._hand.last_line = line
-                break
-            actions.append(line)
-        else:
-            return
-        return tuple(actions) if actions else None

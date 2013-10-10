@@ -288,12 +288,12 @@ class TestDictHand1(unittest.TestCase):
         self.assertIsInstance(self.hand, MutableMapping)
 
     def test_all_keys_set(self):
-        excpected_keys = ['number', 'currency', 'hero_hole_cards', 'preflop_actions', 'parsed', 'turn', 'header_parsed',
+        excpected_keys = {'number', 'currency', 'hero_hole_cards', 'preflop_actions', 'parsed', 'turn', 'header_parsed',
                           'show_down', 'poker_room', 'winners', 'board', 'limit', 'river_actions', 'hero',
                           'turn_actions', 'bb', 'button_seat', 'tournament_ident', 'rake', 'buyin', 'game', 'hero_seat',
                           'date', 'max_players', 'flop_actions', 'button', 'flop', 'game_type', 'players', 'table_name',
-                          'sb', 'total_pot', 'river', 'tournament_level']
-        self.assertListEqual(excpected_keys, self.hand.keys())
+                          'sb', 'total_pot', 'river', 'tournament_level'}
+        self.assertSetEqual(excpected_keys, set(self.hand.keys()))
 
     def test_raw_is_not_a_key(self):
         with self.assertRaises(KeyError):
