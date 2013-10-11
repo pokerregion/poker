@@ -62,7 +62,7 @@ class PokerStarsHand(MutableMapping):
         winners         -- tuple of winner names, even when there is only one winner. ex. ('W2lkm2n')
     """
 
-    _non_hand_attributes = ('raw', 'parsed', 'header_parsed')
+    _non_hand_attributes = ('raw', 'parsed', 'header_parsed', 'date_format')
     date_format = '%Y/%m/%d %H:%M:%S'
     _split_pattern = re.compile(r" ?\*\*\* ?\n?|\n")
     _header_pattern = re.compile(r"""
@@ -136,6 +136,12 @@ class PokerStarsHand(MutableMapping):
 
     def __iter__(self):
         return iter(self.keys())
+
+    def __unicode__(self):
+        return "<%s: %s hand #%s>" % (self.__class__.__name__, self.poker_room, self.number)
+
+    def __str__(self):
+        return unicode(self).encode('utf-8')
 
     def parse_header(self):
         """Parses the first line of a hand history."""
