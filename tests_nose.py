@@ -33,7 +33,7 @@ class TestHeaderHand1(BaseHeaderTest):
     hh = test_data.HAND1
 
     @parameterized.expand([('poker_room', 'STARS'),
-                           ('number', '105024000105'),
+                           ('ident', '105024000105'),
                            ('game_type', 'TOUR'),
                            ('tournament_ident', '797469411'),
                            ('tournament_level', 'I'),
@@ -95,7 +95,7 @@ class TestHeaderHand2(BaseHeaderTest):
     hh = test_data.HAND2
 
     @parameterized.expand([('poker_room', 'STARS'),
-                           ('number', '105034215446'),
+                           ('ident', '105034215446'),
                            ('game_type', 'TOUR'),
                            ('tournament_ident', '797536898'),
                            ('tournament_level', 'XI'),
@@ -154,7 +154,7 @@ class TestHeaderHand3(BaseHeaderTest):
     hh = test_data.HAND3
 
     @parameterized.expand([('poker_room', 'STARS'),
-                           ('number', '105026771696'),
+                           ('ident', '105026771696'),
                            ('game_type', 'TOUR'),
                            ('tournament_ident', '797469411'),
                            ('tournament_level', 'X'),
@@ -214,7 +214,7 @@ class TestHeaderHand4(BaseHeaderTest):
     hh = test_data.HAND4
 
     @parameterized.expand([('poker_room', 'STARS'),
-                           ('number', '105025168298'),
+                           ('ident', '105025168298'),
                            ('game_type', 'TOUR'),
                            ('tournament_ident', '797469411'),
                            ('tournament_level', 'IV'),
