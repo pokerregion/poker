@@ -23,7 +23,7 @@ class TestDictBehavior:
         assert isinstance(all_hands, collections.MutableMapping)
 
     def test_all_keys_set(self, all_hands):
-        excpected_keys = {'number', 'currency', 'hero_hole_cards', 'preflop_actions', 'turn', 'show_down', 'poker_room',
+        excpected_keys = {'ident', 'currency', 'hero_hole_cards', 'preflop_actions', 'turn', 'show_down', 'poker_room',
                           'winners', 'board', 'limit', 'river_actions', 'hero', 'turn_actions', 'bb', 'button_seat',
                           'tournament_ident', 'rake', 'buyin', 'game', 'hero_seat', 'date', 'max_players',
                           'flop_actions', 'button', 'flop', 'game_type', 'players', 'table_name', 'sb', 'total_pot',
