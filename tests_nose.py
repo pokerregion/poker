@@ -277,36 +277,6 @@ class TestBodyEveryStreet(BaseBodyTest):
         assert_equal(getattr(self.hand, attr), res)
 
 
-class TestDictHand1(unittest.TestCase):
-    def setUp(self):
-        self.hand = PokerStarsHand(test_data.HAND1)
-
-    def tearDown(self):
-        del self.hand
-
-    def test_hand_is_subclass_of_mutablemapping(self):
-        self.assertIsInstance(self.hand, MutableMapping)
-
-    def test_all_keys_set(self):
-        excpected_keys = {'number', 'currency', 'hero_hole_cards', 'preflop_actions', 'turn', 'show_down', 'poker_room',
-                          'winners', 'board', 'limit', 'river_actions', 'hero', 'turn_actions', 'bb', 'button_seat',
-                          'tournament_ident', 'rake', 'buyin', 'game', 'hero_seat', 'date', 'max_players',
-                          'flop_actions', 'button', 'flop', 'game_type', 'players', 'table_name', 'sb', 'total_pot',
-                          'river', 'tournament_level'}
-        self.assertSetEqual(excpected_keys, set(self.hand.keys()))
-
-    def test_raw_is_not_a_key(self):
-        with self.assertRaises(KeyError):
-            self.hand['raw']
-
-    def test_raw_is_an_attribute(self):
-        self.assertTrue(hasattr(self.hand, 'raw'))
-
-    def test_there_should_be_not_only_one_but_thirtyfour_keys(self):
-        self.assertEqual(32, len(self.hand))
-        self.assertEqual(32, len(self.hand.keys()))
-
-
 class TestPlayerNameStartsWithDot(BaseBodyTest):
     hh = test_data.HAND5
 
