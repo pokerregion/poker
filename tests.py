@@ -313,3 +313,13 @@ class TestPlayerNameStartsWithDot(BaseBodyTest):
     def test_player_name_with_dot_should_not_fail(self):
         self.assertIn('.prestige.U$', self.hand.players)
         self.assertEqual(self.hand.players['.prestige.U$'], 3000)
+
+
+class TestClassRepresentation(BaseBodyTest):
+    hh = test_data.HAND1
+
+    def test_unicode(self):
+        self.assertEqual(u'<PokerStarsHand: STARS hand #105024000105>', unicode(self.hand))
+
+    def test_str(self):
+        self.assertEqual('<PokerStarsHand: STARS hand #105024000105>', str(self.hand))
