@@ -29,27 +29,6 @@ class BaseBodyTest(unittest.TestCase):
         del self.hand
 
 
-class TestHeaderHand1(BaseHeaderTest):
-    hh = test_data.HAND1
-
-    @parameterized.expand([('poker_room', 'STARS'),
-                           ('ident', '105024000105'),
-                           ('game_type', 'TOUR'),
-                           ('tournament_ident', '797469411'),
-                           ('tournament_level', 'I'),
-                           ('currency', 'USD'),
-                           ('buyin', Decimal('3.19')),
-                           ('rake', Decimal('0.31')),
-                           ('game', 'HOLDEM'),
-                           ('limit', 'NL'),
-                           ('sb', Decimal(10)),
-                           ('bb', Decimal(20)),
-                           ('date', ET.localize(datetime(2013, 10, 4, 13, 53, 27)))
-    ])
-    def test_header(self, attr, res):
-        assert_equal(getattr(self.hand, attr), res)
-
-
 class TestBodyFlopOnly(BaseBodyTest):
     hh = test_data.HAND1
 
