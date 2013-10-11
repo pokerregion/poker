@@ -23,7 +23,7 @@ datetime.datetime(2013, 10, 4, 19, 18, 18, tzinfo=<DstTzInfo 'US/Eastern' EDT-1 
 ```
 ## Parsed attributes
         poker_room          -- STARS for PokerStars
-        number              -- hand id
+        ident               -- hand id
         game_type           -- TOUR for tournaments or SNG for Sit&Go-s
         tournament_ident    -- tournament id
         tournament_level

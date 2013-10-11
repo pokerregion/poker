@@ -27,7 +27,7 @@ class PokerStarsHand(MutableMapping):
 
     Public attributes:
         poker_room          -- STARS for PokerStars
-        number              -- hand id
+        ident               -- hand id
         game_type           -- TOUR for tournaments or SNG for Sit&Go-s
         tournament_ident    -- tournament id
         tournament_level
@@ -67,7 +67,7 @@ class PokerStarsHand(MutableMapping):
     _split_pattern = re.compile(r" ?\*\*\* ?\n?|\n")
     _header_pattern = re.compile(r"""
                                 (?P<poker_room>PokerStars)[ ]           # Poker Room
-                                Hand[ ]\#(?P<number>\d*):[ ]            # Hand number
+                                Hand[ ]\#(?P<ident>\d*):[ ]             # Hand number
                                 (?P<game_type>Tournament)[ ]            # Type
                                 \#(?P<tournament_ident>\d*),[ ]         # Tournament Number
                                 \$(?P<buyin>\d*\.\d{2})\+               # buyin
@@ -138,7 +138,7 @@ class PokerStarsHand(MutableMapping):
         return iter(self.keys())
 
     def __unicode__(self):
-        return "<%s: %s hand #%s>" % (self.__class__.__name__, self.poker_room, self.number)
+        return "<%s: %s hand #%s>" % (self.__class__.__name__, self.poker_room, self.ident)
 
     def __str__(self):
         return unicode(self).encode('utf-8')
@@ -156,7 +156,7 @@ class PokerStarsHand(MutableMapping):
         self.date = ET.localize(datetime.strptime(match.group('date'), self.date_format))
         self.game = GAMES[match.group('game')]
         self.limit = LIMITS[match.group('limit')]
-        self.number = match.group('number')
+        self.ident = match.group('ident')
         self.tournament_ident = match.group('tournament_ident')
         self.tournament_level = match.group('tournament_level')
         self.currency = match.group('currency')
