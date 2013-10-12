@@ -2,7 +2,8 @@ import pytest
 import hand_data
 from handparser import PokerStarsHand
 
-all_test_hands = [eval('hand_data.HAND%d' % num) for num in range(1, 6)]
+# get every variable starting with 'HAND' from hand_data module
+all_test_hands = [getattr(hand_data, hand_text) for hand_text in dir(hand_data) if hand_text.startswith('HAND')]
 
 @pytest.fixture(params=all_test_hands)
 def all_hands(request):
