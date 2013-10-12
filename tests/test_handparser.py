@@ -1,31 +1,9 @@
 from collections import MutableMapping, OrderedDict
 import pytest
 from handparser import PokerStarsHand, ET
-import test_data
+import hand_data
 from decimal import Decimal
 from datetime import datetime
-
-
-all_test_hands = [eval('test_data.HAND%d' % num) for num in range(1, 6)]
-
-@pytest.fixture(params=all_test_hands)
-def all_hands(request):
-    """Parse all hands from test_data and returns a PokerStarsHand instance."""
-    return PokerStarsHand(request.param)
-
-
-@pytest.fixture
-def hand(request):
-    """Parse handhistory defined in hand_text class attribute and returns a PokerStarsHand instance."""
-    return PokerStarsHand(request.instance.hand_text)
-
-
-@pytest.fixture
-def hand_header(request):
-    """Parse hand history header only defined in hand_text and returns a PokerStarsHand instance."""
-    h = PokerStarsHand(request.instance.hand_text, parse=False)
-    h.parse_header()
-    return h
 
 
 class TestDictBehavior:
@@ -52,7 +30,7 @@ class TestDictBehavior:
 
 
 class TestHandWithFlopOnly:
-    hand_text = test_data.HAND1
+    hand_text = hand_data.HAND1
     # in py.test 2.4 it is recommended to use string like "attribute,expected",
     # but with tuple, it works in both 2.3.5 and 2.4
     @pytest.mark.parametrize(('attribute', 'expected_value'),
@@ -113,7 +91,7 @@ class TestHandWithFlopOnly:
 
 
 class TestAllinPreflopHand:
-    hand_text = test_data.HAND2
+    hand_text = hand_data.HAND2
 
     @pytest.mark.parametrize(('attribute', 'expected_value'),
                              [('poker_room', 'STARS'),
@@ -170,7 +148,7 @@ class TestAllinPreflopHand:
 
 
 class TestBodyMissingPlayerNoBoard:
-    hand_text = test_data.HAND3
+    hand_text = hand_data.HAND3
 
     @pytest.mark.parametrize(('attribute', 'expected_value'),
                              [('poker_room', 'STARS'),
@@ -228,7 +206,7 @@ class TestBodyMissingPlayerNoBoard:
 
 
 class TestBodyEveryStreet:
-    hand_text = test_data.HAND4
+    hand_text = hand_data.HAND4
 
     @pytest.mark.parametrize(('attribute', 'expected_value'),
                              [('poker_room', 'STARS'),
@@ -293,7 +271,7 @@ class TestBodyEveryStreet:
 
 
 class TestClassRepresentation:
-    hand_text = test_data.HAND1
+    hand_text = hand_data.HAND1
 
     def test_unicode(self, hand_header):
         assert u'<PokerStarsHand: STARS hand #105024000105>' == unicode(hand_header)
@@ -303,7 +281,7 @@ class TestClassRepresentation:
 
 
 class TestPlayerNameWithDot:
-    hand_text = test_data.HAND5
+    hand_text = hand_data.HAND5
 
     def test_player_is_in_player_list(self, hand):
         assert '.prestige.U$' in hand.players
