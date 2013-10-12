@@ -10,6 +10,7 @@ all_test_hands = [eval('test_data.HAND%d' % num) for num in range(1, 6)]
 
 @pytest.fixture(params=all_test_hands)
 def all_hands(request):
+    """Parse all hands from test_data and gives back a PokerStarsHand instance."""
     return PokerStarsHand(request.param)
 
 
@@ -43,25 +44,65 @@ class TestDictBehavior:
         assert 32 == len(all_hands) == len(all_hands.keys())
 
 
-class TestHeaderHand1:
-    @pytest.fixture(params=[('poker_room', 'STARS'),
-                            ('ident', '105024000105'),
-                            ('game_type', 'TOUR'),
-                            ('tournament_ident', '797469411'),
-                            ('tournament_level', 'I'),
-                            ('currency', 'USD'),
-                            ('buyin', Decimal('3.19')),
-                            ('rake', Decimal('0.31')),
-                            ('game', 'HOLDEM'),
-                            ('limit', 'NL'),
-                            ('sb', Decimal(10)),
-                            ('bb', Decimal(20)),
-                            ('date', ET.localize(datetime(2013, 10, 4, 13, 53, 27)))
-                            ])
-    def hand_header(self, request):
-        self.attribute, self.attribute_result = request.param
-        return PokerStarsHand(test_data.HAND1)
+class TestHandWithFlopOnly:
+    hand_text = test_data.HAND1
+    # in py.test 2.4 it is recommended to use string like "attribute,expected",
+    # but with tuple, it works in both 2.3.5 and 2.4
+    @pytest.mark.parametrize(('attribute', 'expected_value'),
+                              [('poker_room', 'STARS'),
+                               ('ident', '105024000105'),
+                               ('game_type', 'TOUR'),
+                               ('tournament_ident', '797469411'),
+                               ('tournament_level', 'I'),
+                               ('currency', 'USD'),
+                               ('buyin', Decimal('3.19')),
+                               ('rake', Decimal('0.31')),
+                               ('game', 'HOLDEM'),
+                               ('limit', 'NL'),
+                               ('sb', Decimal(10)),
+                               ('bb', Decimal(20)),
+                               ('date', ET.localize(datetime(2013, 10, 4, 13, 53, 27)))
+                              ])
+    def test_header(self, attribute, expected_value):
+        hand = PokerStarsHand(self.hand_text)
+        assert getattr(hand, attribute) == expected_value
 
-    def test_value(self, hand_header):
-        assert getattr(hand_header, self.attribute) == self.attribute_result
-
+    @pytest.mark.parametrize(('attribute', 'expected_value'),
+                             [('table_name', '797469411 15'),
+                              ('max_players', 9),
+                              ('button_seat', 1),
+                              ('button', 'flettl2'),
+                              ('hero', 'W2lkm2n'),
+                              ('hero_seat', 5),
+                              ('players', collections.OrderedDict(
+                                                       [('flettl2', 1500), ('santy312', 3000), ('flavio766', 3000),
+                                                       ('strongi82', 3000), ('W2lkm2n', 3000), ('MISTRPerfect', 3000),
+                                                       ('blak_douglas', 3000), ('sinus91', 1500), ('STBIJUJA', 1500)])),
+                              ('hero_hole_cards', ('Ac', 'Jh')),
+                              ('flop', ('2s', '6d', '6h')),
+                              ('turn', None),
+                              ('river', None),
+                              ('board', ('2s', '6d', '6h')),
+                              ('preflop_actions', ("strongi82: folds",
+                                                   "W2lkm2n: raises 40 to 60",
+                                                   "MISTRPerfect: calls 60",
+                                                   "blak_douglas: folds",
+                                                   "sinus91: folds",
+                                                   "STBIJUJA: folds",
+                                                   "flettl2: folds",
+                                                   "santy312: folds",
+                                                   "flavio766: folds")),
+                              ('flop_actions', ('W2lkm2n: bets 80',
+                                                'MISTRPerfect: folds',
+                                                'Uncalled bet (80) returned to W2lkm2n',
+                                                'W2lkm2n collected 150 from pot',
+                                                "W2lkm2n: doesn't show hand")),
+                              ('turn_actions', None),
+                              ('river_actions', None),
+                              ('total_pot', Decimal(150)),
+                              ('show_down', False),
+                              ('winners', ('W2lkm2n',)),
+                              ])
+    def test_body(self, attribute, expected_value):
+        hand = PokerStarsHand(self.hand_text)
+        assert getattr(hand, attribute) == expected_value
