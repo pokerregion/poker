@@ -1,4 +1,4 @@
-handparser [![Build Status](https://travis-ci.org/stakingadmin/handparser.png?branch=master)](https://travis-ci.org/stakingadmin/handparser)
+handparser [![Build Status](https://travis-ci.org/stakingadmin/handparser.png?branch=master)](https://travis-ci.org/stakingadmin/handparser) [![Coverage Status](https://coveralls.io/repos/stakingadmin/handparser/badge.png?branch=master)](https://coveralls.io/r/stakingadmin/handparser?branch=master)
 ==========
 
 Hand history parser library.  
@@ -58,11 +58,16 @@ datetime.datetime(2013, 10, 4, 19, 18, 18, tzinfo=<DstTzInfo 'US/Eastern' EDT-1 
         winners         -- tuple of winner names, even when there is only one winner. ex. ('W2lkm2n')
 
 ## Testing
-    $ nosetests tests.py
+From project folder:
 
 #### Me
 [@Walkman_](https://twitter.com/Walkman_) on twitter or you can reach me on my public Github e-mail.
+    $ py.test
+    
+Py.test will automatically pick up unit tests.
 
+## Requirements
+Right now, Python 2.7 only.
 
 #### LICENSE
 
