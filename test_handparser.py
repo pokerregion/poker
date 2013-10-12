@@ -10,13 +10,20 @@ all_test_hands = [eval('test_data.HAND%d' % num) for num in range(1, 6)]
 
 @pytest.fixture(params=all_test_hands)
 def all_hands(request):
-    """Parse all hands from test_data and gives back a PokerStarsHand instance."""
+    """Parse all hands from test_data and returns a PokerStarsHand instance."""
     return PokerStarsHand(request.param)
 
 
 @pytest.fixture
-def hand_header():
-    h = PokerStarsHand(test_data.HAND1, parse=False)
+def hand(request):
+    """Parse handhistory defined in hand_text class attribute and returns a PokerStarsHand instance."""
+    return PokerStarsHand(request.instance.hand_text)
+
+
+@pytest.fixture
+def hand_header(request):
+    """Parse hand history header only defined in hand_text and returns a PokerStarsHand instance."""
+    h = PokerStarsHand(request.instance.hand_text, parse=False)
     h.parse_header()
     return h
 
@@ -63,10 +70,8 @@ class TestHandWithFlopOnly:
                                ('bb', Decimal(20)),
                                ('date', ET.localize(datetime(2013, 10, 4, 13, 53, 27)))
                               ])
-    def test_header(self, attribute, expected_value):
-        hand = PokerStarsHand(self.hand_text, parse=False)
-        hand.parse_header()
-        assert getattr(hand, attribute) == expected_value
+    def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
+        assert getattr(hand_header, attribute) == expected_value
 
     @pytest.mark.parametrize(('attribute', 'expected_value'),
                              [('table_name', '797469411 15'),
@@ -103,8 +108,7 @@ class TestHandWithFlopOnly:
                               ('show_down', False),
                               ('winners', ('W2lkm2n',)),
                               ])
-    def test_body(self, attribute, expected_value):
-        hand = PokerStarsHand(self.hand_text)
+    def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value
 
 
@@ -126,10 +130,8 @@ class TestAllinPreflopHand:
                               ('bb', Decimal(800)),
                               ('date', ET.localize(datetime(2013, 10, 4, 17, 22, 20))),
                               ])
-    def test_header(self, attribute, expected_value):
-        hand = PokerStarsHand(self.hand_text, parse=False)
-        hand.parse_header()
-        assert getattr(hand, attribute) == expected_value
+    def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
+        assert getattr(hand_header, attribute) == expected_value
 
     @pytest.mark.parametrize(('attribute', 'expected_value'),
                              [('table_name', '797536898 9'),
@@ -163,8 +165,7 @@ class TestAllinPreflopHand:
                               ('show_down', True),
                               ('winners', ('costamar',)),
                               ])
-    def test_body(self, attribute, expected_value):
-        hand = PokerStarsHand(self.hand_text)
+    def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value
 
 
@@ -186,10 +187,8 @@ class TestBodyMissingPlayerNoBoard:
                               ('bb', Decimal(600)),
                               ('date', ET.localize(datetime(2013, 10, 4, 14, 50, 56)))
                              ])
-    def test_header(self, attribute, expected_value):
-        hand = PokerStarsHand(self.hand_text, parse=False)
-        hand.parse_header()
-        assert getattr(hand, attribute) == expected_value
+    def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
+        assert getattr(hand_header, attribute) == expected_value
 
     @pytest.mark.parametrize(('attribute', 'expected_value'),
                              [('table_name', '797469411 11'),
@@ -224,8 +223,7 @@ class TestBodyMissingPlayerNoBoard:
                               ('show_down', False),
                               ('winners', ('Theralion',)),
                               ])
-    def test_body(self, attribute, expected_value):
-        hand = PokerStarsHand(self.hand_text)
+    def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value
 
 
@@ -247,10 +245,8 @@ class TestBodyEveryStreet:
                               ('bb', Decimal(100)),
                               ('date', ET.localize(datetime(2013, 10, 4, 14, 19, 17)))
                              ])
-    def test_header(self, attribute, expected_value):
-        hand = PokerStarsHand(self.hand_text, parse=False)
-        hand.parse_header()
-        assert getattr(hand, attribute) == expected_value
+    def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
+        assert getattr(hand_header, attribute) == expected_value
 
     @pytest.mark.parametrize(('attribute', 'expected_value'),
                              [('table_name', '797469411 15'),
@@ -292,24 +288,25 @@ class TestBodyEveryStreet:
                               ('show_down', False),
                               ('winners', ('flettl2',)),
                               ])
-    def test_body(self, attribute, expected_value):
-        hand = PokerStarsHand(self.hand_text)
+    def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value
 
 
 class TestClassRepresentation:
-    @pytest.fixture
-    def hand(self):
-        return PokerStarsHand(test_data.HAND1)
+    hand_text = test_data.HAND1
 
-    def test_unicode(self, hand):
-        assert u'<PokerStarsHand: STARS hand #105024000105>' == unicode(hand)
+    def test_unicode(self, hand_header):
+        assert u'<PokerStarsHand: STARS hand #105024000105>' == unicode(hand_header)
 
-    def test_str(self, hand):
-        assert '<PokerStarsHand: STARS hand #105024000105>' == str(hand)
+    def test_str(self, hand_header):
+        assert '<PokerStarsHand: STARS hand #105024000105>' == str(hand_header)
 
 
-def test_player_name_with_dot_should_not_fail():
-    hand = PokerStarsHand(test_data.HAND5)
-    assert '.prestige.U$' in hand.players
-    assert hand.players['.prestige.U$'] == 3000
+class TestPlayerNameWithDot:
+    hand_text = test_data.HAND5
+
+    def test_player_is_in_player_list(self, hand):
+        assert '.prestige.U$' in hand.players
+
+    def test_player_stack(self, hand):
+        assert hand.players['.prestige.U$'] == 3000
