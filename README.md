@@ -60,8 +60,6 @@ datetime.datetime(2013, 10, 4, 19, 18, 18, tzinfo=<DstTzInfo 'US/Eastern' EDT-1 
 ## Testing
 From project folder:
 
-#### Me
-[@Walkman_](https://twitter.com/Walkman_) on twitter or you can reach me on my public Github e-mail.
     $ py.test
     
 Py.test will automatically pick up unit tests.
@@ -69,6 +67,13 @@ Py.test will automatically pick up unit tests.
 ## Requirements
 Right now, Python 2.7 only.
 
-#### LICENSE
 
-see LICENSE file
+## LICENSE
+
+The MIT License (MIT)
+
+Copyright (c) 2013 Kiss György
+
+## Me
+[@Walkman_](https://twitter.com/Walkman_) on twitter  
+or you can reach me on my [public Github e-mail](https://github.com/Walkman).
