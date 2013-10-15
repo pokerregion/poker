@@ -120,19 +120,10 @@ class PokerStarsHand(MutableMapping):
             raise KeyError('You can only get it via the attribute like "hand.%s"' % key)
 
     def __setitem__(self, key, value):
-        self.raw = None
-        self.header_parsed = False
-        self.parsed = False
         setattr(self, key, value)
 
     def __delitem__(self, key):
-        self.raw = None
-        self.header_parsed = False
-        self.parsed = False
         delattr(self, key)
-
-    def keys(self):
-        return [attr for attr in vars(self) if not attr.startswith('_') and attr not in self._non_hand_attributes]
 
     def __iter__(self):
         return iter(self.keys())
@@ -142,6 +133,9 @@ class PokerStarsHand(MutableMapping):
 
     def __str__(self):
         return unicode(self).encode('utf-8')
+
+    def keys(self):
+        return [attr for attr in vars(self) if not attr.startswith('_') and attr not in self._non_hand_attributes]
 
     def parse_header(self):
         """Parses the first line of a hand history."""
