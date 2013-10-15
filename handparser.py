@@ -1,6 +1,6 @@
 """Poker hand history parser module.
 
-For now, it only parser PokerStars Tournament hands, but the plan is to parse a lot.
+For now, it only parser PokerStars and Full Tilt Poker Tournament hands, but the plan is to parse a lot.
 
 """
 
@@ -13,21 +13,21 @@ import pytz
 
 
 ET = pytz.timezone('US/Eastern')
-POKER_ROOMS = {'PokerStars': 'STARS'}
+POKER_ROOMS = {'PokerStars': 'STARS', 'Full Tilt Poker': 'FTP'}
 TYPES = {'Tournament': 'TOUR'}
 GAMES = {"Hold'em": 'HOLDEM'}
 LIMITS = {'No Limit': 'NL'}
 
 
-class PokerStarsHand(MutableMapping):
-    """Parses PokerStars Tournament hands.
+class PokerHand(MutableMapping):
+    """Abstract base class for parsers.
 
     The attributes can be iterated
     The class can read like a dictionary.
     Every attribute default value is None.
 
     Public attributes:
-        poker_room          -- STARS for PokerStars
+        poker_room          -- room ID (4 byte max) ex. STARS, FTP
         ident               -- hand id
         game_type           -- TOUR for tournaments or SNG for Sit&Go-s
         tournament_ident    -- tournament id
@@ -39,7 +39,7 @@ class PokerStarsHand(MutableMapping):
         limit               -- NL, PL or FL
         sb                  -- amount of small blind
         bb                  -- amount of big blind
-        date                -- hand date in ET (localized)
+        date                -- hand date in UTC
 
         table_name      -- name of the table. it's 'tournament number[ ]table number'
         max_player      -- maximum players can sit on the table, 2, 4, 6, 7, 8, 9
@@ -62,54 +62,19 @@ class PokerStarsHand(MutableMapping):
         show_down       -- There was showd_down or wasn't (bool)
         winners         -- tuple of winner names, even when there is only one winner. ex. ('W2lkm2n')
     """
-
     _non_hand_attributes = ('raw', 'parsed', 'header_parsed', 'date_format')
-    date_format = '%Y/%m/%d %H:%M:%S'
-    _split_pattern = re.compile(r" ?\*\*\* ?\n?|\n")
-    _header_pattern = re.compile(r"""
-                                (?P<poker_room>PokerStars)[ ]           # Poker Room
-                                Hand[ ]\#(?P<ident>\d*):[ ]             # Hand number
-                                (?P<game_type>Tournament)[ ]            # Type
-                                \#(?P<tournament_ident>\d*),[ ]         # Tournament Number
-                                \$(?P<buyin>\d*\.\d{2})\+               # buyin
-                                \$(?P<rake>\d*\.\d{2})[ ]               # rake
-                                (?P<currency>USD|EUR)[ ]                # currency
-                                (?P<game>.*)[ ]                         # game
-                                (?P<limit>No[ ]Limit)[ ]                # limit
-                                -[ ]Level[ ](?P<tournament_level>.*)[ ] # Level
-                                \((?P<sb>.*)/(?P<bb>.*)\)[ ]            # blinds
-                                -[ ].*[ ]                               # localized date
-                                \[(?P<date>.*)[ ]ET\]$                  # ET date
-                                """, re.VERBOSE)
-    _table_pattern = re.compile(r"Table '(.*)' (\d)-max Seat #(\d) is the button$")
-    _seat_pattern = re.compile(r"Seat (\d): (.*) \((\d*) in chips\)$")
-    _dealt_to_pattern = re.compile(r"Dealt to (.*) \[(.{2}) (.{2})\]$")
-    _pot_pattern = re.compile(r"Total pot (\d*) .*\| Rake (\d*)$")
-    _winner_pattern = re.compile(r"Seat (\d): (.*) collected \((\d*)\)$")
-    _showdown_pattern = re.compile(r"Seat (\d): (.*) showed .* and won")
-    _ante_pattern = re.compile(r".*posts the ante (\d*)")
-    _board_pattern = re.compile(r"(?<=[\[ ])(..)(?=[\] ])")
 
     def __init__(self, hand_text, parse=True):
-        """Save raw hand history, split by sections and parse.
+        """Save raw hand history.
 
         Parameters:
             hand_text   -- str of poker hand
             parse       -- if False, hand will not parsed immediately.
                            Useful if you just want to quickly check header first.
         """
-        self.raw = hand_text
-        self._splitted = self._split_pattern.split(hand_text.strip())
-
-        # search split locations (basically empty strings)
-        # sections[0] is before HOLE CARDS
-        # sections[-1] is before SUMMARY
-        self._sections = [ind for ind, elem in enumerate(self._splitted) if not elem]
-
-        self.header_parsed, self.parsed = False, False
-
-        if parse:
-            self.parse()
+        self.raw = hand_text.strip()
+        self.header_parsed = False
+        self.parsed = False
 
     def __len__(self):
         return len(self.keys())
@@ -137,14 +102,64 @@ class PokerStarsHand(MutableMapping):
 
     def keys(self):
         return [attr for attr in dir(self) if not attr.startswith('_') and
-                                               attr not in self._non_hand_attributes and
-                                               not ismethod(getattr(self, attr))]
+                                              attr not in self._non_hand_attributes and
+                                              not ismethod(getattr(self, attr))]
+
+
+class PokerStarsHand(PokerHand):
+    """Parses PokerStars Tournament hands.
+
+    Class specific attributes:
+        poker_room          -- STARS
+    """
+
+    poker_room = 'STARS'
+    date_format = '%Y/%m/%d %H:%M:%S'
+
+    _split_pattern = re.compile(r" ?\*\*\* ?\n?|\n")
+    _header_pattern = re.compile(r"""
+                                (?P<poker_room>PokerStars)[ ]           # Poker Room
+                                Hand[ ]\#(?P<ident>\d*):[ ]             # Hand number
+                                (?P<game_type>Tournament)[ ]            # Type
+                                \#(?P<tournament_ident>\d*),[ ]         # Tournament Number
+                                \$(?P<buyin>\d*\.\d{2})\+               # buyin
+                                \$(?P<rake>\d*\.\d{2})[ ]               # rake
+                                (?P<currency>USD|EUR)[ ]                # currency
+                                (?P<game>.*)[ ]                         # game
+                                (?P<limit>No[ ]Limit)[ ]                # limit
+                                -[ ]Level[ ](?P<tournament_level>.*)[ ] # Level
+                                \((?P<sb>.*)/(?P<bb>.*)\)[ ]            # blinds
+                                -[ ].*[ ]                               # localized date
+                                \[(?P<date>.*)[ ]ET\]$                  # ET date
+                                """, re.VERBOSE)
+    _table_pattern = re.compile(r"Table '(.*)' (\d)-max Seat #(\d) is the button$")
+    _seat_pattern = re.compile(r"Seat (\d): (.*) \((\d*) in chips\)$")
+    _dealt_to_pattern = re.compile(r"Dealt to (.*) \[(.{2}) (.{2})\]$")
+    _pot_pattern = re.compile(r"Total pot (\d*) .*\| Rake (\d*)$")
+    _winner_pattern = re.compile(r"Seat (\d): (.*) collected \((\d*)\)$")
+    _showdown_pattern = re.compile(r"Seat (\d): (.*) showed .* and won")
+    _ante_pattern = re.compile(r".*posts the ante (\d*)")
+    _board_pattern = re.compile(r"(?<=[\[ ])(..)(?=[\] ])")
+
+    def __init__(self, hand_text, parse=True):
+        """Split hand history by sections and parse."""
+
+        super(PokerStarsHand, self).__init__(hand_text, parse)
+
+        self._splitted = self._split_pattern.split(self.raw)
+
+        # search split locations (basically empty strings)
+        # sections[0] is before HOLE CARDS
+        # sections[-1] is before SUMMARY
+        self._sections = [ind for ind, elem in enumerate(self._splitted) if not elem]
+
+        if parse:
+            self.parse()
 
     def parse_header(self):
         """Parses the first line of a hand history."""
 
         match = self._header_pattern.match(self._splitted[0])
-        self.poker_room = POKER_ROOMS[match.group('poker_room')]
         self.game_type = TYPES[match.group('game_type')]
         self.sb = Decimal(match.group('sb'))
         self.bb = Decimal(match.group('bb'))

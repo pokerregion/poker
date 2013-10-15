@@ -1,7 +1,7 @@
 from collections import MutableMapping, OrderedDict
 import pytest
 from handparser import PokerStarsHand, ET
-import hand_data
+import stars_hands
 from decimal import Decimal
 from datetime import datetime
 
@@ -33,12 +33,12 @@ class TestDictBehavior:
         class ModdedPokerStarsHand(PokerStarsHand):
             _non_hand_attributes = ()
 
-        hand = ModdedPokerStarsHand(hand_data.HAND1)
+        hand = ModdedPokerStarsHand(stars_hands.HAND1)
         assert self.expected_keys | set(PokerStarsHand._non_hand_attributes) == set(hand.keys())
 
 
 class TestHandWithFlopOnly:
-    hand_text = hand_data.HAND1
+    hand_text = stars_hands.HAND1
     # in py.test 2.4 it is recommended to use string like "attribute,expected",
     # but with tuple, it works in both 2.3.5 and 2.4
     @pytest.mark.parametrize(('attribute', 'expected_value'),
@@ -99,7 +99,7 @@ class TestHandWithFlopOnly:
 
 
 class TestAllinPreflopHand:
-    hand_text = hand_data.HAND2
+    hand_text = stars_hands.HAND2
 
     @pytest.mark.parametrize(('attribute', 'expected_value'),
                              [('poker_room', 'STARS'),
@@ -156,7 +156,7 @@ class TestAllinPreflopHand:
 
 
 class TestBodyMissingPlayerNoBoard:
-    hand_text = hand_data.HAND3
+    hand_text = stars_hands.HAND3
 
     @pytest.mark.parametrize(('attribute', 'expected_value'),
                              [('poker_room', 'STARS'),
@@ -214,7 +214,7 @@ class TestBodyMissingPlayerNoBoard:
 
 
 class TestBodyEveryStreet:
-    hand_text = hand_data.HAND4
+    hand_text = stars_hands.HAND4
 
     @pytest.mark.parametrize(('attribute', 'expected_value'),
                              [('poker_room', 'STARS'),
@@ -279,7 +279,7 @@ class TestBodyEveryStreet:
 
 
 class TestClassRepresentation:
-    hand_text = hand_data.HAND1
+    hand_text = stars_hands.HAND1
 
     def test_unicode(self, hand_header):
         assert u'<PokerStarsHand: STARS hand #105024000105>' == unicode(hand_header)
@@ -289,7 +289,7 @@ class TestClassRepresentation:
 
 
 class TestPlayerNameWithDot:
-    hand_text = hand_data.HAND5
+    hand_text = stars_hands.HAND5
 
     def test_player_is_in_player_list(self, hand):
         assert '.prestige.U$' in hand.players
