@@ -8,6 +8,7 @@ import re
 from datetime import datetime
 from decimal import Decimal
 from collections import OrderedDict, MutableMapping
+from inspect import ismethod
 import pytz
 
 
@@ -135,7 +136,9 @@ class PokerStarsHand(MutableMapping):
         return unicode(self).encode('utf-8')
 
     def keys(self):
-        return [attr for attr in vars(self) if not attr.startswith('_') and attr not in self._non_hand_attributes]
+        return [attr for attr in dir(self) if not attr.startswith('_') and
+                                               attr not in self._non_hand_attributes and
+                                               not ismethod(getattr(self, attr))]
 
     def parse_header(self):
         """Parses the first line of a hand history."""
