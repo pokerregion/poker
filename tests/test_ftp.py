@@ -1,9 +1,11 @@
 import pytest
 import ftp_hands
-from handparser.common import ET
-from handparser.ftp import FullTiltHand
 from datetime import datetime
 from decimal import Decimal
+from collections import OrderedDict
+from handparser.common import ET
+from handparser.ftp import FullTiltHand
+
 
 @pytest.fixture
 def hand_header(request):
@@ -11,6 +13,12 @@ def hand_header(request):
     h = FullTiltHand(request.instance.hand_text, parse=False)
     h.parse_header()
     return h
+
+
+@pytest.fixture
+def hand(request):
+    """Parse handhistory defined in hand_text class attribute and returns a PokerStarsHand instance."""
+    return FullTiltHand(request.instance.hand_text)
 
 
 class TestHandWithFlopOnly:
@@ -34,3 +42,14 @@ class TestHandWithFlopOnly:
                              ])
     def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
         assert getattr(hand_header, attribute) == expected_value
+
+    @pytest.mark.parametrize('attribute,expected_value',
+                             [('players', OrderedDict([('Popp1987', 13587), ('Luckytobgood', 10110),
+                                                       ('FatalRevange', 9970), ('IgaziFerfi', 10000),
+                                                       ('egis25', 6873), ('gamblie', 9880), ('idanuTz1', 10180),
+                                                       ('PtheProphet', 9930), ('JohnyyR', 9840)])),
+                              ('button', 'egis25'),
+                              ('button_seat', 5)
+                             ])
+    def test_body(self, hand, attribute, expected_value):
+        assert getattr(hand, attribute) == expected_value

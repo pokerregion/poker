@@ -1,6 +1,7 @@
 import re
 from datetime import datetime
 from decimal import Decimal
+from collections import OrderedDict
 from handparser.common import PokerHand, ET, UTC, GAMES
 
 
@@ -36,6 +37,8 @@ class FullTiltHand(PokerHand):
                         .*[ ]                                   # localized date
                         \[(?P<date>.*)\]$                       # ET date
                         """, re.VERBOSE)
+    _seat_pattern = re.compile(r"^Seat (\d): (.*) \(([\d,]*)\)$")
+    _button_pattern = re.compile(r"^The button is in seat #(\d)$")
 
     def __init__(self, hand_text, parse=True):
         super(FullTiltHand, self).__init__(hand_text, parse)
@@ -66,5 +69,28 @@ class FullTiltHand(PokerHand):
 
         self.tournament_level = self.buyin = self.rake = self.currency = None
 
+        self.header_parsed = True
+
     def parse(self):
-        pass
+        super(FullTiltHand, self).parse()
+
+        self._parse_seats()
+
+    def _parse_seats(self):
+        # In hh there is no indication of max_players, so init for 9.
+        players = [('Empty Seat %s' % num, 0) for num in range(1, 10)]
+        for line in self._splitted[1:]:
+            match = self._seat_pattern.match(line)
+            if not match:
+                break
+            seat_number = int(match.group(1))
+            player_name = match.group(2)
+            stack = int(match.group(3).replace(',', ''))
+            players[seat_number - 1] = (player_name, stack)
+        self.max_players = seat_number
+        self.players = OrderedDict(players)
+
+        # one line before the first split.
+        button_line = self._splitted[self._sections[0] - 1]
+        self.button_seat = int(self._button_pattern.match(button_line).group(1))
+        self.button = players[self.button_seat - 1][0]
