@@ -131,12 +131,10 @@ class PokerStarsHand(PokerHand):
         self.total_pot = int(match.group(1))
 
     def _parse_board(self):
-        self.board = None
         boardline = self._splitted[self._sections[-1] + 3]
         if not boardline.startswith('Board'):
             return
         cards = self._board_pattern.findall(boardline)
-        self.board = tuple(cards)
         self.flop = tuple(cards[:3]) if cards else None
         self.turn = cards[3] if len(cards) > 3 else None
         self.river = cards[4] if len(cards) > 4 else None
@@ -153,3 +151,14 @@ class PokerStarsHand(PokerHand):
                 winners.add(match.group(2))
 
         self.winners = tuple(winners)
+
+    @property
+    def board(self):
+        board = []
+        if self.flop:
+            board.extend(self.flop)
+            if self.turn:
+                board.append(self.turn)
+                if self.river:
+                    board.append(self.river)
+        return tuple(board) if board else None
