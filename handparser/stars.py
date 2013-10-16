@@ -17,7 +17,7 @@ class PokerStarsHand(PokerHand):
 
     _split_pattern = re.compile(r" ?\*\*\* ?\n?|\n")
     _header_pattern = re.compile(r"""
-                                (?P<poker_room>PokerStars)[ ]           # Poker Room
+                                ^PokerStars[ ]                          # Poker Room
                                 Hand[ ]\#(?P<ident>\d*):[ ]             # Hand number
                                 (?P<game_type>Tournament)[ ]            # Type
                                 \#(?P<tournament_ident>\d*),[ ]         # Tournament Number
@@ -42,9 +42,7 @@ class PokerStarsHand(PokerHand):
 
     def __init__(self, hand_text, parse=True):
         """Split hand history by sections and parse."""
-
         super(PokerStarsHand, self).__init__(hand_text, parse)
-
         self._splitted = self._split_pattern.split(self.raw)
 
         # search split locations (basically empty strings)
@@ -56,8 +54,6 @@ class PokerStarsHand(PokerHand):
             self.parse()
 
     def parse_header(self):
-        """Parses the first line of a hand history."""
-
         match = self._header_pattern.match(self._splitted[0])
         self.game_type = TYPES[match.group('game_type')]
         self.sb = Decimal(match.group('sb'))
@@ -75,11 +71,7 @@ class PokerStarsHand(PokerHand):
         self.header_parsed = True
 
     def parse(self):
-        """Parse the body of the hand history, but first parse header if not yet parsed."""
-
-        if not self.header_parsed:
-            self.parse_header()
-
+        super(PokerStarsHand, self).parse()
         self._parse_table()
         self._parse_players()
         self._parse_hole_cards()
