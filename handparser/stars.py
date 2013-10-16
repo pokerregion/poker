@@ -29,14 +29,14 @@ class PokerStarsHand(PokerHand):
                         -[ ]Level[ ](?P<tournament_level>.*)[ ] # Level
                         \((?P<sb>.*)/(?P<bb>.*)\)[ ]            # blinds
                         -[ ].*[ ]                               # localized date
-                        \[(?P<date>.*)[ ]ET\]$                  # ET date
+                        \[(?P<date>.*)\]$                       # ET date
                         """, re.VERBOSE)
-    _table_pattern = re.compile(r"Table '(.*)' (\d)-max Seat #(\d) is the button$")
-    _seat_pattern = re.compile(r"Seat (\d): (.*) \((\d*) in chips\)$")
-    _dealt_to_pattern = re.compile(r"Dealt to (.*) \[(.{2}) (.{2})\]$")
-    _pot_pattern = re.compile(r"Total pot (\d*) .*\| Rake (\d*)$")
-    _winner_pattern = re.compile(r"Seat (\d): (.*) collected \((\d*)\)$")
-    _showdown_pattern = re.compile(r"Seat (\d): (.*) showed .* and won")
+    _table_pattern = re.compile(r"^Table '(.*)' (\d)-max Seat #(\d) is the button$")
+    _seat_pattern = re.compile(r"^Seat (\d): (.*) \((\d*) in chips\)$")
+    _dealt_to_pattern = re.compile(r"^Dealt to (.*) \[(.{2}) (.{2})\]$")
+    _pot_pattern = re.compile(r"^Total pot (\d*) .*\| Rake (\d*)$")
+    _winner_pattern = re.compile(r"^Seat (\d): (.*) collected \((\d*)\)$")
+    _showdown_pattern = re.compile(r"^Seat (\d): (.*) showed .* and won")
     _ante_pattern = re.compile(r".*posts the ante (\d*)")
     _board_pattern = re.compile(r"(?<=[\[ ])(..)(?=[\] ])")
 
@@ -73,7 +73,7 @@ class PokerStarsHand(PokerHand):
     def parse(self):
         super(PokerStarsHand, self).parse()
         self._parse_table()
-        self._parse_players()
+        self._parse_seats()
         self._parse_hole_cards()
         self._parse_preflop()
         self._parse_street('flop')
@@ -92,7 +92,7 @@ class PokerStarsHand(PokerHand):
         self.max_players = int(match.group(2))
         self.button_seat = int(match.group(3))
 
-    def _parse_players(self):
+    def _parse_seats(self):
         players = [('Empty Seat %s' % num, 0) for num in range(1, self.max_players + 1)]
         for line in self._splitted[2:]:
             match = self._seat_pattern.match(line)
