@@ -85,6 +85,10 @@ class FullTiltHand(PokerHand):
 
         self._parse_seats()
         self._parse_hole_cards()
+        self._parse_preflop()
+        self._parse_street('flop')
+        self._parse_street('turn')
+        self._parse_street('river')
 
     def _parse_seats(self):
         # In hh there is no indication of max_players, so init for 9.
@@ -111,3 +115,18 @@ class FullTiltHand(PokerHand):
         self.hero = match.group(1)
         self.hero_seat = self.players.keys().index(self.hero) + 1
         self.hero_hole_cards = match.group(2, 3)
+
+    def _parse_preflop(self):
+        start = self._sections[0] + 3
+        stop = self._sections[1]
+        self.preflop_actions = tuple(self._splitted[start:stop])
+
+    def _parse_street(self, street):
+        try:
+            start = self._splitted.index(street.upper()) + 2
+            stop = self._splitted.index('', start)
+            street_actions = self._splitted[start:stop]
+            setattr(self, "%s_actions" % street.lower(), tuple(street_actions) if street_actions else None)
+        except ValueError:
+            setattr(self, street, None)
+            setattr(self, '%s_actions' % street.lower(), None)
