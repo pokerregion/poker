@@ -33,7 +33,7 @@ class PokerStarsHand(PokerHand):
                         """, re.VERBOSE)
     _table_pattern = re.compile(r"^Table '(.*)' (\d)-max Seat #(\d) is the button$")
     _seat_pattern = re.compile(r"^Seat (\d): (.*) \((\d*) in chips\)$")
-    _dealt_to_pattern = re.compile(r"^Dealt to (.*) \[(.{2}) (.{2})\]$")
+    _hole_cards_pattern = re.compile(r"^Dealt to (.*) \[(..) (..)\]$")
     _pot_pattern = re.compile(r"^Total pot (\d*) .*\| Rake (\d*)$")
     _winner_pattern = re.compile(r"^Seat (\d): (.*) collected \((\d*)\)$")
     _showdown_pattern = re.compile(r"^Seat (\d): (.*) showed .* and won")
@@ -105,7 +105,7 @@ class PokerStarsHand(PokerHand):
 
     def _parse_hole_cards(self):
         hole_cards_line = self._splitted[self._sections[0] + 2]
-        match = self._dealt_to_pattern.match(hole_cards_line)
+        match = self._hole_cards_pattern.match(hole_cards_line)
         self.hero = match.group(1)
         self.hero_seat = self.players.keys().index(self.hero) + 1
         self.hero_hole_cards = match.group(2, 3)
