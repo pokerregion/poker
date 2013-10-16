@@ -39,6 +39,7 @@ class FullTiltHand(PokerHand):
                         """, re.VERBOSE)
     _seat_pattern = re.compile(r"^Seat (\d): (.*) \(([\d,]*)\)$")
     _button_pattern = re.compile(r"^The button is in seat #(\d)$")
+    _hole_cards_pattern = re.compile(r"^Dealt to (.*) \[(..) (..)\]$")
 
     def __init__(self, hand_text, parse=True):
         super(FullTiltHand, self).__init__(hand_text, parse)
@@ -75,6 +76,7 @@ class FullTiltHand(PokerHand):
         super(FullTiltHand, self).parse()
 
         self._parse_seats()
+        self._parse_hole_cards()
 
     def _parse_seats(self):
         # In hh there is no indication of max_players, so init for 9.
@@ -94,3 +96,10 @@ class FullTiltHand(PokerHand):
         button_line = self._splitted[self._sections[0] - 1]
         self.button_seat = int(self._button_pattern.match(button_line).group(1))
         self.button = players[self.button_seat - 1][0]
+
+    def _parse_hole_cards(self):
+        hole_cards_line = self._splitted[self._sections[0] + 2]
+        match = self._hole_cards_pattern.match(hole_cards_line)
+        self.hero = match.group(1)
+        self.hero_seat = self.players.keys().index(self.hero) + 1
+        self.hero_hole_cards = match.group(2, 3)

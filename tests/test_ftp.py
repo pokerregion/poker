@@ -49,7 +49,11 @@ class TestHandWithFlopOnly:
                                                        ('egis25', 6873), ('gamblie', 9880), ('idanuTz1', 10180),
                                                        ('PtheProphet', 9930), ('JohnyyR', 9840)])),
                               ('button', 'egis25'),
-                              ('button_seat', 5)
+                              ('button_seat', 5),
+                              ('max_players', 9),
+                              ('hero', 'IgaziFerfi'),
+                              ('hero_seat', 4),
+                              ('hero_hole_cards', ('9d', 'Ks'))
                              ])
     def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value
