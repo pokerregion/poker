@@ -13,12 +13,20 @@ class FullTiltHand(PokerHand):
 
     Class specific attributes:
         poker_room        -- FTP
-        tournament_name   -- ex. "$750 Guarantee", "$5 Sit & Go (Super Turbo)"
-        tournament_level  -- N/A (None)
-        buyin             -- N/A
-        rake              -- N/A
-        currency          -- N/A
+        tournament_level  -- None
+        buyin             -- None
+        rake              -- None
+        currency          -- None
         table_name        -- just a number, but str type
+
+    Extra attributes:
+        flop_pot          -- pot size on the flop, before actions
+        flop_num_players  -- number of players seen the flop
+        turn_pot          -- pot size before turn
+        turn_num_players  -- number of players seen the turn
+        river_pot         -- pot size before river
+        river_num_players -- number of players seen the river
+        tournament_name   -- ex. "$750 Guarantee", "$5 Sit & Go (Super Turbo)"
 
     """
     poker_room = 'FTP'
