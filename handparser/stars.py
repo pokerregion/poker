@@ -17,20 +17,20 @@ class PokerStarsHand(PokerHand):
 
     _split_pattern = re.compile(r" ?\*\*\* ?\n?|\n")
     _header_pattern = re.compile(r"""
-                                ^PokerStars[ ]                          # Poker Room
-                                Hand[ ]\#(?P<ident>\d*):[ ]             # Hand number
-                                (?P<game_type>Tournament)[ ]            # Type
-                                \#(?P<tournament_ident>\d*),[ ]         # Tournament Number
-                                \$(?P<buyin>\d*\.\d{2})\+               # buyin
-                                \$(?P<rake>\d*\.\d{2})[ ]               # rake
-                                (?P<currency>USD|EUR)[ ]                # currency
-                                (?P<game>.*)[ ]                         # game
-                                (?P<limit>No[ ]Limit)[ ]                # limit
-                                -[ ]Level[ ](?P<tournament_level>.*)[ ] # Level
-                                \((?P<sb>.*)/(?P<bb>.*)\)[ ]            # blinds
-                                -[ ].*[ ]                               # localized date
-                                \[(?P<date>.*)[ ]ET\]$                  # ET date
-                                """, re.VERBOSE)
+                        ^PokerStars[ ]                          # Poker Room
+                        Hand[ ]\#(?P<ident>\d*):[ ]             # Hand number
+                        (?P<game_type>Tournament)[ ]            # Type
+                        \#(?P<tournament_ident>\d*),[ ]         # Tournament Number
+                        \$(?P<buyin>\d*\.\d{2})\+               # buyin
+                        \$(?P<rake>\d*\.\d{2})[ ]               # rake
+                        (?P<currency>USD|EUR)[ ]                # currency
+                        (?P<game>.*)[ ]                         # game
+                        (?P<limit>No[ ]Limit)[ ]                # limit
+                        -[ ]Level[ ](?P<tournament_level>.*)[ ] # Level
+                        \((?P<sb>.*)/(?P<bb>.*)\)[ ]            # blinds
+                        -[ ].*[ ]                               # localized date
+                        \[(?P<date>.*)[ ]ET\]$                  # ET date
+                        """, re.VERBOSE)
     _table_pattern = re.compile(r"Table '(.*)' (\d)-max Seat #(\d) is the button$")
     _seat_pattern = re.compile(r"Seat (\d): (.*) \((\d*) in chips\)$")
     _dealt_to_pattern = re.compile(r"Dealt to (.*) \[(.{2}) (.{2})\]$")
