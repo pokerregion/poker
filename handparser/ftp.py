@@ -48,6 +48,7 @@ class FullTiltHand(PokerHand):
     _seat_pattern = re.compile(r"^Seat (\d): (.*) \(([\d,]*)\)$")
     _button_pattern = re.compile(r"^The button is in seat #(\d)$")
     _hole_cards_pattern = re.compile(r"^Dealt to (.*) \[(..) (..)\]$")
+    _street_pattern = re.compile(r"\[(.*)\] \(Total Pot: (\d*)\, (\d) Players")
 
     def __init__(self, hand_text, parse=True):
         super(FullTiltHand, self).__init__(hand_text, parse)
@@ -123,10 +124,29 @@ class FullTiltHand(PokerHand):
 
     def _parse_street(self, street):
         try:
-            start = self._splitted.index(street.upper()) + 2
-            stop = self._splitted.index('', start)
-            street_actions = self._splitted[start:stop]
-            setattr(self, "%s_actions" % street.lower(), tuple(street_actions) if street_actions else None)
+            start = self._splitted.index(street.upper()) + 1
+            self._parse_boardline(start, street)
+            stop = self._splitted.index('', start + 1)
+            street_actions = self._splitted[start + 1:stop]
+            setattr(self, "%s_actions" % street, tuple(street_actions) if street_actions else None)
         except ValueError:
             setattr(self, street, None)
-            setattr(self, '%s_actions' % street.lower(), None)
+            setattr(self, '%s_actions' % street, None)
+            setattr(self, '%s_pot' % street, None)
+            setattr(self, '%s_num_players' % street, None)
+
+    def _parse_boardline(self, start, street):
+        """Parse pot, num players and cards."""
+        # Exceptions caught in _parse_street.
+        board_line = self._splitted[start]
+        match = self._street_pattern.match(board_line)
+
+        cards = match.group(1)
+        setattr(self, street, tuple(cards.split()))
+
+        pot = match.group(2)
+        setattr(self, "%s_pot" % street, Decimal(pot))
+
+        num_players = int(match.group(3))
+        setattr(self, "%s_num_players" % street, num_players)
+
