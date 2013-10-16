@@ -13,7 +13,7 @@ class PokerStarsHand(PokerHand):
     """
 
     poker_room = 'STARS'
-    date_format = '%Y/%m/%d %H:%M:%S'
+    date_format = '%Y/%m/%d %H:%M:%S ET'
 
     _split_pattern = re.compile(r" ?\*\*\* ?\n?|\n")
     _header_pattern = re.compile(r"""
