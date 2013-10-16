@@ -1,3 +1,4 @@
+from abc import ABCMeta, abstractmethod
 from collections import MutableMapping
 from inspect import ismethod
 import pytz
@@ -54,8 +55,11 @@ class PokerHand(MutableMapping):
         show_down       -- There was showd_down or wasn't (bool)
         winners         -- tuple of winner names, even when there is only one winner. ex. ('W2lkm2n')
     """
+    __metaclass__ = ABCMeta
+
     _non_hand_attributes = ('raw', 'parsed', 'header_parsed', 'date_format')
 
+    @abstractmethod
     def __init__(self, hand_text, parse=True):
         """Save raw hand history.
 
@@ -96,4 +100,15 @@ class PokerHand(MutableMapping):
         return [attr for attr in dir(self) if not attr.startswith('_') and
                                               attr not in self._non_hand_attributes and
                                               not ismethod(getattr(self, attr))]
+
+    @abstractmethod
+    def parse_header(self):
+        """Parses the first line of a hand history."""
+        pass
+
+    @abstractmethod
+    def parse(self):
+        """Parse the body of the hand history, but first parse header if not yet parsed."""
+        if not self.header_parsed:
+            self.parse_header()
 
