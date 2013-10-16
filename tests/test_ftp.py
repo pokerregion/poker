@@ -85,6 +85,10 @@ class TestHandWithFlopOnly:
                               ('river_pot', None),
                               ('river_actions', None),
                               ('river_num_players', None),
+                              ('total_pot', Decimal(230)),
+                              ('show_down', False),
+                              ('winners', ('FatalRevange',)),
+                              ('board', ('8h', '4h', 'Tc'))
                              ])
     def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value

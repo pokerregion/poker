@@ -49,6 +49,9 @@ class FullTiltHand(PokerHand):
     _button_pattern = re.compile(r"^The button is in seat #(\d)$")
     _hole_cards_pattern = re.compile(r"^Dealt to (.*) \[(..) (..)\]$")
     _street_pattern = re.compile(r"\[(.*)\] \(Total Pot: (\d*)\, (\d) Players")
+    _pot_pattern = re.compile(r"^Total pot (\d*) .*\| Rake (\d*)$")
+    _winner_pattern = re.compile(r"^Seat (\d): (.*) collected \((\d*)\),")
+    _showdown_pattern = re.compile(r"^Seat (\d): (.*) showed .* and won")
 
     def __init__(self, hand_text, parse=True):
         super(FullTiltHand, self).__init__(hand_text, parse)
@@ -90,6 +93,11 @@ class FullTiltHand(PokerHand):
         self._parse_street('flop')
         self._parse_street('turn')
         self._parse_street('river')
+        self.show_down = 'SHOW DOWN' in self._splitted
+        self._parse_pot()
+        self._parse_winners()
+
+        self.parsed = True
 
     def _parse_seats(self):
         # In hh there is no indication of max_players, so init for 9.
@@ -150,3 +158,31 @@ class FullTiltHand(PokerHand):
         num_players = int(match.group(3))
         setattr(self, "%s_num_players" % street, num_players)
 
+    def _parse_pot(self):
+        potline = self._splitted[self._sections[-1] + 2]
+        match = self._pot_pattern.match(potline)
+        self.total_pot = int(match.group(1))
+
+    def _parse_winners(self):
+        winners = set()
+        start = self._sections[-1] + 4
+        for line in self._splitted[start:]:
+            if not self.show_down and "collected" in line:
+                match = self._winner_pattern.match(line)
+                winners.add(match.group(2))
+            elif self.show_down and "won" in line:
+                match = self._showdown_pattern.match(line)
+                winners.add(match.group(2))
+
+        self.winners = tuple(winners)
+
+    @property
+    def board(self):
+        board = []
+        if self.flop:
+            board.extend(self.flop)
+            if self.turn:
+                board.append(self.turn)
+                if self.river:
+                    board.append(self.river)
+        return tuple(board) if board else None
