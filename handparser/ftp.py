@@ -2,7 +2,7 @@ import re
 from datetime import datetime
 from decimal import Decimal
 from collections import OrderedDict
-from handparser.common import PokerHand, ET, UTC, GAMES
+from handparser.common import PokerHand, ET, UTC, GAMES, LIMITS
 
 
 class FullTiltHand(PokerHand):
@@ -33,23 +33,24 @@ class FullTiltHand(PokerHand):
     date_format = '%H:%M:%S ET - %Y/%m/%d'
 
     _split_pattern = re.compile(r" ?\*\*\* ?\n?|\n")
-    _header_pattern = re.compile(r"""
+
+    # header patterns
+    _tournament_pattern = re.compile(r"""
                         ^Full[ ]Tilt[ ]Poker[ ]                 # Poker Room
                         Game[ ]\#(?P<ident>\d*):[ ]             # Hand number
                         (?P<tournament_name>.*)[ ]              # Tournament name
                         \((?P<tournament_ident>\d*)\),[ ]       # Tournament Number
                         Table[ ](?P<table_name>\d*)[ ]-[ ]      # Table name
-                        (?P<limit>NL)[ ]                        # limit
-                        (?P<game>.*)[ ]-[ ]                     # game
-                        (?P<sb>.*)/(?P<bb>.*?)[ ]-[ ]           # blinds
-                        .*[ ]                                   # localized date
-                        \[(?P<date>.*)\]$                       # ET date
                         """, re.VERBOSE)
+    _game_pattern = re.compile(r" - (?P<limit>NL|PL|FL|No Limit|Pot Limit|Fix Limit) (?P<game>.*?) - ")
+    _blind_pattern = re.compile(r" - (\d*)/(\d*) - ")
+    _date_pattern = re.compile(r" \[(.*)\]$")
+
     _seat_pattern = re.compile(r"^Seat (\d): (.*) \(([\d,]*)\)$")
     _button_pattern = re.compile(r"^The button is in seat #(\d)$")
     _hole_cards_pattern = re.compile(r"^Dealt to (.*) \[(..) (..)\]$")
-    _street_pattern = re.compile(r"\[(.*)\] \(Total Pot: (\d*)\, (\d) Players")
-    _pot_pattern = re.compile(r"^Total pot (\d*) .*\| Rake (\d*)$")
+    _street_pattern = re.compile(r"\[([^\]]*)\] \(Total Pot: (\d*)\, (\d) Players")
+    _pot_pattern = re.compile(r"^Total pot ([\d,]*) .*\| Rake (\d*)$")
     _winner_pattern = re.compile(r"^Seat (\d): (.*) collected \((\d*)\),")
     _showdown_pattern = re.compile(r"^Seat (\d): (.*) showed .* and won")
 
@@ -67,18 +68,26 @@ class FullTiltHand(PokerHand):
             self.parse()
 
     def parse_header(self):
-        match = self._header_pattern.match(self._splitted[0])
+        header_line = self._splitted[0]
+
+        match = self._tournament_pattern.match(header_line)
         self.game_type = 'TOUR'
-        self.sb = Decimal(match.group('sb'))
-        self.bb = Decimal(match.group('bb'))
-        date = ET.localize(datetime.strptime(match.group('date'), self.date_format))
-        self.date = date.astimezone(UTC)
-        self.game = GAMES[match.group('game')]
-        self.limit = match.group('limit')
         self.ident = match.group('ident')
-        self.tournament_ident = match.group('tournament_ident')
         self.tournament_name = match.group('tournament_name')
+        self.tournament_ident = match.group('tournament_ident')
         self.table_name = match.group('table_name')
+
+        match = self._game_pattern.search(header_line)
+        self.limit = LIMITS[match.group('limit')]   # TODO: replace instead of lookup?
+        self.game = GAMES[match.group('game')]
+
+        match = self._blind_pattern.search(header_line)
+        self.sb = Decimal(match.group(1))
+        self.bb = Decimal(match.group(2))
+
+        match = self._date_pattern.search(header_line)
+        date = ET.localize(datetime.strptime(match.group(1), self.date_format))
+        self.date = date.astimezone(UTC)
 
         self.tournament_level = self.buyin = self.rake = self.currency = None
 
@@ -147,10 +156,11 @@ class FullTiltHand(PokerHand):
         """Parse pot, num players and cards."""
         # Exceptions caught in _parse_street.
         board_line = self._splitted[start]
-        match = self._street_pattern.match(board_line)
 
+        match = self._street_pattern.search(board_line)
         cards = match.group(1)
-        setattr(self, street, tuple(cards.split()))
+        cards = tuple(cards.split()) if street == 'flop' else cards
+        setattr(self, street, cards)
 
         pot = match.group(2)
         setattr(self, "%s_pot" % street, Decimal(pot))
@@ -160,7 +170,7 @@ class FullTiltHand(PokerHand):
 
     def _parse_pot(self):
         potline = self._splitted[self._sections[-1] + 2]
-        match = self._pot_pattern.match(potline)
+        match = self._pot_pattern.match(potline.replace(',', ''))
         self.total_pot = int(match.group(1))
 
     def _parse_winners(self):
