@@ -2,7 +2,12 @@ handparser [![Build Status](https://travis-ci.org/stakingadmin/handparser.png?br
 ==========
 
 Hand history parser library.
-It only parses PokerStars tournament hands right now, but very efficiently and with a simple API.
+It parses:
+
+* PokerStars 
+* Full Tilt 
+
+tournament hands right now, very efficiently and with a simple API.
 
 ##Usage
 
@@ -66,7 +71,6 @@ Py.test will automatically pick up unit tests.
 
 ## Requirements
 Right now, Python 2.7 only.
-
 
 ## LICENSE
 
