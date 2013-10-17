@@ -1,7 +1,7 @@
 handparser [![Build Status](https://travis-ci.org/stakingadmin/handparser.png?branch=master)](https://travis-ci.org/stakingadmin/handparser) [![Coverage Status](https://coveralls.io/repos/stakingadmin/handparser/badge.png?branch=master)](https://coveralls.io/r/stakingadmin/handparser?branch=master)
 ==========
 
-Hand history parser library.  
+Hand history parser library.
 It only parses PokerStars tournament hands right now, but very efficiently and with a simple API.
 
 ##Usage
@@ -34,7 +34,7 @@ datetime.datetime(2013, 10, 4, 19, 18, 18, tzinfo=<DstTzInfo 'US/Eastern' EDT-1 
         limit               -- NL, PL or FL
         sb                  -- amount of small blind
         bb                  -- amount of big blind
-        date                -- hand date in ET (localized)
+        date                -- hand date in UTC
 
         table_name      -- name of the table. it's 'tournament number[ ]table number'
         max_player      -- maximum players can sit on the table, 2, 4, 6, 7, 8, 9
@@ -61,7 +61,7 @@ datetime.datetime(2013, 10, 4, 19, 18, 18, tzinfo=<DstTzInfo 'US/Eastern' EDT-1 
 From project folder:
 
     $ py.test
-    
+
 Py.test will automatically pick up unit tests.
 
 ## Requirements
@@ -75,5 +75,5 @@ The MIT License (MIT)
 Copyright (c) 2013 Kiss György
 
 ## Me
-[@Walkman_](https://twitter.com/Walkman_) on twitter  
+[@Walkman_](https://twitter.com/Walkman_) on twitter
 or you can reach me on my [public Github e-mail](https://github.com/Walkman).

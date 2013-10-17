@@ -60,7 +60,8 @@ class PokerStarsHand(PokerHand):
         self.bb = Decimal(match.group('bb'))
         self.buyin = Decimal(match.group('buyin'))
         self.rake = Decimal(match.group('rake'))
-        self.date = ET.localize(datetime.strptime(match.group('date'), self.date_format))
+        date = datetime.strptime(match.group('date'), self.date_format)
+        self.date = ET.localize(date).astimezone(UTC)
         self.game = GAMES[match.group('game')]
         self.limit = LIMITS[match.group('limit')]
         self.ident = match.group('ident')
