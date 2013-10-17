@@ -9,7 +9,7 @@ UTC = pytz.UTC
 POKER_ROOMS = {'PokerStars': 'STARS', 'Full Tilt Poker': 'FTP'}
 TYPES = {'Tournament': 'TOUR'}
 GAMES = {"Hold'em": 'HOLDEM'}
-LIMITS = {'No Limit': 'NL'}
+LIMITS = {'No Limit': 'NL', 'NL': 'NL'}
 
 
 class PokerHand(MutableMapping):
