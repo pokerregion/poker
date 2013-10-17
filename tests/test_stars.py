@@ -2,8 +2,22 @@ import pytest
 import stars_hands
 from decimal import Decimal
 from datetime import datetime
-from handparser import ET
 from collections import OrderedDict
+from handparser import PokerStarsHand, ET
+
+
+@pytest.fixture
+def hand(request):
+    """Parse handhistory defined in hand_text class attribute and returns a PokerStarsHand instance."""
+    return PokerStarsHand(request.instance.hand_text)
+
+
+@pytest.fixture
+def hand_header(request):
+    """Parse hand history header only defined in hand_text and returns a PokerStarsHand instance."""
+    h = PokerStarsHand(request.instance.hand_text, parse=False)
+    h.parse_header()
+    return h
 
 
 class TestHandWithFlopOnly:

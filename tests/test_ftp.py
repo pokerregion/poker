@@ -3,8 +3,7 @@ import ftp_hands
 from datetime import datetime
 from decimal import Decimal
 from collections import OrderedDict
-from handparser.common import ET
-from handparser.ftp import FullTiltHand
+from handparser import FullTiltHand, ET
 
 
 @pytest.fixture
