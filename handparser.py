@@ -122,6 +122,17 @@ class PokerHand(MutableMapping):
         if not self.header_parsed:
             self.parse_header()
 
+    @property
+    def board(self):
+        board = []
+        if self.flop:
+            board.extend(self.flop)
+            if self.turn:
+                board.append(self.turn)
+                if self.river:
+                    board.append(self.river)
+        return tuple(board) if board else None
+
 
 class PokerStarsHand(PokerHand):
     """Parses PokerStars Tournament hands.
@@ -270,17 +281,6 @@ class PokerStarsHand(PokerHand):
                 winners.add(match.group(2))
 
         self.winners = tuple(winners)
-
-    @property
-    def board(self):
-        board = []
-        if self.flop:
-            board.extend(self.flop)
-            if self.turn:
-                board.append(self.turn)
-                if self.river:
-                    board.append(self.river)
-        return tuple(board) if board else None
 
 
 class FullTiltHand(PokerHand):
@@ -464,13 +464,3 @@ class FullTiltHand(PokerHand):
 
         self.winners = tuple(winners)
 
-    @property
-    def board(self):
-        board = []
-        if self.flop:
-            board.extend(self.flop)
-            if self.turn:
-                board.append(self.turn)
-                if self.river:
-                    board.append(self.river)
-        return tuple(board) if board else None
