@@ -16,10 +16,12 @@ import pytz
 
 ET = pytz.timezone('US/Eastern')
 UTC = pytz.UTC
-POKER_ROOMS = {'PokerStars': 'STARS', 'Full Tilt Poker': 'FTP'}
-TYPES = {'Tournament': 'TOUR'}
-GAMES = {"Hold'em": 'HOLDEM'}
-LIMITS = {'No Limit': 'NL', 'NL': 'NL'}
+CET = pytz.timezone('Europe/Budapest')
+
+POKER_ROOMS = {'PokerStars': 'STARS', 'Full Tilt Poker': 'FTP', 'PKR': 'PKR'}
+TYPES = {'Tournament': 'TOUR', 'RING': 'CASH', 'Cash Game': 'CASH'}
+GAMES = {"Hold'em": 'HOLDEM', 'OMAHA': 'OMAHA'}
+LIMITS = {'No Limit': 'NL', 'NL': 'NL', 'PL': 'PL', 'Pot Limit': 'PL', 'POT LIMIT': 'PL'}
 
 
 class PokerHand(MutableMapping):
@@ -471,3 +473,16 @@ class FullTiltHand(PokerHand):
 
         self.winners = tuple(winners)
 
+
+class PKRHand(PokerHand):
+    """Parses PKR hands.
+
+    Class specific attributes:
+        poker_room        -- PKR
+        table_name        -- "#table_number - name of the table"
+
+    Extra attributes:
+        last_ident        -- last hand id
+        money_type        -- 'R' for real money, 'P' for play money
+
+    """
