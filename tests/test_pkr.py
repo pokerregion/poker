@@ -4,6 +4,7 @@ from collections import OrderedDict
 from pkr_hands import HANDS
 from pytest import mark, fixture
 import pytz
+from pytz import UTC
 from handparser import PKRHand, CET
 
 
@@ -26,7 +27,7 @@ class TestHoldemHand:
                     ('game_type', 'CASH'),
                     ('sb', D('0.25')),
                     ('bb', D('0.50')),
-                    ('date', CET.localize(datetime(2013, 10, 5, 1, 15, 45))),
+                    ('date', UTC.localize(datetime(2013, 10, 5, 1, 15, 45))),
                     ('game', 'HOLDEM'),
                     ('limit', 'NL'),
                     ('ident', '2433297728'),
@@ -39,15 +40,15 @@ class TestHoldemHand:
                     ('currency', 'USD'),
                     ('money_type', 'R'),
     ])
-    def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
-        assert getattr(attribute, hand_header) == expected_value
+    def test_header(self, hand_header, attribute, expected_value):
+        assert getattr(hand_header, attribute) == expected_value
 
 
     @mark.parametrize('attribute, expected_value', [
-                      ('players', OrderedDict[('laxi23', D('51.89')), ('NikosMRF', D('50')),
+                      ('players', OrderedDict([('laxi23', D('51.89')), ('NikosMRF', D('50')),
                                               ('Capricorn', D('33.6')), ('Walkman', D('50')),
-                                              ('barly123', D('50.35'))]),
-                      ('button', 'laxi23'),
+                                              ('Empty Seat 5', 0), ('barly123', D('50.35'))])),
+                      ('button', 'Capricorn'),
                       ('button_seat', 3),
                       ('max_players', 6),   # maybe imprecise
                       ('hero', 'Walkman'),
@@ -61,13 +62,9 @@ class TestHoldemHand:
                       ('flop', ('7d', '3c', 'Jd')),
                       ('flop_pot', D('2.75')),
                       ('flop_actions', ('barly123 checks',
-                                       'Capricorn bets $1.37',
-                                       'barly123 raises to $4.11',
-                                       'Capricorn calls $4.11',
-                                       'Pot sizes: $10.97',
-                                       'Dealing Turn [J s]',
-                                       'barly123 checks',
-                                       'Capricorn checks')),
+                                        'Capricorn bets $1.37',
+                                        'barly123 raises to $4.11',
+                                        'Capricorn calls $4.11')),
                       ('turn', 'Js'),
                       ('turn_pot', D('10.97')),
                       ('turn_actions', ('barly123 checks', 'Capricorn checks')),
@@ -80,5 +77,5 @@ class TestHoldemHand:
                       ('show_down', True),
                       ('board', ('7d', '3c', 'Jd', 'Js', '5h'))
                       ])
-    def test_values_after_body_parsed(self, attribute, hand, expected_value):
-        assert getattr(attribute, hand) == expected_value
+    def test_body(self, hand, attribute, expected_value):
+        assert getattr(hand, attribute) == expected_value
