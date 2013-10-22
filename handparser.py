@@ -219,14 +219,14 @@ class PokerStarsHand(PokerHand):
 
     def parse_header(self):
         match = self._header_pattern.match(self._splitted[0])
-        self.game_type = TYPES[match.group('game_type')]
+        self.game_type = normalize(match.group('game_type'))
         self.sb = Decimal(match.group('sb'))
         self.bb = Decimal(match.group('bb'))
         self.buyin = Decimal(match.group('buyin'))
         self.rake = Decimal(match.group('rake'))
         self._parse_date(match.group('date'))
-        self.game = GAMES[match.group('game')]
-        self.limit = LIMITS[match.group('limit')]
+        self.game = normalize(match.group('game'))
+        self.limit = normalize(match.group('limit'))
         self.ident = match.group('ident')
         self.tournament_ident = match.group('tournament_ident')
         self.tournament_level = match.group('tournament_level')
@@ -391,8 +391,8 @@ class FullTiltHand(PokerHand):
         self.table_name = match.group('table_name')
 
         match = self._game_pattern.search(header_line)
-        self.limit = LIMITS[match.group('limit')]   # TODO: replace instead of lookup?
-        self.game = GAMES[match.group('game')]
+        self.limit = normalize(match.group('limit'))
+        self.game = normalize(match.group('game'))
 
         match = self._blind_pattern.search(header_line)
         self.sb = Decimal(match.group(1))
@@ -545,10 +545,10 @@ class PKRHand(PokerHand):
         self.ident = self._splitted[1][15:]              # cut off "Starting Hand #"
         self._parse_date(self._splitted[2][20:])         # cut off "Start time of hand: "
         self.last_ident = self._splitted[3][11:]         # cut off "Last Hand #"
-        self.game = GAMES[self._splitted[4][11:]]        # cut off "Game Type: "
-        self.limit = LIMITS[self._splitted[5][12:]]      # cut off "Limit Type: "
-        self.game_type = TYPES[self._splitted[6][12:]]   # cut off "Table Type: "
-        self.money_type = MONEY_TYPES[self._splitted[7][12:]]  # cut off "Money Type: "
+        self.game = normalize(self._splitted[4][11:])        # cut off "Game Type: "
+        self.limit = normalize(self._splitted[5][12:])      # cut off "Limit Type: "
+        self.game_type = normalize(self._splitted[6][12:])   # cut off "Table Type: "
+        self.money_type = normalize(self._splitted[7][12:])  # cut off "Money Type: "
 
         match = self._blinds_pattern.match(self._splitted[8])
         self.sb = Decimal(match.group(1))
