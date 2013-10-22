@@ -37,7 +37,7 @@ class PokerHand(MutableMapping):
         tournament_level
         currency            -- 3 letter iso code USD, HUF, EUR, etc.
         buyin               -- buyin without rake
-        rake
+        rake                -- if game_type is TOUR it's buyin rake, if CASH it's rake from pot
         game                -- game type: HOLDEM, OMAHA, STUD, RAZZ, etc.
         limit               -- NL, PL or FL
         sb                  -- amount of small blind
@@ -61,7 +61,7 @@ class PokerHand(MutableMapping):
         flop_actions    -- tuple of flop action lines
         turn_actions
         river_actions
-        total_pot       -- total pot after end of actions
+        total_pot       -- total pot after end of actions (rake included)
         show_down       -- There was showd_down or wasn't (bool)
         winners         -- tuple of winner names, even when there is only one winner. ex. ('W2lkm2n')
     """
@@ -428,7 +428,7 @@ class FullTiltHand(PokerHand):
         try:
             start = self._splitted.index(street.upper()) + 1
             self._parse_boardline(start, street)
-            stop = self._splitted.index('', start + 1)
+            stop = next(v for v in self._sections if v > start)
             street_actions = self._splitted[start + 1:stop]
             setattr(self, "%s_actions" % street, tuple(street_actions) if street_actions else None)
         except ValueError:
