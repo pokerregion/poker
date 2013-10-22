@@ -5,7 +5,7 @@ from pkr_hands import HANDS
 from pytest import mark, fixture
 import pytz
 from pytz import UTC
-from handparser import PKRHand, CET
+from handparser import PKRHand
 
 
 @fixture

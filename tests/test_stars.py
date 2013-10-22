@@ -3,7 +3,11 @@ import stars_hands
 from decimal import Decimal
 from datetime import datetime
 from collections import OrderedDict
-from handparser import PokerStarsHand, ET
+from handparser import PokerStarsHand
+import pytz
+
+
+ET = pytz.timezone('US/Eastern')
 
 
 @pytest.fixture
