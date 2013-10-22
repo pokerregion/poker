@@ -11,15 +11,21 @@ from collections import MutableMapping, OrderedDict
 from inspect import ismethod
 from decimal import Decimal
 from datetime import datetime
+import locale
 import pytz
 
 
+locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')  # need for abbreviated month names
+
 ET = pytz.timezone('US/Eastern')
 UTC = pytz.UTC
-POKER_ROOMS = {'PokerStars': 'STARS', 'Full Tilt Poker': 'FTP'}
-TYPES = {'Tournament': 'TOUR'}
-GAMES = {"Hold'em": 'HOLDEM'}
-LIMITS = {'No Limit': 'NL', 'NL': 'NL'}
+CET = pytz.timezone('Europe/Budapest')
+
+POKER_ROOMS = {'PokerStars': 'STARS', 'Full Tilt Poker': 'FTP', 'PKR': 'PKR'}
+TYPES = {'Tournament': 'TOUR', 'RING': 'CASH', 'Cash Game': 'CASH'}
+GAMES = {"Hold'em": 'HOLDEM', "HOLD'EM": 'HOLDEM', 'OMAHA': 'OMAHA'}
+LIMITS = {'No Limit': 'NL', 'NO LIMIT': 'NL', 'NL': 'NL', 'PL': 'PL', 'Pot Limit': 'PL', 'POT LIMIT': 'PL'}
+MONEY_TYPES = {'REAL MONEY': 'R', 'PLAY_MONEY': 'P'}
 
 
 class PokerHand(MutableMapping):
@@ -471,3 +477,156 @@ class FullTiltHand(PokerHand):
 
         self.winners = tuple(winners)
 
+
+class PKRHand(PokerHand):
+    """Parses PKR hands.
+
+    Class specific attributes:
+        poker_room        -- PKR
+        table_name        -- "#table_number - name of the table"
+
+    Extra attributes:
+        last_ident        -- last hand id
+        money_type        -- 'R' for real money, 'P' for play money
+
+    """
+    poker_room = 'PKR'
+    date_format = '%d %b %Y %H:%M:%S'
+    currency = 'USD'
+    _time_zone = UTC
+
+    _split_pattern = re.compile(r"Dealing |\nDealing Cards\n|Taking |Moving |\n")
+    _blinds_pattern = re.compile(r"^Blinds are now \$([\d.]*) / \$([\d.]*)$")
+    _dealt_pattern = re.compile(r"^\[(. .)\]\[(. .)\] to (.*)$")
+    _seat_pattern = re.compile(r"^Seat (\d\d?): (.*) - \$([\d.]*) ?(.*)$")
+    _sizes_pattern = re.compile(r"^Pot sizes: \$([\d.]*)$")
+    _card_pattern = re.compile(r"\[(. .)\]")
+    _rake_pattern = re.compile(r"Rake of \$([\d.]*) from pot \d$")
+    _win_pattern = re.compile(r"^(.*) wins \$([\d.]*) with: ")
+
+    def __init__(self, hand_text, parse=True):
+        """Split hand history by sections and parse."""
+        super(PKRHand, self).__init__(hand_text, parse)
+
+        self._splitted = self._split_pattern.split(self.raw)
+
+        # search split locations (basically empty strings)
+        # sections[1] is after blinds, before preflop
+        # section[2] is before flop
+        # sections[-1] is before showdown
+        self._sections = [ind for ind, elem in enumerate(self._splitted) if not elem]
+
+        if parse:
+            self.parse()
+
+    def parse_header(self):
+        self.table_name = self._splitted[0][6:]          # cut off "Table "
+        self.ident = self._splitted[1][15:]              # cut off "Starting Hand #"
+        self._parse_date(self._splitted[2][20:])         # cut off "Start time of hand: "
+        self.last_ident = self._splitted[3][11:]         # cut off "Last Hand #"
+        self.game = GAMES[self._splitted[4][11:]]        # cut off "Game Type: "
+        self.limit = LIMITS[self._splitted[5][12:]]      # cut off "Limit Type: "
+        self.game_type = TYPES[self._splitted[6][12:]]   # cut off "Table Type: "
+        self.money_type = MONEY_TYPES[self._splitted[7][12:]]  # cut off "Money Type: "
+
+        match = self._blinds_pattern.match(self._splitted[8])
+        self.sb = Decimal(match.group(1))
+        self.bb = Decimal(match.group(2))
+        self.buyin = self.bb * 100
+
+        self.button = int(self._splitted[9][18:])  # cut off "Button is at seat "
+
+        self.tournament_ident = None
+        self.tournament_name = None
+        self.tournament_level = None
+
+    def parse(self):
+        super(PKRHand, self).parse()
+
+        self._parse_seats()
+        self._parse_hero()
+        self._parse_preflop()
+        self._parse_street('flop')
+        self._parse_street('turn')
+        self._parse_street('river')
+        self._parse_showdown()
+
+    def _parse_seats(self):
+        # In hh there is no indication of max_players,
+        # so init for 10, as there are 10 player tables on PKR.
+        players = self._init_seats(10)
+        for line in self._splitted[10:]:
+            match = self._seat_pattern.match(line)
+            if not match:
+                break
+            seat_number = int(match.group(1))
+            player_name = match.group(2)
+            stack = Decimal(match.group(3))
+            players[seat_number - 1] = (player_name, stack)
+        self.max_players = seat_number
+        self.players = OrderedDict(players[:self.max_players])
+
+        button_row = self._splitted[self._sections[0] + 1]
+
+        # cut last two because there can be 10 seats also
+        # in case of one digit, the first char will be a space
+        # but int() can convert it without hiccups :)
+        self.button_seat = int(button_row[-2:])
+        self.button = players[self.button_seat - 1][0]
+
+    def _parse_hero(self):
+        dealt_row = self._splitted[self._sections[1] + 1]
+        match = self._dealt_pattern.match(dealt_row)
+
+        first = match.group(1)[0:3:2]   # split space in the middle
+        second = match.group(2)[0:3:2]
+        self.hero_hole_cards = (first, second)
+
+        self.hero = match.group(3)
+        self.hero_seat = self.players.keys().index(self.hero) + 1
+
+    def _parse_preflop(self):
+        start = self._sections[1] + 2
+        stop = self._splitted.index('', start + 1) - 1
+        self.preflop_actions = tuple(self._splitted[start:stop])
+
+    def _parse_street(self, street):
+        street_sections = {'flop': 2, 'turn': 3, 'river': 4}
+        section = street_sections[street]
+        try:
+            start = self._sections[section] + 1
+
+            street_line = self._splitted[start]
+            cards = map(lambda x: x[0:3:2], self._card_pattern.findall(street_line))
+            setattr(self, street, tuple(cards) if street == 'flop' else cards[0])
+
+            stop = next(v for v in self._sections if v > start) - 1
+            setattr(self, "%s_actions" % street, tuple(self._splitted[start + 1:stop]))
+
+            sizes_line = self._splitted[start - 2]
+            pot = Decimal(self._sizes_pattern.match(sizes_line).group(1))
+            setattr(self, "%s_pot" % street, pot)
+        except IndexError:
+            setattr(self, street, None)
+            setattr(self, "%s_actions" % street, None)
+            setattr(self, "%s_pot" % street, None)
+
+    def _parse_showdown(self):
+        start = self._sections[-1] + 1
+
+        rake_line = self._splitted[start]
+        match = self._rake_pattern.match(rake_line)
+        self.rake = Decimal(match.group(1))
+
+        winners = []
+        total_pot = self.rake
+        for line in self._splitted[start:]:
+            if 'shows' in line:
+                self.show_down = True
+            elif 'wins' in line:
+                match = self._win_pattern.match(line)
+                winners.append(match.group(1))
+                total_pot += Decimal(match.group(2))
+
+        self.winners = tuple(winners)
+        self.total_pot = total_pot
