@@ -24,9 +24,9 @@ _NORMALIZE = {'STARS': {'pokerstars', 'stars', 'ps'},
               'FTP': {'full tilt poker', 'full tilt', 'ftp'},
               'PKR': {'pkr', 'pkr poker'},
 
-              'USD': {'usd', '$'},
-              'EUR': {'eur', '€'},
-              'GBP': {'gbp', '£'},
+              'USD': {'usd', u'$'},
+              'EUR': {'eur', u'€'},
+              'GBP': {'gbp', u'£'},
 
               'TOUR': {'tournament', 'tour'},
               'CASH': {'cash game', 'ring', 'cash'},
