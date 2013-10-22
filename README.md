@@ -5,9 +5,13 @@ Hand history parser library.
 It parses:
 
 * PokerStars 
-* Full Tilt 
+* Full Tilt
 
-tournament hands right now, very efficiently and with a simple API.
+tournament hands and
+
+* PKR  
+
+cash games right now, very efficiently and with a simple API.
 
 ##Usage
 
@@ -70,7 +74,8 @@ From project folder:
 Py.test will automatically pick up unit tests.
 
 ## Requirements
-Right now, Python 2.7 only.
+Python 2.7 and `pytz`.  
+`pytest` for testing.
 
 ## LICENSE
 
