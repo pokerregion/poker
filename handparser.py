@@ -133,6 +133,13 @@ class PokerHand(MutableMapping):
                     board.append(self.river)
         return tuple(board) if board else None
 
+    def _parse_date(self, date_string):
+        date = datetime.strptime(date_string, self.date_format)
+        self.date = self._time_zone.localize(date).astimezone(UTC)
+
+    def _init_seats(self, player_num):
+        return [('Empty Seat %s' % num, Decimal(0)) for num in range(1, player_num + 1)]
+
 
 class PokerStarsHand(PokerHand):
     """Parses PokerStars Tournament hands.
@@ -143,6 +150,7 @@ class PokerStarsHand(PokerHand):
 
     poker_room = 'STARS'
     date_format = '%Y/%m/%d %H:%M:%S ET'
+    _time_zone = ET
 
     _split_pattern = re.compile(r" ?\*\*\* ?\n?|\n")
     _header_pattern = re.compile(r"""
@@ -189,8 +197,7 @@ class PokerStarsHand(PokerHand):
         self.bb = Decimal(match.group('bb'))
         self.buyin = Decimal(match.group('buyin'))
         self.rake = Decimal(match.group('rake'))
-        date = datetime.strptime(match.group('date'), self.date_format)
-        self.date = ET.localize(date).astimezone(UTC)
+        self._parse_date(match.group('date'))
         self.game = GAMES[match.group('game')]
         self.limit = LIMITS[match.group('limit')]
         self.ident = match.group('ident')
@@ -223,7 +230,7 @@ class PokerStarsHand(PokerHand):
         self.button_seat = int(match.group(3))
 
     def _parse_seats(self):
-        players = [('Empty Seat %s' % num, 0) for num in range(1, self.max_players + 1)]
+        players = self._init_seats(self.max_players)
         for line in self._splitted[2:]:
             match = self._seat_pattern.match(line)
             if not match:
@@ -309,6 +316,7 @@ class FullTiltHand(PokerHand):
     """
     poker_room = 'FTP'
     date_format = '%H:%M:%S ET - %Y/%m/%d'
+    _time_zone = ET
 
     _split_pattern = re.compile(r" ?\*\*\* ?\n?|\n")
 
@@ -364,8 +372,7 @@ class FullTiltHand(PokerHand):
         self.bb = Decimal(match.group(2))
 
         match = self._date_pattern.search(header_line)
-        date = ET.localize(datetime.strptime(match.group(1), self.date_format))
-        self.date = date.astimezone(UTC)
+        self._parse_date(match.group(1))
 
         self.tournament_level = self.buyin = self.rake = self.currency = None
 
@@ -388,7 +395,7 @@ class FullTiltHand(PokerHand):
 
     def _parse_seats(self):
         # In hh there is no indication of max_players, so init for 9.
-        players = [('Empty Seat %s' % num, 0) for num in range(1, 10)]
+        players = self._init_seats(9)
         for line in self._splitted[1:]:
             match = self._seat_pattern.match(line)
             if not match:
@@ -398,7 +405,7 @@ class FullTiltHand(PokerHand):
             stack = int(match.group(3).replace(',', ''))
             players[seat_number - 1] = (player_name, stack)
         self.max_players = seat_number
-        self.players = OrderedDict(players)
+        self.players = OrderedDict(players[:self.max_players])  # cut off unneccesary seats
 
         # one line before the first split.
         button_line = self._splitted[self._sections[0] - 1]
