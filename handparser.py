@@ -21,11 +21,32 @@ ET = pytz.timezone('US/Eastern')
 UTC = pytz.UTC
 CET = pytz.timezone('Europe/Budapest')
 
-POKER_ROOMS = {'PokerStars': 'STARS', 'Full Tilt Poker': 'FTP', 'PKR': 'PKR'}
-TYPES = {'Tournament': 'TOUR', 'RING': 'CASH', 'Cash Game': 'CASH'}
-GAMES = {"Hold'em": 'HOLDEM', "HOLD'EM": 'HOLDEM', 'OMAHA': 'OMAHA'}
-LIMITS = {'No Limit': 'NL', 'NO LIMIT': 'NL', 'NL': 'NL', 'PL': 'PL', 'Pot Limit': 'PL', 'POT LIMIT': 'PL'}
-MONEY_TYPES = {'REAL MONEY': 'R', 'PLAY_MONEY': 'P'}
+
+_NORMALIZE = {'STARS': {'pokerstars', 'stars', 'ps'},
+              'FTP': {'full tilt poker', 'full tilt', 'ftp'},
+              'PKR': {'pkr', 'pkr poker'},
+
+              'TOUR': {'tournament', 'tour'},
+              'CASH': {'cash game', 'ring', 'cash'},
+
+              'HOLDEM': {"hold'em", 'holdem'},
+              'OMAHA': {'omaha'},
+
+              'NL': {'no limit', 'nl'},
+              'PL': {'pot limit', 'pl'},
+              'FL': {'fix limit', 'fl'},
+
+              'R': {'real money'},
+              'P': {'play money'}}
+
+
+def normalize(value):
+    """Normalize common words which can be in multiple form, but all means the same."""
+    value = value.lower()
+    for normalized, compare in _NORMALIZE.iteritems():
+        if value in compare:
+            return normalized
+    return value.upper()
 
 
 class PokerHand(MutableMapping):
