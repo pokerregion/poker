@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """Poker hand history parser module.
 
 It only parses PokerStars and Full Tilt Poker Tournament hands, but the plan is to parse a lot.
@@ -17,14 +19,14 @@ import pytz
 
 locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')  # need for abbreviated month names
 
-ET = pytz.timezone('US/Eastern')
-UTC = pytz.UTC
-CET = pytz.timezone('Europe/Budapest')
-
 
 _NORMALIZE = {'STARS': {'pokerstars', 'stars', 'ps'},
               'FTP': {'full tilt poker', 'full tilt', 'ftp'},
               'PKR': {'pkr', 'pkr poker'},
+
+              'USD': {'usd', '$'},
+              'EUR': {'eur', '€'},
+              'GBP': {'gbp', '£'},
 
               'TOUR': {'tournament', 'tour'},
               'CASH': {'cash game', 'ring', 'cash'},
@@ -177,7 +179,7 @@ class PokerStarsHand(PokerHand):
 
     poker_room = 'STARS'
     date_format = '%Y/%m/%d %H:%M:%S ET'
-    _time_zone = ET
+    _time_zone = pytz.timezone('US/Eastern')  # ET
 
     _split_pattern = re.compile(r" ?\*\*\* ?\n?|\n")
     _header_pattern = re.compile(r"""
@@ -343,7 +345,7 @@ class FullTiltHand(PokerHand):
     """
     poker_room = 'FTP'
     date_format = '%H:%M:%S ET - %Y/%m/%d'
-    _time_zone = ET
+    _time_zone = pytz.timezone('US/Eastern')  # ET
 
     _split_pattern = re.compile(r" ?\*\*\* ?\n?|\n")
 
@@ -514,7 +516,7 @@ class PKRHand(PokerHand):
     poker_room = 'PKR'
     date_format = '%d %b %Y %H:%M:%S'
     currency = 'USD'
-    _time_zone = UTC
+    _time_zone = pytz.UTC
 
     _split_pattern = re.compile(r"Dealing |\nDealing Cards\n|Taking |Moving |\n")
     _blinds_pattern = re.compile(r"^Blinds are now \$([\d.]*) / \$([\d.]*)$")
