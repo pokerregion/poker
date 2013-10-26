@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Poker hand history parser module.
-
-It only parses PokerStars and Full Tilt Poker Tournament hands, but the plan is to parse a lot.
-
-"""
-
+"""Poker hand history parser module."""
 
 import re
 from abc import ABCMeta, abstractmethod
@@ -43,7 +38,14 @@ _NORMALIZE = {'STARS': {'pokerstars', 'stars', 'ps'},
 
 
 def normalize(value):
-    """Normalize common words which can be in multiple form, but all means the same."""
+    """Normalize common words which can be in multiple form, but all means the same.
+
+    | For example, PKR calls "Cash game" "ring game",
+    | or there are multiple forms of holdem like "Hold'em", "holdem", "he", etc..
+
+    :param value: the word to normalize like "No limit", "Hold'em", "Cash game"
+    :return: Normalized form of the word like ``"NL"``, ``"HOLDEM"``, ``"CASH"``, etc.
+    """
     value = value.lower()
     for normalized, compare in _NORMALIZE.iteritems():
         if value in compare:
@@ -52,47 +54,47 @@ def normalize(value):
 
 
 class PokerHand(MutableMapping):
-    """Abstract base class for parsers.
+    """Abstract base class for *all* room-specific parser.
 
-    The attributes can be iterated
-    The class can read like a dictionary.
-    Every attribute default value is None.
+    | The attributes can be iterated.
+    | The class can read like a dictionary.
+    | Every attribute default value is ``None``.
 
-    Public attributes:
-        poker_room          -- room ID (4 byte max) ex. STARS, FTP
-        ident               -- hand id
-        game_type           -- TOUR for tournaments or SNG for Sit&Go-s
-        tournament_ident    -- tournament id
-        tournament_level
-        currency            -- 3 letter iso code USD, HUF, EUR, etc.
-        buyin               -- buyin without rake
-        rake                -- if game_type is TOUR it's buyin rake, if CASH it's rake from pot
-        game                -- game type: HOLDEM, OMAHA, STUD, RAZZ, etc.
-        limit               -- NL, PL or FL
-        sb                  -- amount of small blind
-        bb                  -- amount of big blind
-        date                -- hand date in UTC
-
-        table_name      -- name of the table. it's 'tournament number[ ]table number'
-        max_player      -- maximum players can sit on the table, 2, 4, 6, 7, 8, 9
-        button_seat     -- seat of button player, starting from 1
-        button          -- player name on the button
-        hero            -- name of hero
-        hero_seat (int) -- seat of hero, starting from 1
-        players         -- OrderedDict of tuples in form (playername, starting_stack)
-                           the sequence is the seating order at the table at the start of the hand
-        hero_hole_cards -- tuple of two cards, ex. ('Ah', 'As')
-        flop            -- tuple of flop cards, ex. ('Ah', '2s', '2h')
-        turn            -- str of turn card, ex. 'Ah'
-        river           -- str of river card, ex. '2d'
-        board           -- tuple of board cards, ex. ('4s', 4d', '4c', '5h')
-        preflop actions -- tuple of action lines in str
-        flop_actions    -- tuple of flop action lines
-        turn_actions
-        river_actions
-        total_pot       -- total pot after end of actions (rake included)
-        show_down       -- There was showd_down or wasn't (bool)
-        winners         -- tuple of winner names, even when there is only one winner. ex. ('W2lkm2n')
+    :ivar str poker_room:         room ID (4 byte max) e.g. ``"STARS"``, ``"FTP"``
+    :ivar str date_format:        default date format for the given poker_room
+    :ivar str ident:              hand id
+    :ivar str game_type:          ``"TOUR"`` for tournaments or ``"SNG"`` for Sit&Go-s
+    :ivar str tournament_ident:   tournament id
+    :ivar str tournament_level:   level of tournament blinds
+    :ivar str currency:           3 letter iso code ``"USD"``, ``"HUF"``, ``"EUR"``, etc.
+    :ivar Decimal buyin:          buyin **without** rake
+    :ivar Decimal rake:           if game_type is ``"TOUR"`` it's buyin rake, if ``"CASH"`` it's rake from pot
+    :ivar str game:               ``"HOLDEM"``, ``"OMAHA"``, ``"STUD"``, ``"RAZZ"``, etc.
+                                  you should call :func:`normalize` to generate the correct value
+    :ivar str limit:              ``"NL"``, ``"PL"`` or ``"FL"``
+    :ivar Decimal sb:             amount of small blind
+    :ivar Decimal bb:             amount of big blind
+    :ivar datetime date:          hand date in UTC
+    :ivar str table_name:         name of the table. it's ``"tournament_number table_number"``
+    :ivar int max_player:         maximum players can sit on the table, 2, 4, 6, 7, 8, 9
+    :ivar int button_seat:        seat of button player, starting from 1
+    :ivar str button:             player name on the button
+    :ivar unicode hero:           name of hero
+    :ivar int hero_seat:          seat of hero, starting from 1
+    :ivar OrderedDict players:    tuples in form of ``(playername, starting_stack)``
+                                  the sequence is the seating order at the table at the start of the hand
+    :ivar tuple hero_hole_cards:  two cards, e.g. ``('Ah', 'As')``
+    :ivar tuple flop:             flop cards, e.g. ``('Ah', '2s', '2h')``
+    :ivar str turn:               turn card, e.g. ``'Ah'``
+    :ivar str river:              river card, e.g. ``'2d'``
+    :ivar tuple board:            board cards, e.g. ``('4s', 4d', '4c', '5h')``
+    :ivar tuple preflop actions:  action lines in str
+    :ivar tuple flop_actions:     flop action lines
+    :ivar tuple turn_actions:     turn action lines
+    :ivar tuple river_actions:    river action lines
+    :ivar Decimal total_pot:      total pot after end of actions (rake included)
+    :ivar bool show_down:         There was show_down or wasn't
+    :ivar tuple winners:          winner names, tuple if even when there is only one winner. e.g. ``('W2lkm2n',)``
     """
     __metaclass__ = ABCMeta
 
@@ -103,9 +105,9 @@ class PokerHand(MutableMapping):
         """Save raw hand history.
 
         Parameters:
-            hand_text   -- str of poker hand
-            parse       -- if False, hand will not parsed immediately.
-                           Useful if you just want to quickly check header first.
+            :param str hand_text:  poker hand
+            :param bool parse:     if ``False``, hand will not parsed immediately.
+                                   Useful if you just want to quickly check header first.
         """
         self.raw = hand_text.strip()
         self.header_parsed = False
@@ -143,16 +145,16 @@ class PokerHand(MutableMapping):
     @abstractmethod
     def parse_header(self):
         """Parses the first line of a hand history."""
-        pass
 
     @abstractmethod
     def parse(self):
-        """Parse the body of the hand history, but first parse header if not yet parsed."""
+        """Parses the body of the hand history, but first parse header if not yet parsed."""
         if not self.header_parsed:
             self.parse_header()
 
     @property
     def board(self):
+        """Calculates board from flop, turn and river."""
         board = []
         if self.flop:
             board.extend(self.flop)
@@ -173,8 +175,9 @@ class PokerHand(MutableMapping):
 class PokerStarsHand(PokerHand):
     """Parses PokerStars Tournament hands.
 
-    Class specific attributes:
-        poker_room          -- STARS
+    **Class specific**
+
+    :ivar str poker_room:   always ``STARS`` in this class
     """
 
     poker_room = 'STARS'
@@ -325,22 +328,24 @@ class FullTiltHand(PokerHand):
     PokerStars and Full Tilt hand histories are very similar, so parsing them is almost identical.
     There are small differences though.
 
-    Class specific attributes:
-        poker_room        -- FTP
-        tournament_level  -- None
-        buyin             -- None
-        rake              -- None
-        currency          -- None
-        table_name        -- just a number, but str type
+    **Class specific**
 
-    Extra attributes:
-        flop_pot          -- pot size on the flop, before actions
-        flop_num_players  -- number of players seen the flop
-        turn_pot          -- pot size before turn
-        turn_num_players  -- number of players seen the turn
-        river_pot         -- pot size before river
-        river_num_players -- number of players seen the river
-        tournament_name   -- ex. "$750 Guarantee", "$5 Sit & Go (Super Turbo)"
+    :cvar str poker_room:       always ``FTP`` for this class
+    :ivar tournament_level:     ``None``
+    :ivar buyin:                ``None``: it's not in the hand history, but the filename
+    :ivar rake:                 ``None``: also
+    :ivar currency:             ``None``
+    :ivar str table_name:       just a number, but str type
+
+    **Extra**
+
+    :ivar Decimal flop_pot:         pot size on the flop, before actions
+    :ivar int flop_num_players:     number of players seen the flop
+    :ivar Decimal turn_pot:         pot size before turn
+    :ivar int turn_num_players:     number of players seen the turn
+    :ivar Decimal river_pot:        pot size before river
+    :ivar int river_num_players:    number of players seen the river
+    :ivar unicode tournament_name:  e.g. ``"$750 Guarantee"``, ``"$5 Sit & Go (Super Turbo)"``
 
     """
     poker_room = 'FTP'
@@ -504,13 +509,15 @@ class FullTiltHand(PokerHand):
 class PKRHand(PokerHand):
     """Parses PKR hands.
 
-    Class specific attributes:
-        poker_room        -- PKR
-        table_name        -- "#table_number - name of the table"
+    **Class specific**
 
-    Extra attributes:
-        last_ident        -- last hand id
-        money_type        -- 'R' for real money, 'P' for play money
+    :cvar str poker_room:       ``"PKR"`` for this class
+    :ivar unicode table_name:   "#table_number - name_of_the_table"
+
+    **Extra**
+
+    :ivar str last_ident:    last hand id
+    :ivar str money_type:    ``"R"`` for real money, ``"P"`` for play money
 
     """
     poker_room = 'PKR'
