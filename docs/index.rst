@@ -8,7 +8,7 @@ About
 
 There are a lot of hand history parser libraries. I wanted to make one more :D
 
-| Tracker: https://github.com/stakingadmin/handparser
+| Repo: https://github.com/stakingadmin/handparser
 | Issues: https://github.com/stakingadmin/handparser/issues
 
 Basic example

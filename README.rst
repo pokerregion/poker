@@ -22,7 +22,7 @@ cash games right now, very efficiently and with a simple API.
 Documentation
 -------------
 For example usage, testing and contributing, see the docs on
-Read the Docs: https://readthedocs.org/handparser
+Read the Docs: http://handparser.readthedocs.org/
 
 Requirements
 ------------
