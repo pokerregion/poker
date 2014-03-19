@@ -166,7 +166,7 @@ class PokerHand(MutableMapping):
 
     def _parse_date(self, date_string):
         date = datetime.strptime(date_string, self.date_format)
-        self.date = self._time_zone.localize(date).astimezone(pytz.UTC)
+        self.date = self._TZ.localize(date).astimezone(pytz.UTC)
 
     def _init_seats(self, player_num):
         return [('Empty Seat %s' % num, Decimal(0)) for num in range(1, player_num + 1)]
@@ -182,7 +182,7 @@ class PokerStarsHand(PokerHand):
 
     poker_room = 'STARS'
     date_format = '%Y/%m/%d %H:%M:%S ET'
-    _time_zone = pytz.timezone('US/Eastern')  # ET
+    _TZ = pytz.timezone('US/Eastern')  # ET
 
     _split_re = re.compile(r" ?\*\*\* ?\n?|\n")
     _header_re = re.compile(r"""
@@ -350,7 +350,7 @@ class FullTiltHand(PokerHand):
     """
     poker_room = 'FTP'
     date_format = '%H:%M:%S ET - %Y/%m/%d'
-    _time_zone = pytz.timezone('US/Eastern')  # ET
+    _TZ = pytz.timezone('US/Eastern')  # ET
 
     _split_re = re.compile(r" ?\*\*\* ?\n?|\n")
 
@@ -523,7 +523,7 @@ class PKRHand(PokerHand):
     poker_room = 'PKR'
     date_format = '%d %b %Y %H:%M:%S'
     currency = 'USD'
-    _time_zone = pytz.UTC
+    _TZ = pytz.UTC
 
     _split_re = re.compile(r"Dealing |\nDealing Cards\n|Taking |Moving |\n")
     _blinds_re = re.compile(r"^Blinds are now \$([\d.]*) / \$([\d.]*)$")
