@@ -533,6 +533,7 @@ class PKRHand(PokerHand):
     _card_pattern = re.compile(r"\[(. .)\]")
     _rake_pattern = re.compile(r"Rake of \$([\d.]*) from pot \d$")
     _win_pattern = re.compile(r"^(.*) wins \$([\d.]*) with: ")
+    SPLIT_CARD_SPACE = slice(0, 3, 2)
 
     def __init__(self, hand_text, parse=True):
         """Split hand history by sections and parse."""
@@ -608,8 +609,8 @@ class PKRHand(PokerHand):
         dealt_row = self._splitted[self._sections[1] + 1]
         match = self._dealt_pattern.match(dealt_row)
 
-        first = match.group(1)[0:3:2]   # split space in the middle
-        second = match.group(2)[0:3:2]
+        first = match.group(1)[self.SPLIT_CARD_SPACE]
+        second = match.group(2)[self.SPLIT_CARD_SPACE]
         self.hero_hole_cards = (first, second)
 
         self.hero = match.group(3)
@@ -627,7 +628,7 @@ class PKRHand(PokerHand):
             start = self._sections[section] + 1
 
             street_line = self._splitted[start]
-            cards = map(lambda x: x[0:3:2], self._card_pattern.findall(street_line))
+            cards = map(lambda x: x[self.SPLIT_CARD_SPACE], self._card_pattern.findall(street_line))
             setattr(self, street, tuple(cards) if street == 'flop' else cards[0])
 
             stop = next(v for v in self._sections if v > start) - 1
