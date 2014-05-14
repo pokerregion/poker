@@ -1,10 +1,10 @@
 handparser |travis| |coveralls|
 ===============================
 
-.. |travis| image:: https://travis-ci.org/stakingadmin/handparser.png?branch=master
-   :target: https://travis-ci.org/stakingadmin/handparser
-.. |coveralls| image:: https://coveralls.io/repos/stakingadmin/handparser/badge.png?branch=master
-   :target: https://coveralls.io/r/stakingadmin/handparser?branch=master
+.. |travis| image:: https://travis-ci.org/pokerherd/handparser.png?branch=master
+   :target: https://travis-ci.org/pokerherd/handparser
+.. |coveralls| image:: https://coveralls.io/repos/pokerherd/handparser/badge.png?branch=master
+  :target: https://coveralls.io/r/pokerherd/handparser?branch=master
 
 
 Hand history parser library.
