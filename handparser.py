@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 
 """Poker hand history parser module."""
 
@@ -12,16 +13,16 @@ import locale
 import pytz
 
 
-locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')  # need for abbreviated month names
+locale.setlocale(locale.LC_ALL, b'en_US.UTF-8')  # need for abbreviated month names
 
 
 _NORMALIZE = {'STARS': {'pokerstars', 'stars', 'ps'},
               'FTP': {'full tilt poker', 'full tilt', 'ftp'},
               'PKR': {'pkr', 'pkr poker'},
 
-              'USD': {'usd', u'$'},
-              'EUR': {'eur', u'€'},
-              'GBP': {'gbp', u'£'},
+              'USD': {'usd', '$'},
+              'EUR': {'eur', '€'},
+              'GBP': {'gbp', '£'},
 
               'TOUR': {'tournament', 'tour'},
               'CASH': {'cash game', 'ring', 'cash'},
