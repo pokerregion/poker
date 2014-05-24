@@ -24,10 +24,12 @@ _SUITS = 'cdhs'
 class RangeSyntaxError(SyntaxError):
     """Thrown when range syntax cannot be parsed."""
 
-class InvalidRank(Exception):
+class InvalidRank(ValueError):
     pass
 
-class InvalidCard(Exception):
+class InvalidCard(ValueError):
+    pass
+
     pass
 
 class RangeError(Exception):
@@ -39,7 +41,7 @@ class Rank(object):
 
     def __init__(self, rank):
         if not isinstance(rank, basestring):
-            raise TypeError('Should be str!')
+            raise TypeError('Should be text!')
 
         rank = rank.upper()
 
@@ -76,6 +78,9 @@ class Card(object):
         if len(card) != 2:
             raise InvalidCard('length should be two in {!r}'.format(card))
 
+        if not isinstance(card, basestring):
+            raise TypeError('Should be text!')
+
         rank, suit = card[0].upper(), card[1].lower()
 
         if rank not in RANKS:
@@ -94,6 +99,8 @@ class Card(object):
 
     @classmethod
     def from_rank(cls, rank, suit):
+        if not isinstance(rank, Rank):
+            raise TypeError('Should be Rank')
         return cls(rank.rank + suit)
 
     def __eq__(self, other):
