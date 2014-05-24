@@ -27,6 +27,9 @@ class RangeSyntaxError(SyntaxError):
 class InvalidRank(Exception):
     pass
 
+class InvalidCard(Exception):
+    pass
+
 class RangeError(Exception):
     """General Exception with Range objects."""
 
@@ -63,6 +66,56 @@ class Rank(object):
 
     def __repr__(self):
         return "Rank('{}')".format(self).encode('utf8')
+
+
+@total_ordering
+class Card(object):
+    __slots__ = ('rank', 'suit')
+
+    def __init__(self, card):
+        if len(card) != 2:
+            raise InvalidCard('length should be two in {!r}'.format(card))
+
+        rank, suit = card[0].upper(), card[1].lower()
+
+        if rank not in RANKS:
+            raise InvalidCard('Rank {}, should be one of {}'
+                              .format(rank, RANKS))
+        if suit not in SUITS:
+            raise InvalidCard('suit "{}" should be one of {}'
+                              .format(suit, SUITS))
+        self.rank, self.suit = Rank(rank), suit
+
+    @classmethod
+    def make_random(cls):
+        rank = random.choice(RANKS)
+        suit = random.choice(SUITS)
+        return cls(rank + suit)
+
+    @classmethod
+    def from_rank(cls, rank, suit):
+        return cls(rank.rank + suit)
+
+    def __eq__(self, other):
+        return self.rank == other.rank
+
+    def __lt__(self, other):
+        return self.rank < other.rank
+
+    def __unicode__(self):
+        return self.rank.rank + self.suit
+
+    def __str__(self):
+        return unicode(self).encode('utf8')
+
+    def __repr__(self):
+        return "Card('{}')".format(self).encode('utf8')
+
+    def is_face(self):
+        return self.rank.rank in ('J', 'Q', 'K')
+
+    def is_broadway(self):
+        return self.rank.rank in ('T', 'J', 'Q', 'K', 'A')
 
 class Range(object):
     """Parses a range.
