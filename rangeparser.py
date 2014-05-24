@@ -67,7 +67,7 @@ class Rank(object):
         return unicode(self).encode('utf8')
 
     def __repr__(self):
-        return "Rank('{}')".format(self).encode('utf8')
+        return "Rank('{!s}')".format(self)
 
 
 @total_ordering
@@ -77,18 +77,16 @@ class Card(object):
     def __init__(self, card):
         if len(card) != 2:
             raise InvalidCard('length should be two in {!r}'.format(card))
-
-        if not isinstance(card, basestring):
+        elif not isinstance(card, basestring):
             raise TypeError('Should be text!')
 
         rank, suit = card[0].upper(), card[1].lower()
 
         if rank not in RANKS:
-            raise InvalidCard('Rank {}, should be one of {}'
-                              .format(rank, RANKS))
-        if suit not in SUITS:
-            raise InvalidCard('suit "{}" should be one of {}'
-                              .format(suit, SUITS))
+            raise InvalidCard('{!r}, should be one of {}'.format(rank, RANKS))
+        elif suit not in SUITS:
+            raise InvalidCard('{!r}, suit "{}" should be one of {}'.format(card, suit, SUITS))
+
         self.rank, self.suit = Rank(rank), suit
 
     @classmethod
@@ -116,7 +114,7 @@ class Card(object):
         return unicode(self).encode('utf8')
 
     def __repr__(self):
-        return "Card('{}')".format(self).encode('utf8')
+        return "Card('{!s}')".format(self)
 
     def is_face(self):
         return self.rank.rank in ('J', 'Q', 'K')
