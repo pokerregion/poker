@@ -57,6 +57,9 @@ class Rank(object):
     def __eq__(self, other):
         return self.rank == other.rank
 
+    def __ne__(self, other):
+        return self.rank != other.rank
+
     def __lt__(self, other):
         return RANKS.index(self.rank) < RANKS.index(other.rank)
 
@@ -103,6 +106,9 @@ class Card(object):
 
     def __eq__(self, other):
         return self.rank == other.rank
+
+    def __ne__(self, other):
+        return self.rank != other.rank
 
     def __lt__(self, other):
         return self.rank < other.rank
