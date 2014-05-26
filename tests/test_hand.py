@@ -20,6 +20,7 @@ def test_representations():
 
 def test_ordering():
     assert Hand('AKo') > Hand('AQs')
+
     assert Hand('AKo') > Hand('KQo')
     assert Hand('AKs') > Hand('54o')
     assert Hand('AJo') > Hand('A2s')
@@ -37,6 +38,26 @@ def test_ordering():
 
     assert Hand('76s') > Hand('76o')
 
+
+def test_ordering_reverse():
+    assert Hand('AQs') < Hand('AKo')
+
+    assert Hand('KQo') < Hand('AKo')
+    assert Hand('54o') < Hand('AKs')
+    assert Hand('A2s') < Hand('AJo')
+    assert Hand('A2o') < Hand('AJo')
+    assert Hand('KJo') < Hand('KQo')
+    assert Hand('75s') < Hand('76s')
+    assert Hand('75s') < Hand('76o')
+
+    assert Hand('22') < Hand('33')
+    assert Hand('JTo') < Hand('22')
+    assert Hand('A2o') < Hand('22')
+    assert Hand('A3s') < Hand('22')
+    assert Hand('JTs') < Hand('JJ')
+    assert Hand('AJs') < Hand('JJ')
+
+    assert Hand('76o') < Hand('76s')
 
 def test_different_suits_are_equal_if_ranks_are_the_same():
     assert Hand('AKo') == Hand('AKo')

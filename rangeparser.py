@@ -192,7 +192,7 @@ class Hand(object):
 
     def __lt__(self, other):
         # pairs are better than non-pairs
-        if not self.is_pair and other.is_pair():
+        if not self.is_pair() and other.is_pair():
             return True
         elif self.is_pair() and not other.is_pair():
             return False
@@ -203,7 +203,7 @@ class Hand(object):
             # so, offsuit hand is 'less' than suited
             return self.suit == 'o'
         else:
-            return self.first < other.first and self.second < other.second
+            return self.first <= other.first and self.second < other.second
 
     def __unicode__(self):
         return '{}{}{}'.format(self.first, self.second, self.suit)
