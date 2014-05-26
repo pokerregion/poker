@@ -49,7 +49,8 @@ class Rank(object):
             raise TypeError('Should be text!')
 
         rank = rank.upper()
-
+        if len(rank) != 1:
+            raise InvalidRank('{!r}, should be 1 char long. Rank has no suit.'.format(rank))
         if rank not in RANKS:
             raise InvalidRank(repr(rank))
 
@@ -151,7 +152,11 @@ class Hand(object):
         elif len(hand) not in (2, 3):
             raise InvalidHand('Length should be 2 (pair) or 3 (hand)')
 
-        first, second = Rank(hand[0]), Rank(hand[1])
+        try:
+            first, second = Rank(hand[0]), Rank(hand[1])
+        except InvalidRank as e:
+            raise InvalidHand('{!r}, invalid rank: {}'.format(hand, e))
+
         if len(hand) == 2:
             if first != second:
                 raise InvalidHand('{!r}, Not a pair! Maybe you need to specify a suit?'
@@ -160,9 +165,9 @@ class Hand(object):
         elif len(hand) == 3:
             suit = hand[2].lower()
             if first == second:
-                raise InvalidHand("{!r}, pairs can't have a suit!".format(hand))
+                raise InvalidHand("{!r}; pairs can't have a suit: {!r}".format(hand, suit))
             elif suit not in ('s', 'o'):
-                raise InvalidHand('{!r}, wrong suit: {}'.format(hand, suit))
+                raise InvalidHand('{!r}, wrong suit: {!r}'.format(hand, suit))
             self.suit = suit
 
         if first > second:

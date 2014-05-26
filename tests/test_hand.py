@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals, absolute_import, division, print_function
 
-from rangeparser import Hand, Rank, InvalidHand, InvalidRank
+from rangeparser import Hand, Rank, InvalidHand
 from pytest import raises
 
 
@@ -111,7 +111,7 @@ class TestInvalidHands:
             Hand('32l')
 
     def test_invalid_rank(self):
-        with raises(InvalidRank):
+        with raises(InvalidHand):
             Hand('AMs')
 
     def test_pair_with_suit(self):
