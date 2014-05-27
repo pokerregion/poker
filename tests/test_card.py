@@ -17,17 +17,24 @@ def test_comparisons():
     assert Card('Ac') > Card('2s')
 
 
+def test_comparisons_reverse():
+    assert Card('Kh') < Card('Ac')
+    assert Card('Qd') < Card('Ks')
+    assert Card('Js') < Card('Qs')
+    assert Card('Th') < Card('Jd')
+    assert Card('2s') < Card('Ac')
+
+
 def test_suit():
     assert Card('Ac').suit == 'c'
 
 
 def test_rank():
-    assert Card('Ah').rank == Rank('A')
-    assert Card('As').rank.rank == 'A'
+    assert Card('Ah').rank == 'A'
 
 
 def test_case_insensitive():
-    assert Card('aH').rank == Rank('A')
+    assert Card('aH').rank == 'A'
     assert Card('aH').suit == 'h'
 
 
@@ -52,3 +59,8 @@ def test_alternative_constructor():
     card = Card.from_rank(rank, 'c')
     assert isinstance(card, Card)
     assert card == Card('Ac')
+
+
+def test_representation():
+    assert str(Card('As')) == 'As'
+    assert repr(Card('As')) == "Card('As')"

@@ -52,7 +52,7 @@ class Rank(object):
         if len(rank) != 1:
             raise InvalidRank('{!r}, should be 1 char long. Rank has no suit.'.format(rank))
         if rank not in RANKS:
-            raise InvalidRank(repr(rank))
+            raise InvalidRank('{!r}, should be one of {}'.format(rank, RANKS))
 
         self.rank = rank
 
@@ -76,11 +76,10 @@ class Rank(object):
         return unicode(self).encode('utf8')
 
     def __repr__(self):
-        return "Rank('{!s}')".format(self)
+        return "{}('{!s}')".format(self.__class__.__name__, self)
 
 
-@total_ordering
-class Card(object):
+class Card(Rank):
     __slots__ = ('rank', 'suit')
 
     def __init__(self, card):
@@ -89,18 +88,17 @@ class Card(object):
         elif not isinstance(card, basestring):
             raise TypeError('Should be text!')
 
-        rank, suit = card[0].upper(), card[1].lower()
+        super(Card, self).__init__(card[0])
+        suit = card[1].lower()
 
-        if rank not in RANKS:
-            raise InvalidCard('{!r}, should be one of {}'.format(rank, RANKS))
-        elif suit not in SUITS:
+        if suit not in SUITS:
             raise InvalidCard('{!r}, suit "{}" should be one of {}'.format(card, suit, SUITS))
 
-        self.rank, self.suit = Rank(rank), suit
+        self.suit = suit
 
     @classmethod
     def make_random(cls):
-        rank = random.choice(RANKS)
+        rank = super(Card).make_random(cls)
         suit = random.choice(SUITS)
         return cls(rank + suit)
 
@@ -110,29 +108,14 @@ class Card(object):
             raise TypeError('Should be Rank')
         return cls(rank.rank + suit)
 
-    def __eq__(self, other):
-        return self.rank == other.rank
-
-    def __ne__(self, other):
-        return not self.__eq__(other)
-
-    def __lt__(self, other):
-        return self.rank < other.rank
-
     def __unicode__(self):
-        return self.rank.rank + self.suit
-
-    def __str__(self):
-        return unicode(self).encode('utf8')
-
-    def __repr__(self):
-        return "Card('{!s}')".format(self)
+        return self.rank + self.suit
 
     def is_face(self):
-        return self.rank.rank in _FACE_CARDS
+        return self.rank in _FACE_CARDS
 
     def is_broadway(self):
-        return self.rank.rank in _BROADWAY_CARDS
+        return self.rank in _BROADWAY_CARDS
 
 
 @total_ordering
