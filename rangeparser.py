@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals, absolute_import, division
-
 """
     Rangeparser
     ~~~~~~~~~~~
@@ -41,11 +38,11 @@ class RangeError(Exception):
     """General Exception with Range objects."""
 
 @total_ordering
-class Rank(object):
+class Rank:
     __slots__ = 'rank'
 
     def __init__(self, rank):
-        if not isinstance(rank, basestring):
+        if not isinstance(rank, str):
             raise TypeError('Should be text!')
 
         rank = rank.upper()
@@ -69,11 +66,8 @@ class Rank(object):
     def __lt__(self, other):
         return RANKS.index(self.rank) < RANKS.index(other.rank)
 
-    def __unicode__(self):
-        return self.rank
-
     def __str__(self):
-        return unicode(self).encode('utf8')
+        return self.rank
 
     def __repr__(self):
         return "{}('{!s}')".format(self.__class__.__name__, self)
@@ -85,7 +79,7 @@ class Card(Rank):
     def __init__(self, card):
         if len(card) != 2:
             raise InvalidCard('length should be two in {!r}'.format(card))
-        elif not isinstance(card, basestring):
+        elif not isinstance(card, str):
             raise TypeError('Should be text!')
 
         super(Card, self).__init__(card[0])
@@ -108,7 +102,7 @@ class Card(Rank):
             raise TypeError('Should be Rank')
         return cls(rank.rank + suit)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.rank + self.suit
 
     def is_face(self):
@@ -119,19 +113,19 @@ class Card(Rank):
 
 
 @total_ordering
-class Hand(object):
+class Hand:
     """General hand without a precise suit.
 
     Only knows about two ranks and suitedness.
     :ivar Rank first:    first rank
     :ivar Rank second:   second ank
-    :ivar unicode suit:  'o' for offsuit 's' for suited, '' for pairs
+    :ivar str suit:  'o' for offsuit 's' for suited, '' for pairs
     """
     __slots__ = ('first', 'second', 'suit')
 
     def __init__(self, hand):
-        if not isinstance(hand, basestring):
-            raise TypeError('Should be unicode!')
+        if not isinstance(hand, str):
+            raise TypeError('Should be str!')
         elif len(hand) not in (2, 3):
             raise InvalidHand('Length should be 2 (pair) or 3 (hand)')
 
@@ -188,11 +182,8 @@ class Hand(object):
         else:
             return self.first <= other.first and self.second < other.second
 
-    def __unicode__(self):
-        return '{}{}{}'.format(self.first, self.second, self.suit)
-
     def __str__(self):
-        return unicode(self).encode('utf8')
+        return '{}{}{}'.format(self.first, self.second, self.suit)
 
     def __repr__(self):
         return "Hand('{!s}')".format(self)
@@ -224,7 +215,6 @@ class Hand(object):
     def is_pair(self):
         return self.first == self.second
 
-class Range(object):
     """Parses a range.
 
         :ivar set hands:    Set of hands
