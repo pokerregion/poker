@@ -1,8 +1,10 @@
 from rangeparser import Card, Rank
 
 
-def test_same_ranks_are_equeal_no_matter_what_suit():
-    assert Card('Ac') == Card('Ah')
+def test_only_cards_with_same_rank_are_equal():
+    assert Card('Ah') == Card('Ah')
+    assert Card('Ah') != Card('As')
+    assert Card('2c') != Card('2h')
 
 
 def test_comparisons():
@@ -19,6 +21,31 @@ def test_comparisons_reverse():
     assert Card('Js') < Card('Qs')
     assert Card('Th') < Card('Jd')
     assert Card('2s') < Card('Ac')
+
+
+def test_better_suits_are_bigger_with_same_ranks():
+    assert Card('Ac') < Card('Ad')
+    assert Card('Ac') < Card('Ah')
+    assert Card('Ac') < Card('As')
+    assert Card('Ad') < Card('Ah')
+    assert Card('Ad') < Card('As')
+    assert Card('Ah') < Card('As')
+
+
+def test_rank_comparisons():
+    assert Card('Ac').rank > Card('Kh').rank
+    assert Card('Ks').rank > Card('Qd').rank
+    assert Card('Qs').rank > Card('Js').rank
+    assert Card('Jd').rank > Card('Th').rank
+    assert Card('Ac').rank > Card('2s').rank
+
+
+def test_rank_comparisons_reverse():
+    assert Card('Kh').rank < Card('Ac').rank
+    assert Card('Qd').rank < Card('Ks').rank
+    assert Card('Js').rank < Card('Qs').rank
+    assert Card('Th').rank < Card('Jd').rank
+    assert Card('2s').rank < Card('Ac').rank
 
 
 def test_suit():

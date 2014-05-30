@@ -11,13 +11,18 @@
 """
 
 import re
+import random
+import itertools
 from functools import total_ordering
 
 
 RANKS = ('2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K', 'A')
 SUITS = ('c', 'd', 'h', 's')    # clubs, diamonds, spades, hearts in increasing order
-_FACE_CARDS = ('J', 'Q', 'K')
-_BROADWAY_CARDS = ('T', 'J', 'Q', 'K', 'A')
+CARDS = tuple(r + s for r, s in itertools.product(RANKS, SUITS))
+FACE_RANKS = ('J', 'Q', 'K')
+FACE_CARDS = tuple(r + s for r, s in itertools.product(FACE_RANKS, SUITS))
+BROADWAY_RANKS = ('T', 'J', 'Q', 'K', 'A')
+BROADWAY_CARDS = tuple(r + s for r, s in itertools.product(BROADWAY_RANKS, SUITS))
 _SUITS = 'cdhs'
 
 class RangeSyntaxError(SyntaxError):
@@ -39,7 +44,7 @@ class RangeError(Exception):
 
 @total_ordering
 class Rank:
-    __slots__ = 'rank'
+    __slots__ = '_rank'
 
     def __init__(self, rank):
         if not isinstance(rank, str):
@@ -51,30 +56,34 @@ class Rank:
         if rank not in RANKS:
             raise InvalidRank('{!r}, should be one of {}'.format(rank, RANKS))
 
-        self.rank = rank
+        self._rank = rank
 
     @classmethod
     def make_random(cls):
         return cls(random.choice(RANKS))
 
     def __eq__(self, other):
-        return self.rank == other.rank
+        return self._rank == other._rank
 
     def __ne__(self, other):
         return not self.__eq__(other)
 
     def __lt__(self, other):
-        return RANKS.index(self.rank) < RANKS.index(other.rank)
+        return RANKS.index(self._rank) < RANKS.index(other._rank)
 
     def __str__(self):
-        return self.rank
+        return self._rank
 
     def __repr__(self):
         return "{}('{!s}')".format(self.__class__.__name__, self)
 
+    @property
+    def rank(self):
+        return self._rank
+
 
 class Card(Rank):
-    __slots__ = ('rank', 'suit')
+    __slots__ = ('_rank', '_suit')
 
     def __init__(self, card):
         if len(card) != 2:
@@ -88,7 +97,7 @@ class Card(Rank):
         if suit not in SUITS:
             raise InvalidCard('{!r}, suit "{}" should be one of {}'.format(card, suit, SUITS))
 
-        self.suit = suit
+        self._suit = suit
 
     @classmethod
     def make_random(cls):
@@ -100,16 +109,20 @@ class Card(Rank):
     def from_rank(cls, rank, suit):
         if not isinstance(rank, Rank):
             raise TypeError('Should be Rank')
-        return cls(rank.rank + suit)
+        return cls(rank._rank + suit)
 
     def __str__(self):
-        return self.rank + self.suit
+        return self._rank + self._suit
 
     def is_face(self):
-        return self.rank in _FACE_CARDS
+        return self._rank in FACE_RANKS
 
     def is_broadway(self):
-        return self.rank in _BROADWAY_CARDS
+        return self._rank in BROADWAY_RANKS
+
+    @property
+    def suit(self):
+        return self._suit
 
 
 @total_ordering
@@ -138,14 +151,14 @@ class Hand:
             if first != second:
                 raise InvalidHand('{!r}, Not a pair! Maybe you need to specify a suit?'
                                   .format(hand))
-            self.suit = ''
+            self._suit = ''
         elif len(hand) == 3:
             suit = hand[2].lower()
             if first == second:
                 raise InvalidHand("{!r}; pairs can't have a suit: {!r}".format(hand, suit))
             elif suit not in ('s', 'o'):
                 raise InvalidHand('{!r}, wrong suit: {!r}'.format(hand, suit))
-            self.suit = suit
+            self._suit = suit
 
         if first > second:
             self.first, self.second = first, second
@@ -162,7 +175,7 @@ class Hand:
         # AKs != AKo, because AKs is better
         return (self.first == other.first and
                 self.second == other.second and
-                self.suit == other.suit)
+                self._suit == other.suit)
 
     def __ne__(self, other):
         return not self.__eq__(other)
@@ -175,26 +188,26 @@ class Hand:
             return False
         elif (not self.is_pair() and not other.is_pair() and
                 self.first == other.first and self.second == other.second
-                and self.suit != other.suit):
+                and self._suit != other.suit):
             # when Rank match, only suit is the deciding factor
             # so, offsuit hand is 'less' than suited
-            return self.suit == 'o'
+            return self._suit == 'o'
         else:
             return self.first <= other.first and self.second < other.second
 
     def __str__(self):
-        return '{}{}{}'.format(self.first, self.second, self.suit)
+        return '{}{}{}'.format(self.first, self.second, self._suit)
 
     def __repr__(self):
         return "Hand('{!s}')".format(self)
 
     def is_suited(self):
         # pairs are neither suited
-        return self.suit == 's'
+        return self._suit == 's'
 
     def is_offsuit(self):
         # nor offsuits
-        return self.suit == 'o'
+        return self._suit == 'o'
 
     def is_connector(self):
         return RANKS.index(self.first.rank) - RANKS.index(self.second.rank) == 1
@@ -209,8 +222,8 @@ class Hand:
         return self.is_connector() and self.is_suited()
 
     def is_broadway(self):
-        return (self.first.rank in _BROADWAY_CARDS
-                and self.second.rank in _BROADWAY_CARDS)
+        return (self.first.rank in BROADWAY_RANKS
+                and self.second.rank in BROADWAY_RANKS)
 
     def is_pair(self):
         return self.first == self.second
