@@ -79,28 +79,22 @@ class Rank:
         return "{}('{!s}')".format(self.__class__.__qualname__, self)
 
 
-class Card(Rank):
+class Card:
     __slots__ = ('_rank', '_suit')
 
     def __init__(self, card):
-        if len(card) != 2:
-            raise InvalidCard('length should be two in {!r}'.format(card))
-        elif not isinstance(card, str):
+        if not isinstance(card, str):
             raise TypeError('Should be text!')
+        elif len(card) != 2:
+            raise InvalidCard('length should be two in {!r}'.format(card))
 
-        super(Card, self).__init__(card[0])
-        suit = card[1].lower()
-
-        if suit not in SUITS:
-            raise InvalidCard('{!r}, suit "{}" should be one of {}'.format(card, suit, SUITS))
-
-        self._suit = suit
+        self.rank, self.suit = card
 
     @classmethod
     def make_random(cls):
-        rank = super(Card).make_random(cls)
+        rank = super().make_random(cls)
         suit = random.choice(SUITS)
-        return cls(rank + suit)
+        return cls(rank._rank + suit)
 
     @classmethod
     def from_rank(cls, rank, suit):
@@ -108,18 +102,53 @@ class Card(Rank):
             raise TypeError('Should be Rank')
         return cls(rank._rank + suit)
 
+    def __eq__(self, other):
+        return self.rank == other.rank and self.suit == other.suit
+
+    def __ne__(self, other):
+        return not self.__eq__(other)
+
+    def __lt__(self, other):
+        # with same ranks, suit counts
+        if self.rank == other.rank:
+            return self.suit < other.suit
+        return self.rank < other.rank
+
     def __str__(self):
-        return self._rank + self._suit
+        return self.rank._rank + self._suit
+
+    def __repr__(self):
+        return "{}('{!s}')".format(self.__class__.__qualname__, self)
 
     def is_face(self):
-        return self._rank in FACE_RANKS
+        return self.rank._rank in FACE_RANKS
 
     def is_broadway(self):
-        return self._rank in BROADWAY_RANKS
+        return self.rank._rank in BROADWAY_RANKS
+
+    @property
+    def rank(self):
+        return self._rank
+
+    @rank.setter
+    def rank(self, value):
+        try:
+            self._rank = Rank(value)
+        except InvalidRank:
+            raise InvalidCard(repr(value))
 
     @property
     def suit(self):
         return self._suit
+
+    @suit.setter
+    def suit(self, value):
+        suit = value.lower()
+
+        if suit not in SUITS:
+            raise InvalidCard('{!r}, suit "{}" should be one of {}'.format(card, suit, SUITS))
+
+        self._suit = suit
 
 
 @total_ordering

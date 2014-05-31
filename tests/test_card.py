@@ -32,6 +32,16 @@ def test_better_suits_are_bigger_with_same_ranks():
     assert Card('Ah') < Card('As')
 
 
+def test_rank_equality():
+    assert Card('Ac').rank == Card('Ah').rank
+    assert Card('Ts').rank == Card('Ts').rank
+    assert Card('2d').rank == Card('2h').rank
+
+
+def test_rank_inequality():
+    assert Card('Ad').rank != Card('Ks').rank
+    assert Card('Ts').rank != Card('5h').rank
+
 def test_rank_comparisons():
     assert Card('Ac').rank > Card('Kh').rank
     assert Card('Ks').rank > Card('Qd').rank
@@ -53,11 +63,11 @@ def test_suit():
 
 
 def test_rank():
-    assert Card('Ah').rank == 'A'
+    assert Card('Ah').rank == Rank('A')
 
 
 def test_case_insensitive():
-    assert Card('aH').rank == 'A'
+    assert Card('aH').rank == Rank('A')
     assert Card('aH').suit == 'h'
 
 
