@@ -28,6 +28,9 @@ _SUITS = 'cdhs'
 class RangeSyntaxError(SyntaxError):
     """Thrown when range syntax cannot be parsed."""
 
+class InvalidSuit(ValueError):
+    pass
+
 class InvalidRank(ValueError):
     pass
 
@@ -41,6 +44,26 @@ class InvalidHand(ValueError):
 
 class RangeError(Exception):
     """General Exception with Range objects."""
+
+@total_ordering
+class Suit(ReprMixin):
+    __slots__ = '_suit'
+
+    def __init__(self, suit: str):
+        suit = suit.lower()
+        if suit not in _SUITS:
+            raise InvalidSuit(repr(suit))
+        self._suit = suit.lower()
+
+    def __eq__(self, other):
+        return self._suit == other._suit
+
+    def __lt__(self, other):
+        return self._suit < other._suit
+
+    def __str__(self):
+        return self._suit
+
 
 @total_ordering
 class Rank:
