@@ -45,6 +45,11 @@ class InvalidHand(ValueError):
 class RangeError(Exception):
     """General Exception with Range objects."""
 
+class ReprMixin:
+    def __repr__(self):
+        return "{}('{!s}')".format(self.__class__.__qualname__, self)
+
+
 @total_ordering
 class Suit(ReprMixin):
     __slots__ = '_suit'
@@ -66,7 +71,7 @@ class Suit(ReprMixin):
 
 
 @total_ordering
-class Rank:
+class Rank(ReprMixin):
     __slots__ = '_rank'
 
     def __init__(self, rank: str):
@@ -92,11 +97,8 @@ class Rank:
     def __str__(self):
         return self._rank
 
-    def __repr__(self):
-        return "{}('{!s}')".format(self.__class__.__qualname__, self)
 
-
-class Card:
+class Card(ReprMixin):
     __slots__ = ('_rank', '_suit')
 
     def __init__(self, card: str):
@@ -129,9 +131,6 @@ class Card:
 
     def __str__(self):
         return self.rank._rank + self._suit
-
-    def __repr__(self):
-        return "{}('{!s}')".format(self.__class__.__qualname__, self)
 
     def is_face(self):
         return self.rank._rank in FACE_RANKS
