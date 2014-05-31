@@ -46,10 +46,7 @@ class RangeError(Exception):
 class Rank:
     __slots__ = '_rank'
 
-    def __init__(self, rank):
-        if not isinstance(rank, str):
-            raise TypeError('Should be text!')
-
+    def __init__(self, rank: str):
         rank = rank.upper()
         if len(rank) != 1:
             raise InvalidRank('{!r}, should be 1 char long. Rank has no suit.'.format(rank))
@@ -82,10 +79,8 @@ class Rank:
 class Card:
     __slots__ = ('_rank', '_suit')
 
-    def __init__(self, card):
-        if not isinstance(card, str):
-            raise TypeError('Should be text!')
-        elif len(card) != 2:
+    def __init__(self, card: str):
+        if len(card) != 2:
             raise InvalidCard('length should be two in {!r}'.format(card))
 
         self.rank, self.suit = card
@@ -97,9 +92,7 @@ class Card:
         return cls(rank._rank + suit)
 
     @classmethod
-    def from_rank(cls, rank, suit):
-        if not isinstance(rank, Rank):
-            raise TypeError('Should be Rank')
+    def from_rank(cls, rank: Rank, suit: str):
         return cls(rank._rank + suit)
 
     def __eq__(self, other):
@@ -131,7 +124,10 @@ class Card:
         return self._rank
 
     @rank.setter
-    def rank(self, value):
+    def rank(self, value: str or Rank):
+        if isinstance(value, Rank):
+            self._rank = value
+            return
         try:
             self._rank = Rank(value)
         except InvalidRank:
@@ -142,7 +138,7 @@ class Card:
         return self._suit
 
     @suit.setter
-    def suit(self, value):
+    def suit(self, value: str):
         suit = value.lower()
 
         if suit not in SUITS:
@@ -162,10 +158,8 @@ class Hand:
     """
     __slots__ = ('first', 'second', 'suit')
 
-    def __init__(self, hand):
-        if not isinstance(hand, str):
-            raise TypeError('Should be str!')
-        elif len(hand) not in (2, 3):
+    def __init__(self, hand: str):
+        if len(hand) not in (2, 3):
             raise InvalidHand('Length should be 2 (pair) or 3 (hand)')
 
         try:
@@ -192,10 +186,8 @@ class Hand:
             self.first, self.second = second, first
 
     @classmethod
-    def from_ranks(cls, first, second, suit=''):
-        if not isinstance(first, Rank) or not isinstance(second, Rank):
-            raise TypeError('Should be Rank!')
-        return cls(first.rank + second.rank + suit)
+    def from_ranks(cls, first: Rank, second: Rank, suit=''):
+        return cls(first.rank._rank + second.rank._rank + suit)
 
     def __eq__(self, other):
         # AKs != AKo, because AKs is better

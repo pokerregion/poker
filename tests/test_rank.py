@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals, absolute_import, division, print_function
-
 from rangeparser import Rank, InvalidRank
 from pytest import raises
 
@@ -38,11 +35,3 @@ def test_case_insensitive():
 def test_invalid_rank_raises_InvalidRank_Exception():
     with raises(InvalidRank):
         Rank('L')
-
-
-def test_rank_type_should_be_str_only():
-    with raises(TypeError):
-        Rank(2)
-
-    with raises(TypeError):
-        Rank(['2'])
