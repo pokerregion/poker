@@ -28,8 +28,18 @@ def test_equality_comparisons():
     assert Rank('2') == Rank('2')
 
 
+def test_not_equal_comparisons():
+    assert (Rank('A') != Rank('A')) is False
+    assert (Rank('T') != Rank('T')) is False
+    assert (Rank('2') != Rank('2')) is False
+
+    assert Rank('A') != Rank('K')
+    assert Rank('6') != Rank('2')
+
+
 def test_case_insensitive():
     assert Rank('A') == Rank('a')
+    assert (Rank('A') != Rank('a')) is False
 
 
 def test_invalid_rank_raises_InvalidRank_Exception():

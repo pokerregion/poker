@@ -63,9 +63,6 @@ class Rank:
     def __eq__(self, other):
         return self._rank == other._rank
 
-    def __ne__(self, other):
-        return not self.__eq__(other)
-
     def __lt__(self, other):
         return RANKS.index(self._rank) < RANKS.index(other._rank)
 
