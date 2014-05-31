@@ -11,6 +11,15 @@ def test_suit_order():
     assert Suit('h') < Suit('s')
 
 
+def test_unicode_suit_order():
+    assert Suit('♣') < Suit('♦')
+    assert Suit('♣') < Suit('♥')
+    assert Suit('♣') < Suit('♠')
+    assert Suit('♦') < Suit('♥')
+    assert Suit('♦') < Suit('♠')
+    assert Suit('♥') < Suit('♠')
+
+
 def test_suit_order_reverse():
     assert Suit('d') > Suit('c')
     assert Suit('h') > Suit('c')

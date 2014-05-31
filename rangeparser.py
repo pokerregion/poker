@@ -17,13 +17,14 @@ from functools import total_ordering
 
 
 RANKS = ('2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K', 'A')
-SUITS = ('c', 'd', 'h', 's')    # clubs, diamonds, spades, hearts in increasing order
-CARDS = tuple(r + s for r, s in itertools.product(RANKS, SUITS))
 FACE_RANKS = ('J', 'Q', 'K')
-FACE_CARDS = tuple(r + s for r, s in itertools.product(FACE_RANKS, SUITS))
 BROADWAY_RANKS = ('T', 'J', 'Q', 'K', 'A')
-BROADWAY_CARDS = tuple(r + s for r, s in itertools.product(BROADWAY_RANKS, SUITS))
-_SUITS = 'cdhs'
+SUITS = ('c', 'd', 'h', 's')    # clubs, diamonds, hearts, spades in increasing order
+UNICODE_SUITS = ('♣', '♦', '♥', '♠')
+
+CARDS = tuple(r + s for r, s in itertools.product(RANKS, UNICODE_SUITS))
+FACE_CARDS = tuple(r + s for r, s in itertools.product(FACE_RANKS, UNICODE_SUITS))
+BROADWAY_CARDS = tuple(r + s for r, s in itertools.product(BROADWAY_RANKS, UNICODE_SUITS))
 
 class RangeSyntaxError(SyntaxError):
     """Thrown when range syntax cannot be parsed."""
@@ -56,9 +57,13 @@ class Suit(ReprMixin):
 
     def __init__(self, suit: str):
         suit = suit.lower()
-        if suit not in _SUITS:
+        if suit in SUITS:
+            self._suit = suit
+        elif suit in UNICODE_SUITS:
+            # search c, d, h, s value from unicode value
+            self._suit = SUITS[UNICODE_SUITS.index(suit)]
+        else:
             raise InvalidSuit(repr(suit))
-        self._suit = suit.lower()
 
     def __eq__(self, other):
         return self._suit == other._suit
@@ -67,7 +72,7 @@ class Suit(ReprMixin):
         return self._suit < other._suit
 
     def __str__(self):
-        return self._suit
+        return UNICODE_SUITS[SUITS.index(self._suit)]
 
 
 @total_ordering
