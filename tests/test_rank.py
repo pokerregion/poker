@@ -15,15 +15,24 @@ def test_comparisons():
     assert Rank('A') > Rank('2')
 
 
+def test_comparisons_reverse():
+    assert Rank('K') < Rank('A')
+    assert Rank('Q') < Rank('K')
+    assert Rank('J') < Rank('Q')
+    assert Rank('T') < Rank('J')
+    assert Rank('9') < Rank('T')
+    assert Rank('2') < Rank('9')
+    assert Rank('2') < Rank('A')
+
+
+def test_equality_comparisons():
+    assert Rank('A') == Rank('A')
+    assert Rank('T') == Rank('T')
+    assert Rank('2') == Rank('2')
+
+
 def test_case_insensitive():
     assert Rank('A') == Rank('a')
-    assert Rank('t').rank == 'T'
-
-
-def test_rank():
-    assert Rank('A').rank == 'A'
-    assert Rank('2').rank == '2'
-    assert Rank('T').rank == 'T'
 
 
 def test_invalid_rank_raises_InvalidRank_Exception():

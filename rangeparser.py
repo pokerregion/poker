@@ -53,6 +53,7 @@ class Rank:
         rank = rank.upper()
         if len(rank) != 1:
             raise InvalidRank('{!r}, should be 1 char long. Rank has no suit.'.format(rank))
+
         if rank not in RANKS:
             raise InvalidRank('{!r}, should be one of {}'.format(rank, RANKS))
 
@@ -75,11 +76,7 @@ class Rank:
         return self._rank
 
     def __repr__(self):
-        return "{}('{!s}')".format(self.__class__.__name__, self)
-
-    @property
-    def rank(self):
-        return self._rank
+        return "{}('{!s}')".format(self.__class__.__qualname__, self)
 
 
 class Card(Rank):
