@@ -52,3 +52,17 @@ def test_case_insensitive_reverse():
 def test_wrong_value_raises_ValueError():
     with raises(ValueError):
         Suit('k')
+
+
+def test_str():
+    assert str(Suit('c')) == '♣'
+    assert str(Suit('d')) == '♦'
+    assert str(Suit('h')) == '♥'
+    assert str(Suit('s')) == '♠'
+
+
+def test_repr():
+    assert repr(Suit('c')) == "Suit('♣')"
+    assert repr(Suit('d')) == "Suit('♦')"
+    assert repr(Suit('h')) == "Suit('♥')"
+    assert repr(Suit('s')) == "Suit('♠')"

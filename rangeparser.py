@@ -125,9 +125,6 @@ class Card(ReprMixin):
     def __eq__(self, other):
         return self.rank == other.rank and self.suit == other.suit
 
-    def __ne__(self, other):
-        return not self.__eq__(other)
-
     def __lt__(self, other):
         # with same ranks, suit counts
         if self.rank == other.rank:
@@ -135,7 +132,7 @@ class Card(ReprMixin):
         return self.rank < other.rank
 
     def __str__(self):
-        return self.rank._rank + self._suit
+        return self.rank._rank + str(self._suit)
 
     def is_face(self):
         return self.rank._rank in FACE_RANKS
@@ -163,12 +160,7 @@ class Card(ReprMixin):
 
     @suit.setter
     def suit(self, value: str):
-        suit = value.lower()
-
-        if suit not in SUITS:
-            raise InvalidCard('{!r}, suit "{}" should be one of {}'.format(card, suit, SUITS))
-
-        self._suit = suit
+        self._suit = Suit(value)
 
 
 @total_ordering

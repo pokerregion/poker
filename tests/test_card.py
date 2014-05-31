@@ -1,8 +1,9 @@
-from rangeparser import Card, Rank
+from rangeparser import Card, Rank, Suit
 
 
 def test_only_cards_with_same_rank_are_equal():
     assert Card('Ah') == Card('Ah')
+    assert Card('K♠') == Card('K♠')
     assert Card('Ah') != Card('As')
     assert Card('2c') != Card('2h')
 
@@ -32,6 +33,13 @@ def test_better_suits_are_bigger_with_same_ranks():
     assert Card('Ah') < Card('As')
 
 
+def test_unicode_suits():
+    assert Card('A♠') > Card('Kd')
+    assert Card('K♥') > Card('Kc')
+    assert Card('aH').suit == Suit('♥')
+    assert Card('2d').suit == Suit('♦')
+
+
 def test_rank_equality():
     assert Card('Ac').rank == Card('Ah').rank
     assert Card('Ts').rank == Card('Ts').rank
@@ -59,7 +67,7 @@ def test_rank_comparisons_reverse():
 
 
 def test_suit():
-    assert Card('Ac').suit == 'c'
+    assert Card('Ac').suit == Suit('c')
 
 
 def test_rank():
@@ -68,7 +76,7 @@ def test_rank():
 
 def test_case_insensitive():
     assert Card('aH').rank == Rank('A')
-    assert Card('aH').suit == 'h'
+    assert Card('aH').suit == Suit('h')
 
 
 def test_is_face():
@@ -95,5 +103,8 @@ def test_alternative_constructor():
 
 
 def test_representation():
-    assert str(Card('As')) == 'As'
-    assert repr(Card('As')) == "Card('As')"
+    assert str(Card('As')) == 'A♠'
+    assert repr(Card('As')) == "Card('A♠')"
+    assert repr(Card('Ad')) == "Card('A♦')"
+    assert repr(Card('Kh')) == "Card('K♥')"
+    assert repr(Card('Jc')) == "Card('J♣')"
