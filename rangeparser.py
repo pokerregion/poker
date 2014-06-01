@@ -220,6 +220,9 @@ class Hand(ReprMixin):
     def from_ranks(cls, first: Rank, second: Rank, suited=''):
         return cls(first.rank._rank + second.rank._rank + suited)
 
+    def __str__(self):
+        return '{}{}{}'.format(self._first, self._second, self._suited)
+
     def __eq__(self, other):
         # AKs != AKo, because AKs is better
         return (self._first == other._first and
@@ -241,8 +244,8 @@ class Hand(ReprMixin):
         else:
             return self._first <= other._first and self._second < other._second
 
-    def __str__(self):
-        return '{}{}{}'.format(self._first, self._second, self._suited)
+    def is_suited_connector(self):
+        return self.is_suited() and self.is_connector()
 
     def is_suited(self):
         # pairs are neither suited
@@ -261,22 +264,12 @@ class Hand(ReprMixin):
     def is_two_gapper(self):
         return RANKS.index(self._first._rank) - RANKS.index(self._second._rank) == 3
 
-    def is_suited_connector(self):
-        return self.is_suited() and self.is_connector()
-
     def is_broadway(self):
         return (self._first._rank in BROADWAY_RANKS
                 and self._second._rank in BROADWAY_RANKS)
 
     def is_pair(self):
         return self._first == self._second
-
-    def _setrank(self, attribute, value):
-        try:
-            setattr(self, attribute, Rank(value))
-        except InvalidRank as e:
-            # implicit exception chain
-            raise InvalidHand('{!r}'.format(value))
 
     @property
     def first(self):
@@ -293,6 +286,13 @@ class Hand(ReprMixin):
     @second.setter
     def second(self, value: str or Rank):
         self._setrank('_second', value)
+
+    def _setrank(self, attribute, value):
+        try:
+            setattr(self, attribute, Rank(value))
+        except InvalidRank as e:
+            # implicit exception chain
+            raise InvalidHand('{!r}'.format(value))
 
     @property
     def suited(self):
@@ -317,21 +317,8 @@ class Combo(ReprMixin):
             raise InvalidCombo("{!r}, Pair can't have the same suit: {!r}".format(combo, combo[1]))
         self.first, self.second = combo[:2], combo[2:]
 
-    def _make_suit(self, combo)
-        if combo.is_pair():
-            suit = ''
-        elif combo.is_suited():
-            suit = 's'
-        else:
-            suit = 'o'
-        return suit
-
-    def _make_hands(self, other):
-        suit1 = self._make_suit(self)
-        suit2 = self._make_suit(other)
-        h1 = Hand('{}{}{}'.format(self._first._rank, self._second._rank, suit1))
-        h2 = Hand('{}{}{}'.format(other._first._rank, other._second._rank, suit2))
-        return h1, h2
+    def __str__(self):
+        return '{}{}'.format(self._first, self._second)
 
     def __eq__(self, other):
         hand1, hand2 = self._make_hands(other)
@@ -341,11 +328,24 @@ class Combo(ReprMixin):
         hand1, hand2 = self._make_hands(other)
         return hand1 < hand2
 
-    def __str__(self):
-        return '{}{}'.format(self._first, self._second)
+    def _make_hands(self, other):
+        suit1 = self._make_suit(self)
+        suit2 = self._make_suit(other)
+        h1 = Hand('{}{}{}'.format(self._first._rank, self._second._rank, suit1))
+        h2 = Hand('{}{}{}'.format(other._first._rank, other._second._rank, suit2))
+        return h1, h2
 
-    def is_pair(self):
-        return self._first._rank == self._second._rank
+    def _make_suit(self, combo):
+        if combo.is_pair():
+            suit = ''
+        elif combo.is_suited():
+            suit = 's'
+        else:
+            suit = 'o'
+        return suit
+
+    def is_suited_connector(self):
+        return self.is_suited() and self.is_connector()
 
     def is_suited(self):
         return self._first._suit == self._second._suit
@@ -356,8 +356,8 @@ class Combo(ReprMixin):
         hand = '{}{}{}'.format(self._first._rank, self._second._rank, suit)
         return Hand(hand).is_connector()
 
-    def is_suited_connector(self):
-        return self.is_suited() and self.is_connector()
+    def is_pair(self):
+        return self._first._rank == self._second._rank
 
     def is_broadway(self):
         return self._first.is_broadway() and self._second.is_broadway()
