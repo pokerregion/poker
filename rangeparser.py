@@ -179,55 +179,51 @@ class Card(ReprMixin):
 
 
 @total_ordering
-class Hand:
+class Hand(ReprMixin):
     """General hand without a precise suit.
 
     Only knows about two ranks and suitedness.
-    :ivar Rank first:    first rank
-    :ivar Rank second:   second ank
-    :ivar str suit:  'o' for offsuit 's' for suited, '' for pairs
+    :ivar Rank first:   first rank
+    :ivar Rank second:  second ank
+    :ivar str suited:   'o' for offsuit, 's' for suited, '' for pairs
     """
-    __slots__ = ('first', 'second', 'suit')
+    __slots__ = ('_first', '_second', '_suited')
 
-    def __init__(self, hand: str):
+    def __init__(self, hand: str or Hand):
+        if isinstance(hand, Hand):
+            self._first = hand._first
+            self._second = hand._second
+            self._suited = hand._suited
+
         if len(hand) not in (2, 3):
             raise InvalidHand('Length should be 2 (pair) or 3 (hand)')
 
-        try:
-            first, second = Rank(hand[0]), Rank(hand[1])
-        except InvalidRank as e:
-            raise InvalidHand('{!r}, invalid rank: {}'.format(hand, e))
+        first, second = hand[:2]
 
         if len(hand) == 2:
             if first != second:
                 raise InvalidHand('{!r}, Not a pair! Maybe you need to specify a suit?'
                                   .format(hand))
-            self._suit = ''
+            self._suited = ''
         elif len(hand) == 3:
-            suit = hand[2].lower()
+            suited = hand[2].lower()
             if first == second:
-                raise InvalidHand("{!r}; pairs can't have a suit: {!r}".format(hand, suit))
-            elif suit not in ('s', 'o'):
-                raise InvalidHand('{!r}, wrong suit: {!r}'.format(hand, suit))
-            self._suit = suit
+                raise InvalidHand("{!r}; pairs can't have a suit: {!r}".format(hand, suited))
+            self.suited = suited
 
-        if first > second:
-            self.first, self.second = first, second
-        else:
+        self.first, self.second = first, second
+        if self.first < self.second:
             self.first, self.second = second, first
 
     @classmethod
-    def from_ranks(cls, first: Rank, second: Rank, suit=''):
-        return cls(first.rank._rank + second.rank._rank + suit)
+    def from_ranks(cls, first: Rank, second: Rank, suited=''):
+        return cls(first.rank._rank + second.rank._rank + suited)
 
     def __eq__(self, other):
         # AKs != AKo, because AKs is better
-        return (self.first == other.first and
-                self.second == other.second and
-                self._suit == other.suit)
-
-    def __ne__(self, other):
-        return not self.__eq__(other)
+        return (self._first == other._first and
+                self._second == other._second and
+                self._suited == other._suited)
 
     def __lt__(self, other):
         # pairs are better than non-pairs
@@ -236,46 +232,78 @@ class Hand:
         elif self.is_pair() and not other.is_pair():
             return False
         elif (not self.is_pair() and not other.is_pair() and
-                self.first == other.first and self.second == other.second
-                and self._suit != other.suit):
+                self._first == other._first and self._second == other._second
+                and self._suited != other._suited):
             # when Rank match, only suit is the deciding factor
             # so, offsuit hand is 'less' than suited
-            return self._suit == 'o'
+            return self._suited == 'o'
         else:
-            return self.first <= other.first and self.second < other.second
+            return self._first <= other._first and self._second < other._second
 
     def __str__(self):
-        return '{}{}{}'.format(self.first, self.second, self._suit)
-
-    def __repr__(self):
-        return "Hand('{!s}')".format(self)
+        return '{}{}{}'.format(self._first, self._second, self._suited)
 
     def is_suited(self):
         # pairs are neither suited
-        return self._suit == 's'
+        return self._suited == 's'
 
     def is_offsuit(self):
         # nor offsuits
-        return self._suit == 'o'
+        return self._suited == 'o'
 
     def is_connector(self):
-        return RANKS.index(self.first.rank) - RANKS.index(self.second.rank) == 1
+        return RANKS.index(self._first._rank) - RANKS.index(self._second._rank) == 1
 
     def is_one_gapper(self):
-        return RANKS.index(self.first.rank) - RANKS.index(self.second.rank) == 2
+        return RANKS.index(self._first._rank) - RANKS.index(self._second._rank) == 2
 
     def is_two_gapper(self):
-        return RANKS.index(self.first.rank) - RANKS.index(self.second.rank) == 3
+        return RANKS.index(self._first._rank) - RANKS.index(self._second._rank) == 3
 
     def is_suited_connector(self):
-        return self.is_connector() and self.is_suited()
+        return self.is_suited() and self.is_connector()
 
     def is_broadway(self):
-        return (self.first.rank in BROADWAY_RANKS
-                and self.second.rank in BROADWAY_RANKS)
+        return (self._first._rank in BROADWAY_RANKS
+                and self._second._rank in BROADWAY_RANKS)
 
     def is_pair(self):
-        return self.first == self.second
+        return self._first == self._second
+
+    def _setrank(self, attribute, value):
+        try:
+            setattr(self, attribute, Rank(value))
+        except InvalidRank as e:
+            # implicit exception chain
+            raise InvalidHand('{!r}'.format(value))
+
+    @property
+    def first(self):
+        return self._first
+
+    @first.setter
+    def first(self, value: str or Rank):
+        self._setrank('_first', value)
+
+    @property
+    def second(self):
+        return self._second
+
+    @second.setter
+    def second(self, value: str or Rank):
+        self._setrank('_second', value)
+
+    @property
+    def suited(self):
+        return self._suited
+
+    @suited.setter
+    def suited(self, value):
+        value = value.lower()
+        if value.lower() not in ('s', 'o', None):
+            raise InvalidHand('wrong suit: {!r}'.format(value))
+        self._suited = value
+
 
     """Parses a range.
 

@@ -11,7 +11,8 @@ def test_first_and_second_are_instances_of_Rank():
 
 def test_representations():
     assert str(Hand('22')) == '22'
-    assert unicode(Hand('22')) == u'22'
+    assert str(Hand('AKs')) == 'AKs'
+    assert str(Hand('KJo')) == 'KJo'
     assert repr(Hand('22')) == "Hand('22')"
 
 
@@ -56,12 +57,15 @@ def test_ordering_reverse():
 
     assert Hand('76o') < Hand('76s')
 
-def test_different_suits_are_equal_if_ranks_are_the_same():
+
+def test_only_same_suits_are_equal():
     assert Hand('AKo') == Hand('AKo')
+    assert Hand('AKo') != Hand('AKs')
 
 
 def test_case_insensitive():
     assert Hand('AKo') == Hand('akO')
+    assert Hand('jks') == Hand('JKS')
 
 
 def test_equality():
@@ -123,19 +127,21 @@ def test_is_pair():
     assert Hand('86s').is_pair() is False
 
 
-class TestInvalidHands:
-    def test_invalid_suit(self):
-        with raises(InvalidHand):
-            Hand('32l')
+def test_invalid_suit():
+    with raises(InvalidHand):
+        Hand('32l')
 
-    def test_invalid_rank(self):
-        with raises(InvalidHand):
-            Hand('AMs')
 
-    def test_pair_with_suit(self):
-        with raises(InvalidHand):
-            Hand('22s')
+def test_invalid_rank():
+    with raises(InvalidHand):
+        Hand('AMs')
 
-    def test_hand_without_suit(self):
-        with raises(InvalidHand):
-            Hand('AK')
+
+def test_pair_with_suit():
+    with raises(InvalidHand):
+        Hand('22s')
+
+
+def test_hand_without_suit():
+    with raises(InvalidHand):
+        Hand('AK')
