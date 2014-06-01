@@ -26,8 +26,6 @@ CARDS = tuple(r + s for r, s in itertools.product(RANKS, UNICODE_SUITS))
 FACE_CARDS = tuple(r + s for r, s in itertools.product(FACE_RANKS, UNICODE_SUITS))
 BROADWAY_CARDS = tuple(r + s for r, s in itertools.product(BROADWAY_RANKS, UNICODE_SUITS))
 
-class RangeSyntaxError(SyntaxError):
-    """Thrown when range syntax cannot be parsed."""
 
 class InvalidSuit(ValueError):
     pass
@@ -41,11 +39,9 @@ class InvalidCard(ValueError):
 class InvalidHand(ValueError):
     pass
 
-class InvalidCombo(Exception):
+class InvalidCombo(ValueError):
     pass
 
-class RangeError(Exception):
-    """General Exception with Range objects."""
 
 class ReprMixin:
     def __repr__(self):
@@ -290,7 +286,7 @@ class Hand(ReprMixin):
     def _setrank(self, attribute, value):
         try:
             setattr(self, attribute, Rank(value))
-        except InvalidRank as e:
+        except InvalidRank:
             # implicit exception chain
             raise InvalidHand('{!r}'.format(value))
 
