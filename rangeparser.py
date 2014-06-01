@@ -317,21 +317,18 @@ class Combo(ReprMixin):
             raise InvalidCombo("{!r}, Pair can't have the same suit: {!r}".format(combo, combo[1]))
         self.first, self.second = combo[:2], combo[2:]
 
+    def _make_suit(self, combo)
+        if combo.is_pair():
+            suit = ''
+        elif combo.is_suited():
+            suit = 's'
+        else:
+            suit = 'o'
+        return suit
+
     def _make_hands(self, other):
-        if self.is_pair():
-            suit1 = ''
-        elif self.is_suited():
-            suit1 = 's'
-        else:
-            suit1 = 'o'
-
-        if other.is_pair():
-            suit2 = ''
-        elif other.is_suited():
-            suit2 = 's'
-        else:
-            suit2 = 'o'
-
+        suit1 = self._make_suit(self)
+        suit2 = self._make_suit(other)
         h1 = Hand('{}{}{}'.format(self._first._rank, self._second._rank, suit1))
         h2 = Hand('{}{}{}'.format(other._first._rank, other._second._rank, suit2))
         return h1, h2
