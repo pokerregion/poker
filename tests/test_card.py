@@ -108,3 +108,13 @@ def test_representation():
     assert repr(Card('Ad')) == "Card('A♦')"
     assert repr(Card('Kh')) == "Card('K♥')"
     assert repr(Card('Jc')) == "Card('J♣')"
+
+
+def test_passing_Card_instance_to__init__():
+    c1 = Card('As')
+    c2 = Card(c1)
+    assert c1 == c2
+    assert (c1 != c2) is False
+    assert id(c1) != id(c2)
+    assert repr(c1) == "Card('A♠')"
+    assert repr(c2) == "Card('A♠')"

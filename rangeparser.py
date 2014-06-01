@@ -55,7 +55,11 @@ class ReprMixin:
 class Suit(ReprMixin):
     __slots__ = '_suit'
 
-    def __init__(self, suit: str):
+    def __init__(self, suit: str or Suit):
+        if isinstance(suit, Suit):
+            self._suit = suit._suit
+            return
+
         suit = suit.lower()
         if suit in SUITS:
             self._suit = suit
@@ -79,7 +83,11 @@ class Suit(ReprMixin):
 class Rank(ReprMixin):
     __slots__ = '_rank'
 
-    def __init__(self, rank: str):
+    def __init__(self, rank: str or Rank):
+        if isinstance(rank, Rank):
+            self._rank = rank._rank
+            return
+
         rank = rank.upper()
         if len(rank) != 1:
             raise InvalidRank('{!r}, should be 1 char long. Rank has no suit.'.format(rank))
@@ -106,7 +114,12 @@ class Rank(ReprMixin):
 class Card(ReprMixin):
     __slots__ = ('_rank', '_suit')
 
-    def __init__(self, card: str):
+    def __init__(self, card: str or Card):
+        if isinstance(card, Card):
+            self.rank = card.rank
+            self.suit = card.suit
+            return
+
         if len(card) != 2:
             raise InvalidCard('length should be two in {!r}'.format(card))
 
@@ -146,12 +159,10 @@ class Card(ReprMixin):
 
     @rank.setter
     def rank(self, value: str or Rank):
-        if isinstance(value, Rank):
-            self._rank = value
-            return
         try:
             self._rank = Rank(value)
         except InvalidRank:
+            # implicit exception chaining
             raise InvalidCard(repr(value))
 
     @property
@@ -159,8 +170,12 @@ class Card(ReprMixin):
         return self._suit
 
     @suit.setter
-    def suit(self, value: str):
-        self._suit = Suit(value)
+    def suit(self, value: str or Suit):
+        try:
+            self._suit = Suit(value)
+        except InvalidSuit:
+            # implicit exception chaining
+            raise InvalidCard(repr(value))
 
 
 @total_ordering

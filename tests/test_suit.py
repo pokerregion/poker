@@ -66,3 +66,13 @@ def test_repr():
     assert repr(Suit('d')) == "Suit('♦')"
     assert repr(Suit('h')) == "Suit('♥')"
     assert repr(Suit('s')) == "Suit('♠')"
+
+
+def test_passing_Suit_instance_to__init__():
+    s1 = Suit('c')
+    s2 = Suit(s1)
+    assert s1 == s2
+    assert (s1 != s2) is False
+    assert id(s1) != id(s2)
+    assert repr(s1) == "Suit('♣')"
+    assert repr(s2) == "Suit('♣')"
