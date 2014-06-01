@@ -41,6 +41,7 @@ class InvalidCard(ValueError):
 class InvalidHand(ValueError):
     pass
 
+class InvalidCombo(Exception):
     pass
 
 class RangeError(Exception):
@@ -304,6 +305,87 @@ class Hand(ReprMixin):
             raise InvalidHand('wrong suit: {!r}'.format(value))
         self._suited = value
 
+
+@total_ordering
+class Combo(ReprMixin):
+    __slots__ = ('_first', '_second')
+
+    def __init__(self, combo):
+        if len(combo) != 4:
+            raise InvalidCombo('{!r}, should have a length of 4'.format(combo))
+        elif combo[0] == combo[2] and combo[1] == combo[3]:
+            raise InvalidCombo("{!r}, Pair can't have the same suit: {!r}".format(combo, combo[1]))
+        self.first, self.second = combo[:2], combo[2:]
+
+    def _make_hands(self, other):
+        if self.is_pair():
+            suit1 = ''
+        elif self.is_suited():
+            suit1 = 's'
+        else:
+            suit1 = 'o'
+
+        if other.is_pair():
+            suit2 = ''
+        elif other.is_suited():
+            suit2 = 's'
+        else:
+            suit2 = 'o'
+
+        h1 = Hand('{}{}{}'.format(self._first._rank, self._second._rank, suit1))
+        h2 = Hand('{}{}{}'.format(other._first._rank, other._second._rank, suit2))
+        return h1, h2
+
+    def __eq__(self, other):
+        hand1, hand2 = self._make_hands(other)
+        return hand1 == hand2
+
+    def __lt__(self, other):
+        hand1, hand2 = self._make_hands(other)
+        return hand1 < hand2
+
+    def __str__(self):
+        return '{}{}'.format(self._first, self._second)
+
+    def is_pair(self):
+        return self._first._rank == self._second._rank
+
+    def is_suited(self):
+        return self._first._suit == self._second._suit
+
+    def is_connector(self):
+        # creates an offsuit Hand or a pair and check if that Hand is a connector
+        suit = '' if self.is_pair() else 'o'
+        hand = '{}{}{}'.format(self._first._rank, self._second._rank, suit)
+        return Hand(hand).is_connector()
+
+    def is_suited_connector(self):
+        return self.is_suited() and self.is_connector()
+
+    def is_broadway(self):
+        return self._first.is_broadway() and self._second.is_broadway()
+
+    def _set_card(self, attribute, value):
+        try:
+            setattr(self, attribute, Card(value))
+        except InvalidCard:
+            raise InvalidCombo(repr(value))
+
+    @property
+    def first(self):
+        return self._first
+
+    @first.setter
+    def first(self, value):
+        self._set_card('_first', value)
+
+    @property
+    def second(self):
+        return self._second
+
+    @second.setter
+    def second(self, value):
+        self._set_card('_second', value)
 
     """Parses a range.
 
