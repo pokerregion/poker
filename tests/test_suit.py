@@ -76,3 +76,17 @@ def test_passing_Suit_instance_to__init__():
     assert id(s1) != id(s2)
     assert repr(s1) == "Suit('♣')"
     assert repr(s2) == "Suit('♣')"
+
+
+def test_class_is_iterable():
+    assert list(Suit) == [Suit('♣'), Suit('♦'), Suit('♥'), Suit('♠')]
+    assert list(Suit) == list(tuple(Suit))
+
+
+def test_class_variables_are_comparable():
+    assert Suit.CLUBS < Suit.DIAMONDS
+    assert Suit.CLUBS < Suit.HEARTS
+    assert Suit.CLUBS < Suit.SPADES
+    assert Suit.DIAMONDS < Suit.HEARTS
+    assert Suit.DIAMONDS < Suit.SPADES
+    assert Suit.HEARTS < Suit.SPADES

@@ -13,14 +13,13 @@
 import re
 import random
 import itertools
+from collections import OrderedDict
 from functools import total_ordering
 
 
 RANKS = ('2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K', 'A')
 FACE_RANKS = ('J', 'Q', 'K')
 BROADWAY_RANKS = ('T', 'J', 'Q', 'K', 'A')
-SUITS = ('c', 'd', 'h', 's')    # clubs, diamonds, hearts, spades in increasing order
-UNICODE_SUITS = ('♣', '♦', '♥', '♠')
 
 CARDS = tuple(r + s for r, s in itertools.product(RANKS, UNICODE_SUITS))
 FACE_CARDS = tuple(r + s for r, s in itertools.product(FACE_RANKS, UNICODE_SUITS))
@@ -48,21 +47,50 @@ class ReprMixin:
         return "{}('{!s}')".format(self.__class__.__qualname__, self)
 
 
+class _SuitMeta(type):
+    """Metaclass for Suit for easy iteration and attribute instances."""
+
+    def __new__(metacls, cls, bases, classdict):
+        suit_class = super().__new__(metacls, cls, bases, classdict)
+        suit_class._suits = OrderedDict([('CLUBS', suit_class('c')), ('DIAMONDS', suit_class('d')),
+                                        ('HEARTS', suit_class('h')), ('SPADES', suit_class('s'))])
+        return suit_class
+
+    def __iter__(self):
+        """Return a generator for the 4 suit instances."""
+        # return (self(s) for s in self._SIMPLE_SUITS)
+        return iter(self._suits.values())
+
+    def __getattribute__(self, name):
+        """Instantiate the 4 constant attributes with the Suit class itself."""
+        if name in ('CLUBS', 'DIAMONDS', 'HEARTS', 'SPADES'):
+            return self._suits[name]
+        return super().__getattribute__(name)
+
+
 @total_ordering
-class Suit(ReprMixin):
+class Suit(ReprMixin, metaclass=_SuitMeta):
+    CLUBS = '♣'
+    DIAMONDS = '♦'
+    HEARTS = '♥'
+    SPADES = '♠'
+
+    _SIMPLE_SUITS = ('c', 'd', 'h', 's')
+    _UNICODE_SUITS = (CLUBS, DIAMONDS, HEARTS, SPADES)
     __slots__ = '_suit'
 
     def __init__(self, suit: str or Suit):
-        if isinstance(suit, Suit):
+        if isinstance(suit, self.__class__):
             self._suit = suit._suit
             return
 
         suit = suit.lower()
-        if suit in SUITS:
+        # stores _SIMPLE_SUITS inside, but always prints _UNICODE_SUITS
+        if suit in self._SIMPLE_SUITS:
             self._suit = suit
-        elif suit in UNICODE_SUITS:
+        elif suit in self._UNICODE_SUITS:
             # search c, d, h, s value from unicode value
-            self._suit = SUITS[UNICODE_SUITS.index(suit)]
+            self._suit = self._SIMPLE_SUITS[self._UNICODE_SUITS.index(suit)]
         else:
             raise InvalidSuit(repr(suit))
 
@@ -73,7 +101,7 @@ class Suit(ReprMixin):
         return self._suit < other._suit
 
     def __str__(self):
-        return UNICODE_SUITS[SUITS.index(self._suit)]
+        return self._UNICODE_SUITS[self._SIMPLE_SUITS.index(self._suit)]
 
 
 @total_ordering
