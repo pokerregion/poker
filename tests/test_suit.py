@@ -72,8 +72,8 @@ def test_passing_Suit_instance_to__init__():
     s1 = Suit('c')
     s2 = Suit(s1)
     assert s1 == s2
-    assert (s1 != s2) is False
-    assert id(s1) != id(s2)
+    assert s1 is s2
+    assert id(s1) == id(s2)
     assert repr(s1) == "Suit('♣')"
     assert repr(s2) == "Suit('♣')"
 
@@ -90,3 +90,12 @@ def test_class_variables_are_comparable():
     assert Suit.DIAMONDS < Suit.HEARTS
     assert Suit.DIAMONDS < Suit.SPADES
     assert Suit.HEARTS < Suit.SPADES
+
+
+def test_suits_are_singletons():
+    assert Suit('c') is Suit.CLUBS
+    assert Suit('c') is Suit('c')
+    assert Suit('c') is Suit('♣')
+
+    assert Suit('s') is Suit.SPADES
+

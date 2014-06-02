@@ -50,48 +50,49 @@ class ReprMixin:
 class _SuitMeta(type):
     """Metaclass for Suit for easy iteration and attribute instances."""
 
+    _SUIT_NAMES = ('CLUBS', 'DIAMONDS', 'HEARTS', 'SPADES')
+
     def __new__(metacls, cls, bases, classdict):
-        suit_class = super().__new__(metacls, cls, bases, classdict)
-        suit_class._suits = OrderedDict([('CLUBS', suit_class('c')), ('DIAMONDS', suit_class('d')),
-                                        ('HEARTS', suit_class('h')), ('SPADES', suit_class('s'))])
-        return suit_class
+        """Makes the 4 Suit instances and put it in Suit._suits.
+        Also set them on the Suit class _SUIT_NAMES attributes.
+        """
+        Suit = super().__new__(metacls, cls, bases, classdict)
+        Suit._suits = OrderedDict()
+        for ss, name in zip(classdict['_SIMPLE_SUITS'], metacls._SUIT_NAMES):
+            suit_obj = object.__new__(Suit)
+            # stores _SIMPLE_SUITS inside, but always prints _UNICODE_SUITS
+            suit_obj._suit = ss
+            Suit._suits[ss] = suit_obj
+            # set CLUBS, DIAMONDS, etc. as Suit objects.
+            setattr(Suit, name, suit_obj)
+        return Suit
 
     def __iter__(self):
-        """Return a generator for the 4 suit instances."""
-        # return (self(s) for s in self._SIMPLE_SUITS)
+        """Return an iterator for the 4 suit instances."""
         return iter(self._suits.values())
-
-    def __getattribute__(self, name):
-        """Instantiate the 4 constant attributes with the Suit class itself."""
-        if name in ('CLUBS', 'DIAMONDS', 'HEARTS', 'SPADES'):
-            return self._suits[name]
-        return super().__getattribute__(name)
 
 
 @total_ordering
 class Suit(ReprMixin, metaclass=_SuitMeta):
-    CLUBS = '♣'
-    DIAMONDS = '♦'
-    HEARTS = '♥'
-    SPADES = '♠'
-
     _SIMPLE_SUITS = ('c', 'd', 'h', 's')
-    _UNICODE_SUITS = (CLUBS, DIAMONDS, HEARTS, SPADES)
+    _UNICODE_SUITS = ('♣', '♦', '♥', '♠')
     __slots__ = '_suit'
 
-    def __init__(self, suit: str or Suit):
-        if isinstance(suit, self.__class__):
-            self._suit = suit._suit
-            return
+    def __new__(cls, suit: str or Suit):
+        if isinstance(suit, cls):
+            # makes Suit class idempotent
+            return suit
 
         suit = suit.lower()
-        # stores _SIMPLE_SUITS inside, but always prints _UNICODE_SUITS
-        if suit in self._SIMPLE_SUITS:
-            self._suit = suit
-        elif suit in self._UNICODE_SUITS:
+
+        if suit in cls._UNICODE_SUITS:
             # search c, d, h, s value from unicode value
-            self._suit = self._SIMPLE_SUITS[self._UNICODE_SUITS.index(suit)]
-        else:
+            suit = cls._SIMPLE_SUITS[cls._UNICODE_SUITS.index(suit)]
+
+        try:
+            # return one of the singletons
+            return cls._suits[suit]
+        except KeyError:
             raise InvalidSuit(repr(suit))
 
     def __eq__(self, other):
