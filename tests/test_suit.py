@@ -1,3 +1,4 @@
+import pickle
 from rangeparser import Suit
 from pytest import raises
 
@@ -27,6 +28,13 @@ def test_suit_order_reverse():
     assert Suit('h') > Suit('d')
     assert Suit('s') > Suit('d')
     assert Suit('s') > Suit('h')
+
+    assert (Suit('d') < Suit('c')) is False
+    assert (Suit('h') < Suit('c')) is False
+    assert (Suit('s') < Suit('c')) is False
+    assert (Suit('h') < Suit('d')) is False
+    assert (Suit('s') < Suit('d')) is False
+    assert (Suit('s') < Suit('h')) is False
 
 
 def test_case_insensitive():
@@ -99,3 +107,11 @@ def test_suits_are_singletons():
 
     assert Suit('s') is Suit.SPADES
 
+
+def test_suits_are_pickable():
+    assert pickle.loads(pickle.dumps(Suit('c'))) == Suit('c')
+    assert pickle.loads(pickle.dumps(Suit('c'))) is Suit('c')
+
+
+def test_make_random_is_instance_of_Suit():
+    assert isinstance(Suit.make_random(), Suit)

@@ -1,4 +1,4 @@
-from rangeparser import Rank, InvalidRank
+from rangeparser import Rank
 from pytest import raises
 
 
@@ -43,7 +43,7 @@ def test_case_insensitive():
 
 
 def test_invalid_rank_raises_InvalidRank_Exception():
-    with raises(InvalidRank):
+    with raises(ValueError):
         Rank('L')
 
 
@@ -52,6 +52,5 @@ def test_passing_Rank_instance_to__init__():
     r2 = Rank(r1)
     assert r1 == r2
     assert (r1 != r2) is False
-    assert id(r1) != id(r2)
     assert repr(r1) == "Rank('A')"
     assert repr(r2) == "Rank('A')"
