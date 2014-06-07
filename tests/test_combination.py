@@ -78,3 +78,12 @@ def test_invalid_combination():
 
     with raises(ValueError):
         Combination('KQJQ')
+
+
+def test_hash():
+    combination1 = Combination('2s2c')
+    combination2 = Combination('2c2s')
+    assert hash(combination1) == hash(combination2)
+
+def test_putting_them_in_set_doesnt_raise_Exception():
+    {Combination('AsAh'), Combination('2s2c')}

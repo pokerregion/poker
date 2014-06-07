@@ -73,3 +73,14 @@ def test_passing_Rank_instance_to__init__():
     assert (r1 != r2) is False
     assert repr(r1) == "Rank('A')"
     assert repr(r2) == "Rank('A')"
+
+
+def test_hash():
+    rank1 = Rank('A')
+    rank2 = Rank('a')
+    assert hash(rank1) == hash(rank2)
+
+
+def test_putting_them_in_set_doesnt_raise_Exception():
+    {Rank.ACE, Rank.KING}
+

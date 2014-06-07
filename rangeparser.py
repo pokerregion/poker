@@ -41,6 +41,9 @@ class _MultiValueEnum(Enum, metaclass=_MultiMeta):
     def make_random(cls):
         return random.choice(list(cls))
 
+    def __hash__(self):
+        return super().__hash__()
+
     def __eq__(self, other):
         if self.__class__ is other.__class__:
             return self.value == other.value
@@ -120,6 +123,9 @@ class Card(_ReprMixin):
         self._suit = Suit.make_random()
         return self
 
+    def __hash__(self):
+        return hash(self._rank) + hash(self._suit)
+
     def __eq__(self, other):
         return self.rank == other.rank and self.suit == other.suit
 
@@ -198,6 +204,9 @@ class Hand(_ReprMixin):
 
     def __str__(self):
         return '{}{}{}'.format(self._first, self._second, self._suitedness)
+
+    def __hash__(self):
+        return hash(self._first) + hash(self._second) + hash(self._suitedness)
 
     def __eq__(self, other):
         # AKs != AKo, because AKs is better
@@ -310,6 +319,9 @@ class Combination(_ReprMixin):
 
     def __str__(self):
         return '{}{}'.format(self._first, self._second)
+
+    def __hash__(self):
+        return hash(self._first) + hash(self._second)
 
     def __eq__(self, other):
         hand1, hand2 = self._make_hands(other)

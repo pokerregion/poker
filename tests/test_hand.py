@@ -152,3 +152,14 @@ def test_make_random():
     assert isinstance(hand, Hand)
     assert isinstance(hand.first, Rank)
     assert isinstance(hand.second, Rank)
+
+
+def test_hash():
+    hand1 = Hand('22')
+    hand2 = Hand('22')
+    assert hash(hand1) == hash(hand2)
+
+
+def test_putting_them_in_set_doesnt_raise_Exception():
+    {Hand('22'), Hand('AKo')}
+

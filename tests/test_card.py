@@ -129,3 +129,14 @@ def test_invalid_rank_or_card_raises_ValueError():
 def test_with_wrong_length_raises_ValueError_and_InvalidCard():
     with raises(ValueError):
         Card('AKQs')
+
+
+def test_hash():
+    card1 = Card('As')
+    card2 = Card('A♠')
+    assert hash(card1) == hash(card2)
+
+
+def test_putting_them_in_set_doesnt_raise_Exception():
+    {Card('As'), Card('Kc')}
+

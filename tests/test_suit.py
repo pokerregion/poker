@@ -115,3 +115,16 @@ def test_suits_are_pickable():
 
 def test_make_random_is_instance_of_Suit():
     assert isinstance(Suit.make_random(), Suit)
+
+
+def test_hash():
+    assert (hash(Suit.CLUBS) == hash(Suit('c')) ==
+            hash(Suit('C')) == hash(Suit('♣')))
+
+    assert hash(Suit.SPADES) == hash(Suit('s'))
+
+
+def test_putting_them_in_set_doesnt_raise_Exception():
+    {Suit('c')}
+
+    {Suit.CLUBS, Suit.SPADES}
