@@ -4,32 +4,32 @@ Rangeparser
 About
 -----
 
-Parses human readable ranges like "22+ 54s 76s 98s AQo+" to a set of hands.
+Parses human readable (text) ranges like ``"22+ 54s 76s 98s AQo+"`` to a set of hands.
 
-Contains functions for parsing, composing ranges, and checking for syntax.
+Contains classes for parsing, composing ranges, and checking for syntax.
 Can parse ranges and compose parsed ranges into human readable form again.
 It's very fault-tolerant, so it's easy to write ranges manually.
 Can normalize unprecise human readable ranges into a precise human readable
 form, like "22+ AQo+ 33 AKo" --> "22+ AQo+"
 
-Can tell how big a range is by percentage or number of hand combinations.
-(Hand combination: AhKs or 2c2d)
+Can tell how big a range is by :term:`Percentage` or number of :term:`Combo`s.
+(Hand Combo: AhKs or 2c2d)
 
 
 Signs
 -----
 
 X
-    jolly joker, means "any card"
+    means "any card"
 
-A K Q J T 9 8 7 6 5 4 3 2
+2 3 4 5 6 7 8 9 T J Q K A
     Ace, King, Queen, Jack, Ten, 9, ...
 
 "s" or "o" after hands like AKo or 76s
-    suited and offsuit
+    suited and offsuit. Pairs have no suit (``''``)
 
 -
-    hands worse down to deuces
+    hands worse, down to deuces
 
 +
     hands better, up to pairs
@@ -39,52 +39,59 @@ Defining ranges
 ---------------
 
 Available formats for defining ranges:
-    XX      - every hand (100% range)
+    XX          - every hand (100% range)
 
-    22      - one pair
-    44+     - all pairs better than 33
-    66-     - all pairs worse than 77
-    55-33   - 55, 44, 33
+    22          - one pair
+    44+         - all pairs better than 33
+    66-         - all pairs worse than 77
+    55-33       - 55, 44, 33
 
-    None of these below select pairs (unambiguity):
+    None of these below select pairs (for unambiguity):
 
-    64s, 72s - specific hands with suits
+    64s, 72s    - specific hands with suits
 
-    AKo, J9o - offsuit hands
-    AKs, 72s - suited hands
+    AKo, J9o    - offsuit hands
+    AKs, 72s    - suited hands
 
-    AJo+    - offsuit hands above this: AJo, AQo, AKo
-    AJs+    - same as offsuit
-    Q8o+    - Q8o, Q9o, QTo, QJo
-    A5o-    - offsuit hands; A5o-A2o
-    A5s-    - suited hands; A5s-A2s
+    AJo+        - offsuit hands above this: AJo, AQo, AKo
+    AJs+        - same as offsuit
+    Q8o+        - Q8o, Q9o, QTo, QJo
+    A5o-        - offsuit hands; A5o-A2o
+    A5s-        - suited hands; A5s-A2s
+    K7          - suited and offsuited version of hand; K7o, K7s
 
-    J8o-J4o - J8o, J7o, J6o, J5o, J4o
-    76s-74s - 76s, 75s, 74s
+    J8o-J4o     - J8o, J7o, J6o, J5o, J4o
+    76s-74s     - 76s, 75s, 74s
 
-    A5+     - either suited or offsuited hands that contains an Ace and the other is bigger than 5
-              same as "A5o+ A5s+"
-    A5-     - downward, same as above
+    J8-J4       - both ranges in suited an offsuited form;
+                  J8o, J7o, J6o, J5o, J4o, J8s, J7s, J6s, J5s, J4s
 
-    AX      - Any hand that contains an ace
-    AXo     - Any offsuit hand that contains an Ace
-    AXs     - Any suited hand that contains an Ace
+    A5+         - either suited or offsuited hands that contains an Ace
+                  and the other is bigger than 5. Same as "A5o+ A5s+".
+    A5-         - downward, same as above
 
-    QX+     - Any hand that contains a card bigger than a King; Q2+, K2+, A2+
-    KXs+    - Any suited hand that contains a card bigger than a Queen
-    KXo+    - same as above with offsuit hands
-    5X-     - any hand that contains a card lower than 6
-    7Xs-    - see above
-    8Xo-    - see above
+    AX          - Any hand that contains an ace
+    AXo         - Any offsuit hand that contains an Ace
+    AXs         - Any suited hand that contains an Ace
 
-    76s+    - this is valid, although "+" not neccessary, because there are no suited cards above 76s
+    QX+         - Any hand that contains a card bigger than a King; Q2+, K2+, A2+
+    KXs+        - Any suited hand that contains a card bigger than a Queen
+    KXo+        - same as above with offsuit hands
+    5X-         - any hand that contains a card lower than 6
+    7Xs-        - see above
+    8Xo-        - see above
+
+    2s2h, AsKc  - exact hand :ref:`Combo`s
+
+    76s+        - this is valid, although "+" is not neccessary,
+                  because there are no suited cards above 76s
 
     .. note::
         "Q+" and "Q-" are invalid ranges, because in Hold'em, there are two hands to start with not one.
 
 Ranges are case insensitive, so ``"AKs"`` and ``"aks"`` and ``"aKS"`` means the same.
 Also the order of the cards doesn't matter. ``"AK"`` is the same as ``"KA"``.
-Hands can be separated by space (even multiple), comma, colon or semicolon, and combination of them.
+Hands can be separated by space (even multiple), comma, colon or semicolon, and Combo of them.
 
 
 Normalization
@@ -112,24 +119,69 @@ Examples
 | Kxs or KXs     | {'K2s', 'K3s', 'K4s', ..., 'KQs', 'Aks'}               |
 
 
-Glossary
---------
+Suit ranking
+------------
 
-Hand
-    Two cards without precise suits like "AKo", "22".
+According to Wikipedia `High card by suit`_, suits are ranked as:
+    spades > hearts > diamonds > clubs
 
-Combination
-    Exact two cards with suits specified like "2s2c", "7s6c".
 
-Range
-    A range of hands with either in Hand (general) form or Combination.
-    e.g. "55+ AJo+ 7c6h 8s6s", "66-33 76o-73o AsJc 2s2h"
+.. glossary::
 
-Range syntax error
-    A given range cannot be parsed because of bad format
+    Suit
+        One of 'c', 'd', 'h', or 's'. Alternatively ♣, '♦', '♥', '♠'
 
-Range percent
-    Compared to the total of 1326 hand combinations, how many are in the range?
+    Rank
+        One card without suit. One of |cards|.
 
-Range "length" or range size
-    How many concreta hands combinations are in the range?
+    Card
+        One exact card with a suit. e.g. 'As', '2s'. It has a :term:`Rank` and a :term:`Suit`.
+
+    Combo
+        Exact two cards with suits specified like "2s2c", "7s6c". There are total of 1326 Combos.
+
+    Hand
+        Consists two :term:`Rank`s without precise suits like "AKo", "22".
+
+    Hand equality
+        -
+        -
+        - suited better than offsuit
+
+    Range
+        A range of hands with either in :term:`Hand` form or :term:`Combo`.
+        e.g. "55+ AJo+ 7c6h 8s6s", "66-33 76o-73o AsJc 2s2h"
+
+    Range syntax error
+        A given :term:`Range` or :term:`Token` cannot be parsed because of bad format, non-card  symbol, invalid suit, etc.
+
+    Range percent
+        Compared to the total of 1326 hand :term:`Combo`s, how many are in the range?
+
+    Range length
+    Range size
+        How many concrete hand :term:`Combo`s are in the range?
+
+    Range is "bigger" than another
+        If there are more hand :term:`Combo`s in it. (Equity vs each other doesn't matter here.)
+
+    Token
+        Denote one part of a range. In a "66-33 76o-73o AsJc 2s2h" there are 4 tokens:
+        - "66-33" meaning 33, 44, 55, 66
+        - "AsJc"  specific :term:`Combo`
+        - "2s2h" a specific pair of deuces
+        - "76o-73o"  several offsuit :term:`Hand`s
+
+    Broadway Cards
+
+    Face cards
+
+    .. warning:: Ace is not a face card!
+
+       Broadway cards are only: J, Q, K.
+       If this confuses you, use is_broadway_card() instead!
+
+
+.. _High card by suit: http://en.wikipedia.org/wiki/High_card_by_suit
+
+.. |cards| replace:: ('2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K', 'A')
