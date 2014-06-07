@@ -42,6 +42,7 @@ def test_card_are_better_when_ranks_are_higher():
 def test_unicode():
     assert Combination('AsAh') == Combination('A♠A♥')
     assert Combination('5s5h') > Combination('J♠T♠')
+    assert Combination('5s5h') >= Combination('J♠T♠')
 
 
 def test_is_suited():
@@ -54,9 +55,9 @@ def test_is_pair():
 
 
 def test_is_connector():
-    assert Combination('AdKs').is_connector()
-    assert Combination('JdTc').is_connector()
-    assert Combination('KsQs').is_connector()
+    assert Combination('AdKs').is_connector() is True
+    assert Combination('JdTc').is_connector() is True
+    assert Combination('KsQs').is_connector() is True
 
 
 def test_is_suited_connector():

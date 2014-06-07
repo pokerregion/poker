@@ -284,3 +284,88 @@ class Hand(_ReprMixin):
     @suitedness.setter
     def suitedness(self, value):
         self._suitedness = Suitedness(value)
+
+
+@total_ordering
+class Combination(_ReprMixin):
+    __slots__ = ('_first', '_second')
+
+    def __new__(cls, combination):
+        if isinstance(combination, Combination):
+            return combination
+
+        if len(combination) != 4:
+            raise ValueError('{!r}, should have a length of 4'
+                             .format(combination))
+        elif (combination[0] == combination[2] and
+                combination[1] == combination[3]):
+            raise ValueError("{!r}, Pair can't have the same suit: {!r}"
+                             .format(combination, combination[1]))
+
+        self = super().__new__(cls)
+        self.first, self.second = combination[:2], combination[2:]
+        return self
+
+    def __str__(self):
+        return '{}{}'.format(self._first, self._second)
+
+    def __eq__(self, other):
+        hand1, hand2 = self._make_hands(other)
+        return hand1 == hand2
+
+    def __lt__(self, other):
+        hand1, hand2 = self._make_hands(other)
+        return hand1 < hand2
+
+    def _make_hands(self, other):
+        suitedness1 = self._make_suitedness(self)
+        suitedness2 = self._make_suitedness(other)
+        h1 = Hand('{}{}{}'.format(self._first._rank, self._second._rank,
+                                  suitedness1))
+        h2 = Hand('{}{}{}'.format(other._first._rank, other._second._rank,
+                                  suitedness2))
+        return h1, h2
+
+    def _make_suitedness(self, combination):
+        if combination.is_pair():
+            return Suitedness(None)
+        elif combination.is_suited():
+            return Suitedness.SUITED
+        else:
+            return Suitedness.OFFSUIT
+
+    def is_suited_connector(self):
+        return self.is_suited() and self.is_connector()
+
+    def is_suited(self):
+        return self._first._suit == self._second._suit
+
+    def is_connector(self):
+        # Creates an offsuit Hand or a pair and check if it is a connector.
+        suitedness = '' if self.is_pair() else 'o'
+        hand = '{}{}{}'.format(self._first._rank, self._second._rank,
+                               suitedness)
+        return Hand(hand).is_connector()
+
+    def is_pair(self):
+        return self._first._rank == self._second._rank
+
+    def is_broadway(self):
+        return self._first.is_broadway() and self._second.is_broadway()
+
+    @property
+    def first(self):
+        return self._first
+
+    @first.setter
+    def first(self, value):
+        self._first = Card(value)
+
+    @property
+    def second(self):
+        return self._second
+
+    @second.setter
+    def second(self, value):
+        self._second = Card(value)
+
