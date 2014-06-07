@@ -50,10 +50,12 @@ class _MultiValueEnum(Enum, metaclass=_MultiMeta):
         return NotImplemented
 
     def __str__(self):
-        return self.value[0]
+        return str(self.value[0])
 
     def __repr__(self):
-        return "{}('{!s}')".format(self.__class__.__qualname__, self)
+        apostrophe = "'" if isinstance(self.value[0], str) else ''
+        return "{0}({1}{2}{1})".format(self.__class__.__qualname__, apostrophe,
+                                       self)
 
 
 class Suit(_MultiValueEnum):
@@ -91,7 +93,7 @@ BROADWAY_RANKS = Rank('T'), Rank('J'), Rank('Q'), Rank('K'), Rank('A')
 
 class _ReprMixin:
     def __repr__(self):
-        return "{}('{!s}')".format(self.__class__.__qualname__, self)
+        return "{}('{}')".format(self.__class__.__qualname__, self)
 
 
 class Card(_ReprMixin):
@@ -125,7 +127,7 @@ class Card(_ReprMixin):
         return self.rank < other.rank
 
     def __str__(self):
-        return str(self._rank) + str(self._suit)
+        return '{}{}'.format(self._rank, self._suit)
 
     def is_face(self):
         return self._rank in FACE_RANKS
