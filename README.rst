@@ -12,8 +12,7 @@ It's very fault-tolerant, so it's easy to write ranges manually.
 Can normalize unprecise human readable ranges into a precise human readable
 form, like "22+ AQo+ 33 AKo" --> "22+ AQo+"
 
-Can tell how big a range is by :term:`Percentage` or number of :term:`Combo`s.
-(Hand Combo: AhKs or 2c2d)
+Can tell how big a range is by :term:`Percentage` or number of :term:`Combination`s.
 
 
 Signs
@@ -81,7 +80,7 @@ Available formats for defining ranges:
     7Xs-        - see above
     8Xo-        - see above
 
-    2s2h, AsKc  - exact hand :ref:`Combo`s
+    2s2h, AsKc  - exact hand :ref:`Combination`s
 
     76s+        - this is valid, although "+" is not neccessary,
                   because there are no suited cards above 76s
@@ -91,7 +90,7 @@ Available formats for defining ranges:
 
 Ranges are case insensitive, so ``"AKs"`` and ``"aks"`` and ``"aKS"`` means the same.
 Also the order of the cards doesn't matter. ``"AK"`` is the same as ``"KA"``.
-Hands can be separated by space (even multiple), comma, colon or semicolon, and Combo of them.
+Hands can be separated by space (even multiple), comma, colon or semicolon, and Combination of them.
 
 
 Normalization
@@ -137,9 +136,6 @@ According to Wikipedia `High card by suit`_, suits are ranked as:
     Card
         One exact card with a suit. e.g. 'As', '2s'. It has a :term:`Rank` and a :term:`Suit`.
 
-    Combo
-        Exact two cards with suits specified like "2s2c", "7s6c". There are total of 1326 Combos.
-
     Hand
         Consists two :term:`Rank`s without precise suits like "AKo", "22".
 
@@ -148,27 +144,30 @@ According to Wikipedia `High card by suit`_, suits are ranked as:
         -
         - suited better than offsuit
 
+    Combination
+        Exact two cards with suits specified like "2s2c", "7s6c". There are total of 1326 Combinations.
+
     Range
-        A range of hands with either in :term:`Hand` form or :term:`Combo`.
+        A range of hands with either in :term:`Hand` form or :term:`Combination`.
         e.g. "55+ AJo+ 7c6h 8s6s", "66-33 76o-73o AsJc 2s2h"
 
     Range syntax error
         A given :term:`Range` or :term:`Token` cannot be parsed because of bad format, non-card  symbol, invalid suit, etc.
 
     Range percent
-        Compared to the total of 1326 hand :term:`Combo`s, how many are in the range?
+        Compared to the total of 1326 hand :term:`Combination`s, how many are in the range?
 
     Range length
     Range size
-        How many concrete hand :term:`Combo`s are in the range?
+        How many concrete hand :term:`Combination`s are in the range?
 
     Range is "bigger" than another
-        If there are more hand :term:`Combo`s in it. (Equity vs each other doesn't matter here.)
+        If there are more hand :term:`Combination`s in it. (Equity vs each other doesn't matter here.)
 
     Token
         Denote one part of a range. In a "66-33 76o-73o AsJc 2s2h" there are 4 tokens:
         - "66-33" meaning 33, 44, 55, 66
-        - "AsJc"  specific :term:`Combo`
+        - "AsJc"  specific :term:`Combination`
         - "2s2h" a specific pair of deuces
         - "76o-73o"  several offsuit :term:`Hand`s
 
