@@ -13,13 +13,15 @@ import random
 from enum import Enum, EnumMeta
 from functools import total_ordering
 
-# __all__ = ['Suit', 'Suitedness', 'Rank', 'Card', 'FACE_RANKS', 'BROADWAY_RANKS']
+__all__ = ['Suit', 'Suitedness', 'Rank', 'Card', 'Hand', 'Combination',
+           'FACE_RANKS', 'BROADWAY_RANKS']
 
 
 class _MultiMeta(EnumMeta):
     def __new__(metacls, cls, bases, classdict):
         # members already collected from Enum class
-        enum_class = super(_MultiMeta, metacls).__new__(metacls, cls, bases, classdict)
+        enum_class = super(_MultiMeta, metacls).__new__(metacls, cls, bases,
+                                                        classdict)
         # make sure we only have tuple values, not single values
         for member in enum_class.__members__.values():
             if not isinstance(member.value, tuple):
@@ -168,7 +170,7 @@ class Hand(_ReprMixin):
         if isinstance(hand, Hand):
             return hand
 
-        if  len(hand) not in (2, 3):
+        if len(hand) not in (2, 3):
             raise ValueError('Length should be 2 (pair) or 3 (hand)')
 
         first, second = hand[:2]
@@ -368,4 +370,3 @@ class Combination(_ReprMixin):
     @second.setter
     def second(self, value):
         self._second = Card(value)
-
