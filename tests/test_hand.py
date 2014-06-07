@@ -145,3 +145,10 @@ def test_pair_with_suit_raises_ValueError():
 def test_hand_without_suit_raises_ValueError():
     with raises(ValueError):
         Hand('AK')
+
+
+def test_make_random():
+    hand = Hand.make_random()
+    assert isinstance(hand, Hand)
+    assert isinstance(hand.first, Rank)
+    assert isinstance(hand.second, Rank)

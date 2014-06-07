@@ -218,6 +218,14 @@ class Hand(_ReprMixin):
         else:
             return self._first <= other._first and self._second < other._second
 
+    @classmethod
+    def make_random(cls):
+        self = super().__new__(cls)
+        self._first = Rank.make_random()
+        self._second = Rank.make_random()
+        self._suitedness = Suitedness.make_random()
+        return self
+
     def is_suited_connector(self):
         return self.is_suited() and self.is_connector()
 
