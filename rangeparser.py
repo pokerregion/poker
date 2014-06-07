@@ -63,20 +63,26 @@ class Suit(_MultiValueEnum):
     SPADES =   '♠', 's', 'S'
 
 
+class Suitedness(_MultiValueEnum):
+    SUITED =  's', 'S'
+    OFFSUIT = 'o', 'O'
+    NOSUIT =  '', None
+
+
 class Rank(_MultiValueEnum):
     DEUCE = '2',
     THREE = '3',
-    FOUR = '4',
-    FIVE = '5',
-    SIX = '6',
+    FOUR =  '4',
+    FIVE =  '5',
+    SIX =   '6',
     SEVEN = '7',
     EIGHT = '8',
-    NINE = '9',
-    TEN = 'T', 't'
-    JACK = 'J', 'j'
+    NINE =  '9',
+    TEN =   'T', 't'
+    JACK =  'J', 'j'
     QUEEN = 'Q', 'q'
-    KING = 'K', 'k'
-    ACE = 'A', 'a'
+    KING =  'K', 'k'
+    ACE =   'A', 'a'
 
 
 FACE_RANKS = Rank('J'), Rank('Q'), Rank('K')
