@@ -89,7 +89,12 @@ FACE_RANKS = Rank('J'), Rank('Q'), Rank('K')
 BROADWAY_RANKS = Rank('T'), Rank('J'), Rank('Q'), Rank('K'), Rank('A')
 
 
-class Card:
+class _ReprMixin:
+    def __repr__(self):
+        return "{}('{!s}')".format(self.__class__.__qualname__, self)
+
+
+class Card(_ReprMixin):
     __slots__ = ('_rank', '_suit')
 
     def __new__(cls, card):
@@ -121,9 +126,6 @@ class Card:
 
     def __str__(self):
         return str(self._rank) + str(self._suit)
-
-    def __repr__(self):
-        return "{}('{!s}')".format(self.__class__.__qualname__, self)
 
     def is_face(self):
         return self._rank in FACE_RANKS
