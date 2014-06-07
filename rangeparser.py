@@ -10,11 +10,12 @@
     :license: MIT, see LICENSE file for more details.
 """
 import random
+import itertools
 from enum import Enum, EnumMeta
 from functools import total_ordering
 
 __all__ = ['Suit', 'Suitedness', 'Rank', 'Card', 'Hand', 'Combination',
-           'FACE_RANKS', 'BROADWAY_RANKS']
+           'FACE_RANKS', 'BROADWAY_RANKS', 'DECK']
 
 
 class _MultiMeta(EnumMeta):
@@ -159,6 +160,10 @@ class Card(_ReprMixin):
     @suit.setter
     def suit(self, value):
         self._suit = Suit(value)
+
+
+DECK = tuple(Card(str(rank) + str(suit)) for rank, suit in
+             itertools.product(list(Rank), list(Suit)))
 
 
 @total_ordering
