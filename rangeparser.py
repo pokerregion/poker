@@ -13,8 +13,7 @@ import random
 from enum import Enum, EnumMeta
 from functools import total_ordering
 
-
-__all__ = ['Suit', 'Rank', 'Card', 'FACE_RANKS', 'BROADWAY_RANKS']
+# __all__ = ['Suit', 'Suitedness', 'Rank', 'Card', 'FACE_RANKS', 'BROADWAY_RANKS']
 
 
 class _MultiMeta(EnumMeta):
@@ -152,3 +151,128 @@ class Card(_ReprMixin):
     @suit.setter
     def suit(self, value):
         self._suit = Suit(value)
+
+
+@total_ordering
+class Hand(_ReprMixin):
+    """General hand without a precise suit.
+
+    Only knows about two ranks and suitedness.
+    :ivar Rank first:   first Rank
+    :ivar Rank second:  second Rank
+    :ivar Suitedness suitedness:  Suitedness signal
+    """
+    __slots__ = ('_first', '_second', '_suitedness')
+
+    def __new__(cls, hand):
+        if isinstance(hand, Hand):
+            return hand
+
+        if  len(hand) not in (2, 3):
+            raise ValueError('Length should be 2 (pair) or 3 (hand)')
+
+        first, second = hand[:2]
+
+        self = super().__new__(cls)
+
+        if len(hand) == 2:
+            if first != second:
+                raise ValueError('{!r}, Not a pair! '
+                                 'Maybe you need to specify a suit?'
+                                 .format(hand))
+            self._suitedness = Suitedness(None)
+        elif len(hand) == 3:
+            suitedness = hand[2].lower()
+            if first == second:
+                raise ValueError("{!r}; pairs can't have a suit: {!r}"
+                                 .format(hand, suitedness))
+            self.suitedness = suitedness
+
+        self.first, self.second = first, second
+        if self._first < self._second:
+            self.first, self.second = second, first
+
+        return self
+
+    def __str__(self):
+        return '{}{}{}'.format(self._first, self._second, self._suitedness)
+
+    def __eq__(self, other):
+        # AKs != AKo, because AKs is better
+        return (self._first == other._first and
+                self._second == other._second and
+                self._suitedness == other._suitedness)
+
+    def __lt__(self, other):
+        # pairs are better than non-pairs
+        if not self.is_pair() and other.is_pair():
+            return True
+        elif self.is_pair() and not other.is_pair():
+            return False
+        elif (not self.is_pair() and not other.is_pair() and
+                self._first == other._first and self._second == other._second
+                and self._suitedness != other._suitedness):
+            # when Rank match, only suit is the deciding factor
+            # so, offsuit hand is 'less' than suitedness
+            return self._suitedness == Suitedness.OFFSUIT
+        else:
+            return self._first <= other._first and self._second < other._second
+
+    def is_suited_connector(self):
+        return self.is_suited() and self.is_connector()
+
+    def is_suited(self):
+        # pairs are not SUITED
+        return self._suitedness == Suitedness.SUITED
+
+    def is_offsuit(self):
+        # pairs are not OFFSUITs
+        return self._suitedness == Suitedness.OFFSUIT
+
+    def is_connector(self):
+        return self.rank_difference == 1
+
+    def is_one_gapper(self):
+        return self.rank_difference == 2
+
+    def is_two_gapper(self):
+        return self.rank_difference == 3
+
+    @property
+    def rank_difference(self):
+        rank_list = list(Rank)
+        first = rank_list.index(self._first)
+        second = rank_list.index(self._second)
+        # first >= second always
+        return first - second
+
+    def is_broadway(self):
+        return (self._first in BROADWAY_RANKS and
+                self._second in BROADWAY_RANKS)
+
+    def is_pair(self):
+        return self._first == self._second
+
+    @property
+    def first(self):
+        return self._first
+
+    @first.setter
+    def first(self, value):
+        self._first = Rank(value)
+
+    @property
+    def second(self):
+        return self._second
+
+    @second.setter
+    def second(self, value):
+        self._second = Rank(value)
+
+    @property
+    def suitedness(self):
+        return self._suitedness
+
+    @suitedness.setter
+    def suitedness(self, value):
+        self._suitedness = Suitedness(value)
