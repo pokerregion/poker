@@ -11,6 +11,7 @@
 """
 import random
 from enum import Enum, EnumMeta
+from functools import total_ordering
 
 
 __all__ = ['Suit', 'Rank', 'Card', 'FACE_RANKS', 'BROADWAY_RANKS']
@@ -33,6 +34,7 @@ class _MultiMeta(EnumMeta):
         return super().__call__(suit)
 
 
+@total_ordering
 class _MultiValueEnum(Enum, metaclass=_MultiMeta):
     @classmethod
     def make_random(cls):
