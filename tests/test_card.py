@@ -1,4 +1,5 @@
 from rangeparser import Card, Rank, Suit
+from pytest import raises
 
 
 def test_only_cards_with_same_rank_are_equal():
@@ -95,13 +96,6 @@ def test_is_broadway():
     assert Card('2s').is_broadway() is False
 
 
-def test_alternative_constructor():
-    rank = Rank('A')
-    card = Card.from_rank(rank, 'c')
-    assert isinstance(card, Card)
-    assert card == Card('Ac')
-
-
 def test_representation():
     assert str(Card('As')) == 'A♠'
     assert repr(Card('As')) == "Card('A♠')"
@@ -118,3 +112,20 @@ def test_passing_Card_instance_to__init__():
     assert id(c1) == id(c2)
     assert repr(c1) == "Card('A♠')"
     assert repr(c2) == "Card('A♠')"
+
+
+def test_make_random_is_instance_of_Card_Rank_and_Suit():
+    card = Card.make_random()
+    assert isinstance(card, Card)
+    assert isinstance(card.rank, Rank)
+    assert isinstance(card.suit, Suit)
+
+
+def test_invalid_rank_or_card_raises_ValueError():
+    with raises(ValueError):
+        Card('Lh')
+
+
+def test_with_wrong_length_raises_ValueError_and_InvalidCard():
+    with raises(ValueError):
+        Card('AKQs')

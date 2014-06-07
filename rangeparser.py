@@ -13,7 +13,7 @@ import random
 from enum import Enum, EnumMeta
 
 
-__all__ = ['Suit', 'Rank']
+__all__ = ['Suit', 'Rank', 'Card', 'FACE_RANKS', 'BROADWAY_RANKS']
 
 
 class _MultiMeta(EnumMeta):
@@ -78,3 +78,65 @@ class Rank(_MultiValueEnum):
     KING = 'K', 'k'
     ACE = 'A', 'a'
 
+
+FACE_RANKS = Rank('J'), Rank('Q'), Rank('K')
+BROADWAY_RANKS = Rank('T'), Rank('J'), Rank('Q'), Rank('K'), Rank('A')
+
+
+class Card:
+    __slots__ = ('_rank', '_suit')
+
+    def __new__(cls, card):
+        if isinstance(card, Card):
+            return card
+
+        if len(card) != 2:
+            raise ValueError('length should be two in {!r}'.format(card))
+
+        self = super().__new__(cls)
+        self.rank, self.suit = card
+        return self
+
+    @classmethod
+    def make_random(cls):
+        self = super().__new__(cls)
+        self._rank = Rank.make_random()
+        self._suit = Suit.make_random()
+        return self
+
+    def __eq__(self, other):
+        return self.rank == other.rank and self.suit == other.suit
+
+    def __lt__(self, other):
+        # with same ranks, suit counts
+        if self.rank == other.rank:
+            return self.suit < other.suit
+        return self.rank < other.rank
+
+    def __str__(self):
+        return str(self._rank) + str(self._suit)
+
+    def __repr__(self):
+        return "{}('{!s}')".format(self.__class__.__qualname__, self)
+
+    def is_face(self):
+        return self._rank in FACE_RANKS
+
+    def is_broadway(self):
+        return self._rank in BROADWAY_RANKS
+
+    @property
+    def rank(self):
+        return self._rank
+
+    @rank.setter
+    def rank(self, value):
+        self._rank = Rank(value)
+
+    @property
+    def suit(self):
+        return self._suit
+
+    @suit.setter
+    def suit(self, value):
+        self._suit = Suit(value)
