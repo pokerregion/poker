@@ -12,6 +12,7 @@
 import random
 import itertools
 from enum import Enum, EnumMeta
+from types import DynamicClassAttribute
 from functools import total_ordering
 
 __all__ = ['Suit', 'Suitedness', 'Rank', 'Card', 'Hand', 'Combination',
@@ -25,13 +26,14 @@ class _MultiMeta(EnumMeta):
                                                         classdict)
         # make sure we only have tuple values, not single values
         for member in enum_class.__members__.values():
-            if not isinstance(member.value, tuple):
-                raise ValueError('{!r}, should be tuple'.format(member.value))
+            if not isinstance(member._value_, tuple):
+                raise ValueError('{!r}, should be tuple'
+                                 .format(member._value_))
         return enum_class
 
     def __call__(cls, suit):
         for member in cls:
-            if suit in member.value:
+            if suit in member._value_:
                 return member
         return super().__call__(suit)
 
@@ -47,7 +49,7 @@ class _MultiValueEnum(Enum, metaclass=_MultiMeta):
 
     def __eq__(self, other):
         if self.__class__ is other.__class__:
-            return self.value == other.value
+            return self._value_ == other._value_
         return NotImplemented
 
     def __lt__(self, other):
@@ -57,13 +59,17 @@ class _MultiValueEnum(Enum, metaclass=_MultiMeta):
         return NotImplemented
 
     def __str__(self):
-        return str(self.value[0])
+        return str(self.value)
 
     def __repr__(self):
-        apostrophe = "'" if isinstance(self.value[0], str) else ''
+        apostrophe = "'" if isinstance(self.value, str) else ''
         return "{0}({1}{2}{1})".format(self.__class__.__qualname__, apostrophe,
                                        self)
 
+    @DynamicClassAttribute
+    def value(self):
+        """The value of the Enum member."""
+        return self._value_[0]
 
 class Suit(_MultiValueEnum):
     CLUBS =    '♣', 'c', 'C'
