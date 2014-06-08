@@ -71,6 +71,7 @@ class _MultiValueEnum(Enum, metaclass=_MultiMeta):
         """The value of the Enum member."""
         return self._value_[0]
 
+
 class Suit(_MultiValueEnum):
     CLUBS =    '♣', 'c', 'C'
     DIAMONDS = '♦', 'd', 'D'
@@ -79,8 +80,8 @@ class Suit(_MultiValueEnum):
 
 
 class Suitedness(_MultiValueEnum):
-    SUITED =  's', 'S'
     OFFSUIT = 'o', 'O'
+    SUITED =  's', 'S'
     NOSUIT =  '', None
 
 
@@ -235,7 +236,7 @@ class Hand(_ReprMixin):
                 self._first == other._first and self._second == other._second
                 and self._suitedness != other._suitedness):
             # when Rank match, only suit is the deciding factor
-            # so, offsuit hand is 'less' than suitedness
+            # so, offsuit hand is 'less' than suited
             return self._suitedness == Suitedness.OFFSUIT
         else:
             return self._first <= other._first and self._second < other._second
@@ -306,6 +307,14 @@ class Hand(_ReprMixin):
     @suitedness.setter
     def suitedness(self, value):
         self._suitedness = Suitedness(value)
+
+
+PAIR_HANDS = tuple(Hand(rank.value * 2) for rank in list(Rank))
+BIG_PAIR_HANDS = tuple(hand for hand in PAIR_HANDS if hand > Hand('99'))
+OFFSUIT_HANDS = tuple(Hand(hand1.value + hand2.value + 'o') for hand1, hand2 in
+                      itertools.combinations(list(Rank), 2))
+SUITED_HANDS = tuple(Hand(hand1.value + hand2.value + 's') for hand1, hand2 in
+                      itertools.combinations(list(Rank), 2))
 
 
 @total_ordering

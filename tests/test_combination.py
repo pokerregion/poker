@@ -87,3 +87,7 @@ def test_hash():
 
 def test_putting_them_in_set_doesnt_raise_Exception():
     {Combination('AsAh'), Combination('2s2c')}
+
+
+def test_two_set_of_combinations_are_equal_if_they_contains_same_cards():
+    assert {Combination('2s2c')} == {Combination('2c2s')}
