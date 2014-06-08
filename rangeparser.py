@@ -9,14 +9,12 @@
     :copyright: (c) 2014 by Walkman
     :license: MIT, see LICENSE file for more details.
 """
+import re
 import random
 import itertools
 from enum import Enum, EnumMeta
 from types import DynamicClassAttribute
 from functools import total_ordering
-
-__all__ = ['Suit', 'Suitedness', 'Rank', 'Card', 'Hand', 'Combination',
-           'FACE_RANKS', 'BROADWAY_RANKS', 'DECK']
 
 
 class _MultiMeta(EnumMeta):
@@ -398,3 +396,64 @@ class Combination(_ReprMixin):
     @second.setter
     def second(self, value):
         self._second = Card(value)
+
+
+class Range:
+    """Parses a range.
+
+        :ivar str range:    Readable range in unicode
+    """
+    _separator_re = re.compile(r"[, ;]")
+
+    def __init__(self, range=''):
+        range = range.upper()
+
+        self._original = range
+        self._hands = dict()
+
+        # filter out empty matches
+        tokens = [tok for tok in self._separator_re.split(range) if tok]
+
+        for token in tokens:
+            # XX
+            if len(token) == 2 and token == 'XX':
+                pass
+
+            # 22, 33
+            elif len(token) == 2 and token[0] == token[1]:
+                pass
+
+            # AK, J7, AX
+            elif len(token) == 2 and token[0] != token[1]:
+                pass
+
+            # 33+, 33-
+            elif len(token) == 3 and token[0] == token[1]:
+                pass
+
+            # AKo, AKs, KXo, KXs
+            elif len(token) == 3 and token[-1] in ('S', 'O'):
+                pass
+
+            # A5+, A5-, QX+, 5X-
+            elif len(token) == 3 and token[-1] in ('+', '-'):
+                pass
+
+            # 2s2h, AsKc
+            elif len(token) == 4 and '+' not in token and '-' not in token:
+                pass
+
+            # AJo+, AJs+, A5o-, A5s-, 7Xs+, 76s+
+            elif len(token) == 4:
+                pass
+
+            # 55-33, 33-55, J8-J4
+            elif len(token) == 5:
+                pass
+
+            # J8o-J4o, J4o-J8o, 76s-74s, 74s-76s
+            elif len(token) == 7:
+                pass
+
+        self._range = ''
+
