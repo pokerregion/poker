@@ -197,7 +197,7 @@ class Hand(_ReprMixin):
             if first != second:
                 raise ValueError('{!r}, Not a pair! Maybe you need to specify a suit?'
                                  .format(hand))
-            self._suitedness = Suitedness(None)
+            self._suitedness = Suitedness.NOSUIT
         elif len(hand) == 3:
             suitedness = hand[2].lower()
             if first == second:
@@ -356,7 +356,7 @@ class Combination(_ReprMixin):
 
     def _make_suitedness(self, combination):
         if combination.is_pair():
-            return Suitedness(None)
+            return Suitedness.NOSUIT
         elif combination.is_suited():
             return Suitedness.SUITED
         else:
