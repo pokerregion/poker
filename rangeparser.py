@@ -22,13 +22,12 @@ __all__ = ['Suit', 'Suitedness', 'Rank', 'Card', 'Hand', 'Combination',
 class _MultiMeta(EnumMeta):
     def __new__(metacls, cls, bases, classdict):
         # members already collected from Enum class
-        enum_class = super(_MultiMeta, metacls).__new__(metacls, cls, bases,
-                                                        classdict)
+        enum_class = super(_MultiMeta, metacls).__new__(metacls, cls, bases, classdict)
+
         # make sure we only have tuple values, not single values
         for member in enum_class.__members__.values():
             if not isinstance(member._value_, tuple):
-                raise ValueError('{!r}, should be tuple'
-                                 .format(member._value_))
+                raise ValueError('{!r}, should be tuple'.format(member._value_))
         return enum_class
 
     def __call__(cls, suit):
@@ -63,8 +62,7 @@ class _MultiValueEnum(Enum, metaclass=_MultiMeta):
 
     def __repr__(self):
         apostrophe = "'" if isinstance(self.value, str) else ''
-        return "{0}({1}{2}{1})".format(self.__class__.__qualname__, apostrophe,
-                                       self)
+        return "{0}({1}{2}{1})".format(self.__class__.__qualname__, apostrophe, self)
 
     @DynamicClassAttribute
     def value(self):
@@ -197,15 +195,13 @@ class Hand(_ReprMixin):
 
         if len(hand) == 2:
             if first != second:
-                raise ValueError('{!r}, Not a pair! '
-                                 'Maybe you need to specify a suit?'
+                raise ValueError('{!r}, Not a pair! Maybe you need to specify a suit?'
                                  .format(hand))
             self._suitedness = Suitedness(None)
         elif len(hand) == 3:
             suitedness = hand[2].lower()
             if first == second:
-                raise ValueError("{!r}; pairs can't have a suit: {!r}"
-                                 .format(hand, suitedness))
+                raise ValueError("{!r}; pairs can't have a suit: {!r}".format(hand, suitedness))
             self.suitedness = suitedness
 
         self.first, self.second = first, second
@@ -278,8 +274,7 @@ class Hand(_ReprMixin):
         return first - second
 
     def is_broadway(self):
-        return (self._first in BROADWAY_RANKS and
-                self._second in BROADWAY_RANKS)
+        return (self._first in BROADWAY_RANKS and self._second in BROADWAY_RANKS)
 
     def is_pair(self):
         return self._first == self._second
@@ -310,9 +305,12 @@ class Hand(_ReprMixin):
 
 
 PAIR_HANDS = tuple(Hand(rank.value * 2) for rank in list(Rank))
+
 BIG_PAIR_HANDS = tuple(hand for hand in PAIR_HANDS if hand > Hand('99'))
+
 OFFSUIT_HANDS = tuple(Hand(hand1.value + hand2.value + 'o') for hand1, hand2 in
                       itertools.combinations(list(Rank), 2))
+
 SUITED_HANDS = tuple(Hand(hand1.value + hand2.value + 's') for hand1, hand2 in
                       itertools.combinations(list(Rank), 2))
 
@@ -326,10 +324,8 @@ class Combination(_ReprMixin):
             return combination
 
         if len(combination) != 4:
-            raise ValueError('{!r}, should have a length of 4'
-                             .format(combination))
-        elif (combination[0] == combination[2] and
-                combination[1] == combination[3]):
+            raise ValueError('{!r}, should have a length of 4'.format(combination))
+        elif (combination[0] == combination[2] and combination[1] == combination[3]):
             raise ValueError("{!r}, Pair can't have the same suit: {!r}"
                              .format(combination, combination[1]))
 
@@ -354,10 +350,8 @@ class Combination(_ReprMixin):
     def _make_hands(self, other):
         suitedness1 = self._make_suitedness(self)
         suitedness2 = self._make_suitedness(other)
-        h1 = Hand('{}{}{}'.format(self._first._rank, self._second._rank,
-                                  suitedness1))
-        h2 = Hand('{}{}{}'.format(other._first._rank, other._second._rank,
-                                  suitedness2))
+        h1 = Hand('{}{}{}'.format(self._first._rank, self._second._rank, suitedness1))
+        h2 = Hand('{}{}{}'.format(other._first._rank, other._second._rank, suitedness2))
         return h1, h2
 
     def _make_suitedness(self, combination):
@@ -377,8 +371,7 @@ class Combination(_ReprMixin):
     def is_connector(self):
         # Creates an offsuit Hand or a pair and check if it is a connector.
         suitedness = '' if self.is_pair() else 'o'
-        hand = '{}{}{}'.format(self._first._rank, self._second._rank,
-                               suitedness)
+        hand = '{}{}{}'.format(self._first._rank, self._second._rank, suitedness)
         return Hand(hand).is_connector()
 
     def is_pair(self):
