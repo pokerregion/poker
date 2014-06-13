@@ -204,9 +204,7 @@ class Hand(_ReprMixin):
                 raise ValueError("{!r}; pairs can't have a suit: {!r}".format(hand, suitedness))
             self.suitedness = suitedness
 
-        self.first, self.second = first, second
-        if self._first < self._second:
-            self.first, self.second = second, first
+        self._set_ranks_in_order(first, second)
 
         return self
 
@@ -240,10 +238,20 @@ class Hand(_ReprMixin):
     @classmethod
     def make_random(cls):
         self = super().__new__(cls)
-        self._first = Rank.make_random()
-        self._second = Rank.make_random()
-        self._suitedness = Suitedness.make_random()
+        first = Rank.make_random()
+        second = Rank.make_random()
+        self._set_ranks_in_order(first, second)
+        if first == second:
+            self._suitedness = Suitedness.NOSUIT
+        else:
+            self._suitedness = random.choice([Suitedness.SUITED, Suitedness.OFFSUIT])
         return self
+
+    def _set_ranks_in_order(self, first, second):
+        if first >= second:
+            self._first, self._second = first, second
+        else:
+            self._first, self._second = second, first
 
     def is_suited_connector(self):
         return self.is_suited() and self.is_connector()
