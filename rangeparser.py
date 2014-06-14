@@ -344,6 +344,14 @@ class Combination(_ReprMixin):
         self._set_cards_in_order(combination[:2], combination[2:])
         return self
 
+    @classmethod
+    def from_cards(cls, first, second):
+        self = super().__new__(cls)
+        first = first.rank.value + first.suit.value
+        second = second.rank.value + second.suit.value
+        self._set_cards_in_order(first, second)
+        return self
+
     def __str__(self):
         return '{}{}'.format(self._first, self._second)
 

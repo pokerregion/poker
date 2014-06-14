@@ -93,3 +93,11 @@ def test_putting_them_in_set_doesnt_raise_Exception():
 
 def test_two_set_of_combinations_are_equal_if_they_contains_same_cards():
     assert {Combination('2s2c')} == {Combination('2c2s')}
+
+
+def test_from_cards():
+    assert Combination.from_cards(Card('As'), Card('Kh')) == Combination('AsKh')
+
+    combination = Combination.from_cards(Card('Kh'), Card('As'))
+    assert combination == Combination('AsKh')
+    assert repr(combination) == "Combination('A♠K♥')"
