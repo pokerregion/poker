@@ -20,13 +20,9 @@ def test_card_order_is_not_significant():
     assert Combination('AsQc') == Combination('QcAs')
 
 
-def test_ofsuit_pairs_are_equals():
-    assert Combination('2s2c') == Combination('2d2h')
-    assert Combination('5d5h') == Combination('5s5h')
-
-
-def test_pair_equality():
-    assert Combination('2s2c') == Combination('2h2d')
+def test_pairs_are_NOT_equal():
+    assert Combination('2s2c') != Combination('2d2h')
+    assert Combination('5d5h') != Combination('5s5h')
 
 
 def test_pairs_are_better_than_non_pairs():

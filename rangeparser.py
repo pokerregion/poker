@@ -108,6 +108,7 @@ class _ReprMixin:
         return "{}('{}')".format(self.__class__.__qualname__, self)
 
 
+@total_ordering
 class Card(_ReprMixin):
     __slots__ = ('_rank', '_suit')
 
@@ -348,32 +349,21 @@ class Combination(_ReprMixin):
         return hash(self._first) + hash(self._second)
 
     def __eq__(self, other):
-        hand1, hand2 = self._make_hands(other)
-        return hand1 == hand2
+        return self._first == other._first and self._second == other._second
 
     def __lt__(self, other):
-        hand1, hand2 = self._make_hands(other)
-        return hand1 < hand2
+        if not self.is_pair() and other.is_pair():
+            return True
+        elif self.is_pair() and not other.is_pair():
+            return False
+
+        # suits matter
+        return self._first <= other._first and self._second < other._second
 
     def _set_cards_in_order(self, first, second):
         self.first, self.second = first, second
         if self._first < self._second:
             self._first, self._second = self._second, self._first
-
-    def _make_hands(self, other):
-        suitedness1 = self._make_suitedness(self)
-        suitedness2 = self._make_suitedness(other)
-        h1 = Hand('{}{}{}'.format(self._first._rank, self._second._rank, suitedness1))
-        h2 = Hand('{}{}{}'.format(other._first._rank, other._second._rank, suitedness2))
-        return h1, h2
-
-    def _make_suitedness(self, combination):
-        if combination.is_pair():
-            return Suitedness.NOSUIT
-        elif combination.is_suited():
-            return Suitedness.SUITED
-        else:
-            return Suitedness.OFFSUIT
 
     def is_suited_connector(self):
         return self.is_suited() and self.is_connector()
