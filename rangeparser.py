@@ -422,6 +422,7 @@ class Range:
 
         self._original = range
         self._hands = dict()
+        self._range = ''
 
         # filter out empty matches
         tokens = [tok for tok in self._separator_re.split(range) if tok]
@@ -433,7 +434,8 @@ class Range:
 
             # 22, 33
             elif len(token) == 2 and token[0] == token[1]:
-                pass
+                self._hands[Hand(token)] = self._make_combinations_from_pair(token)
+                self._range += token
 
             # AK, J7, AX
             elif len(token) == 2 and token[0] != token[1]:
@@ -467,5 +469,23 @@ class Range:
             elif len(token) == 7:
                 pass
 
-        self._range = ''
+    def _make_combinations(self, hand_str):
+        first, second = hand_str
+        return tuple(Combination(first + s1.value + second + s2.value) for
+                     s1, s2 in itertools.combinations_with_replacement(Suit, 2))
+
+    def _make_combinations_from_pair(self, pair):
+        rank = pair[0]
+        return tuple(Combination(rank + s1.value + rank + s2.value) for
+                     # there are no suited pairs
+                     s1, s2 in itertools.combinations(Suit, 2))
+
+    @property
+    def hands(self):
+        return tuple(self._hands.keys())
+
+    @property
+    def combinations(self):
+        # flat out tuple of tuples
+        return tuple(v for t in self._hands.values() for v in t)
 

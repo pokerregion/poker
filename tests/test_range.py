@@ -59,6 +59,13 @@ class TestHandsResultsAfterParse:
         assert Range('J8s-J4s').hands == (Hand('J4s'), Hand('J5s'), Hand('J6s'),
                                           Hand('J7s'), Hand('J8s'))
 
+    def test_empty_range(self):
+        assert Range().hands == tuple()
+        assert Range().combinations == tuple()
+
+        assert Range('').hands == tuple()
+        assert Range('').combinations == tuple()
+
 
 class TestCombinationsResultsAfterParse:
     def test_pairs_simple(self):
@@ -156,6 +163,9 @@ class TestRangeEquality:
 
     def test_offsuit_multiple_with_AK(self):
         assert Range('AKo 22+ 45 33') == Range('22+ AKo 54')
+
+    def test_empty_range(self):
+        assert Range() == Range('')
 
 
 class ValueChecks:
