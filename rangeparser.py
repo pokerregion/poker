@@ -248,10 +248,10 @@ class Hand(_ReprMixin):
         return self
 
     def _set_ranks_in_order(self, first, second):
-        if first >= second:
-            self._first, self._second = first, second
-        else:
-            self._first, self._second = second, first
+        # set as Rank objects.
+        self.first, self.second = first, second
+        if self._first < self._second:
+            self._first, self._second = self._second, self._first
 
     def is_suited_connector(self):
         return self.is_suited() and self.is_connector()
