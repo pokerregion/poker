@@ -45,6 +45,12 @@ def test_unicode():
     assert Combination('5s5h') >= Combination('J♠T♠')
 
 
+def test_repr():
+    assert str(Combination('2s2c')) == '2♠2♣'
+    assert str(Combination('KhAs')) == 'A♠K♥'
+    assert str(Combination('ThTd')) == 'T♥T♦'
+
+
 def test_is_suited():
     assert Combination('AdKd').is_suited() is True
 

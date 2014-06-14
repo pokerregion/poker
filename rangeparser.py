@@ -338,7 +338,7 @@ class Combination(_ReprMixin):
                              .format(combination, combination[1]))
 
         self = super().__new__(cls)
-        self.first, self.second = combination[:2], combination[2:]
+        self._set_cards_in_order(combination[:2], combination[2:])
         return self
 
     def __str__(self):
@@ -354,6 +354,11 @@ class Combination(_ReprMixin):
     def __lt__(self, other):
         hand1, hand2 = self._make_hands(other)
         return hand1 < hand2
+
+    def _set_cards_in_order(self, first, second):
+        self.first, self.second = first, second
+        if self._first < self._second:
+            self._first, self._second = self._second, self._first
 
     def _make_hands(self, other):
         suitedness1 = self._make_suitedness(self)
