@@ -368,7 +368,11 @@ class Combination(_ReprMixin):
             return False
 
         # suits matter
-        return self._first <= other._first and self._second < other._second
+        # these comparisons suppose that cards are ordered (higher first)
+        if self._first == other._first:
+            return self._second < other._second
+        else:
+            return self._first < other._first
 
     def _set_cards_in_order(self, first, second):
         self.first, self.second = first, second
