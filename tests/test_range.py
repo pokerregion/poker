@@ -4,19 +4,19 @@ from rangeparser import *
 
 # from worse to best (suit matter)
 DEUCE_COMBINATIONS = (
-    Combination('2c2d'), Combination('2c2h'), Combination('2c2s'),
-    Combination('2d2h'), Combination('2d2s'), Combination('2h2s')
+    Combination('2d2c'), Combination('2h2c'), Combination('2h2d'),
+    Combination('2s2c'), Combination('2s2d'), Combination('2s2h')
 )
 
 THREE_COMBINATIONS = (
-    Combination('3c3d'), Combination('3c3h'), Combination('3c3s'),
-    Combination('3d3h'), Combination('3d3s'), Combination('3h3s')
+    Combination('3d3c'), Combination('3h3c'), Combination('3h3d'),
+    Combination('3s3c'), Combination('3s3d'), Combination('3s3h')
 )
 
 # from worse to best (suit matter)
 TEN_COMBINATIONS = (
-    Combination('TcTd'), Combination('TcTh'), Combination('TcTs'),
-    Combination('TdTh') , Combination('TdTs') , Combination('ThTs')
+    Combination('TdTc'), Combination('ThTc'), Combination('ThTd'),
+    Combination('TsTc'), Combination('TsTd'), Combination('TsTh')
 )
 
 

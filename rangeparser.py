@@ -425,7 +425,8 @@ class Range:
         range = range.upper()
 
         self._original = range
-        self._hands = dict()
+        self._hands = set()
+        self._combinations = set()
         self._range = ''
 
         # filter out empty matches
@@ -438,8 +439,7 @@ class Range:
 
             # 22, 33
             elif len(token) == 2 and token[0] == token[1]:
-                self._hands[Hand(token)] = self._make_combinations_from_pair(token)
-                self._range += token
+                self._add_hand(Hand(token))
 
             # AK, J7, AX
             elif len(token) == 2 and token[0] != token[1]:
@@ -447,7 +447,10 @@ class Range:
 
             # 33+, 33-
             elif len(token) == 3 and token[0] == token[1]:
-                pass
+                backward = True if token[1] == '-' else False
+                first = Hand(token[:2])
+                self._add_hands(pair for pair in sorted(PAIR_HANDS, reverse=backward) if
+                                pair >= first)
 
             # AKo, AKs, KXo, KXs
             elif len(token) == 3 and token[-1] in ('S', 'O'):
@@ -459,13 +462,20 @@ class Range:
 
             # 2s2h, AsKc
             elif len(token) == 4 and '+' not in token and '-' not in token:
-                pass
+                self._hands.add(Hand(token[0] + token[2]))
+                self._combinations.add(Combination(token))
 
             # AJo+, AJs+, A5o-, A5s-, 7Xs+, 76s+
             elif len(token) == 4:
                 pass
 
-            # 55-33, 33-55, J8-J4
+            # 55-33, 33-55
+            elif len(token) == 5 and token[0] == token[1]:
+                first, second = Hand(token[:2]), Hand(token[3:])
+                bigger, smaller = max(first, second), min(first, second)
+                self._add_hands(pair for pair in PAIR_HANDS if smaller <= pair <= bigger)
+
+            # J8-J4
             elif len(token) == 5:
                 pass
 
@@ -473,23 +483,33 @@ class Range:
             elif len(token) == 7:
                 pass
 
-    def _make_combinations(self, hand_str):
-        first, second = hand_str
-        return tuple(Combination(first + s1.value + second + s2.value) for
-                     s1, s2 in itertools.combinations_with_replacement(Suit, 2))
+    def _add_hands(self, hands):
+        """Add all hands listed and all combinations generated from them."""
+        for hand in hands:
+            self._add_hand(hand)
 
-    def _make_combinations_from_pair(self, pair):
-        rank = pair[0]
-        return tuple(Combination(rank + s1.value + rank + s2.value) for
-                     # there are no suited pairs
-                     s1, s2 in itertools.combinations(Suit, 2))
+    def _add_hand(self, hand):
+        """Add hand and all combinations generated from it."""
+        self._hands.add(hand)
+        self._combinations |= self._make_combinations(hand)
+
+    def _make_combinations(self, hand):
+        """Make all possible hand Combinations from the given Hand."""
+        if hand.is_pair():
+            # there are no suited pairs, so suits can not be repeated
+            combination_maker = itertools.combinations
+        else:
+            combination_maker = itertools.combinations_with_replacement
+
+        return {Combination(hand.first.value + s1.value + hand.second.value + s2.value) for
+                s1, s2 in combination_maker(Suit, 2)}
 
     @property
     def hands(self):
-        return tuple(self._hands.keys())
+        return tuple(sorted(self._hands))
 
     @property
     def combinations(self):
-        # flat out tuple of tuples
-        return tuple(v for t in self._hands.values() for v in t)
+        # flat out tuple of lists
+        return tuple(sorted(self._combinations))
 
