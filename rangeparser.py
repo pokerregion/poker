@@ -443,7 +443,8 @@ class Range:
 
             # AK, J7, AX
             elif len(token) == 2 and token[0] != token[1]:
-                pass
+                self._add_hand(Hand(token + 's'))
+                self._add_hand(Hand(token + 'o'))
 
             # 33+, 33-
             elif len(token) == 3 and token[0] == token[1]:
@@ -452,11 +453,19 @@ class Range:
                 self._add_hands(pair for pair in sorted(PAIR_HANDS, reverse=backward) if
                                 pair >= first)
 
-            # AKo, AKs, KXo, KXs
+            # AKo, AKs,
+            elif len(token) == 3 and token[-1] in ('S', 'O') and 'X' not in token:
+                self._add_hand(Hand(token))
+
+            # KXo, KXs
             elif len(token) == 3 and token[-1] in ('S', 'O'):
                 pass
 
-            # A5+, A5-, QX+, 5X-
+            # A5+, A5-,
+            elif len(token) == 3 and token[-1] in ('+', '-') and 'X' not in token:
+                pass
+
+            # QX+, 5X-
             elif len(token) == 3 and token[-1] in ('+', '-'):
                 pass
 

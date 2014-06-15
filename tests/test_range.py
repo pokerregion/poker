@@ -46,7 +46,7 @@ class TestHandsResultsAfterParse:
         assert Range('33-22').hands == (Hand('22'), Hand('33'))
 
     def test_multiple_offsuit_hands(self):
-        assert Range('AKo 84o').hands == (Hand('AKo'), Hand('84o'))
+        assert Range('AKo 84o').hands == (Hand('84o'), Hand('AKo'))
 
     def test_hands_without_suit(self):
         assert Range('AK 48').hands == (Hand('84o'), Hand('84s'), Hand('AKo'), Hand('AKs'))
