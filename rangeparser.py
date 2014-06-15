@@ -132,7 +132,7 @@ class Card(_ReprMixin):
         return hash(self._rank) + hash(self._suit)
 
     def __eq__(self, other):
-        return self.rank == other.rank and self.suit == other.suit
+        return self._rank == other._rank and self._suit == other._suit
 
     def __lt__(self, other):
         # with same ranks, suit counts
