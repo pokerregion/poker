@@ -35,6 +35,17 @@ def test_card_are_better_when_ranks_are_higher():
     assert Combination('KsJh') > Combination('QcJh')
 
 
+def test_pair_comparisons():
+    assert (Combination('2d2c') < Combination('2s2c')) is True
+    # reverse
+    assert (Combination('2s2c') < Combination('2d2c')) is False
+
+
+def test_equal_pairs_are_not_less():
+    assert (Combination('2s2c') < Combination('2s2c')) is False
+    assert (Combination('2s2c') > Combination('2s2c')) is False
+
+
 def test_unicode():
     assert Combination('AsAh') == Combination('A♠A♥')
     assert Combination('5s5h') > Combination('J♠T♠')
