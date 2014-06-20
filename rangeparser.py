@@ -232,7 +232,9 @@ class Hand(_ReprMixin):
             # so, offsuit hand is 'less' than suited
             return self._suitedness == Suitedness.OFFSUIT
         else:
-            return self._first <= other._first and self._second < other._second
+            if self._first == other._first:
+                return self._second < other._second
+            return self._first < other._first
 
     @classmethod
     def make_random(cls):

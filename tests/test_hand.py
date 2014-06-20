@@ -37,6 +37,12 @@ def test_ordering():
     assert Hand('76s') > Hand('76o')
 
 
+def test_ordering_is_unambiguous():
+    assert Hand('76o') < Hand('J6o')
+    assert Hand('J6o') > Hand('76o')
+    assert (Hand('J6o') < Hand('76o')) is False
+
+
 def test_ordering_reverse():
     assert Hand('AQs') < Hand('AKo')
 
