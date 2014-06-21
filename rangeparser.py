@@ -75,7 +75,7 @@ class Suit(_MultiValueEnum):
     SPADES =   '♠', 's', 'S'
 
 
-class Suitedness(_MultiValueEnum):
+class Shape(_MultiValueEnum):
     OFFSUIT = 'o', 'O'
     SUITED =  's', 'S'
     NOSUIT =  '', None
@@ -174,12 +174,12 @@ DECK = tuple(Card(str(rank) + str(suit)) for rank, suit in
 class Hand(_ReprMixin):
     """General hand without a precise suit.
 
-    Only knows about two ranks and suitedness.
+    Only knows about two ranks and shape.
     :ivar Rank first:   first Rank
     :ivar Rank second:  second Rank
-    :ivar Suitedness suitedness:  Suitedness signal
+    :ivar Shape shape:  Shape signal
     """
-    __slots__ = ('_first', '_second', '_suitedness')
+    __slots__ = ('_first', '_second', '_shape')
 
     def __new__(cls, hand):
         if isinstance(hand, Hand):
@@ -196,28 +196,28 @@ class Hand(_ReprMixin):
             if first != second:
                 raise ValueError('{!r}, Not a pair! Maybe you need to specify a suit?'
                                  .format(hand))
-            self._suitedness = Suitedness.NOSUIT
+            self._shape = Shape.NOSUIT
         elif len(hand) == 3:
-            suitedness = hand[2].lower()
+            shape = hand[2].lower()
             if first == second:
-                raise ValueError("{!r}; pairs can't have a suit: {!r}".format(hand, suitedness))
-            self.suitedness = suitedness
+                raise ValueError("{!r}; pairs can't have a suit: {!r}".format(hand, shape))
+            self.shape = shape
 
         self._set_ranks_in_order(first, second)
 
         return self
 
     def __str__(self):
-        return '{}{}{}'.format(self._first, self._second, self._suitedness)
+        return '{}{}{}'.format(self._first, self._second, self._shape)
 
     def __hash__(self):
-        return hash(self._first) + hash(self._second) + hash(self._suitedness)
+        return hash(self._first) + hash(self._second) + hash(self._shape)
 
     def __eq__(self, other):
         # AKs != AKo, because AKs is better
         return (self._first == other._first and
                 self._second == other._second and
-                self._suitedness == other._suitedness)
+                self._shape == other._shape)
 
     def __lt__(self, other):
         # pairs are better than non-pairs
@@ -227,10 +227,10 @@ class Hand(_ReprMixin):
             return False
         elif (not self.is_pair() and not other.is_pair() and
                 self._first == other._first and self._second == other._second
-                and self._suitedness != other._suitedness):
+                and self._shape != other._shape):
             # when Rank match, only suit is the deciding factor
             # so, offsuit hand is 'less' than suited
-            return self._suitedness == Suitedness.OFFSUIT
+            return self._shape == Shape.OFFSUIT
         else:
             if self._first == other._first:
                 return self._second < other._second
@@ -243,9 +243,9 @@ class Hand(_ReprMixin):
         second = Rank.make_random()
         self._set_ranks_in_order(first, second)
         if first == second:
-            self._suitedness = Suitedness.NOSUIT
+            self._shape = Shape.NOSUIT
         else:
-            self._suitedness = random.choice([Suitedness.SUITED, Suitedness.OFFSUIT])
+            self._shape = random.choice([Shape.SUITED, Shape.OFFSUIT])
         return self
 
     def _set_ranks_in_order(self, first, second):
@@ -259,11 +259,11 @@ class Hand(_ReprMixin):
 
     def is_suited(self):
         # pairs are not SUITED
-        return self._suitedness == Suitedness.SUITED
+        return self._shape == Shape.SUITED
 
     def is_offsuit(self):
         # pairs are not OFFSUITs
-        return self._suitedness == Suitedness.OFFSUIT
+        return self._shape == Shape.OFFSUIT
 
     def is_connector(self):
         return self.rank_difference == 1
@@ -305,12 +305,12 @@ class Hand(_ReprMixin):
         self._second = Rank(value)
 
     @property
-    def suitedness(self):
-        return self._suitedness
+    def shape(self):
+        return self._shape
 
-    @suitedness.setter
-    def suitedness(self, value):
-        self._suitedness = Suitedness(value)
+    @shape.setter
+    def shape(self, value):
+        self._shape = Shape(value)
 
 
 PAIR_HANDS = tuple(Hand(rank.value * 2) for rank in list(Rank))
@@ -389,8 +389,8 @@ class Combination(_ReprMixin):
 
     def is_connector(self):
         # Creates an offsuit Hand or a pair and check if it is a connector.
-        suitedness = '' if self.is_pair() else 'o'
-        hand = '{}{}{}'.format(self._first._rank, self._second._rank, suitedness)
+        shape = '' if self.is_pair() else 'o'
+        hand = '{}{}{}'.format(self._first._rank, self._second._rank, shape)
         return Hand(hand).is_connector()
 
     def is_pair(self):
@@ -401,7 +401,7 @@ class Combination(_ReprMixin):
 
     def to_hand(self):
         """Convert combination to Hand object."""
-        return Hand('{}{}{}'.format(self.first.rank, self.second.rank, self.suitedness))
+        return Hand('{}{}{}'.format(self.first.rank, self.second.rank, self.shape))
 
     @property
     def first(self):
@@ -420,13 +420,13 @@ class Combination(_ReprMixin):
         self._second = Card(value)
 
     @property
-    def suitedness(self):
+    def shape(self):
         if self.is_pair():
-            return Suitedness.NOSUIT
+            return Shape.NOSUIT
         elif self.first.suit == self.second.suit:
-            return Suitedness.SUITED
+            return Shape.SUITED
         else:
-            return Suitedness.OFFSUIT
+            return Shape.OFFSUIT
 
 
 class Range:
