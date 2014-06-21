@@ -118,3 +118,9 @@ def test_suitedness_property():
     assert Combination('2s2c').suitedness == Suitedness.NOSUIT
     assert Combination('AsKs').suitedness == Suitedness.SUITED
     assert Combination('AdKs').suitedness == Suitedness.OFFSUIT
+
+
+def test_to_hand_converter_method():
+    assert Combination('2s2c').to_hand() == Hand('22')
+    assert Combination('AsKc').to_hand() == Hand('AKo')
+    assert Combination('7s6s').to_hand() == Hand('76s')

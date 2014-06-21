@@ -399,6 +399,10 @@ class Combination(_ReprMixin):
     def is_broadway(self):
         return self._first.is_broadway() and self._second.is_broadway()
 
+    def to_hand(self):
+        """Convert combination to Hand object."""
+        return Hand('{}{}{}'.format(self.first.rank, self.second.rank, self.suitedness))
+
     @property
     def first(self):
         return self._first
