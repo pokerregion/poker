@@ -78,7 +78,7 @@ class Suit(_MultiValueEnum):
 class Shape(_MultiValueEnum):
     OFFSUIT = 'o', 'O'
     SUITED =  's', 'S'
-    NOSUIT =  '', None
+    PAIR =  '',
 
 
 class Rank(_MultiValueEnum):
@@ -196,7 +196,7 @@ class Hand(_ReprMixin):
             if first != second:
                 raise ValueError('{!r}, Not a pair! Maybe you need to specify a suit?'
                                  .format(hand))
-            self._shape = Shape.NOSUIT
+            self._shape = Shape.PAIR
         elif len(hand) == 3:
             shape = hand[2].lower()
             if first == second:
@@ -243,7 +243,7 @@ class Hand(_ReprMixin):
         second = Rank.make_random()
         self._set_ranks_in_order(first, second)
         if first == second:
-            self._shape = Shape.NOSUIT
+            self._shape = Shape.PAIR
         else:
             self._shape = random.choice([Shape.SUITED, Shape.OFFSUIT])
         return self
@@ -422,7 +422,7 @@ class Combination(_ReprMixin):
     @property
     def shape(self):
         if self.is_pair():
-            return Shape.NOSUIT
+            return Shape.PAIR
         elif self.first.suit == self.second.suit:
             return Shape.SUITED
         else:
