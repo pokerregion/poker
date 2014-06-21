@@ -391,6 +391,10 @@ class Combination(_ReprMixin):
         if self._first < self._second:
             self._first, self._second = self._second, self._first
 
+    def to_hand(self):
+        """Convert combination to Hand object."""
+        return Hand('{}{}{}'.format(self.first.rank, self.second.rank, self.shape))
+
     @property
     def is_suited_connector(self):
         return self.is_suited and self.is_connector
@@ -412,10 +416,6 @@ class Combination(_ReprMixin):
 
     @property
     def is_broadway(self):
-
-    def to_hand(self):
-        """Convert combination to Hand object."""
-        return Hand('{}{}{}'.format(self.first.rank, self.second.rank, self.shape))
         return self._first.is_broadway and self._second.is_broadway
 
     @property

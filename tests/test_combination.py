@@ -1,4 +1,4 @@
-from rangeparser import Combination, Card
+from rangeparser import Combination, Card, Shape, Hand
 from pytest import raises
 
 
@@ -114,10 +114,10 @@ def test_from_cards():
     assert repr(combination) == "Combination('A♠K♥')"
 
 
-def test_suitedness_property():
-    assert Combination('2s2c').suitedness == Suitedness.NOSUIT
-    assert Combination('AsKs').suitedness == Suitedness.SUITED
-    assert Combination('AdKs').suitedness == Suitedness.OFFSUIT
+def test_shape_property():
+    assert Combination('2s2c').shape == Shape.PAIR
+    assert Combination('AsKs').shape == Shape.SUITED
+    assert Combination('AdKs').shape == Shape.OFFSUIT
 
 
 def test_to_hand_converter_method():
