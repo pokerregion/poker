@@ -143,9 +143,11 @@ class Card(_ReprMixin):
     def __str__(self):
         return '{}{}'.format(self._rank, self._suit)
 
+    @property
     def is_face(self):
         return self._rank in FACE_RANKS
 
+    @property
     def is_broadway(self):
         return self._rank in BROADWAY_RANKS
 
@@ -254,23 +256,29 @@ class Hand(_ReprMixin):
         if self._first < self._second:
             self._first, self._second = self._second, self._first
 
+    @property
     def is_suited_connector(self):
         return self.is_suited() and self.is_connector()
 
+    @property
     def is_suited(self):
         # pairs are not SUITED
         return self._shape == Shape.SUITED
 
+    @property
     def is_offsuit(self):
         # pairs are not OFFSUITs
         return self._shape == Shape.OFFSUIT
 
+    @property
     def is_connector(self):
         return self.rank_difference == 1
 
+    @property
     def is_one_gapper(self):
         return self.rank_difference == 2
 
+    @property
     def is_two_gapper(self):
         return self.rank_difference == 3
 
@@ -282,9 +290,11 @@ class Hand(_ReprMixin):
         # first >= second always
         return first - second
 
+    @property
     def is_broadway(self):
         return (self._first in BROADWAY_RANKS and self._second in BROADWAY_RANKS)
 
+    @property
     def is_pair(self):
         return self._first == self._second
 
@@ -381,21 +391,26 @@ class Combination(_ReprMixin):
         if self._first < self._second:
             self._first, self._second = self._second, self._first
 
+    @property
     def is_suited_connector(self):
         return self.is_suited() and self.is_connector()
 
+    @property
     def is_suited(self):
         return self._first._suit == self._second._suit
 
+    @property
     def is_connector(self):
         # Creates an offsuit Hand or a pair and check if it is a connector.
         shape = '' if self.is_pair() else 'o'
         hand = '{}{}{}'.format(self._first._rank, self._second._rank, shape)
         return Hand(hand).is_connector()
 
+    @property
     def is_pair(self):
         return self._first._rank == self._second._rank
 
+    @property
     def is_broadway(self):
         return self._first.is_broadway() and self._second.is_broadway()
 
