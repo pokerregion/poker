@@ -434,7 +434,7 @@ class Combination(_ReprMixin):
     def shape(self):
         if self.is_pair:
             return Shape.PAIR
-        elif self.first.suit == self.second.suit:
+        elif self.is_suited:
             return Shape.SUITED
         else:
             return Shape.OFFSUIT
