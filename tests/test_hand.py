@@ -81,56 +81,56 @@ def test_equality():
 
 
 def test_is_suited():
-    assert Hand('AKs').is_suited() is True
+    assert Hand('AKs').is_suited is True
 
-    assert Hand('AKo').is_suited() is False
-    assert Hand('22').is_suited() is False
+    assert Hand('AKo').is_suited is False
+    assert Hand('22').is_suited is False
 
 
 def test_is_offsuit():
-    assert Hand('AKs').is_offsuit() is False
-    assert Hand('AKo').is_offsuit() is True
-    assert Hand('22').is_offsuit() is False
+    assert Hand('AKs').is_offsuit is False
+    assert Hand('AKo').is_offsuit is True
+    assert Hand('22').is_offsuit is False
 
 
 def test_is_connector():
-    assert Hand('76o').is_connector() is True
-    assert Hand('AKo').is_connector() is True
+    assert Hand('76o').is_connector is True
+    assert Hand('AKo').is_connector is True
 
-    assert Hand('22').is_connector() is False
-    assert Hand('85o').is_connector() is False
+    assert Hand('22').is_connector is False
+    assert Hand('85o').is_connector is False
 
 
 def test_is_one_gapper():
-    assert Hand('86s').is_one_gapper() is True
-    assert Hand('AQo').is_one_gapper() is True
+    assert Hand('86s').is_one_gapper is True
+    assert Hand('AQo').is_one_gapper is True
 
 
 def test_is_two_gapper():
-    assert Hand('85s').is_two_gapper() is True
-    assert Hand('AJo').is_two_gapper() is True
+    assert Hand('85s').is_two_gapper is True
+    assert Hand('AJo').is_two_gapper is True
 
-    assert Hand('86s').is_two_gapper() is False
-    assert Hand('ATo').is_two_gapper() is False
+    assert Hand('86s').is_two_gapper is False
+    assert Hand('ATo').is_two_gapper is False
 
 
 def test_is_suited_connector():
-    assert Hand('76s').is_suited_connector() is True
-    assert Hand('45s').is_suited_connector() is True
+    assert Hand('76s').is_suited_connector is True
+    assert Hand('45s').is_suited_connector is True
 
-    assert Hand('55').is_suited_connector() is False
-    assert Hand('76o').is_suited_connector() is False
+    assert Hand('55').is_suited_connector is False
+    assert Hand('76o').is_suited_connector is False
 
 
 def test_is_broadway():
-    assert Hand('AKo').is_broadway() is True
-    assert Hand('J9o').is_broadway() is False
-    assert Hand('99').is_broadway() is False
+    assert Hand('AKo').is_broadway is True
+    assert Hand('J9o').is_broadway is False
+    assert Hand('99').is_broadway is False
 
 
 def test_is_pair():
-    assert Hand('22').is_pair() is True
-    assert Hand('86s').is_pair() is False
+    assert Hand('22').is_pair is True
+    assert Hand('86s').is_pair is False
 
 
 def test_invalid_suit_raises_ValueError():

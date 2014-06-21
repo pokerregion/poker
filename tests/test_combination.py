@@ -10,7 +10,7 @@ def test_first_and_second_are_Card_instances():
 def test_case_insensitive():
     assert Combination('ASKC') > Combination('QCJH')
     assert Combination('askc') > Combination('qcjh')
-    assert Combination('KSjh').is_broadway() is True
+    assert Combination('KSjh').is_broadway is True
 
     assert Combination('2s2c') == Combination('2S2C')
 
@@ -59,27 +59,27 @@ def test_repr():
 
 
 def test_is_suited():
-    assert Combination('AdKd').is_suited() is True
+    assert Combination('AdKd').is_suited is True
 
 
 def test_is_pair():
-    assert Combination('2s2c').is_pair() is True
-    assert Combination('AhAd').is_pair() is True
+    assert Combination('2s2c').is_pair is True
+    assert Combination('AhAd').is_pair is True
 
 
 def test_is_connector():
-    assert Combination('AdKs').is_connector() is True
-    assert Combination('JdTc').is_connector() is True
-    assert Combination('KsQs').is_connector() is True
+    assert Combination('AdKs').is_connector is True
+    assert Combination('JdTc').is_connector is True
+    assert Combination('KsQs').is_connector is True
 
 
 def test_is_suited_connector():
-    assert Combination('AdKd').is_connector()
-    assert Combination('KsQs').is_suited_connector()
+    assert Combination('AdKd').is_connector
+    assert Combination('KsQs').is_suited_connector
 
 
 def test_is_broadway():
-    assert Combination('KsJc').is_broadway() is True
+    assert Combination('KsJc').is_broadway is True
 
 
 def test_invalid_combination():

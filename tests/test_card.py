@@ -82,18 +82,18 @@ def test_case_insensitive():
 
 def test_is_face():
     # A is NOT a face card!
-    assert Card('As').is_face() is False
-    assert Card('2c').is_face() is False
+    assert Card('As').is_face is False
+    assert Card('2c').is_face is False
 
-    assert Card('Qd').is_face() is True
+    assert Card('Qd').is_face is True
 
 
 def test_is_broadway():
-    assert Card('As').is_broadway() is True
-    assert Card('Kd').is_broadway() is True
-    assert Card('Th').is_broadway() is True
+    assert Card('As').is_broadway is True
+    assert Card('Kd').is_broadway is True
+    assert Card('Th').is_broadway is True
 
-    assert Card('2s').is_broadway() is False
+    assert Card('2s').is_broadway is False
 
 
 def test_representation():
