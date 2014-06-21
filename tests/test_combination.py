@@ -112,3 +112,9 @@ def test_from_cards():
     combination = Combination.from_cards(Card('Kh'), Card('As'))
     assert combination == Combination('AsKh')
     assert repr(combination) == "Combination('A♠K♥')"
+
+
+def test_suitedness_property():
+    assert Combination('2s2c').suitedness == Suitedness.NOSUIT
+    assert Combination('AsKs').suitedness == Suitedness.SUITED
+    assert Combination('AdKs').suitedness == Suitedness.OFFSUIT

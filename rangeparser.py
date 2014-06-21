@@ -415,6 +415,15 @@ class Combination(_ReprMixin):
     def second(self, value):
         self._second = Card(value)
 
+    @property
+    def suitedness(self):
+        if self.is_pair():
+            return Suitedness.NOSUIT
+        elif self.first.suit == self.second.suit:
+            return Suitedness.SUITED
+        else:
+            return Suitedness.OFFSUIT
+
 
 class Range:
     """Parses a range.
