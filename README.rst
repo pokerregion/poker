@@ -122,20 +122,18 @@ Examples
 +----------------+------------------------------------------------------+
 
 
-Suit ranking
-------------
-
-According to Wikipedia `High card by suit`_, suits are ranked as:
-    spades > hearts > diamonds > clubs
-
-
 .. glossary::
 
     Suit
         One of |suits|. Alternatively '♣', '♦', '♥', '♠'.
+        `According to Wikipedia <http://en.wikipedia.org/wiki/High_card_by_suit>`_, suits are ranked as:
 
-    Suitedness
-        'o' for offsuit, 's' for suited hands '' or None for pairs.
+        spades > hearts > diamonds > clubs
+
+    Shape
+        A hand can have three "Shapes" `according to Wikipedia <http://en.wikipedia.org/wiki/Texas_hold_'em_starting_hands#Essentials>`_.
+
+        'o' for offsuit, 's' for suited hands '' for pairs.
 
     Rank
         One card without suit. One of |ranks|.
@@ -183,10 +181,6 @@ According to Wikipedia `High card by suit`_, suits are ranked as:
         Only: J, Q, K.
 
         .. warning:: Ace is not a face card!
-
-
-
-.. _High card by suit: http://en.wikipedia.org/wiki/High_card_by_suit
 
 
 .. |ranks| replace:: '2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K', 'A'
