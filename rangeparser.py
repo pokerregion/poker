@@ -179,7 +179,7 @@ class Hand(_ReprMixin):
     Only knows about two ranks and shape.
     :ivar Rank first:   first Rank
     :ivar Rank second:  second Rank
-    :ivar Shape shape:  Shape signal
+    :ivar Shape shape:  Hand shape (pair, suited or offsuit)
     """
     __slots__ = ('_first', '_second', '_shape')
 
@@ -262,12 +262,10 @@ class Hand(_ReprMixin):
 
     @property
     def is_suited(self):
-        # pairs are not SUITED
         return self._shape == Shape.SUITED
 
     @property
     def is_offsuit(self):
-        # pairs are not OFFSUITs
         return self._shape == Shape.OFFSUIT
 
     @property
@@ -285,10 +283,8 @@ class Hand(_ReprMixin):
     @property
     def rank_difference(self):
         rank_list = list(Rank)
-        first = rank_list.index(self._first)
-        second = rank_list.index(self._second)
-        # first >= second always
-        return first - second
+        # first_index >= second_index always
+        return rank_list.index(self._first) - rank_list.index(self._second)
 
     @property
     def is_broadway(self):
