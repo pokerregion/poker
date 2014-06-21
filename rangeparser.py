@@ -223,11 +223,11 @@ class Hand(_ReprMixin):
 
     def __lt__(self, other):
         # pairs are better than non-pairs
-        if not self.is_pair() and other.is_pair():
+        if not self.is_pair and other.is_pair:
             return True
-        elif self.is_pair() and not other.is_pair():
+        elif self.is_pair and not other.is_pair:
             return False
-        elif (not self.is_pair() and not other.is_pair() and
+        elif (not self.is_pair and not other.is_pair and
                 self._first == other._first and self._second == other._second
                 and self._shape != other._shape):
             # when Rank match, only suit is the deciding factor
@@ -258,7 +258,7 @@ class Hand(_ReprMixin):
 
     @property
     def is_suited_connector(self):
-        return self.is_suited() and self.is_connector()
+        return self.is_suited and self.is_connector
 
     @property
     def is_suited(self):
@@ -374,9 +374,9 @@ class Combination(_ReprMixin):
         return self._first == other._first and self._second == other._second
 
     def __lt__(self, other):
-        if not self.is_pair() and other.is_pair():
+        if not self.is_pair and other.is_pair:
             return True
-        elif self.is_pair() and not other.is_pair():
+        elif self.is_pair and not other.is_pair:
             return False
 
         # suits matter
@@ -393,7 +393,7 @@ class Combination(_ReprMixin):
 
     @property
     def is_suited_connector(self):
-        return self.is_suited() and self.is_connector()
+        return self.is_suited and self.is_connector
 
     @property
     def is_suited(self):
@@ -402,9 +402,9 @@ class Combination(_ReprMixin):
     @property
     def is_connector(self):
         # Creates an offsuit Hand or a pair and check if it is a connector.
-        shape = '' if self.is_pair() else 'o'
+        shape = '' if self.is_pair else 'o'
         hand = '{}{}{}'.format(self._first._rank, self._second._rank, shape)
-        return Hand(hand).is_connector()
+        return Hand(hand).is_connector
 
     @property
     def is_pair(self):
@@ -412,11 +412,11 @@ class Combination(_ReprMixin):
 
     @property
     def is_broadway(self):
-        return self._first.is_broadway() and self._second.is_broadway()
 
     def to_hand(self):
         """Convert combination to Hand object."""
         return Hand('{}{}{}'.format(self.first.rank, self.second.rank, self.shape))
+        return self._first.is_broadway and self._second.is_broadway
 
     @property
     def first(self):
@@ -436,7 +436,7 @@ class Combination(_ReprMixin):
 
     @property
     def shape(self):
-        if self.is_pair():
+        if self.is_pair:
             return Shape.PAIR
         elif self.first.suit == self.second.suit:
             return Shape.SUITED
