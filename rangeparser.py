@@ -347,21 +347,21 @@ SUITED_HANDS = tuple(Hand(hand1.value + hand2.value + 's') for hand1, hand2 in
 
 
 @total_ordering
-class Combination(_ReprMixin):
+class Combo(_ReprMixin):
     __slots__ = ('_first', '_second')
 
-    def __new__(cls, combination):
-        if isinstance(combination, Combination):
-            return combination
+    def __new__(cls, combo):
+        if isinstance(combo, Combo):
+            return combo
 
-        if len(combination) != 4:
-            raise ValueError('{!r}, should have a length of 4'.format(combination))
-        elif (combination[0] == combination[2] and combination[1] == combination[3]):
+        if len(combo) != 4:
+            raise ValueError('{!r}, should have a length of 4'.format(combo))
+        elif (combo[0] == combo[2] and combo[1] == combo[3]):
             raise ValueError("{!r}, Pair can't have the same suit: {!r}"
-                             .format(combination, combination[1]))
+                             .format(combo, combo[1]))
 
         self = super().__new__(cls)
-        self._set_cards_in_order(combination[:2], combination[2:])
+        self._set_cards_in_order(combo[:2], combo[2:])
         return self
 
     @classmethod
@@ -405,7 +405,7 @@ class Combination(_ReprMixin):
             self._first, self._second = self._second, self._first
 
     def to_hand(self):
-        """Convert combination to Hand object."""
+        """Convert combo to Hand object."""
         return Hand('{}{}{}'.format(self.first.rank, self.second.rank, self.shape))
 
     @property
@@ -468,7 +468,7 @@ class Range:
     def __init__(self, range=''):
         range = range.upper()
 
-        self._combinations = set()
+        self._combos = set()
         self._range = ''
 
         # filter out empty matches
@@ -517,7 +517,7 @@ class Range:
 
             # 2s2h, AsKc
             elif len(token) == 4 and '+' not in token and '-' not in token:
-                self._combinations.add(Combination(token))
+                self._combos.add(Combo(token))
 
             # AJo+, AJs+, A5o-, A5s-, 7Xs+, 76s+
             elif len(token) == 4:
@@ -553,8 +553,8 @@ class Range:
         return cls._from_objects(hands)
 
     @classmethod
-    def from_combinations(cls, combinations):
-        return cls._from_objects(combinations)
+    def from_combos(cls, combos):
+        return cls._from_objects(combos)
 
     @classmethod
     def _from_objects(cls, objects):
@@ -563,29 +563,29 @@ class Range:
 
     def __eq__(self, other):
         if self.__class__ is other.__class__:
-            return self._combinations == other._combinations
+            return self._combos == other._combos
         return NotImplemented
 
     def __lt__(self, other):
         if self.__class__ is other.__class__:
-            return len(self._combinations) < len(other._combinations)
+            return len(self._combos) < len(other._combos)
         return NotImplemented
 
     def __len__(self):
-        return len(self._combinations)
+        return len(self._combos)
 
     def __str__(self):
         range = []
-        previous_hand = self.combinations[0].to_hand()
+        previous_hand = self.combos[0].to_hand()
         current_count = 0
-        for current_combination in self.combinations[1:]:
+        for current_combo in self.combos[1:]:
             current_count += 1
-            current_hand = current_combination.to_hand()
+            current_hand = current_combo.to_hand()
             if (current_hand.is_pair and current_count == 6):
                 range.append(str(current_hand))
                 current_count = 0
             else:
-                range.append(str(current_combination))
+                range.append(str(current_combo))
 
             previous_hand = current_hand
 
@@ -600,15 +600,15 @@ class Range:
         return max(first, second), min(first, second)
 
     def _add_pair(self, hand):
-        self._combinations |= {Combination(hand[0] + s1.value + hand[1] + s2.value)
-                               for s1, s2 in itertools.combinations(Suit, 2)}
+        self._combos |= {Combo(hand[0] + s1.value + hand[1] + s2.value)
+                         for s1, s2 in itertools.combinations(Suit, 2)}
 
     def _add_offsuit(self, hand):
-        self._combinations |= {Combination(hand[0] + s1.value + hand[1] + s2.value)
+        self._combos |= {Combo(hand[0] + s1.value + hand[1] + s2.value)
                                for s1, s2 in itertools.product(Suit, Suit) if s1 != s2}
 
     def _add_suited(self, hand):
-        self._combinations |= {Combination(hand[0] + s1.value + hand[1] + s2.value)
+        self._combos |= {Combo(hand[0] + s1.value + hand[1] + s2.value)
                                for s1, s2 in itertools.product(Suit, Suit) if s1 == s2}
 
     def _calculate_repr(self):
@@ -617,21 +617,21 @@ class Range:
 
     @property
     def hands(self):
-        hands = {combination.to_hand() for combination in self._combinations}
+        hands = {combo.to_hand() for combo in self._combos}
         return tuple(sorted(hands))
 
     @property
-    def combinations(self):
-        return tuple(sorted(self._combinations))
+    def combos(self):
+        return tuple(sorted(self._combos))
 
     @property
     def percent(self):
-        """What percent of combinations does this range have
-        compared to all the possible combinations.
+        """What percent of combos does this range have
+        compared to all the possible combos.
 
         There are 1326 total hands in Hold'em: 52 * 51 / 2
         """
-        dec_percent = (Decimal(len(self._combinations)) / 1326 * 100)
+        dec_percent = (Decimal(len(self._combos)) / 1326 * 100)
 
         # round to two decimal point
         return float(dec_percent.quantize(Decimal('1.00')))

@@ -3,31 +3,31 @@ from rangeparser import *
 
 
 # from worse to best (suit matter)
-DEUCE_COMBINATIONS = (
-    Combination('2d2c'), Combination('2h2c'), Combination('2h2d'),
-    Combination('2s2c'), Combination('2s2d'), Combination('2s2h')
+DEUCE_COMBOS = (
+    Combo('2d2c'), Combo('2h2c'), Combo('2h2d'),
+    Combo('2s2c'), Combo('2s2d'), Combo('2s2h')
 )
 
-THREE_COMBINATIONS = (
-    Combination('3d3c'), Combination('3h3c'), Combination('3h3d'),
-    Combination('3s3c'), Combination('3s3d'), Combination('3s3h')
+THREE_COMBOS = (
+    Combo('3d3c'), Combo('3h3c'), Combo('3h3d'),
+    Combo('3s3c'), Combo('3s3d'), Combo('3s3h')
 )
 
 # from worse to best (suit matter)
-TEN_COMBINATIONS = (
-    Combination('TdTc'), Combination('ThTc'), Combination('ThTd'),
-    Combination('TsTc'), Combination('TsTd'), Combination('TsTh')
+TEN_COMBOs = (
+    Combo('TdTc'), Combo('ThTc'), Combo('ThTd'),
+    Combo('TsTc'), Combo('TsTd'), Combo('TsTh')
 )
 
 
 class TestHandsResultsAfterParse:
     def test_pairs_simple(self):
         assert Range('22').hands == (Hand('22'),)
-        assert Range('22').combinations == DEUCE_COMBINATIONS
+        assert Range('22').combos == DEUCE_COMBOS
 
-    def test_combination_simple(self):
+    def test_combo_simple(self):
         assert Range('2s2c').hands == (Hand('22'),)
-        assert Range('2s2c').combinations == (Combination('2c2s'),)
+        assert Range('2s2c').combos == (Combo('2c2s'),)
 
     def test_pairs_multiple(self):
         assert Range('22 33').hands == (Hand('22'), Hand('33'))
@@ -61,26 +61,26 @@ class TestHandsResultsAfterParse:
 
     def test_empty_range(self):
         assert Range().hands == tuple()
-        assert Range().combinations == tuple()
+        assert Range().combos == tuple()
 
         assert Range('').hands == tuple()
-        assert Range('').combinations == tuple()
+        assert Range('').combos == tuple()
 
 
-class TestCombinationsResultsAfterParse:
+class TestCombosResultsAfterParse:
     def test_pairs_simple(self):
-        """Test if pairs get all the combinations."""
-        assert Range('22').combinations == DEUCE_COMBINATIONS
+        """Test if pairs get all the combos."""
+        assert Range('22').combos == DEUCE_COMBOS
 
     def test_pairs_multiple(self):
-        assert Range('22 33').combinations == DEUCE_COMBINATIONS + THREE_COMBINATIONS
+        assert Range('22 33').combos == DEUCE_COMBOS + THREE_COMBOS
 
     def test_pairs_with_dash(self):
-        assert Range('22-33').combinations == DEUCE_COMBINATIONS + THREE_COMBINATIONS
+        assert Range('22-33').combos == DEUCE_COMBOS + THREE_COMBOS
 
     def test_pairs_with_dash_are_equal_with_spaces(self):
-        assert Range('22-33').combinations == Range('22 33').combinations
-        assert Range('55-33').combinations == Range('33 44 55').combinations
+        assert Range('22-33').combos == Range('22 33').combos
+        assert Range('55-33').combos == Range('33 44 55').combos
 
 
 class TestCaseInsensitive:
@@ -112,8 +112,8 @@ class TestPercentages:
         assert Range('22 AKo').percent == 1.36
 
 
-class TestNumberOfCombinations:
-    """Test number of hand combinations by suits."""
+class TestNumberOfCombos:
+    """Test number of hand combos by suits."""
 
     def test_one_pair(self):
         assert len(Range('22')) == 6
@@ -137,10 +137,10 @@ class TestComposeHands:
     def test_pairs_from_hands(self):
         assert Range.from_hands({Hand('AA'), Hand('KK'), Hand('QQ')}) == Range('QQ+')
 
-    def test_from_combinations(self):
-        range = Range.from_combinations(DEUCE_COMBINATIONS)
+    def test_from_combos(self):
+        range = Range.from_combos(DEUCE_COMBOS)
         assert range == Range('22')
-        assert range.combinations == DEUCE_COMBINATIONS
+        assert range.combos == DEUCE_COMBOS
         assert range.hands == (Hand('22'),)
 
     @mark.xfail
@@ -183,7 +183,7 @@ class ValueChecks:
         with raises(ValueError):
             Range.from_strings(['AA', 'KK+'])
 
-    def test_invalid_combinations(self):
+    def test_invalid_combos(self):
         with raises(ValueError):
             Range('AsKq')
 
