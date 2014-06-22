@@ -132,9 +132,14 @@ class Card(_ReprMixin):
         return hash(self._rank) + hash(self._suit)
 
     def __eq__(self, other):
-        return self._rank == other._rank and self._suit == other._suit
+        if self.__class__ is other.__class__:
+            return self._rank == other._rank and self._suit == other._suit
+        return NotImplemented
 
     def __lt__(self, other):
+        if self.__class__ is not other.__class__:
+            return NotImplemented
+
         # with same ranks, suit counts
         if self.rank == other.rank:
             return self.suit < other.suit
@@ -216,12 +221,18 @@ class Hand(_ReprMixin):
         return hash(self._first) + hash(self._second) + hash(self._shape)
 
     def __eq__(self, other):
+        if self.__class__ is not other.__class__:
+            return NotImplemented
+
         # AKs != AKo, because AKs is better
         return (self._first == other._first and
                 self._second == other._second and
                 self._shape == other._shape)
 
     def __lt__(self, other):
+        if self.__class__ is not other.__class__:
+            return NotImplemented
+
         # pairs are better than non-pairs
         if not self.is_pair and other.is_pair:
             return True
@@ -367,9 +378,14 @@ class Combination(_ReprMixin):
         return hash(self._first) + hash(self._second)
 
     def __eq__(self, other):
-        return self._first == other._first and self._second == other._second
+        if self.__class__ is other.__class__:
+            return self._first == other._first and self._second == other._second
+        return NotImplemented
 
     def __lt__(self, other):
+        if self.__class__ is not other.__class__:
+            return NotImplemented
+
         if not self.is_pair and other.is_pair:
             return True
         elif self.is_pair and not other.is_pair:
