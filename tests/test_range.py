@@ -1,4 +1,4 @@
-from pytest import raises
+from pytest import raises, mark
 from rangeparser import *
 
 
@@ -80,7 +80,7 @@ class TestCombinationsResultsAfterParse:
 
     def test_pairs_with_dash_are_equal_with_spaces(self):
         assert Range('22-33').combinations == Range('22 33').combinations
-        assert Range('55-33').combinations == Range('22 33 44 55').combinations
+        assert Range('55-33').combinations == Range('33 44 55').combinations
 
 
 class TestCaseInsensitive:
@@ -137,19 +137,17 @@ class TestComposeHands:
     def test_pairs_from_hands(self):
         assert Range.from_hands({Hand('AA'), Hand('KK'), Hand('QQ')}) == Range('QQ+')
 
-    def test_pairs_from_strings(self):
-        assert Range.from_strings(('AA', 'KK', 'QQ')) == Range('QQ+')
-        assert Range.from_strings(['AA', 'KK', 'QQ']) == Range('QQ+')
-
     def test_from_combinations(self):
         range = Range.from_combinations(DEUCE_COMBINATIONS)
         assert range == Range('22')
         assert range.combinations == DEUCE_COMBINATIONS
-        assert range.hands == (Hand('22'))
+        assert range.hands == (Hand('22'),)
 
+    @mark.xfail
     def test_from_percent(self):
         assert Range.from_percent(0.9) == Range('KK+')
 
+    @mark.xfail
     def test_from_percent_comparison(self):
         # both represents 0.9%, but they should not be equal
         assert Range('AKo') != Range.from_percent(0.9)
@@ -190,12 +188,15 @@ class ValueChecks:
             Range('AsKq')
 
 
+@mark.xfail
 class TestNormalization:
     """Test for repr, str representation and range normalization."""
 
     def test_str_and_range(self):
         range = Range('77+ AKo')
-        assert repr(range) == "Range({})".format(str(range))
+        assert repr(range) != "Range('{}')".format(str(range))
+        assert repr(range) == "Range('77+ AKo')"
+        assert str(range) == '77+, AKo'
 
     def test_order_with_suit_and_without_suit(self):
         range = Range('Kas 48')
@@ -230,3 +231,21 @@ class TestNormalization:
 
     def test_redundant_plus_in_offsuit_hand(self):
         assert str(Range('AKo+')) == 'AKo'
+
+
+class TestComparisons:
+
+    def test_ranges_with_lesser_hands_are_smaller(self):
+        assert Range('33+') < Range('22+')
+        assert Range('22+') > Range('33+')
+
+        assert Range('AKo, JKs') > Range('AKo')
+
+    def test_ranges_only_equal_if_they_are_the_same(self):
+        assert Range('Ak') == Range('Aks, AKo')
+        assert Range('33+') == Range('44+, 33')
+
+    def test_ranges_with_different_hands_are_not_equal(self):
+        assert Range('AKs') != Range('KJs')
+        assert Range('AKo') != Range('KJo')
+        assert Range('22') != Range('44')

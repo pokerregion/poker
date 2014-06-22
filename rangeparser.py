@@ -12,6 +12,7 @@
 import re
 import random
 import itertools
+from decimal import Decimal
 from enum import Enum, EnumMeta
 from types import DynamicClassAttribute
 from functools import total_ordering
@@ -456,6 +457,7 @@ class Combination(_ReprMixin):
             return Shape.OFFSUIT
 
 
+@total_ordering
 class Range:
     """Parses a range.
 
@@ -466,8 +468,6 @@ class Range:
     def __init__(self, range=''):
         range = range.upper()
 
-        self._original = range
-        self._hands = set()
         self._combinations = set()
         self._range = ''
 
@@ -481,23 +481,27 @@ class Range:
 
             # 22, 33
             elif len(token) == 2 and token[0] == token[1]:
-                self._add_hand(Hand(token))
+                self._add_pair(token)
 
             # AK, J7, AX
             elif len(token) == 2 and token[0] != token[1]:
-                self._add_hand(Hand(token + 's'))
-                self._add_hand(Hand(token + 'o'))
+                self._add_offsuit(token)
+                self._add_suited(token)
 
             # 33+, 33-
             elif len(token) == 3 and token[0] == token[1]:
                 backward = True if token[1] == '-' else False
                 first = Hand(token[:2])
-                self._add_hands(pair for pair in sorted(PAIR_HANDS, reverse=backward) if
-                                pair >= first)
+                for pair in sorted(PAIR_HANDS, reverse=backward):
+                    if pair >= first:
+                        self._add_pair(str(pair))
 
             # AKo, AKs,
-            elif len(token) == 3 and token[-1] in ('S', 'O') and 'X' not in token:
-                self._add_hand(Hand(token))
+            elif len(token) == 3 and 'X' not in token:
+                if token[-1] == 'S':
+                    self._add_suited(token)
+                elif token[-1] == 'O':
+                    self._add_offsuit(token)
 
             # KXo, KXs
             elif len(token) == 3 and token[-1] in ('S', 'O'):
@@ -513,7 +517,6 @@ class Range:
 
             # 2s2h, AsKc
             elif len(token) == 4 and '+' not in token and '-' not in token:
-                self._hands.add(Hand(token[0] + token[2]))
                 self._combinations.add(Combination(token))
 
             # AJo+, AJs+, A5o-, A5s-, 7Xs+, 76s+
@@ -522,9 +525,10 @@ class Range:
 
             # 55-33, 33-55
             elif len(token) == 5 and token[0] == token[1]:
-                first, second = Hand(token[:2]), Hand(token[3:])
-                bigger, smaller = max(first, second), min(first, second)
-                self._add_hands(pair for pair in PAIR_HANDS if smaller <= pair <= bigger)
+                bigger, smaller = self._get_ordered_hands(token[:2], token[3:])
+                for pair in PAIR_HANDS:
+                    if smaller <= pair <= bigger:
+                        self._add_pair(str(pair))
 
             # J8-J4
             elif len(token) == 5:
@@ -532,35 +536,102 @@ class Range:
 
             # J8o-J4o, J4o-J8o, 76s-74s, 74s-76s
             elif len(token) == 7:
-                pass
+                bigger, smaller = self._get_ordered_hands(token[:3], token[4:])
+                first_rank = bigger.first
+                bigger_rank = bigger.second
+                smaller_rank = smaller.second
+                for rank in list(Rank):
+                    if smaller_rank <= rank <= bigger_rank:
+                        hand = first_rank.value + rank.value
+                        if token[-1] == 'O':
+                            self._add_offsuit(hand)
+                        elif token[-1] == 'S':
+                            self._add_suited(hand)
 
-    def _add_hands(self, hands):
-        """Add all hands listed and all combinations generated from them."""
-        for hand in hands:
-            self._add_hand(hand)
+    @classmethod
+    def from_hands(cls, hands):
+        return cls._from_objects(hands)
 
-    def _add_hand(self, hand):
-        """Add hand and all combinations generated from it."""
-        self._hands.add(hand)
-        self._combinations |= self._make_combinations(hand)
+    @classmethod
+    def from_combinations(cls, combinations):
+        return cls._from_objects(combinations)
 
-    def _make_combinations(self, hand):
-        """Make all possible hand Combinations from the given Hand."""
-        if hand.is_pair():
-            # there are no suited pairs, so suits can not be repeated
-            combination_maker = itertools.combinations
-        else:
-            combination_maker = itertools.combinations_with_replacement
+    @classmethod
+    def _from_objects(cls, objects):
+        range_string = ' '.join(str(obj) for obj in objects)
+        return cls(range_string)
 
-        return {Combination(hand.first.value + s1.value + hand.second.value + s2.value) for
-                s1, s2 in combination_maker(Suit, 2)}
+    def __eq__(self, other):
+        if self.__class__ is other.__class__:
+            return self._combinations == other._combinations
+        return NotImplemented
+
+    def __lt__(self, other):
+        if self.__class__ is other.__class__:
+            return len(self._combinations) < len(other._combinations)
+        return NotImplemented
+
+    def __len__(self):
+        return len(self._combinations)
+
+    def __str__(self):
+        range = []
+        previous_hand = self.combinations[0].to_hand()
+        current_count = 0
+        for current_combination in self.combinations[1:]:
+            current_count += 1
+            current_hand = current_combination.to_hand()
+            if (current_hand.is_pair and current_count == 6):
+                range.append(str(current_hand))
+                current_count = 0
+            else:
+                range.append(str(current_combination))
+
+            previous_hand = current_hand
+
+        return ', '.join(range)
+
+    def __repr__(self):
+        range = ' '.join(str(self).split(', '))
+        return "{}('{}')".format(self.__class__.__qualname__, range)
+
+    def _get_ordered_hands(self, hand1, hand2):
+        first, second = Hand(hand1), Hand(hand2)
+        return max(first, second), min(first, second)
+
+    def _add_pair(self, hand):
+        self._combinations |= {Combination(hand[0] + s1.value + hand[1] + s2.value)
+                               for s1, s2 in itertools.combinations(Suit, 2)}
+
+    def _add_offsuit(self, hand):
+        self._combinations |= {Combination(hand[0] + s1.value + hand[1] + s2.value)
+                               for s1, s2 in itertools.product(Suit, Suit) if s1 != s2}
+
+    def _add_suited(self, hand):
+        self._combinations |= {Combination(hand[0] + s1.value + hand[1] + s2.value)
+                               for s1, s2 in itertools.product(Suit, Suit) if s1 == s2}
+
+    def _calculate_repr(self):
+        hands = self.hands
+        # for hand in hands:
 
     @property
     def hands(self):
-        return tuple(sorted(self._hands))
+        hands = {combination.to_hand() for combination in self._combinations}
+        return tuple(sorted(hands))
 
     @property
     def combinations(self):
-        # flat out tuple of lists
         return tuple(sorted(self._combinations))
 
+    @property
+    def percent(self):
+        """What percent of combinations does this range have
+        compared to all the possible combinations.
+
+        There are 1326 total hands in Hold'em: 52 * 51 / 2
+        """
+        dec_percent = (Decimal(len(self._combinations)) / 1326 * 100)
+
+        # round to two decimal point
+        return float(dec_percent.quantize(Decimal('1.00')))
