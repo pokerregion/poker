@@ -343,7 +343,7 @@ OFFSUIT_HANDS = tuple(Hand(hand1.value + hand2.value + 'o') for hand1, hand2 in
                       itertools.combinations(list(Rank), 2))
 
 SUITED_HANDS = tuple(Hand(hand1.value + hand2.value + 's') for hand1, hand2 in
-                      itertools.combinations(list(Rank), 2))
+                     itertools.combinations(list(Rank), 2))
 
 
 @total_ordering
@@ -605,11 +605,11 @@ class Range:
 
     def _add_offsuit(self, hand):
         self._combos |= {Combo(hand[0] + s1.value + hand[1] + s2.value)
-                               for s1, s2 in itertools.product(Suit, Suit) if s1 != s2}
+                         for s1, s2 in itertools.product(Suit, Suit) if s1 != s2}
 
     def _add_suited(self, hand):
         self._combos |= {Combo(hand[0] + s1.value + hand[1] + s2.value)
-                               for s1, s2 in itertools.product(Suit, Suit) if s1 == s2}
+                         for s1, s2 in itertools.product(Suit, Suit) if s1 == s2}
 
     def _calculate_repr(self):
         hands = self.hands
