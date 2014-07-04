@@ -339,12 +339,6 @@ class Hand(_ReprMixin):
 
 PAIR_HANDS = tuple(Hand(rank.value * 2) for rank in list(Rank))
 
-SMALL_PAIR_HANDS = (Hand('22'), Hand('33'), Hand('44'), Hand('55'))
-
-MID_PAIR_HANDS = (Hand('66'), Hand('77'), Hand('88'), Hand('99'))
-
-BIG_PAIR_HANDS = (Hand('TT'), Hand('JJ'), Hand('QQ'), Hand('KK'), Hand('AA'))
-
 OFFSUIT_HANDS = tuple(Hand(hand1.value + hand2.value + 'o') for hand1, hand2 in
                       itertools.combinations(list(Rank), 2))
 

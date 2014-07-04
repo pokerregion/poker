@@ -34,15 +34,16 @@ class TestHandsResultsAfterParse:
         assert Range('33 22').hands == (Hand('22'), Hand('33'))
 
     def test_pairs_with_plus(self):
-        assert Range('88+').hands == (Hand('88'), Hand('99')) + BIG_PAIR_HANDS
+        assert Range('88+').hands == (Hand('88'), Hand('99'), Hand('TT'), Hand('JJ'), Hand('QQ'),
+                                      Hand('KK'), Hand('AA'))
         assert Range('22+').hands == PAIR_HANDS
 
     def test_pairs_with_dash(self):
-        assert Range('22-55').hands == SMALL_PAIR_HANDS
+        assert Range('22-55').hands == (Hand('22'), Hand('33'), Hand('44'), Hand('55'))
         assert Range('22-33').hands == (Hand('22'), Hand('33'))
 
     def test_pairs_with_dash_reverse(self):
-        assert Range('55-22').hands == SMALL_PAIR_HANDS
+        assert Range('55-22').hands == (Hand('22'), Hand('33'), Hand('44'), Hand('55'))
         assert Range('33-22').hands == (Hand('22'), Hand('33'))
 
     def test_multiple_offsuit_hands(self):
