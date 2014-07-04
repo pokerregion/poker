@@ -84,3 +84,9 @@ def test_hash():
 def test_putting_them_in_set_doesnt_raise_Exception():
     {Rank.ACE, Rank.KING}
 
+
+def test_rank_difference():
+    assert Rank.difference('6', '4') == 2
+    assert Rank.difference('A', '2') == 12
+    assert Rank.difference('K', 'K') == 0
+    assert Rank.difference('K', 'Q') == 1

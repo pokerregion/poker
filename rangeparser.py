@@ -97,6 +97,13 @@ class Rank(_MultiValueEnum):
     KING =  'K', 'k'
     ACE =   'A', 'a'
 
+    @classmethod
+    def difference(cls, first, second):
+        # so we always get a Rank instance even if string were passed in
+        first, second = cls(first), cls(second)
+        rank_list = list(cls)
+        return abs(rank_list.index(first) - rank_list.index(second))
+
 
 FACE_RANKS = Rank('J'), Rank('Q'), Rank('K')
 BROADWAY_RANKS = Rank('T'), Rank('J'), Rank('Q'), Rank('K'), Rank('A')
@@ -294,9 +301,8 @@ class Hand(_ReprMixin):
 
     @property
     def rank_difference(self):
-        rank_list = list(Rank)
-        # first_index >= second_index always
-        return rank_list.index(self._first) - rank_list.index(self._second)
+        # self._first >= self._second
+        return Rank.difference(self._first, self._second)
 
     @property
     def is_broadway(self):
