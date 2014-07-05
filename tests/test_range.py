@@ -233,6 +233,12 @@ class TestNormalization:
     def test_redundant_plus_in_offsuit_hand(self):
         assert str(Range('AKo+')) == 'AKo'
 
+    def test_suited_simplification_from_combinations(self):
+        assert str(Range('QJo JQs AK 22, 55 7c6c 7h6h 7d6d 7s6s')) == "55, 22, AK, QJ, 76s"
+
+    def test_suited__and_offsuit_simplification_from_combinations(self):
+        assert str(Range('QJo JQs AK 22, 55 7c6c 7h6h 7d6d 7s6s 76o')) == "55, 22, AK, QJ, 76"
+
 
 class TestComparisons:
 
