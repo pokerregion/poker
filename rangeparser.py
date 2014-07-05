@@ -14,8 +14,8 @@ import random
 import itertools
 from decimal import Decimal
 from enum import Enum, EnumMeta
-from types import DynamicClassAttribute
 from functools import total_ordering
+from types import DynamicClassAttribute
 
 
 class _MultiMeta(EnumMeta):
@@ -106,6 +106,7 @@ class Rank(_MultiValueEnum):
 
 
 FACE_RANKS = Rank('J'), Rank('Q'), Rank('K')
+
 BROADWAY_RANKS = Rank('T'), Rank('J'), Rank('Q'), Rank('K'), Rank('A')
 
 
@@ -477,7 +478,7 @@ class Range:
         for token in tokens:
             # XX
             if len(token) == 2 and token == 'XX':
-                pass
+                break
 
             # 22, 33
             elif len(token) == 2 and token[0] == token[1]:
@@ -575,25 +576,16 @@ class Range:
         return len(self._combos)
 
     def __str__(self):
-        range = []
-        previous_hand = self.combos[0].to_hand()
-        current_count = 0
-        for current_combo in self.combos[1:]:
-            current_count += 1
-            current_hand = current_combo.to_hand()
-            if (current_hand.is_pair and current_count == 6):
-                range.append(str(current_hand))
-                current_count = 0
-            else:
-                range.append(str(current_combo))
-
-            previous_hand = current_hand
-
-        return ', '.join(range)
+        pieces = self._get_rep_pieces()
+        return ', '.join(pieces)
 
     def __repr__(self):
-        range = ' '.join(str(self).split(', '))
+        range = ' '.join(self._get_rep_pieces())
         return "{}('{}')".format(self.__class__.__qualname__, range)
+
+    def _get_rep_pieces(self):
+
+        return hands
 
     def _get_ordered_hands(self, hand1, hand2):
         first, second = Hand(hand1), Hand(hand2)
@@ -611,10 +603,6 @@ class Range:
         self._combos |= {Combo(hand[0] + s1.value + hand[1] + s2.value)
                          for s1, s2 in itertools.product(Suit, Suit) if s1 == s2}
 
-    def _calculate_repr(self):
-        hands = self.hands
-        # for hand in hands:
-
     @property
     def hands(self):
         hands = {combo.to_hand() for combo in self._combos}
@@ -629,7 +617,7 @@ class Range:
         """What percent of combos does this range have
         compared to all the possible combos.
 
-        There are 1326 total hands in Hold'em: 52 * 51 / 2
+        There are 1326 total combos in Hold'em: 52 * 51 / 2 (because order doesn't matter)
         """
         dec_percent = (Decimal(len(self._combos)) / 1326 * 100)
 
