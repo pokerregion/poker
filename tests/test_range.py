@@ -60,6 +60,9 @@ class TestHandsResultsAfterParse:
         assert Range('J8s-J4s').hands == (Hand('J4s'), Hand('J5s'), Hand('J6s'),
                                           Hand('J7s'), Hand('J8s'))
 
+    def test_pairs_backward(self):
+        assert Range('44-').hands == (Hand('22'), Hand('33'), Hand('44'))
+
     def test_empty_range(self):
         assert Range().hands == tuple()
         assert Range().combos == tuple()

@@ -491,10 +491,11 @@ class Range:
 
             # 33+, 33-
             elif len(token) == 3 and token[0] == token[1]:
-                backward = True if token[1] == '-' else False
+                backward = True if token[-1] == '-' else False
                 first = Hand(token[:2])
                 for pair in sorted(PAIR_HANDS, reverse=backward):
-                    if pair >= first:
+                    if (not backward and pair >= first or
+                            backward and pair <= first):
                         self._add_pair(str(pair))
 
             # AKo, AKs,
