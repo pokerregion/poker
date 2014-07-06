@@ -395,7 +395,9 @@ class Combo(_ReprMixin):
 
         # suits matter
         # these comparisons suppose that cards are ordered (higher first)
-        if self._first == other._first:
+        if self.is_pair and self._first == other._first:
+            return self._second < other._second
+        elif not self.is_pair and self._first._rank == other._first._rank:
             return self._second < other._second
         else:
             return self._first < other._first

@@ -35,6 +35,14 @@ def test_card_are_better_when_ranks_are_higher():
     assert Combo('KsJh') > Combo('QcJh')
 
 
+def test_card_are_only_depends_from_rank_not_suit_when_different():
+    assert Combo('Kc7s') > Combo('Kd4c')
+    assert Combo('Kd4c') < Combo('Kc7s')
+
+    assert Combo('K♠5♣') < Combo('K♥7♠')
+    assert Combo('K♥7♠') > Combo('K♠5♣')
+
+
 def test_pair_comparisons():
     assert (Combo('2d2c') < Combo('2s2c')) is True
     # reverse

@@ -144,8 +144,14 @@ Examples
     Hand
         Consists two :term:`Rank`s without precise suits like "AKo", "22".
 
-    Hand equality
-        - pairs are better than none-pairs
+    Hand comparisons
+        Comparisons in this library has nothing to do with equities or if a hand beats another.
+        They are only defined so that a consistent ordering can be ensured when
+        representing objects. If you want to compare hands by equity, use `pypoker-eval`_
+        instead.
+
+        The rules:
+        - pairs are 'better' than none-pairs
         - non-pairs are better if at least one of the cards are bigger
         - suited better than offsuit
 
@@ -168,7 +174,7 @@ Examples
         If there are more hand :term:`Combination`s in it. (Equity vs each other doesn't matter here.)
 
     Token
-        Denote one part of a range. In a "66-33 76o-73o AsJc 2s2h" there are 4 tokens:
+        Denote one part of a range. In a "66-33 76o-73o AsJc 2s2h" range, there are 4 tokens:
         - "66-33" meaning 33, 44, 55, 66
         - "AsJc"  specific :term:`Combination`
         - "2s2h" a specific pair of deuces
@@ -185,3 +191,5 @@ Examples
 
 .. |ranks| replace:: '2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K', 'A'
 .. |suits| replace:: 'c', 'd', 'h', or 's'
+
+.. _pypoker-eval:: http://pokersource.sourceforge.net/
