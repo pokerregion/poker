@@ -43,10 +43,22 @@ def test_card_are_only_depends_from_rank_not_suit_when_different():
     assert Combo('K♥7♠') > Combo('K♠5♣')
 
 
+def test_first_hand_suit_also_matters():
+    assert Combo('K♠4♣') > Combo('K♥4♣')
+    assert Combo('K♥4♣') < Combo('K♠4♣')
+
+
 def test_pair_comparisons():
     assert (Combo('2d2c') < Combo('2s2c')) is True
     # reverse
     assert (Combo('2s2c') < Combo('2d2c')) is False
+
+    assert Combo('2d2c') < Combo('2s2h')
+    assert Combo('2s2h') > Combo('2d2c')
+
+
+def test_pair_when_first_card_are_the_same():
+    assert Combo('2d2c') < Combo('2d2h')
 
 
 def test_equal_pairs_are_not_less():

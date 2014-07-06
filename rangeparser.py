@@ -388,17 +388,21 @@ class Combo(_ReprMixin):
         if self.__class__ is not other.__class__:
             return NotImplemented
 
+        # Pairs are better than non-pairs
         if not self.is_pair and other.is_pair:
             return True
+
         elif self.is_pair and not other.is_pair:
             return False
 
         # suits matter
         # these comparisons suppose that cards are ordered (higher first)
-        if self.is_pair and self._first == other._first:
+        # pairs are special, because any 2 card can be equal
+        elif ((self.is_pair and other.is_pair and self._first == other._first) or
+                (self._first._rank == other._first._rank and
+                 self._second._rank != other._second._rank)):
             return self._second < other._second
-        elif not self.is_pair and self._first._rank == other._first._rank:
-            return self._second < other._second
+
         else:
             return self._first < other._first
 
