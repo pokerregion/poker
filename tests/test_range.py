@@ -192,7 +192,6 @@ class ValueChecks:
             Range('AsKq')
 
 
-@mark.xfail
 class TestNormalization:
     """Test for repr, str representation and range normalization."""
 
@@ -209,19 +208,24 @@ class TestNormalization:
 
     def test_pairs_order(self):
         range = Range('22-55')
-        assert repr(range) == "Range('55-22')"
-        assert str(range) == '55-22'
+        assert repr(range) == "Range('55-')"
+        assert str(range) == '55-'
 
     def test_reduntant_pairs(self):
         range = Range('22-44 33')
-        assert str(range) == '44-22'
-        assert repr(range) == "Range('44-22')"
+        assert str(range) == '44-'
+        assert repr(range) == "Range('44-')"
 
+    @mark.xfail
     def test_redundant_offsuit_hands(self):
         range = Range('A2o+ 2Ao 8ao')
         assert str(range) == 'A2o+'
         assert repr(range) == "Range('A2o+')"
 
+    def test_non_connecting_offsuit_hands(self):
+        assert str(Range('A2o A8o')) == 'A8o, A2o'
+
+    @mark.xfail
     def test_redundant_suited_hands(self):
         range = Range('2as+ A5s A7s')
         assert str(range) == 'A2s+'
@@ -230,9 +234,11 @@ class TestNormalization:
     def test_redundant_plus_in_pair(self):
         assert str(Range('AA+')) == 'AA'
 
+    @mark.xfail
     def test_redundant_plus_in_suited_hand(self):
         assert str(Range('87s+')) == '87s'
 
+    @mark.xfail
     def test_redundant_plus_in_offsuit_hand(self):
         assert str(Range('AKo+')) == 'AKo'
 

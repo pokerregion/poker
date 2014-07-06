@@ -591,8 +591,36 @@ class Range:
         return "{}('{}')".format(self.__class__.__qualname__, range)
 
     def _get_rep_pieces(self):
+        pieces = []
+        hands = list(reversed(self.hands))
+        first_hand = last_hand = hands[0]
+        for hand in hands[1:]:
+            if ((hand.is_pair and Rank.difference(last_hand._first, hand._first) == 1) or
+                    (not hand.is_pair and last_hand.first == hand.first and
+                     Rank.difference(last_hand._second, hand._second) <= 1)):
+                last_hand = hand
+            else:
+                pieces.append(self._get_piece_format(first_hand, last_hand))
+                # start of a new range piece
+                first_hand = last_hand = hand
 
-        return hands
+        # the last piece has not been processed yet
+        pieces.append(self._get_piece_format(first_hand, last_hand))
+
+        return pieces
+
+    def _get_piece_format(self, first_hand, last_hand):
+        if first_hand == last_hand:
+            return str(first_hand)
+        elif first_hand.is_pair and first_hand == Hand('AA'):
+            return '{}+'.format(last_hand)
+        elif last_hand.is_pair and last_hand == Hand('22'):
+            return '{}-'.format(first_hand)
+        # all of the suited and offsuit hands are in the range
+        elif first_hand._first == last_hand._first and first_hand._second == last_hand._second:
+            return '{}{}'.format(first_hand._first, first_hand._second)
+        else:
+             return '{}-{}'.format(first_hand, last_hand)
 
     def _get_ordered_hands(self, hand1, hand2):
         first, second = Hand(hand1), Hand(hand2)
