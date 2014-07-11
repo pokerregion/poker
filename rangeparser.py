@@ -70,32 +70,32 @@ class _MultiValueEnum(Enum, metaclass=_MultiMeta):
 
 
 class Suit(_MultiValueEnum):
-    CLUBS =    '♣', 'c', 'C'
-    DIAMONDS = '♦', 'd', 'D'
-    HEARTS =   '♥', 'h', 'H'
-    SPADES =   '♠', 's', 'S'
+    CLUBS =    '♣', 'c', 'C', 'clubs'
+    DIAMONDS = '♦', 'd', 'D', 'diamonds'
+    HEARTS =   '♥', 'h', 'H', 'hearts'
+    SPADES =   '♠', 's', 'S', 'spades'
 
 
 class Shape(_MultiValueEnum):
-    OFFSUIT = 'o', 'O'
-    SUITED =  's', 'S'
+    OFFSUIT = 'o', 'O', 'offsuit', 'off'
+    SUITED =  's', 'S', 'suited'
     PAIR =  '',
 
 
 class Rank(_MultiValueEnum):
-    DEUCE = '2',
-    THREE = '3',
-    FOUR =  '4',
-    FIVE =  '5',
-    SIX =   '6',
-    SEVEN = '7',
-    EIGHT = '8',
-    NINE =  '9',
-    TEN =   'T', 't'
+    DEUCE = '2', 2
+    THREE = '3', 3
+    FOUR =  '4', 4
+    FIVE =  '5', 5
+    SIX =   '6', 6
+    SEVEN = '7', 7
+    EIGHT = '8', 8
+    NINE =  '9', 9
+    TEN =   'T', 't', 10
     JACK =  'J', 'j'
     QUEEN = 'Q', 'q'
     KING =  'K', 'k'
-    ACE =   'A', 'a'
+    ACE =   'A', 'a', 1
 
     @classmethod
     def difference(cls, first, second):
