@@ -253,9 +253,9 @@ class Hand(_ReprMixin):
             # when Rank match, only suit is the deciding factor
             # so, offsuit hand is 'less' than suited
             return self._shape == Shape.OFFSUIT
+        elif self._first == other._first:
+            return self._second < other._second
         else:
-            if self._first == other._first:
-                return self._second < other._second
             return self._first < other._first
 
     @classmethod
@@ -403,6 +403,16 @@ class Combo(_ReprMixin):
                  self._second._rank != other._second._rank)):
             return self._second < other._second
 
+        # same ranks suited go first, in order by Suit rank
+        elif (self._first._rank == other._first._rank and
+                self._second._rank == other._second._rank):
+            if self.is_suited and not other.is_suited:
+                return False
+            elif not self.is_suited and other.is_suited:
+                return True
+            else:
+                # both are suited
+                return self._first._suit < other._first._suit
         else:
             return self._first < other._first
 

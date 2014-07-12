@@ -48,6 +48,14 @@ def test_first_hand_suit_also_matters():
     assert Combo('K♥4♣') < Combo('K♠4♣')
 
 
+def test_suited_combos_are_higher_than_offsuit():
+    assert Combo('AcKc') > Combo('AsKd')
+    assert Combo('AsKd') < Combo('AcKc')
+
+    assert Combo('AsKs') > Combo('AdKd')
+    assert Combo('AdKd') > Combo('AcKc')
+
+
 def test_pair_comparisons():
     assert (Combo('2d2c') < Combo('2s2c')) is True
     # reverse
