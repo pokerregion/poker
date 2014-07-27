@@ -228,4 +228,4 @@ class TestNormalization:
         assert str(Range('AKo')) == 'AKo'
 
     def test_one_combination(self):
-        assert str(Range('AsKc')) == 'AsKc'
+        assert str(Range('AsKc')) == 'A♠K♣'
