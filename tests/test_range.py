@@ -223,3 +223,9 @@ class TestNormalization:
 
     def test_two_pairs(self):
         assert str(Range('22 44')) == '44, 22'
+
+    def test_one_offsuit_hand(self):
+        assert str(Range('AKo')) == 'AKo'
+
+    def test_one_combination(self):
+        assert str(Range('AsKc')) == 'AsKc'
