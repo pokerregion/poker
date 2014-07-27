@@ -616,19 +616,18 @@ class Range:
             if (last_combo.first.rank == combo.first.rank and
                     last_combo.second.rank == combo.second.rank):
                 current_combos.append(combo)
+                if ((combo.is_pair and len(current_combos) == 6) or
+                        (not combo.is_suited and len(current_combos) == 12)):
+                    pieces.append(str(combo.to_hand()))
+                    current_combos = []
             else:
                 current_combos = [combo]
-                last_combo = combo
-                continue
 
-            if ((combo.is_pair and len(current_combos) == 6) or
-                (not combo.is_suited and len(current_combos) == 12)):
-                pieces.append(str(combo.to_hand()))
-                current_combos = []
-            else:
-                last_combo = combo
+            last_combo = combo
 
+        # current_combos might be empty
         pieces.extend(map(str, current_combos))
+
         return pieces
 
     def _get_ordered_hands(self, hand1, hand2):
