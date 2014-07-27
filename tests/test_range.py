@@ -192,63 +192,6 @@ class ValueChecks:
             Range('AsKq')
 
 
-class TestNormalization:
-    """Test for repr, str representation and range normalization."""
-
-    def test_str_and_range(self):
-        range = Range('77+ AKo')
-        assert repr(range) != "Range('{}')".format(str(range))
-        assert repr(range) == "Range('77+ AKo')"
-        assert str(range) == '77+, AKo'
-
-    def test_order_with_suit_and_without_suit(self):
-        range = Range('Kas 48')
-        assert repr(range) == "Range('AKs 84')"
-        assert str(range) == 'AKs, 84'
-
-    def test_pairs_order(self):
-        range = Range('22-55')
-        assert repr(range) == "Range('55-')"
-        assert str(range) == '55-'
-
-    def test_reduntant_pairs(self):
-        range = Range('22-44 33')
-        assert str(range) == '44-'
-        assert repr(range) == "Range('44-')"
-
-    @mark.xfail
-    def test_redundant_offsuit_hands(self):
-        range = Range('A2o+ 2Ao 8ao')
-        assert str(range) == 'A2o+'
-        assert repr(range) == "Range('A2o+')"
-
-    def test_non_connecting_offsuit_hands(self):
-        assert str(Range('A2o A8o')) == 'A8o, A2o'
-
-    @mark.xfail
-    def test_redundant_suited_hands(self):
-        range = Range('2as+ A5s A7s')
-        assert str(range) == 'A2s+'
-        assert repr(range) == "Range('A2s+')"
-
-    def test_redundant_plus_in_pair(self):
-        assert str(Range('AA+')) == 'AA'
-
-    @mark.xfail
-    def test_redundant_plus_in_suited_hand(self):
-        assert str(Range('87s+')) == '87s'
-
-    @mark.xfail
-    def test_redundant_plus_in_offsuit_hand(self):
-        assert str(Range('AKo+')) == 'AKo'
-
-    def test_suited_simplification_from_combinations(self):
-        assert str(Range('QJo JQs AK 22, 55 7c6c 7h6h 7d6d 7s6s')) == "55, 22, AK, QJ, 76s"
-
-    def test_suited__and_offsuit_simplification_from_combinations(self):
-        assert str(Range('QJo JQs AK 22, 55 7c6c 7h6h 7d6d 7s6s 76o')) == "55, 22, AK, QJ, 76"
-
-
 class TestComparisons:
 
     def test_ranges_with_lesser_hands_are_smaller(self):
@@ -265,3 +208,5 @@ class TestComparisons:
         assert Range('AKs') != Range('KJs')
         assert Range('AKo') != Range('KJo')
         assert Range('22') != Range('44')
+
+
