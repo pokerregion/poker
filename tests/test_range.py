@@ -210,3 +210,10 @@ class TestComparisons:
         assert Range('22') != Range('44')
 
 
+class TestNormalization:
+    def test_empty_range_is_empty(self):
+        assert str(Range('')) == ''
+        assert repr(Range('')) == "Range('')"
+
+        assert str(Range()) == ''
+        assert repr(Range()) == "Range('')"
