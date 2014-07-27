@@ -605,7 +605,8 @@ class Range:
         return "{}('{}')".format(self.__class__.__qualname__, range)
 
     def _get_rep_pieces(self):
-        return []
+        hands = {combo.to_hand() for combo in self._combos}
+        return map(str, sorted(hands, reverse=True))
 
     def _get_ordered_hands(self, hand1, hand2):
         first, second = Hand(hand1), Hand(hand2)

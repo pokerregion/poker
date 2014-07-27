@@ -217,3 +217,9 @@ class TestNormalization:
 
         assert str(Range()) == ''
         assert repr(Range()) == "Range('')"
+
+    def test_one_pair(self):
+        assert str(Range('22')) == '22'
+
+    def test_two_pairs(self):
+        assert str(Range('22 44')) == '44, 22'
