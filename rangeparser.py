@@ -617,23 +617,26 @@ class Range:
             if (last_combo.first.rank == combo.first.rank and
                     last_combo.second.rank == combo.second.rank):
                 current_combos.append(combo)
+                length = len(current_combos)
 
-                if len(current_combos) == 16:
-                    piece = combo.first.rank.value + combo.second.rank.value
-                    pieces.append(piece)
-                    current_combos = []
-                elif len(current_combos) == 12 and got_suited:
+                # all of suited and offsuit combos
+                if got_suited and length == 12:
                     pieces[-1] = combo.first.rank.value + combo.second.rank.value
                     current_combos = []
                     got_suited = False
-                elif (first_combo.is_offsuit and last_combo.is_offsuit and
-                        len(current_combos) == 12):
+
+                # got only offsuit combos, but all
+                elif first_combo.is_offsuit and last_combo.is_offsuit and length == 12:
                     pieces.append(str(combo.to_hand()))
                     current_combos = []
-                elif combo.is_pair and len(current_combos) == 6:
+
+                # got all pair combos
+                elif combo.is_pair and length == 6:
                     pieces.append(str(combo.to_hand()))
                     current_combos = []
-                elif combo.is_suited and len(current_combos) == 4:
+
+                # got all suited combos
+                elif combo.is_suited and length == 4:
                     got_suited = True
                     pieces.append(str(combo.to_hand()))
                     current_combos = []
@@ -644,7 +647,7 @@ class Range:
 
             last_combo = combo
 
-        # current_combos might be empty
+        # add the remainder if any, current_combos might be empty
         pieces.extend(map(str, current_combos))
 
         return pieces
