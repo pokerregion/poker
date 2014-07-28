@@ -610,18 +610,27 @@ class Range:
         pieces = []
         sorted_combos = sorted(self._combos, reverse=True)
         current_combos = []
-        last_combo = sorted_combos[0]
+        first_combo = last_combo = sorted_combos[0]
 
         for combo in sorted_combos:
             if (last_combo.first.rank == combo.first.rank and
                     last_combo.second.rank == combo.second.rank):
                 current_combos.append(combo)
-                if ((combo.is_pair and len(current_combos) == 6) or
-                        (not combo.is_suited and len(current_combos) == 12)):
+
+                if len(current_combos) == 16:
+                    piece = combo.first.rank.value + combo.second.rank.value
+                    pieces.append(piece)
+                    current_combos = []
+                elif (first_combo.is_offsuit and last_combo.is_offsuit and
+                        len(current_combos) == 12):
+                    pieces.append(str(combo.to_hand()))
+                    current_combos = []
+                elif combo.is_pair and len(current_combos) == 6:
                     pieces.append(str(combo.to_hand()))
                     current_combos = []
             else:
                 current_combos = [combo]
+                first_combo = combo
 
             last_combo = combo
 

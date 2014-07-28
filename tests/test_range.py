@@ -229,3 +229,6 @@ class TestNormalization:
 
     def test_one_combination(self):
         assert str(Range('AsKc')) == 'A♠K♣'
+
+    def test_offsuit_and_suited(self):
+        assert str(Range('AK')) == 'AK'
