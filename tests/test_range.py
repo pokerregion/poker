@@ -235,3 +235,14 @@ class TestNormalization:
 
     def test_suited_hand(self):
         assert str(Range('AKs')) == 'AKs'
+
+    def test_one_pair_and_one_hand(self):
+        assert str(Range('22 AKo')) == '22, AKo'
+        assert str(Range('22 AKs')) == '22, AKs'
+
+    def test_one_pair_and_suited_and_offsuit(self):
+        assert str(Range('22 AKo AKs')) == '22, AK'
+        assert str(Range('22 AK')) == '22, AK'
+
+    def test_one_pair_and_one_combo(self):
+        assert str(Range('22 AsKh')) == '22, A♠K♥'
