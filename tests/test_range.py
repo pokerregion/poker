@@ -232,3 +232,6 @@ class TestNormalization:
 
     def test_offsuit_and_suited(self):
         assert str(Range('AK')) == 'AK'
+
+    def test_suited_hand(self):
+        assert str(Range('AKs')) == 'AKs'
