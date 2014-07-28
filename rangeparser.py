@@ -406,9 +406,9 @@ class Combo(_ReprMixin):
         # same ranks suited go first, in order by Suit rank
         elif (self._first._rank == other._first._rank and
                 self._second._rank == other._second._rank):
-            if self.is_suited and not other.is_suited:
+            if self.is_suited and other.is_offsuit:
                 return False
-            elif not self.is_suited and other.is_suited:
+            elif self.is_offsuit and other.is_suited:
                 return True
             else:
                 # both are suited
@@ -432,6 +432,10 @@ class Combo(_ReprMixin):
     @property
     def is_suited(self):
         return self._first._suit == self._second._suit
+
+    @property
+    def is_offsuit(self):
+        return not self.is_suited
 
     @property
     def is_connector(self):

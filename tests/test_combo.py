@@ -90,6 +90,11 @@ def test_is_suited():
     assert Combo('AdKd').is_suited is True
 
 
+def test_is_offsuit():
+    assert Combo('AcKh').is_offsuit is True
+    assert Combo('AcKh').is_suited is False
+
+
 def test_is_pair():
     assert Combo('2s2c').is_pair is True
     assert Combo('AhAd').is_pair is True
