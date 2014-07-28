@@ -246,3 +246,6 @@ class TestNormalization:
 
     def test_one_pair_and_one_combo(self):
         assert str(Range('22 AsKh')) == '22, A♠K♥'
+
+    def test_complicated(self):
+        assert str(Range('33-66')) == '66-33'
