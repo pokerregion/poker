@@ -170,7 +170,7 @@ class TestRangeEquality:
         assert Range() == Range('')
 
 
-class ValueChecks:
+class TestValueChecks:
     def test_invalid_pair(self):
         with raises(ValueError):
             Range('HH')
@@ -182,10 +182,6 @@ class ValueChecks:
     def test_multiple_ranges_one_invalid(self):
         with raises(ValueError):
             Range('22+ AKo JK2')
-
-    def test_invalid_range_from_hands_should_raise_ValueError(self):
-        with raises(ValueError):
-            Range.from_strings(['AA', 'KK+'])
 
     def test_invalid_combos(self):
         with raises(ValueError):

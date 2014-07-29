@@ -510,7 +510,7 @@ class Range:
                 self._add_suited(token)
 
             # 33+, 33-
-            elif len(token) == 3 and token[0] == token[1]:
+            elif len(token) == 3 and token[0] == token[1] and token[-1] in ('+', '-'):
                 backward = True if token[-1] == '-' else False
                 first = Hand(token[:2])
                 for pair in sorted(PAIR_HANDS, reverse=backward):
@@ -519,18 +519,20 @@ class Range:
                         self._add_pair(str(pair))
 
             # AKo, AKs,
-            elif len(token) == 3 and 'X' not in token:
+            elif (len(token) == 3 and (token[0] != token[1]) and
+                  ('X' not in token) and (token[-1] in ('S', 'O'))):
                 if token[-1] == 'S':
                     self._add_suited(token)
                 elif token[-1] == 'O':
                     self._add_offsuit(token)
 
             # KXo, KXs
-            elif len(token) == 3 and token[-1] in ('S', 'O'):
+            elif len(token) == 3 and token[0] != token[1] and token[-1] in ('S', 'O'):
                 pass
 
             # A5+, A5-,
-            elif len(token) == 3 and token[-1] in ('+', '-') and 'X' not in token:
+            elif (len(token) == 3 and token[0] != token[1] and
+                  token[-1] in ('+', '-') and 'X' not in token):
                 pass
 
             # QX+, 5X-
@@ -569,6 +571,9 @@ class Range:
                             self._add_offsuit(hand)
                         elif token[-1] == 'S':
                             self._add_suited(hand)
+
+            else:
+                raise ValueError('Invalid token: {}'.format(token))
 
     @classmethod
     def from_hands(cls, hands):
