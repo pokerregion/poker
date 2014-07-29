@@ -607,11 +607,10 @@ class Range:
     def _get_rep_pieces(self):
         if not self._combos:
             return []
-        pieces = []
+        hands_and_combos = []
         sorted_combos = sorted(self._combos, reverse=True)
         current_combos = []
         first_combo = last_combo = sorted_combos[0]
-        got_suited = False
 
         for combo in sorted_combos:
             if (last_combo.first.rank == combo.first.rank and
@@ -619,38 +618,22 @@ class Range:
                 current_combos.append(combo)
                 length = len(current_combos)
 
-                # all of suited and offsuit combos
-                if got_suited and length == 12:
-                    pieces[-1] = combo.first.rank.value + combo.second.rank.value
-                    current_combos = []
-                    got_suited = False
-
-                # got only offsuit combos, but all
-                elif first_combo.is_offsuit and last_combo.is_offsuit and length == 12:
-                    pieces.append(str(combo.to_hand()))
-                    current_combos = []
-
-                # got all pair combos
-                elif combo.is_pair and length == 6:
-                    pieces.append(str(combo.to_hand()))
-                    current_combos = []
-
-                # got all suited combos
-                elif combo.is_suited and length == 4:
-                    got_suited = True
-                    pieces.append(str(combo.to_hand()))
-                    current_combos = []
-
+                if (length == 12 or   # got only offsuit combos, but all
+                    (combo.is_pair and length == 6) or  # all pair combos
+                    (combo.is_suited and length == 4)):   # all suited combos
+                        hands_and_combos.append(combo.to_hand())
+                        current_combos = []
             else:
+                hands_and_combos.extend(current_combos)
                 current_combos = [combo]
                 first_combo = combo
 
             last_combo = combo
 
         # add the remainder if any, current_combos might be empty
-        pieces.extend(map(str, current_combos))
+        hands_and_combos.extend(current_combos)
 
-        return pieces
+        return map(str, hands_and_combos)
 
     def _get_ordered_hands(self, hand1, hand2):
         first, second = Hand(hand1), Hand(hand2)
