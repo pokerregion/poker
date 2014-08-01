@@ -615,7 +615,7 @@ class Range:
         hands_and_combos = []
         sorted_combos = sorted(self._combos, reverse=True)
         current_combos = []
-        first_combo = last_combo = sorted_combos[0]
+        last_combo = sorted_combos[0]
 
         for combo in sorted_combos:
             if (last_combo.first.rank == combo.first.rank and
@@ -631,7 +631,6 @@ class Range:
             else:
                 hands_and_combos.extend(current_combos)
                 current_combos = [combo]
-                first_combo = combo
 
             last_combo = combo
 
