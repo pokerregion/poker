@@ -622,7 +622,11 @@ class Range:
         suited_pieces = self._get_pieces(self._suiteds, 4)
         offsuit_pieces = self._get_pieces(self._offsuits, 12)
 
-        return map(str, pair_pieces + suited_pieces + offsuit_pieces)
+        pair_strs = self._shorten_pieces(pair_pieces)
+        suited_strs = self._shorten_pieces(suited_pieces)
+        offsuit_strs = self._shorten_pieces(offsuit_pieces)
+
+        return pair_strs + suited_strs + offsuit_strs
 
     def _get_pieces(self, combos, combos_in_hand):
         if not combos:
@@ -652,6 +656,42 @@ class Range:
         hands_and_combos.extend(current_combos)
 
         return hands_and_combos
+
+    def _shorten_pieces(self, pieces):
+        if not pieces:
+            return []
+
+        str_pieces = []
+        first = last = pieces[0]
+        for current in pieces[1:]:
+            if isinstance(last, Combo):
+                str_pieces.append(str(last))
+                first = last = current
+            elif isinstance(current, Combo):
+                str_pieces.append(self._get_format(first, last))
+                first = last = current
+            elif ((current.is_pair and Rank.difference(last.first, current.first) == 1) or
+                  (last.first == current.first and
+                   Rank.difference(last.second, current.second) == 1)):
+                last = current
+            else:
+                str_pieces.append(self._get_format(first, last))
+                first = last = current
+
+        # write out any remaining pieces
+        str_pieces.append(self._get_format(first, last))
+
+        return str_pieces
+
+    def _get_format(self, first, last):
+        if first == last:
+            return str(first)
+        elif first.second.value == 'A':
+            return '{}+'.format(last)
+        elif last.second.value == '2':
+            return '{}-'.format(first)
+        else:
+            return '{}-{}'.format(first, last)
 
     def _get_ordered_hands(self, hand1, hand2):
         first, second = Hand(hand1), Hand(hand2)

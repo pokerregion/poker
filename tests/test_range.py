@@ -242,5 +242,12 @@ class TestNormalization:
     def test_one_pair_and_one_combo(self):
         assert str(Range('22 AsKh')) == '22, A♠K♥'
 
-    def test_complicated(self):
+    def test_pair_range(self):
         assert str(Range('33-66')) == '66-33'
+
+    def test_mixed_pairs_ranges_and_combos(self):
+        assert str(Range('44+, KJs KJo JsQc AcKc')) == '44+, A♣K♣, KJs, KJo, Q♣J♠'
+
+    def test_very_complicated_range(self):
+        assert str(Range('44-88, AA-KK, KJs KcJh JsQc AcKc 74s-76s')) == \
+            'KK+, 88-44, A♣K♣, KJs, 76s-74s, K♣J♥, Q♣J♠'
