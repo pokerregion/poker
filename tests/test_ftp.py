@@ -1,10 +1,10 @@
 import pytest
-import ftp_hands
 from datetime import datetime
 from decimal import Decimal
 from collections import OrderedDict
-from handparser import FullTiltHand
 import pytz
+from handparser import FullTiltHand
+from . import ftp_hands
 
 
 ET = pytz.timezone('US/Eastern')

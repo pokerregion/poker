@@ -8,7 +8,6 @@ from collections import MutableMapping, OrderedDict
 from inspect import ismethod
 from decimal import Decimal
 from datetime import datetime
-import locale
 import pytz
 
 

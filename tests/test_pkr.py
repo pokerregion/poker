@@ -1,11 +1,11 @@
 from datetime import datetime
 from decimal import Decimal as D
 from collections import OrderedDict
-from pkr_hands import HANDS
-from pytest import mark, fixture
 import pytz
 from pytz import UTC
+from pytest import mark, fixture
 from handparser import PKRHand
+from .pkr_hands import HANDS
 
 
 @fixture

@@ -1,7 +1,7 @@
 from collections import MutableMapping
 import pytest
 from handparser import PokerStarsHand
-import stars_hands
+from . import stars_hands
 
 
 class TestDictBehavior:

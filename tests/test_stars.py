@@ -1,10 +1,10 @@
-import pytest
-import stars_hands
 from decimal import Decimal
 from datetime import datetime
 from collections import OrderedDict
-from handparser import PokerStarsHand
 import pytz
+import pytest
+from handparser import PokerStarsHand
+from . import stars_hands
 
 
 ET = pytz.timezone('US/Eastern')
