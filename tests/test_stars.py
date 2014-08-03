@@ -1,10 +1,10 @@
-import pytest
-import stars_hands
 from decimal import Decimal
 from datetime import datetime
 from collections import OrderedDict
-from handparser import PokerStarsHand
 import pytz
+import pytest
+from handparser import PokerStarsHand
+from . import stars_hands
 
 
 ET = pytz.timezone('US/Eastern')
@@ -269,7 +269,7 @@ class TestClassRepresentation:
     hand_text = stars_hands.HAND1
 
     def test_unicode(self, hand_header):
-        assert u'<PokerStarsHand: STARS hand #105024000105>' == unicode(hand_header)
+        assert u'<PokerStarsHand: STARS hand #105024000105>' == str(hand_header)
 
     def test_str(self, hand_header):
         assert '<PokerStarsHand: STARS hand #105024000105>' == str(hand_header)

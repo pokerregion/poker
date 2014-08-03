@@ -27,7 +27,7 @@ Read the Docs: http://handparser.readthedocs.org/
 Requirements
 ------------
 
-* Python 2.7
+* Python 3.4
 * ``pytz``
 * ``pytest`` for testing.
 

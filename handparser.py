@@ -1,7 +1,6 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
-
-"""Poker hand history parser module."""
+"""
+    Poker hand history parser module.
+"""
 
 import re
 from abc import ABCMeta, abstractmethod
@@ -9,11 +8,7 @@ from collections import MutableMapping, OrderedDict
 from inspect import ismethod
 from decimal import Decimal
 from datetime import datetime
-import locale
 import pytz
-
-
-locale.setlocale(locale.LC_ALL, b'en_US.UTF-8')  # need for abbreviated month names
 
 
 _NORMALIZE = {'STARS': {'pokerstars', 'stars', 'ps'},
@@ -42,7 +37,7 @@ def normalize(value):
     """Normalize common words which can be in multiple form, but all means the same."""
 
     value = value.lower()
-    for normalized, compare in _NORMALIZE.iteritems():
+    for normalized, compare in _NORMALIZE.items():
         if value in compare:
             return normalized
     return value.upper()
@@ -70,7 +65,7 @@ class PokerHand(MutableMapping):
         if key not in self._non_hand_attributes:
             return getattr(self, key)
         else:
-            raise KeyError('You can only get it via the attribute like "hand.%s"' % key)
+            raise KeyError('You can only get it via ''the attribute like "hand.{}"'.format(key))
 
     def __setitem__(self, key, value):
         setattr(self, key, value)
@@ -81,11 +76,10 @@ class PokerHand(MutableMapping):
     def __iter__(self):
         return iter(self.keys())
 
-    def __unicode__(self):
-        return "<%s: %s hand #%s>" % (self.__class__.__name__, self.poker_room, self.ident)
-
     def __str__(self):
-        return unicode(self).encode('utf-8')
+        return "<{}: {} hand #{}>" .format(
+            self.__class__.__name__, self.poker_room, self.ident
+        )
 
     def keys(self):
         return [attr for attr in dir(self) if not attr.startswith('_') and
@@ -221,7 +215,7 @@ class PokerStarsHand(PokerHand):
         hole_cards_line = self._splitted[self._sections[0] + 2]
         match = self._hole_cards_re.match(hole_cards_line)
         self.hero = match.group(1)
-        self.hero_seat = self.players.keys().index(self.hero) + 1
+        self.hero_seat = list(self.players.keys()).index(self.hero) + 1
         self.hero_hole_cards = match.group(2, 3)
 
     def _parse_preflop(self):
@@ -372,7 +366,7 @@ class FullTiltHand(PokerHand):
         hole_cards_line = self._splitted[self._sections[0] + 2]
         match = self._hole_cards_re.match(hole_cards_line)
         self.hero = match.group(1)
-        self.hero_seat = self.players.keys().index(self.hero) + 1
+        self.hero_seat = list(self.players.keys()).index(self.hero) + 1
         self.hero_hole_cards = match.group(2, 3)
 
     def _parse_preflop(self):
@@ -525,7 +519,7 @@ class PKRHand(PokerHand):
         self.hero_hole_cards = (first, second)
 
         self.hero = match.group(3)
-        self.hero_seat = self.players.keys().index(self.hero) + 1
+        self.hero_seat = list(self.players.keys()).index(self.hero) + 1
 
     def _parse_preflop(self):
         start = self._sections[1] + 2
@@ -539,7 +533,7 @@ class PKRHand(PokerHand):
             start = self._sections[section] + 1
 
             street_line = self._splitted[start]
-            cards = map(lambda x: x[self.SPLIT_CARD_SPACE], self._card_re.findall(street_line))
+            cards = list(map(lambda x: x[self.SPLIT_CARD_SPACE], self._card_re.findall(street_line)))
             setattr(self, street, tuple(cards) if street == 'flop' else cards[0])
 
             stop = next(v for v in self._sections if v > start) - 1
