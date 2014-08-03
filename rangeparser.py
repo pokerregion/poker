@@ -528,8 +528,7 @@ class Range:
                 backward = token[-1] == '-'
                 first = Hand(token[:2])
                 for pair in sorted(PAIR_HANDS, reverse=backward):
-                    if (not backward and pair >= first or
-                            backward and pair <= first):
+                    if ((not backward and pair >= first) or (backward and pair <= first)):
                         self._add_pair(str(pair))
 
             # AKo, AKs,
@@ -578,7 +577,7 @@ class Range:
                         self._add_offsuit(rank1.value + rank2.value)
 
             # 2s2h, AsKc
-            elif len(token) == 4 and '+' not in token and '-' not in token:
+            elif len(token) == 4 and token[-1] not in ('+', '-'):
                 combo = Combo(token)
                 if combo.is_pair:
                     self._pairs.add(combo)
