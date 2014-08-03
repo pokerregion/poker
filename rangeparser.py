@@ -618,10 +618,18 @@ class Range:
         return "{}('{}')".format(self.__class__.__qualname__, range)
 
     def _get_rep_pieces(self):
-        if not self._combos:
+        pair_pieces = self._get_pieces(self._pairs, 6)
+        suited_pieces = self._get_pieces(self._suiteds, 4)
+        offsuit_pieces = self._get_pieces(self._offsuits, 12)
+
+        return map(str, pair_pieces + suited_pieces + offsuit_pieces)
+
+    def _get_pieces(self, combos, combos_in_hand):
+        if not combos:
             return []
+
+        sorted_combos = sorted(combos, reverse=True)
         hands_and_combos = []
-        sorted_combos = sorted(self._combos, reverse=True)
         current_combos = []
         last_combo = sorted_combos[0]
 
@@ -631,11 +639,9 @@ class Range:
                 current_combos.append(combo)
                 length = len(current_combos)
 
-                if (length == 12 or   # got only offsuit combos, but all
-                    (combo.is_pair and length == 6) or  # all pair combos
-                    (combo.is_suited and length == 4)):   # all suited combos
-                        hands_and_combos.append(combo.to_hand())
-                        current_combos = []
+                if length == combos_in_hand:
+                    hands_and_combos.append(combo.to_hand())
+                    current_combos = []
             else:
                 hands_and_combos.extend(current_combos)
                 current_combos = [combo]
@@ -645,7 +651,7 @@ class Range:
         # add the remainder if any, current_combos might be empty
         hands_and_combos.extend(current_combos)
 
-        return map(str, hands_and_combos)
+        return hands_and_combos
 
     def _get_ordered_hands(self, hand1, hand2):
         first, second = Hand(hand1), Hand(hand2)
