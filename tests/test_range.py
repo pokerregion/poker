@@ -250,7 +250,7 @@ class TestNormalization:
 
     def test_very_complicated_range(self):
         assert str(Range('44-88, AA-KK, KJs KcJh JsQc AcKc 74s-76s')) == \
-            'KK+, 88-44, A♣K♣, KJs, 76s-74s, K♣J♥, Q♣J♠'
+            'KK+, 88-44, A♣K♣, KJs, 74s+, K♣J♥, Q♣J♠'
 
     def test_negative(self):
         assert str(Range('55-22')) == '55-'

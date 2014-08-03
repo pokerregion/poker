@@ -686,7 +686,8 @@ class Range:
     def _get_format(self, first, last):
         if first == last:
             return str(first)
-        elif first.second.value == 'A':
+        elif (first.is_pair and first.first.value == 'A' or
+                    Rank.difference(first.first, first.second) == 1):
             return '{}+'.format(last)
         elif last.second.value == '2':
             return '{}-'.format(first)
