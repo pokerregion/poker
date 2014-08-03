@@ -609,7 +609,18 @@ class Range:
 
             # J8-J4
             elif len(token) == 5:
-                pass
+                smaller1, bigger1 = self._get_ordered(Rank, token[0], token[1])
+                smaller2, bigger2 = self._get_ordered(Rank, token[3], token[4])
+
+                if bigger1 != bigger2:
+                    raise ValueError('Invalid token: {}'.format(token))
+
+                bigger = bigger1.value
+                ranks = (rank.value for rank in Rank if smaller2 <= rank <= smaller1)
+
+                for rank in ranks:
+                    self._add_offsuit(bigger + rank)
+                    self._add_suited(bigger + rank)
 
             # J8o-J4o, J4o-J8o, 76s-74s, 74s-76s
             elif len(token) == 7:

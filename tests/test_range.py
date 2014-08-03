@@ -93,6 +93,12 @@ class TestHandsResultsAfterParse:
         assert Range('76o-').hands == (Hand('72o'), Hand('73o'), Hand('74o'),
                                        Hand('75o'), Hand('76o'))
 
+    def test_offsuit_and_suited_dashed(self):
+        assert Range('J8-J4').hands == (
+            Hand('J4o'), Hand('J4s'), Hand('J5o'), Hand('J5s'), Hand('J6o'), Hand('J6s'),
+            Hand('J7o'), Hand('J7s'), Hand('J8o'), Hand('J8s')
+        )
+
     def test_empty_range(self):
         assert Range().hands == tuple()
         assert Range().combos == tuple()
@@ -316,3 +322,6 @@ class TestNormalization:
 
     def test_hand_minus(self):
         assert str(Range('76o-')) == '72o+'
+
+    def test_both_dashed(self):
+        assert str(Range('J8-J4')) == 'J8s-J4s, J8o-J4o'
