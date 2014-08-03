@@ -38,7 +38,7 @@ def normalize(value):
     """Normalize common words which can be in multiple form, but all means the same."""
 
     value = value.lower()
-    for normalized, compare in _NORMALIZE.iteritems():
+    for normalized, compare in _NORMALIZE.items():
         if value in compare:
             return normalized
     return value.upper()
@@ -216,7 +216,7 @@ class PokerStarsHand(PokerHand):
         hole_cards_line = self._splitted[self._sections[0] + 2]
         match = self._hole_cards_re.match(hole_cards_line)
         self.hero = match.group(1)
-        self.hero_seat = self.players.keys().index(self.hero) + 1
+        self.hero_seat = list(self.players.keys()).index(self.hero) + 1
         self.hero_hole_cards = match.group(2, 3)
 
     def _parse_preflop(self):
@@ -367,7 +367,7 @@ class FullTiltHand(PokerHand):
         hole_cards_line = self._splitted[self._sections[0] + 2]
         match = self._hole_cards_re.match(hole_cards_line)
         self.hero = match.group(1)
-        self.hero_seat = self.players.keys().index(self.hero) + 1
+        self.hero_seat = list(self.players.keys()).index(self.hero) + 1
         self.hero_hole_cards = match.group(2, 3)
 
     def _parse_preflop(self):
@@ -520,7 +520,7 @@ class PKRHand(PokerHand):
         self.hero_hole_cards = (first, second)
 
         self.hero = match.group(3)
-        self.hero_seat = self.players.keys().index(self.hero) + 1
+        self.hero_seat = list(self.players.keys()).index(self.hero) + 1
 
     def _parse_preflop(self):
         start = self._sections[1] + 2
@@ -534,7 +534,7 @@ class PKRHand(PokerHand):
             start = self._sections[section] + 1
 
             street_line = self._splitted[start]
-            cards = map(lambda x: x[self.SPLIT_CARD_SPACE], self._card_re.findall(street_line))
+            cards = list(map(lambda x: x[self.SPLIT_CARD_SPACE], self._card_re.findall(street_line)))
             setattr(self, street, tuple(cards) if street == 'flop' else cards[0])
 
             stop = next(v for v in self._sections if v > start) - 1
