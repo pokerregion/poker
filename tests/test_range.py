@@ -115,6 +115,9 @@ class TestPercentages:
     def test_pair_and_offsuit(self):
         assert Range('22 AKo').percent == 1.36
 
+    def test_full_range(self):
+        assert Range('XX').percent == 100
+
 
 class TestNumberOfCombos:
     """Test number of hand combos by suits."""
@@ -133,6 +136,9 @@ class TestNumberOfCombos:
 
     def test_one_offsuit_card(self):
         assert len(Range('AKo')) == 12
+
+    def test_full_range(self):
+        assert len(Range('XX')) == 1326
 
 
 class TestComposeHands:
@@ -254,3 +260,6 @@ class TestNormalization:
 
     def test_negative(self):
         assert str(Range('55-22')) == '55-'
+
+    def test_full_range(self):
+        assert str(Range('XX')) == 'XX'

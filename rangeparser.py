@@ -500,6 +500,13 @@ class Range:
         for token in tokens:
             # XX
             if len(token) == 2 and token == 'XX':
+                for card in itertools.combinations('AKQJT98765432', 2):
+                    self._add_offsuit(card)
+                    self._add_suited(card)
+                for rank in 'AKQJT98765432':
+                    self._add_pair(rank * 2)
+
+                # full range, no need to parse any more token
                 break
 
             # 22, 33
@@ -618,6 +625,9 @@ class Range:
         return "{}('{}')".format(self.__class__.__qualname__, range)
 
     def _get_rep_pieces(self):
+        if len(self._combos) == 1326:
+            return ['XX']
+
         pair_pieces = self._get_pieces(self._pairs, 6)
         suited_pieces = self._get_pieces(self._suiteds, 4)
         offsuit_pieces = self._get_pieces(self._offsuits, 12)
