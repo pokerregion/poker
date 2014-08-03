@@ -1,4 +1,4 @@
-from rangeparser import Card, Rank, Suit
+from poker.rangeparser import Card, Rank, Suit
 from pytest import raises
 
 

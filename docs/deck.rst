@@ -5,7 +5,7 @@ Making a new deck is easy:
 
 .. code-block:: python
 
-    from rangeparser import DECK
+    from poker.rangeparser import DECK
     import random
 
     newdeck = list(DECK)

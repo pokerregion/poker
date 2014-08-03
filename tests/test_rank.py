@@ -1,4 +1,4 @@
-from rangeparser import Rank
+from poker.rangeparser import Rank
 from pytest import raises
 
 

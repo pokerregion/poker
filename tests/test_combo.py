@@ -1,4 +1,4 @@
-from rangeparser import Combo, Card, Shape, Hand
+from poker.rangeparser import Combo, Card, Shape, Hand
 from pytest import raises
 
 

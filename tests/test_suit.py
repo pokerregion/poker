@@ -1,5 +1,5 @@
 import pickle
-from rangeparser import Suit
+from poker.rangeparser import Suit
 from pytest import raises
 
 

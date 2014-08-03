@@ -1,5 +1,5 @@
 from pytest import raises, mark
-from rangeparser import *
+from poker.rangeparser import *
 
 
 # from worse to best (suit matter)
