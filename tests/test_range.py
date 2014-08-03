@@ -63,6 +63,17 @@ class TestHandsResultsAfterParse:
     def test_pairs_backward(self):
         assert Range('44-').hands == (Hand('22'), Hand('33'), Hand('44'))
 
+    def test_both_suits_with_minus(self):
+        assert Range('A5-').hands == (Hand('A2o'), Hand('A2s'), Hand('A3o'), Hand('A3s'),
+                                      Hand('A4o'), Hand('A4s'), Hand('A5o'), Hand('A5s'))
+
+    def test_both_suits_with_plus(self):
+        assert Range('A5+').hands == (Hand('A5o'), Hand('A5s'), Hand('A6o'), Hand('A6s'),
+                                      Hand('A7o'), Hand('A7s'), Hand('A8o'), Hand('A8s'),
+                                      Hand('A9o'), Hand('A9s'), Hand('ATo'), Hand('ATs'),
+                                      Hand('AJo'), Hand('AJs'), Hand('AQo'), Hand('AQs'),
+                                      Hand('AKo'), Hand('AKs'))
+
     def test_empty_range(self):
         assert Range().hands == tuple()
         assert Range().combos == tuple()
@@ -269,3 +280,8 @@ class TestNormalization:
 
     def test_rep_pieces(self):
         assert Range('KX').rep_pieces == ['K2s+', 'K2o+']
+
+    def test_both_suits_with_plus_or_minus(self):
+        assert str(Range('A5-')) == 'A5s-, A5o-'
+        assert str(Range('A5+')) == 'A5s+, A5o+'
+        assert str(Range('A5+ A5-')) == 'A2s+, A2o+'

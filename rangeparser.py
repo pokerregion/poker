@@ -554,7 +554,15 @@ class Range:
             # A5+, A5-,
             elif (len(token) == 3 and token[0] != token[1] and
                   token[-1] in ('+', '-') and 'X' not in token):
-                pass
+                smaller, bigger = self._get_ordered(Rank, token[0], token[1])
+                if token[-1] == '-':
+                    ranks = (rank.value for rank in Rank if rank <= smaller)
+                else:
+                    ranks = (rank.value for rank in Rank if smaller <= rank < bigger)
+
+                for rank in ranks:
+                    self._add_suited(token[0] + rank)
+                    self._add_offsuit(token[0] + rank)
 
             # QX+, 5X-
             elif len(token) == 3 and token[-1] in ('+', '-'):
