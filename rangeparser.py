@@ -697,16 +697,16 @@ class Range:
         first, second = Hand(hand1), Hand(hand2)
         return max(first, second), min(first, second)
 
-    def _add_pair(self, hand):
-        self._pairs |= {Combo(hand[0] + s1.value + hand[1] + s2.value)
+    def _add_pair(self, tok):
+        self._pairs |= {Combo(tok[0] + s1.value + tok[1] + s2.value)
                         for s1, s2 in itertools.combinations(Suit, 2)}
 
-    def _add_offsuit(self, hand):
-        self._offsuits |= {Combo(hand[0] + s1.value + hand[1] + s2.value)
+    def _add_offsuit(self, tok):
+        self._offsuits |= {Combo(tok[0] + s1.value + tok[1] + s2.value)
                            for s1, s2 in itertools.product(Suit, Suit) if s1 != s2}
 
-    def _add_suited(self, hand):
-        self._suiteds |= {Combo(hand[0] + s1.value + hand[1] + s2.value)
+    def _add_suited(self, tok):
+        self._suiteds |= {Combo(tok[0] + s1.value + tok[1] + s2.value)
                           for s1, s2 in itertools.product(Suit, Suit) if s1 == s2}
 
     @property
