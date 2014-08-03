@@ -588,7 +588,17 @@ class Range:
 
             # AJo+, AJs+, A5o-, A5s-, 7Xs+, 76s+
             elif len(token) == 4:
-                pass
+                smaller, bigger = self._get_ordered(Rank, token[0], token[1])
+                if token[-1] == '-':
+                    second_ranks = (rank.value for rank in Rank if rank <= smaller)
+                else:
+                    second_ranks = (rank.value for rank in Rank if smaller <= rank < bigger)
+
+                add_func = self._add_offsuit if token[2] == 'O' else self._add_suited
+
+                for rank in second_ranks:
+                    add_func(token[0] + rank)
+
 
             # 55-33, 33-55
             elif len(token) == 5 and token[0] == token[1]:

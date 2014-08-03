@@ -86,6 +86,13 @@ class TestHandsResultsAfterParse:
             Hand('AQo'), Hand('AQs'), Hand('AKo'), Hand('AKs')
         )
 
+    def test_offsuit_plus(self):
+        assert Range('KJo+').hands == (Hand('KJo'), Hand('KQo'))
+
+    def test_offsuit_minus(self):
+        assert Range('76o-').hands == (Hand('72o'), Hand('73o'), Hand('74o'),
+                                       Hand('75o'), Hand('76o'))
+
     def test_empty_range(self):
         assert Range().hands == tuple()
         assert Range().combos == tuple()
@@ -303,3 +310,9 @@ class TestNormalization:
 
     def test_X_minus(self):
         assert str(Range('5X-')) == '52s+, 42s+, 32s, 52o+, 42o+, 32o'
+
+    def test_hand_plus(self):
+        assert str(Range('KJo+')) == 'KJo+'
+
+    def test_hand_minus(self):
+        assert str(Range('76o-')) == '72o+'
