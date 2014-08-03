@@ -1,5 +1,6 @@
 from pytest import raises, mark
-from poker.rangeparser import *
+from poker.card import Suit, Card
+from poker.hand import Hand, Combo, Range, PAIR_HANDS
 
 
 # from worse to best (suit matter)

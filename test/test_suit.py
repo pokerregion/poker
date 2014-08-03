@@ -1,6 +1,6 @@
 import pickle
-from poker.rangeparser import Suit
 from pytest import raises
+from poker.card import Suit
 
 
 def test_suit_order():

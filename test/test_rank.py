@@ -1,5 +1,5 @@
-from poker.rangeparser import Rank
 from pytest import raises
+from poker.card import Rank
 
 
 def test_comparisons():

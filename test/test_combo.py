@@ -1,5 +1,6 @@
-from poker.rangeparser import Combo, Card, Shape, Hand
 from pytest import raises
+from poker.card import Card
+from poker.hand import Shape, Hand, Combo
 
 
 def test_first_and_second_are_Card_instances():

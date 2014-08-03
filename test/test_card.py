@@ -1,5 +1,5 @@
-from poker.rangeparser import Card, Rank, Suit
 from pytest import raises
+from poker.card import Card, Rank, Suit
 
 
 def test_only_cards_with_same_rank_are_equal():
