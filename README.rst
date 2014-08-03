@@ -70,7 +70,11 @@ Available formats for defining ranges:
     A5-         - downward, same as above
 
     XX          - every hand (100% range)
-    AX          - Any hand that contains an ace either suited or offsuit
+
+    .. note::
+        In this special case, pairs are also included, but only this.
+
+    AX          - Any hand that contains an ace either suited or offsuit (no pairs)
     AXo         - Any offsuit hand that contains an Ace
     AXs         - Any suited hand that contains an Ace
 
@@ -94,13 +98,11 @@ Hands can be separated by space (even multiple), comma, colon or semicolon, and 
 Normalization
 -------------
 
-Ranges should be rearranged and parsed to the most succint possible according to these rules:
-- hands separated with one space only
+Ranges should be rearranged and parsed according to these rules:
+- hands separated with one space only in repr, with ", " in str representation
 - in any given hand the first card is bigger than second (except pairs of course)
 - pairs first, if hyphened, bigger first
-- descending order by card value
-- hands with X
-- suited Hands
+- suited hands after pairs, descending by rank
 - offsuited hands at the end
 
 
@@ -122,20 +124,18 @@ Examples
 +----------------+------------------------------------------------------+
 
 
-Suit ranking
-------------
-
-According to Wikipedia `High card by suit`_, suits are ranked as:
-    spades > hearts > diamonds > clubs
-
-
 .. glossary::
 
     Suit
         One of |suits|. Alternatively '♣', '♦', '♥', '♠'.
+        `According to Wikipedia <http://en.wikipedia.org/wiki/High_card_by_suit>`_, suits are ranked as:
 
-    Suitedness
-        'o' for offsuit, 's' for suited hands '' or None for pairs.
+        spades > hearts > diamonds > clubs
+
+    Shape
+        A hand can have three "Shapes" `according to Wikipedia <http://en.wikipedia.org/wiki/Texas_hold_'em_starting_hands#Essentials>`_.
+
+        'o' for offsuit, 's' for suited hands '' for pairs.
 
     Rank
         One card without suit. One of |ranks|.
@@ -146,8 +146,14 @@ According to Wikipedia `High card by suit`_, suits are ranked as:
     Hand
         Consists two :term:`Rank`s without precise suits like "AKo", "22".
 
-    Hand equality
-        - pairs are better than none-pairs
+    Hand comparisons
+        Comparisons in this library has nothing to do with equities or if a hand beats another.
+        They are only defined so that a consistent ordering can be ensured when
+        representing objects. If you want to compare hands by equity, use `pypoker-eval`_
+        instead.
+
+        The rules:
+        - pairs are 'better' than none-pairs
         - non-pairs are better if at least one of the cards are bigger
         - suited better than offsuit
 
@@ -170,7 +176,7 @@ According to Wikipedia `High card by suit`_, suits are ranked as:
         If there are more hand :term:`Combination`s in it. (Equity vs each other doesn't matter here.)
 
     Token
-        Denote one part of a range. In a "66-33 76o-73o AsJc 2s2h" there are 4 tokens:
+        Denote one part of a range. In a "66-33 76o-73o AsJc 2s2h" range, there are 4 tokens:
         - "66-33" meaning 33, 44, 55, 66
         - "AsJc"  specific :term:`Combination`
         - "2s2h" a specific pair of deuces
@@ -185,9 +191,7 @@ According to Wikipedia `High card by suit`_, suits are ranked as:
         .. warning:: Ace is not a face card!
 
 
-
-.. _High card by suit: http://en.wikipedia.org/wiki/High_card_by_suit
-
-
 .. |ranks| replace:: '2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K', 'A'
 .. |suits| replace:: 'c', 'd', 'h', or 's'
+
+.. _pypoker-eval:: http://pokersource.sourceforge.net/

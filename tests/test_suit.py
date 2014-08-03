@@ -118,8 +118,7 @@ def test_make_random_is_instance_of_Suit():
 
 
 def test_hash():
-    assert (hash(Suit.CLUBS) == hash(Suit('c')) ==
-            hash(Suit('C')) == hash(Suit('♣')))
+    assert (hash(Suit.CLUBS) == hash(Suit('c')) == hash(Suit('C')) == hash(Suit('♣')))
 
     assert hash(Suit.SPADES) == hash(Suit('s'))
 
