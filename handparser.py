@@ -1,7 +1,6 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
-
-"""Poker hand history parser module."""
+"""
+    Poker hand history parser module.
+"""
 
 import re
 from abc import ABCMeta, abstractmethod
@@ -11,9 +10,6 @@ from decimal import Decimal
 from datetime import datetime
 import locale
 import pytz
-
-
-locale.setlocale(locale.LC_ALL, b'en_US.UTF-8')  # need for abbreviated month names
 
 
 _NORMALIZE = {'STARS': {'pokerstars', 'stars', 'ps'},
@@ -70,7 +66,7 @@ class PokerHand(MutableMapping):
         if key not in self._non_hand_attributes:
             return getattr(self, key)
         else:
-            raise KeyError('You can only get it via the attribute like "hand.%s"' % key)
+            raise KeyError('You can only get it via ''the attribute like "hand.{}"'.format(key))
 
     def __setitem__(self, key, value):
         setattr(self, key, value)
@@ -81,11 +77,10 @@ class PokerHand(MutableMapping):
     def __iter__(self):
         return iter(self.keys())
 
-    def __unicode__(self):
-        return "<%s: %s hand #%s>" % (self.__class__.__name__, self.poker_room, self.ident)
-
     def __str__(self):
-        return unicode(self).encode('utf-8')
+        return "<{}: {} hand #{}>" .format(
+            self.__class__.__name__, self.poker_room, self.ident
+        )
 
     def keys(self):
         return [attr for attr in dir(self) if not attr.startswith('_') and
