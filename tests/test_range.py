@@ -266,3 +266,6 @@ class TestNormalization:
 
     def test_X_in_range(self):
         assert str(Range('KX')) == 'K2s+, K2o+'
+
+    def test_rep_pieces(self):
+        assert Range('KX').rep_pieces == ['K2s+', 'K2o+']

@@ -629,14 +629,14 @@ class Range:
         return len(self._combos)
 
     def __str__(self):
-        pieces = self._get_rep_pieces()
-        return ', '.join(pieces)
+        return ', '.join(self.rep_pieces)
 
     def __repr__(self):
-        range = ' '.join(self._get_rep_pieces())
+        range = ' '.join(self.rep_pieces)
         return "{}('{}')".format(self.__class__.__qualname__, range)
 
-    def _get_rep_pieces(self):
+    @property
+    def rep_pieces(self):
         if len(self._combos) == 1326:
             return ['XX']
 
