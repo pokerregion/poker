@@ -515,8 +515,13 @@ class Range:
 
             # AK, J7, AX
             elif len(token) == 2 and token[0] != token[1]:
-                self._add_offsuit(token)
-                self._add_suited(token)
+                if token[1] == 'X':
+                    for rank in (rank.value for rank in Rank if rank < Rank(token[0])):
+                        self._add_suited(token[0] + rank)
+                        self._add_offsuit(token[0] + rank)
+                else:
+                    self._add_offsuit(token)
+                    self._add_suited(token)
 
             # 33+, 33-
             elif len(token) == 3 and token[0] == token[1] and token[-1] in ('+', '-'):
@@ -537,7 +542,14 @@ class Range:
 
             # KXo, KXs
             elif len(token) == 3 and token[0] != token[1] and token[-1] in ('S', 'O'):
-                pass
+                ranks_to_add = (rank.value for rank in Rank if rank < Rank(token[0]))
+                if token[-1] == 'S':
+                    func = self._add_suited
+                else:
+                    func = self._add_offsuit
+
+                for rank in ranks_to_add:
+                    func(token[0] + rank)
 
             # A5+, A5-,
             elif (len(token) == 3 and token[0] != token[1] and

@@ -263,3 +263,6 @@ class TestNormalization:
 
     def test_full_range(self):
         assert str(Range('XX')) == 'XX'
+
+    def test_X_in_range(self):
+        assert str(Range('KX')) == 'K2s+, K2o+'
