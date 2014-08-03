@@ -189,7 +189,6 @@ class TestValueChecks:
 
 
 class TestComparisons:
-
     def test_ranges_with_lesser_hands_are_smaller(self):
         assert Range('33+') < Range('22+')
         assert Range('22+') > Range('33+')
@@ -227,7 +226,7 @@ class TestNormalization:
         assert str(Range('AsKc')) == 'A♠K♣'
 
     def test_offsuit_and_suited(self):
-        assert str(Range('AK')) == 'AK'
+        assert str(Range('AK')) == 'AKs, AKo'
 
     def test_suited_hand(self):
         assert str(Range('AKs')) == 'AKs'
@@ -237,8 +236,8 @@ class TestNormalization:
         assert str(Range('22 AKs')) == '22, AKs'
 
     def test_one_pair_and_suited_and_offsuit(self):
-        assert str(Range('22 AKo AKs')) == '22, AK'
-        assert str(Range('22 AK')) == '22, AK'
+        assert str(Range('22 AKo AKs')) == '22, AKs, AKo'
+        assert str(Range('22 AK')) == '22, AKs, AKo'
 
     def test_one_pair_and_one_combo(self):
         assert str(Range('22 AsKh')) == '22, A♠K♥'
