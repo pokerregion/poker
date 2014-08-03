@@ -68,11 +68,11 @@ class TestHandsResultsAfterParse:
                                       Hand('A4o'), Hand('A4s'), Hand('A5o'), Hand('A5s'))
 
     def test_both_suits_with_plus(self):
-        assert Range('A5+').hands == (Hand('A5o'), Hand('A5s'), Hand('A6o'), Hand('A6s'),
-                                      Hand('A7o'), Hand('A7s'), Hand('A8o'), Hand('A8s'),
-                                      Hand('A9o'), Hand('A9s'), Hand('ATo'), Hand('ATs'),
-                                      Hand('AJo'), Hand('AJs'), Hand('AQo'), Hand('AQs'),
-                                      Hand('AKo'), Hand('AKs'))
+        assert Range('A5+').hands == (
+            Hand('A5o'), Hand('A5s'), Hand('A6o'), Hand('A6s'), Hand('A7o'), Hand('A7s'),
+            Hand('A8o'), Hand('A8s'), Hand('A9o'), Hand('A9s'), Hand('ATo'), Hand('ATs'),
+            Hand('AJo'), Hand('AJs'), Hand('AQo'), Hand('AQs'), Hand('AKo'), Hand('AKs')
+        )
 
     def test_X_plus_in_range(self):
         assert Range('KX+').hands == (
