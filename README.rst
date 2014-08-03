@@ -75,8 +75,8 @@ Available formats for defining ranges:
         In this special case, pairs are also included, but only this.
 
     AX          - Any hand that contains an ace either suited or offsuit (no pairs)
-    AXo         - Any offsuit hand that contains an Ace
-    AXs         - Any suited hand that contains an Ace
+    AXo         - Any offsuit hand that contains an Ace (equivalent to A2o+)
+    AXs         - Any suited hand that contains an Ace (equivalent to A2s+)
 
     QX+         - Any hand that contains a card bigger than a Jack; Q2+, K2+, A2+
     KXs+        - Any suited hand that contains a card bigger than a Queen

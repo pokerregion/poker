@@ -565,8 +565,17 @@ class Range:
                     self._add_offsuit(token[0] + rank)
 
             # QX+, 5X-
-            elif len(token) == 3 and token[-1] in ('+', '-'):
-                pass
+            elif len(token) == 3 and token[1] == 'X' and token[-1] in ('+', '-'):
+                if token[-1] == '-':
+                    first_ranks = (rank for rank in Rank if rank <= Rank(token[0]))
+                else:
+                    first_ranks = (rank for rank in Rank if rank >= Rank(token[0]))
+
+                for rank1 in first_ranks:
+                    second_ranks = (rank for rank in Rank if rank < rank1)
+                    for rank2 in second_ranks:
+                        self._add_suited(rank1.value + rank2.value)
+                        self._add_offsuit(rank1.value + rank2.value)
 
             # 2s2h, AsKc
             elif len(token) == 4 and '+' not in token and '-' not in token:

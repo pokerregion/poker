@@ -74,6 +74,18 @@ class TestHandsResultsAfterParse:
                                       Hand('AJo'), Hand('AJs'), Hand('AQo'), Hand('AQs'),
                                       Hand('AKo'), Hand('AKs'))
 
+    def test_X_plus_in_range(self):
+        assert Range('KX+').hands == (
+            Hand('K2o'), Hand('K2s'), Hand('K3o'), Hand('K3s'), Hand('K4o'), Hand('K4s'),
+            Hand('K5o'), Hand('K5s'), Hand('K6o'), Hand('K6s'), Hand('K7o'), Hand('K7s'),
+            Hand('K8o'), Hand('K8s'), Hand('K9o'), Hand('K9s'), Hand('KTo'), Hand('KTs'),
+            Hand('KJo'), Hand('KJs'), Hand('KQo'), Hand('KQs'), Hand('A2o'), Hand('A2s'),
+            Hand('A3o'), Hand('A3s'), Hand('A4o'), Hand('A4s'), Hand('A5o'), Hand('A5s'),
+            Hand('A6o'), Hand('A6s'), Hand('A7o'), Hand('A7s'), Hand('A8o'), Hand('A8s'),
+            Hand('A9o'), Hand('A9s'), Hand('ATo'), Hand('ATs'), Hand('AJo'), Hand('AJs'),
+            Hand('AQo'), Hand('AQs'), Hand('AKo'), Hand('AKs')
+        )
+
     def test_empty_range(self):
         assert Range().hands == tuple()
         assert Range().combos == tuple()
@@ -285,3 +297,9 @@ class TestNormalization:
         assert str(Range('A5-')) == 'A5s-, A5o-'
         assert str(Range('A5+')) == 'A5s+, A5o+'
         assert str(Range('A5+ A5-')) == 'A2s+, A2o+'
+
+    def test_X_plus(self):
+        assert str(Range('QX+')) == 'A2s+, K2s+, Q2s+, A2o+, K2o+, Q2o+'
+
+    def test_X_minus(self):
+        assert str(Range('5X-')) == '52s+, 42s+, 32s, 52o+, 42o+, 32o'
