@@ -489,7 +489,9 @@ class Range:
     def __init__(self, range=''):
         range = range.upper()
 
-        self._combos = set()
+        self._pairs = set()
+        self._suiteds = set()
+        self._offsuits = set()
         self._range = ''
 
         # filter out empty matches
@@ -541,7 +543,13 @@ class Range:
 
             # 2s2h, AsKc
             elif len(token) == 4 and '+' not in token and '-' not in token:
-                self._combos.add(Combo(token))
+                combo = Combo(token)
+                if combo.is_pair:
+                    self._pairs.add(combo)
+                elif combo.is_suited:
+                    self._suiteds.add(combo)
+                else:
+                    self._offsuits.add(combo)
 
             # AJo+, AJs+, A5o-, A5s-, 7Xs+, 76s+
             elif len(token) == 4:
@@ -644,16 +652,16 @@ class Range:
         return max(first, second), min(first, second)
 
     def _add_pair(self, hand):
-        self._combos |= {Combo(hand[0] + s1.value + hand[1] + s2.value)
-                         for s1, s2 in itertools.combinations(Suit, 2)}
+        self._pairs |= {Combo(hand[0] + s1.value + hand[1] + s2.value)
+                        for s1, s2 in itertools.combinations(Suit, 2)}
 
     def _add_offsuit(self, hand):
-        self._combos |= {Combo(hand[0] + s1.value + hand[1] + s2.value)
-                         for s1, s2 in itertools.product(Suit, Suit) if s1 != s2}
+        self._offsuits |= {Combo(hand[0] + s1.value + hand[1] + s2.value)
+                           for s1, s2 in itertools.product(Suit, Suit) if s1 != s2}
 
     def _add_suited(self, hand):
-        self._combos |= {Combo(hand[0] + s1.value + hand[1] + s2.value)
-                         for s1, s2 in itertools.product(Suit, Suit) if s1 == s2}
+        self._suiteds |= {Combo(hand[0] + s1.value + hand[1] + s2.value)
+                          for s1, s2 in itertools.product(Suit, Suit) if s1 == s2}
 
     @property
     def hands(self):
@@ -675,3 +683,7 @@ class Range:
 
         # round to two decimal point
         return float(dec_percent.quantize(Decimal('1.00')))
+
+    @property
+    def _combos(self):
+        return self._pairs | self._suiteds | self._offsuits

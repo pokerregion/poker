@@ -70,7 +70,11 @@ Available formats for defining ranges:
     A5-         - downward, same as above
 
     XX          - every hand (100% range)
-    AX          - Any hand that contains an ace either suited or offsuit
+
+    .. note::
+        In this special case, pairs are also included, but only this.
+
+    AX          - Any hand that contains an ace either suited or offsuit (no pairs)
     AXo         - Any offsuit hand that contains an Ace
     AXs         - Any suited hand that contains an Ace
 
@@ -94,13 +98,11 @@ Hands can be separated by space (even multiple), comma, colon or semicolon, and 
 Normalization
 -------------
 
-Ranges should be rearranged and parsed to the most succint possible according to these rules:
-- hands separated with one space only
+Ranges should be rearranged and parsed according to these rules:
+- hands separated with one space only in repr, with ", " in str representation
 - in any given hand the first card is bigger than second (except pairs of course)
 - pairs first, if hyphened, bigger first
-- descending order by card value
-- hands with X
-- suited Hands
+- suited hands after pairs, descending by rank
 - offsuited hands at the end
 
 
