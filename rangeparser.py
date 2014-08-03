@@ -525,7 +525,7 @@ class Range:
 
             # 33+, 33-
             elif len(token) == 3 and token[0] == token[1] and token[-1] in ('+', '-'):
-                backward = True if token[-1] == '-' else False
+                backward = token[-1] == '-'
                 first = Hand(token[:2])
                 for pair in sorted(PAIR_HANDS, reverse=backward):
                     if (not backward and pair >= first or
@@ -576,10 +576,10 @@ class Range:
 
             # 55-33, 33-55
             elif len(token) == 5 and token[0] == token[1]:
-                bigger, smaller = self._get_ordered_hands(token[:2], token[3:])
-                for pair in PAIR_HANDS:
-                    if smaller <= pair <= bigger:
-                        self._add_pair(str(pair))
+                smaller, bigger = self._get_ordered(Hand, token[:2], token[3:])
+                pairs = (str(pair) for pair in PAIR_HANDS if smaller <= pair <= bigger)
+                for pair in pairs:
+                    self._add_pair(pair)
 
             # J8-J4
             elif len(token) == 5:
@@ -587,7 +587,7 @@ class Range:
 
             # J8o-J4o, J4o-J8o, 76s-74s, 74s-76s
             elif len(token) == 7:
-                bigger, smaller = self._get_ordered_hands(token[:3], token[4:])
+                smaller, bigger = self._get_ordered(Hand, token[:3], token[4:])
                 first_rank = bigger.first
                 bigger_rank = bigger.second
                 smaller_rank = smaller.second
@@ -716,9 +716,9 @@ class Range:
         else:
             return '{}-{}'.format(first, last)
 
-    def _get_ordered_hands(self, hand1, hand2):
-        first, second = Hand(hand1), Hand(hand2)
-        return max(first, second), min(first, second)
+    def _get_ordered(self, type_, part1, part2):
+        first, second = type_(part1), type_(part2)
+        return min(first, second), max(first, second)
 
     def _add_pair(self, tok):
         self._pairs |= {Combo(tok[0] + s1.value + tok[1] + s2.value)
