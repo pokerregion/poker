@@ -9,10 +9,11 @@ Welcome to Poker's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    deck
    testing
+   handparser/index
 
 
 Indices and tables

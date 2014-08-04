@@ -2,7 +2,7 @@
 API documentation
 -----------------
 
-.. automodule:: handparser
+.. automodule:: poker.handparser
 
    .. autofunction:: normalize
 
