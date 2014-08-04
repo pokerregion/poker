@@ -3,7 +3,7 @@ from datetime import datetime
 from collections import OrderedDict
 import pytz
 import pytest
-from handparser import PokerStarsHand
+from poker.handparser import PokerStarsHand
 from . import stars_hands
 
 
