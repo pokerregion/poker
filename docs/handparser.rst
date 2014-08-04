@@ -7,14 +7,6 @@
 Handparser
 ==========
 
-About
------
-
-There are a lot of hand history parser libraries. I wanted to make one more :D
-
-| Repo: https://github.com/stakingadmin/handparser
-| Issues: https://github.com/stakingadmin/handparser/issues
-
 Basic example
 -------------
 
@@ -56,27 +48,5 @@ If you want to support a new poker room, do this:
 You **have to** provide all common attributes, and *may* provide PokerRoom specific extra
 attributes described in the base :class:`PokerHand` class API documentation.
 
-Testing
--------
-All the unit tests are written in `pytest`_. I choose it because it offers very nice funcionality, and no-boilerplate
-code for tests. No need to sublass anything, just prefix classes with ``Test`` and methods with ``test_``.
 
-All assertion use the default python ``assert`` keyword.
-
-To run the tests, just invoke::
-
-    $ py.test
-
-from the module directory and `pytest`_ will automatically pick up all unit tests.
-
-.. _pytest: http://pytest.org/
-
-
-API
----
-
-.. toctree::
-   :maxdepth: 2
-
-   api
-
+:doc:`/api/handparser`

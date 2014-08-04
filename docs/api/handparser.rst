@@ -1,6 +1,5 @@
------------------
-API documentation
------------------
+Handparser
+----------
 
 .. automodule:: poker.handparser
 

@@ -6,14 +6,29 @@
 Welcome to Poker's documentation!
 =================================
 
-Contents:
+About
+-----
+
+| Repo: https://github.com/stakingadmin/handparser
+| Issues: https://github.com/stakingadmin/handparser/issues
+
+Contents
+--------
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
 
    deck
    testing
-   handparser/index
+   handparser
+
+API
+---
+
+.. toctree::
+   :glob:
+
+   api/*
 
 
 Indices and tables

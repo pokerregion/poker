@@ -1,5 +1,5 @@
 # Poker documentation build configuration file, created by
-# sphinx-quickstart on Mon Aug  4 04:35:50 2014.
+# sphinx-quickstart on Mon Aug  4 05:13:53 2014.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -29,6 +29,7 @@ sys.path.insert(0, os.path.abspath('..'))
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
+    'sphinx.ext.intersphinx',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -44,8 +45,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Poker'
-copyright = u'2014, Kiss György'
+project = 'Poker'
+copyright = '2014, Kiss György'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -99,7 +100,11 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'default'
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+if on_rtd:
+    html_theme = 'default'
+else:
+    html_theme = 'nature'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -197,8 +202,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'Poker.tex', u'Poker Documentation',
-   u'Kiss György', 'manual'),
+  ('index', 'Poker.tex', 'Poker Documentation',
+   'Kiss György', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -227,8 +232,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'poker', u'Poker Documentation',
-     [u'Kiss György'], 1)
+    ('index', 'poker', 'Poker Documentation',
+     ['Kiss György'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -241,8 +246,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'Poker', u'Poker Documentation',
-   u'Kiss György', 'Poker', 'One line description of project.',
+  ('index', 'Poker', 'Poker Documentation',
+   'Kiss György', 'Poker', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -262,13 +267,13 @@ texinfo_documents = [
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'Poker'
-epub_author = u'Kiss György'
-epub_publisher = u'Kiss György'
-epub_copyright = u'2014, Kiss György'
+epub_title = 'Poker'
+epub_author = 'Kiss György'
+epub_publisher = 'Kiss György'
+epub_copyright = '2014, Kiss György'
 
 # The basename for the epub file. It defaults to the project name.
-#epub_basename = u'Poker'
+#epub_basename = 'Poker'
 
 # The HTML theme for the epub output. Since the default themes are not optimized
 # for small screen space, using the same theme for HTML and epub output is
