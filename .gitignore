@@ -1,4 +1,3 @@
 .coverage
 *.py[oc]
 docs/_build/
-handparser.egg-info/
