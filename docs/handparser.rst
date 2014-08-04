@@ -7,6 +7,21 @@
 Handparser
 ==========
 
+About
+-----
+
+Hand history parser library.
+It parses:
+
+* PokerStars
+* Full Tilt
+
+tournament hands and
+
+* PKR
+
+cash games right now, very efficiently and with a simple API.
+
 Basic example
 -------------
 
@@ -47,6 +62,3 @@ If you want to support a new poker room, do this:
 
 You **have to** provide all common attributes, and *may* provide PokerRoom specific extra
 attributes described in the base :class:`PokerHand` class API documentation.
-
-
-:doc:`/api/handparser`

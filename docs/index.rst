@@ -3,14 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Poker's documentation!
-=================================
-
-About
------
-
-| Repo: https://github.com/stakingadmin/handparser
-| Issues: https://github.com/stakingadmin/handparser/issues
+Poker package documentation
+===========================
 
 Contents
 --------
@@ -21,6 +15,7 @@ Contents
    deck
    testing
    handparser
+   range
 
 API
 ---
@@ -29,6 +24,13 @@ API
    :glob:
 
    api/*
+
+
+Repo and issues
+---------------
+
+| Repo: https://github.com/pokerregion/poker
+| Issues: https://github.com/pokerregion/poker/issues
 
 
 Indices and tables

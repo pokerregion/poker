@@ -39,6 +39,7 @@ setup(
     url = "https://github.com/pokerregion/poker",
     license = "MIT",
     packages = find_packages(),
-    tests_require = ['pytest', 'coverage'],
+    install_requires = ['pytz'],
+    tests_require = ['pytest', 'coverage', 'coveralls'],
     cmdclass = {'test': PyTest},
 )

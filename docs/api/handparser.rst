@@ -1,5 +1,5 @@
-Handparser
-----------
+poker.handparser
+----------------
 
 .. automodule:: poker.handparser
 
