@@ -1,6 +1,6 @@
 from collections import MutableMapping
 import pytest
-from poker.handparser import PokerStarsHand
+from poker.handhistory import PokerStarsHand
 from . import stars_hands
 
 

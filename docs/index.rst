@@ -14,7 +14,7 @@ Contents
 
    deck
    testing
-   handparser
+   handhistory
    range
 
 API

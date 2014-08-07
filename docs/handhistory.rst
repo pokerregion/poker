@@ -3,9 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-==========
-Handparser
-==========
+====================
+Hand history parsing
+====================
 
 About
 -----
@@ -27,7 +27,7 @@ Basic example
 
 .. code-block:: python
 
-    >>> from handparser import PokerStarsHand
+    >>> from handhistory import PokerStarsHand
     >>> hand = PokerStarsHand(hand_text)
     >>> hand.players
     OrderedDict([('pjo80', 1500), ('Brimill', 3000), ('XZ18', 1500), ('.prestige.U$', 3000), ('schnetzger', 1500), ('W2lkm2n', 3000), ('sednanref', 1500), ('daoudi007708', 1500), ('IPODpoker88', 3000)])

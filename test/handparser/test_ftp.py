@@ -3,7 +3,7 @@ from datetime import datetime
 from decimal import Decimal
 from collections import OrderedDict
 import pytz
-from poker.handparser import FullTiltHand
+from poker.handhistory import FullTiltHand
 from . import ftp_hands
 
 

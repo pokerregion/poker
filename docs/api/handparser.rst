@@ -1,7 +1,7 @@
-poker.handparser
+poker.handhistory
 ----------------
 
-.. automodule:: poker.handparser
+.. automodule:: poker.handhistory
 
    .. autofunction:: normalize
 

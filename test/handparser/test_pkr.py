@@ -4,7 +4,7 @@ from collections import OrderedDict
 import pytz
 from pytz import UTC
 from pytest import mark, fixture
-from poker.handparser import PKRHand
+from poker.handhistory import PKRHand
 from .pkr_hands import HANDS
 
 

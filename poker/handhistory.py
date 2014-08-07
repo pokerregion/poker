@@ -43,7 +43,7 @@ def normalize(value):
     return value.upper()
 
 
-class PokerHand(MutableMapping):
+class HandHistory(MutableMapping):
     """Abstract base class for *all* room-specific parser."""
 
     __metaclass__ = ABCMeta
@@ -116,7 +116,7 @@ class PokerHand(MutableMapping):
         return [('Empty Seat %s' % num, Decimal(0)) for num in range(1, player_num + 1)]
 
 
-class PokerStarsHand(PokerHand):
+class PokerStarsHand(HandHistory):
     """Parses PokerStars Tournament hands."""
 
     poker_room = 'STARS'
@@ -261,7 +261,7 @@ class PokerStarsHand(PokerHand):
         self.winners = tuple(winners)
 
 
-class FullTiltHand(PokerHand):
+class FullTiltHand(HandHistory):
     """Parses Full Tilt Poker hands the same way as PokerStarsHand class."""
 
     poker_room = 'FTP'
@@ -422,7 +422,7 @@ class FullTiltHand(PokerHand):
         self.winners = tuple(winners)
 
 
-class PKRHand(PokerHand):
+class PKRHand(HandHistory):
     """Parses PKR hands."""
 
     poker_room = 'PKR'
