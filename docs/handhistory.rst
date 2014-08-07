@@ -27,8 +27,8 @@ Basic example
 
 .. code-block:: python
 
-    >>> from handhistory import PokerStarsHand
-    >>> hand = PokerStarsHand(hand_text)
+    >>> from handhistory import PokerStarsHandHistory
+    >>> hand = PokerStarsHandHistory(hand_text)
     >>> hand.players
     OrderedDict([('pjo80', 1500), ('Brimill', 3000), ('XZ18', 1500), ('.prestige.U$', 3000), ('schnetzger', 1500), ('W2lkm2n', 3000), ('sednanref', 1500), ('daoudi007708', 1500), ('IPODpoker88', 3000)])
 
@@ -46,7 +46,7 @@ If you want to support a new poker room, do this:
 
 .. code-block:: python
 
-    class PokerRoomHand(PokerHand):
+    class PokerRoomHandHistory(HandHistory):
         """Implement PokerRoom specific parsing."""
 
         def parse_header(self):
@@ -61,4 +61,4 @@ If you want to support a new poker room, do this:
 
 
 You **have to** provide all common attributes, and *may* provide PokerRoom specific extra
-attributes described in the base :class:`PokerHand` class API documentation.
+attributes described in the base :class:`HandHistory` class API documentation.

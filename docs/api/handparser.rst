@@ -61,7 +61,7 @@ poker.handhistory
 
 
 
-   .. autoclass:: PokerStarsHand
+   .. autoclass:: PokerStarsHandHistory
 
       **Class specific**
 
@@ -69,7 +69,7 @@ poker.handhistory
 
 
 
-   .. autoclass:: FullTiltHand
+   .. autoclass:: FullTiltHandHistory
 
       PokerStars and Full Tilt hand histories are very similar, so parsing them is almost identical.
       There are small differences though.

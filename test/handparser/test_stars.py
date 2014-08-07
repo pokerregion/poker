@@ -3,7 +3,7 @@ from datetime import datetime
 from collections import OrderedDict
 import pytz
 import pytest
-from poker.handhistory import PokerStarsHand
+from poker.handhistory import PokerStarsHandHistory
 from . import stars_hands
 
 
@@ -12,14 +12,14 @@ ET = pytz.timezone('US/Eastern')
 
 @pytest.fixture
 def hand(request):
-    """Parse handhistory defined in hand_text class attribute and returns a PokerStarsHand instance."""
-    return PokerStarsHand(request.instance.hand_text)
+    """Parse handhistory defined in hand_text class attribute and returns a PokerStarsHandHistory instance."""
+    return PokerStarsHandHistory(request.instance.hand_text)
 
 
 @pytest.fixture
 def hand_header(request):
-    """Parse hand history header only defined in hand_text and returns a PokerStarsHand instance."""
-    h = PokerStarsHand(request.instance.hand_text, parse=False)
+    """Parse hand history header only defined in hand_text and returns a PokerStarsHandHistory instance."""
+    h = PokerStarsHandHistory(request.instance.hand_text, parse=False)
     h.parse_header()
     return h
 
@@ -269,10 +269,10 @@ class TestClassRepresentation:
     hand_text = stars_hands.HAND1
 
     def test_unicode(self, hand_header):
-        assert u'<PokerStarsHand: STARS hand #105024000105>' == str(hand_header)
+        assert u'<PokerStarsHandHistory: STARS hand #105024000105>' == str(hand_header)
 
     def test_str(self, hand_header):
-        assert '<PokerStarsHand: STARS hand #105024000105>' == str(hand_header)
+        assert '<PokerStarsHandHistory: STARS hand #105024000105>' == str(hand_header)
 
 
 class TestPlayerNameWithDot:

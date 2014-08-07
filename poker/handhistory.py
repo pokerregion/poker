@@ -116,7 +116,7 @@ class HandHistory(MutableMapping):
         return [('Empty Seat %s' % num, Decimal(0)) for num in range(1, player_num + 1)]
 
 
-class PokerStarsHand(HandHistory):
+class PokerStarsHandHistory(HandHistory):
     """Parses PokerStars Tournament hands."""
 
     poker_room = 'STARS'
@@ -150,7 +150,7 @@ class PokerStarsHand(HandHistory):
 
     def __init__(self, hand_text, parse=True):
         """Split hand history by sections and parse."""
-        super(PokerStarsHand, self).__init__(hand_text, parse)
+        super(PokerStarsHandHistory, self).__init__(hand_text, parse)
         self._splitted = self._split_re.split(self.raw)
 
         # search split locations (basically empty strings)
@@ -179,7 +179,7 @@ class PokerStarsHand(HandHistory):
         self.header_parsed = True
 
     def parse(self):
-        super(PokerStarsHand, self).parse()
+        super(PokerStarsHandHistory, self).parse()
         self._parse_table()
         self._parse_seats()
         self._parse_hole_cards()
@@ -261,8 +261,8 @@ class PokerStarsHand(HandHistory):
         self.winners = tuple(winners)
 
 
-class FullTiltHand(HandHistory):
-    """Parses Full Tilt Poker hands the same way as PokerStarsHand class."""
+class FullTiltHandHistory(HandHistory):
+    """Parses Full Tilt Poker hands the same way as PokerStarsHandHistory class."""
 
     poker_room = 'FTP'
     date_format = '%H:%M:%S ET - %Y/%m/%d'
@@ -291,7 +291,7 @@ class FullTiltHand(HandHistory):
     _showdown_re = re.compile(r"^Seat (\d): (.*) showed .* and won")
 
     def __init__(self, hand_text, parse=True):
-        super(FullTiltHand, self).__init__(hand_text, parse)
+        super(FullTiltHandHistory, self).__init__(hand_text, parse)
 
         self._splitted = self._split_re.split(self.raw)
 
@@ -329,7 +329,7 @@ class FullTiltHand(HandHistory):
         self.header_parsed = True
 
     def parse(self):
-        super(FullTiltHand, self).parse()
+        super(FullTiltHandHistory, self).parse()
 
         self._parse_seats()
         self._parse_hole_cards()

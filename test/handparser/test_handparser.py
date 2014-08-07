@@ -1,6 +1,6 @@
 from collections import MutableMapping
 import pytest
-from poker.handhistory import PokerStarsHand
+from poker.handhistory import PokerStarsHandHistory
 from . import stars_hands
 
 
@@ -28,8 +28,8 @@ class TestDictBehavior:
         assert 32 == len(all_hands) == len(all_hands.keys())
 
     def test_keys_never_gives_back_class_attributes(self):
-        class ModdedPokerStarsHand(PokerStarsHand):
+        class ModdedPokerStarsHandHistory(PokerStarsHandHistory):
             _non_hand_attributes = ()
 
-        hand = ModdedPokerStarsHand(stars_hands.HAND1)
-        assert self.expected_keys | set(PokerStarsHand._non_hand_attributes) == set(hand.keys())
+        hand = ModdedPokerStarsHandHistory(stars_hands.HAND1)
+        assert self.expected_keys | set(PokerStarsHandHistory._non_hand_attributes) == set(hand.keys())
