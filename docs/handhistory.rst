@@ -28,6 +28,8 @@ Basic example
     >>> hand.date
     datetime.datetime(2013, 10, 4, 19, 18, 18, tzinfo=<DstTzInfo 'US/Eastern' EDT-1 day, 20:00:00 DST>)
 
-    >>> hand.hero, hand.hero_hole_cards
-    ('W2lkm2n', ('7d', '6h'))
+    >>> hand.hero
+    'W2lkm2n'
+    >>> hand.hero_combo
+    Combo('7d6h')
 

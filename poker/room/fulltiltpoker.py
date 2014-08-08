@@ -3,6 +3,8 @@ from decimal import Decimal
 from collections import OrderedDict
 import pytz
 from ..handhistory import HandHistory, normalize
+from ..card import Card
+from ..hand import Combo
 
 
 __all__ = ['FullTiltPokerHandHistory']
@@ -88,6 +90,8 @@ class FullTiltPokerHandHistory(HandHistory):
         self._parse_pot()
         self._parse_winners()
 
+        del self._splitted
+
         self.parsed = True
 
     def _parse_seats(self):
@@ -114,7 +118,7 @@ class FullTiltPokerHandHistory(HandHistory):
         match = self._hole_cards_re.match(hole_cards_line)
         self.hero = match.group(1)
         self.hero_seat = list(self.players.keys()).index(self.hero) + 1
-        self.hero_hole_cards = match.group(2, 3)
+        self.hero_combo = Combo(match.group(2) + match.group(3))
 
     def _parse_preflop(self):
         start = self._sections[0] + 3
@@ -141,7 +145,7 @@ class FullTiltPokerHandHistory(HandHistory):
 
         match = self._street_re.search(board_line)
         cards = match.group(1)
-        cards = tuple(cards.split()) if street == 'flop' else cards
+        cards = tuple(map(Card, cards.split())) if street == 'flop' else Card(cards)
         setattr(self, street, cards)
 
         pot = match.group(2)

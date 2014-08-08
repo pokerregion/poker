@@ -4,6 +4,8 @@ from decimal import Decimal
 from collections import OrderedDict
 import pytz
 from poker.room.fulltiltpoker import FullTiltPokerHandHistory
+from poker.card import Card
+from poker.hand import Combo
 from . import ftp_hands
 
 
@@ -56,7 +58,7 @@ class TestHandWithFlopOnly:
                               ('max_players', 9),
                               ('hero', 'IgaziFerfi'),
                               ('hero_seat', 4),
-                              ('hero_hole_cards', ('9d', 'Ks')),
+                              ('hero_combo', Combo('Ks9d')),
                               ('preflop_actions', ('PtheProphet has 15 seconds left to act',
                                                    'PtheProphet folds',
                                                    'JohnyyR raises to 40',
@@ -70,7 +72,7 @@ class TestHandWithFlopOnly:
                                                    'idanuTz1 folds',
                                                    'JohnyyR has 15 seconds left to act',
                                                    'JohnyyR calls 60')),
-                              ('flop', ('8h', '4h', 'Tc')),
+                              ('flop', (Card('8h'), Card('4h'), Card('Tc'))),
                               ('flop_pot', Decimal(230)),
                               ('flop_num_players', 2),
                               ('flop_actions', ('JohnyyR checks',
@@ -91,7 +93,7 @@ class TestHandWithFlopOnly:
                               ('total_pot', Decimal(230)),
                               ('show_down', False),
                               ('winners', ('FatalRevange',)),
-                              ('board', ('8h', '4h', 'Tc'))
+                              ('board', (Card('8h'), Card('4h'), Card('Tc')))
                              ])
     def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value
@@ -111,7 +113,7 @@ class TestHandWithFlopTurnRiver:
                               ('max_players', 9),
                               ('hero', 'Hero'),
                               ('hero_seat', 7),
-                              ('hero_hole_cards', ('Qc', '9s')),
+                              ('hero_combo', Combo('Qc9s')),
                               ('preflop_actions', ('Player3 calls 30',
                                                    'Player4 has 15 seconds left to act',
                                                    'Player4 calls 30',
@@ -125,7 +127,7 @@ class TestHandWithFlopTurnRiver:
                                                    'Player0 folds',
                                                    'Player1 folds',
                                                    'Player2 checks')),
-                              ('flop', ('4h', '5d', 'Jh')),
+                              ('flop', (Card('4h'), Card('5d'), Card('Jh'))),
                               ('flop_actions', ('Player2 checks',
                                                 'Player3 bets 165',
                                                 'Player4 folds',
@@ -135,13 +137,13 @@ class TestHandWithFlopTurnRiver:
                                                 'Player2 folds')),
                               ('flop_pot', Decimal('165')),
                               ('flop_num_players', 5),
-                              ('turn', '8c'),
+                              ('turn', Card('8c')),
                               ('turn_pot', Decimal(660)),
                               ('turn_num_players', 3),
                               ('turn_actions', ('Player3 checks',
                                                 'Player6 checks',
                                                 'Player7 checks')),
-                              ('river', '7h'),
+                              ('river', Card('7h')),
                               ('river_pot', Decimal(660)),
                               ('river_num_players', 3),
                               ('river_actions', ('Player3 bets 660',
@@ -152,7 +154,7 @@ class TestHandWithFlopTurnRiver:
                               ('total_pot', Decimal('3990')),
                               ('show_down', True),
                               ('winners', ('Player7',)),
-                              ('board', ('4h', '5d', 'Jh', '8c', '7h'))
+                              ('board', (Card('4h'), Card('5d'), Card('Jh'), Card('8c'), Card('7h')))
                              ])
     def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value

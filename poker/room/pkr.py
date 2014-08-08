@@ -3,6 +3,7 @@ from decimal import Decimal
 from collections import OrderedDict
 import pytz
 from ..handhistory import HandHistory, normalize
+from ..hand import Combo, Card
 
 
 __all__ = ['PKRHandHistory']
@@ -102,7 +103,7 @@ class PKRHandHistory(HandHistory):
 
         first = match.group(1)[self.SPLIT_CARD_SPACE]
         second = match.group(2)[self.SPLIT_CARD_SPACE]
-        self.hero_hole_cards = (first, second)
+        self.hero_combo = Combo(first + second)
 
         self.hero = match.group(3)
         self.hero_seat = list(self.players.keys()).index(self.hero) + 1
@@ -120,7 +121,7 @@ class PKRHandHistory(HandHistory):
 
             street_line = self._splitted[start]
             cards = list(map(lambda x: x[self.SPLIT_CARD_SPACE], self._card_re.findall(street_line)))
-            setattr(self, street, tuple(cards) if street == 'flop' else cards[0])
+            setattr(self, street, tuple(map(Card, cards)) if street == 'flop' else Card(cards[0]))
 
             stop = next(v for v in self._sections if v > start) - 1
             setattr(self, "%s_actions" % street, tuple(self._splitted[start + 1:stop]))

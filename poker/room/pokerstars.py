@@ -3,6 +3,8 @@ from decimal import Decimal
 from collections import OrderedDict
 import pytz
 from ..handhistory import HandHistory, normalize
+from ..card import Card
+from ..hand import Combo
 
 
 __all__ = ['PokerStarsHandHistory']
@@ -108,7 +110,7 @@ class PokerStarsHandHistory(HandHistory):
         match = self._hole_cards_re.match(hole_cards_line)
         self.hero = match.group(1)
         self.hero_seat = list(self.players.keys()).index(self.hero) + 1
-        self.hero_hole_cards = match.group(2, 3)
+        self.hero_combo = Combo(match.group(2) + match.group(3))
 
     def _parse_preflop(self):
         start = self._sections[0] + 3
@@ -120,7 +122,8 @@ class PokerStarsHandHistory(HandHistory):
             start = self._splitted.index(street.upper()) + 2
             stop = self._splitted.index('', start)
             street_actions = self._splitted[start:stop]
-            setattr(self, "%s_actions" % street.lower(), tuple(street_actions) if street_actions else None)
+            setattr(self, "%s_actions" % street.lower(),
+                    tuple(street_actions) if street_actions else None)
         except ValueError:
             setattr(self, street, None)
             setattr(self, '%s_actions' % street.lower(), None)
@@ -135,9 +138,9 @@ class PokerStarsHandHistory(HandHistory):
         if not boardline.startswith('Board'):
             return
         cards = self._board_re.findall(boardline)
-        self.flop = tuple(cards[:3]) if cards else None
-        self.turn = cards[3] if len(cards) > 3 else None
-        self.river = cards[4] if len(cards) > 4 else None
+        self.flop = tuple(map(Card, cards[:3])) if cards else None
+        self.turn = Card(cards[3]) if len(cards) > 3 else None
+        self.river = Card(cards[4]) if len(cards) > 4 else None
 
     def _parse_winners(self):
         winners = set()

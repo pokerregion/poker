@@ -4,6 +4,8 @@ from collections import OrderedDict
 import pytz
 import pytest
 from poker.room.pokerstars import PokerStarsHandHistory
+from poker.card import Card
+from poker.hand import Combo
 from . import stars_hands
 
 
@@ -56,11 +58,11 @@ class TestHandWithFlopOnly:
                               ('players', OrderedDict([('flettl2', 1500), ('santy312', 3000), ('flavio766', 3000),
                                                        ('strongi82', 3000), ('W2lkm2n', 3000), ('MISTRPerfect', 3000),
                                                        ('blak_douglas', 3000), ('sinus91', 1500), ('STBIJUJA', 1500)])),
-                              ('hero_hole_cards', ('Ac', 'Jh')),
-                              ('flop', ('2s', '6d', '6h')),
+                              ('hero_combo', Combo('AcJh')),
+                              ('flop', (Card('2s'), Card('6d'), Card('6h'))),
                               ('turn', None),
                               ('river', None),
-                              ('board', ('2s', '6d', '6h')),
+                              ('board', (Card('2s'), Card('6d'), Card('6h'))),
                               ('preflop_actions', ("strongi82: folds",
                                                    "W2lkm2n: raises 40 to 60",
                                                    "MISTRPerfect: calls 60",
@@ -116,11 +118,11 @@ class TestAllinPreflopHand:
                               ('players', OrderedDict([('RichFatWhale', 12910), ('W2lkm2n', 11815), ('Labahra', 7395),
                                                        ('Lean Abadia', 7765), ('lkenny44', 10080), ('Newfie_187', 1030),
                                                        ('Hokolix', 13175), ('pmmr', 2415), ('costamar', 13070)])),
-                              ('hero_hole_cards', ('Jd', 'Js')),
-                              ('flop', ('3c', '6s', '9d')),
-                              ('turn', '8d'),
-                              ('river', 'Ks'),
-                              ('board', ('3c', '6s', '9d', '8d', 'Ks')),
+                              ('hero_combo', Combo('JdJs')),
+                              ('flop', (Card('3c'), Card('6s'), Card('9d'))),
+                              ('turn', Card('8d')),
+                              ('river', Card('Ks')),
+                              ('board', (Card('3c'), Card('6s'), Card('9d'), Card('8d'), Card('Ks'))),
                               ('preflop_actions', ("lkenny44: folds",
                                                    "Newfie_187: raises 155 to 955 and is all-in",
                                                    "Hokolix: folds",
@@ -173,7 +175,7 @@ class TestBodyMissingPlayerNoBoard:
                               ('players', OrderedDict([('Empty Seat 1', 0), ('snelle_jel', 4295), ('EuSh0wTelm0', 11501),
                                                        ('panost3', 7014), ('Samovlyblen', 7620), ('Theralion', 4378),
                                                        ('wrsport1015', 9880), ('W2lkm2n', 10714), ('fischero68', 8724)])),
-                              ('hero_hole_cards', ('6d', '8d')),
+                              ('hero_combo', Combo('6d8d')),
                               ('flop', None),
                               ('turn', None),
                               ('river', None),
@@ -231,11 +233,11 @@ class TestBodyEveryStreet:
                               ('players', OrderedDict([('flettl2', 3000), ('santy312', 5890), ('flavio766', 11010),
                                                        ('strongi82', 2855), ('W2lkm2n', 5145), ('MISTRPerfect', 2395),
                                                        ('blak_douglas', 3000), ('sinus91', 3000), ('STBIJUJA', 1205)])),
-                              ('hero_hole_cards', ('Jc', '5c')),
-                              ('flop', ('6s', '4d', '3s')),
-                              ('turn', '8c'),
-                              ('river', 'Kd'),
-                              ('board', ('6s', '4d', '3s', '8c', 'Kd')),
+                              ('hero_combo', Combo('Jc5c')),
+                              ('flop', (Card('6s'), Card('4d'), Card('3s'))),
+                              ('turn', Card('8c')),
+                              ('river', Card('Kd')),
+                              ('board', (Card('6s'), Card('4d'), Card('3s'), Card('8c'), Card('Kd'))),
                               ('preflop_actions', ('sinus91: folds',
                                                    'STBIJUJA: folds',
                                                    'flettl2: raises 125 to 225',
