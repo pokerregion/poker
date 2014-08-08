@@ -22,6 +22,5 @@ def get_current_tournaments():
             buy_in = tour.buy_in_fee.string,
             players = int(tour['players'])
         )
-        tournaments.append(tournament)
 
-    return tournaments
+        yield tournament

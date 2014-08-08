@@ -31,6 +31,5 @@ def get_ranked_players():
             average_score = _make_float(player_row[7])
             previous_rank = player_row[8].string
         )
-        players.append(player)
 
-    return players
+        yield player
