@@ -1,5 +1,6 @@
-from rangeparser import Hand, Rank
 from pytest import raises
+from poker.card import Rank
+from poker.hand import Hand
 
 
 def test_first_and_second_are_instances_of_Rank():
