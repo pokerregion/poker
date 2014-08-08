@@ -13,7 +13,7 @@ poker.handhistory
 
 
 
-   .. autoclass:: PokerHand
+   .. autoclass:: PokerHandHistory
 
       :param str hand_text:  poker hand text
       :param bool parse:     if ``False``, hand will not parsed immediately.
@@ -69,7 +69,7 @@ poker.handhistory
 
 
 
-   .. autoclass:: FullTiltHandHistory
+   .. autoclass:: FullTiltPokerHandHistory
 
       PokerStars and Full Tilt hand histories are very similar, so parsing them is almost identical.
       There are small differences though.
@@ -95,7 +95,7 @@ poker.handhistory
 
 
 
-   .. autoclass:: PKRHand
+   .. autoclass:: PKRHandHistory
 
       **Class specific**
 

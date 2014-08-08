@@ -3,7 +3,7 @@ from datetime import datetime
 from collections import OrderedDict
 import pytz
 import pytest
-from poker.handhistory import PokerStarsHandHistory
+from poker.room.pokerstars import PokerStarsHandHistory
 from . import stars_hands
 
 

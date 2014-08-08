@@ -4,20 +4,20 @@ from collections import OrderedDict
 import pytz
 from pytz import UTC
 from pytest import mark, fixture
-from poker.handhistory import PKRHand
+from poker.room.pkr import PKRHandHistory
 from .pkr_hands import HANDS
 
 
 @fixture
 def hand_header(request):
-    h = PKRHand(request.instance.hand_text, parse=False)
+    h = PKRHandHistory(request.instance.hand_text, parse=False)
     h.parse_header()
     return h
 
 
 @fixture
 def hand(request):
-    return PKRHand(request.instance.hand_text)
+    return PKRHandHistory(request.instance.hand_text)
 
 
 class TestHoldemHand:

@@ -1,5 +1,5 @@
 import pytest
-from poker.handhistory import PokerStarsHandHistory
+from poker.room.pokerstars import PokerStarsHandHistory
 from . import stars_hands
 
 
