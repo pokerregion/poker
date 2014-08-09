@@ -1,16 +1,9 @@
-.. handparser documentation master file, created by
-   sphinx-quickstart on Fri Oct 25 14:21:31 2013.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-====================
 Hand history parsing
 ====================
 
 About
 -----
 
-Hand history parser library.
 It parses:
 
 * PokerStars
@@ -38,27 +31,3 @@ Basic example
     >>> hand.hero, hand.hero_hole_cards
     ('W2lkm2n', ('7d', '6h'))
 
-
-Contributing
-------------
-
-If you want to support a new poker room, do this:
-
-.. code-block:: python
-
-    class PokerRoomHandHistory(HandHistory):
-        """Implement PokerRoom specific parsing."""
-
-        def parse_header(self):
-            # Parse header only! Usually just first line. The whole purpose is to do it fast.
-            # No need to call super()
-
-        def parse(self):
-            # base class method strips and saves raw hand history
-            super(PokerRoomHand, self).parse()
-
-            # ...
-
-
-You **have to** provide all common attributes, and *may* provide PokerRoom specific extra
-attributes described in the base :class:`HandHistory` class API documentation.

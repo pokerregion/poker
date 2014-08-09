@@ -16,6 +16,7 @@ Contents
    testing
    handhistory
    range
+   contributing
 
 API
 ---
@@ -23,7 +24,7 @@ API
 .. toctree::
    :glob:
 
-   api/*
+   api/**
 
 
 Repo and issues
