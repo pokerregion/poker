@@ -100,6 +100,9 @@ class TestHandsResultsAfterParse:
             Hand('J7o'), Hand('J7s'), Hand('J8o'), Hand('J8s')
         )
 
+    def test_offsuit_and_suited_with_dash_reversed_is_the_same(self):
+        assert Range('J8-J4').hands == Range('J4-J8').hands
+
     def test_empty_range(self):
         assert Range().hands == tuple()
         assert Range().combos == tuple()

@@ -453,8 +453,9 @@ class Range:
                 if bigger1 != bigger2:
                     raise ValueError('Invalid token: {}'.format(token))
 
+                smaller_small, bigger_small = self._get_ordered(Rank, smaller1, smaller2)
+                ranks = (rank.value for rank in Rank if smaller_small <= rank <= bigger_small)
                 bigger = bigger1.value
-                ranks = (rank.value for rank in Rank if smaller2 <= rank <= smaller1)
 
                 for rank in ranks:
                     self._add_offsuit(bigger + rank)
