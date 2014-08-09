@@ -3,6 +3,16 @@ from setuptools import setup, find_packages
 from setuptools.command.test import test as TestCommand
 
 
+install_requires = [
+    'pytz',
+    'requests',
+    'beautifulsoup4',
+    'lxml',
+    'python-dateutil',
+    'parsedatetime'
+]
+
+
 class PyTest(TestCommand):
     user_options = [('pytest-args=', 'a', "Arguments to pass to py.test")]
 
@@ -24,7 +34,7 @@ class PyTest(TestCommand):
 
 setup(
     name = 'poker',
-    version = '0.7.0',
+    version = '0.10.0',
     description = 'Poker Framework',
     classifiers = [
         "Intended Audience :: Developers",
@@ -39,7 +49,7 @@ setup(
     url = "https://github.com/pokerregion/poker",
     license = "MIT",
     packages = find_packages(),
-    install_requires = ['pytz', 'requests', 'beautifulsoup4'],
+    install_requires = install_requires,
     tests_require = ['pytest', 'coverage', 'coveralls'],
     cmdclass = {'test': PyTest},
 )
