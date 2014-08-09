@@ -61,3 +61,7 @@ class _MultiValueEnum(Enum, metaclass=_MultiMeta):
 class _ReprMixin:
     def __repr__(self):
         return "{}('{}')".format(self.__class__.__qualname__, self)
+
+
+def _make_float(string):
+    return float(string.strip().replace(',', ''))
