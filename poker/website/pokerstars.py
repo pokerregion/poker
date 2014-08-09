@@ -20,7 +20,7 @@ def get_current_tournaments():
             name = tour.find('name').string,
             game = tour.game.string,
             buy_in = tour.buy_in_fee.string,
-            players = int(tour['players'])
+            player_num = int(tour['players'])
         )
 
         yield tournament
