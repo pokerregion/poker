@@ -12,6 +12,7 @@
 import re
 import random
 import itertools
+import functools
 from decimal import Decimal
 from functools import total_ordering
 from ._common import _MultiValueEnum, _ReprMixin
@@ -316,6 +317,109 @@ class Combo(_ReprMixin):
             return Shape.OFFSUIT
 
 
+class _RegexRangeLexer:
+    _separator_re = re.compile(r"[, ;]")
+    _rank = r"([2-9TJQKA])"
+    _suit = r"[cdhs]"
+    # the second card is not the same as the first
+    # (negative lookahead for the first matching group)
+    # this will not match pairs, but will match e.g. 86 or AK
+    _nonpair1 = r"{0}(?!\1){0}".format(_rank)
+    _nonpair2 = r"{0}(?!\2){0}".format(_rank)
+
+    rules = (
+        # NAME, REGEX, VALUE EXTRACTOR METHOD NAME
+        ('ALL', 'XX', None),
+        ('PAIR', r"{}\1".format(_rank), '_first'),
+        ('PAIR_PLUS', r"{}\1\+".format(_rank), '_first'),
+        ('PAIR_MINUS', r"{}\1-".format(_rank), '_first'),
+        ('PAIR_DASH', r"{0}\1-{0}\2".format(_rank), '_pairs_in_order'),
+        ('BOTH', _nonpair1, '_first_two_in_order'),
+        ('BOTH_PLUS', r"{}\+".format(_nonpair1), '_first_two_in_order'),
+        ('BOTH_MINUS', r"{}-".format(_nonpair1), '_first_two_in_order'),
+        ('BOTH_DASH', r"{}-{}".format(_nonpair1, _nonpair2), '_both_dash'),
+        ('SUITED', r"{}s".format(_nonpair1), '_first_two_in_order'),
+        ('SUITED_PLUS', r"{}s\+".format(_nonpair1), '_first_two_in_order'),
+        ('SUITED_MINUS', r"{}s-".format(_nonpair1), '_first_two_in_order'),
+        ('SUITED_DASH', r"{}s-{}s".format(_nonpair1, _nonpair2), '_shape_dash'),
+        ('OFFSUIT', r"{}o".format(_nonpair1), '_first_two_in_order'),
+        ('OFFSUIT_PLUS', r"{}o\+".format(_nonpair1), '_first_two_in_order'),
+        ('OFFSUIT_MINUS', r"{}o-".format(_nonpair1), '_first_two_in_order'),
+        ('OFFSUIT_DASH', r"{}o-{}o".format(_nonpair1, _nonpair2), '_shape_dash'),
+        ('X_SUITED', r"{0}Xs|X{0}s".format(_rank), '_only_rank_without_x'),
+        ('X_SUITED_PLUS', r"{0}Xs\+|X{0}s\+".format(_rank), '_only_rank_without_x'),
+        ('X_SUITED_MINUS', r"{0}Xs-|X{0}s-".format(_rank), '_only_rank_without_x'),
+        ('X_OFFSUIT', r"{0}Xo|X{0}o".format(_rank), '_only_rank_without_x'),
+        ('X_OFFSUIT_PLUS', r"{0}Xo\+|X{0}o\+".format(_rank), '_only_rank_without_x'),
+        ('X_OFFSUIT_MINUS', r"{0}Xo-|X{0}o-".format(_rank), '_only_rank_without_x'),
+        ('X_PLUS', r"{0}X\+|X{0}\+".format(_rank), '_only_rank_without_x'),
+        ('X_MINUS', r"{0}X-|X{0}-".format(_rank), '_only_rank_without_x'),
+        ('X_BOTH', r"{0}X|X{0}".format(_rank), '_only_rank_without_x'),
+        # might be anything, even pair
+        ('COMBO', r"{0}{1}{0}{1}".format(_rank, _suit), '_combo'),
+    )
+    # compile regexes when initializing class, so every instance will have them precompiled
+    rules = [(name, re.compile(regex, re.IGNORECASE), method) for (name, regex, method) in rules]
+
+    def __init__(self, range=''):
+        # filter out empty matches
+        self.parts = [part for part in self._separator_re.split(range) if part]
+
+    def __iter__(self):
+        """Goes through all the parts and compare them with the regex rules.
+        If it finds a match, makes an appropriate value for the token and yields them.
+        If there is no value extractor method defined in the rule, yields (token, None) tuple."""
+        for part in self.parts:
+            for token, regex, method_name in self.rules:
+                if regex.fullmatch(part):
+                    if method_name:
+                        val_method = getattr(self, method_name)
+                        yield token, val_method(part)
+                    else:
+                        yield token, None
+                    break
+            else:
+                raise ValueError('Invalid token: {}'.format(part))
+
+    @staticmethod
+    def _pairs_in_order(token):
+        first, second = Rank(token[0]), Rank(token[3])
+        return min(first, second), max(first, second)
+
+    @staticmethod
+    def _first(token):
+        return Rank(token[0])
+
+    @staticmethod
+    def _first_two_in_order(token):
+        first, second = Rank(token[0]), Rank(token[1])
+        return min(first, second), max(first, second)
+
+    @staticmethod
+    def _only_rank_without_x(token):
+        return Rank(token[0]) if token[1].upper() == 'X' else Rank(token[1])
+
+    @staticmethod
+    def _combo(token):
+        return Combo(token)
+
+    @classmethod
+    def _first_small_big(cls, first_part, second_part, token):
+        smaller1, bigger1 = cls._first_two_in_order(token[first_part])
+        smaller2, bigger2 = cls._first_two_in_order(token[second_part])
+
+        if bigger1 != bigger2:
+            raise ValueError('Invalid token: {}'.format(token))
+
+        return bigger1, min(smaller1, smaller2), max(smaller1, smaller2)
+
+    # for 'A5-AT'
+    _both_dash = functools.partialmethod(_first_small_big, slice(0, 2), slice(3, 5))
+
+    # for 'A5o-ATo' and 'A5s-ATs'
+    _shape_dash = functools.partialmethod(_first_small_big, slice(0, 2), slice(4, 6))
+
+
 @total_ordering
 class Range:
     """Parses a range.
@@ -330,9 +434,6 @@ class Range:
         self._pairs = set()
         self._suiteds = set()
         self._offsuits = set()
-        self._range = ''
-
-        # filter out empty matches
         tokens = [tok for tok in self._separator_re.split(range) if tok]
 
         for token in tokens:
