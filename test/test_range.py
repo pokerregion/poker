@@ -94,6 +94,13 @@ class TestHandsResultsAfterParse:
         assert Range('76o-').hands == (Hand('72o'), Hand('73o'), Hand('74o'),
                                        Hand('75o'), Hand('76o'))
 
+    def test_suited_plus(self):
+        assert Range('KJs+').hands == (Hand('KJs'), Hand('KQs'))
+
+    def test_suited_minus(self):
+        assert Range('76s-').hands == (Hand('72s'), Hand('73s'), Hand('74s'),
+                                       Hand('75s'), Hand('76s'))
+
     def test_offsuit_and_suited_dashed(self):
         assert Range('J8-J4').hands == (
             Hand('J4o'), Hand('J4s'), Hand('J5o'), Hand('J5s'), Hand('J6o'), Hand('J6s'),
