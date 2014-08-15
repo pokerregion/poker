@@ -7,23 +7,23 @@ About
 Parses human readable (text) ranges like ``"22+ 54s 76s 98s AQo+"`` to a set of :term:`Hand`\ s and
 hand :term:`Combination`\ s.
 
-Contains classes for parsing, composing :term:`Suit`\ s, :term:`Hand`\ s, :term:`Card`\ s,
-:term:`Combination`\ s, :term:`Range`\ s, and checking for syntax.
-Can parse ranges and compose parsed ranges into human readable form again.
-It's very fault-tolerant, so it's easy to write ranges manually.
-Can normalize unprecise human readable ranges into a precise human readable form, like "22+ AQo+ 33 AKo" --> "22+ AQo+"
-Can tell how big a range is by :term:`Percentage <Range percent>` or number of :term:`Combination`\ s.
+| Contains classes for parsing, composing :term:`Suit`\ s, :term:`Hand`\ s, :term:`Card`\ s,
+  :term:`Combination`\ s, :term:`Range`\ s, and checking for syntax.
+| Can parse ranges and compose parsed ranges into human readable form again.
+| It's very fault-tolerant, so it's easy and fast to write ranges manually.
+| Can normalize unprecise human readable ranges into a precise human readable form, like "22+ AQo+ 33 AKo" --> "22+ AQo+"
+| Can tell how big a range is by :term:`Percentage <Range percent>` or number of :term:`Combination`\ s.
 
 
 Defining ranges
 ---------------
 
-Signs
+Atomic signs
 
     +----------------------------------------+-------------------------------------------------+
     |                   X                    |                 means "any card"                |
     +----------------------------------------+-------------------------------------------------+
-    | A K Q J T 9 8 7 6 5 4 3 2              | Ace, King, Queen, Jack, Ten, 9, ...             |
+    | A K Q J T 9 8 7 6 5 4 3 2              | Ace, King, Queen, Jack, Ten, 9, ..., deuce      |
     +----------------------------------------+-------------------------------------------------+
     | "s" or "o" after hands like AKo or 76s | suited and offsuit. Pairs have no suit (``''``) |
     +----------------------------------------+-------------------------------------------------+
@@ -54,17 +54,16 @@ None of these below select pairs (for unambiguity):
     | AKs, 72s   | suited hands                                                      |
     +------------+-------------------------------------------------------------------+
     | AJo+       | offsuit hands above this: AJo, AQo, AKo                           |
+    | Q8o+       | Q8o, Q9o, QTo, QJo                                                |
     +------------+-------------------------------------------------------------------+
     | AJs+       | same as offsuit                                                   |
     +------------+-------------------------------------------------------------------+
-    | Q8o+       | Q8o, Q9o, QTo, QJo                                                |
+    |            | this is valid, although "+" is not neccessary,                    |
+    | 76s+       | because there are no suited cards above 76s                       |
     +------------+-------------------------------------------------------------------+
     | A5o-       | offsuit hands; A5o-A2o                                            |
     +------------+-------------------------------------------------------------------+
     | A5s-       | suited hands; A5s-A2s                                             |
-    +------------+-------------------------------------------------------------------+
-    | 76s+       | this is valid, although "+" is not neccessary,                    |
-    |            | because there are no suited cards above 76s                       |
     +------------+-------------------------------------------------------------------+
     | K7         | suited and offsuited version of hand; K7o, K7s                    |
     +------------+-------------------------------------------------------------------+
@@ -93,12 +92,6 @@ None of these below select pairs (for unambiguity):
     +------------+-------------------------------------------------------------------+
     | 5X-        | any hand that contains a card lower than 6                        |
     +------------+-------------------------------------------------------------------+
-    | 2s2h, AsKc | exact hand :term:`Combination`\ s                                 |
-    +------------+-------------------------------------------------------------------+
-
-Not implemented yet:
-
-    +------------+-------------------------------------------------------------------+
     | KXs+       | Any suited hand that contains a card bigger than a Queen          |
     +------------+-------------------------------------------------------------------+
     | KXo+       | same as above with offsuit hands                                  |
@@ -107,6 +100,8 @@ Not implemented yet:
     +------------+-------------------------------------------------------------------+
     | 8Xo-       | same as above                                                     |
     +------------+-------------------------------------------------------------------+
+    | 2s2h, AsKc | exact hand :term:`Combination`\ s                                 |
+    +------------+-------------------------------------------------------------------+
 
     .. note::
         "Q+" and "Q-" are invalid ranges, because in Hold'em, there are two hands to start with not one.
@@ -114,22 +109,6 @@ Not implemented yet:
 Ranges are case insensitive, so ``"AKs"`` and ``"aks"`` and ``"aKS"`` means the same.
 Also the order of the cards doesn't matter. ``"AK"`` is the same as ``"KA"``.
 Hands can be separated by space (even multiple), comma, colon or semicolon, and combination of them (multiple spaces, etc.).
-
-Concrete examples:
-
-    +----------------+------------------------------------+
-    | Readable Range |            Parsed range            |
-    +================+====================================+
-    | 88+            | AA, KK, QQ, JJ, TT, 99, 88         |
-    +----------------+------------------------------------+
-    | TT+ AKs        | AA, KK, QQ, JJ, TT, AKs            |
-    +----------------+------------------------------------+
-    | 22-33, 75s+    | 22, 33, 75s, 76s                   |
-    +----------------+------------------------------------+
-    | Kx             | K2s, K2o, K3s, K3o, ... , KQo, KQs |
-    +----------------+------------------------------------+
-    | Kxs            | K2s, K3s, K4s, ..., KQs, Aks       |
-    +----------------+------------------------------------+
 
 
 Normalization

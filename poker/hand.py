@@ -12,6 +12,7 @@
 import re
 import random
 import itertools
+import functools
 from decimal import Decimal
 from functools import total_ordering
 from ._common import _MultiValueEnum, _ReprMixin
@@ -316,107 +317,223 @@ class Combo(_ReprMixin):
             return Shape.OFFSUIT
 
 
+class _RegexRangeLexer:
+    _separator_re = re.compile(r"[, ;]")
+    _rank = r"([2-9TJQKA])"
+    _suit = r"[cdhs♣♦♥♠]"
+    # the second card is not the same as the first
+    # (negative lookahead for the first matching group)
+    # this will not match pairs, but will match e.g. 86 or AK
+    _nonpair1 = r"{0}(?!\1){0}".format(_rank)
+    _nonpair2 = r"{0}(?!\2){0}".format(_rank)
+
+    rules = (
+        # 1. NAME,
+        # 2. REGEX
+        # 3. value extractor METHOD NAME
+        # 4. PARAMETERS for the method (tuple)
+        ('ALL', 'XX', '_get_value'),
+        ('PAIR', r"{}\1".format(_rank), '_get_first'),
+        ('PAIR_PLUS', r"{}\1\+".format(_rank), '_get_first'),
+        ('PAIR_MINUS', r"{}\1-".format(_rank), '_get_first'),
+        ('PAIR_DASH', r"{0}\1-{0}\2".format(_rank), '_get_for_pair_dash'),
+        ('BOTH', _nonpair1, '_get_first_two'),
+        ('BOTH_PLUS', r"{}\+".format(_nonpair1), '_get_first_two'),
+        ('BOTH_MINUS', r"{}-".format(_nonpair1), '_get_first_two'),
+        ('BOTH_DASH', r"{}-{}".format(_nonpair1, _nonpair2), '_get_for_both_dash'),
+        ('SUITED', r"{}s".format(_nonpair1), '_get_first_two'),
+        ('SUITED_PLUS', r"{}s\+".format(_nonpair1), '_get_first_two'),
+        ('SUITED_MINUS', r"{}s-".format(_nonpair1), '_get_first_two'),
+        ('SUITED_DASH', r"{}s-{}s".format(_nonpair1, _nonpair2), '_get_for_shaped_dash'),
+        ('OFFSUIT', r"{}o".format(_nonpair1), '_get_first_two'),
+        ('OFFSUIT_PLUS', r"{}o\+".format(_nonpair1), '_get_first_two'),
+        ('OFFSUIT_MINUS', r"{}o-".format(_nonpair1), '_get_first_two'),
+        ('OFFSUIT_DASH', r"{}o-{}o".format(_nonpair1, _nonpair2), '_get_for_shaped_dash'),
+        ('X_SUITED', r"{0}Xs|X{0}s".format(_rank), '_get_rank'),
+        ('X_SUITED_PLUS', r"{0}Xs\+|X{0}s\+".format(_rank), '_get_rank'),
+        ('X_SUITED_MINUS', r"{0}Xs-|X{0}s-".format(_rank), '_get_rank'),
+        ('X_OFFSUIT', r"{0}Xo|X{0}o".format(_rank), '_get_rank'),
+        ('X_OFFSUIT_PLUS', r"{0}Xo\+|X{0}o\+".format(_rank), '_get_rank'),
+        ('X_OFFSUIT_MINUS', r"{0}Xo-|X{0}o-".format(_rank), '_get_rank'),
+        ('X_PLUS', r"{0}X\+|X{0}\+".format(_rank), '_get_rank'),
+        ('X_MINUS', r"{0}X-|X{0}-".format(_rank), '_get_rank'),
+        ('X_BOTH', r"{0}X|X{0}".format(_rank), '_get_rank'),
+        # might be anything, even pair
+        # FIXME: 5s5s accepted
+        ('COMBO', r"{0}{1}{0}{1}".format(_rank, _suit), '_get_value'),
+    )
+    # compile regexes when initializing class, so every instance will have them precompiled
+    rules = [(name, re.compile(regex, re.IGNORECASE), method) for (name, regex, method) in rules]
+
+    def __init__(self, range=''):
+        # filter out empty matches
+        self.parts = [part for part in self._separator_re.split(range) if part]
+
+    def __iter__(self):
+        """Goes through all the parts and compare them with the regex rules.
+        If it finds a match, makes an appropriate value for the token and yields them.
+        If there is no value extractor method defined in the rule, yields (token, None) tuple."""
+        for part in self.parts:
+            for token, regex, method_name in self.rules:
+                if regex.fullmatch(part):
+                    val_method = getattr(self, method_name)
+                    yield token, val_method(part)
+                    break
+            else:
+                raise ValueError('Invalid token: {}'.format(part))
+
+    @staticmethod
+    def _get_value(token):
+        return token
+
+    @staticmethod
+    def _get_first(token):
+        return token[0]
+
+    @staticmethod
+    def _get_rank(token):
+        return token[0] if token[1].upper() == 'X' else token[1]
+
+    @classmethod
+    def _get_in_order(cls, first_part, second_part, token):
+        smaller, bigger = cls._get_rank_in_order(token, first_part, second_part)
+        return smaller.value, bigger.value
+
+    _get_first_two = functools.partialmethod(_get_in_order, 0, 1)
+    _get_for_pair_dash = functools.partialmethod(_get_in_order, 0, 3)
+
+
+    @classmethod
+    def _get_first_smaller_bigger(cls, first_part, second_part, token):
+        smaller1, bigger1 = cls._get_rank_in_order(token[first_part], 0, 1)
+        smaller2, bigger2 = cls._get_rank_in_order(token[second_part], 0, 1)
+
+        if bigger1 != bigger2:
+            raise ValueError('Invalid token: {}'.format(token))
+
+        smaller, bigger = min(smaller1, smaller2), max(smaller1, smaller2)
+
+        return bigger1.value, smaller.value, bigger.value
+
+    @staticmethod
+    def _get_rank_in_order(token, first_part, second_part):
+        first, second = Rank(token[first_part]), Rank(token[second_part])
+        smaller, bigger = min(first, second), max(first, second)
+        return smaller, bigger
+
+    # for 'A5-AT'
+    _get_for_both_dash = functools.partialmethod(_get_first_smaller_bigger,
+                                                 slice(0, 2), slice(3, 5))
+
+    # for 'A5o-ATo' and 'A5s-ATs'
+    _get_for_shaped_dash = functools.partialmethod(_get_first_smaller_bigger,
+                                                   slice(0, 2), slice(4, 6))
+
+
 @total_ordering
 class Range:
     """Parses a range.
 
         :ivar str range:    Readable range in unicode
     """
-    _separator_re = re.compile(r"[, ;]")
-
     def __init__(self, range=''):
-        range = range.upper()
-
         self._pairs = set()
         self._suiteds = set()
         self._offsuits = set()
-        self._range = ''
 
-        # filter out empty matches
-        tokens = [tok for tok in self._separator_re.split(range) if tok]
-
-        for token in tokens:
-            # XX
-            if len(token) == 2 and token == 'XX':
+        for token, value in _RegexRangeLexer(range):
+            if token == 'ALL':
                 for card in itertools.combinations('AKQJT98765432', 2):
                     self._add_offsuit(card)
                     self._add_suited(card)
                 for rank in 'AKQJT98765432':
-                    self._add_pair(rank * 2)
+                    self._add_pair(rank)
 
                 # full range, no need to parse any more token
                 break
 
-            # 22, 33
-            elif len(token) == 2 and token[0] == token[1]:
-                self._add_pair(token)
+            elif token == 'PAIR':
+                self._add_pair(value)
 
-            # AK, J7, AX
-            elif len(token) == 2 and token[0] != token[1]:
-                if token[1] == 'X':
-                    for rank in (rank.value for rank in Rank if rank < Rank(token[0])):
-                        self._add_suited(token[0] + rank)
-                        self._add_offsuit(token[0] + rank)
-                else:
-                    self._add_offsuit(token)
-                    self._add_suited(token)
+            elif token == 'PAIR_PLUS':
+                smallest = Rank(value)
+                for rank in (rank.value for rank in Rank if rank >= smallest):
+                    self._add_pair(rank)
 
-            # 33+, 33-
-            elif len(token) == 3 and token[0] == token[1] and token[-1] in ('+', '-'):
-                backward = token[-1] == '-'
-                first = Hand(token[:2])
-                for pair in sorted(PAIR_HANDS, reverse=backward):
-                    if ((not backward and pair >= first) or (backward and pair <= first)):
-                        self._add_pair(str(pair))
+            elif token == 'PAIR_MINUS':
+                biggest = Rank(value)
+                for rank in (rank.value for rank in Rank if rank <= biggest):
+                    self._add_pair(rank)
 
-            # AKo, AKs,
-            elif (len(token) == 3 and (token[0] != token[1]) and
-                  ('X' not in token) and (token[-1] in ('S', 'O'))):
-                if token[-1] == 'S':
-                    self._add_suited(token)
-                elif token[-1] == 'O':
-                    self._add_offsuit(token)
-
-            # KXo, KXs
-            elif len(token) == 3 and token[0] != token[1] and token[-1] in ('S', 'O'):
-                ranks_to_add = (rank.value for rank in Rank if rank < Rank(token[0]))
-                if token[-1] == 'S':
-                    func = self._add_suited
-                else:
-                    func = self._add_offsuit
-
-                for rank in ranks_to_add:
-                    func(token[0] + rank)
-
-            # A5+, A5-,
-            elif (len(token) == 3 and token[0] != token[1] and
-                  token[-1] in ('+', '-') and 'X' not in token):
-                smaller, bigger = self._get_ordered(Rank, token[0], token[1])
-                if token[-1] == '-':
-                    ranks = (rank.value for rank in Rank if rank <= smaller)
-                else:
-                    ranks = (rank.value for rank in Rank if smaller <= rank < bigger)
-
+            elif token == 'PAIR_DASH':
+                first, second = Rank(value[0]), Rank(value[1])
+                ranks = (rank.value for rank in Rank if first <= rank <= second)
                 for rank in ranks:
-                    self._add_suited(token[0] + rank)
-                    self._add_offsuit(token[0] + rank)
+                    self._add_pair(rank)
 
-            # QX+, 5X-
-            elif len(token) == 3 and token[1] == 'X' and token[-1] in ('+', '-'):
-                if token[-1] == '-':
-                    first_ranks = (rank for rank in Rank if rank <= Rank(token[0]))
-                else:
-                    first_ranks = (rank for rank in Rank if rank >= Rank(token[0]))
+            elif token == 'BOTH':
+                self._add_offsuit(value[0] + value[1])
+                self._add_suited(value[0] + value[1])
+
+            elif token == 'X_BOTH':
+                for rank in (r.value for r in Rank if r < Rank(value)):
+                    self._add_suited(value + rank)
+                    self._add_offsuit(value + rank)
+
+            elif token == 'OFFSUIT':
+                self._add_offsuit(value[0] + value[1])
+
+            elif token == 'SUITED':
+                self._add_suited(value[0] + value[1])
+
+            elif token == 'X_OFFSUIT':
+                biggest = Rank(value)
+                for rank in (rank.value for rank in Rank if rank < biggest):
+                    self._add_offsuit(value + rank)
+
+            elif token == 'X_SUITED':
+                biggest = Rank(value)
+                for rank in (rank.value for rank in Rank if rank < biggest):
+                    self._add_suited(value + rank)
+
+            elif token == 'BOTH_PLUS':
+                smaller, bigger = Rank(value[0]), Rank(value[1])
+                for rank in (rank.value for rank in Rank if smaller <= rank < bigger):
+                    self._add_suited(value[1] + rank)
+                    self._add_offsuit(value[1] + rank)
+
+            elif token == 'BOTH_MINUS':
+                smaller, bigger = Rank(value[0]), Rank(value[1])
+                for rank in (rank.value for rank in Rank if rank <= smaller):
+                    self._add_suited(value[1] + rank)
+                    self._add_offsuit(value[1] + rank)
+
+            elif token in ('X_PLUS', 'X_SUITED_PLUS', 'X_OFFSUIT_PLUS'):
+                smallest = Rank(value)
+                first_ranks = (rank for rank in Rank if rank >= smallest)
 
                 for rank1 in first_ranks:
                     second_ranks = (rank for rank in Rank if rank < rank1)
                     for rank2 in second_ranks:
-                        self._add_suited(rank1.value + rank2.value)
-                        self._add_offsuit(rank1.value + rank2.value)
+                        if token != 'X_OFFSUIT_PLUS':
+                            self._add_suited(rank1.value + rank2.value)
+                        if token != 'X_SUITED_PLUS':
+                            self._add_offsuit(rank1.value + rank2.value)
 
-            # 2s2h, AsKc
-            elif len(token) == 4 and token[-1] not in ('+', '-'):
-                combo = Combo(token)
+            elif token in ('X_MINUS', 'X_SUITED_MINUS', 'X_OFFSUIT_MINUS'):
+                biggest = Rank(value)
+                first_ranks = (rank for rank in Rank if rank <= biggest)
+
+                for rank1 in first_ranks:
+                    second_ranks = (rank for rank in Rank if rank < rank1)
+                    for rank2 in second_ranks:
+                        if token != 'X_OFFSUIT_MINUS':
+                            self._add_suited(rank1.value + rank2.value)
+                        if token != 'X_SUITED_MINUS':
+                            self._add_offsuit(rank1.value + rank2.value)
+
+            elif token == 'COMBO':
+                combo = Combo(value)
                 if combo.is_pair:
                     self._pairs.add(combo)
                 elif combo.is_suited:
@@ -424,59 +541,41 @@ class Range:
                 else:
                     self._offsuits.add(combo)
 
-            # AJo+, AJs+, A5o-, A5s-, 7Xs+, 76s+
-            elif len(token) == 4:
-                smaller, bigger = self._get_ordered(Rank, token[0], token[1])
-                if token[-1] == '-':
-                    second_ranks = (rank.value for rank in Rank if rank <= smaller)
-                else:
-                    second_ranks = (rank.value for rank in Rank if smaller <= rank < bigger)
+            elif token == 'OFFSUIT_PLUS':
+                smaller, bigger = Rank(value[0]), Rank(value[1])
+                for rank in (rank.value for rank in Rank if smaller <= rank < bigger):
+                    self._add_offsuit(value[1] + rank)
 
-                add_func = self._add_offsuit if token[2] == 'O' else self._add_suited
+            elif token == 'OFFSUIT_MINUS':
+                smaller, bigger = Rank(value[0]), Rank(value[1])
+                for rank in (rank.value for rank in Rank if rank <= smaller):
+                    self._add_offsuit(value[1] + rank)
 
-                for rank in second_ranks:
-                    add_func(token[0] + rank)
+            elif token == 'SUITED_PLUS':
+                smaller, bigger = Rank(value[0]), Rank(value[1])
+                for rank in (rank.value for rank in Rank if smaller <= rank < bigger):
+                    self._add_suited(value[1] + rank)
 
+            elif token == 'SUITED_MINUS':
+                smaller, bigger = Rank(value[0]), Rank(value[1])
+                for rank in (rank.value for rank in Rank if rank <= smaller):
+                    self._add_suited(value[1] + rank)
 
-            # 55-33, 33-55
-            elif len(token) == 5 and token[0] == token[1]:
-                smaller, bigger = self._get_ordered(Hand, token[:2], token[3:])
-                pairs = (str(pair) for pair in PAIR_HANDS if smaller <= pair <= bigger)
-                for pair in pairs:
-                    self._add_pair(pair)
+            elif token == 'BOTH_DASH':
+                smaller, bigger = Rank(value[1]), Rank(value[2])
+                for rank in (rank.value for rank in Rank if smaller <= rank <= bigger):
+                    self._add_offsuit(value[0] + rank)
+                    self._add_suited(value[0] + rank)
 
-            # J8-J4
-            elif len(token) == 5:
-                smaller1, bigger1 = self._get_ordered(Rank, token[0], token[1])
-                smaller2, bigger2 = self._get_ordered(Rank, token[3], token[4])
+            elif token == 'OFFSUIT_DASH':
+                smaller, bigger = Rank(value[1]), Rank(value[2])
+                for rank in (rank.value for rank in Rank if smaller <= rank <= bigger):
+                    self._add_offsuit(value[0] + rank)
 
-                if bigger1 != bigger2:
-                    raise ValueError('Invalid token: {}'.format(token))
-
-                smaller_small, bigger_small = self._get_ordered(Rank, smaller1, smaller2)
-                ranks = (rank.value for rank in Rank if smaller_small <= rank <= bigger_small)
-                bigger = bigger1.value
-
-                for rank in ranks:
-                    self._add_offsuit(bigger + rank)
-                    self._add_suited(bigger + rank)
-
-            # J8o-J4o, J4o-J8o, 76s-74s, 74s-76s
-            elif len(token) == 7:
-                smaller, bigger = self._get_ordered(Hand, token[:3], token[4:])
-                first_rank = bigger.first
-                bigger_rank = bigger.second
-                smaller_rank = smaller.second
-                for rank in list(Rank):
-                    if smaller_rank <= rank <= bigger_rank:
-                        hand = first_rank.value + rank.value
-                        if token[-1] == 'O':
-                            self._add_offsuit(hand)
-                        elif token[-1] == 'S':
-                            self._add_suited(hand)
-
-            else:
-                raise ValueError('Invalid token: {}'.format(token))
+            elif token == 'SUITED_DASH':
+                smaller, bigger = Rank(value[1]), Rank(value[2])
+                for rank in (rank.value for rank in Rank if smaller <= rank <= bigger):
+                    self._add_suited(value[0] + rank)
 
     @classmethod
     def from_hands(cls, hands):
@@ -592,19 +691,15 @@ class Range:
         else:
             return '{}-{}'.format(first, last)
 
-    def _get_ordered(self, type_, part1, part2):
-        first, second = type_(part1), type_(part2)
-        return min(first, second), max(first, second)
-
-    def _add_pair(self, tok):
-        self._pairs |= {Combo(tok[0] + s1.value + tok[1] + s2.value)
+    def _add_pair(self, rank: str):
+        self._pairs |= {Combo(rank + s1.value + rank + s2.value)
                         for s1, s2 in itertools.combinations(Suit, 2)}
 
-    def _add_offsuit(self, tok):
+    def _add_offsuit(self, tok: str):
         self._offsuits |= {Combo(tok[0] + s1.value + tok[1] + s2.value)
                            for s1, s2 in itertools.product(Suit, Suit) if s1 != s2}
 
-    def _add_suited(self, tok):
+    def _add_suited(self, tok: str):
         self._suiteds |= {Combo(tok[0] + s1.value + tok[1] + s2.value)
                           for s1, s2 in itertools.product(Suit, Suit) if s1 == s2}
 

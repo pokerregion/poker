@@ -87,12 +87,45 @@ class TestHandsResultsAfterParse:
             Hand('AQo'), Hand('AQs'), Hand('AKo'), Hand('AKs')
         )
 
+    def test_X_suited_plus(self):
+        assert Range('KXs+').hands == (
+            Hand('K2s'), Hand('K3s'), Hand('K4s'), Hand('K5s'), Hand('K6s'), Hand('K7s'),
+            Hand('K8s'), Hand('K9s'), Hand('KTs'), Hand('KJs'), Hand('KQs'), Hand('A2s'),
+            Hand('A3s'), Hand('A4s'), Hand('A5s'), Hand('A6s'), Hand('A7s'), Hand('A8s'),
+            Hand('A9s'), Hand('ATs'), Hand('AJs'), Hand('AQs'), Hand('AKs')
+        )
+
+    def test_X_offsuit_plus(self):
+        assert Range('KXo+').hands == (
+            Hand('K2o'), Hand('K3o'), Hand('K4o'), Hand('K5o'), Hand('K6o'), Hand('K7o'),
+            Hand('K8o'), Hand('K9o'), Hand('KTo'), Hand('KJo'), Hand('KQo'), Hand('A2o'),
+            Hand('A3o'), Hand('A4o'), Hand('A5o'), Hand('A6o'), Hand('A7o'), Hand('A8o'),
+            Hand('A9o'), Hand('ATo'), Hand('AJo'), Hand('AQo'), Hand('AKo')
+        )
+
+    def test_X_suited_minus(self):
+        assert Range('5Xs-').hands == (
+            Hand('32s'), Hand('42s'), Hand('43s'), Hand('52s'), Hand('53s'), Hand('54s'),
+        )
+
+    def test_X_offsuit_minus(self):
+        assert Range('5Xo-').hands == (
+            Hand('32o'), Hand('42o'), Hand('43o'), Hand('52o'), Hand('53o'), Hand('54o'),
+        )
+
     def test_offsuit_plus(self):
         assert Range('KJo+').hands == (Hand('KJo'), Hand('KQo'))
 
     def test_offsuit_minus(self):
         assert Range('76o-').hands == (Hand('72o'), Hand('73o'), Hand('74o'),
                                        Hand('75o'), Hand('76o'))
+
+    def test_suited_plus(self):
+        assert Range('KJs+').hands == (Hand('KJs'), Hand('KQs'))
+
+    def test_suited_minus(self):
+        assert Range('76s-').hands == (Hand('72s'), Hand('73s'), Hand('74s'),
+                                       Hand('75s'), Hand('76s'))
 
     def test_offsuit_and_suited_dashed(self):
         assert Range('J8-J4').hands == (
