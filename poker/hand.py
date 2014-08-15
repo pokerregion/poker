@@ -691,10 +691,6 @@ class Range:
         else:
             return '{}-{}'.format(first, last)
 
-    def _get_ordered(self, type_: object, part1: str, part2: str):
-        first, second = type_(part1), type_(part2)
-        return min(first, second), max(first, second)
-
     def _add_pair(self, rank: str):
         self._pairs |= {Combo(rank + s1.value + rank + s2.value)
                         for s1, s2 in itertools.combinations(Suit, 2)}
