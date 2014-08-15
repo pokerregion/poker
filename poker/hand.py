@@ -328,35 +328,39 @@ class _RegexRangeLexer:
     _nonpair2 = r"{0}(?!\2){0}".format(_rank)
 
     rules = (
-        # NAME, REGEX, VALUE EXTRACTOR METHOD NAME
-        ('ALL', 'XX', None),
-        ('PAIR', r"{}\1".format(_rank), '_first'),
-        ('PAIR_PLUS', r"{}\1\+".format(_rank), '_first'),
-        ('PAIR_MINUS', r"{}\1-".format(_rank), '_first'),
-        ('PAIR_DASH', r"{0}\1-{0}\2".format(_rank), '_pairs_in_order'),
-        ('BOTH', _nonpair1, '_first_two_in_order'),
-        ('BOTH_PLUS', r"{}\+".format(_nonpair1), '_first_two_in_order'),
-        ('BOTH_MINUS', r"{}-".format(_nonpair1), '_first_two_in_order'),
-        ('BOTH_DASH', r"{}-{}".format(_nonpair1, _nonpair2), '_both_dash'),
-        ('SUITED', r"{}s".format(_nonpair1), '_first_two_in_order'),
-        ('SUITED_PLUS', r"{}s\+".format(_nonpair1), '_first_two_in_order'),
-        ('SUITED_MINUS', r"{}s-".format(_nonpair1), '_first_two_in_order'),
-        ('SUITED_DASH', r"{}s-{}s".format(_nonpair1, _nonpair2), '_shape_dash'),
-        ('OFFSUIT', r"{}o".format(_nonpair1), '_first_two_in_order'),
-        ('OFFSUIT_PLUS', r"{}o\+".format(_nonpair1), '_first_two_in_order'),
-        ('OFFSUIT_MINUS', r"{}o-".format(_nonpair1), '_first_two_in_order'),
-        ('OFFSUIT_DASH', r"{}o-{}o".format(_nonpair1, _nonpair2), '_shape_dash'),
-        ('X_SUITED', r"{0}Xs|X{0}s".format(_rank), '_only_rank_without_x'),
-        ('X_SUITED_PLUS', r"{0}Xs\+|X{0}s\+".format(_rank), '_only_rank_without_x'),
-        ('X_SUITED_MINUS', r"{0}Xs-|X{0}s-".format(_rank), '_only_rank_without_x'),
-        ('X_OFFSUIT', r"{0}Xo|X{0}o".format(_rank), '_only_rank_without_x'),
-        ('X_OFFSUIT_PLUS', r"{0}Xo\+|X{0}o\+".format(_rank), '_only_rank_without_x'),
-        ('X_OFFSUIT_MINUS', r"{0}Xo-|X{0}o-".format(_rank), '_only_rank_without_x'),
-        ('X_PLUS', r"{0}X\+|X{0}\+".format(_rank), '_only_rank_without_x'),
-        ('X_MINUS', r"{0}X-|X{0}-".format(_rank), '_only_rank_without_x'),
-        ('X_BOTH', r"{0}X|X{0}".format(_rank), '_only_rank_without_x'),
+        # 1. NAME,
+        # 2. REGEX
+        # 3. value extractor METHOD NAME
+        # 4. PARAMETERS for the method (tuple)
+        ('ALL', 'XX', '_get_value'),
+        ('PAIR', r"{}\1".format(_rank), '_get_first'),
+        ('PAIR_PLUS', r"{}\1\+".format(_rank), '_get_first'),
+        ('PAIR_MINUS', r"{}\1-".format(_rank), '_get_first'),
+        ('PAIR_DASH', r"{0}\1-{0}\2".format(_rank), '_get_for_pair_dash'),
+        ('BOTH', _nonpair1, '_get_first_two'),
+        ('BOTH_PLUS', r"{}\+".format(_nonpair1), '_get_first_two'),
+        ('BOTH_MINUS', r"{}-".format(_nonpair1), '_get_first_two'),
+        ('BOTH_DASH', r"{}-{}".format(_nonpair1, _nonpair2), '_get_for_both_dash'),
+        ('SUITED', r"{}s".format(_nonpair1), '_get_first_two'),
+        ('SUITED_PLUS', r"{}s\+".format(_nonpair1), '_get_first_two'),
+        ('SUITED_MINUS', r"{}s-".format(_nonpair1), '_get_first_two'),
+        ('SUITED_DASH', r"{}s-{}s".format(_nonpair1, _nonpair2), '_get_for_shaped_dash'),
+        ('OFFSUIT', r"{}o".format(_nonpair1), '_get_first_two'),
+        ('OFFSUIT_PLUS', r"{}o\+".format(_nonpair1), '_get_first_two'),
+        ('OFFSUIT_MINUS', r"{}o-".format(_nonpair1), '_get_first_two'),
+        ('OFFSUIT_DASH', r"{}o-{}o".format(_nonpair1, _nonpair2), '_get_for_shaped_dash'),
+        ('X_SUITED', r"{0}Xs|X{0}s".format(_rank), '_get_rank'),
+        ('X_SUITED_PLUS', r"{0}Xs\+|X{0}s\+".format(_rank), '_get_rank'),
+        ('X_SUITED_MINUS', r"{0}Xs-|X{0}s-".format(_rank), '_get_rank'),
+        ('X_OFFSUIT', r"{0}Xo|X{0}o".format(_rank), '_get_rank'),
+        ('X_OFFSUIT_PLUS', r"{0}Xo\+|X{0}o\+".format(_rank), '_get_rank'),
+        ('X_OFFSUIT_MINUS', r"{0}Xo-|X{0}o-".format(_rank), '_get_rank'),
+        ('X_PLUS', r"{0}X\+|X{0}\+".format(_rank), '_get_rank'),
+        ('X_MINUS', r"{0}X-|X{0}-".format(_rank), '_get_rank'),
+        ('X_BOTH', r"{0}X|X{0}".format(_rank), '_get_rank'),
         # might be anything, even pair
-        ('COMBO', r"{0}{1}{0}{1}".format(_rank, _suit), '_combo'),
+        # FIXME: 5s5s accepted
+        ('COMBO', r"{0}{1}{0}{1}".format(_rank, _suit), '_get_value'),
     )
     # compile regexes when initializing class, so every instance will have them precompiled
     rules = [(name, re.compile(regex, re.IGNORECASE), method) for (name, regex, method) in rules]
@@ -372,52 +376,58 @@ class _RegexRangeLexer:
         for part in self.parts:
             for token, regex, method_name in self.rules:
                 if regex.fullmatch(part):
-                    if method_name:
-                        val_method = getattr(self, method_name)
-                        yield token, val_method(part)
-                    else:
-                        yield token, None
+                    val_method = getattr(self, method_name)
+                    yield token, val_method(part)
                     break
             else:
                 raise ValueError('Invalid token: {}'.format(part))
 
     @staticmethod
-    def _pairs_in_order(token):
-        first, second = Rank(token[0]), Rank(token[3])
-        return min(first, second), max(first, second)
+    def _get_value(token):
+        return token
 
     @staticmethod
-    def _first(token):
-        return Rank(token[0])
+    def _get_first(token):
+        return token[0]
 
     @staticmethod
-    def _first_two_in_order(token):
-        first, second = Rank(token[0]), Rank(token[1])
-        return min(first, second), max(first, second)
-
-    @staticmethod
-    def _only_rank_without_x(token):
-        return Rank(token[0]) if token[1].upper() == 'X' else Rank(token[1])
-
-    @staticmethod
-    def _combo(token):
-        return Combo(token)
+    def _get_rank(token):
+        return token[0] if token[1].upper() == 'X' else token[1]
 
     @classmethod
-    def _first_small_big(cls, first_part, second_part, token):
-        smaller1, bigger1 = cls._first_two_in_order(token[first_part])
-        smaller2, bigger2 = cls._first_two_in_order(token[second_part])
+    def _get_in_order(cls, first_part, second_part, token):
+        smaller, bigger = cls._get_rank_in_order(token, first_part, second_part)
+        return smaller.value, bigger.value
+
+    _get_first_two = functools.partialmethod(_get_in_order, 0, 1)
+    _get_for_pair_dash = functools.partialmethod(_get_in_order, 0, 3)
+
+
+    @classmethod
+    def _get_first_smaller_bigger(cls, first_part, second_part, token):
+        smaller1, bigger1 = cls._get_rank_in_order(token[first_part], 0, 1)
+        smaller2, bigger2 = cls._get_rank_in_order(token[second_part], 0, 1)
 
         if bigger1 != bigger2:
             raise ValueError('Invalid token: {}'.format(token))
 
-        return bigger1, min(smaller1, smaller2), max(smaller1, smaller2)
+        smaller, bigger = min(smaller1, smaller2), max(smaller1, smaller2)
+
+        return bigger1.value, smaller.value, bigger.value
+
+    @staticmethod
+    def _get_rank_in_order(token, first_part, second_part):
+        first, second = Rank(token[first_part]), Rank(token[second_part])
+        smaller, bigger = min(first, second), max(first, second)
+        return smaller, bigger
 
     # for 'A5-AT'
-    _both_dash = functools.partialmethod(_first_small_big, slice(0, 2), slice(3, 5))
+    _get_for_both_dash = functools.partialmethod(_get_first_smaller_bigger,
+                                                 slice(0, 2), slice(3, 5))
 
     # for 'A5o-ATo' and 'A5s-ATs'
-    _shape_dash = functools.partialmethod(_first_small_big, slice(0, 2), slice(4, 6))
+    _get_for_shaped_dash = functools.partialmethod(_get_first_smaller_bigger,
+                                                   slice(0, 2), slice(4, 6))
 
 
 @total_ordering
