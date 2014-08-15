@@ -503,15 +503,17 @@ class Range:
                     self._add_suited(value[1] + rank)
                     self._add_offsuit(value[1] + rank)
 
-            elif token == 'X_PLUS':
+            elif token in ('X_PLUS', 'X_SUITED_PLUS', 'X_OFFSUIT_PLUS'):
                 smallest = Rank(value)
                 first_ranks = (rank for rank in Rank if rank >= smallest)
 
                 for rank1 in first_ranks:
                     second_ranks = (rank for rank in Rank if rank < rank1)
                     for rank2 in second_ranks:
-                        self._add_suited(rank1.value + rank2.value)
-                        self._add_offsuit(rank1.value + rank2.value)
+                        if token in ('X_PLUS', 'X_SUITED_PLUS'):
+                            self._add_suited(rank1.value + rank2.value)
+                        if token in ('X_PLUS', 'X_OFFSUIT_PLUS'):
+                            self._add_offsuit(rank1.value + rank2.value)
 
             elif token == 'X_MINUS':
                 biggest = Rank(value)
