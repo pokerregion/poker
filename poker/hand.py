@@ -455,15 +455,6 @@ class Range:
             elif token == 'PAIR':
                 self._add_pair(value)
 
-            elif token == 'BOTH':
-                self._add_offsuit(value[0] + value[1])
-                self._add_suited(value[0] + value[1])
-
-            elif token == 'X_BOTH':
-                for rank in (r.value for r in Rank if r < Rank(value)):
-                    self._add_suited(value + rank)
-                    self._add_offsuit(value + rank)
-
             elif token == 'PAIR_PLUS':
                 smallest = Rank(value)
                 for rank in (rank.value for rank in Rank if rank >= smallest):
@@ -473,6 +464,21 @@ class Range:
                 biggest = Rank(value)
                 for rank in (rank.value for rank in Rank if rank <= biggest):
                     self._add_pair(rank)
+
+            elif token == 'PAIR_DASH':
+                first, second = Rank(value[0]), Rank(value[1])
+                ranks = (rank.value for rank in Rank if first <= rank <= second)
+                for rank in ranks:
+                    self._add_pair(rank)
+
+            elif token == 'BOTH':
+                self._add_offsuit(value[0] + value[1])
+                self._add_suited(value[0] + value[1])
+
+            elif token == 'X_BOTH':
+                for rank in (r.value for r in Rank if r < Rank(value)):
+                    self._add_suited(value + rank)
+                    self._add_offsuit(value + rank)
 
             elif token == 'OFFSUIT':
                 self._add_offsuit(value[0] + value[1])
@@ -554,12 +560,6 @@ class Range:
                 smaller, bigger = Rank(value[0]), Rank(value[1])
                 for rank in (rank.value for rank in Rank if rank <= smaller):
                     self._add_suited(value[1] + rank)
-
-            elif token == 'PAIR_DASH':
-                first, second = Rank(value[0]), Rank(value[1])
-                ranks = (rank.value for rank in Rank if first <= rank <= second)
-                for rank in ranks:
-                    self._add_pair(rank)
 
             elif token == 'BOTH_DASH':
                 smaller, bigger = Rank(value[1]), Rank(value[2])
