@@ -103,6 +103,16 @@ class TestHandsResultsAfterParse:
             Hand('A9o'), Hand('ATo'), Hand('AJo'), Hand('AQo'), Hand('AKo')
         )
 
+    def test_X_suited_minus(self):
+        assert Range('5Xs-').hands == (
+            Hand('32s'), Hand('42s'), Hand('43s'), Hand('52s'), Hand('53s'), Hand('54s'),
+        )
+
+    def test_X_offsuit_minus(self):
+        assert Range('5Xo-').hands == (
+            Hand('32o'), Hand('42o'), Hand('43o'), Hand('52o'), Hand('53o'), Hand('54o'),
+        )
+
     def test_offsuit_plus(self):
         assert Range('KJo+').hands == (Hand('KJo'), Hand('KQo'))
 

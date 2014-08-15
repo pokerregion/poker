@@ -95,10 +95,6 @@ None of these below select pairs (for unambiguity):
     +------------+-------------------------------------------------------------------+
     | 2s2h, AsKc | exact hand :term:`Combination`\ s                                 |
     +------------+-------------------------------------------------------------------+
-
-Not implemented yet:
-
-    +------------+-------------------------------------------------------------------+
     | KXs+       | Any suited hand that contains a card bigger than a Queen          |
     +------------+-------------------------------------------------------------------+
     | KXo+       | same as above with offsuit hands                                  |

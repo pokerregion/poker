@@ -442,7 +442,6 @@ class Range:
         self._offsuits = set()
 
         for token, value in _RegexRangeLexer(range):
-            # print(token, value)
             if token == 'ALL':
                 for card in itertools.combinations('AKQJT98765432', 2):
                     self._add_offsuit(card)
@@ -510,20 +509,22 @@ class Range:
                 for rank1 in first_ranks:
                     second_ranks = (rank for rank in Rank if rank < rank1)
                     for rank2 in second_ranks:
-                        if token in ('X_PLUS', 'X_SUITED_PLUS'):
+                        if token != 'X_OFFSUIT_PLUS':
                             self._add_suited(rank1.value + rank2.value)
-                        if token in ('X_PLUS', 'X_OFFSUIT_PLUS'):
+                        if token != 'X_SUITED_PLUS':
                             self._add_offsuit(rank1.value + rank2.value)
 
-            elif token == 'X_MINUS':
+            elif token in ('X_MINUS', 'X_SUITED_MINUS', 'X_OFFSUIT_MINUS'):
                 biggest = Rank(value)
                 first_ranks = (rank for rank in Rank if rank <= biggest)
 
                 for rank1 in first_ranks:
                     second_ranks = (rank for rank in Rank if rank < rank1)
                     for rank2 in second_ranks:
-                        self._add_suited(rank1.value + rank2.value)
-                        self._add_offsuit(rank1.value + rank2.value)
+                        if token != 'X_OFFSUIT_MINUS':
+                            self._add_suited(rank1.value + rank2.value)
+                        if token != 'X_SUITED_MINUS':
+                            self._add_offsuit(rank1.value + rank2.value)
 
             elif token == 'COMBO':
                 combo = Combo(value)
