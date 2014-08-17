@@ -52,7 +52,6 @@ class TestHandWithFlopOnly:
     @pytest.mark.parametrize(('attribute', 'expected_value'),
                              [('table_name', '797469411 15'),
                               ('max_players', 9),
-                              ('button_seat', 1),
                               ('button', HandHistoryPlayer(name='flettl2', stack=1500, seat=1,
                                                            combo=None)
                               ),
@@ -122,7 +121,6 @@ class TestAllinPreflopHand:
     @pytest.mark.parametrize(('attribute', 'expected_value'),
                              [('table_name', '797536898 9'),
                               ('max_players', 9),
-                              ('button_seat', 2),
                               ('button', HandHistoryPlayer(name='W2lkm2n', stack=11815, seat=2,
                                             combo=Combo('JdJs'))
                               ),
@@ -189,7 +187,6 @@ class TestBodyMissingPlayerNoBoard:
     @pytest.mark.parametrize(('attribute', 'expected_value'),
                              [('table_name', '797469411 11'),
                               ('max_players', 9),
-                              ('button_seat', 8),
                               ('button', HandHistoryPlayer(name='W2lkm2n', stack=10714, seat=8, combo=Combo('6d8d'))),
                               ('hero', HandHistoryPlayer(name='W2lkm2n', stack=10714, seat=8, combo=Combo('6d8d'))),
                               ('players', [
@@ -253,7 +250,6 @@ class TestBodyEveryStreet:
     @pytest.mark.parametrize(('attribute', 'expected_value'),
                              [('table_name', '797469411 15'),
                               ('max_players', 9),
-                              ('button_seat', 5),
                               ('button', HandHistoryPlayer(name='W2lkm2n', stack=5145, seat=5, combo=Combo('Jc5c'))),
                               ('hero', HandHistoryPlayer(name='W2lkm2n', stack=5145, seat=5, combo=Combo('Jc5c'))),
                               ('players', [

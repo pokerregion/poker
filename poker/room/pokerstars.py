@@ -74,8 +74,8 @@ class PokerStarsHandHistory(HandHistory):
 
     def parse(self):
         super(PokerStarsHandHistory, self).parse()
-        self._parse_table()
-        self._parse_seats()
+        button_seat = self._parse_table()
+        self._parse_seats(button_seat)
         self._parse_hole_cards()
         self._parse_preflop()
         self._parse_street('flop')
@@ -92,9 +92,11 @@ class PokerStarsHandHistory(HandHistory):
         match = self._table_re.match(self._splitted[1])
         self.table_name = match.group(1)
         self.max_players = int(match.group(2))
-        self.button_seat = int(match.group(3))
+        button_seat = int(match.group(3))
 
-    def _parse_seats(self):
+        return button_seat
+
+    def _parse_seats(self, button_seat):
         self.players = self._init_seats(self.max_players)
         for line in self._splitted[2:]:
             match = self._seat_re.match(line)
@@ -109,7 +111,7 @@ class PokerStarsHandHistory(HandHistory):
                 combo=None
             )
 
-        self.button = self.players[self.button_seat - 1]
+        self.button = self.players[button_seat - 1]
 
     def _parse_hole_cards(self):
         hole_cards_line = self._splitted[self._sections[0] + 2]
