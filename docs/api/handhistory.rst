@@ -7,12 +7,21 @@ Hand history parsing API
   | For example, PKR calls "Cash game" "ring game",
   | or there are multiple forms of holdem like "Hold'em", "holdem", "he", etc..
 
-  :param value: the word to normalize like "No limit", "Hold'em", "Cash game"
+  :param value: the word to normalize like ``"No limit"``, ``"Hold'em"``, ``"Cash game"``
   :return: Normalized form of the word like ``"NL"``, ``"HOLDEM"``, ``"CASH"``, etc.
 
 
-Abstract base class
--------------------
+Base classes
+------------
+
+.. autoclass:: poker.handhistory.HandHistoryPlayer
+
+   :ivar str name:            Player name
+   :ivar int stack:           Stack size (sometimes called as chips)
+   :ivar int seat:            Seat number
+   :ivar Combo,None combo:    If the player revealed his/her hand, this property hold's it.
+                              None for players didn't show.
+
 
 .. autoclass:: poker.handhistory.HandHistory
 
@@ -41,18 +50,15 @@ Abstract base class
   :ivar datetime date:          hand date in UTC
   :ivar str table_name:         name of the table. it's ``"tournament_number table_number"``
   :ivar int max_player:         maximum players can sit on the table, 2, 4, 6, 7, 8, 9
-  :ivar int button_seat:        seat of button player, starting from 1
-  :ivar str button:             player name on the button
-  :ivar str hero:               name of hero
-  :ivar int hero_seat:          seat of hero, starting from 1
-  :ivar OrderedDict players:    tuples in form of ``(playername, starting_stack)``
+  :ivar HandHistoryPlayer button:   player on the button
+  :ivar HandHistoryPlayer hero:     hero
+  :ivar list players:           HandHistoryPlayer namedtuples
                                 the sequence is the seating order at the table at the start of the hand
-  :ivar tuple hero_combo:       poker.hand.Combo, e.g. ``Combo('AhAs')``
-  :ivar tuple flop:             tuple of poker.card.Cards e.g. ``(Card('Ah'), Card('2s'), Card('2h'))``
-  :ivar str turn:               turn card, e.g. ``Card('Ah')``
-  :ivar str river:              river card, e.g. ``Card('2d')``
+  :ivar tuple flop:             tuple of Cards e.g. ``(Card('Ah'), Card('2s'), Card('2h'))``
+  :ivar Card turn:              turn card, e.g. ``Card('Ah')``
+  :ivar Card river:             river card, e.g. ``Card('2d')``
   :ivar tuple board:            board cards, e.g. ``(Card('4s'), Card('4d'), Card('4c'), Card('5h'))``
-  :ivar tuple preflop actions:  action lines in str
+  :ivar tuple preflop_actions:  action lines in str
   :ivar tuple flop_actions:     flop action lines
   :ivar tuple turn_actions:     turn action lines
   :ivar tuple river_actions:    river action lines

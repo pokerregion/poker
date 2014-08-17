@@ -43,6 +43,7 @@ def normalize(value):
 
 
 HandHistoryPlayer = namedtuple('HandHistoryPlayer', 'name, stack, seat, combo')
+"""Named tuple for players participating in the hand history."""
 
 
 class HandHistory(MutableMapping):
