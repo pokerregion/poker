@@ -34,7 +34,7 @@ class PyTest(TestCommand):
 
 setup(
     name = 'poker',
-    version = '0.10.0',
+    version = '0.10.1',
     description = 'Poker Framework',
     classifiers = [
         "Intended Audience :: Developers",

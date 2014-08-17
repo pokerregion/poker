@@ -1,3 +1,4 @@
+from collections import namedtuple
 import requests
 from bs4 import BeautifulSoup
 from .._common import _make_float
@@ -7,8 +8,15 @@ POCKETFIVES_URL = 'http://www.pocketfives.com'
 RANKINGS_URL = POCKETFIVES_URL + '/rankings/'
 
 
+class PocketFivesPlayer(namedtuple('PocketFivesPlayer',
+    'name, country, triple_crowns, monthly_win, biggest_cash, '
+    'plb_score, biggest_score, average_score, previous_rank'
+)):
+    """Named tuple for Pocketfives player data."""
+
+
 def get_ranked_players():
-    """Get the list of ranked players. (Generator)"""
+    """Get the list of the first 100 ranked players."""
 
     rankings_page = requests.get(RANKINGS_URL)
     soup = BeautifulSoup(rankings_page.text, 'lxml')  # use lxml parser
@@ -18,7 +26,7 @@ def get_ranked_players():
 
     for row in player_rows[1:]:
         player_row = row.find_all('td')
-        player = dict(
+        player = PocketFivesPlayer(
             name = player_row[0].img['alt'],
             # some players doesn't have a Country set, this would throw TypeError
             country = player_row[1].img['title'] if player_row[1].img else None,

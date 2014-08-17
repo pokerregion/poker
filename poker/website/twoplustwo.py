@@ -11,7 +11,9 @@ FORUM_MEMBER_URL = FORUM_URL + '/members'
 _tz_re = re.compile('GMT (.*?)\.')
 
 
-class ForumMember:
+class TwoPlusTwoForumMember:
+    """Represents a Forum member data from the Two Plus Two forum."""
+
     def __init__(self, id):
         self.id = id
 
@@ -83,5 +85,8 @@ class ForumMember:
             raise ValueError('Could not parse date: {}'.format(date_str))
 
     def _set_group_memberships(self, soup):
-        memberships = soup.find(id='public_usergroup_list').find_all('li')
-        self.public_usergroups = tuple(ms.string for ms in memberships)
+        try:
+            memberships = soup.find(id='public_usergroup_list').find_all('li')
+            self.public_usergroups = tuple(ms.string for ms in memberships)
+        except AttributeError:
+            self.public_usergroups = ()
