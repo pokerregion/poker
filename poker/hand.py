@@ -1,14 +1,3 @@
-"""
-    Rangeparser
-    ~~~~~~~~~~~
-
-    Parses human readable ranges like "22+ 54s 76s 98s AQo+" to a set of hands.
-
-    It's very fault tolerant, makes it possible to make ranges fast.
-
-    :copyright: (c) 2014 by Walkman
-    :license: MIT, see LICENSE file for more details.
-"""
 import re
 import random
 import itertools
@@ -27,13 +16,8 @@ class Shape(_MultiValueEnum):
 
 @total_ordering
 class Hand(_ReprMixin):
-    """General hand without a precise suit.
+    """General hand without a precise suit. Only knows about two ranks and shape."""
 
-    Only knows about two ranks and shape.
-    :ivar Rank first:   first Rank
-    :ivar Rank second:  second Rank
-    :ivar Shape shape:  Hand shape (pair, suited or offsuit)
-    """
     __slots__ = ('_first', '_second', '_shape')
 
     def __new__(cls, hand):
@@ -141,6 +125,8 @@ class Hand(_ReprMixin):
 
     @property
     def rank_difference(self):
+        """The difference between the first and second rank of the Hand."""
+
         # self._first >= self._second
         return Rank.difference(self._first, self._second)
 
@@ -188,6 +174,8 @@ SUITED_HANDS = tuple(Hand(hand1.value + hand2.value + 's') for hand1, hand2 in
 
 @total_ordering
 class Combo(_ReprMixin):
+    """Hand combination."""
+
     __slots__ = ('_first', '_second')
 
     def __new__(cls, combo):
@@ -261,7 +249,7 @@ class Combo(_ReprMixin):
             self._first, self._second = self._second, self._first
 
     def to_hand(self):
-        """Convert combo to Hand object."""
+        """Convert combo to :class:`Hand` object, losing suit information."""
         return Hand('{}{}{}'.format(self.first.rank, self.second.rank, self.shape))
 
     @property
@@ -331,7 +319,6 @@ class _RegexRangeLexer:
         # 1. NAME,
         # 2. REGEX
         # 3. value extractor METHOD NAME
-        # 4. PARAMETERS for the method (tuple)
         ('ALL', 'XX', '_get_value'),
         ('PAIR', r"{}\1".format(_rank), '_get_first'),
         ('PAIR_PLUS', r"{}\1\+".format(_rank), '_get_first'),
@@ -432,10 +419,8 @@ class _RegexRangeLexer:
 
 @total_ordering
 class Range:
-    """Parses a range.
+    """Parses a str range into tuple of Combos (or Hands)."""
 
-        :ivar str range:    Readable range in unicode
-    """
     def __init__(self, range=''):
         self._pairs = set()
         self._suiteds = set()
@@ -612,6 +597,8 @@ class Range:
 
     @property
     def rep_pieces(self):
+        """List of str pieces how the Range is represented."""
+
         if len(self._combos) == 1326:
             return ['XX']
 
@@ -705,6 +692,9 @@ class Range:
 
     @property
     def hands(self):
+        """Tuple of hands contained in this range. If only one combo of the same hand is present,
+        it will be shown here. e.g. ``Range('2s2c').hands == (Hand('22'),)``
+        """
         hands = {combo.to_hand() for combo in self._combos}
         return tuple(sorted(hands))
 
@@ -714,10 +704,10 @@ class Range:
 
     @property
     def percent(self):
-        """What percent of combos does this range have
-        compared to all the possible combos.
+        """What percent of combos does this range have compared to all the possible combos.
 
         There are 1326 total combos in Hold'em: 52 * 51 / 2 (because order doesn't matter)
+        Precision: 2 decimal point
         """
         dec_percent = (Decimal(len(self._combos)) / 1326 * 100)
 

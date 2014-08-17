@@ -1,10 +1,21 @@
-.. Poker documentation master file, created by
-   sphinx-quickstart on Mon Aug  4 04:35:50 2014.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Poker package documentation
 ===========================
+
+This package is a  framework for poker related operations.
+
+It contains classes for parsing hand :term:`Suit`\ s, :term:`Card`\ s, :term:`Hand`\ s,
+combinations (called :term:`Combo`\ s), construct hand :term:`Range`\ s and check for syntax,
+parse Hand histories.
+
+It can get information from poker related websites like
+Pocketfives, TwoplusTwo Forum, or PokerStars website by scraping them.
+In the long term, it will have a fast hand evaluator and an equity calculator.
+
+It uses the MIT license, soo it's code can be used in any product without consequences.
+
+It aims quality, fully tested code and easy usability with nice APIs, suitable for beginners
+to play with.
+
 
 Contents
 --------
@@ -12,11 +23,15 @@ Contents
 .. toctree::
    :maxdepth: 4
 
-   deck
-   testing
-   handhistory
+   install
+   basic
    range
+   handhistory
+   website
    contributing
+   testing
+   glossary
+   license
 
 API
 ---
@@ -27,11 +42,14 @@ API
    api/**
 
 
-Repo and issues
----------------
+
+Repo and contact
+----------------
 
 | Repo: https://github.com/pokerregion/poker
 | Issues: https://github.com/pokerregion/poker/issues
+
+You can contact me on my public e-mail address: kissgyorgy@me.com
 
 
 Indices and tables
@@ -40,4 +58,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-

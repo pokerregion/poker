@@ -27,6 +27,8 @@ class Rank(_MultiValueEnum):
 
     @classmethod
     def difference(cls, first, second):
+        """Tells the numerical difference between two ranks."""
+
         # so we always get a Rank instance even if string were passed in
         first, second = cls(first), cls(second)
         rank_list = list(cls)
@@ -40,6 +42,8 @@ BROADWAY_RANKS = Rank('T'), Rank('J'), Rank('Q'), Rank('K'), Rank('A')
 
 @total_ordering
 class Card(_ReprMixin):
+    """Represents a Card, which consists a Rank and a Suit."""
+
     __slots__ = ('_rank', '_suit')
 
     def __new__(cls, card):
@@ -55,6 +59,8 @@ class Card(_ReprMixin):
 
     @classmethod
     def make_random(cls):
+        """Returns a random Card instance."""
+
         self = super().__new__(cls)
         self._rank = Rank.make_random()
         self._suit = Suit.make_random()
