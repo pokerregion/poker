@@ -3,7 +3,7 @@
 """
 
 from abc import ABCMeta, abstractmethod
-from collections import MutableMapping
+from collections import MutableMapping, namedtuple
 from inspect import ismethod
 from decimal import Decimal
 from datetime import datetime
@@ -40,6 +40,9 @@ def normalize(value):
         if value in compare:
             return normalized
     return value.upper()
+
+
+HandHistoryPlayer = namedtuple('HandHistoryPlayer', 'name, stack, seat, combo')
 
 
 class HandHistory(MutableMapping):
@@ -112,4 +115,13 @@ class HandHistory(MutableMapping):
         self.date = self._TZ.localize(date).astimezone(pytz.UTC)
 
     def _init_seats(self, player_num):
-        return [('Empty Seat %s' % num, Decimal(0)) for num in range(1, player_num + 1)]
+        players = []
+        for seat in range(1, player_num + 1):
+            players.append(
+                HandHistoryPlayer(name='Empty Seat {}'.format(seat),
+                                  stack=0,
+                                  seat=seat,
+                                  combo=None)
+            )
+
+        return players

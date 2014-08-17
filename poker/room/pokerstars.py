@@ -1,8 +1,8 @@
 import re
 from decimal import Decimal
-from collections import OrderedDict
+from collections import namedtuple
 import pytz
-from ..handhistory import HandHistory, normalize
+from ..handhistory import HandHistoryPlayer, HandHistory, normalize
 from ..card import Card
 from ..hand import Combo
 
@@ -34,7 +34,7 @@ class PokerStarsHandHistory(HandHistory):
                         \[(?P<date>.*)\]$                       # ET date
                         """, re.VERBOSE)
     _table_re = re.compile(r"^Table '(.*)' (\d)-max Seat #(\d) is the button$")
-    _seat_re = re.compile(r"^Seat (\d): (.*) \((\d*) in chips\)$")
+    _seat_re = re.compile(r"^Seat (?P<seat>\d): (?P<name>.*) \((?P<stack>\d*) in chips\)$")
     _hole_cards_re = re.compile(r"^Dealt to (.*) \[(..) (..)\]$")
     _pot_re = re.compile(r"^Total pot (\d*) .*\| Rake (\d*)$")
     _winner_re = re.compile(r"^Seat (\d): (.*) collected \((\d*)\)$")
@@ -95,22 +95,33 @@ class PokerStarsHandHistory(HandHistory):
         self.button_seat = int(match.group(3))
 
     def _parse_seats(self):
-        players = self._init_seats(self.max_players)
+        self.players = self._init_seats(self.max_players)
         for line in self._splitted[2:]:
             match = self._seat_re.match(line)
+            # we reached the end of the players section
             if not match:
                 break
-            players[int(match.group(1)) - 1] = (match.group(2), int(match.group(3)))
+            index = int(match.group('seat')) - 1
+            self.players[index] = HandHistoryPlayer(
+                name=match.group('name'),
+                stack=int(match.group('stack')),
+                seat=int(match.group('seat')),
+                combo=None
+            )
 
-        self.button = players[self.button_seat - 1][0]
-        self.players = OrderedDict(players)
+        self.button = self.players[self.button_seat - 1]
 
     def _parse_hole_cards(self):
         hole_cards_line = self._splitted[self._sections[0] + 2]
         match = self._hole_cards_re.match(hole_cards_line)
-        self.hero = match.group(1)
-        self.hero_seat = list(self.players.keys()).index(self.hero) + 1
-        self.hero_combo = Combo(match.group(2) + match.group(3))
+        hero_name = match.group(1)
+        player_names = [p.name for p in self.players]
+        hero_index = player_names.index(hero_name)
+        hero = self.players[hero_index]
+        hero = hero._replace(combo=Combo(match.group(2) + match.group(3)))
+        self.hero = self.players[hero_index] = hero
+        if self.button.name == self.hero.name:
+            self.button = hero
 
     def _parse_preflop(self):
         start = self._sections[0] + 3

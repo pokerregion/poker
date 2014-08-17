@@ -1,8 +1,9 @@
 from decimal import Decimal
 from datetime import datetime
-from collections import OrderedDict
+from collections import namedtuple
 import pytz
 import pytest
+from poker.handhistory import HandHistoryPlayer
 from poker.room.pokerstars import PokerStarsHandHistory
 from poker.card import Card
 from poker.hand import Combo
@@ -52,13 +53,23 @@ class TestHandWithFlopOnly:
                              [('table_name', '797469411 15'),
                               ('max_players', 9),
                               ('button_seat', 1),
-                              ('button', 'flettl2'),
-                              ('hero', 'W2lkm2n'),
-                              ('hero_seat', 5),
-                              ('players', OrderedDict([('flettl2', 1500), ('santy312', 3000), ('flavio766', 3000),
-                                                       ('strongi82', 3000), ('W2lkm2n', 3000), ('MISTRPerfect', 3000),
-                                                       ('blak_douglas', 3000), ('sinus91', 1500), ('STBIJUJA', 1500)])),
-                              ('hero_combo', Combo('AcJh')),
+                              ('button', HandHistoryPlayer(name='flettl2', stack=1500, seat=1,
+                                                           combo=None)
+                              ),
+                              ('hero', HandHistoryPlayer(
+                                        name='W2lkm2n', stack=3000, seat=5, combo=Combo('AcJh')),
+                              ),
+                              ('players', [
+                               HandHistoryPlayer(name='flettl2', stack=1500, seat=1, combo=None),
+                               HandHistoryPlayer(name='santy312', stack=3000, seat=2, combo=None),
+                               HandHistoryPlayer(name='flavio766', stack=3000, seat=3, combo=None),
+                               HandHistoryPlayer(name='strongi82', stack=3000, seat=4, combo=None),
+                               HandHistoryPlayer(name='W2lkm2n', stack=3000, seat=5, combo=Combo('AcJh')),
+                               HandHistoryPlayer(name='MISTRPerfect', stack=3000, seat=6, combo=None),
+                               HandHistoryPlayer(name='blak_douglas', stack=3000, seat=7, combo=None),
+                               HandHistoryPlayer(name='sinus91', stack=1500, seat=8, combo=None),
+                               HandHistoryPlayer(name='STBIJUJA', stack=1500, seat=9, combo=None),
+                               ]),
                               ('flop', (Card('2s'), Card('6d'), Card('6h'))),
                               ('turn', None),
                               ('river', None),
@@ -112,13 +123,23 @@ class TestAllinPreflopHand:
                              [('table_name', '797536898 9'),
                               ('max_players', 9),
                               ('button_seat', 2),
-                              ('button', 'W2lkm2n'),
-                              ('hero', 'W2lkm2n'),
-                              ('hero_seat', 2),
-                              ('players', OrderedDict([('RichFatWhale', 12910), ('W2lkm2n', 11815), ('Labahra', 7395),
-                                                       ('Lean Abadia', 7765), ('lkenny44', 10080), ('Newfie_187', 1030),
-                                                       ('Hokolix', 13175), ('pmmr', 2415), ('costamar', 13070)])),
-                              ('hero_combo', Combo('JdJs')),
+                              ('button', HandHistoryPlayer(name='W2lkm2n', stack=11815, seat=2,
+                                            combo=Combo('JdJs'))
+                              ),
+                              ('hero', HandHistoryPlayer(name='W2lkm2n', stack=11815, seat=2,
+                                    combo=Combo('JdJs'))
+                              ),
+                              ('players', [
+                               HandHistoryPlayer(name='RichFatWhale', stack=12910, seat=1, combo=None),
+                               HandHistoryPlayer(name='W2lkm2n', stack=11815, seat=2, combo=Combo('JdJs')),
+                               HandHistoryPlayer(name='Labahra', stack=7395, seat=3, combo=None),
+                               HandHistoryPlayer(name='Lean Abadia', stack=7765, seat=4, combo=None),
+                               HandHistoryPlayer(name='lkenny44', stack=10080, seat=5, combo=None),
+                               HandHistoryPlayer(name='Newfie_187', stack=1030, seat=6, combo=None),
+                               HandHistoryPlayer(name='Hokolix', stack=13175, seat=7, combo=None),
+                               HandHistoryPlayer(name='pmmr', stack=2415, seat=8, combo=None),
+                               HandHistoryPlayer(name='costamar', stack=13070, seat=9, combo=None),
+                               ]),
                               ('flop', (Card('3c'), Card('6s'), Card('9d'))),
                               ('turn', Card('8d')),
                               ('river', Card('Ks')),
@@ -169,13 +190,19 @@ class TestBodyMissingPlayerNoBoard:
                              [('table_name', '797469411 11'),
                               ('max_players', 9),
                               ('button_seat', 8),
-                              ('button', 'W2lkm2n'),
-                              ('hero', 'W2lkm2n'),
-                              ('hero_seat', 8),
-                              ('players', OrderedDict([('Empty Seat 1', 0), ('snelle_jel', 4295), ('EuSh0wTelm0', 11501),
-                                                       ('panost3', 7014), ('Samovlyblen', 7620), ('Theralion', 4378),
-                                                       ('wrsport1015', 9880), ('W2lkm2n', 10714), ('fischero68', 8724)])),
-                              ('hero_combo', Combo('6d8d')),
+                              ('button', HandHistoryPlayer(name='W2lkm2n', stack=10714, seat=8, combo=Combo('6d8d'))),
+                              ('hero', HandHistoryPlayer(name='W2lkm2n', stack=10714, seat=8, combo=Combo('6d8d'))),
+                              ('players', [
+                               HandHistoryPlayer(name='Empty Seat 1', stack=0, seat=1, combo=None),
+                               HandHistoryPlayer(name='snelle_jel', stack=4295, seat=2, combo=None),
+                               HandHistoryPlayer(name='EuSh0wTelm0', stack=11501, seat=3, combo=None),
+                               HandHistoryPlayer(name='panost3', stack=7014, seat=4, combo=None),
+                               HandHistoryPlayer(name='Samovlyblen', stack=7620, seat=5, combo=None),
+                               HandHistoryPlayer(name='Theralion', stack=4378, seat=6, combo=None),
+                               HandHistoryPlayer(name='wrsport1015', stack=9880, seat=7, combo=None),
+                               HandHistoryPlayer(name='W2lkm2n', stack=10714, seat=8, combo=Combo('6d8d')),
+                               HandHistoryPlayer(name='fischero68', stack=8724, seat=9, combo=None),
+                               ]),
                               ('flop', None),
                               ('turn', None),
                               ('river', None),
@@ -227,13 +254,19 @@ class TestBodyEveryStreet:
                              [('table_name', '797469411 15'),
                               ('max_players', 9),
                               ('button_seat', 5),
-                              ('button', 'W2lkm2n'),
-                              ('hero', 'W2lkm2n'),
-                              ('hero_seat', 5),
-                              ('players', OrderedDict([('flettl2', 3000), ('santy312', 5890), ('flavio766', 11010),
-                                                       ('strongi82', 2855), ('W2lkm2n', 5145), ('MISTRPerfect', 2395),
-                                                       ('blak_douglas', 3000), ('sinus91', 3000), ('STBIJUJA', 1205)])),
-                              ('hero_combo', Combo('Jc5c')),
+                              ('button', HandHistoryPlayer(name='W2lkm2n', stack=5145, seat=5, combo=Combo('Jc5c'))),
+                              ('hero', HandHistoryPlayer(name='W2lkm2n', stack=5145, seat=5, combo=Combo('Jc5c'))),
+                              ('players', [
+                               HandHistoryPlayer(name='flettl2', stack=3000, seat=1, combo=None),
+                               HandHistoryPlayer(name='santy312', stack=5890, seat=2, combo=None),
+                               HandHistoryPlayer(name='flavio766', stack=11010, seat=3, combo=None),
+                               HandHistoryPlayer(name='strongi82', stack=2855, seat=4, combo=None),
+                               HandHistoryPlayer(name='W2lkm2n', stack=5145, seat=5, combo=Combo('Jc5c')),
+                               HandHistoryPlayer(name='MISTRPerfect', stack=2395, seat=6, combo=None),
+                               HandHistoryPlayer(name='blak_douglas', stack=3000, seat=7, combo=None),
+                               HandHistoryPlayer(name='sinus91', stack=3000, seat=8, combo=None),
+                               HandHistoryPlayer(name='STBIJUJA', stack=1205, seat=9, combo=None),
+                               ]),
                               ('flop', (Card('6s'), Card('4d'), Card('3s'))),
                               ('turn', Card('8c')),
                               ('river', Card('Kd')),
@@ -281,7 +314,9 @@ class TestPlayerNameWithDot:
     hand_text = stars_hands.HAND5
 
     def test_player_is_in_player_list(self, hand):
-        assert '.prestige.U$' in hand.players
+        assert '.prestige.U$' in [p.name for p in hand.players]
 
     def test_player_stack(self, hand):
-        assert hand.players['.prestige.U$'] == 3000
+        player_names = [p.name for p in hand.players]
+        player_index = player_names.index('.prestige.U$')
+        assert hand.players[player_index].stack == 3000
