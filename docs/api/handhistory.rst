@@ -20,7 +20,7 @@ Base classes
    :ivar int stack:           Stack size (sometimes called as chips)
    :ivar int seat:            Seat number
    :ivar Combo,None combo:    If the player revealed his/her hand, this property hold's it.
-                              None for players didn't show.
+                              None for players didn't show... autoclass:: poker.handhistory.HandHistoryPlayer
 
 
 .. autoclass:: poker.handhistory.HandHistory
@@ -82,27 +82,27 @@ Full Tilt Poker
 
 .. autoclass:: poker.room.fulltiltpoker.FullTiltPokerHandHistory
 
-  PokerStars and Full Tilt hand histories are very similar, so parsing them is almost identical.
-  There are small differences though.
+   PokerStars and Full Tilt hand histories are very similar, so parsing them is almost identical.
+   There are small differences though.
 
-  **Class specific**
+   **Class specific**
 
-  :cvar str poker_room:       always ``FTP`` for this class
-  :ivar tournament_level:     ``None``
-  :ivar buyin:                ``None``: it's not in the hand history, but the filename
-  :ivar rake:                 ``None``: also
-  :ivar currency:             ``None``
-  :ivar str table_name:       just a number, but str type
+   :cvar str poker_room:    always ``FTP`` for this class
+   :ivar tournament_level:  ``None``
+   :ivar buyin:             ``None``: it's not in the hand history, but the filename
+   :ivar rake:              ``None``: also
+   :ivar currency:          ``None``
+   :ivar str table_name:    just a number, but str type
 
-  **Extra**
+   **Extra**
 
-  :ivar Decimal flop_pot:         pot size on the flop, before actions
-  :ivar int flop_num_players:     number of players seen the flop
-  :ivar Decimal turn_pot:         pot size before turn
-  :ivar int turn_num_players:     number of players seen the turn
-  :ivar Decimal river_pot:        pot size before river
-  :ivar int river_num_players:    number of players seen the river
-  :ivar str tournament_name:  e.g. ``"$750 Guarantee"``, ``"$5 Sit & Go (Super Turbo)"``
+   :ivar Decimal flop_pot:        pot size on the flop, before actions
+   :ivar int flop_num_players:    number of players seen the flop
+   :ivar Decimal turn_pot:        pot size before turn
+   :ivar int turn_num_players:    number of players seen the turn
+   :ivar Decimal river_pot:       pot size before river
+   :ivar int river_num_players:   number of players seen the river
+   :ivar str tournament_name:     e.g. ``"$750 Guarantee"``, ``"$5 Sit & Go (Super Turbo)"``
 
 
 PKR
