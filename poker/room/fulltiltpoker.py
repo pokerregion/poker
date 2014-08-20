@@ -2,9 +2,10 @@ import re
 from decimal import Decimal
 from collections import OrderedDict
 import pytz
-from ..handhistory import HandHistory, normalize
+from ..handhistory import HandHistoryPlayer, HandHistory, normalize
 from ..card import Card
 from ..hand import Combo
+from .._common import _make_int
 
 
 __all__ = ['FullTiltPokerHandHistory']
@@ -101,24 +102,34 @@ class FullTiltPokerHandHistory(HandHistory):
             match = self._seat_re.match(line)
             if not match:
                 break
-            seat_number = int(match.group(1))
-            player_name = match.group(2)
-            stack = int(match.group(3).replace(',', ''))
-            players[seat_number - 1] = (player_name, stack)
-        self.max_players = seat_number
-        self.players = OrderedDict(players[:self.max_players])  # cut off unneccesary seats
+            seat = int(match.group(1))
+            players[seat - 1] = HandHistoryPlayer(
+                name=match.group(2),
+                seat=seat,
+                stack=_make_int(match.group(3)),
+                combo=None
+            )
+        self.max_players = seat
+        self.players = players[:seat]  # cut off unneccesary seats
 
         # one line before the first split.
         button_line = self._splitted[self._sections[0] - 1]
-        self.button_seat = int(self._button_re.match(button_line).group(1))
-        self.button = players[self.button_seat - 1][0]
+        button_seat = int(self._button_re.match(button_line).group(1))
+        self.button = players[button_seat - 1]
 
     def _parse_hole_cards(self):
         hole_cards_line = self._splitted[self._sections[0] + 2]
         match = self._hole_cards_re.match(hole_cards_line)
-        self.hero = match.group(1)
-        self.hero_seat = list(self.players.keys()).index(self.hero) + 1
-        self.hero_combo = Combo(match.group(2) + match.group(3))
+        hero_name = match.group(1)
+        player_names = [p.name for p in self.players]
+        hero_index = player_names.index(hero_name)
+        hero = self.players[hero_index]
+        self.hero = self.players[hero_index] = hero._replace(
+            combo=Combo(match.group(2) + match.group(3))
+        )
+
+        if self.button.name == self.hero.name:
+            self.button = self.hero
 
     def _parse_preflop(self):
         start = self._sections[0] + 3

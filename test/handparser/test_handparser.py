@@ -5,9 +5,9 @@ from . import stars_hands
 
 
 class TestDictBehavior:
-    expected_keys = {'ident', 'currency', 'hero_combo', 'preflop_actions', 'turn', 'show_down', 'poker_room',
-                     'winners', 'board', 'limit', 'river_actions', 'hero', 'turn_actions', 'bb', 'button_seat',
-                     'tournament_ident', 'rake', 'buyin', 'game', 'hero_seat', 'date', 'max_players',
+    expected_keys = {'ident', 'currency', 'preflop_actions', 'turn', 'show_down', 'poker_room',
+                     'winners', 'board', 'limit', 'river_actions', 'hero', 'turn_actions', 'bb',
+                     'tournament_ident', 'rake', 'buyin', 'game', 'date', 'max_players',
                      'flop_actions', 'button', 'flop', 'game_type', 'players', 'table_name', 'sb', 'total_pot',
                      'river', 'tournament_level'}
 
@@ -24,8 +24,8 @@ class TestDictBehavior:
     def test_raw_is_an_attribute(self, all_hands):
         assert hasattr(all_hands, 'raw')
 
-    def test_there_should_be_not_only_one_but_thirtyfour_keys(self, all_hands):
-        assert 32 == len(all_hands) == len(all_hands.keys())
+    def test_there_should_be_not_only_one_but_twentynine_keys(self, all_hands):
+        assert 29 == len(all_hands) == len(all_hands.keys())
 
     def test_keys_never_gives_back_class_attributes(self):
         class ModdedPokerStarsHandHistory(PokerStarsHandHistory):
