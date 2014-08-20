@@ -4,6 +4,7 @@ from collections import OrderedDict
 import pytz
 from pytz import UTC
 from pytest import mark, fixture
+from poker.handhistory import HandHistoryPlayer
 from poker.room.pkr import PKRHandHistory
 from poker.card import Card
 from poker.hand import Combo
@@ -47,15 +48,17 @@ class TestHoldemHand:
 
 
     @mark.parametrize('attribute, expected_value', [
-                      ('players', OrderedDict([('laxi23', D('51.89')), ('NikosMRF', D('50')),
-                                              ('Capricorn', D('33.6')), ('Walkman', D('50')),
-                                              ('Empty Seat 5', 0), ('barly123', D('50.35'))])),
-                      ('button', 'Capricorn'),
-                      ('button_seat', 3),
+                      ('players', [
+                       HandHistoryPlayer(name='laxi23', stack=D('51.89'), seat=1, combo=None),
+                       HandHistoryPlayer(name='NikosMRF', stack=D('50'), seat=2, combo=None),
+                       HandHistoryPlayer(name='Capricorn', stack=D('33.6'), seat=3, combo=None),
+                       HandHistoryPlayer(name='Walkman', stack=D('50'), seat=4, combo=Combo('9s6d')),
+                       HandHistoryPlayer(name='Empty Seat 5', stack=0, seat=5, combo=None),
+                       HandHistoryPlayer(name='barly123', stack=D('50.35'), seat=6, combo=None),
+                       ]),
+                      ('button', HandHistoryPlayer(name='Capricorn', stack=D('33.6'), seat=3, combo=None)),
                       ('max_players', 6),   # maybe imprecise
-                      ('hero', 'Walkman'),
-                      ('hero_seat', 4),
-                      ('hero_combo', Combo('9s6d')),
+                      ('hero', HandHistoryPlayer(name='Walkman', stack=D('50'), seat=4, combo=Combo('9s6d'))),
                       ('preflop_actions', ('laxi23 folds',
                                            'Capricorn calls $0.50',
                                            'Walkman folds',

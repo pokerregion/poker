@@ -2,7 +2,7 @@ import re
 from decimal import Decimal
 from collections import OrderedDict
 import pytz
-from ..handhistory import HandHistory, normalize
+from ..handhistory import HandHistory, normalize, HandHistoryPlayer
 from ..hand import Combo, Card
 
 
@@ -83,19 +83,19 @@ class PKRHandHistory(HandHistory):
             if not match:
                 break
             seat_number = int(match.group(1))
-            player_name = match.group(2)
-            stack = Decimal(match.group(3))
-            players[seat_number - 1] = (player_name, stack)
+            players[seat_number - 1] = HandHistoryPlayer(
+                name=match.group(2), stack=Decimal(match.group(3)), seat=seat_number, combo=None
+            )
         self.max_players = seat_number
-        self.players = OrderedDict(players[:self.max_players])
+        self.players = players[:self.max_players]
 
         button_row = self._splitted[self._sections[0] + 1]
 
         # cut last two because there can be 10 seats also
         # in case of one digit, the first char will be a space
         # but int() can convert it without hiccups :)
-        self.button_seat = int(button_row[-2:])
-        self.button = players[self.button_seat - 1][0]
+        button_seat = int(button_row[-2:])
+        self.button = players[button_seat - 1]
 
     def _parse_hero(self):
         dealt_row = self._splitted[self._sections[1] + 1]
@@ -103,10 +103,13 @@ class PKRHandHistory(HandHistory):
 
         first = match.group(1)[self.SPLIT_CARD_SPACE]
         second = match.group(2)[self.SPLIT_CARD_SPACE]
-        self.hero_combo = Combo(first + second)
-
-        self.hero = match.group(3)
-        self.hero_seat = list(self.players.keys()).index(self.hero) + 1
+        hero_name = match.group(3)
+        player_names = [p.name for p in self.players]
+        hero_index = player_names.index(hero_name)
+        hero = self.players[hero_index]
+        self.hero = self.players[hero_index] = hero._replace(combo=Combo(first + second))
+        if self.button.name == self.hero.name:
+            self.button = self.hero
 
     def _parse_preflop(self):
         start = self._sections[1] + 2
