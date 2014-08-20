@@ -9,6 +9,13 @@ from ._common import _MultiValueEnum, _ReprMixin
 from .card import Suit, Rank, Card, BROADWAY_RANKS
 
 
+# pregenerated all the possible suit combinations, so we don't have to count them all the time
+_PAIR_SUIT_COMBINATIONS = ('cd', 'ch', 'cs', 'dh', 'ds', 'hs')
+_OFFSUIT_SUIT_COMBINATIONS = ('cd', 'ch', 'cs', 'dc', 'dh', 'ds',
+                              'hc', 'hd', 'hs', 'sc', 'sd', 'sh')
+_SUITED_SUIT_COMBINATIONS = ('cc', 'dd', 'hh', 'ss')
+
+
 class Shape(_MultiValueEnum):
     OFFSUIT = 'o', 'O', 'offsuit', 'off'
     SUITED =  's', 'S', 'suited'
@@ -380,9 +387,9 @@ class _RegexRangeLexer:
         self.parts = [part for part in self._separator_re.split(range) if part]
 
     def __iter__(self):
-        """Goes through all the parts and compare them with the regex rules.
-        If it finds a match, makes an appropriate value for the token and yields them.
-        If there is no value extractor method defined in the rule, yields (token, None) tuple."""
+        """Goes through all the parts and compare them with the regex rules. If it finds a match,
+        makes an appropriate value for the token and yields them.
+        """
         for part in self.parts:
             for token, regex, method_name in self.rules:
                 if regex.fullmatch(part):
@@ -744,16 +751,15 @@ class Range:
             return '{}-{}'.format(first, last)
 
     def _add_pair(self, rank: str):
-        self._pairs |= {Combo(rank + s1.value + rank + s2.value)
-                        for s1, s2 in itertools.combinations(Suit, 2)}
+        self._pairs |= {Combo(rank + s1 + rank + s2) for s1, s2 in _PAIR_SUIT_COMBINATIONS}
 
     def _add_offsuit(self, tok: str):
-        self._offsuits |= {Combo(tok[0] + s1.value + tok[1] + s2.value)
-                           for s1, s2 in itertools.product(Suit, Suit) if s1 != s2}
+        self._offsuits |= {Combo(tok[0] + s1 + tok[1] + s2)
+                           for s1, s2 in _OFFSUIT_SUIT_COMBINATIONS}
 
     def _add_suited(self, tok: str):
-        self._suiteds |= {Combo(tok[0] + s1.value + tok[1] + s2.value)
-                          for s1, s2 in itertools.product(Suit, Suit) if s1 == s2}
+        self._suiteds |= {Combo(tok[0] + s1 + tok[1] + s2)
+                          for s1, s2 in _SUITED_SUIT_COMBINATIONS}
 
     @cached_property
     def hands(self):
