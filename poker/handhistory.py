@@ -91,11 +91,16 @@ class HandHistory(MutableMapping):
 
     @abstractmethod
     def parse_header(self):
-        """Parses the first line of a hand history."""
+        """Parses the first line of a hand history. You only need to use this in conjunction with
+        parse = False in __init__."""
 
     @abstractmethod
     def parse(self):
-        """Parses the body of the hand history, but first parse header if not yet parsed."""
+        """Parses the body of the hand history, but first parse header if not yet parsed.
+
+        It is used to fast parsing headers only, sort of looking into the hand history for basic
+        informations. You only need to use this in conjunction with parse = False in __init__.
+        """
         if not self.header_parsed:
             self.parse_header()
 

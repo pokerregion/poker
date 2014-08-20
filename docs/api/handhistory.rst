@@ -24,47 +24,49 @@ Base classes
 
 
 .. autoclass:: poker.handhistory.HandHistory
+   :members:
+   :exclude-members: board
 
-  :param str hand_text:  poker hand text
-  :param bool parse:     if ``False``, hand will not parsed immediately.
+   :param str hand_text:  poker hand text
+   :param bool parse:     if ``False``, hand will not parsed immediately.
                          Useful if you just want to quickly check header first and maybe process it later.
 
-  | The attributes can be iterated.
-  | The class can read like a dictionary.
-  | Every attribute default value is ``None``.
+   | The attributes can be iterated.
+   | The class can read like a dictionary.
+   | Every attribute default value is ``None``.
 
-  :ivar str poker_room:         room ID (4 byte max) e.g. ``"STARS"``, ``"FTP"``
-  :ivar str date_format:        default date format for the given poker_room
-  :ivar str ident:              hand id
-  :ivar str game_type:          ``"TOUR"`` for tournaments or ``"SNG"`` for Sit&Go-s
-  :ivar str tournament_ident:   tournament id
-  :ivar str tournament_level:   level of tournament blinds
-  :ivar str currency:           3 letter iso code ``"USD"``, ``"HUF"``, ``"EUR"``, etc.
-  :ivar Decimal buyin:          buyin **without** rake
-  :ivar Decimal rake:           if game_type is ``"TOUR"`` it's buyin rake, if ``"CASH"`` it's rake from pot
-  :ivar str game:               ``"HOLDEM"``, ``"OMAHA"``, ``"STUD"``, ``"RAZZ"``, etc.
-                                you should call :func:`normalize` to generate the correct value
-  :ivar str limit:              ``"NL"``, ``"PL"`` or ``"FL"``
-  :ivar Decimal sb:             amount of small blind
-  :ivar Decimal bb:             amount of big blind
-  :ivar datetime date:          hand date in UTC
-  :ivar str table_name:         name of the table. it's ``"tournament_number table_number"``
-  :ivar int max_player:         maximum players can sit on the table, 2, 4, 6, 7, 8, 9
-  :ivar HandHistoryPlayer button:   player on the button
-  :ivar HandHistoryPlayer hero:     hero
-  :ivar list players:           HandHistoryPlayer namedtuples
-                                the sequence is the seating order at the table at the start of the hand
-  :ivar tuple flop:             tuple of Cards e.g. ``(Card('Ah'), Card('2s'), Card('2h'))``
-  :ivar Card turn:              turn card, e.g. ``Card('Ah')``
-  :ivar Card river:             river card, e.g. ``Card('2d')``
-  :ivar tuple board:            board cards, e.g. ``(Card('4s'), Card('4d'), Card('4c'), Card('5h'))``
-  :ivar tuple preflop_actions:  action lines in str
-  :ivar tuple flop_actions:     flop action lines
-  :ivar tuple turn_actions:     turn action lines
-  :ivar tuple river_actions:    river action lines
-  :ivar Decimal total_pot:      total pot after end of actions (rake included)
-  :ivar bool show_down:         There was show_down or wasn't
-  :ivar tuple winners:          winner names, tuple if even when there is only one winner. e.g. ``('W2lkm2n',)``
+   :ivar str poker_room:         room ID (4 byte max) e.g. ``"STARS"``, ``"FTP"``
+   :ivar str date_format:        default date format for the given poker_room
+   :ivar str ident:              hand id
+   :ivar str game_type:          ``"TOUR"`` for tournaments or ``"SNG"`` for Sit&Go-s
+   :ivar str tournament_ident:   tournament id
+   :ivar str tournament_level:   level of tournament blinds
+   :ivar str currency:           3 letter iso code ``"USD"``, ``"HUF"``, ``"EUR"``, etc.
+   :ivar Decimal buyin:          buyin **without** rake
+   :ivar Decimal rake:           if game_type is ``"TOUR"`` it's buyin rake, if ``"CASH"`` it's rake from pot
+   :ivar str game:               ``"HOLDEM"``, ``"OMAHA"``, ``"STUD"``, ``"RAZZ"``, etc.
+                                 you should call :func:`normalize` to generate the correct value
+   :ivar str limit:              ``"NL"``, ``"PL"`` or ``"FL"``
+   :ivar Decimal sb:             amount of small blind
+   :ivar Decimal bb:             amount of big blind
+   :ivar datetime date:          hand date in UTC
+   :ivar str table_name:         name of the table. it's ``"tournament_number table_number"``
+   :ivar int max_player:         maximum players can sit on the table, 2, 4, 6, 7, 8, 9
+   :ivar HandHistoryPlayer button:   player on the button
+   :ivar HandHistoryPlayer hero:     hero
+   :ivar list players:           HandHistoryPlayer namedtuples
+                                 the sequence is the seating order at the table at the start of the hand
+   :ivar tuple flop:             tuple of Cards e.g. ``(Card('Ah'), Card('2s'), Card('2h'))``
+   :ivar Card turn:              turn card, e.g. ``Card('Ah')``
+   :ivar Card river:             river card, e.g. ``Card('2d')``
+   :ivar tuple board:            board cards, e.g. ``(Card('4s'), Card('4d'), Card('4c'), Card('5h'))``
+   :ivar tuple preflop_actions:  action lines in str
+   :ivar tuple flop_actions:     flop action lines
+   :ivar tuple turn_actions:     turn action lines
+   :ivar tuple river_actions:    river action lines
+   :ivar Decimal total_pot:      total pot after end of actions (rake included)
+   :ivar bool show_down:         There was show_down or wasn't
+   :ivar tuple winners:          winner names, tuple if even when there is only one winner. e.g. ``('W2lkm2n',)``
 
 
 PokerStars
