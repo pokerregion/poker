@@ -2,6 +2,15 @@ Development
 ===========
 
 
+Git repository
+--------------
+
+You find the repository on github:
+https://github.com/pokerregion/poker
+
+In the ``dend/`` branches, there are ideas which doesn't work or has been abandoned for some reason.
+They are there for reference as "this has been tried".
+
 
 Coding style
 ------------
