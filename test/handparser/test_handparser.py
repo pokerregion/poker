@@ -32,4 +32,6 @@ class TestDictBehavior:
             _non_hand_attributes = ()
 
         hand = ModdedPokerStarsHandHistory(stars_hands.HAND1)
+        hand.parse()
+
         assert self.expected_keys | set(PokerStarsHandHistory._non_hand_attributes) == set(hand.keys())

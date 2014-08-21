@@ -2,14 +2,14 @@ import re
 from decimal import Decimal
 from collections import OrderedDict
 import pytz
-from ..handhistory import HandHistory, normalize, HandHistoryPlayer
+from ..handhistory import SplittableHandHistory, normalize, HandHistoryPlayer
 from ..hand import Combo, Card
 
 
 __all__ = ['PKRHandHistory']
 
 
-class PKRHandHistory(HandHistory):
+class PKRHandHistory(SplittableHandHistory):
     """Parses PKR hand histories."""
 
     poker_room = 'PKR'
@@ -27,20 +27,10 @@ class PKRHandHistory(HandHistory):
     _win_re = re.compile(r"^(.*) wins \$([\d.]*) with: ")
     SPLIT_CARD_SPACE = slice(0, 3, 2)
 
-    def __init__(self, hand_text, parse=True):
-        """Split hand history by sections and parse."""
-        super(PKRHandHistory, self).__init__(hand_text, parse)
-
-        self._splitted = self._split_re.split(self.raw)
-
-        # search split locations (basically empty strings)
-        # sections[1] is after blinds, before preflop
-        # section[2] is before flop
-        # sections[-1] is before showdown
-        self._sections = [ind for ind, elem in enumerate(self._splitted) if not elem]
-
-        if parse:
-            self.parse()
+    # search split locations (basically empty strings)
+    # sections[1] is after blinds, before preflop
+    # section[2] is before flop
+    # sections[-1] is before showdown
 
     def parse_header(self):
         self.table_name = self._splitted[0][6:]          # cut off "Table "
@@ -64,7 +54,7 @@ class PKRHandHistory(HandHistory):
         self.tournament_level = None
 
     def parse(self):
-        super(PKRHandHistory, self).parse()
+        super().parse()
 
         self._parse_seats()
         self._parse_hero()

@@ -2,7 +2,7 @@ import re
 from decimal import Decimal
 from collections import OrderedDict
 import pytz
-from ..handhistory import HandHistoryPlayer, HandHistory, normalize
+from ..handhistory import HandHistoryPlayer, SplittableHandHistory, normalize
 from ..card import Card
 from ..hand import Combo
 from .._common import _make_int
@@ -11,7 +11,7 @@ from .._common import _make_int
 __all__ = ['FullTiltPokerHandHistory']
 
 
-class FullTiltPokerHandHistory(HandHistory):
+class FullTiltPokerHandHistory(SplittableHandHistory):
     """Parses Full Tilt Poker hands the same way as PokerStarsHandHistory class."""
 
     poker_room = 'FTP'
@@ -40,18 +40,9 @@ class FullTiltPokerHandHistory(HandHistory):
     _winner_re = re.compile(r"^Seat (\d): (.*) collected \((\d*)\),")
     _showdown_re = re.compile(r"^Seat (\d): (.*) showed .* and won")
 
-    def __init__(self, hand_text, parse=True):
-        super(FullTiltPokerHandHistory, self).__init__(hand_text, parse)
-
-        self._splitted = self._split_re.split(self.raw)
-
-        # search split locations (basically empty strings)
-        # sections[0] is before HOLE CARDS
-        # sections[-1] is before SUMMARY
-        self._sections = [ind for ind, elem in enumerate(self._splitted) if not elem]
-
-        if parse:
-            self.parse()
+    # search split locations (basically empty strings)
+    # sections[0] is before HOLE CARDS
+    # sections[-1] is before SUMMARY
 
     def parse_header(self):
         header_line = self._splitted[0]
@@ -79,7 +70,7 @@ class FullTiltPokerHandHistory(HandHistory):
         self.header_parsed = True
 
     def parse(self):
-        super(FullTiltPokerHandHistory, self).parse()
+        super().parse()
 
         self._parse_seats()
         self._parse_hole_cards()

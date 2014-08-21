@@ -46,20 +46,23 @@ HandHistoryPlayer = namedtuple('HandHistoryPlayer', 'name, stack, seat, combo')
 """Named tuple for players participating in the hand history."""
 
 
-class HandHistory(MutableMapping):
-    """Abstract base class for *all* room-specific parser."""
-
-    __metaclass__ = ABCMeta
+class BaseHandHistory(MutableMapping, metaclass=ABCMeta):
+    """Abstract base class for *all* kind of parser."""
 
     _non_hand_attributes = ('raw', 'parsed', 'header_parsed', 'date_format')
 
     @abstractmethod
-    def __init__(self, hand_text, parse=True):
+    def __init__(self, hand_text):
         """Save raw hand history."""
 
         self.raw = hand_text.strip()
         self.header_parsed = False
         self.parsed = False
+
+    def from_file(cls, filename):
+        hand_text = open(filename).read()
+        self = cls(hand_text)
+        return self
 
     def __len__(self):
         return len(self.keys())
@@ -91,16 +94,14 @@ class HandHistory(MutableMapping):
 
     @abstractmethod
     def parse_header(self):
-        """Parses the first line of a hand history. You only need to use this in conjunction with
-        parse = False in __init__."""
+        """Parses only the header of a hand history. It is used for sort of looking into
+        the hand history for basic informations.
+        """
 
     @abstractmethod
     def parse(self):
-        """Parses the body of the hand history, but first parse header if not yet parsed.
+        """Parses the body of the hand history, but first parse header if not yet parsed."""
 
-        It is used to fast parsing headers only, sort of looking into the hand history for basic
-        informations. You only need to use this in conjunction with parse = False in __init__.
-        """
         if not self.header_parsed:
             self.parse_header()
 
@@ -131,3 +132,17 @@ class HandHistory(MutableMapping):
             )
 
         return players
+
+
+class SplittableHandHistory(BaseHandHistory):
+    def __init__(self, hand_text):
+        """Split hand history by sections."""
+
+        super().__init__(hand_text)
+
+        self._splitted = self._split_re.split(self.raw)
+
+        # search split locations (basically empty strings)
+        # sections[0] is before HOLE CARDS
+        # sections[-1] is before SUMMARY
+        self._sections = [ind for ind, elem in enumerate(self._splitted) if not elem]

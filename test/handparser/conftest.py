@@ -10,4 +10,6 @@ all_test_hands = [getattr(stars_hands, hand_text) for hand_text in dir(stars_han
 @pytest.fixture(params=all_test_hands)
 def all_hands(request):
     """Parse all hands from test_data and returns a PokerStarsHandHistory instance."""
-    return PokerStarsHandHistory(request.param)
+    hh = PokerStarsHandHistory(request.param)
+    hh.parse()
+    return hh

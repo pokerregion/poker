@@ -2,7 +2,7 @@ import re
 from decimal import Decimal
 from collections import namedtuple
 import pytz
-from ..handhistory import HandHistoryPlayer, HandHistory, normalize
+from ..handhistory import HandHistoryPlayer, SplittableHandHistory, normalize
 from ..card import Card
 from ..hand import Combo
 
@@ -10,7 +10,7 @@ from ..hand import Combo
 __all__ = ['PokerStarsHandHistory']
 
 
-class PokerStarsHandHistory(HandHistory):
+class PokerStarsHandHistory(SplittableHandHistory):
     """Parses PokerStars Tournament hands."""
 
     poker_room = 'STARS'
@@ -42,18 +42,9 @@ class PokerStarsHandHistory(HandHistory):
     _ante_re = re.compile(r".*posts the ante (\d*)")
     _board_re = re.compile(r"(?<=[\[ ])(..)(?=[\] ])")
 
-    def __init__(self, hand_text, parse=True):
-        """Split hand history by sections and parse."""
-        super(PokerStarsHandHistory, self).__init__(hand_text, parse)
-        self._splitted = self._split_re.split(self.raw)
-
-        # search split locations (basically empty strings)
-        # sections[0] is before HOLE CARDS
-        # sections[-1] is before SUMMARY
-        self._sections = [ind for ind, elem in enumerate(self._splitted) if not elem]
-
-        if parse:
-            self.parse()
+    # search split locations (basically empty strings)
+    # sections[0] is before HOLE CARDS
+    # sections[-1] is before SUMMARY
 
     def parse_header(self):
         match = self._header_re.match(self._splitted[0])
@@ -73,7 +64,7 @@ class PokerStarsHandHistory(HandHistory):
         self.header_parsed = True
 
     def parse(self):
-        super(PokerStarsHandHistory, self).parse()
+        super().parse()
         button_seat = self._parse_table()
         self._parse_seats(button_seat)
         self._parse_hole_cards()

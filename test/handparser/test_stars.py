@@ -16,15 +16,17 @@ ET = pytz.timezone('US/Eastern')
 @pytest.fixture
 def hand(request):
     """Parse handhistory defined in hand_text class attribute and returns a PokerStarsHandHistory instance."""
-    return PokerStarsHandHistory(request.instance.hand_text)
+    hh = PokerStarsHandHistory(request.instance.hand_text)
+    hh.parse()
+    return hh
 
 
 @pytest.fixture
 def hand_header(request):
     """Parse hand history header only defined in hand_text and returns a PokerStarsHandHistory instance."""
-    h = PokerStarsHandHistory(request.instance.hand_text, parse=False)
-    h.parse_header()
-    return h
+    hh = PokerStarsHandHistory(request.instance.hand_text)
+    hh.parse_header()
+    return hh
 
 
 class TestHandWithFlopOnly:

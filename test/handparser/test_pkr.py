@@ -13,15 +13,16 @@ from .pkr_hands import HANDS
 
 @fixture
 def hand_header(request):
-    h = PKRHandHistory(request.instance.hand_text, parse=False)
+    h = PKRHandHistory(request.instance.hand_text)
     h.parse_header()
     return h
 
 
 @fixture
 def hand(request):
-    return PKRHandHistory(request.instance.hand_text)
-
+    hh = PKRHandHistory(request.instance.hand_text)
+    hh.parse()
+    return hh
 
 class TestHoldemHand:
     hand_text = HANDS['holdem_full']
