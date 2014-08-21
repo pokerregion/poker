@@ -593,16 +593,17 @@ class Range:
                     self._add_suited(value[0] + rank)
 
     @classmethod
-    def from_hands(cls, hands):
-        return cls._from_objects(hands)
+    def from_file(cls, filename):
+        """Creates an instance from a given file, containing a range.
+        It can handle the PokerCruncher (.rng extension) format.
+        """
+        range_string = open(filename).read()
+        return cls(range_string)
 
     @classmethod
-    def from_combos(cls, combos):
-        return cls._from_objects(combos)
-
-    @classmethod
-    def _from_objects(cls, objects):
-        range_string = ' '.join(str(obj) for obj in objects)
+    def from_objects(cls, iterable):
+        """Make an instance from an iterable of Combos, Hands or both."""
+        range_string = ' '.join(str(obj) for obj in iterable)
         return cls(range_string)
 
     def __eq__(self, other):
