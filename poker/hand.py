@@ -614,6 +614,14 @@ class Range:
         return pair_strs + suited_strs + offsuit_strs
 
     def as_html(self):
+        """Returns a 13x13 HTML table as a str representing the range.
+
+        The table's CSS class is ``range``, pair cells (td element) are ``pair``, offsuit hands are
+        ``offsuit`` and suited hand cells has ``suited`` css class.
+        The HTML contains no extra whitespace at all.
+        Calculating it should not take more than 30ms (which takes calculating a 100% range).
+        """
+
         html = '<table class="range">'
 
         for row in reversed(Rank):
