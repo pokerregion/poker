@@ -9,7 +9,8 @@ install_requires = [
     'beautifulsoup4',
     'lxml',
     'python-dateutil',
-    'parsedatetime'
+    'parsedatetime',
+    'cached-property',
 ]
 
 

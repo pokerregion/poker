@@ -4,6 +4,7 @@ import itertools
 import functools
 from decimal import Decimal
 from functools import total_ordering
+from cached_property import cached_property
 from ._common import _MultiValueEnum, _ReprMixin
 from .card import Suit, Rank, Card, BROADWAY_RANKS
 
@@ -613,71 +614,6 @@ class Range:
         return pair_strs + suited_strs + offsuit_strs
 
     def as_html(self):
-        ALL_RANKS = 'AKQJT98765432'
-        html = '<table class="range">'
-
-        for ind1, row in enumerate(ALL_RANKS):
-            html += '<tr>'
-
-            for ind2, col in enumerate(ALL_RANKS):
-                if ind1 < ind2:
-                    suit, cssclass = 's', 'suited'
-                elif ind1 > ind2:
-                    suit, cssclass = 'o', 'offsuit'
-                else:
-                    suit, cssclass = '', 'pair'
-                    suit = ''
-
-                html += '<td class="{}">'.format(cssclass)
-                hand = Hand(row + col + suit)
-
-                # if hand in self.hands:
-                    # html += str(hand)
-
-                html += str(hand)
-
-                html += '</td>'
-
-            html += '</tr>'
-
-        html += '</table>'
-        return html
-
-    def as_html3(self):
-        ALL_RANKS = 'AKQJT98765432'
-        html = '<table class="range">'
-
-        all_hands = self.hands
-
-        for ind1, row in enumerate(ALL_RANKS):
-            html += '<tr>'
-
-            for ind2, col in enumerate(ALL_RANKS):
-                if ind1 < ind2:
-                    suit, cssclass = 's', 'suited'
-                elif ind1 > ind2:
-                    suit, cssclass = 'o', 'offsuit'
-                else:
-                    suit, cssclass = '', 'pair'
-                    suit = ''
-
-                html += '<td class="{}">'.format(cssclass)
-                hand = Hand(row + col + suit)
-
-                if hand in all_hands:
-                    html += str(hand)
-
-                html += '</td>'
-
-            html += '</tr>'
-
-        html += '</table>'
-        return html
-
-    def as_html4(self):
-        # cache them
-        all_hands = self.hands
-
         html = '<table class="range">'
 
         for row in reversed(Rank):
@@ -695,7 +631,7 @@ class Range:
                 html += '<td class="{}">'.format(cssclass)
                 hand = Hand(row.value + col.value + suit)
 
-                if hand in all_hands:
+                if hand in self.hands:
                     html += str(hand)
 
                 html += '</td>'
@@ -704,42 +640,6 @@ class Range:
 
         html += '</table>'
         return html
-
-    def as_html2(self):
-        temp = """<table class="range">
-                    {%- for row in range_table -%}
-                        <tr>
-                            {%- for hand, class in row -%}
-                                <td class="{{ class }}">{{ hand }}</td>
-                            {%- endfor -%}
-                        </tr>
-                    {%- endfor -%}
-                </table>"""
-
-        from jinja2 import Template
-        from poker.hand import Hand
-        from poker.card import Rank
-
-        ranks = list(map(Rank, 'AKQJT98765432'))
-        template = Template(temp)
-
-        range_table = []
-        for rank1 in reversed(Rank):
-            row = []
-            for rank2 in reversed(Rank):
-                if rank1 > rank2:
-                    suit, cssclass = 's', 'suited'
-                elif rank1 < rank2:
-                    suit, cssclass = 'o', 'offsuit'
-                else:
-                    suit, cssclass = '', 'pair'
-                hand = Hand(rank1.value + rank2.value + suit)
-                if hand not in self.hands:
-                    hand = ''
-                row.append((hand, cssclass))
-            range_table.append(row)
-
-        return template.render(range_table=range_table)
 
     def _get_pieces(self, combos, combos_in_hand):
         if not combos:
@@ -819,7 +719,7 @@ class Range:
         self._suiteds |= {Combo(tok[0] + s1.value + tok[1] + s2.value)
                           for s1, s2 in itertools.product(Suit, Suit) if s1 == s2}
 
-    @property
+    @cached_property
     def hands(self):
         """Tuple of hands contained in this range. If only one combo of the same hand is present,
         it will be shown here. e.g. ``Range('2s2c').hands == (Hand('22'),)``
@@ -827,11 +727,11 @@ class Range:
         hands = {combo.to_hand() for combo in self._combos}
         return tuple(sorted(hands))
 
-    @property
+    @cached_property
     def combos(self):
         return tuple(sorted(self._combos))
 
-    @property
+    @cached_property
     def percent(self):
         """What percent of combos does this range have compared to all the possible combos.
 
@@ -843,6 +743,6 @@ class Range:
         # round to two decimal point
         return float(dec_percent.quantize(Decimal('1.00')))
 
-    @property
+    @cached_property
     def _combos(self):
         return self._pairs | self._suiteds | self._offsuits
