@@ -165,12 +165,15 @@ class Hand(_ReprMixin):
 
 
 PAIR_HANDS = tuple(Hand(rank.value * 2) for rank in list(Rank))
+"""Tuple of all pair hands in ascending order."""
 
 OFFSUIT_HANDS = tuple(Hand(hand1.value + hand2.value + 'o') for hand1, hand2 in
                       itertools.combinations(list(Rank), 2))
+"""Tuple of offsuit hands in ascending order."""
 
 SUITED_HANDS = tuple(Hand(hand1.value + hand2.value + 's') for hand1, hand2 in
                      itertools.combinations(list(Rank), 2))
+"""Tuple of suited hands in ascending order."""
 
 
 @total_ordering
@@ -596,6 +599,9 @@ class Range:
         range = ' '.join(self.rep_pieces)
         return "{}('{}')".format(self.__class__.__qualname__, range)
 
+    def __hash__(self):
+        return hash(self.combos)
+
     @property
     def rep_pieces(self):
         """List of str pieces how the Range is represented."""
@@ -621,6 +627,9 @@ class Range:
         The HTML contains no extra whitespace at all.
         Calculating it should not take more than 30ms (which takes calculating a 100% range).
         """
+
+        # note about speed: I tried with functools.lru_cache, and the initial call was 3-4x slower
+        # than without it, and the need for calling this will usually be once, so no need to cache
 
         html = '<table class="range">'
 

@@ -87,17 +87,18 @@ Range
 
    .. note::
 
-      All of the properties below are `cached_properties`_, so make sure you invalidate the cache if you manipulate them!
+      All of the properties below are `cached_property`_, so make sure you invalidate the cache if you manipulate them!
+
 
    .. autoattribute:: hands
 
       :type: tuple of :class:`poker.hand.Hand`\ s
 
 
-
    .. autoattribute:: combos
 
       :type: tuple of :class:`poker.hand.Combo`\ s
+
 
    .. autoattribute:: percent
 
@@ -108,4 +109,5 @@ Range
 
       :type: list of str
 
-.. _cached_properties: https://pypi.python.org/pypi/cached-property/
+
+.. _cached_property: https://pypi.python.org/pypi/cached-property/
