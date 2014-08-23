@@ -36,6 +36,17 @@ class _HandMeta(type):
     def __iter__(cls):
         return iter(cls._all_hands)
 
+    def make_random(cls):
+        self = object.__new__(cls)
+        first = Rank.make_random()
+        second = Rank.make_random()
+        self._set_ranks_in_order(first, second)
+        if first == second:
+            self._shape = Shape.PAIR
+        else:
+            self._shape = random.choice([Shape.SUITED, Shape.OFFSUIT])
+        return self
+
 
 @total_ordering
 class Hand(_ReprMixin, metaclass=_HandMeta):
@@ -103,18 +114,6 @@ class Hand(_ReprMixin, metaclass=_HandMeta):
             return self._second < other._second
         else:
             return self._first < other._first
-
-    @classmethod
-    def make_random(cls):
-        self = super().__new__(cls)
-        first = Rank.make_random()
-        second = Rank.make_random()
-        self._set_ranks_in_order(first, second)
-        if first == second:
-            self._shape = Shape.PAIR
-        else:
-            self._shape = random.choice([Shape.SUITED, Shape.OFFSUIT])
-        return self
 
     def _set_ranks_in_order(self, first, second):
         # set as Rank objects.
