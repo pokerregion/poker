@@ -9,7 +9,8 @@ install_requires = [
     'beautifulsoup4',
     'lxml',
     'python-dateutil',
-    'parsedatetime'
+    'parsedatetime',
+    'cached-property',
 ]
 
 
@@ -34,7 +35,7 @@ class PyTest(TestCommand):
 
 setup(
     name = 'poker',
-    version = '0.10.1',
+    version = '0.10.2',
     description = 'Poker Framework',
     classifiers = [
         "Intended Audience :: Developers",

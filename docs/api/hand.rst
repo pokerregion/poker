@@ -85,18 +85,29 @@ Range
 
    :param str range:    Readable range in unicode
 
+   .. note::
+
+      All of the properties below are `cached_property`_, so make sure you invalidate the cache if you manipulate them!
+
+
    .. autoattribute:: hands
 
       :type: tuple of :class:`poker.hand.Hand`\ s
+
 
    .. autoattribute:: combos
 
       :type: tuple of :class:`poker.hand.Combo`\ s
 
+
    .. autoattribute:: percent
 
       :type: float (1-100)
 
+
    .. autoattribute:: rep_pieces
 
       :type: list of str
+
+
+.. _cached_property: https://pypi.python.org/pypi/cached-property/

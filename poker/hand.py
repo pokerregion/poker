@@ -4,6 +4,7 @@ import itertools
 import functools
 from decimal import Decimal
 from functools import total_ordering
+from cached_property import cached_property
 from ._common import _MultiValueEnum, _ReprMixin
 from .card import Suit, Rank, Card, BROADWAY_RANKS
 
@@ -164,12 +165,15 @@ class Hand(_ReprMixin):
 
 
 PAIR_HANDS = tuple(Hand(rank.value * 2) for rank in list(Rank))
+"""Tuple of all pair hands in ascending order."""
 
 OFFSUIT_HANDS = tuple(Hand(hand1.value + hand2.value + 'o') for hand1, hand2 in
                       itertools.combinations(list(Rank), 2))
+"""Tuple of offsuit hands in ascending order."""
 
 SUITED_HANDS = tuple(Hand(hand1.value + hand2.value + 's') for hand1, hand2 in
                      itertools.combinations(list(Rank), 2))
+"""Tuple of suited hands in ascending order."""
 
 
 @total_ordering
@@ -595,6 +599,9 @@ class Range:
         range = ' '.join(self.rep_pieces)
         return "{}('{}')".format(self.__class__.__qualname__, range)
 
+    def __hash__(self):
+        return hash(self.combos)
+
     @property
     def rep_pieces(self):
         """List of str pieces how the Range is represented."""
@@ -611,6 +618,45 @@ class Range:
         offsuit_strs = self._shorten_pieces(offsuit_pieces)
 
         return pair_strs + suited_strs + offsuit_strs
+
+    def as_html(self):
+        """Returns a 13x13 HTML table as a str representing the range.
+
+        The table's CSS class is ``range``, pair cells (td element) are ``pair``, offsuit hands are
+        ``offsuit`` and suited hand cells has ``suited`` css class.
+        The HTML contains no extra whitespace at all.
+        Calculating it should not take more than 30ms (which takes calculating a 100% range).
+        """
+
+        # note about speed: I tried with functools.lru_cache, and the initial call was 3-4x slower
+        # than without it, and the need for calling this will usually be once, so no need to cache
+
+        html = '<table class="range">'
+
+        for row in reversed(Rank):
+            html += '<tr>'
+
+            for col in reversed(Rank):
+                if row > col:
+                    suit, cssclass = 's', 'suited'
+                elif row < col:
+                    suit, cssclass = 'o', 'offsuit'
+                else:
+                    suit, cssclass = '', 'pair'
+                    suit = ''
+
+                html += '<td class="{}">'.format(cssclass)
+                hand = Hand(row.value + col.value + suit)
+
+                if hand in self.hands:
+                    html += str(hand)
+
+                html += '</td>'
+
+            html += '</tr>'
+
+        html += '</table>'
+        return html
 
     def _get_pieces(self, combos, combos_in_hand):
         if not combos:
@@ -690,7 +736,7 @@ class Range:
         self._suiteds |= {Combo(tok[0] + s1.value + tok[1] + s2.value)
                           for s1, s2 in itertools.product(Suit, Suit) if s1 == s2}
 
-    @property
+    @cached_property
     def hands(self):
         """Tuple of hands contained in this range. If only one combo of the same hand is present,
         it will be shown here. e.g. ``Range('2s2c').hands == (Hand('22'),)``
@@ -698,11 +744,11 @@ class Range:
         hands = {combo.to_hand() for combo in self._combos}
         return tuple(sorted(hands))
 
-    @property
+    @cached_property
     def combos(self):
         return tuple(sorted(self._combos))
 
-    @property
+    @cached_property
     def percent(self):
         """What percent of combos does this range have compared to all the possible combos.
 
@@ -714,6 +760,6 @@ class Range:
         # round to two decimal point
         return float(dec_percent.quantize(Decimal('1.00')))
 
-    @property
+    @cached_property
     def _combos(self):
         return self._pairs | self._suiteds | self._offsuits
