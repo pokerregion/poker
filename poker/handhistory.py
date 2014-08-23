@@ -10,6 +10,9 @@ from datetime import datetime
 import pytz
 
 
+__all__ = ['HandHistoryPlayer']
+
+
 _NORMALIZE = {'STARS': {'pokerstars', 'stars', 'ps'},
               'FTP': {'full tilt poker', 'full tilt', 'ftp'},
               'PKR': {'pkr', 'pkr poker'},

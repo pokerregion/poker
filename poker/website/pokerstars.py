@@ -4,6 +4,10 @@ import requests
 from bs4 import BeautifulSoup
 
 
+__all__ = ['get_current_tournaments', 'PokerStarsTournament',
+           'POKERSTARS_URL', 'TOURNAMENTS_XML_URL']
+
+
 POKERSTARS_URL = 'http://www.pokerstars.eu'
 TOURNAMENTS_XML_URL = POKERSTARS_URL + '/datafeed_global/tournaments/all.xml'
 

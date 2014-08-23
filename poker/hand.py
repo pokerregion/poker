@@ -9,6 +9,9 @@ from ._common import _MultiValueEnum, _ReprMixin
 from .card import Suit, Rank, Card, BROADWAY_RANKS
 
 
+__all__ = ['Shape', 'Hand', 'Combo', 'Range', 'PAIR_HANDS', 'OFFSUIT_HANDS', 'SUITED_HANDS']
+
+
 # pregenerated all the possible suit combinations, so we don't have to count them all the time
 _PAIR_SUIT_COMBINATIONS = ('cd', 'ch', 'cs', 'dh', 'ds', 'hs')
 _OFFSUIT_SUIT_COMBINATIONS = ('cd', 'ch', 'cs', 'dc', 'dh', 'ds',
