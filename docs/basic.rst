@@ -31,9 +31,30 @@ Ranks are comparable::
     >>> Rank('2') < Rank('A')
     True
 
+Making a random Rank::
 
-Deck
-----
+   >> Rank.make_random()
+   Rank('2')
+
+
+Cards
+-----
+
+Making a random Card::
+
+   >>> Card.make_random()
+   Card('As')
+
+Comparing Cards::
+
+   >>> Card('As') > Card('Ks')
+   True
+   >>> Card('Tc') < Card('Td')
+   True
+
+
+Implementing a deck
+-------------------
 
 A deck is just a list of :class:`poker.card.Card`\ s.
 Making a new deck and simulating shuffling is easy::
