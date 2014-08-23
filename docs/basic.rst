@@ -57,6 +57,14 @@ Operations with Hands and Combos
 
     >>> from poker.hand import Hand, Combo
 
+
+List of all hands::
+
+   >>> list(Hand)
+   [Hand('32o'), Hand('32s'), Hand('42o'), Hand('42s'), Hand('43o'), Hand('43s'), Hand('52o'),
+    ..., Hand('JJ'), Hand('QQ'), Hand('KK'), Hand('AA')]
+
+
 Comparing::
 
     >>> Hand('AAd') > Hand('KK')
