@@ -15,14 +15,47 @@ class Shape(_MultiValueEnum):
     PAIR =  '',
 
 
+class _HandMeta(type):
+    """Makes Hand class iterable. __iter__ goes through all hands in ascending order."""
+    def __new__(metacls, clsname, bases, classdict):
+        """Cache all possible Hand instances on the class itself."""
+        cls = super().__new__(metacls, clsname, bases, classdict)
+        cls._all_hands = tuple(cls._get_non_pairs()) + tuple(cls._get_pairs())
+        return cls
+
+    def _get_non_pairs(cls):
+        for rank1 in Rank:
+            for rank2 in (r for r in Rank if r < rank1):
+                yield cls(rank1.value + rank2.value + 'o')
+                yield cls(rank1.value + rank2.value + 's')
+
+    def _get_pairs(cls):
+        for rank in Rank:
+            yield cls(rank.value * 2)
+
+    def __iter__(cls):
+        return iter(cls._all_hands)
+
+    def make_random(cls):
+        self = object.__new__(cls)
+        first = Rank.make_random()
+        second = Rank.make_random()
+        self._set_ranks_in_order(first, second)
+        if first == second:
+            self._shape = Shape.PAIR
+        else:
+            self._shape = random.choice([Shape.SUITED, Shape.OFFSUIT])
+        return self
+
+
 @total_ordering
-class Hand(_ReprMixin):
+class Hand(_ReprMixin, metaclass=_HandMeta):
     """General hand without a precise suit. Only knows about two ranks and shape."""
 
     __slots__ = ('_first', '_second', '_shape')
 
     def __new__(cls, hand):
-        if isinstance(hand, Hand):
+        if isinstance(hand, cls):
             return hand
 
         if len(hand) not in (2, 3):
@@ -30,7 +63,7 @@ class Hand(_ReprMixin):
 
         first, second = hand[:2]
 
-        self = super().__new__(cls)
+        self = object.__new__(cls)
 
         if len(hand) == 2:
             if first != second:
@@ -81,18 +114,6 @@ class Hand(_ReprMixin):
             return self._second < other._second
         else:
             return self._first < other._first
-
-    @classmethod
-    def make_random(cls):
-        self = super().__new__(cls)
-        first = Rank.make_random()
-        second = Rank.make_random()
-        self._set_ranks_in_order(first, second)
-        if first == second:
-            self._shape = Shape.PAIR
-        else:
-            self._shape = random.choice([Shape.SUITED, Shape.OFFSUIT])
-        return self
 
     def _set_ranks_in_order(self, first, second):
         # set as Rank objects.
@@ -164,15 +185,13 @@ class Hand(_ReprMixin):
         self._shape = Shape(value)
 
 
-PAIR_HANDS = tuple(Hand(rank.value * 2) for rank in list(Rank))
+PAIR_HANDS = tuple(hand for hand in Hand if hand.is_pair)
 """Tuple of all pair hands in ascending order."""
 
-OFFSUIT_HANDS = tuple(Hand(hand1.value + hand2.value + 'o') for hand1, hand2 in
-                      itertools.combinations(list(Rank), 2))
+OFFSUIT_HANDS = tuple(hand for hand in Hand if hand.is_offsuit)
 """Tuple of offsuit hands in ascending order."""
 
-SUITED_HANDS = tuple(Hand(hand1.value + hand2.value + 's') for hand1, hand2 in
-                     itertools.combinations(list(Rank), 2))
+SUITED_HANDS = tuple(hand for hand in Hand if hand.is_suited)
 """Tuple of suited hands in ascending order."""
 
 

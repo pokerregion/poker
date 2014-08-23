@@ -31,23 +31,43 @@ Ranks are comparable::
     >>> Rank('2') < Rank('A')
     True
 
+Making a random Rank::
 
-Deck
-----
+   >> Rank.make_random()
+   Rank('2')
 
-:data:`poker.card.DECK` is a list of :class:`poker.card.Card`\ s.
 
+Cards
+-----
+
+Making a random Card::
+
+   >>> Card.make_random()
+   Card('As')
+
+Comparing Cards::
+
+   >>> Card('As') > Card('Ks')
+   True
+   >>> Card('Tc') < Card('Td')
+   True
+
+
+Implementing a deck
+-------------------
+
+A deck is just a list of :class:`poker.card.Card`\ s.
 Making a new deck and simulating shuffling is easy::
 
-    from poker.card import DECK
     import random
+    from poker.card import Card
 
-    newdeck = list(DECK)
-    random.shuffle(newdeck)
+    deck = list(Card)
+    random.shuffle(deck)
 
-    flop = [newdeck.pop() for __ in range(3)]
-    turn = newdeck.pop()
-    river = newdeck.pop()
+    flop = [deck.pop() for __ in range(3)]
+    turn = deck.pop()
+    river = deck.pop()
 
 
 Operations with Hands and Combos
@@ -56,6 +76,14 @@ Operations with Hands and Combos
 .. code-block:: python
 
     >>> from poker.hand import Hand, Combo
+
+
+List of all hands::
+
+   >>> list(Hand)
+   [Hand('32o'), Hand('32s'), Hand('42o'), Hand('42s'), Hand('43o'), Hand('43s'), Hand('52o'),
+    ..., Hand('JJ'), Hand('QQ'), Hand('KK'), Hand('AA')]
+
 
 Comparing::
 

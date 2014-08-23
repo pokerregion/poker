@@ -21,13 +21,12 @@ class _MultiMeta(EnumMeta):
                 return member
         return super().__call__(suit)
 
-
-@total_ordering
-class _MultiValueEnum(Enum, metaclass=_MultiMeta):
-    @classmethod
     def make_random(cls):
         return random.choice(list(cls))
 
+
+@total_ordering
+class _MultiValueEnum(Enum, metaclass=_MultiMeta):
     # From Python manual:
     # If a class that overrides __eq__() needs to retain the implementation of __hash__()
     # from a parent class, the interpreter must be told this explicitly

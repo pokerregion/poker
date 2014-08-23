@@ -54,9 +54,9 @@ copyright = '2014, Kiss György'
 # built documents.
 #
 # The short X.Y version.
-version = '0.10.2'
+version = '0.11.0'
 # The full version, including alpha/beta/rc tags.
-release = '0.10.2'
+release = '0.11.0'
 
 # This config value must be a dictionary of external sites,
 # mapping unique short alias names to a base URL and a prefix.

@@ -68,10 +68,3 @@ Card
 
       :type: :class:`Suit`
 
-
-
-DECK
-----
-
-.. autodata:: poker.card.DECK
-
