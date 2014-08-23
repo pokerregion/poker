@@ -35,19 +35,18 @@ Ranks are comparable::
 Deck
 ----
 
-:data:`poker.card.DECK` is a list of :class:`poker.card.Card`\ s.
-
+A deck is just a list of :class:`poker.card.Card`\ s.
 Making a new deck and simulating shuffling is easy::
 
-    from poker.card import DECK
     import random
+    from poker.card import Card
 
-    newdeck = list(DECK)
-    random.shuffle(newdeck)
+    deck = list(Card)
+    random.shuffle(deck)
 
-    flop = [newdeck.pop() for __ in range(3)]
-    turn = newdeck.pop()
-    river = newdeck.pop()
+    flop = [deck.pop() for __ in range(3)]
+    turn = deck.pop()
+    river = deck.pop()
 
 
 Operations with Hands and Combos

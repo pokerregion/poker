@@ -40,30 +40,40 @@ FACE_RANKS = Rank('J'), Rank('Q'), Rank('K')
 BROADWAY_RANKS = Rank('T'), Rank('J'), Rank('Q'), Rank('K'), Rank('A')
 
 
+class _CardMeta(type):
+    def __new__(metacls, clsname, bases, classdict):
+        """Cache all possible Card instances on the class itself."""
+        cls = super().__new__(metacls, clsname, bases, classdict)
+        cls._all_cards = list(cls(str(rank) + str(suit))
+                              for rank, suit in itertools.product(Rank, Suit))
+        return cls
+
+    def make_random(cls):
+        """Returns a random Card instance."""
+        self = super().__new__(cls)
+        self._rank = Rank.make_random()
+        self._suit = Suit.make_random()
+        return self
+
+    def __iter__(cls):
+        return iter(cls._all_cards)
+
+
 @total_ordering
-class Card(_ReprMixin):
+class Card(_ReprMixin, metaclass=_CardMeta):
     """Represents a Card, which consists a Rank and a Suit."""
 
     __slots__ = ('_rank', '_suit')
 
     def __new__(cls, card):
-        if isinstance(card, Card):
+        if isinstance(card, cls):
             return card
 
         if len(card) != 2:
             raise ValueError('length should be two in {!r}'.format(card))
 
-        self = super().__new__(cls)
+        self = object.__new__(cls)
         self.rank, self.suit = card
-        return self
-
-    @classmethod
-    def make_random(cls):
-        """Returns a random Card instance."""
-
-        self = super().__new__(cls)
-        self._rank = Rank.make_random()
-        self._suit = Suit.make_random()
         return self
 
     def __hash__(self):
@@ -109,7 +119,3 @@ class Card(_ReprMixin):
     @suit.setter
     def suit(self, value):
         self._suit = Suit(value)
-
-
-DECK = tuple(Card(str(rank) + str(suit)) for rank, suit in
-             itertools.product(list(Rank), list(Suit)))

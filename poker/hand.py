@@ -20,7 +20,7 @@ class _HandMeta(type):
     def __new__(metacls, clsname, bases, classdict):
         """Cache all possible Hand instances on the class itself."""
         cls = super().__new__(metacls, clsname, bases, classdict)
-        cls._all_hands = list(cls._get_non_pairs()) + list(cls._get_pairs())
+        cls._all_hands = tuple(cls._get_non_pairs()) + tuple(cls._get_pairs())
         return cls
 
     def _get_non_pairs(cls):
