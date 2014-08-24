@@ -25,7 +25,8 @@ class FullTiltPokerHandHistory(SplittableHandHistory):
         ^Full[ ]Tilt[ ]Poker[ ]                                 # Poker Room
         Game[ ]\#(?P<ident>\d*):[ ]                             # Hand number
         (?P<tournament_name>                                    # Tournament name
-            \$?(?P<buyin>\d*)?                # buyin, not always there. part of tournament_name
+            \$?(?P<buyin>\d*)?                                  # buyin, not always there,
+                                                                # part of tournament_name
             \+?(?P<rake>\d*.\d{2})?                             # rake, same case as buyin
         .*)[ ]                                                  # end of tournament_name
         \((?P<tournament_ident>\d*)\),[ ]                       # Tournament Number

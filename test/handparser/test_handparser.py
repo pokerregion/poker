@@ -11,21 +11,21 @@ class TestDictBehavior:
                      'flop_actions', 'button', 'flop', 'game_type', 'players', 'table_name', 'sb', 'total_pot',
                      'river', 'tournament_level'}
 
-    def test_hand_is_mutablemapping(self, all_hands):
-        assert isinstance(all_hands, MutableMapping)
+    def test_hand_is_mutablemapping(self, all_stars_hands):
+        assert isinstance(all_stars_hands, MutableMapping)
 
-    def test_all_keys_set(self, all_hands):
-        assert self.expected_keys == set(all_hands.keys())
+    def test_all_keys_set(self, all_stars_hands):
+        assert self.expected_keys == set(all_stars_hands.keys())
 
-    def test_raw_is_not_a_key(self, all_hands):
+    def test_raw_is_not_a_key(self, all_stars_hands):
         with pytest.raises(KeyError):
-            all_hands['raw']
+            all_stars_hands['raw']
 
-    def test_raw_is_an_attribute(self, all_hands):
-        assert hasattr(all_hands, 'raw')
+    def test_raw_is_an_attribute(self, all_stars_hands):
+        assert hasattr(all_stars_hands, 'raw')
 
-    def test_there_should_be_not_only_one_but_twentynine_keys(self, all_hands):
-        assert 29 == len(all_hands) == len(all_hands.keys())
+    def test_there_should_be_not_only_one_but_twentynine_keys(self, all_stars_hands):
+        assert 29 == len(all_stars_hands) == len(all_stars_hands.keys())
 
     def test_keys_never_gives_back_class_attributes(self):
         class ModdedPokerStarsHandHistory(PokerStarsHandHistory):
