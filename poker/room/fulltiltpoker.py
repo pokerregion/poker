@@ -22,22 +22,25 @@ class FullTiltPokerHandHistory(SplittableHandHistory):
 
     # header patterns
     _tournament_re = re.compile(r"""
-                        ^Full[ ]Tilt[ ]Poker[ ]                 # Poker Room
-                        Game[ ]\#(?P<ident>\d*):[ ]             # Hand number
-                        (?P<tournament_name>.*)[ ]              # Tournament name
-                        \((?P<tournament_ident>\d*)\),[ ]       # Tournament Number
-                        Table[ ](?P<table_name>\d*)[ ]-[ ]      # Table name
-                        """, re.VERBOSE)
-    _game_re = re.compile(r" - (?P<limit>NL|PL|FL|No Limit|Pot Limit|Fix Limit) (?P<game>.*?) - ")
-    _blind_re = re.compile(r" - (\d*)/(\d*) - ")
-    _date_re = re.compile(r" \[(.*)\]$")
-
+        ^Full[ ]Tilt[ ]Poker[ ]                                 # Poker Room
+        Game[ ]\#(?P<ident>\d*):[ ]                             # Hand number
+        (?P<tournament_name>                                    # Tournament name
+            \$?(?P<buyin>\d*)?                # buyin, not always there. part of tournament_name
+            \+?(?P<rake>\d*.\d{2})?                             # rake, same case as buyin
+        .*)[ ]                                                  # end of tournament_name
+        \((?P<tournament_ident>\d*)\),[ ]                       # Tournament Number
+        Table[ ](?P<table_name>\d*)[ ]-[ ]                      # Table name
+        (?P<limit>NL|PL|FL|No Limit|Pot Limit|Fix Limit)[ ]     # limit
+        (?P<game>.*?)[ ]-[ ]                                    # game
+        (?P<sb>\d*)/(?P<bb>\d*)[ ]-[ ].*                        # blinds
+        \[(?P<date>.*)\]$                                       # date in ET
+        """, re.VERBOSE)
     _seat_re = re.compile(r"^Seat (\d): (.*) \(([\d,]*)\)$")
     _button_re = re.compile(r"^The button is in seat #(\d)$")
     _hole_cards_re = re.compile(r"^Dealt to (.*) \[(..) (..)\]$")
     _street_re = re.compile(r"\[([^\]]*)\] \(Total Pot: (\d*)\, (\d) Players")
     _pot_re = re.compile(r"^Total pot ([\d,]*) .*\| Rake (\d*)$")
-    _winner_re = re.compile(r"^Seat (\d): (.*) collected \((\d*)\),")
+    _winner_re = re.compile(r"^Seat (?P<seat>\d): (?P<name>.*?) .*collected \((\d*)\),")
     _showdown_re = re.compile(r"^Seat (\d): (.*) showed .* and won")
 
     # search split locations (basically empty strings)
@@ -46,26 +49,27 @@ class FullTiltPokerHandHistory(SplittableHandHistory):
 
     def parse_header(self):
         header_line = self._splitted[0]
-
         match = self._tournament_re.match(header_line)
-        self.game_type = 'TOUR'
+        self.sb = Decimal(match.group('sb'))
+        self.bb = Decimal(match.group('bb'))
+        self.tournament_level = self.rake = None
+        self._parse_date(match.group('date'))
         self.ident = match.group('ident')
         self.tournament_name = match.group('tournament_name')
+        self.game_type = 'SNG' if 'Sit & Go' in self.tournament_name else 'TOUR'
         self.tournament_ident = match.group('tournament_ident')
         self.table_name = match.group('table_name')
-
-        match = self._game_re.search(header_line)
+        self.currency = 'USD' if '$' in self.tournament_name else None
         self.limit = normalize(match.group('limit'))
         self.game = normalize(match.group('game'))
-
-        match = self._blind_re.search(header_line)
-        self.sb = Decimal(match.group(1))
-        self.bb = Decimal(match.group(2))
-
-        match = self._date_re.search(header_line)
-        self._parse_date(match.group(1))
-
-        self.tournament_level = self.buyin = self.rake = self.currency = None
+        buyin, rake = match.group('buyin', 'rake')
+        self.buyin = Decimal(buyin) if buyin else None
+        if rake:
+            self.rake = Decimal(rake)
+        elif buyin:
+            self.rake = 0
+        else:
+            self.rake = None
 
         self.header_parsed = True
 
@@ -167,9 +171,9 @@ class FullTiltPokerHandHistory(SplittableHandHistory):
         for line in self._splitted[start:]:
             if not self.show_down and "collected" in line:
                 match = self._winner_re.match(line)
-                winners.add(match.group(2))
+                winners.add(match.group('name'))
             elif self.show_down and "won" in line:
                 match = self._showdown_re.match(line)
-                winners.add(match.group(2))
+                winners.add(match.group('name'))
 
         self.winners = tuple(winners)
