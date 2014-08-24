@@ -53,7 +53,7 @@ class _CardMeta(type):
 
     def make_random(cls):
         """Returns a random Card instance."""
-        self = super().__new__(cls)
+        self = object.__new__(cls)
         self._rank = Rank.make_random()
         self._suit = Suit.make_random()
         return self
