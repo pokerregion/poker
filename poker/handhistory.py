@@ -13,32 +13,32 @@ import pytz
 __all__ = ['HandHistoryPlayer']
 
 
-_NORMALIZE = {'STARS': {'pokerstars', 'stars', 'ps'},
-              'FTP': {'full tilt poker', 'full tilt', 'ftp'},
-              'PKR': {'pkr', 'pkr poker'},
+_NORMALIZE = {'STARS': {'POKERSTARS', 'STARS', 'PS'},
+              'FTP': {'FULL TILT POKER', 'FULL TILT', 'FTP'},
+              'PKR': {'PKR', 'PKR POKER'},
 
-              'USD': {'usd', '$'},
-              'EUR': {'eur', '€'},
-              'GBP': {'gbp', '£'},
+              'USD': {'USD', '$'},
+              'EUR': {'EUR', '€'},
+              'GBP': {'GBP', '£'},
 
-              'TOUR': {'tournament', 'tour'},
-              'CASH': {'cash game', 'ring', 'cash'},
+              'TOUR': {'TOURNAMENT', 'TOUR'},
+              'CASH': {'CASH GAME', 'RING', 'CASH'},
 
-              'HOLDEM': {"hold'em", 'holdem'},
-              'OMAHA': {'omaha'},
+              'HOLDEM': {"HOLD'EM", 'HOLDEM'},
+              'OMAHA': {'OMAHA'},
 
-              'NL': {'no limit', 'nl'},
-              'PL': {'pot limit', 'pl'},
-              'FL': {'fix limit', 'fl'},
+              'NL': {'NO LIMIT', 'NL'},
+              'PL': {'POT LIMIT', 'PL'},
+              'FL': {'FIX LIMIT', 'FL'},
 
-              'R': {'real money'},
-              'P': {'play money'}}
+              'R': {'REAL MONEY'},
+              'P': {'PLAY MONEY'}}
 
 
 def normalize(value):
     """Normalize common words which can be in multiple form, but all means the same."""
 
-    value = value.lower()
+    value = value.upper()
     for normalized, compare in _NORMALIZE.items():
         if value in compare:
             return normalized
