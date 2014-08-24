@@ -62,6 +62,7 @@ class BaseHandHistory(MutableMapping, metaclass=ABCMeta):
         self.header_parsed = False
         self.parsed = False
 
+    @classmethod
     def from_file(cls, filename):
         hand_text = open(filename).read()
         self = cls(hand_text)
@@ -150,3 +151,22 @@ class SplittableHandHistory(BaseHandHistory):
         # sections[0] is before HOLE CARDS
         # sections[-1] is before SUMMARY
         self._sections = [ind for ind, elem in enumerate(self._splitted) if not elem]
+
+    def parse(self):
+        super().parse()
+
+        self._parse_table()
+        self._parse_players()
+        self._parse_button()
+        self._parse_hole_cards()
+        self._parse_preflop()
+        self._parse_street('flop')
+        self._parse_street('turn')
+        self._parse_street('river')
+        self._parse_showdown()
+        self._parse_pot()
+        self._parse_board()
+        self._parse_winners()
+
+        del self._splitted
+        self.parsed = True

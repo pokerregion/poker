@@ -33,7 +33,7 @@ class PokerStarsHandHistory(SplittableHandHistory):
                         -[ ].*[ ]                               # localized date
                         \[(?P<date>.*)\]$                       # ET date
                         """, re.VERBOSE)
-    _table_re = re.compile(r"^Table '(.*)' (\d)-max Seat #(\d) is the button$")
+    _table_re = re.compile(r"^Table '(.*)' (\d)-max Seat #(?P<button>\d) is the button$")
     _seat_re = re.compile(r"^Seat (?P<seat>\d): (?P<name>.*) \((?P<stack>\d*) in chips\)$")
     _hole_cards_re = re.compile(r"^Dealt to (.*) \[(..) (..)\]$")
     _pot_re = re.compile(r"^Total pot (\d*) .*\| Rake (\d*)$")
@@ -47,7 +47,8 @@ class PokerStarsHandHistory(SplittableHandHistory):
     # sections[-1] is before SUMMARY
 
     def parse_header(self):
-        match = self._header_re.match(self._splitted[0])
+        header_line = self._splitted[0]
+        match = self._header_re.match(header_line)
         self.game_type = normalize(match.group('game_type'))
         self.sb = Decimal(match.group('sb'))
         self.bb = Decimal(match.group('bb'))
@@ -63,31 +64,12 @@ class PokerStarsHandHistory(SplittableHandHistory):
 
         self.header_parsed = True
 
-    def parse(self):
-        super().parse()
-        button_seat = self._parse_table()
-        self._parse_seats(button_seat)
-        self._parse_hole_cards()
-        self._parse_preflop()
-        self._parse_street('flop')
-        self._parse_street('turn')
-        self._parse_street('river')
-        self.show_down = "SHOW DOWN" in self._splitted
-        self._parse_pot()
-        self._parse_board()
-        self._parse_winners()
-
-        self.parsed = True
-
     def _parse_table(self):
-        match = self._table_re.match(self._splitted[1])
-        self.table_name = match.group(1)
-        self.max_players = int(match.group(2))
-        button_seat = int(match.group(3))
+        self._table_match = self._table_re.match(self._splitted[1])
+        self.table_name = self._table_match.group(1)
+        self.max_players = int(self._table_match.group(2))
 
-        return button_seat
-
-    def _parse_seats(self, button_seat):
+    def _parse_players(self):
         self.players = self._init_seats(self.max_players)
         for line in self._splitted[2:]:
             match = self._seat_re.match(line)
@@ -102,6 +84,8 @@ class PokerStarsHandHistory(SplittableHandHistory):
                 combo=None
             )
 
+    def _parse_button(self):
+        button_seat = int(self._table_match.group('button'))
         self.button = self.players[button_seat - 1]
 
     def _parse_hole_cards(self):
@@ -131,6 +115,9 @@ class PokerStarsHandHistory(SplittableHandHistory):
         except ValueError:
             setattr(self, street, None)
             setattr(self, '%s_actions' % street.lower(), None)
+
+    def _parse_showdown(self):
+        self.show_down = 'SHOW DOWN' in self._splitted
 
     def _parse_pot(self):
         potline = self._splitted[self._sections[-1] + 2]
