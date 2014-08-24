@@ -122,7 +122,7 @@ class TestHandWithFlopTurnRiver:
          ('table_name', '1'),
          ('tournament_level', None),
          ('buyin', Decimal(10)),
-         ('rake', 0),
+         ('rake', None),
          ('currency', 'USD'),
         ])
     def test_values_after_header_parsed(self, hand_header, attribute, expected_value):

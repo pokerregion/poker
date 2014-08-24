@@ -145,3 +145,6 @@ class PokerStarsHandHistory(SplittableHandHistory):
                 winners.add(match.group(2))
 
         self.winners = tuple(winners)
+
+    def _parse_extra(self):
+        pass

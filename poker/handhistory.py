@@ -167,6 +167,7 @@ class SplittableHandHistory(BaseHandHistory):
         self._parse_pot()
         self._parse_board()
         self._parse_winners()
+        self._parse_extra()
 
         del self._splitted
         self.parsed = True
