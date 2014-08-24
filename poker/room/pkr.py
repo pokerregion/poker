@@ -15,17 +15,22 @@ class PKRHandHistory(SplittableHandHistory):
     poker_room = 'PKR'
     date_format = '%d %b %Y %H:%M:%S'
     currency = 'USD'
+    tournament_ident = None
+    tournament_name = None
+    tournament_level = None
+
     _TZ = pytz.UTC
 
     _split_re = re.compile(r"Dealing |\nDealing Cards\n|Taking |Moving |\n")
     _blinds_re = re.compile(r"^Blinds are now \$([\d.]*) / \$([\d.]*)$")
-    _dealt_re = re.compile(r"^\[(. .)\]\[(. .)\] to (.*)$")
+    _hero_re = re.compile(r"^\[(. .)\]\[(. .)\] to (?P<hero_name>.*)$")
     _seat_re = re.compile(r"^Seat (\d\d?): (.*) - \$([\d.]*) ?(.*)$")
     _sizes_re = re.compile(r"^Pot sizes: \$([\d.]*)$")
     _card_re = re.compile(r"\[(. .)\]")
     _rake_re = re.compile(r"Rake of \$([\d.]*) from pot \d$")
     _win_re = re.compile(r"^(.*) wins \$([\d.]*) with: ")
-    SPLIT_CARD_SPACE = slice(0, 3, 2)
+    _SPLIT_CARD_SPACE = slice(0, 3, 2)
+
 
     # search split locations (basically empty strings)
     # sections[1] is after blinds, before preflop
@@ -49,22 +54,11 @@ class PKRHandHistory(SplittableHandHistory):
 
         self.button = int(self._splitted[9][18:])  # cut off "Button is at seat "
 
-        self.tournament_ident = None
-        self.tournament_name = None
-        self.tournament_level = None
+    def _parse_table(self):
+        # table name already parsed
+        pass
 
-    def parse(self):
-        super().parse()
-
-        self._parse_seats()
-        self._parse_hero()
-        self._parse_preflop()
-        self._parse_street('flop')
-        self._parse_street('turn')
-        self._parse_street('river')
-        self._parse_showdown()
-
-    def _parse_seats(self):
+    def _parse_players(self):
         # In hh there is no indication of max_players,
         # so init for 10, as there are 10 player tables on PKR.
         players = self._init_seats(10)
@@ -79,24 +73,22 @@ class PKRHandHistory(SplittableHandHistory):
         self.max_players = seat_number
         self.players = players[:self.max_players]
 
+    def _parse_button(self):
         button_row = self._splitted[self._sections[0] + 1]
 
         # cut last two because there can be 10 seats also
         # in case of one digit, the first char will be a space
         # but int() can convert it without hiccups :)
         button_seat = int(button_row[-2:])
-        self.button = players[button_seat - 1]
+        self.button = self.players[button_seat - 1]
 
     def _parse_hero(self):
         dealt_row = self._splitted[self._sections[1] + 1]
-        match = self._dealt_re.match(dealt_row)
+        match = self._hero_re.match(dealt_row)
 
-        first = match.group(1)[self.SPLIT_CARD_SPACE]
-        second = match.group(2)[self.SPLIT_CARD_SPACE]
-        hero_name = match.group(3)
-        player_names = [p.name for p in self.players]
-        hero_index = player_names.index(hero_name)
-        hero = self.players[hero_index]
+        first = match.group(1)[self._SPLIT_CARD_SPACE]
+        second = match.group(2)[self._SPLIT_CARD_SPACE]
+        hero, hero_index = self._get_hero_from_players(match.group('hero_name'))
         self.hero = self.players[hero_index] = hero._replace(combo=Combo(first + second))
         if self.button.name == self.hero.name:
             self.button = self.hero
@@ -113,7 +105,7 @@ class PKRHandHistory(SplittableHandHistory):
             start = self._sections[section] + 1
 
             street_line = self._splitted[start]
-            cards = list(map(lambda x: x[self.SPLIT_CARD_SPACE], self._card_re.findall(street_line)))
+            cards = list(map(lambda x: x[self._SPLIT_CARD_SPACE], self._card_re.findall(street_line)))
             setattr(self, street, tuple(map(Card, cards)) if street == 'flop' else Card(cards[0]))
 
             stop = next(v for v in self._sections if v > start) - 1
@@ -146,3 +138,16 @@ class PKRHandHistory(SplittableHandHistory):
 
         self.winners = tuple(winners)
         self.total_pot = total_pot
+
+    def _parse_pot(self):
+        # already parsed in _parse_showdown
+        pass
+
+    def _parse_board(self):
+        pass
+
+    def _parse_winners(self):
+        pass
+
+    def _parse_extra(self):
+        pass

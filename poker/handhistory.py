@@ -138,6 +138,11 @@ class BaseHandHistory(MutableMapping, metaclass=ABCMeta):
 
         return players
 
+    def _get_hero_from_players(self, hero_name):
+        player_names = [p.name for p in self.players]
+        hero_index = player_names.index(hero_name)
+        return self.players[hero_index], hero_index
+
 
 class SplittableHandHistory(BaseHandHistory):
     def __init__(self, hand_text):
@@ -158,7 +163,7 @@ class SplittableHandHistory(BaseHandHistory):
         self._parse_table()
         self._parse_players()
         self._parse_button()
-        self._parse_hole_cards()
+        self._parse_hero()
         self._parse_preflop()
         self._parse_street('flop')
         self._parse_street('turn')

@@ -39,7 +39,7 @@ class FullTiltPokerHandHistory(SplittableHandHistory):
         """, re.VERBOSE)
     _seat_re = re.compile(r"^Seat (\d): (.*) \(([\d,]*)\)$")
     _button_re = re.compile(r"^The button is in seat #(\d)$")
-    _hole_cards_re = re.compile(r"^Dealt to (.*) \[(..) (..)\]$")
+    _hero_re = re.compile(r"^Dealt to (?P<hero_name>.*) \[(..) (..)\]$")
     _street_re = re.compile(r"\[([^\]]*)\] \(Total Pot: (\d*)\, (\d) Players")
     _pot_re = re.compile(r"^Total pot ([\d,]*) .*\| Rake (\d*)$")
     _winner_re = re.compile(r"^Seat (?P<seat>\d): (?P<name>.*?) .*collected \((\d*)\),")
@@ -96,13 +96,10 @@ class FullTiltPokerHandHistory(SplittableHandHistory):
         button_seat = int(self._button_re.match(button_line).group(1))
         self.button = self.players[button_seat - 1]
 
-    def _parse_hole_cards(self):
+    def _parse_hero(self):
         hole_cards_line = self._splitted[self._sections[0] + 2]
-        match = self._hole_cards_re.match(hole_cards_line)
-        hero_name = match.group(1)
-        player_names = [p.name for p in self.players]
-        hero_index = player_names.index(hero_name)
-        hero = self.players[hero_index]
+        match = self._hero_re.match(hole_cards_line)
+        hero, hero_index = self._get_hero_from_players(match.group('hero_name'))
         self.hero = self.players[hero_index] = hero._replace(
             combo=Combo(match.group(2) + match.group(3))
         )
