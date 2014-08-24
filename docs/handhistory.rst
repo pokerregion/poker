@@ -27,3 +27,22 @@ API
 ---
 
 See all the room specific classes in them :doc:`api/handhistory` documentation.
+
+
+About hand history changes
+--------------------------
+
+Poker rooms sometimes change the hand history format significally. My goal is to cover all hand
+histories after 2014.01.01., because it is the best compromise between fast development and good
+coverage. This way we don't have to deal with ancient hand history files and overcomplicate the
+code and we can concentrate on the future instead of the past. Also, hopefully hand history formats
+are stable enough nowadays to follow this plan, less and less new game types coming up.
+
+One of the "recent" changes made by Full Tilt is from 2013.05.10.:
+
+   "In the software update from Wednesday, changed the format of the .
+   This means that Hold'em Manager does no longer import these hands, and the HUD is not working.
+   ... B.t.w. They just renamed "No Limit Hold'em" to "NL Hold'em",
+   and swapped position with the blinds, inside the handhistory files."
+
+Details: http://www.bankrollmob.com/forum.asp?mode=thread&id=307215

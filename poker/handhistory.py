@@ -121,6 +121,7 @@ class BaseHandHistory(MutableMapping, metaclass=ABCMeta):
         return tuple(board) if board else None
 
     def _parse_date(self, date_string):
+        """Parse the date_string and return a datetime object as UTC."""
         date = datetime.strptime(date_string, self.date_format)
         self.date = self._TZ.localize(date).astimezone(pytz.UTC)
 
