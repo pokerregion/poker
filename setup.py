@@ -11,6 +11,7 @@ install_requires = [
     'python-dateutil',
     'parsedatetime',
     'cached-property',
+    'click',
 ]
 
 
@@ -51,6 +52,10 @@ setup(
     license = "MIT",
     packages = find_packages(),
     install_requires = install_requires,
+    entry_points = """
+    [console_scripts]
+    poker = poker.scripts:poker
+    """,
     tests_require = ['pytest', 'coverage', 'coveralls'],
     cmdclass = {'test': PyTest},
 )
