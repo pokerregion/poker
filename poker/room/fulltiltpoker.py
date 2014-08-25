@@ -25,7 +25,7 @@ class FullTiltPokerHandHistory(SplittableHandHistory):
     # header patterns
     _header_re = re.compile(r"""
         ^Full[ ]Tilt[ ]Poker[ ]                                 # Poker Room
-        Game[ ]\#(?P<ident>\d*):[ ]                             # Hand number
+        Game[ ]\#(?P<ident>\d*):[ ]                             # Hand history id
         (?P<tournament_name>                                    # Tournament name
             \$?(?P<buyin>\d*)?                                  # buyin, not always there,
                                                                 # part of tournament_name

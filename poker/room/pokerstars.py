@@ -20,7 +20,7 @@ class PokerStarsHandHistory(SplittableHandHistory):
     _split_re = re.compile(r" ?\*\*\* ?\n?|\n")
     _header_re = re.compile(r"""
                         ^PokerStars[ ]                          # Poker Room
-                        Hand[ ]\#(?P<ident>\d*):[ ]             # Hand number
+                        Hand[ ]\#(?P<ident>\d*):[ ]             # Hand history id
                         (?P<game_type>Tournament)[ ]            # Type
                         \#(?P<tournament_ident>\d*),[ ]         # Tournament Number
                         \$(?P<buyin>\d*\.\d{2})\+               # buyin

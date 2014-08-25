@@ -30,7 +30,7 @@ class PKRHandHistory(SplittableHandHistory):
     _rake_re = re.compile(r"Rake of \$([\d.]*) from pot \d$")
     _win_re = re.compile(r"^(.*) wins \$([\d.]*) with: ")
     _SPLIT_CARD_SPACE = slice(0, 3, 2)
-
+    _STREET_SECTIONS = {'flop': 2, 'turn': 3, 'river': 4}
 
     # search split locations (basically empty strings)
     # sections[1] is after blinds, before preflop
@@ -99,8 +99,7 @@ class PKRHandHistory(SplittableHandHistory):
         self.preflop_actions = tuple(self._splitted[start:stop])
 
     def _parse_street(self, street):
-        street_sections = {'flop': 2, 'turn': 3, 'river': 4}
-        section = street_sections[street]
+        section = self._STREET_SECTIONS[street]
         try:
             start = self._sections[section] + 1
 
@@ -144,9 +143,12 @@ class PKRHandHistory(SplittableHandHistory):
         pass
 
     def _parse_board(self):
+        # parsed in _parse_street(). there is no single Board line,
+        # street cards are inside the hand
         pass
 
     def _parse_winners(self):
+        # parsed in _parse_showdown
         pass
 
     def _parse_extra(self):

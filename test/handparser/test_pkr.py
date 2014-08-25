@@ -24,6 +24,7 @@ def hand(request):
     hh.parse()
     return hh
 
+
 class TestHoldemHand:
     hand_text = HANDS['holdem_full']
 
