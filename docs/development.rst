@@ -11,6 +11,21 @@ https://github.com/pokerregion/poker
 In the ``dend/`` branches, there are ideas which doesn't work or has been abandoned for some reason.
 They are there for reference as "this has been tried".
 
+I develop in a very simple `Workflow`_. (Before 662f5d73be1efbf6eaf173da448e0410da431b2c you can
+see bigger merge bubbles, because I handled hand history parser code and the rest as two separate
+projects, but made a subtree merge and handle them in this package.)
+Feature branches with rebases on top of master.
+Only merge stable code into master.
+
+The repository tags will match PyPi release numbers.
+
+
+Versioning
+----------
+
+I use `Semantic Versioning`_, except for major versions like 1.0, 2.0,
+because I think 1.0.0 looks stupid :)
+
 
 Coding style
 ------------
@@ -83,4 +98,8 @@ and install `pytest`_ and run it directly::
 
 from the poker module directory and `pytest`_ will automatically pick up all unit tests.
 
+
+
 .. _pytest: http://pytest.org/
+.. _Workflow: https://guides.github.com/introduction/flow/index.html
+.. _Semantic Versioning: http://semver.org/
