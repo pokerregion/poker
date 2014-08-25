@@ -42,23 +42,43 @@ New hand history parser
 .. note:: Hand history parsing API will change for sure until 1.0 is done.
 
 If you want to support a new poker room you have to subclass the appropriate class from
-:mod:`poker.handhistory` like :class:`poker.handhistory.SplittableHandHistory` depending on the type of
-hand history file, like XML, or similar to pokerstars and FTP, define a couple of methods and done.
+:mod:`poker.handhistory` like :class:`poker.handhistory.SplittableHandHistory` depending on the
+type of hand history file, like XML, or similar to pokerstars and FTP,
+define a couple of methods and done.
 
 .. code-block:: python
 
-    class PokerRoomHandHistory(HandHistory):
-        """Implement PokerRoom specific parsing."""
+   class NewPokerRoomHandHistory(HandHistory):
+   """Implement PokerRoom specific parsing."""
 
-        def parse_header(self):
-            # Parse header only! Usually just first line. The whole purpose is to do it fast.
-            # No need to call super()
+      def parse_header(self):
+         # Parse header only! Usually just the first line. The whole purpose is to do it fast!
+         # No need to call super()
 
-        def parse(self):
-            # base class method strips and saves raw hand history
-            super(PokerRoomHand, self).parse()
+      def _parse_table(self):
+         # parses table name
 
-            # ...
+      def _parse_players(self):
+         # parses players, player positions, stacks, etc
+         # set self.players attribute
+
+      def _parse_button(self):
+
+      def _parse_hero(self):
+
+      def _parse_preflop(self):
+
+      def _parse_street(self):
+
+      def _parse_showdown(self):
+
+      def _parse_pot(self):
+
+      def _parse_board(self):
+
+      def _parse_winners(self):
+
+      def _parse_extra(self):
 
 
 You **have to** provide all common attributes, and *may* provide PokerRoom specific extra

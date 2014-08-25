@@ -176,3 +176,47 @@ class SplittableHandHistory(BaseHandHistory):
 
         del self._splitted
         self.parsed = True
+
+    @abstractmethod
+    def _parse_table(self):
+        pass
+
+    @abstractmethod
+    def _parse_players(self):
+        pass
+
+    @abstractmethod
+    def _parse_button(self):
+        pass
+
+    @abstractmethod
+    def _parse_hero(self):
+        pass
+
+    @abstractmethod
+    def _parse_preflop(self):
+        pass
+
+    @abstractmethod
+    def _parse_street(self):
+        pass
+
+    @abstractmethod
+    def _parse_showdown(self):
+        pass
+
+    @abstractmethod
+    def _parse_pot(self):
+        pass
+
+    @abstractmethod
+    def _parse_board(self):
+        pass
+
+    @abstractmethod
+    def _parse_winners(self):
+        pass
+
+    @abstractmethod
+    def _parse_extra(self):
+        pass
