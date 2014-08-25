@@ -6,7 +6,7 @@ hand :term:`Combo`\ s.
 
 | Can parse ranges and compose parsed ranges into human readable form again.
 | It's very fault-tolerant, so it's easy and fast to write ranges manually.
-| Can normalize unprecise human readable ranges into a precise human readable form, like "22+ AQo+ 33 AKo" --> "22+ AQo+"
+| Can normalize unprecise human readable ranges into a precise human readable form, like ``"22+ AQo+ 33 AKo"`` --> ``"22+ AQo+"``
 | Can tell how big a range is by :term:`Percentage <Range percent>` or number of :term:`Combo`\ s.
 
 

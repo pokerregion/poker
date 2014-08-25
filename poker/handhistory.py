@@ -96,19 +96,6 @@ class BaseHandHistory(MutableMapping, metaclass=ABCMeta):
                                               attr not in self._non_hand_attributes and
                                               not ismethod(getattr(self, attr))]
 
-    @abstractmethod
-    def parse_header(self):
-        """Parses only the header of a hand history. It is used for sort of looking into
-        the hand history for basic informations.
-        """
-
-    @abstractmethod
-    def parse(self):
-        """Parses the body of the hand history, but first parse header if not yet parsed."""
-
-        if not self.header_parsed:
-            self.parse_header()
-
     @property
     def board(self):
         """Calculates board from flop, turn and river."""
@@ -145,6 +132,10 @@ class BaseHandHistory(MutableMapping, metaclass=ABCMeta):
 
 
 class SplittableHandHistory(BaseHandHistory):
+    """Base class for PokerStars and FullTiltPoker type hand histories, where you can split
+    the hand history into sections.
+    """
+
     def __init__(self, hand_text):
         """Split hand history by sections."""
 
@@ -157,8 +148,17 @@ class SplittableHandHistory(BaseHandHistory):
         # sections[-1] is before SUMMARY
         self._sections = [ind for ind, elem in enumerate(self._splitted) if not elem]
 
+    @abstractmethod
+    def parse_header(self):
+        """Parses only the header of a hand history. It is used for sort of looking into
+        the hand history for basic informations:
+            ident, date, game, game_type, limit, money_type, sb, bb, buyin, rake, currency
+        """
+
     def parse(self):
-        super().parse()
+        """Parses the body of the hand history, but first parse header if not yet parsed."""
+        if not self.header_parsed:
+            self.parse_header()
 
         self._parse_table()
         self._parse_players()

@@ -52,8 +52,6 @@ class PKRHandHistory(SplittableHandHistory):
         self.bb = Decimal(match.group(2))
         self.buyin = self.bb * 100
 
-        self.button = int(self._splitted[9][18:])  # cut off "Button is at seat "
-
     def _parse_table(self):
         # table name already parsed
         pass

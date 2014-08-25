@@ -2,6 +2,9 @@ Hand history parsing API
 ========================
 
 
+.. note:: Hand history parsing API will change for sure until 1.0 is done.
+
+
 .. autofunction:: poker.handhistory.normalize
 
   | For example, PKR calls "Cash game" "ring game",
@@ -23,13 +26,11 @@ Base classes
                               None for players didn't show... autoclass:: poker.handhistory.HandHistoryPlayer
 
 
-.. autoclass:: poker.handhistory.HandHistory
+.. autoclass:: poker.handhistory.BaseHandHistory
    :members:
    :exclude-members: board
 
    :param str hand_text:  poker hand text
-   :param bool parse:     if ``False``, hand will not parsed immediately.
-                         Useful if you just want to quickly check header first and maybe process it later.
 
    | The attributes can be iterated.
    | The class can read like a dictionary.

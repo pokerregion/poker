@@ -24,7 +24,11 @@ If your code exceeds 99 characters, you do something wrong anyway, you need to r
 New hand history parser
 -----------------------
 
-If you want to support a new poker room, do this:
+.. note:: Hand history parsing API will change for sure until 1.0 is done.
+
+If you want to support a new poker room you have to subclass the appropriate class from
+:mod:`poker.handhistory` like :class:`poker.handhistory.SplittableHandHistory` depending on the type of
+hand history file, like XML, or similar to pokerstars and FTP, define a couple of methods and done.
 
 .. code-block:: python
 
