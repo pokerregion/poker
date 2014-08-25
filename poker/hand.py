@@ -650,7 +650,7 @@ class Range:
         return pair_strs + suited_strs + offsuit_strs
 
     def as_html(self):
-        """Returns a 13x13 HTML table as a str representing the range.
+        """Returns a 13x13 HTML table representing the range.
 
         The table's CSS class is ``range``, pair cells (td element) are ``pair``, offsuit hands are
         ``offsuit`` and suited hand cells has ``suited`` css class.
@@ -687,6 +687,39 @@ class Range:
 
         html += '</table>'
         return html
+
+    def as_table(self, border=False):
+        """Returns a nicely formatted ASCII table with optional borders."""
+
+        table = ''
+
+        if border:
+            table += '┌' + '─────┬' * 12 + '─────┐\n'
+            line = '├' + '─────┼' * 12 + '─────┤\n'
+            border = '│ '
+            lastline = '\n└' + '─────┴' * 12 + '─────┘'
+        else:
+            line = border = lastline = ''
+
+        for row in reversed(Rank):
+            for col in reversed(Rank):
+                if row > col:
+                    suit = 's'
+                elif row < col:
+                    suit = 'o'
+                else:
+                    suit = ''
+
+                hand = Hand(row.value + col.value + suit)
+                hand = str(hand) if hand in self.hands else ''
+                table += border + hand.ljust(4)
+
+            if row.value != '2':
+                table += border + '\n' + line
+
+        table += border + lastline
+
+        return table
 
     def _get_pieces(self, combos, combos_in_hand):
         if not combos:

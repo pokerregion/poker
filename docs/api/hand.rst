@@ -80,7 +80,7 @@ Range
 
 .. autoclass:: poker.hand.Range
    :members:
-   :exclude-members: hands, combos, percent, rep_pieces
+   :exclude-members: hands, combos, percent, rep_pieces, as_html, as_table
    :undoc-members:
 
    :param str range:    Readable range in unicode
@@ -108,6 +108,14 @@ Range
    .. autoattribute:: rep_pieces
 
       :type: list of str
+
+   .. automethod:: as_html
+
+      :rtype: str
+
+   .. automethod:: as_table
+
+      :rtype: str
 
 
 .. _cached_property: https://pypi.python.org/pypi/cached-property/
