@@ -1,5 +1,7 @@
 import re
 from datetime import datetime, timezone, timedelta
+from collections import namedtuple
+from xml.etree import ElementTree
 import requests
 from bs4 import BeautifulSoup
 import parsedatetime
@@ -7,20 +9,74 @@ from pytz import UTC
 from .._common import _make_float
 
 
-__all__ = ['TwoPlusTwoForumMember', 'FORUM_URL', 'FORUM_MEMBER_URL']
+__all__ = ['search_userid', 'TwoPlusTwoForumMember',
+           'FORUM_URL', 'FORUM_MEMBER_URL', 'AJAX_USERSEARCH_URL']
 
 
 FORUM_URL = 'http://forumserver.twoplustwo.com'
 FORUM_MEMBER_URL = FORUM_URL + '/members'
+AJAX_USERSEARCH_URL = FORUM_URL + '/ajax.php?do=usersearch'
+
 _tz_re = re.compile('GMT (.*?)\.')
 
 
+class AmbiguousUserNameError(Exception):
+    """Exception when username is not unique, there are more starting with the same."""
+
+class UserNotFoundError(Exception):
+    """User cannot be found."""
+
+
+def search_userid(username):
+    headers = {'X-Requested-With': 'XMLHttpRequest',
+               'Origin': FORUM_URL,
+               'Referer': FORUM_URL + '/search.php'
+               }
+
+    data = {'securitytoken': 'guest',
+            'do': 'usersearch',
+            'fragment': username
+            }
+
+    response = requests.post(AJAX_USERSEARCH_URL, data, headers=headers)
+    root = ElementTree.fromstring(response.text)
+
+    try:
+        found_name = root[0].text
+    except IndexError:
+        raise UserNotFoundError(username) from None
+
+    # The request is basically a search, can return multiple userids
+    # for users starting with username. Make sure we got the right one!
+    if found_name.upper() != username.upper():
+        exc = AmbiguousUserNameError(username)
+        # attach the extra users to the exception
+        ExtraUser = namedtuple('ExtraUser', 'name, id')
+        exc.users = tuple(ExtraUser(name=child.text, id=child.attrib['userid']) for child in root)
+        raise exc
+
+    userid = root[0].attrib['userid']
+    return userid
+
+
 class TwoPlusTwoForumMember:
-    """Represents a Forum member data from the Two Plus Two forum."""
+    """Download and store a member data from the Two Plus Two forum."""
 
-    def __init__(self, id):
+    def __init__(self, username):
+        self.id = search_userid(username)
+        self._download_and_parse()
+
+    def __repr__(self):
+        return '<{}: {}>'.format(self.__class__.__qualname__, self.username)
+
+    @classmethod
+    def from_userid(cls, id: str):
+        self = super().__new__(cls)
         self.id = id
+        self._download_and_parse()
+        return self
 
+    def _download_and_parse(self):
         soup = self._download_page()
         self._set_username_and_rank(soup)
         self._set_profile_picture(soup)
@@ -28,9 +84,6 @@ class TwoPlusTwoForumMember:
         tz = self._get_timezone(soup)
         self._set_stats(soup, tz)
         self._set_group_memberships(soup)
-
-    def __repr__(self):
-        return '<{}: {}>'.format(self.__class__.__qualname__, self.username)
 
     @property
     def profile_url(self):
@@ -71,10 +124,16 @@ class TwoPlusTwoForumMember:
 
         self.total_posts = int(statrows[0].next_sibling.strip().replace(',', ''))
         self.posts_per_day = _make_float(statrows[1].next_sibling)
-        date_str = statrows[2].next_sibling
-        time_str = statrows[2].next_sibling.next_sibling.string
-        self.last_activity = self._parse_date(date_str + time_str, tz)
-        self.join_date = datetime.strptime(statrows[3].next_sibling.strip(), '%m-%d-%Y').date()
+        try:
+            date_str = statrows[2].next_sibling
+            time_str = statrows[2].next_sibling.next_sibling.string
+            self.last_activity = self._parse_date(date_str + time_str, tz)
+            nextrow = 3
+        except AttributeError:
+            self.last_activity = None
+            nextrow = 2
+        self.join_date = datetime.strptime(statrows[nextrow].next_sibling.strip(),
+                                           '%m-%d-%Y').date()
 
     @staticmethod
     def _parse_date(date_str, tz):
