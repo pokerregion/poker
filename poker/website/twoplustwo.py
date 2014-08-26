@@ -3,6 +3,7 @@ from datetime import datetime, timezone, timedelta
 import requests
 from bs4 import BeautifulSoup
 import parsedatetime
+from pytz import UTC
 from .._common import _make_float
 
 
@@ -79,12 +80,12 @@ class TwoPlusTwoForumMember:
     def _parse_date(date_str, tz):
         try:
             dt = datetime.strptime(date_str.strip(), '%m-%d-%Y %I:%M %p')
-            return dt.replace(tzinfo=tz)
+            return dt.replace(tzinfo=tz).astimezone(UTC)
         except ValueError:
             # in case like "Yesterday 3:30 PM" or dates like that.
             dt, pt = parsedatetime.Calendar().parseDT(date_str)
             if pt == 3:
-                return dt.replace(tzinfo=tz)
+                return dt.replace(tzinfo=tz).astimezone(UTC)
             raise ValueError('Could not parse date: {}'.format(date_str))
 
     def _set_group_memberships(self, soup):
