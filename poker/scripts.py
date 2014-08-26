@@ -1,13 +1,27 @@
+import sys
 from pathlib import Path
+from contextlib import contextmanager
 import click
+
+
+# FIXME: This is a hack about click incapability to prompt to stderr.
+# See: https://github.com/mitsuhiko/click/issues/211
+@contextmanager
+def redirect_stdout_to_stderr():
+    """Redirect standard output to standard error and restore after the context is finished."""
+    oldout = sys.stdout
+    sys.stdout = sys.stderr
+    yield
+    sys.stdout = oldout
 
 
 @click.group()
 def poker():
     """Main command for the poker framework."""
+    click.echo()
 
 
-@poker.command()
+@poker.command(short_help="Prints the range in a formatted table in ASCII or HTML.")
 @click.argument('range')
 @click.option('--no-border', is_flag=True, help="Don't show border.")
 @click.option('--html', is_flag=True, help="Output html, so you can paste it on a website.")
@@ -21,28 +35,58 @@ def range(range, no_border, html):
     click.echo(result)
 
 
-@poker.command()
-@click.argument('id')
-def get2p2info(id):
-    """Get profile information about a Two plus Two member given the id."""
-    from .website.twoplustwo import TwoPlusTwoForumMember
+@poker.command(short_help="Get profile information about a Two plus Two member.")
+@click.argument('username')
+def twoplustwo(username):
+    """Get profile information about a Two plus Two Forum member given the username."""
+
+    from .website.twoplustwo import (
+        TwoPlusTwoForumMember, AmbiguousUserNameError, UserNotFoundError
+    )
     from dateutil.tz import tzlocal
     localtimezone = tzlocal()
 
-    member = TwoPlusTwoForumMember(id)
+    try:
+        member = TwoPlusTwoForumMember(username)
+    except UserNotFoundError:
+        raise click.ClickException('User "{}" not found!'.format(username))
+    except AmbiguousUserNameError as e:
+        click.echo('Got multiple users with similar names!', err=True)
+
+        for ind, user in enumerate(e.users):
+            click.echo('{}. {}'.format(ind + 1, user.name), err=True)
+
+        with redirect_stdout_to_stderr():
+            number = click.prompt('Which would you like to see [{}-{}]'.format(1, len(e.users)),
+                                  prompt_suffix='? ', type=click.IntRange(1, len(e.users)))
+
+        userid = e.users[int(number) - 1].id
+        member = TwoPlusTwoForumMember.from_userid(userid)
+
+        click.echo(err=True)  # empty line after input
+
+    click.echo('Two plus two forum member')
+    click.echo('-------------------------')
+
+    if member.last_activity:
+        last_activity = member.last_activity.astimezone(localtimezone)\
+                                            .strftime('%Y-%m-%d (%A) %H:%I:%S (%Z)')
+    else:
+        last_activity = None
+
     info = (
-        ('Forum id', member.id),
         ('Username', member.username),
+        ('Forum id', member.id),
         ('Location', member.location),
         ('Total posts', member.total_posts),
         ('Posts per day', member.posts_per_day),
         ('Rank', member.rank),
-        ('Last activity', member.last_activity.astimezone(localtimezone)
-                                .strftime('%Y-%m-%d (%A) %H:%I:%S (%Z)')),
+        ('Last activity', last_activity),
         ('Join date', member.join_date.strftime('%Y-%m-%d')),
-        ('Usergroups', member.public_usergroups),
+        ('Usergroups', ', '.join(member.public_usergroups)),
         ('Profile picture', member.profile_picture),
     )
+
     for what, value in info:
         if not value:
             value = '-'
