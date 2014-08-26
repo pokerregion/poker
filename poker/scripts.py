@@ -21,11 +21,11 @@ def poker():
     click.echo()
 
 
-@poker.command(short_help="Prints the range in a formatted table in ASCII or HTML.")
+@poker.command('range', short_help="Prints the range in a formatted table in ASCII or HTML.")
 @click.argument('range')
 @click.option('--no-border', is_flag=True, help="Don't show border.")
 @click.option('--html', is_flag=True, help="Output html, so you can paste it on a website.")
-def range(range, no_border, html):
+def range_(range, no_border, html):
     """Prints the given range in a formatted table either in a plain ASCII or HTML.
     The only required argument is the range definition, e.g. "A2s+ A5o+ 55+"
     """
@@ -90,4 +90,26 @@ def twoplustwo(username):
     for what, value in info:
         if not value:
             value = '-'
-        click.echo((what + ': ').ljust(20) + str(value))
+        click.echo('{:<20}{!s}'.format(what + ': ', value))
+
+
+@poker.command(short_help="List pocketfives ranked players.")
+@click.argument('num', type=click.IntRange(1, 100), default=100)
+def p5_players(num):
+    """List pocketfives ranked players, max 100 if no num, or num if specified."""
+    from poker.website.pocketfives import get_ranked_players
+
+    format_str = '{:>4.4}   {!s:<15.13}{!s:<18.15}{!s:<9.6}{!s:<10.7}'\
+                 '{!s:<14.11}{!s:<12.9}{!s:<12.9}{!s:<12.9}{!s:<4.4}'
+    click.echo(format_str.format(
+        'Rank' , 'Player name', 'Country', 'Triple', 'Monthly', 'Biggest cash',
+        'PLB score', 'Biggest s', 'Average s', 'Prev'
+    ))
+    # just generate the appropriate number of underlines and cut them with format_str
+    underlines = tuple('-' * 20 for __ in range(10))
+    click.echo(format_str.format(*underlines))
+
+    for ind, player in enumerate(get_ranked_players()):
+        click.echo(format_str.format(str(ind + 1) + '.', *player))
+        if ind == num - 1:
+            break
