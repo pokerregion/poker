@@ -1,7 +1,7 @@
 import re
 from datetime import datetime, timezone, timedelta
 from collections import namedtuple
-from xml.etree import ElementTree
+from lxml import etree
 import requests
 from bs4 import BeautifulSoup
 import parsedatetime
@@ -39,7 +39,7 @@ def search_userid(username):
             }
 
     response = requests.post(AJAX_USERSEARCH_URL, data, headers=headers)
-    root = ElementTree.fromstring(response.text)
+    root = etree.fromstring(response.content)
 
     try:
         found_name = root[0].text
