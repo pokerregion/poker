@@ -3,10 +3,9 @@ from datetime import datetime, timezone, timedelta
 from collections import namedtuple
 from lxml import etree
 import requests
-from bs4 import BeautifulSoup
 import parsedatetime
 from pytz import UTC
-from .._common import _make_float
+from .._common import _make_float, _make_int
 
 
 __all__ = ['search_userid', 'TwoPlusTwoForumMember',
@@ -16,8 +15,6 @@ __all__ = ['search_userid', 'TwoPlusTwoForumMember',
 FORUM_URL = 'http://forumserver.twoplustwo.com'
 FORUM_MEMBER_URL = FORUM_URL + '/members'
 AJAX_USERSEARCH_URL = FORUM_URL + '/ajax.php?do=usersearch'
-
-_tz_re = re.compile('GMT (.*?)\.')
 
 
 class AmbiguousUserNameError(Exception):
@@ -62,6 +59,18 @@ def search_userid(username):
 class TwoPlusTwoForumMember:
     """Download and store a member data from the Two Plus Two forum."""
 
+    _tz_re = re.compile('GMT (.*?)\.')
+    _attributes = (
+        ('username', '//td[@id="username_box"]/h1/text()', str),
+        ('rank', '//td[@id="username_box"]/h2/text()', str),
+        ('profile_picture', '//td[@id="profilepic_cell"]/img/@src', str),
+        ('location', '//div[@id="collapseobj_aboutme"]/div/ul/li/dl/dd[1]/text()', str),
+        ('total_posts', '//div[@id="collapseobj_stats"]/div/fieldset[1]/ul/li[1]/text()', _make_int),
+        ('posts_per_day', '//div[@id="collapseobj_stats"]/div/fieldset[1]/ul/li[2]/text()', float),
+        ('public_usergroups', '//ul[@id="public_usergroup_list"]/li/text()', tuple),
+        ('avatar', '//img[@id="user_avatar"]/@src', str),
+    )
+
     def __init__(self, username):
         self.id = search_userid(username)
         self._download_and_parse()
@@ -77,13 +86,11 @@ class TwoPlusTwoForumMember:
         return self
 
     def _download_and_parse(self):
-        soup = self._download_page()
-        self._set_username_and_rank(soup)
-        self._set_profile_picture(soup)
-        self._set_location(soup)
-        tz = self._get_timezone(soup)
-        self._set_stats(soup, tz)
-        self._set_group_memberships(soup)
+        root = self._download_page()
+        self._parse_attributes(root)
+        tz = self._get_timezone(root)
+        self._parse_last_activity(root, tz)
+        self._parse_join_date(root)
 
     @property
     def profile_url(self):
@@ -92,64 +99,59 @@ class TwoPlusTwoForumMember:
     def _download_page(self):
         stats_page = requests.get(self.profile_url)
         self.download_date = datetime.now(timezone.utc)
-        return BeautifulSoup(stats_page.text, 'lxml')
+        return etree.HTML(stats_page.text)
 
-    def _set_username_and_rank(self, soup):
-        username_td = soup.find(id='username_box')
-        self.username = username_td.h1.text.strip()
-        self.rank = username_td.h2.string
+    def _parse_attributes(self, root):
+        for attname, xpath, type_ in self._attributes:
+            if type_ != tuple:
+                try:
+                    setattr(self, attname, type_(root.xpath(xpath)[0]))
+                except IndexError:
+                    setattr(self, attname, None)
+            else:
+                setattr(self, attname, type_(root.xpath(xpath)))
 
-    def _set_profile_picture(self, soup):
-        try:
-            self.profile_picture = soup.find(id='profilepic_cell').img['src']
-        except AttributeError:
-            self.profile_picture = None
 
-    def _set_location(self, soup):
-        try:
-            self.location = soup.find('li', 'profilefield_category').dl.dd.string
-        except AttributeError:
-            self.location = None
-
-    @staticmethod
-    def _get_timezone(soup):
+    def _get_timezone(self, root):
         """Find timezone informatation on bottom of the page."""
-        tz_str = soup.find('div', {'class': 'smallfont', 'align': 'center'}).text
-        hours = int(_tz_re.search(tz_str).group(1))
+        tz_str = root.xpath('//div[@class="smallfont" and @align="center"]')[0].text
+        hours = int(self._tz_re.search(tz_str).group(1))
         return timezone(timedelta(hours=hours))
 
-    def _set_stats(self, soup, tz):
-        #stats > span.shade
-        statrows = soup.find(id='stats').find_all('span', 'shade')
-
-        self.total_posts = int(statrows[0].next_sibling.strip().replace(',', ''))
-        self.posts_per_day = _make_float(statrows[1].next_sibling)
+    def _parse_last_activity(self, root, tz):
         try:
-            date_str = statrows[2].next_sibling
-            time_str = statrows[2].next_sibling.next_sibling.string
-            self.last_activity = self._parse_date(date_str + time_str, tz)
-            nextrow = 3
-        except AttributeError:
+            li = root.xpath('//div[@id="collapseobj_stats"]/div/fieldset[2]/ul/li[1]')[0]
+            date_str = li[0].tail.strip()
+            time_str = li[1].text.strip()
+            self.last_activity = self._parse_date(date_str + ' ' + time_str, tz)
+        except IndexError:
             self.last_activity = None
-            nextrow = 2
-        self.join_date = datetime.strptime(statrows[nextrow].next_sibling.strip(),
-                                           '%m-%d-%Y').date()
+
+    def _parse_join_date(self, root):
+        ul = root.xpath('//div[@id="collapseobj_stats"]/div/fieldset[2]/ul')[0]
+        try:
+            join_date = ul.xpath('li[2]/text()')[0]
+        except IndexError:
+            # not everybody has a last activity field.
+            # in this case, it's the first li element, not the second
+            join_date = ul.xpath('li[1]/text()')[0]
+        join_date = join_date.strip()
+        self.join_date = datetime.strptime(join_date, '%m-%d-%Y').date()
 
     @staticmethod
     def _parse_date(date_str, tz):
         try:
             dt = datetime.strptime(date_str.strip(), '%m-%d-%Y %I:%M %p')
             return dt.replace(tzinfo=tz).astimezone(UTC)
+
         except ValueError:
             # in case like "Yesterday 3:30 PM" or dates like that.
-            dt, pt = parsedatetime.Calendar().parseDT(date_str)
-            if pt == 3:
-                return dt.replace(tzinfo=tz).astimezone(UTC)
-            raise ValueError('Could not parse date: {}'.format(date_str))
 
-    def _set_group_memberships(self, soup):
-        try:
-            memberships = soup.find(id='public_usergroup_list').find_all('li')
-            self.public_usergroups = tuple(ms.string for ms in memberships)
-        except AttributeError:
-            self.public_usergroups = ()
+            # calculates based on sourceTime. tz is 2p2 forum timezone
+            source = datetime.now(UTC).astimezone(tz)
+            dt, pt = parsedatetime.Calendar().parseDT(date_str, tzinfo=tz, sourceTime=source)
+
+            # parsed as a C{datetime}, means that parsing was successful
+            if pt == 3:
+                return dt.astimezone(UTC)
+            raise ValueError('Could not parse date: {}'.format(date_str))

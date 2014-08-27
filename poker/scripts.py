@@ -70,7 +70,7 @@ def twoplustwo(username):
 
     if member.last_activity:
         last_activity = member.last_activity.astimezone(localtimezone)\
-                                            .strftime('%Y-%m-%d (%A) %H:%I:%S (%Z)')
+                                            .strftime('%Y-%m-%d (%A) %H:%M:%S (%Z)')
     else:
         last_activity = None
 
@@ -85,6 +85,7 @@ def twoplustwo(username):
         ('Join date', member.join_date.strftime('%Y-%m-%d')),
         ('Usergroups', ', '.join(member.public_usergroups)),
         ('Profile picture', member.profile_picture),
+        ('Avatar', member.avatar),
     )
 
     for what, value in info:
