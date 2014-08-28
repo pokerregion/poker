@@ -1,6 +1,6 @@
 from collections import namedtuple
 import requests
-from bs4 import BeautifulSoup
+from lxml import etree
 from .._common import _make_float
 
 
@@ -22,24 +22,19 @@ def get_ranked_players():
     """Get the list of the first 100 ranked players."""
 
     rankings_page = requests.get(RANKINGS_URL)
-    soup = BeautifulSoup(rankings_page.text, 'lxml')  # use lxml parser
-
-    player_rows = soup.find(id='ranked').find_all('tr')
-    players = []
+    root = etree.HTML(rankings_page.text)
+    player_rows = root.xpath('//div[@id="ranked"]//tr')
 
     for row in player_rows[1:]:
-        player_row = row.find_all('td')
-        player = PocketFivesPlayer(
-            name = player_row[0].img['alt'],
-            # some players doesn't have a Country set, this would throw TypeError
-            country = player_row[1].img['title'] if player_row[1].img else None,
-            triple_crowns = int(player_row[2].string),
-            monthly_win = int(player_row[3].string),
-            biggest_cash = player_row[4].string,
-            plb_score = _make_float(player_row[5].string),
-            biggest_score = _make_float(player_row[6].string),
-            average_score = _make_float(player_row[7].string),
-            previous_rank = player_row[8].string,
+        player_row = row.xpath('td[@class!="country"]//text()')
+        yield PocketFivesPlayer(
+            name = player_row[1],
+            country = row[1][0].get('title'),
+            triple_crowns = int(player_row[3]),
+            monthly_win = int(player_row[4]),
+            biggest_cash = player_row[5],
+            plb_score = _make_float(player_row[6]),
+            biggest_score = _make_float(player_row[7]),
+            average_score = _make_float(player_row[8]),
+            previous_rank = player_row[9],
         )
-
-        yield player
