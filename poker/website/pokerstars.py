@@ -22,10 +22,6 @@ _PokerStarsTournament = namedtuple('PokerStarsTournament',
 """Named tuple for upcoming pokerstars tournaments."""
 
 
-def _getvalue(parent, tagname):
-    return parent.find('{*}' + tagname).text
-
-
 def get_current_tournaments():
     """Get the next 200 tournaments from pokerstars."""
     schedule_page = requests.get(TOURNAMENTS_XML_URL)
@@ -33,10 +29,10 @@ def get_current_tournaments():
 
     for tour in root.iter('{*}tournament'):
         yield _PokerStarsTournament(
-            start_date = parse_date(_getvalue(tour, 'start_date')),
-            name = _getvalue(tour, 'name'),
-            game = _getvalue(tour, 'game'),
-            buyin = _getvalue(tour, 'buy_in_fee'),
+            start_date = parse_date(tour.findtext('{*}start_date')),
+            name = tour.findtext('{*}name'),
+            game = tour.findtext('{*}game'),
+            buyin = tour.findtext('{*}buy_in_fee'),
             players = int(tour.get('players'))
         )
 
