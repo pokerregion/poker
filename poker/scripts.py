@@ -136,6 +136,7 @@ def psstatus():
 
     click.echo('PokerStars status')
     click.echo('-----------------')
+
     status = get_status()
     status_info = (
         ('Info updated', status.updated),

@@ -17,9 +17,9 @@ Two Plus Two Forum API
 
    .. data:: FORUM_MEMBER_URL
 
-      http://forumserver.twoplustwo.com/members/{id}
+      http://forumserver.twoplustwo.com/members
 
-   .. autoclass:: TwoPlusTwoForumMember
+   .. autoclass:: ForumMember
 
       :param int,str id:      | Forum id (last part of members URL, e.g. in case of
                               | http://forumserver.twoplustwo.com/members/407153/
@@ -44,7 +44,7 @@ Pocketfives API
 
 .. automodule:: poker.website.pocketfives
 
-   .. autoclass:: PocketFivesPlayer
+   .. autoclass:: _Player
 
       :ivar str name:             Player name
       :ivar str country:          Country name
@@ -58,7 +58,7 @@ Pocketfives API
 
    .. autofunction:: get_ranked_players
 
-      :return:  generator of :class:`PocketFivesPlayer`\ s
+      :return:  generator of :class:`_Player`\ s
 
       .. note:: Downloading this list is a slow operation!
 
@@ -70,7 +70,7 @@ PokerStars website API
 .. automodule:: poker.website.pokerstars
 
 
-   .. data:: POKERSTARS_URL
+   .. data:: WEBSITE_URL
 
       http://www.pokerstars.eu
 
@@ -79,8 +79,24 @@ PokerStars website API
 
       http://www.pokerstars.eu/datafeed_global/tournaments/all.xml
 
+   .. data:: STATUS_URL
 
-   .. autoclass:: PokerStarsTournament
+      http://www.psimg.com/datafeed/dyn_banners/summary.json.js
+
+
+   .. autofunction:: get_current_tournaments
+
+      :return:      generator of :class:`_Tournament`
+
+      .. note:: Downloading this list is an extremly slow operation!
+
+
+   .. autofunction:: get_status
+
+      :return: :class:`_Status`
+
+
+   .. autoclass:: _Tournament
 
       :ivar datetime start_date:
       :ivar str name:         Tournament name as seen in PokerStars Lobby
@@ -89,9 +105,21 @@ PokerStars website API
       :ivar int players:      Number of players already registered
 
 
-   .. autofunction:: get_current_tournaments
+   .. autoclass:: _Status
 
-      :return:      generator of :class:`PokerStarsTournament`
+      :ivar datetime updated:       Status last updated
+      :ivar int tables:             Number of tournament tables
+      :ivar int players:            Number of players logged in to PokerStars
+      :ivar int clubs:              Total number of Home Game clubs created
+      :ivar int club_members:       Total number of Home Game club members
+      :ivar int active_tournaments:
+      :ivar int total_tournaments:
+      :ivar tuple sites:            Tuple of :class:`_SiteStatus`
 
-      .. note:: Downloading this list is an extremly slow operation!
+   .. autoclass:: _SiteStatus
+
+      :ivar str id:        ID of the site (``".IT"``, ``".FR"``, ``"Play Money"``)
+      :ivar int tables:
+      :ivar int player:
+      :ivar int active_tournaments:
 

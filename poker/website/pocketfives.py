@@ -4,18 +4,25 @@ from lxml import etree
 from .._common import _make_float
 
 
-__all__ = ['PocketFivesPlayer', 'get_ranked_players', 'POCKETFIVES_URL', 'RANKINGS_URL']
+__all__ = ['get_ranked_players', 'WEBSITE_URL', 'RANKINGS_URL']
 
 
-POCKETFIVES_URL = 'http://www.pocketfives.com'
-RANKINGS_URL = POCKETFIVES_URL + '/rankings/'
+WEBSITE_URL = 'http://www.pocketfives.com'
+RANKINGS_URL = WEBSITE_URL + '/rankings/'
 
 
-class PocketFivesPlayer(namedtuple('PocketFivesPlayer',
-    'name, country, triple_crowns, monthly_win, biggest_cash, '
-    'plb_score, biggest_score, average_score, previous_rank'
-)):
-    """Named tuple for Pocketfives player data."""
+_Player = namedtuple('_Player',
+    'name '
+    'country '
+    'triple_crowns '
+    'monthly_win '
+    'biggest_cash '
+    'plb_score '
+    'biggest_score '
+    'average_score '
+    'previous_rank '
+)
+"""Named tuple for Pocketfives player data."""
 
 
 def get_ranked_players():
@@ -27,7 +34,7 @@ def get_ranked_players():
 
     for row in player_rows[1:]:
         player_row = row.xpath('td[@class!="country"]//text()')
-        yield PocketFivesPlayer(
+        yield _Player(
             name = player_row[1],
             country = row[1][0].get('title'),
             triple_crowns = int(player_row[3]),

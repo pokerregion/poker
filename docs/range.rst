@@ -179,7 +179,7 @@ It's easy to recreate PokerStove style colors:
 Printing the range as an ASCII table
 ------------------------------------
 
-:meth:`as_html() <poker.hand.Range.as_html>` can print a nicely formatted ASCII table to the
+:meth:`as_table() <poker.hand.Range.as_table>` can print a nicely formatted ASCII table to the
 terminal:
 
 .. code-block:: python

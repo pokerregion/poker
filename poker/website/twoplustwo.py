@@ -8,8 +8,7 @@ from pytz import UTC
 from .._common import _make_float, _make_int
 
 
-__all__ = ['search_userid', 'TwoPlusTwoForumMember',
-           'FORUM_URL', 'FORUM_MEMBER_URL', 'AJAX_USERSEARCH_URL']
+__all__ = ['search_userid', 'ForumMember', 'FORUM_URL', 'FORUM_MEMBER_URL', 'AJAX_USERSEARCH_URL']
 
 
 FORUM_URL = 'http://forumserver.twoplustwo.com'
@@ -56,7 +55,7 @@ def search_userid(username):
     return userid
 
 
-class TwoPlusTwoForumMember:
+class ForumMember:
     """Download and store a member data from the Two Plus Two forum."""
 
     _tz_re = re.compile('GMT (.*?)\.')
