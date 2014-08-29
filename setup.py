@@ -6,13 +6,17 @@ from setuptools.command.test import test as TestCommand
 install_requires = [
     'pytz',
     'requests',
-    'beautifulsoup4',
     'lxml',
     'python-dateutil',
     'parsedatetime',
     'cached-property',
     'click',
 ]
+
+entry_points = """\
+    [console_scripts]
+    poker = poker.scripts:poker
+    """
 
 
 class PyTest(TestCommand):
@@ -42,7 +46,6 @@ setup(
         "Intended Audience :: Developers",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.4",
-        "Programming Language :: Python :: Implementation :: CPython",
         "Framework :: Poker",
     ],
     keywords = 'poker',
@@ -52,10 +55,7 @@ setup(
     license = "MIT",
     packages = find_packages(),
     install_requires = install_requires,
-    entry_points = """
-    [console_scripts]
-    poker = poker.scripts:poker
-    """,
+    entry_points = entry_points,
     tests_require = ['pytest', 'coverage', 'coveralls'],
     cmdclass = {'test': PyTest},
 )
