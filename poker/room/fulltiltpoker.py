@@ -1,6 +1,5 @@
 import re
 from decimal import Decimal
-from collections import OrderedDict
 import pytz
 from ..handhistory import HandHistoryPlayer, SplittableHandHistory, normalize
 from ..card import Card
