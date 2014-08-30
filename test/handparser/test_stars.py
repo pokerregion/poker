@@ -33,8 +33,7 @@ class TestHandWithFlopOnly:
     hand_text = stars_hands.HAND1
     # in py.test 2.4 it is recommended to use string like "attribute,expected",
     # but with tuple, it works in both 2.3.5 and 2.4
-    @pytest.mark.parametrize(('attribute', 'expected_value'),
-        [('poker_room', 'STARS'),
+    @pytest.mark.parametrize(('attribute', 'expected_value'), [
         ('ident', '105024000105'),
         ('game_type', 'TOUR'),
         ('tournament_ident', '797469411'),
@@ -51,8 +50,8 @@ class TestHandWithFlopOnly:
     def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
         assert getattr(hand_header, attribute) == expected_value
 
-    @pytest.mark.parametrize(('attribute', 'expected_value'),
-        [('table_name', '797469411 15'),
+    @pytest.mark.parametrize(('attribute', 'expected_value'), [
+        ('table_name', '797469411 15'),
         ('max_players', 9),
         ('button', _Player(name='flettl2', stack=1500, seat=1,
                                    combo=None)
@@ -100,8 +99,7 @@ class TestHandWithFlopOnly:
 class TestAllinPreflopHand:
     hand_text = stars_hands.HAND2
 
-    @pytest.mark.parametrize(('attribute', 'expected_value'),
-        [('poker_room', 'STARS'),
+    @pytest.mark.parametrize(('attribute', 'expected_value'), [
          ('ident', '105034215446'),
          ('game_type', 'TOUR'),
          ('tournament_ident', '797536898'),
@@ -118,8 +116,8 @@ class TestAllinPreflopHand:
     def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
         assert getattr(hand_header, attribute) == expected_value
 
-    @pytest.mark.parametrize(('attribute', 'expected_value'),
-        [('table_name', '797536898 9'),
+    @pytest.mark.parametrize(('attribute', 'expected_value'), [
+        ('table_name', '797536898 9'),
         ('max_players', 9),
         ('button', _Player(name='W2lkm2n', stack=11815, seat=2, combo=Combo('JdJs'))),
         ('hero', _Player(name='W2lkm2n', stack=11815, seat=2, combo=Combo('JdJs'))),
@@ -162,8 +160,7 @@ class TestAllinPreflopHand:
 class TestBodyMissingPlayerNoBoard:
     hand_text = stars_hands.HAND3
 
-    @pytest.mark.parametrize(('attribute', 'expected_value'),
-        [('poker_room', 'STARS'),
+    @pytest.mark.parametrize(('attribute', 'expected_value'), [
          ('ident', '105026771696'),
          ('game_type', 'TOUR'),
          ('tournament_ident', '797469411'),
@@ -180,8 +177,8 @@ class TestBodyMissingPlayerNoBoard:
     def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
         assert getattr(hand_header, attribute) == expected_value
 
-    @pytest.mark.parametrize(('attribute', 'expected_value'),
-        [('table_name', '797469411 11'),
+    @pytest.mark.parametrize(('attribute', 'expected_value'), [
+        ('table_name', '797469411 11'),
          ('max_players', 9),
          ('button', _Player(name='W2lkm2n', stack=10714, seat=8, combo=Combo('6d8d'))),
          ('hero', _Player(name='W2lkm2n', stack=10714, seat=8, combo=Combo('6d8d'))),
@@ -225,8 +222,7 @@ class TestBodyMissingPlayerNoBoard:
 class TestBodyEveryStreet:
     hand_text = stars_hands.HAND4
 
-    @pytest.mark.parametrize(('attribute', 'expected_value'),
-        [('poker_room', 'STARS'),
+    @pytest.mark.parametrize(('attribute', 'expected_value'), [
          ('ident', '105025168298'),
          ('game_type', 'TOUR'),
          ('tournament_ident', '797469411'),
@@ -243,8 +239,8 @@ class TestBodyEveryStreet:
     def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
         assert getattr(hand_header, attribute) == expected_value
 
-    @pytest.mark.parametrize(('attribute', 'expected_value'),
-        [('table_name', '797469411 15'),
+    @pytest.mark.parametrize(('attribute', 'expected_value'), [
+        ('table_name', '797469411 15'),
         ('max_players', 9),
         ('button', _Player(name='W2lkm2n', stack=5145, seat=5, combo=Combo('Jc5c'))),
         ('hero', _Player(name='W2lkm2n', stack=5145, seat=5, combo=Combo('Jc5c'))),
@@ -296,10 +292,10 @@ class TestClassRepresentation:
     hand_text = stars_hands.HAND1
 
     def test_unicode(self, hand_header):
-        assert u'<PokerStarsHandHistory: STARS hand #105024000105>' == str(hand_header)
+        assert u'<PokerStarsHandHistory: #105024000105>' == str(hand_header)
 
     def test_str(self, hand_header):
-        assert '<PokerStarsHandHistory: STARS hand #105024000105>' == str(hand_header)
+        assert '<PokerStarsHandHistory: #105024000105>' == str(hand_header)
 
 
 class TestPlayerNameWithDot:

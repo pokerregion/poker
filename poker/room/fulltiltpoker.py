@@ -13,7 +13,6 @@ __all__ = ['FullTiltPokerHandHistory']
 class FullTiltPokerHandHistory(_SplittableHandHistory):
     """Parses Full Tilt Poker hands the same way as PokerStarsHandHistory class."""
 
-    poker_room = 'FTP'
     date_format = '%H:%M:%S ET - %Y/%m/%d'
     tournament_level = None     # FTP hands doesn't contains tournament level information
     rake = None

@@ -13,7 +13,6 @@ __all__ = ['PokerStarsHandHistory']
 class PokerStarsHandHistory(_SplittableHandHistory):
     """Parses PokerStars Tournament hands."""
 
-    poker_room = 'STARS'
     date_format = '%Y/%m/%d %H:%M:%S ET'
     _TZ = pytz.timezone('US/Eastern')  # ET
 

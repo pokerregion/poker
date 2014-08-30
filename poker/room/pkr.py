@@ -11,7 +11,6 @@ __all__ = ['PKRHandHistory']
 class PKRHandHistory(_SplittableHandHistory):
     """Parses PKR hand histories."""
 
-    poker_room = 'PKR'
     date_format = '%d %b %Y %H:%M:%S'
     currency = 'USD'
     tournament_ident = None

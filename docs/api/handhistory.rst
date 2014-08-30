@@ -35,8 +35,6 @@ Base classes
    | The attributes can be iterated.
    | The class can read like a dictionary.
    | Every attribute default value is ``None``.
-
-   :ivar str poker_room:         room ID (4 byte max) e.g. ``"STARS"``, ``"FTP"``
    :ivar str date_format:        default date format for the given poker_room
    :ivar str ident:              hand id
    :ivar str game_type:          ``"TOUR"`` for tournaments or ``"SNG"`` for Sit&Go-s
@@ -75,10 +73,6 @@ PokerStars
 
 .. autoclass:: poker.room.pokerstars.PokerStarsHandHistory
 
-  **Class specific**
-
-  :ivar str poker_room:   always ``STARS`` in this class
-
 
 Full Tilt Poker
 ---------------
@@ -90,7 +84,6 @@ Full Tilt Poker
 
    **Class specific**
 
-   :cvar str poker_room:    always ``FTP`` for this class
    :ivar tournament_level:  ``None``
    :ivar buyin:             ``None``: it's not in the hand history, but the filename
    :ivar rake:              ``None``: also
@@ -115,7 +108,6 @@ PKR
 
   **Class specific**
 
-  :cvar str poker_room:   ``"PKR"`` for this class
   :ivar str table_name:   "#table_number - name_of_the_table"
 
   **Extra**

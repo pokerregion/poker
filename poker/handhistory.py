@@ -87,9 +87,7 @@ class _BaseHandHistory(MutableMapping, metaclass=ABCMeta):
         return iter(self.keys())
 
     def __str__(self):
-        return "<{}: {} hand #{}>" .format(
-            self.__class__.__name__, self.poker_room, self.ident
-        )
+        return "<{}: #{}>" .format(self.__class__.__name__, self.ident)
 
     def keys(self):
         return [attr for attr in dir(self) if not attr.startswith('_') and
