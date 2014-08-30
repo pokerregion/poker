@@ -36,14 +36,12 @@ class TestHoldemHand:
         ('game', 'HOLDEM'),
         ('limit', 'NL'),
         ('ident', '2433297728'),
-        ('last_ident', '2433297369'),
         ('tournament_ident', None),
         ('tournament_name', None),
         ('tournament_level', None),
         ('table_name', "#52121155 - Rapanui's Leela"),
         ('buyin', D('50')),
         ('currency', 'USD'),
-        ('money_type', 'R'),
     ])
     def test_header(self, hand_header, attribute, expected_value):
         assert getattr(hand_header, attribute) == expected_value
@@ -82,7 +80,8 @@ class TestHoldemHand:
         ('rake', D('0.54')),
         ('winners', ('barly123',)),
         ('show_down', True),
-        ('board', (Card('7d'), Card('3c'), Card('Jd'), Card('Js'), Card('5h')))
+        ('board', (Card('7d'), Card('3c'), Card('Jd'), Card('Js'), Card('5h'))),
+        ('extra', dict(money_type='R', last_ident='2433297369')),
         ])
     def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value

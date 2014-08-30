@@ -74,6 +74,9 @@ Base classes
    :ivar decimal.Decimal total_pot:        total pot after end of actions (rake included)
    :ivar bool show_down:                   There was show_down or wasn't
    :ivar tuple winners:                    winner names, tuple if even when there is only one winner. e.g. ``('W2lkm2n',)``
+   :ivar dict extra:                       Contains information which are specific to a concrete hand history
+                                           and not common accross all. When iterating through the instance,
+                                           this extra attribute will not be included. default value is None
 
 
 PokerStars
