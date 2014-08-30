@@ -6,7 +6,7 @@ import pytz
 from poker.room.fulltiltpoker import FullTiltPokerHandHistory
 from poker.card import Card
 from poker.hand import Combo
-from poker.handhistory import HandHistoryPlayer
+from poker.handhistory import _Player
 from . import ftp_hands
 
 
@@ -53,19 +53,19 @@ class TestHandWithFlopOnly:
 
     @pytest.mark.parametrize('attribute,expected_value',
         [('players', [
-            HandHistoryPlayer(name='Popp1987', stack=13587, seat=1, combo=None),
-            HandHistoryPlayer(name='Luckytobgood', stack=10110, seat=2, combo=None),
-            HandHistoryPlayer(name='FatalRevange', stack=9970, seat=3, combo=None),
-            HandHistoryPlayer(name='IgaziFerfi', stack=10000, seat=4, combo=Combo('Ks9d')),
-            HandHistoryPlayer(name='egis25', stack=6873, seat=5, combo=None),
-            HandHistoryPlayer(name='gamblie', stack=9880, seat=6, combo=None),
-            HandHistoryPlayer(name='idanuTz1', stack=10180, seat=7, combo=None),
-            HandHistoryPlayer(name='PtheProphet', stack=9930, seat=8, combo=None),
-            HandHistoryPlayer(name='JohnyyR', stack=9840, seat=9, combo=None),
+            _Player(name='Popp1987', stack=13587, seat=1, combo=None),
+            _Player(name='Luckytobgood', stack=10110, seat=2, combo=None),
+            _Player(name='FatalRevange', stack=9970, seat=3, combo=None),
+            _Player(name='IgaziFerfi', stack=10000, seat=4, combo=Combo('Ks9d')),
+            _Player(name='egis25', stack=6873, seat=5, combo=None),
+            _Player(name='gamblie', stack=9880, seat=6, combo=None),
+            _Player(name='idanuTz1', stack=10180, seat=7, combo=None),
+            _Player(name='PtheProphet', stack=9930, seat=8, combo=None),
+            _Player(name='JohnyyR', stack=9840, seat=9, combo=None),
         ]),
-        ('button', HandHistoryPlayer(name='egis25', stack=6873, seat=5, combo=None)),
+        ('button', _Player(name='egis25', stack=6873, seat=5, combo=None)),
         ('max_players', 9),
-        ('hero', HandHistoryPlayer(name='IgaziFerfi', stack=10000, seat=4, combo=Combo('Ks9d'))),
+        ('hero', _Player(name='IgaziFerfi', stack=10000, seat=4, combo=Combo('Ks9d'))),
         ('preflop_actions', ('PtheProphet has 15 seconds left to act',
                            'PtheProphet folds',
                            'JohnyyR raises to 40',
@@ -130,16 +130,16 @@ class TestHandWithFlopTurnRiver:
 
     @pytest.mark.parametrize('attribute,expected_value',
         [('players', [
-            HandHistoryPlayer(name='snake 422', stack=1500, seat=1, combo=None),
-            HandHistoryPlayer(name='IgaziFerfi', stack=1500, seat=2, combo=Combo('5d2h')),
-            HandHistoryPlayer(name='MixaOne', stack=1500, seat=3, combo=None),
-            HandHistoryPlayer(name='BokkaBlake', stack=1500, seat=4, combo=None),
-            HandHistoryPlayer(name='Sajiee', stack=1500, seat=5, combo=None),
-            HandHistoryPlayer(name='AzzzJJ', stack=1500, seat=6, combo=None),
+            _Player(name='snake 422', stack=1500, seat=1, combo=None),
+            _Player(name='IgaziFerfi', stack=1500, seat=2, combo=Combo('5d2h')),
+            _Player(name='MixaOne', stack=1500, seat=3, combo=None),
+            _Player(name='BokkaBlake', stack=1500, seat=4, combo=None),
+            _Player(name='Sajiee', stack=1500, seat=5, combo=None),
+            _Player(name='AzzzJJ', stack=1500, seat=6, combo=None),
         ]),
-        ('button', HandHistoryPlayer(name='AzzzJJ', stack=1500, seat=6, combo=None)),
+        ('button', _Player(name='AzzzJJ', stack=1500, seat=6, combo=None)),
         ('max_players', 6),
-        ('hero', HandHistoryPlayer(name='IgaziFerfi', stack=1500, seat=2, combo=Combo('5d2h'))),
+        ('hero', _Player(name='IgaziFerfi', stack=1500, seat=2, combo=Combo('5d2h'))),
         ('preflop_actions', ('MixaOne calls 30',
                              'BokkaBlake folds',
                              'Sajiee folds',

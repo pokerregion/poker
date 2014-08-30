@@ -17,16 +17,16 @@ Hand history parsing API
 Base classes
 ------------
 
-.. autoclass:: poker.handhistory.HandHistoryPlayer
+.. autoclass:: poker.handhistory._Player
 
    :ivar str name:            Player name
    :ivar int stack:           Stack size (sometimes called as chips)
    :ivar int seat:            Seat number
    :ivar Combo,None combo:    If the player revealed his/her hand, this property hold's it.
-                              None for players didn't show... autoclass:: poker.handhistory.HandHistoryPlayer
+                              None for players didn't show... autoclass:: poker.handhistory._Player
 
 
-.. autoclass:: poker.handhistory.BaseHandHistory
+.. autoclass:: poker.handhistory._BaseHandHistory
    :members:
    :exclude-members: board
 
@@ -53,9 +53,9 @@ Base classes
    :ivar datetime date:          hand date in UTC
    :ivar str table_name:         name of the table. it's ``"tournament_number table_number"``
    :ivar int max_player:         maximum players can sit on the table, 2, 4, 6, 7, 8, 9
-   :ivar HandHistoryPlayer button:   player on the button
-   :ivar HandHistoryPlayer hero:     hero
-   :ivar list players:           HandHistoryPlayer namedtuples
+   :ivar poker.handhistory._Player button:   player on the button
+   :ivar poker.handhistory._Player hero:     hero
+   :ivar list players:           :class:`poker.handhistory._Player` namedtuples
                                  the sequence is the seating order at the table at the start of the hand
    :ivar tuple flop:             tuple of Cards e.g. ``(Card('Ah'), Card('2s'), Card('2h'))``
    :ivar Card turn:              turn card, e.g. ``Card('Ah')``

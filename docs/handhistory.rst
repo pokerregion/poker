@@ -50,23 +50,23 @@ Example
 
 .. code-block:: python
 
-   >>> from poker.handhistory import PokerStarsHandHistory
+   >>> from poker.room.pokerstars import PokerStarsHandHistory
    >>> hh = PokerStarsHandHistory(hand_text)
    >>> hh.parse()
    >>> hh.players
-   [HandHistoryPlayer(name='flettl2', stack=1500, seat=1, combo=None),
-    HandHistoryPlayer(name='santy312', stack=3000, seat=2, combo=None),
-    HandHistoryPlayer(name='flavio766', stack=3000, seat=3, combo=None),
-    HandHistoryPlayer(name='strongi82', stack=3000, seat=4, combo=None),
-    HandHistoryPlayer(name='W2lkm2n', stack=3000, seat=5, combo=Combo('A♣J♥')),
-    HandHistoryPlayer(name='MISTRPerfect', stack=3000, seat=6, combo=None),
-    HandHistoryPlayer(name='blak_douglas', stack=3000, seat=7, combo=None),
-    HandHistoryPlayer(name='sinus91', stack=1500, seat=8, combo=None),
-    HandHistoryPlayer(name='STBIJUJA', stack=1500, seat=9, combo=None)]
+   [_Player(name='flettl2', stack=1500, seat=1, combo=None),
+    _Player(name='santy312', stack=3000, seat=2, combo=None),
+    _Player(name='flavio766', stack=3000, seat=3, combo=None),
+    _Player(name='strongi82', stack=3000, seat=4, combo=None),
+    _Player(name='W2lkm2n', stack=3000, seat=5, combo=Combo('A♣J♥')),
+    _Player(name='MISTRPerfect', stack=3000, seat=6, combo=None),
+    _Player(name='blak_douglas', stack=3000, seat=7, combo=None),
+    _Player(name='sinus91', stack=1500, seat=8, combo=None),
+    _Player(name='STBIJUJA', stack=1500, seat=9, combo=None)]
    >>> hh.date
    datetime.datetime(2013, 10, 4, 19, 18, 18, tzinfo=<DstTzInfo 'US/Eastern' EDT-1 day, 20:00:00 DST>)
    >>> hh.hero
-    HandHistoryPlayer(name='W2lkm2n', stack=3000, seat=5, combo=Combo('A♣J♥')),
+   _Player(name='W2lkm2n', stack=3000, seat=5, combo=Combo('A♣J♥')),
    >>> hh.limit, hh.game
    ('NL', 'HOLDEM')
    >>> hh.board

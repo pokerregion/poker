@@ -42,7 +42,7 @@ New hand history parser
 .. note:: Hand history parsing API will change for sure until 1.0 is done.
 
 If you want to support a new poker room you have to subclass the appropriate class from
-:mod:`poker.handhistory` like :class:`poker.handhistory.SplittableHandHistory` depending on the
+:mod:`poker.handhistory` like :class:`poker.handhistory._SplittableHandHistory` depending on the
 type of hand history file, like XML, or similar to pokerstars and FTP,
 define a couple of methods and done.
 

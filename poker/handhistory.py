@@ -10,7 +10,7 @@ from datetime import datetime
 import pytz
 
 
-__all__ = ['HandHistoryPlayer']
+__all__ = ['normalize']
 
 
 _NORMALIZE = {'STARS': {'POKERSTARS', 'STARS', 'PS'},
@@ -45,11 +45,11 @@ def normalize(value):
     return value.upper()
 
 
-HandHistoryPlayer = namedtuple('HandHistoryPlayer', 'name, stack, seat, combo')
+_Player = namedtuple('_Player', 'name, stack, seat, combo')
 """Named tuple for players participating in the hand history."""
 
 
-class BaseHandHistory(MutableMapping, metaclass=ABCMeta):
+class _BaseHandHistory(MutableMapping, metaclass=ABCMeta):
     """Abstract base class for *all* kind of parser."""
 
     _non_hand_attributes = ('raw', 'parsed', 'header_parsed', 'date_format')
@@ -117,10 +117,7 @@ class BaseHandHistory(MutableMapping, metaclass=ABCMeta):
         players = []
         for seat in range(1, player_num + 1):
             players.append(
-                HandHistoryPlayer(name='Empty Seat {}'.format(seat),
-                                  stack=0,
-                                  seat=seat,
-                                  combo=None)
+                _Player(name='Empty Seat {}'.format(seat), stack=0, seat=seat, combo=None)
             )
 
         return players
@@ -131,7 +128,7 @@ class BaseHandHistory(MutableMapping, metaclass=ABCMeta):
         return self.players[hero_index], hero_index
 
 
-class SplittableHandHistory(BaseHandHistory):
+class _SplittableHandHistory(_BaseHandHistory):
     """Base class for PokerStars and FullTiltPoker type hand histories, where you can split
     the hand history into sections.
     """

@@ -1,14 +1,14 @@
 import re
 from decimal import Decimal
 import pytz
-from ..handhistory import SplittableHandHistory, normalize, HandHistoryPlayer
+from ..handhistory import _SplittableHandHistory, normalize, _Player
 from ..hand import Combo, Card
 
 
 __all__ = ['PKRHandHistory']
 
 
-class PKRHandHistory(SplittableHandHistory):
+class PKRHandHistory(_SplittableHandHistory):
     """Parses PKR hand histories."""
 
     poker_room = 'PKR'
@@ -64,7 +64,7 @@ class PKRHandHistory(SplittableHandHistory):
             if not match:
                 break
             seat_number = int(match.group(1))
-            players[seat_number - 1] = HandHistoryPlayer(
+            players[seat_number - 1] = _Player(
                 name=match.group(2), stack=Decimal(match.group(3)), seat=seat_number, combo=None
             )
         self.max_players = seat_number

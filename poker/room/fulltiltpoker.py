@@ -1,7 +1,7 @@
 import re
 from decimal import Decimal
 import pytz
-from ..handhistory import HandHistoryPlayer, SplittableHandHistory, normalize
+from ..handhistory import _Player, _SplittableHandHistory, normalize
 from ..card import Card
 from ..hand import Combo
 from .._common import _make_int
@@ -10,7 +10,7 @@ from .._common import _make_int
 __all__ = ['FullTiltPokerHandHistory']
 
 
-class FullTiltPokerHandHistory(SplittableHandHistory):
+class FullTiltPokerHandHistory(_SplittableHandHistory):
     """Parses Full Tilt Poker hands the same way as PokerStarsHandHistory class."""
 
     poker_room = 'FTP'
@@ -80,7 +80,7 @@ class FullTiltPokerHandHistory(SplittableHandHistory):
             if not match:
                 break
             seat = int(match.group(1))
-            players[seat - 1] = HandHistoryPlayer(
+            players[seat - 1] = _Player(
                 name=match.group(2),
                 seat=seat,
                 stack=_make_int(match.group(3)),

@@ -2,7 +2,7 @@ import re
 from decimal import Decimal
 from collections import namedtuple
 import pytz
-from ..handhistory import HandHistoryPlayer, SplittableHandHistory, normalize
+from ..handhistory import _Player, _SplittableHandHistory, normalize
 from ..card import Card
 from ..hand import Combo
 
@@ -10,7 +10,7 @@ from ..hand import Combo
 __all__ = ['PokerStarsHandHistory']
 
 
-class PokerStarsHandHistory(SplittableHandHistory):
+class PokerStarsHandHistory(_SplittableHandHistory):
     """Parses PokerStars Tournament hands."""
 
     poker_room = 'STARS'
@@ -77,7 +77,7 @@ class PokerStarsHandHistory(SplittableHandHistory):
             if not match:
                 break
             index = int(match.group('seat')) - 1
-            self.players[index] = HandHistoryPlayer(
+            self.players[index] = _Player(
                 name=match.group('name'),
                 stack=int(match.group('stack')),
                 seat=int(match.group('seat')),
