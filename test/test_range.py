@@ -218,10 +218,10 @@ class TestComposeHands:
     """Test different constructors and composition of hands."""
 
     def test_pairs_from_hands(self):
-        assert Range.from_hands({Hand('AA'), Hand('KK'), Hand('QQ')}) == Range('QQ+')
+        assert Range.from_objects({Hand('AA'), Hand('KK'), Hand('QQ')}) == Range('QQ+')
 
     def test_from_combos(self):
-        range = Range.from_combos(DEUCE_COMBOS)
+        range = Range.from_objects(DEUCE_COMBOS)
         assert range == Range('22')
         assert range.combos == DEUCE_COMBOS
         assert range.hands == (Hand('22'),)

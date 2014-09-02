@@ -6,6 +6,9 @@ import parsedatetime
 from .._common import _make_float
 
 
+__all__ = ['TwoPlusTwoForumMember', 'FORUM_URL', 'FORUM_MEMBER_URL']
+
+
 FORUM_URL = 'http://forumserver.twoplustwo.com'
 FORUM_MEMBER_URL = FORUM_URL + '/members'
 _tz_re = re.compile('GMT (.*?)\.')

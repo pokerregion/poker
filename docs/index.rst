@@ -28,8 +28,7 @@ Contents
    range
    handhistory
    website
-   contributing
-   testing
+   development
    glossary
    license
 

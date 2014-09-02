@@ -64,3 +64,7 @@ class _ReprMixin:
 
 def _make_float(string):
     return float(string.strip().replace(',', ''))
+
+
+def _make_int(string):
+    return int(string.strip().replace(',', ''))

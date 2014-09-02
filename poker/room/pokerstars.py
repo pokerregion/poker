@@ -1,8 +1,8 @@
 import re
 from decimal import Decimal
-from collections import OrderedDict
+from collections import namedtuple
 import pytz
-from ..handhistory import HandHistory, normalize
+from ..handhistory import _Player, _SplittableHandHistory, normalize
 from ..card import Card
 from ..hand import Combo
 
@@ -10,17 +10,16 @@ from ..hand import Combo
 __all__ = ['PokerStarsHandHistory']
 
 
-class PokerStarsHandHistory(HandHistory):
+class PokerStarsHandHistory(_SplittableHandHistory):
     """Parses PokerStars Tournament hands."""
 
-    poker_room = 'STARS'
     date_format = '%Y/%m/%d %H:%M:%S ET'
     _TZ = pytz.timezone('US/Eastern')  # ET
 
     _split_re = re.compile(r" ?\*\*\* ?\n?|\n")
     _header_re = re.compile(r"""
                         ^PokerStars[ ]                          # Poker Room
-                        Hand[ ]\#(?P<ident>\d*):[ ]             # Hand number
+                        Hand[ ]\#(?P<ident>\d*):[ ]             # Hand history id
                         (?P<game_type>Tournament)[ ]            # Type
                         \#(?P<tournament_ident>\d*),[ ]         # Tournament Number
                         \$(?P<buyin>\d*\.\d{2})\+               # buyin
@@ -33,30 +32,22 @@ class PokerStarsHandHistory(HandHistory):
                         -[ ].*[ ]                               # localized date
                         \[(?P<date>.*)\]$                       # ET date
                         """, re.VERBOSE)
-    _table_re = re.compile(r"^Table '(.*)' (\d)-max Seat #(\d) is the button$")
-    _seat_re = re.compile(r"^Seat (\d): (.*) \((\d*) in chips\)$")
-    _hole_cards_re = re.compile(r"^Dealt to (.*) \[(..) (..)\]$")
+    _table_re = re.compile(r"^Table '(.*)' (\d)-max Seat #(?P<button>\d) is the button$")
+    _seat_re = re.compile(r"^Seat (?P<seat>\d): (?P<name>.*) \((?P<stack>\d*) in chips\)$")
+    _hero_re = re.compile(r"^Dealt to (?P<hero_name>.*) \[(..) (..)\]$")
     _pot_re = re.compile(r"^Total pot (\d*) .*\| Rake (\d*)$")
     _winner_re = re.compile(r"^Seat (\d): (.*) collected \((\d*)\)$")
     _showdown_re = re.compile(r"^Seat (\d): (.*) showed .* and won")
     _ante_re = re.compile(r".*posts the ante (\d*)")
     _board_re = re.compile(r"(?<=[\[ ])(..)(?=[\] ])")
 
-    def __init__(self, hand_text, parse=True):
-        """Split hand history by sections and parse."""
-        super(PokerStarsHandHistory, self).__init__(hand_text, parse)
-        self._splitted = self._split_re.split(self.raw)
-
-        # search split locations (basically empty strings)
-        # sections[0] is before HOLE CARDS
-        # sections[-1] is before SUMMARY
-        self._sections = [ind for ind, elem in enumerate(self._splitted) if not elem]
-
-        if parse:
-            self.parse()
+    # search split locations (basically empty strings)
+    # sections[0] is before HOLE CARDS
+    # sections[-1] is before SUMMARY
 
     def parse_header(self):
-        match = self._header_re.match(self._splitted[0])
+        header_line = self._splitted[0]
+        match = self._header_re.match(header_line)
         self.game_type = normalize(match.group('game_type'))
         self.sb = Decimal(match.group('sb'))
         self.bb = Decimal(match.group('bb'))
@@ -72,45 +63,38 @@ class PokerStarsHandHistory(HandHistory):
 
         self.header_parsed = True
 
-    def parse(self):
-        super(PokerStarsHandHistory, self).parse()
-        self._parse_table()
-        self._parse_seats()
-        self._parse_hole_cards()
-        self._parse_preflop()
-        self._parse_street('flop')
-        self._parse_street('turn')
-        self._parse_street('river')
-        self.show_down = "SHOW DOWN" in self._splitted
-        self._parse_pot()
-        self._parse_board()
-        self._parse_winners()
-
-        self.parsed = True
-
     def _parse_table(self):
-        match = self._table_re.match(self._splitted[1])
-        self.table_name = match.group(1)
-        self.max_players = int(match.group(2))
-        self.button_seat = int(match.group(3))
+        self._table_match = self._table_re.match(self._splitted[1])
+        self.table_name = self._table_match.group(1)
+        self.max_players = int(self._table_match.group(2))
 
-    def _parse_seats(self):
-        players = self._init_seats(self.max_players)
+    def _parse_players(self):
+        self.players = self._init_seats(self.max_players)
         for line in self._splitted[2:]:
             match = self._seat_re.match(line)
+            # we reached the end of the players section
             if not match:
                 break
-            players[int(match.group(1)) - 1] = (match.group(2), int(match.group(3)))
+            index = int(match.group('seat')) - 1
+            self.players[index] = _Player(
+                name=match.group('name'),
+                stack=int(match.group('stack')),
+                seat=int(match.group('seat')),
+                combo=None
+            )
 
-        self.button = players[self.button_seat - 1][0]
-        self.players = OrderedDict(players)
+    def _parse_button(self):
+        button_seat = int(self._table_match.group('button'))
+        self.button = self.players[button_seat - 1]
 
-    def _parse_hole_cards(self):
+    def _parse_hero(self):
         hole_cards_line = self._splitted[self._sections[0] + 2]
-        match = self._hole_cards_re.match(hole_cards_line)
-        self.hero = match.group(1)
-        self.hero_seat = list(self.players.keys()).index(self.hero) + 1
-        self.hero_combo = Combo(match.group(2) + match.group(3))
+        match = self._hero_re.match(hole_cards_line)
+        hero, hero_index = self._get_hero_from_players(match.group('hero_name'))
+        hero = hero._replace(combo=Combo(match.group(2) + match.group(3)))
+        self.hero = self.players[hero_index] = hero
+        if self.button.name == self.hero.name:
+            self.button = hero
 
     def _parse_preflop(self):
         start = self._sections[0] + 3
@@ -127,6 +111,9 @@ class PokerStarsHandHistory(HandHistory):
         except ValueError:
             setattr(self, street, None)
             setattr(self, '%s_actions' % street.lower(), None)
+
+    def _parse_showdown(self):
+        self.show_down = 'SHOW DOWN' in self._splitted
 
     def _parse_pot(self):
         potline = self._splitted[self._sections[-1] + 2]
@@ -154,3 +141,6 @@ class PokerStarsHandHistory(HandHistory):
                 winners.add(match.group(2))
 
         self.winners = tuple(winners)
+
+    def _parse_extra(self):
+        pass

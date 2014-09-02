@@ -3,6 +3,9 @@ from functools import total_ordering
 from ._common import _MultiValueEnum, _ReprMixin
 
 
+__all__ = ['Suit', 'Rank', 'Card', 'FACE_RANKS', 'BROADWAY_RANKS']
+
+
 class Suit(_MultiValueEnum):
     CLUBS =    '♣', 'c', 'C', 'clubs'
     DIAMONDS = '♦', 'd', 'D', 'diamonds'
@@ -50,7 +53,7 @@ class _CardMeta(type):
 
     def make_random(cls):
         """Returns a random Card instance."""
-        self = super().__new__(cls)
+        self = object.__new__(cls)
         self._rank = Rank.make_random()
         self._suit = Suit.make_random()
         return self

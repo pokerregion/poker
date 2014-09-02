@@ -7,7 +7,7 @@ Card suits
 
 Enumeration of suits::
 
-   >>> from poker.card import Suit
+   >>> from poker import Suit
    >>> list(Suit)
    Suit('♣'), Suit('♦'), Suit('♥'), Suit('♠')]
 
@@ -22,7 +22,7 @@ Card ranks
 
 Enumeration of ranks::
 
-   >>> from poker.card import Rank
+   >>> from poker import Rank
    >>> list(Rank)
    [Rank('2'), Rank('3'), Rank('4'), Rank('5'), Rank('6'), Rank('7'), Rank('8'), Rank('9'), Rank('T'), Rank('J'), Rank('Q'), Rank('K'), Rank('A')]
 
@@ -60,7 +60,7 @@ A deck is just a list of :class:`poker.card.Card`\ s.
 Making a new deck and simulating shuffling is easy::
 
     import random
-    from poker.card import Card
+    from poker import Card
 
     deck = list(Card)
     random.shuffle(deck)
