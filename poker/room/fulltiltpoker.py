@@ -50,20 +50,23 @@ class FullTiltPokerHandHistory(_SplittableHandHistory):
 
     def parse_header(self):
         header_line = self._splitted[0]
-        match = self._header_re.match(header_line)
-        self.sb = Decimal(match.group('sb'))
-        self.bb = Decimal(match.group('bb'))
-        self._parse_date(match.group('date'))
-        self.ident = match.group('ident')
-        self.tournament_name = match.group('tournament_name')
-        self.game_type = 'SNG' if 'Sit & Go' in self.tournament_name else 'TOUR'
-        self.tournament_ident = match.group('tournament_ident')
-        self.table_name = match.group('table_name')
-        self.currency = 'USD' if '$' in self.tournament_name else None
-        self.limit = normalize(match.group('limit'))
-        self.game = normalize(match.group('game'))
-        buyin = match.group('buyin')
+        self._header_match = self._header_re.match(header_line)
+        self.sb = Decimal(self._header_match.group('sb'))
+        self.bb = Decimal(self._header_match.group('bb'))
+        self._parse_date(self._header_match.group('date'))
+        self.ident = self._header_match.group('ident')
+        tournament_name = self._header_match.group('tournament_name')
+        self.game_type = 'SNG' if 'Sit & Go' in tournament_name else 'TOUR'
+        self.currency = 'USD' if '$' in tournament_name else None
+        self.tournament_ident = self._header_match.group('tournament_ident')
+        self.table_name = self._header_match.group('table_name')
+        self.limit = normalize(self._header_match.group('limit'))
+        self.game = normalize(self._header_match.group('game'))
+        buyin = self._header_match.group('buyin')
         self.buyin = Decimal(buyin) if buyin else None
+
+        self.extra = dict()
+        self.extra['tournament_name'] = tournament_name
 
         self.header_parsed = True
 
@@ -123,18 +126,6 @@ class FullTiltPokerHandHistory(_SplittableHandHistory):
             setattr(self, '%s_pot' % street, None)
             setattr(self, '%s_num_players' % street, None)
 
-    def _parse_streetline(self, start, street):
-        """Parse pot, num players and cards."""
-        # Exceptions caught in _parse_street.
-        board_line = self._splitted[start]
-        match = self._street_re.search(board_line)
-
-        pot = match.group(2)
-        setattr(self, "%s_pot" % street, Decimal(pot))
-
-        num_players = int(match.group(3))
-        setattr(self, "%s_num_players" % street, num_players)
-
     def _parse_showdown(self):
         self.show_down = 'SHOW DOWN' in self._splitted
 
@@ -166,4 +157,23 @@ class FullTiltPokerHandHistory(_SplittableHandHistory):
         self.winners = tuple(winners)
 
     def _parse_extra(self):
-        pass
+        # tournament name already parsed in header
+        for street in ('flop', 'turn', 'river'):
+            try:
+                start = self._splitted.index(street.upper()) + 1
+                self._parse_streetline(start, street)
+            except ValueError:
+                self.extra['{}_pot'.format(street)] = None
+                self.extra['{}_num_players'.format(street)] = None
+
+    def _parse_streetline(self, start, street):
+        """Parse pot, num players."""
+
+        # Exceptions caught in _parse_street.
+        board_line = self._splitted[start]
+        match = self._street_re.search(board_line)
+        pot = match.group(2)
+        self.extra['{}_pot'.format(street)] = Decimal(pot)
+
+        num_players = int(match.group(3))
+        self.extra['{}_num_players'.format(street)] = num_players

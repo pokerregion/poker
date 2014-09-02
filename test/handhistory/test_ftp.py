@@ -41,7 +41,6 @@ class TestHandWithFlopOnly:
          ('limit', 'NL'),
          ('ident', '33286946295'),
          ('tournament_ident', '255707037'),
-         ('tournament_name', 'MiniFTOPS Main Event'),
          ('table_name', '179'),
          ('tournament_level', None),
          ('buyin', None),
@@ -80,8 +79,6 @@ class TestHandWithFlopOnly:
                            'JohnyyR has 15 seconds left to act',
                            'JohnyyR calls 60')),
         ('flop', (Card('8h'), Card('4h'), Card('Tc'))),
-        ('flop_pot', Decimal(230)),
-        ('flop_num_players', 2),
         ('flop_actions', ('JohnyyR checks',
                         'FatalRevange has 15 seconds left to act',
                         'FatalRevange bets 120',
@@ -90,17 +87,14 @@ class TestHandWithFlopOnly:
                         'FatalRevange mucks',
                         'FatalRevange wins the pot (230)')),
         ('turn', None),
-        ('turn_pot', None),
-        ('turn_actions', None),
-        ('turn_num_players', None),
         ('river', None),
-        ('river_pot', None),
-        ('river_actions', None),
-        ('river_num_players', None),
         ('total_pot', Decimal(230)),
         ('show_down', False),
         ('winners', ('FatalRevange',)),
-        ('board', (Card('8h'), Card('4h'), Card('Tc')))
+        ('board', (Card('8h'), Card('4h'), Card('Tc'))),
+        ('extra', dict(tournament_name='MiniFTOPS Main Event', flop_pot=Decimal(230),
+                       flop_num_players=2, turn_pot=None, turn_num_players=None, river_pot=None,
+                       river_num_players=None)),
         ])
     def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value
@@ -118,7 +112,6 @@ class TestHandWithFlopTurnRiver:
          ('limit', 'NL'),
          ('ident', '34374264321'),
          ('tournament_ident', '268569961'),
-         ('tournament_name', '$10 Sit & Go (Turbo)'),
          ('table_name', '1'),
          ('tournament_level', None),
          ('buyin', Decimal(10)),
@@ -156,20 +149,17 @@ class TestHandWithFlopTurnRiver:
                           'AzzzJJ mucks',
                           'AzzzJJ wins the pot (285)',)
         ),
-        ('flop_pot', Decimal('225')),
-        ('flop_num_players', 2),
         ('turn', None),
-        ('turn_pot', None),
-        ('turn_num_players', None),
         ('turn_actions', None),
         ('river', None),
-        ('river_pot', None),
-        ('river_num_players', None),
         ('river_actions', None),
         ('total_pot', Decimal('285')),
         ('show_down', False),
         ('winners', ('AzzzJJ',)),
-        ('board', (Card('6s'), Card('9c'), Card('3d')))
+        ('board', (Card('6s'), Card('9c'), Card('3d'))),
+        ('extra', dict(tournament_name='$10 Sit & Go (Turbo)', flop_pot=Decimal('225'),
+                       flop_num_players=2, turn_pot=None, turn_num_players=None,
+                       river_pot=None, river_num_players=None)),
         ])
     def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value
