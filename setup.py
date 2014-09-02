@@ -45,8 +45,8 @@ setup(
     classifiers = [
         "Intended Audience :: Developers",
         "Programming Language :: Python",
+        "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.4",
-        "Framework :: Poker",
     ],
     keywords = 'poker',
     author = "Kiss György",
