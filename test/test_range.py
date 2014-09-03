@@ -258,6 +258,7 @@ class TestValueChecks:
         with raises(ValueError):
             Range('KKo')
 
+
     def test_multiple_ranges_one_invalid(self):
         with raises(ValueError):
             Range('22+ AKo JK2')
@@ -266,6 +267,13 @@ class TestValueChecks:
         with raises(ValueError):
             Range('AsKq')
 
+    def test_invalid_text_in_range(self):
+        with raises(ValueError):
+            Range('this is not a range')
+
+    def test_invalid_Combo(self):
+        with raises(ValueError):
+            Range('AsKq')
 
 class TestComparisons:
     def test_ranges_with_lesser_hands_are_smaller(self):
@@ -273,6 +281,8 @@ class TestComparisons:
         assert Range('22+') > Range('33+')
 
         assert Range('AKo, JKs') > Range('AKo')
+
+        assert not(Range('AKo') < Range('33-44'))    # 12 vs 12
 
     def test_ranges_only_equal_if_they_are_the_same(self):
         assert Range('Ak') == Range('Aks, AKo')
@@ -283,8 +293,16 @@ class TestComparisons:
         assert Range('AKo') != Range('KJo')
         assert Range('22') != Range('44')
 
+    def test_pairs_with_dash_equals_pairs_with_dash_reverse(self):
+        assert Range('33-22').hands == Range('22-33').hands
+
+    def test_offsuit_multiple_with_AK(self):
+        assert Range('AKo 22+ 45 33') == Range('22+ AKo 54')
+
 
 class TestNormalization:
+    """Test for repr, str representation and range normalization."""
+
     def test_empty_range_is_empty(self):
         assert str(Range('')) == ''
         assert repr(Range('')) == "Range('')"
@@ -332,7 +350,9 @@ class TestNormalization:
             'KK+, 88-44, A♣K♣, KJs, 74s+, K♣J♥, Q♣J♠'
 
     def test_negative(self):
-        assert str(Range('55-22')) == '55-'
+        range = Range('55-22')
+        assert str(range) == '55-'
+        assert repr(range) == "Range('55-')"
 
     def test_full_range(self):
         assert str(Range('XX')) == 'XX'
@@ -362,3 +382,50 @@ class TestNormalization:
 
     def test_both_dashed(self):
         assert str(Range('J8-J4')) == 'J8s-J4s, J8o-J4o'
+
+    def test_str_and_range(self):
+        range = Range('77+ AKo')
+        assert repr(range) == "Range('77+ AKo')"
+        assert str(range) == '77+, AKo'
+
+    def test_order_with_suit_and_without_suit(self):
+        range = Range('Kas 48')
+        assert repr(range) == "Range('AKs 84s 84o')"
+        assert str(range) == 'AKs, 84s, 84o'
+
+    def test_pairs_order(self):
+        range = Range('22-55')
+        assert str(range) == '55-'
+
+    def test_redundant_offsuit_hands(self):
+        range = Range('A2o+ 2Ao 8ao')
+        assert str(range) == 'A2o+'
+        assert repr(range) == "Range('A2o+')"
+
+    def test_reduntant_pairs(self):
+        range = Range('22-44 33')
+        assert str(range) == '44-'
+        assert repr(range) == "Range('44-')"
+
+    def test_redundant_suited_hands(self):
+        range = Range('2as+ A5s A7s')
+        assert str(range) == 'A2s+'
+        assert repr(range) == "Range('A2s+')"
+
+
+
+class TestBooleanBehavior:
+    def test_empty_range_is_false(self):
+        assert bool(Range()) is False
+
+    def test_any_non_empty_valid_range_is_true(self):
+        assert bool(Range('22')) is True
+
+    def test_general_hand(self):
+        assert bool(Range('AK')) is True
+
+    def test_hand_combination(self):
+        assert bool(Range('AhKs')) is True
+
+    def test_offsuit_hand(self):
+        assert bool(Range('AKo')) is True
