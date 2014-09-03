@@ -149,7 +149,7 @@ def psstatus():
 
     _print_values(status_info)
 
-    site_format_str = '{0.id:<12}  {0.tables:<7}  {0.players:<8}  {0.active_tournaments}'
+    site_format_str = '{0.id:<12}  {0.tables:<7,}  {0.players:<8,}  {0.active_tournaments:,}'
     click.echo('\nSite          Tables   Players   Tournaments')
     click.echo('-----------   ------   -------   -----------')
 
