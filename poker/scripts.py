@@ -64,12 +64,10 @@ def range_(range, no_border, html):
 def twoplustwo(username):
     """Get profile information about a Two plus Two Forum member given the username."""
 
-    from .website.twoplustwo import (
-        TwoPlusTwoForumMember, AmbiguousUserNameError, UserNotFoundError
-    )
+    from .website.twoplustwo import ForumMember, AmbiguousUserNameError, UserNotFoundError
 
     try:
-        member = TwoPlusTwoForumMember(username)
+        member = ForumMember(username)
     except UserNotFoundError:
         raise click.ClickException('User "{}" not found!'.format(username))
     except AmbiguousUserNameError as e:
@@ -83,7 +81,7 @@ def twoplustwo(username):
                                   prompt_suffix='? ', type=click.IntRange(1, len(e.users)))
 
         userid = e.users[int(number) - 1].id
-        member = TwoPlusTwoForumMember.from_userid(userid)
+        member = ForumMember.from_userid(userid)
 
         click.echo(err=True)  # empty line after input
 
@@ -111,6 +109,7 @@ def twoplustwo(username):
 @click.argument('num', type=click.IntRange(1, 100), default=100)
 def p5players(num):
     """List pocketfives ranked players, max 100 if no NUM, or NUM if specified."""
+
     from .website.pocketfives import get_ranked_players
 
     format_str = '{:>4.4}   {!s:<15.13}{!s:<18.15}{!s:<9.6}{!s:<10.7}'\
