@@ -80,7 +80,7 @@ Range
 
 .. autoclass:: poker.hand.Range
    :members:
-   :exclude-members: hands, combos, percent, rep_pieces, as_html, as_table
+   :exclude-members: hands, combos, percent, rep_pieces, to_html, to_ascii
    :undoc-members:
 
    :param str range:    Readable range in unicode
@@ -109,11 +109,11 @@ Range
 
       :type: list of str
 
-   .. automethod:: as_html
+   .. automethod:: to_html
 
       :rtype: str
 
-   .. automethod:: as_table
+   .. automethod:: to_ascii
 
       :rtype: str
 

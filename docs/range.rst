@@ -121,9 +121,9 @@ Ranges should be rearranged and parsed according to these rules:
 Printing the range as an HTML table
 -----------------------------------
 
-Range has a method :meth:`as_html() <poker.hand.Range.as_html>`. When you print the result of that, you get a simple HTML table representation of it.
+Range has a method :meth:`to_html() <poker.hand.Range.to_html>`. When you print the result of that, you get a simple HTML table representation of it.
 
-``Range('XX').as_html()`` looks like this:
+``Range('XX').to_html()`` looks like this:
 
 .. raw:: html
 
@@ -179,12 +179,12 @@ It's easy to recreate PokerStove style colors:
 Printing the range as an ASCII table
 ------------------------------------
 
-:meth:`as_table() <poker.hand.Range.as_table>` can print a nicely formatted ASCII table to the
+:meth:`to_ascii() <poker.hand.Range.to_ascii>` can print a nicely formatted ASCII table to the
 terminal:
 
 .. code-block:: python
 
-   >>> print(Range('22+ A2+ KT+ QJ+ 32 42 52 62 72').as_table())
+   >>> print(Range('22+ A2+ KT+ QJ+ 32 42 52 62 72').to_ascii())
    AA  AKs AQs AJs ATs A9s A8s A7s A6s A5s A4s A3s A2s
    AKo KK  KQs KJs KTs
    AQo KQo QQ  QJs

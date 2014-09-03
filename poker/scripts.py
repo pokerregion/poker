@@ -55,7 +55,7 @@ def range_(range, no_border, html):
     from .hand import Range
 
     border = not no_border
-    result = Range(range).as_html() if html else Range(range).as_table(border)
+    result = Range(range).to_html() if html else Range(range).to_ascii(border)
     click.echo(result)
 
 
