@@ -98,22 +98,14 @@ and methods with ``test_``.
 
 All assertion use the default python ``assert`` keyword.
 
-To run the tests, just invoke::
+You need to install the ``poker`` package in development mode::
 
-    $ python setup.py test
-
-Or alternatively you need to install the pacakge itself::
-
-    $ python setup.py develop
-
-or::
-
+    # from directory where setup.py file is
     $ pip install -e .
 
 and install `pytest`_ and run it directly::
 
     $ pip install pytest
-    $ cd poker
     $ py.test
 
 from the poker module directory and `pytest`_ will automatically pick up all unit tests.
