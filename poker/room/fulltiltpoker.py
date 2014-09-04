@@ -119,12 +119,12 @@ class FullTiltPokerHandHistory(_SplittableHandHistory):
             self._parse_streetline(start, street)
             stop = next(v for v in self._sections if v > start)
             street_actions = self._splitted[start + 1:stop]
-            setattr(self, "%s_actions" % street, tuple(street_actions) if street_actions else None)
+            setattr(self, "{}_actions".format(street), tuple(street_actions) if street_actions else None)
         except ValueError:
             setattr(self, street, None)
-            setattr(self, '%s_actions' % street, None)
-            setattr(self, '%s_pot' % street, None)
-            setattr(self, '%s_num_players' % street, None)
+            setattr(self, '{}_actions'.format(street), None)
+            setattr(self, '{}_pot'.format(street), None)
+            setattr(self, '{}_num_players'.format(street), None)
 
     def _parse_showdown(self):
         self.show_down = 'SHOW DOWN' in self._splitted

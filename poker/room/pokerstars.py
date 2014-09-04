@@ -106,11 +106,11 @@ class PokerStarsHandHistory(_SplittableHandHistory):
             start = self._splitted.index(street.upper()) + 2
             stop = self._splitted.index('', start)
             street_actions = self._splitted[start:stop]
-            setattr(self, "%s_actions" % street.lower(),
+            setattr(self, "{}_actions".format(street.lower()),
                     tuple(street_actions) if street_actions else None)
         except ValueError:
             setattr(self, street, None)
-            setattr(self, '%s_actions' % street.lower(), None)
+            setattr(self, '{}_actions'.format(street.lower()), None)
 
     def _parse_showdown(self):
         self.show_down = 'SHOW DOWN' in self._splitted
