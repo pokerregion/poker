@@ -1,45 +1,15 @@
 import random
-from enum import Enum, EnumMeta
-from functools import total_ordering
+from enum import Enum
+from enum34_custom import _MultiValueMeta, OrderableMixin
 from types import DynamicClassAttribute
 
 
-class _MultiMeta(EnumMeta):
-    def __init__(cls, clsname, bases, classdict):
-        # make sure we only have tuple values, not single values
-        for member in cls.__members__.values():
-            if not isinstance(member._value_, tuple):
-                raise ValueError('{!r}, should be tuple'.format(member._value_))
-
-    def __call__(cls, suit):
-        for member in cls:
-            if suit in member._value_:
-                return member
-        return super().__call__(suit)
-
+class _MultiMeta(_MultiValueMeta):
     def make_random(cls):
         return random.choice(list(cls))
 
 
-@total_ordering
-class _MultiValueEnum(Enum, metaclass=_MultiMeta):
-    # From Python manual:
-    # If a class that overrides __eq__() needs to retain the implementation of __hash__()
-    # from a parent class, the interpreter must be told this explicitly
-    def __hash__(self):
-        return super().__hash__()
-
-    def __eq__(self, other):
-        if self.__class__ is other.__class__:
-            return self._value_ == other._value_
-        return NotImplemented
-
-    def __lt__(self, other):
-        if self.__class__ is other.__class__:
-            names = self.__class__._member_names_
-            return names.index(self.name) < names.index(other.name)
-        return NotImplemented
-
+class _MultiValueEnum(OrderableMixin, Enum, metaclass=_MultiMeta):
     def __str__(self):
         return str(self.value)
 

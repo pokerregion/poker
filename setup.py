@@ -11,6 +11,7 @@ install_requires = [
     'parsedatetime',
     'cached-property',
     'click',
+    'enum34-custom',
 ]
 
 entry_points = """\
@@ -20,7 +21,7 @@ entry_points = """\
 
 setup(
     name = 'poker',
-    version = '0.14.0',
+    version = '0.14.1',
     description = 'Poker Framework',
     classifiers = [
         "Intended Audience :: Developers",
