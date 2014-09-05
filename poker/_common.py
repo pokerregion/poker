@@ -5,15 +5,11 @@ from types import DynamicClassAttribute
 
 
 class _MultiMeta(EnumMeta):
-    def __new__(metacls, cls, bases, classdict):
-        # members already collected from Enum class
-        enum_class = super(_MultiMeta, metacls).__new__(metacls, cls, bases, classdict)
-
+    def __init__(cls, clsname, bases, classdict):
         # make sure we only have tuple values, not single values
-        for member in enum_class.__members__.values():
+        for member in cls.__members__.values():
             if not isinstance(member._value_, tuple):
                 raise ValueError('{!r}, should be tuple'.format(member._value_))
-        return enum_class
 
     def __call__(cls, suit):
         for member in cls:
