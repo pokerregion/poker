@@ -11,6 +11,9 @@ class Suit(_MultiValueEnum):
     DIAMONDS = '♦', 'd', 'D', 'diamonds'
     HEARTS =   '♥', 'h', 'H', 'hearts'
     SPADES =   '♠', 's', 'S', 'spades'
+    # Can't make alias with redefined value property
+    # because of a bug in stdlib enum module (line 162)
+    # C = '♣', 'c', 'C', 'clubs'
 
 
 class Rank(_MultiValueEnum):

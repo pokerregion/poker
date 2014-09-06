@@ -339,7 +339,7 @@ class Combo(_ReprMixin):
 
 
 class _RegexRangeLexer:
-    _separator_re = re.compile(r"[, ;]")
+    _separator_re = re.compile(r"[, ;\n]")
     _rank = r"([2-9TJQKA])"
     _suit = r"[cdhs♣♦♥♠]"
     # the second card is not the same as the first
@@ -649,7 +649,7 @@ class Range:
 
         return pair_strs + suited_strs + offsuit_strs
 
-    def as_html(self):
+    def to_html(self):
         """Returns a 13x13 HTML table representing the range.
 
         The table's CSS class is ``range``, pair cells (td element) are ``pair``, offsuit hands are
@@ -688,7 +688,7 @@ class Range:
         html += '</table>'
         return html
 
-    def as_table(self, border=False):
+    def to_ascii(self, border=False):
         """Returns a nicely formatted ASCII table with optional borders."""
 
         table = ''

@@ -5,13 +5,19 @@ Hand history parsing API
 .. note:: Hand history parsing API will change for sure until 1.0 is done.
 
 
-.. autofunction:: poker.handhistory.normalize
+Constant values
+---------------
 
-  | For example, PKR calls "Cash game" "ring game",
-  | or there are multiple forms of holdem like "Hold'em", "holdem", "he", etc..
+These enumerations are used to identify common values like limit types, game, etc.
+By unifying these into groups of enumeration classes, it's possible to have common values
+accross the whole framework, even when parsing totally different kind of hand histories, which
+uses different values. (`Data normalization`_)
+It's recommended to use keys (name property) to save in database, and print them to the user.
+(E.g. in a web application template, ``{{ PokerRoom.STARS }}`` will be converted to ``'PokerStars'``.)
 
-  :param value: the word to normalize like ``"No limit"``, ``"Hold'em"``, ``"Cash game"``
-  :return: Normalized form of the word like ``"NL"``, ``"HOLDEM"``, ``"CASH"``, etc.
+.. automodule:: poker.constants
+   :members:
+   :undoc-members:
 
 
 Base classes
@@ -38,15 +44,14 @@ Base classes
 
    :ivar str date_format:                  default date format for the given poker room
    :ivar str ident:                        hand id
-   :ivar str game_type:                    ``"TOUR"`` for tournaments or ``"SNG"`` for Sit&Go-s
+   :ivar poker.constants.GameType game_type:  ``"TOUR"`` for tournaments or ``"SNG"`` for Sit&Go-s
    :ivar str tournament_ident:             tournament id
    :ivar str tournament_level:             level of tournament blinds
-   :ivar str currency:                     3 letter iso code ``"USD"``, ``"HUF"``, ``"EUR"``, etc.
+   :ivar poker.constants.Currency currency:  3 letter iso code ``"USD"``, ``"HUF"``, ``"EUR"``, etc.
    :ivar decimal.Decimal buyin:            buyin **without** rake
    :ivar decimal.Decimal rake:             if game_type is ``"TOUR"`` it's buyin rake, if ``"CASH"`` it's rake from pot
-   :ivar str game:                         ``"HOLDEM"``, ``"OMAHA"``, ``"STUD"``, ``"RAZZ"``, etc.
-                                           you should call :func:`normalize` to generate the correct value
-   :ivar str limit:                        ``"NL"``, ``"PL"`` or ``"FL"``
+   :ivar poker.constants.Game game:        ``"HOLDEM"``, ``"OMAHA"``, ``"STUD"``, ``"RAZZ"``, etc.
+   :ivar poker.constants.Limit limit:      ``"NL"``, ``"PL"`` or ``"FL"``
    :ivar decimal.Decimal sb:               amount of small blind
    :ivar decimal.Decimal bb:               amount of big blind
    :ivar datetime date:                    hand date in UTC
@@ -54,7 +59,7 @@ Base classes
    :ivar int max_player:                   maximum players can sit on the table, 2, 4, 6, 7, 8, 9
    :ivar poker.handhistory._Player button: player on the button
    :ivar poker.handhistory._Player hero:   hero player
-   :ivar list players:                     list of :class:`poker.handhistory.Player` namedtuples.
+   :ivar list players:                     list of :class:`poker.handhistory._Player` namedtuples.
                                            the sequence is the seating order at the table at the start of the hand
    :ivar tuple flop:                       tuple of Cards e.g. ``(Card('Ah'), Card('2s'), Card('2h'))``
    :ivar poker.card.Card turn:             turn card, e.g. ``Card('Ah')``
@@ -125,3 +130,6 @@ PKR
 
   :ivar str last_ident:    last hand id
   :ivar str money_type:    ``"R"`` for real money, ``"P"`` for play money
+
+
+.. _data normalization: http://en.wikipedia.org/wiki/Data_normalization

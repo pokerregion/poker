@@ -8,8 +8,8 @@ from poker.handhistory import _Player
 from poker.room.pkr import PKRHandHistory
 from poker.card import Card
 from poker.hand import Combo
+from poker.constants import Game, Limit, GameType, MoneyType, Currency
 from .pkr_hands import HANDS
-
 
 @fixture
 def hand_header(request):
@@ -29,19 +29,19 @@ class TestHoldemHand:
     hand_text = HANDS['holdem_full']
 
     @mark.parametrize('attribute, expected_value', [
-        ('game_type', 'CASH'),
+        ('game_type', GameType.CASH),
         ('sb', D('0.25')),
         ('bb', D('0.50')),
         ('date', UTC.localize(datetime(2013, 10, 5, 1, 15, 45))),
-        ('game', 'HOLDEM'),
-        ('limit', 'NL'),
+        ('game', Game.HOLDEM),
+        ('limit', Limit.NL),
         ('ident', '2433297728'),
         ('tournament_ident', None),
         ('tournament_name', None),
         ('tournament_level', None),
         ('table_name', "#52121155 - Rapanui's Leela"),
         ('buyin', D('50')),
-        ('currency', 'USD'),
+        ('currency', Currency.USD),
     ])
     def test_header(self, hand_header, attribute, expected_value):
         assert getattr(hand_header, attribute) == expected_value
@@ -81,7 +81,7 @@ class TestHoldemHand:
         ('winners', ('barly123',)),
         ('show_down', True),
         ('board', (Card('7d'), Card('3c'), Card('Jd'), Card('Js'), Card('5h'))),
-        ('extra', dict(money_type='R', last_ident='2433297369')),
+        ('extra', dict(money_type=MoneyType.REAL, last_ident='2433297369')),
         ])
     def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value

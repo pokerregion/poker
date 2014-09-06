@@ -1,9 +1,9 @@
 import re
 from decimal import Decimal
 import pytz
-from ..handhistory import _SplittableHandHistory, normalize, _Player
+from ..handhistory import _SplittableHandHistory, _Player
 from ..hand import Combo, Card
-
+from ..constants import Limit, Game, GameType, MoneyType, Currency
 
 __all__ = ['PKRHandHistory']
 
@@ -12,7 +12,7 @@ class PKRHandHistory(_SplittableHandHistory):
     """Parses PKR hand histories."""
 
     date_format = '%d %b %Y %H:%M:%S'
-    currency = 'USD'
+    currency = Currency.USD
     tournament_ident = None
     tournament_name = None
     tournament_level = None
@@ -39,9 +39,9 @@ class PKRHandHistory(_SplittableHandHistory):
         self.table_name = self._splitted[0][6:]          # cut off "Table "
         self.ident = self._splitted[1][15:]              # cut off "Starting Hand #"
         self._parse_date(self._splitted[2][20:])         # cut off "Start time of hand: "
-        self.game = normalize(self._splitted[4][11:])        # cut off "Game Type: "
-        self.limit = normalize(self._splitted[5][12:])      # cut off "Limit Type: "
-        self.game_type = normalize(self._splitted[6][12:])   # cut off "Table Type: "
+        self.game = Game(self._splitted[4][11:])        # cut off "Game Type: "
+        self.limit = Limit(self._splitted[5][12:])      # cut off "Limit Type: "
+        self.game_type = GameType(self._splitted[6][12:])   # cut off "Table Type: "
 
         match = self._blinds_re.match(self._splitted[8])
         self.sb = Decimal(match.group(1))
@@ -102,15 +102,15 @@ class PKRHandHistory(_SplittableHandHistory):
             setattr(self, street, tuple(map(Card, cards)) if street == 'flop' else Card(cards[0]))
 
             stop = next(v for v in self._sections if v > start) - 1
-            setattr(self, "%s_actions" % street, tuple(self._splitted[start + 1:stop]))
+            setattr(self, "{}_actions".format(street), tuple(self._splitted[start + 1:stop]))
 
             sizes_line = self._splitted[start - 2]
             pot = Decimal(self._sizes_re.match(sizes_line).group(1))
-            setattr(self, "%s_pot" % street, pot)
+            setattr(self, "{}_pot".format(street), pot)
         except IndexError:
             setattr(self, street, None)
-            setattr(self, "%s_actions" % street, None)
-            setattr(self, "%s_pot" % street, None)
+            setattr(self, "{}_actions".format(street), None)
+            setattr(self, "{}_pot".format(street), None)
 
     def _parse_showdown(self):
         start = self._sections[-1] + 1
@@ -148,4 +148,4 @@ class PKRHandHistory(_SplittableHandHistory):
     def _parse_extra(self):
         self.extra = dict()
         self.extra['last_ident'] = self._splitted[3][11:]             # cut off "Last Hand #"
-        self.extra['money_type'] = normalize(self._splitted[7][12:])  # cut off "Money Type: "
+        self.extra['money_type'] = MoneyType(self._splitted[7][12:])  # cut off "Money Type: "
