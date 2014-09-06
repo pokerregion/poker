@@ -2,8 +2,8 @@ from enum34_custom import CaseInsensitiveMultiValueEnum
 
 
 class PokerRoom(CaseInsensitiveMultiValueEnum):
-    STARS = 'POKERSTARS', 'STARS', 'PS'
-    FTP =  'FULL TILT POKER', 'FULL TILT', 'FTP'
+    STARS = 'PokerStars', 'STARS', 'PS'
+    FTP =  'Full Tilt Poker', 'FTP', 'FULL TILT'
     PKR = 'PKR', 'PKR POKER'
 
 
@@ -14,21 +14,22 @@ class Currency(CaseInsensitiveMultiValueEnum):
 
 
 class GameType(CaseInsensitiveMultiValueEnum):
-    TOUR = 'TOURNAMENT', 'TOUR'
-    CASH = 'CASH GAME', 'RING', 'CASH'
+    TOUR = 'Tournament', 'TOUR',
+    CASH = 'Cash game', 'CASH', 'RING',
+    SNG = 'Sit & Go', 'SNG', 'SIT AND GO', 'Sit&go'
 
 
 class Game(CaseInsensitiveMultiValueEnum):
-    HOLDEM = "HOLD'EM", 'HOLDEM'
-    OMAHA = 'OMAHA',
+    HOLDEM = "Hold'em", 'HOLDEM'
+    OMAHA = 'Omaha',
 
 
 class Limit(CaseInsensitiveMultiValueEnum):
-    NL = 'NO LIMIT', 'NL'
-    PL = 'POT LIMIT', 'PL'
-    FL = 'FIX LIMIT', 'FL'
+    NL = 'NL', 'NO LIMIT'
+    PL = 'PL', 'POT LIMIT'
+    FL = 'FL', 'FIX LIMIT'
 
 
 class MoneyType(CaseInsensitiveMultiValueEnum):
-    REAL = 'REAL MONEY',
-    PLAY = 'PLAY MONEY',
+    REAL = 'Real money',
+    PLAY = 'Play money',
