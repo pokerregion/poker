@@ -3,7 +3,7 @@
 """
 
 from abc import ABCMeta, abstractmethod
-from collections import MutableMapping, namedtuple
+from collections import namedtuple
 from inspect import ismethod
 from decimal import Decimal
 from datetime import datetime
@@ -14,15 +14,12 @@ _Player = namedtuple('_Player', 'name, stack, seat, combo')
 """Named tuple for players participating in the hand history."""
 
 
-class _BaseHandHistory(MutableMapping, metaclass=ABCMeta):
+class _BaseHandHistory(metaclass=ABCMeta):
     """Abstract base class for *all* kind of parser."""
-
-    _non_hand_attributes = ('raw', 'parsed', 'header_parsed', 'date_format', 'extra')
 
     @abstractmethod
     def __init__(self, hand_text):
         """Save raw hand history."""
-
         self.raw = hand_text.strip()
         self.header_parsed = False
         self.parsed = False
@@ -33,31 +30,8 @@ class _BaseHandHistory(MutableMapping, metaclass=ABCMeta):
         self = cls(hand_text)
         return self
 
-    def __len__(self):
-        return len(self.keys())
-
-    def __getitem__(self, key):
-        if key not in self._non_hand_attributes:
-            return getattr(self, key)
-        else:
-            raise KeyError('You can only get it via ''the attribute like "hand.{}"'.format(key))
-
-    def __setitem__(self, key, value):
-        setattr(self, key, value)
-
-    def __delitem__(self, key):
-        delattr(self, key)
-
-    def __iter__(self):
-        return iter(self.keys())
-
     def __str__(self):
         return "<{}: #{}>" .format(self.__class__.__name__, self.ident)
-
-    def keys(self):
-        return [attr for attr in dir(self) if not attr.startswith('_') and
-                                              attr not in self._non_hand_attributes and
-                                              not ismethod(getattr(self, attr))]
 
     @property
     def board(self):
