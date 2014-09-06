@@ -1,6 +1,6 @@
 import random
 from enum import Enum
-from enum34_custom import _MultiValueMeta, OrderableMixin
+from enum34_custom import _MultiValueMeta, OrderableMixin, CaseInsensitiveMultiValueEnum
 from types import DynamicClassAttribute
 
 
@@ -21,6 +21,11 @@ class _MultiValueEnum(OrderableMixin, Enum, metaclass=_MultiMeta):
     def value(self):
         """The value of the Enum member."""
         return self._value_[0]
+
+
+class _CaseInsensitiveMultiValueEnum(CaseInsensitiveMultiValueEnum):
+    def __str__(self):
+        return str(self.value[0])
 
 
 class _ReprMixin:

@@ -1,35 +1,35 @@
-from enum34_custom import CaseInsensitiveMultiValueEnum
+from ._common import _CaseInsensitiveMultiValueEnum
 
 
-class PokerRoom(CaseInsensitiveMultiValueEnum):
+class PokerRoom(_CaseInsensitiveMultiValueEnum):
     STARS = 'PokerStars', 'STARS', 'PS'
     FTP =  'Full Tilt Poker', 'FTP', 'FULL TILT'
     PKR = 'PKR', 'PKR POKER'
 
 
-class Currency(CaseInsensitiveMultiValueEnum):
+class Currency(_CaseInsensitiveMultiValueEnum):
     USD = 'USD', '$'
     EUR = 'EUR', '€'
     GBP = 'GBP', '£'
 
 
-class GameType(CaseInsensitiveMultiValueEnum):
+class GameType(_CaseInsensitiveMultiValueEnum):
     TOUR = 'Tournament', 'TOUR',
     CASH = 'Cash game', 'CASH', 'RING',
     SNG = 'Sit & Go', 'SNG', 'SIT AND GO', 'Sit&go'
 
 
-class Game(CaseInsensitiveMultiValueEnum):
+class Game(_CaseInsensitiveMultiValueEnum):
     HOLDEM = "Hold'em", 'HOLDEM'
     OMAHA = 'Omaha',
 
 
-class Limit(CaseInsensitiveMultiValueEnum):
+class Limit(_CaseInsensitiveMultiValueEnum):
     NL = 'NL', 'NO LIMIT'
     PL = 'PL', 'POT LIMIT'
     FL = 'FL', 'FIX LIMIT'
 
 
-class MoneyType(CaseInsensitiveMultiValueEnum):
+class MoneyType(_CaseInsensitiveMultiValueEnum):
     REAL = 'Real money',
     PLAY = 'Play money',

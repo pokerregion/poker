@@ -12,7 +12,8 @@ These enumerations are used to identify common values like limit types, game, et
 By unifying these into groups of enumeration classes, it's possible to have common values
 accross the whole framework, even when parsing totally different kind of hand histories, which
 uses different values. (`Data normalization`_)
-
+It's recommended to use keys (name property) to save in database, and print them to the user.
+(E.g. in a web application template, ``{{ PokerRoom.STARS }}`` will be converted to ``'PokerStars'``.)
 
 .. automodule:: poker.constants
    :members:
