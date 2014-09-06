@@ -7,6 +7,7 @@ from poker.room.fulltiltpoker import FullTiltPokerHandHistory
 from poker.card import Card
 from poker.hand import Combo
 from poker.handhistory import _Player
+from poker.constants import Game, Currency, Limit, GameType
 from . import ftp_hands
 
 
@@ -33,12 +34,12 @@ class TestHandWithFlopOnly:
     hand_text = ftp_hands.HAND1
 
     @pytest.mark.parametrize('attribute,expected_value',
-        [('game_type', 'TOUR'),
+        [('game_type', GameType.TOUR),
          ('sb', Decimal(10)),
          ('bb', Decimal(20)),
          ('date', ET.localize(datetime(2013, 9, 22, 13, 26, 50))),
-         ('game', 'HOLDEM'),
-         ('limit', 'NL'),
+         ('game', Game.HOLDEM),
+         ('limit', Limit.NL),
          ('ident', '33286946295'),
          ('tournament_ident', '255707037'),
          ('table_name', '179'),
@@ -104,19 +105,19 @@ class TestHandWithFlopTurnRiver:
     hand_text = ftp_hands.TURBO_SNG
 
     @pytest.mark.parametrize('attribute,expected_value',
-        [('game_type', 'SNG'),
+        [('game_type', GameType.SNG),
          ('sb', Decimal(15)),
          ('bb', Decimal(30)),
          ('date', ET.localize(datetime(2014, 6, 29, 5, 57, 1))),
-         ('game', 'HOLDEM'),
-         ('limit', 'NL'),
+         ('game', Game.HOLDEM),
+         ('limit', Limit.NL),
          ('ident', '34374264321'),
          ('tournament_ident', '268569961'),
          ('table_name', '1'),
          ('tournament_level', None),
          ('buyin', Decimal(10)),
          ('rake', None),
-         ('currency', 'USD'),
+         ('currency', Currency.USD),
         ])
     def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
         assert getattr(hand_header, attribute) == expected_value

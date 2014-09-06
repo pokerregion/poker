@@ -1,9 +1,10 @@
 import re
 from decimal import Decimal
 import pytz
-from ..handhistory import _Player, _SplittableHandHistory, normalize
+from ..handhistory import _Player, _SplittableHandHistory
 from ..card import Card
 from ..hand import Combo
+from ..constants import Limit, Game, GameType, Currency
 from .._common import _make_int
 
 
@@ -56,12 +57,12 @@ class FullTiltPokerHandHistory(_SplittableHandHistory):
         self._parse_date(self._header_match.group('date'))
         self.ident = self._header_match.group('ident')
         tournament_name = self._header_match.group('tournament_name')
-        self.game_type = 'SNG' if 'Sit & Go' in tournament_name else 'TOUR'
-        self.currency = 'USD' if '$' in tournament_name else None
+        self.game_type = GameType.SNG if 'Sit & Go' in tournament_name else GameType.TOUR
+        self.currency = Currency.USD if '$' in tournament_name else None
         self.tournament_ident = self._header_match.group('tournament_ident')
         self.table_name = self._header_match.group('table_name')
-        self.limit = normalize(self._header_match.group('limit'))
-        self.game = normalize(self._header_match.group('game'))
+        self.limit = Limit(self._header_match.group('limit'))
+        self.game = Game(self._header_match.group('game'))
         buyin = self._header_match.group('buyin')
         self.buyin = Decimal(buyin) if buyin else None
 
