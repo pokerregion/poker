@@ -33,3 +33,12 @@ class Limit(_CaseInsensitiveMultiValueEnum):
 class MoneyType(_CaseInsensitiveMultiValueEnum):
     REAL = 'Real money',
     PLAY = 'Play money',
+
+
+class Action(_CaseInsensitiveMultiValueEnum):
+    BET = 'bet',
+    FOLD = 'fold', 'folded',
+    RETURN = 'return', 'returned', 'uncalled'
+    WIN = 'win', 'won', 'collected'
+    SHOW = 'show',
+    NOSHOW = "don't show", "didn't show", 'did not show'

@@ -27,7 +27,7 @@ class _MultiValueEnum(OrderableMixin, MultiValueEnum, metaclass=_RandomMultiValu
 
 class _CaseInsensitiveMultiValueEnum(CaseInsensitiveMultiValueEnum):
     def __str__(self):
-        return str(self.value[0])
+        return self.value[0]
 
 
 class _ReprMixin:
