@@ -2,9 +2,10 @@ import re
 from decimal import Decimal
 from collections import namedtuple
 import pytz
-from ..handhistory import _Player, _SplittableHandHistory, normalize
+from ..handhistory import _Player, _SplittableHandHistory
 from ..card import Card
 from ..hand import Combo
+from ..constants import Limit, Game, GameType, Currency
 
 
 __all__ = ['PokerStarsHandHistory']
@@ -48,18 +49,18 @@ class PokerStarsHandHistory(_SplittableHandHistory):
     def parse_header(self):
         header_line = self._splitted[0]
         match = self._header_re.match(header_line)
-        self.game_type = normalize(match.group('game_type'))
+        self.game_type = GameType(match.group('game_type'))
         self.sb = Decimal(match.group('sb'))
         self.bb = Decimal(match.group('bb'))
         self.buyin = Decimal(match.group('buyin'))
         self.rake = Decimal(match.group('rake'))
         self._parse_date(match.group('date'))
-        self.game = normalize(match.group('game'))
-        self.limit = normalize(match.group('limit'))
+        self.game = Game(match.group('game'))
+        self.limit = Limit(match.group('limit'))
         self.ident = match.group('ident')
         self.tournament_ident = match.group('tournament_ident')
         self.tournament_level = match.group('tournament_level')
-        self.currency = match.group('currency')
+        self.currency = Currency(match.group('currency'))
 
         self.header_parsed = True
 

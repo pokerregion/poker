@@ -7,6 +7,7 @@ from poker.handhistory import _Player
 from poker.room.pokerstars import PokerStarsHandHistory
 from poker.card import Card
 from poker.hand import Combo
+from poker.constants import Currency, GameType, Game, Limit
 from . import stars_hands
 
 
@@ -35,14 +36,14 @@ class TestHandWithFlopOnly:
     # but with tuple, it works in both 2.3.5 and 2.4
     @pytest.mark.parametrize(('attribute', 'expected_value'), [
         ('ident', '105024000105'),
-        ('game_type', 'TOUR'),
+        ('game_type', GameType.TOUR),
         ('tournament_ident', '797469411'),
         ('tournament_level', 'I'),
-        ('currency', 'USD'),
+        ('currency', Currency.USD),
         ('buyin', Decimal('3.19')),
         ('rake', Decimal('0.31')),
-        ('game', 'HOLDEM'),
-        ('limit', 'NL'),
+        ('game', Game.HOLDEM),
+        ('limit', Limit.NL),
         ('sb', Decimal(10)),
         ('bb', Decimal(20)),
         ('date', ET.localize(datetime(2013, 10, 4, 13, 53, 27)))
@@ -101,14 +102,14 @@ class TestAllinPreflopHand:
 
     @pytest.mark.parametrize(('attribute', 'expected_value'), [
          ('ident', '105034215446'),
-         ('game_type', 'TOUR'),
+         ('game_type', GameType.TOUR),
          ('tournament_ident', '797536898'),
          ('tournament_level', 'XI'),
-         ('currency', 'USD'),
+         ('currency', Currency.USD),
          ('buyin', Decimal('3.19')),
          ('rake', Decimal('0.31')),
-         ('game', 'HOLDEM'),
-         ('limit', 'NL'),
+         ('game', Game.HOLDEM),
+         ('limit', Limit.NL),
          ('sb', Decimal(400)),
          ('bb', Decimal(800)),
          ('date', ET.localize(datetime(2013, 10, 4, 17, 22, 20))),
@@ -162,14 +163,14 @@ class TestBodyMissingPlayerNoBoard:
 
     @pytest.mark.parametrize(('attribute', 'expected_value'), [
          ('ident', '105026771696'),
-         ('game_type', 'TOUR'),
+         ('game_type', GameType.TOUR),
          ('tournament_ident', '797469411'),
          ('tournament_level', 'X'),
-         ('currency', 'USD'),
+         ('currency', Currency.USD),
          ('buyin', Decimal('3.19')),
          ('rake', Decimal('0.31')),
-         ('game', 'HOLDEM'),
-         ('limit', 'NL'),
+         ('game', Game.HOLDEM),
+         ('limit', Limit.NL),
          ('sb', Decimal(300)),
          ('bb', Decimal(600)),
          ('date', ET.localize(datetime(2013, 10, 4, 14, 50, 56)))
@@ -224,14 +225,14 @@ class TestBodyEveryStreet:
 
     @pytest.mark.parametrize(('attribute', 'expected_value'), [
          ('ident', '105025168298'),
-         ('game_type', 'TOUR'),
+         ('game_type', GameType.TOUR),
          ('tournament_ident', '797469411'),
          ('tournament_level', 'IV'),
-         ('currency', 'USD'),
+         ('currency', Currency.USD),
          ('buyin', Decimal('3.19')),
          ('rake', Decimal('0.31')),
-         ('game', 'HOLDEM'),
-         ('limit', 'NL'),
+         ('game', Game.HOLDEM),
+         ('limit', Limit.NL),
          ('sb', Decimal(50)),
          ('bb', Decimal(100)),
          ('date', ET.localize(datetime(2013, 10, 4, 14, 19, 17)))
