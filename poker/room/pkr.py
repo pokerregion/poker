@@ -1,9 +1,9 @@
 import re
 from decimal import Decimal
 import pytz
-from ..handhistory import _SplittableHandHistory, normalize, _Player
+from ..handhistory import _SplittableHandHistory, _Player
 from ..hand import Combo, Card
-
+from ..constants import Limit, Game, GameType, MoneyType, Currency
 
 __all__ = ['PKRHandHistory']
 
@@ -12,7 +12,7 @@ class PKRHandHistory(_SplittableHandHistory):
     """Parses PKR hand histories."""
 
     date_format = '%d %b %Y %H:%M:%S'
-    currency = 'USD'
+    currency = Currency.USD
     tournament_ident = None
     tournament_name = None
     tournament_level = None
@@ -39,9 +39,9 @@ class PKRHandHistory(_SplittableHandHistory):
         self.table_name = self._splitted[0][6:]          # cut off "Table "
         self.ident = self._splitted[1][15:]              # cut off "Starting Hand #"
         self._parse_date(self._splitted[2][20:])         # cut off "Start time of hand: "
-        self.game = normalize(self._splitted[4][11:])        # cut off "Game Type: "
-        self.limit = normalize(self._splitted[5][12:])      # cut off "Limit Type: "
-        self.game_type = normalize(self._splitted[6][12:])   # cut off "Table Type: "
+        self.game = Game(self._splitted[4][11:])        # cut off "Game Type: "
+        self.limit = Limit(self._splitted[5][12:])      # cut off "Limit Type: "
+        self.game_type = GameType(self._splitted[6][12:])   # cut off "Table Type: "
 
         match = self._blinds_re.match(self._splitted[8])
         self.sb = Decimal(match.group(1))
@@ -148,4 +148,4 @@ class PKRHandHistory(_SplittableHandHistory):
     def _parse_extra(self):
         self.extra = dict()
         self.extra['last_ident'] = self._splitted[3][11:]             # cut off "Last Hand #"
-        self.extra['money_type'] = normalize(self._splitted[7][12:])  # cut off "Money Type: "
+        self.extra['money_type'] = MoneyType(self._splitted[7][12:])  # cut off "Money Type: "

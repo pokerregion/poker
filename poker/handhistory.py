@@ -10,41 +10,6 @@ from datetime import datetime
 import pytz
 
 
-__all__ = ['normalize']
-
-
-_NORMALIZE = {'STARS': {'POKERSTARS', 'STARS', 'PS'},
-              'FTP': {'FULL TILT POKER', 'FULL TILT', 'FTP'},
-              'PKR': {'PKR', 'PKR POKER'},
-
-              'USD': {'USD', '$'},
-              'EUR': {'EUR', '€'},
-              'GBP': {'GBP', '£'},
-
-              'TOUR': {'TOURNAMENT', 'TOUR'},
-              'CASH': {'CASH GAME', 'RING', 'CASH'},
-
-              'HOLDEM': {"HOLD'EM", 'HOLDEM'},
-              'OMAHA': {'OMAHA'},
-
-              'NL': {'NO LIMIT', 'NL'},
-              'PL': {'POT LIMIT', 'PL'},
-              'FL': {'FIX LIMIT', 'FL'},
-
-              'R': {'REAL MONEY'},
-              'P': {'PLAY MONEY'}}
-
-
-def normalize(value):
-    """Normalize common words which can be in multiple form, but all means the same."""
-
-    value = value.upper()
-    for normalized, compare in _NORMALIZE.items():
-        if value in compare:
-            return normalized
-    return value.upper()
-
-
 _Player = namedtuple('_Player', 'name, stack, seat, combo')
 """Named tuple for players participating in the hand history."""
 
@@ -52,7 +17,7 @@ _Player = namedtuple('_Player', 'name, stack, seat, combo')
 class _BaseHandHistory(MutableMapping, metaclass=ABCMeta):
     """Abstract base class for *all* kind of parser."""
 
-    _non_hand_attributes = ('raw', 'parsed', 'header_parsed', 'date_format')
+    _non_hand_attributes = ('raw', 'parsed', 'header_parsed', 'date_format', 'extra')
 
     @abstractmethod
     def __init__(self, hand_text):
