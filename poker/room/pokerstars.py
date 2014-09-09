@@ -165,6 +165,12 @@ class PokerStarsHandHistory(_SplittableHandHistory):
         stop = self._sections[1]
         self.preflop_actions = tuple(self._splitted[start:stop])
 
+    def _parse_flop(self):
+        start = self._splitted.index('FLOP') + 1
+        stop = self._splitted.index('', start)
+        floplines = self._splitted[start:stop]
+        self.flop = _Flop(floplines)
+
     def _parse_street(self, street):
         try:
             start = self._splitted.index(street.upper()) + 2
@@ -189,7 +195,6 @@ class PokerStarsHandHistory(_SplittableHandHistory):
         if not boardline.startswith('Board'):
             return
         cards = self._board_re.findall(boardline)
-        self.flop = tuple(map(Card, cards[:3])) if cards else None
         self.turn = Card(cards[3]) if len(cards) > 3 else None
         self.river = Card(cards[4]) if len(cards) > 4 else None
 

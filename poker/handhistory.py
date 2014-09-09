@@ -92,7 +92,7 @@ class _BaseHandHistory(metaclass=ABCMeta):
         """Calculates board from flop, turn and river."""
         board = []
         if self.flop:
-            board.extend(self.flop)
+            board.extend(self.flop.cards)
             if self.turn:
                 board.append(self.turn)
                 if self.river:
@@ -153,7 +153,7 @@ class _SplittableHandHistory(_BaseHandHistory):
         self._parse_button()
         self._parse_hero()
         self._parse_preflop()
-        self._parse_street('flop')
+        self._parse_flop()
         self._parse_street('turn')
         self._parse_street('river')
         self._parse_showdown()

@@ -4,10 +4,10 @@ from collections import namedtuple
 import pytz
 import pytest
 from poker.handhistory import _Player
-from poker.room.pokerstars import PokerStarsHandHistory
+from poker.room.pokerstars import PokerStarsHandHistory, _Flop
 from poker.card import Card
 from poker.hand import Combo
-from poker.constants import Currency, GameType, Game, Limit
+from poker.constants import Currency, GameType, Game, Limit, Action
 from . import stars_hands
 
 
@@ -28,6 +28,18 @@ def hand_header(request):
     hh = PokerStarsHandHistory(request.instance.hand_text)
     hh.parse_header()
     return hh
+
+
+@pytest.fixture(scope='session')
+def flop():
+    return _Flop([
+        '[2s 6d 6h]',
+        'W2lkm2n: bets 80',
+        'MISTRPerfect: folds',
+        'Uncalled bet (80) returned to W2lkm2n',
+        'W2lkm2n collected 150 from pot',
+        "W2lkm2n: doesn't show hand"
+    ])
 
 
 class TestHandWithFlopOnly:
@@ -69,7 +81,6 @@ class TestHandWithFlopOnly:
         _Player(name='sinus91', stack=1500, seat=8, combo=None),
         _Player(name='STBIJUJA', stack=1500, seat=9, combo=None),
         ]),
-        ('flop', (Card('2s'), Card('6d'), Card('6h'))),
         ('turn', None),
         ('river', None),
         ('board', (Card('2s'), Card('6d'), Card('6h'))),
@@ -82,11 +93,6 @@ class TestHandWithFlopOnly:
                            "flettl2: folds",
                            "santy312: folds",
                            "flavio766: folds")),
-        ('flop_actions', ('W2lkm2n: bets 80',
-                        'MISTRPerfect: folds',
-                        'Uncalled bet (80) returned to W2lkm2n',
-                        'W2lkm2n collected 150 from pot',
-                        "W2lkm2n: doesn't show hand")),
         ('turn_actions', None),
         ('river_actions', None),
         ('total_pot', Decimal(150)),
@@ -96,6 +102,38 @@ class TestHandWithFlopOnly:
     def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value
 
+    def test_flop(self, hand):
+        assert isinstance(hand.flop, _Flop)
+
+    def test_flop_actions(self, hand):
+        assert hand.flop.actions == (
+            ('W2lkm2n', Action.BET, Decimal(80)),
+            ('MISTRPerfect', Action.FOLD),
+            ('W2lkm2n', Action.RETURN, Decimal(80)),
+            ('W2lkm2n', Action.WIN, Decimal(150)),
+            ('W2lkm2n', Action.NOSHOW)
+        )
+
+    def test_flop_cards(self, hand):
+        assert hand.flop.cards == (Card('2s'), Card('6d'), Card('6h'))
+
+    def test_flop_attributes(self, hand):
+        assert hand.flop.is_rainbow == True
+        assert hand.flop.is_monotone == False
+        assert hand.flop.is_triplet == False
+        # TODO: http://www.pokerology.com/lessons/flop-texture/
+        # assert flop.is_dry
+
+        assert hand.flop.has_pair == True
+        assert hand.flop.has_straightdraw == False
+        assert hand.flop.has_gutshot == True
+        assert hand.flop.has_flushdraw == False
+
+    def test_flop_players(self, hand):
+        assert hand.flop.players == ('W2lkm2n', 'MISTRPerfect')
+
+    def test_pot(self, hand):
+        assert hand.flop.pot == 150
 
 class TestAllinPreflopHand:
     hand_text = stars_hands.HAND2
