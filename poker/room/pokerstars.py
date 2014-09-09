@@ -2,13 +2,76 @@ import re
 from decimal import Decimal
 from collections import namedtuple
 import pytz
-from ..handhistory import _Player, _SplittableHandHistory
+from ..handhistory import _Player, _SplittableHandHistory, _BaseFlop
 from ..card import Card
 from ..hand import Combo
-from ..constants import Limit, Game, GameType, Currency
+from ..constants import Limit, Game, GameType, Currency, Action
 
 
 __all__ = ['PokerStarsHandHistory']
+
+
+class _Flop(_BaseFlop):
+    _board_re = re.compile(r"(?<=[\[ ])(..)(?=[\] ])")
+
+    def __init__(self, flop: list):
+        self._parse_cards(flop[0])
+        self._parse_actions(flop[1:])
+
+    def _parse_cards(self, boardline):
+        self.cards = (Card(boardline[1:3]), Card(boardline[4:6]), Card(boardline[7:9]))
+
+    def _parse_actions(self, actionlines):
+        actions = []
+        for line in actionlines:
+            if line.startswith('Uncalled bet'):
+                actions.append(self._parse_uncalled(line))
+            elif 'collected' in line:
+                actions.append(self._parse_collected(line))
+            elif "doesn't show hand" in line:
+                actions.append(self._parse_noshow(line))
+            elif ':' in line:
+                actions.append(self._parse_player_action(line))
+            else:
+                raise
+        self.actions = tuple(actions)
+
+    def _parse_uncalled(self, line):
+        first_paren_index = line.find('(')
+        second_paren_index = line.find(')')
+        amount = line[first_paren_index + 1:second_paren_index]
+        name_start_index = line.find('to ') + 3
+        name = line[name_start_index:]
+        return name, Action.RETURN, Decimal(amount)
+
+    def _parse_collected(self, line):
+        first_space_index = line.find(' ')
+        name = line[:first_space_index]
+        second_space_index = line.find(' ', first_space_index + 1)
+        third_space_index = line.find(' ', second_space_index + 1)
+        amount = line[second_space_index + 1:third_space_index]
+        self.pot = Decimal(amount)
+        return name, Action.WIN, self.pot
+
+    def _parse_noshow(self, line):
+        colon_index = line.find(':')
+        name = line[:colon_index]
+        return name, Action.NOSHOW
+
+    def _parse_player_action(self, line):
+        colon_index = line.find(':')
+        name = line[:colon_index]
+        end_action_index = line.find(' ', colon_index + 2)
+        # -1 means not found
+        if end_action_index == -1:
+            end_action_index = None  # until the end
+        action = Action(line[colon_index + 2:end_action_index])
+        if end_action_index:
+            amount = line[end_action_index+1:]
+            return name, action, Decimal(amount)
+        else:
+            return name, action
+
 
 
 class PokerStarsHandHistory(_SplittableHandHistory):

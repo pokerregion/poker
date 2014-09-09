@@ -8,10 +8,64 @@ from inspect import ismethod
 from decimal import Decimal
 from datetime import datetime
 import pytz
+from cached_property import cached_property
+from poker.card import Rank
 
 
 _Player = namedtuple('_Player', 'name, stack, seat, combo')
 """Named tuple for players participating in the hand history."""
+
+
+class _BaseFlop(metaclass=ABCMeta):
+    @abstractmethod
+    def __init__(self, flop: list):
+        pass
+
+    @cached_property
+    def is_rainbow(self):
+        return self.cards[0].suit != self.cards[1].suit != self.cards[2].suit
+
+    @cached_property
+    def is_monotone(self):
+        return self.cards[0].suit == self.cards[1].suit == self.cards[2].suit
+
+    @cached_property
+    def is_triplet(self):
+        return self.cards[0].rank == self.cards[1].rank == self.cards[2].rank
+
+    @cached_property
+    def has_pair(self):
+        return (self.cards[0].rank == self.cards[1].rank or
+                self.cards[0].rank == self.cards[2].rank or
+                self.cards[1].rank == self.cards[2].rank)
+
+    @cached_property
+    def has_straightdraw(self):
+        return max(self._get_differences()) <= 3
+
+    @cached_property
+    def has_gutshot(self):
+        return max(self._get_differences()) <= 4
+
+    @cached_property
+    def has_flushdraw(self):
+        return (self.cards[0].suit == self.cards[1].suit or
+                self.cards[0].suit == self.cards[2].suit or
+                self.cards[1].suit == self.cards[2].suit)
+
+    @cached_property
+    def players(self):
+        player_names = []
+        for action in self.actions:
+            player_name = action[0]
+            if player_name not in player_names:
+                player_names.append(player_name)
+        return tuple(player_names)
+
+    def _get_differences(self):
+        return (Rank.difference(self.cards[0].rank, self.cards[1].rank),
+                Rank.difference(self.cards[0].rank, self.cards[2].rank),
+                Rank.difference(self.cards[1].rank, self.cards[2].rank))
 
 
 class _BaseHandHistory(metaclass=ABCMeta):

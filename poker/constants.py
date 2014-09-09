@@ -36,8 +36,8 @@ class MoneyType(_CaseInsensitiveMultiValueEnum):
 
 
 class Action(_CaseInsensitiveMultiValueEnum):
-    BET = 'bet',
-    FOLD = 'fold', 'folded',
+    BET = 'bet', 'bets'
+    FOLD = 'fold', 'folded', 'folds'
     RETURN = 'return', 'returned', 'uncalled'
     WIN = 'win', 'won', 'collected'
     SHOW = 'show',

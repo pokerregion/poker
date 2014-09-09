@@ -1,9 +1,10 @@
-from poker import Action
+from decimal import Decimal
+from poker import Card, Action
 from poker.room.pokerstars import _Flop
 import pytest
 
 
-@pytest.fixture
+@pytest.fixture(scope='session')
 def flop():
     return _Flop([
         '[2s 6d 6h]',
@@ -40,6 +41,7 @@ def test_flop_attributes(flop):
     assert flop.has_straightdraw == False
     assert flop.has_gutshot == True
     assert flop.has_flushdraw == False
+
 
 def test_flop_players(flop):
     assert flop.players == ('W2lkm2n', 'MISTRPerfect')
