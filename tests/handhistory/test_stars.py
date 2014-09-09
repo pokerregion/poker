@@ -218,8 +218,9 @@ class TestAllinPreflopHand:
     def test_flop_players(self, hand):
         assert hand.flop.players == None
 
+    @pytest.mark.xfail
     def test_pot(self, hand):
-        assert hand.flop.pot == None
+        assert hand.flop.pot == Decimal(26310)
 
 
 class TestBodyMissingPlayerNoBoard:
@@ -321,7 +322,6 @@ class TestBodyEveryStreet:
             _Player(name='sinus91', stack=3000, seat=8, combo=None),
             _Player(name='STBIJUJA', stack=1205, seat=9, combo=None),
         ]),
-        ('flop', (Card('6s'), Card('4d'), Card('3s'))),
         ('turn', Card('8c')),
         ('river', Card('Kd')),
         ('board', (Card('6s'), Card('4d'), Card('3s'), Card('8c'), Card('Kd'))),
@@ -334,9 +334,6 @@ class TestBodyEveryStreet:
                            'W2lkm2n: folds',
                            'MISTRPerfect: folds',
                            'blak_douglas: calls 125')),
-        ('flop_actions', ('blak_douglas: checks',
-                        'flettl2: bets 150',
-                        'blak_douglas: calls 150')),
         ('turn_actions', ('blak_douglas: checks',
                         'flettl2: bets 250',
                         'blak_douglas: calls 250')),
@@ -352,6 +349,36 @@ class TestBodyEveryStreet:
         ])
     def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value
+
+    def test_flop(self, hand):
+        assert isinstance(hand.flop, _Flop)
+
+    def test_flop_actions(self, hand):
+        assert hand.flop.actions == (
+            ('blak_douglas', Action.CHECK),
+            ('flettl2', Action.BET, Decimal(150)),
+            ('blak_douglas', Action.CALL, Decimal(150)),
+        )
+
+    def test_flop_cards(self, hand):
+        assert hand.flop.cards == (Card('6s'), Card('4d'), Card('3s'))
+
+    def test_flop_attributes(self, hand):
+        assert hand.flop.is_rainbow == False
+        assert hand.flop.is_monotone == False
+        assert hand.flop.is_triplet == False
+
+        assert hand.flop.has_pair == False
+        assert hand.flop.has_straightdraw == True
+        assert hand.flop.has_gutshot == True
+        assert hand.flop.has_flushdraw == True
+
+    def test_flop_players(self, hand):
+        assert hand.flop.players == ('blak_douglas', 'flettl2')
+
+    @pytest.mark.xfail
+    def test_pot(self, hand):
+        assert hand.flop.pot == Decimal(800)
 
 
 class TestClassRepresentation:

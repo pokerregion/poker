@@ -14,8 +14,8 @@ __all__ = ['PokerStarsHandHistory']
 class _Flop(_BaseFlop):
     _board_re = re.compile(r"(?<=[\[ ])(..)(?=[\] ])")
 
-    def __init__(self, flop: list):
-        self.pot = None
+    def __init__(self, flop: list, initial_pot):
+        self._initial_pot = self.pot = initial_pot
         self.actions = None
         self.cards = None
         self._parse_cards(flop[0])
@@ -53,7 +53,7 @@ class _Flop(_BaseFlop):
         second_space_index = line.find(' ', first_space_index + 1)
         third_space_index = line.find(' ', second_space_index + 1)
         amount = line[second_space_index + 1:third_space_index]
-        self.pot = Decimal(amount)
+        self.pot = self._initial_pot + Decimal(amount)
         return name, Action.WIN, self.pot
 
     def _parse_noshow(self, line):
@@ -167,8 +167,10 @@ class PokerStarsHandHistory(_SplittableHandHistory):
         start = self._sections[0] + 3
         stop = self._sections[1]
         self.preflop_actions = tuple(self._splitted[start:stop])
+        initial_pot = 0
+        return initial_pot
 
-    def _parse_flop(self):
+    def _parse_flop(self, initial_pot):
         try:
             start = self._splitted.index('FLOP') + 1
         except ValueError:
@@ -176,7 +178,7 @@ class PokerStarsHandHistory(_SplittableHandHistory):
             return
         stop = self._splitted.index('', start)
         floplines = self._splitted[start:stop]
-        self.flop = _Flop(floplines)
+        self.flop = _Flop(floplines, initial_pot)
 
     def _parse_street(self, street):
         try:

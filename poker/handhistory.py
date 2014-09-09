@@ -18,12 +18,12 @@ _Player = namedtuple('_Player', 'name, stack, seat, combo')
 
 class _BaseFlop(metaclass=ABCMeta):
     @abstractmethod
-    def __init__(self, flop: list):
+    def __init__(self, flop: list, initial_pot):
         pass
 
     @cached_property
     def is_rainbow(self):
-        return self.cards[0].suit != self.cards[1].suit != self.cards[2].suit
+        return self.cards[0].suit != self.cards[1].suit != self.cards[2].suit != self.cards[0].suit
 
     @cached_property
     def is_monotone(self):
@@ -154,8 +154,8 @@ class _SplittableHandHistory(_BaseHandHistory):
         self._parse_players()
         self._parse_button()
         self._parse_hero()
-        self._parse_preflop()
-        self._parse_flop()
+        pot = self._parse_preflop()
+        self._parse_flop(pot)
         self._parse_street('turn')
         self._parse_street('river')
         self._parse_showdown()
