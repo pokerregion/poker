@@ -15,6 +15,9 @@ class _Flop(_BaseFlop):
     _board_re = re.compile(r"(?<=[\[ ])(..)(?=[\] ])")
 
     def __init__(self, flop: list):
+        self.pot = None
+        self.actions = None
+        self.cards = None
         self._parse_cards(flop[0])
         self._parse_actions(flop[1:])
 
@@ -34,7 +37,7 @@ class _Flop(_BaseFlop):
                 actions.append(self._parse_player_action(line))
             else:
                 raise
-        self.actions = tuple(actions)
+        self.actions = tuple(actions) if actions else None
 
     def _parse_uncalled(self, line):
         first_paren_index = line.find('(')
@@ -166,7 +169,11 @@ class PokerStarsHandHistory(_SplittableHandHistory):
         self.preflop_actions = tuple(self._splitted[start:stop])
 
     def _parse_flop(self):
-        start = self._splitted.index('FLOP') + 1
+        try:
+            start = self._splitted.index('FLOP') + 1
+        except ValueError:
+            self.flop = None
+            return
         stop = self._splitted.index('', start)
         floplines = self._splitted[start:stop]
         self.flop = _Flop(floplines)

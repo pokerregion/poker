@@ -41,11 +41,11 @@ class _BaseFlop(metaclass=ABCMeta):
 
     @cached_property
     def has_straightdraw(self):
-        return max(self._get_differences()) <= 3
+        return any(1 <= diff <= 3 for diff in self._get_differences())
 
     @cached_property
     def has_gutshot(self):
-        return max(self._get_differences()) <= 4
+        return any(1 <= diff <= 4 for diff in self._get_differences())
 
     @cached_property
     def has_flushdraw(self):
@@ -55,6 +55,8 @@ class _BaseFlop(metaclass=ABCMeta):
 
     @cached_property
     def players(self):
+        if not self.actions:
+            return None
         player_names = []
         for action in self.actions:
             player_name = action[0]

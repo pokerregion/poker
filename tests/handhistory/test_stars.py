@@ -135,6 +135,7 @@ class TestHandWithFlopOnly:
     def test_pot(self, hand):
         assert hand.flop.pot == 150
 
+
 class TestAllinPreflopHand:
     hand_text = stars_hands.HAND2
 
@@ -171,7 +172,6 @@ class TestAllinPreflopHand:
             _Player(name='pmmr', stack=2415, seat=8, combo=None),
             _Player(name='costamar', stack=13070, seat=9, combo=None),
         ]),
-        ('flop', (Card('3c'), Card('6s'), Card('9d'))),
         ('turn', Card('8d')),
         ('river', Card('Ks')),
         ('board', (Card('3c'), Card('6s'), Card('9d'), Card('8d'), Card('Ks'))),
@@ -185,7 +185,6 @@ class TestAllinPreflopHand:
                            "Labahra: folds",
                            "Lean Abadia: folds",
                            "Uncalled bet (1255) returned to costamar")),
-        ('flop_actions', None),
         ('turn_actions', None),
         ('river_actions', None),
         ('total_pot', Decimal(26310)),
@@ -194,6 +193,33 @@ class TestAllinPreflopHand:
         ])
     def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value
+
+    def test_flop(self, hand):
+        assert isinstance(hand.flop, _Flop)
+
+    def test_flop_actions(self, hand):
+        assert hand.flop.actions == None
+
+    def test_flop_cards(self, hand):
+        assert hand.flop.cards == (Card('3c'), Card('6s'), Card('9d'))
+
+    def test_flop_attributes(self, hand):
+        assert hand.flop.is_rainbow == True
+        assert hand.flop.is_monotone == False
+        assert hand.flop.is_triplet == False
+        # TODO: http://www.pokerology.com/lessons/flop-texture/
+        # assert flop.is_dry
+
+        assert hand.flop.has_pair == False
+        assert hand.flop.has_straightdraw == True
+        assert hand.flop.has_gutshot == True
+        assert hand.flop.has_flushdraw == False
+
+    def test_flop_players(self, hand):
+        assert hand.flop.players == None
+
+    def test_pot(self, hand):
+        assert hand.flop.pot == None
 
 
 class TestBodyMissingPlayerNoBoard:
