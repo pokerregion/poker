@@ -258,7 +258,6 @@ class TestBodyMissingPlayerNoBoard:
             _Player(name='W2lkm2n', stack=10714, seat=8, combo=Combo('6d8d')),
             _Player(name='fischero68', stack=8724, seat=9, combo=None),
          ]),
-         ('flop', None),
          ('turn', None),
          ('river', None),
          ('board', None),
@@ -273,7 +272,6 @@ class TestBodyMissingPlayerNoBoard:
                               'Uncalled bet (600) returned to Theralion',
                               'Theralion collected 1900 from pot',
                               "Theralion: doesn't show hand")),
-         ('flop_actions', None),
          ('turn_actions', None),
          ('river_actions', None),
          ('total_pot', Decimal(1900)),
@@ -282,6 +280,9 @@ class TestBodyMissingPlayerNoBoard:
         ])
     def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value
+
+    def test_flop(self, hand):
+        assert hand.flop is None
 
 
 class TestBodyEveryStreet:
