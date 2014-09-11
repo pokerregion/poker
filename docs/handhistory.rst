@@ -71,6 +71,16 @@ Example
    ('NL', 'HOLDEM')
    >>> hh.board
    (Card('2♠'), Card('6♦'), Card('6♥'))
+   >>> hh.flop.is_rainbow
+   True
+   >>> hh.flop.has_pair
+   True
+   >>> hh.flop.actions
+   (('W2lkm2n', <Action.BET: ('bet', 'bets')>, Decimal('80')),
+    ('MISTRPerfect', <Action.FOLD: ('fold', 'folded', 'folds')>),
+    ('W2lkm2n', <Action.RETURN: ('return', 'returned', 'uncalled')>, Decimal('80')),
+    ('W2lkm2n', <Action.WIN: ('win', 'won', 'collected')>, Decimal('150')),
+    ('W2lkm2n', <Action.MUCK: ("don't show", "didn't show", 'did not show', 'mucks')>))
 
 
 API
