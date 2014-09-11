@@ -5,10 +5,10 @@ import pytz
 from pytz import UTC
 from pytest import mark, fixture
 from poker.handhistory import _Player
-from poker.room.pkr import PKRHandHistory
+from poker.room.pkr import PKRHandHistory, _Flop
 from poker.card import Card
 from poker.hand import Combo
-from poker.constants import Game, Limit, GameType, MoneyType, Currency
+from poker.constants import Game, Limit, GameType, MoneyType, Currency, Action
 from .pkr_hands import HANDS
 
 @fixture
@@ -23,6 +23,17 @@ def hand(request):
     hh = PKRHandHistory(request.instance.hand_text)
     hh.parse()
     return hh
+
+
+@fixture
+def flop(scope='module'):
+    return _Flop(['Flop [7 d][3 c][J d]',
+                  'barly123 checks',
+                  'Capricorn bets $1.37',
+                  'barly123 raises to $4.11',
+                  'Capricorn calls $4.11',
+                  'Pot sizes: $10.97',
+                  ], 0)
 
 
 class TestHoldemHand:
@@ -64,12 +75,6 @@ class TestHoldemHand:
                            'Walkman folds',
                            'barly123 raises to $1.25',
                            'Capricorn calls $1.25')),
-        ('flop', (Card('7d'), Card('3c'), Card('Jd'))),
-        ('flop_pot', D('2.75')),
-        ('flop_actions', ('barly123 checks',
-                        'Capricorn bets $1.37',
-                        'barly123 raises to $4.11',
-                        'Capricorn calls $4.11')),
         ('turn', Card('Js')),
         ('turn_pot', D('10.97')),
         ('turn_actions', ('barly123 checks', 'Capricorn checks')),
@@ -85,3 +90,27 @@ class TestHoldemHand:
         ])
     def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value
+
+    @mark.parametrize(('attribute', 'expected_value'), [
+        ('actions', (
+            ('barly123', Action.CHECK),
+            ('Capricorn', Action.BET, D('1.37')),
+            ('barly123', Action.RAISE, D('4.11')),
+            ('Capricorn', Action.CALL, D('4.11')),
+        )),
+        ('cards', (Card('7d'), Card('3c'), Card('Jd'))),
+        ('is_rainbow', False),
+        ('is_monotone', False),
+        ('is_triplet', False),
+        ('has_pair', False),
+        ('has_straightdraw', False),
+        ('has_gutshot', True),
+        ('has_flushdraw', True),
+        ('players', ('barly123', 'Capricorn')),
+        ('pot', D('10.97'))
+    ])
+    def test_flop_attributes(self, hand, attribute, expected_value):
+        assert getattr(hand.flop, attribute) == expected_value
+
+    def test_flop(self, hand):
+        assert isinstance(hand.flop, _Flop)

@@ -8,10 +8,66 @@ from inspect import ismethod
 from decimal import Decimal
 from datetime import datetime
 import pytz
+from cached_property import cached_property
+from poker.card import Rank
 
 
 _Player = namedtuple('_Player', 'name, stack, seat, combo')
 """Named tuple for players participating in the hand history."""
+
+
+class _BaseFlop(metaclass=ABCMeta):
+    @abstractmethod
+    def __init__(self, flop: list, initial_pot):
+        pass
+
+    @cached_property
+    def is_rainbow(self):
+        return self.cards[0].suit != self.cards[1].suit != self.cards[2].suit != self.cards[0].suit
+
+    @cached_property
+    def is_monotone(self):
+        return self.cards[0].suit == self.cards[1].suit == self.cards[2].suit
+
+    @cached_property
+    def is_triplet(self):
+        return self.cards[0].rank == self.cards[1].rank == self.cards[2].rank
+
+    @cached_property
+    def has_pair(self):
+        return (self.cards[0].rank == self.cards[1].rank or
+                self.cards[0].rank == self.cards[2].rank or
+                self.cards[1].rank == self.cards[2].rank)
+
+    @cached_property
+    def has_straightdraw(self):
+        return any(1 <= diff <= 3 for diff in self._get_differences())
+
+    @cached_property
+    def has_gutshot(self):
+        return any(1 <= diff <= 4 for diff in self._get_differences())
+
+    @cached_property
+    def has_flushdraw(self):
+        return (self.cards[0].suit == self.cards[1].suit or
+                self.cards[0].suit == self.cards[2].suit or
+                self.cards[1].suit == self.cards[2].suit)
+
+    @cached_property
+    def players(self):
+        if not self.actions:
+            return None
+        player_names = []
+        for action in self.actions:
+            player_name = action[0]
+            if player_name not in player_names:
+                player_names.append(player_name)
+        return tuple(player_names)
+
+    def _get_differences(self):
+        return (Rank.difference(self.cards[0].rank, self.cards[1].rank),
+                Rank.difference(self.cards[0].rank, self.cards[2].rank),
+                Rank.difference(self.cards[1].rank, self.cards[2].rank))
 
 
 class _BaseHandHistory(metaclass=ABCMeta):
@@ -38,7 +94,7 @@ class _BaseHandHistory(metaclass=ABCMeta):
         """Calculates board from flop, turn and river."""
         board = []
         if self.flop:
-            board.extend(self.flop)
+            board.extend(self.flop.cards)
             if self.turn:
                 board.append(self.turn)
                 if self.river:
@@ -98,8 +154,8 @@ class _SplittableHandHistory(_BaseHandHistory):
         self._parse_players()
         self._parse_button()
         self._parse_hero()
-        self._parse_preflop()
-        self._parse_street('flop')
+        pot = self._parse_preflop()
+        self._parse_flop(pot)
         self._parse_street('turn')
         self._parse_street('river')
         self._parse_showdown()

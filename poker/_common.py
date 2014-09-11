@@ -1,15 +1,17 @@
 import random
 from enum import Enum
-from enum34_custom import _MultiValueMeta, OrderableMixin, CaseInsensitiveMultiValueEnum
+from enum34_custom import (
+    _MultiValueMeta, OrderableMixin, CaseInsensitiveMultiValueEnum, MultiValueEnum
+)
 from types import DynamicClassAttribute
 
 
-class _MultiMeta(_MultiValueMeta):
+class _RandomMultiValueMeta(_MultiValueMeta):
     def make_random(cls):
         return random.choice(list(cls))
 
 
-class _MultiValueEnum(OrderableMixin, Enum, metaclass=_MultiMeta):
+class _MultiValueEnum(OrderableMixin, MultiValueEnum, metaclass=_RandomMultiValueMeta):
     def __str__(self):
         return str(self.value)
 
@@ -25,7 +27,7 @@ class _MultiValueEnum(OrderableMixin, Enum, metaclass=_MultiMeta):
 
 class _CaseInsensitiveMultiValueEnum(CaseInsensitiveMultiValueEnum):
     def __str__(self):
-        return str(self.value[0])
+        return self.value[0]
 
 
 class _ReprMixin:

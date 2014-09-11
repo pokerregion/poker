@@ -4,10 +4,10 @@ from collections import namedtuple
 import pytz
 import pytest
 from poker.handhistory import _Player
-from poker.room.pokerstars import PokerStarsHandHistory
+from poker.room.pokerstars import PokerStarsHandHistory, _Flop
 from poker.card import Card
 from poker.hand import Combo
-from poker.constants import Currency, GameType, Game, Limit
+from poker.constants import Currency, GameType, Game, Limit, Action
 from . import stars_hands
 
 
@@ -28,6 +28,18 @@ def hand_header(request):
     hh = PokerStarsHandHistory(request.instance.hand_text)
     hh.parse_header()
     return hh
+
+
+@pytest.fixture(scope='module')
+def flop():
+    return _Flop([
+        '[2s 6d 6h]',
+        'W2lkm2n: bets 80',
+        'MISTRPerfect: folds',
+        'Uncalled bet (80) returned to W2lkm2n',
+        'W2lkm2n collected 150 from pot',
+        "W2lkm2n: doesn't show hand"
+        ], 0)
 
 
 class TestHandWithFlopOnly:
@@ -69,7 +81,6 @@ class TestHandWithFlopOnly:
         _Player(name='sinus91', stack=1500, seat=8, combo=None),
         _Player(name='STBIJUJA', stack=1500, seat=9, combo=None),
         ]),
-        ('flop', (Card('2s'), Card('6d'), Card('6h'))),
         ('turn', None),
         ('river', None),
         ('board', (Card('2s'), Card('6d'), Card('6h'))),
@@ -82,11 +93,6 @@ class TestHandWithFlopOnly:
                            "flettl2: folds",
                            "santy312: folds",
                            "flavio766: folds")),
-        ('flop_actions', ('W2lkm2n: bets 80',
-                        'MISTRPerfect: folds',
-                        'Uncalled bet (80) returned to W2lkm2n',
-                        'W2lkm2n collected 150 from pot',
-                        "W2lkm2n: doesn't show hand")),
         ('turn_actions', None),
         ('river_actions', None),
         ('total_pot', Decimal(150)),
@@ -95,6 +101,33 @@ class TestHandWithFlopOnly:
         ])
     def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value
+
+    @pytest.mark.parametrize(('attribute', 'expected_value'), [
+        ('actions', (('W2lkm2n', Action.BET, Decimal(80)),
+                     ('MISTRPerfect', Action.FOLD),
+                     ('W2lkm2n', Action.RETURN, Decimal(80)),
+                     ('W2lkm2n', Action.WIN, Decimal(150)),
+                     ('W2lkm2n', Action.MUCK),
+                     )
+        ),
+        ('cards', (Card('2s'), Card('6d'), Card('6h'))),
+        ('is_rainbow', True),
+        ('is_monotone', False),
+        ('is_triplet', False),
+        # TODO: http://www.pokerology.com/lessons/flop-texture/
+        # assert flop.is_dry
+        ('has_pair', True),
+        ('has_straightdraw', False),
+        ('has_gutshot', True),
+        ('has_flushdraw', False),
+        ('players', ('W2lkm2n', 'MISTRPerfect')),
+        ('pot', Decimal(150))
+    ])
+    def test_flop_attributes(self, hand, attribute, expected_value):
+        assert getattr(hand.flop, attribute) == expected_value
+
+    def test_flop(self, hand):
+        assert isinstance(hand.flop, _Flop)
 
 
 class TestAllinPreflopHand:
@@ -133,7 +166,6 @@ class TestAllinPreflopHand:
             _Player(name='pmmr', stack=2415, seat=8, combo=None),
             _Player(name='costamar', stack=13070, seat=9, combo=None),
         ]),
-        ('flop', (Card('3c'), Card('6s'), Card('9d'))),
         ('turn', Card('8d')),
         ('river', Card('Ks')),
         ('board', (Card('3c'), Card('6s'), Card('9d'), Card('8d'), Card('Ks'))),
@@ -147,7 +179,6 @@ class TestAllinPreflopHand:
                            "Labahra: folds",
                            "Lean Abadia: folds",
                            "Uncalled bet (1255) returned to costamar")),
-        ('flop_actions', None),
         ('turn_actions', None),
         ('river_actions', None),
         ('total_pot', Decimal(26310)),
@@ -156,6 +187,30 @@ class TestAllinPreflopHand:
         ])
     def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value
+
+    @pytest.mark.parametrize(('attribute', 'expected_value'), [
+        ('actions', None),
+        ('cards', (Card('3c'), Card('6s'), Card('9d'))),
+        ('is_rainbow', True),
+        ('is_monotone', False),
+        ('is_triplet', False),
+        # TODO: http://www.pokerology.com/lessons/flop-texture/
+        # assert flop.is_dry
+        ('has_pair', False),
+        ('has_straightdraw', True),
+        ('has_gutshot', True),
+        ('has_flushdraw', False),
+        ('players', None),
+    ])
+    def test_flop_attributes(self, hand, attribute, expected_value):
+        assert getattr(hand.flop, attribute) == expected_value
+
+    def test_flop(self, hand):
+        assert isinstance(hand.flop, _Flop)
+
+    @pytest.mark.xfail
+    def test_flop_pot(self, hand):
+        assert hand.flop.pot == Decimal(26310)
 
 
 class TestBodyMissingPlayerNoBoard:
@@ -194,7 +249,6 @@ class TestBodyMissingPlayerNoBoard:
             _Player(name='W2lkm2n', stack=10714, seat=8, combo=Combo('6d8d')),
             _Player(name='fischero68', stack=8724, seat=9, combo=None),
          ]),
-         ('flop', None),
          ('turn', None),
          ('river', None),
          ('board', None),
@@ -209,7 +263,6 @@ class TestBodyMissingPlayerNoBoard:
                               'Uncalled bet (600) returned to Theralion',
                               'Theralion collected 1900 from pot',
                               "Theralion: doesn't show hand")),
-         ('flop_actions', None),
          ('turn_actions', None),
          ('river_actions', None),
          ('total_pot', Decimal(1900)),
@@ -218,6 +271,9 @@ class TestBodyMissingPlayerNoBoard:
         ])
     def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value
+
+    def test_flop(self, hand):
+        assert hand.flop is None
 
 
 class TestBodyEveryStreet:
@@ -256,7 +312,6 @@ class TestBodyEveryStreet:
             _Player(name='sinus91', stack=3000, seat=8, combo=None),
             _Player(name='STBIJUJA', stack=1205, seat=9, combo=None),
         ]),
-        ('flop', (Card('6s'), Card('4d'), Card('3s'))),
         ('turn', Card('8c')),
         ('river', Card('Kd')),
         ('board', (Card('6s'), Card('4d'), Card('3s'), Card('8c'), Card('Kd'))),
@@ -269,9 +324,6 @@ class TestBodyEveryStreet:
                            'W2lkm2n: folds',
                            'MISTRPerfect: folds',
                            'blak_douglas: calls 125')),
-        ('flop_actions', ('blak_douglas: checks',
-                        'flettl2: bets 150',
-                        'blak_douglas: calls 150')),
         ('turn_actions', ('blak_douglas: checks',
                         'flettl2: bets 250',
                         'blak_douglas: calls 250')),
@@ -287,6 +339,34 @@ class TestBodyEveryStreet:
         ])
     def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value
+
+    @pytest.mark.parametrize(('attribute', 'expected_value'), [
+        ('actions', (('blak_douglas', Action.CHECK),
+                     ('flettl2', Action.BET, Decimal(150)),
+                     ('blak_douglas', Action.CALL, Decimal(150)),
+                     )
+        ),
+        ('cards', (Card('6s'), Card('4d'), Card('3s'))),
+        ('is_rainbow', False),
+        ('is_monotone', False),
+        ('is_triplet', False),
+        # TODO: http://www.pokerology.com/lessons/flop-texture/
+        # assert flop.is_dry
+        ('has_pair', False),
+        ('has_straightdraw', True),
+        ('has_gutshot', True),
+        ('has_flushdraw', True),
+        ('players', ('blak_douglas', 'flettl2')),
+    ])
+    def test_flop_attributes(self, hand, attribute, expected_value):
+        assert getattr(hand.flop, attribute) == expected_value
+
+    def test_flop(self, hand):
+        assert isinstance(hand.flop, _Flop)
+
+    @pytest.mark.xfail
+    def test_flop_pot(self, hand):
+        assert hand.flop.pot == Decimal(800)
 
 
 class TestClassRepresentation:

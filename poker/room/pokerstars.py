@@ -2,13 +2,77 @@ import re
 from decimal import Decimal
 from collections import namedtuple
 import pytz
-from ..handhistory import _Player, _SplittableHandHistory
+from ..handhistory import _Player, _SplittableHandHistory, _BaseFlop
 from ..card import Card
 from ..hand import Combo
-from ..constants import Limit, Game, GameType, Currency
+from ..constants import Limit, Game, GameType, Currency, Action
 
 
 __all__ = ['PokerStarsHandHistory']
+
+
+class _Flop(_BaseFlop):
+    def __init__(self, flop: list, initial_pot):
+        self._initial_pot = self.pot = initial_pot
+        self.actions = None
+        self.cards = None
+        self._parse_cards(flop[0])
+        self._parse_actions(flop[1:])
+
+    def _parse_cards(self, boardline):
+        self.cards = (Card(boardline[1:3]), Card(boardline[4:6]), Card(boardline[7:9]))
+
+    def _parse_actions(self, actionlines):
+        actions = []
+        for line in actionlines:
+            if line.startswith('Uncalled bet'):
+                actions.append(self._parse_uncalled(line))
+            elif 'collected' in line:
+                actions.append(self._parse_collected(line))
+            elif "doesn't show hand" in line:
+                actions.append(self._parse_muck(line))
+            elif ':' in line:
+                actions.append(self._parse_player_action(line))
+            else:
+                raise
+        self.actions = tuple(actions) if actions else None
+
+    def _parse_uncalled(self, line):
+        first_paren_index = line.find('(')
+        second_paren_index = line.find(')')
+        amount = line[first_paren_index + 1:second_paren_index]
+        name_start_index = line.find('to ') + 3
+        name = line[name_start_index:]
+        return name, Action.RETURN, Decimal(amount)
+
+    def _parse_collected(self, line):
+        first_space_index = line.find(' ')
+        name = line[:first_space_index]
+        second_space_index = line.find(' ', first_space_index + 1)
+        third_space_index = line.find(' ', second_space_index + 1)
+        amount = line[second_space_index + 1:third_space_index]
+        self.pot = self._initial_pot + Decimal(amount)
+        return name, Action.WIN, self.pot
+
+    def _parse_muck(self, line):
+        colon_index = line.find(':')
+        name = line[:colon_index]
+        return name, Action.MUCK
+
+    def _parse_player_action(self, line):
+        colon_index = line.find(':')
+        name = line[:colon_index]
+        end_action_index = line.find(' ', colon_index + 2)
+        # -1 means not found
+        if end_action_index == -1:
+            end_action_index = None  # until the end
+        action = Action(line[colon_index + 2:end_action_index])
+        if end_action_index:
+            amount = line[end_action_index+1:]
+            return name, action, Decimal(amount)
+        else:
+            return name, action
+
 
 
 class PokerStarsHandHistory(_SplittableHandHistory):
@@ -101,6 +165,18 @@ class PokerStarsHandHistory(_SplittableHandHistory):
         start = self._sections[0] + 3
         stop = self._sections[1]
         self.preflop_actions = tuple(self._splitted[start:stop])
+        initial_pot = 0
+        return initial_pot
+
+    def _parse_flop(self, initial_pot):
+        try:
+            start = self._splitted.index('FLOP') + 1
+        except ValueError:
+            self.flop = None
+            return
+        stop = self._splitted.index('', start)
+        floplines = self._splitted[start:stop]
+        self.flop = _Flop(floplines, initial_pot)
 
     def _parse_street(self, street):
         try:
@@ -126,7 +202,6 @@ class PokerStarsHandHistory(_SplittableHandHistory):
         if not boardline.startswith('Board'):
             return
         cards = self._board_re.findall(boardline)
-        self.flop = tuple(map(Card, cards[:3])) if cards else None
         self.turn = Card(cards[3]) if len(cards) > 3 else None
         self.river = Card(cards[4]) if len(cards) > 4 else None
 

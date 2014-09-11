@@ -23,15 +23,6 @@ It's recommended to use keys (name property) to save in database, and print them
 Base classes
 ------------
 
-.. autoclass:: poker.handhistory._Player
-
-   :ivar str name:            Player name
-   :ivar int stack:           Stack size (sometimes called as chips)
-   :ivar int seat:            Seat number
-   :ivar Combo,None combo:    If the player revealed his/her hand, this property hold's it.
-                              None for players didn't show... autoclass:: poker.handhistory._Player
-
-
 .. autoclass:: poker.handhistory._BaseHandHistory
    :members:
    :exclude-members: board
@@ -61,7 +52,7 @@ Base classes
    :ivar poker.handhistory._Player hero:   hero player
    :ivar list players:                     list of :class:`poker.handhistory._Player` namedtuples.
                                            the sequence is the seating order at the table at the start of the hand
-   :ivar tuple flop:                       tuple of Cards e.g. ``(Card('Ah'), Card('2s'), Card('2h'))``
+   :ivar _Flop flop:                       room specific Flop object
    :ivar poker.card.Card turn:             turn card, e.g. ``Card('Ah')``
    :ivar poker.card.Card river:            river card, e.g. ``Card('2d')``
    :ivar tuple board:                      board cards, e.g. ``(Card('4s'), Card('4d'), Card('4c'), Card('5h'))``
@@ -83,6 +74,39 @@ Base classes
                                            and not common accross all. When iterating through the instance,
                                            this extra attribute will not be included. default value is None
 
+.. autoclass:: poker.handhistory._Player
+
+   :ivar str name:            Player name
+   :ivar int stack:           Stack size (sometimes called as chips)
+   :ivar int seat:            Seat number
+   :ivar Combo,None combo:    If the player revealed his/her hand, this property hold's it.
+                              None for players didn't show... autoclass:: poker.handhistory._Player
+
+
+Every hand history has an attribute ``flop`` which is an instance of the room specific :class:`_Flop`
+object which has the following attributes:
+
+.. currentmodule:: None
+
+.. class:: _Flop
+
+   :ivar tuple cards:          tuple of :class:`poker.card.Card`\ s
+   :ivar decimal.Decimal pot:  pot size after actions
+   :ivar tuple players:        tuple of player names
+   :ivar tuple actions:        | tuple of :class:`poker.constants.Action` in the order of happening.
+                              | Form:
+                              | (Player name, Action, Amount) or
+                              | (Player name, Action) if no amount needed (e.g. in case of Check)
+
+   It also has properties about flop texture like:
+
+   :ivar bool is_rainbow:
+   :ivar bool is_monotone:
+   :ivar bool is_triplet:
+   :ivar bool has_pair:
+   :ivar bool has_straightdraw:
+   :ivar bool has_gutshot:
+   :ivar bool has_flushdraw:
 
 PokerStars
 ----------
