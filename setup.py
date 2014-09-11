@@ -1,6 +1,5 @@
 import sys
 from setuptools import setup, find_packages
-from setuptools.command.test import test as TestCommand
 
 
 install_requires = [
@@ -21,7 +20,7 @@ entry_points = """\
 
 setup(
     name = 'poker',
-    version = '0.15.0',
+    version = '0.16.0',
     description = 'Poker Framework',
     classifiers = [
         "Intended Audience :: Developers",
