@@ -107,7 +107,7 @@ class TestHandWithFlopOnly:
                      ('MISTRPerfect', Action.FOLD),
                      ('W2lkm2n', Action.RETURN, Decimal(80)),
                      ('W2lkm2n', Action.WIN, Decimal(150)),
-                     ('W2lkm2n', Action.NOSHOW),
+                     ('W2lkm2n', Action.MUCK),
                      )
         ),
         ('cards', (Card('2s'), Card('6d'), Card('6h'))),

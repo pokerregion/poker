@@ -43,4 +43,4 @@ class Action(_CaseInsensitiveMultiValueEnum):
     RETURN = 'return', 'returned', 'uncalled'
     WIN = 'win', 'won', 'collected'
     SHOW = 'show',
-    NOSHOW = "don't show", "didn't show", 'did not show'
+    MUCK = "don't show", "didn't show", 'did not show', 'mucks'

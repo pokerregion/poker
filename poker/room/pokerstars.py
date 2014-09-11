@@ -30,7 +30,7 @@ class _Flop(_BaseFlop):
             elif 'collected' in line:
                 actions.append(self._parse_collected(line))
             elif "doesn't show hand" in line:
-                actions.append(self._parse_noshow(line))
+                actions.append(self._parse_muck(line))
             elif ':' in line:
                 actions.append(self._parse_player_action(line))
             else:
@@ -54,10 +54,10 @@ class _Flop(_BaseFlop):
         self.pot = self._initial_pot + Decimal(amount)
         return name, Action.WIN, self.pot
 
-    def _parse_noshow(self, line):
+    def _parse_muck(self, line):
         colon_index = line.find(':')
         name = line[:colon_index]
-        return name, Action.NOSHOW
+        return name, Action.MUCK
 
     def _parse_player_action(self, line):
         colon_index = line.find(':')
