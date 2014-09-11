@@ -12,8 +12,6 @@ __all__ = ['PokerStarsHandHistory']
 
 
 class _Flop(_BaseFlop):
-    _board_re = re.compile(r"(?<=[\[ ])(..)(?=[\] ])")
-
     def __init__(self, flop: list, initial_pot):
         self._initial_pot = self.pot = initial_pot
         self.actions = None
