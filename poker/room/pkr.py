@@ -1,11 +1,57 @@
 import re
 from decimal import Decimal
 import pytz
-from ..handhistory import _SplittableHandHistory, _Player
+from ..handhistory import _SplittableHandHistory, _Player, _BaseFlop
 from ..hand import Combo, Card
-from ..constants import Limit, Game, GameType, MoneyType, Currency
+from ..constants import Limit, Game, GameType, MoneyType, Currency, Action
+
 
 __all__ = ['PKRHandHistory']
+
+
+class _Flop(_BaseFlop):
+    def __init__(self, flop: list, initial_pot):
+        # print('FLOP:', flop)
+        self._initial_pot = self.pot = initial_pot
+        self.actions = None
+        self.cards = None
+        self._parse_cards(flop[0])
+        self._parse_actions(flop[1:])
+
+    def _parse_cards(self, boardline):
+        self.cards = (Card(boardline[6:9:2]), Card(boardline[11:14:2]), Card(boardline[16:19:2]))
+
+    def _parse_actions(self, actionlines):
+        actions = []
+        for line in actionlines:
+            if line.startswith('Pot sizes:'):
+                self._parse_pot(line)
+            elif ' ' in line:
+                actions.append(self._parse_player_action(line))
+            else:
+                raise
+        self.actions = tuple(actions) if actions else None
+
+    def _parse_pot(self, line):
+        # print('PARSE POT')
+        amount_start_index = 12
+        amount = line[amount_start_index:]
+        self.pot = Decimal(amount)
+
+    def _parse_player_action(self, line):
+        space_index = line.find(' ')
+        name = line[:space_index]
+        end_action_index = line.find(' ', space_index + 1)
+        # -1 means not found
+        if end_action_index == -1:
+            end_action_index = None  # until the end
+        action = Action(line[space_index + 1:end_action_index])
+        if end_action_index:
+            amount_start_index = line.find('$') + 1
+            amount = line[amount_start_index:]
+            return name, action, Decimal(amount)
+        else:
+            return name, action
 
 
 class PKRHandHistory(_SplittableHandHistory):
@@ -92,6 +138,13 @@ class PKRHandHistory(_SplittableHandHistory):
         stop = self._splitted.index('', start + 1) - 1
         self.preflop_actions = tuple(self._splitted[start:stop])
 
+    def _parse_flop(self, initial_pot):
+        flop_section = self._STREET_SECTIONS['flop']
+        start = self._sections[flop_section] + 1
+        stop = next(v for v in self._sections if v > start)
+        floplines = self._splitted[start:stop]
+        self.flop = _Flop(floplines, initial_pot)
+
     def _parse_street(self, street):
         section = self._STREET_SECTIONS[street]
         try:
@@ -99,7 +152,7 @@ class PKRHandHistory(_SplittableHandHistory):
 
             street_line = self._splitted[start]
             cards = list(map(lambda x: x[self._SPLIT_CARD_SPACE], self._card_re.findall(street_line)))
-            setattr(self, street, tuple(map(Card, cards)) if street == 'flop' else Card(cards[0]))
+            setattr(self, street, Card(cards[0]))
 
             stop = next(v for v in self._sections if v > start) - 1
             setattr(self, "{}_actions".format(street), tuple(self._splitted[start + 1:stop]))
