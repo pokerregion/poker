@@ -30,7 +30,7 @@ def hand_header(request):
     return hh
 
 
-@pytest.fixture(scope='session')
+@pytest.fixture(scope='module')
 def flop():
     return _Flop([
         '[2s 6d 6h]',

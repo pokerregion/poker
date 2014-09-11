@@ -44,20 +44,6 @@ def flop(scope='module'):
          ], 0)
 
 
-class TestFlop:
-    def test_cards(self, flop):
-        assert flop.cards == (Card('8h'), Card('4h'), Card('Tc'))
-        assert flop.actions == (
-            ('JohnyyR', Action.CHECK),
-            ('FatalRevange', Action.THINK),
-            ('FatalRevange', Action.BET, Decimal(120)),
-            ('JohnyyR', Action.FOLD),
-            ('FatalRevange', Action.RETURN, Decimal(120)),
-            ('FatalRevange', Action.MUCK),
-            ('FatalRevange', Action.WIN, Decimal(230)),
-        )
-
-
 class TestHandWithFlopOnly:
     hand_text = ftp_hands.HAND1
 
@@ -120,34 +106,34 @@ class TestHandWithFlopOnly:
     def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value
 
-    # @pytest.mark.parametrize(('attribute', 'expected_value'), [
-    #     ('actions', (('JohnyyR', Action.CHECK),
-    #                  ('FatalRevange', Action.THINK),
-    #                  ('FatalRevange', Action.BET, Decimal(120)),
-    #                  ('JohnyyR', Action.FOLD),
-    #                  ('FatalRevange', Action.RETURN, Decimal(120)),
-    #                  ('FatalRevange', Action.MUCK),
-    #                  ('FatalRevange', Action.WIN, Decimal(230)),
-    #                  )
-    #     ),
-    #     ('cards', (Card('8h'), Card('4h'), Card('Tc'))),
-    #     ('is_rainbow', False),
-    #     ('is_monotone', False),
-    #     ('is_triplet', False),
-    #     # TODO: http://www.pokerology.com/lessons/flop-texture/
-    #     # assert flop.is_dry
-    #     ('has_pair', False),
-    #     ('has_straightdraw', True),
-    #     ('has_gutshot', True),
-    #     ('has_flushdraw', True),
-    #     ('players', ('JohnyyR', 'FatalRevange')),
-    #     ('pot', Decimal(230))
-    # ])
-    # def test_flop_attributes(self, hand, attribute, expected_value):
-    #     assert getattr(hand.flop, attribute) == expected_value
+    @pytest.mark.parametrize(('attribute', 'expected_value'), [
+        ('actions', (('JohnyyR', Action.CHECK),
+                     ('FatalRevange', Action.THINK),
+                     ('FatalRevange', Action.BET, Decimal(120)),
+                     ('JohnyyR', Action.FOLD),
+                     ('FatalRevange', Action.RETURN, Decimal(120)),
+                     ('FatalRevange', Action.MUCK),
+                     ('FatalRevange', Action.WIN, Decimal(230)),
+                     )
+        ),
+        ('cards', (Card('8h'), Card('4h'), Card('Tc'))),
+        ('is_rainbow', False),
+        ('is_monotone', False),
+        ('is_triplet', False),
+        # TODO: http://www.pokerology.com/lessons/flop-texture/
+        # assert flop.is_dry
+        ('has_pair', False),
+        ('has_straightdraw', True),
+        ('has_gutshot', True),
+        ('has_flushdraw', True),
+        ('players', ('JohnyyR', 'FatalRevange')),
+        ('pot', Decimal(230))
+    ])
+    def test_flop_attributes(self, hand, attribute, expected_value):
+        assert getattr(hand.flop, attribute) == expected_value
 
-    # def test_flop(self, hand):
-    #     assert isinstance(hand.flop, _Flop)
+    def test_flop(self, hand):
+        assert isinstance(hand.flop, _Flop)
 
 
 class TestHandWithFlopTurnRiver:
@@ -205,3 +191,31 @@ class TestHandWithFlopTurnRiver:
         ])
     def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value
+
+    @pytest.mark.parametrize(('attribute', 'expected_value'), [
+        ('actions', (('MixaOne', Action.BET, Decimal(30)),
+                     ('AzzzJJ', Action.RAISE, Decimal(120)),
+                     ('MixaOne', Action.FOLD),
+                     ('AzzzJJ', Action.RETURN, Decimal(90)),
+                     ('AzzzJJ', Action.MUCK),
+                     ('AzzzJJ', Action.WIN, Decimal(285)),
+                     )
+        ),
+        ('cards', (Card('6s'), Card('9c'), Card('3d'))),
+        ('is_rainbow', True),
+        ('is_monotone', False),
+        ('is_triplet', False),
+        # TODO: http://www.pokerology.com/lessons/flop-texture/
+        # assert flop.is_dry
+        ('has_pair', False),
+        ('has_straightdraw', True),
+        ('has_gutshot', True),
+        ('has_flushdraw', False),
+        ('players', ('MixaOne', 'AzzzJJ')),
+        ('pot', Decimal(285))
+    ])
+    def test_flop_attributes(self, hand, attribute, expected_value):
+        assert getattr(hand.flop, attribute) == expected_value
+
+    def test_flop(self, hand):
+        assert isinstance(hand.flop, _Flop)
