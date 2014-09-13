@@ -1,3 +1,4 @@
+from enum import Enum
 from ._common import _CaseInsensitiveMultiValueEnum
 
 
@@ -22,12 +23,36 @@ class GameType(_CaseInsensitiveMultiValueEnum):
 class Game(_CaseInsensitiveMultiValueEnum):
     HOLDEM = "Hold'em", 'HOLDEM'
     OMAHA = 'Omaha',
+    OHILO = 'Omaha Hi/Lo',
+    RAZZ = 'Razz',
+    STUD = 'Stud',
 
 
 class Limit(_CaseInsensitiveMultiValueEnum):
-    NL = 'NL', 'NO LIMIT'
-    PL = 'PL', 'POT LIMIT'
-    FL = 'FL', 'FIX LIMIT'
+    NL = 'NL', 'No limit'
+    PL = 'PL', 'Pot limit'
+    FL = 'FL', 'Fixed limit'
+
+
+class TourFormat(_CaseInsensitiveMultiValueEnum):
+    ONEREB = '1R1A',
+    REBUY = 'Rebuy', '+R'
+    SECOND = '2x Chance',  # Second chance tournament, can rebuy twice
+    ACTION = 'Action Hour',
+    # '2nd Chance' is a regular tournament on sunday evening,
+    # after Sunday million (name), NOT a tournament format
+
+
+class TourType(_CaseInsensitiveMultiValueEnum):
+    SNG = 'Sit&Go', 'SNG', 'Sit and go'
+    TOUR = 'Tournament', 'TOUR', 'tourney'
+
+
+class TourSpeed(Enum):
+    REGULAR = 'Regular'
+    TURBO = 'Turbo'
+    HYPER = 'Hyper-Turbo'
+    DOUBLE = '2x-Turbo'
 
 
 class MoneyType(_CaseInsensitiveMultiValueEnum):
