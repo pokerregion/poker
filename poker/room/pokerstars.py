@@ -283,16 +283,16 @@ class Notes:
         """Return _Note tuple for the player."""
         return self._get_note_data(self._find_note(player))
 
-    def add_note(self, player, text, label='-1', update=None):
         """Add a note to the xml."""
         if label != '-1' and (label not in self.label_names):
             raise ValueError('Invalid label: {}'.format(label))
+    def add_note(self, player, text, label=None, update=None):
         if update is None:
             update = datetime.utcnow()
         # converted to timestamp, rounded to ones
         update = int(update.timestamp())
         update = str(update)
-        label_id = self._find_label(label).get('id')
+        label_id = self._find_label(label).get('id') if label else '-1'
         new_note = etree.Element('note', player=player, label=label_id, update=update)
         new_note.text = text
         self.root.append(new_note)
