@@ -296,7 +296,7 @@ class Notes:
         # converted to timestamp, rounded to ones
         update = int(update.timestamp())
         update = str(update)
-        label_id = self._find_label(label).get('id') if label else '-1'
+        label_id = self._get_label_id(label)
         new_note = etree.Element('note', player=player, label=label_id, update=update)
         new_note.text = text
         self.root.append(new_note)
@@ -315,6 +315,11 @@ class Notes:
         """Replace note text with text. (Overwrites previous note!)"""
         note = self._find_note(player)
         note.text = text
+
+    def change_note_label(self, player, label):
+        label_id = self._get_label_id(label)
+        note = self._find_note(player)
+        note.attrib['label'] = label_id
 
     def del_note(self, player):
         """Delete a note by player name."""
@@ -368,6 +373,9 @@ class Notes:
             return labels_tag.xpath('label[text()="%s"]' % name)[0]
         except IndexError:
             raise LabelNotFoundError(name) from None
+
+    def _get_label_id(self, name):
+        return self._find_label(name).get('id') if name else '-1'
 
     def save(self, filename):
         """Save the note XML to a file."""

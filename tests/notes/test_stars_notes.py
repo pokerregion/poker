@@ -95,6 +95,12 @@ def test_replace_note_text(notes):
     assert notes.get_note_text('regplayer') == 'he is actually a fish not a reg'
 
 
+def test_change_note_label(notes):
+    assert notes.get_note('nonoteforplayer').label is None
+    notes.change_note_label('nonoteforplayer', 'FISH')
+    assert notes.get_note('nonoteforplayer').label == 'FISH'
+
+
 def test_delete_note(notes):
     assert '$dollarsign' in notes.players
     notes.del_note('$dollarsign')
