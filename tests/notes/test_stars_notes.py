@@ -79,6 +79,22 @@ def test_add_note(notes):
     assert note.text == 'is a big fish'
 
 
+def test_append_note(notes):
+    notes.append_note('regplayer', '\n3bet 87s preflop')
+    assert notes.get_note_text('regplayer') == 'river big bet 99\n3bet 87s preflop'
+
+
+def test_prepend_and_append_note(notes):
+    notes.prepend_note('regplayer', 'flop and ')
+    notes.append_note('regplayer', ',66')
+    assert notes.get_note_text('regplayer') == 'flop and river big bet 99,66'
+
+
+def test_replace_note_text(notes):
+    notes.replace_note('regplayer', 'he is actually a fish not a reg')
+    assert notes.get_note_text('regplayer') == 'he is actually a fish not a reg'
+
+
 def test_delete_note(notes):
     assert '$dollarsign' in notes.players
     notes.del_note('$dollarsign')

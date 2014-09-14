@@ -301,6 +301,21 @@ class Notes:
         new_note.text = text
         self.root.append(new_note)
 
+    def append_note(self, player, text):
+        """Append text to an already existing note."""
+        note = self._find_note(player)
+        note.text += text
+
+    def prepend_note(self, player, text):
+        """Prepend text to an already existing note."""
+        note = self._find_note(player)
+        note.text = text + note.text
+
+    def replace_note(self, player, text):
+        """Replace note text with text. (Overwrites previous note!)"""
+        note = self._find_note(player)
+        note.text = text
+
     def del_note(self, player):
         """Delete a note by player name."""
         self.root.remove(self._find_note(player))
