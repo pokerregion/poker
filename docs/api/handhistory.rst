@@ -57,9 +57,6 @@ Base classes
    :ivar poker.card.Card river:            river card, e.g. ``Card('2d')``
    :ivar tuple board:                      board cards, e.g. ``(Card('4s'), Card('4d'), Card('4c'), Card('5h'))``
    :ivar tuple preflop_actions:            action lines in str
-   :ivar tuple flop_actions:               flop action lines
-   :ivar decimal.Decimal flop_pot:         pot size on the flop, before actions
-   :ivar int flop_num_players:             number of players seen the flop
    :ivar tuple turn_actions:               turn action lines
    :ivar decimal.Decimal turn_pot:         pot size before turn
    :ivar int turn_num_players:             number of players seen the turn
@@ -132,8 +129,6 @@ Full Tilt Poker
 
    **Extra**
 
-   :ivar Decimal flop_pot:        pot size on the flop, before actions
-   :ivar int flop_num_players:    number of players seen the flop
    :ivar Decimal turn_pot:        pot size before turn
    :ivar int turn_num_players:    number of players seen the turn
    :ivar Decimal river_pot:       pot size before river

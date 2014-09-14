@@ -1,7 +1,7 @@
 Poker package documentation
 ===========================
 
-This package is a  framework for poker related operations.
+A Python framework for poker related operations.
 
 It contains classes for parsing hand :term:`Suit`\ s, :term:`Card`\ s, :term:`Hand`\ s,
 combinations (called :term:`Combo`\ s), construct hand :term:`Range`\ s and check for syntax,
@@ -28,6 +28,7 @@ Contents
    range
    handhistory
    website
+   room
    development
    glossary
    license
