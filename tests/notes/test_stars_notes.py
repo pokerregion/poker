@@ -67,15 +67,16 @@ def test_all_notes(notes):
     )
 
 
-def add_note(notes):
+def test_add_note(notes):
     notes.add_note('Walkman', 'is a big fish', label='FISH')
 
     assert 'Walkman' in notes.players
-    assert notes.get_note('Walkman') == _Note(
-        player='Walkman', label='FISH',
-        update=datetime(2014, 9, 14, 20, 54, 13),
-        text='is a big fish'
-    )
+    note = notes.get_note('Walkman')
+    assert isinstance(note, _Note)
+    assert note.player == 'Walkman'
+    assert note.label == 'FISH'
+    assert isinstance(note.update, datetime)
+    assert note.text == 'is a big fish'
 
 
 def test_delete_note(notes):
