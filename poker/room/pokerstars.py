@@ -1,6 +1,8 @@
 import re
 from decimal import Decimal
+from datetime import datetime
 from collections import namedtuple
+from lxml import etree
 import pytz
 from ..handhistory import _Player, _SplittableHandHistory, _BaseFlop
 from ..card import Card
@@ -220,3 +222,162 @@ class PokerStarsHandHistory(_SplittableHandHistory):
 
     def _parse_extra(self):
         pass
+
+
+_Label = namedtuple('_Label', 'id, color, name')
+"""Named tuple for labels in Player notes."""
+
+_Note = namedtuple('_Note', 'player, label, update, text')
+"""Named tuple for player notes."""
+
+
+class NoteNotFoundError(ValueError):
+    """Note not found for player."""
+
+class LabelNotFoundError(ValueError):
+    """Label not found in the player notes."""
+
+
+class Notes:
+    """Class for parsing pokerstars XML notes."""
+
+    _color_re = re.compile('^[0-9A-F]{6}$')
+
+    def __init__(self, notes: str):
+        self.raw = notes
+        parser = etree.XMLParser(recover=True, resolve_entities=False)
+        self.root = etree.XML(notes.encode(), parser)
+
+    def __str__(self):
+        return etree.tostring(self.root, xml_declaration=True,
+                              encoding='UTF-8', pretty_print=True).decode()
+
+    @classmethod
+    def from_file(cls, filename):
+        """Make an instance from a XML file."""
+        return cls(open(filename).read())
+
+    @property
+    def players(self):
+        """Tuple of player names."""
+        return tuple(note.get('player') for note in self.root.iter('note'))
+
+    @property
+    def label_names(self):
+        """Tuple of label names."""
+        return tuple(label.text for label in self.root.iter('label'))
+
+    @property
+    def notes(self):
+        """Tuple of notes wrapped in namedtuples."""
+        return tuple(self._get_note_data(note) for note in self.root.iter('note'))
+
+    @property
+    def labels(self):
+        """Tuple of labels."""
+        return tuple(_Label(label.get('id'), label.get('color'), label.text) for label
+                     in self.root.iter('label'))
+
+    def get_note_text(self, player):
+        """Return note text for the player."""
+        note = self._find_note(player)
+        return note.text
+
+    def get_note(self, player):
+        """Return :class:`_Note` tuple for the player."""
+        return self._get_note_data(self._find_note(player))
+
+    def add_note(self, player, text, label=None, update=None):
+        """Add a note to the xml. If update param is None, it will be the current time."""
+        if label is not None and (label not in self.label_names):
+            raise LabelNotFoundError('Invalid label: {}'.format(label))
+        if update is None:
+            update = datetime.utcnow()
+        # converted to timestamp, rounded to ones
+        update = int(update.timestamp())
+        update = str(update)
+        label_id = self._get_label_id(label)
+        new_note = etree.Element('note', player=player, label=label_id, update=update)
+        new_note.text = text
+        self.root.append(new_note)
+
+    def append_note(self, player, text):
+        """Append text to an already existing note."""
+        note = self._find_note(player)
+        note.text += text
+
+    def prepend_note(self, player, text):
+        """Prepend text to an already existing note."""
+        note = self._find_note(player)
+        note.text = text + note.text
+
+    def replace_note(self, player, text):
+        """Replace note text with text. (Overwrites previous note!)"""
+        note = self._find_note(player)
+        note.text = text
+
+    def change_note_label(self, player, label):
+        label_id = self._get_label_id(label)
+        note = self._find_note(player)
+        note.attrib['label'] = label_id
+
+    def del_note(self, player):
+        """Delete a note by player name."""
+        self.root.remove(self._find_note(player))
+
+    def _find_note(self, player):
+        # if player name contains a double quote, the search phrase would be invalid.
+        # &quot; entitiy is searched with ", e.g. &quot;bootei&quot; is searched with '"bootei"'
+        quote = "'" if '"' in player else '"'
+        note = self.root.find('note[@player={0}{1}{0}]'.format(quote, player))
+        if note is None:
+            raise NoteNotFoundError(player) from None
+        return note
+
+    def _get_note_data(self, note):
+        labels = {label.get('id'): label.text for label in self.root.iter('label')}
+        label = note.get('label')
+        label = labels[label] if label != "-1" else None
+        timestamp = note.get('update')
+        update = datetime.fromtimestamp(int(timestamp)) if timestamp else None
+        return _Note(note.get('player'), label, update, note.text)
+
+    def get_label(self, name):
+        """Find the label by name."""
+        label_tag = self._find_label(name)
+        return _Label(label_tag.get('id'), label_tag.get('color'), label_tag.text)
+
+    def add_label(self, name, color):
+        """Add a new label. It's id will automatically be calculated."""
+        color_upper = color.upper()
+        if not self._color_re.match(color_upper):
+            raise ValueError('Invalid color: {}'.format(color))
+
+        labels_tag = self.root[0]
+        last_id = int(labels_tag[-1].get('id'))
+        new_id = str(last_id + 1)
+
+        new_label = etree.Element('label', id=new_id, color=color_upper)
+        new_label.text = name
+
+        labels_tag.append(new_label)
+
+    def del_label(self, name):
+        """Delete a label by name."""
+        labels_tag = self.root[0]
+        labels_tag.remove(self._find_label(name))
+
+    def _find_label(self, name):
+        labels_tag = self.root[0]
+        try:
+            return labels_tag.xpath('label[text()="%s"]' % name)[0]
+        except IndexError:
+            raise LabelNotFoundError(name) from None
+
+    def _get_label_id(self, name):
+        return self._find_label(name).get('id') if name else '-1'
+
+    def save(self, filename):
+        """Save the note XML to a file."""
+        with open(filename, 'w') as fp:
+            fp.write(str(self))

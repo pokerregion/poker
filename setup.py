@@ -20,7 +20,7 @@ entry_points = """\
 
 setup(
     name = 'poker',
-    version = '0.16.0',
+    version = '0.17.0',
     description = 'Poker Framework',
     classifiers = [
         "Intended Audience :: Developers",
