@@ -225,7 +225,10 @@ class PokerStarsHandHistory(_SplittableHandHistory):
 
 
 _Label = namedtuple('_Label', 'id, color, name')
+"""Named tuple for labels in Player notes."""
+
 _Note = namedtuple('_Note', 'player, label, update, text')
+"""Named tuple for player notes."""
 
 
 class NoteNotFoundError(ValueError):
@@ -251,6 +254,7 @@ class Notes:
 
     @classmethod
     def from_file(cls, filename):
+        """Make an instance from a XML file."""
         return cls(open(filename).read())
 
     @property
@@ -270,7 +274,7 @@ class Notes:
 
     @property
     def labels(self):
-        """Tuple of label names."""
+        """Tuple of labels."""
         return tuple(_Label(label.get('id'), label.get('color'), label.text) for label
                      in self.root.iter('label'))
 
@@ -280,13 +284,13 @@ class Notes:
         return note.text
 
     def get_note(self, player):
-        """Return _Note tuple for the player."""
+        """Return :class:`_Note` tuple for the player."""
         return self._get_note_data(self._find_note(player))
 
-        """Add a note to the xml."""
-        if label != '-1' and (label not in self.label_names):
-            raise ValueError('Invalid label: {}'.format(label))
     def add_note(self, player, text, label=None, update=None):
+        """Add a note to the xml. If update param is None, it will be the current time."""
+        if label is not None and (label not in self.label_names):
+            raise LabelNotFoundError('Invalid label: {}'.format(label))
         if update is None:
             update = datetime.utcnow()
         # converted to timestamp, rounded to ones
@@ -298,6 +302,7 @@ class Notes:
         self.root.append(new_note)
 
     def del_note(self, player):
+        """Delete a note by player name."""
         self.root.remove(self._find_note(player))
 
     def _find_note(self, player):
@@ -318,6 +323,7 @@ class Notes:
         return _Note(note.get('player'), label, update, note.text)
 
     def get_label(self, name):
+        """Find the label by name."""
         label_tag = self._find_label(name)
         return _Label(label_tag.get('id'), label_tag.get('color'), label_tag.text)
 
@@ -337,6 +343,7 @@ class Notes:
         labels_tag.append(new_label)
 
     def del_label(self, name):
+        """Delete a label by name."""
         labels_tag = self.root[0]
         labels_tag.remove(self._find_label(name))
 
