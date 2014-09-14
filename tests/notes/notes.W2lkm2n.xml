@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notes version="1">
+	<labels>
+		<label id="0" color="30DBFF">FISH</label>
+		<label id="1" color="30FF97">SHARK</label>
+		<label id="2" color="E1FF80">REG</label>
+		<label id="3" color="E1FF80">GENERAL</label>
+	</labels>
+	<note player="regplayer" label="0" update="1386954395">river big bet 99</note>
+	<note player="sharkplayer" label="1" update="1410722449">plays GTO</note>
+	<note player="fishplayer" label="2" update="1386955386">4-way check-miniraise draw</note>
+	<note player="&quot;htmlchar&quot;" label="3" update="1376493289">UTG limp AA</note>
+	<note player="$dollarsign" label="2" update="1360262139">not very good</note>
+	<note player="nonoteforplayer" label="-1" update="1360262139">not note</note>
+	<note player="-=strangename=-" label="-1" update="1284566180">DONK-CALL TP</note>
+	<note player="//ÄMGS" label="-1" update="1309094098">unicode chars in name</note>
+	<note player="0bullmarket0" label="-1" update="1269311810">multiple
+lines
+in the
+note</note>
+	<note player="CarlGardner" label="-1" update="1281869955">contains invalid character: 3B 57s </note>
+	<note player="µ (x+t)" label="-1" update="1269408854">&quot;µ (x+t): strange chars everywhere&quot;</note>
+</notes>

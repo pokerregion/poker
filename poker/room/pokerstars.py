@@ -246,7 +246,8 @@ class Notes:
         self.root = etree.XML(notes.encode(), parser)
 
     def __str__(self):
-        return etree.tostring(self.root, xml_declaration=True, encoding='UTF-8').decode()
+        return etree.tostring(self.root, xml_declaration=True,
+                              encoding='UTF-8', pretty_print=True).decode()
 
     @classmethod
     def from_file(cls, filename):
@@ -284,14 +285,15 @@ class Notes:
 
     def add_note(self, player, text, label='-1', update=None):
         """Add a note to the xml."""
-        if label != '-1' and (label not in self.labels):
+        if label != '-1' and (label not in self.label_names):
             raise ValueError('Invalid label: {}'.format(label))
         if update is None:
             update = datetime.utcnow()
         # converted to timestamp, rounded to ones
         update = int(update.timestamp())
         update = str(update)
-        new_note = etree.Element('note', player=player, label=label, update=update)
+        label_id = self._find_label(label).get('id')
+        new_note = etree.Element('note', player=player, label=label_id, update=update)
         new_note.text = text
         self.root.append(new_note)
 
@@ -332,7 +334,7 @@ class Notes:
         new_label = etree.Element('label', id=new_id, color=color_upper)
         new_label.text = name
 
-        self.root.append(new_label)
+        labels_tag.append(new_label)
 
     def del_label(self, name):
         labels_tag = self.root[0]
