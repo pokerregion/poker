@@ -1,29 +1,24 @@
-Poker |travis| |coveralls|
-===============================
+Poker framework for Python
+==========================
 
-.. |travis| image:: https://travis-ci.org/pokerregion/handparser.png?branch=master
-   :target: https://travis-ci.org/pokerregion/handparser
-.. |coveralls| image:: https://coveralls.io/repos/pokerregion/handparser/badge.png?branch=master
-  :target: https://coveralls.io/r/pokerregion/handparser?branch=master
-
+.. include:: docs/about.rst
 
 Documentation
 -------------
-http://poker.readthedocs.org/
 
-Requirements
-------------
+http://poker.readthedocs.org
 
-* Python 3.4
-* ``pytz``
-* ``pytest`` for testing.
 
-LICENSE
+.. include:: docs/requirements.rst
+
+
+License
 -------
 
 The MIT License (MIT)
 
 Copyright (c) 2013-2014 Kiss György
+
 
 Me
 --

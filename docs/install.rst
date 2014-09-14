@@ -1,6 +1,10 @@
 Installation
 ============
 
+
+.. include:: requirements.rst
+
+
 Simple from PYPI::
 
     $ pip install poker
