@@ -2,7 +2,6 @@ language: python
 python: "3.4"
 install:
   - "python setup.py install"
-  - "pip install pytest"
   - "pip install coverage"
   - "pip install coveralls"
 script: 'coverage run --source "." --omit "setup.py,tests/speed_tests.py" -m py.test'

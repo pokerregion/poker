@@ -2,6 +2,10 @@ from pathlib import Path
 from datetime import datetime
 import pytest
 from poker.room.pokerstars import Notes, _Note, _Label, NoteNotFoundError
+from pytz import timezone
+
+
+CET = timezone('Europe/Budapest')
 
 
 @pytest.fixture
@@ -32,7 +36,8 @@ def test_find_note_for_player(notes):
     assert note.text == 'river big bet 99'
     assert note.player == 'regplayer'
     assert note.label == 'FISH'
-    assert note.update == datetime(2013, 12, 13, 18, 6, 35)
+    creation_time = CET.localize(note.update).replace(tzinfo=None)
+    assert creation_time == datetime(2013, 12, 13, 18, 6, 35)
 
 
 def test_find_not_existing_note(notes):

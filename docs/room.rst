@@ -33,4 +33,12 @@ the object instance and get the full XML.
     _Label(id='3', color='E1FF80', name='GENERAL'))
     _Label(id='4', color='FF0000', name='NIT'))
 
+
+.. note::
+
+   It's not possible to know the exact creation time of the note, because timezone information is
+   not included in the XML file. It's saved in the user local time. The only way to get exact time
+   when the user input his local time zone and construct the datetime object with pytz.
+
+
 For the full API, see the :doc:`api/room`.
