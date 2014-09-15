@@ -1,7 +1,7 @@
 Poker framework for Python
 ==========================
 
-|travis| |coveralls| |pythons| |release| |license| |downloads|
+|travis| |coveralls| |pythons| |release| |license| |wheel| |downloads|
 
 A Python framework for poker related operations.
 
@@ -54,18 +54,22 @@ Repo and contact
 .. |coveralls| image:: https://coveralls.io/repos/pokerregion/poker/badge.png?branch=master
   :target: https://coveralls.io/r/pokerregion/poker?branch=master
 
-.. |pythons| image:: https://pypip.in/py_versions/poker/badge.svg
+.. |pythons| image:: https://pypip.in/py_versions/poker/badge.svg?style=flat
    :target: https://pypi.python.org/pypi/poker/
    :alt: Supported Python versions
 
-.. |release| image:: https://pypip.in/version/poker/badge.svg
+.. |release| image:: https://pypip.in/version/poker/badge.svg?style=flat
    :target: https://pypi.python.org/pypi/poker/
    :alt: Latest Version
 
-.. |license| image:: https://pypip.in/license/poker/badge.svg
+.. |license| image:: https://pypip.in/license/poker/badge.svg?style=flat
    :target: https://github.com/pokerregion/poker/blob/master/LICENSE
    :alt: MIT License
 
-.. |downloads| image:: https://pypip.in/download/poker/badge.svg
+.. |downloads| image:: https://pypip.in/download/poker/badge.svg?style=flat
    :target: https://pypi.python.org/pypi/poker/
    :alt: Downloads
+
+.. |wheel| image:: https://pypip.in/wheel/poker/badge.svg?style=flat
+   :target: https://pypi.python.org/pypi/poker/
+   :alt: Wheel package

@@ -33,7 +33,7 @@ API
 
 .. Repo and contact
 .. include:: ../README.rst
-   :start-line: 42
+   :start-line: 41
    :end-line: 49
 
 
