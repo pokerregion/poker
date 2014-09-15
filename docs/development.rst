@@ -35,6 +35,21 @@ If your code exceeds 99 characters, you do something wrong anyway, you need to r
 (e.g. to deeply nested, harder to understand)
 
 
+Dates and times
+---------------
+
+Every datetime throughout the library is in UTC with tzinfo set to ``pytz.UTC``.
+If you found a case where it's not, it's a bug, please `report it on GitHub!`_
+The right way for setting a date correctly e.g. from PokerStars ET time is:
+
+.. code-block:: python
+
+   >>> import pytz
+   >>> ET = pytz.timezone('US/Eastern')
+   >>> ET.localize(some_datetime).astimezone(pytz.UTC)
+
+This will consider DST settings and ambiguous times. Fro more information, see `pytz documentation`_!
+
 
 New hand history parser
 -----------------------
@@ -115,3 +130,5 @@ from the poker module directory and `pytest`_ will automatically pick up all uni
 .. _pytest: http://pytest.org/
 .. _Workflow: https://guides.github.com/introduction/flow/index.html
 .. _Semantic Versioning: http://semver.org/
+.. _report it on GitHub!: https://github.com/pokerregion/poker/issues/new?title=Incorrect+datetime
+.. _pytz documentation: http://pytz.sourceforge.net/#localized-times-and-date-arithmetic

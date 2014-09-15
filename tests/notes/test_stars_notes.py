@@ -2,10 +2,7 @@ from pathlib import Path
 from datetime import datetime
 import pytest
 from poker.room.pokerstars import Notes, _Note, _Label, NoteNotFoundError
-from pytz import timezone
-
-
-CET = timezone('Europe/Budapest')
+from pytz import UTC
 
 
 @pytest.fixture
@@ -36,8 +33,7 @@ def test_find_note_for_player(notes):
     assert note.text == 'river big bet 99'
     assert note.player == 'regplayer'
     assert note.label == 'FISH'
-    creation_time = CET.localize(note.update).replace(tzinfo=None)
-    assert creation_time == datetime(2013, 12, 13, 18, 6, 35)
+    assert note.update == datetime(2013, 12, 13, 17, 6, 35, tzinfo=UTC)
 
 
 def test_find_not_existing_note(notes):
@@ -47,28 +43,28 @@ def test_find_not_existing_note(notes):
 
 def test_all_notes(notes):
     assert notes.notes == (
-        _Note(player='regplayer', label='FISH', update=datetime(2013, 12, 13, 18, 6, 35),
-              text='river big bet 99'),
-        _Note(player='sharkplayer', label='SHARK', update=datetime(2014, 9, 14, 21, 20, 49),
-              text='plays GTO'),
-        _Note(player='fishplayer', label='REG', update=datetime(2013, 12, 13, 18, 23, 6),
-              text='4-way check-miniraise draw'),
-        _Note(player='"htmlchar"', label='GENERAL', update=datetime(2013, 8, 14, 17, 14, 49),
-              text='UTG limp AA'),
-        _Note(player='$dollarsign', label='REG', update=datetime(2013, 2, 7, 19, 35, 39),
-              text='not very good'),
-        _Note(player='nonoteforplayer', label=None, update=datetime(2013, 2, 7, 19, 35, 39),
-              text='not note'),
-        _Note(player='-=strangename=-', label=None, update=datetime(2010, 9, 15, 17, 56, 20),
-              text='DONK-CALL TP'),
-        _Note(player='//ÄMGS', label=None, update=datetime(2011, 6, 26, 15, 14, 58),
-              text='unicode chars in name'),
-        _Note(player='0bullmarket0', label=None, update=datetime(2010, 3, 23, 3, 36, 50),
-              text='multiple\nlines\nin the\nnote'),
-        _Note(player='CarlGardner', label=None, update=datetime(2010, 8, 15, 12, 59, 15),
-              text='contains invalid character: 3B 57s '),
-        _Note(player='µ (x+t)', label=None, update=datetime(2010, 3, 24, 6, 34, 14),
-              text='µ (x+t): strange chars everywhere')
+        _Note(player='regplayer', label='FISH', text='river big bet 99',
+              update=datetime(2013, 12, 13, 17, 6, 35, tzinfo=UTC)),
+        _Note(player='sharkplayer', label='SHARK', text='plays GTO',
+              update=datetime(2014, 9, 14, 19, 20, 49, tzinfo=UTC)),
+        _Note(player='fishplayer', label='REG', text='4-way check-miniraise draw',
+              update=datetime(2013, 12, 13, 17, 23, 6, tzinfo=UTC)),
+        _Note(player='"htmlchar"', label='GENERAL', text='UTG limp AA',
+              update=datetime(2013, 8, 14, 15, 14, 49, tzinfo=UTC)),
+        _Note(player='$dollarsign', label='REG', text='not very good',
+              update=datetime(2013, 2, 7, 18, 35, 39, tzinfo=UTC)),
+        _Note(player='nonoteforplayer', label=None, text='not note',
+              update=datetime(2013, 2, 7, 18, 35, 39, tzinfo=UTC)),
+        _Note(player='-=strangename=-', label=None, text='DONK-CALL TP',
+              update=datetime(2010, 9, 15, 15, 56, 20, tzinfo=UTC)),
+        _Note(player='//ÄMGS', label=None, text='unicode chars in name',
+              update=datetime(2011, 6, 26, 13, 14, 58, tzinfo=UTC)),
+        _Note(player='0bullmarket0', label=None, text='multiple\nlines\nin the\nnote',
+              update=datetime(2010, 3, 23, 2, 36, 50, tzinfo=UTC)),
+        _Note(player='CarlGardner', label=None, text='contains invalid character: 3B 57s ',
+              update=datetime(2010, 8, 15, 10, 59, 15, tzinfo=UTC)),
+        _Note(player='µ (x+t)', label=None, text='µ (x+t): strange chars everywhere',
+              update=datetime(2010, 3, 24, 5, 34, 14, tzinfo=UTC))
     )
 
 
@@ -114,8 +110,8 @@ def test_delete_note(notes):
 
 def test_find_player_with_html_quotes(notes):
     assert notes.get_note('"htmlchar"') == _Note(
-        player='"htmlchar"', label='GENERAL', update=datetime(2013, 8, 14, 17, 14, 49),
-        text='UTG limp AA'
+        player='"htmlchar"', label='GENERAL',
+        update=datetime(2013, 8, 14, 15, 14, 49, tzinfo=UTC), text='UTG limp AA'
     )
 
     with pytest.raises(NoteNotFoundError):

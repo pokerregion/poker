@@ -4,6 +4,7 @@ from datetime import datetime
 from collections import namedtuple
 from lxml import etree
 import pytz
+from pytz import UTC
 from ..handhistory import _Player, _SplittableHandHistory, _BaseFlop
 from ..card import Card
 from ..hand import Combo
@@ -339,7 +340,11 @@ class Notes:
         label = note.get('label')
         label = labels[label] if label != "-1" else None
         timestamp = note.get('update')
-        update = datetime.fromtimestamp(int(timestamp)) if timestamp else None
+        if timestamp:
+            timestamp = int(timestamp)
+            update = datetime.utcfromtimestamp(timestamp).replace(tzinfo=UTC)
+        else:
+            update = None
         return _Note(note.get('player'), label, update, note.text)
 
     def get_label(self, name):
