@@ -1,7 +1,10 @@
 Poker package documentation
 ===========================
 
-.. include:: about.rst
+.. About
+.. include:: ../README.rst
+   :start-line: 5
+   :end-line: 18
 
 
 Contents
@@ -28,20 +31,17 @@ API
 
    api/**
 
-
-
-Repo and contact
-----------------
-
-| Repo: https://github.com/pokerregion/poker
-| Issues: https://github.com/pokerregion/poker/issues
-
-You can contact me on my public e-mail address: kissgyorgy@me.com
+.. Repo and contact
+.. include:: ../README.rst
+   :start-line: 42
+   :end-line: 49
 
 
 Indices and tables
-==================
+------------------
 
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+

@@ -2,7 +2,9 @@ Installation
 ============
 
 
-.. include:: requirements.rst
+.. include:: ../README.rst
+   :start-line: 21
+   :end-line: 32
 
 
 Simple from PYPI::
