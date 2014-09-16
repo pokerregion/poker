@@ -304,7 +304,7 @@ class Combo(_ReprMixin):
 
     @property
     def is_offsuit(self):
-        return not self.is_suited
+        return not self.is_suited and not self.is_pair
 
     @property
     def is_connector(self):
