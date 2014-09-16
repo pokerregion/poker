@@ -131,6 +131,15 @@ class Hand(_ReprMixin, metaclass=_HandMeta):
         if self._first < self._second:
             self._first, self._second = self._second, self._first
 
+    def to_combos(self):
+        first, second = self._first.value, self._second.value
+        if self.is_pair:
+            return tuple(Combo(first + s1 + first + s2) for s1, s2 in _PAIR_SUIT_COMBINATIONS)
+        elif self.is_offsuit:
+            return tuple(Combo(first + s1 + second + s2) for s1, s2 in _OFFSUIT_SUIT_COMBINATIONS)
+        else:
+            return tuple(Combo(first + s1 + second + s2) for s1, s2 in _SUITED_SUIT_COMBINATIONS)
+
     @property
     def is_suited_connector(self):
         return self.is_suited and self.is_connector

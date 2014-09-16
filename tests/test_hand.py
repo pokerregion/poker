@@ -1,6 +1,5 @@
 from pytest import raises
-from poker.card import Rank
-from poker.hand import Hand
+from poker import Hand, Combo, Rank
 
 
 def test_first_and_second_are_instances_of_Rank():
@@ -170,3 +169,19 @@ def test_hash():
 def test_putting_them_in_set_doesnt_raise_Exception():
     {Hand('22'), Hand('AKo')}
 
+
+def test_pair_hand_to_combos():
+    assert Hand('22').to_combos() == (
+        Combo('2c2d'), Combo('2c2h'), Combo('2c2s'), Combo('2d2h'), Combo('2d2s'), Combo('2h2s')
+    )
+
+
+def test_offsuit_hand_to_combos():
+    assert Hand('76o').to_combos() == (
+        Combo('7c6d'), Combo('7c6h'), Combo('7c6s'), Combo('7d6c'), Combo('7d6h'), Combo('7d6s'),
+        Combo('7h6c'), Combo('7h6d'), Combo('7h6s'), Combo('7s6c'), Combo('7s6d'), Combo('7s6h')
+    )
+
+
+def test_suited_hand_to_combos():
+    assert Hand('76s').to_combos() == (Combo('7c6c'), Combo('7d6d'), Combo('7h6h'), Combo('7s6s'))
