@@ -103,7 +103,7 @@ class Hand(_ReprMixin, metaclass=_HandMeta):
         # AKs != AKo, because AKs is better
         return (self._first == other._first and
                 self._second == other._second and
-                self._shape == other._shape)
+                self._shape.value == other._shape.value)
 
     def __lt__(self, other):
         if self.__class__ is not other.__class__:

@@ -95,9 +95,9 @@ class Card(_ReprMixin, metaclass=_CardMeta):
             return NotImplemented
 
         # with same ranks, suit counts
-        if self.rank == other.rank:
-            return self.suit < other.suit
-        return self.rank < other.rank
+        if self._rank == other._rank:
+            return self._suit < other._suit
+        return self._rank < other._rank
 
     def __str__(self):
         return '{}{}'.format(self._rank, self._suit)
