@@ -462,11 +462,10 @@ class _RegexRangeLexer:
 @total_ordering
 class Range:
     """Parses a str range into tuple of Combos (or Hands)."""
+    slots = '_hac'
 
     def __init__(self, range=''):
-        self._pairs = set()
-        self._suiteds = set()
-        self._offsuits = set()
+        self._hac = set()
 
         for token, value in _RegexRangeLexer(range):
             if token == 'ALL':
@@ -560,13 +559,7 @@ class Range:
                             self._add_offsuit(rank1.value + rank2.value)
 
             elif token == 'COMBO':
-                combo = Combo(value)
-                if combo.is_pair:
-                    self._pairs.add(combo)
-                elif combo.is_suited:
-                    self._suiteds.add(combo)
-                else:
-                    self._offsuits.add(combo)
+                self._hac.add(Combo(value))
 
             elif token == 'OFFSUIT_PLUS':
                 smaller, bigger = Rank(value[0]), Rank(value[1])
@@ -797,22 +790,27 @@ class Range:
             return '{}-{}'.format(first, last)
 
     def _add_pair(self, rank: str):
-        self._pairs |= {Combo(rank + s1 + rank + s2) for s1, s2 in _PAIR_SUIT_COMBINATIONS}
+        self._hac.add(Hand(rank * 2))
 
-    def _add_offsuit(self, tok: str):
-        self._offsuits |= {Combo(tok[0] + s1 + tok[1] + s2)
-                           for s1, s2 in _OFFSUIT_SUIT_COMBINATIONS}
+    def _add_offsuit(self, tok: tuple):
+        self._hac.add(Hand(tok[0] + tok[1] + 'o'))
 
-    def _add_suited(self, tok: str):
-        self._suiteds |= {Combo(tok[0] + s1 + tok[1] + s2)
-                          for s1, s2 in _SUITED_SUIT_COMBINATIONS}
+    def _add_suited(self, tok: tuple):
+        self._hac.add(Hand(tok[0] + tok[1] + 's'))
 
     @cached_property
     def hands(self):
         """Tuple of hands contained in this range. If only one combo of the same hand is present,
         it will be shown here. e.g. ``Range('2s2c').hands == (Hand('22'),)``
         """
-        hands = {combo.to_hand() for combo in self._combos}
+        hands = set()
+        for hoc in self._hac:
+            if isinstance(hoc, Hand):
+                hands.add(hoc)
+            else:
+                # it's a Combo
+                hands.add(hoc.to_hand())
+
         return tuple(sorted(hands))
 
     @cached_property
@@ -833,4 +831,22 @@ class Range:
 
     @cached_property
     def _combos(self):
-        return self._pairs | self._suiteds | self._offsuits
+        combos = set()
+        for hoc in self._hac:
+            if isinstance(hoc, Combo):
+                combos.add(hoc)
+            else:
+                combos |= set(hoc.to_combos())
+        return combos
+
+    @cached_property
+    def _pairs(self):
+        return {combo for combo in self._combos if combo.is_pair}
+
+    @cached_property
+    def _suiteds(self):
+        return {combo for combo in self._combos if combo.is_suited}
+
+    @cached_property
+    def _offsuits(self):
+        return {combo for combo in self._combos if combo.is_offsuit}
