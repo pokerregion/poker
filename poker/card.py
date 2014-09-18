@@ -57,8 +57,8 @@ class _CardMeta(type):
     def make_random(cls):
         """Returns a random Card instance."""
         self = object.__new__(cls)
-        self._rank = Rank.make_random()
-        self._suit = Suit.make_random()
+        self.rank = Rank.make_random()
+        self.suit = Suit.make_random()
         return self
 
     def __iter__(cls):
@@ -79,15 +79,16 @@ class Card(_ReprMixin, metaclass=_CardMeta):
             raise ValueError('length should be two in {!r}'.format(card))
 
         self = object.__new__(cls)
-        self.rank, self.suit = card
+        self.rank = Rank(card[0])
+        self.suit = Suit(card[1])
         return self
 
     def __hash__(self):
-        return hash(self._rank) + hash(self._suit)
+        return hash(self.rank) + hash(self.suit)
 
     def __eq__(self, other):
         if self.__class__ is other.__class__:
-            return self._rank == other._rank and self._suit == other._suit
+            return self.rank == other.rank and self.suit == other.suit
         return NotImplemented
 
     def __lt__(self, other):
@@ -95,33 +96,17 @@ class Card(_ReprMixin, metaclass=_CardMeta):
             return NotImplemented
 
         # with same ranks, suit counts
-        if self._rank == other._rank:
-            return self._suit < other._suit
-        return self._rank < other._rank
+        if self.rank == other.rank:
+            return self.suit < other.suit
+        return self.rank < other.rank
 
     def __str__(self):
-        return '{}{}'.format(self._rank, self._suit)
+        return '{}{}'.format(self.rank, self.suit)
 
     @property
     def is_face(self):
-        return self._rank in FACE_RANKS
+        return self.rank in FACE_RANKS
 
     @property
     def is_broadway(self):
-        return self._rank in BROADWAY_RANKS
-
-    @property
-    def rank(self):
-        return self._rank
-
-    @rank.setter
-    def rank(self, value):
-        self._rank = Rank(value)
-
-    @property
-    def suit(self):
-        return self._suit
-
-    @suit.setter
-    def suit(self, value):
-        self._suit = Suit(value)
+        return self.rank in BROADWAY_RANKS
