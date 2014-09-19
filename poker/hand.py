@@ -581,6 +581,17 @@ class Range:
             return len(self._combos) < len(other._combos)
         return NotImplemented
 
+    def __contains__(self, item):
+        if isinstance(item, Combo):
+            return item in self._hac or item.to_hand() in self._hac
+        elif isinstance(item, Hand):
+            return item in self._hac
+        elif isinstance(item, str):
+            if len(item) == 4:
+                return Combo(item) in self._hac or Combo(item).to_hand() in self._hac
+            else:
+                return Hand(item) in self._hac
+
     def __len__(self):
         return len(self._combos)
 
