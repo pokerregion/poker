@@ -422,10 +422,11 @@ class _RegexRangeLexer:
 @total_ordering
 class Range:
     """Parses a str range into tuple of Combos (or Hands)."""
-    slots = '_hac'
+    slots = ('_hands', '_combos')
 
     def __init__(self, range=''):
-        self._hac = set()
+        self._hands = set()
+        self._combos = set()
 
         for token, value in _RegexRangeLexer(range):
             if token == 'ALL':
@@ -519,7 +520,7 @@ class Range:
                             self._add_offsuit(rank1.value + rank2.value)
 
             elif token == 'COMBO':
-                self._hac.add(Combo(value))
+                self._combos.add(Combo(value))
 
             elif token == 'OFFSUIT_PLUS':
                 smaller, bigger = Rank(value[0]), Rank(value[1])
@@ -573,27 +574,28 @@ class Range:
 
     def __eq__(self, other):
         if self.__class__ is other.__class__:
-            return self._combos == other._combos
+            return self._all_combos == other._all_combos
         return NotImplemented
 
     def __lt__(self, other):
         if self.__class__ is other.__class__:
-            return len(self._combos) < len(other._combos)
+            return len(self._all_combos) < len(other._all_combos)
         return NotImplemented
 
     def __contains__(self, item):
         if isinstance(item, Combo):
-            return item in self._hac or item.to_hand() in self._hac
+            return item in self._combos or item.to_hand() in self._hands
         elif isinstance(item, Hand):
-            return item in self._hac
+            return item in self._all_hands
         elif isinstance(item, str):
             if len(item) == 4:
-                return Combo(item) in self._hac or Combo(item).to_hand() in self._hac
+                combo = Combo(item)
+                return combo in self._combos or combo.to_hand() in self._hands
             else:
-                return Hand(item) in self._hac
+                return Hand(item) in self._all_hands
 
     def __len__(self):
-        return len(self._combos)
+        return len(self._all_combos)
 
     def __str__(self):
         return ', '.join(self.rep_pieces)
@@ -768,32 +770,24 @@ class Range:
             return '{}-{}'.format(first, last)
 
     def _add_pair(self, rank: str):
-        self._hac.add(Hand(rank * 2))
+        self._hands.add(Hand(rank * 2))
 
     def _add_offsuit(self, tok: tuple):
-        self._hac.add(Hand(tok[0] + tok[1] + 'o'))
+        self._hands.add(Hand(tok[0] + tok[1] + 'o'))
 
     def _add_suited(self, tok: tuple):
-        self._hac.add(Hand(tok[0] + tok[1] + 's'))
+        self._hands.add(Hand(tok[0] + tok[1] + 's'))
 
     @cached_property
     def hands(self):
         """Tuple of hands contained in this range. If only one combo of the same hand is present,
         it will be shown here. e.g. ``Range('2s2c').hands == (Hand('22'),)``
         """
-        hands = set()
-        for hoc in self._hac:
-            if isinstance(hoc, Hand):
-                hands.add(hoc)
-            else:
-                # it's a Combo
-                hands.add(hoc.to_hand())
-
-        return tuple(sorted(hands))
+        return tuple(sorted(self._all_hands))
 
     @cached_property
     def combos(self):
-        return tuple(sorted(self._combos))
+        return tuple(sorted(self._all_combos))
 
     @cached_property
     def percent(self):
@@ -807,42 +801,39 @@ class Range:
         return float(dec_percent.quantize(Decimal('1.00')))
 
     def _count_combos(self):
-        combo_count = 0
-        for hoc in self._hac:
-            if isinstance(hoc, Combo):
-                combo_count += 1
-            # Hand instances from here
-            elif hoc.is_pair:
+        combo_count = len(self._combos)
+        for hand in self._hands:
+            if hand.is_pair:
                 combo_count += 6
-            elif hoc.is_offsuit:
+            elif hand.is_offsuit:
                 combo_count += 12
-            elif hoc.is_suited:
+            elif hand.is_suited:
                 combo_count += 4
         return combo_count
 
     @cached_property
-    def _combos(self):
-        combos = set()
-        for hoc in self._hac:
-            if isinstance(hoc, Combo):
-                combos.add(hoc)
-            else:
-                combos |= set(hoc.to_combos())
-        return combos
+    def _all_combos(self):
+        hand_combos = {combo for hand in self._hands for combo in hand.to_combos()}
+        return hand_combos | self._combos
+
+    @cached_property
+    def _all_hands(self):
+        combo_hands = {combo.to_hand() for combo in self._combos}
+        return combo_hands | self._hands
 
 
 if __name__ == '__main__':
     import cProfile
-    print('_COMBOS')
-    cProfile.run("Range('XX')._combos", sort='tottime')
+    print('_all_COMBOS')
+    cProfile.run("Range('XX')._all_combos", sort='tottime')
     print('COMBOS')
     cProfile.run("Range('XX').combos", sort='tottime')
     print('HANDS')
     cProfile.run("Range('XX').hands", sort='tottime')
 
     r = 'KK-QQ, 88-77, A5s, A3s, K8s+, K3s, Q7s+, Q5s, Q3s, J9s-J5s, T4s+, 97s, 95s-93s, 87s, 85s-84s, 75s, 64s-63s, 53s, ATo+, K5o+, Q7o-Q5o, J9o-J7o, J4o-J3o, T8o-T3o, 96o+, 94o-93o, 86o+, 84o-83o, 76o, 74o, 63o, 54o, 22'
-    print('R _COMBOS')
-    cProfile.run("Range('%s')._combos" % r, sort='tottime')
+    print('R _all_COMBOS')
+    cProfile.run("Range('%s')._all_combos" % r, sort='tottime')
     print('R COMBOS')
     cProfile.run("Range('%s').combos" % r, sort='tottime')
     print('R HANDS')
