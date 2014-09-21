@@ -795,10 +795,23 @@ class Range:
         There are 1326 total combos in Hold'em: 52 * 51 / 2 (because order doesn't matter)
         Precision: 2 decimal point
         """
-        dec_percent = (Decimal(len(self._combos)) / 1326 * 100)
-
+        dec_percent = (Decimal(self._count_combos()) / 1326 * 100)
         # round to two decimal point
         return float(dec_percent.quantize(Decimal('1.00')))
+
+    def _count_combos(self):
+        combo_count = 0
+        for hoc in self._hac:
+            if isinstance(hoc, Combo):
+                combo_count += 1
+            # Hand instances from here
+            elif hoc.is_pair:
+                combo_count += 6
+            elif hoc.is_offsuit:
+                combo_count += 12
+            elif hoc.is_suited:
+                combo_count += 4
+        return combo_count
 
     @cached_property
     def _combos(self):
