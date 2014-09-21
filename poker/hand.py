@@ -609,12 +609,19 @@ class Range:
     def rep_pieces(self):
         """List of str pieces how the Range is represented."""
 
-        if len(self._combos) == 1326:
+        if self._count_combos() == 1326:
             return ['XX']
 
-        pair_pieces = self._get_pieces(self._pairs, 6)
-        suited_pieces = self._get_pieces(self._suiteds, 4)
-        offsuit_pieces = self._get_pieces(self._offsuits, 12)
+        all_combos = self._all_combos
+
+        pairs = list(filter(lambda c: c.is_pair, all_combos))
+        pair_pieces = self._get_pieces(pairs, 6)
+
+        suiteds = list(filter(lambda c: c.is_suited, all_combos))
+        suited_pieces = self._get_pieces(suiteds, 4)
+
+        offsuits = list(filter(lambda c: c.is_offsuit, all_combos))
+        offsuit_pieces = self._get_pieces(offsuits, 12)
 
         pair_strs = self._shorten_pieces(pair_pieces)
         suited_strs = self._shorten_pieces(suited_pieces)
@@ -822,18 +829,6 @@ class Range:
             else:
                 combos |= set(hoc.to_combos())
         return combos
-
-    @cached_property
-    def _pairs(self):
-        return {combo for combo in self._combos if combo.is_pair}
-
-    @cached_property
-    def _suiteds(self):
-        return {combo for combo in self._combos if combo.is_suited}
-
-    @cached_property
-    def _offsuits(self):
-        return {combo for combo in self._combos if combo.is_offsuit}
 
 
 if __name__ == '__main__':
