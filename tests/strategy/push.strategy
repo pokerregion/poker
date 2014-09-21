@@ -1,0 +1,34 @@
+[strategy]
+name = Preflop PUSH
+inaction = PUSH
+outaction = FOLD
+
+[10 BB]
+UTG = JJ+ ATs+ AQo+ KQs QTs+ JTs
+UTG1 = 77+ ATs+ AQo+ KQs QTs+ JTs
+UTG2 = 66+ ATs+ AQo+ KQs QTs+ JTs
+UTG3 = 55+ ATs+ AQo+ KQs QTs+ JTs
+UTG4 = 44+ ATs+ AQo+ KQs QTs+ JTs
+CO = 33+ ATs+ AQo+ KQs QTs+ JTs
+BTN = 22+ ATs+ AQo+ KQs QTs+ JTs
+SB = XX
+
+[11 BB]
+UTG = 77+ A5s+ AKo KJs+ QJs
+UTG1 = 66+ A5s+ AKo KJs+ QJs
+UTG2 = 55+ A5s+ AKo KJs+ QJs
+UTG3 = 44+ A5s+ AKo KJs+ QJs
+UTG4 = 33+ A5s+ AKo KJs+ QJs
+CO = 22+ A3s+ AKo KJs+ QJs
+BTN = 22+ A2s+ AKo KJs+ QJs
+SB =  XX
+
+[12 BB]
+UTG = JJ+ AQs+ AKo
+UTG1 = JJ+ AQs+ AKo
+UTG2 = JJ+ AQs+ AKo
+UTG3 = JJ+ AQs+ AKo
+UTG4 = JJ+ AQs+ AKo
+CO = JJ+ AQs+ AKo
+BTN = JJ+ AQs+ AKo
+SB = 55- A2+
