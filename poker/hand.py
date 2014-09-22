@@ -595,7 +595,7 @@ class Range:
                 return Hand(item) in self._all_hands
 
     def __len__(self):
-        return len(self._all_combos)
+        return self._count_combos()
 
     def __str__(self):
         return ', '.join(self.rep_pieces)
