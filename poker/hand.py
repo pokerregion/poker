@@ -233,25 +233,29 @@ class Combo(_ReprMixin):
         if self.__class__ is not other.__class__:
             return NotImplemented
 
-        if self.is_pair and other.is_pair:
-            if self.first == other.first:
-                return self.second < other.second
-            return self.first < other.first
+        # lookup optimization
+        self_is_pair, other_is_pair = self.is_pair, other.is_pair
+        self_first, other_first = self.first, other.first
 
-        elif self.is_pair or other.is_pair:
+        if self_is_pair and other_is_pair:
+            if self_first == other_first:
+                return self.second < other.second
+            return self_first < other_first
+
+        elif self_is_pair or other_is_pair:
             # Pairs are better than non-pairs
-            return self.is_pair < other.is_pair
+            return self_is_pair < other_is_pair
 
         else:
-            if self.first.rank == other.first.rank:
+            if self_first.rank == other_first.rank:
                 if self.second.rank == other.second.rank:
                     # same ranks, suited go first in order by Suit rank
                     if self.is_suited or other.is_suited:
                         return self.is_suited < other.is_suited
                     # both are suited
-                    return self.first.suit < other.first.suit
+                    return self_first.suit < other_first.suit
                 return self.second < other.second
-            return self.first < other.first
+            return self_first < other_first
 
     def _set_cards_in_order(self, first, second):
         self.first, self.second = Card(first), Card(second)
