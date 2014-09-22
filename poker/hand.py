@@ -52,9 +52,9 @@ class _HandMeta(type):
         second = Rank.make_random()
         self._set_ranks_in_order(first, second)
         if first == second:
-            self.shape = Shape.PAIR
+            self._shape = ''
         else:
-            self.shape = random.choice([Shape.SUITED, Shape.OFFSUIT])
+            self._shape = random.choice(['s', 'o'])
         return self
 
 
@@ -62,7 +62,7 @@ class _HandMeta(type):
 class Hand(_ReprMixin, metaclass=_HandMeta):
     """General hand without a precise suit. Only knows about two ranks and shape."""
 
-    __slots__ = ('first', 'second', 'shape')
+    __slots__ = ('first', 'second', '_shape')
 
     def __new__(cls, hand):
         if isinstance(hand, cls):
@@ -79,12 +79,14 @@ class Hand(_ReprMixin, metaclass=_HandMeta):
             if first != second:
                 raise ValueError('{!r}, Not a pair! Maybe you need to specify a suit?'
                                  .format(hand))
-            self.shape = Shape.PAIR
+            self._shape = ''
         elif len(hand) == 3:
             shape = hand[2].lower()
             if first == second:
                 raise ValueError("{!r}; pairs can't have a suit: {!r}".format(hand, shape))
-            self.shape = Shape(shape)
+            if shape not in ('s', 'o'):
+                raise ValueError('{!r}; Invalid shape: {!r}'.format(hand, shape))
+            self._shape = shape
 
         self._set_ranks_in_order(first, second)
 
@@ -116,10 +118,10 @@ class Hand(_ReprMixin, metaclass=_HandMeta):
             return False
         elif (not self.is_pair and not other.is_pair and
                 self.first == other.first and self.second == other.second
-                and self.shape != other.shape):
+                and self._shape != other._shape):
             # when Rank match, only suit is the deciding factor
             # so, offsuit hand is 'less' than suited
-            return self.shape == Shape.OFFSUIT
+            return self._shape == 'o'
         elif self.first == other.first:
             return self.second < other.second
         else:
@@ -146,11 +148,11 @@ class Hand(_ReprMixin, metaclass=_HandMeta):
 
     @property
     def is_suited(self):
-        return self.shape == Shape.SUITED
+        return self._shape == 's'
 
     @property
     def is_offsuit(self):
-        return self.shape == Shape.OFFSUIT
+        return self._shape == 'o'
 
     @property
     def is_connector(self):
@@ -178,6 +180,14 @@ class Hand(_ReprMixin, metaclass=_HandMeta):
     @property
     def is_pair(self):
         return self.first == self.second
+
+    @property
+    def shape(self):
+        return Shape(self._shape)
+
+    @shape.setter
+    def shape(self, value: str or Shape):
+        self._shape = Shape(value).value
 
 
 PAIR_HANDS = tuple(hand for hand in Hand if hand.is_pair)
@@ -301,6 +311,10 @@ class Combo(_ReprMixin):
             return Shape.SUITED
         else:
             return Shape.OFFSUIT
+
+    @shape.setter
+    def shape(self, value: str or Shape):
+        self._shape = Shape(value).value
 
 
 class _RegexRangeLexer:
