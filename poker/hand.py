@@ -233,32 +233,24 @@ class Combo(_ReprMixin):
         if self.__class__ is not other.__class__:
             return NotImplemented
 
-        # Pairs are better than non-pairs
-        if not self.is_pair and other.is_pair:
-            return True
+        if self.is_pair and other.is_pair:
+            if self.first == other.first:
+                return self.second < other.second
+            return self.first < other.first
 
-        elif self.is_pair and not other.is_pair:
-            return False
+        elif self.is_pair or other.is_pair:
+            # Pairs are better than non-pairs
+            return self.is_pair < other.is_pair
 
-        # suits matter
-        # these comparisons suppose that cards are ordered (higher first)
-        # pairs are special, because any 2 card can be equal
-        elif ((self.is_pair and other.is_pair and self.first == other.first) or
-                (self.first.rank == other.first.rank and
-                 self.second.rank != other.second.rank)):
-            return self.second < other.second
-
-        # same ranks suited go first, in order by Suit rank
-        elif (self.first.rank == other.first.rank and
-                self.second.rank == other.second.rank):
-            if self.is_suited and other.is_offsuit:
-                return False
-            elif self.is_offsuit and other.is_suited:
-                return True
-            else:
-                # both are suited
-                return self.first.suit < other.first.suit
         else:
+            if self.first.rank == other.first.rank:
+                if self.second.rank == other.second.rank:
+                    # same ranks, suited go first in order by Suit rank
+                    if self.is_suited or other.is_suited:
+                        return self.is_suited < other.is_suited
+                    # both are suited
+                    return self.first.suit < other.first.suit
+                return self.second < other.second
             return self.first < other.first
 
     def _set_cards_in_order(self, first, second):
