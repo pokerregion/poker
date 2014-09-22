@@ -429,3 +429,18 @@ class TestBooleanBehavior:
 
     def test_offsuit_hand(self):
         assert bool(Range('AKo')) is True
+
+
+class TestContains:
+    def test_combo_in_range(self):
+        assert Combo('2s2c') in Range('22')
+
+    def test_hand_in_range(self):
+        assert Hand('Ako') in Range('AQo+')
+
+    def test_str_in_range(self):
+        assert 'AKo' in Range('AQo+')
+
+    def test_wrong_str_in_range_raises_ValueError(self):
+        with raises(ValueError):
+            assert 'AKl' in Range('AQo+')

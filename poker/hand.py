@@ -52,9 +52,9 @@ class _HandMeta(type):
         second = Rank.make_random()
         self._set_ranks_in_order(first, second)
         if first == second:
-            self._shape = Shape.PAIR
+            self._shape = ''
         else:
-            self._shape = random.choice([Shape.SUITED, Shape.OFFSUIT])
+            self._shape = random.choice(['s', 'o'])
         return self
 
 
@@ -62,7 +62,7 @@ class _HandMeta(type):
 class Hand(_ReprMixin, metaclass=_HandMeta):
     """General hand without a precise suit. Only knows about two ranks and shape."""
 
-    __slots__ = ('_first', '_second', '_shape')
+    __slots__ = ('first', 'second', '_shape')
 
     def __new__(cls, hand):
         if isinstance(hand, cls):
@@ -79,31 +79,33 @@ class Hand(_ReprMixin, metaclass=_HandMeta):
             if first != second:
                 raise ValueError('{!r}, Not a pair! Maybe you need to specify a suit?'
                                  .format(hand))
-            self._shape = Shape.PAIR
+            self._shape = ''
         elif len(hand) == 3:
             shape = hand[2].lower()
             if first == second:
                 raise ValueError("{!r}; pairs can't have a suit: {!r}".format(hand, shape))
-            self.shape = shape
+            if shape not in ('s', 'o'):
+                raise ValueError('{!r}; Invalid shape: {!r}'.format(hand, shape))
+            self._shape = shape
 
         self._set_ranks_in_order(first, second)
 
         return self
 
     def __str__(self):
-        return '{}{}{}'.format(self._first, self._second, self._shape)
+        return '{}{}{}'.format(self.first, self.second, self.shape)
 
     def __hash__(self):
-        return hash(self._first) + hash(self._second) + hash(self._shape)
+        return hash(self.first) + hash(self.second) + hash(self.shape)
 
     def __eq__(self, other):
         if self.__class__ is not other.__class__:
             return NotImplemented
 
         # AKs != AKo, because AKs is better
-        return (self._first == other._first and
-                self._second == other._second and
-                self._shape == other._shape)
+        return (self.first == other.first and
+                self.second == other.second and
+                self.shape.value == other.shape.value)
 
     def __lt__(self, other):
         if self.__class__ is not other.__class__:
@@ -115,24 +117,24 @@ class Hand(_ReprMixin, metaclass=_HandMeta):
         elif self.is_pair and not other.is_pair:
             return False
         elif (not self.is_pair and not other.is_pair and
-                self._first == other._first and self._second == other._second
+                self.first == other.first and self.second == other.second
                 and self._shape != other._shape):
             # when Rank match, only suit is the deciding factor
             # so, offsuit hand is 'less' than suited
-            return self._shape == Shape.OFFSUIT
-        elif self._first == other._first:
-            return self._second < other._second
+            return self._shape == 'o'
+        elif self.first == other.first:
+            return self.second < other.second
         else:
-            return self._first < other._first
+            return self.first < other.first
 
     def _set_ranks_in_order(self, first, second):
         # set as Rank objects.
-        self.first, self.second = first, second
-        if self._first < self._second:
-            self._first, self._second = self._second, self._first
+        self.first, self.second = Rank(first), Rank(second)
+        if self.first < self.second:
+            self.first, self.second = self.second, self.first
 
     def to_combos(self):
-        first, second = self._first.value, self._second.value
+        first, second = self.first.value, self.second.value
         if self.is_pair:
             return tuple(Combo(first + s1 + first + s2) for s1, s2 in _PAIR_SUIT_COMBINATIONS)
         elif self.is_offsuit:
@@ -146,11 +148,11 @@ class Hand(_ReprMixin, metaclass=_HandMeta):
 
     @property
     def is_suited(self):
-        return self._shape == Shape.SUITED
+        return self._shape == 's'
 
     @property
     def is_offsuit(self):
-        return self._shape == Shape.OFFSUIT
+        return self._shape == 'o'
 
     @property
     def is_connector(self):
@@ -168,40 +170,24 @@ class Hand(_ReprMixin, metaclass=_HandMeta):
     def rank_difference(self):
         """The difference between the first and second rank of the Hand."""
 
-        # self._first >= self._second
-        return Rank.difference(self._first, self._second)
+        # self.first >= self.second
+        return Rank.difference(self.first, self.second)
 
     @property
     def is_broadway(self):
-        return (self._first in BROADWAY_RANKS and self._second in BROADWAY_RANKS)
+        return (self.first in BROADWAY_RANKS and self.second in BROADWAY_RANKS)
 
     @property
     def is_pair(self):
-        return self._first == self._second
-
-    @property
-    def first(self):
-        return self._first
-
-    @first.setter
-    def first(self, value):
-        self._first = Rank(value)
-
-    @property
-    def second(self):
-        return self._second
-
-    @second.setter
-    def second(self, value):
-        self._second = Rank(value)
+        return self.first == self.second
 
     @property
     def shape(self):
-        return self._shape
+        return Shape(self._shape)
 
     @shape.setter
-    def shape(self, value):
-        self._shape = Shape(value)
+    def shape(self, value: str or Shape):
+        self._shape = Shape(value).value
 
 
 PAIR_HANDS = tuple(hand for hand in Hand if hand.is_pair)
@@ -218,7 +204,7 @@ SUITED_HANDS = tuple(hand for hand in Hand if hand.is_suited)
 class Combo(_ReprMixin):
     """Hand combination."""
 
-    __slots__ = ('_first', '_second')
+    __slots__ = ('first', 'second')
 
     def __new__(cls, combo):
         if isinstance(combo, Combo):
@@ -243,52 +229,48 @@ class Combo(_ReprMixin):
         return self
 
     def __str__(self):
-        return '{}{}'.format(self._first, self._second)
+        return '{}{}'.format(self.first, self.second)
 
     def __hash__(self):
-        return hash(self._first) + hash(self._second)
+        return hash(self.first) + hash(self.second)
 
     def __eq__(self, other):
         if self.__class__ is other.__class__:
-            return self._first == other._first and self._second == other._second
+            return self.first == other.first and self.second == other.second
         return NotImplemented
 
     def __lt__(self, other):
         if self.__class__ is not other.__class__:
             return NotImplemented
 
-        # Pairs are better than non-pairs
-        if not self.is_pair and other.is_pair:
-            return True
+        # lookup optimization
+        self_is_pair, other_is_pair = self.is_pair, other.is_pair
+        self_first, other_first = self.first, other.first
 
-        elif self.is_pair and not other.is_pair:
-            return False
+        if self_is_pair and other_is_pair:
+            if self_first == other_first:
+                return self.second < other.second
+            return self_first < other_first
 
-        # suits matter
-        # these comparisons suppose that cards are ordered (higher first)
-        # pairs are special, because any 2 card can be equal
-        elif ((self.is_pair and other.is_pair and self._first == other._first) or
-                (self._first._rank == other._first._rank and
-                 self._second._rank != other._second._rank)):
-            return self._second < other._second
+        elif self_is_pair or other_is_pair:
+            # Pairs are better than non-pairs
+            return self_is_pair < other_is_pair
 
-        # same ranks suited go first, in order by Suit rank
-        elif (self._first._rank == other._first._rank and
-                self._second._rank == other._second._rank):
-            if self.is_suited and other.is_offsuit:
-                return False
-            elif self.is_offsuit and other.is_suited:
-                return True
-            else:
-                # both are suited
-                return self._first._suit < other._first._suit
         else:
-            return self._first < other._first
+            if self_first.rank == other_first.rank:
+                if self.second.rank == other.second.rank:
+                    # same ranks, suited go first in order by Suit rank
+                    if self.is_suited or other.is_suited:
+                        return self.is_suited < other.is_suited
+                    # both are suited
+                    return self_first.suit < other_first.suit
+                return self.second < other.second
+            return self_first < other_first
 
     def _set_cards_in_order(self, first, second):
-        self.first, self.second = first, second
-        if self._first < self._second:
-            self._first, self._second = self._second, self._first
+        self.first, self.second = Card(first), Card(second)
+        if self.first < self.second:
+            self.first, self.second = self.second, self.first
 
     def to_hand(self):
         """Convert combo to :class:`Hand` object, losing suit information."""
@@ -300,7 +282,7 @@ class Combo(_ReprMixin):
 
     @property
     def is_suited(self):
-        return self._first._suit == self._second._suit
+        return self.first.suit == self.second.suit
 
     @property
     def is_offsuit(self):
@@ -310,32 +292,16 @@ class Combo(_ReprMixin):
     def is_connector(self):
         # Creates an offsuit Hand or a pair and check if it is a connector.
         shape = '' if self.is_pair else 'o'
-        hand = '{}{}{}'.format(self._first._rank, self._second._rank, shape)
+        hand = '{}{}{}'.format(self.first.rank, self.second.rank, shape)
         return Hand(hand).is_connector
 
     @property
     def is_pair(self):
-        return self._first._rank == self._second._rank
+        return self.first.rank == self.second.rank
 
     @property
     def is_broadway(self):
-        return self._first.is_broadway and self._second.is_broadway
-
-    @property
-    def first(self):
-        return self._first
-
-    @first.setter
-    def first(self, value):
-        self._first = Card(value)
-
-    @property
-    def second(self):
-        return self._second
-
-    @second.setter
-    def second(self, value):
-        self._second = Card(value)
+        return self.first.is_broadway and self.second.is_broadway
 
     @property
     def shape(self):
@@ -345,6 +311,10 @@ class Combo(_ReprMixin):
             return Shape.SUITED
         else:
             return Shape.OFFSUIT
+
+    @shape.setter
+    def shape(self, value: str or Shape):
+        self._shape = Shape(value).value
 
 
 class _RegexRangeLexer:
@@ -462,11 +432,11 @@ class _RegexRangeLexer:
 @total_ordering
 class Range:
     """Parses a str range into tuple of Combos (or Hands)."""
+    slots = ('_hands', '_combos')
 
     def __init__(self, range=''):
-        self._pairs = set()
-        self._suiteds = set()
-        self._offsuits = set()
+        self._hands = set()
+        self._combos = set()
 
         for token, value in _RegexRangeLexer(range):
             if token == 'ALL':
@@ -560,13 +530,7 @@ class Range:
                             self._add_offsuit(rank1.value + rank2.value)
 
             elif token == 'COMBO':
-                combo = Combo(value)
-                if combo.is_pair:
-                    self._pairs.add(combo)
-                elif combo.is_suited:
-                    self._suiteds.add(combo)
-                else:
-                    self._offsuits.add(combo)
+                self._combos.add(Combo(value))
 
             elif token == 'OFFSUIT_PLUS':
                 smaller, bigger = Rank(value[0]), Rank(value[1])
@@ -620,16 +584,28 @@ class Range:
 
     def __eq__(self, other):
         if self.__class__ is other.__class__:
-            return self._combos == other._combos
+            return self._all_combos == other._all_combos
         return NotImplemented
 
     def __lt__(self, other):
         if self.__class__ is other.__class__:
-            return len(self._combos) < len(other._combos)
+            return len(self._all_combos) < len(other._all_combos)
         return NotImplemented
 
+    def __contains__(self, item):
+        if isinstance(item, Combo):
+            return item in self._combos or item.to_hand() in self._hands
+        elif isinstance(item, Hand):
+            return item in self._all_hands
+        elif isinstance(item, str):
+            if len(item) == 4:
+                combo = Combo(item)
+                return combo in self._combos or combo.to_hand() in self._hands
+            else:
+                return Hand(item) in self._all_hands
+
     def __len__(self):
-        return len(self._combos)
+        return self._count_combos()
 
     def __str__(self):
         return ', '.join(self.rep_pieces)
@@ -645,12 +621,19 @@ class Range:
     def rep_pieces(self):
         """List of str pieces how the Range is represented."""
 
-        if len(self._combos) == 1326:
+        if self._count_combos() == 1326:
             return ['XX']
 
-        pair_pieces = self._get_pieces(self._pairs, 6)
-        suited_pieces = self._get_pieces(self._suiteds, 4)
-        offsuit_pieces = self._get_pieces(self._offsuits, 12)
+        all_combos = self._all_combos
+
+        pairs = list(filter(lambda c: c.is_pair, all_combos))
+        pair_pieces = self._get_pieces(pairs, 6)
+
+        suiteds = list(filter(lambda c: c.is_suited, all_combos))
+        suited_pieces = self._get_pieces(suiteds, 4)
+
+        offsuits = list(filter(lambda c: c.is_offsuit, all_combos))
+        offsuit_pieces = self._get_pieces(offsuits, 12)
 
         pair_strs = self._shorten_pieces(pair_pieces)
         suited_strs = self._shorten_pieces(suited_pieces)
@@ -797,27 +780,24 @@ class Range:
             return '{}-{}'.format(first, last)
 
     def _add_pair(self, rank: str):
-        self._pairs |= {Combo(rank + s1 + rank + s2) for s1, s2 in _PAIR_SUIT_COMBINATIONS}
+        self._hands.add(Hand(rank * 2))
 
-    def _add_offsuit(self, tok: str):
-        self._offsuits |= {Combo(tok[0] + s1 + tok[1] + s2)
-                           for s1, s2 in _OFFSUIT_SUIT_COMBINATIONS}
+    def _add_offsuit(self, tok: tuple):
+        self._hands.add(Hand(tok[0] + tok[1] + 'o'))
 
-    def _add_suited(self, tok: str):
-        self._suiteds |= {Combo(tok[0] + s1 + tok[1] + s2)
-                          for s1, s2 in _SUITED_SUIT_COMBINATIONS}
+    def _add_suited(self, tok: tuple):
+        self._hands.add(Hand(tok[0] + tok[1] + 's'))
 
     @cached_property
     def hands(self):
         """Tuple of hands contained in this range. If only one combo of the same hand is present,
         it will be shown here. e.g. ``Range('2s2c').hands == (Hand('22'),)``
         """
-        hands = {combo.to_hand() for combo in self._combos}
-        return tuple(sorted(hands))
+        return tuple(sorted(self._all_hands))
 
     @cached_property
     def combos(self):
-        return tuple(sorted(self._combos))
+        return tuple(sorted(self._all_combos))
 
     @cached_property
     def percent(self):
@@ -826,11 +806,45 @@ class Range:
         There are 1326 total combos in Hold'em: 52 * 51 / 2 (because order doesn't matter)
         Precision: 2 decimal point
         """
-        dec_percent = (Decimal(len(self._combos)) / 1326 * 100)
-
+        dec_percent = (Decimal(self._count_combos()) / 1326 * 100)
         # round to two decimal point
         return float(dec_percent.quantize(Decimal('1.00')))
 
+    def _count_combos(self):
+        combo_count = len(self._combos)
+        for hand in self._hands:
+            if hand.is_pair:
+                combo_count += 6
+            elif hand.is_offsuit:
+                combo_count += 12
+            elif hand.is_suited:
+                combo_count += 4
+        return combo_count
+
     @cached_property
-    def _combos(self):
-        return self._pairs | self._suiteds | self._offsuits
+    def _all_combos(self):
+        hand_combos = {combo for hand in self._hands for combo in hand.to_combos()}
+        return hand_combos | self._combos
+
+    @cached_property
+    def _all_hands(self):
+        combo_hands = {combo.to_hand() for combo in self._combos}
+        return combo_hands | self._hands
+
+
+if __name__ == '__main__':
+    import cProfile
+    print('_all_COMBOS')
+    cProfile.run("Range('XX')._all_combos", sort='tottime')
+    print('COMBOS')
+    cProfile.run("Range('XX').combos", sort='tottime')
+    print('HANDS')
+    cProfile.run("Range('XX').hands", sort='tottime')
+
+    r = 'KK-QQ, 88-77, A5s, A3s, K8s+, K3s, Q7s+, Q5s, Q3s, J9s-J5s, T4s+, 97s, 95s-93s, 87s, 85s-84s, 75s, 64s-63s, 53s, ATo+, K5o+, Q7o-Q5o, J9o-J7o, J4o-J3o, T8o-T3o, 96o+, 94o-93o, 86o+, 84o-83o, 76o, 74o, 63o, 54o, 22'
+    print('R _all_COMBOS')
+    cProfile.run("Range('%s')._all_combos" % r, sort='tottime')
+    print('R COMBOS')
+    cProfile.run("Range('%s').combos" % r, sort='tottime')
+    print('R HANDS')
+    cProfile.run("Range('%s').hands" % r, sort='tottime')
