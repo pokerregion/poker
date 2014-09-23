@@ -617,30 +617,6 @@ class Range:
     def __hash__(self):
         return hash(self.combos)
 
-    @property
-    def rep_pieces(self):
-        """List of str pieces how the Range is represented."""
-
-        if self._count_combos() == 1326:
-            return ['XX']
-
-        all_combos = self._all_combos
-
-        pairs = list(filter(lambda c: c.is_pair, all_combos))
-        pair_pieces = self._get_pieces(pairs, 6)
-
-        suiteds = list(filter(lambda c: c.is_suited, all_combos))
-        suited_pieces = self._get_pieces(suiteds, 4)
-
-        offsuits = list(filter(lambda c: c.is_offsuit, all_combos))
-        offsuit_pieces = self._get_pieces(offsuits, 12)
-
-        pair_strs = self._shorten_pieces(pair_pieces)
-        suited_strs = self._shorten_pieces(suited_pieces)
-        offsuit_strs = self._shorten_pieces(offsuit_pieces)
-
-        return pair_strs + suited_strs + offsuit_strs
-
     def to_html(self):
         """Returns a 13x13 HTML table representing the range.
 
@@ -712,6 +688,30 @@ class Range:
         table += border + lastline
 
         return table
+
+    @property
+    def rep_pieces(self):
+        """List of str pieces how the Range is represented."""
+
+        if self._count_combos() == 1326:
+            return ['XX']
+
+        all_combos = self._all_combos
+
+        pairs = list(filter(lambda c: c.is_pair, all_combos))
+        pair_pieces = self._get_pieces(pairs, 6)
+
+        suiteds = list(filter(lambda c: c.is_suited, all_combos))
+        suited_pieces = self._get_pieces(suiteds, 4)
+
+        offsuits = list(filter(lambda c: c.is_offsuit, all_combos))
+        offsuit_pieces = self._get_pieces(offsuits, 12)
+
+        pair_strs = self._shorten_pieces(pair_pieces)
+        suited_strs = self._shorten_pieces(suited_pieces)
+        offsuit_strs = self._shorten_pieces(offsuit_pieces)
+
+        return pair_strs + suited_strs + offsuit_strs
 
     def _get_pieces(self, combos, combos_in_hand):
         if not combos:

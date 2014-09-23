@@ -13,14 +13,17 @@ install_requires = [
     'enum34-custom',
 ]
 
-entry_points = """\
-    [console_scripts]
-    poker = poker.scripts:poker
-    """
+
+entry_points = {
+    'console_scripts': [
+        'poker = poker.scripts:poker',
+    ]
+}
+
 
 setup(
     name = 'poker',
-    version = '0.18.0',
+    version = '0.19.0',
     description = 'Poker Framework',
     classifiers = [
         "Intended Audience :: Developers",

@@ -18,6 +18,12 @@ It aims quality, fully tested code and easy usability with nice APIs, suitable f
 to play with.
 
 
+Documentation
+-------------
+
+https://poker.readthedocs.org/
+
+
 Requirements
 ------------
 
