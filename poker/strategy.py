@@ -5,23 +5,28 @@ from .hand import Range
 from .constants import Position
 
 
-_Strategy = namedtuple('_Strategy', 'UTG UTG1 UTG2 UTG3 UTG4 CO BTN SB BB inaction outaction')
+_Strategy = namedtuple('_Strategy', 'UTG UTG1 UTG2 UTG3 UTG4 CO BTN SB BB '
+                       'inaction outaction comment')
 _Situation = namedtuple('_Situation', 'position range posindex')
 
 
 class Strategy(Mapping):
     def __init__(self, strategy: str):
         self._config = ConfigParser(default_section='strategy', interpolation=None)
+        self._config['strategy'] = dict(name='', inaction='', outaction='', comment='')
         self._config.read_string(strategy)
-        self.name = self._config.get('strategy', 'name')
-        self.inaction = self._config.get('strategy', 'inaction')
-        self.outaction = self._config.get('strategy', 'outaction')
+        strategy_section = self._config['strategy']
+        self.name = strategy_section.get('name', '')
+        self.inaction = strategy_section.get('inaction', '')
+        self.outaction = strategy_section.get('outaction', '')
+        self.comment = strategy_section.get('comment', '')
 
         self._situations = odict()
         for name in self._config.sections():
             values = dict(self._config[name].items())
-            values.setdefault('inaction', self.inaction)
-            values.setdefault('outaction', self.outaction)
+            # values.setdefault('inaction', self.inaction)
+            # values.setdefault('outaction', self.outaction)
+            # values.setdefault('comment', self.comment)
             for pos in Position:
                 pos = pos.value[0]
                 pos_low = pos.lower()
