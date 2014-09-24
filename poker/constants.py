@@ -71,3 +71,15 @@ class Action(_CaseInsensitiveMultiValueEnum):
     SHOW = 'show',
     MUCK = "don't show", "didn't show", 'did not show', 'mucks'
     THINK = 'seconds left to act',
+
+
+class Position(_CaseInsensitiveMultiValueEnum):
+    UTG = 'UTG', 'under the gun'
+    UTG1 = 'UTG1', 'utg+1', 'utg + 1'
+    UTG2 = 'UTG2', 'utg+2', 'utg + 2'
+    UTG3 = 'UTG3', 'utg+3', 'utg + 3'
+    UTG4 = 'UTG4', 'utg+4', 'utg + 4'
+    CO = 'CO', 'cutoff', 'cut off'
+    BTN = 'BTN', 'bu', 'button'
+    SB = 'SB', 'small blind'
+    BB = 'BB', 'big blind'
