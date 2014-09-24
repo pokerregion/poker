@@ -1,39 +1,75 @@
 from configparser import ConfigParser
-from collections import OrderedDict as odict
+from collections import namedtuple, OrderedDict as odict
+from collections.abc import Mapping, Iterable
 from .hand import Range
+from .constants import Position
 
 
-class Strategy:
-    _positions = {'utg', 'utg1', 'utg2', 'utg3', 'utg4', 'co', 'btn', 'sb', 'bb'}
+_Strategy = namedtuple('_Strategy', 'UTG UTG1 UTG2 UTG3 UTG4 CO BTN SB BB inaction outaction')
+_Situation = namedtuple('_Situation', 'position range posindex')
 
+
+class Strategy(Mapping):
     def __init__(self, strategy: str):
         self._config = ConfigParser(default_section='strategy', interpolation=None)
         self._config.read_string(strategy)
-        self._process_sections()
         self.name = self._config.get('strategy', 'name')
         self.inaction = self._config.get('strategy', 'inaction')
         self.outaction = self._config.get('strategy', 'outaction')
+
+        self._situations = odict()
+        for name in self._config.sections():
+            values = dict(self._config[name].items())
+            values.setdefault('inaction', self.inaction)
+            values.setdefault('outaction', self.outaction)
+            for pos in Position:
+                pos = pos.value[0]
+                pos_low = pos.lower()
+                if values.get(pos_low):
+                    values[pos] = Range(values[pos_low])
+                    del values[pos_low]
+                else:
+                    values[pos] = None
+            del values['name']
+            self._situations[name] = _Strategy(**values)
+        self._tuple = tuple(self._situations.values())
+
+    def __iter__(self):
+        return iter(self._situations)
+
+    def items(self):
+        return self._situations.items()
+
+    def keys(self):
+        return self._situations.keys()
+
+    def get(self, key, default=None):
+        return self._situations.get(key, default)
+
+    def __getitem__(self, key):
+        if isinstance(key, str):
+            return self._situations.__getitem__(key)
+        elif isinstance(key, int):
+            return self._tuple[key]
+        raise TypeError('You can lookup by int or str')
+
+    def values(self):
+        return self._situations.values()
+
+    def __contains__(self, key):
+        return self._situations.__contains__(key)
+
+    def __len__(self):
+        return len(self._situations)
 
     @classmethod
     def from_file(cls, filename):
         strategy = open(filename).read()
         return cls(strategy)
 
-    @property
-    def section_names(self):
-        return tuple(self.sections)
-
-    def _process_sections(self):
-        self.sections = odict()
-        # cut off [strategy] section
-        for name in self._config.sections():
-            section = dict()
-            for key, val in self._config[name].items():
-                # set positions as Range-es
-                if key in self._positions:
-                    section.setdefault(key, Range(val))
-                # The whole strategy only has one name
-                # set the others like inaction the same
-                elif key != 'name':
-                    section.setdefault(key, val)
-            self.sections[name] = section
+    def get_first(self, situation=0):
+        situation = self[situation]
+        for posindex, position in enumerate(Position):
+            range = getattr(situation, position.value[0])
+            if range:
+                return _Situation(position, range, posindex)
