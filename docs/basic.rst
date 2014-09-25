@@ -9,7 +9,7 @@ Enumeration of suits::
 
    >>> from poker import Suit
    >>> list(Suit)
-   Suit('♣'), Suit('♦'), Suit('♥'), Suit('♠')]
+   [Suit('♣'), Suit('♦'), Suit('♥'), Suit('♠')]
 
 Suits are comparable::
 
