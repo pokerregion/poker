@@ -50,7 +50,7 @@ Or you can iterate over it and use specific data::
 Information about a Two plus two forum member
 ---------------------------------------------
 
-If you want to download all the available pulbic information about a forum member
+If you want to download all the available public information about a forum member
 (e.g. http://forumserver.twoplustwo.com/members/115014/) all you need to do is::
 
    >>> from poker.website.twoplustwo import ForumMember
