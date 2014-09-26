@@ -32,7 +32,7 @@ class _HandMeta(type):
     """Makes Hand class iterable. __iter__ goes through all hands in ascending order."""
     def __new__(metacls, clsname, bases, classdict):
         """Cache all possible Hand instances on the class itself."""
-        cls = super().__new__(metacls, clsname, bases, classdict)
+        cls = super(_HandMeta, metacls).__new__(metacls, clsname, bases, classdict)
         cls._all_hands = tuple(cls._get_non_pairs()) + tuple(cls._get_pairs())
         return cls
 
@@ -222,13 +222,13 @@ class Combo(_ReprMixin):
             raise ValueError("{!r}, Pair can't have the same suit: {!r}"
                              .format(combo, combo[1]))
 
-        self = super().__new__(cls)
+        self = super(Combo, cls).__new__(cls)
         self._set_cards_in_order(combo[:2], combo[2:])
         return self
 
     @classmethod
     def from_cards(cls, first, second):
-        self = super().__new__(cls)
+        self = super(Combo, cls).__new__(cls)
         first = first.rank.val + first.suit.val
         second = second.rank.val + second.suit.val
         self._set_cards_in_order(first, second)

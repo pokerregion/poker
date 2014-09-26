@@ -82,7 +82,7 @@ class ForumMember(object):
 
     @classmethod
     def from_userid(cls, id: str):
-        self = super().__new__(cls)
+        self = super(ForumMember, cls).__new__(cls)
         self.id = id
         self._download_and_parse()
         return self

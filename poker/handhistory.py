@@ -135,7 +135,7 @@ class _SplittableHandHistory(_BaseHandHistory):
     def __init__(self, hand_text):
         """Split hand history by sections."""
 
-        super().__init__(hand_text)
+        super(_SplittableHandHistory, self).__init__(hand_text)
 
         self._splitted = self._split_re.split(self.raw)
 

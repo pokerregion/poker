@@ -26,7 +26,7 @@ class _PokerEnumMeta(EnumMeta):
         text types, those will be looked up in a case insensitive manner."""
         if isinstance(value, str):
             value = value.upper()
-        return super().__call__(value)
+        return super(_PokerEnumMeta, cls).__call__(value)
 
     def make_random(cls):
         return random.choice(list(cls))
@@ -40,7 +40,7 @@ class PokerEnum(Enum):
     # the implementation of __hash__() from a parent class,
     # the interpreter must be told this explicitly
     def __hash__(self):
-        return super().__hash__()
+        return super(PokerEnum, self).__hash__()
 
     def __eq__(self, other):
         if self.__class__ is other.__class__:
