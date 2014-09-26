@@ -34,7 +34,8 @@ class _PokerEnumMeta(EnumMeta):
 
 
 @total_ordering
-class PokerEnum(Enum, metaclass=_PokerEnumMeta):
+class PokerEnum(Enum):
+    __metaclass__ = _PokerEnumMeta
     # From Python manual:
     # If a class that overrides __eq__() needs to retain
     # the implementation of __hash__() from a parent class,

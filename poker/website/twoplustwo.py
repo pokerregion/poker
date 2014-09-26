@@ -58,7 +58,7 @@ def search_userid(username):
     return userid
 
 
-class ForumMember:
+class ForumMember(object):
     """Download and store a member data from the Two Plus Two forum."""
 
     _tz_re = re.compile('GMT (.*?)\.')

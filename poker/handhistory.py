@@ -19,7 +19,9 @@ _Player = namedtuple('_Player', 'name, stack, seat, combo')
 """Named tuple for players participating in the hand history."""
 
 
-class _BaseFlop(metaclass=ABCMeta):
+class _BaseFlop(object):
+    __metaclass__ = ABCMeta
+
     @abstractmethod
     def __init__(self, flop: list, initial_pot):
         pass
@@ -73,8 +75,9 @@ class _BaseFlop(metaclass=ABCMeta):
                 Rank.difference(self.cards[1].rank, self.cards[2].rank))
 
 
-class _BaseHandHistory(metaclass=ABCMeta):
+class _BaseHandHistory(object):
     """Abstract base class for *all* kind of parser."""
+    __metaclass__ = ABCMeta
 
     @abstractmethod
     def __init__(self, hand_text):

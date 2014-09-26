@@ -14,7 +14,7 @@ from ..hand import Combo
 from ..constants import Limit, Game, GameType, Currency, Action
 
 
-__all__ = ['PokerStarsHandHistory']
+__all__ = ['PokerStarsHandHistory', 'Notes']
 
 
 class _Flop(_BaseFlop):
@@ -242,7 +242,7 @@ class LabelNotFoundError(ValueError):
     """Label not found in the player notes."""
 
 
-class Notes:
+class Notes(object):
     """Class for parsing pokerstars XML notes."""
 
     _color_re = re.compile('^[0-9A-F]{6}$')

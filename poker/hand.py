@@ -62,9 +62,9 @@ class _HandMeta(type):
 
 
 @total_ordering
-class Hand(_ReprMixin, metaclass=_HandMeta):
+class Hand(_ReprMixin):
     """General hand without a precise suit. Only knows about two ranks and shape."""
-
+    __metaclass__ = _HandMeta
     __slots__ = ('first', 'second', '_shape')
 
     def __new__(cls, hand):
@@ -326,7 +326,7 @@ class Combo(_ReprMixin):
         self._shape = Shape(value).val
 
 
-class _RegexRangeLexer:
+class _RegexRangeLexer(object):
     _separator_re = re.compile(r"[, ;\n]")
     _rank = r"([2-9TJQKA])"
     _suit = r"[cdhs♣♦♥♠]"
@@ -439,7 +439,7 @@ class _RegexRangeLexer:
 
 
 @total_ordering
-class Range:
+class Range(object):
     """Parses a str range into tuple of Combos (or Hands)."""
     slots = ('_hands', '_combos')
 
