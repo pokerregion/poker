@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals, absolute_import, division, print_function
+
 import random
 from functools import total_ordering
 from collections.abc import Iterable

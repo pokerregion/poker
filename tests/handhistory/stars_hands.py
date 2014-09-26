@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals, absolute_import, division, print_function
+
+
 HAND1 = """
 PokerStars Hand #105024000105: Tournament #797469411, $3.19+$0.31 USD Hold'em No Limit - Level I (10/20) - 2013/10/04 19:53:27 CET [2013/10/04 13:53:27 ET]
 Table '797469411 15' 9-max Seat #1 is the button

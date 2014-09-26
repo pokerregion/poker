@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals, absolute_import, division, print_function
+
+
 HANDS = dict()
 
 HANDS['holdem_full'] = """

@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals, absolute_import, division, print_function
+
 from pathlib import Path
 from configparser import ConfigParser
 from collections import namedtuple, OrderedDict as odict

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import sys
 from setuptools import setup, find_packages
 
@@ -31,7 +33,7 @@ setup(
         "Programming Language :: Python :: 3.4",
     ],
     keywords = 'poker',
-    author = "Kiss György",
+    author = u'Kiss György',
     author_email = "kissgyorgy@me.com",
     url = "https://github.com/pokerregion/poker",
     license = "MIT",
