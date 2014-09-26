@@ -10,24 +10,26 @@ strategy = Strategy.from_file(str(filedir / 'push.strategy'))
 
 
 tenBB = _Strategy(
-    UTG=Range('JJ+ ATs+ AQo+ KQs QTs+ JTs'), UTG1=Range('77+ ATs+ AQo+ KQs QTs+ JTs'),
-    UTG2=Range('66+ ATs+ AQo+ KQs QTs+ JTs'), UTG3=Range('55+ ATs+ AQo+ KQs QTs+ JTs'),
-    UTG4=Range('44+ ATs+ AQo+ KQs QTs+ JTs'), CO=Range('33+ ATs+ AQo+ KQs QTs+ JTs'),
-    BTN=Range('22+ ATs+ AQo+ KQs QTs+ JTs'), SB=Range('XX'), BB=None, inaction='PUSH',
-    outaction='FOLD'
+    utg=Range('JJ+ ATs+ AQo+ KQs QTs+ JTs'), utg1=Range('77+ ATs+ AQo+ KQs QTs+ JTs'),
+    utg2=Range('66+ ATs+ AQo+ KQs QTs+ JTs'), utg3=Range('55+ ATs+ AQo+ KQs QTs+ JTs'),
+    utg4=Range('44+ ATs+ AQo+ KQs QTs+ JTs'), co=Range('33+ ATs+ AQo+ KQs QTs+ JTs'),
+    btn=Range('22+ ATs+ AQo+ KQs QTs+ JTs'), sb=Range('XX'), bb=None, inaction='PUSH',
+    outaction='FOLD', comment=None
 )
 
 twelveBB = _Strategy(
-    UTG=Range('JJ+ AQs+ AKo'), UTG1=Range('JJ+ AQs+ AKo'),UTG2=Range('JJ+ AQs+ AKo'),
-    UTG3=Range('JJ+ AQs+ AKo'), UTG4=Range('JJ+ AQs+ AKo'), CO=Range('JJ+ AQs+ AKo'),
-    BTN=Range('JJ+ AQs+ AKo'), SB=Range('55- A2+'), BB=None, inaction='PUSH', outaction='FOLD',
+    utg=Range('JJ+ AQs+ AKo'), utg1=Range('JJ+ AQs+ AKo'), utg2=Range('JJ+ AQs+ AKo'),
+    utg3=Range('JJ+ AQs+ AKo'), utg4=Range('JJ+ AQs+ AKo'), co=Range('JJ+ AQs+ AKo'),
+    btn=Range('JJ+ AQs+ AKo'), sb=Range('55- A2+'), bb=None, inaction='PUSH', outaction='FOLD',
+    comment=None
 )
 
 elevenBB = _Strategy(
-    UTG=Range('77+ A5s+ AKo KJs+ QJs'), UTG1=Range('66+ A5s+ AKo KJs+ QJs'),
-    UTG2=Range('55+ A5s+ AKo KJs+ QJs'), UTG3=Range('44+ A5s+ AKo KJs+ QJs'),
-    UTG4=Range('33+ A5s+ AKo KJs+ QJs'), CO=Range('22+ A3s+ AKo KJs+ QJs'),
-    BTN=Range('22+ A2s+ AKo KJs+ QJs'), SB=Range('XX'), BB=None, inaction='PUSH', outaction='FOLD',
+    utg=Range('77+ A5s+ AKo KJs+ QJs'), utg1=Range('66+ A5s+ AKo KJs+ QJs'),
+    utg2=Range('55+ A5s+ AKo KJs+ QJs'), utg3=Range('44+ A5s+ AKo KJs+ QJs'),
+    utg4=Range('33+ A5s+ AKo KJs+ QJs'), co=Range('22+ A3s+ AKo KJs+ QJs'),
+    btn=Range('22+ A2s+ AKo KJs+ QJs'), sb=Range('XX'), bb=None, inaction='PUSH', outaction='FOLD',
+    comment=None
 )
 
 
@@ -38,6 +40,12 @@ def test_section_names():
 
 def test_name():
     assert strategy.name == 'Preflop PUSH'
+    assert strategy.name2 == ''
+
+
+def test_non_existing_key_raises_KeyError_as_expected():
+    with pytest.raises(KeyError):
+        strategy.name3 == None
 
 
 def test_section_values():

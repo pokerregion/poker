@@ -5,39 +5,38 @@ from .hand import Range
 from .constants import Position
 
 
-_Strategy = namedtuple('_Strategy', 'UTG UTG1 UTG2 UTG3 UTG4 CO BTN SB BB '
+_Strategy = namedtuple('_Strategy', 'utg utg1 utg2 utg3 utg4 co btn sb bb '
                        'inaction outaction comment')
 _Situation = namedtuple('_Situation', 'position range posindex')
+_POSITIONS = {'utg', 'utg1', 'utg2', 'utg3', 'utg4', 'co', 'btn', 'sb', 'bb'}
 
 
 class Strategy(Mapping):
     def __init__(self, strategy: str):
         self._config = ConfigParser(default_section='strategy', interpolation=None)
-        self._config['strategy'] = dict(name='', inaction='', outaction='', comment='')
         self._config.read_string(strategy)
-        strategy_section = self._config['strategy']
-        self.name = strategy_section.get('name', '')
-        self.inaction = strategy_section.get('inaction', '')
-        self.outaction = strategy_section.get('outaction', '')
-        self.comment = strategy_section.get('comment', '')
 
         self._situations = odict()
         for name in self._config.sections():
-            values = dict(self._config[name].items())
-            # values.setdefault('inaction', self.inaction)
-            # values.setdefault('outaction', self.outaction)
-            # values.setdefault('comment', self.comment)
-            for pos in Position:
-                pos = pos.value[0]
-                pos_low = pos.lower()
-                if values.get(pos_low):
-                    values[pos] = Range(values[pos_low])
-                    del values[pos_low]
+            # configparser set non-specified values to '', we want default to None
+            values = dict.fromkeys(_Strategy._fields, None)
+            for key, val in self._config[name].items():
+                # filter out fields not implemented, otherwise it would
+                # cause TypeError for _Strategy constructor
+                if (not val) or (key not in _Strategy._fields):
+                    continue
+                elif key in _POSITIONS:
+                    values[key] = Range(val)
                 else:
-                    values[pos] = None
-            del values['name']
+                    values[key] = val
             self._situations[name] = _Strategy(**values)
+
         self._tuple = tuple(self._situations.values())
+
+    def __getattr__(self, name):
+        # Strategy uses only _Strategy._fields, but this way .strategy files are more flexible,
+        # because can contain extra values without breaking anything
+        return self._config['strategy'][name]
 
     def __iter__(self):
         return iter(self._situations)
@@ -75,6 +74,6 @@ class Strategy(Mapping):
     def get_first(self, situation=0):
         situation = self[situation]
         for posindex, position in enumerate(Position):
-            range = getattr(situation, position.value[0])
+            range = getattr(situation, position.name.lower())
             if range:
                 return _Situation(position, range, posindex)

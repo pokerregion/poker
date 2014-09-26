@@ -2,6 +2,7 @@
 name = Preflop PUSH
 inaction = PUSH
 outaction = FOLD
+name2 =
 
 [10 BB]
 UTG = JJ+ ATs+ AQo+ KQs QTs+ JTs
