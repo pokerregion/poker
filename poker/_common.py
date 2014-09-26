@@ -5,7 +5,6 @@ import random
 from functools import total_ordering
 from collections.abc import Iterable
 from enum import Enum, EnumMeta
-from types import DynamicClassAttribute
 
 
 class _PokerEnumMeta(EnumMeta):
@@ -61,8 +60,9 @@ class PokerEnum(Enum):
         apostrophe = "'" if isinstance(self._value_[0], str) else ''
         return "{0}({1}{2}{1})".format(self.__class__.__qualname__, apostrophe, self)
 
-    @DynamicClassAttribute
+    @property
     def val(self):
+        """The first value of the Enum member."""
         return self._value_[0]
 
 
