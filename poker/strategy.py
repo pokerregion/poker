@@ -1,3 +1,4 @@
+from pathlib import Path
 from configparser import ConfigParser
 from collections import namedtuple, OrderedDict as odict
 from collections.abc import Mapping, Iterable
@@ -68,7 +69,8 @@ class Strategy(Mapping):
 
     @classmethod
     def from_file(cls, filename):
-        strategy = open(filename).read()
+        # Path accept str or Path
+        strategy = Path(filename).open().read()
         return cls(strategy)
 
     def get_first_spot(self, situation=0):
