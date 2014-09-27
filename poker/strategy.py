@@ -5,9 +5,9 @@ from .hand import Range
 from .constants import Position
 
 
-_Strategy = namedtuple('_Strategy', 'utg utg1 utg2 utg3 utg4 co btn sb bb '
+_Situation = namedtuple('_Situation', 'utg utg1 utg2 utg3 utg4 co btn sb bb '
                        'inaction outaction comment')
-_Situation = namedtuple('_Situation', 'position range posindex')
+_Spot = namedtuple('_Spot', 'position range posindex')
 _POSITIONS = {'utg', 'utg1', 'utg2', 'utg3', 'utg4', 'co', 'btn', 'sb', 'bb'}
 
 
@@ -19,22 +19,22 @@ class Strategy(Mapping):
         self._situations = odict()
         for name in self._config.sections():
             # configparser set non-specified values to '', we want default to None
-            values = dict.fromkeys(_Strategy._fields, None)
+            values = dict.fromkeys(_Situation._fields, None)
             for key, val in self._config[name].items():
                 # filter out fields not implemented, otherwise it would
-                # cause TypeError for _Strategy constructor
-                if (not val) or (key not in _Strategy._fields):
+                # cause TypeError for _Situation constructor
+                if (not val) or (key not in _Situation._fields):
                     continue
                 elif key in _POSITIONS:
                     values[key] = Range(val)
                 else:
                     values[key] = val
-            self._situations[name] = _Strategy(**values)
+            self._situations[name] = _Situation(**values)
 
         self._tuple = tuple(self._situations.values())
 
     def __getattr__(self, name):
-        # Strategy uses only _Strategy._fields, but this way .strategy files are more flexible,
+        # Strategy uses only _Situation._fields, but this way .strategy files are more flexible,
         # because can contain extra values without breaking anything
         return self._config['strategy'][name]
 
@@ -71,9 +71,9 @@ class Strategy(Mapping):
         strategy = open(filename).read()
         return cls(strategy)
 
-    def get_first(self, situation=0):
+    def get_first_spot(self, situation=0):
         situation = self[situation]
         for posindex, position in enumerate(Position):
             range = getattr(situation, position.name.lower())
             if range:
-                return _Situation(position, range, posindex)
+                return _Spot(position, range, posindex)

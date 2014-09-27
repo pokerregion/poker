@@ -1,15 +1,15 @@
 from pathlib import Path
 from poker import Strategy, Range
 from poker.constants import Position
-from poker.strategy import _Strategy
+from poker.strategy import _Situation
 import pytest
 
 
 filedir = Path(__file__).parent
-strategy = Strategy.from_file(str(filedir / 'push.strategy'))
+strategy = Strategy.from_file(filedir / 'push.strategy')
 
 
-tenBB = _Strategy(
+tenBB = _Situation(
     utg=Range('JJ+ ATs+ AQo+ KQs QTs+ JTs'), utg1=Range('77+ ATs+ AQo+ KQs QTs+ JTs'),
     utg2=Range('66+ ATs+ AQo+ KQs QTs+ JTs'), utg3=Range('55+ ATs+ AQo+ KQs QTs+ JTs'),
     utg4=Range('44+ ATs+ AQo+ KQs QTs+ JTs'), co=Range('33+ ATs+ AQo+ KQs QTs+ JTs'),
@@ -17,23 +17,23 @@ tenBB = _Strategy(
     outaction='FOLD', comment=None
 )
 
-twelveBB = _Strategy(
+twelveBB = _Situation(
     utg=Range('JJ+ AQs+ AKo'), utg1=Range('JJ+ AQs+ AKo'), utg2=Range('JJ+ AQs+ AKo'),
     utg3=Range('JJ+ AQs+ AKo'), utg4=Range('JJ+ AQs+ AKo'), co=Range('JJ+ AQs+ AKo'),
-    btn=Range('JJ+ AQs+ AKo'), sb=Range('55- A2+'), bb=None, inaction='PUSH', outaction='FOLD',
-    comment=None
+    btn=Range('JJ+ AQs+ AKo'), sb=Range('55- A2+'), bb=None, inaction='PUSH',
+    outaction='FOLD', comment=None
 )
 
-elevenBB = _Strategy(
+elevenBB = _Situation(
     utg=Range('77+ A5s+ AKo KJs+ QJs'), utg1=Range('66+ A5s+ AKo KJs+ QJs'),
     utg2=Range('55+ A5s+ AKo KJs+ QJs'), utg3=Range('44+ A5s+ AKo KJs+ QJs'),
     utg4=Range('33+ A5s+ AKo KJs+ QJs'), co=Range('22+ A3s+ AKo KJs+ QJs'),
-    btn=Range('22+ A2s+ AKo KJs+ QJs'), sb=Range('XX'), bb=None, inaction='PUSH', outaction='FOLD',
-    comment=None
+    btn=Range('22+ A2s+ AKo KJs+ QJs'), sb=Range('XX'), bb=None, inaction='PUSH',
+    outaction='FOLD', comment=None
 )
 
 
-def test_section_names():
+def test_situation_names():
     assert list(strategy) == ['10 BB', '11 BB', '12 BB']
     assert tuple(strategy) == ('10 BB', '11 BB', '12 BB')
 
@@ -48,7 +48,7 @@ def test_non_existing_key_raises_KeyError_as_expected():
         strategy.name3 == None
 
 
-def test_section_values():
+def test_situation_values():
     assert strategy['10 BB'] == tenBB
     assert strategy['11 BB'] == elevenBB
     assert strategy['12 BB'] == twelveBB
@@ -58,11 +58,11 @@ def test_iterable():
     assert [(name, strat) for name, strat in strategy.items()]
 
 
-def test_subscriptable_by_strategy_name():
+def test_subscriptable_by_Situation_name():
     assert strategy['10 BB'] == tenBB
 
 
-def test_subscriptable_by_section_position_int():
+def test_subscriptable_by_situation_position_int():
     assert strategy[0] == tenBB
     assert strategy[1] == elevenBB
     assert strategy[2] == twelveBB
@@ -82,5 +82,5 @@ def test_values():
     assert tuple(strategy.values()) == (tenBB, elevenBB, twelveBB)
 
 
-def test_first_position():
-    assert strategy.get_first().position == Position.UTG
+def test_get_first_position():
+    assert strategy.get_first_spot().position == Position.UTG
