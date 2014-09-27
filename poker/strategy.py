@@ -16,7 +16,7 @@ _POSITIONS = {'utg', 'utg1', 'utg2', 'utg3', 'utg4', 'co', 'btn', 'sb', 'bb'}
 
 
 class Strategy(Mapping):
-    def __init__(self, strategy: str):
+    def __init__(self, strategy):
         self._config = ConfigParser(default_section='strategy', interpolation=None)
         self._config.read_string(strategy)
 

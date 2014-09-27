@@ -15,7 +15,7 @@ __all__ = ['FullTiltPokerHandHistory']
 
 
 class _Flop(_BaseFlop):
-    def __init__(self, flop: list, initial_pot):
+    def __init__(self, flop, initial_pot):
         self._initial_pot = self.pot = initial_pot
         self.actions = None
         self.cards = None

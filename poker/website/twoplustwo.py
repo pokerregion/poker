@@ -81,7 +81,7 @@ class ForumMember(object):
         return '<{}: {}>'.format(self.__class__.__qualname__, self.username)
 
     @classmethod
-    def from_userid(cls, id: str):
+    def from_userid(cls, id):
         self = super(ForumMember, cls).__new__(cls)
         self.id = id
         self._download_and_parse()

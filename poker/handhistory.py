@@ -23,7 +23,7 @@ class _BaseFlop(object):
     __metaclass__ = ABCMeta
 
     @abstractmethod
-    def __init__(self, flop: list, initial_pot):
+    def __init__(self, flop, initial_pot):
         pass
 
     @cached_property

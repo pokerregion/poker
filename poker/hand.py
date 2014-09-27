@@ -192,7 +192,7 @@ class Hand(_ReprMixin):
         return Shape(self._shape)
 
     @shape.setter
-    def shape(self, value: str or Shape):
+    def shape(self, value):
         self._shape = Shape(value).val
 
 
@@ -322,7 +322,7 @@ class Combo(_ReprMixin):
             return Shape.OFFSUIT
 
     @shape.setter
-    def shape(self, value: str or Shape):
+    def shape(self, value):
         self._shape = Shape(value).val
 
 
@@ -788,13 +788,13 @@ class Range(object):
         else:
             return '{}-{}'.format(first, last)
 
-    def _add_pair(self, rank: str):
+    def _add_pair(self, rank):
         self._hands.add(Hand(rank * 2))
 
-    def _add_offsuit(self, tok: tuple):
+    def _add_offsuit(self, tok):
         self._hands.add(Hand(tok[0] + tok[1] + 'o'))
 
-    def _add_suited(self, tok: tuple):
+    def _add_suited(self, tok):
         self._hands.add(Hand(tok[0] + tok[1] + 's'))
 
     @cached_property

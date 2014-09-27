@@ -18,7 +18,7 @@ __all__ = ['PokerStarsHandHistory', 'Notes']
 
 
 class _Flop(_BaseFlop):
-    def __init__(self, flop: list, initial_pot):
+    def __init__(self, flop, initial_pot):
         self._initial_pot = self.pot = initial_pot
         self.actions = None
         self.cards = None
@@ -247,7 +247,7 @@ class Notes(object):
 
     _color_re = re.compile('^[0-9A-F]{6}$')
 
-    def __init__(self, notes: str):
+    def __init__(self, notes):
         self.raw = notes
         parser = etree.XMLParser(recover=True, resolve_entities=False)
         self.root = etree.XML(notes.encode(), parser)
