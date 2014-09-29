@@ -220,10 +220,9 @@ class Combo(_ReprMixin):
             return combo
 
         if len(combo) != 4:
-            raise ValueError('{!r}, should have a length of 4'.format(combo))
+            raise ValueError('%r, should have a length of 4' % combo)
         elif (combo[0] == combo[2] and combo[1] == combo[3]):
-            raise ValueError("{!r}, Pair can't have the same suit: {!r}"
-                             .format(combo, combo[1]))
+            raise ValueError("{!r}, Pair can't have the same suit: {!r}".format(combo, combo[1]))
 
         self = super(Combo, cls).__new__(cls)
         self._set_cards_in_order(combo[:2], combo[2:])
@@ -394,7 +393,7 @@ class _RegexRangeLexer(object):
                     yield token, val_method(part)
                     break
             else:
-                raise ValueError('Invalid token: {}'.format(part))
+                raise ValueError('Invalid token: %s' % part)
 
     @staticmethod
     def _get_value(token):
@@ -427,7 +426,7 @@ class _RegexRangeLexer(object):
         smaller2, bigger2 = cls._get_rank_in_order(token[second_part], 0, 1)
 
         if bigger1 != bigger2:
-            raise ValueError('Invalid token: {}'.format(token))
+            raise ValueError('Invalid token: %s' % token)
 
         smaller, bigger = min(smaller1, smaller2), max(smaller1, smaller2)
 
@@ -594,7 +593,7 @@ class Range(object):
         """Creates an instance from a given file, containing a range.
         It can handle the PokerCruncher (.rng extension) format.
         """
-        range_string = open(filename).read()
+        range_string = Path(filename).open().read()
         return cls(range_string)
 
     @classmethod
@@ -712,7 +711,7 @@ class Range(object):
                 hand = unicode(hand) if hand in self.hands else ''
                 table += border + hand.ljust(4)
 
-            if row.value != '2':
+            if row.val != '2':
                 table += border + '\n' + line
 
         table += border + lastline
@@ -803,9 +802,9 @@ class Range(object):
             return unicode(first)
         elif (first.is_pair and first.first.val == 'A' or
                     Rank.difference(first.first, first.second) == 1):
-            return '{}+'.format(last)
+            return '%s+' % last
         elif last.second.val == '2':
-            return '{}-'.format(first)
+            return '%s-' % first
         else:
             return '{}-{}'.format(first, last)
 

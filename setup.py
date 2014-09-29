@@ -12,7 +12,7 @@ install_requires = [
     'parsedatetime',
     'cached-property',
     'click',
-    'enum34',
+    'enum34',   # backported versions from Python3
     'pathlib',
     'configparser',
 ]

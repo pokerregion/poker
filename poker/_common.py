@@ -33,13 +33,15 @@ class _PokerEnumMeta(EnumMeta):
 
 
 @total_ordering
-class OrderableMixin(object):
+class _OrderableMixin(object):
+    # I couldn't inline this to PokerEnum because Enum do some magic which don't like it.
+
     # From Python manual:
     # If a class that overrides __eq__() needs to retain
     # the implementation of __hash__() from a parent class,
     # the interpreter must be told this explicitly
     def __hash__(self):
-        return super(OrderableMixin, self).__hash__()
+        return super(_OrderableMixin, self).__hash__()
 
     def __eq__(self, other):
         if self.__class__ is other.__class__:
@@ -56,7 +58,7 @@ class OrderableMixin(object):
         return self.__class__.__name__
 
 
-class PokerEnum(OrderableMixin, Enum):
+class PokerEnum(_OrderableMixin, Enum):
     __metaclass__ = _PokerEnumMeta
 
     def __unicode__(self):

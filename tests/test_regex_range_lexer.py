@@ -6,8 +6,6 @@ from poker.hand import _RegexRangeLexer
 import pytest
 
 
-# pytestmark = pytest.mark.xfail
-
 def test_all():
     lexer = _RegexRangeLexer('XX')
     assert list(lexer) == [('ALL', 'XX')]
