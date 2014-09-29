@@ -10,6 +10,8 @@ __all__ = ['Suit', 'Rank', 'Card', 'FACE_RANKS', 'BROADWAY_RANKS']
 
 
 class Suit(PokerEnum):
+    __order__ = 'CLUBS DIAMONDS HEARTS SPADES'
+
     CLUBS =    '♣', 'c', 'clubs'
     DIAMONDS = '♦', 'd', 'diamonds'
     HEARTS =   '♥', 'h', 'hearts'
@@ -20,6 +22,8 @@ class Suit(PokerEnum):
 
 
 class Rank(PokerEnum):
+    __order__ = 'DEUCE THREE FOUR FIVE SIX SEVEN EIGHT NINE TEN JACK QUEEN KING ACE'
+
     DEUCE = '2', 2
     THREE = '3', 3
     FOUR =  '4', 4

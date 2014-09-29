@@ -76,6 +76,7 @@ class Action(PokerEnum):
 
 
 class Position(PokerEnum):
+    __order__ = 'UTG UTG1 UTG2 UTG3 UTG4 CO BTN SB BB'
     UTG = 'UTG', 'under the gun'
     UTG1 = 'UTG1', 'utg+1', 'utg + 1'
     UTG2 = 'UTG2', 'utg+2', 'utg + 2'
