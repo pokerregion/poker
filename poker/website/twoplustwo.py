@@ -2,11 +2,12 @@
 from __future__ import unicode_literals, absolute_import, division, print_function
 
 import re
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timedelta
 from collections import namedtuple
 from lxml import etree
 import requests
 import parsedatetime
+from dateutil.tz import tzoffset
 from pytz import UTC
 from .._common import _make_float, _make_int
 
@@ -100,7 +101,7 @@ class ForumMember(object):
 
     def _download_page(self):
         stats_page = requests.get(self.profile_url)
-        self.download_date = datetime.now(timezone.utc)
+        self.download_date = datetime.now(UTC)
         return etree.HTML(stats_page.text)
 
     def _parse_attributes(self, root):
@@ -118,7 +119,7 @@ class ForumMember(object):
         """Find timezone informatation on bottom of the page."""
         tz_str = root.xpath('//div[@class="smallfont" and @align="center"]')[0].text
         hours = int(self._tz_re.search(tz_str).group(1))
-        return timezone(timedelta(hours=hours))
+        return tzoffset(tz_str, hours * 60)
 
     def _parse_last_activity(self, root, tz):
         try:
