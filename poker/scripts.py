@@ -3,7 +3,7 @@ from __future__ import unicode_literals, absolute_import, division, print_functi
 
 import sys
 from pathlib import Path
-from collections.abc import Sequence
+from collections import Sequence
 from contextlib import contextmanager
 from datetime import datetime, date
 from dateutil.tz import tzlocal
@@ -36,7 +36,7 @@ def _print_values(info):
             valueformat = "{:%Y-%m-%d (%A) %H:%M (%Z)}"
         elif isinstance(value, date):
             valueformat = "{:%Y-%m-%d}"
-        elif isinstance(value, Sequence) and not isinstance(value, str):
+        elif isinstance(value, Sequence) and not isinstance(value, unicode):
             value = ', '.join(value)
         click.echo(('{:<20}' + valueformat).format(what + ': ', value))
 
@@ -72,7 +72,7 @@ def twoplustwo(username):
     try:
         member = ForumMember(username)
     except UserNotFoundError:
-        raise click.ClickException('User "{}" not found!'.format(username))
+        raise click.ClickException('User "%s" not found!' % username)
     except AmbiguousUserNameError as e:
         click.echo('Got multiple users with similar names!', err=True)
 
@@ -117,16 +117,17 @@ def p5players(num):
 
     format_str = '{:>4.4}   {!s:<15.13}{!s:<18.15}{!s:<9.6}{!s:<10.7}'\
                  '{!s:<14.11}{!s:<12.9}{!s:<12.9}{!s:<12.9}{!s:<4.4}'
+
     click.echo(format_str.format(
         'Rank' , 'Player name', 'Country', 'Triple', 'Monthly', 'Biggest cash',
         'PLB score', 'Biggest s', 'Average s', 'Prev'
     ))
     # just generate the appropriate number of underlines and cut them with format_str
-    underlines = tuple('-' * 20 for __ in range(10))
+    underlines = ['-' * 20] * 10
     click.echo(format_str.format(*underlines))
 
     for ind, player in enumerate(get_ranked_players()):
-        click.echo(format_str.format(str(ind + 1) + '.', *player))
+        click.echo(format_str.format(unicode(ind + 1) + '.', *player))
         if ind == num - 1:
             break
 

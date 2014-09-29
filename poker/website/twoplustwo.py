@@ -56,7 +56,8 @@ def search_userid(username):
         raise exc
 
     userid = root[0].attrib['userid']
-    return userid
+    # userid is str on Python2, we need to decode to make it unicode
+    return userid.decode('utf-8')
 
 
 class ForumMember(object):
@@ -64,14 +65,14 @@ class ForumMember(object):
 
     _tz_re = re.compile('GMT (.*?)\.')
     _attributes = (
-        ('username', '//td[@id="username_box"]/h1/text()', str),
-        ('rank', '//td[@id="username_box"]/h2/text()', str),
-        ('profile_picture', '//td[@id="profilepic_cell"]/img/@src', str),
-        ('location', '//div[@id="collapseobj_aboutme"]/div/ul/li/dl/dd[1]/text()', str),
+        ('username', '//td[@id="username_box"]/h1/text()', unicode),
+        ('rank', '//td[@id="username_box"]/h2/text()', unicode),
+        ('profile_picture', '//td[@id="profilepic_cell"]/img/@src', unicode),
+        ('location', '//div[@id="collapseobj_aboutme"]/div/ul/li/dl/dd[1]/text()', unicode),
         ('total_posts', '//div[@id="collapseobj_stats"]/div/fieldset[1]/ul/li[1]/text()', _make_int),
         ('posts_per_day', '//div[@id="collapseobj_stats"]/div/fieldset[1]/ul/li[2]/text()', float),
         ('public_usergroups', '//ul[@id="public_usergroup_list"]/li/text()', tuple),
-        ('avatar', '//img[@id="user_avatar"]/@src', str),
+        ('avatar', '//img[@id="user_avatar"]/@src', unicode),
     )
 
     def __init__(self, username):
@@ -79,7 +80,7 @@ class ForumMember(object):
         self._download_and_parse()
 
     def __repr__(self):
-        return '<{}: {}>'.format(self.__class__.__qualname__, self.username)
+        return '<{}: {}>'.format(self.__class__.__name__, self.username).encode('utf-8')
 
     @classmethod
     def from_userid(cls, id):
