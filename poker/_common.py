@@ -58,10 +58,6 @@ class PokerEnum(Enum, metaclass=_PokerEnumMeta):
         return "{0}({1}{2}{1})".format(self.__class__.__qualname__, apostrophe, self)
 
     @DynamicClassAttribute
-    def value(self):
-        return self._value_[0]
-
-    @DynamicClassAttribute
     def val(self):
         return self._value_[0]
 
