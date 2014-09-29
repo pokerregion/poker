@@ -1,3 +1,4 @@
+import pickle
 from pytest import raises
 from poker import Hand, Combo, Rank
 
@@ -185,3 +186,7 @@ def test_offsuit_hand_to_combos():
 
 def test_suited_hand_to_combos():
     assert Hand('76s').to_combos() == (Combo('7c6c'), Combo('7d6d'), Combo('7h6h'), Combo('7s6s'))
+
+
+def test_pickable():
+    assert pickle.loads(pickle.dumps(Hand('Ako'))) == Hand('AKo')

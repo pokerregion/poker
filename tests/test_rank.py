@@ -1,3 +1,4 @@
+import pickle
 from pytest import raises
 from poker.card import Rank
 
@@ -90,3 +91,8 @@ def test_rank_difference():
     assert Rank.difference('A', '2') == 12
     assert Rank.difference('K', 'K') == 0
     assert Rank.difference('K', 'Q') == 1
+
+
+def test_pickable():
+    assert pickle.loads(pickle.dumps(Rank('2'))) is Rank('2')
+    assert pickle.loads(pickle.dumps(Rank('2'))) == Rank('2')

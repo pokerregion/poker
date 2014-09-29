@@ -1,3 +1,4 @@
+import pickle
 from pytest import raises, mark
 from poker.card import Suit, Card
 from poker.hand import Hand, Combo, Range, PAIR_HANDS
@@ -444,3 +445,7 @@ class TestContains:
     def test_wrong_str_in_range_raises_ValueError(self):
         with raises(ValueError):
             assert 'AKl' in Range('AQo+')
+
+
+def test_pickable():
+    assert pickle.loads(pickle.dumps(Range('Ako 22+'))) == Range('AKo 22+')

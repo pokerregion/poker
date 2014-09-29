@@ -5,7 +5,7 @@ import functools
 from decimal import Decimal
 from functools import total_ordering
 from cached_property import cached_property
-from ._common import _MultiValueEnum, _ReprMixin
+from ._common import PokerEnum, _ReprMixin
 from .card import Suit, Rank, Card, BROADWAY_RANKS
 
 
@@ -19,9 +19,9 @@ _OFFSUIT_SUIT_COMBINATIONS = ('cd', 'ch', 'cs', 'dc', 'dh', 'ds',
 _SUITED_SUIT_COMBINATIONS = ('cc', 'dd', 'hh', 'ss')
 
 
-class Shape(_MultiValueEnum):
-    OFFSUIT = 'o', 'O', 'offsuit', 'off'
-    SUITED =  's', 'S', 'suited'
+class Shape(PokerEnum):
+    OFFSUIT = 'o', 'offsuit', 'off'
+    SUITED =  's', 'suited'
     PAIR =  '',
 
 
@@ -36,12 +36,12 @@ class _HandMeta(type):
     def _get_non_pairs(cls):
         for rank1 in Rank:
             for rank2 in (r for r in Rank if r < rank1):
-                yield cls(rank1.value + rank2.value + 'o')
-                yield cls(rank1.value + rank2.value + 's')
+                yield cls(rank1.val + rank2.val + 'o')
+                yield cls(rank1.val + rank2.val + 's')
 
     def _get_pairs(cls):
         for rank in Rank:
-            yield cls(rank.value * 2)
+            yield cls(rank.val * 2)
 
     def __iter__(cls):
         return iter(cls._all_hands)
@@ -98,6 +98,9 @@ class Hand(_ReprMixin, metaclass=_HandMeta):
     def __hash__(self):
         return hash(self.first) + hash(self.second) + hash(self.shape)
 
+    def __getnewargs__(self):
+        return str(self),
+
     def __eq__(self, other):
         if self.__class__ is not other.__class__:
             return NotImplemented
@@ -105,7 +108,7 @@ class Hand(_ReprMixin, metaclass=_HandMeta):
         # AKs != AKo, because AKs is better
         return (self.first == other.first and
                 self.second == other.second and
-                self.shape.value == other.shape.value)
+                self.shape.val == other.shape.val)
 
     def __lt__(self, other):
         if self.__class__ is not other.__class__:
@@ -134,7 +137,7 @@ class Hand(_ReprMixin, metaclass=_HandMeta):
             self.first, self.second = self.second, self.first
 
     def to_combos(self):
-        first, second = self.first.value, self.second.value
+        first, second = self.first.val, self.second.val
         if self.is_pair:
             return tuple(Combo(first + s1 + first + s2) for s1, s2 in _PAIR_SUIT_COMBINATIONS)
         elif self.is_offsuit:
@@ -187,7 +190,7 @@ class Hand(_ReprMixin, metaclass=_HandMeta):
 
     @shape.setter
     def shape(self, value: str or Shape):
-        self._shape = Shape(value).value
+        self._shape = Shape(value).val
 
 
 PAIR_HANDS = tuple(hand for hand in Hand if hand.is_pair)
@@ -223,8 +226,8 @@ class Combo(_ReprMixin):
     @classmethod
     def from_cards(cls, first, second):
         self = super().__new__(cls)
-        first = first.rank.value + first.suit.value
-        second = second.rank.value + second.suit.value
+        first = first.rank.val + first.suit.val
+        second = second.rank.val + second.suit.val
         self._set_cards_in_order(first, second)
         return self
 
@@ -233,6 +236,9 @@ class Combo(_ReprMixin):
 
     def __hash__(self):
         return hash(self.first) + hash(self.second)
+
+    def __getnewargs__(self):
+        return str(self),
 
     def __eq__(self, other):
         if self.__class__ is other.__class__:
@@ -314,7 +320,7 @@ class Combo(_ReprMixin):
 
     @shape.setter
     def shape(self, value: str or Shape):
-        self._shape = Shape(value).value
+        self._shape = Shape(value).val
 
 
 class _RegexRangeLexer:
@@ -396,7 +402,7 @@ class _RegexRangeLexer:
     @classmethod
     def _get_in_order(cls, first_part, second_part, token):
         smaller, bigger = cls._get_rank_in_order(token, first_part, second_part)
-        return smaller.value, bigger.value
+        return smaller.val, bigger.val
 
     _get_first_two = functools.partialmethod(_get_in_order, 0, 1)
     _get_for_pair_dash = functools.partialmethod(_get_in_order, 0, 3)
@@ -412,7 +418,7 @@ class _RegexRangeLexer:
 
         smaller, bigger = min(smaller1, smaller2), max(smaller1, smaller2)
 
-        return bigger1.value, smaller.value, bigger.value
+        return bigger1.val, smaller.val, bigger.val
 
     @staticmethod
     def _get_rank_in_order(token, first_part, second_part):
@@ -454,17 +460,17 @@ class Range:
 
             elif token == 'PAIR_PLUS':
                 smallest = Rank(value)
-                for rank in (rank.value for rank in Rank if rank >= smallest):
+                for rank in (rank.val for rank in Rank if rank >= smallest):
                     self._add_pair(rank)
 
             elif token == 'PAIR_MINUS':
                 biggest = Rank(value)
-                for rank in (rank.value for rank in Rank if rank <= biggest):
+                for rank in (rank.val for rank in Rank if rank <= biggest):
                     self._add_pair(rank)
 
             elif token == 'PAIR_DASH':
                 first, second = Rank(value[0]), Rank(value[1])
-                ranks = (rank.value for rank in Rank if first <= rank <= second)
+                ranks = (rank.val for rank in Rank if first <= rank <= second)
                 for rank in ranks:
                     self._add_pair(rank)
 
@@ -473,7 +479,7 @@ class Range:
                 self._add_suited(value[0] + value[1])
 
             elif token == 'X_BOTH':
-                for rank in (r.value for r in Rank if r < Rank(value)):
+                for rank in (r.val for r in Rank if r < Rank(value)):
                     self._add_suited(value + rank)
                     self._add_offsuit(value + rank)
 
@@ -485,23 +491,23 @@ class Range:
 
             elif token == 'X_OFFSUIT':
                 biggest = Rank(value)
-                for rank in (rank.value for rank in Rank if rank < biggest):
+                for rank in (rank.val for rank in Rank if rank < biggest):
                     self._add_offsuit(value + rank)
 
             elif token == 'X_SUITED':
                 biggest = Rank(value)
-                for rank in (rank.value for rank in Rank if rank < biggest):
+                for rank in (rank.val for rank in Rank if rank < biggest):
                     self._add_suited(value + rank)
 
             elif token == 'BOTH_PLUS':
                 smaller, bigger = Rank(value[0]), Rank(value[1])
-                for rank in (rank.value for rank in Rank if smaller <= rank < bigger):
+                for rank in (rank.val for rank in Rank if smaller <= rank < bigger):
                     self._add_suited(value[1] + rank)
                     self._add_offsuit(value[1] + rank)
 
             elif token == 'BOTH_MINUS':
                 smaller, bigger = Rank(value[0]), Rank(value[1])
-                for rank in (rank.value for rank in Rank if rank <= smaller):
+                for rank in (rank.val for rank in Rank if rank <= smaller):
                     self._add_suited(value[1] + rank)
                     self._add_offsuit(value[1] + rank)
 
@@ -513,9 +519,9 @@ class Range:
                     second_ranks = (rank for rank in Rank if rank < rank1)
                     for rank2 in second_ranks:
                         if token != 'X_OFFSUIT_PLUS':
-                            self._add_suited(rank1.value + rank2.value)
+                            self._add_suited(rank1.val + rank2.val)
                         if token != 'X_SUITED_PLUS':
-                            self._add_offsuit(rank1.value + rank2.value)
+                            self._add_offsuit(rank1.val + rank2.val)
 
             elif token in ('X_MINUS', 'X_SUITED_MINUS', 'X_OFFSUIT_MINUS'):
                 biggest = Rank(value)
@@ -525,47 +531,47 @@ class Range:
                     second_ranks = (rank for rank in Rank if rank < rank1)
                     for rank2 in second_ranks:
                         if token != 'X_OFFSUIT_MINUS':
-                            self._add_suited(rank1.value + rank2.value)
+                            self._add_suited(rank1.val + rank2.val)
                         if token != 'X_SUITED_MINUS':
-                            self._add_offsuit(rank1.value + rank2.value)
+                            self._add_offsuit(rank1.val + rank2.val)
 
             elif token == 'COMBO':
                 self._combos.add(Combo(value))
 
             elif token == 'OFFSUIT_PLUS':
                 smaller, bigger = Rank(value[0]), Rank(value[1])
-                for rank in (rank.value for rank in Rank if smaller <= rank < bigger):
+                for rank in (rank.val for rank in Rank if smaller <= rank < bigger):
                     self._add_offsuit(value[1] + rank)
 
             elif token == 'OFFSUIT_MINUS':
                 smaller, bigger = Rank(value[0]), Rank(value[1])
-                for rank in (rank.value for rank in Rank if rank <= smaller):
+                for rank in (rank.val for rank in Rank if rank <= smaller):
                     self._add_offsuit(value[1] + rank)
 
             elif token == 'SUITED_PLUS':
                 smaller, bigger = Rank(value[0]), Rank(value[1])
-                for rank in (rank.value for rank in Rank if smaller <= rank < bigger):
+                for rank in (rank.val for rank in Rank if smaller <= rank < bigger):
                     self._add_suited(value[1] + rank)
 
             elif token == 'SUITED_MINUS':
                 smaller, bigger = Rank(value[0]), Rank(value[1])
-                for rank in (rank.value for rank in Rank if rank <= smaller):
+                for rank in (rank.val for rank in Rank if rank <= smaller):
                     self._add_suited(value[1] + rank)
 
             elif token == 'BOTH_DASH':
                 smaller, bigger = Rank(value[1]), Rank(value[2])
-                for rank in (rank.value for rank in Rank if smaller <= rank <= bigger):
+                for rank in (rank.val for rank in Rank if smaller <= rank <= bigger):
                     self._add_offsuit(value[0] + rank)
                     self._add_suited(value[0] + rank)
 
             elif token == 'OFFSUIT_DASH':
                 smaller, bigger = Rank(value[1]), Rank(value[2])
-                for rank in (rank.value for rank in Rank if smaller <= rank <= bigger):
+                for rank in (rank.val for rank in Rank if smaller <= rank <= bigger):
                     self._add_offsuit(value[0] + rank)
 
             elif token == 'SUITED_DASH':
                 smaller, bigger = Rank(value[1]), Rank(value[2])
-                for rank in (rank.value for rank in Rank if smaller <= rank <= bigger):
+                for rank in (rank.val for rank in Rank if smaller <= rank <= bigger):
                     self._add_suited(value[0] + rank)
 
     @classmethod
@@ -644,7 +650,7 @@ class Range:
                     suit = ''
 
                 html += '<td class="{}">'.format(cssclass)
-                hand = Hand(row.value + col.value + suit)
+                hand = Hand(row.val + col.val + suit)
 
                 if hand in self.hands:
                     html += str(hand)
@@ -678,7 +684,7 @@ class Range:
                 else:
                     suit = ''
 
-                hand = Hand(row.value + col.value + suit)
+                hand = Hand(row.val + col.val + suit)
                 hand = str(hand) if hand in self.hands else ''
                 table += border + hand.ljust(4)
 
@@ -771,10 +777,10 @@ class Range:
     def _get_format(self, first, last):
         if first == last:
             return str(first)
-        elif (first.is_pair and first.first.value == 'A' or
+        elif (first.is_pair and first.first.val == 'A' or
                     Rank.difference(first.first, first.second) == 1):
             return '{}+'.format(last)
-        elif last.second.value == '2':
+        elif last.second.val == '2':
             return '{}-'.format(first)
         else:
             return '{}-{}'.format(first, last)

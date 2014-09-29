@@ -1,3 +1,4 @@
+import pickle
 from pytest import raises
 from poker.card import Card, Rank, Suit
 
@@ -140,3 +141,6 @@ def test_hash():
 def test_putting_them_in_set_doesnt_raise_Exception():
     {Card('As'), Card('Kc')}
 
+
+def test_pickable():
+    assert pickle.loads(pickle.dumps(Card('2s'))) == Card('2s')
