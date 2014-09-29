@@ -14,6 +14,7 @@ install_requires = [
     'click',
     'enum34',
     'pathlib',
+    'configparser',
 ]
 
 

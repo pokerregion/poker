@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals, absolute_import, division, print_function
 
+from collections import namedtuple, Mapping, Iterable, OrderedDict as odict
 from pathlib import Path
 from configparser import ConfigParser
-from collections import namedtuple, OrderedDict as odict
-from collections.abc import Mapping, Iterable
 from .hand import Range
 from .constants import Position
 
