@@ -54,7 +54,7 @@ class Strategy(Mapping):
         return self._situations.get(key, default)
 
     def __getitem__(self, key):
-        if isinstance(key, str):
+        if isinstance(key, unicode):
             return self._situations.__getitem__(key)
         elif isinstance(key, int):
             return self._tuple[key]
