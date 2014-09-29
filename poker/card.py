@@ -69,7 +69,7 @@ class _CardMeta(type):
 class Card(_ReprMixin, metaclass=_CardMeta):
     """Represents a Card, which consists a Rank and a Suit."""
 
-    __slots__ = ('_rank', '_suit')
+    __slots__ = ('rank', 'suit')
 
     def __new__(cls, card):
         if isinstance(card, cls):
@@ -85,6 +85,9 @@ class Card(_ReprMixin, metaclass=_CardMeta):
 
     def __hash__(self):
         return hash(self.rank) + hash(self.suit)
+
+    def __getnewargs__(self):
+        return str(self),
 
     def __eq__(self, other):
         if self.__class__ is other.__class__:

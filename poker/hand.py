@@ -98,6 +98,9 @@ class Hand(_ReprMixin, metaclass=_HandMeta):
     def __hash__(self):
         return hash(self.first) + hash(self.second) + hash(self.shape)
 
+    def __getnewargs__(self):
+        return str(self),
+
     def __eq__(self, other):
         if self.__class__ is not other.__class__:
             return NotImplemented
@@ -233,6 +236,9 @@ class Combo(_ReprMixin):
 
     def __hash__(self):
         return hash(self.first) + hash(self.second)
+
+    def __getnewargs__(self):
+        return str(self),
 
     def __eq__(self, other):
         if self.__class__ is other.__class__:
