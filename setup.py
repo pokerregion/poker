@@ -12,6 +12,8 @@ install_requires = [
     'parsedatetime',
     'cached-property',
     'click',
+    'enum34',
+    'pathlib',
 ]
 
 
@@ -24,13 +26,13 @@ entry_points = {
 
 setup(
     name = 'poker',
-    version = '0.21.0',
+    version = '0.22.0',
     description = 'Poker Framework',
     classifiers = [
         "Intended Audience :: Developers",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.4",
+        "Programming Language :: Python :: 2",
+        "Programming Language :: Python :: 2.7",
     ],
     keywords = 'poker',
     author = u'Kiss György',
