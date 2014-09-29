@@ -8,6 +8,7 @@ from collections import namedtuple
 from lxml import etree
 import pytz
 from pytz import UTC
+from pathlib import Path
 from ..handhistory import _Player, _SplittableHandHistory, _BaseFlop
 from ..card import Card
 from ..hand import Combo
@@ -248,18 +249,21 @@ class Notes(object):
     _color_re = re.compile('^[0-9A-F]{6}$')
 
     def __init__(self, notes):
+        # notes need to be a unicode object
         self.raw = notes
         parser = etree.XMLParser(recover=True, resolve_entities=False)
-        self.root = etree.XML(notes.encode(), parser)
+        self.root = etree.XML(notes.encode('utf-8'), parser)
+
+    def __unicode__(self):
+        return str(self).decode('utf-8')
 
     def __str__(self):
-        return etree.tostring(self.root, xml_declaration=True,
-                              encoding='UTF-8', pretty_print=True).decode()
+        return etree.tostring(self.root, xml_declaration=True, encoding='UTF-8', pretty_print=True)
 
     @classmethod
     def from_file(cls, filename):
         """Make an instance from a XML file."""
-        return cls(open(filename).read())
+        return cls(Path(filename).open().read())
 
     @property
     def players(self):
@@ -298,8 +302,7 @@ class Notes(object):
         if update is None:
             update = datetime.utcnow()
         # converted to timestamp, rounded to ones
-        update = int(update.timestamp())
-        update = str(update)
+        update = update.strftime('%s')
         label_id = self._get_label_id(label)
         new_note = etree.Element('note', player=player, label=label_id, update=update)
         new_note.text = text
