@@ -114,9 +114,6 @@ class Card(_ReprMixin):
             return self.suit < other.suit
         return self.rank < other.rank
 
-    def __str__(self):
-        return unicode(self).encode('utf-8')
-
     def __unicode__(self):
         return '{}{}'.format(unicode(self.rank), unicode(self.suit))
 

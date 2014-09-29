@@ -95,8 +95,8 @@ class Hand(_ReprMixin):
 
         return self
 
-    def __str__(self):
-        return '{}{}{}'.format(self.first, self.second, self.shape)
+    def __unicode__(self):
+        return '{}{}{}'.format(unicode(self.first), unicode(self.second), unicode(self.shape))
 
     def __hash__(self):
         return hash(self.first) + hash(self.second) + hash(self.shape)
@@ -234,14 +234,14 @@ class Combo(_ReprMixin):
         self._set_cards_in_order(first, second)
         return self
 
-    def __str__(self):
-        return '{}{}'.format(self.first, self.second)
+    def __unicode__(self):
+        return '{}{}'.format(unicode(self.first), unicode(self.second))
 
     def __hash__(self):
         return hash(self.first) + hash(self.second)
 
     def __getnewargs__(self):
-        return str(self),
+        return unicode(self),
 
     def __eq__(self, other):
         if self.__class__ is other.__class__:
@@ -283,7 +283,9 @@ class Combo(_ReprMixin):
 
     def to_hand(self):
         """Convert combo to :class:`Hand` object, losing suit information."""
-        return Hand('{}{}{}'.format(self.first.rank, self.second.rank, self.shape))
+        return Hand('{}{}{}'.format(unicode(self.first.rank), unicode(self.second.rank),
+                                    unicode(self.shape)
+        ))
 
     @property
     def is_suited_connector(self):
@@ -301,7 +303,7 @@ class Combo(_ReprMixin):
     def is_connector(self):
         # Creates an offsuit Hand or a pair and check if it is a connector.
         shape = '' if self.is_pair else 'o'
-        hand = '{}{}{}'.format(self.first.rank, self.second.rank, shape)
+        hand = '{}{}{}'.format(unicode(self.first.rank), unicode(self.second.rank), shape)
         return Hand(hand).is_connector
 
     @property
@@ -586,7 +588,7 @@ class Range(object):
     @classmethod
     def from_objects(cls, iterable):
         """Make an instance from an iterable of Combos, Hands or both."""
-        range_string = ' '.join(str(obj) for obj in iterable)
+        range_string = ' '.join(unicode(obj) for obj in iterable)
         return cls(range_string)
 
     def __eq__(self, other):
@@ -604,7 +606,7 @@ class Range(object):
             return item in self._combos or item.to_hand() in self._hands
         elif isinstance(item, Hand):
             return item in self._all_hands
-        elif isinstance(item, str):
+        elif isinstance(item, unicode):
             if len(item) == 4:
                 combo = Combo(item)
                 return combo in self._combos or combo.to_hand() in self._hands
@@ -614,12 +616,15 @@ class Range(object):
     def __len__(self):
         return self._count_combos()
 
-    def __str__(self):
+    def __unicode__(self):
         return ', '.join(self.rep_pieces)
+
+    def __str__(self):
+        return unicode(self).encode('utf-8')
 
     def __repr__(self):
         range = ' '.join(self.rep_pieces)
-        return "{}('{}')".format(self.__class__.__qualname__, range)
+        return "{}('{}')".format(self.__class__.__name__, range).encode('utf-8')
 
     def __hash__(self):
         return hash(self.combos)
@@ -654,7 +659,7 @@ class Range(object):
                 hand = Hand(row.val + col.val + suit)
 
                 if hand in self.hands:
-                    html += str(hand)
+                    html += unicode(hand)
 
                 html += '</td>'
 
@@ -686,7 +691,7 @@ class Range(object):
                     suit = ''
 
                 hand = Hand(row.val + col.val + suit)
-                hand = str(hand) if hand in self.hands else ''
+                hand = unicode(hand) if hand in self.hands else ''
                 table += border + hand.ljust(4)
 
             if row.value != '2':
@@ -757,7 +762,7 @@ class Range(object):
         first = last = pieces[0]
         for current in pieces[1:]:
             if isinstance(last, Combo):
-                str_pieces.append(str(last))
+                str_pieces.append(unicode(last))
                 first = last = current
             elif isinstance(current, Combo):
                 str_pieces.append(self._get_format(first, last))
@@ -777,7 +782,7 @@ class Range(object):
 
     def _get_format(self, first, last):
         if first == last:
-            return str(first)
+            return unicode(first)
         elif (first.is_pair and first.first.val == 'A' or
                     Rank.difference(first.first, first.second) == 1):
             return '{}+'.format(last)

@@ -59,14 +59,11 @@ class OrderableMixin(object):
 class PokerEnum(OrderableMixin, Enum):
     __metaclass__ = _PokerEnumMeta
 
-    def __str__(self):
-        val = self._value_[0]
-        if isinstance(val, unicode):
-            return val.encode('utf-8')
-        return str(val)
-
     def __unicode__(self):
         return unicode(self._value_[0])
+
+    def __str__(self):
+        return unicode(self).encode('utf-8')
 
     def __repr__(self):
         val = self._value_[0]
@@ -82,8 +79,11 @@ class PokerEnum(OrderableMixin, Enum):
 
 
 class _ReprMixin(object):
+    def __str__(self):
+        return unicode(self).encode('utf-8')
+
     def __repr__(self):
-        return "{}('{}')".format(self.__class__.__name__, self).encode('utf-8')
+        return "{}('{}')".format(self.__class__.__name__, unicode(self)).encode('utf-8')
 
 
 def _make_float(string):
