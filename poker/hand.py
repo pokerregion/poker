@@ -413,9 +413,13 @@ class _RegexRangeLexer(object):
         smaller, bigger = cls._get_rank_in_order(token, first_part, second_part)
         return smaller.val, bigger.val
 
-    _get_first_two = functools.partialmethod(_get_in_order, 0, 1)
-    _get_for_pair_dash = functools.partialmethod(_get_in_order, 0, 3)
+    @classmethod
+    def _get_first_two(cls, token):
+        return cls._get_in_order(0, 1, token)
 
+    @classmethod
+    def _get_for_pair_dash(cls, token):
+        return cls._get_in_order(0, 3, token)
 
     @classmethod
     def _get_first_smaller_bigger(cls, first_part, second_part, token):
@@ -435,13 +439,15 @@ class _RegexRangeLexer(object):
         smaller, bigger = min(first, second), max(first, second)
         return smaller, bigger
 
+    @classmethod
     # for 'A5-AT'
-    _get_for_both_dash = functools.partialmethod(_get_first_smaller_bigger,
-                                                 slice(0, 2), slice(3, 5))
+    def _get_for_both_dash(cls, token):
+        return cls._get_first_smaller_bigger(slice(0, 2), slice(3, 5), token)
 
+    @classmethod
     # for 'A5o-ATo' and 'A5s-ATs'
-    _get_for_shaped_dash = functools.partialmethod(_get_first_smaller_bigger,
-                                                   slice(0, 2), slice(4, 6))
+    def _get_for_shaped_dash(cls, token):
+        return cls._get_first_smaller_bigger(slice(0, 2), slice(4, 6), token)
 
 
 @total_ordering
