@@ -43,7 +43,7 @@ def search_userid(username):
     try:
         found_name = root[0].text
     except IndexError:
-        raise UserNotFoundError(username) from None
+        raise UserNotFoundError(username)
 
     # The request is basically a search, can return multiple userids
     # for users starting with username. Make sure we got the right one!

@@ -335,7 +335,7 @@ class Notes(object):
         quote = "'" if '"' in player else '"'
         note = self.root.find('note[@player={0}{1}{0}]'.format(quote, player))
         if note is None:
-            raise NoteNotFoundError(player) from None
+            raise NoteNotFoundError(player)
         return note
 
     def _get_note_data(self, note):
@@ -380,7 +380,7 @@ class Notes(object):
         try:
             return labels_tag.xpath('label[text()="%s"]' % name)[0]
         except IndexError:
-            raise LabelNotFoundError(name) from None
+            raise LabelNotFoundError(name)
 
     def _get_label_id(self, name):
         return self._find_label(name).get('id') if name else '-1'
