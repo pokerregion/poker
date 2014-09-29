@@ -337,38 +337,36 @@ class _RegexRangeLexer(object):
     _nonpair2 = r"{0}(?!\2){0}".format(_rank)
 
     rules = (
-        # 1. NAME,
-        # 2. REGEX
-        # 3. value extractor METHOD NAME
+        # NAME, REGEX, value extractor METHOD NAME
         ('ALL', 'XX', '_get_value'),
-        ('PAIR', r"{}\1".format(_rank), '_get_first'),
-        ('PAIR_PLUS', r"{}\1\+".format(_rank), '_get_first'),
-        ('PAIR_MINUS', r"{}\1-".format(_rank), '_get_first'),
-        ('PAIR_DASH', r"{0}\1-{0}\2".format(_rank), '_get_for_pair_dash'),
-        ('BOTH', _nonpair1, '_get_first_two'),
-        ('BOTH_PLUS', r"{}\+".format(_nonpair1), '_get_first_two'),
-        ('BOTH_MINUS', r"{}-".format(_nonpair1), '_get_first_two'),
-        ('BOTH_DASH', r"{}-{}".format(_nonpair1, _nonpair2), '_get_for_both_dash'),
-        ('SUITED', r"{}s".format(_nonpair1), '_get_first_two'),
-        ('SUITED_PLUS', r"{}s\+".format(_nonpair1), '_get_first_two'),
-        ('SUITED_MINUS', r"{}s-".format(_nonpair1), '_get_first_two'),
-        ('SUITED_DASH', r"{}s-{}s".format(_nonpair1, _nonpair2), '_get_for_shaped_dash'),
-        ('OFFSUIT', r"{}o".format(_nonpair1), '_get_first_two'),
-        ('OFFSUIT_PLUS', r"{}o\+".format(_nonpair1), '_get_first_two'),
-        ('OFFSUIT_MINUS', r"{}o-".format(_nonpair1), '_get_first_two'),
-        ('OFFSUIT_DASH', r"{}o-{}o".format(_nonpair1, _nonpair2), '_get_for_shaped_dash'),
-        ('X_SUITED', r"{0}Xs|X{0}s".format(_rank), '_get_rank'),
-        ('X_SUITED_PLUS', r"{0}Xs\+|X{0}s\+".format(_rank), '_get_rank'),
-        ('X_SUITED_MINUS', r"{0}Xs-|X{0}s-".format(_rank), '_get_rank'),
-        ('X_OFFSUIT', r"{0}Xo|X{0}o".format(_rank), '_get_rank'),
-        ('X_OFFSUIT_PLUS', r"{0}Xo\+|X{0}o\+".format(_rank), '_get_rank'),
-        ('X_OFFSUIT_MINUS', r"{0}Xo-|X{0}o-".format(_rank), '_get_rank'),
-        ('X_PLUS', r"{0}X\+|X{0}\+".format(_rank), '_get_rank'),
-        ('X_MINUS', r"{0}X-|X{0}-".format(_rank), '_get_rank'),
-        ('X_BOTH', r"{0}X|X{0}".format(_rank), '_get_rank'),
+        ('PAIR', r"{}\1$".format(_rank), '_get_first'),
+        ('PAIR_PLUS', r"{}\1\+$".format(_rank), '_get_first'),
+        ('PAIR_MINUS', r"{}\1-$".format(_rank), '_get_first'),
+        ('PAIR_DASH', r"{0}\1-{0}\2$".format(_rank), '_get_for_pair_dash'),
+        ('BOTH', _nonpair1 + r"$", '_get_first_two'),
+        ('BOTH_PLUS', r"{}\+$".format(_nonpair1), '_get_first_two'),
+        ('BOTH_MINUS', r"{}-$".format(_nonpair1), '_get_first_two'),
+        ('BOTH_DASH', r"{}-{}$".format(_nonpair1, _nonpair2), '_get_for_both_dash'),
+        ('SUITED', r"{}s$".format(_nonpair1), '_get_first_two'),
+        ('SUITED_PLUS', r"{}s\+$".format(_nonpair1), '_get_first_two'),
+        ('SUITED_MINUS', r"{}s-$".format(_nonpair1), '_get_first_two'),
+        ('SUITED_DASH', r"{}s-{}s$".format(_nonpair1, _nonpair2), '_get_for_shaped_dash'),
+        ('OFFSUIT', r"{}o$".format(_nonpair1), '_get_first_two'),
+        ('OFFSUIT_PLUS', r"{}o\+$".format(_nonpair1), '_get_first_two'),
+        ('OFFSUIT_MINUS', r"{}o-$".format(_nonpair1), '_get_first_two'),
+        ('OFFSUIT_DASH', r"{}o-{}o$".format(_nonpair1, _nonpair2), '_get_for_shaped_dash'),
+        ('X_SUITED', r"{0}Xs$|X{0}s$".format(_rank), '_get_rank'),
+        ('X_SUITED_PLUS', r"{0}Xs\+$|X{0}s\+$".format(_rank), '_get_rank'),
+        ('X_SUITED_MINUS', r"{0}Xs-$|X{0}s-$".format(_rank), '_get_rank'),
+        ('X_OFFSUIT', r"{0}Xo$|X{0}o$".format(_rank), '_get_rank'),
+        ('X_OFFSUIT_PLUS', r"{0}Xo\+$|X{0}o\+$".format(_rank), '_get_rank'),
+        ('X_OFFSUIT_MINUS', r"{0}Xo-$|X{0}o-$".format(_rank), '_get_rank'),
+        ('X_PLUS', r"{0}X\+$|X{0}\+$".format(_rank), '_get_rank'),
+        ('X_MINUS', r"{0}X-$|X{0}-$".format(_rank), '_get_rank'),
+        ('X_BOTH', r"{0}X$|X{0}$".format(_rank), '_get_rank'),
         # might be anything, even pair
         # FIXME: 5s5s accepted
-        ('COMBO', r"{0}{1}{0}{1}".format(_rank, _suit), '_get_value'),
+        ('COMBO', r"{0}{1}{0}{1}$".format(_rank, _suit), '_get_value'),
     )
     # compile regexes when initializing class, so every instance will have them precompiled
     rules = [(name, re.compile(regex, re.IGNORECASE), method) for (name, regex, method) in rules]
@@ -383,7 +381,7 @@ class _RegexRangeLexer(object):
         """
         for part in self.parts:
             for token, regex, method_name in self.rules:
-                if regex.fullmatch(part):
+                if regex.match(part):
                     val_method = getattr(self, method_name)
                     yield token, val_method(part)
                     break
