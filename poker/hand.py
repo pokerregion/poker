@@ -5,7 +5,7 @@ import functools
 from decimal import Decimal
 from functools import total_ordering
 from cached_property import cached_property
-from ._common import _MultiValueEnum, _ReprMixin
+from ._common import PokerEnum, _ReprMixin
 from .card import Suit, Rank, Card, BROADWAY_RANKS
 
 
@@ -19,9 +19,9 @@ _OFFSUIT_SUIT_COMBINATIONS = ('cd', 'ch', 'cs', 'dc', 'dh', 'ds',
 _SUITED_SUIT_COMBINATIONS = ('cc', 'dd', 'hh', 'ss')
 
 
-class Shape(_MultiValueEnum):
-    OFFSUIT = 'o', 'O', 'offsuit', 'off'
-    SUITED =  's', 'S', 'suited'
+class Shape(PokerEnum):
+    OFFSUIT = 'o', 'offsuit', 'off'
+    SUITED =  's', 'suited'
     PAIR =  '',
 
 

@@ -1,26 +1,25 @@
-from enum import Enum
-from ._common import _CaseInsensitiveMultiValueEnum
+from ._common import PokerEnum
 
 
-class PokerRoom(_CaseInsensitiveMultiValueEnum):
+class PokerRoom(PokerEnum):
     STARS = 'PokerStars', 'STARS', 'PS'
     FTP =  'Full Tilt Poker', 'FTP', 'FULL TILT'
     PKR = 'PKR', 'PKR POKER'
 
 
-class Currency(_CaseInsensitiveMultiValueEnum):
+class Currency(PokerEnum):
     USD = 'USD', '$'
     EUR = 'EUR', '€'
     GBP = 'GBP', '£'
 
 
-class GameType(_CaseInsensitiveMultiValueEnum):
+class GameType(PokerEnum):
     TOUR = 'Tournament', 'TOUR',
     CASH = 'Cash game', 'CASH', 'RING',
     SNG = 'Sit & Go', 'SNG', 'SIT AND GO', 'Sit&go'
 
 
-class Game(_CaseInsensitiveMultiValueEnum):
+class Game(PokerEnum):
     HOLDEM = "Hold'em", 'HOLDEM'
     OMAHA = 'Omaha',
     OHILO = 'Omaha Hi/Lo',
@@ -28,13 +27,13 @@ class Game(_CaseInsensitiveMultiValueEnum):
     STUD = 'Stud',
 
 
-class Limit(_CaseInsensitiveMultiValueEnum):
+class Limit(PokerEnum):
     NL = 'NL', 'No limit'
     PL = 'PL', 'Pot limit'
     FL = 'FL', 'Fixed limit'
 
 
-class TourFormat(_CaseInsensitiveMultiValueEnum):
+class TourFormat(PokerEnum):
     ONEREB = '1R1A',
     REBUY = 'Rebuy', '+R'
     SECOND = '2x Chance',  # Second chance tournament, can rebuy twice
@@ -43,24 +42,24 @@ class TourFormat(_CaseInsensitiveMultiValueEnum):
     # after Sunday million (name), NOT a tournament format
 
 
-class TourType(_CaseInsensitiveMultiValueEnum):
+class TourType(PokerEnum):
     SNG = 'Sit&Go', 'SNG', 'Sit and go'
     TOUR = 'Tournament', 'TOUR', 'tourney'
 
 
-class TourSpeed(Enum):
-    REGULAR = 'Regular'
-    TURBO = 'Turbo'
-    HYPER = 'Hyper-Turbo'
-    DOUBLE = '2x-Turbo'
+class TourSpeed(PokerEnum):
+    REGULAR = 'Regular',
+    TURBO = 'Turbo',
+    HYPER = 'Hyper-Turbo',
+    DOUBLE = '2x-Turbo',
 
 
-class MoneyType(_CaseInsensitiveMultiValueEnum):
+class MoneyType(PokerEnum):
     REAL = 'Real money',
     PLAY = 'Play money',
 
 
-class Action(_CaseInsensitiveMultiValueEnum):
+class Action(PokerEnum):
     BET = 'bet', 'bets'
     RAISE = 'raise', 'raises',
     CHECK = 'check', 'checks'
@@ -73,7 +72,7 @@ class Action(_CaseInsensitiveMultiValueEnum):
     THINK = 'seconds left to act',
 
 
-class Position(_CaseInsensitiveMultiValueEnum):
+class Position(PokerEnum):
     UTG = 'UTG', 'under the gun'
     UTG1 = 'UTG1', 'utg+1', 'utg + 1'
     UTG2 = 'UTG2', 'utg+2', 'utg + 2'

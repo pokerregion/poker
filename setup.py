@@ -10,7 +10,6 @@ install_requires = [
     'parsedatetime',
     'cached-property',
     'click',
-    'enum34-custom',
 ]
 
 

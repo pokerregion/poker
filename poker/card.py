@@ -1,22 +1,22 @@
 import itertools
 from functools import total_ordering
-from ._common import _MultiValueEnum, _ReprMixin
+from ._common import PokerEnum, _ReprMixin
 
 
 __all__ = ['Suit', 'Rank', 'Card', 'FACE_RANKS', 'BROADWAY_RANKS']
 
 
-class Suit(_MultiValueEnum):
-    CLUBS =    '♣', 'c', 'C', 'clubs'
-    DIAMONDS = '♦', 'd', 'D', 'diamonds'
-    HEARTS =   '♥', 'h', 'H', 'hearts'
-    SPADES =   '♠', 's', 'S', 'spades'
+class Suit(PokerEnum):
+    CLUBS =    '♣', 'c', 'clubs'
+    DIAMONDS = '♦', 'd', 'diamonds'
+    HEARTS =   '♥', 'h', 'hearts'
+    SPADES =   '♠', 's', 'spades'
     # Can't make alias with redefined value property
     # because of a bug in stdlib enum module (line 162)
     # C = '♣', 'c', 'C', 'clubs'
 
 
-class Rank(_MultiValueEnum):
+class Rank(PokerEnum):
     DEUCE = '2', 2
     THREE = '3', 3
     FOUR =  '4', 4
@@ -25,11 +25,11 @@ class Rank(_MultiValueEnum):
     SEVEN = '7', 7
     EIGHT = '8', 8
     NINE =  '9', 9
-    TEN =   'T', 't', 10
-    JACK =  'J', 'j'
-    QUEEN = 'Q', 'q'
-    KING =  'K', 'k'
-    ACE =   'A', 'a', 1
+    TEN =   'T', 10
+    JACK =  'J',
+    QUEEN = 'Q',
+    KING =  'K',
+    ACE =   'A', 1
 
     @classmethod
     def difference(cls, first, second):
