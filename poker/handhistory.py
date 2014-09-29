@@ -92,8 +92,11 @@ class _BaseHandHistory(object):
         self = cls(hand_text)
         return self
 
-    def __str__(self):
+    def __unicode__(self):
         return "<{}: #{}>" .format(self.__class__.__name__, self.ident)
+
+    def __str__(self):
+        return unicode(self).decode('utf-8')
 
     @property
     def board(self):
