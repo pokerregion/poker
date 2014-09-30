@@ -303,10 +303,22 @@ class Combo(_ReprMixin):
 
     @property
     def is_connector(self):
-        # Creates an offsuit Hand or a pair and check if it is a connector.
-        shape = '' if self.is_pair else 'o'
-        hand = '{}{}{}'.format(self.first.rank, self.second.rank, shape)
-        return Hand(hand).is_connector
+        return self.rank_difference == 1
+
+    @property
+    def is_one_gapper(self):
+        return self.rank_difference == 2
+
+    @property
+    def is_two_gapper(self):
+        return self.rank_difference == 3
+
+    @property
+    def rank_difference(self):
+        """The difference between the first and second rank of the Combo."""
+
+        # self.first >= self.second
+        return Rank.difference(self.first.rank, self.second.rank)
 
     @property
     def is_pair(self):

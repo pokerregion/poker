@@ -111,6 +111,14 @@ def test_is_connector():
     assert Combo('KsQs').is_connector is True
 
 
+def test_is_one_gapper():
+    assert Combo('Jd9s').is_one_gapper is True
+
+
+def test_is_two_gapper():
+    assert Combo('Jd8s').is_two_gapper is True
+
+
 def test_is_suited_connector():
     assert Combo('AdKd').is_connector
     assert Combo('KsQs').is_suited_connector
