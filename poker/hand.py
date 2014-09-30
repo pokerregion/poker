@@ -655,10 +655,10 @@ class Range(object):
         # note about speed: I tried with functools.lru_cache, and the initial call was 3-4x slower
         # than without it, and the need for calling this will usually be once, so no need to cache
 
-        html = '<table class="range">'
+        html = ['<table class="range">']
 
         for row in reversed(Rank):
-            html += '<tr>'
+            html.append('<tr>')
 
             for col in reversed(Rank):
                 if row > col:
@@ -669,26 +669,26 @@ class Range(object):
                     suit, cssclass = '', 'pair'
                     suit = ''
 
-                html += '<td class="{}">'.format(cssclass)
+                html.append('<td class="%s">' % cssclass)
                 hand = Hand(row.val + col.val + suit)
 
                 if hand in self.hands:
-                    html += unicode(hand)
+                    html.append(unicode(hand))
 
-                html += '</td>'
+                html.append('</td>')
 
-            html += '</tr>'
+            html.append('</tr>')
 
-        html += '</table>'
-        return html
+        html.append('</table>')
+        return ''.join(html)
 
     def to_ascii(self, border=False):
         """Returns a nicely formatted ASCII table with optional borders."""
 
-        table = ''
+        table = []
 
         if border:
-            table += '┌' + '─────┬' * 12 + '─────┐\n'
+            table.append('┌' + '─────┬' * 12 + '─────┐\n')
             line = '├' + '─────┼' * 12 + '─────┤\n'
             border = '│ '
             lastline = '\n└' + '─────┴' * 12 + '─────┘'
@@ -706,14 +706,18 @@ class Range(object):
 
                 hand = Hand(row.val + col.val + suit)
                 hand = unicode(hand) if hand in self.hands else ''
-                table += border + hand.ljust(4)
+                table.append(border)
+                table.append(hand.ljust(4))
 
             if row.val != '2':
-                table += border + '\n' + line
+                table.append(border)
+                table.append('\n')
+                table.append(line)
 
-        table += border + lastline
+        table.append(border)
+        table.append(lastline)
 
-        return table
+        return ''.join(table)
 
     @property
     def rep_pieces(self):
