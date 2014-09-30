@@ -18,11 +18,9 @@ install_requires = [
 ]
 
 
-entry_points = {
-    'console_scripts': [
-        'poker = poker.scripts:poker',
-    ]
-}
+console_scripts = [
+    'poker = poker.scripts:poker',
+]
 
 
 setup(
@@ -42,6 +40,6 @@ setup(
     license = "MIT",
     packages = find_packages(),
     install_requires = install_requires,
-    entry_points = entry_points,
+    entry_points = {'console_scripts': console_scripts},
     tests_require = ['pytest', 'coverage', 'coveralls'],
 )
