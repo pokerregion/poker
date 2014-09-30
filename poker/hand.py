@@ -39,8 +39,8 @@ class _HandMeta(type):
     def _get_non_pairs(cls):
         for rank1 in Rank:
             for rank2 in (r for r in Rank if r < rank1):
-                yield cls(rank1.val + rank2.val + 'o')
-                yield cls(rank1.val + rank2.val + 's')
+                yield cls('{}{}o'.format(rank1, rank2))
+                yield cls('{}{}s'.format(rank1, rank2))
 
     def _get_pairs(cls):
         for rank in Rank:
@@ -80,8 +80,7 @@ class Hand(_ReprMixin):
 
         if len(hand) == 2:
             if first != second:
-                raise ValueError('{!r}, Not a pair! Maybe you need to specify a suit?'
-                                 .format(hand))
+                raise ValueError('%r, Not a pair! Maybe you need to specify a suit?' % hand)
             self._shape = ''
         elif len(hand) == 3:
             shape = hand[2].lower()
@@ -96,7 +95,7 @@ class Hand(_ReprMixin):
         return self
 
     def __unicode__(self):
-        return '{}{}{}'.format(unicode(self.first), unicode(self.second), unicode(self.shape))
+        return '{}{}{}'.format(self.first, self.second, self.shape)
 
     def __hash__(self):
         return hash(self.first) + hash(self.second) + hash(self.shape)
@@ -237,7 +236,7 @@ class Combo(_ReprMixin):
         return self
 
     def __unicode__(self):
-        return '{}{}'.format(unicode(self.first), unicode(self.second))
+        return '{}{}'.format(self.first, self.second)
 
     def __hash__(self):
         return hash(self.first) + hash(self.second)
@@ -288,9 +287,7 @@ class Combo(_ReprMixin):
 
     def to_hand(self):
         """Convert combo to :class:`Hand` object, losing suit information."""
-        return Hand('{}{}{}'.format(unicode(self.first.rank), unicode(self.second.rank),
-                                    unicode(self.shape)
-        ))
+        return Hand('{}{}{}'.format(self.first.rank, self.second.rank, self.shape))
 
     @property
     def is_suited_connector(self):
@@ -308,7 +305,7 @@ class Combo(_ReprMixin):
     def is_connector(self):
         # Creates an offsuit Hand or a pair and check if it is a connector.
         shape = '' if self.is_pair else 'o'
-        hand = '{}{}{}'.format(unicode(self.first.rank), unicode(self.second.rank), shape)
+        hand = '{}{}{}'.format(self.first.rank, self.second.rank, shape)
         return Hand(hand).is_connector
 
     @property

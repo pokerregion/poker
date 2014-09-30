@@ -118,9 +118,7 @@ class _BaseHandHistory(object):
     def _init_seats(self, player_num):
         players = []
         for seat in range(1, player_num + 1):
-            players.append(
-                _Player(name='Empty Seat {}'.format(seat), stack=0, seat=seat, combo=None)
-            )
+            players.append(_Player(name='Empty Seat %s' % seat, stack=0, seat=seat, combo=None))
 
         return players
 

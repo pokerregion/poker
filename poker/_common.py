@@ -70,9 +70,10 @@ class PokerEnum(_OrderableMixin, Enum):
     def __repr__(self):
         val = self._value_[0]
         apostrophe = "'" if isinstance(val, unicode) else ''
-        return "{0}({1}{2}{1})".format(
-            self.__class__.__name__, apostrophe, unicode(val)
-        ).encode('utf-8')
+        return "{0}({1}{2}{1})".format(self.__class__.__name__, apostrophe, val).encode('utf-8')
+
+    def __format__(self, format_spec):
+        return unicode(self._value_[0])
 
     @property
     def val(self):
@@ -85,7 +86,7 @@ class _ReprMixin(object):
         return unicode(self).encode('utf-8')
 
     def __repr__(self):
-        return "{}('{}')".format(self.__class__.__name__, unicode(self)).encode('utf-8')
+        return "{}('{}')".format(self.__class__.__name__, self).encode('utf-8')
 
 
 def _make_float(string):

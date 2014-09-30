@@ -57,7 +57,7 @@ class _CardMeta(type):
     def __new__(metacls, clsname, bases, classdict):
         """Cache all possible Card instances on the class itself."""
         cls = super(_CardMeta, metacls).__new__(metacls, clsname, bases, classdict)
-        cls._all_cards = list(cls(unicode(rank) + unicode(suit))
+        cls._all_cards = list(cls('{}{}'.format(rank, suit))
                               for rank, suit in itertools.product(Rank, Suit))
         return cls
 
@@ -84,7 +84,7 @@ class Card(_ReprMixin):
             return card
 
         if len(card) != 2:
-            raise ValueError('length should be two in {!r}'.format(card))
+            raise ValueError('length should be two in %r' % card)
 
         self = object.__new__(cls)
         self.rank = Rank(card[0])
@@ -115,7 +115,7 @@ class Card(_ReprMixin):
         return self.rank < other.rank
 
     def __unicode__(self):
-        return '{}{}'.format(unicode(self.rank), unicode(self.suit))
+        return '{}{}'.format(self.rank, self.suit)
 
     @property
     def is_face(self):

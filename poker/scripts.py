@@ -127,7 +127,7 @@ def p5players(num):
     click.echo(format_str.format(*underlines))
 
     for ind, player in enumerate(get_ranked_players()):
-        click.echo(format_str.format(unicode(ind + 1) + '.', *player))
+        click.echo(format_str.format(str(ind + 1) + '.', *player))
         if ind == num - 1:
             break
 
