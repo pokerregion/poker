@@ -27,15 +27,17 @@ https://poker.readthedocs.org/
 Requirements
 ------------
 
-* Python 3.4+
+* Python 2.7
 * pytz
 * requests
 * lxml
 * python-dateutil
 * parsedatetime
+* cacheed-property
 * click
-* enum34-custom
-
+* enum34
+* pathlib
+* configparser
 
 License
 -------
