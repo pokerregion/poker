@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals, absolute_import, division, print_function
+
 import re
 import random
 import itertools
@@ -29,15 +32,15 @@ class _HandMeta(type):
     """Makes Hand class iterable. __iter__ goes through all hands in ascending order."""
     def __new__(metacls, clsname, bases, classdict):
         """Cache all possible Hand instances on the class itself."""
-        cls = super().__new__(metacls, clsname, bases, classdict)
+        cls = super(_HandMeta, metacls).__new__(metacls, clsname, bases, classdict)
         cls._all_hands = tuple(cls._get_non_pairs()) + tuple(cls._get_pairs())
         return cls
 
     def _get_non_pairs(cls):
         for rank1 in Rank:
             for rank2 in (r for r in Rank if r < rank1):
-                yield cls(rank1.val + rank2.val + 'o')
-                yield cls(rank1.val + rank2.val + 's')
+                yield cls('{}{}o'.format(rank1, rank2))
+                yield cls('{}{}s'.format(rank1, rank2))
 
     def _get_pairs(cls):
         for rank in Rank:
@@ -59,9 +62,9 @@ class _HandMeta(type):
 
 
 @total_ordering
-class Hand(_ReprMixin, metaclass=_HandMeta):
+class Hand(_ReprMixin):
     """General hand without a precise suit. Only knows about two ranks and shape."""
-
+    __metaclass__ = _HandMeta
     __slots__ = ('first', 'second', '_shape')
 
     def __new__(cls, hand):
@@ -77,8 +80,7 @@ class Hand(_ReprMixin, metaclass=_HandMeta):
 
         if len(hand) == 2:
             if first != second:
-                raise ValueError('{!r}, Not a pair! Maybe you need to specify a suit?'
-                                 .format(hand))
+                raise ValueError('%r, Not a pair! Maybe you need to specify a suit?' % hand)
             self._shape = ''
         elif len(hand) == 3:
             shape = hand[2].lower()
@@ -92,14 +94,17 @@ class Hand(_ReprMixin, metaclass=_HandMeta):
 
         return self
 
-    def __str__(self):
+    def __unicode__(self):
         return '{}{}{}'.format(self.first, self.second, self.shape)
 
     def __hash__(self):
         return hash(self.first) + hash(self.second) + hash(self.shape)
 
-    def __getnewargs__(self):
-        return str(self),
+    def __getstate__(self):
+        return {'first': self.first, 'second': self.second, '_shape': self._shape}
+
+    def __setstate__(self, state):
+        self.first, self.second, self._shape = state['first'], state['second'], state['_shape']
 
     def __eq__(self, other):
         if self.__class__ is not other.__class__:
@@ -189,7 +194,7 @@ class Hand(_ReprMixin, metaclass=_HandMeta):
         return Shape(self._shape)
 
     @shape.setter
-    def shape(self, value: str or Shape):
+    def shape(self, value):
         self._shape = Shape(value).val
 
 
@@ -214,31 +219,33 @@ class Combo(_ReprMixin):
             return combo
 
         if len(combo) != 4:
-            raise ValueError('{!r}, should have a length of 4'.format(combo))
+            raise ValueError('%r, should have a length of 4' % combo)
         elif (combo[0] == combo[2] and combo[1] == combo[3]):
-            raise ValueError("{!r}, Pair can't have the same suit: {!r}"
-                             .format(combo, combo[1]))
+            raise ValueError("{!r}, Pair can't have the same suit: {!r}".format(combo, combo[1]))
 
-        self = super().__new__(cls)
+        self = super(Combo, cls).__new__(cls)
         self._set_cards_in_order(combo[:2], combo[2:])
         return self
 
     @classmethod
     def from_cards(cls, first, second):
-        self = super().__new__(cls)
+        self = super(Combo, cls).__new__(cls)
         first = first.rank.val + first.suit.val
         second = second.rank.val + second.suit.val
         self._set_cards_in_order(first, second)
         return self
 
-    def __str__(self):
+    def __unicode__(self):
         return '{}{}'.format(self.first, self.second)
 
     def __hash__(self):
         return hash(self.first) + hash(self.second)
 
-    def __getnewargs__(self):
-        return str(self),
+    def __getstate__(self):
+        return {'first': self.first, 'second': self.second}
+
+    def __setstate__(self, state):
+        self.first, self.second = state['first'], state['second']
 
     def __eq__(self, other):
         if self.__class__ is other.__class__:
@@ -319,11 +326,11 @@ class Combo(_ReprMixin):
             return Shape.OFFSUIT
 
     @shape.setter
-    def shape(self, value: str or Shape):
+    def shape(self, value):
         self._shape = Shape(value).val
 
 
-class _RegexRangeLexer:
+class _RegexRangeLexer(object):
     _separator_re = re.compile(r"[, ;\n]")
     _rank = r"([2-9TJQKA])"
     _suit = r"[cdhs♣♦♥♠]"
@@ -334,38 +341,36 @@ class _RegexRangeLexer:
     _nonpair2 = r"{0}(?!\2){0}".format(_rank)
 
     rules = (
-        # 1. NAME,
-        # 2. REGEX
-        # 3. value extractor METHOD NAME
+        # NAME, REGEX, value extractor METHOD NAME
         ('ALL', 'XX', '_get_value'),
-        ('PAIR', r"{}\1".format(_rank), '_get_first'),
-        ('PAIR_PLUS', r"{}\1\+".format(_rank), '_get_first'),
-        ('PAIR_MINUS', r"{}\1-".format(_rank), '_get_first'),
-        ('PAIR_DASH', r"{0}\1-{0}\2".format(_rank), '_get_for_pair_dash'),
-        ('BOTH', _nonpair1, '_get_first_two'),
-        ('BOTH_PLUS', r"{}\+".format(_nonpair1), '_get_first_two'),
-        ('BOTH_MINUS', r"{}-".format(_nonpair1), '_get_first_two'),
-        ('BOTH_DASH', r"{}-{}".format(_nonpair1, _nonpair2), '_get_for_both_dash'),
-        ('SUITED', r"{}s".format(_nonpair1), '_get_first_two'),
-        ('SUITED_PLUS', r"{}s\+".format(_nonpair1), '_get_first_two'),
-        ('SUITED_MINUS', r"{}s-".format(_nonpair1), '_get_first_two'),
-        ('SUITED_DASH', r"{}s-{}s".format(_nonpair1, _nonpair2), '_get_for_shaped_dash'),
-        ('OFFSUIT', r"{}o".format(_nonpair1), '_get_first_two'),
-        ('OFFSUIT_PLUS', r"{}o\+".format(_nonpair1), '_get_first_two'),
-        ('OFFSUIT_MINUS', r"{}o-".format(_nonpair1), '_get_first_two'),
-        ('OFFSUIT_DASH', r"{}o-{}o".format(_nonpair1, _nonpair2), '_get_for_shaped_dash'),
-        ('X_SUITED', r"{0}Xs|X{0}s".format(_rank), '_get_rank'),
-        ('X_SUITED_PLUS', r"{0}Xs\+|X{0}s\+".format(_rank), '_get_rank'),
-        ('X_SUITED_MINUS', r"{0}Xs-|X{0}s-".format(_rank), '_get_rank'),
-        ('X_OFFSUIT', r"{0}Xo|X{0}o".format(_rank), '_get_rank'),
-        ('X_OFFSUIT_PLUS', r"{0}Xo\+|X{0}o\+".format(_rank), '_get_rank'),
-        ('X_OFFSUIT_MINUS', r"{0}Xo-|X{0}o-".format(_rank), '_get_rank'),
-        ('X_PLUS', r"{0}X\+|X{0}\+".format(_rank), '_get_rank'),
-        ('X_MINUS', r"{0}X-|X{0}-".format(_rank), '_get_rank'),
-        ('X_BOTH', r"{0}X|X{0}".format(_rank), '_get_rank'),
+        ('PAIR', r"{}\1$".format(_rank), '_get_first'),
+        ('PAIR_PLUS', r"{}\1\+$".format(_rank), '_get_first'),
+        ('PAIR_MINUS', r"{}\1-$".format(_rank), '_get_first'),
+        ('PAIR_DASH', r"{0}\1-{0}\2$".format(_rank), '_get_for_pair_dash'),
+        ('BOTH', _nonpair1 + r"$", '_get_first_two'),
+        ('BOTH_PLUS', r"{}\+$".format(_nonpair1), '_get_first_two'),
+        ('BOTH_MINUS', r"{}-$".format(_nonpair1), '_get_first_two'),
+        ('BOTH_DASH', r"{}-{}$".format(_nonpair1, _nonpair2), '_get_for_both_dash'),
+        ('SUITED', r"{}s$".format(_nonpair1), '_get_first_two'),
+        ('SUITED_PLUS', r"{}s\+$".format(_nonpair1), '_get_first_two'),
+        ('SUITED_MINUS', r"{}s-$".format(_nonpair1), '_get_first_two'),
+        ('SUITED_DASH', r"{}s-{}s$".format(_nonpair1, _nonpair2), '_get_for_shaped_dash'),
+        ('OFFSUIT', r"{}o$".format(_nonpair1), '_get_first_two'),
+        ('OFFSUIT_PLUS', r"{}o\+$".format(_nonpair1), '_get_first_two'),
+        ('OFFSUIT_MINUS', r"{}o-$".format(_nonpair1), '_get_first_two'),
+        ('OFFSUIT_DASH', r"{}o-{}o$".format(_nonpair1, _nonpair2), '_get_for_shaped_dash'),
+        ('X_SUITED', r"{0}Xs$|X{0}s$".format(_rank), '_get_rank'),
+        ('X_SUITED_PLUS', r"{0}Xs\+$|X{0}s\+$".format(_rank), '_get_rank'),
+        ('X_SUITED_MINUS', r"{0}Xs-$|X{0}s-$".format(_rank), '_get_rank'),
+        ('X_OFFSUIT', r"{0}Xo$|X{0}o$".format(_rank), '_get_rank'),
+        ('X_OFFSUIT_PLUS', r"{0}Xo\+$|X{0}o\+$".format(_rank), '_get_rank'),
+        ('X_OFFSUIT_MINUS', r"{0}Xo-$|X{0}o-$".format(_rank), '_get_rank'),
+        ('X_PLUS', r"{0}X\+$|X{0}\+$".format(_rank), '_get_rank'),
+        ('X_MINUS', r"{0}X-$|X{0}-$".format(_rank), '_get_rank'),
+        ('X_BOTH', r"{0}X$|X{0}$".format(_rank), '_get_rank'),
         # might be anything, even pair
         # FIXME: 5s5s accepted
-        ('COMBO', r"{0}{1}{0}{1}".format(_rank, _suit), '_get_value'),
+        ('COMBO', r"{0}{1}{0}{1}$".format(_rank, _suit), '_get_value'),
     )
     # compile regexes when initializing class, so every instance will have them precompiled
     rules = [(name, re.compile(regex, re.IGNORECASE), method) for (name, regex, method) in rules]
@@ -380,12 +385,12 @@ class _RegexRangeLexer:
         """
         for part in self.parts:
             for token, regex, method_name in self.rules:
-                if regex.fullmatch(part):
+                if regex.match(part):
                     val_method = getattr(self, method_name)
                     yield token, val_method(part)
                     break
             else:
-                raise ValueError('Invalid token: {}'.format(part))
+                raise ValueError('Invalid token: %s' % part)
 
     @staticmethod
     def _get_value(token):
@@ -404,9 +409,13 @@ class _RegexRangeLexer:
         smaller, bigger = cls._get_rank_in_order(token, first_part, second_part)
         return smaller.val, bigger.val
 
-    _get_first_two = functools.partialmethod(_get_in_order, 0, 1)
-    _get_for_pair_dash = functools.partialmethod(_get_in_order, 0, 3)
+    @classmethod
+    def _get_first_two(cls, token):
+        return cls._get_in_order(0, 1, token)
 
+    @classmethod
+    def _get_for_pair_dash(cls, token):
+        return cls._get_in_order(0, 3, token)
 
     @classmethod
     def _get_first_smaller_bigger(cls, first_part, second_part, token):
@@ -414,7 +423,7 @@ class _RegexRangeLexer:
         smaller2, bigger2 = cls._get_rank_in_order(token[second_part], 0, 1)
 
         if bigger1 != bigger2:
-            raise ValueError('Invalid token: {}'.format(token))
+            raise ValueError('Invalid token: %s' % token)
 
         smaller, bigger = min(smaller1, smaller2), max(smaller1, smaller2)
 
@@ -426,17 +435,19 @@ class _RegexRangeLexer:
         smaller, bigger = min(first, second), max(first, second)
         return smaller, bigger
 
+    @classmethod
     # for 'A5-AT'
-    _get_for_both_dash = functools.partialmethod(_get_first_smaller_bigger,
-                                                 slice(0, 2), slice(3, 5))
+    def _get_for_both_dash(cls, token):
+        return cls._get_first_smaller_bigger(slice(0, 2), slice(3, 5), token)
 
+    @classmethod
     # for 'A5o-ATo' and 'A5s-ATs'
-    _get_for_shaped_dash = functools.partialmethod(_get_first_smaller_bigger,
-                                                   slice(0, 2), slice(4, 6))
+    def _get_for_shaped_dash(cls, token):
+        return cls._get_first_smaller_bigger(slice(0, 2), slice(4, 6), token)
 
 
 @total_ordering
-class Range:
+class Range(object):
     """Parses a str range into tuple of Combos (or Hands)."""
     slots = ('_hands', '_combos')
 
@@ -579,13 +590,13 @@ class Range:
         """Creates an instance from a given file, containing a range.
         It can handle the PokerCruncher (.rng extension) format.
         """
-        range_string = open(filename).read()
+        range_string = Path(filename).open().read()
         return cls(range_string)
 
     @classmethod
     def from_objects(cls, iterable):
         """Make an instance from an iterable of Combos, Hands or both."""
-        range_string = ' '.join(str(obj) for obj in iterable)
+        range_string = ' '.join(unicode(obj) for obj in iterable)
         return cls(range_string)
 
     def __eq__(self, other):
@@ -603,7 +614,7 @@ class Range:
             return item in self._combos or item.to_hand() in self._hands
         elif isinstance(item, Hand):
             return item in self._all_hands
-        elif isinstance(item, str):
+        elif isinstance(item, unicode):
             if len(item) == 4:
                 combo = Combo(item)
                 return combo in self._combos or combo.to_hand() in self._hands
@@ -613,12 +624,21 @@ class Range:
     def __len__(self):
         return self._count_combos()
 
-    def __str__(self):
+    def __unicode__(self):
         return ', '.join(self.rep_pieces)
+
+    def __str__(self):
+        return unicode(self).encode('utf-8')
 
     def __repr__(self):
         range = ' '.join(self.rep_pieces)
-        return "{}('{}')".format(self.__class__.__qualname__, range)
+        return "{}('{}')".format(self.__class__.__name__, range).encode('utf-8')
+
+    def __getstate__(self):
+        return {'_hands': self._hands, '_combos': self._combos}
+
+    def __setstate__(self, state):
+        self._hands, self._combos = state['_hands'], state['_combos']
 
     def __hash__(self):
         return hash(self.combos)
@@ -635,10 +655,10 @@ class Range:
         # note about speed: I tried with functools.lru_cache, and the initial call was 3-4x slower
         # than without it, and the need for calling this will usually be once, so no need to cache
 
-        html = '<table class="range">'
+        html = ['<table class="range">']
 
         for row in reversed(Rank):
-            html += '<tr>'
+            html.append('<tr>')
 
             for col in reversed(Rank):
                 if row > col:
@@ -649,26 +669,26 @@ class Range:
                     suit, cssclass = '', 'pair'
                     suit = ''
 
-                html += '<td class="{}">'.format(cssclass)
+                html.append('<td class="%s">' % cssclass)
                 hand = Hand(row.val + col.val + suit)
 
                 if hand in self.hands:
-                    html += str(hand)
+                    html.append(unicode(hand))
 
-                html += '</td>'
+                html.append('</td>')
 
-            html += '</tr>'
+            html.append('</tr>')
 
-        html += '</table>'
-        return html
+        html.append('</table>')
+        return ''.join(html)
 
     def to_ascii(self, border=False):
         """Returns a nicely formatted ASCII table with optional borders."""
 
-        table = ''
+        table = []
 
         if border:
-            table += '┌' + '─────┬' * 12 + '─────┐\n'
+            table.append('┌' + '─────┬' * 12 + '─────┐\n')
             line = '├' + '─────┼' * 12 + '─────┤\n'
             border = '│ '
             lastline = '\n└' + '─────┴' * 12 + '─────┘'
@@ -685,15 +705,19 @@ class Range:
                     suit = ''
 
                 hand = Hand(row.val + col.val + suit)
-                hand = str(hand) if hand in self.hands else ''
-                table += border + hand.ljust(4)
+                hand = unicode(hand) if hand in self.hands else ''
+                table.append(border)
+                table.append(hand.ljust(4))
 
-            if row.value != '2':
-                table += border + '\n' + line
+            if row.val != '2':
+                table.append(border)
+                table.append('\n')
+                table.append(line)
 
-        table += border + lastline
+        table.append(border)
+        table.append(lastline)
 
-        return table
+        return ''.join(table)
 
     @property
     def rep_pieces(self):
@@ -756,7 +780,7 @@ class Range:
         first = last = pieces[0]
         for current in pieces[1:]:
             if isinstance(last, Combo):
-                str_pieces.append(str(last))
+                str_pieces.append(unicode(last))
                 first = last = current
             elif isinstance(current, Combo):
                 str_pieces.append(self._get_format(first, last))
@@ -776,22 +800,22 @@ class Range:
 
     def _get_format(self, first, last):
         if first == last:
-            return str(first)
+            return unicode(first)
         elif (first.is_pair and first.first.val == 'A' or
                     Rank.difference(first.first, first.second) == 1):
-            return '{}+'.format(last)
+            return '%s+' % last
         elif last.second.val == '2':
-            return '{}-'.format(first)
+            return '%s-' % first
         else:
             return '{}-{}'.format(first, last)
 
-    def _add_pair(self, rank: str):
+    def _add_pair(self, rank):
         self._hands.add(Hand(rank * 2))
 
-    def _add_offsuit(self, tok: tuple):
+    def _add_offsuit(self, tok):
         self._hands.add(Hand(tok[0] + tok[1] + 'o'))
 
-    def _add_suited(self, tok: tuple):
+    def _add_suited(self, tok):
         self._hands.add(Hand(tok[0] + tok[1] + 's'))
 
     @cached_property

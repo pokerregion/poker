@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals, absolute_import, division, print_function
+
 HAND1 = """
 Full Tilt Poker Game #33286946295: MiniFTOPS Main Event (255707037), Table 179 - NL Hold'em - 10/20 - 19:26:50 CET - 2013/09/22 [13:26:50 ET - 2013/09/22]
 Seat 1: Popp1987 (13,587)

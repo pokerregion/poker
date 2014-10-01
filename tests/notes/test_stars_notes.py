@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals, absolute_import, division, print_function
+
 from pathlib import Path
 from datetime import datetime
 import pytest
@@ -8,13 +11,13 @@ from pytz import UTC
 @pytest.fixture
 def notes():
     filedir = Path(__file__).parent
-    return Notes.from_file(str(filedir / 'notes.W2lkm2n.xml'))
+    return Notes.from_file(filedir / 'notes.W2lkm2n.xml')
 
 
 def test_from_str_no_problem():
     filedir = Path(__file__).parent
-    notes_bytes = open(str(filedir / 'notes.W2lkm2n.xml')).read()
-    Notes(notes_bytes)
+    notes_unicode = (filedir / 'notes.W2lkm2n.xml').open().read()
+    Notes(notes_unicode)
 
 
 def test_players(notes):

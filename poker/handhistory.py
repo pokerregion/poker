@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals, absolute_import, division, print_function
+
 """
     Poker hand history parser module.
 """
@@ -16,9 +19,11 @@ _Player = namedtuple('_Player', 'name, stack, seat, combo')
 """Named tuple for players participating in the hand history."""
 
 
-class _BaseFlop(metaclass=ABCMeta):
+class _BaseFlop(object):
+    __metaclass__ = ABCMeta
+
     @abstractmethod
-    def __init__(self, flop: list, initial_pot):
+    def __init__(self, flop, initial_pot):
         pass
 
     @cached_property
@@ -70,8 +75,9 @@ class _BaseFlop(metaclass=ABCMeta):
                 Rank.difference(self.cards[1].rank, self.cards[2].rank))
 
 
-class _BaseHandHistory(metaclass=ABCMeta):
+class _BaseHandHistory(object):
     """Abstract base class for *all* kind of parser."""
+    __metaclass__ = ABCMeta
 
     @abstractmethod
     def __init__(self, hand_text):
@@ -86,8 +92,11 @@ class _BaseHandHistory(metaclass=ABCMeta):
         self = cls(hand_text)
         return self
 
-    def __str__(self):
+    def __unicode__(self):
         return "<{}: #{}>" .format(self.__class__.__name__, self.ident)
+
+    def __str__(self):
+        return unicode(self).decode('utf-8')
 
     @property
     def board(self):
@@ -109,9 +118,7 @@ class _BaseHandHistory(metaclass=ABCMeta):
     def _init_seats(self, player_num):
         players = []
         for seat in range(1, player_num + 1):
-            players.append(
-                _Player(name='Empty Seat {}'.format(seat), stack=0, seat=seat, combo=None)
-            )
+            players.append(_Player(name='Empty Seat %s' % seat, stack=0, seat=seat, combo=None))
 
         return players
 
@@ -129,7 +136,7 @@ class _SplittableHandHistory(_BaseHandHistory):
     def __init__(self, hand_text):
         """Split hand history by sections."""
 
-        super().__init__(hand_text)
+        super(_SplittableHandHistory, self).__init__(hand_text)
 
         self._splitted = self._split_re.split(self.raw)
 

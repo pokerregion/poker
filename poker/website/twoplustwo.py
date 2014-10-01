@@ -1,9 +1,13 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals, absolute_import, division, print_function
+
 import re
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timedelta
 from collections import namedtuple
 from lxml import etree
 import requests
 import parsedatetime
+from dateutil.tz import tzoffset
 from pytz import UTC
 from .._common import _make_float, _make_int
 
@@ -40,7 +44,7 @@ def search_userid(username):
     try:
         found_name = root[0].text
     except IndexError:
-        raise UserNotFoundError(username) from None
+        raise UserNotFoundError(username)
 
     # The request is basically a search, can return multiple userids
     # for users starting with username. Make sure we got the right one!
@@ -52,22 +56,23 @@ def search_userid(username):
         raise exc
 
     userid = root[0].attrib['userid']
-    return userid
+    # userid is str on Python2, we need to decode to make it unicode
+    return userid.decode('utf-8')
 
 
-class ForumMember:
+class ForumMember(object):
     """Download and store a member data from the Two Plus Two forum."""
 
     _tz_re = re.compile('GMT (.*?)\.')
     _attributes = (
-        ('username', '//td[@id="username_box"]/h1/text()', str),
-        ('rank', '//td[@id="username_box"]/h2/text()', str),
-        ('profile_picture', '//td[@id="profilepic_cell"]/img/@src', str),
-        ('location', '//div[@id="collapseobj_aboutme"]/div/ul/li/dl/dd[1]/text()', str),
+        ('username', '//td[@id="username_box"]/h1/text()', unicode),
+        ('rank', '//td[@id="username_box"]/h2/text()', unicode),
+        ('profile_picture', '//td[@id="profilepic_cell"]/img/@src', unicode),
+        ('location', '//div[@id="collapseobj_aboutme"]/div/ul/li/dl/dd[1]/text()', unicode),
         ('total_posts', '//div[@id="collapseobj_stats"]/div/fieldset[1]/ul/li[1]/text()', _make_int),
         ('posts_per_day', '//div[@id="collapseobj_stats"]/div/fieldset[1]/ul/li[2]/text()', float),
         ('public_usergroups', '//ul[@id="public_usergroup_list"]/li/text()', tuple),
-        ('avatar', '//img[@id="user_avatar"]/@src', str),
+        ('avatar', '//img[@id="user_avatar"]/@src', unicode),
     )
 
     def __init__(self, username):
@@ -75,11 +80,11 @@ class ForumMember:
         self._download_and_parse()
 
     def __repr__(self):
-        return '<{}: {}>'.format(self.__class__.__qualname__, self.username)
+        return '<{}: {}>'.format(self.__class__.__name__, self.username).encode('utf-8')
 
     @classmethod
-    def from_userid(cls, id: str):
-        self = super().__new__(cls)
+    def from_userid(cls, id):
+        self = super(ForumMember, cls).__new__(cls)
         self.id = id
         self._download_and_parse()
         return self
@@ -97,7 +102,7 @@ class ForumMember:
 
     def _download_page(self):
         stats_page = requests.get(self.profile_url)
-        self.download_date = datetime.now(timezone.utc)
+        self.download_date = datetime.now(UTC)
         return etree.HTML(stats_page.text)
 
     def _parse_attributes(self, root):
@@ -115,7 +120,7 @@ class ForumMember:
         """Find timezone informatation on bottom of the page."""
         tz_str = root.xpath('//div[@class="smallfont" and @align="center"]')[0].text
         hours = int(self._tz_re.search(tz_str).group(1))
-        return timezone(timedelta(hours=hours))
+        return tzoffset(tz_str, hours * 60)
 
     def _parse_last_activity(self, root, tz):
         try:

@@ -1,7 +1,9 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals, absolute_import, division, print_function
+
+from collections import namedtuple, Mapping, Iterable, OrderedDict as odict
 from pathlib import Path
 from configparser import ConfigParser
-from collections import namedtuple, OrderedDict as odict
-from collections.abc import Mapping, Iterable
 from .hand import Range
 from .constants import Position
 
@@ -13,9 +15,9 @@ _POSITIONS = {'utg', 'utg1', 'utg2', 'utg3', 'utg4', 'co', 'btn', 'sb', 'bb'}
 
 
 class Strategy(Mapping):
-    def __init__(self, strategy: str):
+    def __init__(self, strategy, source='<string>'):
         self._config = ConfigParser(default_section='strategy', interpolation=None)
-        self._config.read_string(strategy)
+        self._config.read_string(strategy, source)
 
         self._situations = odict()
         for name in self._config.sections():
@@ -33,6 +35,12 @@ class Strategy(Mapping):
             self._situations[name] = _Situation(**values)
 
         self._tuple = tuple(self._situations.values())
+
+    @classmethod
+    def from_file(cls, filename):
+        # Path accept str or Path
+        strategy = Path(filename).open(encoding='utf-8').read()
+        return cls(strategy, source=filename)
 
     def __getattr__(self, name):
         # Strategy uses only _Situation._fields, but this way .strategy files are more flexible,
@@ -52,7 +60,7 @@ class Strategy(Mapping):
         return self._situations.get(key, default)
 
     def __getitem__(self, key):
-        if isinstance(key, str):
+        if isinstance(key, unicode):
             return self._situations.__getitem__(key)
         elif isinstance(key, int):
             return self._tuple[key]
@@ -66,12 +74,6 @@ class Strategy(Mapping):
 
     def __len__(self):
         return len(self._situations)
-
-    @classmethod
-    def from_file(cls, filename):
-        # Path accept str or Path
-        strategy = Path(filename).open().read()
-        return cls(strategy)
 
     def get_first_spot(self, situation=0):
         situation = self[situation]

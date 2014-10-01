@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals, absolute_import, division, print_function
+
 from datetime import datetime
 from decimal import Decimal as D
 from collections import OrderedDict

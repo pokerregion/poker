@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals, absolute_import, division, print_function
+
 import re
 from decimal import Decimal
 from datetime import datetime
@@ -5,17 +8,18 @@ from collections import namedtuple
 from lxml import etree
 import pytz
 from pytz import UTC
+from pathlib import Path
 from ..handhistory import _Player, _SplittableHandHistory, _BaseFlop
 from ..card import Card
 from ..hand import Combo
 from ..constants import Limit, Game, GameType, Currency, Action
 
 
-__all__ = ['PokerStarsHandHistory']
+__all__ = ['PokerStarsHandHistory', 'Notes']
 
 
 class _Flop(_BaseFlop):
-    def __init__(self, flop: list, initial_pot):
+    def __init__(self, flop, initial_pot):
         self._initial_pot = self.pot = initial_pot
         self.actions = None
         self.cards = None
@@ -239,24 +243,27 @@ class LabelNotFoundError(ValueError):
     """Label not found in the player notes."""
 
 
-class Notes:
+class Notes(object):
     """Class for parsing pokerstars XML notes."""
 
     _color_re = re.compile('^[0-9A-F]{6}$')
 
-    def __init__(self, notes: str):
+    def __init__(self, notes):
+        # notes need to be a unicode object
         self.raw = notes
         parser = etree.XMLParser(recover=True, resolve_entities=False)
-        self.root = etree.XML(notes.encode(), parser)
+        self.root = etree.XML(notes.encode('utf-8'), parser)
+
+    def __unicode__(self):
+        return str(self).decode('utf-8')
 
     def __str__(self):
-        return etree.tostring(self.root, xml_declaration=True,
-                              encoding='UTF-8', pretty_print=True).decode()
+        return etree.tostring(self.root, xml_declaration=True, encoding='UTF-8', pretty_print=True)
 
     @classmethod
     def from_file(cls, filename):
         """Make an instance from a XML file."""
-        return cls(open(filename).read())
+        return cls(Path(filename).open().read())
 
     @property
     def players(self):
@@ -295,8 +302,7 @@ class Notes:
         if update is None:
             update = datetime.utcnow()
         # converted to timestamp, rounded to ones
-        update = int(update.timestamp())
-        update = str(update)
+        update = update.strftime('%s')
         label_id = self._get_label_id(label)
         new_note = etree.Element('note', player=player, label=label_id, update=update)
         new_note.text = text
@@ -332,7 +338,7 @@ class Notes:
         quote = "'" if '"' in player else '"'
         note = self.root.find('note[@player={0}{1}{0}]'.format(quote, player))
         if note is None:
-            raise NoteNotFoundError(player) from None
+            raise NoteNotFoundError(player)
         return note
 
     def _get_note_data(self, note):
@@ -377,7 +383,7 @@ class Notes:
         try:
             return labels_tag.xpath('label[text()="%s"]' % name)[0]
         except IndexError:
-            raise LabelNotFoundError(name) from None
+            raise LabelNotFoundError(name)
 
     def _get_label_id(self, name):
         return self._find_label(name).get('id') if name else '-1'

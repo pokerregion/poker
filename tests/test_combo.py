@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals, absolute_import, division, print_function
+
 import pickle
 from pytest import raises
 from poker.card import Card
@@ -83,9 +86,9 @@ def test_unicode():
 
 
 def test_repr():
-    assert str(Combo('2s2c')) == '2♠2♣'
-    assert str(Combo('KhAs')) == 'A♠K♥'
-    assert str(Combo('ThTd')) == 'T♥T♦'
+    assert unicode(Combo('2s2c')) == '2♠2♣'
+    assert unicode(Combo('KhAs')) == 'A♠K♥'
+    assert unicode(Combo('ThTd')) == 'T♥T♦'
 
 
 def test_is_suited():
@@ -146,7 +149,7 @@ def test_from_cards():
 
     combination = Combo.from_cards(Card('Kh'), Card('As'))
     assert combination == Combo('AsKh')
-    assert repr(combination) == "Combo('A♠K♥')"
+    assert repr(combination) == b"Combo('A♠K♥')"
 
 
 def test_shape_property():

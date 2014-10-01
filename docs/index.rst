@@ -33,8 +33,8 @@ API
 
 .. Repo and contact
 .. include:: ../README.rst
-   :start-line: 47
-   :end-line: 55
+   :start-line: 49
+   :end-line: 58
 
 
 Indices and tables

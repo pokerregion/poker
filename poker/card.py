@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals, absolute_import, division, print_function
+
 import itertools
 from functools import total_ordering
 from ._common import PokerEnum, _ReprMixin
@@ -7,6 +10,8 @@ __all__ = ['Suit', 'Rank', 'Card', 'FACE_RANKS', 'BROADWAY_RANKS']
 
 
 class Suit(PokerEnum):
+    __order__ = 'CLUBS DIAMONDS HEARTS SPADES'
+
     CLUBS =    '♣', 'c', 'clubs'
     DIAMONDS = '♦', 'd', 'diamonds'
     HEARTS =   '♥', 'h', 'hearts'
@@ -17,6 +22,8 @@ class Suit(PokerEnum):
 
 
 class Rank(PokerEnum):
+    __order__ = 'DEUCE THREE FOUR FIVE SIX SEVEN EIGHT NINE TEN JACK QUEEN KING ACE'
+
     DEUCE = '2', 2
     THREE = '3', 3
     FOUR =  '4', 4
@@ -49,8 +56,8 @@ BROADWAY_RANKS = Rank('T'), Rank('J'), Rank('Q'), Rank('K'), Rank('A')
 class _CardMeta(type):
     def __new__(metacls, clsname, bases, classdict):
         """Cache all possible Card instances on the class itself."""
-        cls = super().__new__(metacls, clsname, bases, classdict)
-        cls._all_cards = list(cls(str(rank) + str(suit))
+        cls = super(_CardMeta, metacls).__new__(metacls, clsname, bases, classdict)
+        cls._all_cards = list(cls('{}{}'.format(rank, suit))
                               for rank, suit in itertools.product(Rank, Suit))
         return cls
 
@@ -66,9 +73,10 @@ class _CardMeta(type):
 
 
 @total_ordering
-class Card(_ReprMixin, metaclass=_CardMeta):
+class Card(_ReprMixin):
     """Represents a Card, which consists a Rank and a Suit."""
 
+    __metaclass__ = _CardMeta
     __slots__ = ('rank', 'suit')
 
     def __new__(cls, card):
@@ -76,7 +84,7 @@ class Card(_ReprMixin, metaclass=_CardMeta):
             return card
 
         if len(card) != 2:
-            raise ValueError('length should be two in {!r}'.format(card))
+            raise ValueError('length should be two in %r' % card)
 
         self = object.__new__(cls)
         self.rank = Rank(card[0])
@@ -86,8 +94,11 @@ class Card(_ReprMixin, metaclass=_CardMeta):
     def __hash__(self):
         return hash(self.rank) + hash(self.suit)
 
-    def __getnewargs__(self):
-        return str(self),
+    def __getstate__(self):
+        return {'rank': self.rank, 'suit': self.suit}
+
+    def __setstate__(self, state):
+        self.rank, self.suit = state['rank'], state['suit']
 
     def __eq__(self, other):
         if self.__class__ is other.__class__:
@@ -103,7 +114,7 @@ class Card(_ReprMixin, metaclass=_CardMeta):
             return self.suit < other.suit
         return self.rank < other.rank
 
-    def __str__(self):
+    def __unicode__(self):
         return '{}{}'.format(self.rank, self.suit)
 
     @property

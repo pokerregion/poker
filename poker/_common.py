@@ -1,8 +1,10 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals, absolute_import, division, print_function
+
 import random
 from functools import total_ordering
-from collections.abc import Iterable
+from collections import Iterable
 from enum import Enum, EnumMeta
-from types import DynamicClassAttribute
 
 
 class _PokerEnumMeta(EnumMeta):
@@ -10,34 +12,36 @@ class _PokerEnumMeta(EnumMeta):
         # make sure we only have tuple values, not single values
         for member in self.__members__.values():
             values = member._value_
-            if not isinstance(values, Iterable) or isinstance(values, str):
+            if not isinstance(values, Iterable) or isinstance(values, basestring):
                 raise TypeError('{} = {!r}, should be iterable, not {}!'
                     .format(member._name_, values, type(values))
                 )
             for alias in values:
-                if isinstance(alias, str):
+                if isinstance(alias, unicode):
                     alias = alias.upper()
                 self._value2member_map_.setdefault(alias, member)
 
     def __call__(cls, value):
         """Return the appropriate instance with any of the values listed. If values contains
         text types, those will be looked up in a case insensitive manner."""
-        if isinstance(value, str):
+        if isinstance(value, unicode):
             value = value.upper()
-        return super().__call__(value)
+        return super(_PokerEnumMeta, cls).__call__(value)
 
     def make_random(cls):
         return random.choice(list(cls))
 
 
 @total_ordering
-class PokerEnum(Enum, metaclass=_PokerEnumMeta):
+class _OrderableMixin(object):
+    # I couldn't inline this to PokerEnum because Enum do some magic which don't like it.
+
     # From Python manual:
     # If a class that overrides __eq__() needs to retain
     # the implementation of __hash__() from a parent class,
     # the interpreter must be told this explicitly
     def __hash__(self):
-        return super().__hash__()
+        return super(_OrderableMixin, self).__hash__()
 
     def __eq__(self, other):
         if self.__class__ is other.__class__:
@@ -50,21 +54,39 @@ class PokerEnum(Enum, metaclass=_PokerEnumMeta):
             return names.index(self._name_) < names.index(other._name_)
         return NotImplemented
 
+    def __reduce_ex__(self, proto):
+        return self.__class__.__name__
+
+
+class PokerEnum(_OrderableMixin, Enum):
+    __metaclass__ = _PokerEnumMeta
+
+    def __unicode__(self):
+        return unicode(self._value_[0])
+
     def __str__(self):
-        return str(self._value_[0])
+        return unicode(self).encode('utf-8')
 
     def __repr__(self):
-        apostrophe = "'" if isinstance(self._value_[0], str) else ''
-        return "{0}({1}{2}{1})".format(self.__class__.__qualname__, apostrophe, self)
+        val = self._value_[0]
+        apostrophe = "'" if isinstance(val, unicode) else ''
+        return "{0}({1}{2}{1})".format(self.__class__.__name__, apostrophe, val).encode('utf-8')
 
-    @DynamicClassAttribute
+    def __format__(self, format_spec):
+        return unicode(self._value_[0])
+
+    @property
     def val(self):
+        """The first value of the Enum member."""
         return self._value_[0]
 
 
-class _ReprMixin:
+class _ReprMixin(object):
+    def __str__(self):
+        return unicode(self).encode('utf-8')
+
     def __repr__(self):
-        return "{}('{}')".format(self.__class__.__qualname__, self)
+        return "{}('{}')".format(self.__class__.__name__, self).encode('utf-8')
 
 
 def _make_float(string):
