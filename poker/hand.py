@@ -49,15 +49,15 @@ class _HandMeta(type):
         return iter(cls._all_hands)
 
     def make_random(cls):
-        self = object.__new__(cls)
+        obj = object.__new__(cls)
         first = Rank.make_random()
         second = Rank.make_random()
-        self._set_ranks_in_order(first, second)
+        obj._set_ranks_in_order(first, second)
         if first == second:
-            self._shape = ''
+            obj._shape = ''
         else:
-            self._shape = random.choice(['s', 'o'])
-        return self
+            obj._shape = random.choice(['s', 'o'])
+        return obj
 
 
 @functools.total_ordering

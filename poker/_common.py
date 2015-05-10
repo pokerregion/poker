@@ -2,12 +2,12 @@
 from __future__ import unicode_literals, absolute_import, division, print_function
 
 import random
-from functools import total_ordering
+import functools
 from collections import Iterable
-from enum import Enum, EnumMeta
+import enum
 
 
-class _PokerEnumMeta(EnumMeta):
+class _PokerEnumMeta(enum.EnumMeta):
     def __init__(self, clsname, bases, classdict):
         # make sure we only have tuple values, not single values
         for member in self.__members__.values():
@@ -32,7 +32,7 @@ class _PokerEnumMeta(EnumMeta):
         return random.choice(list(cls))
 
 
-@total_ordering
+@functools.total_ordering
 class _OrderableMixin(object):
     # I couldn't inline this to PokerEnum because Enum do some magic which don't like it.
 
@@ -58,7 +58,7 @@ class _OrderableMixin(object):
         return self.__class__.__name__
 
 
-class PokerEnum(_OrderableMixin, Enum):
+class PokerEnum(_OrderableMixin, enum.Enum):
     __metaclass__ = _PokerEnumMeta
 
     def __unicode__(self):
