@@ -24,27 +24,12 @@ Documentation
 https://poker.readthedocs.org/
 
 
-Requirements
-------------
-
-* Python 2.7
-* pytz
-* requests
-* lxml
-* python-dateutil
-* parsedatetime
-* cacheed-property
-* click
-* enum34
-* pathlib
-* configparser
-
 License
 -------
 
 The MIT License (MIT)
 
-Copyright (c) 2013-2014 Kiss György
+Copyright (c) 2013-2015 Kiss György
 
 
 Repo and contact
@@ -52,8 +37,8 @@ Repo and contact
 
 | Repo: https://github.com/pokerregion/poker
 | Issues: https://github.com/pokerregion/poker/issues
-| `@Walkman_ <https://twitter.com/Walkman_>`_ on twitter
-| or you can reach me on my `public Github e-mail <https://github.com/Walkman>`_.
+| `@kissgyorgy <https://twitter.com/kissgyorgy>`_ on twitter
+| or you can reach me on my `public Github e-mail <https://github.com/kissgyorgy>`_.
 
 
 .. |travis| image:: https://travis-ci.org/pokerregion/poker.svg?branch=master
