@@ -32,7 +32,7 @@ classifiers = [
 
 setup(
     name = 'poker',
-    version = '0.22.1',
+    version = '0.22.2',
     description = 'Poker Framework',
     classifiers = classifiers,
     keywords = 'poker',

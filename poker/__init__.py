@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals, absolute_import, division, print_function
 
-__version__ = '0.22.1'
+import pkg_resources
+__version__ = pkg_resources.get_distribution(__name__).version
+del pkg_resources
+
 
 from poker._common import PokerEnum
 from poker.card import Suit, Rank, Card, FACE_RANKS, BROADWAY_RANKS
