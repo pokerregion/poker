@@ -2,20 +2,19 @@
 from __future__ import unicode_literals, absolute_import, division, print_function
 
 import sys
-from pathlib import Path
-from collections import Sequence
-from contextlib import contextmanager
-from datetime import datetime, date
-from dateutil.tz import tzlocal
+import collections
+import contextlib
+import datetime as dt
+from dateutil import tz
 import click
 
 
-LOCALTIMEZONE = tzlocal()
+LOCALTIMEZONE = tz.tzlocal()
 
 
 # FIXME: This is a hack about click incapability to prompt to stderr.
 # See: https://github.com/mitsuhiko/click/issues/211
-@contextmanager
+@contextlib.contextmanager
 def _redirect_stdout_to_stderr():
     """Redirect standard output to standard error and restore after the context is finished."""
     oldout = sys.stdout
@@ -24,19 +23,24 @@ def _redirect_stdout_to_stderr():
     sys.stdout = oldout
 
 
-def _print_values(info):
-    for what, value in info:
+def _print_header(title):
+    click.echo(title)
+    click.echo('-' * len(title))
+
+
+def _print_values(*args):
+    for what, value in args:
         valueformat = "{!s}"
         if not value:
             value = '-'
         elif isinstance(value, int):
             valueformat = "{:,}"
-        elif isinstance(value, datetime):
+        elif isinstance(value, dt.datetime):
             value = value.astimezone(LOCALTIMEZONE)
             valueformat = "{:%Y-%m-%d (%A) %H:%M (%Z)}"
-        elif isinstance(value, date):
+        elif isinstance(value, dt.date):
             valueformat = "{:%Y-%m-%d}"
-        elif isinstance(value, Sequence) and not isinstance(value, unicode):
+        elif isinstance(value, collections.Sequence) and not isinstance(value, unicode):
             value = ', '.join(value)
         click.echo(('{:<20}' + valueformat).format(what + ': ', value))
 
@@ -44,7 +48,6 @@ def _print_values(info):
 @click.group()
 def poker():
     """Main command for the poker framework."""
-    click.echo()
 
 
 @poker.command('range', short_help="Prints the range in a formatted table in ASCII or HTML.")
@@ -62,9 +65,9 @@ def range_(range, no_border, html):
     click.echo(result)
 
 
-@poker.command(short_help="Get profile information about a Two plus Two member.")
+@poker.command('2p2player', short_help="Get profile information about a Two plus Two member.")
 @click.argument('username')
-def twoplustwo(username):
+def twoplustwo_player(username):
     """Get profile information about a Two plus Two Forum member given the username."""
 
     from .website.twoplustwo import ForumMember, AmbiguousUserNameError, UserNotFoundError
@@ -88,10 +91,8 @@ def twoplustwo(username):
 
         click.echo(err=True)  # empty line after input
 
-    click.echo('Two plus two forum member')
-    click.echo('-------------------------')
-
-    info = (
+    _print_header('Two plus two forum member')
+    _print_values(
         ('Username', member.username),
         ('Forum id', member.id),
         ('Location', member.location),
@@ -105,12 +106,10 @@ def twoplustwo(username):
         ('Avatar', member.avatar),
     )
 
-    _print_values(info)
-
 
 @poker.command(short_help="List pocketfives ranked players (1-100).")
 @click.argument('num', type=click.IntRange(1, 100), default=100)
-def p5players(num):
+def p5list(num):
     """List pocketfives ranked players, max 100 if no NUM, or NUM if specified."""
 
     from .website.pocketfives import get_ranked_players
@@ -137,11 +136,10 @@ def psstatus():
     """Shows PokerStars status such as number of players, tournaments."""
     from .website.pokerstars import get_status
 
-    click.echo('PokerStars status')
-    click.echo('-----------------')
+    _print_header('PokerStars status')
 
     status = get_status()
-    status_info = (
+    _print_values(
         ('Info updated', status.updated),
         ('Tables', status.tables),
         ('Players', status.players),
@@ -150,8 +148,6 @@ def psstatus():
         ('Clubs', status.clubs),
         ('Club members', status.club_members),
     )
-
-    _print_values(status_info)
 
     site_format_str = '{0.id:<12}  {0.tables:<7,}  {0.players:<8,}  {0.active_tournaments:,}'
     click.echo('\nSite          Tables   Players   Tournaments')

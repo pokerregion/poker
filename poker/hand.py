@@ -6,7 +6,6 @@ import random
 import itertools
 import functools
 from decimal import Decimal
-from functools import total_ordering
 from cached_property import cached_property
 from ._common import PokerEnum, _ReprMixin
 from .card import Suit, Rank, Card, BROADWAY_RANKS
@@ -24,8 +23,8 @@ _SUITED_SUIT_COMBINATIONS = ('cc', 'dd', 'hh', 'ss')
 
 class Shape(PokerEnum):
     OFFSUIT = 'o', 'offsuit', 'off'
-    SUITED =  's', 'suited'
-    PAIR =  '',
+    SUITED = 's', 'suited'
+    PAIR = '',
 
 
 class _HandMeta(type):
@@ -61,7 +60,7 @@ class _HandMeta(type):
         return self
 
 
-@total_ordering
+@functools.total_ordering
 class Hand(_ReprMixin):
     """General hand without a precise suit. Only knows about two ranks and shape."""
     __metaclass__ = _HandMeta
@@ -208,7 +207,7 @@ SUITED_HANDS = tuple(hand for hand in Hand if hand.is_suited)
 """Tuple of suited hands in ascending order."""
 
 
-@total_ordering
+@functools.total_ordering
 class Combo(_ReprMixin):
     """Hand combination."""
 
@@ -316,7 +315,6 @@ class Combo(_ReprMixin):
     @property
     def rank_difference(self):
         """The difference between the first and second rank of the Combo."""
-
         # self.first >= self.second
         return Rank.difference(self.first.rank, self.second.rank)
 
@@ -458,7 +456,7 @@ class _RegexRangeLexer(object):
         return cls._get_first_smaller_bigger(slice(0, 2), slice(4, 6), token)
 
 
-@total_ordering
+@functools.total_ordering
 class Range(object):
     """Parses a str range into tuple of Combos (or Hands)."""
     slots = ('_hands', '_combos')
@@ -883,7 +881,9 @@ if __name__ == '__main__':
     print('HANDS')
     cProfile.run("Range('XX').hands", sort='tottime')
 
-    r = 'KK-QQ, 88-77, A5s, A3s, K8s+, K3s, Q7s+, Q5s, Q3s, J9s-J5s, T4s+, 97s, 95s-93s, 87s, 85s-84s, 75s, 64s-63s, 53s, ATo+, K5o+, Q7o-Q5o, J9o-J7o, J4o-J3o, T8o-T3o, 96o+, 94o-93o, 86o+, 84o-83o, 76o, 74o, 63o, 54o, 22'
+    r = ('KK-QQ, 88-77, A5s, A3s, K8s+, K3s, Q7s+, Q5s, Q3s, J9s-J5s, T4s+, 97s, 95s-93s, 87s, '
+         '85s-84s, 75s, 64s-63s, 53s, ATo+, K5o+, Q7o-Q5o, J9o-J7o, J4o-J3o, T8o-T3o, 96o+, '
+         '94o-93o, 86o+, 84o-83o, 76o, 74o, 63o, 54o, 22')
     print('R _all_COMBOS')
     cProfile.run("Range('%s')._all_combos" % r, sort='tottime')
     print('R COMBOS')

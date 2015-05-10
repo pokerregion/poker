@@ -2,7 +2,7 @@
 from __future__ import unicode_literals, absolute_import, division, print_function
 
 import pickle
-from pytest import raises
+import pytest
 from poker.card import Rank
 
 
@@ -66,7 +66,7 @@ def test_case_insensitive():
 
 
 def test_invalid_rank_raises_InvalidRank_Exception():
-    with raises(ValueError):
+    with pytest.raises(ValueError):
         Rank('L')
 
 

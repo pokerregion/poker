@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals, absolute_import, division, print_function
 
+import pytest
 from poker.card import Rank
 from poker.hand import _RegexRangeLexer
-import pytest
 
 
 def test_all():

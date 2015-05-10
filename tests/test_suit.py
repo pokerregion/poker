@@ -2,7 +2,7 @@
 from __future__ import unicode_literals, absolute_import, division, print_function
 
 import pickle
-from pytest import raises
+import pytest
 from poker.card import Suit
 
 
@@ -61,7 +61,7 @@ def test_case_insensitive_reverse():
 
 
 def test_wrong_value_raises_ValueError():
-    with raises(ValueError):
+    with pytest.raises(ValueError):
         Suit('k')
 
 

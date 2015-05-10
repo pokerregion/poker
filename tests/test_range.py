@@ -2,7 +2,7 @@
 from __future__ import unicode_literals, absolute_import, division, print_function
 
 import pickle
-from pytest import raises, mark
+import pytest
 from poker.card import Suit, Card
 from poker.hand import Hand, Combo, Range, PAIR_HANDS
 
@@ -230,11 +230,11 @@ class TestComposeHands:
         assert range.combos == DEUCE_COMBOS
         assert range.hands == (Hand('22'),)
 
-    @mark.xfail
+    @pytest.mark.xfail
     def test_from_percent(self):
         assert Range.from_percent(0.9) == Range('KK+')
 
-    @mark.xfail
+    @pytest.mark.xfail
     def test_from_percent_comparison(self):
         # both represents 0.9%, but they should not be equal
         assert Range('AKo') != Range.from_percent(0.9)
@@ -255,28 +255,28 @@ class TestRangeEquality:
 
 class TestValueChecks:
     def test_invalid_pair(self):
-        with raises(ValueError):
+        with pytest.raises(ValueError):
             Range('HH')
 
     def test_invalid_offsuit(self):
-        with raises(ValueError):
+        with pytest.raises(ValueError):
             Range('KKo')
 
 
     def test_multiple_ranges_one_invalid(self):
-        with raises(ValueError):
+        with pytest.raises(ValueError):
             Range('22+ AKo JK2')
 
     def test_invalid_combos(self):
-        with raises(ValueError):
+        with pytest.raises(ValueError):
             Range('AsKq')
 
     def test_invalid_text_in_range(self):
-        with raises(ValueError):
+        with pytest.raises(ValueError):
             Range('this is not a range')
 
     def test_invalid_Combo(self):
-        with raises(ValueError):
+        with pytest.raises(ValueError):
             Range('AsKq')
 
 class TestComparisons:
@@ -447,7 +447,7 @@ class TestContains:
         assert 'AKo' in Range('AQo+')
 
     def test_wrong_str_in_range_raises_ValueError(self):
-        with raises(ValueError):
+        with pytest.raises(ValueError):
             assert 'AKl' in Range('AQo+')
 
 

@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-import sys
 from setuptools import setup, find_packages
 
 
@@ -19,20 +18,23 @@ install_requires = [
 
 
 console_scripts = [
-    'poker = poker.scripts:poker',
+    'poker = poker.commands:poker',
 ]
+
+
+classifiers = [
+    "Intended Audience :: Developers",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 2.7",
+],
 
 
 setup(
     name = 'poker',
     version = '0.22.1',
     description = 'Poker Framework',
-    classifiers = [
-        "Intended Audience :: Developers",
-        "Programming Language :: Python",
-        "Programming Language :: Python :: 2",
-        "Programming Language :: Python :: 2.7",
-    ],
+    classifiers = classifiers,
     keywords = 'poker',
     author = u'Kiss György',
     author_email = "kissgyorgy@me.com",

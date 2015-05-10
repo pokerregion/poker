@@ -2,7 +2,7 @@
 from __future__ import unicode_literals, absolute_import, division, print_function
 
 import pickle
-from pytest import raises
+import pytest
 from poker.card import Card
 from poker.hand import Shape, Hand, Combo
 
@@ -129,13 +129,13 @@ def test_is_broadway():
 
 
 def test_invalid_combination():
-    with raises(ValueError):
+    with pytest.raises(ValueError):
         Combo('2s2s')
 
-    with raises(ValueError):
+    with pytest.raises(ValueError):
         Combo('2222')
 
-    with raises(ValueError):
+    with pytest.raises(ValueError):
         Combo('KQJQ')
 
 

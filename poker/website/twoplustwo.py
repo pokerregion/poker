@@ -83,9 +83,10 @@ class ForumMember(object):
         return '<{}: {}>'.format(self.__class__.__name__, self.username).encode('utf-8')
 
     @classmethod
-    def from_userid(cls, id):
+    def from_userid(cls, userid):
         self = super(ForumMember, cls).__new__(cls)
-        self.id = id
+        # we need unicode for consistency
+        self.id = userid.decode('utf-8')
         self._download_and_parse()
         return self
 

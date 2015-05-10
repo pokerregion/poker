@@ -2,7 +2,7 @@
 from __future__ import unicode_literals, absolute_import, division, print_function
 
 import pickle
-from pytest import raises
+import pytest
 from poker import Hand, Combo, Rank
 
 
@@ -138,22 +138,22 @@ def test_is_pair():
 
 
 def test_invalid_suit_raises_ValueError():
-    with raises(ValueError):
+    with pytest.raises(ValueError):
         Hand('32l')
 
 
 def test_invalid_rank_raises_ValueError():
-    with raises(ValueError):
+    with pytest.raises(ValueError):
         Hand('AMs')
 
 
 def test_pair_with_suit_raises_ValueError():
-    with raises(ValueError):
+    with pytest.raises(ValueError):
         Hand('22s')
 
 
 def test_hand_without_suit_raises_ValueError():
-    with raises(ValueError):
+    with pytest.raises(ValueError):
         Hand('AK')
 
 

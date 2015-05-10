@@ -2,7 +2,7 @@
 from __future__ import unicode_literals, absolute_import, division, print_function
 
 import pickle
-from pytest import raises
+import pytest
 from poker.card import Card, Rank, Suit
 
 
@@ -127,12 +127,12 @@ def test_make_random_is_instance_of_Card_Rank_and_Suit():
 
 
 def test_invalid_rank_or_card_raises_ValueError():
-    with raises(ValueError):
+    with pytest.raises(ValueError):
         Card('Lh')
 
 
 def test_with_wrong_length_raises_ValueError_and_InvalidCard():
-    with raises(ValueError):
+    with pytest.raises(ValueError):
         Card('AKQs')
 
 

@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals, absolute_import, division, print_function
 
-import pytest
 from datetime import datetime
 from decimal import Decimal
 from collections import OrderedDict
 import pytz
+import pytest
 from poker.room.fulltiltpoker import FullTiltPokerHandHistory, _Flop
 from poker.card import Card
 from poker.hand import Combo

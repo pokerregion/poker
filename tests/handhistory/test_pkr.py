@@ -3,10 +3,9 @@ from __future__ import unicode_literals, absolute_import, division, print_functi
 
 from datetime import datetime
 from decimal import Decimal as D
-from collections import OrderedDict
 import pytz
 from pytz import UTC
-from pytest import mark, fixture
+import pytest
 from poker.handhistory import _Player
 from poker.room.pkr import PKRHandHistory, _Flop
 from poker.card import Card
@@ -14,21 +13,22 @@ from poker.hand import Combo
 from poker.constants import Game, Limit, GameType, MoneyType, Currency, Action
 from .pkr_hands import HANDS
 
-@fixture
+
+@pytest.fixture
 def hand_header(request):
     h = PKRHandHistory(request.instance.hand_text)
     h.parse_header()
     return h
 
 
-@fixture
+@pytest.fixture
 def hand(request):
     hh = PKRHandHistory(request.instance.hand_text)
     hh.parse()
     return hh
 
 
-@fixture
+@pytest.fixture
 def flop(scope='module'):
     return _Flop(['Flop [7 d][3 c][J d]',
                   'barly123 checks',
@@ -42,7 +42,7 @@ def flop(scope='module'):
 class TestHoldemHand:
     hand_text = HANDS['holdem_full']
 
-    @mark.parametrize('attribute, expected_value', [
+    @pytest.mark.parametrize('attribute, expected_value', [
         ('game_type', GameType.CASH),
         ('sb', D('0.25')),
         ('bb', D('0.50')),
@@ -61,7 +61,7 @@ class TestHoldemHand:
         assert getattr(hand_header, attribute) == expected_value
 
 
-    @mark.parametrize('attribute, expected_value', [
+    @pytest.mark.parametrize('attribute, expected_value', [
         ('players', [
         _Player(name='laxi23', stack=D('51.89'), seat=1, combo=None),
         _Player(name='NikosMRF', stack=D('50'), seat=2, combo=None),
@@ -94,7 +94,7 @@ class TestHoldemHand:
     def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value
 
-    @mark.parametrize(('attribute', 'expected_value'), [
+    @pytest.mark.parametrize(('attribute', 'expected_value'), [
         ('actions', (
             ('barly123', Action.CHECK),
             ('Capricorn', Action.BET, D('1.37')),

@@ -3,9 +3,9 @@ from __future__ import unicode_literals, absolute_import, division, print_functi
 
 from pathlib import Path
 from datetime import datetime
+from pytz import UTC
 import pytest
 from poker.room.pokerstars import Notes, _Note, _Label, NoteNotFoundError
-from pytz import UTC
 
 
 @pytest.fixture
