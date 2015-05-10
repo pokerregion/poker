@@ -12,17 +12,6 @@ import click
 LOCALTIMEZONE = tz.tzlocal()
 
 
-# FIXME: This is a hack about click incapability to prompt to stderr.
-# See: https://github.com/mitsuhiko/click/issues/211
-@contextlib.contextmanager
-def _redirect_stdout_to_stderr():
-    """Redirect standard output to standard error and restore after the context is finished."""
-    oldout = sys.stdout
-    sys.stdout = sys.stderr
-    yield
-    sys.stdout = oldout
-
-
 def _print_header(title):
     click.echo(title)
     click.echo('-' * len(title))
@@ -82,9 +71,8 @@ def twoplustwo_player(username):
         for ind, user in enumerate(e.users):
             click.echo('{}. {}'.format(ind + 1, user.name), err=True)
 
-        with _redirect_stdout_to_stderr():
-            number = click.prompt('Which would you like to see [{}-{}]'.format(1, len(e.users)),
-                                  prompt_suffix='? ', type=click.IntRange(1, len(e.users)))
+        number = click.prompt('Which would you like to see [{}-{}]'.format(1, len(e.users)),
+                              prompt_suffix='? ', type=click.IntRange(1, len(e.users)), err=True)
 
         userid = e.users[int(number) - 1].id
         member = ForumMember.from_userid(userid)
