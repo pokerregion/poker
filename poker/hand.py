@@ -677,7 +677,6 @@ class Range(object):
                     suit, cssclass = 'o', 'offsuit'
                 else:
                     suit, cssclass = '', 'pair'
-                    suit = ''
 
                 html.append('<td class="%s">' % cssclass)
                 hand = Hand(row.val + col.val + suit)
