@@ -17,6 +17,8 @@ class _PokerEnumMeta(enum.EnumMeta):
                     .format(member._name_, values, type(values))
                 )
             for alias in values:
+                if isinstance(alias, str):
+                    alias = alias.decode('utf-8')
                 if isinstance(alias, unicode):
                     alias = alias.upper()
                 self._value2member_map_.setdefault(alias, member)
@@ -24,6 +26,8 @@ class _PokerEnumMeta(enum.EnumMeta):
     def __call__(cls, value):
         """Return the appropriate instance with any of the values listed. If values contains
         text types, those will be looked up in a case insensitive manner."""
+        if isinstance(value, str):
+            value = value.decode('utf-8')
         if isinstance(value, unicode):
             value = value.upper()
         return super(_PokerEnumMeta, cls).__call__(value)
