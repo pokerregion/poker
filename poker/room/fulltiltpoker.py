@@ -4,7 +4,7 @@ from __future__ import unicode_literals, absolute_import, division, print_functi
 import re
 from decimal import Decimal
 import pytz
-from ..handhistory import _Player, _SplittableHandHistory, _BaseFlop
+from ..handhistory import _Player, _SplittableHandHistory, _BaseStreet, _PlayerAction
 from ..card import Card
 from ..hand import Combo
 from ..constants import Limit, Game, GameType, Currency, Action
@@ -14,7 +14,7 @@ from .._common import _make_int
 __all__ = ['FullTiltPokerHandHistory']
 
 
-class _Flop(_BaseFlop):
+class _Street(_BaseStreet):
     def _parse_cards(self, boardline):
         self.cards = (Card(boardline[1:3]), Card(boardline[4:6]), Card(boardline[7:9]))
 
@@ -22,19 +22,20 @@ class _Flop(_BaseFlop):
         actions = []
         for line in actionlines:
             if line.startswith('Uncalled bet'):
-                actions.append(self._parse_uncalled(line))
+                action = self._parse_uncalled(line)
             elif 'raises to' in line:
-                actions.append(self._parse_raise(line))
+                action = self._parse_raise(line)
             elif 'wins the pot' in line:
-                actions.append(self._parse_win(line))
+                action = self._parse_win(line)
             elif 'mucks' in line:
-                actions.append(self._parse_muck(line))
+                action = self._parse_muck(line)
             elif 'seconds left to act' in line:
-                actions.append(self._parse_think(line))
+                action = self._parse_think(line)
             elif ' ' in line:
-                actions.append(self._parse_player_action(line))
+                action = self._parse_player_action(line)
             else:
                 raise
+            actions.append(_PlayerAction(*action))
         self.actions = tuple(actions) if actions else None
 
     def _parse_uncalled(self, line):
@@ -64,12 +65,12 @@ class _Flop(_BaseFlop):
     def _parse_muck(self, line):
         space_index = line.find(' ')
         name = line[:space_index]
-        return name, Action.MUCK
+        return name, Action.MUCK, None
 
     def _parse_think(self, line):
         space_index = line.find(' ')
         name = line[:space_index]
-        return name, Action.THINK
+        return name, Action.THINK, None
 
     def _parse_player_action(self, line):
         space_index = line.find(' ')
@@ -83,7 +84,7 @@ class _Flop(_BaseFlop):
             amount = line[end_action_index + 1:]
             return name, action, Decimal(amount)
         else:
-            return name, action
+            return name, action, None
 
 
 class FullTiltPokerHandHistory(_SplittableHandHistory):
@@ -197,7 +198,7 @@ class FullTiltPokerHandHistory(_SplittableHandHistory):
             return
         stop = next(v for v in self._sections if v > start)
         floplines = self._splitted[start + 1:stop]
-        self.flop = _Flop(floplines)
+        self.flop = _Street(floplines)
 
     def _parse_street(self, street):
         try:

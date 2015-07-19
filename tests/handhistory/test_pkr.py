@@ -6,11 +6,11 @@ from decimal import Decimal as D
 import pytz
 from pytz import UTC
 import pytest
-from poker.handhistory import _Player
-from poker.room.pkr import PKRHandHistory, _Flop
 from poker.card import Card
 from poker.hand import Combo
 from poker.constants import Game, Limit, GameType, MoneyType, Currency, Action
+from poker.handhistory import _Player, _PlayerAction
+from poker.room.pkr import PKRHandHistory, _Street
 from .pkr_hands import HANDS
 
 
@@ -30,7 +30,7 @@ def hand(request):
 
 @pytest.fixture
 def flop(scope='module'):
-    return _Flop(['Flop [7 d][3 c][J d]',
+    return _Street(['Flop [7 d][3 c][J d]',
                   'barly123 checks',
                   'Capricorn bets $1.37',
                   'barly123 raises to $4.11',
@@ -59,7 +59,6 @@ class TestHoldemHand:
     ])
     def test_header(self, hand_header, attribute, expected_value):
         assert getattr(hand_header, attribute) == expected_value
-
 
     @pytest.mark.parametrize('attribute, expected_value', [
         ('players', [
@@ -96,10 +95,10 @@ class TestHoldemHand:
 
     @pytest.mark.parametrize(('attribute', 'expected_value'), [
         ('actions', (
-            ('barly123', Action.CHECK),
-            ('Capricorn', Action.BET, D('1.37')),
-            ('barly123', Action.RAISE, D('4.11')),
-            ('Capricorn', Action.CALL, D('4.11')),
+            _PlayerAction('barly123', Action.CHECK, None),
+            _PlayerAction('Capricorn', Action.BET, D('1.37')),
+            _PlayerAction('barly123', Action.RAISE, D('4.11')),
+            _PlayerAction('Capricorn', Action.CALL, D('4.11')),
         )),
         ('cards', (Card('7d'), Card('3c'), Card('Jd'))),
         ('is_rainbow', False),
@@ -116,4 +115,4 @@ class TestHoldemHand:
         assert getattr(hand.flop, attribute) == expected_value
 
     def test_flop(self, hand):
-        assert isinstance(hand.flop, _Flop)
+        assert isinstance(hand.flop, _Street)

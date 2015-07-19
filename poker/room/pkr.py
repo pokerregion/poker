@@ -4,7 +4,7 @@ from __future__ import unicode_literals, absolute_import, division, print_functi
 import re
 from decimal import Decimal
 import pytz
-from ..handhistory import _SplittableHandHistory, _Player, _BaseFlop
+from ..handhistory import _SplittableHandHistory, _Player, _BaseStreet, _PlayerAction
 from ..hand import Combo, Card
 from ..constants import Limit, Game, GameType, MoneyType, Currency, Action
 
@@ -12,7 +12,7 @@ from ..constants import Limit, Game, GameType, MoneyType, Currency, Action
 __all__ = ['PKRHandHistory']
 
 
-class _Flop(_BaseFlop):
+class _Street(_BaseStreet):
     def _parse_cards(self, boardline):
         self.cards = (Card(boardline[6:9:2]), Card(boardline[11:14:2]), Card(boardline[16:19:2]))
 
@@ -22,7 +22,7 @@ class _Flop(_BaseFlop):
             if line.startswith('Pot sizes:'):
                 self._parse_pot(line)
             elif ' ' in line:
-                actions.append(self._parse_player_action(line))
+                actions.append(_PlayerAction(*self._parse_player_action(line)))
             else:
                 raise
         self.actions = tuple(actions) if actions else None
@@ -45,7 +45,7 @@ class _Flop(_BaseFlop):
             amount = line[amount_start_index:]
             return name, action, Decimal(amount)
         else:
-            return name, action
+            return name, action, None
 
 
 class PKRHandHistory(_SplittableHandHistory):
@@ -137,7 +137,7 @@ class PKRHandHistory(_SplittableHandHistory):
         start = self._sections[flop_section] + 1
         stop = next(v for v in self._sections if v > start)
         floplines = self._splitted[start:stop]
-        self.flop = _Flop(floplines)
+        self.flop = _Street(floplines)
 
     def _parse_street(self, street):
         section = self._STREET_SECTIONS[street]

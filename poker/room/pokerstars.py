@@ -9,7 +9,7 @@ from lxml import etree
 import pytz
 from pytz import UTC
 from pathlib import Path
-from ..handhistory import _Player, _SplittableHandHistory, _BaseFlop
+from ..handhistory import _Player, _SplittableHandHistory, _BaseStreet, _PlayerAction
 from ..card import Card
 from ..hand import Combo
 from ..constants import Limit, Game, GameType, Currency, Action
@@ -18,7 +18,7 @@ from ..constants import Limit, Game, GameType, Currency, Action
 __all__ = ['PokerStarsHandHistory', 'Notes']
 
 
-class _Flop(_BaseFlop):
+class _Street(_BaseStreet):
     def _parse_cards(self, boardline):
         self.cards = (Card(boardline[1:3]), Card(boardline[4:6]), Card(boardline[7:9]))
 
@@ -26,15 +26,16 @@ class _Flop(_BaseFlop):
         actions = []
         for line in actionlines:
             if line.startswith('Uncalled bet'):
-                actions.append(self._parse_uncalled(line))
+                action = self._parse_uncalled(line)
             elif 'collected' in line:
-                actions.append(self._parse_collected(line))
+                action = self._parse_collected(line)
             elif "doesn't show hand" in line:
-                actions.append(self._parse_muck(line))
+                action = self._parse_muck(line)
             elif ':' in line:
-                actions.append(self._parse_player_action(line))
+                action = self._parse_player_action(line)
             else:
                 raise
+            actions.append(_PlayerAction(*action))
         self.actions = tuple(actions) if actions else None
 
     def _parse_uncalled(self, line):
@@ -57,7 +58,7 @@ class _Flop(_BaseFlop):
     def _parse_muck(self, line):
         colon_index = line.find(':')
         name = line[:colon_index]
-        return name, Action.MUCK
+        return name, Action.MUCK, None
 
     def _parse_player_action(self, line):
         colon_index = line.find(':')
@@ -70,7 +71,7 @@ class _Flop(_BaseFlop):
             amount = line[end_action_index+1:]
             return name, action, Decimal(amount)
         else:
-            return name, action
+            return name, action, None
 
 
 
@@ -173,7 +174,7 @@ class PokerStarsHandHistory(_SplittableHandHistory):
             return
         stop = self._splitted.index('', start)
         floplines = self._splitted[start:stop]
-        self.flop = _Flop(floplines)
+        self.flop = _Street(floplines)
 
     def _parse_street(self, street):
         try:

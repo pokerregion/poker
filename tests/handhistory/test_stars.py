@@ -6,11 +6,11 @@ from datetime import datetime
 from collections import namedtuple
 import pytz
 import pytest
-from poker.handhistory import _Player
-from poker.room.pokerstars import PokerStarsHandHistory, _Flop
 from poker.card import Card
 from poker.hand import Combo
 from poker.constants import Currency, GameType, Game, Limit, Action
+from poker.handhistory import _Player, _PlayerAction
+from poker.room.pokerstars import PokerStarsHandHistory, _Street
 from . import stars_hands
 
 
@@ -35,7 +35,7 @@ def hand_header(request):
 
 @pytest.fixture(scope='module')
 def flop():
-    return _Flop([
+    return _Street([
         '[2s 6d 6h]',
         'W2lkm2n: bets 80',
         'MISTRPerfect: folds',
@@ -109,11 +109,11 @@ class TestHandWithFlopOnly:
 
     @pytest.mark.parametrize(('attribute', 'expected_value'), [
         ('actions', (
-            ('W2lkm2n', Action.BET, Decimal(80)),
-            ('MISTRPerfect', Action.FOLD),
-            ('W2lkm2n', Action.RETURN, Decimal(80)),
-            ('W2lkm2n', Action.WIN, Decimal(150)),
-            ('W2lkm2n', Action.MUCK),
+            _PlayerAction('W2lkm2n', Action.BET, Decimal(80)),
+            _PlayerAction('MISTRPerfect', Action.FOLD, None),
+            _PlayerAction('W2lkm2n', Action.RETURN, Decimal(80)),
+            _PlayerAction('W2lkm2n', Action.WIN, Decimal(150)),
+            _PlayerAction('W2lkm2n', Action.MUCK, None),
         )),
         ('cards', (Card('2s'), Card('6d'), Card('6h'))),
         ('is_rainbow', True),
@@ -132,7 +132,7 @@ class TestHandWithFlopOnly:
         assert getattr(hand.flop, attribute) == expected_value
 
     def test_flop(self, hand):
-        assert isinstance(hand.flop, _Flop)
+        assert isinstance(hand.flop, _Street)
 
 
 class TestAllinPreflopHand:
@@ -211,7 +211,7 @@ class TestAllinPreflopHand:
         assert getattr(hand.flop, attribute) == expected_value
 
     def test_flop(self, hand):
-        assert isinstance(hand.flop, _Flop)
+        assert isinstance(hand.flop, _Street)
 
     @pytest.mark.xfail
     def test_flop_pot(self, hand):
@@ -354,9 +354,9 @@ class TestBodyEveryStreet:
 
     @pytest.mark.parametrize(('attribute', 'expected_value'), [
         ('actions', (
-            ('blak_douglas', Action.CHECK),
-            ('flettl2', Action.BET, Decimal(150)),
-            ('blak_douglas', Action.CALL, Decimal(150)),
+            _PlayerAction('blak_douglas', Action.CHECK, None),
+            _PlayerAction('flettl2', Action.BET, Decimal(150)),
+            _PlayerAction('blak_douglas', Action.CALL, Decimal(150)),
         )),
         ('cards', (Card('6s'), Card('4d'), Card('3s'))),
         ('is_rainbow', False),
@@ -374,7 +374,7 @@ class TestBodyEveryStreet:
         assert getattr(hand.flop, attribute) == expected_value
 
     def test_flop(self, hand):
-        assert isinstance(hand.flop, _Flop)
+        assert isinstance(hand.flop, _Street)
 
     @pytest.mark.xfail
     def test_flop_pot(self, hand):
