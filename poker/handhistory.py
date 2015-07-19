@@ -5,6 +5,7 @@ from __future__ import unicode_literals, absolute_import, division, print_functi
     Poker hand history parser module.
 """
 
+import itertools
 from abc import ABCMeta, abstractmethod
 from collections import namedtuple
 from inspect import ismethod
@@ -22,27 +23,29 @@ _Player = namedtuple('_Player', 'name, stack, seat, combo')
 class _BaseFlop(object):
     __metaclass__ = ABCMeta
 
-    @abstractmethod
-    def __init__(self, flop, initial_pot):
-        pass
+    def __init__(self, flop):
+        self.pot = None
+        self.actions = None
+        self.cards = None
+        self._parse_cards(flop[0])
+        self._parse_actions(flop[1:])
+        self._all_combinations = itertools.combinations(self.cards, 2)
 
     @cached_property
     def is_rainbow(self):
-        return self.cards[0].suit != self.cards[1].suit != self.cards[2].suit != self.cards[0].suit
+        return all(first.suit != second.suit for first, second in self._all_combinations)
 
     @cached_property
     def is_monotone(self):
-        return self.cards[0].suit == self.cards[1].suit == self.cards[2].suit
+        return all(first.suit == second.suit for first, second in self._all_combinations)
 
     @cached_property
     def is_triplet(self):
-        return self.cards[0].rank == self.cards[1].rank == self.cards[2].rank
+        return all(first.rank == second.rank for first, second in self._all_combinations)
 
     @cached_property
     def has_pair(self):
-        return (self.cards[0].rank == self.cards[1].rank or
-                self.cards[0].rank == self.cards[2].rank or
-                self.cards[1].rank == self.cards[2].rank)
+        return any(first.rank == second.rank for first, second in self._all_combinations)
 
     @cached_property
     def has_straightdraw(self):
@@ -54,9 +57,7 @@ class _BaseFlop(object):
 
     @cached_property
     def has_flushdraw(self):
-        return (self.cards[0].suit == self.cards[1].suit or
-                self.cards[0].suit == self.cards[2].suit or
-                self.cards[1].suit == self.cards[2].suit)
+        return any(first.suit == second.suit for first, second in self._all_combinations)
 
     @cached_property
     def players(self):
@@ -70,9 +71,8 @@ class _BaseFlop(object):
         return tuple(player_names)
 
     def _get_differences(self):
-        return (Rank.difference(self.cards[0].rank, self.cards[1].rank),
-                Rank.difference(self.cards[0].rank, self.cards[2].rank),
-                Rank.difference(self.cards[1].rank, self.cards[2].rank))
+        return (Rank.difference(first.rank, second.rank)
+                for first, second in self._all_combinations)
 
 
 class _BaseHandHistory(object):
@@ -88,9 +88,8 @@ class _BaseHandHistory(object):
 
     @classmethod
     def from_file(cls, filename):
-        hand_text = open(filename).read()
-        self = cls(hand_text)
-        return self
+        with open(filename) as f:
+            return cls(f.read())
 
     def __unicode__(self):
         return "<{}: #{}>" .format(self.__class__.__name__, self.ident)
@@ -161,8 +160,8 @@ class _SplittableHandHistory(_BaseHandHistory):
         self._parse_players()
         self._parse_button()
         self._parse_hero()
-        pot = self._parse_preflop()
-        self._parse_flop(pot)
+        self._parse_preflop()
+        self._parse_flop()
         self._parse_street('turn')
         self._parse_street('river')
         self._parse_showdown()

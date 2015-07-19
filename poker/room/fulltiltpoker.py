@@ -15,15 +15,7 @@ __all__ = ['FullTiltPokerHandHistory']
 
 
 class _Flop(_BaseFlop):
-    def __init__(self, flop, initial_pot):
-        self._initial_pot = self.pot = initial_pot
-        self.actions = None
-        self.cards = None
-        self._parse_cards(flop[0])
-        self._parse_actions(flop[1:])
-
     def _parse_cards(self, boardline):
-        # print(boardline)
         self.cards = (Card(boardline[1:3]), Card(boardline[4:6]), Card(boardline[7:9]))
 
     def _parse_actions(self, actionlines):
@@ -66,7 +58,7 @@ class _Flop(_BaseFlop):
         first_paren_index = line.find('(')
         last_paren_index = -1
         amount = line[first_paren_index + 1:last_paren_index]
-        self.pot = self._initial_pot + Decimal(amount)
+        self.pot = Decimal(amount)
         return name, Action.WIN, self.pot
 
     def _parse_muck(self, line):
@@ -134,19 +126,19 @@ class FullTiltPokerHandHistory(_SplittableHandHistory):
 
     def parse_header(self):
         header_line = self._splitted[0]
-        self._header_match = self._header_re.match(header_line)
-        self.sb = Decimal(self._header_match.group('sb'))
-        self.bb = Decimal(self._header_match.group('bb'))
-        self._parse_date(self._header_match.group('date'))
-        self.ident = self._header_match.group('ident')
-        tournament_name = self._header_match.group('tournament_name')
+        header_match = self._header_re.match(header_line)
+        self.sb = Decimal(header_match.group('sb'))
+        self.bb = Decimal(header_match.group('bb'))
+        self._parse_date(header_match.group('date'))
+        self.ident = header_match.group('ident')
+        tournament_name = header_match.group('tournament_name')
         self.game_type = GameType.SNG if 'Sit & Go' in tournament_name else GameType.TOUR
         self.currency = Currency.USD if '$' in tournament_name else None
-        self.tournament_ident = self._header_match.group('tournament_ident')
-        self.table_name = self._header_match.group('table_name')
-        self.limit = Limit(self._header_match.group('limit'))
-        self.game = Game(self._header_match.group('game'))
-        buyin = self._header_match.group('buyin')
+        self.tournament_ident = header_match.group('tournament_ident')
+        self.table_name = header_match.group('table_name')
+        self.limit = Limit(header_match.group('limit'))
+        self.game = Game(header_match.group('game'))
+        buyin = header_match.group('buyin')
         self.buyin = Decimal(buyin) if buyin else None
 
         self.extra = dict()
@@ -196,10 +188,8 @@ class FullTiltPokerHandHistory(_SplittableHandHistory):
         start = self._sections[0] + 3
         stop = self._sections[1]
         self.preflop_actions = tuple(self._splitted[start:stop])
-        initial_pot = 0
-        return initial_pot
 
-    def _parse_flop(self, initial_pot):
+    def _parse_flop(self):
         try:
             start = self._splitted.index('FLOP')
         except ValueError:
@@ -207,7 +197,7 @@ class FullTiltPokerHandHistory(_SplittableHandHistory):
             return
         stop = next(v for v in self._sections if v > start)
         floplines = self._splitted[start + 1:stop]
-        self.flop = _Flop(floplines, initial_pot)
+        self.flop = _Flop(floplines)
 
     def _parse_street(self, street):
         try:

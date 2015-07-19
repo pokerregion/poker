@@ -13,14 +13,6 @@ __all__ = ['PKRHandHistory']
 
 
 class _Flop(_BaseFlop):
-    def __init__(self, flop, initial_pot):
-        # print('FLOP:', flop)
-        self._initial_pot = self.pot = initial_pot
-        self.actions = None
-        self.cards = None
-        self._parse_cards(flop[0])
-        self._parse_actions(flop[1:])
-
     def _parse_cards(self, boardline):
         self.cards = (Card(boardline[6:9:2]), Card(boardline[11:14:2]), Card(boardline[16:19:2]))
 
@@ -36,7 +28,6 @@ class _Flop(_BaseFlop):
         self.actions = tuple(actions) if actions else None
 
     def _parse_pot(self, line):
-        # print('PARSE POT')
         amount_start_index = 12
         amount = line[amount_start_index:]
         self.pot = Decimal(amount)
@@ -141,12 +132,12 @@ class PKRHandHistory(_SplittableHandHistory):
         stop = self._splitted.index('', start + 1) - 1
         self.preflop_actions = tuple(self._splitted[start:stop])
 
-    def _parse_flop(self, initial_pot):
+    def _parse_flop(self):
         flop_section = self._STREET_SECTIONS['flop']
         start = self._sections[flop_section] + 1
         stop = next(v for v in self._sections if v > start)
         floplines = self._splitted[start:stop]
-        self.flop = _Flop(floplines, initial_pot)
+        self.flop = _Flop(floplines)
 
     def _parse_street(self, street):
         section = self._STREET_SECTIONS[street]

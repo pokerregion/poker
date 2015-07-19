@@ -19,13 +19,6 @@ __all__ = ['PokerStarsHandHistory', 'Notes']
 
 
 class _Flop(_BaseFlop):
-    def __init__(self, flop, initial_pot):
-        self._initial_pot = self.pot = initial_pot
-        self.actions = None
-        self.cards = None
-        self._parse_cards(flop[0])
-        self._parse_actions(flop[1:])
-
     def _parse_cards(self, boardline):
         self.cards = (Card(boardline[1:3]), Card(boardline[4:6]), Card(boardline[7:9]))
 
@@ -58,7 +51,7 @@ class _Flop(_BaseFlop):
         second_space_index = line.find(' ', first_space_index + 1)
         third_space_index = line.find(' ', second_space_index + 1)
         amount = line[second_space_index + 1:third_space_index]
-        self.pot = self._initial_pot + Decimal(amount)
+        self.pot = Decimal(amount)
         return name, Action.WIN, self.pot
 
     def _parse_muck(self, line):
@@ -70,8 +63,7 @@ class _Flop(_BaseFlop):
         colon_index = line.find(':')
         name = line[:colon_index]
         end_action_index = line.find(' ', colon_index + 2)
-        # -1 means not found
-        if end_action_index == -1:
+        if end_action_index == -1:  # not found
             end_action_index = None  # until the end
         action = Action(line[colon_index + 2:end_action_index])
         if end_action_index:
@@ -172,10 +164,8 @@ class PokerStarsHandHistory(_SplittableHandHistory):
         start = self._sections[0] + 3
         stop = self._sections[1]
         self.preflop_actions = tuple(self._splitted[start:stop])
-        initial_pot = 0
-        return initial_pot
 
-    def _parse_flop(self, initial_pot):
+    def _parse_flop(self):
         try:
             start = self._splitted.index('FLOP') + 1
         except ValueError:
@@ -183,7 +173,7 @@ class PokerStarsHandHistory(_SplittableHandHistory):
             return
         stop = self._splitted.index('', start)
         floplines = self._splitted[start:stop]
-        self.flop = _Flop(floplines, initial_pot)
+        self.flop = _Flop(floplines)
 
     def _parse_street(self, street):
         try:
