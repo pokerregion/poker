@@ -5,11 +5,10 @@ from __future__ import unicode_literals, absolute_import, division, print_functi
     Poker hand history parser module.
 """
 
+import io
 import itertools
 from abc import ABCMeta, abstractmethod
 from collections import namedtuple
-from inspect import ismethod
-from decimal import Decimal
 from datetime import datetime
 import pytz
 from cached_property import cached_property
@@ -91,7 +90,7 @@ class _BaseHandHistory(object):
 
     @classmethod
     def from_file(cls, filename):
-        with open(filename) as f:
+        with io.open(filename) as f:
             return cls(f.read())
 
     def __unicode__(self):

@@ -45,8 +45,17 @@ def flop():
         ], 0)
 
 
+def test_open_from_file(testdir):
+    bbb_path = str(testdir.joinpath('handhistory/bbb.txt'))
+    hh = PokerStarsHandHistory.from_file(bbb_path)
+    hh.parse()
+    assert hh.ident == '138364355489'
+    assert type(hh.raw) is unicode
+
+
 class TestHandWithFlopOnly:
     hand_text = stars_hands.HAND1
+
     # in py.test 2.4 it is recommended to use string like "attribute,expected",
     # but with tuple, it works in both 2.3.5 and 2.4
     @pytest.mark.parametrize(('attribute', 'expected_value'), [

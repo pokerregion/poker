@@ -1,0 +1,46 @@
+PokerStars Hand #138364355489: Tournament #1280727192, $3.19+$0.31 USD Hold'em No Limit - Level VIII (150/300) - 2015/07/22 2:17:55 BRT [2015/07/22 1:17:55 ET]
+Table '1280727192 2' 9-max Seat #5 is the button
+Seat 3: py3k (2388 in chips)
+Seat 4: Sky_Shanks (3751 in chips)
+Seat 5: rockrock568 (2041 in chips)
+Seat 6: SiickTico (8831 in chips)
+Seat 7: SanSuhan (1890 in chips)
+Seat 8: allbluff78 (4615 in chips)
+Seat 9: shakuni8492 (5713 in chips)
+py3k: posts the ante 25
+Sky_Shanks: posts the ante 25
+rockrock568: posts the ante 25
+SiickTico: posts the ante 25
+SanSuhan: posts the ante 25
+allbluff78: posts the ante 25
+shakuni8492: posts the ante 25
+SiickTico: posts small blind 150
+SanSuhan: posts big blind 300
+*** HOLE CARDS ***
+Dealt to py3k [Js 3s]
+allbluff78: folds
+shakuni8492: folds
+py3k: raises 2063 to 2363 and is all-in
+Sky_Shanks: raises 1363 to 3726 and is all-in
+rockrock568: folds
+SiickTico: folds
+SanSuhan: folds
+Uncalled bet (1363) returned to Sky_Shanks
+*** FLOP *** [Ts Td As]
+*** TURN *** [Ts Td As] [Jd]
+*** RIVER *** [Ts Td As Jd] [2c]
+*** SHOW DOWN ***
+py3k: shows [Js 3s] (two pair, Jacks and Tens)
+Sky_Shanks: shows [Kc Qc] (a straight, Ten to Ace)
+Sky_Shanks collected 5351 from pot
+py3k finished the tournament in 14th place
+*** SUMMARY ***
+Total pot 5351 | Rake 0
+Board [Ts Td As Jd 2c]
+Seat 3: py3k showed [Js 3s] and lost with two pair, Jacks and Tens
+Seat 4: Sky_Shanks showed [Kc Qc] and won (5351) with a straight, Ten to Ace
+Seat 5: rockrock568 (button) folded before Flop (didn't bet)
+Seat 6: SiickTico (small blind) folded before Flop
+Seat 7: SanSuhan (big blind) folded before Flop
+Seat 8: allbluff78 folded before Flop (didn't bet)
+Seat 9: shakuni8492 folded before Flop (didn't bet)
