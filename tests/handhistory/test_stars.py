@@ -3,7 +3,6 @@ from __future__ import unicode_literals, absolute_import, division, print_functi
 
 from decimal import Decimal
 from datetime import datetime
-from collections import namedtuple
 import pytz
 import pytest
 from poker.card import Card
@@ -19,7 +18,9 @@ ET = pytz.timezone('US/Eastern')
 
 @pytest.fixture
 def hand(request):
-    """Parse handhistory defined in hand_text class attribute and returns a PokerStarsHandHistory instance."""
+    """Parse handhistory defined in hand_text class attribute
+    and returns a PokerStarsHandHistory instance.
+    """
     hh = PokerStarsHandHistory(request.instance.hand_text)
     hh.parse()
     return hh
@@ -27,7 +28,9 @@ def hand(request):
 
 @pytest.fixture
 def hand_header(request):
-    """Parse hand history header only defined in hand_text and returns a PokerStarsHandHistory instance."""
+    """Parse hand history header only defined in hand_text
+    and returns a PokerStarsHandHistory instance.
+    """
     hh = PokerStarsHandHistory(request.instance.hand_text)
     hh.parse_header()
     return hh
@@ -78,9 +81,7 @@ class TestHandWithFlopOnly:
     @pytest.mark.parametrize(('attribute', 'expected_value'), [
         ('table_name', '797469411 15'),
         ('max_players', 9),
-        ('button', _Player(name='flettl2', stack=1500, seat=1,
-                                   combo=None)
-        ),
+        ('button', _Player(name='flettl2', stack=1500, seat=1, combo=None)),
         ('hero', _Player(name='W2lkm2n', stack=3000, seat=5, combo=Combo('AcJh'))),
         ('players', [
             _Player(name='flettl2', stack=1500, seat=1, combo=None),
@@ -183,16 +184,17 @@ class TestAllinPreflopHand:
         ('turn', Card('8d')),
         ('river', Card('Ks')),
         ('board', (Card('3c'), Card('6s'), Card('9d'), Card('8d'), Card('Ks'))),
-        ('preflop_actions', ("lkenny44: folds",
-                           "Newfie_187: raises 155 to 955 and is all-in",
-                           "Hokolix: folds",
-                           "pmmr: folds",
-                           "costamar: raises 12040 to 12995 and is all-in",
-                           "RichFatWhale: folds",
-                           "W2lkm2n: calls 11740 and is all-in",
-                           "Labahra: folds",
-                           "Lean Abadia: folds",
-                           "Uncalled bet (1255) returned to costamar")),
+        ('preflop_actions', (
+            "lkenny44: folds",
+            "Newfie_187: raises 155 to 955 and is all-in",
+            "Hokolix: folds",
+            "pmmr: folds",
+            "costamar: raises 12040 to 12995 and is all-in",
+            "RichFatWhale: folds",
+            "W2lkm2n: calls 11740 and is all-in",
+            "Labahra: folds",
+            "Lean Abadia: folds",
+            "Uncalled bet (1255) returned to costamar")),
         ('turn_actions', None),
         ('river_actions', None),
         ('total_pot', Decimal(26310)),
@@ -340,8 +342,7 @@ class TestBodyEveryStreet:
             'strongi82: folds',
             'W2lkm2n: folds',
             'MISTRPerfect: folds',
-            'blak_douglas: calls 125')
-        ),
+            'blak_douglas: calls 125')),
         ('turn_actions', (
             'blak_douglas: checks',
             'flettl2: bets 250',

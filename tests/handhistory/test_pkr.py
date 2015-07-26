@@ -3,7 +3,6 @@ from __future__ import unicode_literals, absolute_import, division, print_functi
 
 from datetime import datetime
 from decimal import Decimal as D
-import pytz
 from pytz import UTC
 import pytest
 from poker.card import Card
@@ -30,13 +29,14 @@ def hand(request):
 
 @pytest.fixture
 def flop(scope='module'):
-    return _Street(['Flop [7 d][3 c][J d]',
-                  'barly123 checks',
-                  'Capricorn bets $1.37',
-                  'barly123 raises to $4.11',
-                  'Capricorn calls $4.11',
-                  'Pot sizes: $10.97',
-                  ], 0)
+    return _Street([
+        'Flop [7 d][3 c][J d]',
+        'barly123 checks',
+        'Capricorn bets $1.37',
+        'barly123 raises to $4.11',
+        'Capricorn calls $4.11',
+        'Pot sizes: $10.97',
+        ], 0)
 
 
 class TestHoldemHand:
@@ -62,21 +62,22 @@ class TestHoldemHand:
 
     @pytest.mark.parametrize('attribute, expected_value', [
         ('players', [
-        _Player(name='laxi23', stack=D('51.89'), seat=1, combo=None),
-        _Player(name='NikosMRF', stack=D('50'), seat=2, combo=None),
-        _Player(name='Capricorn', stack=D('33.6'), seat=3, combo=None),
-        _Player(name='Walkman', stack=D('50'), seat=4, combo=Combo('9s6d')),
-        _Player(name='Empty Seat 5', stack=0, seat=5, combo=None),
-        _Player(name='barly123', stack=D('50.35'), seat=6, combo=None),
+            _Player(name='laxi23', stack=D('51.89'), seat=1, combo=None),
+            _Player(name='NikosMRF', stack=D('50'), seat=2, combo=None),
+            _Player(name='Capricorn', stack=D('33.6'), seat=3, combo=None),
+            _Player(name='Walkman', stack=D('50'), seat=4, combo=Combo('9s6d')),
+            _Player(name='Empty Seat 5', stack=0, seat=5, combo=None),
+            _Player(name='barly123', stack=D('50.35'), seat=6, combo=None),
         ]),
         ('button', _Player(name='Capricorn', stack=D('33.6'), seat=3, combo=None)),
         ('max_players', 6),   # maybe imprecise
         ('hero', _Player(name='Walkman', stack=D('50'), seat=4, combo=Combo('9s6d'))),
-        ('preflop_actions', ('laxi23 folds',
-                           'Capricorn calls $0.50',
-                           'Walkman folds',
-                           'barly123 raises to $1.25',
-                           'Capricorn calls $1.25')),
+        ('preflop_actions', (
+            'laxi23 folds',
+            'Capricorn calls $0.50',
+            'Walkman folds',
+            'barly123 raises to $1.25',
+            'Capricorn calls $1.25')),
         ('turn', Card('Js')),
         ('turn_pot', D('10.97')),
         ('turn_actions', ('barly123 checks', 'Capricorn checks')),

@@ -6,7 +6,7 @@ from ._common import PokerEnum
 
 class PokerRoom(PokerEnum):
     STARS = 'PokerStars', 'STARS', 'PS'
-    FTP =  'Full Tilt Poker', 'FTP', 'FULL TILT'
+    FTP = 'Full Tilt Poker', 'FTP', 'FULL TILT'
     PKR = 'PKR', 'PKR POKER'
 
 

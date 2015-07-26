@@ -3,7 +3,6 @@ from __future__ import unicode_literals, absolute_import, division, print_functi
 
 from datetime import datetime
 from decimal import Decimal
-from collections import OrderedDict
 import pytz
 import pytest
 from poker.card import Card
@@ -19,7 +18,9 @@ ET = pytz.timezone('US/Eastern')
 
 @pytest.fixture
 def hand_header(request):
-    """Parse hand history header only defined in hand_text and returns a FullTiltPokerHandHistory instance."""
+    """Parse hand history header only defined in hand_text
+    and returns a FullTiltPokerHandHistory instance.
+    """
     h = FullTiltPokerHandHistory(request.instance.hand_text)
     h.parse_header()
     return h
@@ -27,7 +28,9 @@ def hand_header(request):
 
 @pytest.fixture
 def hand(request):
-    """Parse handhistory defined in hand_text class attribute and returns a FullTiltPokerHandHistory instance."""
+    """Parse handhistory defined in hand_text class attribute
+    and returns a FullTiltPokerHandHistory instance.
+    """
     hh = FullTiltPokerHandHistory(request.instance.hand_text)
     hh.parse()
     return hh
@@ -68,8 +71,8 @@ class TestHandWithFlopOnly:
     def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
         assert getattr(hand_header, attribute) == expected_value
 
-    @pytest.mark.parametrize('attribute,expected_value',
-        [('players', [
+    @pytest.mark.parametrize('attribute,expected_value', [
+        ('players', [
             _Player(name='Popp1987', stack=13587, seat=1, combo=None),
             _Player(name='Luckytobgood', stack=10110, seat=2, combo=None),
             _Player(name='FatalRevange', stack=9970, seat=3, combo=None),
@@ -83,19 +86,20 @@ class TestHandWithFlopOnly:
         ('button', _Player(name='egis25', stack=6873, seat=5, combo=None)),
         ('max_players', 9),
         ('hero', _Player(name='IgaziFerfi', stack=10000, seat=4, combo=Combo('Ks9d'))),
-        ('preflop_actions', ('PtheProphet has 15 seconds left to act',
-                           'PtheProphet folds',
-                           'JohnyyR raises to 40',
-                           'Popp1987 has 15 seconds left to act',
-                           'Popp1987 folds',
-                           'Luckytobgood folds',
-                           'FatalRevange raises to 100',
-                           'IgaziFerfi folds',
-                           'egis25 folds',
-                           'gamblie folds',
-                           'idanuTz1 folds',
-                           'JohnyyR has 15 seconds left to act',
-                           'JohnyyR calls 60')),
+        ('preflop_actions', (
+            'PtheProphet has 15 seconds left to act',
+            'PtheProphet folds',
+            'JohnyyR raises to 40',
+            'Popp1987 has 15 seconds left to act',
+            'Popp1987 folds',
+            'Luckytobgood folds',
+            'FatalRevange raises to 100',
+            'IgaziFerfi folds',
+            'egis25 folds',
+            'gamblie folds',
+            'idanuTz1 folds',
+            'JohnyyR has 15 seconds left to act',
+            'JohnyyR calls 60')),
         ('turn', None),
         ('river', None),
         ('total_pot', Decimal(230)),
@@ -142,26 +146,26 @@ class TestHandWithFlopOnly:
 class TestHandWithFlopTurnRiver:
     hand_text = ftp_hands.TURBO_SNG
 
-    @pytest.mark.parametrize('attribute,expected_value',
-        [('game_type', GameType.SNG),
-         ('sb', Decimal(15)),
-         ('bb', Decimal(30)),
-         ('date', ET.localize(datetime(2014, 6, 29, 5, 57, 1))),
-         ('game', Game.HOLDEM),
-         ('limit', Limit.NL),
-         ('ident', '34374264321'),
-         ('tournament_ident', '268569961'),
-         ('table_name', '1'),
-         ('tournament_level', None),
-         ('buyin', Decimal(10)),
-         ('rake', None),
-         ('currency', Currency.USD),
+    @pytest.mark.parametrize('attribute,expected_value', [
+        ('game_type', GameType.SNG),
+        ('sb', Decimal(15)),
+        ('bb', Decimal(30)),
+        ('date', ET.localize(datetime(2014, 6, 29, 5, 57, 1))),
+        ('game', Game.HOLDEM),
+        ('limit', Limit.NL),
+        ('ident', '34374264321'),
+        ('tournament_ident', '268569961'),
+        ('table_name', '1'),
+        ('tournament_level', None),
+        ('buyin', Decimal(10)),
+        ('rake', None),
+        ('currency', Currency.USD),
         ])
     def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
         assert getattr(hand_header, attribute) == expected_value
 
-    @pytest.mark.parametrize('attribute,expected_value',
-        [('players', [
+    @pytest.mark.parametrize('attribute,expected_value', [
+        ('players', [
             _Player(name='snake 422', stack=1500, seat=1, combo=None),
             _Player(name='IgaziFerfi', stack=1500, seat=2, combo=Combo('5d2h')),
             _Player(name='MixaOne', stack=1500, seat=3, combo=None),
@@ -178,8 +182,7 @@ class TestHandWithFlopTurnRiver:
                              'AzzzJJ raises to 90',
                              'snake 422 folds',
                              'IgaziFerfi folds',
-                             'MixaOne calls 60',)
-        ),
+                             'MixaOne calls 60',)),
         ('turn', None),
         ('turn_actions', None),
         ('river', None),

@@ -74,7 +74,6 @@ class _Street(_BaseStreet):
             return name, action, None
 
 
-
 class PokerStarsHandHistory(_SplittableHandHistory):
     """Parses PokerStars Tournament hands."""
 
