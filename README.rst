@@ -47,22 +47,22 @@ Repo and contact
 .. |coveralls| image:: https://coveralls.io/repos/pokerregion/poker/badge.png?branch=master
   :target: https://coveralls.io/r/pokerregion/poker?branch=master
 
-.. |pythons| image:: https://pypip.in/py_versions/poker/badge.svg?style=flat
+.. |pythons| image:: https://img.shields.io/pypi/pyversions/poker.svg
    :target: https://pypi.python.org/pypi/poker/
    :alt: Supported Python versions
 
-.. |release| image:: https://pypip.in/version/poker/badge.svg?style=flat
+.. |release| image:: https://img.shields.io/pypi/v/poker.svg
    :target: https://pypi.python.org/pypi/poker/
    :alt: Latest Version
 
-.. |license| image:: https://pypip.in/license/poker/badge.svg?style=flat
+.. |license| image:: https://img.shields.io/badge/license-MIT-blue.svg
    :target: https://github.com/pokerregion/poker/blob/master/LICENSE
    :alt: MIT License
 
-.. |downloads| image:: https://pypip.in/download/poker/badge.svg?style=flat
+.. |downloads| image:: https://img.shields.io/pypi/dm/poker.svg
    :target: https://pypi.python.org/pypi/poker/
    :alt: Downloads
 
-.. |wheel| image:: https://pypip.in/wheel/poker/badge.svg?style=flat
+.. |wheel| image:: https://img.shields.io/pypi/wheel/poker.svg
    :target: https://pypi.python.org/pypi/poker/
    :alt: Wheel package
