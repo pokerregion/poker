@@ -4,7 +4,11 @@ from __future__ import unicode_literals, absolute_import, division, print_functi
 import re
 from decimal import Decimal
 import pytz
-from ..handhistory import _Player, _SplittableHandHistory, _BaseStreet, _PlayerAction
+from zope.interface import implementer
+from ..handhistory import (
+    _Player, _BaseHandHistory, _SplittableHandHistoryMixin, _BaseStreet, _PlayerAction,
+    )
+from ..interfaces import IHandHistory, IStreet
 from ..card import Card
 from ..hand import Combo
 from ..constants import Limit, Game, GameType, Currency, Action
@@ -14,6 +18,7 @@ from .._common import _make_int
 __all__ = ['FullTiltPokerHandHistory']
 
 
+@implementer(IStreet)
 class _Street(_BaseStreet):
     def _parse_cards(self, boardline):
         self.cards = (Card(boardline[1:3]), Card(boardline[4:6]), Card(boardline[7:9]))
@@ -87,7 +92,8 @@ class _Street(_BaseStreet):
             return name, action, None
 
 
-class FullTiltPokerHandHistory(_SplittableHandHistory):
+@implementer(IHandHistory)
+class FullTiltPokerHandHistory(_SplittableHandHistoryMixin, _BaseHandHistory):
     """Parses Full Tilt Poker hands the same way as PokerStarsHandHistory class."""
 
     date_format = '%H:%M:%S ET - %Y/%m/%d'
@@ -121,13 +127,12 @@ class FullTiltPokerHandHistory(_SplittableHandHistory):
     _showdown_re = re.compile(r"^Seat (\d): (.*) showed .* and won")
     _board_re = re.compile(r"(?<=[\[ ])(..)(?=[\] ])")
 
-    # search split locations (basically empty strings)
-    # sections[0] is before HOLE CARDS
-    # sections[-1] is before SUMMARY
-
     def parse_header(self):
-        header_line = self._splitted[0]
-        header_match = self._header_re.match(header_line)
+        # sections[0] is before HOLE CARDS
+        # sections[-1] is before SUMMARY
+        self._split_raw()
+
+        header_match = self._header_re.match(self._splitted[0])
         self.sb = Decimal(header_match.group('sb'))
         self.bb = Decimal(header_match.group('bb'))
         self._parse_date(header_match.group('date'))
@@ -147,9 +152,26 @@ class FullTiltPokerHandHistory(_SplittableHandHistory):
 
         self.header_parsed = True
 
-    def _parse_table(self):
-        # table already parsed in parse_header()
-        pass
+    def parse(self):
+        """Parses the body of the hand history, but first parse header if not yet parsed."""
+        if not self.header_parsed:
+            self.parse_header()
+
+        self._parse_players()
+        self._parse_button()
+        self._parse_hero()
+        self._parse_preflop()
+        self._parse_flop()
+        self._parse_street('turn')
+        self._parse_street('river')
+        self._parse_showdown()
+        self._parse_pot()
+        self._parse_board()
+        self._parse_winners()
+        self._parse_extra()
+
+        self._del_split_vars()
+        self.parsed = True
 
     def _parse_players(self):
         # In hh there is no indication of max_players, so init for 9.

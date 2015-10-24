@@ -9,7 +9,11 @@ from lxml import etree
 import pytz
 from pytz import UTC
 from pathlib import Path
-from ..handhistory import _Player, _SplittableHandHistory, _BaseStreet, _PlayerAction
+from zope.interface import implementer
+from ..handhistory import (
+    _Player, _SplittableHandHistoryMixin, _BaseHandHistory, _BaseStreet, _PlayerAction,
+    )
+from ..interfaces import IHandHistory, IStreet
 from ..card import Card
 from ..hand import Combo
 from ..constants import Limit, Game, GameType, Currency, Action
@@ -18,6 +22,7 @@ from ..constants import Limit, Game, GameType, Currency, Action
 __all__ = ['PokerStarsHandHistory', 'Notes']
 
 
+@implementer(IStreet)
 class _Street(_BaseStreet):
     def _parse_cards(self, boardline):
         self.cards = (Card(boardline[1:3]), Card(boardline[4:6]), Card(boardline[7:9]))
@@ -74,7 +79,8 @@ class _Street(_BaseStreet):
             return name, action, None
 
 
-class PokerStarsHandHistory(_SplittableHandHistory):
+@implementer(IHandHistory)
+class PokerStarsHandHistory(_SplittableHandHistoryMixin, _BaseHandHistory):
     """Parses PokerStars Tournament hands."""
 
     date_format = '%Y/%m/%d %H:%M:%S ET'
@@ -105,13 +111,12 @@ class PokerStarsHandHistory(_SplittableHandHistory):
     _ante_re = re.compile(r".*posts the ante (\d*)")
     _board_re = re.compile(r"(?<=[\[ ])(..)(?=[\] ])")
 
-    # search split locations (basically empty strings)
-    # sections[0] is before HOLE CARDS
-    # sections[-1] is before SUMMARY
-
     def parse_header(self):
-        header_line = self._splitted[0]
-        match = self._header_re.match(header_line)
+        # sections[0] is before HOLE CARDS
+        # sections[-1] is before SUMMARY
+        self._split_raw()
+
+        match = self._header_re.match(self._splitted[0])
         self.game_type = GameType(match.group('game_type'))
         self.sb = Decimal(match.group('sb'))
         self.bb = Decimal(match.group('bb'))
@@ -126,6 +131,27 @@ class PokerStarsHandHistory(_SplittableHandHistory):
         self.currency = Currency(match.group('currency'))
 
         self.header_parsed = True
+
+    def parse(self):
+        """Parses the body of the hand history, but first parse header if not yet parsed."""
+        if not self.header_parsed:
+            self.parse_header()
+
+        self._parse_table()
+        self._parse_players()
+        self._parse_button()
+        self._parse_hero()
+        self._parse_preflop()
+        self._parse_flop()
+        self._parse_street('turn')
+        self._parse_street('river')
+        self._parse_showdown()
+        self._parse_pot()
+        self._parse_board()
+        self._parse_winners()
+
+        self._del_split_vars()
+        self.parsed = True
 
     def _parse_table(self):
         self._table_match = self._table_re.match(self._splitted[1])
@@ -214,9 +240,6 @@ class PokerStarsHandHistory(_SplittableHandHistory):
                 winners.add(match.group(2))
 
         self.winners = tuple(winners)
-
-    def _parse_extra(self):
-        pass
 
 
 _Label = namedtuple('_Label', 'id, color, name')

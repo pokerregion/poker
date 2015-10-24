@@ -14,6 +14,7 @@ install_requires = [
     'enum34',   # backported versions from Python3
     'pathlib',
     'configparser',
+    'zope.interface',
 ]
 
 

@@ -4,7 +4,10 @@ from __future__ import unicode_literals, absolute_import, division, print_functi
 import re
 from decimal import Decimal
 import pytz
-from ..handhistory import _SplittableHandHistory, _Player, _BaseStreet, _PlayerAction
+from zope.interface import implementer
+from ..handhistory import (
+    _SplittableHandHistoryMixin, _BaseHandHistory, _Player, _BaseStreet, _PlayerAction)
+from ..interfaces import IHandHistory, IStreet
 from ..hand import Combo, Card
 from ..constants import Limit, Game, GameType, MoneyType, Currency, Action
 
@@ -12,6 +15,7 @@ from ..constants import Limit, Game, GameType, MoneyType, Currency, Action
 __all__ = ['PKRHandHistory']
 
 
+@implementer(IStreet)
 class _Street(_BaseStreet):
     def _parse_cards(self, boardline):
         self.cards = (Card(boardline[6:9:2]), Card(boardline[11:14:2]), Card(boardline[16:19:2]))
@@ -48,7 +52,8 @@ class _Street(_BaseStreet):
             return name, action, None
 
 
-class PKRHandHistory(_SplittableHandHistory):
+@implementer(IHandHistory)
+class PKRHandHistory(_SplittableHandHistoryMixin, _BaseHandHistory):
     """Parses PKR hand histories."""
 
     date_format = '%d %b %Y %H:%M:%S'
@@ -70,12 +75,13 @@ class PKRHandHistory(_SplittableHandHistory):
     _SPLIT_CARD_SPACE = slice(0, 3, 2)
     _STREET_SECTIONS = {'flop': 2, 'turn': 3, 'river': 4}
 
-    # search split locations (basically empty strings)
-    # sections[1] is after blinds, before preflop
-    # section[2] is before flop
-    # sections[-1] is before showdown
 
     def parse_header(self):
+        # sections[1] is after blinds, before preflop
+        # section[2] is before flop
+        # sections[-1] is before showdown
+        self._split_raw()
+
         self.table_name = self._splitted[0][6:]          # cut off "Table "
         self.ident = self._splitted[1][15:]              # cut off "Starting Hand #"
         self._parse_date(self._splitted[2][20:])         # cut off "Start time of hand: "
@@ -88,9 +94,23 @@ class PKRHandHistory(_SplittableHandHistory):
         self.bb = Decimal(match.group(2))
         self.buyin = self.bb * 100
 
-    def _parse_table(self):
-        # table name already parsed
-        pass
+    def parse(self):
+        """Parses the body of the hand history, but first parse header if not yet parsed."""
+        if not self.header_parsed:
+            self.parse_header()
+
+        self._parse_players()
+        self._parse_button()
+        self._parse_hero()
+        self._parse_preflop()
+        self._parse_flop()
+        self._parse_street('turn')
+        self._parse_street('river')
+        self._parse_showdown()
+        self._parse_extra()
+
+        self._del_split_vars()
+        self.parsed = True
 
     def _parse_players(self):
         # In hh there is no indication of max_players,
@@ -179,19 +199,6 @@ class PKRHandHistory(_SplittableHandHistory):
 
         self.winners = tuple(winners)
         self.total_pot = total_pot
-
-    def _parse_pot(self):
-        # already parsed in _parse_showdown
-        pass
-
-    def _parse_board(self):
-        # parsed in _parse_street(). there is no single Board line,
-        # street cards are inside the hand
-        pass
-
-    def _parse_winners(self):
-        # parsed in _parse_showdown
-        pass
 
     def _parse_extra(self):
         self.extra = dict()

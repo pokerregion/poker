@@ -7,7 +7,6 @@ from __future__ import unicode_literals, absolute_import, division, print_functi
 
 import io
 import itertools
-from abc import ABCMeta, abstractmethod
 from collections import namedtuple
 from datetime import datetime
 import pytz
@@ -23,8 +22,6 @@ _PlayerAction = namedtuple('_PlayerAction', 'name, action, amount')
 
 
 class _BaseStreet(object):
-    __metaclass__ = ABCMeta
-
     def __init__(self, flop):
         self.pot = None
         self.actions = None
@@ -78,10 +75,8 @@ class _BaseStreet(object):
 
 
 class _BaseHandHistory(object):
-    """Abstract base class for *all* kind of parser."""
-    __metaclass__ = ABCMeta
+    """Abstract base class for *all* kinds of parser."""
 
-    @abstractmethod
     def __init__(self, hand_text):
         """Save raw hand history."""
         self.raw = hand_text.strip()
@@ -129,92 +124,17 @@ class _BaseHandHistory(object):
         return self.players[hero_index], hero_index
 
 
-class _SplittableHandHistory(_BaseHandHistory):
-    """Base class for PokerStars and FullTiltPoker type hand histories, where you can split
-    the hand history into sections.
+class _SplittableHandHistoryMixin(object):
+    """Class for PokerStars and FullTiltPoker type hand histories, where you can split the hand
+    history into sections.
     """
 
-    def __init__(self, hand_text):
+    def _split_raw(self):
         """Split hand history by sections."""
 
-        super(_SplittableHandHistory, self).__init__(hand_text)
-
         self._splitted = self._split_re.split(self.raw)
-
         # search split locations (basically empty strings)
-        # sections[0] is before HOLE CARDS
-        # sections[-1] is before SUMMARY
         self._sections = [ind for ind, elem in enumerate(self._splitted) if not elem]
 
-    @abstractmethod
-    def parse_header(self):
-        """Parses only the header of a hand history. It is used for sort of looking into
-        the hand history for basic informations:
-            ident, date, game, game_type, limit, money_type, sb, bb, buyin, rake, currency
-        """
-
-    def parse(self):
-        """Parses the body of the hand history, but first parse header if not yet parsed."""
-        if not self.header_parsed:
-            self.parse_header()
-
-        self._parse_table()
-        self._parse_players()
-        self._parse_button()
-        self._parse_hero()
-        self._parse_preflop()
-        self._parse_flop()
-        self._parse_street('turn')
-        self._parse_street('river')
-        self._parse_showdown()
-        self._parse_pot()
-        self._parse_board()
-        self._parse_winners()
-        self._parse_extra()
-
-        del self._splitted
-        self.parsed = True
-
-    @abstractmethod
-    def _parse_table(self):
-        pass
-
-    @abstractmethod
-    def _parse_players(self):
-        pass
-
-    @abstractmethod
-    def _parse_button(self):
-        pass
-
-    @abstractmethod
-    def _parse_hero(self):
-        pass
-
-    @abstractmethod
-    def _parse_preflop(self):
-        pass
-
-    @abstractmethod
-    def _parse_street(self):
-        pass
-
-    @abstractmethod
-    def _parse_showdown(self):
-        pass
-
-    @abstractmethod
-    def _parse_pot(self):
-        pass
-
-    @abstractmethod
-    def _parse_board(self):
-        pass
-
-    @abstractmethod
-    def _parse_winners(self):
-        pass
-
-    @abstractmethod
-    def _parse_extra(self):
-        pass
+    def _del_split_vars(self):
+        del self._splitted, self._sections
