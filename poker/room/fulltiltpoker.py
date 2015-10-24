@@ -5,10 +5,7 @@ import re
 from decimal import Decimal
 import pytz
 from zope.interface import implementer
-from ..handhistory import (
-    _Player, _BaseHandHistory, _SplittableHandHistoryMixin, _BaseStreet, _PlayerAction,
-    )
-from ..interfaces import IHandHistory, IStreet
+from .. import handhistory as hh
 from ..card import Card
 from ..hand import Combo
 from ..constants import Limit, Game, GameType, Currency, Action
@@ -18,8 +15,8 @@ from .._common import _make_int
 __all__ = ['FullTiltPokerHandHistory']
 
 
-@implementer(IStreet)
-class _Street(_BaseStreet):
+@implementer(hh.IStreet)
+class _Street(hh._BaseStreet):
     def _parse_cards(self, boardline):
         self.cards = (Card(boardline[1:3]), Card(boardline[4:6]), Card(boardline[7:9]))
 
@@ -40,7 +37,7 @@ class _Street(_BaseStreet):
                 action = self._parse_player_action(line)
             else:
                 raise
-            actions.append(_PlayerAction(*action))
+            actions.append(hh._PlayerAction(*action))
         self.actions = tuple(actions) if actions else None
 
     def _parse_uncalled(self, line):
@@ -92,18 +89,16 @@ class _Street(_BaseStreet):
             return name, action, None
 
 
-@implementer(IHandHistory)
-class FullTiltPokerHandHistory(_SplittableHandHistoryMixin, _BaseHandHistory):
+@implementer(hh.IHandHistory)
+class FullTiltPokerHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
     """Parses Full Tilt Poker hands the same way as PokerStarsHandHistory class."""
 
-    date_format = '%H:%M:%S ET - %Y/%m/%d'
-    tournament_level = None     # FTP hands doesn't contains tournament level information
     rake = None
+    tournament_level = None
 
+    _DATE_FORMAT = '%H:%M:%S ET - %Y/%m/%d'
     _TZ = pytz.timezone('US/Eastern')  # ET
-
     _split_re = re.compile(r" ?\*\*\* ?\n?|\n")
-    # header patterns
     _header_re = re.compile(r"""
         ^Full[ ]Tilt[ ]Poker[ ]                                 # Poker Room
         Game[ ]\#(?P<ident>\d*):[ ]                             # Hand history id
@@ -181,7 +176,7 @@ class FullTiltPokerHandHistory(_SplittableHandHistoryMixin, _BaseHandHistory):
             if not match:
                 break
             seat = int(match.group(1))
-            players[seat - 1] = _Player(
+            players[seat - 1] = hh._Player(
                 name=match.group(2),
                 seat=seat,
                 stack=_make_int(match.group(3)),

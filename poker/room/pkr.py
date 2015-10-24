@@ -5,9 +5,7 @@ import re
 from decimal import Decimal
 import pytz
 from zope.interface import implementer
-from ..handhistory import (
-    _SplittableHandHistoryMixin, _BaseHandHistory, _Player, _BaseStreet, _PlayerAction)
-from ..interfaces import IHandHistory, IStreet
+from .. import handhistory as hh
 from ..hand import Combo, Card
 from ..constants import Limit, Game, GameType, MoneyType, Currency, Action
 
@@ -15,8 +13,8 @@ from ..constants import Limit, Game, GameType, MoneyType, Currency, Action
 __all__ = ['PKRHandHistory']
 
 
-@implementer(IStreet)
-class _Street(_BaseStreet):
+@implementer(hh.IStreet)
+class _Street(hh._BaseStreet):
     def _parse_cards(self, boardline):
         self.cards = (Card(boardline[6:9:2]), Card(boardline[11:14:2]), Card(boardline[16:19:2]))
 
@@ -26,7 +24,7 @@ class _Street(_BaseStreet):
             if line.startswith('Pot sizes:'):
                 self._parse_pot(line)
             elif ' ' in line:
-                actions.append(_PlayerAction(*self._parse_player_action(line)))
+                actions.append(hh._PlayerAction(*self._parse_player_action(line)))
             else:
                 raise
         self.actions = tuple(actions) if actions else None
@@ -52,18 +50,19 @@ class _Street(_BaseStreet):
             return name, action, None
 
 
-@implementer(IHandHistory)
-class PKRHandHistory(_SplittableHandHistoryMixin, _BaseHandHistory):
+@implementer(hh.IHandHistory)
+class PKRHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
     """Parses PKR hand histories."""
 
-    date_format = '%d %b %Y %H:%M:%S'
     currency = Currency.USD
     tournament_ident = None
     tournament_name = None
     tournament_level = None
 
+    _DATE_FORMAT = '%d %b %Y %H:%M:%S'
     _TZ = pytz.UTC
-
+    _SPLIT_CARD_SPACE = slice(0, 3, 2)
+    _STREET_SECTIONS = {'flop': 2, 'turn': 3, 'river': 4}
     _split_re = re.compile(r"Dealing |\nDealing Cards\n|Taking |Moving |\n")
     _blinds_re = re.compile(r"^Blinds are now \$([\d.]*) / \$([\d.]*)$")
     _hero_re = re.compile(r"^\[(. .)\]\[(. .)\] to (?P<hero_name>.*)$")
@@ -72,9 +71,6 @@ class PKRHandHistory(_SplittableHandHistoryMixin, _BaseHandHistory):
     _card_re = re.compile(r"\[(. .)\]")
     _rake_re = re.compile(r"Rake of \$([\d.]*) from pot \d$")
     _win_re = re.compile(r"^(.*) wins \$([\d.]*) with: ")
-    _SPLIT_CARD_SPACE = slice(0, 3, 2)
-    _STREET_SECTIONS = {'flop': 2, 'turn': 3, 'river': 4}
-
 
     def parse_header(self):
         # sections[1] is after blinds, before preflop
@@ -121,7 +117,7 @@ class PKRHandHistory(_SplittableHandHistoryMixin, _BaseHandHistory):
             if not match:
                 break
             seat_number = int(match.group(1))
-            players[seat_number - 1] = _Player(
+            players[seat_number - 1] = hh._Player(
                 name=match.group(2), stack=Decimal(match.group(3)), seat=seat_number, combo=None
             )
         self.max_players = seat_number

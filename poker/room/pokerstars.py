@@ -7,13 +7,9 @@ from datetime import datetime
 from collections import namedtuple
 from lxml import etree
 import pytz
-from pytz import UTC
 from pathlib import Path
 from zope.interface import implementer
-from ..handhistory import (
-    _Player, _SplittableHandHistoryMixin, _BaseHandHistory, _BaseStreet, _PlayerAction,
-    )
-from ..interfaces import IHandHistory, IStreet
+from .. import handhistory as hh
 from ..card import Card
 from ..hand import Combo
 from ..constants import Limit, Game, GameType, Currency, Action
@@ -22,8 +18,8 @@ from ..constants import Limit, Game, GameType, Currency, Action
 __all__ = ['PokerStarsHandHistory', 'Notes']
 
 
-@implementer(IStreet)
-class _Street(_BaseStreet):
+@implementer(hh.IStreet)
+class _Street(hh._BaseStreet):
     def _parse_cards(self, boardline):
         self.cards = (Card(boardline[1:3]), Card(boardline[4:6]), Card(boardline[7:9]))
 
@@ -40,7 +36,7 @@ class _Street(_BaseStreet):
                 action = self._parse_player_action(line)
             else:
                 raise
-            actions.append(_PlayerAction(*action))
+            actions.append(hh._PlayerAction(*action))
         self.actions = tuple(actions) if actions else None
 
     def _parse_uncalled(self, line):
@@ -79,13 +75,12 @@ class _Street(_BaseStreet):
             return name, action, None
 
 
-@implementer(IHandHistory)
-class PokerStarsHandHistory(_SplittableHandHistoryMixin, _BaseHandHistory):
+@implementer(hh.IHandHistory)
+class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
     """Parses PokerStars Tournament hands."""
 
-    date_format = '%Y/%m/%d %H:%M:%S ET'
+    _DATE_FORMAT = '%Y/%m/%d %H:%M:%S ET'
     _TZ = pytz.timezone('US/Eastern')  # ET
-
     _split_re = re.compile(r" ?\*\*\* ?\n?|\n")
     _header_re = re.compile(r"""
                         ^PokerStars[ ]                          # Poker Room
@@ -166,7 +161,7 @@ class PokerStarsHandHistory(_SplittableHandHistoryMixin, _BaseHandHistory):
             if not match:
                 break
             index = int(match.group('seat')) - 1
-            self.players[index] = _Player(
+            self.players[index] = hh._Player(
                 name=match.group('name'),
                 stack=int(match.group('stack')),
                 seat=int(match.group('seat')),
@@ -361,7 +356,7 @@ class Notes(object):
         timestamp = note.get('update')
         if timestamp:
             timestamp = int(timestamp)
-            update = datetime.utcfromtimestamp(timestamp).replace(tzinfo=UTC)
+            update = datetime.utcfromtimestamp(timestamp).replace(tzinfo=pytz.UTC)
         else:
             update = None
         return _Note(note.get('player'), label, update, note.text)
