@@ -349,7 +349,7 @@ class _RegexRangeLexer(object):
     # the second card is not the same as the first
     # (negative lookahead for the first matching group)
     # this will not match pairs, but will match e.g. 86 or AK
-    nonpair1 = r"{0}(?!\28){0}".format(rank)
+    nonpair1 = r"{0}(?!\1){0}".format(rank)
     nonpair2 = r"{0}(?!\2){0}".format(rank)
 
     rules = (
@@ -390,8 +390,9 @@ class _RegexRangeLexer(object):
         self.tokens = self.separator_re.split(range)
 
         # compiling regex rules
+        flags = 0
         pattern = Pattern()
-        pattern.flags = re.DEBUG
+        pattern.flags = flags
         pattern.groups = len(self.rules) + 1
 
         _og = pattern.opengroup
@@ -400,16 +401,16 @@ class _RegexRangeLexer(object):
         self._rules = []
         subpatterns = []
         for group, (name, regex, method_name) in enumerate(self.rules, 1):
-            print "GROUP", group
+            # print "GROUP", group
             last_group = pattern.groups - 1
-            print "NAME", name
+            # print "NAME", name
             subpatterns.append(SubPattern(pattern, [
-                (SUBPATTERN, (group, parse(regex, re.DEBUG, pattern))),
+                (SUBPATTERN, (group, parse(regex, flags, pattern))),
             ]))
             self._rules.append((name, last_group, pattern.groups - 1, method_name))
 
         self._scanner = sre_compile(SubPattern(pattern, [(BRANCH, (None, subpatterns))])).scanner
-        print self._rules,
+        # print self._rules,
         # print '-' * 10, subpatterns
 
     def __iter__(self):
@@ -417,16 +418,14 @@ class _RegexRangeLexer(object):
         a match, it makes an appropriate value for the token and yields them.
         """
         for token in self.tokens:
-            print 'TOKEN', repr(token)
+            # print 'TOKEN', repr(token)
             sc = self._scanner(token)
 
             match = sc.match()
-            print 'MATCH', match, match.group()
-            print 'REGEX', match.re, match.re.pattern, match.re.scanner
-            if match is None:
-                raise ValueError('Invalid token: %s' % token)
+            # print 'MATCH', match, match.group()
+            # print 'REGEX', match.re, match.re.pattern, match.re.scanner
             name, __, __, method_name = self._rules[match.lastindex - 1]
-            print 'NAME', name
+            # print 'NAME', name
             extractor = getattr(self, method_name)
             value = extractor(match.group())
             yield name, value
