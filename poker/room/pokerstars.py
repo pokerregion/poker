@@ -70,6 +70,7 @@ class _Street(hh._BaseStreet):
         action = Action(line[colon_index + 2:end_action_index])
         if end_action_index:
             amount = line[end_action_index+1:]
+            amount = amount[1:] if amount[0] == "$" else amount
             return name, action, Decimal(amount)
         else:
             return name, action, None
@@ -82,7 +83,7 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
     _DATE_FORMAT = '%Y/%m/%d %H:%M:%S ET'
     _TZ = pytz.timezone('US/Eastern')  # ET
     _split_re = re.compile(r" ?\*\*\* ?\n?|\n")
-    _header_re = re.compile(r"""
+    _tournament_header_re = re.compile(r"""
                         ^PokerStars[ ]                          # Poker Room
                         Hand[ ]\#(?P<ident>\d*):[ ]             # Hand history id
                         (?P<game_type>Tournament)[ ]            # Type
@@ -97,10 +98,16 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
                         -[ ].*[ ]                               # localized date
                         \[(?P<date>.*)\]$                       # ET date
                         """, re.VERBOSE)
+                        
+    _cash_header_re = re.compile(r"^PokerStars Hand \#(?P<ident>\d*):  " +  
+                       r"(?P<game_type>Hold'em No Limit) "+
+                       r"\(\$(?P<sb>.*)/\$(?P<bb>.*) (?P<currency>.*)\) - " +
+                       r"(?P<date>.*)")
+                        
     _table_re = re.compile(r"^Table '(.*)' (\d)-max Seat #(?P<button>\d) is the button$")
     _seat_re = re.compile(r"^Seat (?P<seat>\d): (?P<name>.*) \((?P<stack>\d*) in chips\)$")
     _hero_re = re.compile(r"^Dealt to (?P<hero_name>.*) \[(..) (..)\]$")
-    _pot_re = re.compile(r"^Total pot (\d*) .*\| Rake (\d*)$")
+    _pot_re = re.compile(r"^Total pot \$?[0-9](\.[0-9]*)? | Rake \$?[0-9]*(\.[0-9]*)?$")
     _winner_re = re.compile(r"^Seat (\d): (.*) collected \((\d*)\)$")
     _showdown_re = re.compile(r"^Seat (\d): (.*) showed .* and won")
     _ante_re = re.compile(r".*posts the ante (\d*)")
@@ -111,18 +118,28 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
         # sections[-1] is before SUMMARY
         self._split_raw()
 
-        match = self._header_re.match(self._splitted[0])
-        self.game_type = GameType(match.group('game_type'))
+        match = self._cash_header_re.match(self._splitted[0])
+        if match is None:
+            match = self._tournament_header_re.match(self._splitted[0])
+            if match is None:
+                raise Exception('Cant parse header:'+self._splitted[0])
+            self.tournament = True            
+        else:
+            self.tournament = False
+        
+        self.game_type = match.group('game_type')
         self.sb = Decimal(match.group('sb'))
         self.bb = Decimal(match.group('bb'))
-        self.buyin = Decimal(match.group('buyin'))
-        self.rake = Decimal(match.group('rake'))
-        self._parse_date(match.group('date'))
-        self.game = Game(match.group('game'))
-        self.limit = Limit(match.group('limit'))
+        if self.tournament:
+            self.buyin = Decimal(match.group('buyin'))
+            self.tournament_ident = match.group('tournament_ident')
+            self.tournament_level = match.group('tournament_level')
+            self.rake = Decimal(match.group('rake'))
+            self.game = Game(match.group('game'))
+            self.limit = Limit(match.group('limit'))
+            
         self.ident = match.group('ident')
-        self.tournament_ident = match.group('tournament_ident')
-        self.tournament_level = match.group('tournament_level')
+        self._parse_date(match.group('date'))
         self.currency = Currency(match.group('currency'))
 
         self.header_parsed = True
@@ -135,7 +152,10 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
         self._parse_table()
         self._parse_players()
         self._parse_button()
-        self._parse_hero()
+        try:
+            self._parse_hero()
+        except Exception as e:
+            print(e)
         self._parse_preflop()
         self._parse_flop()
         self._parse_street('turn')
@@ -175,6 +195,8 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
     def _parse_hero(self):
         hole_cards_line = self._splitted[self._sections[0] + 2]
         match = self._hero_re.match(hole_cards_line)
+        if match is None:
+            raise Exception("Unable to parse Hero:"+ hole_cards_line)
         hero, hero_index = self._get_hero_from_players(match.group('hero_name'))
         hero = hero._replace(combo=Combo(match.group(2) + match.group(3)))
         self.hero = self.players[hero_index] = hero
@@ -213,7 +235,9 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
     def _parse_pot(self):
         potline = self._splitted[self._sections[-1] + 2]
         match = self._pot_re.match(potline)
-        self.total_pot = int(match.group(1))
+        if match is None:
+            raise Exception("Cannot parse Pot:" + potline)
+        self.total_pot = Decimal(match.group(1))
 
     def _parse_board(self):
         boardline = self._splitted[self._sections[-1] + 3]
