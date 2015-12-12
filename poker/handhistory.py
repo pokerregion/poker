@@ -15,78 +15,38 @@ from cached_property import cached_property
 from .card import Rank
 
 
-_Player = namedtuple('_Player', 'name, stack, seat, combo')
-"""Named tuple for players participating in the hand history."""
+class Player(object):
+    def __init__(self):
+        self.name  = None
+        """The player name."""
+        self.stack = None
+        """The intial stack of the player at the beginning of the hand."""
+        self.holecards = None
+        """rename to Combo? the two cards of the player (None if unknown)"""
 
-_PlayerAction = namedtuple('_PlayerAction', 'name, action, amount')
-"""Named tuple for player actions on the street."""
+class PlayerAction(object):
+    def __init__(self):
+        self.seat = None
+        """The seat index of the player perfoming the action."""
+        self.action = None
+        """The kind of action. I.e. Fold, Check, Call, Bet or Raise."""
+        self.amount = None
+        """The amount of Bet/Call/Raise."""
 
-
-class IStreet(Interface):
-    actions = Attribute('_StreetAction instances.')
-    cards = Attribute('Cards.')
-    pot = Attribute('Pot size after actions.')
-
-
-class IHandHistory(Interface):
-    """Interface for all hand histories. Not all attributes are available in all room's hand
-    histories, missing attributes are always None. This contains the most properties, available in
-    any pokerroom hand history, so you always have to deal with None values.
-    """
-    # parsing information
-    header_parsed = Attribute('Shows wheter header is parsed already or not.')
-    parsed = Attribute('Shows wheter the whole hand history is parsed already or not.')
-    date = Attribute('Date of the hand history.')
-
-    # Street informations
-    preflop = Attribute('_Street instance for preflop actions.')
-    flop = Attribute('_Street instance for flop actions.')
-    turn = Attribute('_Street instance for turn actions.')
-    river = Attribute('_Street instance for river actions.')
-    show_down = Attribute('_Street instance for showdown.')
-
-    # Player informations
-    table_name = Attribute('Name of')
-    max_players = Attribute('Maximum number of players can sit on the table.')
-    players = Attribute('Tuple of player instances.')
-    hero = Attribute('_Player instance with hero data.')
-    button = Attribute('_Player instance of button.')
-    winners = Attribute('Tuple of _Player instances with winners.')
-
-    # Game informations
-    game_type = Attribute('GameType enum value (CASH, TOUR or SNG)')
-    sb = Attribute('Small blind size.')
-    bb = Attribute('Big blind size.')
-    buyin = Attribute('Buyin with rake.')
-    rake = Attribute('Rake only.')
-    game = Attribute('Game enum value (HOLDEM, OMAHA? OHILO, RAZZ or STUD)')
-    limit = Attribute('Limit enum value (NL, PL or FL)')
-    ident = Attribute('Unique id of the hand history.')
-    currency = Attribute('Currency of the hand history.')
-    total_pot = Attribute('Total pot Decimal.')
-
-    tournament_ident = Attribute('Unique tournament id.')
-    tournament_name = Attribute('Name of the tournament.')
-    tournament_level = Attribute('Tournament level.')
-
-    def parse_header():
-        """Parses only the header of a hand history. It is used for quick looking into the hand
-        history for basic informations:
-            ident, date, game, game_type, limit, money_type, sb, bb, buyin, rake, currency
-        by parsing the least lines possible to get these.
-        """
-
-    def parse():
-        """Parses the body of the hand history, but first parse header if not yet parsed."""
+class Street(object):
+    def __init__(self, pot):
+        self.actions = []
+        """The actions on the street."""
+        self.pot = pot
+        """The initial pot."""
 
 
-class _BaseStreet(object):
-    def __init__(self, flop):
-        self.pot = None
-        self.actions = None
-        self.cards = None
-        self._parse_cards(flop[0])
-        self._parse_actions(flop[1:])
+
+
+
+class Board(object):
+    def __init__(self, cards):
+        self.cards = cards
         self._all_combinations = itertools.combinations(self.cards, 2)
 
     @cached_property
@@ -117,83 +77,81 @@ class _BaseStreet(object):
     def has_flushdraw(self):
         return any(first.suit == second.suit for first, second in self._all_combinations)
 
-    @cached_property
-    def players(self):
-        if not self.actions:
-            return None
-        player_names = []
-        for action in self.actions:
-            player_name = action[0]
-            if player_name not in player_names:
-                player_names.append(player_name)
-        return tuple(player_names)
+class HandHistoryHeader(object):
+    """Not all attributes are available in all room's hand
+    histories, missing attributes are always None. This contains the most properties, available in
+    any pokerroom hand history, so you always have to deal with None values.
+    """
+    def __init__(self, **kwargs):
+        self.date = None
+        """Date of the hand history."""
+        self.game = None
+        """Game enum value (HOLDEM, OMAHA? OHILO, RAZZ or STUD"""
+        self.game_type = None
+        """GameType enum value (CASH, TOUR or SNG)"""
+        self.limit = None
+        """Limit enum value (NL, PL or FL)"""
+        self.ident = None
+        """Unique id of the hand history."""
+        self.currency = None
+        """Currency of the hand history."""
+        self.tournament_ident = None
+        """Unique tournament id."""
+        self.tournament_name = None
+        """Name of the tournament."""
+        self.tournament_level = None
+        """Tournament level."""
+        self.table_name = None
+        """Name of the Table"""
+        self.max_players = None
+        """Maximum number of players can sit on the table."""
+        self.sb = None
+        """Small blind size."""
+        self.bb = None
+        """Big blind size."""
+        self.buyin = None
+        """Buyin with rake."""
 
-    def _get_differences(self):
-        return (Rank.difference(first.rank, second.rank)
-                for first, second in self._all_combinations)
+        # overwrite all attributes with the constructor arguments
+        self.__dict__.update(kwargs)
 
+class HandHistory(HandHistoryHeader):
+    """Extend the Header by the real game information"""
+    def __intit__(self, text, **kwargs):
+        super(HandHistory,self).__init__(text = text, **kwargs)
+        # now the header is initialized, i.e. we know number of players etc.
 
-class _BaseHandHistory(object):
-    """Abstract base class for *all* kinds of parser."""
+        self.text = text
+        """Store the original text of the handhistory."""
 
-    def __init__(self, hand_text):
-        """Save raw hand history."""
-        self.raw = hand_text.strip()
-        self.header_parsed = False
-        self.parsed = False
+        # Street informations
+        self.preflop = None
+        """Street instance for preflop actions."""
+        self.flop = None
+        """Street instance for flop actions. None hand ended preflop."""
+        self.turn = None
+        """Street instance for turn actions. None if hand ended on flop."""
+        self.river = None
+        """Street instance for river actions. None if hand ended on turn."""
+        self.river = None
+        """True if there was a showdown, False otherwise."""
 
-    @classmethod
-    def from_file(cls, filename):
-        with io.open(filename) as f:
-            return cls(f.read())
+        # Player informations
+        self.players = [None for i in range(self.max_players)]
+        """List of player instances. (List because we need it to be mutable.)"""
+        self.button = Attribute('Player instance of button.')
+        """The seat index (int) of the button seat."""
+
+        # Game informations
+        self.rake = None
+        """The amoutn rake paid."""
+        self.total_pot = None
+        """Total pot Decimal."""
+        self.board = None
+        """The cards of the Board. Tuple of 3,4 or 5 cards"""
 
     def __unicode__(self):
         return "<{}: #{}>" .format(self.__class__.__name__, self.ident)
 
     def __str__(self):
         return unicode(self).decode('utf-8')
-
-    @property
-    def board(self):
-        """Calculates board from flop, turn and river."""
-        board = []
-        if self.flop:
-            board.extend(self.flop.cards)
-            if self.turn:
-                board.append(self.turn)
-                if self.river:
-                    board.append(self.river)
-        return tuple(board) if board else None
-
-    def _parse_date(self, date_string):
-        """Parse the date_string and return a datetime object as UTC."""
-        date = datetime.strptime(date_string, self._DATE_FORMAT)
-        self.date = self._TZ.localize(date).astimezone(pytz.UTC)
-
-    def _init_seats(self, player_num):
-        players = []
-        for seat in range(1, player_num + 1):
-            players.append(_Player(name='Empty Seat %s' % seat, stack=0, seat=seat, combo=None))
-
-        return players
-
-    def _get_hero_from_players(self, hero_name):
-        player_names = [p.name for p in self.players]
-        hero_index = player_names.index(hero_name)
-        return self.players[hero_index], hero_index
-
-
-class _SplittableHandHistoryMixin(object):
-    """Class for PokerStars and FullTiltPoker type hand histories, where you can split the hand
-    history into sections.
-    """
-
-    def _split_raw(self):
-        """Split hand history by sections."""
-
-        self._splitted = self._split_re.split(self.raw)
-        # search split locations (basically empty strings)
-        self._sections = [ind for ind, elem in enumerate(self._splitted) if not elem]
-
-    def _del_split_vars(self):
-        del self._splitted, self._sections

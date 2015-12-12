@@ -76,9 +76,15 @@ class _Street(hh._BaseStreet):
             return name, action, None
 
 
-@implementer(hh.IHandHistory)
-class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
-    """Parses PokerStars Tournament hands."""
+
+
+class ParseException(Exception):
+    def __init__(self,line):
+        super(ParseException,self).__init__("Failed to parse: "+ line)
+
+#@implementer(hh.HandHistoryParser)
+class PokerStarsHandHistoryParser(object):
+    """Parses PokerStars Tournament or cash game hands."""
 
     _DATE_FORMAT = '%Y/%m/%d %H:%M:%S ET'
     _TZ = pytz.timezone('US/Eastern')  # ET
@@ -113,43 +119,66 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
     _ante_re = re.compile(r".*posts the ante (\d*)")
     _board_re = re.compile(r"(?<=[\[ ])(..)(?=[\] ])")
 
+
+    def __init__(self,lines):
+        """
+        Create a parser from lines.
+        lines can either be a StrinIO object of a string.
+        or an open file.
+        """
+
+    def headers(self):
+        """ yield succesive headers in the text.
+        The handhistory for the respective header can be obtained with parser.parse()"""
+
+        # seek to beginning
+
+
+    def parse(self):
+        pass
+
+
     def parse_header(self):
-        # sections[0] is before HOLE CARDS
-        # sections[-1] is before SUMMARY
-        self._split_raw()
+        properties = dict()
+        # try parsing cash game header
+        if "Tournament" in self.curline:
 
-        match = self._cash_header_re.match(self._splitted[0])
-        if match is None:
-            match = self._tournament_header_re.match(self._splitted[0])
-            if match is None:
-                raise Exception('Cant parse header:'+self._splitted[0])
-            self.tournament = True            
+            match = self._tournament_header_re.match(self.curline)
+            properties["buyin"]            = Decimal(match.group('buyin'))
+            properties["tournament_ident"] = match.group('tournament_ident')
+            properties["tournament_level"] = match.group('tournament_level')
+            properties["rake"]             = Decimal(match.group('rake'))
+            properties["game"]             = Game(match.group('game'))
+            properties["limit"             = Limit(match.group('limit'))
+            tournament = True
         else:
-            self.tournament = False
-        
-        self.game_type = match.group('game_type')
-        self.sb = Decimal(match.group('sb'))
-        self.bb = Decimal(match.group('bb'))
-        if self.tournament:
-            self.buyin = Decimal(match.group('buyin'))
-            self.tournament_ident = match.group('tournament_ident')
-            self.tournament_level = match.group('tournament_level')
-            self.rake = Decimal(match.group('rake'))
-            self.game = Game(match.group('game'))
-            self.limit = Limit(match.group('limit'))
-            
-        self.ident = match.group('ident')
-        self._parse_date(match.group('date'))
-        self.currency = Currency(match.group('currency'))
+            match = self._cash_header_re.match(self.curline)
+            tournament = False
 
-        self.header_parsed = True
+        if match is None:
+            raise ParseException(self.curline)
+
+        properties["game_type"] = match.group('game_type')
+        properties["sb"] = Decimal(match.group('sb'))
+        properties["bb"] = Decimal(match.group('bb'))
+        properties["ident"] = match.group('ident')
+        properties["currency"] = Currency(match.group('currency'))
+        #self._parse_date(match.group('date'))
+
+        # parse the second line holding table information
+        self.next_line()
+        match = self._table_re.match(self.curline)
+        if match is None:
+            raise ParseException(self.curline)
+        properties["table_name"]  = match.group(1)
+        properties["max_players"] = int(match.group(2))
+        self.next_line()
 
     def parse(self):
         """Parses the body of the hand history, but first parse header if not yet parsed."""
         if not self.header_parsed:
             self.parse_header()
 
-        self._parse_table()
         self._parse_players()
         self._parse_button()
         try:
@@ -164,14 +193,6 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
         self._parse_pot()
         self._parse_board()
         self._parse_winners()
-
-        self._del_split_vars()
-        self.parsed = True
-
-    def _parse_table(self):
-        self._table_match = self._table_re.match(self._splitted[1])
-        self.table_name = self._table_match.group(1)
-        self.max_players = int(self._table_match.group(2))
 
     def _parse_players(self):
         self.players = self._init_seats(self.max_players)
