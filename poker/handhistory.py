@@ -15,7 +15,7 @@ from cached_property import cached_property
 from .card import Rank
 
 
-class Player(object):
+class Seat(object):
     def __init__(self):
         self.name  = None
         """The player name."""
@@ -32,17 +32,6 @@ class PlayerAction(object):
         """The kind of action. I.e. Fold, Check, Call, Bet or Raise."""
         self.amount = None
         """The amount of Bet/Call/Raise."""
-
-class Street(object):
-    def __init__(self, pot):
-        self.actions = []
-        """The actions on the street."""
-        self.pot = pot
-        """The initial pot."""
-
-
-
-
 
 class Board(object):
     def __init__(self, cards):
@@ -118,28 +107,31 @@ class HandHistoryHeader(object):
 class HandHistory(HandHistoryHeader):
     """Extend the Header by the real game information"""
     def __intit__(self, text, **kwargs):
-        super(HandHistory,self).__init__(text = text, **kwargs)
+        super(HandHistory,self).__init__(**kwargs)
         # now the header is initialized, i.e. we know number of players etc.
 
         self.text = text
         """Store the original text of the handhistory."""
 
+        self.blinds = None
+        """ The amount of blinds payd bevore holecards are dealt."""
+
         # Street informations
-        self.preflop = None
+        self.preflopactions = None
         """Street instance for preflop actions."""
-        self.flop = None
+        self.flopactions = None
         """Street instance for flop actions. None hand ended preflop."""
-        self.turn = None
+        self.turnactions = None
         """Street instance for turn actions. None if hand ended on flop."""
-        self.river = None
+        self.riveractions = None
         """Street instance for river actions. None if hand ended on turn."""
-        self.river = None
+        self.showdown = None
         """True if there was a showdown, False otherwise."""
 
         # Player informations
-        self.players = [None for i in range(self.max_players)]
+        self.seats = [Seat() for i in range(self.max_players)]
         """List of player instances. (List because we need it to be mutable.)"""
-        self.button = Attribute('Player instance of button.')
+        self.button = None
         """The seat index (int) of the button seat."""
 
         # Game informations
