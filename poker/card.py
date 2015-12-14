@@ -88,7 +88,8 @@ class Card(_ReprMixin):
 
         self = object.__new__(cls)
         self.rank = Rank(card[0])
-        self.suit = Suit(card[1])
+        # make the character a capital one. otherwise enum creation fails
+        self.suit = Suit(card[1].capitalize())
         return self
 
     def __hash__(self):
