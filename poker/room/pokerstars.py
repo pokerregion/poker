@@ -71,7 +71,7 @@ class PokerStarsHandHistoryParser(object):
 
     def __readline(self):
         self.curline = self.stream.readline()
-        print(self.curline,end ="")
+        #~print(self.curline,end ="")
 
     def __init__(self, stream = None, filename = None, mode = "full"):
         """
@@ -164,6 +164,16 @@ class PokerStarsHandHistoryParser(object):
         #print ("showdown")
         self._parse_showdown(hh)
         return hh
+        
+    @property
+    def histories(self):
+        self.stream.seek(0)
+
+        self.__seek_next_header()
+        while self.curline != '':
+            yield self.parse()
+            self.__seek_next_header()
+
 
     def _parse_players(self,hh):
         match = self._seat_re.match(self.curline)
