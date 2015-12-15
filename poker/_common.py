@@ -23,7 +23,7 @@ class _PokerEnumMeta(enum.EnumMeta):
     def __call__(cls, value):
         """Return the appropriate instance with any of the values listed. If values contains
         text types, those will be looked up in a case insensitive manner."""
-        if isinstance(value, unicode):
+        if isinstance(value, unicode) or isinstance(value, str):
             value = value.upper()
         return super(_PokerEnumMeta, cls).__call__(value)
 

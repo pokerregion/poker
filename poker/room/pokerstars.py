@@ -2,20 +2,13 @@
 from __future__ import unicode_literals, absolute_import, division, print_function
 
 import re
-#from decimal import Decimal
+import pytz
 from fractions import Fraction
 from datetime import datetime
-from collections import namedtuple
-from lxml import etree
-import pytz
-from pathlib import Path
-from zope.interface import implementer
-from .. import handhistory as hh
 from ..card import Card
 from ..hand import Combo
 from ..constants import Limit, Game, GameType, Currency, Action
-
-from ..handhistory import HandHistory, HoleCards, Board
+from ..handhistory import HandHistory, HoleCards, Board, PlayerAction
 
 
 class ParseException(Exception):
@@ -67,7 +60,10 @@ class PokerStarsHandHistoryParser(object):
         """seek the character stream such that curline will be the next handhistory header"""
         while not self.curline.startswith("PokerStars"):
             self.__readline()
-            
+            # abort seeking if eof reached
+            if self.curline == '':
+                break
+
 
     def __readline(self):
         self.curline = self.stream.readline()
@@ -92,8 +88,7 @@ class PokerStarsHandHistoryParser(object):
             self.stream = open(filename,"r")
         else:
             self.stream  = stream
-        self.curline = ""
-        #self.__seek_next_header()
+        self.curline = ''
 
     def _parse_header(self):
         properties = dict()
@@ -148,7 +143,7 @@ class PokerStarsHandHistoryParser(object):
         #print ("blinds")
         # blinds and ante
         self._parse_blinds(hh)
-        
+
         # possibly own holecards
         #print ("hero")
         self._parse_hero(hh)
@@ -164,7 +159,7 @@ class PokerStarsHandHistoryParser(object):
         #print ("showdown")
         self._parse_showdown(hh)
         return hh
-        
+
     @property
     def histories(self):
         self.stream.seek(0)
@@ -177,6 +172,9 @@ class PokerStarsHandHistoryParser(object):
 
     def _parse_players(self,hh):
         match = self._seat_re.match(self.curline)
+        # we assume that the current line is starting line of seats
+        if match is None:
+            raise ParseException(self.curline)
         # repeat until the end of the players section
         while match is not None:
             index = int(match.group('seat')) - 1
@@ -196,15 +194,23 @@ class PokerStarsHandHistoryParser(object):
 
         match = blind_re.match(self.curline)
 
+        if match is None:
+            raise ParseException(self.curline)
+
         hh.blinds = []
         while match is not None:
             name = match.group(1)
             value = Fraction(match.group(3))
-            hh.blinds.append((name,value))
+            i,s = hh.seat(name)
+            hh.blinds.append(PlayerAction(i,Action.BLIND,value))
 
             self.__readline()
             match = blind_re.match(self.curline)
-            
+
+        # skip sitout
+        while "sits out" in self.curline:
+            self.__readline()
+
 
 
     def _parse_hero(self,hh):
@@ -216,7 +222,7 @@ class PokerStarsHandHistoryParser(object):
             self.__readline()
 
 
-    def _parse_street(self):
+    def _parse_street(self,hh):
         action_re = re.compile(r"(?P<name>.*): " + \
                                r"(?P<action>checks|folds|calls|bets|raises) " + \
                                r"\$?(?P<value>[0-9]+(\.[0-9]*))?.*")
@@ -226,14 +232,20 @@ class PokerStarsHandHistoryParser(object):
             name = match.group("name")
             action = match.group("action")
             value  = match.group("value")
-            actions.append((name, action, Fraction(value) if value is not None else None))
+            i,seat = hh.seat(name)
+            a = Action(action)
+            if a is Action.RAISE or a is Action.BET:
+                pa = PlayerAction(i,a,Fraction(value))
+            else:
+                pa = PlayerAction(i,a)
+            actions.append(pa)
 
             self.__readline()
             match = action_re.match(self.curline)
         return actions
 
     def _parse_preflop(self,hh):
-        hh.preflopactions = self._parse_street()
+        hh.preflopactions = self._parse_street(hh)
 
 
     def _parse_flop(self,hh):
@@ -247,7 +259,7 @@ class PokerStarsHandHistoryParser(object):
             hh.board = Board(*[Card(match.group(i)) for i in [1,2,3]])
             self.__readline()
 
-            hh.flopactions = self._parse_street()
+            hh.flopactions = self._parse_street(hh)
 
 
     def _parse_turn(self,hh):
@@ -259,7 +271,7 @@ class PokerStarsHandHistoryParser(object):
             hh.board.append(Card(match.group(1)))
             self.__readline()
 
-            hh.turnactions = self._parse_street()
+            hh.turnactions = self._parse_street(hh)
 
     def _parse_river(self,hh):
         # pattern will be *** RIVER *** [Ah 7d 5d] [Qh] [XX]
@@ -270,7 +282,7 @@ class PokerStarsHandHistoryParser(object):
             hh.board.append(Card(match.group(1)))
             self.__readline()
 
-            hh.riveractions = self._parse_street()
+            hh.riveractions = self._parse_street(hh)
 
 
     def _parse_showdown(self, hh):
@@ -286,7 +298,8 @@ class PokerStarsHandHistoryParser(object):
                 player = match.group(1)
                 h1 = match.group(2)
                 h2 = match.group(3)
-                hh.seat(player).holecards = HoleCards(Card(h1),Card(h2))
+                i,seat = hh.seat(player)
+                seat.holecards = HoleCards(Card(h1),Card(h2))
                 self.__readline()
                 match = showdown_re.match(self.curline)
 

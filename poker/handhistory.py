@@ -12,6 +12,7 @@ from datetime import datetime
 import pytz
 from zope.interface import Interface, Attribute
 from cached_property import cached_property
+from . import Action
 from .card import Rank, Card
 from ._common import _ReprMixin
 
@@ -19,7 +20,7 @@ class HoleCards(_ReprMixin):
     def __init__(self,c1,c2):
         self.c1 = c1
         self.c2 = c2
-        
+
     def __unicode__(self):
         return '{} {}'.format(self.c1,self.c2)#.encode('utf-8')
 
@@ -31,32 +32,40 @@ class Seat(_ReprMixin):
         """The intial stack of the player at the beginning of the hand."""
         self.holecards = None
         """rename to Combo? the two cards of the player (None if unknown)"""
-        
+
     #def __unicode__(self):
     #    return u"{}: {} ({})".format(self.name,float(self.stack), unicode(self.holecards)).decode('utf-8')
 
     def __unicode__(self):
+        if self.name is None:
+            return "<empty>"
         return '{}: {} ({})'.format(self.name,float(self.stack), self.holecards)#.encode('utf-8')
-        
 
-class PlayerAction(object):
-    def __init__(self):
-        self.seat = None
+
+class PlayerAction(_ReprMixin):
+    def __init__(self, seat, action, amount = None):
+        self.seat = seat
         """The seat index of the player perfoming the action."""
-        self.action = None
+        self.action = action
         """The kind of action. I.e. Fold, Check, Call, Bet or Raise."""
-        self.amount = None
+        self.amount = amount
         """The amount of Bet/Call/Raise."""
+
+    def __unicode__(self):
+        if self.action is Action.RAISE or self.action is Action.BET:
+            return "{} {} {}".format(self.seat, self.action, float(self.amount))
+        else:
+            return "{} {}".format(self.seat, self.action)
 
 class Board(_ReprMixin):
 
     def __init__(self, *args):
         self.cards = [arg if type(arg) is Card else Card(arg) for arg in args]
         self._all_combinations = itertools.combinations(self.cards, 2)
-        
+
     def __unicode__(self):
         return ' '.join([unicode(c) for c in self.cards])
-    
+
     def append(self,c):
         self.cards.append(c)
 
@@ -163,17 +172,15 @@ class HandHistory(HandHistoryHeader):
         """Total pot Decimal."""
         self.board = None
         """The cards of the Board. Tuple of 3,4 or 5 cards"""
-        
-    def seat(self,key):
-        if type(key) is int:
-            # key is seat index
-            return self.seats[key]
-        else:
-            # key is name of player
-            for s in self.seats:
-                if s.name == key:
-                    return s
-            
+
+    def seat(self,name):
+        """
+        Get the seat number and the seatinstance by name of player. Return tuple(int, seat)
+        """
+        for i,s in enumerate(self.seats):
+            if s.name == name:
+                return i,s
+
 
     def __unicode__(self):
         return "<{}: #{}>" .format(self.__class__.__name__, self.ident)
