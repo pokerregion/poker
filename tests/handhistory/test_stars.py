@@ -97,19 +97,17 @@ class TestHandWithFlopOnly:
         ('turn', None),
         ('river', None),
         ('board', (Card('2s'), Card('6d'), Card('6h'))),
-        ('preflop_actions', (
-            "strongi82: folds",
-            "W2lkm2n: raises 40 to 60",
-            "MISTRPerfect: calls 60",
-            "blak_douglas: folds",
-            "sinus91: folds",
-            "STBIJUJA: folds",
-            "flettl2: folds",
-            "santy312: folds",
-            "flavio766: folds"
-        )),
-        ('turn_actions', None),
-        ('river_actions', None),
+        # ('preflop_actions', (
+        #     "strongi82: folds",
+        #     "W2lkm2n: raises 40 to 60",
+        #     "MISTRPerfect: calls 60",
+        #     "blak_douglas: folds",
+        #     "sinus91: folds",
+        #     "STBIJUJA: folds",
+        #     "flettl2: folds",
+        #     "santy312: folds",
+        #     "flavio766: folds"
+        # )),
         ('total_pot', Decimal(150)),
         ('show_down', False),
         ('winners', ('W2lkm2n',)),
@@ -128,7 +126,7 @@ class TestHandWithFlopOnly:
         ('cards', (Card('2s'), Card('6d'), Card('6h'))),
         ('is_rainbow', True),
         ('is_monotone', False),
-        ('is_triplet', False),
+        ('has_triplet', False),
         # TODO: http://www.pokerology.com/lessons/flop-texture/
         # assert flop.is_dry
         ('has_pair', True),
@@ -181,22 +179,20 @@ class TestAllinPreflopHand:
             _Player(name='pmmr', stack=2415, seat=8, combo=None),
             _Player(name='costamar', stack=13070, seat=9, combo=None),
         ]),
-        ('turn', Card('8d')),
-        ('river', Card('Ks')),
         ('board', (Card('3c'), Card('6s'), Card('9d'), Card('8d'), Card('Ks'))),
-        ('preflop_actions', (
-            "lkenny44: folds",
-            "Newfie_187: raises 155 to 955 and is all-in",
-            "Hokolix: folds",
-            "pmmr: folds",
-            "costamar: raises 12040 to 12995 and is all-in",
-            "RichFatWhale: folds",
-            "W2lkm2n: calls 11740 and is all-in",
-            "Labahra: folds",
-            "Lean Abadia: folds",
-            "Uncalled bet (1255) returned to costamar")),
-        ('turn_actions', None),
-        ('river_actions', None),
+        # ('preflop_actions', (
+        #     "lkenny44: folds",
+        #     "Newfie_187: raises 155 to 955 and is all-in",
+        #     "Hokolix: folds",
+        #     "pmmr: folds",
+        #     "costamar: raises 12040 to 12995 and is all-in",
+        #     "RichFatWhale: folds",
+        #     "W2lkm2n: calls 11740 and is all-in",
+        #     "Labahra: folds",
+        #     "Lean Abadia: folds",
+        #     "Uncalled bet (1255) returned to costamar")),
+        # ('turn', None),
+        # ('river', None),
         ('total_pot', Decimal(26310)),
         ('show_down', True),
         ('winners', ('costamar',)),
@@ -209,7 +205,7 @@ class TestAllinPreflopHand:
         ('cards', (Card('3c'), Card('6s'), Card('9d'))),
         ('is_rainbow', True),
         ('is_monotone', False),
-        ('is_triplet', False),
+        ('has_triplet', False),
         # TODO: http://www.pokerology.com/lessons/flop-texture/
         # assert flop.is_dry
         ('has_pair', False),
@@ -268,21 +264,19 @@ class TestBodyMissingPlayerNoBoard:
         ('turn', None),
         ('river', None),
         ('board', None),
-        ('preflop_actions', (
-            'EuSh0wTelm0: folds',
-            'panost3: folds',
-            'Samovlyblen: folds',
-            'Theralion: raises 600 to 1200',
-            'wrsport1015: folds',
-            'W2lkm2n: folds',
-            'fischero68: folds',
-            'snelle_jel: folds',
-            'Uncalled bet (600) returned to Theralion',
-            'Theralion collected 1900 from pot',
-            "Theralion: doesn't show hand"
-        )),
-        ('turn_actions', None),
-        ('river_actions', None),
+        # ('preflop_actions', (
+        #     'EuSh0wTelm0: folds',
+        #     'panost3: folds',
+        #     'Samovlyblen: folds',
+        #     'Theralion: raises 600 to 1200',
+        #     'wrsport1015: folds',
+        #     'W2lkm2n: folds',
+        #     'fischero68: folds',
+        #     'snelle_jel: folds',
+        #     'Uncalled bet (600) returned to Theralion',
+        #     'Theralion collected 1900 from pot',
+        #     "Theralion: doesn't show hand"
+        # )),
         ('total_pot', Decimal(1900)),
         ('show_down', False),
         ('winners', ('Theralion',)),
@@ -330,31 +324,30 @@ class TestBodyEveryStreet:
             _Player(name='sinus91', stack=3000, seat=8, combo=None),
             _Player(name='STBIJUJA', stack=1205, seat=9, combo=None),
         ]),
-        ('turn', Card('8c')),
-        ('river', Card('Kd')),
+        # ('river', Card('Kd')),
         ('board', (Card('6s'), Card('4d'), Card('3s'), Card('8c'), Card('Kd'))),
-        ('preflop_actions', (
-            'sinus91: folds',
-            'STBIJUJA: folds',
-            'flettl2: raises 125 to 225',
-            'santy312: folds',
-            'flavio766: folds',
-            'strongi82: folds',
-            'W2lkm2n: folds',
-            'MISTRPerfect: folds',
-            'blak_douglas: calls 125')),
-        ('turn_actions', (
-            'blak_douglas: checks',
-            'flettl2: bets 250',
-            'blak_douglas: calls 250')),
-        ('river_actions', (
-            'blak_douglas: checks',
-            'flettl2: bets 1300',
-            'blak_douglas: folds',
-            'Uncalled bet (1300) returned to flettl2',
-            'flettl2 collected 1300 from pot',
-            "flettl2: doesn't show hand"
-        )),
+        # ('preflop_actions', (
+        #     'sinus91: folds',
+        #     'STBIJUJA: folds',
+        #     'flettl2: raises 125 to 225',
+        #     'santy312: folds',
+        #     'flavio766: folds',
+        #     'strongi82: folds',
+        #     'W2lkm2n: folds',
+        #     'MISTRPerfect: folds',
+        #     'blak_douglas: calls 125')),
+        # ('turn_actions', (
+        #     'blak_douglas: checks',
+        #     'flettl2: bets 250',
+        #     'blak_douglas: calls 250')),
+        # ('river_actions', (
+        #     'blak_douglas: checks',
+        #     'flettl2: bets 1300',
+        #     'blak_douglas: folds',
+        #     'Uncalled bet (1300) returned to flettl2',
+        #     'flettl2 collected 1300 from pot',
+        #     "flettl2: doesn't show hand"
+        # )),
         ('total_pot', Decimal(1300)),
         ('show_down', False),
         ('winners', ('flettl2',)),
@@ -371,7 +364,7 @@ class TestBodyEveryStreet:
         ('cards', (Card('6s'), Card('4d'), Card('3s'))),
         ('is_rainbow', False),
         ('is_monotone', False),
-        ('is_triplet', False),
+        ('has_triplet', False),
         # TODO: http://www.pokerology.com/lessons/flop-texture/
         # assert flop.is_dry
         ('has_pair', False),
@@ -383,8 +376,30 @@ class TestBodyEveryStreet:
     def test_flop_attributes(self, hand, attribute, expected_value):
         assert getattr(hand.flop, attribute) == expected_value
 
-    def test_flop(self, hand):
-        assert isinstance(hand.flop, _Street)
+    @pytest.mark.parametrize(('attribute', 'expected_value'), [
+        ('actions', (
+            _PlayerAction('blak_douglas', Action.CHECK, None),
+            _PlayerAction('flettl2', Action.BET, Decimal('250')),
+            _PlayerAction('blak_douglas', Action.CALL, Decimal('250')),
+        )),
+        ('cards', (Card('8c'),))
+    ])
+    def test_turn_attributes(self, hand, attribute, expected_value):
+        assert getattr(hand.turn, attribute) == expected_value
+
+    #     ('river', (
+    #         'blak_douglas: checks',
+    #         'flettl2: bets 1300',
+    #         'blak_douglas: folds',
+    #         'Uncalled bet (1300) returned to flettl2',
+    #         'flettl2 collected 1300 from pot',
+    #         "flettl2: doesn't show hand"
+    #     )),
+
+    # def test_river_attributes()
+    def test_street_instances(self, hand):
+        for street in ('flop', 'turn', 'river'):
+            assert isinstance(getattr(hand, street), _Street)
 
     @pytest.mark.xfail
     def test_flop_pot(self, hand):

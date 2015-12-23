@@ -66,8 +66,10 @@ class Action(PokerEnum):
     RETURN = 'return', 'returned', 'uncalled'
     WIN = 'win', 'won', 'collected'
     SHOW = 'show',
-    MUCK = "don't show", "didn't show", 'did not show', 'mucks'
-    THINK = 'seconds left to act',
+    MUCK = 'muck', "don't show", "didn't show", 'did not show', 'mucks'
+    THINK = 'think', 'seconds left to act',
+    DISCONNECT = 'disconnect', 'has been disconnected',
+    RECONNECT = 'reconnect', 'has reconnected'
 
 
 class Position(PokerEnum):

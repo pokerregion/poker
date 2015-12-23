@@ -15,11 +15,7 @@ from .._common import _make_int
 __all__ = ['FullTiltPokerHandHistory']
 
 
-@implementer(hh.IStreet)
 class _Street(hh._BaseStreet):
-    def _parse_cards(self, boardline):
-        self.cards = (Card(boardline[1:3]), Card(boardline[4:6]), Card(boardline[7:9]))
-
     def _parse_actions(self, actionlines):
         actions = []
         for line in actionlines:
@@ -89,15 +85,40 @@ class _Street(hh._BaseStreet):
             return name, action, None
 
 
+@implementer(hh.IStreet)
+class _Preflop():
+    def _parse_board(self, boardline):
+        self.cards = None
+
+
+@implementer(hh.IStreet)
+class _Flop():
+    def _parse_board(self, boardline):
+        self.cards = (Card(boardline[1:3]), Card(boardline[4:6]), Card(boardline[7:9]))
+
+
+@implementer(hh.IStreet)
+class _Turn():
+    def _parse_board(self, boardline):
+        self.cards = (Card(boardline[12:14]),)
+
+
+@implementer(hh.IStreet)
+class _River():
+    def _parse_board(self, boardline):
+        self.cards = (Card(boardline[12:14]),)
+
+
 @implementer(hh.IHandHistory)
-class FullTiltPokerHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
+class FullTiltPokerHandHistory(hh._SplittableHandHistoryMixin, hh._FullTiltPokerStarsMixin,
+                               hh._BaseHandHistory):
     """Parses Full Tilt Poker hands the same way as PokerStarsHandHistory class."""
 
     rake = None
     tournament_level = None
 
-    _DATE_FORMAT = '%H:%M:%S ET - %Y/%m/%d'
-    _TZ = pytz.timezone('US/Eastern')  # ET
+    _date_format = '%H:%M:%S ET - %Y/%m/%d'
+    _tz = pytz.timezone('US/Eastern')  # ET
     _split_re = re.compile(r" ?\*\*\* ?\n?|\n")
     _header_re = re.compile(r"""
         ^Full[ ]Tilt[ ]Poker[ ]                                 # Poker Room
@@ -113,14 +134,11 @@ class FullTiltPokerHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHisto
         (?P<sb>\d*)/(?P<bb>\d*)[ ]-[ ].*                        # blinds
         \[(?P<date>.*)\]$                                       # date in ET
         """, re.VERBOSE)
-    _seat_re = re.compile(r"^Seat (\d): (.*) \(([\d,]*)\)$")
+    _seat_re = re.compile(r"^Seat (?P<seat>\d): (?P<name>.*) \((?P<stack>[\d,]*)\)$")
     _button_re = re.compile(r"^The button is in seat #(\d)$")
-    _hero_re = re.compile(r"^Dealt to (?P<hero_name>.*) \[(..) (..)\]$")
     _street_re = re.compile(r"\[([^\]]*)\] \(Total Pot: (\d*)\, (\d) Players")
     _pot_re = re.compile(r"^Total pot ([\d,]*) .*\| Rake (\d*)$")
     _winner_re = re.compile(r"^Seat (?P<seat>\d): (?P<name>.*?) .*collected \((\d*)\),")
-    _showdown_re = re.compile(r"^Seat (\d): (.*) showed .* and won")
-    _board_re = re.compile(r"(?<=[\[ ])(..)(?=[\] ])")
 
     def parse_header(self):
         # sections[0] is before HOLE CARDS
@@ -128,156 +146,43 @@ class FullTiltPokerHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHisto
         self._split_raw()
 
         header_match = self._header_re.match(self._splitted[0])
+        self.ident = header_match.group('ident')
+        self.date = self._parse_date(header_match.group('date'))
         self.sb = Decimal(header_match.group('sb'))
         self.bb = Decimal(header_match.group('bb'))
-        self._parse_date(header_match.group('date'))
-        self.ident = header_match.group('ident')
-        tournament_name = header_match.group('tournament_name')
-        self.game_type = GameType.SNG if 'Sit & Go' in tournament_name else GameType.TOUR
-        self.currency = Currency.USD if '$' in tournament_name else None
-        self.tournament_ident = header_match.group('tournament_ident')
-        self.table_name = header_match.group('table_name')
         self.limit = Limit(header_match.group('limit'))
         self.game = Game(header_match.group('game'))
+        self.game_type = GameType.SNG if 'Sit & Go' in self.tournament_name else GameType.TOUR
+        self.table_name = header_match.group('table_name')
+        self.currency = Currency.USD if '$' in self.tournament_name else None
+        self.tournament_name = header_match.group('tournament_name')
+        self.tournament_ident = header_match.group('tournament_ident')
         buyin = header_match.group('buyin')
         self.buyin = Decimal(buyin) if buyin else None
 
-        self.extra = dict()
-        self.extra['tournament_name'] = tournament_name
+        self._header_parsed = True
 
-        self.header_parsed = True
-
-    def parse(self):
-        """Parses the body of the hand history, but first parse header if not yet parsed."""
-        if not self.header_parsed:
-            self.parse_header()
-
-        self._parse_players()
-        self._parse_button()
-        self._parse_hero()
-        self._parse_preflop()
-        self._parse_flop()
-        self._parse_street('turn')
-        self._parse_street('river')
-        self._parse_showdown()
-        self._parse_pot()
-        self._parse_board()
-        self._parse_winners()
-        self._parse_extra()
-
-        self._del_split_vars()
-        self.parsed = True
-
-    def _parse_players(self):
-        # In hh there is no indication of max_players, so init for 9.
-        players = self._init_seats(9)
-        for line in self._splitted[1:]:
-            match = self._seat_re.match(line)
-            if not match:
-                break
-            seat = int(match.group(1))
-            players[seat - 1] = hh._Player(
-                name=match.group(2),
-                seat=seat,
-                stack=_make_int(match.group(3)),
-                combo=None
-            )
+    def _parse_seats(self):
+        # There is no indication of max_players, so init for 9.
+        players, seat, hero_index = self._get_players(init_seats=9, start_line_index=1)
         self.max_players = seat
-        self.players = players[:seat]  # cut off unneccesary seats
+        self.players = players[:seat]  # cut off unnecessary seats
 
-    def _parse_button(self):
         # one line before the first split.
         button_line = self._splitted[self._sections[0] - 1]
         button_seat = int(self._button_re.match(button_line).group(1))
         self.button = self.players[button_seat - 1]
+        self.hero = self.players[hero_index]
 
-    def _parse_hero(self):
-        hole_cards_line = self._splitted[self._sections[0] + 2]
-        match = self._hero_re.match(hole_cards_line)
-        hero, hero_index = self._get_hero_from_players(match.group('hero_name'))
-        self.hero = self.players[hero_index] = hero._replace(
-            combo=Combo(match.group(2) + match.group(3))
-        )
+    def _parse_streets(self):
+        lines = self._get_preflop_lines()
+        self.preflop = _Preflop(lines) if lines else None
 
-        if self.button.name == self.hero.name:
-            self.button = self.hero
+        lines = self._get_street_lines('FLOP')
+        self.flop = _Flop(lines) if lines else None
 
-    def _parse_preflop(self):
-        start = self._sections[0] + 3
-        stop = self._sections[1]
-        self.preflop_actions = tuple(self._splitted[start:stop])
+        lines = self._get_street_lines('TURN')
+        self.turn = _Turn(lines) if lines else None
 
-    def _parse_flop(self):
-        try:
-            start = self._splitted.index('FLOP')
-        except ValueError:
-            self.flop = None
-            return
-        stop = next(v for v in self._sections if v > start)
-        floplines = self._splitted[start + 1:stop]
-        self.flop = _Street(floplines)
-
-    def _parse_street(self, street):
-        try:
-            start = self._splitted.index(street.upper()) + 1
-            self._parse_streetline(start, street)
-            stop = next(v for v in self._sections if v > start)
-            street_actions = self._splitted[start + 1:stop]
-            setattr(self, "{}_actions".format(street), tuple(street_actions)
-                    if street_actions else None)
-        except ValueError:
-            setattr(self, street, None)
-            setattr(self, '{}_actions'.format(street), None)
-            setattr(self, '{}_pot'.format(street), None)
-            setattr(self, '{}_num_players'.format(street), None)
-
-    def _parse_showdown(self):
-        self.show_down = 'SHOW DOWN' in self._splitted
-
-    def _parse_pot(self):
-        potline = self._splitted[self._sections[-1] + 2]
-        match = self._pot_re.match(potline.replace(',', ''))
-        self.total_pot = int(match.group(1))
-
-    def _parse_board(self):
-        boardline = self._splitted[self._sections[-1] + 3]
-        if not boardline.startswith('Board'):
-            return
-        cards = self._board_re.findall(boardline)
-        self.turn = Card(cards[3]) if len(cards) > 3 else None
-        self.river = Card(cards[4]) if len(cards) > 4 else None
-
-    def _parse_winners(self):
-        winners = set()
-        start = self._sections[-1] + 4
-        for line in self._splitted[start:]:
-            if not self.show_down and "collected" in line:
-                match = self._winner_re.match(line)
-                winners.add(match.group('name'))
-            elif self.show_down and "won" in line:
-                match = self._showdown_re.match(line)
-                winners.add(match.group('name'))
-
-        self.winners = tuple(winners)
-
-    def _parse_extra(self):
-        # tournament name already parsed in header
-        for street in ('turn', 'river'):
-            try:
-                start = self._splitted.index(street.upper()) + 1
-                self._parse_streetline(start, street)
-            except ValueError:
-                self.extra['{}_pot'.format(street)] = None
-                self.extra['{}_num_players'.format(street)] = None
-
-    def _parse_streetline(self, start, street):
-        """Parse pot, num players."""
-
-        # Exceptions caught in _parse_street.
-        board_line = self._splitted[start]
-        match = self._street_re.search(board_line)
-        pot = match.group(2)
-        self.extra['{}_pot'.format(street)] = Decimal(pot)
-
-        num_players = int(match.group(3))
-        self.extra['{}_num_players'.format(street)] = num_players
+        lines = self._get_street_lines('RIVER')
+        self.river = _River(lines) if lines else None

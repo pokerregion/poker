@@ -81,9 +81,11 @@ class PKRHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
         self.table_name = self._splitted[0][6:]          # cut off "Table "
         self.ident = self._splitted[1][15:]              # cut off "Starting Hand #"
         self._parse_date(self._splitted[2][20:])         # cut off "Start time of hand: "
+        self.last_ident = self._splitted[3][11:]             # cut off "Last Hand #"
         self.game = Game(self._splitted[4][11:])        # cut off "Game Type: "
         self.limit = Limit(self._splitted[5][12:])      # cut off "Limit Type: "
         self.game_type = GameType(self._splitted[6][12:])   # cut off "Table Type: "
+        self.money_type = MoneyType(self._splitted[7][12:])  # cut off "Money Type: "
 
         match = self._blinds_re.match(self._splitted[8])
         self.sb = Decimal(match.group(1))
@@ -95,7 +97,7 @@ class PKRHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
         if not self.header_parsed:
             self.parse_header()
 
-        self._parse_players()
+        self._parse_seats()
         self._parse_button()
         self._parse_hero()
         self._parse_preflop()
@@ -108,22 +110,34 @@ class PKRHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
         self._del_split_vars()
         self.parsed = True
 
-    def _parse_players(self):
+    def _parse_seats(self):
         # In hh there is no indication of max_players,
-        # so init for 10, as there are 10 player tables on PKR.
+        # so init for 10, because there are 10 player tables on PKR.
         players = self._init_seats(10)
+
+        dealt_row = self._splitted[self._sections[1] + 1]
+        hero_match = self._hero_re.match(dealt_row)
+        hero_name = hero_match.group('hero_name')
+
         for line in self._splitted[10:]:
             match = self._seat_re.match(line)
             if not match:
                 break
-            seat_number = int(match.group(1))
-            players[seat_number - 1] = hh._Player(
-                name=match.group(2), stack=Decimal(match.group(3)), seat=seat_number, combo=None
-            )
-        self.max_players = seat_number
+            seat = int(match.group(1))
+            index = seat - 1
+            combo = None
+            player_name = match.group(2)
+            if player_name == hero_name:
+                first = hero_match.group(1)[self._SPLIT_CARD_SPACE]
+                second = hero_match.group(2)[self._SPLIT_CARD_SPACE]
+                combo = Combo(first + second)
+                hero_index = index
+            players[index] = hh._Player(name=player_name, stack=Decimal(match.group(3)),
+                                        seat=seat, combo=combo)
+        self.max_players = seat
         self.players = players[:self.max_players]
+        self.hero = self.players[hero_index]
 
-    def _parse_button(self):
         button_row = self._splitted[self._sections[0] + 1]
 
         # cut last two because there can be 10 seats also
@@ -132,21 +146,13 @@ class PKRHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
         button_seat = int(button_row[-2:])
         self.button = self.players[button_seat - 1]
 
-    def _parse_hero(self):
-        dealt_row = self._splitted[self._sections[1] + 1]
-        match = self._hero_re.match(dealt_row)
-
-        first = match.group(1)[self._SPLIT_CARD_SPACE]
-        second = match.group(2)[self._SPLIT_CARD_SPACE]
-        hero, hero_index = self._get_hero_from_players(match.group('hero_name'))
-        self.hero = self.players[hero_index] = hero._replace(combo=Combo(first + second))
-        if self.button.name == self.hero.name:
-            self.button = self.hero
-
     def _parse_preflop(self):
         start = self._sections[1] + 2
         stop = self._splitted.index('', start + 1) - 1
         self.preflop_actions = tuple(self._splitted[start:stop])
+
+    def _get_lines(self):
+        pass
 
     def _parse_flop(self):
         flop_section = self._STREET_SECTIONS['flop']
@@ -154,6 +160,12 @@ class PKRHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
         stop = next(v for v in self._sections if v > start)
         floplines = self._splitted[start:stop]
         self.flop = _Street(floplines)
+
+    def _parse_turn(self):
+        pass
+
+    def _parse_river(self):
+        pass
 
     def _parse_street(self, street):
         section = self._STREET_SECTIONS[street]
@@ -195,8 +207,3 @@ class PKRHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
 
         self.winners = tuple(winners)
         self.total_pot = total_pot
-
-    def _parse_extra(self):
-        self.extra = dict()
-        self.extra['last_ident'] = self._splitted[3][11:]             # cut off "Last Hand #"
-        self.extra['money_type'] = MoneyType(self._splitted[7][12:])  # cut off "Money Type: "

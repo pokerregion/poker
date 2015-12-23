@@ -106,9 +106,7 @@ class TestHandWithFlopOnly:
         ('show_down', False),
         ('winners', ('FatalRevange',)),
         ('board', (Card('8h'), Card('4h'), Card('Tc'))),
-        ('extra', dict(tournament_name='MiniFTOPS Main Event',
-                       turn_pot=None, turn_num_players=None,
-                       river_pot=None, river_num_players=None)),
+        ('tournament_name', 'MiniFTOPS Main Event'),
         ])
     def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value
@@ -126,7 +124,7 @@ class TestHandWithFlopOnly:
         ('cards', (Card('8h'), Card('4h'), Card('Tc'))),
         ('is_rainbow', False),
         ('is_monotone', False),
-        ('is_triplet', False),
+        ('has_triplet', False),
         # TODO: http://www.pokerology.com/lessons/flop-texture/
         # assert flop.is_dry
         ('has_pair', False),
@@ -191,9 +189,7 @@ class TestHandWithFlopTurnRiver:
         ('show_down', False),
         ('winners', ('AzzzJJ',)),
         ('board', (Card('6s'), Card('9c'), Card('3d'))),
-        ('extra', dict(tournament_name='$10 Sit & Go (Turbo)',
-                       turn_pot=None, turn_num_players=None,
-                       river_pot=None, river_num_players=None)),
+        ('tournament_name', '$10 Sit & Go (Turbo)'),
         ])
     def test_body(self, hand, attribute, expected_value):
         assert getattr(hand, attribute) == expected_value
@@ -210,7 +206,7 @@ class TestHandWithFlopTurnRiver:
         ('cards', (Card('6s'), Card('9c'), Card('3d'))),
         ('is_rainbow', True),
         ('is_monotone', False),
-        ('is_triplet', False),
+        ('has_triplet', False),
         # TODO: http://www.pokerology.com/lessons/flop-texture/
         # assert flop.is_dry
         ('has_pair', False),

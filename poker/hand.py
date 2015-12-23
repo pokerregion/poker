@@ -9,7 +9,7 @@ from decimal import Decimal
 from pathlib import Path
 from cached_property import cached_property
 from ._common import PokerEnum, _ReprMixin
-from .card import Suit, Rank, Card, BROADWAY_RANKS
+from .card import Rank, Card, BROADWAY_RANKS
 
 
 __all__ = ['Shape', 'Hand', 'Combo', 'Range', 'PAIR_HANDS', 'OFFSUIT_HANDS', 'SUITED_HANDS']
@@ -812,7 +812,7 @@ class Range(object):
         if first == last:
             return unicode(first)
         elif (first.is_pair and first.first.val == 'A' or
-                    Rank.difference(first.first, first.second) == 1):
+                Rank.difference(first.first, first.second) == 1):
             return '%s+' % last
         elif last.second.val == '2':
             return '%s-' % first

@@ -257,3 +257,37 @@ Seat 6: W2lkm2n folded before Flop (didn't bet)
 Seat 7: sednanref folded before Flop (didn't bet)
 Seat 8: daoudi007708 folded on the River
 Seat 9: IPODpoker88 folded before Flop (didn't bet)"""
+
+
+FULL_HAND = """
+PokerStars Hand #135127768647: Tournament #1226871541, $6.58+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2015/05/12 0:31:38 CET [2015/05/11 18:31:38 ET]
+Table '1226871541 1' 3-max Seat #1 is the button
+Seat 1: W2lkm2n (860 in chips)
+Seat 3: Johongir7777 (640 in chips)
+W2lkm2n: posts small blind 30
+Johongir7777: posts big blind 60
+*** HOLE CARDS ***
+Dealt to W2lkm2n [Qh 2h]
+W2lkm2n: raises 60 to 120
+Johongir7777: calls 60
+*** FLOP *** [8d 4h 6s]
+Johongir7777: checks
+W2lkm2n: checks
+*** TURN *** [8d 4h 6s] [5d]
+Johongir7777: checks
+W2lkm2n: bets 120
+Johongir7777: calls 120
+*** RIVER *** [8d 4h 6s 5d] [7s]
+Johongir7777: bets 273
+W2lkm2n: calls 273
+*** SHOW DOWN ***
+Johongir7777: shows [6d Qd] (a straight, Four to Eight)
+W2lkm2n: shows [Qh 2h] (a straight, Four to Eight)
+Johongir7777 collected 513 from pot
+W2lkm2n collected 513 from pot
+*** SUMMARY ***
+Total pot 1026 | Rake 0
+Board [8d 4h 6s 5d 7s]
+Seat 1: W2lkm2n (button) (small blind) showed [Qh 2h] and won (513) with a straight, Four to Eight
+Seat 3: Johongir7777 (big blind) showed [6d Qd] and won (513) with a straight, Four to Eight
+"""
