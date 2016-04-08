@@ -8,6 +8,7 @@ class PokerRoom(PokerEnum):
     STARS = 'PokerStars', 'STARS', 'PS'
     FTP = 'Full Tilt Poker', 'FTP', 'FULL TILT'
     PKR = 'PKR', 'PKR POKER'
+    EIGHT = '888', '888poker'
 
 
 class Currency(PokerEnum):
@@ -46,6 +47,7 @@ class TourFormat(PokerEnum):
 
 
 class TourSpeed(PokerEnum):
+    SLOW = 'Slow',
     REGULAR = 'Regular',
     TURBO = 'Turbo',
     HYPER = 'Hyper-Turbo',
