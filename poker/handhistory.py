@@ -6,6 +6,7 @@ from __future__ import unicode_literals, absolute_import, division, print_functi
 """
 
 import itertools
+import enum
 from cached_property import cached_property
 from . import Action
 from .card import Card
@@ -16,7 +17,7 @@ class Player(_ReprMixin):
     __slots__ = ('name', 'stack', 'combo')
 
     def __init__(self):
-        self.name  = None
+        self.name = None
         """The player name."""
 
         self.seat = None
@@ -96,14 +97,23 @@ class Board(_ReprMixin):
                    self._all_combinations)
 
 
-class HandHistoryHeader(object):
-    """Header information for Hand histories like date, hand id
-
-    Not all attributes are available in all room's hand histories, missing
-    attributes are always None. This contains the most properties, available in
-    any pokerroom hand history, so you always have to deal with None values.
+class HandHistory(_ReprMixin):
+    """Hand history data for every poker room.
+    Not all attributes are available in all room's hand histories, missing attributes are
+    always None. This contains the most properties, available in any pokerroom hand history,
+    so you always have to deal with None values.
     """
-    def __init__(self, **kwargs):
+    def __init__(self, parser_mode, raw=None, **overwrite_attributes):
+        if parser_mode == ParserMode.RAW and not raw:
+            raise ValueError('parse_mode is RAW, but no raw hand history given.')
+
+        self.parser_mode = None
+        """ParseMode Enum value: RAW, HEADER, or FULL."""
+
+        self.raw = raw
+        """Store the original text of the handhistory (stripped)."""
+
+        # Header informations. Usually comes from first line of the HandHistory.
         self.date = None
         self.room = None
 
@@ -141,16 +151,6 @@ class HandHistoryHeader(object):
         header_attributes = {name: value for name, value in kwargs.iteritems() if
                              name in self.__dict__.keys() and not name.startswith('_')}
         self.__dict__.update(header_attributes)
-
-
-class HandHistory(_ReprMixin, HandHistoryHeader):
-    """Extend the Header by the real game information"""
-    def __init__(self, raw=None, **kwargs):
-        super(HandHistory, self).__init__(**kwargs)
-        # now the header is initialized, i.e. we know number of players etc.
-
-        self.raw = raw
-        """Store the original text of the handhistory (stripped)."""
 
         self.blinds = None
         """The amount of blinds payed before holecards are dealt."""
@@ -200,13 +200,17 @@ class HandHistory(_ReprMixin, HandHistoryHeader):
 
 
 class ParserMode(enum.Enum):
-    FULL = 'full'
-    """Read full handhistory"""
-
-    HEADER = 'header'
-    """Only read headers"""
+    """Parser mode for hand history parsing"""
 
     RAW = 'raw'
     """Don't parse anything, only split the lines into separate chunks,
-    each containing just one hand history."""
+       each containing just one hand history."""
 
+    IDENT = 'ident'
+    """Get only hand history IDs nothing else from the stream."""
+
+    HEADER = 'header'
+    """Only read headers."""
+
+    FULL = 'full'
+    """Read full handhistory."""
