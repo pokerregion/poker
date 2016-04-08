@@ -103,15 +103,8 @@ class HandHistory(_ReprMixin):
     always None. This contains the most properties, available in any pokerroom hand history,
     so you always have to deal with None values.
     """
-    def __init__(self, parser_mode, raw=None, **overwrite_attributes):
-        if parser_mode == ParserMode.RAW and not raw:
-            raise ValueError('parse_mode is RAW, but no raw hand history given.')
-
-        self.parser_mode = None
-        """ParseMode Enum value: RAW, HEADER, or FULL."""
-
-        self.raw = raw
-        """Store the original text of the handhistory (stripped)."""
+    def __init__(self, parser, **overwrite_attributes):
+        self.parser = parser
 
         # Header informations. Usually comes from first line of the HandHistory.
         self.date = None
@@ -147,56 +140,64 @@ class HandHistory(_ReprMixin):
         self.buyin = None
         """Buyin with rake."""
 
-        # overwrite all header attributes with the constructor arguments
-        header_attributes = {name: value for name, value in kwargs.iteritems() if
-                             name in self.__dict__.keys() and not name.startswith('_')}
-        self.__dict__.update(header_attributes)
-
         self.blinds = None
         """The amount of blinds payed before holecards are dealt."""
 
         # Player informations
-        self.players = [Player() for _ in range(self.max_players)]
-        """List of player instances. (List because we need it to be mutable.)"""
+        self.players = None
+        """Tuple of player instances."""
 
         self.button = None
         """The :class:`Player` player of the button seat."""
 
         # Street informations
-        self.preflopactions = None
+        self.preflop = None
         """Street instance for preflop actions."""
 
-        self.flopactions = None
+        self.flop = None
         """Street instance for flop actions. None hand ended preflop."""
 
-        self.turnactions = None
+        self.turn = None
         """Street instance for turn actions. None if hand ended on flop."""
 
-        self.riveractions = None
+        self.river = None
         """Street instance for river actions. None if hand ended on turn."""
 
-        self.has_showdown = None
-        """True if there was a showdown, False otherwise."""
+        self.showdown = None
+        """Showdown instance for showdown actions and card. None if there was no showdown."""
 
         # Game informations
         self.rake = None
 
         self.total_pot = None
 
-        self.board = None
+        self.__dict__.update(overwrite_attributes)
+
+    def __unicode__(self):
+        return "<{}HandHistory: #{}>" .format(self.room, self.ident)
+
+    @property
+    def board(self):
         """The cards of the Board. Tuple of 3, 4 or 5 cards"""
+        board = []
+        if self.flop:
+            board.extend(self.flop.cards)
+            if self.turn:
+                board.extend(self.turn.cards)
+                if self.river:
+                    board.extend(self.river.cards)
+        return tuple(board)
 
-        # overwrite all attributes with the constructor arguments
-        self.__dict__.update(kwargs)
-
-    def player(self, name):
+    def get_player(self, name):
         """Get the :class:`Player` by name."""
         for player in self.players:
             if player.name == name:
                 return player
 
-    def __unicode__(self):
-        return "<{}HandHistory: #{}>" .format(self.room, self.ident)
+
+            for ParserClass in self.parserclasses:
+                if line.startswith(parser.start_word):
+                    yield ParserClass(self.mode, self.raw)
 
 
 class ParserMode(enum.Enum):
