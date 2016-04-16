@@ -106,9 +106,9 @@ class PokerStarsHandHistoryParser(object):
         match = self._table_re.match(self.curline)
         if match is None:
             raise ParseException(self.curline)
-        header_fields["table_name"]  = match.group("name")
+        header_fields["table_name"] = match.group("name")
         header_fields["max_players"] = int(match.group("seats"))
-        header_fields["button"]      = int(match.group("button"))
+        header_fields["button"] = int(match.group("button"))
         self._readline()
         return header_fields
 
@@ -120,8 +120,7 @@ class PokerStarsHandHistoryParser(object):
         header_fields = self._parse_header()
 
         if self._save_raw:
-
-        hh = HandHistory(raw, **header_fields)
+            hh = HandHistory(raw, **header_fields)
 
         # the player names and stacks
         self._parse_players(hh)
@@ -148,8 +147,7 @@ class PokerStarsHandHistoryParser(object):
             yield self.parse()
             self.__seek_next_header()
 
-
-    def _parse_players(self,hh):
+    def _parse_players(self, hh):
         match = self._seat_re.match(self.curline)
         # we assume that the current line is starting line of seats
         if match is None:
@@ -158,7 +156,7 @@ class PokerStarsHandHistoryParser(object):
         while match is not None:
             index = int(match.group('seat')) - 1
             hh.seats[index].stack = Fraction(match.group('stack'))
-            hh.seats[index].name  = match.group('name')
+            hh.seats[index].name = match.group('name')
 
             self._readline()
             match = self._seat_re.match(self.curline)
@@ -167,8 +165,7 @@ class PokerStarsHandHistoryParser(object):
         while "will be allowed to play" in self.curline:
             self._readline()
 
-
-    def _parse_blinds(self,hh):
+    def _parse_blinds(self, hh):
         blind_re = re.compile(r"(.*): posts (small|big|small & big) blind[s]? \$?(.*)")
 
         match = blind_re.match(self.curline)
@@ -180,8 +177,8 @@ class PokerStarsHandHistoryParser(object):
         while match is not None:
             name = match.group(1)
             value = Fraction(match.group(3))
-            i,s = hh.seat(name)
-            hh.blinds.append(PlayerAction(i,Action.BLIND,value))
+            i, s = hh.seat(name)
+            hh.blinds.append(PlayerAction(i, Action.BLIND, value))
 
             self._readline()
             match = blind_re.match(self.curline)
@@ -190,61 +187,56 @@ class PokerStarsHandHistoryParser(object):
         while "sits out" in self.curline:
             self._readline()
 
-
-
-    def _parse_hero(self,hh):
+    def _parse_hero(self, hh):
         if "*** HOLE CARDS ***" in self.curline:
             self._readline()
         match = self._hero_re.match(self.curline)
         if match is not None:
-            name = hh.seat(name).holecards = HoleCards(Card(match.group("card1")), Card(match.group("card2")))
+            name = hh.seat(name).holecards = HoleCards(Card(match.group("card1")),
+                                                       Card(match.group("card2")))
             self._readline()
 
-
-    def _parse_street(self,hh):
-        action_re = re.compile(r"(?P<name>.*): " + \
-                               r"(?P<action>checks|folds|calls|bets|raises) " + \
+    def _parse_street(self, hh):
+        action_re = re.compile(r"(?P<name>.*): "
+                               r"(?P<action>checks|folds|calls|bets|raises) "
                                r"\$?(?P<value>[0-9]+(\.[0-9]*))?.*")
         match = action_re.match(self.curline)
         actions = []
         while match is not None:
             name = match.group("name")
             action = match.group("action")
-            value  = match.group("value")
-            i,seat = hh.seat(name)
+            value = match.group("value")
+            i, seat = hh.seat(name)
             a = Action(action)
             if a is Action.RAISE or a is Action.BET:
-                pa = PlayerAction(i,a,Fraction(value))
+                pa = PlayerAction(i, a, Fraction(value))
             else:
-                pa = PlayerAction(i,a)
+                pa = PlayerAction(i, a)
             actions.append(pa)
 
             self._readline()
             match = action_re.match(self.curline)
         return actions
 
-    def _parse_preflop(self,hh):
+    def _parse_preflop(self, hh):
         hh.preflopactions = self._parse_street(hh)
 
-
-    def _parse_flop(self,hh):
+    def _parse_flop(self, hh):
         # pattern will be "*** FLOP *** [Ah 7d 5d]"
-        board_re =re.compile(r"\*\*\* FLOP \*\*\* " + \
-                             r"\[([23456789TJQKA][cdhs]) " + \
-                             r"([23456789TJQKA][cdhs]) " + \
-                             r"([23456789TJQKA][cdhs])\].*")
+        board_re = re.compile(r"\*\*\* FLOP \*\*\* "
+                              r"\[([23456789TJQKA][cdhs]) "
+                              r"([23456789TJQKA][cdhs]) "
+                              r"([23456789TJQKA][cdhs])\].*")
         match = board_re.match(self.curline)
         if match is not None:
-            hh.board = Board(*[Card(match.group(i)) for i in [1,2,3]])
+            hh.board = Board(*[Card(match.group(i)) for i in [1, 2, 3]])
             self._readline()
 
             hh.flopactions = self._parse_street(hh)
 
-
-    def _parse_turn(self,hh):
+    def _parse_turn(self, hh):
         # pattern will be *** TURN *** [Ah 7d 5d] [Qh]
-        board_re =re.compile(r"\*\*\* TURN \*\*\* " + \
-                             r"\[.{8}\] \[(.{2})\].*")
+        board_re = re.compile(r"\*\*\* TURN \*\*\* \[.{8}\] \[(.{2})\].*")
         match = board_re.match(self.curline)
         if match is not None:
             hh.board.append(Card(match.group(1)))
@@ -252,17 +244,15 @@ class PokerStarsHandHistoryParser(object):
 
             hh.turnactions = self._parse_street(hh)
 
-    def _parse_river(self,hh):
+    def _parse_river(self, hh):
         # pattern will be *** RIVER *** [Ah 7d 5d] [Qh] [XX]
-        board_re =re.compile(r"\*\*\* RIVER \*\*\* " + \
-                             r"\[.{11}\] \[(.{2})\].*")
+        board_re = re.compile(r"\*\*\* RIVER \*\*\* \[.{11}\] \[(.{2})\].*")
         match = board_re.match(self.curline)
         if match is not None:
             hh.board.append(Card(match.group(1)))
             self._readline()
 
             hh.riveractions = self._parse_street(hh)
-
 
     def _parse_showdown(self, hh):
         if "*** SHOW DOWN ***" in self.curline:
@@ -277,8 +267,8 @@ class PokerStarsHandHistoryParser(object):
                 player = match.group(1)
                 h1 = match.group(2)
                 h2 = match.group(3)
-                i,seat = hh.seat(player)
-                seat.holecards = HoleCards(Card(h1),Card(h2))
+                i, seat = hh.seat(player)
+                seat.holecards = HoleCards(Card(h1), Card(h2))
                 self._readline()
                 match = showdown_re.match(self.curline)
 
