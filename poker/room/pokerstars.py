@@ -67,18 +67,14 @@ class _Street(hh._BaseStreet):
         return name, Action.MUCK, None
 
     def _parse_player_action(self, line):
-        colon_index = line.find(':')
-        name = line[:colon_index]
-        end_action_index = line.find(' ', colon_index + 2)
-        if end_action_index == -1:  # not found
-            end_action_index = None  # until the end
-        action = Action(line[colon_index + 2:end_action_index])
-        if end_action_index:
-            amount = line[end_action_index+1:]
-            return name, action, Decimal(amount)
-        else:
-            return name, action, None
+        name, _, action = line.partition(': ')
+        action, _, amount = action.partition(' ')
+        amount, _, _ = amount.partition(' ')
 
+        if amount:
+            return name, Action(action), Decimal(amount)
+        else:
+            return name, Action(action), None
 
 @implementer(hh.IHandHistory)
 class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
