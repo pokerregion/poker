@@ -144,7 +144,7 @@ class _BaseHandHistory(object):
 
     @classmethod
     def from_file(cls, filename):
-        with io.open(filename) as f:
+        with io.open(filename, 'rt', encoding='utf-8-sig') as f:
             return cls(f.read())
 
     def __unicode__(self):
