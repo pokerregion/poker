@@ -76,6 +76,7 @@ class _Street(hh._BaseStreet):
         else:
             return name, Action(action), None
 
+
 @implementer(hh.IHandHistory)
 class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
     """Parses PokerStars Tournament hands."""
@@ -107,7 +108,7 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
                         \[(?P<date>.+?)\]                             # ET date
                         """, re.VERBOSE)
     _table_re = re.compile(r"^Table '(.*)' (\d+)-max Seat #(?P<button>\d+) is the button")
-    _seat_re = re.compile(r"^Seat (?P<seat>\d+): (?P<name>.+?) \(\$?(?P<stack>\d+(\.\d+)?) in chips\)")
+    _seat_re = re.compile(r"^Seat (?P<seat>\d+): (?P<name>.+?) \(\$?(?P<stack>\d+(\.\d+)?) in chips\)")  # noqa
     _hero_re = re.compile(r"^Dealt to (?P<hero_name>.+?) \[(..) (..)\]")
     _pot_re = re.compile(r"^Total pot (\d+(?:\.\d+)?) .*\| Rake (\d+(?:\.\d+)?)")
     _winner_re = re.compile(r"^Seat (\d+): (.+?) collected \((\d+(?:\.\d+)?)\)")
@@ -284,6 +285,7 @@ _Note = namedtuple('_Note', 'player, label, update, text')
 
 class NoteNotFoundError(ValueError):
     """Note not found for player."""
+
 
 class LabelNotFoundError(ValueError):
     """Label not found in the player notes."""

@@ -12,10 +12,10 @@ __all__ = ['Suit', 'Rank', 'Card', 'FACE_RANKS', 'BROADWAY_RANKS']
 class Suit(PokerEnum):
     __order__ = 'CLUBS DIAMONDS HEARTS SPADES'
 
-    CLUBS =    '♣', 'c', 'clubs'
+    CLUBS = '♣', 'c', 'clubs'
     DIAMONDS = '♦', 'd', 'diamonds'
-    HEARTS =   '♥', 'h', 'hearts'
-    SPADES =   '♠', 's', 'spades'
+    HEARTS = '♥', 'h', 'hearts'
+    SPADES = '♠', 's', 'spades'
     # Can't make alias with redefined value property
     # because of a bug in stdlib enum module (line 162)
     # C = '♣', 'c', 'C', 'clubs'
@@ -26,17 +26,17 @@ class Rank(PokerEnum):
 
     DEUCE = '2', 2
     THREE = '3', 3
-    FOUR =  '4', 4
-    FIVE =  '5', 5
-    SIX =   '6', 6
+    FOUR = '4', 4
+    FIVE = '5', 5
+    SIX = '6', 6
     SEVEN = '7', 7
     EIGHT = '8', 8
-    NINE =  '9', 9
-    TEN =   'T', 10
-    JACK =  'J',
+    NINE = '9', 9
+    TEN = 'T', 10
+    JACK = 'J',
     QUEEN = 'Q',
-    KING =  'K',
-    ACE =   'A', 1
+    KING = 'K',
+    ACE = 'A', 1
 
     @classmethod
     def difference(cls, first, second):
