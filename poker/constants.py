@@ -15,7 +15,7 @@ class Currency(PokerEnum):
     USD = 'USD', '$'
     EUR = 'EUR', '€'
     GBP = 'GBP', '£'
-    VIP_POINT = 'SC', 'Starcoin',
+    STARS_COIN = 'SC', 'StarsCoin'
 
 
 class GameType(PokerEnum):

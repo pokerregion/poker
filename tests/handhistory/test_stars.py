@@ -138,7 +138,7 @@ PokerStars Hand #153719873192: Tournament #1573768726, 184 SC Hold'em No Limit -
         ('game_type', GameType.TOUR),
         ('tournament_ident', '1573768726'),
         ('tournament_level', 'I'),
-        ('currency', Currency.VIP_POINT),
+        ('currency', Currency.STARS_COIN),
         ('buyin', Decimal(184)),
         ('rake', Decimal(0)),
         ('game', Game.HOLDEM),
