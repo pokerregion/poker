@@ -7,7 +7,7 @@ import pytz
 import pytest
 from poker.card import Card
 from poker.hand import Combo
-from poker.constants import Currency, GameType, Game, Limit, Action
+from poker.constants import Currency, GameType, Game, Limit, Action, MoneyType
 from poker.handhistory import _Player, _PlayerAction
 from poker.room.pokerstars import PokerStarsHandHistory, _Street
 from . import stars_hands
@@ -55,6 +55,120 @@ def test_open_from_file(testdir):
     assert hh.ident == '138364355489'
     assert type(hh.raw) is unicode
 
+class TestHandHeaderNoLimitHoldemTourFreeroll:
+    hand_text = """
+PokerStars Hand #152455023342: Tournament #1545783901, Freeroll  Hold'em No Limit - Level I (10/20) - 2016/04/25 23:22:00 BRT [2016/04/25 22:22:00 ET]
+    """
+
+    @pytest.mark.parametrize(('attribute', 'expected_value'), [
+        ('ident', '152455023342'),
+        ('game_type', GameType.TOUR),
+        ('tournament_ident', '1545783901'),
+        ('tournament_level', 'I'),
+        ('currency', Currency('USD')),
+        ('buyin', Decimal('0')),
+        ('rake', Decimal('0')),
+        ('game', Game.HOLDEM),
+        ('limit', Limit.NL),
+        ('sb', Decimal(10)),
+        ('bb', Decimal(20)),
+        ('date', ET.localize(datetime(2016, 4, 25, 22, 22, 0))),
+        ('extra', {'money_type': MoneyType.REAL}),
+        ])
+    def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
+        assert getattr(hand_header, attribute) == expected_value
+
+class TestHandHeaderNoLimitHoldemTourPlayMoney:
+    hand_text = """
+PokerStars Hand #152504147861: Tournament #1545751329, 870+130 Hold'em No Limit - Level I (10/20) - 2016/04/27 1:17:16 BRT [2016/04/27 0:17:16 ET]
+    """
+
+    @pytest.mark.parametrize(('attribute', 'expected_value'), [
+        ('ident', '152504147861'),
+        ('game_type', GameType.TOUR),
+        ('tournament_ident', '1545751329'),
+        ('tournament_level', 'I'),
+        ('currency', None),
+        ('buyin', Decimal('870')),
+        ('rake', Decimal('130')),
+        ('game', Game.HOLDEM),
+        ('limit', Limit.NL),
+        ('sb', Decimal(10)),
+        ('bb', Decimal(20)),
+        ('date', ET.localize(datetime(2016, 4, 27, 00, 17, 16))),
+        ('extra', {'money_type': MoneyType.PLAY}),
+        ])
+    def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
+        assert getattr(hand_header, attribute) == expected_value
+
+class TestHandHeaderLimitHoldemCashPlayMoney:
+    hand_text = """
+PokerStars Hand #153769972916:  Hold'em Limit (10/20) - 2016/05/24 8:52:39 BRT [2016/05/24 7:52:39 ET]
+    """
+
+    @pytest.mark.parametrize(('attribute', 'expected_value'), [
+        ('ident', '153769972916'),
+        ('game_type', GameType.CASH),
+        ('tournament_ident', None),
+        ('tournament_level', None),
+        ('currency', None),
+        ('buyin', None),
+        ('rake', None),
+        ('game', Game.HOLDEM),
+        ('limit', Limit.FL),
+        ('sb', Decimal(10)),
+        ('bb', Decimal(20)),
+        ('date', ET.localize(datetime(2016, 5, 24, 7, 52, 39))),
+        ('extra', {'money_type': MoneyType.PLAY}),
+        ])
+    def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
+        assert getattr(hand_header, attribute) == expected_value
+
+class TestHandHeaderNoLimitHoldemTourStarcoin:
+    hand_text = """
+PokerStars Hand #153719873192: Tournament #1573768726, 184 SC Hold'em No Limit - Level I (25/50) - 2016/05/23 6:48:22 BRT [2016/05/23 5:48:22 ET]
+    """
+
+    @pytest.mark.parametrize(('attribute', 'expected_value'), [
+        ('ident', '153719873192'),
+        ('game_type', GameType.TOUR),
+        ('tournament_ident', '1573768726'),
+        ('tournament_level', 'I'),
+        ('currency', Currency.VIP_POINT),
+        ('buyin', Decimal(184)),
+        ('rake', Decimal(0)),
+        ('game', Game.HOLDEM),
+        ('limit', Limit.NL),
+        ('sb', Decimal(25)),
+        ('bb', Decimal(50)),
+        ('date', ET.localize(datetime(2016, 5, 23, 5, 48, 22))),
+        ('extra', {'money_type': MoneyType.REAL}),
+        ])
+    def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
+        assert getattr(hand_header, attribute) == expected_value
+
+class TestHandHeaderPotLimitOmahaCash:
+    hand_text = """
+PokerStars Hand #107030112846: Omaha Pot Limit ($0.01/$0.02 USD) - 2013/11/15 9:03:10 AWST [2013/11/14 20:03:10 ET]
+    """
+
+    @pytest.mark.parametrize(('attribute', 'expected_value'), [
+        ('ident', '107030112846'),
+        ('game_type', GameType.CASH),
+        ('tournament_ident', None),
+        ('tournament_level', None),
+        ('currency', Currency.USD),
+        ('buyin', None),
+        ('rake', None),
+        ('game', Game.OMAHA),
+        ('limit', Limit.PL),
+        ('sb', Decimal('0.01')),
+        ('bb', Decimal('0.02')),
+        ('date', ET.localize(datetime(2013, 11, 14, 20, 03, 10))),
+        ('extra', {'money_type': MoneyType.REAL}),
+        ])
+    def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
+        assert getattr(hand_header, attribute) == expected_value
 
 class TestHandWithFlopOnly:
     hand_text = stars_hands.HAND1
@@ -73,7 +187,7 @@ class TestHandWithFlopOnly:
         ('limit', Limit.NL),
         ('sb', Decimal(10)),
         ('bb', Decimal(20)),
-        ('date', ET.localize(datetime(2013, 10, 4, 13, 53, 27)))
+        ('date', ET.localize(datetime(2013, 10, 4, 13, 53, 27))),
         ])
     def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
         assert getattr(hand_header, attribute) == expected_value
@@ -389,7 +503,6 @@ class TestBodyEveryStreet:
     @pytest.mark.xfail
     def test_flop_pot(self, hand):
         assert hand.flop.pot == Decimal(800)
-
 
 class TestClassRepresentation:
     hand_text = stars_hands.HAND1

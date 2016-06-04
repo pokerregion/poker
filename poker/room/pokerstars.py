@@ -12,7 +12,7 @@ from zope.interface import implementer
 from .. import handhistory as hh
 from ..card import Card
 from ..hand import Combo
-from ..constants import Limit, Game, GameType, Currency, Action
+from ..constants import Limit, Game, GameType, Currency, Action, MoneyType
 
 
 __all__ = ['PokerStarsHandHistory', 'Notes']
@@ -20,6 +20,8 @@ __all__ = ['PokerStarsHandHistory', 'Notes']
 
 @implementer(hh.IStreet)
 class _Street(hh._BaseStreet):
+    _chat_re = re.compile(r'^.+? said, ".+?"')
+
     def _parse_cards(self, boardline):
         self.cards = (Card(boardline[1:3]), Card(boardline[4:6]), Card(boardline[7:9]))
 
@@ -32,10 +34,13 @@ class _Street(hh._BaseStreet):
                 action = self._parse_collected(line)
             elif "doesn't show hand" in line:
                 action = self._parse_muck(line)
+            elif self._chat_re.match(line):
+                continue
             elif ':' in line:
                 action = self._parse_player_action(line)
             else:
-                raise
+                raise RuntimeError("bad action line: " + line)
+
             actions.append(hh._PlayerAction(*action))
         self.actions = tuple(actions) if actions else None
 
@@ -62,18 +67,14 @@ class _Street(hh._BaseStreet):
         return name, Action.MUCK, None
 
     def _parse_player_action(self, line):
-        colon_index = line.find(':')
-        name = line[:colon_index]
-        end_action_index = line.find(' ', colon_index + 2)
-        if end_action_index == -1:  # not found
-            end_action_index = None  # until the end
-        action = Action(line[colon_index + 2:end_action_index])
-        if end_action_index:
-            amount = line[end_action_index+1:]
-            return name, action, Decimal(amount)
-        else:
-            return name, action, None
+        name, _, action = line.partition(': ')
+        action, _, amount = action.partition(' ')
+        amount, _, _ = amount.partition(' ')
 
+        if amount:
+            return name, Action(action), Decimal(amount)
+        else:
+            return name, Action(action), None
 
 @implementer(hh.IHandHistory)
 class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
@@ -83,27 +84,35 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
     _TZ = pytz.timezone('US/Eastern')  # ET
     _split_re = re.compile(r" ?\*\*\* ?\n?|\n")
     _header_re = re.compile(r"""
-                        ^PokerStars[ ]                          # Poker Room
-                        Hand[ ]\#(?P<ident>\d*):[ ]             # Hand history id
-                        (?P<game_type>Tournament)[ ]            # Type
-                        \#(?P<tournament_ident>\d*),[ ]         # Tournament Number
-                        \$(?P<buyin>\d*\.\d{2})\+               # buyin
-                        \$(?P<rake>\d*\.\d{2})[ ]               # rake
-                        (?P<currency>USD|EUR)[ ]                # currency
-                        (?P<game>.*)[ ]                         # game
-                        (?P<limit>No[ ]Limit)[ ]                # limit
-                        -[ ]Level[ ](?P<tournament_level>.*)[ ] # Level
-                        \((?P<sb>.*)/(?P<bb>.*)\)[ ]            # blinds
-                        -[ ].*[ ]                               # localized date
-                        \[(?P<date>.*)\]$                       # ET date
+                        ^PokerStars\s+                                # Poker Room
+                        Hand\s+\#(?P<ident>\d+):\s+                   # Hand history id
+                        (Tournament\s+\#(?P<tournament_ident>\d+),\s+ # Tournament Number
+                         ((?P<freeroll>Freeroll)|(                    # buyin is Freeroll
+                          \$?(?P<buyin>\d+(\.\d+)?)                   # or buyin
+                          (\+\$?(?P<rake>\d+(\.\d+)?))?               # and rake
+                          (\s+(?P<currency>[A-Z]+))?                  # and currency
+                         ))\s+
+                        )?
+                        (?P<game>.+?)\s+                              # game
+                        (?P<limit>(?:Pot\s+|No\s+|)Limit)\s+          # limit
+                        (-\s+Level\s+(?P<tournament_level>\S+)\s+)?   # Level (optional)
+                        \(
+                         (((?P<sb>\d+)/(?P<bb>\d+))|(                 # tournament blinds
+                          \$(?P<cash_sb>\d+(\.\d+)?)/                 # cash small blind
+                          \$(?P<cash_bb>\d+(\.\d+)?)                  # cash big blind
+                          (\s+(?P<cash_currency>\S+))?                # cash currency
+                         ))
+                        \)\s+ 
+                        -\s+.+?\s+                                    # localized date
+                        \[(?P<date>.+?)\]                             # ET date
                         """, re.VERBOSE)
-    _table_re = re.compile(r"^Table '(.*)' (\d)-max Seat #(?P<button>\d) is the button$")
-    _seat_re = re.compile(r"^Seat (?P<seat>\d): (?P<name>.*) \((?P<stack>\d*) in chips\)$")
-    _hero_re = re.compile(r"^Dealt to (?P<hero_name>.*) \[(..) (..)\]$")
-    _pot_re = re.compile(r"^Total pot (\d*) .*\| Rake (\d*)$")
-    _winner_re = re.compile(r"^Seat (\d): (.*) collected \((\d*)\)$")
-    _showdown_re = re.compile(r"^Seat (\d): (.*) showed .* and won")
-    _ante_re = re.compile(r".*posts the ante (\d*)")
+    _table_re = re.compile(r"^Table '(.*)' (\d+)-max Seat #(?P<button>\d+) is the button")
+    _seat_re = re.compile(r"^Seat (?P<seat>\d+): (?P<name>.+?) \(\$?(?P<stack>\d+(\.\d+)?) in chips\)")
+    _hero_re = re.compile(r"^Dealt to (?P<hero_name>.+?) \[(..) (..)\]")
+    _pot_re = re.compile(r"^Total pot (\d+(?:\.\d+)?) .*\| Rake (\d+(?:\.\d+)?)")
+    _winner_re = re.compile(r"^Seat (\d+): (.+?) collected \((\d+(?:\.\d+)?)\)")
+    _showdown_re = re.compile(r"^Seat (\d+): (.+?) showed \[.+?\] and won")
+    _ante_re = re.compile(r".*posts the ante (\d+(?:\.\d+)?)")
     _board_re = re.compile(r"(?<=[\[ ])(..)(?=[\] ])")
 
     def parse_header(self):
@@ -112,18 +121,47 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
         self._split_raw()
 
         match = self._header_re.match(self._splitted[0])
-        self.game_type = GameType(match.group('game_type'))
-        self.sb = Decimal(match.group('sb'))
-        self.bb = Decimal(match.group('bb'))
-        self.buyin = Decimal(match.group('buyin'))
-        self.rake = Decimal(match.group('rake'))
-        self._parse_date(match.group('date'))
+
+        self.extra = dict()
+        self.ident = match.group('ident')
+
+        # We cannot use the knowledege of the game type to pick between the blind
+        # and cash blind captures because a cash game play money blind looks exactly
+        # like a tournament blind
+
+        self.sb = Decimal(match.group('sb') or match.group('cash_sb'))
+        self.bb = Decimal(match.group('bb') or match.group('cash_bb'))
+
+        if match.group('tournament_ident'):
+            self.game_type = GameType.TOUR
+            self.tournament_ident = match.group('tournament_ident')
+            self.tournament_level = match.group('tournament_level')
+
+            currency = match.group('currency')
+            self.buyin = Decimal(match.group('buyin') or 0)
+            self.rake = Decimal(match.group('rake') or 0)
+        else:
+            self.game_type = GameType.CASH
+            self.tournament_ident = None
+            self.tournament_level = None
+            currency = match.group('cash_currency')
+            self.buyin = None
+            self.rake = None
+
+        if match.group('freeroll') and not currency:
+            currency = 'USD'
+
+        if not currency:
+            self.extra['money_type'] = MoneyType.PLAY
+            self.currency = None
+        else:
+            self.extra['money_type'] = MoneyType.REAL
+            self.currency = Currency(currency)
+
         self.game = Game(match.group('game'))
         self.limit = Limit(match.group('limit'))
-        self.ident = match.group('ident')
-        self.tournament_ident = match.group('tournament_ident')
-        self.tournament_level = match.group('tournament_level')
-        self.currency = Currency(match.group('currency'))
+
+        self._parse_date(match.group('date'))
 
         self.header_parsed = True
 
