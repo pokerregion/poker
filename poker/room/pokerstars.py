@@ -20,8 +20,6 @@ __all__ = ['PokerStarsHandHistory', 'Notes']
 
 @implementer(hh.IStreet)
 class _Street(hh._BaseStreet):
-    _chat_re = re.compile(r'^.+? said, ".+?"')
-
     def _parse_cards(self, boardline):
         self.cards = (Card(boardline[1:3]), Card(boardline[4:6]), Card(boardline[7:9]))
 
@@ -34,7 +32,7 @@ class _Street(hh._BaseStreet):
                 action = self._parse_collected(line)
             elif "doesn't show hand" in line:
                 action = self._parse_muck(line)
-            elif self._chat_re.match(line):
+            elif ' said, "' in line:  # skip chat lines
                 continue
             elif ':' in line:
                 action = self._parse_player_action(line)
@@ -103,7 +101,7 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
                           \$(?P<cash_bb>\d+(\.\d+)?)                  # cash big blind
                           (\s+(?P<cash_currency>\S+))?                # cash currency
                          ))
-                        \)\s+ 
+                        \)\s+
                         -\s+.+?\s+                                    # localized date
                         \[(?P<date>.+?)\]                             # ET date
                         """, re.VERBOSE)
