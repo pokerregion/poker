@@ -48,7 +48,7 @@ The right way for setting a date correctly e.g. from PokerStars ET time is:
    >>> ET = pytz.timezone('US/Eastern')
    >>> ET.localize(some_datetime).astimezone(pytz.UTC)
 
-This will consider DST settings and ambiguous times. Fro more information, see `pytz documentation`_!
+This will consider DST settings and ambiguous times. For more information, see `pytz documentation`_!
 
 
 Unicode vs Bytes
@@ -123,8 +123,8 @@ Testing
 The framework contains a lot of tests (over 400). The basic elements like Card, Hand, Range, etc.
 are fully tested.
 
-All the unit tests are written in `pytest`_. I choose it because it offers very nice funcionality,
-and no-boilerplate code for tests. No need to sublass anything, just prefix classes with ``Test``
+All the unit tests are written in `pytest`_. I choose it because it offers very nice functionality,
+and no-boilerplate code for tests. No need to subclass anything, just prefix classes with ``Test``
 and methods with ``test_``.
 
 All assertion use the default python ``assert`` keyword.
@@ -147,8 +147,8 @@ About the state of Python3
 
 Originally I started the library in Python3.4 only, and though everything worked well for a while and
 library support seemed fine, the tooling around Python3 is not there at all yet. PyPy, PyInstaller
-Kivy, etc, etc. doesnt't support Python3.4 at all, but even if they do, there are bugs/problems which
-are hard to solve, beceause nobody experienced it before. A nice example is that I found a bug in the
+Kivy, etc, etc. doesn't support Python3.4 at all, but even if they do, there are bugs/problems which
+are hard to solve, because nobody experienced it before. A nice example is that I found a bug in the
 3.4 standard library enum module.
 
 As a consequence of this, at v0.22.0 I converted the whole repository to Python2 only. The long-term
