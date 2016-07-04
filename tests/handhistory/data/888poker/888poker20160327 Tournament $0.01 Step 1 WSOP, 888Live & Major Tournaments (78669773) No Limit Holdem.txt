@@ -1,0 +1,1836 @@
+#Game No : 778798503
+***** 888poker Hand History for Game 778798503 *****
+$10/$20 Blinds No Limit Holdem - *** 27 03 2016 23:05:18
+Tournament #78669773 $0.01 - Table #2 9 Max (Real Money)
+Seat 4 is the button
+Total number of players : 6
+Seat 3: sieg1122 ( $1,000 )
+Seat 4: Vin_Nog ( $1,000 )
+Seat 5: edubzs157 ( $1,000 )
+Seat 7: rickyringa ( $1,000 )
+Seat 9: AliceBazooka ( $1,000 )
+Seat 10: jpprewitt ( $1,000 )
+edubzs157 posts small blind [$10]
+rickyringa posts big blind [$20]
+** Dealing down cards **
+Dealt to jpprewitt [ 7s, Ks ]
+AliceBazooka folds
+jpprewitt folds
+sieg1122 folds
+Vin_Nog raises [$52]
+edubzs157 calls [$42]
+rickyringa calls [$32]
+** Dealing flop ** [ 4c, Ad, 6d ]
+edubzs157 checks
+rickyringa checks
+Vin_Nog checks
+** Dealing turn ** [ 8c ]
+edubzs157 checks
+rickyringa bets [$100]
+Vin_Nog raises [$200]
+edubzs157 folds
+rickyringa calls [$100]
+** Dealing river ** [ 6h ]
+rickyringa checks
+Vin_Nog bets [$396]
+rickyringa folds
+** Summary **
+Vin_Nog collected [ $556 ]
+
+
+
+#Game No : 778798654
+***** 888poker Hand History for Game 778798654 *****
+$10/$20 Blinds No Limit Holdem - *** 27 03 2016 23:06:39
+Tournament #78669773 $0.01 - Table #2 9 Max (Real Money)
+Seat 5 is the button
+Total number of players : 7
+Seat 1: woolf141 ( $1,000 )
+Seat 3: sieg1122 ( $1,000 )
+Seat 4: Vin_Nog ( $1,304 )
+Seat 5: edubzs157 ( $948 )
+Seat 7: rickyringa ( $748 )
+Seat 9: AliceBazooka ( $1,000 )
+Seat 10: jpprewitt ( $1,000 )
+rickyringa posts small blind [$10]
+AliceBazooka posts big blind [$20]
+** Dealing down cards **
+Dealt to jpprewitt [ 7h, 4s ]
+jpprewitt folds
+woolf141 calls [$20]
+sieg1122 raises [$1,000]
+Vin_Nog folds
+edubzs157 folds
+rickyringa folds
+AliceBazooka folds
+woolf141 folds
+** Summary **
+sieg1122 did not show his hand
+sieg1122 collected [ $70 ]
+
+
+
+#Game No : 778798699
+***** 888poker Hand History for Game 778798699 *****
+$10/$20 Blinds No Limit Holdem - *** 27 03 2016 23:07:10
+Tournament #78669773 $0.01 - Table #2 9 Max (Real Money)
+Seat 7 is the button
+Total number of players : 7
+Seat 1: woolf141 ( $980 )
+Seat 3: sieg1122 ( $1,050 )
+Seat 4: Vin_Nog ( $1,304 )
+Seat 5: edubzs157 ( $948 )
+Seat 7: rickyringa ( $738 )
+Seat 9: AliceBazooka ( $980 )
+Seat 10: jpprewitt ( $1,000 )
+AliceBazooka posts small blind [$10]
+jpprewitt posts big blind [$20]
+** Dealing down cards **
+Dealt to jpprewitt [ 5d, 2c ]
+woolf141 calls [$20]
+sieg1122 raises [$1,050]
+Vin_Nog folds
+edubzs157 calls [$948]
+rickyringa calls [$738]
+AliceBazooka folds
+jpprewitt folds
+woolf141 folds
+** Dealing flop ** [ Td, Kc, 4d ]
+** Dealing turn ** [ 9h ]
+** Dealing river ** [ 7c ]
+** Summary **
+sieg1122 shows [ Kh, Qc ]
+edubzs157 shows [ Qd, Jd ]
+rickyringa shows [ 5s, Ad ]
+edubzs157 collected [ $2,264 ]
+edubzs157 collected [ $420 ]
+
+
+
+#Game No : 778798777
+***** 888poker Hand History for Game 778798777 *****
+$10/$20 Blinds No Limit Holdem - *** 27 03 2016 23:07:50
+Tournament #78669773 $0.01 - Table #2 9 Max (Real Money)
+Seat 9 is the button
+Total number of players : 8
+Seat 1: woolf141 ( $960 )
+Seat 2: Onetimehart ( $2,000 )
+Seat 3: sieg1122 ( $102 )
+Seat 4: Vin_Nog ( $1,304 )
+Seat 5: edubzs157 ( $2,684 )
+Seat 6: Billyd111 ( $1,000 )
+Seat 9: AliceBazooka ( $970 )
+Seat 10: jpprewitt ( $980 )
+jpprewitt posts small blind [$10]
+woolf141 posts big blind [$20]
+** Dealing down cards **
+Dealt to jpprewitt [ 3h, 5s ]
+Onetimehart raises [$40]
+sieg1122 raises [$102]
+Vin_Nog calls [$102]
+edubzs157 calls [$102]
+Billyd111 folds
+AliceBazooka folds
+jpprewitt folds
+woolf141 calls [$82]
+Onetimehart raises [$582]
+Vin_Nog calls [$520]
+edubzs157 calls [$520]
+woolf141 folds
+** Dealing flop ** [ 5h, 4h, 5d ]
+Onetimehart bets [$1,378]
+Vin_Nog folds
+edubzs157 folds
+** Dealing turn ** [ Qc ]
+** Dealing river ** [ 8c ]
+** Summary **
+Onetimehart shows [ Ah, Ac ]
+sieg1122 shows [ 7c, Kd ]
+Onetimehart collected [ $520 ]
+Onetimehart collected [ $1,560 ]
+
+
+
+#Game No : 778798893
+***** 888poker Hand History for Game 778798893 *****
+$15/$30 Blinds No Limit Holdem - *** 27 03 2016 23:08:50
+Tournament #78669773 $0.01 - Table #2 9 Max (Real Money)
+Seat 10 is the button
+Total number of players : 9
+Seat 1: woolf141 ( $858 )
+Seat 2: Onetimehart ( $3,458 )
+Seat 3: sieg1122 ( $1,000 )
+Seat 4: Vin_Nog ( $682 )
+Seat 5: edubzs157 ( $2,062 )
+Seat 6: Billyd111 ( $1,000 )
+Seat 7: 514143 ( $1,000 )
+Seat 9: AliceBazooka ( $970 )
+Seat 10: jpprewitt ( $970 )
+woolf141 posts small blind [$15]
+Onetimehart posts big blind [$30]
+** Dealing down cards **
+Dealt to jpprewitt [ 4h, 8c ]
+sieg1122 raises [$1,000]
+Vin_Nog folds
+edubzs157 folds
+Billyd111 calls [$1,000]
+514143 folds
+AliceBazooka folds
+jpprewitt folds
+woolf141 calls [$843]
+Onetimehart calls [$970]
+** Dealing flop ** [ Qh, Ad, 6d ]
+** Dealing turn ** [ 9d ]
+** Dealing river ** [ Th ]
+** Summary **
+woolf141 shows [ 8d, 8s ]
+Onetimehart shows [ Qd, 3h ]
+sieg1122 shows [ As, Tc ]
+Billyd111 shows [ 9s, 9h ]
+Billyd111 collected [ $3,432 ]
+Billyd111 collected [ $426 ]
+
+
+
+#Game No : 778798997
+***** 888poker Hand History for Game 778798997 *****
+$15/$30 Blinds No Limit Holdem - *** 27 03 2016 23:09:40
+Tournament #78669773 $0.01 - Table #2 9 Max (Real Money)
+Seat 10 is the button
+Total number of players : 6
+Seat 2: Onetimehart ( $2,458 )
+Seat 3: sieg1122 ( $2,000 )
+Seat 6: Billyd111 ( $3,858 )
+Seat 7: 514143 ( $1,000 )
+Seat 9: AliceBazooka ( $970 )
+Seat 10: jpprewitt ( $970 )
+Onetimehart posts small blind [$15]
+sieg1122 posts big blind [$30]
+** Dealing down cards **
+Dealt to jpprewitt [ Js, 2s ]
+Billyd111 folds
+514143 folds
+AliceBazooka folds
+jpprewitt folds
+Onetimehart raises [$45]
+sieg1122 raises [$1,970]
+Onetimehart calls [$1,940]
+** Dealing flop ** [ 6d, As, 7c ]
+** Dealing turn ** [ 7d ]
+** Dealing river ** [ 9h ]
+** Summary **
+Onetimehart shows [ Qh, Ah ]
+sieg1122 shows [ 9s, Ks ]
+Onetimehart collected [ $4,000 ]
+
+
+
+#Game No : 778799073
+***** 888poker Hand History for Game 778799073 *****
+$15/$30 Blinds No Limit Holdem - *** 27 03 2016 23:10:17
+Tournament #78669773 $0.01 - Table #2 9 Max (Real Money)
+Seat 2 is the button
+Total number of players : 6
+Seat 2: Onetimehart ( $4,458 )
+Seat 3: sieg1122 ( $2,000 )
+Seat 6: Billyd111 ( $3,858 )
+Seat 7: 514143 ( $1,000 )
+Seat 9: AliceBazooka ( $970 )
+Seat 10: jpprewitt ( $970 )
+sieg1122 posts small blind [$15]
+Billyd111 posts big blind [$30]
+** Dealing down cards **
+Dealt to jpprewitt [ 3d, Jc ]
+514143 calls [$30]
+AliceBazooka folds
+jpprewitt folds
+Onetimehart folds
+sieg1122 raises [$1,985]
+Billyd111 folds
+514143 calls [$970]
+** Dealing flop ** [ 9d, 7d, 3h ]
+** Dealing turn ** [ 5c ]
+** Dealing river ** [ 2c ]
+** Summary **
+sieg1122 shows [ 4s, 9s ]
+514143 shows [ Qc, Ah ]
+sieg1122 collected [ $2,030 ]
+
+
+
+#Game No : 778799201
+***** 888poker Hand History for Game 778799201 *****
+$15/$30 Blinds No Limit Holdem - *** 27 03 2016 23:11:13
+Tournament #78669773 $0.01 - Table #2 9 Max (Real Money)
+Seat 3 is the button
+Total number of players : 6
+Seat 1: K1NGmattyboy ( $920 )
+Seat 2: Onetimehart ( $4,458 )
+Seat 3: sieg1122 ( $3,030 )
+Seat 6: Billyd111 ( $3,828 )
+Seat 9: AliceBazooka ( $970 )
+Seat 10: jpprewitt ( $970 )
+Billyd111 posts small blind [$15]
+AliceBazooka posts big blind [$30]
+** Dealing down cards **
+Dealt to jpprewitt [ Th, Kc ]
+jpprewitt folds
+K1NGmattyboy folds
+Onetimehart folds
+sieg1122 calls [$30]
+Billyd111 folds
+AliceBazooka checks
+** Dealing flop ** [ 7d, Qc, 4d ]
+AliceBazooka checks
+sieg1122 checks
+** Dealing turn ** [ 2h ]
+AliceBazooka checks
+sieg1122 checks
+** Dealing river ** [ Ah ]
+AliceBazooka checks
+sieg1122 bets [$3,000]
+AliceBazooka folds
+** Summary **
+sieg1122 collected [ $75 ]
+
+
+
+#Game No : 778799311
+***** 888poker Hand History for Game 778799311 *****
+$25/$50 Blinds No Limit Holdem - *** 27 03 2016 23:12:02
+Tournament #78669773 $0.01 - Table #2 9 Max (Real Money)
+Seat 6 is the button
+Total number of players : 8
+Seat 1: K1NGmattyboy ( $920 )
+Seat 2: Onetimehart ( $4,458 )
+Seat 3: sieg1122 ( $3,075 )
+Seat 4: Druvfinger ( $3,000 )
+Seat 5: RobinB1989 ( $955 )
+Seat 6: Billyd111 ( $3,813 )
+Seat 9: AliceBazooka ( $940 )
+Seat 10: jpprewitt ( $970 )
+AliceBazooka posts small blind [$25]
+jpprewitt posts big blind [$50]
+** Dealing down cards **
+Dealt to jpprewitt [ 3d, 6d ]
+K1NGmattyboy folds
+Onetimehart folds
+sieg1122 folds
+Druvfinger calls [$50]
+RobinB1989 calls [$50]
+Billyd111 folds
+AliceBazooka calls [$25]
+jpprewitt checks
+** Dealing flop ** [ Th, Td, Kd ]
+AliceBazooka checks
+jpprewitt checks
+Druvfinger bets [$50]
+RobinB1989 calls [$50]
+AliceBazooka calls [$50]
+jpprewitt calls [$50]
+** Dealing turn ** [ Ad ]
+AliceBazooka checks
+jpprewitt bets [$400]
+Druvfinger folds
+RobinB1989 folds
+AliceBazooka calls [$400]
+** Dealing river ** [ 6s ]
+AliceBazooka checks
+jpprewitt bets [$470]
+AliceBazooka calls [$440]
+** Summary **
+AliceBazooka shows [ 5s, Ks ]
+jpprewitt shows [ 3d, 6d ]
+jpprewitt collected [ $2,080 ]
+
+
+
+#Game No : 778799544
+***** 888poker Hand History for Game 778799544 *****
+$25/$50 Blinds No Limit Holdem - *** 27 03 2016 23:14:02
+Tournament #78669773 $0.01 - Table #2 9 Max (Real Money)
+Seat 6 is the button
+Total number of players : 5
+Seat 1: K1NGmattyboy ( $920 )
+Seat 2: mariz23 ( $1,660 )
+Seat 4: Druvfinger ( $2,900 )
+Seat 5: RobinB1989 ( $855 )
+Seat 10: jpprewitt ( $2,110 )
+jpprewitt posts small blind [$25]
+K1NGmattyboy posts big blind [$50]
+** Dealing down cards **
+Dealt to jpprewitt [ Kc, 4h ]
+mariz23 folds
+Druvfinger folds
+RobinB1989 calls [$50]
+jpprewitt folds
+K1NGmattyboy raises [$870]
+RobinB1989 calls [$805]
+** Dealing flop ** [ Th, 5c, 6s ]
+** Dealing turn ** [ 9d ]
+** Dealing river ** [ 7c ]
+** Summary **
+K1NGmattyboy shows [ Ah, Ks ]
+RobinB1989 shows [ Ts, 5s ]
+RobinB1989 collected [ $1,735 ]
+
+
+
+#Game No : 778799634
+***** 888poker Hand History for Game 778799634 *****
+$50/$100 Blinds No Limit Holdem - *** 27 03 2016 23:14:53
+Tournament #78669773 $0.01 - Table #2 9 Max (Real Money)
+Seat 10 is the button
+Total number of players : 6
+Seat 1: K1NGmattyboy ( $65 )
+Seat 2: mariz23 ( $1,660 )
+Seat 4: Druvfinger ( $2,900 )
+Seat 5: RobinB1989 ( $1,735 )
+Seat 7: Amrita05 ( $1,000 )
+Seat 10: jpprewitt ( $2,085 )
+jpprewitt posts ante [$10]
+K1NGmattyboy posts ante [$10]
+Druvfinger posts ante [$10]
+RobinB1989 posts ante [$10]
+Amrita05 posts ante [$10]
+mariz23 posts ante [$10]
+K1NGmattyboy posts small blind [$50]
+mariz23 posts big blind [$100]
+** Dealing down cards **
+Dealt to jpprewitt [ Ks, Js ]
+Druvfinger folds
+RobinB1989 calls [$100]
+Amrita05 calls [$100]
+jpprewitt calls [$100]
+K1NGmattyboy calls [$5]
+mariz23 checks
+** Dealing flop ** [ 4d, Kd, 9d ]
+mariz23 bets [$100]
+RobinB1989 folds
+Amrita05 calls [$100]
+jpprewitt calls [$100]
+** Dealing turn ** [ 5d ]
+mariz23 bets [$300]
+Amrita05 folds
+jpprewitt folds
+** Dealing river ** [ 4c ]
+** Summary **
+K1NGmattyboy shows [ Ad, 2c ]
+mariz23 shows [ 8c, 3d ]
+K1NGmattyboy collected [ $335 ]
+mariz23 collected [ $480 ]
+
+
+
+#Game No : 778799761
+***** 888poker Hand History for Game 778799761 *****
+$50/$100 Blinds No Limit Holdem - *** 27 03 2016 23:16:05
+Tournament #78669773 $0.01 - Table #2 9 Max (Real Money)
+Seat 1 is the button
+Total number of players : 7
+Seat 1: K1NGmattyboy ( $335 )
+Seat 2: mariz23 ( $1,930 )
+Seat 4: Druvfinger ( $2,890 )
+Seat 5: RobinB1989 ( $1,625 )
+Seat 7: Amrita05 ( $790 )
+Seat 9: EdeVos ( $1,000 )
+Seat 10: jpprewitt ( $1,875 )
+jpprewitt posts ante [$10]
+K1NGmattyboy posts ante [$10]
+Druvfinger posts ante [$10]
+RobinB1989 posts ante [$10]
+Amrita05 posts ante [$10]
+mariz23 posts ante [$10]
+EdeVos posts ante [$10]
+mariz23 posts small blind [$50]
+Druvfinger posts big blind [$100]
+** Dealing down cards **
+Dealt to jpprewitt [ 7s, Ad ]
+RobinB1989 raises [$340]
+Amrita05 folds
+EdeVos raises [$990]
+jpprewitt folds
+K1NGmattyboy folds
+mariz23 calls [$940]
+Druvfinger folds
+RobinB1989 calls [$650]
+** Dealing flop ** [ 7c, Ts, 4s ]
+mariz23 bets [$100]
+RobinB1989 raises [$625]
+mariz23 calls [$525]
+** Dealing turn ** [ 5h ]
+** Dealing river ** [ 9h ]
+** Summary **
+mariz23 shows [ Td, Jd ]
+RobinB1989 shows [ Ac, 9c ]
+EdeVos shows [ Kh, Ks ]
+EdeVos collected [ $3,140 ]
+mariz23 collected [ $1,250 ]
+
+
+
+#Game No : 778799896
+***** 888poker Hand History for Game 778799896 *****
+$50/$100 Blinds No Limit Holdem - *** 27 03 2016 23:17:13
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 1 is the button
+Total number of players : 6
+Seat 1:  ( $325 )
+Seat 2:  ( $1,555 )
+Seat 4:  ( $2,780 )
+Seat 5:  ( $1,000 )
+Seat 6:  ( $3,813 )
+Seat 7:  ( $780 )
+ posts ante [$10]
+ posts ante [$10]
+ posts ante [$10]
+ posts ante [$10]
+ posts ante [$10]
+ posts ante [$10]
+ posts small blind [$30]
+ posts big blind [$100]
+** Dealing down cards **
+ folds
+ folds
+ calls [$100]
+ raises [$200]
+ folds
+ calls [$100]
+** Dealing flop ** [ Kh, 5d, Kc ]
+ checks
+ bets [$700]
+ calls [$610]
+** Dealing turn ** [ 7s ]
+** Dealing river ** [ Qh ]
+** Summary **
+ shows [ 6s, 8d ]
+ shows [ 5s, Js ]
+ shows [ 2h, Ac ]
+ collected [ $180 ]
+ collected [ $1,630 ]
+
+
+
+#Game No : 778799969
+***** 888poker Hand History for Game 778799969 *****
+$75/$150 Blinds No Limit Holdem - *** 27 03 2016 23:17:53
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 2 is the button
+Total number of players : 8
+Seat 1: rhm09 ( $7,548 )
+Seat 2: sieg1122 ( $180 )
+Seat 4: Onetimehart ( $4,243 )
+Seat 5: beauty140 ( $885 )
+Seat 6: elkroko ( $835 )
+Seat 7: sportsfury8 ( $1,630 )
+Seat 9: jpprewitt ( $1,855 )
+Seat 10: Pyfik106 ( $1,000 )
+rhm09 posts ante [$20]
+sieg1122 posts ante [$20]
+Onetimehart posts ante [$20]
+beauty140 posts ante [$20]
+elkroko posts ante [$20]
+sportsfury8 posts ante [$20]
+jpprewitt posts ante [$20]
+Pyfik106 posts ante [$20]
+Onetimehart posts small blind [$75]
+beauty140 posts big blind [$150]
+** Dealing down cards **
+Dealt to jpprewitt [ 2s, 6c ]
+elkroko folds
+sportsfury8 calls [$150]
+jpprewitt folds
+Pyfik106 calls [$150]
+rhm09 calls [$150]
+sieg1122 folds
+Onetimehart folds
+beauty140 checks
+** Dealing flop ** [ 9c, 5h, 8s ]
+beauty140 checks
+sportsfury8 checks
+Pyfik106 bets [$150]
+rhm09 raises [$900]
+beauty140 folds
+sportsfury8 folds
+Pyfik106 calls [$680]
+** Dealing turn ** [ As ]
+** Dealing river ** [ 4d ]
+** Summary **
+rhm09 shows [ 9h, Qh ]
+Pyfik106 shows [ 9s, Qc ]
+rhm09 collected [ $1,247 ]
+Pyfik106 collected [ $1,248 ]
+
+
+
+#Game No : 778800061
+***** 888poker Hand History for Game 778800061 *****
+$75/$150 Blinds No Limit Holdem - *** 27 03 2016 23:18:37
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 4 is the button
+Total number of players : 8
+Seat 1: rhm09 ( $7,795 )
+Seat 2: sieg1122 ( $160 )
+Seat 4: Onetimehart ( $4,148 )
+Seat 5: beauty140 ( $715 )
+Seat 6: elkroko ( $815 )
+Seat 7: sportsfury8 ( $1,460 )
+Seat 9: jpprewitt ( $1,835 )
+Seat 10: Pyfik106 ( $1,248 )
+rhm09 posts ante [$20]
+sieg1122 posts ante [$20]
+Onetimehart posts ante [$20]
+beauty140 posts ante [$20]
+elkroko posts ante [$20]
+sportsfury8 posts ante [$20]
+jpprewitt posts ante [$20]
+Pyfik106 posts ante [$20]
+beauty140 posts small blind [$75]
+elkroko posts big blind [$150]
+** Dealing down cards **
+Dealt to jpprewitt [ 3d, 3h ]
+sportsfury8 folds
+jpprewitt folds
+Pyfik106 calls [$150]
+rhm09 raises [$1,350]
+sieg1122 folds
+Onetimehart folds
+beauty140 folds
+elkroko folds
+Pyfik106 folds
+** Summary **
+rhm09 did not show his hand
+rhm09 collected [ $685 ]
+
+
+
+#Game No : 778800108
+***** 888poker Hand History for Game 778800108 *****
+$75/$150 Blinds No Limit Holdem - *** 27 03 2016 23:19:03
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 5 is the button
+Total number of players : 8
+Seat 1: rhm09 ( $8,310 )
+Seat 2: sieg1122 ( $140 )
+Seat 4: Onetimehart ( $4,128 )
+Seat 5: beauty140 ( $620 )
+Seat 6: elkroko ( $645 )
+Seat 7: sportsfury8 ( $1,440 )
+Seat 9: jpprewitt ( $1,815 )
+Seat 10: Pyfik106 ( $1,078 )
+rhm09 posts ante [$20]
+sieg1122 posts ante [$20]
+Onetimehart posts ante [$20]
+beauty140 posts ante [$20]
+elkroko posts ante [$20]
+sportsfury8 posts ante [$20]
+jpprewitt posts ante [$20]
+Pyfik106 posts ante [$20]
+elkroko posts small blind [$75]
+sportsfury8 posts big blind [$150]
+** Dealing down cards **
+Dealt to jpprewitt [ Js, Qh ]
+jpprewitt calls [$150]
+Pyfik106 folds
+rhm09 folds
+sieg1122 folds
+Onetimehart folds
+beauty140 folds
+elkroko folds
+sportsfury8 checks
+** Dealing flop ** [ Ah, Jc, 6c ]
+sportsfury8 checks
+jpprewitt bets [$267]
+sportsfury8 calls [$267]
+** Dealing turn ** [ Ad ]
+sportsfury8 checks
+jpprewitt bets [$801]
+sportsfury8 calls [$801]
+** Dealing river ** [ 9d ]
+sportsfury8 checks
+jpprewitt bets [$577]
+sportsfury8 calls [$202]
+** Summary **
+sportsfury8 shows [ Qc, Kh ]
+jpprewitt shows [ Js, Qh ]
+jpprewitt collected [ $3,075 ]
+
+
+
+#Game No : 778800195
+***** 888poker Hand History for Game 778800195 *****
+$75/$150 Blinds No Limit Holdem - *** 27 03 2016 23:19:49
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 6 is the button
+Total number of players : 8
+Seat 2: sieg1122 ( $120 )
+Seat 3: SYSTEM3RROR ( $1,000 )
+Seat 4: Onetimehart ( $4,108 )
+Seat 5: beauty140 ( $600 )
+Seat 6: elkroko ( $550 )
+Seat 7: sportsfury8 ( $1,000 )
+Seat 9: jpprewitt ( $3,450 )
+Seat 10: Pyfik106 ( $1,058 )
+sieg1122 posts ante [$20]
+Onetimehart posts ante [$20]
+beauty140 posts ante [$20]
+elkroko posts ante [$20]
+sportsfury8 posts ante [$20]
+jpprewitt posts ante [$20]
+Pyfik106 posts ante [$20]
+SYSTEM3RROR posts ante [$20]
+sportsfury8 posts small blind [$75]
+jpprewitt posts big blind [$150]
+** Dealing down cards **
+Dealt to jpprewitt [ 3d, Jh ]
+Pyfik106 calls [$150]
+sieg1122 folds
+SYSTEM3RROR raises [$980]
+Onetimehart folds
+beauty140 folds
+elkroko folds
+sportsfury8 folds
+jpprewitt folds
+Pyfik106 calls [$830]
+** Dealing flop ** [ 9c, Ts, Kd ]
+** Dealing turn ** [ Td ]
+** Dealing river ** [ 9d ]
+** Summary **
+SYSTEM3RROR shows [ 7s, Ad ]
+Pyfik106 shows [ 2c, 3c ]
+SYSTEM3RROR collected [ $2,345 ]
+
+
+
+#Game No : 778800266
+***** 888poker Hand History for Game 778800266 *****
+$100/$200 Blinds No Limit Holdem - *** 27 03 2016 23:20:26
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 7 is the button
+Total number of players : 8
+Seat 2: sieg1122 ( $100 )
+Seat 3: SYSTEM3RROR ( $2,345 )
+Seat 4: Onetimehart ( $4,088 )
+Seat 5: beauty140 ( $580 )
+Seat 6: elkroko ( $530 )
+Seat 7: sportsfury8 ( $905 )
+Seat 9: jpprewitt ( $3,280 )
+Seat 10: Pyfik106 ( $58 )
+sieg1122 posts ante [$25]
+Onetimehart posts ante [$25]
+beauty140 posts ante [$25]
+elkroko posts ante [$25]
+sportsfury8 posts ante [$25]
+jpprewitt posts ante [$25]
+Pyfik106 posts ante [$25]
+SYSTEM3RROR posts ante [$25]
+jpprewitt posts small blind [$100]
+Pyfik106 posts big blind [$33]
+** Dealing down cards **
+Dealt to jpprewitt [ 9c, 8s ]
+sieg1122 folds
+SYSTEM3RROR folds
+Onetimehart folds
+beauty140 folds
+elkroko folds
+sportsfury8 calls [$200]
+jpprewitt folds
+** Dealing flop ** [ Js, 4d, 8c ]
+** Dealing turn ** [ 6h ]
+** Dealing river ** [ 9d ]
+** Summary **
+sportsfury8 shows [ Qh, 4h ]
+Pyfik106 shows [ 8h, As ]
+Pyfik106 collected [ $299 ]
+sportsfury8 collected [ $234 ]
+
+
+
+#Game No : 778800328
+***** 888poker Hand History for Game 778800328 *****
+$100/$200 Blinds No Limit Holdem - *** 27 03 2016 23:20:50
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 9 is the button
+Total number of players : 8
+Seat 2: sieg1122 ( $75 )
+Seat 3: SYSTEM3RROR ( $2,320 )
+Seat 4: Onetimehart ( $4,063 )
+Seat 5: beauty140 ( $555 )
+Seat 6: elkroko ( $505 )
+Seat 7: sportsfury8 ( $914 )
+Seat 9: jpprewitt ( $3,155 )
+Seat 10: Pyfik106 ( $1,299 )
+sieg1122 posts ante [$25]
+Onetimehart posts ante [$25]
+beauty140 posts ante [$25]
+elkroko posts ante [$25]
+sportsfury8 posts ante [$25]
+jpprewitt posts ante [$25]
+Pyfik106 posts ante [$25]
+SYSTEM3RROR posts ante [$25]
+Pyfik106 posts small blind [$100]
+sieg1122 posts big blind [$50]
+** Dealing down cards **
+Dealt to jpprewitt [ As, 6s ]
+SYSTEM3RROR folds
+Onetimehart folds
+beauty140 folds
+elkroko folds
+sportsfury8 folds
+jpprewitt raises [$400]
+Pyfik106 folds
+** Dealing flop ** [ Jh, Td, 6h ]
+** Dealing turn ** [ Qs ]
+** Dealing river ** [ Qc ]
+** Summary **
+sieg1122 shows [ Ts, Qd ]
+jpprewitt shows [ As, 6s ]
+sieg1122 collected [ $350 ]
+jpprewitt collected [ $400 ]
+
+
+
+#Game No : 778800396
+***** 888poker Hand History for Game 778800396 *****
+$100/$200 Blinds No Limit Holdem - *** 27 03 2016 23:21:23
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 10 is the button
+Total number of players : 8
+Seat 2: sieg1122 ( $350 )
+Seat 3: SYSTEM3RROR ( $2,295 )
+Seat 4: Onetimehart ( $4,038 )
+Seat 5: beauty140 ( $530 )
+Seat 6: elkroko ( $480 )
+Seat 7: sportsfury8 ( $889 )
+Seat 9: jpprewitt ( $3,130 )
+Seat 10: Pyfik106 ( $1,174 )
+sieg1122 posts ante [$25]
+Onetimehart posts ante [$25]
+beauty140 posts ante [$25]
+elkroko posts ante [$25]
+sportsfury8 posts ante [$25]
+jpprewitt posts ante [$25]
+Pyfik106 posts ante [$25]
+SYSTEM3RROR posts ante [$25]
+sieg1122 posts small blind [$100]
+SYSTEM3RROR posts big blind [$200]
+** Dealing down cards **
+Dealt to jpprewitt [ Ad, Kd ]
+Onetimehart folds
+beauty140 folds
+elkroko folds
+sportsfury8 calls [$200]
+jpprewitt raises [$650]
+Pyfik106 folds
+sieg1122 folds
+SYSTEM3RROR folds
+sportsfury8 calls [$450]
+** Dealing flop ** [ 4s, 8s, Jh ]
+sportsfury8 checks
+jpprewitt bets [$900]
+sportsfury8 calls [$214]
+** Dealing turn ** [ 2s ]
+** Dealing river ** [ Js ]
+** Summary **
+sportsfury8 shows [ As, 7c ]
+jpprewitt shows [ Ad, Kd ]
+sportsfury8 collected [ $2,228 ]
+
+
+
+#Game No : 778800479
+***** 888poker Hand History for Game 778800479 *****
+$100/$200 Blinds No Limit Holdem - *** 27 03 2016 23:22:03
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 2 is the button
+Total number of players : 9
+Seat 1: SCHIZOWIEC ( $1,000 )
+Seat 2: sieg1122 ( $225 )
+Seat 3: SYSTEM3RROR ( $2,070 )
+Seat 4: Onetimehart ( $4,013 )
+Seat 5: beauty140 ( $505 )
+Seat 6: elkroko ( $455 )
+Seat 7: sportsfury8 ( $2,228 )
+Seat 9: jpprewitt ( $2,241 )
+Seat 10: Pyfik106 ( $1,149 )
+sieg1122 posts ante [$25]
+Onetimehart posts ante [$25]
+beauty140 posts ante [$25]
+elkroko posts ante [$25]
+sportsfury8 posts ante [$25]
+jpprewitt posts ante [$25]
+Pyfik106 posts ante [$25]
+SYSTEM3RROR posts ante [$25]
+SCHIZOWIEC posts ante [$25]
+SYSTEM3RROR posts small blind [$100]
+Onetimehart posts big blind [$200]
+** Dealing down cards **
+Dealt to jpprewitt [ 2h, As ]
+beauty140 folds
+elkroko folds
+sportsfury8 calls [$200]
+jpprewitt calls [$200]
+Pyfik106 calls [$200]
+SCHIZOWIEC raises [$975]
+sieg1122 folds
+SYSTEM3RROR calls [$875]
+Onetimehart folds
+sportsfury8 calls [$775]
+jpprewitt folds
+Pyfik106 calls [$775]
+** Dealing flop ** [ Jd, 7d, 7s ]
+SYSTEM3RROR bets [$1,070]
+sportsfury8 folds
+Pyfik106 folds
+** Dealing turn ** [ Jc ]
+** Dealing river ** [ 2c ]
+** Summary **
+SCHIZOWIEC shows [ Kh, 9c ]
+SYSTEM3RROR shows [ Qd, Ad ]
+SYSTEM3RROR collected [ $4,525 ]
+
+
+
+#Game No : 778800620
+***** 888poker Hand History for Game 778800620 *****
+$100/$200 Blinds No Limit Holdem - *** 27 03 2016 23:23:02
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 3 is the button
+Total number of players : 9
+Seat 1: SCHIZOWIEC ( $1,000 )
+Seat 2: sieg1122 ( $200 )
+Seat 3: SYSTEM3RROR ( $5,595 )
+Seat 4: Onetimehart ( $3,788 )
+Seat 5: beauty140 ( $480 )
+Seat 6: elkroko ( $430 )
+Seat 7: sportsfury8 ( $1,228 )
+Seat 9: jpprewitt ( $2,016 )
+Seat 10: Pyfik106 ( $149 )
+sieg1122 posts ante [$25]
+Onetimehart posts ante [$25]
+beauty140 posts ante [$25]
+elkroko posts ante [$25]
+sportsfury8 posts ante [$25]
+jpprewitt posts ante [$25]
+Pyfik106 posts ante [$25]
+SYSTEM3RROR posts ante [$25]
+SCHIZOWIEC posts ante [$25]
+Onetimehart posts small blind [$100]
+beauty140 posts big blind [$200]
+** Dealing down cards **
+Dealt to jpprewitt [ Ts, 8d ]
+elkroko folds
+sportsfury8 folds
+jpprewitt folds
+Pyfik106 folds
+SCHIZOWIEC raises [$975]
+sieg1122 folds
+SYSTEM3RROR folds
+Onetimehart folds
+beauty140 folds
+** Summary **
+SCHIZOWIEC did not show his hand
+SCHIZOWIEC collected [ $725 ]
+
+
+
+#Game No : 778800670
+***** 888poker Hand History for Game 778800670 *****
+$125/$250 Blinds No Limit Holdem - *** 27 03 2016 23:23:16
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 4 is the button
+Total number of players : 8
+Seat 1: SCHIZOWIEC ( $1,500 )
+Seat 2: sieg1122 ( $175 )
+Seat 3: SYSTEM3RROR ( $5,570 )
+Seat 4: Onetimehart ( $3,663 )
+Seat 5: beauty140 ( $255 )
+Seat 6: elkroko ( $405 )
+Seat 9: jpprewitt ( $1,991 )
+Seat 10: Pyfik106 ( $1,124 )
+sieg1122 posts ante [$30]
+Onetimehart posts ante [$30]
+beauty140 posts ante [$30]
+elkroko posts ante [$30]
+jpprewitt posts ante [$30]
+Pyfik106 posts ante [$30]
+SYSTEM3RROR posts ante [$30]
+SCHIZOWIEC posts ante [$30]
+beauty140 posts small blind [$125]
+elkroko posts big blind [$250]
+** Dealing down cards **
+Dealt to jpprewitt [ Kd, 8d ]
+jpprewitt folds
+Pyfik106 calls [$250]
+SCHIZOWIEC raises [$1,470]
+sieg1122 folds
+SYSTEM3RROR folds
+Onetimehart folds
+beauty140 folds
+elkroko folds
+Pyfik106 calls [$844]
+** Dealing flop ** [ 9h, 7d, 4d ]
+** Dealing turn ** [ Ks ]
+** Dealing river ** [ As ]
+** Summary **
+SCHIZOWIEC shows [ Ah, 4c ]
+Pyfik106 shows [ Jh, 7h ]
+SCHIZOWIEC collected [ $2,803 ]
+
+
+
+#Game No : 778800730
+***** 888poker Hand History for Game 778800730 *****
+$125/$250 Blinds No Limit Holdem - *** 27 03 2016 23:23:45
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 5 is the button
+Total number of players : 8
+Seat 1: SCHIZOWIEC ( $3,179 )
+Seat 2: sieg1122 ( $145 )
+Seat 3: SYSTEM3RROR ( $5,540 )
+Seat 4: Onetimehart ( $3,633 )
+Seat 5: beauty140 ( $100 )
+Seat 6: elkroko ( $125 )
+Seat 9: jpprewitt ( $1,961 )
+Seat 10: Pyfik106 ( $2,000 )
+sieg1122 posts ante [$30]
+Onetimehart posts ante [$30]
+beauty140 posts ante [$30]
+elkroko posts ante [$30]
+jpprewitt posts ante [$30]
+Pyfik106 posts ante [$30]
+SYSTEM3RROR posts ante [$30]
+SCHIZOWIEC posts ante [$30]
+elkroko posts small blind [$95]
+jpprewitt posts big blind [$250]
+** Dealing down cards **
+Dealt to jpprewitt [ Kd, Kc ]
+Pyfik106 calls [$250]
+SCHIZOWIEC folds
+sieg1122 folds
+SYSTEM3RROR raises [$5,510]
+Onetimehart folds
+beauty140 folds
+jpprewitt calls [$1,681]
+Pyfik106 calls [$1,720]
+** Dealing flop ** [ 9h, 9s, 5d ]
+** Dealing turn ** [ Tc ]
+** Dealing river ** [ 5s ]
+** Summary **
+SYSTEM3RROR shows [ Ks, Qd ]
+elkroko shows [ 3s, Qc ]
+jpprewitt shows [ Kd, Kc ]
+Pyfik106 shows [ 8h, Ac ]
+jpprewitt collected [ $620 ]
+jpprewitt collected [ $5,508 ]
+Pyfik106 collected [ $78 ]
+
+
+
+#Game No : 778800839
+***** 888poker Hand History for Game 778800839 *****
+$125/$250 Blinds No Limit Holdem - *** 27 03 2016 23:24:35
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 5 is the button
+Total number of players : 7
+Seat 1: SCHIZOWIEC ( $3,149 )
+Seat 2: sieg1122 ( $115 )
+Seat 3: SYSTEM3RROR ( $3,540 )
+Seat 4: Onetimehart ( $3,603 )
+Seat 5: beauty140 ( $70 )
+Seat 9: jpprewitt ( $6,128 )
+Seat 10: Pyfik106 ( $1,078 )
+sieg1122 posts ante [$30]
+Onetimehart posts ante [$30]
+beauty140 posts ante [$30]
+jpprewitt posts ante [$30]
+Pyfik106 posts ante [$30]
+SYSTEM3RROR posts ante [$30]
+SCHIZOWIEC posts ante [$30]
+jpprewitt posts small blind [$125]
+Pyfik106 posts big blind [$250]
+** Dealing down cards **
+Dealt to jpprewitt [ 3c, 8s ]
+SCHIZOWIEC calls [$250]
+sieg1122 folds
+SYSTEM3RROR folds
+Onetimehart folds
+beauty140 folds
+jpprewitt folds
+Pyfik106 checks
+** Dealing flop ** [ 9c, 7c, Jc ]
+Pyfik106 bets [$250]
+SCHIZOWIEC calls [$250]
+** Dealing turn ** [ Ad ]
+Pyfik106 bets [$250]
+SCHIZOWIEC calls [$250]
+** Dealing river ** [ 5h ]
+Pyfik106 bets [$250]
+SCHIZOWIEC folds
+** Summary **
+Pyfik106 collected [ $1,835 ]
+
+
+
+#Game No : 778800904
+***** 888poker Hand History for Game 778800904 *****
+$125/$250 Blinds No Limit Holdem - *** 27 03 2016 23:25:06
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 9 is the button
+Total number of players : 9
+Seat 1: SCHIZOWIEC ( $2,369 )
+Seat 2: sieg1122 ( $85 )
+Seat 3: SYSTEM3RROR ( $3,510 )
+Seat 4: Onetimehart ( $3,573 )
+Seat 5: beauty140 ( $40 )
+Seat 6: mightyswans ( $1,000 )
+Seat 7: salalpalmer ( $1,000 )
+Seat 9: jpprewitt ( $5,973 )
+Seat 10: Pyfik106 ( $2,133 )
+sieg1122 posts ante [$30]
+Onetimehart posts ante [$30]
+beauty140 posts ante [$30]
+jpprewitt posts ante [$30]
+Pyfik106 posts ante [$30]
+SYSTEM3RROR posts ante [$30]
+SCHIZOWIEC posts ante [$30]
+salalpalmer posts ante [$30]
+mightyswans posts ante [$30]
+Pyfik106 posts small blind [$125]
+SCHIZOWIEC posts big blind [$250]
+** Dealing down cards **
+Dealt to jpprewitt [ 8h, 9s ]
+sieg1122 folds
+SYSTEM3RROR raises [$3,480]
+Onetimehart folds
+beauty140 folds
+mightyswans folds
+salalpalmer calls [$970]
+jpprewitt folds
+Pyfik106 calls [$1,978]
+SCHIZOWIEC calls [$2,089]
+** Dealing flop ** [ 8d, 9h, Tc ]
+** Dealing turn ** [ 6h ]
+** Dealing river ** [ 3s ]
+** Summary **
+SCHIZOWIEC shows [ 9d, 4h ]
+SYSTEM3RROR shows [ 7c, 7h ]
+salalpalmer shows [ Kd, Jd ]
+Pyfik106 shows [ 5s, As ]
+SYSTEM3RROR collected [ $4,150 ]
+SYSTEM3RROR collected [ $3,399 ]
+SYSTEM3RROR collected [ $472 ]
+
+
+
+#Game No : 778800981
+***** 888poker Hand History for Game 778800981 *****
+$125/$250 Blinds No Limit Holdem - *** 27 03 2016 23:25:36
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 10 is the button
+Total number of players : 7
+Seat 3: SYSTEM3RROR ( $9,162 )
+Seat 4: Onetimehart ( $3,543 )
+Seat 5: beauty140 ( $10 )
+Seat 6: mightyswans ( $970 )
+Seat 7: salalpalmer ( $1,000 )
+Seat 9: jpprewitt ( $5,943 )
+Seat 10: Pyfik106 ( $2,000 )
+Onetimehart posts ante [$30]
+beauty140 posts ante [$10]
+jpprewitt posts ante [$30]
+Pyfik106 posts ante [$30]
+SYSTEM3RROR posts ante [$30]
+salalpalmer posts ante [$30]
+mightyswans posts ante [$30]
+SYSTEM3RROR posts big blind [$250]
+** Dealing down cards **
+Dealt to jpprewitt [ Qh, 9d ]
+Onetimehart folds
+mightyswans calls [$250]
+salalpalmer folds
+jpprewitt folds
+Pyfik106 folds
+SYSTEM3RROR checks
+** Dealing flop ** [ 6c, 6s, 4c ]
+SYSTEM3RROR bets [$690]
+mightyswans folds
+** Dealing turn ** [ Kc ]
+** Dealing river ** [ 5s ]
+** Summary **
+SYSTEM3RROR shows [ As, 4h ]
+beauty140 shows [ Td, Qs ]
+SYSTEM3RROR collected [ $70 ]
+SYSTEM3RROR collected [ $620 ]
+
+
+
+#Game No : 778801085
+***** 888poker Hand History for Game 778801085 *****
+$150/$300 Blinds No Limit Holdem - *** 27 03 2016 23:26:29
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 1 is the button
+Total number of players : 6
+Seat 3: SYSTEM3RROR ( $9,572 )
+Seat 4: Onetimehart ( $3,513 )
+Seat 6: mightyswans ( $690 )
+Seat 7: salalpalmer ( $1,970 )
+Seat 9: jpprewitt ( $5,913 )
+Seat 10: Pyfik106 ( $1,970 )
+Onetimehart posts ante [$40]
+jpprewitt posts ante [$40]
+Pyfik106 posts ante [$40]
+SYSTEM3RROR posts ante [$40]
+salalpalmer posts ante [$40]
+mightyswans posts ante [$40]
+SYSTEM3RROR posts small blind [$150]
+Onetimehart posts big blind [$300]
+** Dealing down cards **
+Dealt to jpprewitt [ 9h, As ]
+mightyswans raises [$650]
+salalpalmer calls [$650]
+jpprewitt calls [$650]
+Pyfik106 folds
+SYSTEM3RROR folds
+Onetimehart folds
+** Dealing flop ** [ 7d, 4h, 9s ]
+salalpalmer bets [$1,280]
+jpprewitt calls [$1,280]
+** Dealing turn ** [ Tc ]
+** Dealing river ** [ 8c ]
+** Summary **
+mightyswans shows [ Kh, 6h ]
+salalpalmer shows [ 7c, 6c ]
+jpprewitt shows [ 9h, As ]
+salalpalmer collected [ $1,320 ]
+mightyswans collected [ $1,320 ]
+salalpalmer collected [ $2,560 ]
+
+
+
+#Game No : 778801146
+***** 888poker Hand History for Game 778801146 *****
+$150/$300 Blinds No Limit Holdem - *** 27 03 2016 23:27:03
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 3 is the button
+Total number of players : 8
+Seat 1: Coshmar.72 ( $1,000 )
+Seat 3: SYSTEM3RROR ( $9,382 )
+Seat 4: Onetimehart ( $3,173 )
+Seat 5: Heviks ( $6,605 )
+Seat 6: mightyswans ( $1,320 )
+Seat 7: salalpalmer ( $3,880 )
+Seat 9: jpprewitt ( $3,943 )
+Seat 10: Pyfik106 ( $1,930 )
+Onetimehart posts ante [$40]
+jpprewitt posts ante [$40]
+Pyfik106 posts ante [$40]
+SYSTEM3RROR posts ante [$40]
+salalpalmer posts ante [$40]
+mightyswans posts ante [$40]
+Coshmar.72 posts ante [$40]
+Heviks posts ante [$40]
+Onetimehart posts small blind [$150]
+Heviks posts big blind [$300]
+** Dealing down cards **
+Dealt to jpprewitt [ Qs, 8s ]
+mightyswans folds
+salalpalmer folds
+jpprewitt folds
+Pyfik106 calls [$300]
+Coshmar.72 folds
+SYSTEM3RROR folds
+Onetimehart folds
+Heviks checks
+** Dealing flop ** [ 6c, As, Ad ]
+Heviks bets [$802]
+Pyfik106 calls [$802]
+** Dealing turn ** [ Td ]
+Heviks checks
+Pyfik106 checks
+** Dealing river ** [ 5h ]
+Heviks checks
+Pyfik106 checks
+** Summary **
+Heviks shows [ Qd, 3s ]
+Pyfik106 shows [ 6d, Ks ]
+Pyfik106 collected [ $2,674 ]
+
+
+
+#Game No : 778801195
+***** 888poker Hand History for Game 778801195 *****
+$150/$300 Blinds No Limit Holdem - *** 27 03 2016 23:27:34
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 4 is the button
+Total number of players : 8
+Seat 1: Coshmar.72 ( $960 )
+Seat 3: SYSTEM3RROR ( $9,342 )
+Seat 4: Onetimehart ( $2,983 )
+Seat 5: Heviks ( $5,463 )
+Seat 6: mightyswans ( $1,280 )
+Seat 7: salalpalmer ( $3,840 )
+Seat 9: jpprewitt ( $3,903 )
+Seat 10: Pyfik106 ( $3,462 )
+Onetimehart posts ante [$40]
+jpprewitt posts ante [$40]
+Pyfik106 posts ante [$40]
+SYSTEM3RROR posts ante [$40]
+salalpalmer posts ante [$40]
+mightyswans posts ante [$40]
+Coshmar.72 posts ante [$40]
+Heviks posts ante [$40]
+Heviks posts small blind [$150]
+mightyswans posts big blind [$300]
+** Dealing down cards **
+Dealt to jpprewitt [ Ad, 6c ]
+salalpalmer folds
+jpprewitt folds
+Pyfik106 calls [$300]
+Coshmar.72 folds
+SYSTEM3RROR folds
+Onetimehart folds
+Heviks calls [$150]
+mightyswans checks
+** Dealing flop ** [ 3c, 9c, Ts ]
+Heviks bets [$1,220]
+mightyswans folds
+Pyfik106 folds
+** Summary **
+Heviks did not show his hand
+Heviks collected [ $1,220 ]
+
+
+
+#Game No : 778801272
+***** 888poker Hand History for Game 778801272 *****
+$150/$300 Blinds No Limit Holdem - *** 27 03 2016 23:28:09
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 5 is the button
+Total number of players : 8
+Seat 1: Coshmar.72 ( $920 )
+Seat 3: SYSTEM3RROR ( $9,302 )
+Seat 4: Onetimehart ( $2,943 )
+Seat 5: Heviks ( $6,343 )
+Seat 6: mightyswans ( $940 )
+Seat 7: salalpalmer ( $3,800 )
+Seat 9: jpprewitt ( $3,863 )
+Seat 10: Pyfik106 ( $3,122 )
+Onetimehart posts ante [$40]
+jpprewitt posts ante [$40]
+Pyfik106 posts ante [$40]
+SYSTEM3RROR posts ante [$40]
+salalpalmer posts ante [$40]
+mightyswans posts ante [$40]
+Coshmar.72 posts ante [$40]
+Heviks posts ante [$40]
+mightyswans posts small blind [$150]
+salalpalmer posts big blind [$300]
+** Dealing down cards **
+Dealt to jpprewitt [ Js, 7d ]
+jpprewitt folds
+Pyfik106 calls [$300]
+Coshmar.72 calls [$300]
+SYSTEM3RROR calls [$300]
+Onetimehart folds
+Heviks folds
+mightyswans calls [$150]
+salalpalmer raises [$3,460]
+Pyfik106 folds
+Coshmar.72 calls [$580]
+SYSTEM3RROR calls [$3,460]
+mightyswans calls [$600]
+** Dealing flop ** [ Qs, 5s, Kd ]
+** Dealing turn ** [ 8c ]
+** Dealing river ** [ Kh ]
+** Summary **
+Coshmar.72 shows [ Kc, 9c ]
+SYSTEM3RROR shows [ Qc, Tc ]
+mightyswans shows [ 9d, Td ]
+salalpalmer shows [ 9h, 9s ]
+Coshmar.72 collected [ $4,140 ]
+SYSTEM3RROR collected [ $60 ]
+SYSTEM3RROR collected [ $5,720 ]
+
+
+
+#Game No : 778801369
+***** 888poker Hand History for Game 778801369 *****
+$150/$300 Blinds No Limit Holdem - *** 27 03 2016 23:29:04
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 6 is the button
+Total number of players : 8
+Seat 1: Coshmar.72 ( $4,140 )
+Seat 3: SYSTEM3RROR ( $11,282 )
+Seat 4: Onetimehart ( $2,903 )
+Seat 5: Heviks ( $6,303 )
+Seat 6: mightyswans ( $2,000 )
+Seat 7: salalpalmer ( $1,000 )
+Seat 9: jpprewitt ( $3,823 )
+Seat 10: Pyfik106 ( $2,782 )
+Onetimehart posts ante [$40]
+jpprewitt posts ante [$40]
+Pyfik106 posts ante [$40]
+SYSTEM3RROR posts ante [$40]
+salalpalmer posts ante [$40]
+mightyswans posts ante [$40]
+Coshmar.72 posts ante [$40]
+Heviks posts ante [$40]
+salalpalmer posts small blind [$150]
+jpprewitt posts big blind [$300]
+** Dealing down cards **
+Dealt to jpprewitt [ 2s, Qc ]
+Pyfik106 calls [$300]
+Coshmar.72 folds
+SYSTEM3RROR folds
+Onetimehart folds
+Heviks raises [$1,670]
+mightyswans folds
+salalpalmer calls [$810]
+jpprewitt folds
+Pyfik106 calls [$1,370]
+** Dealing flop ** [ 7d, Qd, Tc ]
+Pyfik106 bets [$300]
+Heviks raises [$3,060]
+Pyfik106 calls [$772]
+** Dealing turn ** [ Ts ]
+** Dealing river ** [ 3s ]
+** Summary **
+Heviks shows [ Jc, 9h ]
+salalpalmer shows [ 5h, 4d ]
+Pyfik106 shows [ 4s, 7s ]
+Pyfik106 collected [ $3,500 ]
+Pyfik106 collected [ $3,564 ]
+
+
+
+#Game No : 778801438
+***** 888poker Hand History for Game 778801438 *****
+$200/$400 Blinds No Limit Holdem - *** 27 03 2016 23:29:42
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 7 is the button
+Total number of players : 8
+Seat 1: Coshmar.72 ( $4,100 )
+Seat 3: SYSTEM3RROR ( $11,242 )
+Seat 4: Onetimehart ( $2,863 )
+Seat 5: Heviks ( $3,521 )
+Seat 6: mightyswans ( $1,960 )
+Seat 7: salalpalmer ( $1,000 )
+Seat 9: jpprewitt ( $3,483 )
+Seat 10: Pyfik106 ( $7,064 )
+Onetimehart posts ante [$50]
+jpprewitt posts ante [$50]
+Pyfik106 posts ante [$50]
+SYSTEM3RROR posts ante [$50]
+salalpalmer posts ante [$50]
+mightyswans posts ante [$50]
+Coshmar.72 posts ante [$50]
+Heviks posts ante [$50]
+jpprewitt posts small blind [$200]
+Pyfik106 posts big blind [$400]
+** Dealing down cards **
+Dealt to jpprewitt [ 6d, 4c ]
+Coshmar.72 folds
+SYSTEM3RROR folds
+Onetimehart folds
+Heviks raises [$3,471]
+mightyswans folds
+salalpalmer calls [$950]
+jpprewitt folds
+Pyfik106 calls [$3,071]
+** Dealing flop ** [ Jh, 7c, Kd ]
+** Dealing turn ** [ 5d ]
+** Dealing river ** [ 9s ]
+** Summary **
+Heviks shows [ Th, Ad ]
+salalpalmer shows [ 6h, 3c ]
+Pyfik106 shows [ Ks, 6c ]
+Pyfik106 collected [ $3,450 ]
+Pyfik106 collected [ $5,042 ]
+
+
+
+#Game No : 778801528
+***** 888poker Hand History for Game 778801528 *****
+$200/$400 Blinds No Limit Holdem - *** 27 03 2016 23:30:32
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 9 is the button
+Total number of players : 8
+Seat 1: Coshmar.72 ( $4,050 )
+Seat 2: Cvarga94 ( $1,000 )
+Seat 3: SYSTEM3RROR ( $11,192 )
+Seat 4: Onetimehart ( $2,813 )
+Seat 5: Heviks ( $2,000 )
+Seat 6: mightyswans ( $1,910 )
+Seat 9: jpprewitt ( $3,233 )
+Seat 10: Pyfik106 ( $12,035 )
+Onetimehart posts ante [$50]
+jpprewitt posts ante [$50]
+Pyfik106 posts ante [$50]
+SYSTEM3RROR posts ante [$50]
+mightyswans posts ante [$50]
+Coshmar.72 posts ante [$50]
+Heviks posts ante [$50]
+Cvarga94 posts ante [$50]
+Pyfik106 posts small blind [$200]
+Coshmar.72 posts big blind [$400]
+** Dealing down cards **
+Dealt to jpprewitt [ Ts, 6h ]
+Cvarga94 folds
+SYSTEM3RROR calls [$400]
+Onetimehart calls [$400]
+Heviks raises [$1,950]
+mightyswans calls [$1,860]
+jpprewitt folds
+Pyfik106 calls [$1,750]
+Coshmar.72 folds
+SYSTEM3RROR calls [$1,550]
+Onetimehart calls [$1,550]
+** Dealing flop ** [ 5c, Jh, 5h ]
+Pyfik106 checks
+SYSTEM3RROR checks
+Onetimehart checks
+** Dealing turn ** [ Qc ]
+Pyfik106 checks
+SYSTEM3RROR bets [$400]
+Onetimehart calls [$400]
+Pyfik106 folds
+** Dealing river ** [ 6c ]
+SYSTEM3RROR bets [$400]
+Onetimehart raises [$413]
+SYSTEM3RROR calls [$13]
+** Summary **
+SYSTEM3RROR shows [ Kd, Th ]
+Onetimehart shows [ Ad, 7h ]
+Heviks shows [ 8s, 2s ]
+mightyswans shows [ Js, Ah ]
+mightyswans collected [ $10,100 ]
+Onetimehart collected [ $360 ]
+Onetimehart collected [ $1,626 ]
+
+
+
+#Game No : 778801669
+***** 888poker Hand History for Game 778801669 *****
+$200/$400 Blinds No Limit Holdem - *** 27 03 2016 23:31:56
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 10 is the button
+Total number of players : 8
+Seat 1: Coshmar.72 ( $3,600 )
+Seat 2: Cvarga94 ( $950 )
+Seat 3: SYSTEM3RROR ( $8,379 )
+Seat 4: diego315315 ( $900 )
+Seat 6: mightyswans ( $10,100 )
+Seat 7: fofatobabr ( $1,000 )
+Seat 9: jpprewitt ( $3,183 )
+Seat 10: Pyfik106 ( $10,035 )
+jpprewitt posts ante [$50]
+Pyfik106 posts ante [$50]
+SYSTEM3RROR posts ante [$50]
+mightyswans posts ante [$50]
+Coshmar.72 posts ante [$50]
+Cvarga94 posts ante [$50]
+fofatobabr posts ante [$50]
+diego315315 posts ante [$50]
+Coshmar.72 posts small blind [$200]
+Cvarga94 posts big blind [$400]
+** Dealing down cards **
+Dealt to jpprewitt [ 9s, 7d ]
+SYSTEM3RROR calls [$400]
+diego315315 folds
+mightyswans calls [$400]
+fofatobabr folds
+jpprewitt folds
+Pyfik106 calls [$400]
+Coshmar.72 calls [$200]
+Cvarga94 checks
+** Dealing flop ** [ Qs, 3h, 3s ]
+Coshmar.72 checks
+Cvarga94 checks
+SYSTEM3RROR checks
+mightyswans checks
+Pyfik106 checks
+** Dealing turn ** [ Th ]
+Coshmar.72 checks
+Cvarga94 checks
+SYSTEM3RROR checks
+mightyswans checks
+Pyfik106 checks
+** Dealing river ** [ Qd ]
+Coshmar.72 checks
+Cvarga94 checks
+SYSTEM3RROR checks
+mightyswans checks
+Pyfik106 checks
+** Summary **
+Coshmar.72 shows [ 2h, 2s ]
+Cvarga94 shows [ 2d, Jd ]
+SYSTEM3RROR mucks [ 6h, 5h ]
+mightyswans shows [ Td, Jh ]
+Pyfik106 mucks [ 5d, 6d ]
+mightyswans collected [ $2,400 ]
+
+
+
+#Game No : 778801806
+***** 888poker Hand History for Game 778801806 *****
+$250/$500 Blinds No Limit Holdem - *** 27 03 2016 23:33:06
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 1 is the button
+Total number of players : 9
+Seat 1: Coshmar.72 ( $3,150 )
+Seat 2: Cvarga94 ( $500 )
+Seat 3: SYSTEM3RROR ( $7,929 )
+Seat 4: diego315315 ( $850 )
+Seat 5: z0ot62 ( $900 )
+Seat 6: mightyswans ( $12,050 )
+Seat 7: Marjinale777 ( $1,950 )
+Seat 9: jpprewitt ( $3,133 )
+Seat 10: Pyfik106 ( $9,585 )
+jpprewitt posts ante [$60]
+Pyfik106 posts ante [$60]
+SYSTEM3RROR posts ante [$60]
+mightyswans posts ante [$60]
+Coshmar.72 posts ante [$60]
+Cvarga94 posts ante [$60]
+diego315315 posts ante [$60]
+z0ot62 posts ante [$60]
+Marjinale777 posts ante [$60]
+Cvarga94 posts small blind [$250]
+SYSTEM3RROR posts big blind [$500]
+** Dealing down cards **
+Dealt to jpprewitt [ Qs, 5d ]
+diego315315 folds
+z0ot62 calls [$500]
+mightyswans folds
+Marjinale777 calls [$500]
+jpprewitt folds
+Pyfik106 folds
+Coshmar.72 folds
+Cvarga94 calls [$190]
+SYSTEM3RROR checks
+** Dealing flop ** [ 3h, 2d, Kh ]
+SYSTEM3RROR checks
+z0ot62 checks
+Marjinale777 checks
+** Dealing turn ** [ 4s ]
+SYSTEM3RROR checks
+z0ot62 bets [$340]
+Marjinale777 calls [$340]
+SYSTEM3RROR folds
+** Dealing river ** [ Jc ]
+** Summary **
+Cvarga94 shows [ 7c, 4h ]
+z0ot62 shows [ Js, Kc ]
+Marjinale777 shows [ Th, 5s ]
+z0ot62 collected [ $2,300 ]
+z0ot62 collected [ $860 ]
+
+
+
+#Game No : 778801895
+***** 888poker Hand History for Game 778801895 *****
+$250/$500 Blinds No Limit Holdem - *** 27 03 2016 23:33:57
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 1 is the button
+Total number of players : 8
+Seat 1: Coshmar.72 ( $3,090 )
+Seat 3: SYSTEM3RROR ( $7,369 )
+Seat 4: diego315315 ( $790 )
+Seat 5: z0ot62 ( $3,160 )
+Seat 6: chem1129 ( $3,025 )
+Seat 7: Marjinale777 ( $1,050 )
+Seat 9: jpprewitt ( $3,073 )
+Seat 10: Pyfik106 ( $9,525 )
+jpprewitt posts ante [$60]
+Pyfik106 posts ante [$60]
+SYSTEM3RROR posts ante [$60]
+Coshmar.72 posts ante [$60]
+diego315315 posts ante [$60]
+z0ot62 posts ante [$60]
+Marjinale777 posts ante [$60]
+chem1129 posts ante [$60]
+SYSTEM3RROR posts small blind [$250]
+diego315315 posts big blind [$500]
+** Dealing down cards **
+Dealt to jpprewitt [ 8c, 5d ]
+z0ot62 folds
+chem1129 folds
+Marjinale777 raises [$990]
+jpprewitt folds
+Pyfik106 calls [$990]
+Coshmar.72 folds
+SYSTEM3RROR folds
+diego315315 calls [$230]
+** Dealing flop ** [ Jd, 5h, 7c ]
+** Dealing turn ** [ Tc ]
+** Dealing river ** [ Jh ]
+** Summary **
+diego315315 shows [ Ac, 8s ]
+Marjinale777 shows [ 3s, 3h ]
+Pyfik106 shows [ 2d, 9d ]
+Marjinale777 collected [ $2,920 ]
+Marjinale777 collected [ $520 ]
+
+
+
+#Game No : 778801955
+***** 888poker Hand History for Game 778801955 *****
+$250/$500 Blinds No Limit Holdem - *** 27 03 2016 23:34:29
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 3 is the button
+Total number of players : 9
+Seat 1: Coshmar.72 ( $3,030 )
+Seat 2: whags ( $1,000 )
+Seat 3: SYSTEM3RROR ( $7,059 )
+Seat 4: diego315315 ( $2,000 )
+Seat 5: z0ot62 ( $3,100 )
+Seat 6: chem1129 ( $2,965 )
+Seat 7: Marjinale777 ( $3,440 )
+Seat 9: jpprewitt ( $3,013 )
+Seat 10: Pyfik106 ( $8,475 )
+jpprewitt posts ante [$60]
+Pyfik106 posts ante [$60]
+SYSTEM3RROR posts ante [$60]
+Coshmar.72 posts ante [$60]
+diego315315 posts ante [$60]
+z0ot62 posts ante [$60]
+Marjinale777 posts ante [$60]
+chem1129 posts ante [$60]
+whags posts ante [$60]
+diego315315 posts small blind [$250]
+z0ot62 posts big blind [$500]
+** Dealing down cards **
+Dealt to jpprewitt [ Qs, 3s ]
+chem1129 raises [$2,905]
+Marjinale777 folds
+jpprewitt folds
+Pyfik106 folds
+Coshmar.72 folds
+whags folds
+SYSTEM3RROR folds
+diego315315 folds
+z0ot62 folds
+** Summary **
+chem1129 did not show his hand
+chem1129 collected [ $1,790 ]
+
+
+
+#Game No : 778802008
+***** 888poker Hand History for Game 778802008 *****
+$250/$500 Blinds No Limit Holdem - *** 27 03 2016 23:34:55
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 4 is the button
+Total number of players : 9
+Seat 1: Coshmar.72 ( $2,970 )
+Seat 2: whags ( $940 )
+Seat 3: SYSTEM3RROR ( $6,999 )
+Seat 4: diego315315 ( $1,690 )
+Seat 5: z0ot62 ( $2,540 )
+Seat 6: chem1129 ( $4,195 )
+Seat 7: Marjinale777 ( $3,380 )
+Seat 9: jpprewitt ( $2,953 )
+Seat 10: Pyfik106 ( $8,415 )
+jpprewitt posts ante [$60]
+Pyfik106 posts ante [$60]
+SYSTEM3RROR posts ante [$60]
+Coshmar.72 posts ante [$60]
+diego315315 posts ante [$60]
+z0ot62 posts ante [$60]
+Marjinale777 posts ante [$60]
+chem1129 posts ante [$60]
+whags posts ante [$60]
+z0ot62 posts small blind [$250]
+chem1129 posts big blind [$500]
+** Dealing down cards **
+Dealt to jpprewitt [ Td, Qs ]
+Marjinale777 folds
+jpprewitt folds
+Pyfik106 calls [$500]
+Coshmar.72 folds
+whags folds
+SYSTEM3RROR calls [$500]
+diego315315 folds
+z0ot62 calls [$250]
+chem1129 checks
+** Dealing flop ** [ 6c, 9s, Qc ]
+z0ot62 checks
+chem1129 checks
+Pyfik106 bets [$500]
+SYSTEM3RROR folds
+z0ot62 calls [$500]
+chem1129 folds
+** Dealing turn ** [ 3c ]
+z0ot62 checks
+Pyfik106 bets [$500]
+z0ot62 calls [$500]
+** Dealing river ** [ 5s ]
+z0ot62 checks
+Pyfik106 bets [$3,405]
+z0ot62 folds
+** Summary **
+Pyfik106 did not show his hand
+Pyfik106 collected [ $4,540 ]
+
+
+
+#Game No : 778802081
+***** 888poker Hand History for Game 778802081 *****
+$300/$600 Blinds No Limit Holdem - *** 27 03 2016 23:35:37
+Tournament #78669773 $0.01 - Table #4 9 Max (Real Money)
+Seat 5 is the button
+Total number of players : 9
+Seat 1: Coshmar.72 ( $2,910 )
+Seat 2: whags ( $880 )
+Seat 3: SYSTEM3RROR ( $6,439 )
+Seat 4: diego315315 ( $1,630 )
+Seat 5: z0ot62 ( $980 )
+Seat 6: chem1129 ( $3,635 )
+Seat 7: Marjinale777 ( $3,320 )
+Seat 9: jpprewitt ( $2,893 )
+Seat 10: Pyfik106 ( $11,395 )
+jpprewitt posts ante [$70]
+Pyfik106 posts ante [$70]
+SYSTEM3RROR posts ante [$70]
+Coshmar.72 posts ante [$70]
+diego315315 posts ante [$70]
+z0ot62 posts ante [$70]
+Marjinale777 posts ante [$70]
+chem1129 posts ante [$70]
+whags posts ante [$70]
+chem1129 posts small blind [$300]
+Marjinale777 posts big blind [$600]
+** Dealing down cards **
+Dealt to jpprewitt [ 4s, Ah ]
+jpprewitt raises [$1,665]
+Pyfik106 folds
+Coshmar.72 folds
+whags calls [$810]
+SYSTEM3RROR calls [$1,665]
+diego315315 folds
+z0ot62 folds
+chem1129 folds
+Marjinale777 calls [$1,065]
+** Dealing flop ** [ Kh, Qd, Td ]
+Marjinale777 checks
+jpprewitt bets [$1,158]
+SYSTEM3RROR calls [$1,158]
+Marjinale777 calls [$1,158]
+** Dealing turn ** [ 7d ]
+Marjinale777 checks
+SYSTEM3RROR checks
+** Dealing river ** [ 9h ]
+Marjinale777 checks
+SYSTEM3RROR checks
+** Summary **
+Marjinale777 shows [ 9s, 2c ]
+jpprewitt shows [ 4s, Ah ]
+whags shows [ Ts, Jc ]
+SYSTEM3RROR shows [ Js, Qs ]
+SYSTEM3RROR collected [ $2,085 ]
+whags collected [ $2,085 ]
+SYSTEM3RROR collected [ $6,039 ]
+
+
+

@@ -1,0 +1,566 @@
+#Game No : 775395630
+***** 888poker Hand History for Game 775395630 *****
+$10/$20 Blinds No Limit Holdem - *** 27 03 2016 22:36:34
+Tournament #78669312 $0.01 - Table #3 9 Max (Real Money)
+Seat 6 is the button
+Total number of players : 8
+Seat 1: joeballoons ( $970 )
+Seat 2: AliceBazooka ( $1,000 )
+Seat 3: jpprewitt ( $1,000 )
+Seat 4: svinoyob75 ( $1,000 )
+Seat 6: ketaminol44n ( $1,000 )
+Seat 7: ASKET174 ( $1,000 )
+Seat 9: thecrozy ( $1,000 )
+Seat 10: SYSTEM3RROR ( $990 )
+ASKET174 posts small blind [$10]
+thecrozy posts big blind [$20]
+** Dealing down cards **
+Dealt to jpprewitt [ 8h, Kd ]
+SYSTEM3RROR folds
+joeballoons raises [$240]
+AliceBazooka folds
+jpprewitt folds
+svinoyob75 calls [$240]
+ketaminol44n calls [$240]
+ASKET174 folds
+thecrozy folds
+** Dealing flop ** [ 2d, 7d, Qd ]
+joeballoons checks
+svinoyob75 bets [$760]
+ketaminol44n calls [$760]
+joeballoons calls [$730]
+** Dealing turn ** [ 3d ]
+** Dealing river ** [ 9h ]
+** Summary **
+joeballoons shows [ 8d, Ad ]
+svinoyob75 shows [ 7h, 6s ]
+ketaminol44n shows [ Jh, Jd ]
+joeballoons collected [ $2,940 ]
+ketaminol44n collected [ $60 ]
+
+
+
+#Game No : 775395813
+***** 888poker Hand History for Game 775395813 *****
+$10/$20 Blinds No Limit Holdem - *** 27 03 2016 22:37:43
+Tournament #78669312 $0.01 - Table #3 9 Max (Real Money)
+Seat 7 is the button
+Total number of players : 9
+Seat 1: joeballoons ( $2,940 )
+Seat 2: AliceBazooka ( $1,000 )
+Seat 3: jpprewitt ( $1,000 )
+Seat 4: svinoyob75 ( $2,000 )
+Seat 5: laionel23 ( $1,000 )
+Seat 6: ketaminol44n ( $60 )
+Seat 7: ASKET174 ( $990 )
+Seat 9: thecrozy ( $980 )
+Seat 10: SYSTEM3RROR ( $990 )
+thecrozy posts small blind [$10]
+SYSTEM3RROR posts big blind [$20]
+** Dealing down cards **
+Dealt to jpprewitt [ Kc, 3h ]
+joeballoons raises [$2,940]
+AliceBazooka folds
+jpprewitt folds
+svinoyob75 calls [$2,000]
+laionel23 calls [$1,000]
+ketaminol44n calls [$60]
+ASKET174 folds
+thecrozy folds
+SYSTEM3RROR folds
+** Dealing flop ** [ Jd, 5c, 4d ]
+** Dealing turn ** [ Tc ]
+** Dealing river ** [ 6d ]
+** Summary **
+joeballoons shows [ Th, Td ]
+svinoyob75 shows [ 9d, Ad ]
+laionel23 shows [ 8d, 8c ]
+ketaminol44n shows [ Ac, Qs ]
+svinoyob75 collected [ $270 ]
+svinoyob75 collected [ $2,820 ]
+svinoyob75 collected [ $2,000 ]
+
+
+
+#Game No : 775395896
+***** 888poker Hand History for Game 775395896 *****
+$15/$30 Blinds No Limit Holdem - *** 27 03 2016 22:38:23
+Tournament #78669312 $0.01 - Table #3 9 Max (Real Money)
+Seat 9 is the button
+Total number of players : 9
+Seat 1: joeballoons ( $940 )
+Seat 2: Sione03 ( $1,000 )
+Seat 3: jpprewitt ( $1,000 )
+Seat 4: svinoyob75 ( $5,090 )
+Seat 5: laionel23 ( $2,000 )
+Seat 6: ketaminol44n ( $1,000 )
+Seat 7: ASKET174 ( $990 )
+Seat 9: thecrozy ( $970 )
+Seat 10: SYSTEM3RROR ( $970 )
+SYSTEM3RROR posts small blind [$15]
+joeballoons posts big blind [$30]
+** Dealing down cards **
+Dealt to jpprewitt [ Td, Ts ]
+Sione03 calls [$30]
+jpprewitt calls [$30]
+svinoyob75 calls [$30]
+laionel23 folds
+ketaminol44n folds
+ASKET174 calls [$30]
+thecrozy calls [$30]
+SYSTEM3RROR calls [$15]
+joeballoons raises [$910]
+Sione03 folds
+jpprewitt calls [$910]
+svinoyob75 calls [$910]
+ASKET174 raises [$960]
+thecrozy calls [$940]
+SYSTEM3RROR calls [$940]
+jpprewitt calls [$50]
+svinoyob75 calls [$50]
+** Dealing flop ** [ 5h, 4s, Ac ]
+jpprewitt checks
+svinoyob75 checks
+** Dealing turn ** [ Ks ]
+jpprewitt checks
+svinoyob75 checks
+** Dealing river ** [ 9d ]
+jpprewitt checks
+svinoyob75 checks
+** Summary **
+jpprewitt shows [ Td, Ts ]
+svinoyob75 mucks [ 7h, Th ]
+ASKET174 shows [ Kc, 6c ]
+thecrozy shows [ Qh, 7s ]
+SYSTEM3RROR shows [ As, Kd ]
+joeballoons shows [ 7c, Tc ]
+SYSTEM3RROR collected [ $5,670 ]
+SYSTEM3RROR collected [ $150 ]
+ASKET174 collected [ $60 ]
+
+
+
+#Game No : 775396118
+***** 888poker Hand History for Game 775396118 *****
+$15/$30 Blinds No Limit Holdem - *** 27 03 2016 22:40:11
+Tournament #78669312 $0.01 - Table #3 9 Max (Real Money)
+Seat 10 is the button
+Total number of players : 7
+Seat 2: Sione03 ( $970 )
+Seat 3: jpprewitt ( $10 )
+Seat 4: svinoyob75 ( $4,100 )
+Seat 5: laionel23 ( $2,000 )
+Seat 6: noblufj1 ( $1,000 )
+Seat 7: ASKET174 ( $60 )
+Seat 10: SYSTEM3RROR ( $5,820 )
+Sione03 posts big blind [$30]
+** Dealing down cards **
+Dealt to jpprewitt [ 8d, Jd ]
+jpprewitt calls [$10]
+svinoyob75 calls [$30]
+laionel23 folds
+noblufj1 calls [$30]
+ASKET174 raises [$60]
+SYSTEM3RROR calls [$60]
+Sione03 calls [$30]
+svinoyob75 calls [$30]
+noblufj1 calls [$30]
+** Dealing flop ** [ Ad, Js, Ts ]
+Sione03 checks
+svinoyob75 folds
+noblufj1 checks
+SYSTEM3RROR checks
+** Dealing turn ** [ 5h ]
+Sione03 checks
+noblufj1 checks
+SYSTEM3RROR checks
+** Dealing river ** [ 8s ]
+Sione03 checks
+noblufj1 checks
+SYSTEM3RROR checks
+** Summary **
+Sione03 shows [ 2d, Qs ]
+jpprewitt shows [ 8d, Jd ]
+noblufj1 mucks [ Qc, 8c ]
+ASKET174 shows [ Ks, 4d ]
+SYSTEM3RROR mucks [ Td, 9d ]
+jpprewitt collected [ $60 ]
+SYSTEM3RROR collected [ $250 ]
+
+
+
+#Game No : 775396418
+***** 888poker Hand History for Game 775396418 *****
+$25/$50 Blinds No Limit Holdem - *** 27 03 2016 22:42:32
+Tournament #78669312 $0.01 - Table #3 9 Max (Real Money)
+Seat 1 is the button
+Total number of players : 7
+Seat 2: Sione03 ( $910 )
+Seat 3: jpprewitt ( $60 )
+Seat 4: svinoyob75 ( $4,040 )
+Seat 6: noblufj1 ( $940 )
+Seat 7: ASKET174 ( $2,000 )
+Seat 9: ottawa67sfan ( $1,000 )
+Seat 10: SYSTEM3RROR ( $6,010 )
+Sione03 posts small blind [$25]
+jpprewitt posts big blind [$50]
+** Dealing down cards **
+Dealt to jpprewitt [ Jc, Ah ]
+svinoyob75 calls [$50]
+noblufj1 folds
+ASKET174 folds
+ottawa67sfan folds
+SYSTEM3RROR folds
+Sione03 calls [$25]
+jpprewitt raises [$10]
+svinoyob75 calls [$10]
+Sione03 calls [$10]
+** Dealing flop ** [ 9c, 5c, As ]
+Sione03 bets [$50]
+svinoyob75 calls [$50]
+** Dealing turn ** [ Kh ]
+Sione03 bets [$50]
+svinoyob75 raises [$430]
+Sione03 folds
+** Dealing river ** [ Ac ]
+** Summary **
+jpprewitt shows [ Jc, Ah ]
+svinoyob75 shows [ Ks, 9d ]
+jpprewitt collected [ $180 ]
+svinoyob75 collected [ $200 ]
+
+
+
+#Game No : 775396534
+***** 888poker Hand History for Game 775396534 *****
+$25/$50 Blinds No Limit Holdem - *** 27 03 2016 22:43:42
+Tournament #78669312 $0.01 - Table #3 9 Max (Real Money)
+Seat 2 is the button
+Total number of players : 9
+Seat 1: tuhien ( $1,000 )
+Seat 2: Sione03 ( $750 )
+Seat 3: jpprewitt ( $180 )
+Seat 4: svinoyob75 ( $4,080 )
+Seat 5: franck_grim ( $1,000 )
+Seat 6: noblufj1 ( $1,940 )
+Seat 7: ASKET174 ( $2,000 )
+Seat 9: ottawa67sfan ( $1,000 )
+Seat 10: SYSTEM3RROR ( $6,010 )
+jpprewitt posts small blind [$25]
+svinoyob75 posts big blind [$50]
+** Dealing down cards **
+Dealt to jpprewitt [ 7d, Ac ]
+franck_grim raises [$1,000]
+noblufj1 folds
+ASKET174 folds
+ottawa67sfan folds
+SYSTEM3RROR calls [$1,000]
+tuhien folds
+Sione03 folds
+jpprewitt calls [$155]
+svinoyob75 folds
+** Dealing flop ** [ 8h, 7h, 7c ]
+** Dealing turn ** [ 5s ]
+** Dealing river ** [ 2c ]
+** Summary **
+jpprewitt shows [ 7d, Ac ]
+franck_grim shows [ Ks, Ad ]
+SYSTEM3RROR shows [ Qh, Kc ]
+jpprewitt collected [ $590 ]
+franck_grim collected [ $1,640 ]
+
+
+
+#Game No : 775396672
+***** 888poker Hand History for Game 775396672 *****
+$50/$100 Blinds No Limit Holdem - *** 27 03 2016 22:44:52
+Tournament #78669312 $0.01 - Table #3 9 Max (Real Money)
+Seat 3 is the button
+Total number of players : 9
+Seat 1: tuhien ( $1,000 )
+Seat 2: Sione03 ( $750 )
+Seat 3: jpprewitt ( $590 )
+Seat 4: svinoyob75 ( $4,030 )
+Seat 5: franck_grim ( $1,640 )
+Seat 6: noblufj1 ( $1,940 )
+Seat 7: ASKET174 ( $2,000 )
+Seat 9: ottawa67sfan ( $1,000 )
+Seat 10: SYSTEM3RROR ( $5,010 )
+ASKET174 posts ante [$10]
+SYSTEM3RROR posts ante [$10]
+jpprewitt posts ante [$10]
+svinoyob75 posts ante [$10]
+Sione03 posts ante [$10]
+tuhien posts ante [$10]
+ottawa67sfan posts ante [$10]
+franck_grim posts ante [$10]
+noblufj1 posts ante [$10]
+svinoyob75 posts small blind [$50]
+franck_grim posts big blind [$100]
+** Dealing down cards **
+Dealt to jpprewitt [ 5c, 2c ]
+noblufj1 folds
+ASKET174 folds
+ottawa67sfan folds
+SYSTEM3RROR folds
+tuhien calls [$100]
+Sione03 calls [$100]
+jpprewitt folds
+svinoyob75 calls [$50]
+franck_grim checks
+** Dealing flop ** [ 7d, Qc, Qh ]
+svinoyob75 checks
+franck_grim checks
+tuhien checks
+Sione03 checks
+** Dealing turn ** [ 4s ]
+svinoyob75 bets [$100]
+franck_grim folds
+tuhien raises [$890]
+Sione03 folds
+svinoyob75 calls [$790]
+** Dealing river ** [ 3h ]
+** Summary **
+tuhien shows [ 5s, Js ]
+svinoyob75 shows [ 4c, 6d ]
+svinoyob75 collected [ $2,270 ]
+
+
+
+#Game No : 775396940
+***** 888poker Hand History for Game 775396940 *****
+$50/$100 Blinds No Limit Holdem - *** 27 03 2016 22:47:12
+Tournament #78669312 $0.01 - Table #3 9 Max (Real Money)
+Seat 4 is the button
+Total number of players : 8
+Seat 1: tuhien ( $1,000 )
+Seat 2: Sione03 ( $640 )
+Seat 3: jpprewitt ( $580 )
+Seat 4: svinoyob75 ( $5,300 )
+Seat 5: franck_grim ( $1,530 )
+Seat 6: noblufj1 ( $1,930 )
+Seat 9: ottawa67sfan ( $990 )
+Seat 10: SYSTEM3RROR ( $5,000 )
+SYSTEM3RROR posts ante [$10]
+jpprewitt posts ante [$10]
+svinoyob75 posts ante [$10]
+Sione03 posts ante [$10]
+tuhien posts ante [$10]
+ottawa67sfan posts ante [$10]
+franck_grim posts ante [$10]
+noblufj1 posts ante [$10]
+franck_grim posts small blind [$50]
+noblufj1 posts big blind [$100]
+** Dealing down cards **
+Dealt to jpprewitt [ 4c, Td ]
+ottawa67sfan folds
+SYSTEM3RROR folds
+tuhien calls [$100]
+Sione03 folds
+jpprewitt folds
+svinoyob75 folds
+franck_grim calls [$50]
+noblufj1 checks
+** Dealing flop ** [ 7d, 8h, Qc ]
+franck_grim checks
+noblufj1 checks
+tuhien bets [$100]
+franck_grim folds
+noblufj1 calls [$100]
+** Dealing turn ** [ 7s ]
+noblufj1 checks
+tuhien bets [$100]
+noblufj1 folds
+** Summary **
+tuhien did not show his hand
+tuhien collected [ $580 ]
+
+
+
+#Game No : 775397170
+***** 888poker Hand History for Game 775397170 *****
+$75/$150 Blinds No Limit Holdem - *** 27 03 2016 22:49:03
+Tournament #78669312 $0.01 - Table #3 9 Max (Real Money)
+Seat 5 is the button
+Total number of players : 8
+Seat 1: tuhien ( $1,370 )
+Seat 2: Sione03 ( $630 )
+Seat 3: jpprewitt ( $570 )
+Seat 4: svinoyob75 ( $5,290 )
+Seat 5: franck_grim ( $1,420 )
+Seat 6: noblufj1 ( $1,720 )
+Seat 9: ottawa67sfan ( $980 )
+Seat 10: SYSTEM3RROR ( $4,990 )
+SYSTEM3RROR posts ante [$20]
+jpprewitt posts ante [$20]
+svinoyob75 posts ante [$20]
+Sione03 posts ante [$20]
+tuhien posts ante [$20]
+ottawa67sfan posts ante [$20]
+franck_grim posts ante [$20]
+noblufj1 posts ante [$20]
+noblufj1 posts small blind [$75]
+ottawa67sfan posts big blind [$150]
+** Dealing down cards **
+Dealt to jpprewitt [ 6s, 8d ]
+SYSTEM3RROR folds
+tuhien calls [$150]
+Sione03 calls [$150]
+jpprewitt folds
+svinoyob75 folds
+franck_grim folds
+noblufj1 folds
+ottawa67sfan checks
+** Dealing flop ** [ 2c, Tc, 2d ]
+ottawa67sfan checks
+tuhien checks
+Sione03 bets [$460]
+ottawa67sfan folds
+tuhien folds
+** Summary **
+Sione03 collected [ $685 ]
+
+
+
+#Game No : 775397297
+***** 888poker Hand History for Game 775397297 *****
+$75/$150 Blinds No Limit Holdem - *** 27 03 2016 22:50:13
+Tournament #78669312 $0.01 - Table #3 9 Max (Real Money)
+Seat 6 is the button
+Total number of players : 8
+Seat 1: tuhien ( $1,200 )
+Seat 2: Sione03 ( $1,145 )
+Seat 3: jpprewitt ( $550 )
+Seat 4: svinoyob75 ( $5,270 )
+Seat 5: franck_grim ( $1,400 )
+Seat 6: noblufj1 ( $1,625 )
+Seat 9: ottawa67sfan ( $810 )
+Seat 10: SYSTEM3RROR ( $4,970 )
+SYSTEM3RROR posts ante [$20]
+jpprewitt posts ante [$20]
+svinoyob75 posts ante [$20]
+Sione03 posts ante [$20]
+tuhien posts ante [$20]
+ottawa67sfan posts ante [$20]
+franck_grim posts ante [$20]
+noblufj1 posts ante [$20]
+ottawa67sfan posts small blind [$75]
+SYSTEM3RROR posts big blind [$150]
+** Dealing down cards **
+Dealt to jpprewitt [ Kh, 6d ]
+tuhien folds
+Sione03 folds
+jpprewitt folds
+svinoyob75 folds
+franck_grim folds
+noblufj1 folds
+ottawa67sfan folds
+** Summary **
+SYSTEM3RROR collected [ $385 ]
+
+
+
+#Game No : 775397328
+***** 888poker Hand History for Game 775397328 *****
+$100/$200 Blinds No Limit Holdem - *** 27 03 2016 22:50:26
+Tournament #78669312 $0.01 - Table #3 9 Max (Real Money)
+Seat 9 is the button
+Total number of players : 9
+Seat 1: tuhien ( $1,180 )
+Seat 2: Sione03 ( $1,125 )
+Seat 3: jpprewitt ( $530 )
+Seat 4: svinoyob75 ( $5,250 )
+Seat 5: franck_grim ( $1,380 )
+Seat 6: noblufj1 ( $1,605 )
+Seat 7: Hotam64 ( $1,000 )
+Seat 9: ottawa67sfan ( $715 )
+Seat 10: SYSTEM3RROR ( $5,185 )
+SYSTEM3RROR posts ante [$25]
+jpprewitt posts ante [$25]
+svinoyob75 posts ante [$25]
+Sione03 posts ante [$25]
+tuhien posts ante [$25]
+ottawa67sfan posts ante [$25]
+franck_grim posts ante [$25]
+noblufj1 posts ante [$25]
+Hotam64 posts ante [$25]
+SYSTEM3RROR posts small blind [$100]
+tuhien posts big blind [$200]
+** Dealing down cards **
+Dealt to jpprewitt [ 9d, 2h ]
+Sione03 calls [$200]
+jpprewitt folds
+svinoyob75 folds
+franck_grim folds
+noblufj1 folds
+Hotam64 folds
+ottawa67sfan folds
+SYSTEM3RROR folds
+tuhien checks
+** Dealing flop ** [ 6s, 6d, Jd ]
+tuhien checks
+Sione03 bets [$200]
+tuhien raises [$400]
+Sione03 raises [$700]
+tuhien calls [$500]
+** Dealing turn ** [ 3h ]
+** Dealing river ** [ 8d ]
+** Summary **
+tuhien shows [ Ah, 2d ]
+Sione03 shows [ Jh, 8c ]
+Sione03 collected [ $2,525 ]
+
+
+
+#Game No : 775397497
+***** 888poker Hand History for Game 775397497 *****
+$100/$200 Blinds No Limit Holdem - *** 27 03 2016 22:51:45
+Tournament #78669312 $0.01 - Table #3 9 Max (Real Money)
+Seat 9 is the button
+Total number of players : 8
+Seat 1: tuhien ( $1,055 )
+Seat 2: Sione03 ( $2,525 )
+Seat 3: jpprewitt ( $505 )
+Seat 4: svinoyob75 ( $5,225 )
+Seat 5: franck_grim ( $1,355 )
+Seat 6: noblufj1 ( $1,580 )
+Seat 7: Hotam64 ( $975 )
+Seat 9: ottawa67sfan ( $690 )
+jpprewitt posts ante [$25]
+svinoyob75 posts ante [$25]
+Sione03 posts ante [$25]
+tuhien posts ante [$25]
+ottawa67sfan posts ante [$25]
+franck_grim posts ante [$25]
+noblufj1 posts ante [$25]
+Hotam64 posts ante [$25]
+tuhien posts small blind [$100]
+Sione03 posts big blind [$200]
+** Dealing down cards **
+Dealt to jpprewitt [ 2c, Kc ]
+jpprewitt raises [$480]
+svinoyob75 folds
+franck_grim folds
+noblufj1 folds
+Hotam64 calls [$480]
+ottawa67sfan raises [$665]
+tuhien raises [$930]
+Sione03 folds
+Hotam64 calls [$470]
+** Dealing flop ** [ 8d, 9d, 7h ]
+** Dealing turn ** [ 6h ]
+** Dealing river ** [ Th ]
+** Summary **
+tuhien shows [ Jc, 6d ]
+jpprewitt shows [ 2c, Kc ]
+Hotam64 shows [ Jd, Ks ]
+ottawa67sfan shows [ Ah, As ]
+tuhien collected [ $1,160 ]
+Hotam64 collected [ $1,160 ]
+tuhien collected [ $278 ]
+Hotam64 collected [ $277 ]
+tuhien collected [ $285 ]
+Hotam64 collected [ $285 ]
+
+
+

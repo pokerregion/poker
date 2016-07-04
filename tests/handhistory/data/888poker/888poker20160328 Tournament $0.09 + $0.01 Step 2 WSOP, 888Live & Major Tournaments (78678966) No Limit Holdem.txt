@@ -1,0 +1,684 @@
+#Game No : 616553267
+***** 888poker Hand History for Game 616553267 *****
+$10/$20 Blinds No Limit Holdem - *** 28 03 2016 10:25:17
+Tournament #78678966 $0.09 + $0.01 - Table #1 9 Max (Real Money)
+Seat 10 is the button
+Total number of players : 8
+Seat 1: KingVan010 ( $2,000 )
+Seat 2: jpprewitt ( $2,000 )
+Seat 3: PocketCards ( $2,000 )
+Seat 4: To_Cool_4_U ( $2,000 )
+Seat 5: JuliaCakes ( $2,000 )
+Seat 6: CFCAshie ( $2,000 )
+Seat 9: Anmajo60 ( $2,000 )
+Seat 10: V.standa9 ( $2,000 )
+KingVan010 posts small blind [$10]
+jpprewitt posts big blind [$20]
+** Dealing down cards **
+Dealt to jpprewitt [ 9h, Ts ]
+PocketCards calls [$20]
+To_Cool_4_U folds
+JuliaCakes calls [$20]
+CFCAshie folds
+Anmajo60 calls [$20]
+V.standa9 folds
+KingVan010 calls [$10]
+jpprewitt checks
+** Dealing flop ** [ Tc, Jd, Kc ]
+KingVan010 checks
+jpprewitt bets [$50]
+PocketCards calls [$50]
+JuliaCakes calls [$50]
+Anmajo60 raises [$350]
+KingVan010 folds
+jpprewitt calls [$300]
+PocketCards folds
+JuliaCakes calls [$300]
+** Dealing turn ** [ 7c ]
+jpprewitt checks
+JuliaCakes bets [$600]
+Anmajo60 calls [$600]
+jpprewitt folds
+** Dealing river ** [ Qs ]
+JuliaCakes bets [$1,030]
+Anmajo60 calls [$1,030]
+** Summary **
+JuliaCakes shows [ As, Jh ]
+Anmajo60 shows [ Ad, Qh ]
+Anmajo60 collected [ $2,230 ]
+JuliaCakes collected [ $2,230 ]
+
+
+
+#Game No : 616553879
+***** 888poker Hand History for Game 616553879 *****
+$10/$20 Blinds No Limit Holdem - *** 28 03 2016 10:28:01
+Tournament #78678966 $0.09 + $0.01 - Table #5 9 Max (Real Money)
+Seat 9 is the button
+Total number of players : 6
+Seat 1: suellencsena ( $2,000 )
+Seat 2: skbrann11 ( $2,000 )
+Seat 3: EightOfClubs ( $2,000 )
+Seat 4: jpprewitt ( $1,620 )
+Seat 9: ROBGAN ( $2,000 )
+Seat 10: Anmajo60 ( $2,230 )
+Anmajo60 posts small blind [$10]
+suellencsena posts big blind [$20]
+** Dealing down cards **
+Dealt to jpprewitt [ 7s, Kh ]
+skbrann11 folds
+EightOfClubs folds
+jpprewitt folds
+ROBGAN raises [$2,000]
+Anmajo60 folds
+suellencsena calls [$1,980]
+** Dealing flop ** [ 5c, 4d, Tc ]
+** Dealing turn ** [ Qc ]
+** Dealing river ** [ 6s ]
+** Summary **
+suellencsena shows [ Ad, Ah ]
+ROBGAN shows [ Td, 6d ]
+ROBGAN collected [ $4,010 ]
+
+
+
+#Game No : 616554036
+***** 888poker Hand History for Game 616554036 *****
+$10/$20 Blinds No Limit Holdem - *** 28 03 2016 10:28:43
+Tournament #78678966 $0.09 + $0.01 - Table #5 9 Max (Real Money)
+Seat 10 is the button
+Total number of players : 7
+Seat 1: suellencsena ( $4,000 )
+Seat 2: skbrann11 ( $2,000 )
+Seat 3: EightOfClubs ( $2,000 )
+Seat 4: jpprewitt ( $1,620 )
+Seat 5: Cycloid_1 ( $4,000 )
+Seat 9: ROBGAN ( $4,010 )
+Seat 10: Anmajo60 ( $2,220 )
+suellencsena posts small blind [$10]
+skbrann11 posts big blind [$20]
+** Dealing down cards **
+Dealt to jpprewitt [ 2s, Qs ]
+EightOfClubs folds
+jpprewitt folds
+Cycloid_1 folds
+ROBGAN calls [$20]
+Anmajo60 calls [$20]
+suellencsena raises [$3,990]
+skbrann11 folds
+ROBGAN raises [$3,990]
+Anmajo60 folds
+** Dealing flop ** [ 8d, 4s, 4d ]
+** Dealing turn ** [ As ]
+** Dealing river ** [ 3c ]
+** Summary **
+suellencsena shows [ Jc, Qc ]
+ROBGAN shows [ Ah, 3s ]
+ROBGAN collected [ $8,040 ]
+
+
+
+#Game No : 616554271
+***** 888poker Hand History for Game 616554271 *****
+$10/$20 Blinds No Limit Holdem - *** 28 03 2016 10:29:51
+Tournament #78678966 $0.09 + $0.01 - Table #5 9 Max (Real Money)
+Seat 10 is the button
+Total number of players : 8
+Seat 2: skbrann11 ( $1,980 )
+Seat 3: EightOfClubs ( $2,000 )
+Seat 4: jpprewitt ( $1,620 )
+Seat 5: Cycloid_1 ( $4,000 )
+Seat 6: silverdelfin ( $2,000 )
+Seat 7: Brito92 ( $2,000 )
+Seat 9: ROBGAN ( $8,050 )
+Seat 10: Anmajo60 ( $2,200 )
+skbrann11 posts small blind [$10]
+EightOfClubs posts big blind [$20]
+** Dealing down cards **
+Dealt to jpprewitt [ 3d, Kc ]
+jpprewitt folds
+Cycloid_1 folds
+silverdelfin folds
+Brito92 calls [$20]
+ROBGAN raises [$40]
+Anmajo60 folds
+skbrann11 folds
+EightOfClubs folds
+Brito92 calls [$20]
+** Dealing flop ** [ 8h, 7s, 6c ]
+Brito92 bets [$80]
+ROBGAN folds
+** Summary **
+Brito92 did not show his hand
+Brito92 collected [ $110 ]
+
+
+
+#Game No : 616554407
+***** 888poker Hand History for Game 616554407 *****
+$15/$30 Blinds No Limit Holdem - *** 28 03 2016 10:30:28
+Tournament #78678966 $0.09 + $0.01 - Table #5 9 Max (Real Money)
+Seat 2 is the button
+Total number of players : 8
+Seat 2: skbrann11 ( $1,970 )
+Seat 3: EightOfClubs ( $1,980 )
+Seat 4: jpprewitt ( $1,620 )
+Seat 5: Cycloid_1 ( $4,000 )
+Seat 6: silverdelfin ( $2,000 )
+Seat 7: Brito92 ( $2,070 )
+Seat 9: ROBGAN ( $8,010 )
+Seat 10: Anmajo60 ( $2,200 )
+EightOfClubs posts small blind [$15]
+jpprewitt posts big blind [$30]
+** Dealing down cards **
+Dealt to jpprewitt [ 8s, 4d ]
+Cycloid_1 folds
+silverdelfin raises [$2,000]
+Brito92 folds
+ROBGAN folds
+Anmajo60 folds
+skbrann11 folds
+EightOfClubs folds
+jpprewitt folds
+** Summary **
+silverdelfin did not show his hand
+silverdelfin collected [ $75 ]
+
+
+
+#Game No : 616554669
+***** 888poker Hand History for Game 616554669 *****
+$15/$30 Blinds No Limit Holdem - *** 28 03 2016 10:31:32
+Tournament #78678966 $0.09 + $0.01 - Table #5 9 Max (Real Money)
+Seat 3 is the button
+Total number of players : 8
+Seat 2: skbrann11 ( $1,970 )
+Seat 3: EightOfClubs ( $1,965 )
+Seat 4: jpprewitt ( $1,590 )
+Seat 5: Cycloid_1 ( $4,000 )
+Seat 6: silverdelfin ( $2,045 )
+Seat 7: Brito92 ( $2,070 )
+Seat 9: ROBGAN ( $8,010 )
+Seat 10: Anmajo60 ( $2,200 )
+jpprewitt posts small blind [$15]
+Cycloid_1 posts big blind [$30]
+** Dealing down cards **
+Dealt to jpprewitt [ 6c, Jd ]
+silverdelfin folds
+Brito92 folds
+ROBGAN calls [$30]
+Anmajo60 calls [$30]
+skbrann11 folds
+EightOfClubs raises [$165]
+jpprewitt folds
+Cycloid_1 folds
+ROBGAN calls [$135]
+Anmajo60 calls [$135]
+** Dealing flop ** [ 2c, Qs, 8s ]
+ROBGAN bets [$30]
+Anmajo60 calls [$30]
+EightOfClubs calls [$30]
+** Dealing turn ** [ Ah ]
+ROBGAN bets [$30]
+Anmajo60 calls [$30]
+EightOfClubs raises [$570]
+ROBGAN calls [$540]
+Anmajo60 folds
+** Dealing river ** [ 6d ]
+ROBGAN checks
+EightOfClubs bets [$900]
+ROBGAN folds
+** Summary **
+EightOfClubs collected [ $1,800 ]
+
+
+
+#Game No : 616554974
+***** 888poker Hand History for Game 616554974 *****
+$15/$30 Blinds No Limit Holdem - *** 28 03 2016 10:32:53
+Tournament #78678966 $0.09 + $0.01 - Table #5 9 Max (Real Money)
+Seat 4 is the button
+Total number of players : 9
+Seat 1: Super5A ( $2,000 )
+Seat 2: skbrann11 ( $1,970 )
+Seat 3: EightOfClubs ( $3,000 )
+Seat 4: jpprewitt ( $1,575 )
+Seat 5: Cycloid_1 ( $3,970 )
+Seat 6: silverdelfin ( $2,045 )
+Seat 7: Brito92 ( $2,070 )
+Seat 9: ROBGAN ( $7,245 )
+Seat 10: Anmajo60 ( $1,975 )
+Cycloid_1 posts small blind [$15]
+silverdelfin posts big blind [$30]
+** Dealing down cards **
+Dealt to jpprewitt [ Kh, 3d ]
+Brito92 folds
+ROBGAN raises [$120]
+Anmajo60 folds
+Super5A raises [$210]
+skbrann11 folds
+EightOfClubs calls [$210]
+jpprewitt folds
+Cycloid_1 folds
+silverdelfin folds
+ROBGAN raises [$330]
+Super5A calls [$240]
+EightOfClubs calls [$240]
+** Dealing flop ** [ 8h, 8s, 9d ]
+ROBGAN bets [$6,795]
+Super5A folds
+EightOfClubs calls [$2,550]
+** Dealing turn ** [ 3c ]
+** Dealing river ** [ Ts ]
+** Summary **
+EightOfClubs shows [ Ac, Qd ]
+ROBGAN shows [ Th, Kc ]
+ROBGAN collected [ $6,495 ]
+
+
+
+#Game No : 616555252
+***** 888poker Hand History for Game 616555252 *****
+$15/$30 Blinds No Limit Holdem - *** 28 03 2016 10:34:04
+Tournament #78678966 $0.09 + $0.01 - Table #5 9 Max (Real Money)
+Seat 5 is the button
+Total number of players : 9
+Seat 1: Super5A ( $1,550 )
+Seat 2: skbrann11 ( $1,970 )
+Seat 3: EightOfClubs ( $2,000 )
+Seat 4: jpprewitt ( $1,575 )
+Seat 5: Cycloid_1 ( $3,955 )
+Seat 6: silverdelfin ( $2,015 )
+Seat 7: Brito92 ( $2,070 )
+Seat 9: ROBGAN ( $10,740 )
+Seat 10: Anmajo60 ( $1,975 )
+silverdelfin posts small blind [$15]
+Brito92 posts big blind [$30]
+** Dealing down cards **
+Dealt to jpprewitt [ 6d, Td ]
+ROBGAN folds
+Anmajo60 calls [$30]
+Super5A folds
+skbrann11 calls [$30]
+EightOfClubs folds
+jpprewitt folds
+Cycloid_1 folds
+silverdelfin calls [$15]
+Brito92 checks
+** Dealing flop ** [ 9s, 3c, 3s ]
+silverdelfin checks
+Brito92 checks
+Anmajo60 checks
+skbrann11 bets [$60]
+silverdelfin folds
+Brito92 folds
+Anmajo60 calls [$60]
+** Dealing turn ** [ Kd ]
+Anmajo60 checks
+skbrann11 bets [$120]
+Anmajo60 calls [$120]
+** Dealing river ** [ Jc ]
+Anmajo60 bets [$240]
+skbrann11 calls [$240]
+** Summary **
+Anmajo60 shows [ Jh, Ks ]
+skbrann11 shows [ 3d, Ad ]
+skbrann11 collected [ $960 ]
+
+
+
+#Game No : 616555584
+***** 888poker Hand History for Game 616555584 *****
+$25/$50 Blinds No Limit Holdem - *** 28 03 2016 10:35:21
+Tournament #78678966 $0.09 + $0.01 - Table #5 9 Max (Real Money)
+Seat 6 is the button
+Total number of players : 8
+Seat 1: Super5A ( $1,550 )
+Seat 2: skbrann11 ( $2,480 )
+Seat 3: EightOfClubs ( $2,000 )
+Seat 4: jpprewitt ( $1,575 )
+Seat 5: Cycloid_1 ( $3,955 )
+Seat 6: silverdelfin ( $1,985 )
+Seat 7: Brito92 ( $2,040 )
+Seat 10: Anmajo60 ( $1,525 )
+Brito92 posts small blind [$25]
+Anmajo60 posts big blind [$50]
+** Dealing down cards **
+Dealt to jpprewitt [ 5s, Qh ]
+Super5A folds
+skbrann11 folds
+EightOfClubs folds
+jpprewitt folds
+Cycloid_1 raises [$175]
+silverdelfin raises [$1,985]
+Brito92 folds
+Anmajo60 folds
+Cycloid_1 calls [$1,810]
+** Dealing flop ** [ Ac, 8s, 9h ]
+** Dealing turn ** [ Js ]
+** Dealing river ** [ Kh ]
+** Summary **
+Cycloid_1 shows [ Ad, Qd ]
+silverdelfin shows [ 2d, 2s ]
+Cycloid_1 collected [ $4,045 ]
+
+
+
+#Game No : 616555867
+***** 888poker Hand History for Game 616555867 *****
+$25/$50 Blinds No Limit Holdem - *** 28 03 2016 10:36:29
+Tournament #78678966 $0.09 + $0.01 - Table #5 9 Max (Real Money)
+Seat 7 is the button
+Total number of players : 7
+Seat 1: Super5A ( $1,550 )
+Seat 2: skbrann11 ( $2,480 )
+Seat 3: EightOfClubs ( $2,000 )
+Seat 4: jpprewitt ( $1,575 )
+Seat 5: Cycloid_1 ( $6,015 )
+Seat 7: Brito92 ( $2,015 )
+Seat 10: Anmajo60 ( $1,475 )
+Anmajo60 posts small blind [$25]
+Super5A posts big blind [$50]
+** Dealing down cards **
+Dealt to jpprewitt [ 4s, 5s ]
+skbrann11 calls [$50]
+EightOfClubs folds
+jpprewitt calls [$50]
+Cycloid_1 folds
+Brito92 calls [$50]
+Anmajo60 calls [$25]
+Super5A raises [$150]
+skbrann11 calls [$150]
+jpprewitt folds
+Brito92 calls [$150]
+Anmajo60 raises [$1,425]
+Super5A raises [$1,350]
+skbrann11 folds
+Brito92 folds
+** Dealing flop ** [ 6c, 2c, Kc ]
+** Dealing turn ** [ Ac ]
+** Dealing river ** [ 8s ]
+** Summary **
+Super5A shows [ Jc, 8d ]
+Anmajo60 shows [ Kd, Kh ]
+Super5A collected [ $3,400 ]
+
+
+
+#Game No : 616556132
+***** 888poker Hand History for Game 616556132 *****
+$25/$50 Blinds No Limit Holdem - *** 28 03 2016 10:37:32
+Tournament #78678966 $0.09 + $0.01 - Table #5 9 Max (Real Money)
+Seat 10 is the button
+Total number of players : 8
+Seat 1: Super5A ( $3,475 )
+Seat 2: skbrann11 ( $2,280 )
+Seat 3: EightOfClubs ( $2,000 )
+Seat 4: jpprewitt ( $1,525 )
+Seat 5: Cycloid_1 ( $6,015 )
+Seat 6: Lion222 ( $2,000 )
+Seat 7: Brito92 ( $1,815 )
+Seat 10: Anmajo60 ( $4,000 )
+Super5A posts small blind [$25]
+skbrann11 posts big blind [$50]
+** Dealing down cards **
+Dealt to jpprewitt [ 6h, Js ]
+EightOfClubs folds
+jpprewitt folds
+Cycloid_1 raises [$150]
+Lion222 folds
+Brito92 folds
+Anmajo60 folds
+Super5A calls [$125]
+skbrann11 folds
+** Dealing flop ** [ Jd, 2s, 2d ]
+Super5A bets [$150]
+Cycloid_1 calls [$150]
+** Dealing turn ** [ Jc ]
+Super5A checks
+Cycloid_1 bets [$300]
+Super5A calls [$300]
+** Dealing river ** [ 9d ]
+Super5A bets [$1,125]
+Cycloid_1 folds
+** Summary **
+Super5A collected [ $1,250 ]
+
+
+
+#Game No : 616556637
+***** 888poker Hand History for Game 616556637 *****
+$25/$50 Blinds No Limit Holdem - *** 28 03 2016 10:39:19
+Tournament #78678966 $0.09 + $0.01 - Table #5 9 Max (Real Money)
+Seat 1 is the button
+Total number of players : 9
+Seat 1: Super5A ( $4,125 )
+Seat 2: skbrann11 ( $2,230 )
+Seat 3: EightOfClubs ( $2,000 )
+Seat 4: jpprewitt ( $1,525 )
+Seat 5: Cycloid_1 ( $5,415 )
+Seat 6: Lion222 ( $2,000 )
+Seat 7: Brito92 ( $1,815 )
+Seat 9: WWAleksVV ( $2,000 )
+Seat 10: Anmajo60 ( $4,000 )
+skbrann11 posts small blind [$25]
+EightOfClubs posts big blind [$50]
+** Dealing down cards **
+Dealt to jpprewitt [ Jc, 8h ]
+jpprewitt folds
+Cycloid_1 folds
+Lion222 folds
+Brito92 raises [$100]
+WWAleksVV calls [$100]
+Anmajo60 folds
+Super5A folds
+skbrann11 folds
+EightOfClubs folds
+** Dealing flop ** [ 2d, Ah, 7c ]
+Brito92 bets [$150]
+WWAleksVV calls [$150]
+** Dealing turn ** [ Js ]
+Brito92 bets [$100]
+WWAleksVV folds
+** Summary **
+Brito92 did not show his hand
+Brito92 collected [ $575 ]
+
+
+
+#Game No : 616556806
+***** 888poker Hand History for Game 616556806 *****
+$25/$50 Blinds No Limit Holdem - *** 28 03 2016 10:39:58
+Tournament #78678966 $0.09 + $0.01 - Table #5 9 Max (Real Money)
+Seat 2 is the button
+Total number of players : 9
+Seat 1: Super5A ( $4,125 )
+Seat 2: skbrann11 ( $2,205 )
+Seat 3: EightOfClubs ( $1,950 )
+Seat 4: jpprewitt ( $1,525 )
+Seat 5: Cycloid_1 ( $5,415 )
+Seat 6: Lion222 ( $2,000 )
+Seat 7: Brito92 ( $2,140 )
+Seat 9: WWAleksVV ( $1,750 )
+Seat 10: Anmajo60 ( $4,000 )
+EightOfClubs posts small blind [$25]
+jpprewitt posts big blind [$50]
+** Dealing down cards **
+Dealt to jpprewitt [ Ac, 8c ]
+Cycloid_1 folds
+Lion222 calls [$50]
+Brito92 calls [$50]
+WWAleksVV calls [$50]
+Anmajo60 folds
+Super5A folds
+skbrann11 folds
+EightOfClubs calls [$25]
+jpprewitt checks
+** Dealing flop ** [ 6h, Jc, 9c ]
+EightOfClubs checks
+jpprewitt bets [$250]
+Lion222 folds
+Brito92 folds
+WWAleksVV folds
+EightOfClubs folds
+** Summary **
+jpprewitt did not show his hand
+jpprewitt collected [ $250 ]
+
+
+
+#Game No : 616557050
+***** 888poker Hand History for Game 616557050 *****
+$50/$100 Blinds No Limit Holdem - *** 28 03 2016 10:40:53
+Tournament #78678966 $0.09 + $0.01 - Table #5 9 Max (Real Money)
+Seat 3 is the button
+Total number of players : 8
+Seat 1: Super5A ( $4,125 )
+Seat 2: skbrann11 ( $2,205 )
+Seat 3: EightOfClubs ( $1,900 )
+Seat 4: jpprewitt ( $1,725 )
+Seat 5: Cycloid_1 ( $5,415 )
+Seat 6: Lion222 ( $1,950 )
+Seat 7: Brito92 ( $2,090 )
+Seat 9: WWAleksVV ( $1,700 )
+skbrann11 posts ante [$10]
+EightOfClubs posts ante [$10]
+jpprewitt posts ante [$10]
+Cycloid_1 posts ante [$10]
+Brito92 posts ante [$10]
+Super5A posts ante [$10]
+Lion222 posts ante [$10]
+WWAleksVV posts ante [$10]
+jpprewitt posts small blind [$50]
+Cycloid_1 posts big blind [$100]
+** Dealing down cards **
+Dealt to jpprewitt [ 5h, 9s ]
+Lion222 raises [$300]
+Brito92 calls [$300]
+WWAleksVV folds
+Super5A folds
+skbrann11 folds
+EightOfClubs folds
+jpprewitt folds
+Cycloid_1 calls [$200]
+** Dealing flop ** [ Jd, 4d, Ah ]
+Cycloid_1 checks
+Lion222 checks
+Brito92 bets [$300]
+Cycloid_1 folds
+Lion222 calls [$300]
+** Dealing turn ** [ Kc ]
+Lion222 checks
+Brito92 bets [$815]
+Lion222 folds
+** Summary **
+Brito92 collected [ $1,630 ]
+
+
+
+#Game No : 616557366
+***** 888poker Hand History for Game 616557366 *****
+$50/$100 Blinds No Limit Holdem - *** 28 03 2016 10:42:04
+Tournament #78678966 $0.09 + $0.01 - Table #5 9 Max (Real Money)
+Seat 4 is the button
+Total number of players : 9
+Seat 1: Super5A ( $4,115 )
+Seat 2: skbrann11 ( $2,195 )
+Seat 3: EightOfClubs ( $1,890 )
+Seat 4: jpprewitt ( $1,665 )
+Seat 5: Cycloid_1 ( $5,105 )
+Seat 6: Lion222 ( $1,340 )
+Seat 7: Brito92 ( $3,110 )
+Seat 9: WWAleksVV ( $1,690 )
+Seat 10: manetroxgun ( $2,000 )
+skbrann11 posts ante [$10]
+EightOfClubs posts ante [$10]
+jpprewitt posts ante [$10]
+Cycloid_1 posts ante [$10]
+Brito92 posts ante [$10]
+Super5A posts ante [$10]
+Lion222 posts ante [$10]
+WWAleksVV posts ante [$10]
+manetroxgun posts ante [$10]
+Cycloid_1 posts small blind [$50]
+Lion222 posts big blind [$100]
+** Dealing down cards **
+Dealt to jpprewitt [ Kc, As ]
+Brito92 calls [$100]
+WWAleksVV calls [$100]
+manetroxgun folds
+Super5A raises [$300]
+skbrann11 folds
+EightOfClubs folds
+jpprewitt calls [$300]
+Cycloid_1 folds
+Lion222 raises [$1,230]
+Brito92 folds
+WWAleksVV folds
+Super5A raises [$3,805]
+jpprewitt calls [$1,355]
+** Dealing flop ** [ 9c, 3h, 3s ]
+** Dealing turn ** [ 8h ]
+** Dealing river ** [ 2s ]
+** Summary **
+Super5A shows [ 7c, Tc ]
+jpprewitt shows [ Kc, As ]
+Lion222 shows [ Td, Ts ]
+Lion222 collected [ $4,330 ]
+jpprewitt collected [ $650 ]
+
+
+
+#Game No : 616557631
+***** 888poker Hand History for Game 616557631 *****
+$50/$100 Blinds No Limit Holdem - *** 28 03 2016 10:43:14
+Tournament #78678966 $0.09 + $0.01 - Table #5 9 Max (Real Money)
+Seat 5 is the button
+Total number of players : 9
+Seat 1: Super5A ( $2,450 )
+Seat 2: skbrann11 ( $2,185 )
+Seat 3: EightOfClubs ( $1,880 )
+Seat 4: jpprewitt ( $650 )
+Seat 5: Cycloid_1 ( $5,045 )
+Seat 6: Lion222 ( $4,330 )
+Seat 7: Brito92 ( $3,000 )
+Seat 9: WWAleksVV ( $1,580 )
+Seat 10: manetroxgun ( $1,990 )
+skbrann11 posts ante [$10]
+EightOfClubs posts ante [$10]
+jpprewitt posts ante [$10]
+Cycloid_1 posts ante [$10]
+Brito92 posts ante [$10]
+Super5A posts ante [$10]
+Lion222 posts ante [$10]
+WWAleksVV posts ante [$10]
+manetroxgun posts ante [$10]
+Lion222 posts small blind [$50]
+Brito92 posts big blind [$100]
+** Dealing down cards **
+Dealt to jpprewitt [ Qs, Th ]
+WWAleksVV calls [$100]
+manetroxgun raises [$300]
+Super5A folds
+skbrann11 folds
+EightOfClubs folds
+jpprewitt raises [$640]
+Cycloid_1 folds
+Lion222 folds
+Brito92 raises [$2,890]
+WWAleksVV calls [$1,470]
+manetroxgun calls [$1,680]
+** Dealing flop ** [ Kc, 4d, 2s ]
+** Dealing turn ** [ 9d ]
+** Dealing river ** [ 6d ]
+** Summary **
+jpprewitt shows [ Qs, Th ]
+Brito92 shows [ Kd, As ]
+WWAleksVV shows [ 3d, 3c ]
+manetroxgun shows [ 8c, 8h ]
+Brito92 collected [ $2,700 ]
+Brito92 collected [ $2,790 ]
+Brito92 collected [ $820 ]
+
+
+

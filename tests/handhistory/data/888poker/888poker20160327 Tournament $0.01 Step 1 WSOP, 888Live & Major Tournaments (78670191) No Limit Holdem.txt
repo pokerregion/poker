@@ -1,0 +1,480 @@
+#Game No : 776019728
+***** 888poker Hand History for Game 776019728 *****
+$10/$20 Blinds No Limit Holdem - *** 27 03 2016 23:36:41
+Tournament #78670191 $0.01 - Table #1 9 Max (Real Money)
+Seat 5 is the button
+Total number of players : 7
+Seat 1: mightyswans ( $980 )
+Seat 2: Hipster69 ( $980 )
+Seat 4: sershdr ( $2,050 )
+Seat 5: Druvfinger ( $990 )
+Seat 6: RobinB1989 ( $1,000 )
+Seat 9: buckkker ( $1,000 )
+Seat 10: betterfold24 ( $1,000 )
+RobinB1989 posts small blind [$10]
+buckkker posts big blind [$20]
+** Dealing down cards **
+betterfold24 folds
+mightyswans calls [$20]
+Hipster69 calls [$20]
+sershdr calls [$20]
+Druvfinger folds
+RobinB1989 calls [$10]
+buckkker checks
+** Dealing flop ** [ Td, Kc, Ad ]
+RobinB1989 bets [$50]
+buckkker calls [$50]
+mightyswans raises [$300]
+Hipster69 folds
+sershdr folds
+RobinB1989 calls [$250]
+buckkker calls [$250]
+** Dealing turn ** [ Ac ]
+RobinB1989 checks
+buckkker checks
+mightyswans checks
+** Dealing river ** [ 4h ]
+RobinB1989 checks
+buckkker checks
+mightyswans bets [$660]
+RobinB1989 folds
+buckkker folds
+** Summary **
+mightyswans collected [ $1,000 ]
+
+
+
+#Game No : 776019844
+***** 888poker Hand History for Game 776019844 *****
+$10/$20 Blinds No Limit Holdem - *** 27 03 2016 23:37:36
+Tournament #78670191 $0.01 - Table #1 9 Max (Real Money)
+Seat 6 is the button
+Total number of players : 7
+Seat 1: mightyswans ( $1,660 )
+Seat 2: Hipster69 ( $960 )
+Seat 3: Waitthere ( $1,000 )
+Seat 4: sershdr ( $2,030 )
+Seat 6: RobinB1989 ( $680 )
+Seat 9: buckkker ( $680 )
+Seat 10: ANDY3171 ( $1,000 )
+buckkker posts small blind [$10]
+ANDY3171 posts big blind [$20]
+** Dealing down cards **
+mightyswans calls [$20]
+Hipster69 calls [$20]
+Waitthere calls [$20]
+sershdr folds
+RobinB1989 raises [$130]
+buckkker folds
+ANDY3171 folds
+mightyswans calls [$110]
+Hipster69 calls [$110]
+Waitthere calls [$110]
+** Dealing flop ** [ 2h, 2s, 8c ]
+mightyswans checks
+Hipster69 checks
+Waitthere bets [$870]
+RobinB1989 calls [$550]
+mightyswans folds
+Hipster69 folds
+** Dealing turn ** [ Qh ]
+** Dealing river ** [ Th ]
+** Summary **
+Waitthere shows [ Kd, 8d ]
+RobinB1989 shows [ 8h, Ts ]
+RobinB1989 collected [ $1,650 ]
+
+
+
+#Game No : 776019948
+***** 888poker Hand History for Game 776019948 *****
+$15/$30 Blinds No Limit Holdem - *** 27 03 2016 23:38:44
+Tournament #78670191 $0.01 - Table #1 9 Max (Real Money)
+Seat 9 is the button
+Total number of players : 7
+Seat 1: mightyswans ( $1,530 )
+Seat 2: Hipster69 ( $830 )
+Seat 3: Waitthere ( $320 )
+Seat 5: juli763 ( $2,000 )
+Seat 6: RobinB1989 ( $1,650 )
+Seat 7: jpprewitt ( $1,000 )
+Seat 10: ANDY3171 ( $980 )
+ANDY3171 posts small blind [$15]
+mightyswans posts big blind [$30]
+** Dealing down cards **
+Dealt to jpprewitt [ 5d, Td ]
+Hipster69 folds
+Waitthere raises [$60]
+juli763 calls [$60]
+RobinB1989 raises [$320]
+jpprewitt folds
+ANDY3171 calls [$305]
+mightyswans folds
+Waitthere calls [$260]
+juli763 calls [$260]
+** Dealing flop ** [ 7c, 2c, Ac ]
+ANDY3171 checks
+juli763 checks
+RobinB1989 checks
+** Dealing turn ** [ 6d ]
+ANDY3171 checks
+juli763 checks
+RobinB1989 checks
+** Dealing river ** [ 9d ]
+ANDY3171 checks
+juli763 bets [$1,310]
+RobinB1989 folds
+ANDY3171 folds
+** Summary **
+Waitthere shows [ Ks, Qd ]
+juli763 shows [ 4c, Ad ]
+juli763 collected [ $1,310 ]
+
+
+
+#Game No : 776020184
+***** 888poker Hand History for Game 776020184 *****
+$25/$50 Blinds No Limit Holdem - *** 27 03 2016 23:42:03
+Tournament #78670191 $0.01 - Table #8 9 Max (Real Money)
+Seat 9 is the button
+Total number of players : 8
+Seat 1: BrunoFam1234 ( $1,975 )
+Seat 2: WillLegalize ( $2,045 )
+Seat 3: 12green34 ( $1,000 )
+Seat 4: sershdr ( $1,930 )
+Seat 6: AAKKers1 ( $1,000 )
+Seat 7: orlando7321 ( $868 )
+Seat 9: Habelmannc ( $1,000 )
+Seat 10: jpprewitt ( $1,000 )
+jpprewitt posts small blind [$25]
+BrunoFam1234 posts big blind [$50]
+** Dealing down cards **
+Dealt to jpprewitt [ Js, 8c ]
+WillLegalize folds
+12green34 folds
+sershdr raises [$100]
+AAKKers1 folds
+orlando7321 folds
+Habelmannc folds
+jpprewitt folds
+BrunoFam1234 calls [$50]
+** Dealing flop ** [ 8h, 7h, Kc ]
+BrunoFam1234 checks
+sershdr checks
+** Dealing turn ** [ 2s ]
+BrunoFam1234 checks
+sershdr checks
+** Dealing river ** [ Ks ]
+BrunoFam1234 bets [$50]
+sershdr calls [$50]
+** Summary **
+BrunoFam1234 shows [ 5s, 3s ]
+sershdr shows [ Qh, Qc ]
+sershdr collected [ $325 ]
+
+
+
+#Game No : 776020234
+***** 888poker Hand History for Game 776020234 *****
+$25/$50 Blinds No Limit Holdem - *** 27 03 2016 23:42:46
+Tournament #78670191 $0.01 - Table #8 9 Max (Real Money)
+Seat 10 is the button
+Total number of players : 8
+Seat 1: BrunoFam1234 ( $1,825 )
+Seat 2: WillLegalize ( $2,045 )
+Seat 3: 12green34 ( $2,000 )
+Seat 4: sershdr ( $2,105 )
+Seat 6: AAKKers1 ( $1,000 )
+Seat 7: orlando7321 ( $868 )
+Seat 9: Habelmannc ( $1,000 )
+Seat 10: jpprewitt ( $975 )
+BrunoFam1234 posts small blind [$25]
+WillLegalize posts big blind [$50]
+** Dealing down cards **
+Dealt to jpprewitt [ Jh, 8d ]
+12green34 folds
+sershdr calls [$50]
+AAKKers1 folds
+orlando7321 folds
+Habelmannc calls [$50]
+jpprewitt folds
+BrunoFam1234 calls [$25]
+WillLegalize raises [$1,995]
+sershdr folds
+Habelmannc folds
+BrunoFam1234 folds
+** Summary **
+WillLegalize did not show his hand
+WillLegalize collected [ $200 ]
+
+
+
+#Game No : 776020286
+***** 888poker Hand History for Game 776020286 *****
+$25/$50 Blinds No Limit Holdem - *** 27 03 2016 23:43:25
+Tournament #78670191 $0.01 - Table #8 9 Max (Real Money)
+Seat 1 is the button
+Total number of players : 8
+Seat 1: BrunoFam1234 ( $1,775 )
+Seat 2: WillLegalize ( $2,195 )
+Seat 3: 12green34 ( $2,000 )
+Seat 4: sershdr ( $2,055 )
+Seat 6: AAKKers1 ( $1,000 )
+Seat 7: orlando7321 ( $868 )
+Seat 9: Habelmannc ( $950 )
+Seat 10: jpprewitt ( $975 )
+WillLegalize posts small blind [$25]
+12green34 posts big blind [$50]
+** Dealing down cards **
+Dealt to jpprewitt [ Jc, Jh ]
+sershdr calls [$50]
+AAKKers1 folds
+orlando7321 calls [$50]
+Habelmannc raises [$100]
+jpprewitt raises [$150]
+BrunoFam1234 folds
+WillLegalize folds
+12green34 folds
+sershdr folds
+orlando7321 calls [$100]
+Habelmannc raises [$850]
+jpprewitt calls [$800]
+orlando7321 calls [$718]
+** Dealing flop ** [ Ah, Qs, Ts ]
+** Dealing turn ** [ 7h ]
+** Dealing river ** [ 6d ]
+** Summary **
+orlando7321 shows [ 8s, Js ]
+Habelmannc shows [ As, 5d ]
+jpprewitt shows [ Jc, Jh ]
+Habelmannc collected [ $2,729 ]
+Habelmannc collected [ $164 ]
+
+
+
+#Game No : 776020386
+***** 888poker Hand History for Game 776020386 *****
+$50/$100 Blinds No Limit Holdem - *** 27 03 2016 23:44:45
+Tournament #78670191 $0.01 - Table #8 9 Max (Real Money)
+Seat 2 is the button
+Total number of players : 8
+Seat 1: BrunoFam1234 ( $1,775 )
+Seat 2: WillLegalize ( $2,170 )
+Seat 3: 12green34 ( $1,950 )
+Seat 4: sershdr ( $2,005 )
+Seat 5: WynDyn69 ( $1,000 )
+Seat 6: AAKKers1 ( $1,000 )
+Seat 9: Habelmannc ( $2,893 )
+Seat 10: jpprewitt ( $25 )
+AAKKers1 posts ante [$10]
+Habelmannc posts ante [$10]
+BrunoFam1234 posts ante [$10]
+WillLegalize posts ante [$10]
+jpprewitt posts ante [$10]
+12green34 posts ante [$10]
+sershdr posts ante [$10]
+WynDyn69 posts ante [$10]
+12green34 posts small blind [$50]
+sershdr posts big blind [$100]
+** Dealing down cards **
+Dealt to jpprewitt [ 7c, Qh ]
+WynDyn69 folds
+AAKKers1 folds
+Habelmannc raises [$300]
+jpprewitt folds
+BrunoFam1234 folds
+WillLegalize folds
+12green34 folds
+sershdr calls [$200]
+** Dealing flop ** [ Jc, Td, 5c ]
+sershdr checks
+Habelmannc bets [$547]
+sershdr calls [$547]
+** Dealing turn ** [ 8c ]
+sershdr bets [$1,148]
+Habelmannc calls [$1,148]
+** Dealing river ** [ 5s ]
+** Summary **
+sershdr shows [ Qc, As ]
+Habelmannc shows [ Kh, Kd ]
+Habelmannc collected [ $4,120 ]
+
+
+
+#Game No : 776020487
+***** 888poker Hand History for Game 776020487 *****
+$50/$100 Blinds No Limit Holdem - *** 27 03 2016 23:45:54
+Tournament #78670191 $0.01 - Table #8 9 Max (Real Money)
+Seat 3 is the button
+Total number of players : 7
+Seat 1: BrunoFam1234 ( $1,765 )
+Seat 2: WillLegalize ( $2,160 )
+Seat 3: 12green34 ( $1,890 )
+Seat 5: WynDyn69 ( $990 )
+Seat 6: AAKKers1 ( $990 )
+Seat 9: Habelmannc ( $5,008 )
+Seat 10: jpprewitt ( $15 )
+AAKKers1 posts ante [$10]
+Habelmannc posts ante [$10]
+BrunoFam1234 posts ante [$10]
+WillLegalize posts ante [$10]
+jpprewitt posts ante [$10]
+12green34 posts ante [$10]
+WynDyn69 posts ante [$10]
+WynDyn69 posts big blind [$100]
+** Dealing down cards **
+Dealt to jpprewitt [ 7c, 4c ]
+AAKKers1 folds
+Habelmannc calls [$100]
+jpprewitt calls [$5]
+BrunoFam1234 folds
+WillLegalize raises [$2,150]
+12green34 folds
+WynDyn69 folds
+Habelmannc folds
+** Dealing flop ** [ 9d, Js, Th ]
+** Dealing turn ** [ 6c ]
+** Dealing river ** [ 7d ]
+** Summary **
+WillLegalize shows [ Ah, Qh ]
+jpprewitt shows [ 7c, 4c ]
+jpprewitt collected [ $90 ]
+WillLegalize collected [ $285 ]
+
+
+
+#Game No : 776020531
+***** 888poker Hand History for Game 776020531 *****
+$50/$100 Blinds No Limit Holdem - *** 27 03 2016 23:46:30
+Tournament #78670191 $0.01 - Table #8 9 Max (Real Money)
+Seat 4 is the button
+Total number of players : 7
+Seat 1: BrunoFam1234 ( $1,755 )
+Seat 2: WillLegalize ( $2,335 )
+Seat 3: 12green34 ( $1,880 )
+Seat 5: WynDyn69 ( $880 )
+Seat 6: AAKKers1 ( $980 )
+Seat 9: Habelmannc ( $4,898 )
+Seat 10: jpprewitt ( $90 )
+AAKKers1 posts ante [$10]
+Habelmannc posts ante [$10]
+BrunoFam1234 posts ante [$10]
+WillLegalize posts ante [$10]
+jpprewitt posts ante [$10]
+12green34 posts ante [$10]
+WynDyn69 posts ante [$10]
+WynDyn69 posts small blind [$50]
+AAKKers1 posts big blind [$100]
+** Dealing down cards **
+Dealt to jpprewitt [ 5c, 7h ]
+Habelmannc raises [$200]
+jpprewitt folds
+BrunoFam1234 folds
+WillLegalize folds
+12green34 folds
+WynDyn69 folds
+AAKKers1 folds
+** Summary **
+Habelmannc collected [ $320 ]
+
+
+
+#Game No : 776020561
+***** 888poker Hand History for Game 776020561 *****
+$50/$100 Blinds No Limit Holdem - *** 27 03 2016 23:46:52
+Tournament #78670191 $0.01 - Table #8 9 Max (Real Money)
+Seat 5 is the button
+Total number of players : 8
+Seat 1: BrunoFam1234 ( $1,745 )
+Seat 2: WillLegalize ( $2,325 )
+Seat 3: 12green34 ( $1,870 )
+Seat 4: lefrisser23 ( $1,000 )
+Seat 5: WynDyn69 ( $820 )
+Seat 6: AAKKers1 ( $870 )
+Seat 9: Habelmannc ( $5,108 )
+Seat 10: jpprewitt ( $80 )
+AAKKers1 posts ante [$10]
+Habelmannc posts ante [$10]
+BrunoFam1234 posts ante [$10]
+WillLegalize posts ante [$10]
+jpprewitt posts ante [$10]
+12green34 posts ante [$10]
+WynDyn69 posts ante [$10]
+lefrisser23 posts ante [$10]
+AAKKers1 posts small blind [$50]
+Habelmannc posts big blind [$100]
+** Dealing down cards **
+Dealt to jpprewitt [ Ts, As ]
+jpprewitt calls [$70]
+BrunoFam1234 folds
+WillLegalize calls [$100]
+12green34 folds
+lefrisser23 calls [$100]
+WynDyn69 folds
+AAKKers1 calls [$50]
+Habelmannc raises [$275]
+WillLegalize calls [$275]
+lefrisser23 calls [$275]
+AAKKers1 folds
+** Dealing flop ** [ Ks, 2s, 4c ]
+Habelmannc checks
+WillLegalize bets [$687]
+lefrisser23 calls [$615]
+Habelmannc folds
+** Dealing turn ** [ 4s ]
+** Dealing river ** [ Jc ]
+** Summary **
+WillLegalize shows [ Qs, Kc ]
+lefrisser23 shows [ Js, 7c ]
+jpprewitt shows [ Ts, As ]
+jpprewitt collected [ $430 ]
+WillLegalize collected [ $2,175 ]
+
+
+
+#Game No : 776020655
+***** 888poker Hand History for Game 776020655 *****
+$75/$150 Blinds No Limit Holdem - *** 27 03 2016 23:48:20
+Tournament #78670191 $0.01 - Table #8 9 Max (Real Money)
+Seat 6 is the button
+Total number of players : 8
+Seat 1: BrunoFam1234 ( $1,735 )
+Seat 2: WillLegalize ( $3,500 )
+Seat 3: 12green34 ( $1,860 )
+Seat 4: sneekpeek ( $2,596 )
+Seat 5: WynDyn69 ( $810 )
+Seat 6: AAKKers1 ( $1,760 )
+Seat 9: Habelmannc ( $4,723 )
+Seat 10: jpprewitt ( $430 )
+AAKKers1 posts ante [$20]
+Habelmannc posts ante [$20]
+BrunoFam1234 posts ante [$20]
+WillLegalize posts ante [$20]
+jpprewitt posts ante [$20]
+12green34 posts ante [$20]
+WynDyn69 posts ante [$20]
+sneekpeek posts ante [$20]
+Habelmannc posts small blind [$75]
+jpprewitt posts big blind [$150]
+** Dealing down cards **
+Dealt to jpprewitt [ 4s, Ah ]
+BrunoFam1234 folds
+WillLegalize folds
+12green34 folds
+sneekpeek folds
+WynDyn69 folds
+AAKKers1 calls [$150]
+Habelmannc calls [$75]
+jpprewitt raises [$260]
+AAKKers1 calls [$260]
+Habelmannc folds
+** Dealing flop ** [ Qc, Ks, 3c ]
+** Dealing turn ** [ Jh ]
+** Dealing river ** [ Qs ]
+** Summary **
+AAKKers1 shows [ 8s, 8d ]
+jpprewitt shows [ 4s, Ah ]
+AAKKers1 collected [ $1,130 ]
+
+
+
