@@ -9,7 +9,7 @@ from decimal import Decimal
 from pathlib import Path
 from cached_property import cached_property
 from ._common import PokerEnum, _ReprMixin
-from .card import Suit, Rank, Card, BROADWAY_RANKS
+from .card import Rank, Card, BROADWAY_RANKS
 
 
 __all__ = ['Shape', 'Hand', 'Combo', 'Range', 'PAIR_HANDS', 'OFFSUIT_HANDS', 'SUITED_HANDS']

@@ -2,14 +2,14 @@
 from __future__ import unicode_literals, absolute_import, division, print_function
 
 import re
-from datetime import datetime, timedelta
 from collections import namedtuple
+from datetime import datetime
 from lxml import etree
 import requests
 import parsedatetime
 from dateutil.tz import tzoffset
 from pytz import UTC
-from .._common import _make_float, _make_int
+from .._common import _make_int
 
 
 __all__ = ['search_userid', 'ForumMember', 'FORUM_URL', 'FORUM_MEMBER_URL', 'AJAX_USERSEARCH_URL']
@@ -22,6 +22,7 @@ AJAX_USERSEARCH_URL = FORUM_URL + '/ajax.php?do=usersearch'
 
 class AmbiguousUserNameError(Exception):
     """Exception when username is not unique, there are more starting with the same."""
+
 
 class UserNotFoundError(Exception):
     """User cannot be found."""
@@ -69,7 +70,7 @@ class ForumMember(object):
         ('rank', '//td[@id="username_box"]/h2/text()', unicode),
         ('profile_picture', '//td[@id="profilepic_cell"]/img/@src', unicode),
         ('location', '//div[@id="collapseobj_aboutme"]/div/ul/li/dl/dd[1]/text()', unicode),
-        ('total_posts', '//div[@id="collapseobj_stats"]/div/fieldset[1]/ul/li[1]/text()', _make_int),
+        ('total_posts', '//div[@id="collapseobj_stats"]/div/fieldset[1]/ul/li[1]/text()', _make_int),  # noqa
         ('posts_per_day', '//div[@id="collapseobj_stats"]/div/fieldset[1]/ul/li[2]/text()', float),
         ('public_usergroups', '//ul[@id="public_usergroup_list"]/li/text()', tuple),
         ('avatar', '//img[@id="user_avatar"]/@src', unicode),
@@ -115,7 +116,6 @@ class ForumMember(object):
                     setattr(self, attname, None)
             else:
                 setattr(self, attname, type_(root.xpath(xpath)))
-
 
     def _get_timezone(self, root):
         """Find timezone informatation on bottom of the page."""

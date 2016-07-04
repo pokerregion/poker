@@ -48,7 +48,7 @@ def test_name():
 
 def test_non_existing_key_raises_KeyError_as_expected():
     with pytest.raises(KeyError):
-        strategy.name3 == None
+        strategy.name3 == 'Nonexisting'
 
 
 def test_situation_values():

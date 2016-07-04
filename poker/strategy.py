@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals, absolute_import, division, print_function
 
-from collections import namedtuple, Mapping, Iterable, OrderedDict as odict
+from collections import namedtuple, Mapping, OrderedDict as odict
 from pathlib import Path
 from configparser import ConfigParser
 from .hand import Range
@@ -9,7 +9,7 @@ from .constants import Position
 
 
 _Situation = namedtuple('_Situation', 'utg utg1 utg2 utg3 utg4 co btn sb bb '
-                       'inaction outaction comment')
+                        'inaction outaction comment')
 _Spot = namedtuple('_Spot', 'position range posindex')
 _POSITIONS = {'utg', 'utg1', 'utg2', 'utg3', 'utg4', 'co', 'btn', 'sb', 'bb'}
 
