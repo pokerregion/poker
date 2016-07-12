@@ -47,7 +47,7 @@ Base classes
    :ivar decimal.Decimal bb:               amount of big blind
    :ivar datetime date:                    hand date in UTC
    :ivar str table_name:                   name of the table. it's ``"tournament_number table_number"``
-   :ivar int max_player:                   maximum players can sit on the table, 2, 4, 6, 7, 8, 9
+   :ivar int max_players:                   maximum players can sit on the table, 2, 4, 6, 7, 8, 9
    :ivar poker.handhistory._Player button: player on the button
    :ivar poker.handhistory._Player hero:   hero player
    :ivar list players:                     list of :class:`poker.handhistory._Player`.
