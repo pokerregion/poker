@@ -4,7 +4,7 @@ from __future__ import unicode_literals, absolute_import, division, print_functi
 import re
 from decimal import Decimal
 from datetime import datetime
-from collections import namedtuple
+import attr
 from lxml import etree
 import pytz
 from pathlib import Path
@@ -213,7 +213,7 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
         hole_cards_line = self._splitted[self._sections[0] + 2]
         match = self._hero_re.match(hole_cards_line)
         hero, hero_index = self._get_hero_from_players(match.group('hero_name'))
-        hero = hero._replace(combo=Combo(match.group(2) + match.group(3)))
+        hero.combo = Combo(match.group(2) + match.group(3))
         self.hero = self.players[hero_index] = hero
         if self.button.name == self.hero.name:
             self.button = hero
@@ -274,11 +274,21 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
         self.winners = tuple(winners)
 
 
-_Label = namedtuple('_Label', 'id, color, name')
-"""Named tuple for labels in Player notes."""
+@attr.s(slots=True)
+class _Label(object):
+    """Labels in Player notes."""
+    id = attr.ib()
+    color = attr.ib()
+    name = attr.ib()
 
-_Note = namedtuple('_Note', 'player, label, update, text')
-"""Named tuple for player notes."""
+
+@attr.s(slots=True)
+class _Note(object):
+    """Player note."""
+    player = attr.ib()
+    label = attr.ib()
+    update = attr.ib()
+    text = attr.ib()
 
 
 class NoteNotFoundError(ValueError):
@@ -323,7 +333,7 @@ class Notes(object):
 
     @property
     def notes(self):
-        """Tuple of notes wrapped in namedtuples."""
+        """Tuple of notes.."""
         return tuple(self._get_note_data(note) for note in self.root.iter('note'))
 
     @property

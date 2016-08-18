@@ -1,16 +1,37 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals, absolute_import, division, print_function
 
-from collections import namedtuple, Mapping, OrderedDict as odict
+from collections import Mapping, OrderedDict as odict
 from pathlib import Path
+import attr
 from configparser import ConfigParser
 from .hand import Range
 from .constants import Position
 
 
-_Situation = namedtuple('_Situation', 'utg utg1 utg2 utg3 utg4 co btn sb bb '
-                        'inaction outaction comment')
-_Spot = namedtuple('_Spot', 'position range posindex')
+@attr.s(slots=True)
+class _Situation(object):
+    utg = attr.ib()
+    utg1 = attr.ib()
+    utg2 = attr.ib()
+    utg3 = attr.ib()
+    utg4 = attr.ib()
+    co = attr.ib()
+    btn = attr.ib()
+    sb = attr.ib()
+    bb = attr.ib()
+    inaction = attr.ib()
+    outaction = attr.ib()
+    comment = attr.ib()
+
+
+@attr.s(slots=True)
+class _Spot(object):
+    position = attr.ib()
+    range = attr.ib()
+    posindex = attr.ib()
+
+
 _POSITIONS = {'utg', 'utg1', 'utg2', 'utg3', 'utg4', 'co', 'btn', 'sb', 'bb'}
 
 
@@ -22,11 +43,11 @@ class Strategy(Mapping):
         self._situations = odict()
         for name in self._config.sections():
             # configparser set non-specified values to '', we want default to None
-            values = dict.fromkeys(_Situation._fields, None)
+            values = dict.fromkeys(_Situation.__slots__, None)
             for key, val in self._config[name].items():
                 # filter out fields not implemented, otherwise it would
                 # cause TypeError for _Situation constructor
-                if (not val) or (key not in _Situation._fields):
+                if (not val) or (key not in _Situation.__slots__):
                     continue
                 elif key in _POSITIONS:
                     values[key] = Range(val)

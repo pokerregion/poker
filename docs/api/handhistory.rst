@@ -50,7 +50,7 @@ Base classes
    :ivar int max_player:                   maximum players can sit on the table, 2, 4, 6, 7, 8, 9
    :ivar poker.handhistory._Player button: player on the button
    :ivar poker.handhistory._Player hero:   hero player
-   :ivar list players:                     list of :class:`poker.handhistory._Player` namedtuples.
+   :ivar list players:                     list of :class:`poker.handhistory._Player`.
                                            the sequence is the seating order at the table at the start of the hand
    :ivar _Flop flop:                       room specific Flop object
    :ivar poker.card.Card turn:             turn card, e.g. ``Card('Ah')``

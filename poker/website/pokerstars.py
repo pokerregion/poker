@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals, absolute_import, division, print_function
 
-from collections import namedtuple
+import attr
 from dateutil.parser import parse as parse_date
 import requests
 from lxml import etree
@@ -16,14 +16,14 @@ TOURNAMENTS_XML_URL = WEBSITE_URL + '/datafeed_global/tournaments/all.xml'
 STATUS_URL = 'http://www.psimg.com/datafeed/dyn_banners/summary.json.js'
 
 
-_Tournament = namedtuple('_Tournament',
-    'start_date '
-    'name '
-    'game '
-    'buyin '
-    'players '
-)
-"""Named tuple for upcoming pokerstars tournaments."""
+@attr.s(slots=True)
+class _Tournament(object):
+    """Upcoming pokerstars tournament."""
+    start_date = attr.ib(convert=parse_date)
+    name = attr.ib()
+    game = attr.ib()
+    buyin = attr.ib()
+    players = attr.ib(convert=int)
 
 
 def get_current_tournaments():
@@ -34,35 +34,35 @@ def get_current_tournaments():
 
     for tour in root.iter('{*}tournament'):
         yield _Tournament(
-            start_date = parse_date(tour.findtext('{*}start_date')),
-            name = tour.findtext('{*}name'),
-            game = tour.findtext('{*}game'),
-            buyin = tour.findtext('{*}buy_in_fee'),
-            players = int(tour.get('players'))
+            start_date=tour.findtext('{*}start_date'),
+            name=tour.findtext('{*}name'),
+            game=tour.findtext('{*}game'),
+            buyin=tour.findtext('{*}buy_in_fee'),
+            players=tour.get('players')
         )
 
 
-_Status = namedtuple('_Status',
-    'updated '
-    'tables '
-    'next_update '
-    'players '
-    'clubs '
-    'active_tournaments '
-    'total_tournaments '
-    'sites '                # list of sites, including Play Money
-    'club_members '
-)
-"""Named tuple for PokerStars status."""
+@attr.s(slots=True)
+class _Status(object):
+    """PokerStars status."""
+    updated = attr.ib(convert=parse_date)
+    tables = attr.ib()
+    next_update = attr.ib()
+    players = attr.ib()
+    clubs = attr.ib()
+    active_tournaments = attr.ib()
+    total_tournaments = attr.ib()
+    sites = attr.ib()                # list of sites, including Play Money
+    club_members = attr.ib()
 
 
-_SiteStatus = namedtuple('_SiteStatus',
-    'id '       # ".FR", ".ES", ".IT" or 'Play Money'
-    'tables '
-    'players '
-    'active_tournaments '
-)
-"""Named tuple for PokerStars status on different subsites like FR, ES IT or Play Money."""
+@attr.s(slots=True)
+class _SiteStatus(object):
+    """PokerStars status on different subsites like FR, ES IT or Play Money."""
+    id = attr.ib()       # ".FR", ".ES", ".IT" or 'Play Money'
+    tables = attr.ib()
+    players = attr.ib()
+    active_tournaments = attr.ib()
 
 
 def get_status():
@@ -78,6 +78,4 @@ def get_status():
     sites.append(play_money)
     sites = tuple(_SiteStatus(**site) for site in sites)
 
-    updated = parse_date(status.pop('updated'))
-
-    return _Status(sites=sites, updated=updated, **status)
+    return _Status(sites=sites, updated=status.pop('updated'), **status)

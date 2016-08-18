@@ -7,19 +7,29 @@ from __future__ import unicode_literals, absolute_import, division, print_functi
 
 import io
 import itertools
-from collections import namedtuple
 from datetime import datetime
+import attr
 import pytz
 from zope.interface import Interface, Attribute
 from cached_property import cached_property
 from .card import Rank
 
 
-_Player = namedtuple('_Player', 'name, stack, seat, combo')
-"""Named tuple for players participating in the hand history."""
+@attr.s(slots=True)
+class _Player(object):
+    """Player participating in the hand history."""
+    name = attr.ib()
+    stack = attr.ib()
+    seat = attr.ib()
+    combo = attr.ib()
 
-_PlayerAction = namedtuple('_PlayerAction', 'name, action, amount')
-"""Named tuple for player actions on the street."""
+
+@attr.s(slots=True)
+class _PlayerAction(object):
+    """Player actions on the street."""
+    name = attr.ib()
+    action = attr.ib()
+    amount = attr.ib()
 
 
 class IStreet(Interface):
@@ -123,7 +133,7 @@ class _BaseStreet(object):
             return None
         player_names = []
         for action in self.actions:
-            player_name = action[0]
+            player_name = action.name
             if player_name not in player_names:
                 player_names.append(player_name)
         return tuple(player_names)

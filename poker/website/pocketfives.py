@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals, absolute_import, division, print_function
 
-from collections import namedtuple
+import attr
 import requests
 from lxml import etree
 from .._common import _make_float
@@ -14,18 +14,18 @@ WEBSITE_URL = 'http://www.pocketfives.com'
 RANKINGS_URL = WEBSITE_URL + '/rankings/'
 
 
-_Player = namedtuple('_Player',
-    'name '
-    'country '
-    'triple_crowns '
-    'monthly_win '
-    'biggest_cash '
-    'plb_score '
-    'biggest_score '
-    'average_score '
-    'previous_rank '
-)
-"""Named tuple for Pocketfives player data."""
+@attr.s(slots=True)
+class _Player(object):
+    """Pocketfives player data."""
+    name = attr.ib()
+    country = attr.ib()
+    triple_crowns = attr.ib(convert=int)
+    monthly_win = attr.ib(convert=int)
+    biggest_cash = attr.ib()
+    plb_score = attr.ib(convert=_make_float)
+    biggest_score = attr.ib(convert=_make_float)
+    average_score = attr.ib(convert=_make_float)
+    previous_rank = attr.ib(convert=_make_float)
 
 
 def get_ranked_players():
@@ -38,13 +38,13 @@ def get_ranked_players():
     for row in player_rows[1:]:
         player_row = row.xpath('td[@class!="country"]//text()')
         yield _Player(
-            name = player_row[1],
-            country = row[1][0].get('title'),
-            triple_crowns = int(player_row[3]),
-            monthly_win = int(player_row[4]),
-            biggest_cash = player_row[5],
-            plb_score = _make_float(player_row[6]),
-            biggest_score = _make_float(player_row[7]),
-            average_score = _make_float(player_row[8]),
-            previous_rank = player_row[9],
+            name=player_row[1],
+            country=row[1][0].get('title'),
+            triple_crowns=player_row[3],
+            monthly_win=player_row[4],
+            biggest_cash=player_row[5],
+            plb_score=player_row[6],
+            biggest_score=player_row[7],
+            average_score=player_row[8],
+            previous_rank=player_row[9],
         )

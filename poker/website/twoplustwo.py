@@ -2,9 +2,9 @@
 from __future__ import unicode_literals, absolute_import, division, print_function
 
 import re
-from collections import namedtuple
 from datetime import datetime
 from lxml import etree
+import attr
 import requests
 import parsedatetime
 from dateutil.tz import tzoffset
@@ -26,6 +26,12 @@ class AmbiguousUserNameError(Exception):
 
 class UserNotFoundError(Exception):
     """User cannot be found."""
+
+
+@attr.s(slots=True)
+class _ExtraUser(object):
+    id = attr.ib()
+    name = attr.ib()
 
 
 def search_userid(username):
@@ -52,8 +58,7 @@ def search_userid(username):
     if found_name.upper() != username.upper():
         exc = AmbiguousUserNameError(username)
         # attach the extra users to the exception
-        ExtraUser = namedtuple('ExtraUser', 'name, id')
-        exc.users = tuple(ExtraUser(name=child.text, id=child.attrib['userid']) for child in root)
+        exc.users = tuple(_ExtraUser(name=child.text, id=child.attrib['userid']) for child in root)  # noqa
         raise exc
 
     userid = root[0].attrib['userid']

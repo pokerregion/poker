@@ -195,9 +195,8 @@ class FullTiltPokerHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHisto
         hole_cards_line = self._splitted[self._sections[0] + 2]
         match = self._hero_re.match(hole_cards_line)
         hero, hero_index = self._get_hero_from_players(match.group('hero_name'))
-        self.hero = self.players[hero_index] = hero._replace(
-            combo=Combo(match.group(2) + match.group(3))
-        )
+        hero.combo = Combo(match.group(2) + match.group(3))
+        self.hero = self.players[hero_index] = hero
 
         if self.button.name == self.hero.name:
             self.button = self.hero

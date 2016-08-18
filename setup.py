@@ -15,6 +15,7 @@ install_requires = [
     'pathlib',
     'configparser',
     'zope.interface',
+    'attrs',
 ]
 
 
