@@ -12,9 +12,9 @@ It can get information from poker related websites like
 Pocketfives, TwoplusTwo Forum, or PokerStars website by scraping them.
 In the long term, it will have a fast hand evaluator and an equity calculator.
 
-It uses the MIT license, soo it's code can be used in any product without legal consequences.
+It uses the MIT license, so its code can be used in any product without legal consequences.
 
-It aims quality, fully tested code and easy usability with nice APIs, suitable for beginners
+It aims for quality, fully tested code and easy usability with nice APIs, suitable for beginners
 to play with.
 
 
