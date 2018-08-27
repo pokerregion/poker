@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 
+import sys
+if sys.version_info[0] != 2:
+    sys.exit("Sorry, Python 3 is not supported yet")
+
 from setuptools import setup, find_packages
 
 
