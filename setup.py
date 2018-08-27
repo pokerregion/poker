@@ -38,8 +38,9 @@ classifiers = [
 
 setup(
     name='poker',
-    version='0.23.0',
+    version='0.23.1',
     description='Poker Framework',
+    long_description=open('README.rst', 'r').read().decode('utf-8'),
     classifiers=classifiers,
     keywords='poker',
     author=u'Kiss György',
