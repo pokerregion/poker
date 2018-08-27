@@ -54,10 +54,10 @@ docs:
 
 release: clean
 	git push origin master --tags
-	python setup.py sdist upload
-	python setup.py bdist_wheel upload
+	python2 setup.py sdist upload
+	python2 setup.py bdist_wheel upload
 
 dist: clean
-	python setup.py sdist
-	python setup.py bdist_wheel
+	python2 setup.py sdist
+	python2 setup.py bdist_wheel
 	ls -l dist
