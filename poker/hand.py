@@ -191,7 +191,12 @@ class Hand(_ReprMixin):
 
     @property
     def shape(self):
-        return Shape(self._shape)
+        if self.is_pair:
+            return Shape.PAIR
+        elif self.is_suited:
+            return Shape.SUITED
+        else:
+            return Shape.OFFSUIT
 
     @shape.setter
     def shape(self, value):
