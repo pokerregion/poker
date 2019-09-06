@@ -1,4 +1,3 @@
-import pickle
 import pytest
 from poker.card import Card
 from poker.hand import Shape, Hand, Combo
@@ -171,7 +170,3 @@ def test_to_hand_converter_method():
 
 def test_pairs_are_not_offsuits():
     assert Combo('2s2c').is_offsuit is False
-
-
-def test_pickable():
-    assert pickle.loads(pickle.dumps(Combo('AsKc'))) == Combo('AsKc')

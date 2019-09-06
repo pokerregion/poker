@@ -64,9 +64,6 @@ class PokerEnum(_OrderableMixin, enum.Enum, metaclass=_PokerEnumMeta):
     def __format__(self, format_spec):
         return str(self._value_[0])
 
-    def __getnewargs__(self):
-        return (self._value_[0],)
-
     @property
     def val(self):
         """The first value of the Enum member."""

@@ -1,4 +1,3 @@
-import pickle
 import pytest
 from poker.card import Suit
 
@@ -108,11 +107,6 @@ def test_suits_are_singletons():
     assert Suit('c') is Suit('♣')
 
     assert Suit('s') is Suit.SPADES
-
-
-def test_suits_are_pickable():
-    assert pickle.loads(pickle.dumps(Suit('c'))) == Suit('c')
-    assert pickle.loads(pickle.dumps(Suit('c'))) is Suit('c')
 
 
 def test_make_random_is_instance_of_Suit():

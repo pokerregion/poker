@@ -120,11 +120,6 @@ class Hand(_ReprMixin, metaclass=_HandMeta):
     def __hash__(self):
         return hash(self.first) + hash(self.second) + hash(self.shape)
 
-    def __getnewargs__(self):
-        # We can't just return self, for obivous reason (maximum recursion depth would be reached)
-        hand_str = self.first.val + self.second.val + self._shape
-        return (hand_str,)
-
     def __eq__(self, other):
         if self.__class__ is not other.__class__:
             return NotImplemented
@@ -271,15 +266,6 @@ class Combo(_ReprMixin):
 
     def __hash__(self):
         return hash(self.first) + hash(self.second)
-
-    def __getnewargs__(self):
-        combo_str = (
-            self.first.rank.val
-            + self.first.suit.val
-            + self.second.rank.val
-            + self.second.suit.val
-        )
-        return (combo_str,)
 
     def __eq__(self, other):
         if self.__class__ is other.__class__:
