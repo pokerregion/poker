@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 # Poker documentation build configuration file, created by
 # sphinx-quickstart on Mon Aug  4 05:13:53 2014.
 #

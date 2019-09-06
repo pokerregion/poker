@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import pytest
 from poker.card import Rank
 from poker.hand import _RegexRangeLexer

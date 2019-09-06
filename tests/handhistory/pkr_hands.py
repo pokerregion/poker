@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-
 HANDS = dict()
 
 HANDS['holdem_full'] = """

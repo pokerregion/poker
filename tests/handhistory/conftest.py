@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import pytest
 from poker.room.pokerstars import PokerStarsHandHistory
 from . import stars_hands

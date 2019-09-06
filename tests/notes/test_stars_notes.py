@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from pathlib import Path
 from datetime import datetime
 from pytz import UTC

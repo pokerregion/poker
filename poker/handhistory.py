@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """
     Poker hand history parser module.
 """

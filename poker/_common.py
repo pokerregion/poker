@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import random
 import functools
 from collections import Iterable

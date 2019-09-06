@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import itertools
 from functools import total_ordering
 from ._common import PokerEnum, _ReprMixin

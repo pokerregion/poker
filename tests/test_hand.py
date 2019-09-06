@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import pickle
 import pytest
 from poker import Hand, Combo, Rank

@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import attr
 from dateutil.parser import parse as parse_date
 import requests

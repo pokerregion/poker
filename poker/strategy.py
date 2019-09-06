@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from collections import Mapping, OrderedDict as odict
 from pathlib import Path
 import attr

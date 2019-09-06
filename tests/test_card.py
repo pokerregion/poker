@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import pickle
 import pytest
 from poker.card import Card, Rank, Suit

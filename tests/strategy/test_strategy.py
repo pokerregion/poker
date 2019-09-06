@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from pathlib import Path
 from poker import Strategy, Range
 from poker.constants import Position
