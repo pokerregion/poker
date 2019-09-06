@@ -155,7 +155,7 @@ class _BaseHandHistory:
             return cls(f.read())
 
     def __str__(self):
-        return "<{}: #{}>" .format(self.__class__.__name__, self.ident)
+        return f"<{self.__class__.__name__}: #{self.ident}>"
 
     @property
     def board(self):

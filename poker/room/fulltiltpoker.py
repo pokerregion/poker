@@ -219,13 +219,13 @@ class FullTiltPokerHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHisto
             self._parse_streetline(start, street)
             stop = next(v for v in self._sections if v > start)
             street_actions = self._splitted[start + 1:stop]
-            setattr(self, "{}_actions".format(street), tuple(street_actions)
+            setattr(self, f"{street}_actions", tuple(street_actions)
                     if street_actions else None)
         except ValueError:
             setattr(self, street, None)
-            setattr(self, '{}_actions'.format(street), None)
-            setattr(self, '{}_pot'.format(street), None)
-            setattr(self, '{}_num_players'.format(street), None)
+            setattr(self, f'{street}_actions', None)
+            setattr(self, f'{street}_pot', None)
+            setattr(self, f'{street}_num_players', None)
 
     def _parse_showdown(self):
         self.show_down = 'SHOW DOWN' in self._splitted
@@ -263,8 +263,8 @@ class FullTiltPokerHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHisto
                 start = self._splitted.index(street.upper()) + 1
                 self._parse_streetline(start, street)
             except ValueError:
-                self.extra['{}_pot'.format(street)] = None
-                self.extra['{}_num_players'.format(street)] = None
+                self.extra[f'{street}_pot'] = None
+                self.extra[f'{street}_num_players'] = None
 
     def _parse_streetline(self, start, street):
         """Parse pot, num players."""
@@ -273,7 +273,7 @@ class FullTiltPokerHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHisto
         board_line = self._splitted[start]
         match = self._street_re.search(board_line)
         pot = match.group(2)
-        self.extra['{}_pot'.format(street)] = Decimal(pot)
+        self.extra[f'{street}_pot'] = Decimal(pot)
 
         num_players = int(match.group(3))
-        self.extra['{}_num_players'.format(street)] = num_players
+        self.extra[f'{street}_num_players'] = num_players

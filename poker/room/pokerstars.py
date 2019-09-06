@@ -235,11 +235,11 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
             start = self._splitted.index(street.upper()) + 2
             stop = self._splitted.index('', start)
             street_actions = self._splitted[start:stop]
-            setattr(self, "{}_actions".format(street.lower()),
+            setattr(self, f"{street.lower()}_actions",
                     tuple(street_actions) if street_actions else None)
         except ValueError:
             setattr(self, street, None)
-            setattr(self, '{}_actions'.format(street.lower()), None)
+            setattr(self, f'{street.lower()}_actions', None)
 
     def _parse_showdown(self):
         self.show_down = 'SHOW DOWN' in self._splitted
@@ -347,7 +347,7 @@ class Notes:
     def add_note(self, player, text, label=None, update=None):
         """Add a note to the xml. If update param is None, it will be the current time."""
         if label is not None and (label not in self.label_names):
-            raise LabelNotFoundError('Invalid label: {}'.format(label))
+            raise LabelNotFoundError(f'Invalid label: {label}')
         if update is None:
             update = datetime.utcnow()
         # converted to timestamp, rounded to ones
@@ -385,7 +385,7 @@ class Notes:
         # if player name contains a double quote, the search phrase would be invalid.
         # &quot; entitiy is searched with ", e.g. &quot;bootei&quot; is searched with '"bootei"'
         quote = "'" if '"' in player else '"'
-        note = self.root.find('note[@player={0}{1}{0}]'.format(quote, player))
+        note = self.root.find(f'note[@player={quote}{player}{quote}]')
         if note is None:
             raise NoteNotFoundError(player)
         return note
@@ -411,7 +411,7 @@ class Notes:
         """Add a new label. It's id will automatically be calculated."""
         color_upper = color.upper()
         if not self._color_re.match(color_upper):
-            raise ValueError('Invalid color: {}'.format(color))
+            raise ValueError(f'Invalid color: {color}')
 
         labels_tag = self.root[0]
         last_id = int(labels_tag[-1].get('id'))

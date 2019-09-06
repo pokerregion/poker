@@ -10,8 +10,7 @@ class _PokerEnumMeta(enum.EnumMeta):
         for member in self.__members__.values():
             values = member._value_
             if not isinstance(values, Iterable) or isinstance(values, str):
-                raise TypeError('{} = {!r}, should be iterable, not {}!'
-                                .format(member._name_, values, type(values)))
+                raise TypeError(f'{member._name_} = {values!r}, should be iterable, not {type(values)}!')
             for alias in values:
                 if isinstance(alias, str):
                     alias = alias.upper()
@@ -58,7 +57,7 @@ class PokerEnum(_OrderableMixin, enum.Enum, metaclass=_PokerEnumMeta):
     def __repr__(self):
         val = self._value_[0]
         apostrophe = "'" if isinstance(val, str) else ''
-        return "{0}({1}{2}{1})".format(self.__class__.__name__, apostrophe, val)
+        return f"{self.__class__.__name__}({apostrophe}{val}{apostrophe})"
 
     def __format__(self, format_spec):
         return str(self._value_[0])
@@ -74,7 +73,7 @@ class PokerEnum(_OrderableMixin, enum.Enum, metaclass=_PokerEnumMeta):
 
 class _ReprMixin:
     def __repr__(self):
-        return "{}('{}')".format(self.__class__.__name__, self)
+        return f"{self.__class__.__name__}('{self}')"
 
 
 def _make_float(string):

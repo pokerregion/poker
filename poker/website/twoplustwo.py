@@ -81,7 +81,7 @@ class ForumMember:
         self._download_and_parse()
 
     def __repr__(self):
-        return '<{}: {}>'.format(self.__class__.__name__, self.username)
+        return f'<{self.__class__.__name__}: {self.username}>'
 
     @classmethod
     def from_userid(cls, userid: str):
@@ -99,7 +99,7 @@ class ForumMember:
 
     @property
     def profile_url(self):
-        return '{}/{}/'.format(FORUM_MEMBER_URL, self.id)
+        return f'{FORUM_MEMBER_URL}/{self.id}/'
 
     def _download_page(self):
         stats_page = requests.get(self.profile_url)
@@ -158,4 +158,4 @@ class ForumMember:
             # parsed as a C{datetime}, means that parsing was successful
             if pt == 3:
                 return dt.astimezone(UTC)
-            raise ValueError('Could not parse date: {}'.format(date_str))
+            raise ValueError(f'Could not parse date: {date_str}')

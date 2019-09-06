@@ -163,15 +163,15 @@ class PKRHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
             setattr(self, street, Card(cards[0]))
 
             stop = next(v for v in self._sections if v > start) - 1
-            setattr(self, "{}_actions".format(street), tuple(self._splitted[start + 1:stop]))
+            setattr(self, f"{street}_actions", tuple(self._splitted[start + 1:stop]))
 
             sizes_line = self._splitted[start - 2]
             pot = Decimal(self._sizes_re.match(sizes_line).group(1))
-            setattr(self, "{}_pot".format(street), pot)
+            setattr(self, f"{street}_pot", pot)
         except IndexError:
             setattr(self, street, None)
-            setattr(self, "{}_actions".format(street), None)
-            setattr(self, "{}_pot".format(street), None)
+            setattr(self, f"{street}_actions", None)
+            setattr(self, f"{street}_pot", None)
 
     def _parse_showdown(self):
         start = self._sections[-1] + 1
