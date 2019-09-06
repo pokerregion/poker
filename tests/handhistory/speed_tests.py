@@ -15,5 +15,5 @@ for handnr in range(1, 5):
                          "from stars_hands import HAND{}".format(handnr))
     )
 
-print "Single results average: {}".format(sum(single_results) / len(single_results))
-print "Repeated results average: {}".format(sum(results) / len(results))
+print("Single results average: {}".format(sum(single_results) / len(single_results)))
+print("Repeated results average: {}".format(sum(results) / len(results)))
