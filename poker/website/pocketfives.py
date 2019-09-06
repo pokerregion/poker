@@ -14,7 +14,7 @@ RANKINGS_URL = WEBSITE_URL + '/rankings/'
 
 
 @attr.s(slots=True)
-class _Player(object):
+class _Player:
     """Pocketfives player data."""
     name = attr.ib()
     country = attr.ib()

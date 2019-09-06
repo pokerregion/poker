@@ -15,7 +15,7 @@ from .card import Rank
 
 
 @attr.s(slots=True)
-class _Player(object):
+class _Player:
     """Player participating in the hand history."""
     name = attr.ib()
     stack = attr.ib()
@@ -24,7 +24,7 @@ class _Player(object):
 
 
 @attr.s(slots=True)
-class _PlayerAction(object):
+class _PlayerAction:
     """Player actions on the street."""
     name = attr.ib()
     action = attr.ib()
@@ -89,7 +89,7 @@ class IHandHistory(Interface):
         """Parses the body of the hand history, but first parse header if not yet parsed."""
 
 
-class _BaseStreet(object):
+class _BaseStreet:
     def __init__(self, flop):
         self.pot = None
         self.actions = None
@@ -142,7 +142,7 @@ class _BaseStreet(object):
                 for first, second in self._all_combinations)
 
 
-class _BaseHandHistory(object):
+class _BaseHandHistory:
     """Abstract base class for *all* kinds of parser."""
 
     def __init__(self, hand_text):
@@ -189,7 +189,7 @@ class _BaseHandHistory(object):
         return self.players[hero_index], hero_index
 
 
-class _SplittableHandHistoryMixin(object):
+class _SplittableHandHistoryMixin:
     """Class for PokerStars and FullTiltPoker type hand histories, where you can split the hand
     history into sections.
     """

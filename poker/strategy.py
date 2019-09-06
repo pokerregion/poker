@@ -9,7 +9,7 @@ from .constants import Position
 
 
 @attr.s(slots=True)
-class _Situation(object):
+class _Situation:
     utg = attr.ib()
     utg1 = attr.ib()
     utg2 = attr.ib()
@@ -25,7 +25,7 @@ class _Situation(object):
 
 
 @attr.s(slots=True)
-class _Spot(object):
+class _Spot:
     position = attr.ib()
     range = attr.ib()
     posindex = attr.ib()

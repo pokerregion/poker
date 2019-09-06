@@ -335,7 +335,7 @@ class Combo(_ReprMixin):
         self._shape = Shape(value).val
 
 
-class _RegexRangeLexer(object):
+class _RegexRangeLexer:
     _separator_re = re.compile(r"[,;\s]+")
     _rank = r"([2-9TJQKA])"
     _suit = r"[cdhs♣♦♥♠]"
@@ -452,7 +452,7 @@ class _RegexRangeLexer(object):
 
 
 @functools.total_ordering
-class Range(object):
+class Range:
     """Parses a str range into tuple of Combos (or Hands)."""
     slots = ('_hands', '_combos')
 

@@ -28,7 +28,7 @@ class UserNotFoundError(Exception):
 
 
 @attr.s(slots=True)
-class _ExtraUser(object):
+class _ExtraUser:
     id = attr.ib()
     name = attr.ib()
 
@@ -63,7 +63,7 @@ def search_userid(username):
     return root[0].attrib['userid']
 
 
-class ForumMember(object):
+class ForumMember:
     """Download and store a member data from the Two Plus Two forum."""
 
     _tz_re = re.compile('GMT (.*?)\.')

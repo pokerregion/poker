@@ -31,7 +31,7 @@ class _PokerEnumMeta(enum.EnumMeta):
 
 
 @functools.total_ordering
-class _OrderableMixin(object):
+class _OrderableMixin:
     # I couldn't inline this to PokerEnum because Enum do some magic which don't like it.
 
     # From Python manual:
@@ -74,7 +74,7 @@ class PokerEnum(_OrderableMixin, enum.Enum, metaclass=_PokerEnumMeta):
         return self._value_[0]
 
 
-class _ReprMixin(object):
+class _ReprMixin:
     def __repr__(self):
         return "{}('{}')".format(self.__class__.__name__, self)
 

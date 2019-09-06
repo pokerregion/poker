@@ -274,7 +274,7 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
 
 
 @attr.s(slots=True)
-class _Label(object):
+class _Label:
     """Labels in Player notes."""
     id = attr.ib()
     color = attr.ib()
@@ -282,7 +282,7 @@ class _Label(object):
 
 
 @attr.s(slots=True)
-class _Note(object):
+class _Note:
     """Player note."""
     player = attr.ib()
     label = attr.ib()
@@ -298,7 +298,7 @@ class LabelNotFoundError(ValueError):
     """Label not found in the player notes."""
 
 
-class Notes(object):
+class Notes:
     """Class for parsing pokerstars XML notes."""
 
     _color_re = re.compile('^[0-9A-F]{6}$')
