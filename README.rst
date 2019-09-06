@@ -29,7 +29,7 @@ License
 
 The MIT License (MIT)
 
-Copyright (c) 2013-2015 Kiss György
+Copyright (c) 2013-2019 Kiss György
 
 
 Repo and contact
