@@ -169,7 +169,7 @@ PokerStars Hand #107030112846: Omaha Pot Limit ($0.01/$0.02 USD) - 2013/11/15 9:
         ('limit', Limit.PL),
         ('sb', Decimal('0.01')),
         ('bb', Decimal('0.02')),
-        ('date', ET.localize(datetime(2013, 11, 14, 20, 03, 10))),
+        ('date', ET.localize(datetime(2013, 11, 14, 20, 3, 10))),
         ('extra', {'money_type': MoneyType.REAL}),
         ])
     def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
