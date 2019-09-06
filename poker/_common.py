@@ -1,6 +1,6 @@
 import random
 import functools
-from collections import Iterable
+from collections.abc import Iterable
 import enum
 
 
