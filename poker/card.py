@@ -3,33 +3,33 @@ from functools import total_ordering
 from ._common import PokerEnum, _ReprMixin
 
 
-__all__ = ['Suit', 'Rank', 'Card', 'FACE_RANKS', 'BROADWAY_RANKS']
+__all__ = ["Suit", "Rank", "Card", "FACE_RANKS", "BROADWAY_RANKS"]
 
 
 class Suit(PokerEnum):
-    CLUBS = '♣', 'c', 'clubs'
-    DIAMONDS = '♦', 'd', 'diamonds'
-    HEARTS = '♥', 'h', 'hearts'
-    SPADES = '♠', 's', 'spades'
+    CLUBS = "♣", "c", "clubs"
+    DIAMONDS = "♦", "d", "diamonds"
+    HEARTS = "♥", "h", "hearts"
+    SPADES = "♠", "s", "spades"
     # Can't make alias with redefined value property
     # because of a bug in stdlib enum module (line 162)
     # C = '♣', 'c', 'C', 'clubs'
 
 
 class Rank(PokerEnum):
-    DEUCE = '2', 2
-    THREE = '3', 3
-    FOUR = '4', 4
-    FIVE = '5', 5
-    SIX = '6', 6
-    SEVEN = '7', 7
-    EIGHT = '8', 8
-    NINE = '9', 9
-    TEN = 'T', 10
-    JACK = 'J',
-    QUEEN = 'Q',
-    KING = 'K',
-    ACE = 'A', 1
+    DEUCE = "2", 2
+    THREE = "3", 3
+    FOUR = "4", 4
+    FIVE = "5", 5
+    SIX = "6", 6
+    SEVEN = "7", 7
+    EIGHT = "8", 8
+    NINE = "9", 9
+    TEN = "T", 10
+    JACK = ("J",)
+    QUEEN = ("Q",)
+    KING = ("K",)
+    ACE = "A", 1
 
     @classmethod
     def difference(cls, first, second):
@@ -41,17 +41,18 @@ class Rank(PokerEnum):
         return abs(rank_list.index(first) - rank_list.index(second))
 
 
-FACE_RANKS = Rank('J'), Rank('Q'), Rank('K')
+FACE_RANKS = Rank("J"), Rank("Q"), Rank("K")
 
-BROADWAY_RANKS = Rank('T'), Rank('J'), Rank('Q'), Rank('K'), Rank('A')
+BROADWAY_RANKS = Rank("T"), Rank("J"), Rank("Q"), Rank("K"), Rank("A")
 
 
 class _CardMeta(type):
     def __new__(metacls, clsname, bases, classdict):
         """Cache all possible Card instances on the class itself."""
         cls = super(_CardMeta, metacls).__new__(metacls, clsname, bases, classdict)
-        cls._all_cards = list(cls(f'{rank}{suit}')
-                              for rank, suit in itertools.product(Rank, Suit))
+        cls._all_cards = list(
+            cls(f"{rank}{suit}") for rank, suit in itertools.product(Rank, Suit)
+        )
         return cls
 
     def make_random(cls):
@@ -68,14 +69,15 @@ class _CardMeta(type):
 @total_ordering
 class Card(_ReprMixin, metaclass=_CardMeta):
     """Represents a Card, which consists a Rank and a Suit."""
-    __slots__ = ('rank', 'suit')
+
+    __slots__ = ("rank", "suit")
 
     def __new__(cls, card):
         if isinstance(card, cls):
             return card
 
         if len(card) != 2:
-            raise ValueError('length should be two in %r' % card)
+            raise ValueError("length should be two in %r" % card)
 
         self = object.__new__(cls)
         self.rank = Rank(card[0])
@@ -104,7 +106,7 @@ class Card(_ReprMixin, metaclass=_CardMeta):
         return self.rank < other.rank
 
     def __str__(self):
-        return f'{self.rank}{self.suit}'
+        return f"{self.rank}{self.suit}"
 
     @property
     def is_face(self):

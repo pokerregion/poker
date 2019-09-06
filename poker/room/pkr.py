@@ -7,20 +7,24 @@ from ..hand import Combo, Card
 from ..constants import Limit, Game, GameType, MoneyType, Currency, Action
 
 
-__all__ = ['PKRHandHistory']
+__all__ = ["PKRHandHistory"]
 
 
 @implementer(hh.IStreet)
 class _Street(hh._BaseStreet):
     def _parse_cards(self, boardline):
-        self.cards = (Card(boardline[6:9:2]), Card(boardline[11:14:2]), Card(boardline[16:19:2]))
+        self.cards = (
+            Card(boardline[6:9:2]),
+            Card(boardline[11:14:2]),
+            Card(boardline[16:19:2]),
+        )
 
     def _parse_actions(self, actionlines):
         actions = []
         for line in actionlines:
-            if line.startswith('Pot sizes:'):
+            if line.startswith("Pot sizes:"):
                 self._parse_pot(line)
-            elif ' ' in line:
+            elif " " in line:
                 actions.append(hh._PlayerAction(*self._parse_player_action(line)))
             else:
                 raise
@@ -32,15 +36,15 @@ class _Street(hh._BaseStreet):
         self.pot = Decimal(amount)
 
     def _parse_player_action(self, line):
-        space_index = line.find(' ')
+        space_index = line.find(" ")
         name = line[:space_index]
-        end_action_index = line.find(' ', space_index + 1)
+        end_action_index = line.find(" ", space_index + 1)
         # -1 means not found
         if end_action_index == -1:
             end_action_index = None  # until the end
-        action = Action(line[space_index + 1:end_action_index])
+        action = Action(line[space_index + 1 : end_action_index])
         if end_action_index:
-            amount_start_index = line.find('$') + 1
+            amount_start_index = line.find("$") + 1
             amount = line[amount_start_index:]
             return name, action, Decimal(amount)
         else:
@@ -56,10 +60,10 @@ class PKRHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
     tournament_name = None
     tournament_level = None
 
-    _DATE_FORMAT = '%d %b %Y %H:%M:%S'
+    _DATE_FORMAT = "%d %b %Y %H:%M:%S"
     _TZ = pytz.UTC
     _SPLIT_CARD_SPACE = slice(0, 3, 2)
-    _STREET_SECTIONS = {'flop': 2, 'turn': 3, 'river': 4}
+    _STREET_SECTIONS = {"flop": 2, "turn": 3, "river": 4}
     _split_re = re.compile(r"Dealing |\nDealing Cards\n|Taking |Moving |\n")
     _blinds_re = re.compile(r"^Blinds are now \$([\d.]*) / \$([\d.]*)$")
     _hero_re = re.compile(r"^\[(. .)\]\[(. .)\] to (?P<hero_name>.*)$")
@@ -75,12 +79,12 @@ class PKRHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
         # sections[-1] is before showdown
         self._split_raw()
 
-        self.table_name = self._splitted[0][6:]          # cut off "Table "
-        self.ident = self._splitted[1][15:]              # cut off "Starting Hand #"
-        self._parse_date(self._splitted[2][20:])         # cut off "Start time of hand: "
-        self.game = Game(self._splitted[4][11:])        # cut off "Game Type: "
-        self.limit = Limit(self._splitted[5][12:])      # cut off "Limit Type: "
-        self.game_type = GameType(self._splitted[6][12:])   # cut off "Table Type: "
+        self.table_name = self._splitted[0][6:]  # cut off "Table "
+        self.ident = self._splitted[1][15:]  # cut off "Starting Hand #"
+        self._parse_date(self._splitted[2][20:])  # cut off "Start time of hand: "
+        self.game = Game(self._splitted[4][11:])  # cut off "Game Type: "
+        self.limit = Limit(self._splitted[5][12:])  # cut off "Limit Type: "
+        self.game_type = GameType(self._splitted[6][12:])  # cut off "Table Type: "
 
         match = self._blinds_re.match(self._splitted[8])
         self.sb = Decimal(match.group(1))
@@ -97,8 +101,8 @@ class PKRHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
         self._parse_hero()
         self._parse_preflop()
         self._parse_flop()
-        self._parse_street('turn')
-        self._parse_street('river')
+        self._parse_street("turn")
+        self._parse_street("river")
         self._parse_showdown()
         self._parse_extra()
 
@@ -115,10 +119,13 @@ class PKRHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
                 break
             seat_number = int(match.group(1))
             players[seat_number - 1] = hh._Player(
-                name=match.group(2), stack=Decimal(match.group(3)), seat=seat_number, combo=None
+                name=match.group(2),
+                stack=Decimal(match.group(3)),
+                seat=seat_number,
+                combo=None,
             )
         self.max_players = seat_number
-        self.players = players[:self.max_players]
+        self.players = players[: self.max_players]
 
     def _parse_button(self):
         button_row = self._splitted[self._sections[0] + 1]
@@ -135,7 +142,7 @@ class PKRHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
 
         first = match.group(1)[self._SPLIT_CARD_SPACE]
         second = match.group(2)[self._SPLIT_CARD_SPACE]
-        hero, hero_index = self._get_hero_from_players(match.group('hero_name'))
+        hero, hero_index = self._get_hero_from_players(match.group("hero_name"))
         hero.combo = Combo(first + second)
         self.hero = self.players[hero_index] = hero
         if self.button.name == self.hero.name:
@@ -143,11 +150,11 @@ class PKRHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
 
     def _parse_preflop(self):
         start = self._sections[1] + 2
-        stop = self._splitted.index('', start + 1) - 1
+        stop = self._splitted.index("", start + 1) - 1
         self.preflop_actions = tuple(self._splitted[start:stop])
 
     def _parse_flop(self):
-        flop_section = self._STREET_SECTIONS['flop']
+        flop_section = self._STREET_SECTIONS["flop"]
         start = self._sections[flop_section] + 1
         stop = next(v for v in self._sections if v > start)
         floplines = self._splitted[start:stop]
@@ -159,11 +166,13 @@ class PKRHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
             start = self._sections[section] + 1
 
             street_line = self._splitted[start]
-            cards = [x[self._SPLIT_CARD_SPACE] for x in self._card_re.findall(street_line)]
+            cards = [
+                x[self._SPLIT_CARD_SPACE] for x in self._card_re.findall(street_line)
+            ]
             setattr(self, street, Card(cards[0]))
 
             stop = next(v for v in self._sections if v > start) - 1
-            setattr(self, f"{street}_actions", tuple(self._splitted[start + 1:stop]))
+            setattr(self, f"{street}_actions", tuple(self._splitted[start + 1 : stop]))
 
             sizes_line = self._splitted[start - 2]
             pot = Decimal(self._sizes_re.match(sizes_line).group(1))
@@ -183,9 +192,9 @@ class PKRHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
         winners = []
         total_pot = self.rake
         for line in self._splitted[start:]:
-            if 'shows' in line:
+            if "shows" in line:
                 self.show_down = True
-            elif 'wins' in line:
+            elif "wins" in line:
                 match = self._win_re.match(line)
                 winners.append(match.group(1))
                 total_pot += Decimal(match.group(2))
@@ -195,5 +204,7 @@ class PKRHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory):
 
     def _parse_extra(self):
         self.extra = dict()
-        self.extra['last_ident'] = self._splitted[3][11:]             # cut off "Last Hand #"
-        self.extra['money_type'] = MoneyType(self._splitted[7][12:])  # cut off "Money Type: "
+        self.extra["last_ident"] = self._splitted[3][11:]  # cut off "Last Hand #"
+        self.extra["money_type"] = MoneyType(
+            self._splitted[7][12:]
+        )  # cut off "Money Type: "

@@ -15,6 +15,7 @@ from .card import Rank
 @attr.s(slots=True)
 class _Player:
     """Player participating in the hand history."""
+
     name = attr.ib()
     stack = attr.ib()
     seat = attr.ib()
@@ -24,15 +25,16 @@ class _Player:
 @attr.s(slots=True)
 class _PlayerAction:
     """Player actions on the street."""
+
     name = attr.ib()
     action = attr.ib()
     amount = attr.ib()
 
 
 class IStreet(Interface):
-    actions = Attribute('_StreetAction instances.')
-    cards = Attribute('Cards.')
-    pot = Attribute('Pot size after actions.')
+    actions = Attribute("_StreetAction instances.")
+    cards = Attribute("Cards.")
+    pot = Attribute("Pot size after actions.")
 
 
 class IHandHistory(Interface):
@@ -40,41 +42,42 @@ class IHandHistory(Interface):
     histories, missing attributes are always None. This contains the most properties, available in
     any pokerroom hand history, so you always have to deal with None values.
     """
+
     # parsing information
-    header_parsed = Attribute('Shows wheter header is parsed already or not.')
-    parsed = Attribute('Shows wheter the whole hand history is parsed already or not.')
-    date = Attribute('Date of the hand history.')
+    header_parsed = Attribute("Shows wheter header is parsed already or not.")
+    parsed = Attribute("Shows wheter the whole hand history is parsed already or not.")
+    date = Attribute("Date of the hand history.")
 
     # Street informations
-    preflop = Attribute('_Street instance for preflop actions.')
-    flop = Attribute('_Street instance for flop actions.')
-    turn = Attribute('_Street instance for turn actions.')
-    river = Attribute('_Street instance for river actions.')
-    show_down = Attribute('_Street instance for showdown.')
+    preflop = Attribute("_Street instance for preflop actions.")
+    flop = Attribute("_Street instance for flop actions.")
+    turn = Attribute("_Street instance for turn actions.")
+    river = Attribute("_Street instance for river actions.")
+    show_down = Attribute("_Street instance for showdown.")
 
     # Player informations
-    table_name = Attribute('Name of')
-    max_players = Attribute('Maximum number of players can sit on the table.')
-    players = Attribute('Tuple of player instances.')
-    hero = Attribute('_Player instance with hero data.')
-    button = Attribute('_Player instance of button.')
-    winners = Attribute('Tuple of _Player instances with winners.')
+    table_name = Attribute("Name of")
+    max_players = Attribute("Maximum number of players can sit on the table.")
+    players = Attribute("Tuple of player instances.")
+    hero = Attribute("_Player instance with hero data.")
+    button = Attribute("_Player instance of button.")
+    winners = Attribute("Tuple of _Player instances with winners.")
 
     # Game informations
-    game_type = Attribute('GameType enum value (CASH, TOUR or SNG)')
-    sb = Attribute('Small blind size.')
-    bb = Attribute('Big blind size.')
-    buyin = Attribute('Buyin with rake.')
-    rake = Attribute('Rake only.')
-    game = Attribute('Game enum value (HOLDEM, OMAHA? OHILO, RAZZ or STUD)')
-    limit = Attribute('Limit enum value (NL, PL or FL)')
-    ident = Attribute('Unique id of the hand history.')
-    currency = Attribute('Currency of the hand history.')
-    total_pot = Attribute('Total pot Decimal.')
+    game_type = Attribute("GameType enum value (CASH, TOUR or SNG)")
+    sb = Attribute("Small blind size.")
+    bb = Attribute("Big blind size.")
+    buyin = Attribute("Buyin with rake.")
+    rake = Attribute("Rake only.")
+    game = Attribute("Game enum value (HOLDEM, OMAHA? OHILO, RAZZ or STUD)")
+    limit = Attribute("Limit enum value (NL, PL or FL)")
+    ident = Attribute("Unique id of the hand history.")
+    currency = Attribute("Currency of the hand history.")
+    total_pot = Attribute("Total pot Decimal.")
 
-    tournament_ident = Attribute('Unique tournament id.')
-    tournament_name = Attribute('Name of the tournament.')
-    tournament_level = Attribute('Tournament level.')
+    tournament_ident = Attribute("Unique tournament id.")
+    tournament_name = Attribute("Name of the tournament.")
+    tournament_level = Attribute("Tournament level.")
 
     def parse_header():
         """Parses only the header of a hand history. It is used for quick looking into the hand
@@ -98,19 +101,27 @@ class _BaseStreet:
 
     @cached_property
     def is_rainbow(self):
-        return all(first.suit != second.suit for first, second in self._all_combinations)
+        return all(
+            first.suit != second.suit for first, second in self._all_combinations
+        )
 
     @cached_property
     def is_monotone(self):
-        return all(first.suit == second.suit for first, second in self._all_combinations)
+        return all(
+            first.suit == second.suit for first, second in self._all_combinations
+        )
 
     @cached_property
     def is_triplet(self):
-        return all(first.rank == second.rank for first, second in self._all_combinations)
+        return all(
+            first.rank == second.rank for first, second in self._all_combinations
+        )
 
     @cached_property
     def has_pair(self):
-        return any(first.rank == second.rank for first, second in self._all_combinations)
+        return any(
+            first.rank == second.rank for first, second in self._all_combinations
+        )
 
     @cached_property
     def has_straightdraw(self):
@@ -122,7 +133,9 @@ class _BaseStreet:
 
     @cached_property
     def has_flushdraw(self):
-        return any(first.suit == second.suit for first, second in self._all_combinations)
+        return any(
+            first.suit == second.suit for first, second in self._all_combinations
+        )
 
     @cached_property
     def players(self):
@@ -136,8 +149,10 @@ class _BaseStreet:
         return tuple(player_names)
 
     def _get_differences(self):
-        return (Rank.difference(first.rank, second.rank)
-                for first, second in self._all_combinations)
+        return (
+            Rank.difference(first.rank, second.rank)
+            for first, second in self._all_combinations
+        )
 
 
 class _BaseHandHistory:
@@ -151,7 +166,7 @@ class _BaseHandHistory:
 
     @classmethod
     def from_file(cls, filename):
-        with io.open(filename, 'rt', encoding='utf-8-sig') as f:
+        with io.open(filename, "rt", encoding="utf-8-sig") as f:
             return cls(f.read())
 
     def __str__(self):
@@ -177,7 +192,9 @@ class _BaseHandHistory:
     def _init_seats(self, player_num):
         players = []
         for seat in range(1, player_num + 1):
-            players.append(_Player(name='Empty Seat %s' % seat, stack=0, seat=seat, combo=None))
+            players.append(
+                _Player(name="Empty Seat %s" % seat, stack=0, seat=seat, combo=None)
+            )
 
         return players
 

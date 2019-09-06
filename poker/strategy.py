@@ -29,12 +29,12 @@ class _Spot:
     posindex = attr.ib()
 
 
-_POSITIONS = {'utg', 'utg1', 'utg2', 'utg3', 'utg4', 'co', 'btn', 'sb', 'bb'}
+_POSITIONS = {"utg", "utg1", "utg2", "utg3", "utg4", "co", "btn", "sb", "bb"}
 
 
 class Strategy(Mapping):
-    def __init__(self, strategy, source='<string>'):
-        self._config = ConfigParser(default_section='strategy', interpolation=None)
+    def __init__(self, strategy, source="<string>"):
+        self._config = ConfigParser(default_section="strategy", interpolation=None)
         self._config.read_string(strategy, source)
 
         self._situations = dict()
@@ -63,7 +63,7 @@ class Strategy(Mapping):
     def __getattr__(self, name):
         # Strategy uses only _Situation._fields, but this way .strategy files are more flexible,
         # because can contain extra values without breaking anything
-        return self._config['strategy'][name]
+        return self._config["strategy"][name]
 
     def __iter__(self):
         return iter(self._situations)
@@ -82,7 +82,7 @@ class Strategy(Mapping):
             return self._situations.__getitem__(key)
         elif isinstance(key, int):
             return self._tuple[key]
-        raise TypeError('You can lookup by int or str')
+        raise TypeError("You can lookup by int or str")
 
     def values(self):
         return self._situations.values()
