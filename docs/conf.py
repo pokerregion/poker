@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals, absolute_import, division, print_function
-
 # Poker documentation build configuration file, created by
 # sphinx-quickstart on Mon Aug  4 05:13:53 2014.
 #

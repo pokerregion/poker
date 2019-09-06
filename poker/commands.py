@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals, absolute_import, division, print_function
-
 import sys
 import collections
 import contextlib
@@ -29,7 +26,7 @@ def _print_values(*args):
             valueformat = "{:%Y-%m-%d (%A) %H:%M (%Z)}"
         elif isinstance(value, dt.date):
             valueformat = "{:%Y-%m-%d}"
-        elif isinstance(value, collections.Sequence) and not isinstance(value, unicode):
+        elif isinstance(value, collections.Sequence) and not isinstance(value, str):
             value = ', '.join(value)
         click.echo(('{:<20}' + valueformat).format(what + ': ', value))
 
@@ -69,9 +66,9 @@ def twoplustwo_player(username):
         click.echo('Got multiple users with similar names!', err=True)
 
         for ind, user in enumerate(e.users):
-            click.echo('{}. {}'.format(ind + 1, user.name), err=True)
+            click.echo(f'{ind + 1}. {user.name}', err=True)
 
-        number = click.prompt('Which would you like to see [{}-{}]'.format(1, len(e.users)),
+        number = click.prompt(f'Which would you like to see [1-{len(e.users)}]',
                               prompt_suffix='? ', type=click.IntRange(1, len(e.users)), err=True)
 
         userid = e.users[int(number) - 1].id

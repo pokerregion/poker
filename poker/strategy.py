@@ -1,7 +1,4 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals, absolute_import, division, print_function
-
-from collections import Mapping, OrderedDict as odict
+from collections.abc import Mapping
 from pathlib import Path
 import attr
 from configparser import ConfigParser
@@ -10,7 +7,7 @@ from .constants import Position
 
 
 @attr.s(slots=True)
-class _Situation(object):
+class _Situation:
     utg = attr.ib()
     utg1 = attr.ib()
     utg2 = attr.ib()
@@ -26,7 +23,7 @@ class _Situation(object):
 
 
 @attr.s(slots=True)
-class _Spot(object):
+class _Spot:
     position = attr.ib()
     range = attr.ib()
     posindex = attr.ib()
@@ -40,14 +37,15 @@ class Strategy(Mapping):
         self._config = ConfigParser(default_section='strategy', interpolation=None)
         self._config.read_string(strategy, source)
 
-        self._situations = odict()
+        self._situations = dict()
         for name in self._config.sections():
             # configparser set non-specified values to '', we want default to None
-            values = dict.fromkeys(_Situation.__slots__, None)
+            attr_names = [a.name for a in attr.fields(_Situation)]
+            values = dict.fromkeys(attr_names, None)
             for key, val in self._config[name].items():
                 # filter out fields not implemented, otherwise it would
                 # cause TypeError for _Situation constructor
-                if (not val) or (key not in _Situation.__slots__):
+                if (not val) or (key not in attr_names):
                     continue
                 elif key in _POSITIONS:
                     values[key] = Range(val)
@@ -59,8 +57,7 @@ class Strategy(Mapping):
 
     @classmethod
     def from_file(cls, filename):
-        # Path accept str or Path
-        strategy = Path(filename).open(encoding='utf-8').read()
+        strategy = Path(filename).read_text()
         return cls(strategy, source=filename)
 
     def __getattr__(self, name):
@@ -81,7 +78,7 @@ class Strategy(Mapping):
         return self._situations.get(key, default)
 
     def __getitem__(self, key):
-        if isinstance(key, unicode):
+        if isinstance(key, str):
             return self._situations.__getitem__(key)
         elif isinstance(key, int):
             return self._tuple[key]

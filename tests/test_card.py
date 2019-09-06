@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals, absolute_import, division, print_function
-
 import pickle
 import pytest
 from poker.card import Card, Rank, Suit
@@ -101,12 +98,11 @@ def test_is_broadway():
 
 
 def test_representation():
-    assert str(Card('As')) == b'A♠'
-    assert unicode(Card('As')) == 'A♠'
-    assert repr(Card('As')) == b"Card('A♠')"
-    assert repr(Card('Ad')) == b"Card('A♦')"
-    assert repr(Card('Kh')) == b"Card('K♥')"
-    assert repr(Card('Jc')) == b"Card('J♣')"
+    assert str(Card('As')) == 'A♠'
+    assert repr(Card('As')) == "Card('A♠')"
+    assert repr(Card('Ad')) == "Card('A♦')"
+    assert repr(Card('Kh')) == "Card('K♥')"
+    assert repr(Card('Jc')) == "Card('J♣')"
 
 
 def test_passing_Card_instance_to__init__():
@@ -115,8 +111,8 @@ def test_passing_Card_instance_to__init__():
     assert c1 == c2
     assert (c1 != c2) is False
     assert id(c1) == id(c2)
-    assert repr(c1) == b"Card('A♠')"
-    assert repr(c2) == b"Card('A♠')"
+    assert repr(c1) == "Card('A♠')"
+    assert repr(c2) == "Card('A♠')"
 
 
 def test_make_random_is_instance_of_Card_Rank_and_Suit():

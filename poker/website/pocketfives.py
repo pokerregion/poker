@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals, absolute_import, division, print_function
-
 import attr
 import requests
 from lxml import etree
@@ -15,7 +12,7 @@ RANKINGS_URL = WEBSITE_URL + '/rankings/'
 
 
 @attr.s(slots=True)
-class _Player(object):
+class _Player:
     """Pocketfives player data."""
     name = attr.ib()
     country = attr.ib()

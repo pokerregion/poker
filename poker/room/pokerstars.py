@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals, absolute_import, division, print_function
-
 import re
 from decimal import Decimal
 from datetime import datetime
@@ -238,11 +235,11 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
             start = self._splitted.index(street.upper()) + 2
             stop = self._splitted.index('', start)
             street_actions = self._splitted[start:stop]
-            setattr(self, "{}_actions".format(street.lower()),
+            setattr(self, f"{street.lower()}_actions",
                     tuple(street_actions) if street_actions else None)
         except ValueError:
             setattr(self, street, None)
-            setattr(self, '{}_actions'.format(street.lower()), None)
+            setattr(self, f'{street.lower()}_actions', None)
 
     def _parse_showdown(self):
         self.show_down = 'SHOW DOWN' in self._splitted
@@ -275,7 +272,7 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
 
 
 @attr.s(slots=True)
-class _Label(object):
+class _Label:
     """Labels in Player notes."""
     id = attr.ib()
     color = attr.ib()
@@ -283,7 +280,7 @@ class _Label(object):
 
 
 @attr.s(slots=True)
-class _Note(object):
+class _Note:
     """Player note."""
     player = attr.ib()
     label = attr.ib()
@@ -299,22 +296,18 @@ class LabelNotFoundError(ValueError):
     """Label not found in the player notes."""
 
 
-class Notes(object):
+class Notes:
     """Class for parsing pokerstars XML notes."""
 
     _color_re = re.compile('^[0-9A-F]{6}$')
 
-    def __init__(self, notes):
-        # notes need to be a unicode object
+    def __init__(self, notes: str):
         self.raw = notes
         parser = etree.XMLParser(recover=True, resolve_entities=False)
-        self.root = etree.XML(notes.encode('utf-8'), parser)
-
-    def __unicode__(self):
-        return str(self).decode('utf-8')
+        self.root = etree.XML(notes.encode(), parser)
 
     def __str__(self):
-        return etree.tostring(self.root, xml_declaration=True, encoding='UTF-8', pretty_print=True)
+        return etree.tostring(self.root, xml_declaration=True, encoding='UTF-8', pretty_print=True).decode()
 
     @classmethod
     def from_file(cls, filename):
@@ -354,7 +347,7 @@ class Notes(object):
     def add_note(self, player, text, label=None, update=None):
         """Add a note to the xml. If update param is None, it will be the current time."""
         if label is not None and (label not in self.label_names):
-            raise LabelNotFoundError('Invalid label: {}'.format(label))
+            raise LabelNotFoundError(f'Invalid label: {label}')
         if update is None:
             update = datetime.utcnow()
         # converted to timestamp, rounded to ones
@@ -392,7 +385,7 @@ class Notes(object):
         # if player name contains a double quote, the search phrase would be invalid.
         # &quot; entitiy is searched with ", e.g. &quot;bootei&quot; is searched with '"bootei"'
         quote = "'" if '"' in player else '"'
-        note = self.root.find('note[@player={0}{1}{0}]'.format(quote, player))
+        note = self.root.find(f'note[@player={quote}{player}{quote}]')
         if note is None:
             raise NoteNotFoundError(player)
         return note
@@ -418,7 +411,7 @@ class Notes(object):
         """Add a new label. It's id will automatically be calculated."""
         color_upper = color.upper()
         if not self._color_re.match(color_upper):
-            raise ValueError('Invalid color: {}'.format(color))
+            raise ValueError(f'Invalid color: {color}')
 
         labels_tag = self.root[0]
         last_id = int(labels_tag[-1].get('id'))

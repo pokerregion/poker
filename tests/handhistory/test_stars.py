@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals, absolute_import, division, print_function
-
 from decimal import Decimal
 from datetime import datetime
 import pytz
@@ -53,7 +50,7 @@ def test_open_from_file(testdir):
     hh = PokerStarsHandHistory.from_file(bbb_path)
     hh.parse()
     assert hh.ident == '138364355489'
-    assert type(hh.raw) is unicode
+    assert type(hh.raw) is str
 
 
 class TestHandHeaderNoLimitHoldemTourFreeroll:
@@ -169,7 +166,7 @@ PokerStars Hand #107030112846: Omaha Pot Limit ($0.01/$0.02 USD) - 2013/11/15 9:
         ('limit', Limit.PL),
         ('sb', Decimal('0.01')),
         ('bb', Decimal('0.02')),
-        ('date', ET.localize(datetime(2013, 11, 14, 20, 03, 10))),
+        ('date', ET.localize(datetime(2013, 11, 14, 20, 3, 10))),
         ('extra', {'money_type': MoneyType.REAL}),
         ])
     def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
@@ -515,7 +512,7 @@ class TestClassRepresentation:
     hand_text = stars_hands.HAND1
 
     def test_unicode(self, hand_header):
-        assert str(hand_header) == u'<PokerStarsHandHistory: #105024000105>'
+        assert str(hand_header) == '<PokerStarsHandHistory: #105024000105>'
 
     def test_str(self, hand_header):
         assert str(hand_header) == '<PokerStarsHandHistory: #105024000105>'

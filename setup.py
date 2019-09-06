@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-
-import sys
-if sys.version_info[0] != 2:
-    sys.exit("Sorry, Python 3 is not supported yet")
-
+from pathlib import Path
 from setuptools import setup, find_packages
 
 
@@ -31,16 +26,18 @@ console_scripts = [
 classifiers = [
     "Intended Audience :: Developers",
     "Programming Language :: Python",
-    "Programming Language :: Python :: 2",
-    "Programming Language :: Python :: 2.7",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
 ]
 
 
 setup(
     name='poker',
-    version='0.23.1',
+    version='0.30.0',
     description='Poker Framework',
-    long_description=open('README.rst', 'r').read().decode('utf-8'),
+    long_description=Path('README.rst').read_text(),
     classifiers=classifiers,
     keywords='poker',
     author=u'Kiss György',

@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals, absolute_import, division, print_function
-
 import attr
 from dateutil.parser import parse as parse_date
 import requests
@@ -17,7 +14,7 @@ STATUS_URL = 'http://www.psimg.com/datafeed/dyn_banners/summary.json.js'
 
 
 @attr.s(slots=True)
-class _Tournament(object):
+class _Tournament:
     """Upcoming pokerstars tournament."""
     start_date = attr.ib(convert=parse_date)
     name = attr.ib()
@@ -43,7 +40,7 @@ def get_current_tournaments():
 
 
 @attr.s(slots=True)
-class _Status(object):
+class _Status:
     """PokerStars status."""
     updated = attr.ib(convert=parse_date)
     tables = attr.ib()
@@ -57,7 +54,7 @@ class _Status(object):
 
 
 @attr.s(slots=True)
-class _SiteStatus(object):
+class _SiteStatus:
     """PokerStars status on different subsites like FR, ES IT or Play Money."""
     id = attr.ib()       # ".FR", ".ES", ".IT" or 'Play Money'
     tables = attr.ib()

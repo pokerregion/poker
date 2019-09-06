@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals, absolute_import, division, print_function
-
 import pickle
 import pytest
 from poker.card import Suit
@@ -65,25 +62,18 @@ def test_wrong_value_raises_ValueError():
         Suit('k')
 
 
-def test_unicode():
-    assert unicode(Suit('c')) == '♣'
-    assert unicode(Suit('d')) == '♦'
-    assert unicode(Suit('h')) == '♥'
-    assert unicode(Suit('s')) == '♠'
-
-
 def test_str():
-    assert str(Suit('c')) == b'♣' == b'\xe2\x99\xa3'
-    assert str(Suit('d')) == b'♦' == b'\xe2\x99\xa6'
-    assert str(Suit('h')) == b'♥' == b'\xe2\x99\xa5'
-    assert str(Suit('s')) == b'♠' == b'\xe2\x99\xa0'
+    assert str(Suit('c')) == '♣'
+    assert str(Suit('d')) == '♦'
+    assert str(Suit('h')) == '♥'
+    assert str(Suit('s')) == '♠'
 
 
 def test_repr():
-    assert repr(Suit('c')) == b"Suit('♣')"
-    assert repr(Suit('d')) == b"Suit('♦')"
-    assert repr(Suit('h')) == b"Suit('♥')"
-    assert repr(Suit('s')) == b"Suit('♠')"
+    assert repr(Suit('c')) == "Suit('♣')"
+    assert repr(Suit('d')) == "Suit('♦')"
+    assert repr(Suit('h')) == "Suit('♥')"
+    assert repr(Suit('s')) == "Suit('♠')"
 
 
 def test_passing_Suit_instance_to__init__():
@@ -92,9 +82,9 @@ def test_passing_Suit_instance_to__init__():
     assert s1 == s2
     assert s1 is s2
     assert id(s1) == id(s2)
-    assert repr(s1) == b"Suit('\xe2\x99\xa3')"
-    assert repr(s2) == b"Suit('\xe2\x99\xa3')"
-    assert isinstance(repr(s1), str)  # bytes in Python 3
+    assert repr(s1) == "Suit('♣')"
+    assert repr(s2) == "Suit('♣')"
+    assert isinstance(repr(s1), str)
     assert isinstance(repr(s2), str)
 
 
