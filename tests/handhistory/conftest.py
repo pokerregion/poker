@@ -4,9 +4,11 @@ from . import stars_hands
 
 
 # get every variable starting with 'HAND' from hand_data module
-all_test_hands = [getattr(stars_hands, hand_text)
-                  for hand_text in dir(stars_hands)
-                  if hand_text.startswith('HAND')]
+all_test_hands = [
+    getattr(stars_hands, hand_text)
+    for hand_text in dir(stars_hands)
+    if hand_text.startswith("HAND")
+]
 
 
 @pytest.fixture(params=all_test_hands)
