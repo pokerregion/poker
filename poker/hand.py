@@ -218,13 +218,13 @@ class Combo(_ReprMixin):
         elif (combo[0] == combo[2] and combo[1] == combo[3]):
             raise ValueError(f"{combo!r}, Pair can't have the same suit: {combo[1]!r}")
 
-        self = super(Combo, cls).__new__(cls)
+        self = super().__new__(cls)
         self._set_cards_in_order(combo[:2], combo[2:])
         return self
 
     @classmethod
     def from_cards(cls, first, second):
-        self = super(Combo, cls).__new__(cls)
+        self = super().__new__(cls)
         first = first.rank.val + first.suit.val
         second = second.rank.val + second.suit.val
         self._set_cards_in_order(first, second)
