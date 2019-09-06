@@ -59,8 +59,7 @@ class Strategy(Mapping):
 
     @classmethod
     def from_file(cls, filename):
-        # Path accept str or Path
-        strategy = Path(filename).open(encoding='utf-8').read()
+        strategy = Path(filename).read_text()
         return cls(strategy, source=filename)
 
     def __getattr__(self, name):
