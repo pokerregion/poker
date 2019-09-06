@@ -51,11 +51,11 @@ class _OrderableMixin:
             return names.index(self._name_) < names.index(other._name_)
         return NotImplemented
 
+
+class PokerEnum(_OrderableMixin, enum.Enum, metaclass=_PokerEnumMeta):
     def __str__(self):
         return str(self._value_[0])
 
-
-class PokerEnum(_OrderableMixin, enum.Enum, metaclass=_PokerEnumMeta):
     def __repr__(self):
         val = self._value_[0]
         apostrophe = "'" if isinstance(val, str) else ""
