@@ -339,7 +339,7 @@ class Combo(_ReprMixin):
 
 
 class _RegexRangeLexer(object):
-    _separator_re = re.compile(r"[,;\s]*")
+    _separator_re = re.compile(r"[,;\s]+")
     _rank = r"([2-9TJQKA])"
     _suit = r"[cdhs♣♦♥♠]"
     # the second card is not the same as the first
