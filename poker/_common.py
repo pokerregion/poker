@@ -52,9 +52,6 @@ class _OrderableMixin(object):
             return names.index(self._name_) < names.index(other._name_)
         return NotImplemented
 
-    def __reduce_ex__(self, proto):
-        return self.__class__.__name__
-
     def __str__(self):
         return str(self._value_[0])
 
@@ -67,6 +64,9 @@ class PokerEnum(_OrderableMixin, enum.Enum, metaclass=_PokerEnumMeta):
 
     def __format__(self, format_spec):
         return str(self._value_[0])
+
+    def __getnewargs__(self):
+        return (self._value_[0],)
 
     @property
     def val(self):

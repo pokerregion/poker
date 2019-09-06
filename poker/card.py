@@ -87,11 +87,9 @@ class Card(_ReprMixin, metaclass=_CardMeta):
     def __hash__(self):
         return hash(self.rank) + hash(self.suit)
 
-    def __getstate__(self):
-        return {'rank': self.rank, 'suit': self.suit}
-
-    def __setstate__(self, state):
-        self.rank, self.suit = state['rank'], state['suit']
+    def __getnewargs__(self):
+        card_str = self.rank.val + self.suit.val
+        return (card_str,)
 
     def __eq__(self, other):
         if self.__class__ is other.__class__:

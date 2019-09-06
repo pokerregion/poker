@@ -97,11 +97,10 @@ class Hand(_ReprMixin, metaclass=_HandMeta):
     def __hash__(self):
         return hash(self.first) + hash(self.second) + hash(self.shape)
 
-    def __getstate__(self):
-        return {'first': self.first, 'second': self.second, '_shape': self._shape}
-
-    def __setstate__(self, state):
-        self.first, self.second, self._shape = state['first'], state['second'], state['_shape']
+    def __getnewargs__(self):
+        # We can't just return self, for obivous reason (maximum recursion depth would be reached)
+        hand_str = self.first.val + self.second.val + self._shape
+        return (hand_str,)
 
     def __eq__(self, other):
         if self.__class__ is not other.__class__:
@@ -238,11 +237,9 @@ class Combo(_ReprMixin):
     def __hash__(self):
         return hash(self.first) + hash(self.second)
 
-    def __getstate__(self):
-        return {'first': self.first, 'second': self.second}
-
-    def __setstate__(self, state):
-        self.first, self.second = state['first'], state['second']
+    def __getnewargs__(self):
+        combo_str = self.first.rank.val + self.first.suit.val + self.second.rank.val + self.second.suit.val
+        return (combo_str,)
 
     def __eq__(self, other):
         if self.__class__ is other.__class__:
@@ -638,12 +635,6 @@ class Range(object):
     def __repr__(self):
         range = ' '.join(self.rep_pieces)
         return "{}('{}')".format(self.__class__.__name__, range)
-
-    def __getstate__(self):
-        return {'_hands': self._hands, '_combos': self._combos}
-
-    def __setstate__(self, state):
-        self._hands, self._combos = state['_hands'], state['_combos']
 
     def __hash__(self):
         return hash(self.combos)
