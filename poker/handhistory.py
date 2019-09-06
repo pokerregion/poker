@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-from __future__ import unicode_literals, absolute_import, division, print_function
 
 """
     Poker hand history parser module.
@@ -157,11 +156,8 @@ class _BaseHandHistory(object):
         with io.open(filename, 'rt', encoding='utf-8-sig') as f:
             return cls(f.read())
 
-    def __unicode__(self):
-        return "<{}: #{}>" .format(self.__class__.__name__, self.ident)
-
     def __str__(self):
-        return unicode(self).decode('utf-8')
+        return "<{}: #{}>" .format(self.__class__.__name__, self.ident)
 
     @property
     def board(self):

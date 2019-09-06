@@ -51,22 +51,6 @@ The right way for setting a date correctly e.g. from PokerStars ET time is:
 This will consider DST settings and ambiguous times. For more information, see `pytz documentation`_!
 
 
-Unicode vs Bytes
-----------------
-
-The library uses the strategy from Python 3: internally, everything is using unicode, and things are
-converted only the I/O boundaries (e.g. opening/writing files).
-This is implemented by the future mechanism:
-
-.. code-block:: python
-
-   from __future__ import unicode_literals
-
-this way, all newly defined text will be unicode by default. I only check for unicode everywhere
-in the code, not str, please watch this! It might feel strange the first time, but when the time comes
-to convert the library to Python3, it will be much easier!
-
-
 New hand history parser
 -----------------------
 

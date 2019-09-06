@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-from __future__ import unicode_literals, absolute_import, division, print_function
 
 from collections import Mapping, OrderedDict as odict
 from pathlib import Path
@@ -81,7 +80,7 @@ class Strategy(Mapping):
         return self._situations.get(key, default)
 
     def __getitem__(self, key):
-        if isinstance(key, unicode):
+        if isinstance(key, str):
             return self._situations.__getitem__(key)
         elif isinstance(key, int):
             return self._tuple[key]

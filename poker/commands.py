@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-from __future__ import unicode_literals, absolute_import, division, print_function
 
 import sys
 import collections
@@ -29,7 +28,7 @@ def _print_values(*args):
             valueformat = "{:%Y-%m-%d (%A) %H:%M (%Z)}"
         elif isinstance(value, dt.date):
             valueformat = "{:%Y-%m-%d}"
-        elif isinstance(value, collections.Sequence) and not isinstance(value, unicode):
+        elif isinstance(value, collections.Sequence) and not isinstance(value, str):
             value = ', '.join(value)
         click.echo(('{:<20}' + valueformat).format(what + ': ', value))
 

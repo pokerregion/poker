@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-from __future__ import unicode_literals, absolute_import, division, print_function
 
 import itertools
 from functools import total_ordering
@@ -108,7 +107,7 @@ class Card(_ReprMixin, metaclass=_CardMeta):
             return self.suit < other.suit
         return self.rank < other.rank
 
-    def __unicode__(self):
+    def __str__(self):
         return '{}{}'.format(self.rank, self.suit)
 
     @property

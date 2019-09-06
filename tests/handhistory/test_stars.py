@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-from __future__ import unicode_literals, absolute_import, division, print_function
 
 from decimal import Decimal
 from datetime import datetime
@@ -53,7 +52,7 @@ def test_open_from_file(testdir):
     hh = PokerStarsHandHistory.from_file(bbb_path)
     hh.parse()
     assert hh.ident == '138364355489'
-    assert type(hh.raw) is unicode
+    assert type(hh.raw) is str
 
 
 class TestHandHeaderNoLimitHoldemTourFreeroll:
@@ -515,7 +514,7 @@ class TestClassRepresentation:
     hand_text = stars_hands.HAND1
 
     def test_unicode(self, hand_header):
-        assert str(hand_header) == u'<PokerStarsHandHistory: #105024000105>'
+        assert str(hand_header) == '<PokerStarsHandHistory: #105024000105>'
 
     def test_str(self, hand_header):
         assert str(hand_header) == '<PokerStarsHandHistory: #105024000105>'

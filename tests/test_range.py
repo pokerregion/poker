@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-from __future__ import unicode_literals, absolute_import, division, print_function
 
 import pickle
 import pytest
@@ -308,113 +307,112 @@ class TestNormalization:
     """Test for repr, unicode representation and range normalization."""
 
     def test_empty_range_is_empty(self):
-        assert unicode(Range('')) == ''
-        assert repr(Range('')) == b"Range('')"
+        assert str(Range('')) == ''
+        assert repr(Range('')) == "Range('')"
 
-        assert unicode(Range()) == ''
-        assert repr(Range()) == b"Range('')"
+        assert str(Range()) == ''
+        assert repr(Range()) == "Range('')"
 
     def test_one_pair(self):
-        assert str(Range('22')) == b'22'
-        assert unicode(Range('22')) == '22'
+        assert str(Range('22')) == '22'
 
     def test_two_pairs(self):
-        assert unicode(Range('22 44')) == '44, 22'
+        assert str(Range('22 44')) == '44, 22'
 
     def test_one_offsuit_hand(self):
-        assert unicode(Range('AKo')) == 'AKo'
+        assert str(Range('AKo')) == 'AKo'
 
     def test_one_combination(self):
-        assert unicode(Range('AsKc')) == 'A♠K♣'
+        assert str(Range('AsKc')) == 'A♠K♣'
 
     def test_offsuit_and_suited(self):
-        assert unicode(Range('AK')) == 'AKs, AKo'
+        assert str(Range('AK')) == 'AKs, AKo'
 
     def test_suited_hand(self):
-        assert unicode(Range('AKs')) == 'AKs'
+        assert str(Range('AKs')) == 'AKs'
 
     def test_one_pair_and_one_hand(self):
-        assert unicode(Range('22 AKo')) == '22, AKo'
-        assert unicode(Range('22 AKs')) == '22, AKs'
+        assert str(Range('22 AKo')) == '22, AKo'
+        assert str(Range('22 AKs')) == '22, AKs'
 
     def test_one_pair_and_suited_and_offsuit(self):
-        assert unicode(Range('22 AKo AKs')) == '22, AKs, AKo'
-        assert unicode(Range('22 AK')) == '22, AKs, AKo'
+        assert str(Range('22 AKo AKs')) == '22, AKs, AKo'
+        assert str(Range('22 AK')) == '22, AKs, AKo'
 
     def test_one_pair_and_one_combo(self):
-        assert unicode(Range('22 AsKh')) == '22, A♠K♥'
+        assert str(Range('22 AsKh')) == '22, A♠K♥'
 
     def test_pair_range(self):
-        assert unicode(Range('33-66')) == '66-33'
+        assert str(Range('33-66')) == '66-33'
 
     def test_mixed_pairs_ranges_and_combos(self):
-        assert unicode(Range('44+, KJs KJo JsQc AcKc')) == '44+, A♣K♣, KJs, KJo, Q♣J♠'
+        assert str(Range('44+, KJs KJo JsQc AcKc')) == '44+, A♣K♣, KJs, KJo, Q♣J♠'
 
     def test_very_complicated_range(self):
-        assert unicode(Range('44-88, AA-KK, KJs KcJh JsQc AcKc 74s-76s')) == \
+        assert str(Range('44-88, AA-KK, KJs KcJh JsQc AcKc 74s-76s')) == \
             'KK+, 88-44, A♣K♣, KJs, 74s+, K♣J♥, Q♣J♠'
 
     def test_negative(self):
         range = Range('55-22')
-        assert unicode(range) == '55-'
+        assert str(range) == '55-'
         assert repr(range) == "Range('55-')"
 
     def test_full_range(self):
-        assert unicode(Range('XX')) == 'XX'
+        assert str(Range('XX')) == 'XX'
 
     def test_X_in_range(self):
-        assert unicode(Range('KX')) == 'K2s+, K2o+'
+        assert str(Range('KX')) == 'K2s+, K2o+'
 
     def test_rep_pieces(self):
         assert Range('KX').rep_pieces == ['K2s+', 'K2o+']
 
     def test_both_suits_with_plus_or_minus(self):
-        assert unicode(Range('A5-')) == 'A5s-, A5o-'
-        assert unicode(Range('A5+')) == 'A5s+, A5o+'
-        assert unicode(Range('A5+ A5-')) == 'A2s+, A2o+'
+        assert str(Range('A5-')) == 'A5s-, A5o-'
+        assert str(Range('A5+')) == 'A5s+, A5o+'
+        assert str(Range('A5+ A5-')) == 'A2s+, A2o+'
 
     def test_X_plus(self):
-        assert unicode(Range('QX+')) == 'A2s+, K2s+, Q2s+, A2o+, K2o+, Q2o+'
+        assert str(Range('QX+')) == 'A2s+, K2s+, Q2s+, A2o+, K2o+, Q2o+'
 
     def test_X_minus(self):
-        assert unicode(Range('5X-')) == '52s+, 42s+, 32s, 52o+, 42o+, 32o'
+        assert str(Range('5X-')) == '52s+, 42s+, 32s, 52o+, 42o+, 32o'
 
     def test_hand_plus(self):
-        assert unicode(Range('KJo+')) == 'KJo+'
+        assert str(Range('KJo+')) == 'KJo+'
 
     def test_hand_minus(self):
-        assert unicode(Range('76o-')) == '72o+'
+        assert str(Range('76o-')) == '72o+'
 
     def test_both_dashed(self):
-        assert unicode(Range('J8-J4')) == 'J8s-J4s, J8o-J4o'
+        assert str(Range('J8-J4')) == 'J8s-J4s, J8o-J4o'
 
     def test_str_and_range(self):
         range = Range('77+ AKo')
         assert repr(range) == "Range('77+ AKo')"
-        assert unicode(range) == '77+, AKo'
+        assert str(range) == '77+, AKo'
 
     def test_order_with_suit_and_without_suit(self):
         range = Range('Kas 48')
         assert repr(range) == "Range('AKs 84s 84o')"
-        assert unicode(range) == 'AKs, 84s, 84o'
+        assert str(range) == 'AKs, 84s, 84o'
 
     def test_pairs_order(self):
         range = Range('22-55')
-        assert unicode(range) == '55-'
+        assert str(range) == '55-'
 
     def test_redundant_offsuit_hands(self):
         range = Range('A2o+ 2Ao 8ao')
-        assert unicode(range) == 'A2o+'
+        assert str(range) == 'A2o+'
         assert repr(range) == "Range('A2o+')"
 
     def test_reduntant_pairs(self):
         range = Range('22-44 33')
-        assert unicode(range) == '44-'
+        assert str(range) == '44-'
         assert repr(range) == "Range('44-')"
 
     def test_redundant_suited_hands(self):
         range = Range('2as+ A5s A7s')
-        assert unicode(range) == 'A2s+'
+        assert str(range) == 'A2s+'
         assert repr(range) == "Range('A2s+')"
 
 

@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-from __future__ import unicode_literals, absolute_import, division, print_function
 
 import re
 from decimal import Decimal
@@ -304,17 +303,13 @@ class Notes(object):
 
     _color_re = re.compile('^[0-9A-F]{6}$')
 
-    def __init__(self, notes):
-        # notes need to be a unicode object
+    def __init__(self, notes: str):
         self.raw = notes
         parser = etree.XMLParser(recover=True, resolve_entities=False)
-        self.root = etree.XML(notes.encode('utf-8'), parser)
-
-    def __unicode__(self):
-        return str(self).decode('utf-8')
+        self.root = etree.XML(notes.encode(), parser)
 
     def __str__(self):
-        return etree.tostring(self.root, xml_declaration=True, encoding='UTF-8', pretty_print=True)
+        return etree.tostring(self.root, xml_declaration=True, encoding='UTF-8', pretty_print=True).decode()
 
     @classmethod
     def from_file(cls, filename):

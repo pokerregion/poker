@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-from __future__ import unicode_literals, absolute_import, division, print_function
 
 import random
 import functools
@@ -12,18 +11,18 @@ class _PokerEnumMeta(enum.EnumMeta):
         # make sure we only have tuple values, not single values
         for member in self.__members__.values():
             values = member._value_
-            if not isinstance(values, Iterable) or isinstance(values, basestring):
+            if not isinstance(values, Iterable) or isinstance(values, str):
                 raise TypeError('{} = {!r}, should be iterable, not {}!'
                                 .format(member._name_, values, type(values)))
             for alias in values:
-                if isinstance(alias, unicode):
+                if isinstance(alias, str):
                     alias = alias.upper()
                 self._value2member_map_.setdefault(alias, member)
 
     def __call__(cls, value):
         """Return the appropriate instance with any of the values listed. If values contains
         text types, those will be looked up in a case insensitive manner."""
-        if isinstance(value, unicode):
+        if isinstance(value, str):
             value = value.upper()
         return super(_PokerEnumMeta, cls).__call__(value)
 
@@ -56,22 +55,18 @@ class _OrderableMixin(object):
     def __reduce_ex__(self, proto):
         return self.__class__.__name__
 
+    def __str__(self):
+        return str(self._value_[0])
 
-
-    def __unicode__(self):
-        return unicode(self._value_[0])
 
 class PokerEnum(_OrderableMixin, enum.Enum, metaclass=_PokerEnumMeta):
-    def __str__(self):
-        return unicode(self).encode('utf-8')
-
     def __repr__(self):
         val = self._value_[0]
-        apostrophe = "'" if isinstance(val, unicode) else ''
-        return "{0}({1}{2}{1})".format(self.__class__.__name__, apostrophe, val).encode('utf-8')
+        apostrophe = "'" if isinstance(val, str) else ''
+        return "{0}({1}{2}{1})".format(self.__class__.__name__, apostrophe, val)
 
     def __format__(self, format_spec):
-        return unicode(self._value_[0])
+        return str(self._value_[0])
 
     @property
     def val(self):
@@ -80,11 +75,8 @@ class PokerEnum(_OrderableMixin, enum.Enum, metaclass=_PokerEnumMeta):
 
 
 class _ReprMixin(object):
-    def __str__(self):
-        return unicode(self).encode('utf-8')
-
     def __repr__(self):
-        return "{}('{}')".format(self.__class__.__name__, self).encode('utf-8')
+        return "{}('{}')".format(self.__class__.__name__, self)
 
 
 def _make_float(string):
