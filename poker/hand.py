@@ -732,13 +732,13 @@ class Range(object):
 
         all_combos = self._all_combos
 
-        pairs = list(filter(lambda c: c.is_pair, all_combos))
+        pairs = [c for c in all_combos if c.is_pair]
         pair_pieces = self._get_pieces(pairs, 6)
 
-        suiteds = list(filter(lambda c: c.is_suited, all_combos))
+        suiteds = [c for c in all_combos if c.is_suited]
         suited_pieces = self._get_pieces(suiteds, 4)
 
-        offsuits = list(filter(lambda c: c.is_offsuit, all_combos))
+        offsuits = [c for c in all_combos if c.is_offsuit]
         offsuit_pieces = self._get_pieces(offsuits, 12)
 
         pair_strs = self._shorten_pieces(pair_pieces)
