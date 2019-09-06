@@ -1,6 +1,8 @@
 Installation
 ============
 
+The package requires Python 3.6+ only from version 0.30.0.
+
 
 Simple from PYPI::
 

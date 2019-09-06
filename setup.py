@@ -26,14 +26,16 @@ console_scripts = [
 classifiers = [
     "Intended Audience :: Developers",
     "Programming Language :: Python",
-    "Programming Language :: Python :: 2",
-    "Programming Language :: Python :: 2.7",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
 ]
 
 
 setup(
     name='poker',
-    version='0.23.1',
+    version='0.30.0',
     description='Poker Framework',
     long_description=Path('README.rst').read_text(),
     classifiers=classifiers,

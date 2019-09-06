@@ -126,22 +126,6 @@ and install `pytest`_ and run it directly::
 from the poker module directory and `pytest`_ will automatically pick up all unit tests.
 
 
-About the state of Python3
---------------------------
-
-Originally I started the library in Python3.4 only, and though everything worked well for a while and
-library support seemed fine, the tooling around Python3 is not there at all yet. PyPy, PyInstaller
-Kivy, etc, etc. doesn't support Python3.4 at all, but even if they do, there are bugs/problems which
-are hard to solve, because nobody experienced it before. A nice example is that I found a bug in the
-3.4 standard library enum module.
-
-As a consequence of this, at v0.22.0 I converted the whole repository to Python2 only. The long-term
-strategy is to use Python2 for everything until the tooling for Python3.4 catch up, and at that point,
-convert it to Python3.4 and continue from there. I don't want to develop a 2 and 3 compatible library
-for such a niche market, because it's very time consuming, please don't even ask me! (E.g. it took
-straight 10 hours to convert the whole library to Python2, with no new code at all...)
-
-
 .. _pytest: http://pytest.org/
 .. _Workflow: https://guides.github.com/introduction/flow/index.html
 .. _Semantic Versioning: http://semver.org/
