@@ -42,11 +42,12 @@ class Strategy(Mapping):
         self._situations = odict()
         for name in self._config.sections():
             # configparser set non-specified values to '', we want default to None
-            values = dict.fromkeys(_Situation.__slots__, None)
+            attr_names = [a.name for a in attr.fields(_Situation)]
+            values = dict.fromkeys(attr_names, None)
             for key, val in self._config[name].items():
                 # filter out fields not implemented, otherwise it would
                 # cause TypeError for _Situation constructor
-                if (not val) or (key not in _Situation.__slots__):
+                if (not val) or (key not in attr_names):
                     continue
                 elif key in _POSITIONS:
                     values[key] = Range(val)
