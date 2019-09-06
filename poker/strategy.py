@@ -1,4 +1,4 @@
-from collections import Mapping, OrderedDict as odict
+from collections import Mapping
 from pathlib import Path
 import attr
 from configparser import ConfigParser
@@ -37,7 +37,7 @@ class Strategy(Mapping):
         self._config = ConfigParser(default_section='strategy', interpolation=None)
         self._config.read_string(strategy, source)
 
-        self._situations = odict()
+        self._situations = dict()
         for name in self._config.sections():
             # configparser set non-specified values to '', we want default to None
             attr_names = [a.name for a in attr.fields(_Situation)]
