@@ -73,10 +73,8 @@ class _CardMeta(type):
 
 
 @total_ordering
-class Card(_ReprMixin):
+class Card(_ReprMixin, metaclass=_CardMeta):
     """Represents a Card, which consists a Rank and a Suit."""
-
-    __metaclass__ = _CardMeta
     __slots__ = ('rank', 'suit')
 
     def __new__(cls, card):

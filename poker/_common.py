@@ -57,12 +57,11 @@ class _OrderableMixin(object):
         return self.__class__.__name__
 
 
-class PokerEnum(_OrderableMixin, enum.Enum):
-    __metaclass__ = _PokerEnumMeta
 
     def __unicode__(self):
         return unicode(self._value_[0])
 
+class PokerEnum(_OrderableMixin, enum.Enum, metaclass=_PokerEnumMeta):
     def __str__(self):
         return unicode(self).encode('utf-8')
 

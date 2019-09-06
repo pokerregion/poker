@@ -62,9 +62,8 @@ class _HandMeta(type):
 
 
 @functools.total_ordering
-class Hand(_ReprMixin):
+class Hand(_ReprMixin, metaclass=_HandMeta):
     """General hand without a precise suit. Only knows about two ranks and shape."""
-    __metaclass__ = _HandMeta
     __slots__ = ('first', 'second', '_shape')
 
     def __new__(cls, hand):
