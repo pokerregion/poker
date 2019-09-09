@@ -37,7 +37,7 @@ lint:
 	flake8 poker test
 
 test:
-	py.test
+	pytest
 
 test-all:
 	tox
@@ -54,10 +54,10 @@ docs:
 
 release: clean
 	git push origin master --tags
-	python2 setup.py sdist upload
-	python2 setup.py bdist_wheel upload
+	python3 setup.py sdist upload
+	python3 setup.py bdist_wheel upload
 
 dist: clean
-	python2 setup.py sdist
-	python2 setup.py bdist_wheel
+	python3 setup.py sdist
+	python3 setup.py bdist_wheel
 	ls -l dist
