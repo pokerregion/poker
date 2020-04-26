@@ -1,3 +1,5 @@
 .coverage
 *.py[oc]
 docs/_build/
+.idea
+venv/
