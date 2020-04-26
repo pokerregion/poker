@@ -1,0 +1,1452 @@
+﻿PokerStars Hand #212331029062:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:52:05 ET
+Table 'Ducrosa' 9-max Seat #3 is the button
+Seat 1: anghelstefanesc ($2.99 in chips)
+Seat 2: TSAB21 ($3.04 in chips)
+Seat 3: Ddddriverur1 ($1.89 in chips)
+Seat 4: DHL.de ($1.80 in chips)
+Seat 5: pokerHero1 ($2 in chips)
+Seat 6: Bertovic ($2.12 in chips)
+Seat 7: bolitkoleno ($1.30 in chips)
+Seat 8: partizan_vlg ($1.98 in chips)
+Seat 9: frosa9397 ($1.11 in chips)
+DHL.de: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As Qc]
+Bertovic: folds
+bolitkoleno: folds
+partizan_vlg: folds
+frosa9397: calls $0.02
+anghelstefanesc: calls $0.02
+TSAB21: folds
+Ddddriverur1: calls $0.02
+DHL.de: folds
+pokerHero1: raises $0.06 to $0.08
+frosa9397: folds
+anghelstefanesc: calls $0.06
+Ddddriverur1: calls $0.06
+*** FLOP *** [9s 8s Qh]
+pokerHero1: bets $0.14
+anghelstefanesc: calls $0.14
+Ddddriverur1: folds
+*** TURN *** [9s 8s Qh] [Tc]
+pokerHero1: checks
+anghelstefanesc: checks
+*** RIVER *** [9s 8s Qh Tc] [7d]
+pokerHero1: checks
+anghelstefanesc: checks
+*** SHOW DOWN ***
+pokerHero1: shows [As Qc] (a pair of Queens)
+anghelstefanesc: mucks hand
+pokerHero1 collected $0.53 from pot
+*** SUMMARY ***
+Total pot $0.55 | Rake $0.02
+Board [9s 8s Qh Tc 7d]
+Seat 1: anghelstefanesc mucked [9c Kd]
+Seat 2: TSAB21 folded before Flop (didn't bet)
+Seat 3: Ddddriverur1 (button) folded on the Flop
+Seat 4: DHL.de (small blind) folded before Flop
+Seat 5: pokerHero1 (big blind) showed [As Qc] and won ($0.53) with a pair of Queens
+Seat 6: Bertovic folded before Flop (didn't bet)
+Seat 7: bolitkoleno folded before Flop (didn't bet)
+Seat 8: partizan_vlg folded before Flop (didn't bet)
+Seat 9: frosa9397 folded before Flop
+
+
+
+PokerStars Hand #212331132435:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:53:33 ET
+Table 'Ducrosa' 9-max Seat #4 is the button
+Seat 1: anghelstefanesc ($2.77 in chips)
+Seat 2: TSAB21 ($3.04 in chips)
+Seat 3: Ddddriverur1 ($1.81 in chips)
+Seat 4: DHL.de ($1.79 in chips)
+Seat 5: pokerHero1 ($2.31 in chips)
+Seat 6: Bertovic ($2.12 in chips)
+Seat 7: bolitkoleno ($1.30 in chips)
+Seat 8: partizan_vlg ($1.98 in chips)
+Seat 9: frosa9397 ($1.09 in chips)
+pokerHero1: posts small blind $0.01
+Bertovic: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kh 8c]
+bolitkoleno: folds
+partizan_vlg: folds
+frosa9397: folds
+anghelstefanesc has timed out
+anghelstefanesc: folds
+TSAB21: calls $0.02
+Ddddriverur1: folds
+DHL.de: folds
+pokerHero1: folds
+Bertovic: checks
+*** FLOP *** [2d Kd Qc]
+Bertovic: checks
+TSAB21: checks
+*** TURN *** [2d Kd Qc] [Th]
+Bertovic: bets $0.05
+TSAB21: folds
+Uncalled bet ($0.05) returned to Bertovic
+Bertovic collected $0.05 from pot
+Bertovic: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [2d Kd Qc Th]
+Seat 1: anghelstefanesc folded before Flop (didn't bet)
+Seat 2: TSAB21 folded on the Turn
+Seat 3: Ddddriverur1 folded before Flop (didn't bet)
+Seat 4: DHL.de (button) folded before Flop (didn't bet)
+Seat 5: pokerHero1 (small blind) folded before Flop
+Seat 6: Bertovic (big blind) collected ($0.05)
+Seat 7: bolitkoleno folded before Flop (didn't bet)
+Seat 8: partizan_vlg folded before Flop (didn't bet)
+Seat 9: frosa9397 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212331190662:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:54:22 ET
+Table 'Ducrosa' 9-max Seat #5 is the button
+Seat 1: anghelstefanesc ($2.77 in chips)
+Seat 2: TSAB21 ($3.02 in chips)
+Seat 3: Ddddriverur1 ($1.81 in chips)
+Seat 4: DHL.de ($1.79 in chips)
+Seat 5: pokerHero1 ($2.30 in chips)
+Seat 6: Bertovic ($2.15 in chips)
+Seat 7: bolitkoleno ($1.30 in chips)
+Seat 8: partizan_vlg ($1.98 in chips)
+Seat 9: frosa9397 ($1.09 in chips)
+Bertovic: posts small blind $0.01
+bolitkoleno: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td 6h]
+partizan_vlg: folds
+frosa9397: folds
+anghelstefanesc: folds
+TSAB21: calls $0.02
+Ddddriverur1: folds
+DHL.de: folds
+pokerHero1: folds
+Bertovic: folds
+bolitkoleno: checks
+*** FLOP *** [Tc 4h 9h]
+bolitkoleno: checks
+TSAB21: checks
+*** TURN *** [Tc 4h 9h] [3h]
+bolitkoleno: checks
+TSAB21: bets $0.05
+bolitkoleno: folds
+Uncalled bet ($0.05) returned to TSAB21
+TSAB21 collected $0.05 from pot
+TSAB21: shows [3d 3s] (three of a kind, Threes)
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [Tc 4h 9h 3h]
+Seat 1: anghelstefanesc folded before Flop (didn't bet)
+Seat 2: TSAB21 collected ($0.05)
+Seat 3: Ddddriverur1 folded before Flop (didn't bet)
+Seat 4: DHL.de folded before Flop (didn't bet)
+Seat 5: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 6: Bertovic (small blind) folded before Flop
+Seat 7: bolitkoleno (big blind) folded on the Turn
+Seat 8: partizan_vlg folded before Flop (didn't bet)
+Seat 9: frosa9397 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212331257886:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:55:14 ET
+Table 'Ducrosa' 9-max Seat #6 is the button
+Seat 1: anghelstefanesc ($2.77 in chips)
+Seat 2: TSAB21 ($3.05 in chips)
+Seat 3: Ddddriverur1 ($1.81 in chips)
+Seat 4: DHL.de ($1.79 in chips)
+Seat 5: pokerHero1 ($2.30 in chips)
+Seat 6: Bertovic ($2.14 in chips)
+Seat 7: bolitkoleno ($1.28 in chips)
+Seat 9: frosa9397 ($1.09 in chips)
+bolitkoleno: posts small blind $0.01
+partizan_vlg: is sitting out
+frosa9397: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4h 8d]
+partizan_vlg leaves the table
+anghelstefanesc: folds
+TSAB21: calls $0.02
+Ddddriverur1: folds
+DHL.de: folds
+pokoslav2010 joins the table at seat #8
+pokerHero1: folds
+Bertovic: folds
+bolitkoleno: folds
+frosa9397: checks
+*** FLOP *** [Jc Ts Jh]
+frosa9397: checks
+TSAB21: bets $0.05
+frosa9397: folds
+Uncalled bet ($0.05) returned to TSAB21
+TSAB21 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [Jc Ts Jh]
+Seat 1: anghelstefanesc folded before Flop (didn't bet)
+Seat 2: TSAB21 collected ($0.05)
+Seat 3: Ddddriverur1 folded before Flop (didn't bet)
+Seat 4: DHL.de folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: Bertovic (button) folded before Flop (didn't bet)
+Seat 7: bolitkoleno (small blind) folded before Flop
+Seat 9: frosa9397 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212331288631:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:55:55 ET
+Table 'Ducrosa' 9-max Seat #7 is the button
+Seat 1: anghelstefanesc ($2.77 in chips)
+Seat 2: TSAB21 ($3.08 in chips)
+Seat 3: Ddddriverur1 ($1.81 in chips)
+Seat 4: DHL.de ($1.79 in chips)
+Seat 5: pokerHero1 ($2.30 in chips)
+Seat 6: Bertovic ($2.14 in chips)
+Seat 7: bolitkoleno ($1.27 in chips)
+Seat 9: frosa9397 ($1.07 in chips)
+frosa9397: posts small blind $0.01
+anghelstefanesc: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9h 2s]
+TSAB21: folds
+Ddddriverur1: folds
+DHL.de: folds
+pokerHero1: folds
+TSAB21 leaves the table
+Bertovic: folds
+bolitkoleno: calls $0.02
+frosa9397: folds
+anghelstefanesc: checks
+*** FLOP *** [Ac 8h 2d]
+anghelstefanesc: bets $0.04
+bolitkoleno: folds
+Uncalled bet ($0.04) returned to anghelstefanesc
+anghelstefanesc collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [Ac 8h 2d]
+Seat 1: anghelstefanesc (big blind) collected ($0.05)
+Seat 2: TSAB21 folded before Flop (didn't bet)
+Seat 3: Ddddriverur1 folded before Flop (didn't bet)
+Seat 4: DHL.de folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: Bertovic folded before Flop (didn't bet)
+Seat 7: bolitkoleno (button) folded on the Flop
+Seat 9: frosa9397 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212331317560:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:56:34 ET
+Table 'Ducrosa' 9-max Seat #9 is the button
+Seat 1: anghelstefanesc ($2.80 in chips)
+Seat 3: Ddddriverur1 ($1.81 in chips)
+Seat 4: DHL.de ($1.79 in chips)
+Seat 5: pokerHero1 ($2.30 in chips)
+Seat 6: Bertovic ($2.14 in chips)
+Seat 7: bolitkoleno ($1.25 in chips)
+Seat 9: frosa9397 ($1.06 in chips)
+meikmo joins the table at seat #2
+anghelstefanesc: posts small blind $0.01
+Ddddriverur1: posts big blind $0.02
+pokoslav2010: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad 4h]
+DHL.de: raises $0.04 to $0.06
+pokerHero1: folds
+Bertovic: folds
+bolitkoleno: folds
+frosa9397: folds
+anghelstefanesc: folds
+Ddddriverur1: folds
+Uncalled bet ($0.04) returned to DHL.de
+DHL.de collected $0.05 from pot
+DHL.de: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: anghelstefanesc (small blind) folded before Flop
+Seat 3: Ddddriverur1 (big blind) folded before Flop
+Seat 4: DHL.de collected ($0.05)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: Bertovic folded before Flop (didn't bet)
+Seat 7: bolitkoleno folded before Flop (didn't bet)
+Seat 9: frosa9397 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212331338070:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:57:01 ET
+Table 'Ducrosa' 9-max Seat #1 is the button
+Seat 1: anghelstefanesc ($2.79 in chips)
+Seat 3: Ddddriverur1 ($1.79 in chips)
+Seat 4: DHL.de ($1.82 in chips)
+Seat 5: pokerHero1 ($2.30 in chips)
+Seat 6: Bertovic ($2.14 in chips)
+Seat 7: bolitkoleno ($1.25 in chips)
+Seat 9: frosa9397 ($1.06 in chips)
+Ddddriverur1: posts small blind $0.01
+DHL.de: posts big blind $0.02
+pokoslav2010: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc 9c]
+pokerHero1: folds
+Bertovic: folds
+bolitkoleno: folds
+frosa9397: folds
+anghelstefanesc: folds
+Ddddriverur1: calls $0.01
+DHL.de: checks
+*** FLOP *** [Ad Ks 3c]
+Ddddriverur1: checks
+DHL.de: checks
+*** TURN *** [Ad Ks 3c] [3h]
+Ddddriverur1: checks
+DHL.de: bets $0.02
+Ddddriverur1: folds
+Uncalled bet ($0.02) returned to DHL.de
+DHL.de collected $0.04 from pot
+DHL.de: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [Ad Ks 3c 3h]
+Seat 1: anghelstefanesc (button) folded before Flop (didn't bet)
+Seat 3: Ddddriverur1 (small blind) folded on the Turn
+Seat 4: DHL.de (big blind) collected ($0.04)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: Bertovic folded before Flop (didn't bet)
+Seat 7: bolitkoleno folded before Flop (didn't bet)
+Seat 9: frosa9397 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212331369219:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:57:42 ET
+Table 'Ducrosa' 9-max Seat #3 is the button
+Seat 1: anghelstefanesc ($2.79 in chips)
+Seat 2: meikmo ($0.80 in chips)
+Seat 3: Ddddriverur1 ($1.77 in chips)
+Seat 4: DHL.de ($1.84 in chips)
+Seat 5: pokerHero1 ($2.30 in chips)
+Seat 6: Bertovic ($2.14 in chips)
+Seat 7: bolitkoleno ($1.25 in chips)
+Seat 9: frosa9397 ($1.06 in chips)
+DHL.de: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+pokoslav2010: sits out
+meikmo: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d Td]
+Bertovic has timed out
+Bertovic: folds
+bolitkoleno: folds
+frosa9397: raises $0.07 to $0.09
+anghelstefanesc: calls $0.09
+meikmo: folds
+Ddddriverur1: folds
+DHL.de: folds
+pokerHero1: folds
+*** FLOP *** [Ah Jh Tc]
+frosa9397: checks
+anghelstefanesc: checks
+*** TURN *** [Ah Jh Tc] [4c]
+frosa9397: checks
+anghelstefanesc: bets $0.06
+frosa9397: calls $0.06
+*** RIVER *** [Ah Jh Tc 4c] [4s]
+frosa9397: checks
+anghelstefanesc: bets $0.17
+frosa9397: folds
+Uncalled bet ($0.17) returned to anghelstefanesc
+anghelstefanesc collected $0.34 from pot
+*** SUMMARY ***
+Total pot $0.35 | Rake $0.01
+Board [Ah Jh Tc 4c 4s]
+Seat 1: anghelstefanesc collected ($0.34)
+Seat 2: meikmo folded before Flop (didn't bet)
+Seat 3: Ddddriverur1 (button) folded before Flop (didn't bet)
+Seat 4: DHL.de (small blind) folded before Flop
+Seat 5: pokerHero1 (big blind) folded before Flop
+Seat 6: Bertovic folded before Flop (didn't bet)
+Seat 7: bolitkoleno folded before Flop (didn't bet)
+Seat 9: frosa9397 folded on the River
+
+
+
+PokerStars Hand #212331431584:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:59:07 ET
+Table 'Ducrosa' 9-max Seat #4 is the button
+Seat 1: anghelstefanesc ($2.98 in chips)
+Seat 2: meikmo ($0.78 in chips)
+Seat 3: Ddddriverur1 ($1.77 in chips)
+Seat 4: DHL.de ($1.83 in chips)
+Seat 5: pokerHero1 ($2.28 in chips)
+Seat 6: Bertovic ($2.14 in chips)
+Seat 7: bolitkoleno ($1.25 in chips)
+Seat 9: frosa9397 ($0.91 in chips)
+pokerHero1: posts small blind $0.01
+Bertovic: posts big blind $0.02
+pokoslav2010: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d 2c]
+bolitkoleno: calls $0.02
+frosa9397: calls $0.02
+anghelstefanesc: calls $0.02
+meikmo: calls $0.02
+Ddddriverur1: folds
+DHL.de: folds
+pokerHero1: calls $0.01
+Bertovic: checks
+*** FLOP *** [7h 7s 4s]
+pokerHero1: checks
+Bertovic: bets $0.10
+bolitkoleno: raises $0.10 to $0.20
+frosa9397: calls $0.20
+anghelstefanesc: folds
+meikmo: folds
+pokerHero1: folds
+Bertovic: calls $0.10
+*** TURN *** [7h 7s 4s] [8c]
+Bertovic: checks
+bolitkoleno: bets $0.35
+frosa9397: calls $0.35
+Bertovic: folds
+*** RIVER *** [7h 7s 4s 8c] [5s]
+bolitkoleno: bets $0.68 and is all-in
+frosa9397: folds
+Uncalled bet ($0.68) returned to bolitkoleno
+bolitkoleno collected $1.37 from pot
+bolitkoleno: doesn't show hand
+*** SUMMARY ***
+Total pot $1.42 | Rake $0.05
+Board [7h 7s 4s 8c 5s]
+Seat 1: anghelstefanesc folded on the Flop
+Seat 2: meikmo folded on the Flop
+Seat 3: Ddddriverur1 folded before Flop (didn't bet)
+Seat 4: DHL.de (button) folded before Flop (didn't bet)
+Seat 5: pokerHero1 (small blind) folded on the Flop
+Seat 6: Bertovic (big blind) folded on the Turn
+Seat 7: bolitkoleno collected ($1.37)
+Seat 9: frosa9397 folded on the River
+
+
+
+PokerStars Hand #212331513538:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:00:44 ET
+Table 'Ducrosa' 9-max Seat #5 is the button
+Seat 1: anghelstefanesc ($2.96 in chips)
+Seat 2: meikmo ($0.76 in chips)
+Seat 3: Ddddriverur1 ($1.77 in chips)
+Seat 4: DHL.de ($1.83 in chips)
+Seat 5: pokerHero1 ($2.26 in chips)
+Seat 6: Bertovic ($1.92 in chips)
+Seat 7: bolitkoleno ($2.05 in chips)
+Seat 9: frosa9397 ($0.34 in chips)
+Bertovic: posts small blind $0.01
+bolitkoleno: posts big blind $0.02
+pokoslav2010: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8d 5s]
+frosa9397: folds
+anghelstefanesc: raises $0.04 to $0.06
+meikmo: folds
+Ddddriverur1: folds
+DHL.de: calls $0.06
+pokerHero1: folds
+Bertovic: folds
+bolitkoleno: calls $0.04
+*** FLOP *** [9h 3d Ks]
+bolitkoleno: checks
+anghelstefanesc: checks
+DHL.de: bets $0.04
+bolitkoleno: folds
+anghelstefanesc: calls $0.04
+*** TURN *** [9h 3d Ks] [Ah]
+bolitkoleno leaves the table
+anghelstefanesc: checks
+DHL.de: checks
+*** RIVER *** [9h 3d Ks Ah] [5d]
+anghelstefanesc: bets $0.04
+DHL.de: calls $0.04
+*** SHOW DOWN ***
+anghelstefanesc: shows [Ac 2d] (a pair of Aces)
+DHL.de: mucks hand
+anghelstefanesc collected $0.34 from pot
+*** SUMMARY ***
+Total pot $0.35 | Rake $0.01
+Board [9h 3d Ks Ah 5d]
+Seat 1: anghelstefanesc showed [Ac 2d] and won ($0.34) with a pair of Aces
+Seat 2: meikmo folded before Flop (didn't bet)
+Seat 3: Ddddriverur1 folded before Flop (didn't bet)
+Seat 4: DHL.de mucked [Kh Qh]
+Seat 5: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 6: Bertovic (small blind) folded before Flop
+Seat 7: bolitkoleno (big blind) folded on the Flop
+Seat 9: frosa9397 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212331608879:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:02:10 ET
+Table 'Ducrosa' 9-max Seat #6 is the button
+Seat 1: anghelstefanesc ($3.16 in chips)
+Seat 2: meikmo ($0.76 in chips)
+Seat 3: Ddddriverur1 ($1.77 in chips)
+Seat 4: DHL.de ($1.69 in chips)
+Seat 5: pokerHero1 ($2.26 in chips)
+Seat 6: Bertovic ($1.91 in chips)
+Seat 9: frosa9397 ($0.34 in chips)
+frosa9397: posts small blind $0.01
+anghelstefanesc: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s Kc]
+meikmo: folds
+Ddddriverur1: folds
+DHL.de: folds
+pokerHero1: folds
+Bertovic: raises $0.04 to $0.06
+frosa9397: folds
+anghelstefanesc: raises $0.13 to $0.19
+Bertovic: folds
+Uncalled bet ($0.13) returned to anghelstefanesc
+anghelstefanesc collected $0.13 from pot
+anghelstefanesc: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Seat 1: anghelstefanesc (big blind) collected ($0.13)
+Seat 2: meikmo folded before Flop (didn't bet)
+Seat 3: Ddddriverur1 folded before Flop (didn't bet)
+Seat 4: DHL.de folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: Bertovic (button) folded before Flop
+Seat 9: frosa9397 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212331647588:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:02:43 ET
+Table 'Ducrosa' 9-max Seat #9 is the button
+Seat 1: anghelstefanesc ($3.23 in chips)
+Seat 2: meikmo ($0.76 in chips)
+Seat 3: Ddddriverur1 ($1.77 in chips)
+Seat 4: DHL.de ($1.69 in chips)
+Seat 5: pokerHero1 ($2.26 in chips)
+Seat 6: Bertovic ($1.85 in chips)
+Seat 9: frosa9397 ($0.33 in chips)
+anghelstefanesc: posts small blind $0.01
+meikmo: posts big blind $0.02
+pokoslav2010: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5h 2s]
+Ddddriverur1: folds
+DHL.de: folds
+pokerHero1: folds
+Bertovic: folds
+frosa9397: folds
+anghelstefanesc: raises $0.12 to $0.14
+meikmo: raises $0.62 to $0.76 and is all-in
+anghelstefanesc: calls $0.62
+adept-ser joins the table at seat #7
+*** FLOP *** [6h Ac Qh]
+*** TURN *** [6h Ac Qh] [Th]
+*** RIVER *** [6h Ac Qh Th] [6d]
+*** SHOW DOWN ***
+anghelstefanesc: shows [Qs Qd] (a full house, Queens full of Sixes)
+meikmo: shows [8s Js] (a pair of Sixes)
+anghelstefanesc collected $1.47 from pot
+meikmo cashed out the hand for $0.25
+*** SUMMARY ***
+Total pot $1.52 | Rake $0.05
+Board [6h Ac Qh Th 6d]
+Seat 1: anghelstefanesc (small blind) showed [Qs Qd] and won ($1.47) with a full house, Queens full of Sixes
+Seat 2: meikmo (big blind) showed [8s Js] and lost with a pair of Sixes (cashed out).
+Seat 3: Ddddriverur1 folded before Flop (didn't bet)
+Seat 4: DHL.de folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: Bertovic folded before Flop (didn't bet)
+Seat 9: frosa9397 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212331695502:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:03:21 ET
+Table 'Ducrosa' 9-max Seat #1 is the button
+Seat 1: anghelstefanesc ($3.94 in chips)
+Seat 2: meikmo ($0.25 in chips)
+Seat 3: Ddddriverur1 ($1.77 in chips)
+Seat 4: DHL.de ($1.69 in chips)
+Seat 5: pokerHero1 ($2.26 in chips)
+Seat 6: Bertovic ($1.85 in chips)
+Seat 9: frosa9397 ($0.33 in chips)
+meikmo: posts small blind $0.01
+Ddddriverur1: posts big blind $0.02
+adept-ser: sits out
+pokoslav2010: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5d Ah]
+DHL.de: folds
+pokerHero1: folds
+Bertovic: folds
+frosa9397: folds
+anghelstefanesc: calls $0.02
+meikmo: calls $0.01
+Ddddriverur1: checks
+*** FLOP *** [Ac Qc 7h]
+meikmo: checks
+Ddddriverur1: checks
+anghelstefanesc: checks
+*** TURN *** [Ac Qc 7h] [Kc]
+meikmo: checks
+Ddddriverur1: checks
+anghelstefanesc: checks
+*** RIVER *** [Ac Qc 7h Kc] [3s]
+meikmo: checks
+Ddddriverur1: bets $0.12
+anghelstefanesc: calls $0.12
+meikmo: folds
+*** SHOW DOWN ***
+Ddddriverur1: shows [7s 7c] (three of a kind, Sevens)
+anghelstefanesc: mucks hand
+Ddddriverur1 collected $0.29 from pot
+*** SUMMARY ***
+Total pot $0.30 | Rake $0.01
+Board [Ac Qc 7h Kc 3s]
+Seat 1: anghelstefanesc (button) mucked [Td Kh]
+Seat 2: meikmo (small blind) folded on the River
+Seat 3: Ddddriverur1 (big blind) showed [7s 7c] and won ($0.29) with three of a kind, Sevens
+Seat 4: DHL.de folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: Bertovic folded before Flop (didn't bet)
+Seat 9: frosa9397 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212331783909:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:04:33 ET
+Table 'Ducrosa' 9-max Seat #2 is the button
+Seat 1: anghelstefanesc ($3.80 in chips)
+Seat 2: meikmo ($0.23 in chips)
+Seat 3: Ddddriverur1 ($1.92 in chips)
+Seat 4: DHL.de ($1.69 in chips)
+Seat 5: pokerHero1 ($2.26 in chips)
+Seat 6: Bertovic ($1.85 in chips)
+Seat 9: frosa9397 ($0.33 in chips)
+Ddddriverur1: posts small blind $0.01
+DHL.de: posts big blind $0.02
+adept-ser: sits out
+pokoslav2010: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4h Qc]
+pokerHero1: folds
+Bertovic has timed out
+Bertovic: folds
+frosa9397: folds
+anghelstefanesc: folds
+meikmo: folds
+Ddddriverur1: calls $0.01
+DHL.de: checks
+*** FLOP *** [6c Jd Qd]
+Ddddriverur1: checks
+DHL.de: checks
+*** TURN *** [6c Jd Qd] [Qs]
+Ddddriverur1: checks
+DHL.de: checks
+*** RIVER *** [6c Jd Qd Qs] [Tc]
+Ddddriverur1: bets $0.04
+DHL.de: folds
+Uncalled bet ($0.04) returned to Ddddriverur1
+Ddddriverur1 collected $0.04 from pot
+Ddddriverur1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [6c Jd Qd Qs Tc]
+Seat 1: anghelstefanesc folded before Flop (didn't bet)
+Seat 2: meikmo (button) folded before Flop (didn't bet)
+Seat 3: Ddddriverur1 (small blind) collected ($0.04)
+Seat 4: DHL.de (big blind) folded on the River
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: Bertovic folded before Flop (didn't bet)
+Seat 9: frosa9397 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212331855474:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:05:32 ET
+Table 'Ducrosa' 9-max Seat #3 is the button
+Seat 1: anghelstefanesc ($3.80 in chips)
+Seat 2: meikmo ($0.23 in chips)
+Seat 3: Ddddriverur1 ($1.94 in chips)
+Seat 4: DHL.de ($1.67 in chips)
+Seat 5: pokerHero1 ($2.26 in chips)
+Seat 6: Bertovic ($1.85 in chips)
+Seat 9: frosa9397 ($0.33 in chips)
+DHL.de: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+adept-ser: sits out
+pokoslav2010: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh Qs]
+Bertovic: folds
+frosa9397: folds
+anghelstefanesc: calls $0.02
+meikmo: folds
+Ddddriverur1: folds
+DHL.de: calls $0.01
+pokerHero1: raises $0.06 to $0.08
+anghelstefanesc: folds
+DHL.de: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.06 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Seat 1: anghelstefanesc folded before Flop
+Seat 2: meikmo folded before Flop (didn't bet)
+Seat 3: Ddddriverur1 (button) folded before Flop (didn't bet)
+Seat 4: DHL.de (small blind) folded before Flop
+Seat 5: pokerHero1 (big blind) collected ($0.06)
+Seat 6: Bertovic folded before Flop (didn't bet)
+Seat 9: frosa9397 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212331890492:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:06:01 ET
+Table 'Ducrosa' 9-max Seat #4 is the button
+Seat 1: anghelstefanesc ($3.78 in chips)
+Seat 2: meikmo ($0.23 in chips)
+Seat 3: Ddddriverur1 ($1.94 in chips)
+Seat 4: DHL.de ($1.65 in chips)
+Seat 5: pokerHero1 ($2.30 in chips)
+Seat 6: Bertovic ($1.85 in chips)
+Seat 9: frosa9397 ($0.33 in chips)
+pokerHero1: posts small blind $0.01
+Bertovic: posts big blind $0.02
+adept-ser: sits out
+pokoslav2010: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jh 7d]
+frosa9397: folds
+anghelstefanesc: raises $0.10 to $0.12
+meikmo: calls $0.12
+Ddddriverur1: folds
+DHL.de: folds
+pokerHero1: folds
+Bertovic: folds
+*** FLOP *** [Ad As Ah]
+anghelstefanesc: bets $0.12
+meikmo: calls $0.11 and is all-in
+Uncalled bet ($0.01) returned to anghelstefanesc
+*** TURN *** [Ad As Ah] [9c]
+*** RIVER *** [Ad As Ah 9c] [2s]
+*** SHOW DOWN ***
+anghelstefanesc: shows [Qc Qh] (a full house, Aces full of Queens)
+meikmo: shows [3s 3h] (a full house, Aces full of Threes)
+anghelstefanesc collected $0.47 from pot
+*** SUMMARY ***
+Total pot $0.49 | Rake $0.02
+Board [Ad As Ah 9c 2s]
+Seat 1: anghelstefanesc showed [Qc Qh] and won ($0.47) with a full house, Aces full of Queens
+Seat 2: meikmo showed [3s 3h] and lost with a full house, Aces full of Threes
+Seat 3: Ddddriverur1 folded before Flop (didn't bet)
+Seat 4: DHL.de (button) folded before Flop (didn't bet)
+Seat 5: pokerHero1 (small blind) folded before Flop
+Seat 6: Bertovic (big blind) folded before Flop
+Seat 9: frosa9397 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212331938505:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:06:42 ET
+Table 'Ducrosa' 9-max Seat #5 is the button
+Seat 1: anghelstefanesc ($4.02 in chips)
+Seat 3: Ddddriverur1 ($1.94 in chips)
+Seat 4: DHL.de ($1.65 in chips)
+Seat 5: pokerHero1 ($2.29 in chips)
+Seat 6: Bertovic ($1.83 in chips)
+Seat 7: adept-ser ($0.80 in chips)
+Seat 9: frosa9397 ($0.33 in chips)
+Bertovic: posts small blind $0.01
+adept-ser: posts big blind $0.02
+pokoslav2010: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d Ah]
+frosa9397: folds
+anghelstefanesc: folds
+meikmo leaves the table
+Ddddriverur1: folds
+DHL.de: folds
+pokerHero1: raises $0.04 to $0.06
+Bertovic: folds
+adept-ser: calls $0.04
+*** FLOP *** [9c Qh 3d]
+adept-ser: checks
+pokerHero1: bets $0.10
+adept-ser: folds
+Uncalled bet ($0.10) returned to pokerHero1
+pokerHero1 collected $0.13 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [9c Qh 3d]
+Seat 1: anghelstefanesc folded before Flop (didn't bet)
+Seat 3: Ddddriverur1 folded before Flop (didn't bet)
+Seat 4: DHL.de folded before Flop (didn't bet)
+Seat 5: pokerHero1 (button) collected ($0.13)
+Seat 6: Bertovic (small blind) folded before Flop
+Seat 7: adept-ser (big blind) folded on the Flop
+Seat 9: frosa9397 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212331969063:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:07:07 ET
+Table 'Ducrosa' 9-max Seat #6 is the button
+Seat 1: anghelstefanesc ($4.02 in chips)
+Seat 3: Ddddriverur1 ($1.94 in chips)
+Seat 4: DHL.de ($1.65 in chips)
+Seat 5: pokerHero1 ($2.36 in chips)
+Seat 6: Bertovic ($1.82 in chips)
+Seat 7: adept-ser ($0.74 in chips)
+Seat 8: pokoslav2010 ($2 in chips)
+Seat 9: frosa9397 ($0.33 in chips)
+adept-ser: posts small blind $0.01
+pokoslav2010: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc Jc]
+frosa9397: folds
+anghelstefanesc: calls $0.02
+Ddddriverur1: folds
+DHL.de: folds
+pokerHero1: raises $0.04 to $0.06
+Bertovic: folds
+adept-ser: folds
+fADEOUT joins the table at seat #2
+pokoslav2010: raises $0.04 to $0.10
+anghelstefanesc: calls $0.08
+pokerHero1: calls $0.04
+*** FLOP *** [3c Th 6s]
+pokoslav2010: bets $0.15
+anghelstefanesc: calls $0.15
+pokerHero1: folds
+*** TURN *** [3c Th 6s] [8s]
+pokoslav2010: bets $0.30
+anghelstefanesc: calls $0.30
+*** RIVER *** [3c Th 6s 8s] [9s]
+pokoslav2010: bets $1.17
+anghelstefanesc: folds
+Uncalled bet ($1.17) returned to pokoslav2010
+pokoslav2010 collected $1.17 from pot
+pokoslav2010: doesn't show hand
+*** SUMMARY ***
+Total pot $1.21 | Rake $0.04
+Board [3c Th 6s 8s 9s]
+Seat 1: anghelstefanesc folded on the River
+Seat 3: Ddddriverur1 folded before Flop (didn't bet)
+Seat 4: DHL.de folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded on the Flop
+Seat 6: Bertovic (button) folded before Flop (didn't bet)
+Seat 7: adept-ser (small blind) folded before Flop
+Seat 8: pokoslav2010 (big blind) collected ($1.17)
+Seat 9: frosa9397 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332082280:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:08:37 ET
+Table 'Ducrosa' 9-max Seat #7 is the button
+Seat 1: anghelstefanesc ($3.47 in chips)
+Seat 3: Ddddriverur1 ($1.94 in chips)
+Seat 4: DHL.de ($1.65 in chips)
+Seat 5: pokerHero1 ($2.26 in chips)
+Seat 6: Bertovic ($1.82 in chips)
+Seat 7: adept-ser ($0.73 in chips)
+Seat 8: pokoslav2010 ($2.62 in chips)
+Seat 9: frosa9397 ($0.33 in chips)
+pokoslav2010: posts small blind $0.01
+frosa9397: posts big blind $0.02
+fADEOUT: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js 5s]
+anghelstefanesc: folds
+Ddddriverur1: folds
+DHL.de: folds
+pokerHero1: folds
+Bertovic: folds
+adept-ser: raises $0.04 to $0.06
+pokoslav2010: calls $0.05
+frosa9397: folds
+*** FLOP *** [8h Ks 4s]
+pokoslav2010: checks
+adept-ser: bets $0.67 and is all-in
+pokoslav2010: folds
+Uncalled bet ($0.67) returned to adept-ser
+adept-ser collected $0.14 from pot
+adept-ser: doesn't show hand
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [8h Ks 4s]
+Seat 1: anghelstefanesc folded before Flop (didn't bet)
+Seat 3: Ddddriverur1 folded before Flop (didn't bet)
+Seat 4: DHL.de folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: Bertovic folded before Flop (didn't bet)
+Seat 7: adept-ser (button) collected ($0.14)
+Seat 8: pokoslav2010 (small blind) folded on the Flop
+Seat 9: frosa9397 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212332128310:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:09:13 ET
+Table 'Ducrosa' 9-max Seat #8 is the button
+Seat 1: anghelstefanesc ($3.47 in chips)
+Seat 3: Ddddriverur1 ($1.94 in chips)
+Seat 4: DHL.de ($1.65 in chips)
+Seat 5: pokerHero1 ($2.26 in chips)
+Seat 6: Bertovic ($1.82 in chips)
+Seat 7: adept-ser ($0.81 in chips)
+Seat 8: pokoslav2010 ($2.56 in chips)
+Seat 9: frosa9397 ($0.31 in chips)
+frosa9397: posts small blind $0.01
+anghelstefanesc: posts big blind $0.02
+fADEOUT: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh 2d]
+Ddddriverur1: folds
+DHL.de: folds
+pokerHero1: folds
+Bertovic: folds
+adept-ser: folds
+pokoslav2010: folds
+frosa9397: folds
+Uncalled bet ($0.01) returned to anghelstefanesc
+anghelstefanesc collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: anghelstefanesc (big blind) collected ($0.02)
+Seat 3: Ddddriverur1 folded before Flop (didn't bet)
+Seat 4: DHL.de folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: Bertovic folded before Flop (didn't bet)
+Seat 7: adept-ser folded before Flop (didn't bet)
+Seat 8: pokoslav2010 (button) folded before Flop (didn't bet)
+Seat 9: frosa9397 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212332157664:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:09:37 ET
+Table 'Ducrosa' 9-max Seat #9 is the button
+Seat 1: anghelstefanesc ($3.48 in chips)
+Seat 2: fADEOUT ($2 in chips)
+Seat 3: Ddddriverur1 ($1.94 in chips)
+Seat 4: DHL.de ($1.65 in chips)
+Seat 5: pokerHero1 ($2.26 in chips)
+Seat 6: Bertovic ($1.82 in chips)
+Seat 7: adept-ser ($0.81 in chips)
+Seat 8: pokoslav2010 ($2.56 in chips)
+Seat 9: frosa9397 ($0.30 in chips)
+anghelstefanesc: posts small blind $0.01
+fADEOUT: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd Ks]
+Ddddriverur1: folds
+DHL.de: calls $0.02
+pokerHero1: folds
+Bertovic: calls $0.02
+adept-ser: folds
+pokoslav2010: folds
+frosa9397: folds
+anghelstefanesc: calls $0.01
+fADEOUT: checks
+*** FLOP *** [Js 7d 9d]
+anghelstefanesc: checks
+fADEOUT: checks
+DHL.de: bets $0.04
+Bertovic: folds
+anghelstefanesc: calls $0.04
+fADEOUT: folds
+*** TURN *** [Js 7d 9d] [Jc]
+anghelstefanesc: checks
+DHL.de: bets $0.08
+anghelstefanesc: folds
+Uncalled bet ($0.08) returned to DHL.de
+DHL.de collected $0.15 from pot
+DHL.de: doesn't show hand
+*** SUMMARY ***
+Total pot $0.16 | Rake $0.01
+Board [Js 7d 9d Jc]
+Seat 1: anghelstefanesc (small blind) folded on the Turn
+Seat 2: fADEOUT (big blind) folded on the Flop
+Seat 3: Ddddriverur1 folded before Flop (didn't bet)
+Seat 4: DHL.de collected ($0.15)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: Bertovic folded on the Flop
+Seat 7: adept-ser folded before Flop (didn't bet)
+Seat 8: pokoslav2010 folded before Flop (didn't bet)
+Seat 9: frosa9397 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332284370:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:11:14 ET
+Table 'Ducrosa' 9-max Seat #1 is the button
+Seat 1: anghelstefanesc ($3.42 in chips)
+Seat 2: fADEOUT ($1.98 in chips)
+Seat 3: Ddddriverur1 ($1.94 in chips)
+Seat 4: DHL.de ($1.74 in chips)
+Seat 5: pokerHero1 ($2.26 in chips)
+Seat 6: Bertovic ($1.80 in chips)
+Seat 7: adept-ser ($0.81 in chips)
+Seat 8: pokoslav2010 ($2.56 in chips)
+Seat 9: frosa9397 ($0.30 in chips)
+fADEOUT: posts small blind $0.01
+Ddddriverur1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d Qd]
+DHL.de: folds
+pokerHero1: folds
+Bertovic: folds
+adept-ser: folds
+pokoslav2010: folds
+frosa9397: folds
+anghelstefanesc: folds
+fADEOUT: folds
+Uncalled bet ($0.01) returned to Ddddriverur1
+Ddddriverur1 collected $0.02 from pot
+Ddddriverur1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: anghelstefanesc (button) folded before Flop (didn't bet)
+Seat 2: fADEOUT (small blind) folded before Flop
+Seat 3: Ddddriverur1 (big blind) collected ($0.02)
+Seat 4: DHL.de folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: Bertovic folded before Flop (didn't bet)
+Seat 7: adept-ser folded before Flop (didn't bet)
+Seat 8: pokoslav2010 folded before Flop (didn't bet)
+Seat 9: frosa9397 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332315701:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:11:39 ET
+Table 'Ducrosa' 9-max Seat #2 is the button
+Seat 1: anghelstefanesc ($3.42 in chips)
+Seat 2: fADEOUT ($1.97 in chips)
+Seat 3: Ddddriverur1 ($1.95 in chips)
+Seat 4: DHL.de ($1.74 in chips)
+Seat 5: pokerHero1 ($2.26 in chips)
+Seat 6: Bertovic ($1.80 in chips)
+Seat 7: adept-ser ($0.81 in chips)
+Seat 8: pokoslav2010 ($2.56 in chips)
+Seat 9: frosa9397 ($0.30 in chips)
+Ddddriverur1: posts small blind $0.01
+DHL.de: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d Js]
+pokerHero1: folds
+Bertovic: calls $0.02
+adept-ser: calls $0.02
+pokoslav2010: raises $0.02 to $0.04
+frosa9397: folds
+anghelstefanesc: raises $0.15 to $0.19
+fADEOUT: folds
+Ddddriverur1: folds
+DHL.de: folds
+Bertovic: folds
+adept-ser: folds
+pokoslav2010: calls $0.15
+*** FLOP *** [Jh 2d Th]
+pokoslav2010: checks
+anghelstefanesc: bets $0.43
+pokoslav2010: folds
+Uncalled bet ($0.43) returned to anghelstefanesc
+anghelstefanesc collected $0.43 from pot
+*** SUMMARY ***
+Total pot $0.45 | Rake $0.02
+Board [Jh 2d Th]
+Seat 1: anghelstefanesc collected ($0.43)
+Seat 2: fADEOUT (button) folded before Flop (didn't bet)
+Seat 3: Ddddriverur1 (small blind) folded before Flop
+Seat 4: DHL.de (big blind) folded before Flop
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: Bertovic folded before Flop
+Seat 7: adept-ser folded before Flop
+Seat 8: pokoslav2010 folded on the Flop
+Seat 9: frosa9397 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332375944:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:12:26 ET
+Table 'Ducrosa' 9-max Seat #3 is the button
+Seat 1: anghelstefanesc ($3.66 in chips)
+Seat 2: fADEOUT ($1.97 in chips)
+Seat 3: Ddddriverur1 ($1.94 in chips)
+Seat 4: DHL.de ($1.72 in chips)
+Seat 5: pokerHero1 ($2.26 in chips)
+Seat 6: Bertovic ($1.78 in chips)
+Seat 7: adept-ser ($0.79 in chips)
+Seat 8: pokoslav2010 ($2.37 in chips)
+Seat 9: frosa9397 ($0.30 in chips)
+DHL.de: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7h Jc]
+Bertovic: folds
+adept-ser: calls $0.02
+pokoslav2010: folds
+frosa9397: folds
+anghelstefanesc: raises $0.12 to $0.14
+fADEOUT: folds
+Ddddriverur1: folds
+DHL.de: calls $0.13
+pokerHero1: folds
+adept-ser: calls $0.12
+*** FLOP *** [6c Kc Th]
+DHL.de: checks
+adept-ser: checks
+anghelstefanesc: checks
+*** TURN *** [6c Kc Th] [6h]
+DHL.de: bets $0.21
+Ddddriverur1 leaves the table
+adept-ser: calls $0.21
+anghelstefanesc: calls $0.21
+*** RIVER *** [6c Kc Th 6h] [4s]
+DHL.de: checks
+adept-ser: checks
+ampwolf joins the table at seat #3
+anghelstefanesc: checks
+*** SHOW DOWN ***
+DHL.de: shows [Kh Qd] (two pair, Kings and Sixes)
+adept-ser: mucks hand
+anghelstefanesc: mucks hand
+DHL.de collected $1.03 from pot
+*** SUMMARY ***
+Total pot $1.07 | Rake $0.04
+Board [6c Kc Th 6h 4s]
+Seat 1: anghelstefanesc mucked [Ad Qs]
+Seat 2: fADEOUT folded before Flop (didn't bet)
+Seat 3: Ddddriverur1 (button) folded before Flop (didn't bet)
+Seat 4: DHL.de (small blind) showed [Kh Qd] and won ($1.03) with two pair, Kings and Sixes
+Seat 5: pokerHero1 (big blind) folded before Flop
+Seat 6: Bertovic folded before Flop (didn't bet)
+Seat 7: adept-ser mucked [8c Ac]
+Seat 8: pokoslav2010 folded before Flop (didn't bet)
+Seat 9: frosa9397 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332486701:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:13:54 ET
+Table 'Ducrosa' 9-max Seat #4 is the button
+Seat 1: anghelstefanesc ($3.31 in chips)
+Seat 2: fADEOUT ($1.97 in chips)
+Seat 4: DHL.de ($2.40 in chips)
+Seat 5: pokerHero1 ($2.24 in chips)
+Seat 6: Bertovic ($1.78 in chips)
+Seat 7: adept-ser ($0.44 in chips)
+Seat 8: pokoslav2010 ($2.37 in chips)
+Seat 9: frosa9397 ($0.30 in chips)
+pokerHero1: posts small blind $0.01
+Bertovic: posts big blind $0.02
+ampwolf: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc Js]
+adept-ser: folds
+pokoslav2010: calls $0.02
+frosa9397: folds
+anghelstefanesc: raises $0.07 to $0.09
+fADEOUT: folds
+DHL.de: folds
+pokerHero1: calls $0.08
+Bertovic: calls $0.07
+pokoslav2010: calls $0.07
+*** FLOP *** [Ts Qh Jd]
+pokerHero1: bets $0.16
+Bertovic: folds
+pokoslav2010: folds
+anghelstefanesc: calls $0.16
+*** TURN *** [Ts Qh Jd] [9c]
+pokerHero1: checks
+anghelstefanesc: checks
+*** RIVER *** [Ts Qh Jd 9c] [6d]
+pokerHero1: bets $0.30
+anghelstefanesc: calls $0.30
+*** SHOW DOWN ***
+pokerHero1: shows [Jc Js] (three of a kind, Jacks)
+anghelstefanesc: mucks hand
+pokerHero1 collected $1.24 from pot
+*** SUMMARY ***
+Total pot $1.28 | Rake $0.04
+Board [Ts Qh Jd 9c 6d]
+Seat 1: anghelstefanesc mucked [9d Ad]
+Seat 2: fADEOUT folded before Flop (didn't bet)
+Seat 4: DHL.de (button) folded before Flop (didn't bet)
+Seat 5: pokerHero1 (small blind) showed [Jc Js] and won ($1.24) with three of a kind, Jacks
+Seat 6: Bertovic (big blind) folded on the Flop
+Seat 7: adept-ser folded before Flop (didn't bet)
+Seat 8: pokoslav2010 folded on the Flop
+Seat 9: frosa9397 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332608355:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:15:32 ET
+Table 'Ducrosa' 9-max Seat #5 is the button
+Seat 1: anghelstefanesc ($2.76 in chips)
+Seat 2: fADEOUT ($1.97 in chips)
+Seat 4: DHL.de ($2.40 in chips)
+Seat 5: pokerHero1 ($2.93 in chips)
+Seat 6: Bertovic ($1.69 in chips)
+Seat 7: adept-ser ($0.44 in chips)
+Seat 8: pokoslav2010 ($2.28 in chips)
+Seat 9: frosa9397 ($0.30 in chips)
+Bertovic: posts small blind $0.01
+adept-ser: posts big blind $0.02
+ampwolf: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s Ac]
+pokoslav2010: folds
+frosa9397: folds
+anghelstefanesc: folds
+fADEOUT: folds
+DHL.de: folds
+pokerHero1: raises $0.04 to $0.06
+Bertovic: folds
+adept-ser: calls $0.04
+*** FLOP *** [Kc 7d Qc]
+adept-ser: checks
+pokerHero1: bets $0.10
+adept-ser: raises $0.28 to $0.38 and is all-in
+pokerHero1: folds
+Uncalled bet ($0.28) returned to adept-ser
+adept-ser collected $0.32 from pot
+*** SUMMARY ***
+Total pot $0.33 | Rake $0.01
+Board [Kc 7d Qc]
+Seat 1: anghelstefanesc folded before Flop (didn't bet)
+Seat 2: fADEOUT folded before Flop (didn't bet)
+Seat 4: DHL.de folded before Flop (didn't bet)
+Seat 5: pokerHero1 (button) folded on the Flop
+Seat 6: Bertovic (small blind) folded before Flop
+Seat 7: adept-ser (big blind) collected ($0.32)
+Seat 8: pokoslav2010 folded before Flop (didn't bet)
+Seat 9: frosa9397 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332649976:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:16:05 ET
+Table 'Ducrosa' 9-max Seat #6 is the button
+Seat 1: anghelstefanesc ($2.76 in chips)
+Seat 2: fADEOUT ($1.97 in chips)
+Seat 4: DHL.de ($2.40 in chips)
+Seat 5: pokerHero1 ($2.77 in chips)
+Seat 6: Bertovic ($1.68 in chips)
+Seat 7: adept-ser ($0.60 in chips)
+Seat 8: pokoslav2010 ($2.28 in chips)
+Seat 9: frosa9397 ($0.30 in chips)
+adept-ser: posts small blind $0.01
+pokoslav2010: posts big blind $0.02
+ampwolf: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d 7d]
+frosa9397: folds
+anghelstefanesc: calls $0.02
+fADEOUT: folds
+DHL.de: calls $0.02
+pokerHero1: folds
+Bertovic has timed out
+Bertovic: folds
+adept-ser: calls $0.01
+pokoslav2010: raises $0.08 to $0.10
+anghelstefanesc: folds
+DHL.de: folds
+adept-ser: calls $0.08
+*** FLOP *** [Kc Ts 5s]
+adept-ser: checks
+pokoslav2010: bets $0.23
+adept-ser: raises $0.27 to $0.50 and is all-in
+pokoslav2010: calls $0.27
+*** TURN *** [Kc Ts 5s] [Ac]
+*** RIVER *** [Kc Ts 5s Ac] [3d]
+*** SHOW DOWN ***
+adept-ser: shows [As 4s] (a pair of Aces)
+pokoslav2010: shows [Kh Ks] (three of a kind, Kings)
+pokoslav2010 collected $1.20 from pot
+adept-ser cashed out the hand for $0.32
+*** SUMMARY ***
+Total pot $1.24 | Rake $0.04
+Board [Kc Ts 5s Ac 3d]
+Seat 1: anghelstefanesc folded before Flop
+Seat 2: fADEOUT folded before Flop (didn't bet)
+Seat 4: DHL.de folded before Flop
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: Bertovic (button) folded before Flop (didn't bet)
+Seat 7: adept-ser (small blind) showed [As 4s] and lost with a pair of Aces (cashed out).
+Seat 8: pokoslav2010 (big blind) showed [Kh Ks] and won ($1.20) with three of a kind, Kings
+Seat 9: frosa9397 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332741835:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:17:19 ET
+Table 'Ducrosa' 9-max Seat #7 is the button
+Seat 1: anghelstefanesc ($2.74 in chips)
+Seat 2: fADEOUT ($1.97 in chips)
+Seat 4: DHL.de ($2.38 in chips)
+Seat 5: pokerHero1 ($2.77 in chips)
+Seat 6: Bertovic ($1.68 in chips)
+Seat 7: adept-ser ($0.32 in chips)
+Seat 8: pokoslav2010 ($2.88 in chips)
+Seat 9: frosa9397 ($0.30 in chips)
+pokoslav2010: posts small blind $0.01
+frosa9397: posts big blind $0.02
+ampwolf: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d 7c]
+anghelstefanesc: raises $0.05 to $0.07
+fADEOUT: folds
+DHL.de: folds
+pokerHero1: folds
+Bertovic: folds
+adept-ser: calls $0.07
+pokoslav2010: folds
+frosa9397: folds
+*** FLOP *** [5d Qc 8c]
+anghelstefanesc: bets $0.16
+adept-ser: folds
+Uncalled bet ($0.16) returned to anghelstefanesc
+anghelstefanesc collected $0.16 from pot
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [5d Qc 8c]
+Seat 1: anghelstefanesc collected ($0.16)
+Seat 2: fADEOUT folded before Flop (didn't bet)
+Seat 4: DHL.de folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: Bertovic folded before Flop (didn't bet)
+Seat 7: adept-ser (button) folded on the Flop
+Seat 8: pokoslav2010 (small blind) folded before Flop
+Seat 9: frosa9397 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212332815087:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:18:13 ET
+Table 'Ducrosa' 9-max Seat #8 is the button
+Seat 1: anghelstefanesc ($2.83 in chips)
+Seat 2: fADEOUT ($1.97 in chips)
+Seat 4: DHL.de ($2.38 in chips)
+Seat 5: pokerHero1 ($2.77 in chips)
+Seat 6: Bertovic ($1.68 in chips)
+Seat 7: adept-ser ($0.25 in chips)
+Seat 8: pokoslav2010 ($2.87 in chips)
+Seat 9: frosa9397 ($0.28 in chips)
+frosa9397: posts small blind $0.01
+anghelstefanesc: posts big blind $0.02
+ampwolf: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As 5c]
+fADEOUT: folds
+DHL.de: folds
+pokerHero1: raises $0.06 to $0.08
+Bertovic: folds
+adept-ser: calls $0.08
+pokoslav2010: folds
+frosa9397: folds
+anghelstefanesc: calls $0.06
+*** FLOP *** [2s 6s Jd]
+anghelstefanesc: bets $0.06
+pokerHero1: folds
+adept-ser: folds
+Uncalled bet ($0.06) returned to anghelstefanesc
+anghelstefanesc collected $0.24 from pot
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.01
+Board [2s 6s Jd]
+Seat 1: anghelstefanesc (big blind) collected ($0.24)
+Seat 2: fADEOUT folded before Flop (didn't bet)
+Seat 4: DHL.de folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded on the Flop
+Seat 6: Bertovic folded before Flop (didn't bet)
+Seat 7: adept-ser folded on the Flop
+Seat 8: pokoslav2010 (button) folded before Flop (didn't bet)
+Seat 9: frosa9397 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212332882676:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:19:07 ET
+Table 'Ducrosa' 9-max Seat #9 is the button
+Seat 1: anghelstefanesc ($2.99 in chips)
+Seat 2: fADEOUT ($1.97 in chips)
+Seat 4: DHL.de ($2.38 in chips)
+Seat 5: pokerHero1 ($2.69 in chips)
+Seat 6: Bertovic ($1.68 in chips)
+Seat 7: adept-ser ($0.17 in chips)
+Seat 8: pokoslav2010 ($2.87 in chips)
+Seat 9: frosa9397 ($0.27 in chips)
+anghelstefanesc: posts small blind $0.01
+fADEOUT: posts big blind $0.02
+ampwolf: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2s 6c]
+DHL.de: folds
+pokerHero1: folds
+Bertovic: folds
+adept-ser: folds
+pokoslav2010: folds
+frosa9397: folds
+anghelstefanesc: raises $0.04 to $0.06
+fADEOUT: calls $0.04
+*** FLOP *** [Ts 2d 7h]
+anghelstefanesc: bets $0.06
+fADEOUT: folds
+Uncalled bet ($0.06) returned to anghelstefanesc
+anghelstefanesc collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Board [Ts 2d 7h]
+Seat 1: anghelstefanesc (small blind) collected ($0.12)
+Seat 2: fADEOUT (big blind) folded on the Flop
+Seat 4: DHL.de folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: Bertovic folded before Flop (didn't bet)
+Seat 7: adept-ser folded before Flop (didn't bet)
+Seat 8: pokoslav2010 folded before Flop (didn't bet)
+Seat 9: frosa9397 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332944366:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:19:57 ET
+Table 'Ducrosa' 9-max Seat #1 is the button
+Seat 1: anghelstefanesc ($3.05 in chips)
+Seat 2: fADEOUT ($1.91 in chips)
+Seat 3: ampwolf ($0.80 in chips)
+Seat 4: DHL.de ($2.38 in chips)
+Seat 5: pokerHero1 ($2.69 in chips)
+Seat 6: Bertovic ($1.68 in chips)
+Seat 7: adept-ser ($0.17 in chips)
+Seat 8: pokoslav2010 ($2.87 in chips)
+Seat 9: frosa9397 ($0.27 in chips)
+fADEOUT: posts small blind $0.01
+ampwolf: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d Td]
+DHL.de: folds
+pokerHero1: folds
+Bertovic: raises $0.06 to $0.08
+adept-ser: folds
+pokoslav2010: folds
+frosa9397: folds
+anghelstefanesc: calls $0.08
+fADEOUT: folds
+ampwolf: folds
+*** FLOP *** [6s Jc Ts]
+Bertovic: bets $0.18
+anghelstefanesc: calls $0.18
+*** TURN *** [6s Jc Ts] [6c]
+Bertovic: bets $0.36
+anghelstefanesc: calls $0.36
+*** RIVER *** [6s Jc Ts 6c] [6h]
+Bertovic: bets $1.06 and is all-in
+anghelstefanesc: folds
+Uncalled bet ($1.06) returned to Bertovic
+Bertovic collected $1.23 from pot
+Bertovic: doesn't show hand
+*** SUMMARY ***
+Total pot $1.27 | Rake $0.04
+Board [6s Jc Ts 6c 6h]
+Seat 1: anghelstefanesc (button) folded on the River
+Seat 2: fADEOUT (small blind) folded before Flop
+Seat 3: ampwolf (big blind) folded before Flop
+Seat 4: DHL.de folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: Bertovic collected ($1.23)
+Seat 7: adept-ser folded before Flop (didn't bet)
+Seat 8: pokoslav2010 folded before Flop (didn't bet)
+Seat 9: frosa9397 folded before Flop (didn't bet)
+
+
+

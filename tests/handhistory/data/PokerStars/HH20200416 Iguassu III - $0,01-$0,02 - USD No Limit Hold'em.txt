@@ -1,0 +1,1335 @@
+﻿PokerStars Hand #212113769072:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:04:34 ET
+Table 'Iguassu III' 9-max Seat #1 is the button
+Seat 1: nicolaes129 ($2.29 in chips)
+Seat 2: Millers1234 ($8.81 in chips)
+Seat 3: pokerHero1 ($2 in chips)
+Seat 5: sergeibab ($1.07 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2 in chips)
+Seat 8: Apostol108 ($2.98 in chips)
+Seat 9: Baulöwe1958 ($1.60 in chips)
+Millers1234: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+TRUExa4: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c 5h]
+TRUExa4 leaves the table
+sergeibab: folds
+EdShaparnyy: folds
+ocrimus joins the table at seat #4
+flip4mysocks: calls $0.02
+Apostol108: folds
+Baulöwe1958: folds
+nicolaes129: folds
+Millers1234: folds
+pokerHero1: checks
+*** FLOP *** [3h 6c 4h]
+pokerHero1: bets $0.04
+flip4mysocks: calls $0.04
+*** TURN *** [3h 6c 4h] [6s]
+pokerHero1: bets $0.06
+flip4mysocks: calls $0.06
+*** RIVER *** [3h 6c 4h 6s] [5d]
+pokerHero1: bets $0.06
+flip4mysocks: raises $0.12 to $0.18
+pokerHero1: calls $0.12
+*** SHOW DOWN ***
+flip4mysocks: shows [2h Ah] (a straight, Deuce to Six)
+pokerHero1: mucks hand
+flip4mysocks collected $0.59 from pot
+*** SUMMARY ***
+Total pot $0.61 | Rake $0.02
+Board [3h 6c 4h 6s 5d]
+Seat 1: nicolaes129 (button) folded before Flop (didn't bet)
+Seat 2: Millers1234 (small blind) folded before Flop
+Seat 3: pokerHero1 (big blind) mucked [4c 5h]
+Seat 5: sergeibab folded before Flop (didn't bet)
+Seat 6: EdShaparnyy folded before Flop (didn't bet)
+Seat 7: flip4mysocks showed [2h Ah] and won ($0.59) with a straight, Deuce to Six
+Seat 8: Apostol108 folded before Flop (didn't bet)
+Seat 9: Baulöwe1958 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212113824536:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:05:25 ET
+Table 'Iguassu III' 9-max Seat #2 is the button
+Seat 1: nicolaes129 ($2.29 in chips)
+Seat 2: Millers1234 ($8.80 in chips)
+Seat 3: pokerHero1 ($1.70 in chips)
+Seat 4: ocrimus ($2 in chips)
+Seat 5: sergeibab ($1.07 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2.29 in chips)
+Seat 8: Apostol108 ($2.98 in chips)
+Seat 9: Baulöwe1958 ($1.60 in chips)
+pokerHero1: posts small blind $0.01
+ocrimus: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3s 7d]
+sergeibab: folds
+EdShaparnyy: folds
+flip4mysocks: folds
+Apostol108: folds
+Baulöwe1958: folds
+nicolaes129: calls $0.02
+Millers1234: folds
+pokerHero1: folds
+ocrimus: checks
+*** FLOP *** [8s 8d Qd]
+ocrimus: checks
+nicolaes129: bets $0.03
+ocrimus: folds
+Uncalled bet ($0.03) returned to nicolaes129
+nicolaes129 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [8s 8d Qd]
+Seat 1: nicolaes129 collected ($0.05)
+Seat 2: Millers1234 (button) folded before Flop (didn't bet)
+Seat 3: pokerHero1 (small blind) folded before Flop
+Seat 4: ocrimus (big blind) folded on the Flop
+Seat 5: sergeibab folded before Flop (didn't bet)
+Seat 6: EdShaparnyy folded before Flop (didn't bet)
+Seat 7: flip4mysocks folded before Flop (didn't bet)
+Seat 8: Apostol108 folded before Flop (didn't bet)
+Seat 9: Baulöwe1958 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212113857626:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:05:56 ET
+Table 'Iguassu III' 9-max Seat #3 is the button
+Seat 1: nicolaes129 ($2.32 in chips)
+Seat 2: Millers1234 ($8.80 in chips)
+Seat 3: pokerHero1 ($1.99 in chips)
+Seat 4: ocrimus ($2 in chips)
+Seat 5: sergeibab ($1.07 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2.29 in chips)
+Seat 8: Apostol108 ($2.98 in chips)
+Seat 9: Baulöwe1958 ($1.60 in chips)
+ocrimus: posts small blind $0.01
+sergeibab: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8c Ah]
+EdShaparnyy: folds
+flip4mysocks: folds
+Apostol108: raises $0.04 to $0.06
+Baulöwe1958: folds
+nicolaes129: folds
+Millers1234: folds
+pokerHero1: folds
+ocrimus: folds
+sergeibab: folds
+Uncalled bet ($0.04) returned to Apostol108
+Apostol108 collected $0.05 from pot
+Apostol108: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: nicolaes129 folded before Flop (didn't bet)
+Seat 2: Millers1234 folded before Flop (didn't bet)
+Seat 3: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 4: ocrimus (small blind) folded before Flop
+Seat 5: sergeibab (big blind) folded before Flop
+Seat 6: EdShaparnyy folded before Flop (didn't bet)
+Seat 7: flip4mysocks folded before Flop (didn't bet)
+Seat 8: Apostol108 collected ($0.05)
+Seat 9: Baulöwe1958 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212113893178:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:06:29 ET
+Table 'Iguassu III' 9-max Seat #4 is the button
+Seat 1: nicolaes129 ($2.32 in chips)
+Seat 2: Millers1234 ($8.80 in chips)
+Seat 3: pokerHero1 ($1.99 in chips)
+Seat 4: ocrimus ($2 in chips)
+Seat 5: sergeibab ($1.05 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2.29 in chips)
+Seat 8: Apostol108 ($3.01 in chips)
+Seat 9: Baulöwe1958 ($1.60 in chips)
+sergeibab: posts small blind $0.01
+EdShaparnyy: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc 3c]
+flip4mysocks: folds
+Apostol108: folds
+Baulöwe1958: folds
+nicolaes129: calls $0.02
+Millers1234: folds
+pokerHero1: folds
+ocrimus: raises $0.08 to $0.10
+sergeibab: folds
+EdShaparnyy: folds
+nicolaes129: folds
+Uncalled bet ($0.08) returned to ocrimus
+ocrimus collected $0.07 from pot
+ocrimus: doesn't show hand
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Seat 1: nicolaes129 folded before Flop
+Seat 2: Millers1234 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: ocrimus (button) collected ($0.07)
+Seat 5: sergeibab (small blind) folded before Flop
+Seat 6: EdShaparnyy (big blind) folded before Flop
+Seat 7: flip4mysocks folded before Flop (didn't bet)
+Seat 8: Apostol108 folded before Flop (didn't bet)
+Seat 9: Baulöwe1958 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212113929054:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:06:58 ET
+Table 'Iguassu III' 9-max Seat #5 is the button
+Seat 1: nicolaes129 ($2.30 in chips)
+Seat 2: Millers1234 ($8.80 in chips)
+Seat 3: pokerHero1 ($1.99 in chips)
+Seat 4: ocrimus ($2.05 in chips)
+Seat 5: sergeibab ($1.04 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2.29 in chips)
+Seat 8: Apostol108 ($3.01 in chips)
+Seat 9: Baulöwe1958 ($1.60 in chips)
+EdShaparnyy: posts small blind $0.01
+flip4mysocks: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td 2d]
+Apostol108: folds
+Baulöwe1958: folds
+nicolaes129: folds
+Millers1234: folds
+pokerHero1: folds
+ocrimus: raises $0.04 to $0.06
+sergeibab: folds
+EdShaparnyy: folds
+flip4mysocks: folds
+Uncalled bet ($0.04) returned to ocrimus
+ocrimus collected $0.05 from pot
+ocrimus: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: nicolaes129 folded before Flop (didn't bet)
+Seat 2: Millers1234 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: ocrimus collected ($0.05)
+Seat 5: sergeibab (button) folded before Flop (didn't bet)
+Seat 6: EdShaparnyy (small blind) folded before Flop
+Seat 7: flip4mysocks (big blind) folded before Flop
+Seat 8: Apostol108 folded before Flop (didn't bet)
+Seat 9: Baulöwe1958 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212113960336:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:07:26 ET
+Table 'Iguassu III' 9-max Seat #6 is the button
+Seat 1: nicolaes129 ($2.30 in chips)
+Seat 2: Millers1234 ($8.80 in chips)
+Seat 3: pokerHero1 ($1.99 in chips)
+Seat 4: ocrimus ($2.08 in chips)
+Seat 5: sergeibab ($1.04 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2.27 in chips)
+Seat 8: Apostol108 ($3.01 in chips)
+Seat 9: Baulöwe1958 ($1.60 in chips)
+flip4mysocks: posts small blind $0.01
+Apostol108: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qd 7s]
+Baulöwe1958: folds
+nicolaes129: folds
+Millers1234: raises $0.02 to $0.04
+pokerHero1: folds
+ocrimus: calls $0.04
+sergeibab: folds
+EdShaparnyy: calls $0.04
+flip4mysocks: folds
+Apostol108: folds
+*** FLOP *** [7d 6d Jc]
+Millers1234: checks
+ocrimus: checks
+EdShaparnyy: checks
+*** TURN *** [7d 6d Jc] [3s]
+Millers1234: checks
+ocrimus: checks
+EdShaparnyy: checks
+*** RIVER *** [7d 6d Jc 3s] [9d]
+Millers1234: checks
+ocrimus: checks
+EdShaparnyy: checks
+*** SHOW DOWN ***
+Millers1234: shows [6h Ah] (a pair of Sixes)
+ocrimus: shows [7h 8h] (a pair of Sevens)
+EdShaparnyy: mucks hand
+ocrimus collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [7d 6d Jc 3s 9d]
+Seat 1: nicolaes129 folded before Flop (didn't bet)
+Seat 2: Millers1234 showed [6h Ah] and lost with a pair of Sixes
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: ocrimus showed [7h 8h] and won ($0.14) with a pair of Sevens
+Seat 5: sergeibab folded before Flop (didn't bet)
+Seat 6: EdShaparnyy (button) mucked [3h 5h]
+Seat 7: flip4mysocks (small blind) folded before Flop
+Seat 8: Apostol108 (big blind) folded before Flop
+Seat 9: Baulöwe1958 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212114017357:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:08:19 ET
+Table 'Iguassu III' 9-max Seat #7 is the button
+Seat 1: nicolaes129 ($2.30 in chips)
+Seat 2: Millers1234 ($8.76 in chips)
+Seat 3: pokerHero1 ($1.99 in chips)
+Seat 4: ocrimus ($2.18 in chips)
+Seat 5: sergeibab ($1.04 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2.26 in chips)
+Seat 8: Apostol108 ($2.99 in chips)
+Seat 9: Baulöwe1958 ($1.60 in chips)
+Apostol108: posts small blind $0.01
+Baulöwe1958: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac 7s]
+nicolaes129: folds
+Millers1234: folds
+pokerHero1: folds
+ocrimus: folds
+sergeibab: folds
+EdShaparnyy: folds
+flip4mysocks: raises $0.03 to $0.05
+Apostol108: folds
+Baulöwe1958: folds
+Uncalled bet ($0.03) returned to flip4mysocks
+flip4mysocks collected $0.05 from pot
+flip4mysocks: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: nicolaes129 folded before Flop (didn't bet)
+Seat 2: Millers1234 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: ocrimus folded before Flop (didn't bet)
+Seat 5: sergeibab folded before Flop (didn't bet)
+Seat 6: EdShaparnyy folded before Flop (didn't bet)
+Seat 7: flip4mysocks (button) collected ($0.05)
+Seat 8: Apostol108 (small blind) folded before Flop
+Seat 9: Baulöwe1958 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212114048950:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:08:49 ET
+Table 'Iguassu III' 9-max Seat #8 is the button
+Seat 1: nicolaes129 ($2.30 in chips)
+Seat 2: Millers1234 ($8.76 in chips)
+Seat 3: pokerHero1 ($1.99 in chips)
+Seat 4: ocrimus ($2.18 in chips)
+Seat 5: sergeibab ($1.04 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2.29 in chips)
+Seat 8: Apostol108 ($2.98 in chips)
+Seat 9: Baulöwe1958 ($1.58 in chips)
+Baulöwe1958: posts small blind $0.01
+nicolaes129: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c Jc]
+Millers1234: folds
+pokerHero1: folds
+ocrimus: folds
+sergeibab: raises $0.02 to $0.04
+EdShaparnyy: folds
+flip4mysocks: folds
+Apostol108: calls $0.04
+Baulöwe1958: folds
+nicolaes129: folds
+*** FLOP *** [4c 8c 5d]
+sergeibab: bets $0.11
+Apostol108: folds
+Uncalled bet ($0.11) returned to sergeibab
+sergeibab collected $0.11 from pot
+sergeibab: doesn't show hand
+*** SUMMARY ***
+Total pot $0.11 | Rake $0
+Board [4c 8c 5d]
+Seat 1: nicolaes129 (big blind) folded before Flop
+Seat 2: Millers1234 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: ocrimus folded before Flop (didn't bet)
+Seat 5: sergeibab collected ($0.11)
+Seat 6: EdShaparnyy folded before Flop (didn't bet)
+Seat 7: flip4mysocks folded before Flop (didn't bet)
+Seat 8: Apostol108 (button) folded on the Flop
+Seat 9: Baulöwe1958 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212114091513:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:09:29 ET
+Table 'Iguassu III' 9-max Seat #9 is the button
+Seat 1: nicolaes129 ($2.28 in chips)
+Seat 2: Millers1234 ($8.76 in chips)
+Seat 3: pokerHero1 ($1.99 in chips)
+Seat 4: ocrimus ($2.18 in chips)
+Seat 5: sergeibab ($1.11 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2.29 in chips)
+Seat 8: Apostol108 ($2.94 in chips)
+Seat 9: Baulöwe1958 ($1.57 in chips)
+nicolaes129: posts small blind $0.01
+Millers1234: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7h As]
+pokerHero1: folds
+ocrimus: folds
+sergeibab: folds
+EdShaparnyy: folds
+flip4mysocks: folds
+Apostol108: folds
+Baulöwe1958: folds
+nicolaes129: folds
+Uncalled bet ($0.01) returned to Millers1234
+Millers1234 collected $0.02 from pot
+Millers1234: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: nicolaes129 (small blind) folded before Flop
+Seat 2: Millers1234 (big blind) collected ($0.02)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: ocrimus folded before Flop (didn't bet)
+Seat 5: sergeibab folded before Flop (didn't bet)
+Seat 6: EdShaparnyy folded before Flop (didn't bet)
+Seat 7: flip4mysocks folded before Flop (didn't bet)
+Seat 8: Apostol108 folded before Flop (didn't bet)
+Seat 9: Baulöwe1958 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212114112754:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:09:48 ET
+Table 'Iguassu III' 9-max Seat #1 is the button
+Seat 1: nicolaes129 ($2.27 in chips)
+Seat 2: Millers1234 ($8.77 in chips)
+Seat 3: pokerHero1 ($1.99 in chips)
+Seat 4: ocrimus ($2.18 in chips)
+Seat 5: sergeibab ($1.11 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2.29 in chips)
+Seat 8: Apostol108 ($2.94 in chips)
+Seat 9: Baulöwe1958 ($1.57 in chips)
+Millers1234: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s Kh]
+ocrimus: folds
+sergeibab: folds
+EdShaparnyy: folds
+flip4mysocks: folds
+Apostol108: folds
+Baulöwe1958: folds
+nicolaes129: calls $0.02
+Millers1234: raises $0.06 to $0.08
+pokerHero1: folds
+nicolaes129: folds
+Uncalled bet ($0.06) returned to Millers1234
+Millers1234 collected $0.06 from pot
+Millers1234: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Seat 1: nicolaes129 (button) folded before Flop
+Seat 2: Millers1234 (small blind) collected ($0.06)
+Seat 3: pokerHero1 (big blind) folded before Flop
+Seat 4: ocrimus folded before Flop (didn't bet)
+Seat 5: sergeibab folded before Flop (didn't bet)
+Seat 6: EdShaparnyy folded before Flop (didn't bet)
+Seat 7: flip4mysocks folded before Flop (didn't bet)
+Seat 8: Apostol108 folded before Flop (didn't bet)
+Seat 9: Baulöwe1958 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212114137204:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:10:11 ET
+Table 'Iguassu III' 9-max Seat #2 is the button
+Seat 1: nicolaes129 ($2.25 in chips)
+Seat 2: Millers1234 ($8.81 in chips)
+Seat 3: pokerHero1 ($1.97 in chips)
+Seat 4: ocrimus ($2.18 in chips)
+Seat 5: sergeibab ($1.11 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2.29 in chips)
+Seat 8: Apostol108 ($2.94 in chips)
+Seat 9: Baulöwe1958 ($1.57 in chips)
+pokerHero1: posts small blind $0.01
+ocrimus: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3c 5c]
+sergeibab: folds
+EdShaparnyy: folds
+flip4mysocks: folds
+Apostol108: folds
+Baulöwe1958: folds
+nicolaes129: folds
+Millers1234: folds
+pokerHero1: calls $0.01
+ocrimus: checks
+*** FLOP *** [Js 7h 4s]
+pokerHero1: checks
+ocrimus: checks
+*** TURN *** [Js 7h 4s] [2c]
+pokerHero1: checks
+ocrimus: checks
+*** RIVER *** [Js 7h 4s 2c] [8s]
+pokerHero1: checks
+ocrimus: checks
+*** SHOW DOWN ***
+pokerHero1: shows [3c 5c] (high card Jack)
+ocrimus: shows [7c 9d] (a pair of Sevens)
+ocrimus collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [Js 7h 4s 2c 8s]
+Seat 1: nicolaes129 folded before Flop (didn't bet)
+Seat 2: Millers1234 (button) folded before Flop (didn't bet)
+Seat 3: pokerHero1 (small blind) showed [3c 5c] and lost with high card Jack
+Seat 4: ocrimus (big blind) showed [7c 9d] and won ($0.04) with a pair of Sevens
+Seat 5: sergeibab folded before Flop (didn't bet)
+Seat 6: EdShaparnyy folded before Flop (didn't bet)
+Seat 7: flip4mysocks folded before Flop (didn't bet)
+Seat 8: Apostol108 folded before Flop (didn't bet)
+Seat 9: Baulöwe1958 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212114182342:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:10:53 ET
+Table 'Iguassu III' 9-max Seat #3 is the button
+Seat 1: nicolaes129 ($2.25 in chips)
+Seat 2: Millers1234 ($8.81 in chips)
+Seat 3: pokerHero1 ($1.95 in chips)
+Seat 4: ocrimus ($2.20 in chips)
+Seat 5: sergeibab ($1.11 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2.29 in chips)
+Seat 8: Apostol108 ($2.94 in chips)
+Seat 9: Baulöwe1958 ($1.57 in chips)
+ocrimus: posts small blind $0.01
+sergeibab: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d Ah]
+EdShaparnyy: folds
+flip4mysocks: folds
+Apostol108: folds
+Baulöwe1958: folds
+nicolaes129: folds
+Millers1234: folds
+pokerHero1: raises $0.04 to $0.06
+ocrimus: folds
+sergeibab: folds
+Uncalled bet ($0.04) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: nicolaes129 folded before Flop (didn't bet)
+Seat 2: Millers1234 folded before Flop (didn't bet)
+Seat 3: pokerHero1 (button) collected ($0.05)
+Seat 4: ocrimus (small blind) folded before Flop
+Seat 5: sergeibab (big blind) folded before Flop
+Seat 6: EdShaparnyy folded before Flop (didn't bet)
+Seat 7: flip4mysocks folded before Flop (didn't bet)
+Seat 8: Apostol108 folded before Flop (didn't bet)
+Seat 9: Baulöwe1958 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212114207622:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:11:16 ET
+Table 'Iguassu III' 9-max Seat #4 is the button
+Seat 1: nicolaes129 ($2.25 in chips)
+Seat 2: Millers1234 ($8.81 in chips)
+Seat 3: pokerHero1 ($1.98 in chips)
+Seat 4: ocrimus ($2.19 in chips)
+Seat 5: sergeibab ($1.09 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2.29 in chips)
+Seat 8: Apostol108 ($2.94 in chips)
+Seat 9: Baulöwe1958 ($1.57 in chips)
+sergeibab: posts small blind $0.01
+EdShaparnyy: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h 6d]
+flip4mysocks: folds
+Apostol108: folds
+Baulöwe1958: calls $0.02
+nicolaes129: calls $0.02
+Millers1234: folds
+pokerHero1: folds
+ocrimus: folds
+sergeibab: calls $0.01
+EdShaparnyy: checks
+*** FLOP *** [7s 5d 5h]
+sergeibab: checks
+EdShaparnyy: checks
+Baulöwe1958: bets $0.04
+nicolaes129: folds
+sergeibab: folds
+EdShaparnyy: folds
+Uncalled bet ($0.04) returned to Baulöwe1958
+Baulöwe1958 collected $0.08 from pot
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Board [7s 5d 5h]
+Seat 1: nicolaes129 folded on the Flop
+Seat 2: Millers1234 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: ocrimus (button) folded before Flop (didn't bet)
+Seat 5: sergeibab (small blind) folded on the Flop
+Seat 6: EdShaparnyy (big blind) folded on the Flop
+Seat 7: flip4mysocks folded before Flop (didn't bet)
+Seat 8: Apostol108 folded before Flop (didn't bet)
+Seat 9: Baulöwe1958 collected ($0.08)
+
+
+
+PokerStars Hand #212114264098:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:12:05 ET
+Table 'Iguassu III' 9-max Seat #5 is the button
+Seat 1: nicolaes129 ($2.23 in chips)
+Seat 2: Millers1234 ($8.81 in chips)
+Seat 3: pokerHero1 ($1.98 in chips)
+Seat 4: ocrimus ($2.19 in chips)
+Seat 5: sergeibab ($1.07 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2.29 in chips)
+Seat 8: Apostol108 ($2.94 in chips)
+Seat 9: Baulöwe1958 ($1.63 in chips)
+EdShaparnyy: posts small blind $0.01
+flip4mysocks: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd Jc]
+Apostol108: folds
+Baulöwe1958: raises $0.02 to $0.04
+nicolaes129: folds
+Millers1234: folds
+pokerHero1: folds
+ocrimus: folds
+sergeibab: folds
+EdShaparnyy: folds
+flip4mysocks: folds
+Uncalled bet ($0.02) returned to Baulöwe1958
+Baulöwe1958 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: nicolaes129 folded before Flop (didn't bet)
+Seat 2: Millers1234 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: ocrimus folded before Flop (didn't bet)
+Seat 5: sergeibab (button) folded before Flop (didn't bet)
+Seat 6: EdShaparnyy (small blind) folded before Flop
+Seat 7: flip4mysocks (big blind) folded before Flop
+Seat 8: Apostol108 folded before Flop (didn't bet)
+Seat 9: Baulöwe1958 collected ($0.05)
+
+
+
+PokerStars Hand #212114295320:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:12:34 ET
+Table 'Iguassu III' 9-max Seat #6 is the button
+Seat 1: nicolaes129 ($2.23 in chips)
+Seat 2: Millers1234 ($8.81 in chips)
+Seat 3: pokerHero1 ($1.98 in chips)
+Seat 4: ocrimus ($2.19 in chips)
+Seat 5: sergeibab ($1.07 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2.27 in chips)
+Seat 8: Apostol108 ($2.94 in chips)
+Seat 9: Baulöwe1958 ($1.66 in chips)
+flip4mysocks: posts small blind $0.01
+Apostol108: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kc 6c]
+Baulöwe1958: folds
+nicolaes129: folds
+Millers1234: folds
+pokerHero1: raises $0.06 to $0.08
+ocrimus: folds
+sergeibab: folds
+EdShaparnyy: folds
+flip4mysocks: folds
+Apostol108: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: nicolaes129 folded before Flop (didn't bet)
+Seat 2: Millers1234 folded before Flop (didn't bet)
+Seat 3: pokerHero1 collected ($0.05)
+Seat 4: ocrimus folded before Flop (didn't bet)
+Seat 5: sergeibab folded before Flop (didn't bet)
+Seat 6: EdShaparnyy (button) folded before Flop (didn't bet)
+Seat 7: flip4mysocks (small blind) folded before Flop
+Seat 8: Apostol108 (big blind) folded before Flop
+Seat 9: Baulöwe1958 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212114322356:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:13:00 ET
+Table 'Iguassu III' 9-max Seat #7 is the button
+Seat 1: nicolaes129 ($2.23 in chips)
+Seat 2: Millers1234 ($8.81 in chips)
+Seat 3: pokerHero1 ($2.01 in chips)
+Seat 4: ocrimus ($2.19 in chips)
+Seat 5: sergeibab ($1.07 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2.26 in chips)
+Seat 8: Apostol108 ($2.92 in chips)
+Seat 9: Baulöwe1958 ($1.66 in chips)
+Apostol108: posts small blind $0.01
+Baulöwe1958: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c 2s]
+nicolaes129: calls $0.02
+Millers1234: raises $0.06 to $0.08
+pokerHero1: folds
+ocrimus: folds
+sergeibab: folds
+EdShaparnyy: folds
+flip4mysocks: folds
+Apostol108: folds
+Baulöwe1958: folds
+nicolaes129: calls $0.06
+*** FLOP *** [4s 6d 2c]
+nicolaes129: checks
+Millers1234: bets $0.08
+nicolaes129: calls $0.08
+*** TURN *** [4s 6d 2c] [Jd]
+nicolaes129: checks
+Millers1234: checks
+*** RIVER *** [4s 6d 2c Jd] [4d]
+nicolaes129: checks
+Millers1234: checks
+*** SHOW DOWN ***
+nicolaes129: shows [9c 9h] (two pair, Nines and Fours)
+Millers1234: mucks hand
+nicolaes129 collected $0.34 from pot
+*** SUMMARY ***
+Total pot $0.35 | Rake $0.01
+Board [4s 6d 2c Jd 4d]
+Seat 1: nicolaes129 showed [9c 9h] and won ($0.34) with two pair, Nines and Fours
+Seat 2: Millers1234 mucked [Qh Ac]
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: ocrimus folded before Flop (didn't bet)
+Seat 5: sergeibab folded before Flop (didn't bet)
+Seat 6: EdShaparnyy folded before Flop (didn't bet)
+Seat 7: flip4mysocks (button) folded before Flop (didn't bet)
+Seat 8: Apostol108 (small blind) folded before Flop
+Seat 9: Baulöwe1958 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212114379746:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:13:53 ET
+Table 'Iguassu III' 9-max Seat #8 is the button
+Seat 2: Millers1234 ($8.65 in chips)
+Seat 3: pokerHero1 ($2.01 in chips)
+Seat 4: ocrimus ($2.19 in chips)
+Seat 5: sergeibab ($1.07 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2.26 in chips)
+Seat 8: Apostol108 ($2.91 in chips)
+Seat 9: Baulöwe1958 ($1.64 in chips)
+Baulöwe1958: posts small blind $0.01
+nicolaes129: is sitting out
+Millers1234: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s 3s]
+pokerHero1: folds
+ocrimus: folds
+sergeibab: folds
+EdShaparnyy: folds
+flip4mysocks: raises $0.04 to $0.06
+Apostol108: folds
+Baulöwe1958: folds
+Millers1234: folds
+Uncalled bet ($0.04) returned to flip4mysocks
+flip4mysocks collected $0.05 from pot
+flip4mysocks: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 2: Millers1234 (big blind) folded before Flop
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: ocrimus folded before Flop (didn't bet)
+Seat 5: sergeibab folded before Flop (didn't bet)
+Seat 6: EdShaparnyy folded before Flop (didn't bet)
+Seat 7: flip4mysocks collected ($0.05)
+Seat 8: Apostol108 (button) folded before Flop (didn't bet)
+Seat 9: Baulöwe1958 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212114408345:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:14:13 ET
+Table 'Iguassu III' 9-max Seat #2 is the button
+Seat 2: Millers1234 ($8.63 in chips)
+Seat 3: pokerHero1 ($2.01 in chips)
+Seat 4: ocrimus ($2.19 in chips)
+Seat 5: sergeibab ($1.07 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2.29 in chips)
+Seat 8: Apostol108 ($2.91 in chips)
+pokerHero1: posts small blind $0.01
+ocrimus: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d Js]
+sergeibab: raises $0.02 to $0.04
+EdShaparnyy: folds
+flip4mysocks: folds
+Apostol108: folds
+Millers1234: folds
+pokerHero1: folds
+ocrimus: folds
+Uncalled bet ($0.02) returned to sergeibab
+sergeibab collected $0.05 from pot
+sergeibab: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 2: Millers1234 (button) folded before Flop (didn't bet)
+Seat 3: pokerHero1 (small blind) folded before Flop
+Seat 4: ocrimus (big blind) folded before Flop
+Seat 5: sergeibab collected ($0.05)
+Seat 6: EdShaparnyy folded before Flop (didn't bet)
+Seat 7: flip4mysocks folded before Flop (didn't bet)
+Seat 8: Apostol108 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212114431390:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:14:34 ET
+Table 'Iguassu III' 9-max Seat #3 is the button
+Seat 2: Millers1234 ($8.63 in chips)
+Seat 3: pokerHero1 ($2 in chips)
+Seat 4: ocrimus ($2.17 in chips)
+Seat 5: sergeibab ($1.10 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2.29 in chips)
+Seat 8: Apostol108 ($2.91 in chips)
+ocrimus: posts small blind $0.01
+sergeibab: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8s 3d]
+EdShaparnyy: folds
+flip4mysocks: folds
+Apostol108: folds
+Millers1234: folds
+pokerHero1: folds
+ocrimus: calls $0.01
+sergeibab: checks
+*** FLOP *** [2s 3h 6d]
+ocrimus: checks
+sergeibab: bets $0.08
+ocrimus: folds
+Uncalled bet ($0.08) returned to sergeibab
+sergeibab collected $0.04 from pot
+sergeibab: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [2s 3h 6d]
+Seat 2: Millers1234 folded before Flop (didn't bet)
+Seat 3: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 4: ocrimus (small blind) folded on the Flop
+Seat 5: sergeibab (big blind) collected ($0.04)
+Seat 6: EdShaparnyy folded before Flop (didn't bet)
+Seat 7: flip4mysocks folded before Flop (didn't bet)
+Seat 8: Apostol108 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212114470087:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:15:10 ET
+Table 'Iguassu III' 9-max Seat #4 is the button
+Seat 2: Millers1234 ($8.63 in chips)
+Seat 3: pokerHero1 ($2 in chips)
+Seat 4: ocrimus ($2.15 in chips)
+Seat 5: sergeibab ($1.12 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2.29 in chips)
+Seat 8: Apostol108 ($2.91 in chips)
+sergeibab: posts small blind $0.01
+EdShaparnyy: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5c 2h]
+flip4mysocks: folds
+Apostol108: folds
+Millers1234: folds
+pokerHero1: folds
+ocrimus: raises $0.03 to $0.05
+sergeibab: folds
+EdShaparnyy: folds
+Uncalled bet ($0.03) returned to ocrimus
+ocrimus collected $0.05 from pot
+ocrimus: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 2: Millers1234 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: ocrimus (button) collected ($0.05)
+Seat 5: sergeibab (small blind) folded before Flop
+Seat 6: EdShaparnyy (big blind) folded before Flop
+Seat 7: flip4mysocks folded before Flop (didn't bet)
+Seat 8: Apostol108 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212114494126:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:15:32 ET
+Table 'Iguassu III' 9-max Seat #5 is the button
+Seat 2: Millers1234 ($8.63 in chips)
+Seat 3: pokerHero1 ($2 in chips)
+Seat 4: ocrimus ($2.18 in chips)
+Seat 5: sergeibab ($1.11 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2.29 in chips)
+Seat 8: Apostol108 ($2.91 in chips)
+EdShaparnyy: posts small blind $0.01
+flip4mysocks: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js As]
+Apostol108: folds
+Millers1234: folds
+pokerHero1: raises $0.06 to $0.08
+ocrimus: folds
+sergeibab: calls $0.08
+EdShaparnyy: folds
+flip4mysocks: folds
+*** FLOP *** [5c 9h Ah]
+pokerHero1: bets $0.10
+sergeibab: folds
+Uncalled bet ($0.10) returned to pokerHero1
+pokerHero1 collected $0.18 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [5c 9h Ah]
+Seat 2: Millers1234 folded before Flop (didn't bet)
+Seat 3: pokerHero1 collected ($0.18)
+Seat 4: ocrimus folded before Flop (didn't bet)
+Seat 5: sergeibab (button) folded on the Flop
+Seat 6: EdShaparnyy (small blind) folded before Flop
+Seat 7: flip4mysocks (big blind) folded before Flop
+Seat 8: Apostol108 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212114534988:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:16:10 ET
+Table 'Iguassu III' 9-max Seat #6 is the button
+Seat 1: nicolaes129 ($2.41 in chips)
+Seat 2: Millers1234 ($8.63 in chips)
+Seat 3: pokerHero1 ($2.10 in chips)
+Seat 4: ocrimus ($2.18 in chips)
+Seat 5: sergeibab ($1.03 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2.27 in chips)
+flip4mysocks: posts small blind $0.01
+nicolaes129: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4h Js]
+Millers1234: raises $0.02 to $0.04
+pokerHero1: folds
+ocrimus: folds
+sergeibab: folds
+EdShaparnyy: raises $0.11 to $0.15
+flip4mysocks: folds
+nicolaes129: folds
+Millers1234: calls $0.11
+*** FLOP *** [6c Th 5s]
+Millers1234: checks
+EdShaparnyy: bets $0.16
+Millers1234: calls $0.16
+*** TURN *** [6c Th 5s] [3s]
+Millers1234: checks
+EdShaparnyy: bets $0.32
+Millers1234: folds
+Uncalled bet ($0.32) returned to EdShaparnyy
+EdShaparnyy collected $0.63 from pot
+*** SUMMARY ***
+Total pot $0.65 | Rake $0.02
+Board [6c Th 5s 3s]
+Seat 1: nicolaes129 (big blind) folded before Flop
+Seat 2: Millers1234 folded on the Turn
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: ocrimus folded before Flop (didn't bet)
+Seat 5: sergeibab folded before Flop (didn't bet)
+Seat 6: EdShaparnyy (button) collected ($0.63)
+Seat 7: flip4mysocks (small blind) folded before Flop
+
+
+
+PokerStars Hand #212114592366:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:17:02 ET
+Table 'Iguassu III' 9-max Seat #7 is the button
+Seat 1: nicolaes129 ($2.39 in chips)
+Seat 2: Millers1234 ($8.32 in chips)
+Seat 3: pokerHero1 ($2.10 in chips)
+Seat 4: ocrimus ($2.18 in chips)
+Seat 5: sergeibab ($1.03 in chips)
+Seat 6: EdShaparnyy ($2.32 in chips)
+Seat 7: flip4mysocks ($2.26 in chips)
+nicolaes129: posts small blind $0.01
+Millers1234: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7s 9d]
+pokerHero1: folds
+ocrimus: folds
+sergeibab: folds
+EdShaparnyy: raises $0.04 to $0.06
+flip4mysocks: folds
+nicolaes129: folds
+Millers1234: calls $0.04
+*** FLOP *** [7h 4s Jh]
+Millers1234: checks
+EdShaparnyy: bets $0.12
+Millers1234: calls $0.12
+*** TURN *** [7h 4s Jh] [6c]
+Millers1234: checks
+EdShaparnyy: bets $0.18
+Millers1234: calls $0.18
+*** RIVER *** [7h 4s Jh 6c] [Th]
+Millers1234: checks
+EdShaparnyy: checks
+*** SHOW DOWN ***
+Millers1234: shows [3h 6h] (a flush, Jack high)
+EdShaparnyy: mucks hand
+Millers1234 collected $0.70 from pot
+*** SUMMARY ***
+Total pot $0.73 | Rake $0.03
+Board [7h 4s Jh 6c Th]
+Seat 1: nicolaes129 (small blind) folded before Flop
+Seat 2: Millers1234 (big blind) showed [3h 6h] and won ($0.70) with a flush, Jack high
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: ocrimus folded before Flop (didn't bet)
+Seat 5: sergeibab folded before Flop (didn't bet)
+Seat 6: EdShaparnyy mucked [7c 7d]
+Seat 7: flip4mysocks (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212114661662:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:18:06 ET
+Table 'Iguassu III' 9-max Seat #1 is the button
+Seat 1: nicolaes129 ($2.38 in chips)
+Seat 2: Millers1234 ($8.66 in chips)
+Seat 3: pokerHero1 ($2.10 in chips)
+Seat 4: ocrimus ($2.18 in chips)
+Seat 5: sergeibab ($1.03 in chips)
+Seat 6: EdShaparnyy ($2 in chips)
+Seat 7: flip4mysocks ($2.26 in chips)
+Millers1234: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c Kd]
+ocrimus: folds
+sergeibab: folds
+EdShaparnyy: raises $0.04 to $0.06
+flip4mysocks: folds
+nicolaes129: folds
+Millers1234: folds
+pokerHero1: folds
+Uncalled bet ($0.04) returned to EdShaparnyy
+EdShaparnyy collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: nicolaes129 (button) folded before Flop (didn't bet)
+Seat 2: Millers1234 (small blind) folded before Flop
+Seat 3: pokerHero1 (big blind) folded before Flop
+Seat 4: ocrimus folded before Flop (didn't bet)
+Seat 5: sergeibab folded before Flop (didn't bet)
+Seat 6: EdShaparnyy collected ($0.05)
+Seat 7: flip4mysocks folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212114693878:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:18:36 ET
+Table 'Iguassu III' 9-max Seat #2 is the button
+Seat 1: nicolaes129 ($2.38 in chips)
+Seat 2: Millers1234 ($8.65 in chips)
+Seat 3: pokerHero1 ($2.08 in chips)
+Seat 4: ocrimus ($2.18 in chips)
+Seat 5: sergeibab ($1.03 in chips)
+Seat 6: EdShaparnyy ($2.03 in chips)
+Seat 7: flip4mysocks ($2.26 in chips)
+pokerHero1: posts small blind $0.01
+ocrimus: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As 9h]
+sergeibab: folds
+EdShaparnyy: folds
+flip4mysocks: raises $0.02 to $0.04
+nicolaes129: folds
+Millers1234: folds
+pokerHero1: folds
+ocrimus: calls $0.02
+*** FLOP *** [9c 5s Kd]
+ocrimus: checks
+flip4mysocks: bets $0.05
+ocrimus: folds
+Uncalled bet ($0.05) returned to flip4mysocks
+flip4mysocks collected $0.09 from pot
+flip4mysocks: doesn't show hand
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Board [9c 5s Kd]
+Seat 1: nicolaes129 folded before Flop (didn't bet)
+Seat 2: Millers1234 (button) folded before Flop (didn't bet)
+Seat 3: pokerHero1 (small blind) folded before Flop
+Seat 4: ocrimus (big blind) folded on the Flop
+Seat 5: sergeibab folded before Flop (didn't bet)
+Seat 6: EdShaparnyy folded before Flop (didn't bet)
+Seat 7: flip4mysocks collected ($0.09)
+
+
+
+PokerStars Hand #212114735595:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:19:14 ET
+Table 'Iguassu III' 9-max Seat #3 is the button
+Seat 1: nicolaes129 ($2.38 in chips)
+Seat 2: Millers1234 ($8.65 in chips)
+Seat 3: pokerHero1 ($2.07 in chips)
+Seat 4: ocrimus ($2.14 in chips)
+Seat 5: sergeibab ($1.03 in chips)
+Seat 6: EdShaparnyy ($2.03 in chips)
+Seat 7: flip4mysocks ($2.31 in chips)
+ocrimus: posts small blind $0.01
+sergeibab: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s 2c]
+EdShaparnyy: raises $0.04 to $0.06
+flip4mysocks: folds
+nicolaes129 has timed out
+nicolaes129: folds
+Millers1234: calls $0.06
+pokerHero1: folds
+ocrimus: folds
+sergeibab: folds
+*** FLOP *** [3s 7c 7h]
+EdShaparnyy: bets $0.14
+Millers1234: folds
+Uncalled bet ($0.14) returned to EdShaparnyy
+EdShaparnyy collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [3s 7c 7h]
+Seat 1: nicolaes129 folded before Flop (didn't bet)
+Seat 2: Millers1234 folded on the Flop
+Seat 3: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 4: ocrimus (small blind) folded before Flop
+Seat 5: sergeibab (big blind) folded before Flop
+Seat 6: EdShaparnyy collected ($0.14)
+Seat 7: flip4mysocks folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212114789152:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:20:03 ET
+Table 'Iguassu III' 9-max Seat #4 is the button
+Seat 2: Millers1234 ($8.59 in chips)
+Seat 3: pokerHero1 ($2.07 in chips)
+Seat 4: ocrimus ($2.13 in chips)
+Seat 5: sergeibab ($1.01 in chips)
+Seat 6: EdShaparnyy ($2.11 in chips)
+Seat 7: flip4mysocks ($2.31 in chips)
+sergeibab: posts small blind $0.01
+EdShaparnyy: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd 3s]
+flip4mysocks: folds
+Millers1234: folds
+pokerHero1: folds
+ocrimus: raises $0.03 to $0.05
+sergeibab: calls $0.04
+EdShaparnyy: calls $0.03
+*** FLOP *** [Jc Tc 5d]
+sergeibab: checks
+EdShaparnyy: checks
+ocrimus: checks
+*** TURN *** [Jc Tc 5d] [9d]
+sergeibab: checks
+EdShaparnyy: checks
+ocrimus: checks
+*** RIVER *** [Jc Tc 5d 9d] [8s]
+sergeibab: checks
+EdShaparnyy: checks
+ocrimus: bets $0.10
+sergeibab: folds
+EdShaparnyy: folds
+Uncalled bet ($0.10) returned to ocrimus
+ocrimus collected $0.14 from pot
+ocrimus: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [Jc Tc 5d 9d 8s]
+Seat 2: Millers1234 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: ocrimus (button) collected ($0.14)
+Seat 5: sergeibab (small blind) folded on the River
+Seat 6: EdShaparnyy (big blind) folded on the River
+Seat 7: flip4mysocks folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212114866335:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:21:15 ET
+Table 'Iguassu III' 9-max Seat #5 is the button
+Seat 2: Millers1234 ($8.59 in chips)
+Seat 3: pokerHero1 ($2.07 in chips)
+Seat 4: ocrimus ($2.22 in chips)
+Seat 5: sergeibab ($0.96 in chips)
+Seat 6: EdShaparnyy ($2.06 in chips)
+Seat 7: flip4mysocks ($2.31 in chips)
+Seat 9: Baulöwe1958 ($1.63 in chips)
+EdShaparnyy: posts small blind $0.01
+flip4mysocks: posts big blind $0.02
+Baulöwe1958: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9h Ks]
+Baulöwe1958: checks
+Millers1234: folds
+pokerHero1: folds
+ocrimus: folds
+sergeibab: calls $0.02
+EdShaparnyy: calls $0.01
+flip4mysocks: checks
+*** FLOP *** [Jc Td 2d]
+EdShaparnyy: checks
+flip4mysocks: bets $0.09
+Baulöwe1958: folds
+sergeibab: folds
+EdShaparnyy: folds
+Uncalled bet ($0.09) returned to flip4mysocks
+flip4mysocks collected $0.09 from pot
+flip4mysocks: doesn't show hand
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Board [Jc Td 2d]
+Seat 2: Millers1234 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: ocrimus folded before Flop (didn't bet)
+Seat 5: sergeibab (button) folded on the Flop
+Seat 6: EdShaparnyy (small blind) folded on the Flop
+Seat 7: flip4mysocks (big blind) collected ($0.09)
+Seat 9: Baulöwe1958 folded on the Flop (didn't bet)
+
+
+
+PokerStars Hand #212114907724:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:21:53 ET
+Table 'Iguassu III' 9-max Seat #6 is the button
+Seat 2: Millers1234 ($8.59 in chips)
+Seat 3: pokerHero1 ($2.07 in chips)
+Seat 4: ocrimus ($2.22 in chips)
+Seat 5: sergeibab ($0.94 in chips)
+Seat 6: EdShaparnyy ($2.04 in chips)
+Seat 7: flip4mysocks ($2.38 in chips)
+Seat 9: Baulöwe1958 ($1.60 in chips)
+flip4mysocks: posts small blind $0.01
+Baulöwe1958: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6h Qc]
+Millers1234: raises $0.02 to $0.04
+pokerHero1: folds
+ocrimus: folds
+sergeibab: folds
+EdShaparnyy: folds
+flip4mysocks: folds
+Baulöwe1958: folds
+Uncalled bet ($0.02) returned to Millers1234
+Millers1234 collected $0.05 from pot
+Millers1234: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 2: Millers1234 collected ($0.05)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: ocrimus folded before Flop (didn't bet)
+Seat 5: sergeibab folded before Flop (didn't bet)
+Seat 6: EdShaparnyy (button) folded before Flop (didn't bet)
+Seat 7: flip4mysocks (small blind) folded before Flop
+Seat 9: Baulöwe1958 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212114937580:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:22:12 ET
+Table 'Iguassu III' 9-max Seat #7 is the button
+Seat 1: nicolaes129 ($2.38 in chips)
+Seat 2: Millers1234 ($8.62 in chips)
+Seat 3: pokerHero1 ($2.07 in chips)
+Seat 4: ocrimus ($2.22 in chips)
+Seat 5: sergeibab ($0.94 in chips)
+Seat 6: EdShaparnyy ($2.04 in chips)
+Seat 7: flip4mysocks ($2.37 in chips)
+Seat 9: Baulöwe1958 ($1.58 in chips)
+Baulöwe1958: posts small blind $0.01
+nicolaes129: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad Ah]
+Millers1234: folds
+pokerHero1: calls $0.02
+ocrimus: folds
+sergeibab: folds
+EdShaparnyy: folds
+flip4mysocks: folds
+Baulöwe1958: calls $0.01
+nicolaes129: checks
+*** FLOP *** [Kc 3c Kd]
+Baulöwe1958: bets $0.04
+nicolaes129: folds
+pokerHero1: calls $0.04
+*** TURN *** [Kc 3c Kd] [Ts]
+Baulöwe1958: bets $0.04
+pokerHero1: raises $0.10 to $0.14
+Baulöwe1958: calls $0.10
+*** RIVER *** [Kc 3c Kd Ts] [Qd]
+Baulöwe1958: checks
+pokerHero1: bets $0.20
+Baulöwe1958: folds
+Uncalled bet ($0.20) returned to pokerHero1
+pokerHero1 collected $0.41 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.42 | Rake $0.01
+Board [Kc 3c Kd Ts Qd]
+Seat 1: nicolaes129 (big blind) folded on the Flop
+Seat 2: Millers1234 folded before Flop (didn't bet)
+Seat 3: pokerHero1 collected ($0.41)
+Seat 4: ocrimus folded before Flop (didn't bet)
+Seat 5: sergeibab folded before Flop (didn't bet)
+Seat 6: EdShaparnyy folded before Flop (didn't bet)
+Seat 7: flip4mysocks (button) folded before Flop (didn't bet)
+Seat 9: Baulöwe1958 (small blind) folded on the River
+
+
+
+PokerStars Hand #212115013518:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:23:22 ET
+Table 'Iguassu III' 9-max Seat #9 is the button
+Seat 1: nicolaes129 ($2.36 in chips)
+Seat 2: Millers1234 ($8.62 in chips)
+Seat 3: pokerHero1 ($2.28 in chips)
+Seat 4: ocrimus ($2.22 in chips)
+Seat 5: sergeibab ($0.94 in chips)
+Seat 6: EdShaparnyy ($2.04 in chips)
+Seat 7: flip4mysocks ($2.37 in chips)
+Seat 9: Baulöwe1958 ($1.38 in chips)
+nicolaes129: posts small blind $0.01
+Millers1234: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ts Kh]
+pokerHero1: folds
+ocrimus: folds
+sergeibab: folds
+EdShaparnyy: folds
+flip4mysocks: folds
+Baulöwe1958: folds
+nicolaes129: calls $0.01
+Millers1234: checks
+*** FLOP *** [8c 5c 3d]
+nicolaes129 has timed out
+nicolaes129: checks
+Millers1234: bets $0.02
+nicolaes129: folds
+Uncalled bet ($0.02) returned to Millers1234
+Millers1234 collected $0.04 from pot
+Millers1234: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [8c 5c 3d]
+Seat 1: nicolaes129 (small blind) folded on the Flop
+Seat 2: Millers1234 (big blind) collected ($0.04)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: ocrimus folded before Flop (didn't bet)
+Seat 5: sergeibab folded before Flop (didn't bet)
+Seat 6: EdShaparnyy folded before Flop (didn't bet)
+Seat 7: flip4mysocks folded before Flop (didn't bet)
+Seat 9: Baulöwe1958 (button) folded before Flop (didn't bet)
+
+
+

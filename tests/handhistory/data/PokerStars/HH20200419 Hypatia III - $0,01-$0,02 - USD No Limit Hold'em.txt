@@ -1,0 +1,1173 @@
+﻿PokerStars Hand #212333865366:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:32:17 ET
+Table 'Hypatia III' 9-max Seat #4 is the button
+Seat 1: guille123169 ($1.26 in chips)
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: jerrytgeek ($4.06 in chips)
+Seat 4: unegus ($1.97 in chips)
+Seat 5: mosenz ($2 in chips)
+Seat 6: pokerHero1 ($2 in chips)
+Seat 7: eislertt77 ($4.44 in chips)
+Seat 8: lukethevamp ($4.04 in chips)
+Seat 9: yapppp ($2.07 in chips)
+mosenz: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s Js]
+eislertt77: calls $0.02
+lukethevamp: calls $0.02
+yapppp: folds
+guille123169: folds
+Absolutzx: folds
+jerrytgeek: folds
+guille123169 leaves the table
+unegus: calls $0.02
+mosenz: folds
+pokerHero1: checks
+*** FLOP *** [5s Ac As]
+W6N9ERONI joins the table at seat #1
+pokerHero1: bets $0.04
+eislertt77: folds
+lukethevamp: folds
+unegus: folds
+Uncalled bet ($0.04) returned to pokerHero1
+pokerHero1 collected $0.09 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Board [5s Ac As]
+Seat 1: guille123169 folded before Flop (didn't bet)
+Seat 2: Absolutzx folded before Flop (didn't bet)
+Seat 3: jerrytgeek folded before Flop (didn't bet)
+Seat 4: unegus (button) folded on the Flop
+Seat 5: mosenz (small blind) folded before Flop
+Seat 6: pokerHero1 (big blind) collected ($0.09)
+Seat 7: eislertt77 folded on the Flop
+Seat 8: lukethevamp folded on the Flop
+Seat 9: yapppp folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212333928034:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:33:05 ET
+Table 'Hypatia III' 9-max Seat #5 is the button
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: jerrytgeek ($4.06 in chips)
+Seat 4: unegus ($1.95 in chips)
+Seat 5: mosenz ($2 in chips)
+Seat 6: pokerHero1 ($2.07 in chips)
+Seat 7: eislertt77 ($4.42 in chips)
+Seat 8: lukethevamp ($4.02 in chips)
+Seat 9: yapppp ($2.07 in chips)
+pokerHero1: posts small blind $0.01
+eislertt77: posts big blind $0.02
+W6N9ERONI: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As 2s]
+lukethevamp: calls $0.02
+yapppp: folds
+Absolutzx: folds
+jerrytgeek: raises $0.06 to $0.08
+unegus: folds
+mosenz: raises $0.16 to $0.24
+pokerHero1: folds
+eislertt77: folds
+lukethevamp: folds
+jerrytgeek: folds
+Uncalled bet ($0.16) returned to mosenz
+mosenz collected $0.21 from pot
+mosenz: doesn't show hand
+*** SUMMARY ***
+Total pot $0.21 | Rake $0
+Seat 2: Absolutzx folded before Flop (didn't bet)
+Seat 3: jerrytgeek folded before Flop
+Seat 4: unegus folded before Flop (didn't bet)
+Seat 5: mosenz (button) collected ($0.21)
+Seat 6: pokerHero1 (small blind) folded before Flop
+Seat 7: eislertt77 (big blind) folded before Flop
+Seat 8: lukethevamp folded before Flop
+Seat 9: yapppp folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212333999402:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:33:54 ET
+Table 'Hypatia III' 9-max Seat #6 is the button
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: jerrytgeek ($3.98 in chips)
+Seat 4: unegus ($1.95 in chips)
+Seat 5: mosenz ($2.13 in chips)
+Seat 6: pokerHero1 ($2.06 in chips)
+Seat 7: eislertt77 ($4.40 in chips)
+Seat 8: lukethevamp ($4 in chips)
+Seat 9: yapppp ($2.07 in chips)
+eislertt77: posts small blind $0.01
+lukethevamp: posts big blind $0.02
+W6N9ERONI: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As 9c]
+yapppp: raises $0.04 to $0.06
+Absolutzx: folds
+jerrytgeek: folds
+unegus: folds
+mosenz: folds
+pokerHero1: folds
+eislertt77: folds
+lukethevamp: folds
+Uncalled bet ($0.04) returned to yapppp
+yapppp collected $0.05 from pot
+yapppp: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 2: Absolutzx folded before Flop (didn't bet)
+Seat 3: jerrytgeek folded before Flop (didn't bet)
+Seat 4: unegus folded before Flop (didn't bet)
+Seat 5: mosenz folded before Flop (didn't bet)
+Seat 6: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 7: eislertt77 (small blind) folded before Flop
+Seat 8: lukethevamp (big blind) folded before Flop
+Seat 9: yapppp collected ($0.05)
+
+
+
+PokerStars Hand #212334034688:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:34:21 ET
+Table 'Hypatia III' 9-max Seat #7 is the button
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: jerrytgeek ($3.98 in chips)
+Seat 4: unegus ($1.95 in chips)
+Seat 5: mosenz ($2.13 in chips)
+Seat 6: pokerHero1 ($2.06 in chips)
+Seat 7: eislertt77 ($4.39 in chips)
+Seat 8: lukethevamp ($3.98 in chips)
+Seat 9: yapppp ($2.10 in chips)
+lukethevamp: posts small blind $0.01
+yapppp: posts big blind $0.02
+W6N9ERONI: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ks Jh]
+Absolutzx: folds
+jerrytgeek: raises $0.04 to $0.06
+unegus: folds
+mosenz: folds
+pokerHero1: folds
+eislertt77: folds
+lukethevamp: folds
+yapppp: folds
+Uncalled bet ($0.04) returned to jerrytgeek
+jerrytgeek collected $0.05 from pot
+jerrytgeek: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 2: Absolutzx folded before Flop (didn't bet)
+Seat 3: jerrytgeek collected ($0.05)
+Seat 4: unegus folded before Flop (didn't bet)
+Seat 5: mosenz folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: eislertt77 (button) folded before Flop (didn't bet)
+Seat 8: lukethevamp (small blind) folded before Flop
+Seat 9: yapppp (big blind) folded before Flop
+
+
+
+PokerStars Hand #212334063771:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:34:44 ET
+Table 'Hypatia III' 9-max Seat #8 is the button
+Seat 1: W6N9ERONI ($2 in chips)
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: jerrytgeek ($4.01 in chips)
+Seat 4: unegus ($1.95 in chips)
+Seat 5: mosenz ($2.13 in chips)
+Seat 6: pokerHero1 ($2.06 in chips)
+Seat 7: eislertt77 ($4.39 in chips)
+Seat 8: lukethevamp ($3.97 in chips)
+Seat 9: yapppp ($2.08 in chips)
+yapppp: posts small blind $0.01
+W6N9ERONI: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js 2s]
+Absolutzx: folds
+jerrytgeek: raises $0.04 to $0.06
+unegus: folds
+mosenz: raises $0.12 to $0.18
+pokerHero1: folds
+eislertt77: folds
+lukethevamp: folds
+yapppp: folds
+W6N9ERONI: folds
+jerrytgeek: raises $0.54 to $0.72
+mosenz: calls $0.54
+*** FLOP *** [5h 4c 3s]
+jerrytgeek: checks
+mosenz: bets $1.41 and is all-in
+jerrytgeek: calls $1.41
+*** TURN *** [5h 4c 3s] [Tc]
+*** RIVER *** [5h 4c 3s Tc] [Kc]
+*** SHOW DOWN ***
+jerrytgeek: shows [Ad Ah] (a pair of Aces)
+mosenz: shows [Ac Kh] (a pair of Kings)
+jerrytgeek collected $4.14 from pot
+*** SUMMARY ***
+Total pot $4.29 | Rake $0.15
+Board [5h 4c 3s Tc Kc]
+Seat 1: W6N9ERONI (big blind) folded before Flop
+Seat 2: Absolutzx folded before Flop (didn't bet)
+Seat 3: jerrytgeek showed [Ad Ah] and won ($4.14) with a pair of Aces
+Seat 4: unegus folded before Flop (didn't bet)
+Seat 5: mosenz showed [Ac Kh] and lost with a pair of Kings
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: eislertt77 folded before Flop (didn't bet)
+Seat 8: lukethevamp (button) folded before Flop (didn't bet)
+Seat 9: yapppp (small blind) folded before Flop
+
+
+
+PokerStars Hand #212334146061:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:35:49 ET
+Table 'Hypatia III' 9-max Seat #9 is the button
+Seat 1: W6N9ERONI ($1.98 in chips)
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: jerrytgeek ($6.02 in chips)
+Seat 4: unegus ($1.95 in chips)
+Seat 5: mosenz ($2 in chips)
+Seat 6: pokerHero1 ($2.06 in chips)
+Seat 7: eislertt77 ($4.39 in chips)
+Seat 8: lukethevamp ($3.97 in chips)
+Seat 9: yapppp ($2.07 in chips)
+W6N9ERONI: posts small blind $0.01
+Absolutzx: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5h Kc]
+jerrytgeek: folds
+unegus: folds
+mosenz: folds
+pokerHero1: folds
+eislertt77: folds
+lukethevamp: calls $0.02
+yapppp: raises $0.06 to $0.08
+W6N9ERONI: folds
+Absolutzx: folds
+lukethevamp: calls $0.06
+*** FLOP *** [5c 4h Qd]
+lukethevamp: checks
+yapppp: bets $0.12
+lukethevamp: folds
+Uncalled bet ($0.12) returned to yapppp
+yapppp collected $0.18 from pot
+yapppp: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [5c 4h Qd]
+Seat 1: W6N9ERONI (small blind) folded before Flop
+Seat 2: Absolutzx (big blind) folded before Flop
+Seat 3: jerrytgeek folded before Flop (didn't bet)
+Seat 4: unegus folded before Flop (didn't bet)
+Seat 5: mosenz folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: eislertt77 folded before Flop (didn't bet)
+Seat 8: lukethevamp folded on the Flop
+Seat 9: yapppp (button) collected ($0.18)
+
+
+
+PokerStars Hand #212334193115:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:36:25 ET
+Table 'Hypatia III' 9-max Seat #1 is the button
+Seat 1: W6N9ERONI ($1.97 in chips)
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: jerrytgeek ($6.02 in chips)
+Seat 4: unegus ($1.95 in chips)
+Seat 5: mosenz ($2 in chips)
+Seat 6: pokerHero1 ($2.06 in chips)
+Seat 7: eislertt77 ($4.39 in chips)
+Seat 8: lukethevamp ($3.89 in chips)
+Seat 9: yapppp ($2.17 in chips)
+Absolutzx: posts small blind $0.01
+jerrytgeek: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c Jc]
+unegus: folds
+mosenz: folds
+pokerHero1: folds
+eislertt77: raises $0.06 to $0.08
+lukethevamp: folds
+yapppp: folds
+W6N9ERONI: folds
+Absolutzx: folds
+jerrytgeek: folds
+Uncalled bet ($0.06) returned to eislertt77
+eislertt77 collected $0.05 from pot
+eislertt77: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: W6N9ERONI (button) folded before Flop (didn't bet)
+Seat 2: Absolutzx (small blind) folded before Flop
+Seat 3: jerrytgeek (big blind) folded before Flop
+Seat 4: unegus folded before Flop (didn't bet)
+Seat 5: mosenz folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: eislertt77 collected ($0.05)
+Seat 8: lukethevamp folded before Flop (didn't bet)
+Seat 9: yapppp folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212334231018:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:36:54 ET
+Table 'Hypatia III' 9-max Seat #2 is the button
+Seat 1: W6N9ERONI ($1.97 in chips)
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: jerrytgeek ($6 in chips)
+Seat 4: unegus ($1.95 in chips)
+Seat 5: mosenz ($2 in chips)
+Seat 6: pokerHero1 ($2.06 in chips)
+Seat 7: eislertt77 ($4.42 in chips)
+Seat 8: lukethevamp ($3.89 in chips)
+Seat 9: yapppp ($2.17 in chips)
+jerrytgeek: posts small blind $0.01
+unegus: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5d 3s]
+mosenz: folds
+pokerHero1: folds
+eislertt77: calls $0.02
+lukethevamp: calls $0.02
+yapppp: folds
+W6N9ERONI: folds
+Absolutzx has timed out
+Absolutzx: folds
+jerrytgeek: folds
+unegus: checks
+*** FLOP *** [Jh 8s Kd]
+unegus: checks
+eislertt77: bets $0.06
+lukethevamp: calls $0.06
+unegus: folds
+*** TURN *** [Jh 8s Kd] [Qd]
+eislertt77: bets $0.12
+lukethevamp: calls $0.12
+*** RIVER *** [Jh 8s Kd Qd] [Kh]
+eislertt77: bets $0.28
+lukethevamp: folds
+Uncalled bet ($0.28) returned to eislertt77
+eislertt77 collected $0.41 from pot
+eislertt77: doesn't show hand
+*** SUMMARY ***
+Total pot $0.43 | Rake $0.02
+Board [Jh 8s Kd Qd Kh]
+Seat 1: W6N9ERONI folded before Flop (didn't bet)
+Seat 2: Absolutzx (button) folded before Flop (didn't bet)
+Seat 3: jerrytgeek (small blind) folded before Flop
+Seat 4: unegus (big blind) folded on the Flop
+Seat 5: mosenz folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: eislertt77 collected ($0.41)
+Seat 8: lukethevamp folded on the River
+Seat 9: yapppp folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212334351497:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:38:25 ET
+Table 'Hypatia III' 9-max Seat #3 is the button
+Seat 1: W6N9ERONI ($1.97 in chips)
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: jerrytgeek ($5.99 in chips)
+Seat 4: unegus ($1.93 in chips)
+Seat 5: mosenz ($2 in chips)
+Seat 6: pokerHero1 ($2.06 in chips)
+Seat 7: eislertt77 ($4.63 in chips)
+Seat 8: lukethevamp ($3.69 in chips)
+Seat 9: yapppp ($2.17 in chips)
+unegus: posts small blind $0.01
+mosenz: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qs 7s]
+pokerHero1: folds
+eislertt77: calls $0.02
+lukethevamp: folds
+yapppp: folds
+W6N9ERONI: folds
+Absolutzx: folds
+jerrytgeek: folds
+unegus: folds
+mosenz: checks
+*** FLOP *** [3d Th 4c]
+mosenz: checks
+jerrytgeek leaves the table
+eislertt77: checks
+*** TURN *** [3d Th 4c] [Ks]
+mosenz: bets $0.04
+eislertt77: folds
+Uncalled bet ($0.04) returned to mosenz
+mosenz collected $0.05 from pot
+mosenz: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [3d Th 4c Ks]
+Seat 1: W6N9ERONI folded before Flop (didn't bet)
+Seat 2: Absolutzx folded before Flop (didn't bet)
+Seat 3: jerrytgeek (button) folded before Flop (didn't bet)
+Seat 4: unegus (small blind) folded before Flop
+Seat 5: mosenz (big blind) collected ($0.05)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: eislertt77 folded on the Turn
+Seat 8: lukethevamp folded before Flop (didn't bet)
+Seat 9: yapppp folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212334411227:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:39:10 ET
+Table 'Hypatia III' 9-max Seat #4 is the button
+Seat 1: W6N9ERONI ($1.97 in chips)
+Seat 2: Absolutzx ($2 in chips)
+Seat 4: unegus ($1.92 in chips)
+Seat 5: mosenz ($2.03 in chips)
+Seat 6: pokerHero1 ($2.06 in chips)
+Seat 7: eislertt77 ($4.61 in chips)
+Seat 8: lukethevamp ($3.69 in chips)
+Seat 9: yapppp ($2.17 in chips)
+mosenz: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c 5h]
+eislertt77: calls $0.02
+RomaHTC_AA joins the table at seat #3
+lukethevamp: calls $0.02
+yapppp: folds
+W6N9ERONI: folds
+Absolutzx: folds
+unegus: folds
+mosenz: folds
+pokerHero1: checks
+*** FLOP *** [9s Qc 8d]
+pokerHero1: checks
+eislertt77: checks
+lukethevamp: checks
+*** TURN *** [9s Qc 8d] [8s]
+pokerHero1: checks
+eislertt77: checks
+lukethevamp: checks
+*** RIVER *** [9s Qc 8d 8s] [Jd]
+pokerHero1: checks
+eislertt77: bets $0.04
+lukethevamp: folds
+pokerHero1: folds
+Uncalled bet ($0.04) returned to eislertt77
+eislertt77 collected $0.07 from pot
+eislertt77: doesn't show hand
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Board [9s Qc 8d 8s Jd]
+Seat 1: W6N9ERONI folded before Flop (didn't bet)
+Seat 2: Absolutzx folded before Flop (didn't bet)
+Seat 4: unegus (button) folded before Flop (didn't bet)
+Seat 5: mosenz (small blind) folded before Flop
+Seat 6: pokerHero1 (big blind) folded on the River
+Seat 7: eislertt77 collected ($0.07)
+Seat 8: lukethevamp folded on the River
+Seat 9: yapppp folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212334468705:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:39:55 ET
+Table 'Hypatia III' 9-max Seat #5 is the button
+Seat 1: W6N9ERONI ($1.97 in chips)
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: RomaHTC_AA ($2 in chips)
+Seat 4: unegus ($1.92 in chips)
+Seat 5: mosenz ($2.02 in chips)
+Seat 6: pokerHero1 ($2.04 in chips)
+Seat 7: eislertt77 ($4.66 in chips)
+Seat 8: lukethevamp ($3.67 in chips)
+Seat 9: yapppp ($2.17 in chips)
+pokerHero1: posts small blind $0.01
+eislertt77: posts big blind $0.02
+RomaHTC_AA: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ks 6c]
+lukethevamp: calls $0.02
+yapppp: folds
+W6N9ERONI: folds
+Absolutzx: folds
+RomaHTC_AA: checks
+unegus: raises $0.10 to $0.12
+mosenz: folds
+pokerHero1: folds
+eislertt77: calls $0.10
+lukethevamp: folds
+RomaHTC_AA: folds
+*** FLOP *** [Ad 7c 9h]
+eislertt77: checks
+unegus: bets $0.22
+eislertt77: calls $0.22
+*** TURN *** [Ad 7c 9h] [7h]
+eislertt77: checks
+unegus: bets $0.56
+eislertt77: calls $0.56
+*** RIVER *** [Ad 7c 9h 7h] [Ah]
+eislertt77: bets $3.76 and is all-in
+unegus: calls $1.02 and is all-in
+Uncalled bet ($2.74) returned to eislertt77
+*** SHOW DOWN ***
+eislertt77: shows [Ac 3h] (a full house, Aces full of Sevens)
+unegus: shows [Kc As] (a full house, Aces full of Sevens)
+eislertt77 collected $1.88 from pot
+unegus collected $1.87 from pot
+*** SUMMARY ***
+Total pot $3.89 | Rake $0.14
+Board [Ad 7c 9h 7h Ah]
+Seat 1: W6N9ERONI folded before Flop (didn't bet)
+Seat 2: Absolutzx folded before Flop (didn't bet)
+Seat 3: RomaHTC_AA folded before Flop (didn't bet)
+Seat 4: unegus showed [Kc As] and won ($1.87) with a full house, Aces full of Sevens
+Seat 5: mosenz (button) folded before Flop (didn't bet)
+Seat 6: pokerHero1 (small blind) folded before Flop
+Seat 7: eislertt77 (big blind) showed [Ac 3h] and won ($1.88) with a full house, Aces full of Sevens
+Seat 8: lukethevamp folded before Flop
+Seat 9: yapppp folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212334557773:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:41:04 ET
+Table 'Hypatia III' 9-max Seat #6 is the button
+Seat 1: W6N9ERONI ($1.97 in chips)
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: RomaHTC_AA ($2 in chips)
+Seat 4: unegus ($1.87 in chips)
+Seat 5: mosenz ($2.02 in chips)
+Seat 6: pokerHero1 ($2.03 in chips)
+Seat 7: eislertt77 ($4.62 in chips)
+Seat 9: yapppp ($2.17 in chips)
+eislertt77: posts small blind $0.01
+yapppp: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd 9s]
+W6N9ERONI: raises $0.06 to $0.08
+Absolutzx: folds
+RomaHTC_AA: folds
+unegus: folds
+mosenz: folds
+pokerHero1: folds
+eislertt77: calls $0.07
+yapppp: calls $0.06
+*** FLOP *** [7d Kc 4d]
+eislertt77: checks
+yapppp: checks
+W6N9ERONI: checks
+*** TURN *** [7d Kc 4d] [6c]
+eislertt77: bets $0.04
+yapppp: calls $0.04
+W6N9ERONI: folds
+*** RIVER *** [7d Kc 4d 6c] [7s]
+eislertt77: checks
+yapppp: bets $0.16
+eislertt77: calls $0.16
+*** SHOW DOWN ***
+yapppp: shows [2s 3s] (a pair of Sevens)
+eislertt77: shows [8s 6d] (two pair, Sevens and Sixes)
+eislertt77 collected $0.62 from pot
+*** SUMMARY ***
+Total pot $0.64 | Rake $0.02
+Board [7d Kc 4d 6c 7s]
+Seat 1: W6N9ERONI folded on the Turn
+Seat 2: Absolutzx folded before Flop (didn't bet)
+Seat 3: RomaHTC_AA folded before Flop (didn't bet)
+Seat 4: unegus folded before Flop (didn't bet)
+Seat 5: mosenz folded before Flop (didn't bet)
+Seat 6: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 7: eislertt77 (small blind) showed [8s 6d] and won ($0.62) with two pair, Sevens and Sixes
+Seat 9: yapppp (big blind) showed [2s 3s] and lost with a pair of Sevens
+
+
+
+PokerStars Hand #212334675045:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:42:38 ET
+Table 'Hypatia III' 9-max Seat #7 is the button
+Seat 1: W6N9ERONI ($1.89 in chips)
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: RomaHTC_AA ($2 in chips)
+Seat 4: unegus ($1.87 in chips)
+Seat 5: mosenz ($2.02 in chips)
+Seat 6: pokerHero1 ($2.03 in chips)
+Seat 7: eislertt77 ($4.96 in chips)
+Seat 9: yapppp ($2 in chips)
+yapppp: posts small blind $0.01
+W6N9ERONI: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c 6h]
+Absolutzx: folds
+RomaHTC_AA: folds
+unegus: folds
+eislertt77 said, "lol"
+mosenz: folds
+pokerHero1: folds
+eislertt77: calls $0.02
+yapppp: folds
+W6N9ERONI: checks
+*** FLOP *** [9s 3c 5s]
+W6N9ERONI: checks
+eislertt77: bets $0.05
+W6N9ERONI: folds
+Uncalled bet ($0.05) returned to eislertt77
+eislertt77 collected $0.05 from pot
+eislertt77: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [9s 3c 5s]
+Seat 1: W6N9ERONI (big blind) folded on the Flop
+Seat 2: Absolutzx folded before Flop (didn't bet)
+Seat 3: RomaHTC_AA folded before Flop (didn't bet)
+Seat 4: unegus folded before Flop (didn't bet)
+Seat 5: mosenz folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: eislertt77 (button) collected ($0.05)
+Seat 9: yapppp (small blind) folded before Flop
+
+
+
+PokerStars Hand #212334735487:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:43:30 ET
+Table 'Hypatia III' 9-max Seat #9 is the button
+Seat 1: W6N9ERONI ($1.87 in chips)
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: RomaHTC_AA ($2 in chips)
+Seat 4: unegus ($1.87 in chips)
+Seat 5: mosenz ($2.02 in chips)
+Seat 6: pokerHero1 ($2.03 in chips)
+Seat 7: eislertt77 ($4.99 in chips)
+Seat 9: yapppp ($2 in chips)
+W6N9ERONI: posts small blind $0.01
+Absolutzx: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc 8d]
+RomaHTC_AA: folds
+unegus: folds
+mosenz has timed out
+mosenz: folds
+pokerHero1: folds
+mosenz is disconnected
+eislertt77: raises $0.04 to $0.06
+yapppp: folds
+W6N9ERONI: folds
+Absolutzx: folds
+Uncalled bet ($0.04) returned to eislertt77
+eislertt77 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: W6N9ERONI (small blind) folded before Flop
+Seat 2: Absolutzx (big blind) folded before Flop
+Seat 3: RomaHTC_AA folded before Flop (didn't bet)
+Seat 4: unegus folded before Flop (didn't bet)
+Seat 5: mosenz folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: eislertt77 collected ($0.05)
+Seat 9: yapppp (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212334793792:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:44:19 ET
+Table 'Hypatia III' 9-max Seat #1 is the button
+Seat 1: W6N9ERONI ($1.86 in chips)
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: RomaHTC_AA ($2 in chips)
+Seat 4: unegus ($1.87 in chips)
+Seat 5: mosenz ($2.02 in chips)
+Seat 6: pokerHero1 ($2.03 in chips)
+Seat 7: eislertt77 ($5.02 in chips)
+Seat 9: yapppp ($2 in chips)
+Absolutzx: posts small blind $0.01
+RomaHTC_AA: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7s 6h]
+unegus: folds
+mosenz: raises $0.04 to $0.06
+pokerHero1: folds
+eislertt77: calls $0.06
+yapppp: folds
+W6N9ERONI: folds
+Absolutzx: calls $0.05
+RomaHTC_AA: folds
+*** FLOP *** [6c Qh 8h]
+Absolutzx: checks
+mosenz: bets $0.14
+eislertt77: calls $0.14
+Absolutzx: folds
+*** TURN *** [6c Qh 8h] [8s]
+mosenz is connected
+mosenz: bets $0.02
+eislertt77: raises $0.50 to $0.52
+mosenz: folds
+Uncalled bet ($0.50) returned to eislertt77
+eislertt77 collected $0.50 from pot
+*** SUMMARY ***
+Total pot $0.52 | Rake $0.02
+Board [6c Qh 8h 8s]
+Seat 1: W6N9ERONI (button) folded before Flop (didn't bet)
+Seat 2: Absolutzx (small blind) folded on the Flop
+Seat 3: RomaHTC_AA (big blind) folded before Flop
+Seat 4: unegus folded before Flop (didn't bet)
+Seat 5: mosenz folded on the Turn
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: eislertt77 collected ($0.50)
+Seat 9: yapppp folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212334940938:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:46:11 ET
+Table 'Hypatia III' 9-max Seat #2 is the button
+Seat 1: W6N9ERONI ($1.86 in chips)
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: RomaHTC_AA ($2 in chips)
+Seat 4: unegus ($1.87 in chips)
+Seat 5: mosenz ($2 in chips)
+Seat 6: pokerHero1 ($2.03 in chips)
+Seat 7: eislertt77 ($5.30 in chips)
+Seat 8: lukethevamp ($3.65 in chips)
+Seat 9: yapppp ($2 in chips)
+RomaHTC_AA: posts small blind $0.01
+unegus: posts big blind $0.02
+lukethevamp: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh Qc]
+mosenz: raises $0.06 to $0.08
+pokerHero1: raises $0.10 to $0.18
+eislertt77: calls $0.18
+lukethevamp: folds
+yapppp: folds
+W6N9ERONI: folds
+Absolutzx: folds
+RomaHTC_AA: folds
+unegus: folds
+mosenz: raises $0.36 to $0.54
+pokerHero1: folds
+eislertt77: calls $0.36
+*** FLOP *** [9d 8d 7s]
+mosenz: bets $1.27
+eislertt77: calls $1.27
+*** TURN *** [9d 8d 7s] [Js]
+mosenz: bets $0.19 and is all-in
+eislertt77: calls $0.19
+*** RIVER *** [9d 8d 7s Js] [4d]
+*** SHOW DOWN ***
+mosenz: shows [Jc Kc] (a pair of Jacks)
+eislertt77: shows [8s Ah] (a pair of Eights)
+mosenz collected $4.09 from pot
+eislertt77 cashed out the hand for $0.64 | Cash Out Fee $0.01
+*** SUMMARY ***
+Total pot $4.24 | Rake $0.15
+Board [9d 8d 7s Js 4d]
+Seat 1: W6N9ERONI folded before Flop (didn't bet)
+Seat 2: Absolutzx (button) folded before Flop (didn't bet)
+Seat 3: RomaHTC_AA (small blind) folded before Flop
+Seat 4: unegus (big blind) folded before Flop
+Seat 5: mosenz showed [Jc Kc] and won ($4.09) with a pair of Jacks
+Seat 6: pokerHero1 folded before Flop
+Seat 7: eislertt77 showed [8s Ah] and lost with a pair of Eights (cashed out).
+Seat 8: lukethevamp folded before Flop (didn't bet)
+Seat 9: yapppp folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212335053902:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:47:40 ET
+Table 'Hypatia III' 9-max Seat #3 is the button
+Seat 1: W6N9ERONI ($1.86 in chips)
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: RomaHTC_AA ($2 in chips)
+Seat 4: unegus ($1.85 in chips)
+Seat 5: mosenz ($4.09 in chips)
+Seat 6: pokerHero1 ($1.85 in chips)
+Seat 7: eislertt77 ($3.94 in chips)
+Seat 8: lukethevamp ($3.62 in chips)
+Seat 9: yapppp ($2 in chips)
+unegus: posts small blind $0.01
+mosenz: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s As]
+pokerHero1: folds
+eislertt77: raises $0.08 to $0.10
+lukethevamp: folds
+yapppp: folds
+W6N9ERONI: folds
+Absolutzx: folds
+RomaHTC_AA: folds
+unegus: folds
+mosenz: folds
+Uncalled bet ($0.08) returned to eislertt77
+eislertt77 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: W6N9ERONI folded before Flop (didn't bet)
+Seat 2: Absolutzx folded before Flop (didn't bet)
+Seat 3: RomaHTC_AA (button) folded before Flop (didn't bet)
+Seat 4: unegus (small blind) folded before Flop
+Seat 5: mosenz (big blind) folded before Flop
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: eislertt77 collected ($0.05)
+Seat 8: lukethevamp folded before Flop (didn't bet)
+Seat 9: yapppp folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212335108507:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:48:22 ET
+Table 'Hypatia III' 9-max Seat #4 is the button
+Seat 1: W6N9ERONI ($1.86 in chips)
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: RomaHTC_AA ($2 in chips)
+Seat 4: unegus ($1.84 in chips)
+Seat 5: mosenz ($4.07 in chips)
+Seat 6: pokerHero1 ($1.85 in chips)
+Seat 7: eislertt77 ($3.97 in chips)
+Seat 8: lukethevamp ($3.62 in chips)
+Seat 9: yapppp ($2 in chips)
+mosenz: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8s 2s]
+eislertt77: raises $0.04 to $0.06
+lukethevamp: folds
+yapppp: folds
+W6N9ERONI: folds
+Absolutzx: folds
+RomaHTC_AA: folds
+unegus: folds
+mosenz: folds
+pokerHero1: folds
+Uncalled bet ($0.04) returned to eislertt77
+eislertt77 collected $0.05 from pot
+eislertt77: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: W6N9ERONI folded before Flop (didn't bet)
+Seat 2: Absolutzx folded before Flop (didn't bet)
+Seat 3: RomaHTC_AA folded before Flop (didn't bet)
+Seat 4: unegus (button) folded before Flop (didn't bet)
+Seat 5: mosenz (small blind) folded before Flop
+Seat 6: pokerHero1 (big blind) folded before Flop
+Seat 7: eislertt77 collected ($0.05)
+Seat 8: lukethevamp folded before Flop (didn't bet)
+Seat 9: yapppp folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212335153744:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:48:59 ET
+Table 'Hypatia III' 9-max Seat #5 is the button
+Seat 1: W6N9ERONI ($1.86 in chips)
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: RomaHTC_AA ($2 in chips)
+Seat 4: unegus ($1.84 in chips)
+Seat 5: mosenz ($4.06 in chips)
+Seat 6: pokerHero1 ($1.83 in chips)
+Seat 7: eislertt77 ($4 in chips)
+Seat 8: lukethevamp ($3.62 in chips)
+Seat 9: yapppp ($2 in chips)
+pokerHero1: posts small blind $0.01
+eislertt77: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ah 5h]
+lukethevamp: folds
+yapppp has timed out
+yapppp: folds
+W6N9ERONI: raises $0.06 to $0.08
+Absolutzx: folds
+RomaHTC_AA: folds
+unegus: folds
+mosenz: raises $0.16 to $0.24
+pokerHero1: folds
+eislertt77: folds
+W6N9ERONI: calls $0.16
+*** FLOP *** [Kc 9c Kh]
+W6N9ERONI: checks
+mosenz: bets $0.37
+W6N9ERONI: raises $0.37 to $0.74
+mosenz: folds
+Uncalled bet ($0.37) returned to W6N9ERONI
+W6N9ERONI collected $1.21 from pot
+W6N9ERONI: doesn't show hand
+*** SUMMARY ***
+Total pot $1.25 | Rake $0.04
+Board [Kc 9c Kh]
+Seat 1: W6N9ERONI collected ($1.21)
+Seat 2: Absolutzx folded before Flop (didn't bet)
+Seat 3: RomaHTC_AA folded before Flop (didn't bet)
+Seat 4: unegus folded before Flop (didn't bet)
+Seat 5: mosenz (button) folded on the Flop
+Seat 6: pokerHero1 (small blind) folded before Flop
+Seat 7: eislertt77 (big blind) folded before Flop
+Seat 8: lukethevamp folded before Flop (didn't bet)
+Seat 9: yapppp folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212335249966:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:50:15 ET
+Table 'Hypatia III' 9-max Seat #6 is the button
+Seat 1: W6N9ERONI ($2.46 in chips)
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: RomaHTC_AA ($2 in chips)
+Seat 4: unegus ($1.84 in chips)
+Seat 5: mosenz ($3.45 in chips)
+Seat 6: pokerHero1 ($1.82 in chips)
+Seat 7: eislertt77 ($3.98 in chips)
+Seat 8: lukethevamp ($3.62 in chips)
+Seat 9: yapppp ($2 in chips)
+eislertt77: posts small blind $0.01
+lukethevamp: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h As]
+yapppp: raises $0.04 to $0.06
+W6N9ERONI: folds
+Absolutzx: folds
+RomaHTC_AA: folds
+unegus: folds
+mosenz: folds
+pokerHero1: folds
+eislertt77: calls $0.05
+lukethevamp: folds
+*** FLOP *** [Ah 7h 7d]
+eislertt77: checks
+yapppp: bets $0.09
+eislertt77: folds
+Uncalled bet ($0.09) returned to yapppp
+yapppp collected $0.14 from pot
+yapppp: doesn't show hand
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [Ah 7h 7d]
+Seat 1: W6N9ERONI folded before Flop (didn't bet)
+Seat 2: Absolutzx folded before Flop (didn't bet)
+Seat 3: RomaHTC_AA folded before Flop (didn't bet)
+Seat 4: unegus folded before Flop (didn't bet)
+Seat 5: mosenz folded before Flop (didn't bet)
+Seat 6: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 7: eislertt77 (small blind) folded on the Flop
+Seat 8: lukethevamp (big blind) folded before Flop
+Seat 9: yapppp collected ($0.14)
+
+
+
+PokerStars Hand #212335300249:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:50:54 ET
+Table 'Hypatia III' 9-max Seat #7 is the button
+Seat 1: W6N9ERONI ($2.46 in chips)
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: RomaHTC_AA ($2 in chips)
+Seat 4: unegus ($1.84 in chips)
+Seat 5: mosenz ($3.45 in chips)
+Seat 6: pokerHero1 ($1.82 in chips)
+Seat 7: eislertt77 ($3.92 in chips)
+Seat 8: lukethevamp ($3.60 in chips)
+lukethevamp: posts small blind $0.01
+yapppp: is sitting out
+W6N9ERONI: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d Th]
+yapppp leaves the table
+Absolutzx: folds
+RomaHTC_AA: folds
+unegus: folds
+TNV1984 joins the table at seat #9
+mosenz: folds
+pokerHero1: folds
+eislertt77: folds
+lukethevamp: folds
+Uncalled bet ($0.01) returned to W6N9ERONI
+W6N9ERONI collected $0.02 from pot
+W6N9ERONI: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: W6N9ERONI (big blind) collected ($0.02)
+Seat 2: Absolutzx folded before Flop (didn't bet)
+Seat 3: RomaHTC_AA folded before Flop (didn't bet)
+Seat 4: unegus folded before Flop (didn't bet)
+Seat 5: mosenz folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: eislertt77 (button) folded before Flop (didn't bet)
+Seat 8: lukethevamp (small blind) folded before Flop
+
+
+
+PokerStars Hand #212335328186:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:51:15 ET
+Table 'Hypatia III' 9-max Seat #8 is the button
+Seat 1: W6N9ERONI ($2.47 in chips)
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: RomaHTC_AA ($2 in chips)
+Seat 4: unegus ($1.84 in chips)
+Seat 5: mosenz ($3.45 in chips)
+Seat 6: pokerHero1 ($1.82 in chips)
+Seat 7: eislertt77 ($3.92 in chips)
+Seat 8: lukethevamp ($3.59 in chips)
+W6N9ERONI: posts small blind $0.01
+Absolutzx: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad Qh]
+RomaHTC_AA: folds
+unegus: folds
+mosenz: folds
+pokerHero1: raises $0.06 to $0.08
+eislertt77: folds
+lukethevamp: folds
+W6N9ERONI: folds
+Absolutzx: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: W6N9ERONI (small blind) folded before Flop
+Seat 2: Absolutzx (big blind) folded before Flop
+Seat 3: RomaHTC_AA folded before Flop (didn't bet)
+Seat 4: unegus folded before Flop (didn't bet)
+Seat 5: mosenz folded before Flop (didn't bet)
+Seat 6: pokerHero1 collected ($0.05)
+Seat 7: eislertt77 folded before Flop (didn't bet)
+Seat 8: lukethevamp (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212335357511:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:51:32 ET
+Table 'Hypatia III' 9-max Seat #1 is the button
+Seat 1: W6N9ERONI ($2.46 in chips)
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: RomaHTC_AA ($2 in chips)
+Seat 4: unegus ($1.84 in chips)
+Seat 5: mosenz ($3.45 in chips)
+Seat 6: pokerHero1 ($1.85 in chips)
+Seat 7: eislertt77 ($3.92 in chips)
+Seat 8: lukethevamp ($3.59 in chips)
+Absolutzx: posts small blind $0.01
+RomaHTC_AA: posts big blind $0.02
+TNV1984: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c Qs]
+unegus: folds
+mosenz: folds
+pokerHero1: folds
+eislertt77: calls $0.02
+lukethevamp: calls $0.02
+W6N9ERONI: folds
+Absolutzx: calls $0.01
+RomaHTC_AA: checks
+*** FLOP *** [6c Kd 9s]
+Absolutzx: checks
+RomaHTC_AA: checks
+eislertt77: bets $0.08
+lukethevamp: folds
+Absolutzx: folds
+RomaHTC_AA: folds
+Uncalled bet ($0.08) returned to eislertt77
+eislertt77 collected $0.08 from pot
+eislertt77: doesn't show hand
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Board [6c Kd 9s]
+Seat 1: W6N9ERONI (button) folded before Flop (didn't bet)
+Seat 2: Absolutzx (small blind) folded on the Flop
+Seat 3: RomaHTC_AA (big blind) folded on the Flop
+Seat 4: unegus folded before Flop (didn't bet)
+Seat 5: mosenz folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: eislertt77 collected ($0.08)
+Seat 8: lukethevamp folded on the Flop
+
+
+
+PokerStars Hand #212335429789:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:52:29 ET
+Table 'Hypatia III' 9-max Seat #2 is the button
+Seat 1: W6N9ERONI ($2.46 in chips)
+Seat 2: Absolutzx ($2 in chips)
+Seat 3: RomaHTC_AA ($2 in chips)
+Seat 4: unegus ($1.84 in chips)
+Seat 5: mosenz ($3.45 in chips)
+Seat 6: pokerHero1 ($1.85 in chips)
+Seat 7: eislertt77 ($3.98 in chips)
+Seat 8: lukethevamp ($3.57 in chips)
+RomaHTC_AA: posts small blind $0.01
+unegus: posts big blind $0.02
+TNV1984: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd 8d]
+mosenz has timed out
+mosenz: folds
+pokerHero1: folds
+eislertt77: calls $0.02
+lukethevamp: calls $0.02
+W6N9ERONI: folds
+Absolutzx: calls $0.02
+RomaHTC_AA: raises $0.04 to $0.06
+unegus: folds
+eislertt77: calls $0.04
+lukethevamp: calls $0.04
+Absolutzx: calls $0.04
+*** FLOP *** [9d 8h Qd]
+RomaHTC_AA: checks
+eislertt77: checks
+lukethevamp: checks
+Absolutzx: checks
+*** TURN *** [9d 8h Qd] [Ah]
+RomaHTC_AA: checks
+eislertt77: checks
+lukethevamp: checks
+Absolutzx: checks
+*** RIVER *** [9d 8h Qd Ah] [3s]
+RomaHTC_AA: checks
+eislertt77: checks
+lukethevamp: bets $0.10
+Absolutzx: calls $0.10
+RomaHTC_AA: folds
+eislertt77: folds
+*** SHOW DOWN ***
+lukethevamp: shows [9c Kh] (a pair of Nines)
+Absolutzx: shows [Ac 5c] (a pair of Aces)
+Absolutzx collected $0.44 from pot
+*** SUMMARY ***
+Total pot $0.46 | Rake $0.02
+Board [9d 8h Qd Ah 3s]
+Seat 1: W6N9ERONI folded before Flop (didn't bet)
+Seat 2: Absolutzx (button) showed [Ac 5c] and won ($0.44) with a pair of Aces
+Seat 3: RomaHTC_AA (small blind) folded on the River
+Seat 4: unegus (big blind) folded before Flop
+Seat 5: mosenz folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: eislertt77 folded on the River
+Seat 8: lukethevamp showed [9c Kh] and lost with a pair of Nines
+
+
+
+PokerStars Hand #212335568402:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:54:16 ET
+Table 'Hypatia III' 9-max Seat #3 is the button
+Seat 1: W6N9ERONI ($2.46 in chips)
+Seat 2: Absolutzx ($2.28 in chips)
+Seat 3: RomaHTC_AA ($2 in chips)
+Seat 4: unegus ($1.82 in chips)
+Seat 5: mosenz ($3.45 in chips)
+Seat 6: pokerHero1 ($1.85 in chips)
+Seat 7: eislertt77 ($3.92 in chips)
+Seat 8: lukethevamp ($3.41 in chips)
+unegus: posts small blind $0.01
+mosenz: posts big blind $0.02
+TNV1984: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ah Kd]
+pokerHero1: raises $0.06 to $0.08
+eislertt77: calls $0.08
+lukethevamp: calls $0.08
+W6N9ERONI: folds
+Absolutzx: folds
+RomaHTC_AA: folds
+unegus: folds
+mosenz: folds
+*** FLOP *** [Qd 3c 8c]
+pokerHero1: checks
+eislertt77: checks
+lukethevamp: checks
+*** TURN *** [Qd 3c 8c] [Jc]
+pokerHero1: checks
+eislertt77: checks
+lukethevamp: bets $0.12
+pokerHero1: folds
+eislertt77: folds
+Uncalled bet ($0.12) returned to lukethevamp
+lukethevamp collected $0.26 from pot
+lukethevamp: doesn't show hand
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01
+Board [Qd 3c 8c Jc]
+Seat 1: W6N9ERONI folded before Flop (didn't bet)
+Seat 2: Absolutzx folded before Flop (didn't bet)
+Seat 3: RomaHTC_AA (button) folded before Flop (didn't bet)
+Seat 4: unegus (small blind) folded before Flop
+Seat 5: mosenz (big blind) folded before Flop
+Seat 6: pokerHero1 folded on the Turn
+Seat 7: eislertt77 folded on the Turn
+Seat 8: lukethevamp collected ($0.26)
+
+
+

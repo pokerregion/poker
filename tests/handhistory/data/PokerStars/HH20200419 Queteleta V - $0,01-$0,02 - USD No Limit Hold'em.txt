@@ -1,0 +1,2238 @@
+﻿PokerStars Hand #212332201367:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:10:07 ET
+Table 'Queteleta V' 9-max Seat #1 is the button
+Seat 1: SPEKTR_feel ($5.69 in chips)
+Seat 2: orlando469 ($0.83 in chips)
+Seat 3: pokerHero1 ($2 in chips)
+Seat 4: Doc62Holiday ($3.04 in chips)
+Seat 5: lalty ($4.60 in chips)
+Seat 6: Drshpion13 ($1.53 in chips)
+Seat 7: jolly_roger192 ($1.32 in chips)
+Seat 8: Pokererwertas ($0.77 in chips)
+Seat 9: Dolorizado ($1.59 in chips)
+orlando469: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qd Jc]
+Doc62Holiday: folds
+lalty: folds
+lalty leaves the table
+Drshpion13: raises $0.04 to $0.06
+jolly_roger192: folds
+m.kelso11 joins the table at seat #5
+Pokererwertas: calls $0.06
+Dolorizado: calls $0.06
+SPEKTR_feel: folds
+orlando469: folds
+pokerHero1: folds
+*** FLOP *** [8c Ts 6d]
+Drshpion13: bets $0.10
+Pokererwertas: folds
+Dolorizado: folds
+Uncalled bet ($0.10) returned to Drshpion13
+Drshpion13 collected $0.20 from pot
+Drshpion13: doesn't show hand
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [8c Ts 6d]
+Seat 1: SPEKTR_feel (button) folded before Flop (didn't bet)
+Seat 2: orlando469 (small blind) folded before Flop
+Seat 3: pokerHero1 (big blind) folded before Flop
+Seat 4: Doc62Holiday folded before Flop (didn't bet)
+Seat 5: lalty folded before Flop (didn't bet)
+Seat 6: Drshpion13 collected ($0.20)
+Seat 7: jolly_roger192 folded before Flop (didn't bet)
+Seat 8: Pokererwertas folded on the Flop
+Seat 9: Dolorizado folded on the Flop
+
+
+
+PokerStars Hand #212332251430:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:10:48 ET
+Table 'Queteleta V' 9-max Seat #2 is the button
+Seat 1: SPEKTR_feel ($5.69 in chips)
+Seat 2: orlando469 ($0.82 in chips)
+Seat 3: pokerHero1 ($1.98 in chips)
+Seat 4: Doc62Holiday ($3.04 in chips)
+Seat 6: Drshpion13 ($1.67 in chips)
+Seat 7: jolly_roger192 ($1.32 in chips)
+Seat 8: Pokererwertas ($0.71 in chips)
+Seat 9: Dolorizado ($1.53 in chips)
+pokerHero1: posts small blind $0.01
+Doc62Holiday: posts big blind $0.02
+m.kelso11: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kc Td]
+Drshpion13: raises $0.04 to $0.06
+jolly_roger192: folds
+Pokererwertas: folds
+Dolorizado: folds
+SPEKTR_feel: folds
+orlando469: folds
+pokerHero1: folds
+Doc62Holiday: folds
+Uncalled bet ($0.04) returned to Drshpion13
+Drshpion13 collected $0.05 from pot
+Drshpion13: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: SPEKTR_feel folded before Flop (didn't bet)
+Seat 2: orlando469 (button) folded before Flop (didn't bet)
+Seat 3: pokerHero1 (small blind) folded before Flop
+Seat 4: Doc62Holiday (big blind) folded before Flop
+Seat 6: Drshpion13 collected ($0.05)
+Seat 7: jolly_roger192 folded before Flop (didn't bet)
+Seat 8: Pokererwertas folded before Flop (didn't bet)
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332278124:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:11:09 ET
+Table 'Queteleta V' 9-max Seat #3 is the button
+Seat 1: SPEKTR_feel ($5.69 in chips)
+Seat 2: orlando469 ($0.82 in chips)
+Seat 3: pokerHero1 ($1.97 in chips)
+Seat 4: Doc62Holiday ($3.02 in chips)
+Seat 5: m.kelso11 ($2 in chips)
+Seat 6: Drshpion13 ($1.70 in chips)
+Seat 7: jolly_roger192 ($1.32 in chips)
+Seat 8: Pokererwertas ($0.71 in chips)
+Seat 9: Dolorizado ($1.53 in chips)
+Doc62Holiday: posts small blind $0.01
+m.kelso11: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d 5d]
+Drshpion13: raises $0.04 to $0.06
+jolly_roger192: calls $0.06
+Pokererwertas: folds
+Dolorizado: folds
+SPEKTR_feel: folds
+orlando469: folds
+pokerHero1: folds
+Doc62Holiday: raises $0.14 to $0.20
+m.kelso11: folds
+Drshpion13: calls $0.14
+jolly_roger192: folds
+*** FLOP *** [6s Qc Kh]
+Doc62Holiday: bets $0.30
+Drshpion13: folds
+Uncalled bet ($0.30) returned to Doc62Holiday
+Doc62Holiday collected $0.46 from pot
+Doc62Holiday: doesn't show hand
+*** SUMMARY ***
+Total pot $0.48 | Rake $0.02
+Board [6s Qc Kh]
+Seat 1: SPEKTR_feel folded before Flop (didn't bet)
+Seat 2: orlando469 folded before Flop (didn't bet)
+Seat 3: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 4: Doc62Holiday (small blind) collected ($0.46)
+Seat 5: m.kelso11 (big blind) folded before Flop
+Seat 6: Drshpion13 folded on the Flop
+Seat 7: jolly_roger192 folded before Flop
+Seat 8: Pokererwertas folded before Flop (didn't bet)
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332351369:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:12:07 ET
+Table 'Queteleta V' 9-max Seat #4 is the button
+Seat 1: SPEKTR_feel ($5.69 in chips)
+Seat 2: orlando469 ($0.82 in chips)
+Seat 3: pokerHero1 ($1.97 in chips)
+Seat 4: Doc62Holiday ($3.28 in chips)
+Seat 5: m.kelso11 ($1.98 in chips)
+Seat 6: Drshpion13 ($1.50 in chips)
+Seat 7: jolly_roger192 ($1.26 in chips)
+Seat 8: Pokererwertas ($0.71 in chips)
+Seat 9: Dolorizado ($1.53 in chips)
+m.kelso11: posts small blind $0.01
+Drshpion13: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kc 2s]
+jolly_roger192: folds
+Pokererwertas has timed out
+Pokererwertas: folds
+Dolorizado: folds
+SPEKTR_feel: raises $0.04 to $0.06
+orlando469: folds
+pokerHero1: folds
+Doc62Holiday: folds
+m.kelso11: folds
+Drshpion13: raises $0.04 to $0.10
+SPEKTR_feel: calls $0.04
+*** FLOP *** [Ts Td 7d]
+Drshpion13: bets $0.10
+SPEKTR_feel: calls $0.10
+*** TURN *** [Ts Td 7d] [Th]
+Drshpion13: checks
+SPEKTR_feel: bets $0.20
+Drshpion13: calls $0.20
+*** RIVER *** [Ts Td 7d Th] [2d]
+Drshpion13: checks
+SPEKTR_feel: checks
+*** SHOW DOWN ***
+Drshpion13: shows [Ah Tc] (four of a kind, Tens)
+SPEKTR_feel: mucks hand
+Drshpion13 collected $0.78 from pot
+*** SUMMARY ***
+Total pot $0.81 | Rake $0.03
+Board [Ts Td 7d Th 2d]
+Seat 1: SPEKTR_feel mucked [8d Ad]
+Seat 2: orlando469 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: Doc62Holiday (button) folded before Flop (didn't bet)
+Seat 5: m.kelso11 (small blind) folded before Flop
+Seat 6: Drshpion13 (big blind) showed [Ah Tc] and won ($0.78) with four of a kind, Tens
+Seat 7: jolly_roger192 folded before Flop (didn't bet)
+Seat 8: Pokererwertas folded before Flop (didn't bet)
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332453115:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:13:28 ET
+Table 'Queteleta V' 9-max Seat #5 is the button
+Seat 1: SPEKTR_feel ($5.29 in chips)
+Seat 2: orlando469 ($0.82 in chips)
+Seat 3: pokerHero1 ($1.97 in chips)
+Seat 4: Doc62Holiday ($3.28 in chips)
+Seat 5: m.kelso11 ($1.97 in chips)
+Seat 6: Drshpion13 ($1.88 in chips)
+Seat 7: jolly_roger192 ($1.26 in chips)
+Seat 8: Pokererwertas ($0.71 in chips)
+Seat 9: Dolorizado ($1.53 in chips)
+Drshpion13: posts small blind $0.01
+jolly_roger192: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s Jh]
+Pokererwertas: folds
+Dolorizado: folds
+SPEKTR_feel: raises $0.02 to $0.04
+orlando469: folds
+pokerHero1: folds
+Doc62Holiday: folds
+m.kelso11: folds
+Drshpion13: raises $0.02 to $0.06
+jolly_roger192: folds
+SPEKTR_feel: calls $0.02
+*** FLOP *** [Qh 3s 8d]
+Drshpion13: bets $0.06
+SPEKTR_feel: calls $0.06
+*** TURN *** [Qh 3s 8d] [8c]
+Drshpion13: checks
+SPEKTR_feel: checks
+*** RIVER *** [Qh 3s 8d 8c] [3d]
+Drshpion13: checks
+SPEKTR_feel: checks
+*** SHOW DOWN ***
+Drshpion13: shows [As Kc] (two pair, Eights and Threes)
+SPEKTR_feel: shows [Ah 2h] (two pair, Eights and Threes)
+Drshpion13 collected $0.13 from pot
+SPEKTR_feel collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.26 | Rake $0.01
+Board [Qh 3s 8d 8c 3d]
+Seat 1: SPEKTR_feel showed [Ah 2h] and won ($0.12) with two pair, Eights and Threes
+Seat 2: orlando469 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: Doc62Holiday folded before Flop (didn't bet)
+Seat 5: m.kelso11 (button) folded before Flop (didn't bet)
+Seat 6: Drshpion13 (small blind) showed [As Kc] and won ($0.13) with two pair, Eights and Threes
+Seat 7: jolly_roger192 (big blind) folded before Flop
+Seat 8: Pokererwertas folded before Flop (didn't bet)
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332511208:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:14:13 ET
+Table 'Queteleta V' 9-max Seat #6 is the button
+Seat 1: SPEKTR_feel ($5.29 in chips)
+Seat 2: orlando469 ($0.82 in chips)
+Seat 3: pokerHero1 ($1.97 in chips)
+Seat 4: Doc62Holiday ($3.28 in chips)
+Seat 5: m.kelso11 ($1.97 in chips)
+Seat 6: Drshpion13 ($1.89 in chips)
+Seat 7: jolly_roger192 ($1.24 in chips)
+Seat 8: Pokererwertas ($0.71 in chips)
+Seat 9: Dolorizado ($1.53 in chips)
+jolly_roger192: posts small blind $0.01
+Pokererwertas: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h 7c]
+Dolorizado: folds
+SPEKTR_feel: folds
+orlando469: folds
+pokerHero1: folds
+Doc62Holiday: folds
+m.kelso11: folds
+Drshpion13: raises $0.04 to $0.06
+jolly_roger192: calls $0.05
+Pokererwertas: folds
+*** FLOP *** [Kc 3c 7h]
+jolly_roger192: checks
+Drshpion13: bets $0.06
+jolly_roger192: calls $0.06
+*** TURN *** [Kc 3c 7h] [4c]
+jolly_roger192: checks
+Drshpion13: checks
+*** RIVER *** [Kc 3c 7h 4c] [Js]
+jolly_roger192: bets $0.10
+Drshpion13: folds
+Uncalled bet ($0.10) returned to jolly_roger192
+jolly_roger192 collected $0.25 from pot
+jolly_roger192: doesn't show hand
+*** SUMMARY ***
+Total pot $0.26 | Rake $0.01
+Board [Kc 3c 7h 4c Js]
+Seat 1: SPEKTR_feel folded before Flop (didn't bet)
+Seat 2: orlando469 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: Doc62Holiday folded before Flop (didn't bet)
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 (button) folded on the River
+Seat 7: jolly_roger192 (small blind) collected ($0.25)
+Seat 8: Pokererwertas (big blind) folded before Flop
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332590216:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:15:17 ET
+Table 'Queteleta V' 9-max Seat #7 is the button
+Seat 1: SPEKTR_feel ($5.29 in chips)
+Seat 2: orlando469 ($0.82 in chips)
+Seat 3: pokerHero1 ($1.97 in chips)
+Seat 4: Doc62Holiday ($3.28 in chips)
+Seat 5: m.kelso11 ($1.97 in chips)
+Seat 6: Drshpion13 ($1.77 in chips)
+Seat 7: jolly_roger192 ($1.37 in chips)
+Seat 8: Pokererwertas ($0.69 in chips)
+Seat 9: Dolorizado ($1.53 in chips)
+Pokererwertas: posts small blind $0.01
+Dolorizado: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc Ks]
+SPEKTR_feel: folds
+orlando469: folds
+pokerHero1: folds
+Doc62Holiday: folds
+m.kelso11: raises $0.04 to $0.06
+Drshpion13: folds
+jolly_roger192: folds
+Pokererwertas: folds
+Dolorizado: folds
+Uncalled bet ($0.04) returned to m.kelso11
+m.kelso11 collected $0.05 from pot
+m.kelso11: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: SPEKTR_feel folded before Flop (didn't bet)
+Seat 2: orlando469 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: Doc62Holiday folded before Flop (didn't bet)
+Seat 5: m.kelso11 collected ($0.05)
+Seat 6: Drshpion13 folded before Flop (didn't bet)
+Seat 7: jolly_roger192 (button) folded before Flop (didn't bet)
+Seat 8: Pokererwertas (small blind) folded before Flop
+Seat 9: Dolorizado (big blind) folded before Flop
+
+
+
+PokerStars Hand #212332638201:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:15:56 ET
+Table 'Queteleta V' 9-max Seat #8 is the button
+Seat 1: SPEKTR_feel ($5.29 in chips)
+Seat 2: orlando469 ($0.82 in chips)
+Seat 3: pokerHero1 ($1.97 in chips)
+Seat 4: Doc62Holiday ($3.28 in chips)
+Seat 5: m.kelso11 ($2 in chips)
+Seat 6: Drshpion13 ($1.77 in chips)
+Seat 7: jolly_roger192 ($1.37 in chips)
+Seat 8: Pokererwertas ($0.68 in chips)
+Seat 9: Dolorizado ($1.51 in chips)
+Dolorizado: posts small blind $0.01
+SPEKTR_feel: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d Ad]
+orlando469: calls $0.02
+pokerHero1: folds
+Doc62Holiday: folds
+m.kelso11: calls $0.02
+Drshpion13: folds
+jolly_roger192: calls $0.02
+Pokererwertas has timed out
+Pokererwertas: folds
+Dolorizado: calls $0.01
+SPEKTR_feel: checks
+*** FLOP *** [7h 9c Tc]
+Dolorizado: bets $0.10
+SPEKTR_feel: folds
+orlando469: folds
+m.kelso11: folds
+jolly_roger192: calls $0.10
+*** TURN *** [7h 9c Tc] [4h]
+Dolorizado: bets $0.22
+jolly_roger192: calls $0.22
+*** RIVER *** [7h 9c Tc 4h] [3h]
+Dolorizado: checks
+jolly_roger192: checks
+*** SHOW DOWN ***
+Dolorizado: shows [Qh Th] (a flush, Queen high)
+jolly_roger192: mucks hand
+Dolorizado collected $0.71 from pot
+*** SUMMARY ***
+Total pot $0.74 | Rake $0.03
+Board [7h 9c Tc 4h 3h]
+Seat 1: SPEKTR_feel (big blind) folded on the Flop
+Seat 2: orlando469 folded on the Flop
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: Doc62Holiday folded before Flop (didn't bet)
+Seat 5: m.kelso11 folded on the Flop
+Seat 6: Drshpion13 folded before Flop (didn't bet)
+Seat 7: jolly_roger192 mucked [As Td]
+Seat 8: Pokererwertas (button) folded before Flop (didn't bet)
+Seat 9: Dolorizado (small blind) showed [Qh Th] and won ($0.71) with a flush, Queen high
+
+
+
+PokerStars Hand #212332733334:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:17:12 ET
+Table 'Queteleta V' 9-max Seat #9 is the button
+Seat 1: SPEKTR_feel ($5.27 in chips)
+Seat 2: orlando469 ($0.80 in chips)
+Seat 3: pokerHero1 ($1.97 in chips)
+Seat 4: Doc62Holiday ($3.28 in chips)
+Seat 5: m.kelso11 ($1.98 in chips)
+Seat 6: Drshpion13 ($1.77 in chips)
+Seat 7: jolly_roger192 ($1.03 in chips)
+Seat 9: Dolorizado ($1.88 in chips)
+SPEKTR_feel: posts small blind $0.01
+orlando469: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c Ac]
+pokerHero1: raises $0.06 to $0.08
+Doc62Holiday: folds
+m.kelso11: folds
+Drshpion13: folds
+jolly_roger192: folds
+Dolorizado: folds
+SPEKTR_feel: folds
+orlando469: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: SPEKTR_feel (small blind) folded before Flop
+Seat 2: orlando469 (big blind) folded before Flop
+Seat 3: pokerHero1 collected ($0.05)
+Seat 4: Doc62Holiday folded before Flop (didn't bet)
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 folded before Flop (didn't bet)
+Seat 7: jolly_roger192 folded before Flop (didn't bet)
+Seat 9: Dolorizado (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332763039:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:17:31 ET
+Table 'Queteleta V' 9-max Seat #1 is the button
+Seat 1: SPEKTR_feel ($5.26 in chips)
+Seat 2: orlando469 ($0.78 in chips)
+Seat 3: pokerHero1 ($2 in chips)
+Seat 4: Doc62Holiday ($3.28 in chips)
+Seat 5: m.kelso11 ($1.98 in chips)
+Seat 6: Drshpion13 ($1.77 in chips)
+Seat 7: jolly_roger192 ($1.03 in chips)
+Seat 9: Dolorizado ($1.88 in chips)
+orlando469: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c Js]
+Doc62Holiday: raises $0.04 to $0.06
+m.kelso11: calls $0.06
+Drshpion13: calls $0.06
+jolly_roger192: folds
+Dolorizado: folds
+SPEKTR_feel has timed out
+SPEKTR_feel: folds
+orlando469: folds
+pokerHero1: folds
+*** FLOP *** [2s 7d 7s]
+Doc62Holiday: checks
+m.kelso11: checks
+Drshpion13: checks
+*** TURN *** [2s 7d 7s] [5h]
+Doc62Holiday: checks
+m.kelso11: bets $0.08
+Drshpion13: calls $0.08
+Doc62Holiday: folds
+*** RIVER *** [2s 7d 7s 5h] [3d]
+m.kelso11: checks
+Drshpion13: bets $0.18
+m.kelso11: folds
+Uncalled bet ($0.18) returned to Drshpion13
+Drshpion13 collected $0.36 from pot
+Drshpion13: doesn't show hand
+*** SUMMARY ***
+Total pot $0.37 | Rake $0.01
+Board [2s 7d 7s 5h 3d]
+Seat 1: SPEKTR_feel (button) folded before Flop (didn't bet)
+Seat 2: orlando469 (small blind) folded before Flop
+Seat 3: pokerHero1 (big blind) folded before Flop
+Seat 4: Doc62Holiday folded on the Turn
+Seat 5: m.kelso11 folded on the River
+Seat 6: Drshpion13 collected ($0.36)
+Seat 7: jolly_roger192 folded before Flop (didn't bet)
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332846755:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:18:38 ET
+Table 'Queteleta V' 9-max Seat #2 is the button
+Seat 2: orlando469 ($0.77 in chips)
+Seat 3: pokerHero1 ($1.98 in chips)
+Seat 4: Doc62Holiday ($3.22 in chips)
+Seat 5: m.kelso11 ($1.84 in chips)
+Seat 6: Drshpion13 ($1.99 in chips)
+Seat 7: jolly_roger192 ($1.03 in chips)
+Seat 9: Dolorizado ($1.88 in chips)
+pokerHero1: posts small blind $0.01
+Doc62Holiday: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ks 9h]
+m.kelso11: folds
+Drshpion13: raises $0.04 to $0.06
+jolly_roger192: folds
+Dolorizado: folds
+orlando469: folds
+pokerHero1: folds
+Doc62Holiday: folds
+Uncalled bet ($0.04) returned to Drshpion13
+Drshpion13 collected $0.05 from pot
+Drshpion13: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 2: orlando469 (button) folded before Flop (didn't bet)
+Seat 3: pokerHero1 (small blind) folded before Flop
+Seat 4: Doc62Holiday (big blind) folded before Flop
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 collected ($0.05)
+Seat 7: jolly_roger192 folded before Flop (didn't bet)
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332867270:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:18:55 ET
+Table 'Queteleta V' 9-max Seat #3 is the button
+Seat 2: orlando469 ($0.77 in chips)
+Seat 3: pokerHero1 ($1.97 in chips)
+Seat 4: Doc62Holiday ($3.20 in chips)
+Seat 5: m.kelso11 ($1.84 in chips)
+Seat 6: Drshpion13 ($2.02 in chips)
+Seat 7: jolly_roger192 ($1.03 in chips)
+Seat 8: Pokererwertas ($0.68 in chips)
+Seat 9: Dolorizado ($1.88 in chips)
+Doc62Holiday: posts small blind $0.01
+m.kelso11: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qd Td]
+Drshpion13: folds
+jolly_roger192: folds
+Pokererwertas has timed out
+Pokererwertas: folds
+Dolorizado: folds
+orlando469: folds
+pokerHero1: raises $0.04 to $0.06
+Doc62Holiday: folds
+m.kelso11: folds
+Uncalled bet ($0.04) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 2: orlando469 folded before Flop (didn't bet)
+Seat 3: pokerHero1 (button) collected ($0.05)
+Seat 4: Doc62Holiday (small blind) folded before Flop
+Seat 5: m.kelso11 (big blind) folded before Flop
+Seat 6: Drshpion13 folded before Flop (didn't bet)
+Seat 7: jolly_roger192 folded before Flop (didn't bet)
+Seat 8: Pokererwertas folded before Flop (didn't bet)
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332898653:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:19:19 ET
+Table 'Queteleta V' 9-max Seat #4 is the button
+Seat 2: orlando469 ($0.77 in chips)
+Seat 3: pokerHero1 ($2 in chips)
+Seat 4: Doc62Holiday ($3.19 in chips)
+Seat 5: m.kelso11 ($1.82 in chips)
+Seat 6: Drshpion13 ($2.02 in chips)
+Seat 7: jolly_roger192 ($1.03 in chips)
+Seat 8: Pokererwertas ($0.68 in chips)
+Seat 9: Dolorizado ($1.88 in chips)
+m.kelso11: posts small blind $0.01
+Drshpion13: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd 3d]
+jolly_roger192: folds
+Pokererwertas has timed out
+Pokererwertas: folds
+Dolorizado: folds
+orlando469: folds
+pokerHero1: folds
+Doc62Holiday: folds
+m.kelso11: folds
+Uncalled bet ($0.01) returned to Drshpion13
+Drshpion13 collected $0.02 from pot
+Drshpion13: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 2: orlando469 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: Doc62Holiday (button) folded before Flop (didn't bet)
+Seat 5: m.kelso11 (small blind) folded before Flop
+Seat 6: Drshpion13 (big blind) collected ($0.02)
+Seat 7: jolly_roger192 folded before Flop (didn't bet)
+Seat 8: Pokererwertas folded before Flop (didn't bet)
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332933753:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:19:48 ET
+Table 'Queteleta V' 9-max Seat #5 is the button
+Seat 2: orlando469 ($0.77 in chips)
+Seat 3: pokerHero1 ($2 in chips)
+Seat 4: Doc62Holiday ($3.19 in chips)
+Seat 5: m.kelso11 ($1.81 in chips)
+Seat 6: Drshpion13 ($2.03 in chips)
+Seat 7: jolly_roger192 ($1.03 in chips)
+Seat 8: Pokererwertas ($0.68 in chips)
+Seat 9: Dolorizado ($1.88 in chips)
+Drshpion13: posts small blind $0.01
+jolly_roger192: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h 3c]
+Pokererwertas: folds
+Dolorizado: folds
+orlando469: folds
+pokerHero1: calls $0.02
+Doc62Holiday: folds
+m.kelso11: folds
+Drshpion13: raises $0.04 to $0.06
+jolly_roger192: calls $0.04
+pokerHero1: calls $0.04
+*** FLOP *** [Tc Qc 2d]
+Drshpion13: bets $0.10
+jolly_roger192: calls $0.10
+pokerHero1: folds
+*** TURN *** [Tc Qc 2d] [Td]
+Drshpion13: bets $0.18
+jolly_roger192: calls $0.18
+*** RIVER *** [Tc Qc 2d Td] [4d]
+Drshpion13: bets $0.36
+jolly_roger192: calls $0.36
+*** SHOW DOWN ***
+Drshpion13: shows [Ks Qh] (two pair, Queens and Tens)
+jolly_roger192: mucks hand
+Drshpion13 collected $1.41 from pot
+*** SUMMARY ***
+Total pot $1.46 | Rake $0.05
+Board [Tc Qc 2d Td 4d]
+Seat 2: orlando469 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded on the Flop
+Seat 4: Doc62Holiday folded before Flop (didn't bet)
+Seat 5: m.kelso11 (button) folded before Flop (didn't bet)
+Seat 6: Drshpion13 (small blind) showed [Ks Qh] and won ($1.41) with two pair, Queens and Tens
+Seat 7: jolly_roger192 (big blind) mucked [Jh Qd]
+Seat 8: Pokererwertas folded before Flop (didn't bet)
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212333016381:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:20:56 ET
+Table 'Queteleta V' 9-max Seat #6 is the button
+Seat 2: orlando469 ($0.77 in chips)
+Seat 3: pokerHero1 ($1.94 in chips)
+Seat 4: Doc62Holiday ($3.19 in chips)
+Seat 5: m.kelso11 ($1.81 in chips)
+Seat 6: Drshpion13 ($2.74 in chips)
+Seat 7: jolly_roger192 ($0.33 in chips)
+Seat 8: Pokererwertas ($0.68 in chips)
+Seat 9: Dolorizado ($1.88 in chips)
+jolly_roger192: posts small blind $0.01
+Pokererwertas: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d Js]
+Dolorizado: folds
+orlando469: raises $0.02 to $0.04
+pokerHero1: folds
+Doc62Holiday: folds
+m.kelso11: folds
+Drshpion13: folds
+jolly_roger192: folds
+Pokererwertas: raises $0.02 to $0.06
+orlando469: raises $0.71 to $0.77 and is all-in
+Pokererwertas: folds
+Uncalled bet ($0.71) returned to orlando469
+orlando469 collected $0.13 from pot
+orlando469: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Seat 2: orlando469 collected ($0.13)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: Doc62Holiday folded before Flop (didn't bet)
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 (button) folded before Flop (didn't bet)
+Seat 7: jolly_roger192 (small blind) folded before Flop
+Seat 8: Pokererwertas (big blind) folded before Flop
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212333063008:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:21:34 ET
+Table 'Queteleta V' 9-max Seat #7 is the button
+Seat 2: orlando469 ($0.84 in chips)
+Seat 3: pokerHero1 ($1.94 in chips)
+Seat 4: Doc62Holiday ($3.19 in chips)
+Seat 5: m.kelso11 ($1.81 in chips)
+Seat 6: Drshpion13 ($2.74 in chips)
+Seat 7: jolly_roger192 ($0.32 in chips)
+Seat 8: Pokererwertas ($0.62 in chips)
+Seat 9: Dolorizado ($1.88 in chips)
+Pokererwertas: posts small blind $0.01
+Dolorizado: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8s Qd]
+orlando469: calls $0.02
+pokerHero1: folds
+Doc62Holiday: folds
+m.kelso11: folds
+Drshpion13: calls $0.02
+jolly_roger192: folds
+Pokererwertas: calls $0.01
+Dolorizado: checks
+*** FLOP *** [Jd 9c As]
+Pokererwertas: checks
+Dolorizado: checks
+orlando469: bets $0.02
+Doc62Holiday leaves the table
+Drshpion13: raises $0.06 to $0.08
+Pokererwertas: folds
+Dolorizado: folds
+orlando469: folds
+Uncalled bet ($0.06) returned to Drshpion13
+Drshpion13 collected $0.12 from pot
+Drshpion13: doesn't show hand
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Board [Jd 9c As]
+Seat 2: orlando469 folded on the Flop
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: Doc62Holiday folded before Flop (didn't bet)
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 collected ($0.12)
+Seat 7: jolly_roger192 (button) folded before Flop (didn't bet)
+Seat 8: Pokererwertas (small blind) folded on the Flop
+Seat 9: Dolorizado (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212333113116:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:22:14 ET
+Table 'Queteleta V' 9-max Seat #8 is the button
+Seat 2: orlando469 ($0.80 in chips)
+Seat 3: pokerHero1 ($1.94 in chips)
+Seat 5: m.kelso11 ($1.81 in chips)
+Seat 6: Drshpion13 ($2.82 in chips)
+Seat 7: jolly_roger192 ($0.32 in chips)
+Seat 8: Pokererwertas ($1.40 in chips)
+Seat 9: Dolorizado ($1.86 in chips)
+Dolorizado: posts small blind $0.01
+orlando469: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js 4c]
+pokerHero1: folds
+m.kelso11: folds
+Drshpion13: folds
+jolly_roger192: folds
+Pokererwertas: folds
+Dolorizado: folds
+Uncalled bet ($0.01) returned to orlando469
+orlando469 collected $0.02 from pot
+orlando469: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 2: orlando469 (big blind) collected ($0.02)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 folded before Flop (didn't bet)
+Seat 7: jolly_roger192 folded before Flop (didn't bet)
+Seat 8: Pokererwertas (button) folded before Flop (didn't bet)
+Seat 9: Dolorizado (small blind) folded before Flop
+
+
+
+PokerStars Hand #212333129139:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:22:27 ET
+Table 'Queteleta V' 9-max Seat #9 is the button
+Seat 2: orlando469 ($0.81 in chips)
+Seat 3: pokerHero1 ($1.94 in chips)
+Seat 5: m.kelso11 ($1.81 in chips)
+Seat 6: Drshpion13 ($2.82 in chips)
+Seat 7: jolly_roger192 ($0.32 in chips)
+Seat 8: Pokererwertas ($1.40 in chips)
+Seat 9: Dolorizado ($1.85 in chips)
+orlando469: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js Th]
+llever75 joins the table at seat #4
+m.kelso11: folds
+Drshpion13: raises $0.04 to $0.06
+jolly_roger192: calls $0.06
+Pokererwertas: folds
+Dolorizado: folds
+orlando469: folds
+pokerHero1: folds
+*** FLOP *** [Jd 9s Qh]
+Drshpion13: bets $0.06
+jolly_roger192: folds
+Uncalled bet ($0.06) returned to Drshpion13
+Drshpion13 collected $0.14 from pot
+Drshpion13: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [Jd 9s Qh]
+Seat 2: orlando469 (small blind) folded before Flop
+Seat 3: pokerHero1 (big blind) folded before Flop
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 collected ($0.14)
+Seat 7: jolly_roger192 folded on the Flop
+Seat 8: Pokererwertas folded before Flop (didn't bet)
+Seat 9: Dolorizado (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212333159652:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:22:52 ET
+Table 'Queteleta V' 9-max Seat #2 is the button
+Seat 1: SPEKTR_feel ($5.26 in chips)
+Seat 2: orlando469 ($0.80 in chips)
+Seat 3: pokerHero1 ($1.92 in chips)
+Seat 4: llever75 ($1.60 in chips)
+Seat 5: m.kelso11 ($1.81 in chips)
+Seat 6: Drshpion13 ($2.90 in chips)
+Seat 7: jolly_roger192 ($0.26 in chips)
+Seat 8: Pokererwertas ($1.40 in chips)
+Seat 9: Dolorizado ($1.85 in chips)
+pokerHero1: posts small blind $0.01
+llever75: posts big blind $0.02
+SPEKTR_feel: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5h 4c]
+m.kelso11: folds
+Drshpion13: raises $0.04 to $0.06
+jolly_roger192: folds
+Pokererwertas has timed out
+Pokererwertas: folds
+Dolorizado: calls $0.06
+SPEKTR_feel: folds
+orlando469: folds
+pokerHero1: folds
+llever75: folds
+*** FLOP *** [6d Qs Kd]
+Drshpion13: bets $0.08
+Dolorizado: calls $0.08
+*** TURN *** [6d Qs Kd] [8d]
+Drshpion13: bets $0.16
+Dolorizado: calls $0.16
+*** RIVER *** [6d Qs Kd 8d] [6h]
+Drshpion13: bets $0.32
+Dolorizado: folds
+Uncalled bet ($0.32) returned to Drshpion13
+Drshpion13 collected $0.64 from pot
+*** SUMMARY ***
+Total pot $0.66 | Rake $0.02
+Board [6d Qs Kd 8d 6h]
+Seat 1: SPEKTR_feel folded before Flop (didn't bet)
+Seat 2: orlando469 (button) folded before Flop (didn't bet)
+Seat 3: pokerHero1 (small blind) folded before Flop
+Seat 4: llever75 (big blind) folded before Flop
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 collected ($0.64)
+Seat 7: jolly_roger192 folded before Flop (didn't bet)
+Seat 8: Pokererwertas folded before Flop (didn't bet)
+Seat 9: Dolorizado folded on the River
+
+
+
+PokerStars Hand #212333263040:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:24:15 ET
+Table 'Queteleta V' 9-max Seat #3 is the button
+Seat 1: SPEKTR_feel ($5.23 in chips)
+Seat 2: orlando469 ($0.80 in chips)
+Seat 3: pokerHero1 ($1.91 in chips)
+Seat 4: llever75 ($1.58 in chips)
+Seat 5: m.kelso11 ($1.81 in chips)
+Seat 6: Drshpion13 ($3.24 in chips)
+Seat 7: jolly_roger192 ($0.26 in chips)
+Seat 8: Pokererwertas ($1.40 in chips)
+Seat 9: Dolorizado ($1.55 in chips)
+llever75: posts small blind $0.01
+m.kelso11: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ts 9d]
+Drshpion13: folds
+jolly_roger192: folds
+Pokererwertas: folds
+Dolorizado: folds
+SPEKTR_feel: folds
+orlando469: folds
+pokerHero1: folds
+llever75: calls $0.01
+m.kelso11: checks
+*** FLOP *** [Qs Ad As]
+llever75: checks
+m.kelso11: checks
+*** TURN *** [Qs Ad As] [9s]
+llever75: checks
+m.kelso11: checks
+*** RIVER *** [Qs Ad As 9s] [Qd]
+llever75: checks
+m.kelso11: checks
+*** SHOW DOWN ***
+llever75: shows [4d Jd] (two pair, Aces and Queens)
+m.kelso11: mucks hand
+llever75 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [Qs Ad As 9s Qd]
+Seat 1: SPEKTR_feel folded before Flop (didn't bet)
+Seat 2: orlando469 folded before Flop (didn't bet)
+Seat 3: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 4: llever75 (small blind) showed [4d Jd] and won ($0.04) with two pair, Aces and Queens
+Seat 5: m.kelso11 (big blind) mucked [6c 2c]
+Seat 6: Drshpion13 folded before Flop (didn't bet)
+Seat 7: jolly_roger192 folded before Flop (didn't bet)
+Seat 8: Pokererwertas folded before Flop (didn't bet)
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212333357586:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:25:29 ET
+Table 'Queteleta V' 9-max Seat #4 is the button
+Seat 1: SPEKTR_feel ($5.23 in chips)
+Seat 2: orlando469 ($0.80 in chips)
+Seat 3: pokerHero1 ($2 in chips)
+Seat 4: llever75 ($1.60 in chips)
+Seat 5: m.kelso11 ($1.79 in chips)
+Seat 6: Drshpion13 ($3.24 in chips)
+Seat 7: jolly_roger192 ($0.26 in chips)
+Seat 8: Pokererwertas ($1.40 in chips)
+Seat 9: Dolorizado ($1.55 in chips)
+m.kelso11: posts small blind $0.01
+Drshpion13: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c Qc]
+jolly_roger192: folds
+Pokererwertas: folds
+Dolorizado: calls $0.02
+SPEKTR_feel: calls $0.02
+orlando469: folds
+pokerHero1: folds
+llever75: folds
+m.kelso11: folds
+Drshpion13: checks
+*** FLOP *** [8h Ah 5d]
+Drshpion13: checks
+Dolorizado: checks
+SPEKTR_feel: checks
+*** TURN *** [8h Ah 5d] [8s]
+Drshpion13: checks
+Dolorizado: checks
+SPEKTR_feel: checks
+*** RIVER *** [8h Ah 5d 8s] [Kd]
+Drshpion13: checks
+Dolorizado: checks
+SPEKTR_feel: checks
+*** SHOW DOWN ***
+Drshpion13: shows [Js 9d] (a pair of Eights)
+Dolorizado: shows [Ks Ts] (two pair, Kings and Eights)
+SPEKTR_feel: mucks hand
+Dolorizado collected $0.07 from pot
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Board [8h Ah 5d 8s Kd]
+Seat 1: SPEKTR_feel mucked [4s 5s]
+Seat 2: orlando469 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: llever75 (button) folded before Flop (didn't bet)
+Seat 5: m.kelso11 (small blind) folded before Flop
+Seat 6: Drshpion13 (big blind) showed [Js 9d] and lost with a pair of Eights
+Seat 7: jolly_roger192 folded before Flop (didn't bet)
+Seat 8: Pokererwertas folded before Flop (didn't bet)
+Seat 9: Dolorizado showed [Ks Ts] and won ($0.07) with two pair, Kings and Eights
+
+
+
+PokerStars Hand #212333444928:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:26:39 ET
+Table 'Queteleta V' 9-max Seat #5 is the button
+Seat 1: SPEKTR_feel ($5.21 in chips)
+Seat 2: orlando469 ($0.80 in chips)
+Seat 3: pokerHero1 ($2 in chips)
+Seat 4: llever75 ($1.60 in chips)
+Seat 5: m.kelso11 ($1.78 in chips)
+Seat 6: Drshpion13 ($3.22 in chips)
+Seat 7: jolly_roger192 ($0.26 in chips)
+Seat 8: Pokererwertas ($1.40 in chips)
+Seat 9: Dolorizado ($1.60 in chips)
+Drshpion13: posts small blind $0.01
+jolly_roger192: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3c Kd]
+Pokererwertas: folds
+Dolorizado: raises $0.03 to $0.05
+SPEKTR_feel: folds
+orlando469: folds
+pokerHero1: folds
+llever75: calls $0.05
+m.kelso11: folds
+Drshpion13: calls $0.04
+jolly_roger192: folds
+*** FLOP *** [Jd Kh 4s]
+Drshpion13: checks
+Dolorizado: bets $0.08
+llever75: folds
+Drshpion13: folds
+Uncalled bet ($0.08) returned to Dolorizado
+Dolorizado collected $0.16 from pot
+Dolorizado: doesn't show hand
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [Jd Kh 4s]
+Seat 1: SPEKTR_feel folded before Flop (didn't bet)
+Seat 2: orlando469 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: llever75 folded on the Flop
+Seat 5: m.kelso11 (button) folded before Flop (didn't bet)
+Seat 6: Drshpion13 (small blind) folded on the Flop
+Seat 7: jolly_roger192 (big blind) folded before Flop
+Seat 8: Pokererwertas folded before Flop (didn't bet)
+Seat 9: Dolorizado collected ($0.16)
+
+
+
+PokerStars Hand #212333505760:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:27:29 ET
+Table 'Queteleta V' 9-max Seat #6 is the button
+Seat 2: orlando469 ($0.80 in chips)
+Seat 3: pokerHero1 ($2 in chips)
+Seat 4: llever75 ($1.55 in chips)
+Seat 5: m.kelso11 ($1.78 in chips)
+Seat 6: Drshpion13 ($3.17 in chips)
+Seat 7: jolly_roger192 ($0.24 in chips)
+Seat 8: Pokererwertas ($1.40 in chips)
+Seat 9: Dolorizado ($1.71 in chips)
+jolly_roger192: posts small blind $0.01
+Pokererwertas: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c 7s]
+Dolorizado: folds
+orlando469: folds
+pokerHero1: folds
+llever75: calls $0.02
+m.kelso11: calls $0.02
+Drshpion13: raises $0.04 to $0.06
+jolly_roger192: folds
+Pokererwertas: folds
+llever75: calls $0.04
+m.kelso11: calls $0.04
+*** FLOP *** [3s 9h As]
+llever75: checks
+m.kelso11: checks
+Drshpion13: checks
+*** TURN *** [3s 9h As] [8h]
+llever75: checks
+m.kelso11: bets $0.10
+Drshpion13: calls $0.10
+llever75: calls $0.10
+*** RIVER *** [3s 9h As 8h] [Kc]
+orlando469 leaves the table
+llever75: checks
+m.kelso11: bets $0.10
+PokerPevs joins the table at seat #2
+Drshpion13: folds
+llever75: raises $0.38 to $0.48
+m.kelso11: folds
+Uncalled bet ($0.38) returned to llever75
+llever75 collected $0.69 from pot
+llever75: doesn't show hand
+*** SUMMARY ***
+Total pot $0.71 | Rake $0.02
+Board [3s 9h As 8h Kc]
+Seat 2: orlando469 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: llever75 collected ($0.69)
+Seat 5: m.kelso11 folded on the River
+Seat 6: Drshpion13 (button) folded on the River
+Seat 7: jolly_roger192 (small blind) folded before Flop
+Seat 8: Pokererwertas (big blind) folded before Flop
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212333622068:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:29:05 ET
+Table 'Queteleta V' 9-max Seat #7 is the button
+Seat 1: SPEKTR_feel ($5.21 in chips)
+Seat 3: pokerHero1 ($2 in chips)
+Seat 4: llever75 ($1.98 in chips)
+Seat 5: m.kelso11 ($1.52 in chips)
+Seat 6: Drshpion13 ($3.01 in chips)
+Seat 7: jolly_roger192 ($0.23 in chips)
+Seat 8: Pokererwertas ($1.38 in chips)
+Seat 9: Dolorizado ($1.71 in chips)
+Pokererwertas: posts small blind $0.01
+Dolorizado: posts big blind $0.02
+PokerPevs: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ks 7s]
+SPEKTR_feel has timed out
+SPEKTR_feel: folds
+pokerHero1: folds
+llever75: folds
+m.kelso11: folds
+Drshpion13: folds
+jolly_roger192: raises $0.04 to $0.06
+Pokererwertas: folds
+Dolorizado: folds
+Uncalled bet ($0.04) returned to jolly_roger192
+jolly_roger192 collected $0.05 from pot
+jolly_roger192: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: SPEKTR_feel folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: llever75 folded before Flop (didn't bet)
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 folded before Flop (didn't bet)
+Seat 7: jolly_roger192 (button) collected ($0.05)
+Seat 8: Pokererwertas (small blind) folded before Flop
+Seat 9: Dolorizado (big blind) folded before Flop
+
+
+
+PokerStars Hand #212333649824:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:29:27 ET
+Table 'Queteleta V' 9-max Seat #8 is the button
+Seat 2: PokerPevs ($0.80 in chips)
+Seat 3: pokerHero1 ($2 in chips)
+Seat 4: llever75 ($1.98 in chips)
+Seat 5: m.kelso11 ($1.52 in chips)
+Seat 6: Drshpion13 ($3.01 in chips)
+Seat 7: jolly_roger192 ($0.26 in chips)
+Seat 8: Pokererwertas ($1.37 in chips)
+Seat 9: Dolorizado ($1.69 in chips)
+Dolorizado: posts small blind $0.01
+PokerPevs: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d Tc]
+pokerHero1: folds
+llever75 has timed out
+llever75: folds
+m.kelso11: folds
+Drshpion13: folds
+jolly_roger192: folds
+Pokererwertas: folds
+Dolorizado: raises $0.02 to $0.04
+PokerPevs: calls $0.02
+*** FLOP *** [5h 4s Ts]
+Dolorizado: checks
+PokerPevs: bets $0.04
+Dolorizado: calls $0.04
+*** TURN *** [5h 4s Ts] [2h]
+Dolorizado: checks
+PokerPevs: bets $0.08
+Dolorizado: raises $0.08 to $0.16
+PokerPevs: calls $0.08
+*** RIVER *** [5h 4s Ts 2h] [9d]
+Dolorizado: checks
+PokerPevs: bets $0.19
+Dolorizado: raises $0.19 to $0.38
+PokerPevs: calls $0.19
+*** SHOW DOWN ***
+Dolorizado: shows [Ad 3d] (a straight, Ace to Five)
+PokerPevs: mucks hand
+Dolorizado collected $1.20 from pot
+*** SUMMARY ***
+Total pot $1.24 | Rake $0.04
+Board [5h 4s Ts 2h 9d]
+Seat 2: PokerPevs (big blind) mucked [Td Th]
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: llever75 folded before Flop (didn't bet)
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 folded before Flop (didn't bet)
+Seat 7: jolly_roger192 folded before Flop (didn't bet)
+Seat 8: Pokererwertas (button) folded before Flop (didn't bet)
+Seat 9: Dolorizado (small blind) showed [Ad 3d] and won ($1.20) with a straight, Ace to Five
+
+
+
+PokerStars Hand #212333768345:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:30:59 ET
+Table 'Queteleta V' 9-max Seat #9 is the button
+Seat 2: PokerPevs ($0.18 in chips)
+Seat 3: pokerHero1 ($2 in chips)
+Seat 5: m.kelso11 ($1.52 in chips)
+Seat 6: Drshpion13 ($3.01 in chips)
+Seat 7: jolly_roger192 ($0.26 in chips)
+Seat 8: Pokererwertas ($1.37 in chips)
+Seat 9: Dolorizado ($2.27 in chips)
+PokerPevs: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s Td]
+m.kelso11: folds
+Drshpion13: folds
+jolly_roger192: folds
+Pokererwertas: folds
+Dolorizado: folds
+PokerPevs: folds
+Uncalled bet ($0.01) returned to pokerHero1
+pokerHero1 collected $0.02 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 2: PokerPevs (small blind) folded before Flop
+Seat 3: pokerHero1 (big blind) collected ($0.02)
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 folded before Flop (didn't bet)
+Seat 7: jolly_roger192 folded before Flop (didn't bet)
+Seat 8: Pokererwertas folded before Flop (didn't bet)
+Seat 9: Dolorizado (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212333786560:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:31:14 ET
+Table 'Queteleta V' 9-max Seat #2 is the button
+Seat 1: SPEKTR_feel ($5.21 in chips)
+Seat 2: PokerPevs ($0.17 in chips)
+Seat 3: pokerHero1 ($2.01 in chips)
+Seat 5: m.kelso11 ($1.52 in chips)
+Seat 6: Drshpion13 ($3.01 in chips)
+Seat 7: jolly_roger192 ($0.26 in chips)
+Seat 8: Pokererwertas ($1.37 in chips)
+Seat 9: Dolorizado ($2.27 in chips)
+pokerHero1: posts small blind $0.01
+m.kelso11: posts big blind $0.02
+SPEKTR_feel: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3c 4d]
+Drshpion13: folds
+jolly_roger192: folds
+Pokererwertas: folds
+Dolorizado: folds
+llever75 is disconnected
+SPEKTR_feel: checks
+PokerPevs: raises $0.02 to $0.04
+pokerHero1: folds
+m.kelso11: calls $0.02
+SPEKTR_feel: folds
+*** FLOP *** [2h Ks Ah]
+m.kelso11: checks
+PokerPevs: bets $0.13 and is all-in
+m.kelso11: calls $0.13
+*** TURN *** [2h Ks Ah] [Jd]
+*** RIVER *** [2h Ks Ah Jd] [8s]
+*** SHOW DOWN ***
+m.kelso11: shows [3h 5h] (high card Ace)
+PokerPevs: shows [Jh Ac] (two pair, Aces and Jacks)
+PokerPevs collected $0.37 from pot
+*** SUMMARY ***
+Total pot $0.38 | Rake $0.01
+Board [2h Ks Ah Jd 8s]
+Seat 1: SPEKTR_feel folded before Flop (didn't bet)
+Seat 2: PokerPevs (button) showed [Jh Ac] and won ($0.37) with two pair, Aces and Jacks
+Seat 3: pokerHero1 (small blind) folded before Flop
+Seat 5: m.kelso11 (big blind) showed [3h 5h] and lost with high card Ace
+Seat 6: Drshpion13 folded before Flop (didn't bet)
+Seat 7: jolly_roger192 folded before Flop (didn't bet)
+Seat 8: Pokererwertas folded before Flop (didn't bet)
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212333841053:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:31:58 ET
+Table 'Queteleta V' 9-max Seat #3 is the button
+Seat 1: SPEKTR_feel ($5.18 in chips)
+Seat 2: PokerPevs ($0.37 in chips)
+Seat 3: pokerHero1 ($2 in chips)
+Seat 5: m.kelso11 ($1.35 in chips)
+Seat 6: Drshpion13 ($3.01 in chips)
+Seat 7: jolly_roger192 ($0.26 in chips)
+Seat 8: Pokererwertas ($1.37 in chips)
+Seat 9: Dolorizado ($2.27 in chips)
+m.kelso11: posts small blind $0.01
+Drshpion13: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7h 8s]
+jolly_roger192: folds
+Pokererwertas: folds
+jolly_roger192 leaves the table
+Dolorizado: folds
+SPEKTR_feel: folds
+PokerPevs: folds
+pokerHero1: raises $0.04 to $0.06
+m.kelso11: folds
+Drshpion13: calls $0.04
+*** FLOP *** [Js Jd 7c]
+Drshpion13: checks
+pokerHero1: bets $0.08
+Drshpion13: folds
+Uncalled bet ($0.08) returned to pokerHero1
+pokerHero1 collected $0.13 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [Js Jd 7c]
+Seat 1: SPEKTR_feel folded before Flop (didn't bet)
+Seat 2: PokerPevs folded before Flop (didn't bet)
+Seat 3: pokerHero1 (button) collected ($0.13)
+Seat 5: m.kelso11 (small blind) folded before Flop
+Seat 6: Drshpion13 (big blind) folded on the Flop
+Seat 7: jolly_roger192 folded before Flop (didn't bet)
+Seat 8: Pokererwertas folded before Flop (didn't bet)
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212333879132:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:32:27 ET
+Table 'Queteleta V' 9-max Seat #5 is the button
+Seat 1: SPEKTR_feel ($5.18 in chips)
+Seat 2: PokerPevs ($0.37 in chips)
+Seat 3: pokerHero1 ($2.07 in chips)
+Seat 5: m.kelso11 ($1.99 in chips)
+Seat 6: Drshpion13 ($2.95 in chips)
+Seat 8: Pokererwertas ($1.37 in chips)
+Seat 9: Dolorizado ($2.27 in chips)
+Drshpion13: posts small blind $0.01
+Pokererwertas: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5h Kd]
+Dolorizado has timed out
+Dolorizado: folds
+SPEKTR_feel: folds
+PokerPevs: folds
+pokerHero1: folds
+m.kelso11: calls $0.02
+Drshpion13: folds
+Pokererwertas: raises $0.06 to $0.08
+m.kelso11: calls $0.06
+*** FLOP *** [Qs Qc Jc]
+Pokererwertas: bets $0.06
+m.kelso11: calls $0.06
+*** TURN *** [Qs Qc Jc] [4d]
+twiklikeit joins the table at seat #7
+Pokererwertas: checks
+m.kelso11: checks
+*** RIVER *** [Qs Qc Jc 4d] [Ah]
+Pokererwertas: checks
+m.kelso11: checks
+*** SHOW DOWN ***
+Pokererwertas: shows [8d 8c] (two pair, Queens and Eights)
+m.kelso11: shows [2c Ac] (two pair, Aces and Queens)
+m.kelso11 collected $0.28 from pot
+*** SUMMARY ***
+Total pot $0.29 | Rake $0.01
+Board [Qs Qc Jc 4d Ah]
+Seat 1: SPEKTR_feel folded before Flop (didn't bet)
+Seat 2: PokerPevs folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 5: m.kelso11 (button) showed [2c Ac] and won ($0.28) with two pair, Aces and Queens
+Seat 6: Drshpion13 (small blind) folded before Flop
+Seat 8: Pokererwertas (big blind) showed [8d 8c] and lost with two pair, Queens and Eights
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212333952097:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:33:24 ET
+Table 'Queteleta V' 9-max Seat #6 is the button
+Seat 1: SPEKTR_feel ($5.18 in chips)
+Seat 2: PokerPevs ($0.37 in chips)
+Seat 3: pokerHero1 ($2.07 in chips)
+Seat 5: m.kelso11 ($2.13 in chips)
+Seat 6: Drshpion13 ($2.94 in chips)
+Seat 8: Pokererwertas ($1.23 in chips)
+Seat 9: Dolorizado ($2.27 in chips)
+Pokererwertas: posts small blind $0.01
+Dolorizado: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8h Ah]
+SPEKTR_feel: calls $0.02
+PokerPevs: folds
+pokerHero1: raises $0.06 to $0.08
+m.kelso11 is disconnected
+m.kelso11 is connected
+m.kelso11: folds
+Drshpion13: calls $0.08
+Pokererwertas: folds
+Dolorizado: folds
+SPEKTR_feel: calls $0.06
+*** FLOP *** [7s 2d 3h]
+SPEKTR_feel: checks
+pokerHero1: checks
+Drshpion13: bets $0.12
+SPEKTR_feel: folds
+pokerHero1: folds
+Uncalled bet ($0.12) returned to Drshpion13
+Drshpion13 collected $0.26 from pot
+Drshpion13: doesn't show hand
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01
+Board [7s 2d 3h]
+Seat 1: SPEKTR_feel folded on the Flop
+Seat 2: PokerPevs folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded on the Flop
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 (button) collected ($0.26)
+Seat 8: Pokererwertas (small blind) folded before Flop
+Seat 9: Dolorizado (big blind) folded before Flop
+
+
+
+PokerStars Hand #212334042731:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:34:27 ET
+Table 'Queteleta V' 9-max Seat #8 is the button
+Seat 2: PokerPevs ($0.37 in chips)
+Seat 3: pokerHero1 ($1.99 in chips)
+Seat 4: llever75 ($1.98 in chips)
+Seat 5: m.kelso11 ($2.13 in chips)
+Seat 6: Drshpion13 ($3.12 in chips)
+Seat 7: twiklikeit ($2 in chips)
+Seat 8: Pokererwertas ($1.22 in chips)
+Seat 9: Dolorizado ($2.25 in chips)
+Dolorizado: posts small blind $0.01
+PokerPevs: posts big blind $0.02
+llever75: posts small & big blinds $0.03
+twiklikeit: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5c Js]
+pokerHero1: folds
+llever75: checks
+m.kelso11: folds
+Drshpion13: folds
+twiklikeit: checks
+Pokererwertas: folds
+Dolorizado: folds
+PokerPevs: checks
+*** FLOP *** [8h 3h Td]
+PokerPevs: checks
+llever75: bets $0.04
+twiklikeit: folds
+PokerPevs: calls $0.04
+*** TURN *** [8h 3h Td] [As]
+PokerPevs: checks
+llever75: checks
+*** RIVER *** [8h 3h Td As] [Kc]
+PokerPevs: checks
+llever75: checks
+*** SHOW DOWN ***
+PokerPevs: shows [Jh 5h] (high card Ace)
+llever75: shows [Tc Qd] (a pair of Tens)
+llever75 collected $0.15 from pot
+*** SUMMARY ***
+Total pot $0.16 | Rake $0.01
+Board [8h 3h Td As Kc]
+Seat 2: PokerPevs (big blind) showed [Jh 5h] and lost with high card Ace
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: llever75 showed [Tc Qd] and won ($0.15) with a pair of Tens
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 folded before Flop (didn't bet)
+Seat 7: twiklikeit folded on the Flop (didn't bet)
+Seat 8: Pokererwertas (button) folded before Flop (didn't bet)
+Seat 9: Dolorizado (small blind) folded before Flop
+
+
+
+PokerStars Hand #212334111829:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:35:22 ET
+Table 'Queteleta V' 9-max Seat #9 is the button
+Seat 2: PokerPevs ($0.31 in chips)
+Seat 3: pokerHero1 ($1.99 in chips)
+Seat 4: llever75 ($2.06 in chips)
+Seat 5: m.kelso11 ($2.13 in chips)
+Seat 6: Drshpion13 ($3.12 in chips)
+Seat 7: twiklikeit ($1.98 in chips)
+Seat 8: Pokererwertas ($1.22 in chips)
+Seat 9: Dolorizado ($2.24 in chips)
+PokerPevs: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s Jc]
+llever75: folds
+m.kelso11: folds
+Drshpion13: folds
+twiklikeit: folds
+Pokererwertas: folds
+Dolorizado: folds
+PokerPevs: folds
+Uncalled bet ($0.01) returned to pokerHero1
+pokerHero1 collected $0.02 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 2: PokerPevs (small blind) folded before Flop
+Seat 3: pokerHero1 (big blind) collected ($0.02)
+Seat 4: llever75 folded before Flop (didn't bet)
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 folded before Flop (didn't bet)
+Seat 7: twiklikeit folded before Flop (didn't bet)
+Seat 8: Pokererwertas folded before Flop (didn't bet)
+Seat 9: Dolorizado (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212334139151:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:35:43 ET
+Table 'Queteleta V' 9-max Seat #2 is the button
+Seat 2: PokerPevs ($0.30 in chips)
+Seat 3: pokerHero1 ($2 in chips)
+Seat 4: llever75 ($2.06 in chips)
+Seat 5: m.kelso11 ($2.13 in chips)
+Seat 6: Drshpion13 ($3.12 in chips)
+Seat 7: twiklikeit ($1.98 in chips)
+Seat 8: Pokererwertas ($1.22 in chips)
+Seat 9: Dolorizado ($2.24 in chips)
+pokerHero1: posts small blind $0.01
+llever75: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ks Ac]
+m.kelso11: folds
+Drshpion13: folds
+twiklikeit: folds
+Pokererwertas: folds
+Dolorizado: folds
+PokerPevs: raises $0.02 to $0.04
+pokerHero1: raises $0.10 to $0.14
+llever75: folds
+PokerPevs: folds
+Uncalled bet ($0.10) returned to pokerHero1
+pokerHero1 collected $0.10 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.10 | Rake $0
+Seat 2: PokerPevs (button) folded before Flop
+Seat 3: pokerHero1 (small blind) collected ($0.10)
+Seat 4: llever75 (big blind) folded before Flop
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 folded before Flop (didn't bet)
+Seat 7: twiklikeit folded before Flop (didn't bet)
+Seat 8: Pokererwertas folded before Flop (didn't bet)
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212334166739:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:36:04 ET
+Table 'Queteleta V' 9-max Seat #3 is the button
+Seat 2: PokerPevs ($0.26 in chips)
+Seat 3: pokerHero1 ($2.06 in chips)
+Seat 4: llever75 ($2.04 in chips)
+Seat 5: m.kelso11 ($2.13 in chips)
+Seat 6: Drshpion13 ($3.12 in chips)
+Seat 7: twiklikeit ($1.98 in chips)
+Seat 8: Pokererwertas ($1.22 in chips)
+Seat 9: Dolorizado ($2.24 in chips)
+llever75: posts small blind $0.01
+m.kelso11: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ah Ks]
+Drshpion13: folds
+twiklikeit: folds
+Pokererwertas has timed out
+Pokererwertas: folds
+Dolorizado: folds
+PokerPevs: folds
+pokerHero1: raises $0.06 to $0.08
+llever75: calls $0.07
+m.kelso11: folds
+*** FLOP *** [7h As 4h]
+llever75: checks
+pokerHero1: bets $0.14
+llever75: folds
+Uncalled bet ($0.14) returned to pokerHero1
+pokerHero1 collected $0.17 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [7h As 4h]
+Seat 2: PokerPevs folded before Flop (didn't bet)
+Seat 3: pokerHero1 (button) collected ($0.17)
+Seat 4: llever75 (small blind) folded on the Flop
+Seat 5: m.kelso11 (big blind) folded before Flop
+Seat 6: Drshpion13 folded before Flop (didn't bet)
+Seat 7: twiklikeit folded before Flop (didn't bet)
+Seat 8: Pokererwertas folded before Flop (didn't bet)
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212334232842:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:36:56 ET
+Table 'Queteleta V' 9-max Seat #4 is the button
+Seat 2: PokerPevs ($0.26 in chips)
+Seat 3: pokerHero1 ($2.15 in chips)
+Seat 4: llever75 ($1.96 in chips)
+Seat 5: m.kelso11 ($2.11 in chips)
+Seat 6: Drshpion13 ($3.12 in chips)
+Seat 7: twiklikeit ($1.98 in chips)
+Seat 9: Dolorizado ($2.24 in chips)
+m.kelso11: posts small blind $0.01
+Drshpion13: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7h 5h]
+twiklikeit: folds
+Dolorizado: folds
+PokerPevs: folds
+pokerHero1: folds
+llever75: folds
+m.kelso11: raises $0.10 to $0.12
+Drshpion13: folds
+Uncalled bet ($0.10) returned to m.kelso11
+m.kelso11 collected $0.04 from pot
+m.kelso11: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 2: PokerPevs folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: llever75 (button) folded before Flop (didn't bet)
+Seat 5: m.kelso11 (small blind) collected ($0.04)
+Seat 6: Drshpion13 (big blind) folded before Flop
+Seat 7: twiklikeit folded before Flop (didn't bet)
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212334258959:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:37:17 ET
+Table 'Queteleta V' 9-max Seat #5 is the button
+Seat 2: PokerPevs ($0.26 in chips)
+Seat 3: pokerHero1 ($2.15 in chips)
+Seat 4: llever75 ($1.96 in chips)
+Seat 5: m.kelso11 ($2.13 in chips)
+Seat 6: Drshpion13 ($3.10 in chips)
+Seat 7: twiklikeit ($1.98 in chips)
+Seat 8: Pokererwertas ($1.22 in chips)
+Seat 9: Dolorizado ($2.24 in chips)
+Drshpion13: posts small blind $0.01
+twiklikeit: posts big blind $0.02
+SPEKTR_feel: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s Kd]
+Pokererwertas: folds
+Dolorizado: folds
+PokerPevs: folds
+pokerHero1: folds
+llever75: raises $0.02 to $0.04
+m.kelso11: folds
+Drshpion13: folds
+twiklikeit: calls $0.02
+*** FLOP *** [Tc 4c Js]
+twiklikeit: checks
+llever75: checks
+*** TURN *** [Tc 4c Js] [Jc]
+twiklikeit: checks
+llever75: checks
+*** RIVER *** [Tc 4c Js Jc] [6h]
+twiklikeit: checks
+llever75: bets $0.12
+twiklikeit: folds
+Uncalled bet ($0.12) returned to llever75
+llever75 collected $0.09 from pot
+llever75: doesn't show hand
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Board [Tc 4c Js Jc 6h]
+Seat 2: PokerPevs folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: llever75 collected ($0.09)
+Seat 5: m.kelso11 (button) folded before Flop (didn't bet)
+Seat 6: Drshpion13 (small blind) folded before Flop
+Seat 7: twiklikeit (big blind) folded on the River
+Seat 8: Pokererwertas folded before Flop (didn't bet)
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212334330931:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:38:09 ET
+Table 'Queteleta V' 9-max Seat #6 is the button
+Seat 2: PokerPevs ($0.26 in chips)
+Seat 3: pokerHero1 ($2.15 in chips)
+Seat 4: llever75 ($2.01 in chips)
+Seat 5: m.kelso11 ($2.13 in chips)
+Seat 6: Drshpion13 ($3.09 in chips)
+Seat 7: twiklikeit ($1.94 in chips)
+Seat 8: Pokererwertas ($1.22 in chips)
+Seat 9: Dolorizado ($2.24 in chips)
+twiklikeit: posts small blind $0.01
+Pokererwertas: posts big blind $0.02
+SPEKTR_feel: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad 4c]
+Dolorizado: folds
+PokerPevs: calls $0.02
+pokerHero1: folds
+llever75: folds
+m.kelso11: folds
+Drshpion13: folds
+twiklikeit: calls $0.01
+Pokererwertas: checks
+*** FLOP *** [8h 6h 9c]
+twiklikeit: bets $0.02
+Pokererwertas: folds
+PokerPevs: calls $0.02
+*** TURN *** [8h 6h 9c] [Js]
+twiklikeit: bets $0.02
+PokerPevs: calls $0.02
+*** RIVER *** [8h 6h 9c Js] [4s]
+twiklikeit: bets $0.02
+PokerPevs: raises $0.09 to $0.11
+twiklikeit: folds
+Uncalled bet ($0.09) returned to PokerPevs
+PokerPevs collected $0.17 from pot
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [8h 6h 9c Js 4s]
+Seat 2: PokerPevs collected ($0.17)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: llever75 folded before Flop (didn't bet)
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 (button) folded before Flop (didn't bet)
+Seat 7: twiklikeit (small blind) folded on the River
+Seat 8: Pokererwertas (big blind) folded on the Flop
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212334389207:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:38:53 ET
+Table 'Queteleta V' 9-max Seat #7 is the button
+Seat 2: PokerPevs ($0.35 in chips)
+Seat 3: pokerHero1 ($2.15 in chips)
+Seat 4: llever75 ($2.01 in chips)
+Seat 5: m.kelso11 ($2.13 in chips)
+Seat 6: Drshpion13 ($3.09 in chips)
+Seat 7: twiklikeit ($1.86 in chips)
+Seat 8: Pokererwertas ($1.20 in chips)
+Seat 9: Dolorizado ($2.24 in chips)
+Pokererwertas: posts small blind $0.01
+Dolorizado: posts big blind $0.02
+SPEKTR_feel: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c As]
+PokerPevs: folds
+pokerHero1: folds
+llever75: calls $0.02
+m.kelso11: folds
+Drshpion13 has timed out
+Drshpion13: folds
+twiklikeit: folds
+Pokererwertas: calls $0.01
+Dolorizado: checks
+*** FLOP *** [2c 4h 3c]
+Pokererwertas: checks
+Dolorizado: checks
+llever75: checks
+*** TURN *** [2c 4h 3c] [4s]
+Pokererwertas: checks
+Dolorizado: checks
+llever75: bets $0.06
+Pokererwertas: folds
+Dolorizado: calls $0.06
+*** RIVER *** [2c 4h 3c 4s] [Jd]
+Dolorizado: checks
+llever75: bets $0.18
+Dolorizado: folds
+Uncalled bet ($0.18) returned to llever75
+llever75 collected $0.17 from pot
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [2c 4h 3c 4s Jd]
+Seat 2: PokerPevs folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: llever75 collected ($0.17)
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 folded before Flop (didn't bet)
+Seat 7: twiklikeit (button) folded before Flop (didn't bet)
+Seat 8: Pokererwertas (small blind) folded on the Turn
+Seat 9: Dolorizado (big blind) folded on the River
+
+
+
+PokerStars Hand #212334555308:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:41:01 ET
+Table 'Queteleta V' 9-max Seat #8 is the button
+Seat 1: SPEKTR_feel ($5.10 in chips)
+Seat 2: PokerPevs ($0.35 in chips)
+Seat 3: pokerHero1 ($2.15 in chips)
+Seat 4: llever75 ($2.10 in chips)
+Seat 5: m.kelso11 ($2.13 in chips)
+Seat 6: Drshpion13 ($3.09 in chips)
+Seat 7: twiklikeit ($1.86 in chips)
+Seat 8: Pokererwertas ($1.18 in chips)
+Seat 9: Dolorizado ($2.16 in chips)
+Dolorizado: posts small blind $0.01
+SPEKTR_feel: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd As]
+PokerPevs: calls $0.02
+pokerHero1: raises $0.08 to $0.10
+llever75: folds
+m.kelso11: folds
+Drshpion13: folds
+twiklikeit: calls $0.10
+Pokererwertas: folds
+Dolorizado: calls $0.09
+SPEKTR_feel: folds
+PokerPevs: folds
+*** FLOP *** [2h 8c 2d]
+Dolorizado: checks
+pokerHero1: checks
+twiklikeit: bets $0.02
+Dolorizado: calls $0.02
+pokerHero1: calls $0.02
+*** TURN *** [2h 8c 2d] [Ad]
+Dolorizado: checks
+pokerHero1: bets $0.22
+twiklikeit: raises $0.22 to $0.44
+Dolorizado: calls $0.44
+pokerHero1: folds
+*** RIVER *** [2h 8c 2d Ad] [3h]
+Dolorizado: checks
+twiklikeit: bets $0.02
+Dolorizado: calls $0.02
+*** SHOW DOWN ***
+twiklikeit: shows [Qc 2c] (three of a kind, Deuces)
+Dolorizado: mucks hand
+twiklikeit collected $1.49 from pot
+*** SUMMARY ***
+Total pot $1.54 | Rake $0.05
+Board [2h 8c 2d Ad 3h]
+Seat 1: SPEKTR_feel (big blind) folded before Flop
+Seat 2: PokerPevs folded before Flop
+Seat 3: pokerHero1 folded on the Turn
+Seat 4: llever75 folded before Flop (didn't bet)
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 folded before Flop (didn't bet)
+Seat 7: twiklikeit showed [Qc 2c] and won ($1.49) with three of a kind, Deuces
+Seat 8: Pokererwertas (button) folded before Flop (didn't bet)
+Seat 9: Dolorizado (small blind) mucked [Th Ah]
+
+
+
+PokerStars Hand #212334675844:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:42:39 ET
+Table 'Queteleta V' 9-max Seat #9 is the button
+Seat 2: PokerPevs ($0.33 in chips)
+Seat 3: pokerHero1 ($2 in chips)
+Seat 4: llever75 ($2.10 in chips)
+Seat 5: m.kelso11 ($2.13 in chips)
+Seat 6: Drshpion13 ($3.09 in chips)
+Seat 7: twiklikeit ($2.77 in chips)
+Seat 8: Pokererwertas ($1.18 in chips)
+Seat 9: Dolorizado ($1.58 in chips)
+SPEKTR_feel has timed out
+SPEKTR_feel: is sitting out
+PokerPevs: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c 9s]
+llever75: folds
+m.kelso11: folds
+Drshpion13 has timed out
+Drshpion13: folds
+twiklikeit: folds
+Pokererwertas: folds
+Dolorizado: calls $0.02
+PokerPevs: calls $0.01
+pokerHero1: checks
+*** FLOP *** [6s Ks Jh]
+PokerPevs: checks
+pokerHero1: checks
+Dolorizado: checks
+*** TURN *** [6s Ks Jh] [Tc]
+PokerPevs: checks
+pokerHero1: checks
+Dolorizado: checks
+*** RIVER *** [6s Ks Jh Tc] [Ad]
+PokerPevs: bets $0.03
+pokerHero1: folds
+Dolorizado: folds
+Uncalled bet ($0.03) returned to PokerPevs
+PokerPevs collected $0.06 from pot
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [6s Ks Jh Tc Ad]
+Seat 2: PokerPevs (small blind) collected ($0.06)
+Seat 3: pokerHero1 (big blind) folded on the River
+Seat 4: llever75 folded before Flop (didn't bet)
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 folded before Flop (didn't bet)
+Seat 7: twiklikeit folded before Flop (didn't bet)
+Seat 8: Pokererwertas folded before Flop (didn't bet)
+Seat 9: Dolorizado (button) folded on the River
+
+
+
+PokerStars Hand #212334768277:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:43:57 ET
+Table 'Queteleta V' 9-max Seat #2 is the button
+Seat 1: SPEKTR_feel ($5.08 in chips)
+Seat 2: PokerPevs ($0.37 in chips)
+Seat 3: pokerHero1 ($1.98 in chips)
+Seat 4: llever75 ($2.10 in chips)
+Seat 5: m.kelso11 ($2.13 in chips)
+Seat 6: Drshpion13 ($3.09 in chips)
+Seat 7: twiklikeit ($2.77 in chips)
+Seat 8: Pokererwertas ($1.18 in chips)
+Seat 9: Dolorizado ($1.56 in chips)
+pokerHero1: posts small blind $0.01
+llever75: posts big blind $0.02
+SPEKTR_feel: posts small blind $0.01
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc 5d]
+m.kelso11: folds
+Drshpion13: folds
+twiklikeit: calls $0.02
+Pokererwertas: folds
+Dolorizado: folds
+SPEKTR_feel: folds
+PokerPevs: calls $0.02
+pokerHero1: folds
+llever75: checks
+*** FLOP *** [6c 9c 6s]
+llever75: checks
+twiklikeit: checks
+PokerPevs: checks
+*** TURN *** [6c 9c 6s] [3d]
+llever75: checks
+twiklikeit: checks
+PokerPevs: checks
+*** RIVER *** [6c 9c 6s 3d] [9h]
+llever75: checks
+twiklikeit: checks
+PokerPevs: bets $0.04
+llever75: folds
+twiklikeit: folds
+Uncalled bet ($0.04) returned to PokerPevs
+PokerPevs collected $0.08 from pot
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Board [6c 9c 6s 3d 9h]
+Seat 1: SPEKTR_feel folded before Flop (didn't bet)
+Seat 2: PokerPevs (button) collected ($0.08)
+Seat 3: pokerHero1 (small blind) folded before Flop
+Seat 4: llever75 (big blind) folded on the River
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 folded before Flop (didn't bet)
+Seat 7: twiklikeit folded on the River
+Seat 8: Pokererwertas folded before Flop (didn't bet)
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212334839402:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:44:51 ET
+Table 'Queteleta V' 9-max Seat #3 is the button
+Seat 1: SPEKTR_feel ($5.07 in chips)
+Seat 2: PokerPevs ($0.43 in chips)
+Seat 3: pokerHero1 ($1.97 in chips)
+Seat 4: llever75 ($2.08 in chips)
+Seat 5: m.kelso11 ($2.13 in chips)
+Seat 6: Drshpion13 ($3.09 in chips)
+Seat 7: twiklikeit ($2.75 in chips)
+Seat 8: Pokererwertas ($1.18 in chips)
+Seat 9: Dolorizado ($1.56 in chips)
+llever75: posts small blind $0.01
+m.kelso11: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qd 3h]
+Drshpion13: folds
+twiklikeit: folds
+Pokererwertas: raises $0.04 to $0.06
+Dolorizado: folds
+SPEKTR_feel: folds
+SPEKTR_feel leaves the table
+PokerPevs: calls $0.06
+pokerHero1: folds
+llever75: calls $0.05
+m.kelso11: folds
+*** FLOP *** [8d 6c 5d]
+harps84 joins the table at seat #1
+llever75: checks
+Pokererwertas: bets $0.16
+PokerPevs: folds
+llever75: raises $0.50 to $0.66
+Pokererwertas: calls $0.50
+*** TURN *** [8d 6c 5d] [2h]
+llever75: checks
+Pokererwertas: checks
+*** RIVER *** [8d 6c 5d 2h] [2c]
+llever75: bets $1.36 and is all-in
+Pokererwertas: calls $0.46 and is all-in
+Uncalled bet ($0.90) returned to llever75
+*** SHOW DOWN ***
+llever75: shows [6d 4d] (two pair, Sixes and Deuces)
+Pokererwertas: shows [7c 7d] (two pair, Sevens and Deuces)
+Pokererwertas collected $2.35 from pot
+*** SUMMARY ***
+Total pot $2.44 | Rake $0.09
+Board [8d 6c 5d 2h 2c]
+Seat 1: SPEKTR_feel folded before Flop (didn't bet)
+Seat 2: PokerPevs folded on the Flop
+Seat 3: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 4: llever75 (small blind) showed [6d 4d] and lost with two pair, Sixes and Deuces
+Seat 5: m.kelso11 (big blind) folded before Flop
+Seat 6: Drshpion13 folded before Flop (didn't bet)
+Seat 7: twiklikeit folded before Flop (didn't bet)
+Seat 8: Pokererwertas showed [7c 7d] and won ($2.35) with two pair, Sevens and Deuces
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212334949457:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:46:18 ET
+Table 'Queteleta V' 9-max Seat #4 is the button
+Seat 1: harps84 ($2 in chips)
+Seat 2: PokerPevs ($0.37 in chips)
+Seat 3: pokerHero1 ($1.97 in chips)
+Seat 4: llever75 ($0.90 in chips)
+Seat 5: m.kelso11 ($2.11 in chips)
+Seat 6: Drshpion13 ($3.09 in chips)
+Seat 7: twiklikeit ($2.75 in chips)
+Seat 8: Pokererwertas ($2.35 in chips)
+Seat 9: Dolorizado ($1.56 in chips)
+m.kelso11: posts small blind $0.01
+Drshpion13: posts big blind $0.02
+harps84: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c As]
+twiklikeit: folds
+Pokererwertas: folds
+Dolorizado: folds
+harps84: checks
+Pokererwertas leaves the table
+PokerPevs: folds
+pokerHero1: raises $0.06 to $0.08
+llever75: calls $0.08
+m.kelso11: folds
+Drshpion13: folds
+harps84: folds
+*** FLOP *** [Kh Qs 4c]
+pokerHero1: checks
+llever75: checks
+*** TURN *** [Kh Qs 4c] [Jh]
+pokerHero1: checks
+llever75: checks
+*** RIVER *** [Kh Qs 4c Jh] [3h]
+zalmoxix joins the table at seat #8
+pokerHero1: checks
+llever75: bets $0.04
+pokerHero1: folds
+Uncalled bet ($0.04) returned to llever75
+llever75 collected $0.20 from pot
+llever75: doesn't show hand
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [Kh Qs 4c Jh 3h]
+Seat 1: harps84 folded before Flop (didn't bet)
+Seat 2: PokerPevs folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded on the River
+Seat 4: llever75 (button) collected ($0.20)
+Seat 5: m.kelso11 (small blind) folded before Flop
+Seat 6: Drshpion13 (big blind) folded before Flop
+Seat 7: twiklikeit folded before Flop (didn't bet)
+Seat 8: Pokererwertas folded before Flop (didn't bet)
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212335043039:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:47:32 ET
+Table 'Queteleta V' 9-max Seat #5 is the button
+Seat 1: harps84 ($1.98 in chips)
+Seat 2: PokerPevs ($0.37 in chips)
+Seat 3: pokerHero1 ($1.89 in chips)
+Seat 4: llever75 ($1.02 in chips)
+Seat 5: m.kelso11 ($2.10 in chips)
+Seat 6: Drshpion13 ($3.07 in chips)
+Seat 7: twiklikeit ($2.75 in chips)
+Seat 9: Dolorizado ($1.56 in chips)
+Drshpion13: posts small blind $0.01
+twiklikeit: posts big blind $0.02
+zalmoxix: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c Jd]
+Dolorizado: folds
+harps84: raises $0.02 to $0.04
+PokerPevs: folds
+pokerHero1: folds
+llever75: folds
+m.kelso11: folds
+Drshpion13: raises $0.02 to $0.06
+twiklikeit: folds
+harps84: calls $0.02
+*** FLOP *** [2h Qs 6s]
+Drshpion13: bets $0.14
+harps84: raises $0.34 to $0.48
+Drshpion13: raises $2.53 to $3.01 and is all-in
+harps84: calls $1.44 and is all-in
+Uncalled bet ($1.09) returned to Drshpion13
+*** TURN *** [2h Qs 6s] [9s]
+*** RIVER *** [2h Qs 6s 9s] [Qd]
+*** SHOW DOWN ***
+Drshpion13: shows [Ah Ac] (two pair, Aces and Queens)
+harps84: shows [Kd Qc] (three of a kind, Queens)
+harps84 collected $3.84 from pot
+*** SUMMARY ***
+Total pot $3.98 | Rake $0.14
+Board [2h Qs 6s 9s Qd]
+Seat 1: harps84 showed [Kd Qc] and won ($3.84) with three of a kind, Queens
+Seat 2: PokerPevs folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: llever75 folded before Flop (didn't bet)
+Seat 5: m.kelso11 (button) folded before Flop (didn't bet)
+Seat 6: Drshpion13 (small blind) showed [Ah Ac] and lost with two pair, Aces and Queens
+Seat 7: twiklikeit (big blind) folded before Flop
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212335157448:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:49:01 ET
+Table 'Queteleta V' 9-max Seat #6 is the button
+Seat 1: harps84 ($3.84 in chips)
+Seat 2: PokerPevs ($0.37 in chips)
+Seat 3: pokerHero1 ($1.89 in chips)
+Seat 4: llever75 ($1.02 in chips)
+Seat 5: m.kelso11 ($2.10 in chips)
+Seat 6: Drshpion13 ($1.09 in chips)
+Seat 7: twiklikeit ($2.73 in chips)
+Seat 8: zalmoxix ($1.60 in chips)
+Seat 9: Dolorizado ($1.56 in chips)
+twiklikeit: posts small blind $0.01
+zalmoxix: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d 9s]
+Dolorizado: folds
+harps84: folds
+PokerPevs: calls $0.02
+pokerHero1: folds
+llever75: raises $0.04 to $0.06
+m.kelso11: folds
+Drshpion13: folds
+twiklikeit: folds
+zalmoxix: calls $0.04
+PokerPevs: calls $0.04
+*** FLOP *** [Th 3h 6c]
+zalmoxix: bets $0.04
+PokerPevs: folds
+llever75: calls $0.04
+*** TURN *** [Th 3h 6c] [4s]
+zalmoxix: bets $0.10
+llever75: folds
+Uncalled bet ($0.10) returned to zalmoxix
+zalmoxix collected $0.26 from pot
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01
+Board [Th 3h 6c 4s]
+Seat 1: harps84 folded before Flop (didn't bet)
+Seat 2: PokerPevs folded on the Flop
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: llever75 folded on the Turn
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 (button) folded before Flop (didn't bet)
+Seat 7: twiklikeit (small blind) folded before Flop
+Seat 8: zalmoxix (big blind) collected ($0.26)
+Seat 9: Dolorizado folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212335259935:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:50:23 ET
+Table 'Queteleta V' 9-max Seat #7 is the button
+Seat 1: harps84 ($3.84 in chips)
+Seat 2: PokerPevs ($0.31 in chips)
+Seat 3: pokerHero1 ($1.89 in chips)
+Seat 4: llever75 ($0.92 in chips)
+Seat 5: m.kelso11 ($2.10 in chips)
+Seat 6: Drshpion13 ($1.09 in chips)
+Seat 7: twiklikeit ($2.72 in chips)
+Seat 8: zalmoxix ($1.76 in chips)
+Seat 9: Dolorizado ($1.56 in chips)
+zalmoxix: posts small blind $0.01
+Dolorizado: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jh 9h]
+harps84: folds
+PokerPevs: folds
+pokerHero1: folds
+llever75: folds
+m.kelso11: folds
+Drshpion13: folds
+twiklikeit: calls $0.02
+zalmoxix: raises $0.06 to $0.08
+Dolorizado: folds
+twiklikeit: calls $0.06
+*** FLOP *** [Tc Jc Kd]
+zalmoxix: checks
+twiklikeit: checks
+*** TURN *** [Tc Jc Kd] [2c]
+zalmoxix: checks
+twiklikeit: bets $0.02
+zalmoxix: calls $0.02
+*** RIVER *** [Tc Jc Kd 2c] [6h]
+zalmoxix: bets $1.66 and is all-in
+twiklikeit: folds
+Uncalled bet ($1.66) returned to zalmoxix
+zalmoxix collected $0.21 from pot
+*** SUMMARY ***
+Total pot $0.22 | Rake $0.01
+Board [Tc Jc Kd 2c 6h]
+Seat 1: harps84 folded before Flop (didn't bet)
+Seat 2: PokerPevs folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: llever75 folded before Flop (didn't bet)
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 folded before Flop (didn't bet)
+Seat 7: twiklikeit (button) folded on the River
+Seat 8: zalmoxix (small blind) collected ($0.21)
+Seat 9: Dolorizado (big blind) folded before Flop
+
+
+
+PokerStars Hand #212335365976:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:51:39 ET
+Table 'Queteleta V' 9-max Seat #8 is the button
+Seat 1: harps84 ($3.84 in chips)
+Seat 2: PokerPevs ($0.31 in chips)
+Seat 3: pokerHero1 ($1.89 in chips)
+Seat 4: llever75 ($0.92 in chips)
+Seat 5: m.kelso11 ($2.10 in chips)
+Seat 6: Drshpion13 ($1.09 in chips)
+Seat 7: twiklikeit ($2.62 in chips)
+Seat 8: zalmoxix ($1.87 in chips)
+Seat 9: Dolorizado ($1.54 in chips)
+Dolorizado: posts small blind $0.01
+harps84: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kh 9d]
+PokerPevs: folds
+pokerHero1: folds
+llever75: raises $0.02 to $0.04
+m.kelso11: folds
+Drshpion13: calls $0.04
+twiklikeit: folds
+zalmoxix: calls $0.04
+Dolorizado: calls $0.03
+harps84: folds
+*** FLOP *** [5s Kc Qs]
+Dolorizado: checks
+llever75: bets $0.04
+Drshpion13: raises $0.04 to $0.08
+zalmoxix: folds
+Dolorizado: folds
+llever75: calls $0.04
+*** TURN *** [5s Kc Qs] [8h]
+llever75: checks
+Drshpion13: bets $0.16
+llever75: folds
+Uncalled bet ($0.16) returned to Drshpion13
+Drshpion13 collected $0.33 from pot
+Drshpion13: doesn't show hand
+*** SUMMARY ***
+Total pot $0.34 | Rake $0.01
+Board [5s Kc Qs 8h]
+Seat 1: harps84 (big blind) folded before Flop
+Seat 2: PokerPevs folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: llever75 folded on the Turn
+Seat 5: m.kelso11 folded before Flop (didn't bet)
+Seat 6: Drshpion13 collected ($0.33)
+Seat 7: twiklikeit folded before Flop (didn't bet)
+Seat 8: zalmoxix (button) folded on the Flop
+Seat 9: Dolorizado (small blind) folded on the Flop
+
+
+

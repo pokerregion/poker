@@ -1,0 +1,5594 @@
+﻿PokerStars Hand #212510143982:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:21:46 ET
+Table 'Horemheb' 9-max Seat #4 is the button
+Seat 1: dr Lewy ($1.04 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($1.60 in chips)
+Seat 4: One makh ($0.83 in chips)
+Seat 5: schani11 ($1.10 in chips)
+Seat 6: pokerHero1 ($2 in chips)
+Seat 7: Luuucky911 ($1.16 in chips)
+Seat 8: link2825 ($2.61 in chips)
+Seat 9: Maduschek ($1.16 in chips)
+schani11: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3c 7c]
+Luuucky911: folds
+link2825: folds
+Maduschek: calls $0.02
+dr Lewy: folds
+gizmondouk: folds
+olegkorneff: folds
+One makh: calls $0.02
+schani11: calls $0.01
+pokerHero1: checks
+*** FLOP *** [Qc 2d 7d]
+schani11: bets $0.08
+pokerHero1: folds
+Maduschek: folds
+One makh: folds
+Uncalled bet ($0.08) returned to schani11
+schani11 collected $0.08 from pot
+schani11: doesn't show hand
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Board [Qc 2d 7d]
+Seat 1: dr Lewy folded before Flop (didn't bet)
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: One makh (button) folded on the Flop
+Seat 5: schani11 (small blind) collected ($0.08)
+Seat 6: pokerHero1 (big blind) folded on the Flop
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: link2825 folded before Flop (didn't bet)
+Seat 9: Maduschek folded on the Flop
+
+
+
+PokerStars Hand #212510179581:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:22:27 ET
+Table 'Horemheb' 9-max Seat #5 is the button
+Seat 1: dr Lewy ($1.04 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($1.60 in chips)
+Seat 4: One makh ($0.81 in chips)
+Seat 5: schani11 ($1.16 in chips)
+Seat 6: pokerHero1 ($1.98 in chips)
+Seat 7: Luuucky911 ($1.16 in chips)
+Seat 8: link2825 ($2.61 in chips)
+Seat 9: Maduschek ($1.14 in chips)
+pokerHero1: posts small blind $0.01
+Luuucky911: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As Qc]
+link2825: folds
+Maduschek: folds
+dr Lewy: raises $0.06 to $0.08
+gizmondouk: folds
+olegkorneff: folds
+One makh: folds
+schani11: folds
+pokerHero1: calls $0.07
+Luuucky911: calls $0.06
+*** FLOP *** [Ts 9d Qh]
+pokerHero1: bets $0.14
+Luuucky911: folds
+dr Lewy: raises $0.14 to $0.28
+pokerHero1: raises $0.22 to $0.50
+dr Lewy: calls $0.22
+*** TURN *** [Ts 9d Qh] [3d]
+pokerHero1: bets $0.52
+dr Lewy: calls $0.46 and is all-in
+Uncalled bet ($0.06) returned to pokerHero1
+*** RIVER *** [Ts 9d Qh 3d] [5h]
+*** SHOW DOWN ***
+pokerHero1: shows [As Qc] (a pair of Queens)
+dr Lewy: shows [9c Js] (a pair of Nines)
+pokerHero1 collected $2.08 from pot
+*** SUMMARY ***
+Total pot $2.16 | Rake $0.08
+Board [Ts 9d Qh 3d 5h]
+Seat 1: dr Lewy showed [9c Js] and lost with a pair of Nines
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: One makh folded before Flop (didn't bet)
+Seat 5: schani11 (button) folded before Flop (didn't bet)
+Seat 6: pokerHero1 (small blind) showed [As Qc] and won ($2.08) with a pair of Queens
+Seat 7: Luuucky911 (big blind) folded on the Flop
+Seat 8: link2825 folded before Flop (didn't bet)
+Seat 9: Maduschek folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510300968:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:24:49 ET
+Table 'Horemheb' 9-max Seat #6 is the button
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($1.60 in chips)
+Seat 4: One makh ($0.81 in chips)
+Seat 5: schani11 ($1.16 in chips)
+Seat 6: pokerHero1 ($3.02 in chips)
+Seat 7: Luuucky911 ($1.08 in chips)
+Seat 8: link2825 ($2.61 in chips)
+Seat 9: Maduschek ($1.14 in chips)
+Luuucky911: posts small blind $0.01
+link2825: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js Tc]
+Maduschek: folds
+dr Lewy leaves the table
+gizmondouk: folds
+olegkorneff: calls $0.02
+One makh: calls $0.02
+schani11: calls $0.02
+pokerHero1: calls $0.02
+Luuucky911: calls $0.01
+link2825: checks
+*** FLOP *** [8d 3c 3h]
+Luuucky911: checks
+link2825: checks
+olegkorneff: checks
+One makh: checks
+schani11: checks
+pokerHero1: checks
+*** TURN *** [8d 3c 3h] [8c]
+Luuucky911: checks
+link2825: checks
+olegkorneff: checks
+One makh: bets $0.04
+fulache joins the table at seat #1
+schani11: calls $0.04
+pokerHero1: folds
+Luuucky911: folds
+link2825: folds
+olegkorneff is disconnected
+olegkorneff is connected
+olegkorneff: calls $0.04
+*** RIVER *** [8d 3c 3h 8c] [8s]
+olegkorneff: checks
+One makh: checks
+schani11: checks
+*** SHOW DOWN ***
+olegkorneff: shows [5s 5h] (a full house, Eights full of Fives)
+One makh: mucks hand
+schani11: mucks hand
+olegkorneff collected $0.23 from pot
+*** SUMMARY ***
+Total pot $0.24 | Rake $0.01
+Board [8d 3c 3h 8c 8s]
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff showed [5s 5h] and won ($0.23) with a full house, Eights full of Fives
+Seat 4: One makh mucked [7c Ad]
+Seat 5: schani11 mucked [Jc Qc]
+Seat 6: pokerHero1 (button) folded on the Turn
+Seat 7: Luuucky911 (small blind) folded on the Turn
+Seat 8: link2825 (big blind) folded on the Turn
+Seat 9: Maduschek folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510415763:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:26:59 ET
+Table 'Horemheb' 9-max Seat #7 is the button
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($1.77 in chips)
+Seat 4: One makh ($0.75 in chips)
+Seat 5: schani11 ($1.10 in chips)
+Seat 6: pokerHero1 ($3 in chips)
+Seat 7: Luuucky911 ($1.06 in chips)
+Seat 8: link2825 ($2.59 in chips)
+Seat 9: Maduschek ($1.14 in chips)
+link2825: posts small blind $0.01
+Maduschek: posts big blind $0.02
+fulache: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s 8c]
+gizmondouk: folds
+olegkorneff: folds
+One makh: calls $0.02
+schani11: folds
+pokerHero1: folds
+Luuucky911: raises $0.04 to $0.06
+link2825: folds
+Maduschek: calls $0.04
+One makh: calls $0.04
+*** FLOP *** [4h 2h 3d]
+Maduschek: checks
+One makh: checks
+Luuucky911: checks
+*** TURN *** [4h 2h 3d] [9d]
+Maduschek: checks
+One makh: checks
+Luuucky911: bets $0.08
+Maduschek: folds
+One makh: folds
+Uncalled bet ($0.08) returned to Luuucky911
+Luuucky911 collected $0.18 from pot
+Luuucky911: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [4h 2h 3d 9d]
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: One makh folded on the Turn
+Seat 5: schani11 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 (button) collected ($0.18)
+Seat 8: link2825 (small blind) folded before Flop
+Seat 9: Maduschek (big blind) folded on the Turn
+
+
+
+PokerStars Hand #212510484561:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:28:17 ET
+Table 'Horemheb' 9-max Seat #8 is the button
+Seat 1: fulache ($1.98 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($1.77 in chips)
+Seat 4: One makh ($0.69 in chips)
+Seat 5: schani11 ($1.10 in chips)
+Seat 6: pokerHero1 ($3 in chips)
+Seat 7: Luuucky911 ($1.18 in chips)
+Seat 8: link2825 ($2.58 in chips)
+Seat 9: Maduschek ($1.08 in chips)
+Maduschek: posts small blind $0.01
+fulache: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s 7c]
+gizmondouk: folds
+olegkorneff: folds
+One makh: folds
+schani11: calls $0.02
+pokerHero1: folds
+Luuucky911: calls $0.02
+link2825: folds
+Maduschek: calls $0.01
+fulache: checks
+*** FLOP *** [8d Tc 4h]
+Maduschek: checks
+fulache: checks
+schani11: checks
+Luuucky911: checks
+*** TURN *** [8d Tc 4h] [8s]
+Maduschek: checks
+fulache: bets $0.04
+schani11: calls $0.04
+Luuucky911: folds
+Maduschek: folds
+*** RIVER *** [8d Tc 4h 8s] [4c]
+fulache: checks
+schani11: checks
+*** SHOW DOWN ***
+fulache: shows [Qc 4s] (a full house, Fours full of Eights)
+schani11: mucks hand
+fulache collected $0.15 from pot
+*** SUMMARY ***
+Total pot $0.16 | Rake $0.01
+Board [8d Tc 4h 8s 4c]
+Seat 1: fulache (big blind) showed [Qc 4s] and won ($0.15) with a full house, Fours full of Eights
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: One makh folded before Flop (didn't bet)
+Seat 5: schani11 mucked [6d Kd]
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 folded on the Turn
+Seat 8: link2825 (button) folded before Flop (didn't bet)
+Seat 9: Maduschek (small blind) folded on the Turn
+
+
+
+PokerStars Hand #212510570238:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:29:54 ET
+Table 'Horemheb' 9-max Seat #9 is the button
+Seat 1: fulache ($2.07 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($1.77 in chips)
+Seat 4: One makh ($0.69 in chips)
+Seat 5: schani11 ($1.04 in chips)
+Seat 6: pokerHero1 ($3 in chips)
+Seat 7: Luuucky911 ($1.16 in chips)
+Seat 8: link2825 ($2.58 in chips)
+Seat 9: Maduschek ($1.06 in chips)
+fulache: posts small blind $0.01
+gizmondouk: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8d Kd]
+olegkorneff: calls $0.02
+One makh: calls $0.02
+schani11: folds
+pokerHero1: folds
+Luuucky911: calls $0.02
+link2825: folds
+Maduschek: calls $0.02
+fulache: calls $0.01
+gizmondouk: checks
+*** FLOP *** [9c Jc 4d]
+fulache: checks
+gizmondouk: checks
+olegkorneff: checks
+One makh: bets $0.12
+Luuucky911: folds
+Maduschek: calls $0.12
+fulache: folds
+gizmondouk: folds
+olegkorneff: folds
+*** TURN *** [9c Jc 4d] [3c]
+One makh: bets $0.55 and is all-in
+Maduschek: folds
+Uncalled bet ($0.55) returned to One makh
+One makh collected $0.35 from pot
+*** SUMMARY ***
+Total pot $0.36 | Rake $0.01
+Board [9c Jc 4d 3c]
+Seat 1: fulache (small blind) folded on the Flop
+Seat 2: gizmondouk (big blind) folded on the Flop
+Seat 3: olegkorneff folded on the Flop
+Seat 4: One makh collected ($0.35)
+Seat 5: schani11 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 folded on the Flop
+Seat 8: link2825 folded before Flop (didn't bet)
+Seat 9: Maduschek (button) folded on the Turn
+
+
+
+PokerStars Hand #212510624820:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:30:54 ET
+Table 'Horemheb' 9-max Seat #1 is the button
+Seat 1: fulache ($2.05 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($1.75 in chips)
+Seat 4: One makh ($0.90 in chips)
+Seat 5: schani11 ($1.04 in chips)
+Seat 6: pokerHero1 ($3 in chips)
+Seat 7: Luuucky911 ($1.14 in chips)
+Seat 8: link2825 ($2.58 in chips)
+Seat 9: Maduschek ($0.92 in chips)
+gizmondouk: posts small blind $0.01
+olegkorneff: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td Ad]
+One makh: calls $0.02
+schani11: folds
+pokerHero1: raises $0.06 to $0.08
+Luuucky911: folds
+link2825: folds
+Maduschek: calls $0.08
+fulache: folds
+gizmondouk: folds
+olegkorneff: folds
+One makh: calls $0.06
+*** FLOP *** [6s Js 2s]
+One makh: bets $0.26
+pokerHero1: folds
+Maduschek: raises $0.58 to $0.84 and is all-in
+One makh: calls $0.56 and is all-in
+Uncalled bet ($0.02) returned to Maduschek
+*** TURN *** [6s Js 2s] [8s]
+*** RIVER *** [6s Js 2s 8s] [Jc]
+*** SHOW DOWN ***
+One makh: shows [Ts Jh] (a flush, Jack high)
+Maduschek: shows [4d Jd] (three of a kind, Jacks)
+One makh collected $1.84 from pot
+*** SUMMARY ***
+Total pot $1.91 | Rake $0.07
+Board [6s Js 2s 8s Jc]
+Seat 1: fulache (button) folded before Flop (didn't bet)
+Seat 2: gizmondouk (small blind) folded before Flop
+Seat 3: olegkorneff (big blind) folded before Flop
+Seat 4: One makh showed [Ts Jh] and won ($1.84) with a flush, Jack high
+Seat 5: schani11 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded on the Flop
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: link2825 folded before Flop (didn't bet)
+Seat 9: Maduschek showed [4d Jd] and lost with three of a kind, Jacks
+
+
+
+PokerStars Hand #212510667334:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:31:41 ET
+Table 'Horemheb' 9-max Seat #2 is the button
+Seat 1: fulache ($2.05 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($1.73 in chips)
+Seat 4: One makh ($1.84 in chips)
+Seat 5: schani11 ($1.04 in chips)
+Seat 6: pokerHero1 ($2.92 in chips)
+Seat 7: Luuucky911 ($1.14 in chips)
+Seat 8: link2825 ($2.58 in chips)
+Seat 9: Maduschek ($0.02 in chips)
+olegkorneff: posts small blind $0.01
+One makh: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s As]
+schani11: folds
+pokerHero1: raises $0.06 to $0.08
+Luuucky911: raises $0.08 to $0.16
+link2825: folds
+Maduschek: folds
+fulache: folds
+gizmondouk: folds
+olegkorneff is disconnected
+olegkorneff is connected
+olegkorneff has timed out
+olegkorneff: folds
+One makh: folds
+pokerHero1: folds
+Uncalled bet ($0.08) returned to Luuucky911
+Luuucky911 collected $0.19 from pot
+Luuucky911: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: gizmondouk (button) folded before Flop (didn't bet)
+Seat 3: olegkorneff (small blind) folded before Flop
+Seat 4: One makh (big blind) folded before Flop
+Seat 5: schani11 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop
+Seat 7: Luuucky911 collected ($0.19)
+Seat 8: link2825 folded before Flop (didn't bet)
+Seat 9: Maduschek folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510767702:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:33:33 ET
+Table 'Horemheb' 9-max Seat #3 is the button
+Seat 1: fulache ($2.05 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($1.72 in chips)
+Seat 4: One makh ($1.82 in chips)
+Seat 5: schani11 ($1.04 in chips)
+Seat 6: pokerHero1 ($2.84 in chips)
+Seat 7: Luuucky911 ($1.25 in chips)
+Seat 8: link2825 ($2.58 in chips)
+Seat 9: Maduschek ($0.02 in chips)
+One makh: posts small blind $0.01
+schani11: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8s Kh]
+pokerHero1: folds
+Luuucky911: raises $0.04 to $0.06
+link2825: folds
+Maduschek: folds
+fulache: folds
+gizmondouk: calls $0.06
+olegkorneff: folds
+One makh: folds
+schani11: folds
+*** FLOP *** [2h Jh Td]
+Luuucky911: checks
+gizmondouk: checks
+*** TURN *** [2h Jh Td] [5s]
+Luuucky911: checks
+gizmondouk: checks
+*** RIVER *** [2h Jh Td 5s] [Th]
+Luuucky911: checks
+gizmondouk: checks
+*** SHOW DOWN ***
+Luuucky911: shows [9s As] (a pair of Tens)
+gizmondouk: shows [7c 7s] (two pair, Tens and Sevens)
+gizmondouk collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [2h Jh Td 5s Th]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: gizmondouk showed [7c 7s] and won ($0.14) with two pair, Tens and Sevens
+Seat 3: olegkorneff (button) folded before Flop (didn't bet)
+Seat 4: One makh (small blind) folded before Flop
+Seat 5: schani11 (big blind) folded before Flop
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 showed [9s As] and lost with a pair of Tens
+Seat 8: link2825 folded before Flop (didn't bet)
+Seat 9: Maduschek folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510803713:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:34:13 ET
+Table 'Horemheb' 9-max Seat #4 is the button
+Seat 1: fulache ($2.05 in chips)
+Seat 2: gizmondouk ($2.08 in chips)
+Seat 3: olegkorneff ($1.72 in chips)
+Seat 4: One makh ($1.81 in chips)
+Seat 5: schani11 ($1.02 in chips)
+Seat 6: pokerHero1 ($2.84 in chips)
+Seat 7: Luuucky911 ($1.19 in chips)
+Seat 8: link2825 ($2.58 in chips)
+Seat 9: Maduschek ($0.02 in chips)
+schani11: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad 3d]
+Luuucky911: folds
+link2825: folds
+Maduschek: calls $0.02 and is all-in
+fulache: folds
+gizmondouk: raises $0.06 to $0.08
+olegkorneff: folds
+One makh: folds
+schani11: calls $0.07
+pokerHero1: folds
+*** FLOP *** [7c Qh Ks]
+schani11: checks
+gizmondouk: checks
+*** TURN *** [7c Qh Ks] [5c]
+schani11: checks
+gizmondouk: checks
+*** RIVER *** [7c Qh Ks 5c] [Jd]
+schani11: checks
+gizmondouk: checks
+*** SHOW DOWN ***
+schani11: shows [8d Ac] (high card Ace)
+gizmondouk: shows [2s 2d] (a pair of Deuces)
+gizmondouk collected $0.11 from side pot
+Maduschek: shows [Qc Th] (a pair of Queens)
+Maduschek collected $0.08 from main pot
+*** SUMMARY ***
+Total pot $0.20 Main pot $0.08. Side pot $0.11. | Rake $0.01
+Board [7c Qh Ks 5c Jd]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: gizmondouk showed [2s 2d] and won ($0.11) with a pair of Deuces
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: One makh (button) folded before Flop (didn't bet)
+Seat 5: schani11 (small blind) showed [8d Ac] and lost with high card Ace
+Seat 6: pokerHero1 (big blind) folded before Flop
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: link2825 folded before Flop (didn't bet)
+Seat 9: Maduschek showed [Qc Th] and won ($0.08) with a pair of Queens
+
+
+
+PokerStars Hand #212510872725:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:35:15 ET
+Table 'Horemheb' 9-max Seat #5 is the button
+Seat 1: fulache ($2.05 in chips)
+Seat 2: gizmondouk ($2.11 in chips)
+Seat 3: olegkorneff ($1.72 in chips)
+Seat 4: One makh ($1.81 in chips)
+Seat 5: schani11 ($0.94 in chips)
+Seat 6: pokerHero1 ($2.82 in chips)
+Seat 7: Luuucky911 ($1.19 in chips)
+Seat 8: link2825 ($2.58 in chips)
+Seat 9: Maduschek ($0.08 in chips)
+pokerHero1: posts small blind $0.01
+Luuucky911: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6h Ts]
+link2825: folds
+link2825 leaves the table
+Maduschek: folds
+fulache: folds
+m.sanitra joins the table at seat #8
+gizmondouk: folds
+olegkorneff: folds
+One makh: calls $0.02
+schani11: calls $0.02
+pokerHero1: folds
+Luuucky911: checks
+*** FLOP *** [3d Qd Ad]
+Luuucky911: bets $0.02
+One makh: folds
+schani11: calls $0.02
+*** TURN *** [3d Qd Ad] [5c]
+Luuucky911: bets $0.04
+schani11: calls $0.04
+*** RIVER *** [3d Qd Ad 5c] [6c]
+Luuucky911: bets $0.18
+schani11: folds
+Uncalled bet ($0.18) returned to Luuucky911
+Luuucky911 collected $0.18 from pot
+Luuucky911: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [3d Qd Ad 5c 6c]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: One makh folded on the Flop
+Seat 5: schani11 (button) folded on the River
+Seat 6: pokerHero1 (small blind) folded before Flop
+Seat 7: Luuucky911 (big blind) collected ($0.18)
+Seat 8: link2825 folded before Flop (didn't bet)
+Seat 9: Maduschek folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510922656:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:36:10 ET
+Table 'Horemheb' 9-max Seat #6 is the button
+Seat 1: fulache ($2.05 in chips)
+Seat 2: gizmondouk ($2.11 in chips)
+Seat 3: olegkorneff ($1.72 in chips)
+Seat 4: One makh ($1.79 in chips)
+Seat 5: schani11 ($0.86 in chips)
+Seat 6: pokerHero1 ($2.81 in chips)
+Seat 7: Luuucky911 ($1.29 in chips)
+Seat 8: m.sanitra ($1.60 in chips)
+Seat 9: Maduschek ($0.08 in chips)
+Luuucky911: posts small blind $0.01
+m.sanitra: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd 4h]
+Maduschek: folds
+fulache: folds
+gizmondouk: folds
+olegkorneff: folds
+One makh: raises $0.04 to $0.06
+schani11: folds
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+Uncalled bet ($0.04) returned to One makh
+One makh collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: One makh collected ($0.05)
+Seat 5: schani11 folded before Flop (didn't bet)
+Seat 6: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 7: Luuucky911 (small blind) folded before Flop
+Seat 8: m.sanitra (big blind) folded before Flop
+Seat 9: Maduschek folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510959622:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:36:50 ET
+Table 'Horemheb' 9-max Seat #7 is the button
+Seat 1: fulache ($2.05 in chips)
+Seat 2: gizmondouk ($2.11 in chips)
+Seat 3: olegkorneff ($1.72 in chips)
+Seat 4: One makh ($1.82 in chips)
+Seat 5: schani11 ($0.86 in chips)
+Seat 6: pokerHero1 ($2.81 in chips)
+Seat 7: Luuucky911 ($1.28 in chips)
+Seat 8: m.sanitra ($1.58 in chips)
+m.sanitra: posts small blind $0.01
+Maduschek: is sitting out
+fulache: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5h 7h]
+gizmondouk: folds
+olegkorneff: calls $0.02
+One makh: calls $0.02
+schani11: folds
+pokerHero1: folds
+Luuucky911: calls $0.02
+m.sanitra: folds
+fulache: checks
+*** FLOP *** [9c Js 7c]
+fulache: checks
+olegkorneff: checks
+Maduschek leaves the table
+One makh: bets $0.05
+Luuucky911: folds
+Mediapunto joins the table at seat #9
+fulache: folds
+olegkorneff: calls $0.05
+*** TURN *** [9c Js 7c] [8h]
+olegkorneff: checks
+One makh: bets $0.09
+olegkorneff: calls $0.09
+*** RIVER *** [9c Js 7c 8h] [2s]
+olegkorneff: checks
+One makh: checks
+*** SHOW DOWN ***
+olegkorneff: shows [4c Ac] (high card Ace)
+One makh: shows [Kc Jd] (a pair of Jacks)
+One makh collected $0.36 from pot
+*** SUMMARY ***
+Total pot $0.37 | Rake $0.01
+Board [9c Js 7c 8h 2s]
+Seat 1: fulache (big blind) folded on the Flop
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff showed [4c Ac] and lost with high card Ace
+Seat 4: One makh showed [Kc Jd] and won ($0.36) with a pair of Jacks
+Seat 5: schani11 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 (button) folded on the Flop
+Seat 8: m.sanitra (small blind) folded before Flop
+
+
+
+PokerStars Hand #212511035974:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:38:14 ET
+Table 'Horemheb' 9-max Seat #8 is the button
+Seat 1: fulache ($2.03 in chips)
+Seat 2: gizmondouk ($2.11 in chips)
+Seat 3: olegkorneff ($1.56 in chips)
+Seat 4: One makh ($2.02 in chips)
+Seat 5: schani11 ($0.86 in chips)
+Seat 6: pokerHero1 ($2.81 in chips)
+Seat 7: Luuucky911 ($1.26 in chips)
+Seat 8: m.sanitra ($1.57 in chips)
+fulache: posts small blind $0.01
+gizmondouk: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7h 8c]
+olegkorneff: folds
+One makh: folds
+schani11: calls $0.02
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+fulache: calls $0.01
+gizmondouk: checks
+*** FLOP *** [Qc Ad 4s]
+fulache: checks
+gizmondouk: checks
+schani11: checks
+*** TURN *** [Qc Ad 4s] [Ac]
+fulache: checks
+gizmondouk: checks
+schani11: checks
+*** RIVER *** [Qc Ad 4s Ac] [Qh]
+fulache: checks
+gizmondouk: checks
+schani11: checks
+*** SHOW DOWN ***
+fulache: shows [5s 3s] (two pair, Aces and Queens)
+gizmondouk: shows [3d 8h] (two pair, Aces and Queens - Eight kicker)
+schani11: shows [Kh 9h] (two pair, Aces and Queens - King kicker)
+schani11 collected $0.06 from pot
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [Qc Ad 4s Ac Qh]
+Seat 1: fulache (small blind) showed [5s 3s] and lost with two pair, Aces and Queens
+Seat 2: gizmondouk (big blind) showed [3d 8h] and lost with two pair, Aces and Queens
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: One makh folded before Flop (didn't bet)
+Seat 5: schani11 showed [Kh 9h] and won ($0.06) with two pair, Aces and Queens
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: m.sanitra (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511113215:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:39:40 ET
+Table 'Horemheb' 9-max Seat #1 is the button
+Seat 1: fulache ($2.01 in chips)
+Seat 2: gizmondouk ($2.09 in chips)
+Seat 3: olegkorneff ($1.56 in chips)
+Seat 4: One makh ($2.02 in chips)
+Seat 5: schani11 ($0.90 in chips)
+Seat 6: pokerHero1 ($2.81 in chips)
+Seat 7: Luuucky911 ($1.26 in chips)
+Seat 8: m.sanitra ($1.57 in chips)
+gizmondouk: posts small blind $0.01
+olegkorneff: posts big blind $0.02
+Mediapunto: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s 8c]
+One makh has timed out
+One makh: folds
+schani11: calls $0.02
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+fulache: folds
+gizmondouk: folds
+olegkorneff: checks
+*** FLOP *** [Kc 3h 5c]
+olegkorneff: checks
+schani11 has timed out
+schani11: checks
+*** TURN *** [Kc 3h 5c] [Qh]
+olegkorneff: checks
+schani11: bets $0.05
+olegkorneff: calls $0.05
+*** RIVER *** [Kc 3h 5c Qh] [Ad]
+One makh leaves the table
+olegkorneff: checks
+schani11: bets $0.14
+olegkorneff: folds
+Uncalled bet ($0.14) returned to schani11
+schani11 collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [Kc 3h 5c Qh Ad]
+Seat 1: fulache (button) folded before Flop (didn't bet)
+Seat 2: gizmondouk (small blind) folded before Flop
+Seat 3: olegkorneff (big blind) folded on the River
+Seat 4: One makh folded before Flop (didn't bet)
+Seat 5: schani11 collected ($0.14)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511189163:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:41:03 ET
+Table 'Horemheb' 9-max Seat #2 is the button
+Seat 1: fulache ($2.01 in chips)
+Seat 2: gizmondouk ($2.08 in chips)
+Seat 3: olegkorneff ($1.49 in chips)
+Seat 5: schani11 ($0.97 in chips)
+Seat 6: pokerHero1 ($2.81 in chips)
+Seat 7: Luuucky911 ($1.26 in chips)
+Seat 8: m.sanitra ($1.57 in chips)
+olegkorneff: posts small blind $0.01
+schani11: posts big blind $0.02
+Mediapunto: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h Jh]
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+fulache: folds
+gizmondouk: raises $0.04 to $0.06
+olegkorneff: folds
+schani11: folds
+Uncalled bet ($0.04) returned to gizmondouk
+gizmondouk collected $0.05 from pot
+gizmondouk: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: gizmondouk (button) collected ($0.05)
+Seat 3: olegkorneff (small blind) folded before Flop
+Seat 5: schani11 (big blind) folded before Flop
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511211093:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:41:28 ET
+Table 'Horemheb' 9-max Seat #3 is the button
+Seat 1: fulache ($2.01 in chips)
+Seat 2: gizmondouk ($2.11 in chips)
+Seat 3: olegkorneff ($1.48 in chips)
+Seat 5: schani11 ($0.95 in chips)
+Seat 6: pokerHero1 ($2.81 in chips)
+Seat 7: Luuucky911 ($1.26 in chips)
+Seat 8: m.sanitra ($1.57 in chips)
+schani11: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+Mediapunto: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h Kc]
+Luuucky911: folds
+m.sanitra: folds
+fulache: folds
+gizmondouk: folds
+olegkorneff: folds
+schani11: calls $0.01
+pokerHero1: checks
+*** FLOP *** [5c Ah 3s]
+schani11: checks
+pokerHero1: checks
+*** TURN *** [5c Ah 3s] [5d]
+docthedoc66 joins the table at seat #4
+schani11: bets $0.04
+pokerHero1: folds
+Uncalled bet ($0.04) returned to schani11
+schani11 collected $0.04 from pot
+schani11: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [5c Ah 3s 5d]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff (button) folded before Flop (didn't bet)
+Seat 5: schani11 (small blind) collected ($0.04)
+Seat 6: pokerHero1 (big blind) folded on the Turn
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511237876:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:41:57 ET
+Table 'Horemheb' 9-max Seat #5 is the button
+Seat 1: fulache ($2.01 in chips)
+Seat 2: gizmondouk ($2.11 in chips)
+Seat 3: olegkorneff ($1.48 in chips)
+Seat 4: docthedoc66 ($2 in chips)
+Seat 5: schani11 ($0.97 in chips)
+Seat 6: pokerHero1 ($2.79 in chips)
+Seat 7: Luuucky911 ($1.26 in chips)
+Seat 8: m.sanitra ($1.57 in chips)
+pokerHero1: posts small blind $0.01
+Luuucky911: posts big blind $0.02
+Mediapunto: sits out
+docthedoc66: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd 6c]
+m.sanitra: folds
+fulache: folds
+gizmondouk: folds
+olegkorneff: folds
+docthedoc66: checks
+schani11: folds
+pokerHero1: folds
+Luuucky911: checks
+*** FLOP *** [8h 8d 4c]
+Luuucky911: checks
+docthedoc66: checks
+*** TURN *** [8h 8d 4c] [Js]
+Luuucky911: bets $0.04
+docthedoc66: folds
+Uncalled bet ($0.04) returned to Luuucky911
+Luuucky911 collected $0.05 from pot
+Luuucky911: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [8h 8d 4c Js]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: docthedoc66 folded on the Turn (didn't bet)
+Seat 5: schani11 (button) folded before Flop (didn't bet)
+Seat 6: pokerHero1 (small blind) folded before Flop
+Seat 7: Luuucky911 (big blind) collected ($0.05)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511283565:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:42:47 ET
+Table 'Horemheb' 9-max Seat #6 is the button
+Seat 1: fulache ($2.01 in chips)
+Seat 2: gizmondouk ($2.11 in chips)
+Seat 3: olegkorneff ($1.48 in chips)
+Seat 4: docthedoc66 ($1.98 in chips)
+Seat 5: schani11 ($0.97 in chips)
+Seat 6: pokerHero1 ($2.78 in chips)
+Seat 7: Luuucky911 ($1.29 in chips)
+Seat 8: m.sanitra ($1.57 in chips)
+Luuucky911: posts small blind $0.01
+m.sanitra: posts big blind $0.02
+Mediapunto: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc 9s]
+fulache: folds
+gizmondouk: raises $0.04 to $0.06
+olegkorneff: folds
+docthedoc66: calls $0.06
+schani11: folds
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+*** FLOP *** [2d 8h 9d]
+gizmondouk: checks
+docthedoc66: bets $0.06
+gizmondouk: calls $0.06
+*** TURN *** [2d 8h 9d] [8s]
+gizmondouk: checks
+docthedoc66: bets $0.12
+gizmondouk: folds
+Uncalled bet ($0.12) returned to docthedoc66
+docthedoc66 collected $0.26 from pot
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01
+Board [2d 8h 9d 8s]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: gizmondouk folded on the Turn
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: docthedoc66 collected ($0.26)
+Seat 5: schani11 folded before Flop (didn't bet)
+Seat 6: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 7: Luuucky911 (small blind) folded before Flop
+Seat 8: m.sanitra (big blind) folded before Flop
+
+
+
+PokerStars Hand #212511328766:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:43:37 ET
+Table 'Horemheb' 9-max Seat #7 is the button
+Seat 1: fulache ($2.01 in chips)
+Seat 3: olegkorneff ($1.48 in chips)
+Seat 4: docthedoc66 ($2.12 in chips)
+Seat 5: schani11 ($0.97 in chips)
+Seat 6: pokerHero1 ($2.78 in chips)
+Seat 7: Luuucky911 ($1.28 in chips)
+Seat 8: m.sanitra ($1.55 in chips)
+Seat 9: Mediapunto ($2 in chips)
+m.sanitra: posts small blind $0.01
+Mediapunto: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad 6c]
+fulache: calls $0.02
+olegkorneff: folds
+docthedoc66: raises $0.08 to $0.10
+schani11: folds
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+Mediapunto: folds
+fulache: calls $0.08
+*** FLOP *** [Kh Ks 3h]
+fulache: checks
+docthedoc66: bets $0.10
+fulache: folds
+Uncalled bet ($0.10) returned to docthedoc66
+docthedoc66 collected $0.22 from pot
+*** SUMMARY ***
+Total pot $0.23 | Rake $0.01
+Board [Kh Ks 3h]
+Seat 1: fulache folded on the Flop
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: docthedoc66 collected ($0.22)
+Seat 5: schani11 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 (button) folded before Flop (didn't bet)
+Seat 8: m.sanitra (small blind) folded before Flop
+Seat 9: Mediapunto (big blind) folded before Flop
+
+
+
+PokerStars Hand #212511366301:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:44:18 ET
+Table 'Horemheb' 9-max Seat #8 is the button
+Seat 1: fulache ($1.91 in chips)
+Seat 3: olegkorneff ($1.48 in chips)
+Seat 4: docthedoc66 ($2.24 in chips)
+Seat 5: schani11 ($0.97 in chips)
+Seat 6: pokerHero1 ($2.78 in chips)
+Seat 7: Luuucky911 ($1.28 in chips)
+Seat 8: m.sanitra ($1.54 in chips)
+Seat 9: Mediapunto ($1.98 in chips)
+Mediapunto: posts small blind $0.01
+fulache: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5d 7h]
+olegkorneff: folds
+docthedoc66: folds
+schani11: calls $0.02
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+Mediapunto: calls $0.01
+fulache: checks
+*** FLOP *** [5s 8s Tc]
+Mediapunto: checks
+fulache: bets $0.04
+schani11: calls $0.04
+Mediapunto: folds
+*** TURN *** [5s 8s Tc] [7s]
+fulache: checks
+schani11: checks
+*** RIVER *** [5s 8s Tc 7s] [3s]
+fulache: checks
+schani11: bets $0.14
+fulache: folds
+Uncalled bet ($0.14) returned to schani11
+schani11 collected $0.14 from pot
+schani11: doesn't show hand
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [5s 8s Tc 7s 3s]
+Seat 1: fulache (big blind) folded on the River
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: docthedoc66 folded before Flop (didn't bet)
+Seat 5: schani11 collected ($0.14)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: m.sanitra (button) folded before Flop (didn't bet)
+Seat 9: Mediapunto (small blind) folded on the Flop
+
+
+
+PokerStars Hand #212511413641:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:45:09 ET
+Table 'Horemheb' 9-max Seat #9 is the button
+Seat 1: fulache ($1.85 in chips)
+Seat 3: olegkorneff ($1.48 in chips)
+Seat 4: docthedoc66 ($2.24 in chips)
+Seat 5: schani11 ($1.05 in chips)
+Seat 6: pokerHero1 ($2.78 in chips)
+Seat 7: Luuucky911 ($1.28 in chips)
+Seat 8: m.sanitra ($1.54 in chips)
+Seat 9: Mediapunto ($1.96 in chips)
+fulache: posts small blind $0.01
+olegkorneff: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5d 3d]
+docthedoc66: raises $0.04 to $0.06
+schani11: folds
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+Mediapunto: folds
+fulache: folds
+olegkorneff: folds
+Uncalled bet ($0.04) returned to docthedoc66
+docthedoc66 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: fulache (small blind) folded before Flop
+Seat 3: olegkorneff (big blind) folded before Flop
+Seat 4: docthedoc66 collected ($0.05)
+Seat 5: schani11 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511440149:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:45:38 ET
+Table 'Horemheb' 9-max Seat #1 is the button
+Seat 1: fulache ($1.84 in chips)
+Seat 3: olegkorneff ($1.46 in chips)
+Seat 4: docthedoc66 ($2.27 in chips)
+Seat 5: schani11 ($1.05 in chips)
+Seat 6: pokerHero1 ($2.78 in chips)
+Seat 7: Luuucky911 ($1.28 in chips)
+Seat 8: m.sanitra ($1.54 in chips)
+Seat 9: Mediapunto ($1.96 in chips)
+olegkorneff: posts small blind $0.01
+docthedoc66: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h 7c]
+schani11: folds
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+Mediapunto: folds
+fulache: folds
+olegkorneff: folds
+Uncalled bet ($0.01) returned to docthedoc66
+docthedoc66 collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: fulache (button) folded before Flop (didn't bet)
+Seat 3: olegkorneff (small blind) folded before Flop
+Seat 4: docthedoc66 (big blind) collected ($0.02)
+Seat 5: schani11 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511467308:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:46:07 ET
+Table 'Horemheb' 9-max Seat #3 is the button
+Seat 1: fulache ($1.84 in chips)
+Seat 3: olegkorneff ($1.45 in chips)
+Seat 4: docthedoc66 ($2.28 in chips)
+Seat 5: schani11 ($1.05 in chips)
+Seat 6: pokerHero1 ($2.78 in chips)
+Seat 7: Luuucky911 ($1.28 in chips)
+Seat 8: m.sanitra ($1.54 in chips)
+Seat 9: Mediapunto ($1.96 in chips)
+docthedoc66: posts small blind $0.01
+schani11: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d 8d]
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+Mediapunto: folds
+fulache: folds
+olegkorneff: folds
+docthedoc66: folds
+Uncalled bet ($0.01) returned to schani11
+schani11 collected $0.02 from pot
+schani11: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 3: olegkorneff (button) folded before Flop (didn't bet)
+Seat 4: docthedoc66 (small blind) folded before Flop
+Seat 5: schani11 (big blind) collected ($0.02)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511485979:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:46:28 ET
+Table 'Horemheb' 9-max Seat #4 is the button
+Seat 1: fulache ($1.84 in chips)
+Seat 3: olegkorneff ($1.45 in chips)
+Seat 4: docthedoc66 ($2.27 in chips)
+Seat 5: schani11 ($1.06 in chips)
+Seat 6: pokerHero1 ($2.78 in chips)
+Seat 7: Luuucky911 ($1.28 in chips)
+Seat 8: m.sanitra ($1.54 in chips)
+Seat 9: Mediapunto ($1.96 in chips)
+schani11: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d 6c]
+Luuucky911: folds
+m.sanitra: folds
+Mediapunto: folds
+fulache: folds
+olegkorneff: calls $0.02
+docthedoc66: raises $0.16 to $0.18
+schani11: folds
+pokerHero1: folds
+olegkorneff: folds
+Uncalled bet ($0.16) returned to docthedoc66
+docthedoc66 collected $0.07 from pot
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop
+Seat 4: docthedoc66 (button) collected ($0.07)
+Seat 5: schani11 (small blind) folded before Flop
+Seat 6: pokerHero1 (big blind) folded before Flop
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511517474:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:47:02 ET
+Table 'Horemheb' 9-max Seat #5 is the button
+Seat 1: fulache ($1.84 in chips)
+Seat 3: olegkorneff ($1.43 in chips)
+Seat 4: docthedoc66 ($2.32 in chips)
+Seat 5: schani11 ($1.05 in chips)
+Seat 6: pokerHero1 ($2.76 in chips)
+Seat 7: Luuucky911 ($1.28 in chips)
+Seat 8: m.sanitra ($1.54 in chips)
+Seat 9: Mediapunto ($1.96 in chips)
+pokerHero1: posts small blind $0.01
+Luuucky911: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac Th]
+m.sanitra: raises $0.02 to $0.04
+Mediapunto: calls $0.04
+fulache: calls $0.04
+olegkorneff: folds
+docthedoc66: folds
+schani11: folds
+pokerHero1: folds
+Luuucky911: calls $0.02
+*** FLOP *** [9d 7c 2s]
+Luuucky911: checks
+m.sanitra: checks
+Mediapunto: checks
+fulache: bets $0.11
+Luuucky911: folds
+m.sanitra: folds
+Mediapunto: folds
+Uncalled bet ($0.11) returned to fulache
+fulache collected $0.16 from pot
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [9d 7c 2s]
+Seat 1: fulache collected ($0.16)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: docthedoc66 folded before Flop (didn't bet)
+Seat 5: schani11 (button) folded before Flop (didn't bet)
+Seat 6: pokerHero1 (small blind) folded before Flop
+Seat 7: Luuucky911 (big blind) folded on the Flop
+Seat 8: m.sanitra folded on the Flop
+Seat 9: Mediapunto folded on the Flop
+
+
+
+PokerStars Hand #212511570755:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:48:00 ET
+Table 'Horemheb' 9-max Seat #6 is the button
+Seat 1: fulache ($1.96 in chips)
+Seat 3: olegkorneff ($1.43 in chips)
+Seat 4: docthedoc66 ($2.32 in chips)
+Seat 5: schani11 ($1.05 in chips)
+Seat 6: pokerHero1 ($2.75 in chips)
+Seat 7: Luuucky911 ($1.24 in chips)
+Seat 8: m.sanitra ($1.50 in chips)
+Seat 9: Mediapunto ($1.92 in chips)
+Luuucky911: posts small blind $0.01
+m.sanitra: posts big blind $0.02
+gizmondouk: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qd 5d]
+Mediapunto: folds
+fulache: folds
+olegkorneff: folds
+docthedoc66: raises $0.04 to $0.06
+schani11: folds
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+Uncalled bet ($0.04) returned to docthedoc66
+docthedoc66 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: docthedoc66 collected ($0.05)
+Seat 5: schani11 folded before Flop (didn't bet)
+Seat 6: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 7: Luuucky911 (small blind) folded before Flop
+Seat 8: m.sanitra (big blind) folded before Flop
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511595092:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:48:27 ET
+Table 'Horemheb' 9-max Seat #7 is the button
+Seat 1: fulache ($1.96 in chips)
+Seat 3: olegkorneff ($1.43 in chips)
+Seat 4: docthedoc66 ($2.35 in chips)
+Seat 5: schani11 ($1.05 in chips)
+Seat 6: pokerHero1 ($2.75 in chips)
+Seat 7: Luuucky911 ($1.23 in chips)
+Seat 8: m.sanitra ($1.48 in chips)
+Seat 9: Mediapunto ($1.92 in chips)
+m.sanitra: posts small blind $0.01
+Mediapunto: posts big blind $0.02
+gizmondouk: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d Qh]
+fulache: folds
+olegkorneff: calls $0.02
+docthedoc66: folds
+schani11: folds
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+Mediapunto: checks
+*** FLOP *** [9d 3d 9s]
+Mediapunto: checks
+olegkorneff: checks
+*** TURN *** [9d 3d 9s] [4s]
+Mediapunto: checks
+olegkorneff: bets $0.04
+Mediapunto: folds
+Uncalled bet ($0.04) returned to olegkorneff
+olegkorneff collected $0.05 from pot
+olegkorneff: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [9d 3d 9s 4s]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 3: olegkorneff collected ($0.05)
+Seat 4: docthedoc66 folded before Flop (didn't bet)
+Seat 5: schani11 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 (button) folded before Flop (didn't bet)
+Seat 8: m.sanitra (small blind) folded before Flop
+Seat 9: Mediapunto (big blind) folded on the Turn
+
+
+
+PokerStars Hand #212511627117:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:49:02 ET
+Table 'Horemheb' 9-max Seat #8 is the button
+Seat 1: fulache ($1.96 in chips)
+Seat 3: olegkorneff ($1.46 in chips)
+Seat 4: docthedoc66 ($2.35 in chips)
+Seat 5: schani11 ($1.05 in chips)
+Seat 6: pokerHero1 ($2.75 in chips)
+Seat 7: Luuucky911 ($1.23 in chips)
+Seat 8: m.sanitra ($1.47 in chips)
+Seat 9: Mediapunto ($1.90 in chips)
+Mediapunto: posts small blind $0.01
+fulache: posts big blind $0.02
+gizmondouk: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7s 7h]
+olegkorneff: calls $0.02
+docthedoc66: folds
+schani11: calls $0.02
+pokerHero1: calls $0.02
+Luuucky911: folds
+m.sanitra: folds
+Mediapunto: calls $0.01
+fulache: checks
+*** FLOP *** [Jd 9s 8d]
+Mediapunto: checks
+fulache: checks
+olegkorneff: checks
+schani11: bets $0.10
+pokerHero1: folds
+Mediapunto: folds
+fulache: calls $0.10
+olegkorneff: folds
+*** TURN *** [Jd 9s 8d] [Kh]
+fulache: checks
+schani11: bets $0.29
+fulache: calls $0.29
+*** RIVER *** [Jd 9s 8d Kh] [3s]
+fulache: checks
+schani11: bets $0.64 and is all-in
+fulache: folds
+Uncalled bet ($0.64) returned to schani11
+schani11 collected $0.85 from pot
+schani11: doesn't show hand
+*** SUMMARY ***
+Total pot $0.88 | Rake $0.03
+Board [Jd 9s 8d Kh 3s]
+Seat 1: fulache (big blind) folded on the River
+Seat 3: olegkorneff folded on the Flop
+Seat 4: docthedoc66 folded before Flop (didn't bet)
+Seat 5: schani11 collected ($0.85)
+Seat 6: pokerHero1 folded on the Flop
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: m.sanitra (button) folded before Flop (didn't bet)
+Seat 9: Mediapunto (small blind) folded on the Flop
+
+
+
+PokerStars Hand #212511702730:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:50:25 ET
+Table 'Horemheb' 9-max Seat #9 is the button
+Seat 1: fulache ($1.55 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($1.44 in chips)
+Seat 4: docthedoc66 ($2.35 in chips)
+Seat 5: schani11 ($1.49 in chips)
+Seat 6: pokerHero1 ($2.73 in chips)
+Seat 7: Luuucky911 ($1.23 in chips)
+Seat 8: m.sanitra ($1.47 in chips)
+Seat 9: Mediapunto ($1.88 in chips)
+fulache: posts small blind $0.01
+gizmondouk: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td 3h]
+olegkorneff: folds
+docthedoc66: folds
+schani11: folds
+pokerHero1: folds
+Luuucky911: calls $0.02
+m.sanitra: folds
+Mediapunto: calls $0.02
+fulache: raises $0.08 to $0.10
+gizmondouk: folds
+Luuucky911: calls $0.08
+Mediapunto: folds
+*** FLOP *** [5h Ad 4h]
+fulache: checks
+Luuucky911: checks
+*** TURN *** [5h Ad 4h] [6h]
+fulache: checks
+Luuucky911: checks
+*** RIVER *** [5h Ad 4h 6h] [Kh]
+fulache: checks
+Luuucky911: checks
+*** SHOW DOWN ***
+fulache: shows [Kc Jc] (a pair of Kings)
+Luuucky911: shows [7d 7h] (a flush, King high)
+Luuucky911 collected $0.23 from pot
+*** SUMMARY ***
+Total pot $0.24 | Rake $0.01
+Board [5h Ad 4h 6h Kh]
+Seat 1: fulache (small blind) showed [Kc Jc] and lost with a pair of Kings
+Seat 2: gizmondouk (big blind) folded before Flop
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: docthedoc66 folded before Flop (didn't bet)
+Seat 5: schani11 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 showed [7d 7h] and won ($0.23) with a flush, King high
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto (button) folded before Flop
+
+
+
+PokerStars Hand #212511759634:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:51:22 ET
+Table 'Horemheb' 9-max Seat #1 is the button
+Seat 1: fulache ($1.45 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($1.44 in chips)
+Seat 4: docthedoc66 ($2.35 in chips)
+Seat 5: schani11 ($1.49 in chips)
+Seat 6: pokerHero1 ($2.73 in chips)
+Seat 7: Luuucky911 ($1.36 in chips)
+Seat 8: m.sanitra ($1.47 in chips)
+Seat 9: Mediapunto ($1.86 in chips)
+gizmondouk: posts small blind $0.01
+olegkorneff: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c Ts]
+docthedoc66: folds
+schani11: folds
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+Mediapunto: folds
+fulache: raises $0.04 to $0.06
+gizmondouk: folds
+olegkorneff: folds
+Uncalled bet ($0.04) returned to fulache
+fulache collected $0.05 from pot
+fulache: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: fulache (button) collected ($0.05)
+Seat 2: gizmondouk (small blind) folded before Flop
+Seat 3: olegkorneff (big blind) folded before Flop
+Seat 4: docthedoc66 folded before Flop (didn't bet)
+Seat 5: schani11 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511788183:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:51:54 ET
+Table 'Horemheb' 9-max Seat #2 is the button
+Seat 1: fulache ($1.48 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($1.42 in chips)
+Seat 4: docthedoc66 ($2.35 in chips)
+Seat 5: schani11 ($1.49 in chips)
+Seat 6: pokerHero1 ($2.73 in chips)
+Seat 7: Luuucky911 ($1.36 in chips)
+Seat 8: m.sanitra ($1.47 in chips)
+Seat 9: Mediapunto ($1.86 in chips)
+olegkorneff: posts small blind $0.01
+docthedoc66: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5d Ah]
+schani11: calls $0.02
+pokerHero1: folds
+Luuucky911: raises $0.02 to $0.04
+m.sanitra: folds
+Mediapunto: folds
+fulache: calls $0.04
+gizmondouk: folds
+olegkorneff: folds
+docthedoc66: folds
+schani11: calls $0.02
+*** FLOP *** [Ks 8d 9d]
+schani11: bets $0.14
+Luuucky911: calls $0.14
+fulache: calls $0.14
+*** TURN *** [Ks 8d 9d] [9s]
+schani11: checks
+Luuucky911: checks
+fulache: checks
+*** RIVER *** [Ks 8d 9d 9s] [3d]
+schani11: checks
+Luuucky911: checks
+fulache: bets $0.37
+schani11: calls $0.37
+Luuucky911: folds
+*** SHOW DOWN ***
+fulache: shows [4d 6d] (a flush, Nine high)
+schani11: mucks hand
+fulache collected $1.26 from pot
+*** SUMMARY ***
+Total pot $1.31 | Rake $0.05
+Board [Ks 8d 9d 9s 3d]
+Seat 1: fulache showed [4d 6d] and won ($1.26) with a flush, Nine high
+Seat 2: gizmondouk (button) folded before Flop (didn't bet)
+Seat 3: olegkorneff (small blind) folded before Flop
+Seat 4: docthedoc66 (big blind) folded before Flop
+Seat 5: schani11 mucked [Qc Kd]
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 folded on the River
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511873568:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:53:27 ET
+Table 'Horemheb' 9-max Seat #3 is the button
+Seat 1: fulache ($2.19 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($1.41 in chips)
+Seat 4: docthedoc66 ($2.33 in chips)
+Seat 5: schani11 ($0.94 in chips)
+Seat 6: pokerHero1 ($2.73 in chips)
+Seat 7: Luuucky911 ($1.18 in chips)
+Seat 8: m.sanitra ($1.47 in chips)
+Seat 9: Mediapunto ($1.86 in chips)
+docthedoc66: posts small blind $0.01
+schani11: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c 2c]
+pokerHero1: folds
+Luuucky911: raises $0.08 to $0.10
+m.sanitra: folds
+Mediapunto: folds
+fulache: calls $0.10
+gizmondouk: calls $0.10
+olegkorneff: calls $0.10
+docthedoc66: folds
+schani11: folds
+*** FLOP *** [5s 7d Kh]
+Luuucky911: checks
+fulache: checks
+gizmondouk: checks
+olegkorneff: checks
+*** TURN *** [5s 7d Kh] [7c]
+Luuucky911: checks
+fulache: checks
+gizmondouk: checks
+olegkorneff: bets $0.20
+Luuucky911: folds
+fulache: folds
+gizmondouk: folds
+Uncalled bet ($0.20) returned to olegkorneff
+olegkorneff collected $0.41 from pot
+olegkorneff: doesn't show hand
+*** SUMMARY ***
+Total pot $0.43 | Rake $0.02
+Board [5s 7d Kh 7c]
+Seat 1: fulache folded on the Turn
+Seat 2: gizmondouk folded on the Turn
+Seat 3: olegkorneff (button) collected ($0.41)
+Seat 4: docthedoc66 (small blind) folded before Flop
+Seat 5: schani11 (big blind) folded before Flop
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 folded on the Turn
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511937695:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:54:38 ET
+Table 'Horemheb' 9-max Seat #4 is the button
+Seat 1: fulache ($2.09 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($1.72 in chips)
+Seat 4: docthedoc66 ($2.32 in chips)
+Seat 5: schani11 ($0.92 in chips)
+Seat 6: pokerHero1 ($2.73 in chips)
+Seat 7: Luuucky911 ($1.08 in chips)
+Seat 8: m.sanitra ($1.47 in chips)
+Seat 9: Mediapunto ($1.86 in chips)
+schani11: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c Ac]
+Luuucky911: folds
+m.sanitra: folds
+Mediapunto: folds
+fulache: folds
+gizmondouk: folds
+olegkorneff: folds
+docthedoc66: folds
+schani11: folds
+Uncalled bet ($0.01) returned to pokerHero1
+pokerHero1 collected $0.02 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: docthedoc66 (button) folded before Flop (didn't bet)
+Seat 5: schani11 (small blind) folded before Flop
+Seat 6: pokerHero1 (big blind) collected ($0.02)
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511960439:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:55:03 ET
+Table 'Horemheb' 9-max Seat #5 is the button
+Seat 1: fulache ($2.09 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($1.72 in chips)
+Seat 4: docthedoc66 ($2.32 in chips)
+Seat 5: schani11 ($0.91 in chips)
+Seat 6: pokerHero1 ($2.74 in chips)
+Seat 7: Luuucky911 ($1.08 in chips)
+Seat 8: m.sanitra ($1.47 in chips)
+Seat 9: Mediapunto ($1.86 in chips)
+pokerHero1: posts small blind $0.01
+Luuucky911: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8s Ah]
+m.sanitra: folds
+Mediapunto: folds
+fulache: calls $0.02
+gizmondouk: folds
+olegkorneff: folds
+docthedoc66: raises $0.04 to $0.06
+schani11: calls $0.06
+pokerHero1: folds
+Luuucky911: calls $0.04
+fulache: calls $0.04
+*** FLOP *** [Qd Kh 4s]
+Luuucky911: checks
+fulache: checks
+docthedoc66: bets $0.16
+schani11: calls $0.16
+Luuucky911: folds
+fulache: folds
+*** TURN *** [Qd Kh 4s] [5s]
+docthedoc66: bets $0.28
+schani11: calls $0.28
+*** RIVER *** [Qd Kh 4s 5s] [9c]
+docthedoc66: bets $0.54
+schani11: folds
+Uncalled bet ($0.54) returned to docthedoc66
+docthedoc66 collected $1.09 from pot
+*** SUMMARY ***
+Total pot $1.13 | Rake $0.04
+Board [Qd Kh 4s 5s 9c]
+Seat 1: fulache folded on the Flop
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: docthedoc66 collected ($1.09)
+Seat 5: schani11 (button) folded on the River
+Seat 6: pokerHero1 (small blind) folded before Flop
+Seat 7: Luuucky911 (big blind) folded on the Flop
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512046345:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:57:00 ET
+Table 'Horemheb' 9-max Seat #6 is the button
+Seat 1: fulache ($2.03 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($1.72 in chips)
+Seat 4: docthedoc66 ($2.91 in chips)
+Seat 5: schani11 ($0.41 in chips)
+Seat 6: pokerHero1 ($2.73 in chips)
+Seat 7: Luuucky911 ($1.02 in chips)
+Seat 8: m.sanitra ($1.47 in chips)
+Seat 9: Mediapunto ($1.86 in chips)
+Luuucky911: posts small blind $0.01
+m.sanitra: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2s Qc]
+Mediapunto: raises $0.03 to $0.05
+fulache: folds
+gizmondouk: folds
+olegkorneff: folds
+docthedoc66: folds
+schani11: folds
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+Uncalled bet ($0.03) returned to Mediapunto
+Mediapunto collected $0.05 from pot
+Mediapunto: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: docthedoc66 folded before Flop (didn't bet)
+Seat 5: schani11 folded before Flop (didn't bet)
+Seat 6: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 7: Luuucky911 (small blind) folded before Flop
+Seat 8: m.sanitra (big blind) folded before Flop
+Seat 9: Mediapunto collected ($0.05)
+
+
+
+PokerStars Hand #212512066320:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:57:28 ET
+Table 'Horemheb' 9-max Seat #7 is the button
+Seat 1: fulache ($2.03 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($1.72 in chips)
+Seat 4: docthedoc66 ($2.91 in chips)
+Seat 5: schani11 ($2 in chips)
+Seat 6: pokerHero1 ($2.73 in chips)
+Seat 7: Luuucky911 ($1.01 in chips)
+Seat 8: m.sanitra ($1.45 in chips)
+Seat 9: Mediapunto ($1.89 in chips)
+m.sanitra: posts small blind $0.01
+Mediapunto: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h 8c]
+fulache has timed out
+fulache: folds
+gizmondouk: folds
+olegkorneff: folds
+docthedoc66: raises $0.04 to $0.06
+schani11: calls $0.06
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: calls $0.05
+Mediapunto: folds
+*** FLOP *** [9s Qd 3s]
+m.sanitra: checks
+docthedoc66: checks
+schani11: checks
+*** TURN *** [9s Qd 3s] [5s]
+m.sanitra: checks
+docthedoc66: checks
+schani11: checks
+*** RIVER *** [9s Qd 3s 5s] [6s]
+m.sanitra: bets $0.10
+docthedoc66: folds
+schani11: folds
+Uncalled bet ($0.10) returned to m.sanitra
+m.sanitra collected $0.19 from pot
+m.sanitra: doesn't show hand
+*** SUMMARY ***
+Total pot $0.20 | Rake $0.01
+Board [9s Qd 3s 5s 6s]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: docthedoc66 folded on the River
+Seat 5: schani11 folded on the River
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 (button) folded before Flop (didn't bet)
+Seat 8: m.sanitra (small blind) collected ($0.19)
+Seat 9: Mediapunto (big blind) folded before Flop
+
+
+
+PokerStars Hand #212512125557:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:58:52 ET
+Table 'Horemheb' 9-max Seat #8 is the button
+Seat 1: fulache ($2.03 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($1.72 in chips)
+Seat 4: docthedoc66 ($2.85 in chips)
+Seat 5: schani11 ($1.94 in chips)
+Seat 6: pokerHero1 ($2.73 in chips)
+Seat 7: Luuucky911 ($1.01 in chips)
+Seat 8: m.sanitra ($1.58 in chips)
+Seat 9: Mediapunto ($1.87 in chips)
+Mediapunto: posts small blind $0.01
+fulache: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d Kc]
+gizmondouk: folds
+olegkorneff: folds
+docthedoc66: folds
+schani11: folds
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+Mediapunto: raises $0.03 to $0.05
+fulache: folds
+Uncalled bet ($0.03) returned to Mediapunto
+Mediapunto collected $0.04 from pot
+Mediapunto: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 1: fulache (big blind) folded before Flop
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: docthedoc66 folded before Flop (didn't bet)
+Seat 5: schani11 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: m.sanitra (button) folded before Flop (didn't bet)
+Seat 9: Mediapunto (small blind) collected ($0.04)
+
+
+
+PokerStars Hand #212512145987:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:59:21 ET
+Table 'Horemheb' 9-max Seat #9 is the button
+Seat 1: fulache ($2.01 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($1.72 in chips)
+Seat 4: docthedoc66 ($2.85 in chips)
+Seat 5: schani11 ($1.94 in chips)
+Seat 6: pokerHero1 ($2.73 in chips)
+Seat 7: Luuucky911 ($1.01 in chips)
+Seat 8: m.sanitra ($1.58 in chips)
+Seat 9: Mediapunto ($1.89 in chips)
+fulache: posts small blind $0.01
+gizmondouk: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ts 4d]
+olegkorneff: folds
+docthedoc66: folds
+schani11: folds
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+Mediapunto: raises $0.03 to $0.05
+fulache: folds
+gizmondouk: folds
+Uncalled bet ($0.03) returned to Mediapunto
+Mediapunto collected $0.05 from pot
+Mediapunto: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: fulache (small blind) folded before Flop
+Seat 2: gizmondouk (big blind) folded before Flop
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: docthedoc66 folded before Flop (didn't bet)
+Seat 5: schani11 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto (button) collected ($0.05)
+
+
+
+PokerStars Hand #212512169935:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:59:54 ET
+Table 'Horemheb' 9-max Seat #1 is the button
+Seat 1: fulache ($2 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($1.72 in chips)
+Seat 4: docthedoc66 ($2.85 in chips)
+Seat 5: schani11 ($1.94 in chips)
+Seat 6: pokerHero1 ($2.73 in chips)
+Seat 7: Luuucky911 ($1.01 in chips)
+Seat 8: m.sanitra ($1.58 in chips)
+Seat 9: Mediapunto ($1.92 in chips)
+gizmondouk: posts small blind $0.01
+olegkorneff: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c 4c]
+docthedoc66: folds
+schani11 has timed out
+schani11: folds
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+Mediapunto: raises $0.03 to $0.05
+fulache: folds
+gizmondouk: raises $0.11 to $0.16
+olegkorneff: calls $0.14
+Mediapunto: folds
+*** FLOP *** [Tc Td 2d]
+gizmondouk: bets $0.20
+olegkorneff: calls $0.20
+*** TURN *** [Tc Td 2d] [4d]
+gizmondouk: checks
+olegkorneff: bets $0.04
+gizmondouk: calls $0.04
+*** RIVER *** [Tc Td 2d 4d] [6s]
+gizmondouk: checks
+olegkorneff: bets $0.40
+gizmondouk: folds
+Uncalled bet ($0.40) returned to olegkorneff
+olegkorneff collected $0.82 from pot
+olegkorneff: doesn't show hand
+*** SUMMARY ***
+Total pot $0.85 | Rake $0.03
+Board [Tc Td 2d 4d 6s]
+Seat 1: fulache (button) folded before Flop (didn't bet)
+Seat 2: gizmondouk (small blind) folded on the River
+Seat 3: olegkorneff (big blind) collected ($0.82)
+Seat 4: docthedoc66 folded before Flop (didn't bet)
+Seat 5: schani11 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop
+
+
+
+PokerStars Hand #212512223871:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:01:04 ET
+Table 'Horemheb' 9-max Seat #2 is the button
+Seat 1: fulache ($2 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($2.14 in chips)
+Seat 4: docthedoc66 ($2.85 in chips)
+Seat 5: schani11 ($1.94 in chips)
+Seat 6: pokerHero1 ($2.73 in chips)
+Seat 7: Luuucky911 ($1.01 in chips)
+Seat 8: m.sanitra ($1.58 in chips)
+Seat 9: Mediapunto ($1.87 in chips)
+olegkorneff: posts small blind $0.01
+docthedoc66: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3c 2c]
+schani11: calls $0.02
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+Mediapunto: folds
+fulache: raises $0.08 to $0.10
+gizmondouk: folds
+olegkorneff: folds
+docthedoc66: folds
+schani11: calls $0.08
+*** FLOP *** [3s 8s Qc]
+schani11: checks
+fulache: bets $0.11
+schani11: folds
+Uncalled bet ($0.11) returned to fulache
+fulache collected $0.22 from pot
+fulache: doesn't show hand
+*** SUMMARY ***
+Total pot $0.23 | Rake $0.01
+Board [3s 8s Qc]
+Seat 1: fulache collected ($0.22)
+Seat 2: gizmondouk (button) folded before Flop (didn't bet)
+Seat 3: olegkorneff (small blind) folded before Flop
+Seat 4: docthedoc66 (big blind) folded before Flop
+Seat 5: schani11 folded on the Flop
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512276014:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:01:57 ET
+Table 'Horemheb' 9-max Seat #3 is the button
+Seat 1: fulache ($2.12 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($2.13 in chips)
+Seat 4: docthedoc66 ($2.83 in chips)
+Seat 5: schani11 ($1.84 in chips)
+Seat 6: pokerHero1 ($2.73 in chips)
+Seat 7: Luuucky911 ($1.01 in chips)
+Seat 8: m.sanitra ($1.58 in chips)
+Seat 9: Mediapunto ($1.87 in chips)
+docthedoc66: posts small blind $0.01
+schani11: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qd 2s]
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+Mediapunto: raises $0.03 to $0.05
+fulache: calls $0.05
+gizmondouk: folds
+olegkorneff: folds
+docthedoc66: folds
+schani11: calls $0.03
+*** FLOP *** [Jh Qs Ks]
+schani11: checks
+Mediapunto: checks
+fulache: bets $0.04
+schani11: calls $0.04
+Mediapunto: folds
+*** TURN *** [Jh Qs Ks] [9h]
+schani11: bets $0.23
+fulache: calls $0.23
+*** RIVER *** [Jh Qs Ks 9h] [8s]
+schani11: bets $0.68
+fulache: folds
+Uncalled bet ($0.68) returned to schani11
+schani11 collected $0.68 from pot
+schani11: doesn't show hand
+*** SUMMARY ***
+Total pot $0.70 | Rake $0.02
+Board [Jh Qs Ks 9h 8s]
+Seat 1: fulache folded on the River
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff (button) folded before Flop (didn't bet)
+Seat 4: docthedoc66 (small blind) folded before Flop
+Seat 5: schani11 (big blind) collected ($0.68)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded on the Flop
+
+
+
+PokerStars Hand #212512366409:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:03:36 ET
+Table 'Horemheb' 9-max Seat #4 is the button
+Seat 1: fulache ($1.80 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($2.13 in chips)
+Seat 4: docthedoc66 ($2.82 in chips)
+Seat 5: schani11 ($2.20 in chips)
+Seat 6: pokerHero1 ($2.73 in chips)
+Seat 7: Luuucky911 ($1.01 in chips)
+Seat 8: m.sanitra ($1.58 in chips)
+Seat 9: Mediapunto ($1.82 in chips)
+schani11: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d Qd]
+Luuucky911: raises $0.05 to $0.07
+m.sanitra: folds
+Mediapunto: folds
+fulache: raises $0.09 to $0.16
+gizmondouk: folds
+olegkorneff: folds
+docthedoc66: folds
+schani11: folds
+pokerHero1: folds
+Luuucky911: calls $0.09
+*** FLOP *** [Td 4s 6d]
+Luuucky911: checks
+fulache: checks
+*** TURN *** [Td 4s 6d] [5c]
+Luuucky911: bets $0.85 and is all-in
+fulache: folds
+Uncalled bet ($0.85) returned to Luuucky911
+Luuucky911 collected $0.34 from pot
+Luuucky911: doesn't show hand
+*** SUMMARY ***
+Total pot $0.35 | Rake $0.01
+Board [Td 4s 6d 5c]
+Seat 1: fulache folded on the Turn
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: docthedoc66 (button) folded before Flop (didn't bet)
+Seat 5: schani11 (small blind) folded before Flop
+Seat 6: pokerHero1 (big blind) folded before Flop
+Seat 7: Luuucky911 collected ($0.34)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512423469:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:04:36 ET
+Table 'Horemheb' 9-max Seat #5 is the button
+Seat 1: fulache ($1.64 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($2.13 in chips)
+Seat 4: docthedoc66 ($2.82 in chips)
+Seat 5: schani11 ($2.19 in chips)
+Seat 6: pokerHero1 ($2.71 in chips)
+Seat 7: Luuucky911 ($1.19 in chips)
+Seat 8: m.sanitra ($1.58 in chips)
+Seat 9: Mediapunto ($1.82 in chips)
+pokerHero1: posts small blind $0.01
+Luuucky911: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8c 3s]
+m.sanitra: raises $0.04 to $0.06
+Mediapunto: calls $0.06
+fulache: folds
+gizmondouk: folds
+olegkorneff: calls $0.06
+docthedoc66: folds
+schani11: folds
+pokerHero1: folds
+Luuucky911: folds
+*** FLOP *** [7c Jh Ah]
+m.sanitra: checks
+Mediapunto: checks
+olegkorneff: bets $0.10
+m.sanitra: folds
+Mediapunto: folds
+Uncalled bet ($0.10) returned to olegkorneff
+olegkorneff collected $0.20 from pot
+olegkorneff: doesn't show hand
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [7c Jh Ah]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff collected ($0.20)
+Seat 4: docthedoc66 folded before Flop (didn't bet)
+Seat 5: schani11 (button) folded before Flop (didn't bet)
+Seat 6: pokerHero1 (small blind) folded before Flop
+Seat 7: Luuucky911 (big blind) folded before Flop
+Seat 8: m.sanitra folded on the Flop
+Seat 9: Mediapunto folded on the Flop
+
+
+
+PokerStars Hand #212512486363:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:05:41 ET
+Table 'Horemheb' 9-max Seat #6 is the button
+Seat 1: fulache ($1.64 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($2.27 in chips)
+Seat 4: docthedoc66 ($2.82 in chips)
+Seat 5: schani11 ($2.19 in chips)
+Seat 6: pokerHero1 ($2.70 in chips)
+Seat 7: Luuucky911 ($1.17 in chips)
+Seat 8: m.sanitra ($1.52 in chips)
+Seat 9: Mediapunto ($1.76 in chips)
+Luuucky911: posts small blind $0.01
+m.sanitra: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qd Ac]
+Mediapunto: folds
+fulache: folds
+gizmondouk: folds
+olegkorneff: folds
+docthedoc66 has timed out
+docthedoc66: folds
+schani11: calls $0.02
+pokerHero1: raises $0.08 to $0.10
+Luuucky911: raises $1.07 to $1.17 and is all-in
+m.sanitra: folds
+schani11: folds
+docthedoc66 is disconnected
+pokerHero1: folds
+Uncalled bet ($1.07) returned to Luuucky911
+Luuucky911 collected $0.24 from pot
+Luuucky911: doesn't show hand
+*** SUMMARY ***
+Total pot $0.24 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: docthedoc66 folded before Flop (didn't bet)
+Seat 5: schani11 folded before Flop
+Seat 6: pokerHero1 (button) folded before Flop
+Seat 7: Luuucky911 (small blind) collected ($0.24)
+Seat 8: m.sanitra (big blind) folded before Flop
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512540374:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:06:34 ET
+Table 'Horemheb' 9-max Seat #7 is the button
+Seat 1: fulache ($1.64 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($2.27 in chips)
+Seat 5: schani11 ($2.17 in chips)
+Seat 6: pokerHero1 ($2.60 in chips)
+Seat 7: Luuucky911 ($1.31 in chips)
+Seat 8: m.sanitra ($1.50 in chips)
+Seat 9: Mediapunto ($1.76 in chips)
+m.sanitra: posts small blind $0.01
+Mediapunto: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td Kd]
+fulache: folds
+gizmondouk: folds
+olegkorneff: calls $0.02
+schani11: folds
+pokerHero1: calls $0.02
+Luuucky911: folds
+m.sanitra: folds
+Mediapunto: checks
+*** FLOP *** [Tc 8d Ad]
+Mediapunto: checks
+olegkorneff: checks
+pokerHero1: bets $0.08
+Mediapunto: folds
+olegkorneff: calls $0.08
+*** TURN *** [Tc 8d Ad] [7d]
+olegkorneff: checks
+pokerHero1: bets $0.17
+olegkorneff: calls $0.17
+*** RIVER *** [Tc 8d Ad 7d] [5c]
+olegkorneff: checks
+docthedoc66 is disconnected
+pokerHero1: bets $0.82
+olegkorneff: folds
+Uncalled bet ($0.82) returned to pokerHero1
+pokerHero1 collected $0.55 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.57 | Rake $0.02
+Board [Tc 8d Ad 7d 5c]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff folded on the River
+Seat 5: schani11 folded before Flop (didn't bet)
+Seat 6: pokerHero1 collected ($0.55)
+Seat 7: Luuucky911 (button) folded before Flop (didn't bet)
+Seat 8: m.sanitra (small blind) folded before Flop
+Seat 9: Mediapunto (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212512627509:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:08:02 ET
+Table 'Horemheb' 9-max Seat #8 is the button
+Seat 1: fulache ($1.64 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($2 in chips)
+Seat 5: schani11 ($2.17 in chips)
+Seat 6: pokerHero1 ($2.88 in chips)
+Seat 7: Luuucky911 ($1.31 in chips)
+Seat 8: m.sanitra ($1.49 in chips)
+Seat 9: Mediapunto ($1.74 in chips)
+Mediapunto: posts small blind $0.01
+fulache: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s 6c]
+gizmondouk: folds
+olegkorneff: folds
+schani11: folds
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+Mediapunto: calls $0.01
+fulache: checks
+*** FLOP *** [8d Td Jd]
+Mediapunto: checks
+fulache: bets $0.02
+Mediapunto: folds
+Uncalled bet ($0.02) returned to fulache
+fulache collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [8d Td Jd]
+Seat 1: fulache (big blind) collected ($0.04)
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 5: schani11 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: m.sanitra (button) folded before Flop (didn't bet)
+Seat 9: Mediapunto (small blind) folded on the Flop
+
+
+
+PokerStars Hand #212512682615:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:08:58 ET
+Table 'Horemheb' 9-max Seat #9 is the button
+Seat 1: fulache ($1.66 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($2 in chips)
+Seat 5: schani11 ($2.17 in chips)
+Seat 6: pokerHero1 ($2.88 in chips)
+Seat 7: Luuucky911 ($1.31 in chips)
+Seat 8: m.sanitra ($1.49 in chips)
+Seat 9: Mediapunto ($1.72 in chips)
+fulache: posts small blind $0.01
+gizmondouk: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8d Qs]
+docthedoc66 is disconnected
+olegkorneff: folds
+schani11: calls $0.02
+pokerHero1: folds
+Luuucky911: calls $0.02
+m.sanitra: folds
+Mediapunto: folds
+fulache: calls $0.01
+gizmondouk: checks
+*** FLOP *** [3s Kh 8h]
+fulache: checks
+olegkorneff is disconnected
+gizmondouk: checks
+schani11: checks
+Luuucky911: checks
+*** TURN *** [3s Kh 8h] [Jh]
+fulache: checks
+gizmondouk: checks
+schani11: checks
+Luuucky911: checks
+*** RIVER *** [3s Kh 8h Jh] [Kc]
+fulache: checks
+gizmondouk: checks
+schani11: checks
+Luuucky911: checks
+*** SHOW DOWN ***
+fulache: shows [9c 6h] (a pair of Kings)
+gizmondouk: mucks hand
+schani11: shows [Qd As] (a pair of Kings - Ace kicker)
+Luuucky911: mucks hand
+schani11 collected $0.08 from pot
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Board [3s Kh 8h Jh Kc]
+Seat 1: fulache (small blind) showed [9c 6h] and lost with a pair of Kings
+Seat 2: gizmondouk (big blind) mucked [7h 4d]
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 5: schani11 showed [Qd As] and won ($0.08) with a pair of Kings
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 mucked [Th Qc]
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512763243:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:10:21 ET
+Table 'Horemheb' 9-max Seat #1 is the button
+Seat 1: fulache ($1.64 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($2 in chips)
+Seat 5: schani11 ($2.23 in chips)
+Seat 6: pokerHero1 ($2.88 in chips)
+Seat 7: Luuucky911 ($1.29 in chips)
+Seat 8: m.sanitra ($1.49 in chips)
+Seat 9: Mediapunto ($1.72 in chips)
+gizmondouk: posts small blind $0.01
+olegkorneff: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ks Js]
+schani11: folds
+pokerHero1: raises $0.06 to $0.08
+Luuucky911: folds
+m.sanitra: folds
+schani11 leaves the table
+Mediapunto: folds
+fulache: folds
+gizmondouk: folds
+olegkorneff: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: fulache (button) folded before Flop (didn't bet)
+Seat 2: gizmondouk (small blind) folded before Flop
+Seat 3: olegkorneff (big blind) folded before Flop
+Seat 5: schani11 folded before Flop (didn't bet)
+Seat 6: pokerHero1 collected ($0.05)
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512790239:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:10:49 ET
+Table 'Horemheb' 9-max Seat #2 is the button
+Seat 1: fulache ($1.64 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($1.98 in chips)
+Seat 6: pokerHero1 ($2.91 in chips)
+Seat 7: Luuucky911 ($1.29 in chips)
+Seat 8: m.sanitra ($1.49 in chips)
+Seat 9: Mediapunto ($1.72 in chips)
+olegkorneff: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8s 2h]
+Luuucky911: folds
+tishim joins the table at seat #5
+m.sanitra: folds
+Mediapunto: raises $0.03 to $0.05
+fulache: folds
+gizmondouk: folds
+olegkorneff: folds
+pokerHero1: folds
+Uncalled bet ($0.03) returned to Mediapunto
+Mediapunto collected $0.05 from pot
+Mediapunto: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: gizmondouk (button) folded before Flop (didn't bet)
+Seat 3: olegkorneff (small blind) folded before Flop
+Seat 6: pokerHero1 (big blind) folded before Flop
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto collected ($0.05)
+
+
+
+PokerStars Hand #212512813201:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:11:12 ET
+Table 'Horemheb' 9-max Seat #3 is the button
+Seat 1: fulache ($1.64 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($1.97 in chips)
+Seat 6: pokerHero1 ($2.89 in chips)
+Seat 7: Luuucky911 ($1.29 in chips)
+Seat 8: m.sanitra ($1.49 in chips)
+Seat 9: Mediapunto ($1.75 in chips)
+pokerHero1: posts small blind $0.01
+Luuucky911: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ts Qs]
+m.sanitra: folds
+Mediapunto: folds
+fulache: folds
+gizmondouk: raises $0.04 to $0.06
+olegkorneff: calls $0.06
+pokerHero1: calls $0.05
+Luuucky911: calls $0.04
+*** FLOP *** [8d Jh 2h]
+pokerHero1: checks
+Luuucky911: checks
+gizmondouk: bets $0.14
+olegkorneff: calls $0.14
+pokerHero1: folds
+Luuucky911: folds
+*** TURN *** [8d Jh 2h] [Qh]
+gizmondouk: checks
+olegkorneff: checks
+*** RIVER *** [8d Jh 2h Qh] [Ks]
+gizmondouk: checks
+olegkorneff: bets $0.32
+gizmondouk: calls $0.32
+*** SHOW DOWN ***
+olegkorneff: shows [4h Ah] (a flush, Ace high)
+gizmondouk: mucks hand
+olegkorneff collected $1.12 from pot
+*** SUMMARY ***
+Total pot $1.16 | Rake $0.04
+Board [8d Jh 2h Qh Ks]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: gizmondouk mucked [Js Jd]
+Seat 3: olegkorneff (button) showed [4h Ah] and won ($1.12) with a flush, Ace high
+Seat 6: pokerHero1 (small blind) folded on the Flop
+Seat 7: Luuucky911 (big blind) folded on the Flop
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512886576:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:12:28 ET
+Table 'Horemheb' 9-max Seat #6 is the button
+Seat 1: fulache ($1.64 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($2.57 in chips)
+Seat 6: pokerHero1 ($2.83 in chips)
+Seat 7: Luuucky911 ($1.23 in chips)
+Seat 8: m.sanitra ($1.49 in chips)
+Seat 9: Mediapunto ($1.75 in chips)
+Luuucky911: posts small blind $0.01
+m.sanitra: posts big blind $0.02
+tishim: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8c 7h]
+Mediapunto: raises $0.04 to $0.06
+fulache: calls $0.06
+gizmondouk: folds
+olegkorneff: folds
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+*** FLOP *** [Ad Qc 6s]
+Mediapunto: bets $0.07
+fulache: calls $0.07
+*** TURN *** [Ad Qc 6s] [Td]
+Mediapunto: checks
+fulache: bets $0.08
+Mediapunto: calls $0.08
+*** RIVER *** [Ad Qc 6s Td] [5d]
+Mediapunto: checks
+fulache: bets $0.43
+Mediapunto: folds
+Uncalled bet ($0.43) returned to fulache
+fulache collected $0.43 from pot
+*** SUMMARY ***
+Total pot $0.45 | Rake $0.02
+Board [Ad Qc 6s Td 5d]
+Seat 1: fulache collected ($0.43)
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 6: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 7: Luuucky911 (small blind) folded before Flop
+Seat 8: m.sanitra (big blind) folded before Flop
+Seat 9: Mediapunto folded on the River
+
+
+
+PokerStars Hand #212512968376:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:13:48 ET
+Table 'Horemheb' 9-max Seat #7 is the button
+Seat 1: fulache ($1.86 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($2.57 in chips)
+Seat 6: pokerHero1 ($2.83 in chips)
+Seat 7: Luuucky911 ($1.22 in chips)
+Seat 8: m.sanitra ($1.47 in chips)
+Seat 9: Mediapunto ($1.54 in chips)
+m.sanitra: posts small blind $0.01
+Mediapunto: posts big blind $0.02
+tishim: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qs Ad]
+fulache: folds
+gizmondouk: folds
+olegkorneff: folds
+pokerHero1: raises $0.06 to $0.08
+Luuucky911: folds
+m.sanitra: folds
+Mediapunto: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 6: pokerHero1 collected ($0.05)
+Seat 7: Luuucky911 (button) folded before Flop (didn't bet)
+Seat 8: m.sanitra (small blind) folded before Flop
+Seat 9: Mediapunto (big blind) folded before Flop
+
+
+
+PokerStars Hand #212512992613:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:14:14 ET
+Table 'Horemheb' 9-max Seat #8 is the button
+Seat 1: fulache ($1.86 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 3: olegkorneff ($2.57 in chips)
+Seat 6: pokerHero1 ($2.86 in chips)
+Seat 7: Luuucky911 ($1.22 in chips)
+Seat 8: m.sanitra ($1.46 in chips)
+Seat 9: Mediapunto ($1.52 in chips)
+Mediapunto: posts small blind $0.01
+fulache: posts big blind $0.02
+tishim: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7s 2h]
+gizmondouk: folds
+olegkorneff: folds
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+Mediapunto: calls $0.01
+fulache: checks
+*** FLOP *** [Kd Kh Js]
+Mediapunto: checks
+fulache: checks
+*** TURN *** [Kd Kh Js] [2s]
+Mediapunto: checks
+fulache: checks
+*** RIVER *** [Kd Kh Js 2s] [Qd]
+Mediapunto: checks
+fulache: checks
+*** SHOW DOWN ***
+Mediapunto: shows [8s 9c] (a pair of Kings)
+fulache: mucks hand
+Mediapunto collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [Kd Kh Js 2s Qd]
+Seat 1: fulache (big blind) mucked [3h 6h]
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: m.sanitra (button) folded before Flop (didn't bet)
+Seat 9: Mediapunto (small blind) showed [8s 9c] and won ($0.04) with a pair of Kings
+
+
+
+PokerStars Hand #212513036443:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:15:00 ET
+Table 'Horemheb' 9-max Seat #9 is the button
+Seat 1: fulache ($1.84 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 6: pokerHero1 ($2.86 in chips)
+Seat 7: Luuucky911 ($1.22 in chips)
+Seat 8: m.sanitra ($1.46 in chips)
+Seat 9: Mediapunto ($1.54 in chips)
+fulache: posts small blind $0.01
+gizmondouk: posts big blind $0.02
+tishim: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d 9s]
+olegkorneff is disconnected
+pokerHero1: folds
+Luuucky911: raises $0.04 to $0.06
+m.sanitra: folds
+Mediapunto: folds
+fulache: folds
+gizmondouk: folds
+Uncalled bet ($0.04) returned to Luuucky911
+Luuucky911 collected $0.05 from pot
+Luuucky911: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: fulache (small blind) folded before Flop
+Seat 2: gizmondouk (big blind) folded before Flop
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 collected ($0.05)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513070277:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:15:34 ET
+Table 'Horemheb' 9-max Seat #1 is the button
+Seat 1: fulache ($1.83 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 5: tishim ($1.60 in chips)
+Seat 6: pokerHero1 ($2.86 in chips)
+Seat 7: Luuucky911 ($1.25 in chips)
+Seat 8: m.sanitra ($1.46 in chips)
+Seat 9: Mediapunto ($1.54 in chips)
+gizmondouk: posts small blind $0.01
+tishim: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc Kh]
+pokerHero1: folds
+Luuucky911: folds
+m.sanitra: folds
+Mediapunto: folds
+fulache: folds
+gizmondouk: folds
+Uncalled bet ($0.01) returned to tishim
+tishim collected $0.02 from pot
+tishim: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: fulache (button) folded before Flop (didn't bet)
+Seat 2: gizmondouk (small blind) folded before Flop
+Seat 5: tishim (big blind) collected ($0.02)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Luuucky911 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513090732:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:15:55 ET
+Table 'Horemheb' 9-max Seat #2 is the button
+Seat 1: fulache ($1.83 in chips)
+Seat 2: gizmondouk ($2 in chips)
+Seat 5: tishim ($1.61 in chips)
+Seat 6: pokerHero1 ($2.86 in chips)
+Seat 7: Luuucky911 ($1.25 in chips)
+Seat 8: m.sanitra ($1.46 in chips)
+Seat 9: Mediapunto ($1.54 in chips)
+tishim: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c Th]
+Luuucky911: raises $0.04 to $0.06
+m.sanitra: folds
+Mediapunto: folds
+fulache: folds
+gizmondouk: calls $0.06
+tishim: calls $0.05
+pokerHero1: folds
+*** FLOP *** [3d 2d 6s]
+tishim: checks
+Luuucky911: checks
+gizmondouk: bets $0.12
+tishim: folds
+Luuucky911: folds
+Uncalled bet ($0.12) returned to gizmondouk
+gizmondouk collected $0.19 from pot
+gizmondouk: doesn't show hand
+*** SUMMARY ***
+Total pot $0.20 | Rake $0.01
+Board [3d 2d 6s]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: gizmondouk (button) collected ($0.19)
+Seat 5: tishim (small blind) folded on the Flop
+Seat 6: pokerHero1 (big blind) folded before Flop
+Seat 7: Luuucky911 folded on the Flop
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513144496:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:16:51 ET
+Table 'Horemheb' 9-max Seat #5 is the button
+Seat 1: fulache ($1.83 in chips)
+Seat 2: gizmondouk ($2.13 in chips)
+Seat 5: tishim ($1.55 in chips)
+Seat 6: pokerHero1 ($2.84 in chips)
+Seat 8: m.sanitra ($1.46 in chips)
+Seat 9: Mediapunto ($1.54 in chips)
+Luuucky911 leaves the table
+pokerHero1: posts small blind $0.01
+m.sanitra: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd 2c]
+Mediapunto: folds
+fulache: folds
+gizmondouk: folds
+Mamont_Tor joins the table at seat #7
+tishim: folds
+pokerHero1: folds
+Uncalled bet ($0.01) returned to m.sanitra
+m.sanitra collected $0.02 from pot
+m.sanitra: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 5: tishim (button) folded before Flop (didn't bet)
+Seat 6: pokerHero1 (small blind) folded before Flop
+Seat 8: m.sanitra (big blind) collected ($0.02)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513164573:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:17:11 ET
+Table 'Horemheb' 9-max Seat #6 is the button
+Seat 1: fulache ($1.83 in chips)
+Seat 2: gizmondouk ($2.13 in chips)
+Seat 5: tishim ($1.55 in chips)
+Seat 6: pokerHero1 ($2.83 in chips)
+Seat 8: m.sanitra ($1.47 in chips)
+Seat 9: Mediapunto ($1.54 in chips)
+m.sanitra: posts small blind $0.01
+Mediapunto: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h Js]
+fulache: folds
+gizmondouk: raises $0.04 to $0.06
+tishim: folds
+pokerHero1: folds
+m.sanitra: folds
+Mediapunto: folds
+Uncalled bet ($0.04) returned to gizmondouk
+gizmondouk collected $0.05 from pot
+gizmondouk: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: gizmondouk collected ($0.05)
+Seat 5: tishim folded before Flop (didn't bet)
+Seat 6: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 8: m.sanitra (small blind) folded before Flop
+Seat 9: Mediapunto (big blind) folded before Flop
+
+
+
+PokerStars Hand #212513183090:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:17:30 ET
+Table 'Horemheb' 9-max Seat #8 is the button
+Seat 1: fulache ($1.83 in chips)
+Seat 2: gizmondouk ($2.16 in chips)
+Seat 5: tishim ($1.55 in chips)
+Seat 6: pokerHero1 ($2.83 in chips)
+Seat 7: Mamont_Tor ($2 in chips)
+Seat 8: m.sanitra ($1.46 in chips)
+Seat 9: Mediapunto ($1.52 in chips)
+Mediapunto: posts small blind $0.01
+fulache: posts big blind $0.02
+olegkorneff: sits out
+Mamont_Tor: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc 6c]
+gizmondouk: folds
+tishim: folds
+pokerHero1: folds
+Mamont_Tor: checks
+m.sanitra: folds
+tishim leaves the table
+Mediapunto: raises $0.12 to $0.14
+fulache: folds
+docthedoc66 was removed from the table for failing to post
+docthedoc66 leaves the table
+Mamont_Tor: folds
+Uncalled bet ($0.12) returned to Mediapunto
+Mediapunto collected $0.06 from pot
+Mediapunto: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Seat 1: fulache (big blind) folded before Flop
+Seat 2: gizmondouk folded before Flop (didn't bet)
+Seat 5: tishim folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra (button) folded before Flop (didn't bet)
+Seat 9: Mediapunto (small blind) collected ($0.06)
+
+
+
+PokerStars Hand #212513207097:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:17:55 ET
+Table 'Horemheb' 9-max Seat #9 is the button
+Seat 1: fulache ($1.81 in chips)
+Seat 3: olegkorneff ($2.57 in chips)
+Seat 6: pokerHero1 ($2.83 in chips)
+Seat 7: Mamont_Tor ($1.98 in chips)
+Seat 8: m.sanitra ($1.46 in chips)
+Seat 9: Mediapunto ($1.56 in chips)
+gizmondouk is disconnected
+fulache: posts small blind $0.01
+olegkorneff: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3s 7d]
+pokerHero1: folds
+Mamont_Tor: folds
+m.sanitra: folds
+Mediapunto: raises $0.03 to $0.05
+fulache: folds
+JootaJ joins the table at seat #4
+olegkorneff: folds
+Uncalled bet ($0.03) returned to Mediapunto
+Mediapunto collected $0.05 from pot
+Mediapunto: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: fulache (small blind) folded before Flop
+Seat 3: olegkorneff (big blind) folded before Flop
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto (button) collected ($0.05)
+
+
+
+PokerStars Hand #212513236086:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:18:18 ET
+Table 'Horemheb' 9-max Seat #1 is the button
+Seat 1: fulache ($1.80 in chips)
+Seat 3: olegkorneff ($2.55 in chips)
+Seat 4: JootaJ ($1.60 in chips)
+Seat 6: pokerHero1 ($2.83 in chips)
+Seat 7: Mamont_Tor ($1.98 in chips)
+Seat 8: m.sanitra ($1.46 in chips)
+Seat 9: Mediapunto ($1.59 in chips)
+olegkorneff: posts small blind $0.01
+JootaJ: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd 5d]
+pokerHero1: folds
+Mamont_Tor: folds
+m.sanitra: folds
+Mediapunto: folds
+fulache: folds
+olegkorneff: calls $0.01
+JootaJ: raises $0.06 to $0.08
+olegkorneff: folds
+Uncalled bet ($0.06) returned to JootaJ
+JootaJ collected $0.04 from pot
+JootaJ: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 1: fulache (button) folded before Flop (didn't bet)
+Seat 3: olegkorneff (small blind) folded before Flop
+Seat 4: JootaJ (big blind) collected ($0.04)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513262455:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:18:45 ET
+Table 'Horemheb' 9-max Seat #3 is the button
+Seat 1: fulache ($1.80 in chips)
+Seat 3: olegkorneff ($2.53 in chips)
+Seat 4: JootaJ ($1.62 in chips)
+Seat 6: pokerHero1 ($2.83 in chips)
+Seat 7: Mamont_Tor ($1.98 in chips)
+Seat 8: m.sanitra ($1.46 in chips)
+Seat 9: Mediapunto ($1.59 in chips)
+JootaJ: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd 5c]
+Mamont_Tor: folds
+m.sanitra: folds
+Mediapunto: raises $0.03 to $0.05
+fulache: calls $0.05
+Nejcek89 joins the table at seat #5
+olegkorneff: calls $0.05
+JootaJ: folds
+pokerHero1: folds
+*** FLOP *** [2d 5d Js]
+Mediapunto: checks
+fulache: checks
+olegkorneff: checks
+*** TURN *** [2d 5d Js] [Ts]
+Mediapunto: checks
+fulache: checks
+olegkorneff: bets $0.08
+Mediapunto: folds
+fulache: folds
+Uncalled bet ($0.08) returned to olegkorneff
+olegkorneff collected $0.17 from pot
+olegkorneff: doesn't show hand
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [2d 5d Js Ts]
+Seat 1: fulache folded on the Turn
+Seat 3: olegkorneff (button) collected ($0.17)
+Seat 4: JootaJ (small blind) folded before Flop
+Seat 6: pokerHero1 (big blind) folded before Flop
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded on the Turn
+
+
+
+PokerStars Hand #212513325356:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:19:49 ET
+Table 'Horemheb' 9-max Seat #4 is the button
+Seat 1: fulache ($1.75 in chips)
+Seat 3: olegkorneff ($2.65 in chips)
+Seat 4: JootaJ ($1.61 in chips)
+Seat 6: pokerHero1 ($2.81 in chips)
+Seat 7: Mamont_Tor ($1.98 in chips)
+Seat 8: m.sanitra ($1.46 in chips)
+Seat 9: Mediapunto ($1.54 in chips)
+pokerHero1: posts small blind $0.01
+Mamont_Tor: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh Kc]
+m.sanitra: folds
+Mediapunto: folds
+fulache: folds
+olegkorneff: folds
+JootaJ: raises $0.04 to $0.06
+pokerHero1: folds
+Mamont_Tor: folds
+Uncalled bet ($0.04) returned to JootaJ
+JootaJ collected $0.05 from pot
+JootaJ: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: JootaJ (button) collected ($0.05)
+Seat 6: pokerHero1 (small blind) folded before Flop
+Seat 7: Mamont_Tor (big blind) folded before Flop
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513350499:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:20:15 ET
+Table 'Horemheb' 9-max Seat #6 is the button
+Seat 1: fulache ($1.75 in chips)
+Seat 3: olegkorneff ($2.65 in chips)
+Seat 4: JootaJ ($1.64 in chips)
+Seat 5: Nejcek89 ($2 in chips)
+Seat 6: pokerHero1 ($2.80 in chips)
+Seat 7: Mamont_Tor ($1.96 in chips)
+Seat 8: m.sanitra ($1.46 in chips)
+Seat 9: Mediapunto ($1.54 in chips)
+Mamont_Tor: posts small blind $0.01
+m.sanitra: posts big blind $0.02
+Nejcek89: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h 9c]
+Mediapunto: raises $0.06 to $0.08
+fulache: folds
+olegkorneff: folds
+JootaJ: folds
+Nejcek89: folds
+pokerHero1: folds
+Mamont_Tor: folds
+m.sanitra: folds
+Uncalled bet ($0.06) returned to Mediapunto
+Mediapunto collected $0.07 from pot
+Mediapunto: doesn't show hand
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: JootaJ folded before Flop (didn't bet)
+Seat 5: Nejcek89 folded before Flop (didn't bet)
+Seat 6: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 7: Mamont_Tor (small blind) folded before Flop
+Seat 8: m.sanitra (big blind) folded before Flop
+Seat 9: Mediapunto collected ($0.07)
+
+
+
+PokerStars Hand #212513371886:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:20:37 ET
+Table 'Horemheb' 9-max Seat #7 is the button
+Seat 1: fulache ($1.75 in chips)
+Seat 3: olegkorneff ($2.65 in chips)
+Seat 5: Nejcek89 ($1.98 in chips)
+Seat 6: pokerHero1 ($2.80 in chips)
+Seat 7: Mamont_Tor ($1.95 in chips)
+Seat 8: m.sanitra ($1.44 in chips)
+Seat 9: Mediapunto ($1.59 in chips)
+m.sanitra: posts small blind $0.01
+Mediapunto: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c Ks]
+fulache: folds
+olegkorneff: folds
+Nejcek89: calls $0.02
+pokerHero1: folds
+Mamont_Tor has timed out
+Mamont_Tor: folds
+m.sanitra: folds
+Mediapunto: checks
+*** FLOP *** [3d 8s 4c]
+Mediapunto: checks
+Nejcek89: bets $0.05
+Mediapunto: calls $0.05
+*** TURN *** [3d 8s 4c] [6h]
+Mediapunto: checks
+Nejcek89: checks
+*** RIVER *** [3d 8s 4c 6h] [2c]
+Mediapunto: checks
+Nejcek89: checks
+*** SHOW DOWN ***
+Mediapunto: shows [Ts 8c] (a pair of Eights)
+Nejcek89: mucks hand
+Mediapunto collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [3d 8s 4c 6h 2c]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 5: Nejcek89 mucked [7s 6s]
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor (button) folded before Flop (didn't bet)
+Seat 8: m.sanitra (small blind) folded before Flop
+Seat 9: Mediapunto (big blind) showed [Ts 8c] and won ($0.14) with a pair of Eights
+
+
+
+PokerStars Hand #212513447135:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:21:53 ET
+Table 'Horemheb' 9-max Seat #8 is the button
+Seat 1: fulache ($1.75 in chips)
+Seat 3: olegkorneff ($2.65 in chips)
+Seat 5: Nejcek89 ($1.91 in chips)
+Seat 6: pokerHero1 ($2.80 in chips)
+Seat 7: Mamont_Tor ($1.95 in chips)
+Seat 8: m.sanitra ($1.43 in chips)
+Seat 9: Mediapunto ($1.66 in chips)
+Mediapunto: posts small blind $0.01
+fulache: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7s Kh]
+olegkorneff: folds
+Nejcek89: folds
+pokerHero1: folds
+Mamont_Tor: raises $0.04 to $0.06
+m.sanitra: folds
+Mediapunto: folds
+fulache: folds
+Uncalled bet ($0.04) returned to Mamont_Tor
+Mamont_Tor collected $0.05 from pot
+Mamont_Tor: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: fulache (big blind) folded before Flop
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 5: Nejcek89 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor collected ($0.05)
+Seat 8: m.sanitra (button) folded before Flop (didn't bet)
+Seat 9: Mediapunto (small blind) folded before Flop
+
+
+
+PokerStars Hand #212513463315:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:22:10 ET
+Table 'Horemheb' 9-max Seat #9 is the button
+Seat 1: fulache ($1.73 in chips)
+Seat 3: olegkorneff ($2.65 in chips)
+Seat 5: Nejcek89 ($1.91 in chips)
+Seat 6: pokerHero1 ($2.80 in chips)
+Seat 7: Mamont_Tor ($1.98 in chips)
+Seat 8: m.sanitra ($1.43 in chips)
+Seat 9: Mediapunto ($1.65 in chips)
+fulache: posts small blind $0.01
+olegkorneff: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad 5c]
+Nejcek89: folds
+pokerHero1: folds
+Mamont_Tor: folds
+m.sanitra: folds
+Mediapunto: raises $0.03 to $0.05
+fulache: calls $0.04
+olegkorneff: folds
+*** FLOP *** [8c 6s 2d]
+fulache: checks
+Mediapunto: checks
+*** TURN *** [8c 6s 2d] [Qs]
+fulache: checks
+Mediapunto: checks
+*** RIVER *** [8c 6s 2d Qs] [5h]
+fulache: checks
+Mediapunto: checks
+*** SHOW DOWN ***
+fulache: shows [4c 2c] (a pair of Deuces)
+Mediapunto: shows [6c 7d] (a pair of Sixes)
+Mediapunto collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Board [8c 6s 2d Qs 5h]
+Seat 1: fulache (small blind) showed [4c 2c] and lost with a pair of Deuces
+Seat 3: olegkorneff (big blind) folded before Flop
+Seat 5: Nejcek89 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto (button) showed [6c 7d] and won ($0.12) with a pair of Sixes
+
+
+
+PokerStars Hand #212513533082:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:23:22 ET
+Table 'Horemheb' 9-max Seat #1 is the button
+Seat 1: fulache ($1.68 in chips)
+Seat 3: olegkorneff ($2.63 in chips)
+Seat 5: Nejcek89 ($1.91 in chips)
+Seat 6: pokerHero1 ($2.80 in chips)
+Seat 7: Mamont_Tor ($1.98 in chips)
+Seat 8: m.sanitra ($1.43 in chips)
+Seat 9: Mediapunto ($1.72 in chips)
+olegkorneff: posts small blind $0.01
+Nejcek89: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h 2h]
+pokerHero1: folds
+Mamont_Tor: folds
+m.sanitra: raises $0.04 to $0.06
+Mediapunto: calls $0.06
+fulache: raises $0.10 to $0.16
+olegkorneff: folds
+Nejcek89: folds
+m.sanitra: folds
+Mediapunto: folds
+Uncalled bet ($0.10) returned to fulache
+fulache collected $0.21 from pot
+*** SUMMARY ***
+Total pot $0.21 | Rake $0
+Seat 1: fulache (button) collected ($0.21)
+Seat 3: olegkorneff (small blind) folded before Flop
+Seat 5: Nejcek89 (big blind) folded before Flop
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop
+Seat 9: Mediapunto folded before Flop
+
+
+
+PokerStars Hand #212513574323:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:24:05 ET
+Table 'Horemheb' 9-max Seat #3 is the button
+Seat 1: fulache ($1.83 in chips)
+Seat 3: olegkorneff ($2.62 in chips)
+Seat 5: Nejcek89 ($1.89 in chips)
+Seat 6: pokerHero1 ($2.80 in chips)
+Seat 7: Mamont_Tor ($1.98 in chips)
+Seat 8: m.sanitra ($1.37 in chips)
+Seat 9: Mediapunto ($1.66 in chips)
+Nejcek89: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7h Kd]
+Mamont_Tor: folds
+m.sanitra: folds
+Mediapunto has timed out
+Mediapunto: folds
+fulache: raises $0.02 to $0.04
+olegkorneff: folds
+Nejcek89: folds
+pokerHero1: folds
+Uncalled bet ($0.02) returned to fulache
+fulache collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: fulache collected ($0.05)
+Seat 3: olegkorneff (button) folded before Flop (didn't bet)
+Seat 5: Nejcek89 (small blind) folded before Flop
+Seat 6: pokerHero1 (big blind) folded before Flop
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513617407:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:24:45 ET
+Table 'Horemheb' 9-max Seat #5 is the button
+Seat 1: fulache ($1.86 in chips)
+Seat 3: olegkorneff ($2.62 in chips)
+Seat 5: Nejcek89 ($1.88 in chips)
+Seat 6: pokerHero1 ($2.78 in chips)
+Seat 7: Mamont_Tor ($1.98 in chips)
+Seat 8: m.sanitra ($1.37 in chips)
+Seat 9: Mediapunto ($1.66 in chips)
+pokerHero1: posts small blind $0.01
+Mamont_Tor: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5h 8h]
+m.sanitra: folds
+Mediapunto: raises $0.03 to $0.05
+fulache: folds
+olegkorneff: folds
+Nejcek89: folds
+pokerHero1: folds
+Mamont_Tor: folds
+Uncalled bet ($0.03) returned to Mediapunto
+Mediapunto collected $0.05 from pot
+Mediapunto: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 5: Nejcek89 (button) folded before Flop (didn't bet)
+Seat 6: pokerHero1 (small blind) folded before Flop
+Seat 7: Mamont_Tor (big blind) folded before Flop
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto collected ($0.05)
+
+
+
+PokerStars Hand #212513635514:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:25:04 ET
+Table 'Horemheb' 9-max Seat #6 is the button
+Seat 1: fulache ($1.86 in chips)
+Seat 3: olegkorneff ($2.62 in chips)
+Seat 5: Nejcek89 ($1.88 in chips)
+Seat 6: pokerHero1 ($2.77 in chips)
+Seat 7: Mamont_Tor ($1.96 in chips)
+Seat 8: m.sanitra ($1.37 in chips)
+Seat 9: Mediapunto ($1.69 in chips)
+Mamont_Tor: posts small blind $0.01
+m.sanitra: posts big blind $0.02
+JootaJ: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As 8d]
+Mediapunto: folds
+fulache: calls $0.02
+olegkorneff: folds
+Nejcek89: folds
+pokerHero1: raises $0.06 to $0.08
+Mamont_Tor: folds
+m.sanitra: folds
+fulache: calls $0.06
+*** FLOP *** [6h 2h 7d]
+fulache: checks
+pokerHero1: bets $0.14
+fulache: folds
+Uncalled bet ($0.14) returned to pokerHero1
+pokerHero1 collected $0.18 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [6h 2h 7d]
+Seat 1: fulache folded on the Flop
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 5: Nejcek89 folded before Flop (didn't bet)
+Seat 6: pokerHero1 (button) collected ($0.18)
+Seat 7: Mamont_Tor (small blind) folded before Flop
+Seat 8: m.sanitra (big blind) folded before Flop
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513669415:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:25:39 ET
+Table 'Horemheb' 9-max Seat #7 is the button
+Seat 1: fulache ($1.78 in chips)
+Seat 3: olegkorneff ($2.62 in chips)
+Seat 4: JootaJ ($1.64 in chips)
+Seat 5: Nejcek89 ($1.88 in chips)
+Seat 6: pokerHero1 ($2.87 in chips)
+Seat 7: Mamont_Tor ($1.95 in chips)
+Seat 8: m.sanitra ($1.35 in chips)
+Seat 9: Mediapunto ($1.69 in chips)
+m.sanitra: posts small blind $0.01
+Mediapunto: posts big blind $0.02
+JootaJ: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac 5c]
+fulache: raises $1.76 to $1.78 and is all-in
+olegkorneff: folds
+JootaJ: folds
+Nejcek89: folds
+pokerHero1: folds
+Mamont_Tor: folds
+m.sanitra: folds
+Mediapunto: folds
+Uncalled bet ($1.76) returned to fulache
+fulache collected $0.08 from pot
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Seat 1: fulache collected ($0.08)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: JootaJ folded before Flop (didn't bet)
+Seat 5: Nejcek89 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor (button) folded before Flop (didn't bet)
+Seat 8: m.sanitra (small blind) folded before Flop
+Seat 9: Mediapunto (big blind) folded before Flop
+
+
+
+PokerStars Hand #212513691018:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:26:02 ET
+Table 'Horemheb' 9-max Seat #8 is the button
+Seat 1: fulache ($1.84 in chips)
+Seat 3: olegkorneff ($2.62 in chips)
+Seat 4: JootaJ ($1.61 in chips)
+Seat 5: Nejcek89 ($1.88 in chips)
+Seat 6: pokerHero1 ($2.87 in chips)
+Seat 7: Mamont_Tor ($1.95 in chips)
+Seat 8: m.sanitra ($1.34 in chips)
+Seat 9: Mediapunto ($1.67 in chips)
+Mediapunto: posts small blind $0.01
+fulache: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3s Qd]
+olegkorneff: folds
+JootaJ: calls $0.02
+Nejcek89: folds
+pokerHero1: folds
+Mamont_Tor: folds
+m.sanitra: folds
+Mediapunto: folds
+fulache: checks
+*** FLOP *** [3h 3c 9h]
+fulache: checks
+JootaJ: bets $0.06
+fulache: raises $0.06 to $0.12
+JootaJ: folds
+Uncalled bet ($0.06) returned to fulache
+fulache collected $0.16 from pot
+fulache: doesn't show hand
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [3h 3c 9h]
+Seat 1: fulache (big blind) collected ($0.16)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: JootaJ folded on the Flop
+Seat 5: Nejcek89 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra (button) folded before Flop (didn't bet)
+Seat 9: Mediapunto (small blind) folded before Flop
+
+
+
+PokerStars Hand #212513744445:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:26:57 ET
+Table 'Horemheb' 9-max Seat #9 is the button
+Seat 1: fulache ($1.92 in chips)
+Seat 3: olegkorneff ($2.62 in chips)
+Seat 4: JootaJ ($1.53 in chips)
+Seat 5: Nejcek89 ($1.88 in chips)
+Seat 6: pokerHero1 ($2.87 in chips)
+Seat 7: Mamont_Tor ($1.95 in chips)
+Seat 8: m.sanitra ($1.34 in chips)
+Seat 9: Mediapunto ($1.66 in chips)
+fulache: posts small blind $0.01
+olegkorneff: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d Js]
+JootaJ: calls $0.02
+Nejcek89: folds
+pokerHero1: folds
+Mamont_Tor: folds
+m.sanitra: folds
+Mediapunto: folds
+fulache: raises $0.12 to $0.14
+olegkorneff: folds
+JootaJ: folds
+Uncalled bet ($0.12) returned to fulache
+fulache collected $0.06 from pot
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Seat 1: fulache (small blind) collected ($0.06)
+Seat 3: olegkorneff (big blind) folded before Flop
+Seat 4: JootaJ folded before Flop
+Seat 5: Nejcek89 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513775676:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:27:29 ET
+Table 'Horemheb' 9-max Seat #1 is the button
+Seat 1: fulache ($1.96 in chips)
+Seat 3: olegkorneff ($2.60 in chips)
+Seat 4: JootaJ ($1.51 in chips)
+Seat 5: Nejcek89 ($1.88 in chips)
+Seat 6: pokerHero1 ($2.87 in chips)
+Seat 7: Mamont_Tor ($1.95 in chips)
+Seat 8: m.sanitra ($1.34 in chips)
+Seat 9: Mediapunto ($1.66 in chips)
+olegkorneff: posts small blind $0.01
+JootaJ: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As 8h]
+Nejcek89: folds
+pokerHero1: folds
+Mamont_Tor: folds
+m.sanitra: folds
+Mediapunto: folds
+fulache: folds
+olegkorneff: calls $0.01
+JootaJ: checks
+*** FLOP *** [4s 3d Td]
+olegkorneff: checks
+JootaJ: checks
+*** TURN *** [4s 3d Td] [Jd]
+olegkorneff: checks
+JootaJ: checks
+*** RIVER *** [4s 3d Td Jd] [3s]
+olegkorneff: bets $0.04
+JootaJ: calls $0.04
+*** SHOW DOWN ***
+olegkorneff: shows [Js Kh] (two pair, Jacks and Threes)
+JootaJ: mucks hand
+olegkorneff collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Board [4s 3d Td Jd 3s]
+Seat 1: fulache (button) folded before Flop (didn't bet)
+Seat 3: olegkorneff (small blind) showed [Js Kh] and won ($0.12) with two pair, Jacks and Threes
+Seat 4: JootaJ (big blind) mucked [Qh 6s]
+Seat 5: Nejcek89 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513816889:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:28:11 ET
+Table 'Horemheb' 9-max Seat #3 is the button
+Seat 1: fulache ($1.96 in chips)
+Seat 3: olegkorneff ($2.66 in chips)
+Seat 4: JootaJ ($1.45 in chips)
+Seat 5: Nejcek89 ($1.88 in chips)
+Seat 6: pokerHero1 ($2.87 in chips)
+Seat 7: Mamont_Tor ($1.95 in chips)
+Seat 8: m.sanitra ($1.34 in chips)
+Seat 9: Mediapunto ($1.66 in chips)
+JootaJ: posts small blind $0.01
+Nejcek89: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th 5h]
+pokerHero1: folds
+Mamont_Tor: folds
+gizmondouk is disconnected
+m.sanitra: raises $0.04 to $0.06
+Mediapunto: folds
+fulache: folds
+olegkorneff: folds
+JootaJ: calls $0.05
+Nejcek89: folds
+*** FLOP *** [6d 3c Js]
+JootaJ: checks
+m.sanitra: bets $0.08
+JootaJ: folds
+Uncalled bet ($0.08) returned to m.sanitra
+m.sanitra collected $0.14 from pot
+m.sanitra: doesn't show hand
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [6d 3c Js]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 3: olegkorneff (button) folded before Flop (didn't bet)
+Seat 4: JootaJ (small blind) folded on the Flop
+Seat 5: Nejcek89 (big blind) folded before Flop
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra collected ($0.14)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513853342:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:28:49 ET
+Table 'Horemheb' 9-max Seat #4 is the button
+Seat 1: fulache ($1.96 in chips)
+Seat 3: olegkorneff ($2.66 in chips)
+Seat 4: JootaJ ($1.39 in chips)
+Seat 5: Nejcek89 ($1.86 in chips)
+Seat 6: pokerHero1 ($2.87 in chips)
+Seat 7: Mamont_Tor ($1.95 in chips)
+Seat 8: m.sanitra ($1.42 in chips)
+Seat 9: Mediapunto ($1.66 in chips)
+Nejcek89: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7s 5s]
+Mamont_Tor: folds
+m.sanitra: folds
+Mediapunto: folds
+fulache: folds
+olegkorneff: calls $0.02
+JootaJ: calls $0.02
+Nejcek89: folds
+pokerHero1: checks
+*** FLOP *** [Kc 2s 6d]
+pokerHero1: checks
+olegkorneff: bets $0.04
+JootaJ: folds
+pokerHero1: folds
+Uncalled bet ($0.04) returned to olegkorneff
+olegkorneff collected $0.07 from pot
+olegkorneff: doesn't show hand
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Board [Kc 2s 6d]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 3: olegkorneff collected ($0.07)
+Seat 4: JootaJ (button) folded on the Flop
+Seat 5: Nejcek89 (small blind) folded before Flop
+Seat 6: pokerHero1 (big blind) folded on the Flop
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513892021:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:29:30 ET
+Table 'Horemheb' 9-max Seat #5 is the button
+Seat 1: fulache ($1.96 in chips)
+Seat 3: olegkorneff ($2.71 in chips)
+Seat 4: JootaJ ($1.37 in chips)
+Seat 5: Nejcek89 ($1.85 in chips)
+Seat 6: pokerHero1 ($2.85 in chips)
+Seat 7: Mamont_Tor ($1.95 in chips)
+Seat 8: m.sanitra ($1.42 in chips)
+Seat 9: Mediapunto ($1.66 in chips)
+pokerHero1: posts small blind $0.01
+Mamont_Tor: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6h Ts]
+m.sanitra: folds
+Mediapunto: raises $0.03 to $0.05
+fulache: folds
+olegkorneff: folds
+JootaJ: folds
+Nejcek89: folds
+pokerHero1: folds
+Mamont_Tor: folds
+Uncalled bet ($0.03) returned to Mediapunto
+Mediapunto collected $0.05 from pot
+Mediapunto: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: JootaJ folded before Flop (didn't bet)
+Seat 5: Nejcek89 (button) folded before Flop (didn't bet)
+Seat 6: pokerHero1 (small blind) folded before Flop
+Seat 7: Mamont_Tor (big blind) folded before Flop
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto collected ($0.05)
+
+
+
+PokerStars Hand #212513920966:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:29:59 ET
+Table 'Horemheb' 9-max Seat #6 is the button
+Seat 1: fulache ($1.96 in chips)
+Seat 3: olegkorneff ($2.71 in chips)
+Seat 4: JootaJ ($1.37 in chips)
+Seat 5: Nejcek89 ($1.85 in chips)
+Seat 6: pokerHero1 ($2.84 in chips)
+Seat 7: Mamont_Tor ($1.93 in chips)
+Seat 8: m.sanitra ($1.42 in chips)
+Seat 9: Mediapunto ($1.69 in chips)
+Mamont_Tor: posts small blind $0.01
+m.sanitra: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js Ks]
+Mediapunto: folds
+fulache: raises $0.02 to $0.04
+olegkorneff: folds
+JootaJ: folds
+Nejcek89: folds
+pokerHero1: folds
+Mamont_Tor: folds
+m.sanitra: calls $0.02
+*** FLOP *** [Kd 2h 2s]
+m.sanitra: bets $0.09
+fulache: calls $0.09
+*** TURN *** [Kd 2h 2s] [9s]
+m.sanitra: bets $0.26
+fulache: folds
+Uncalled bet ($0.26) returned to m.sanitra
+m.sanitra collected $0.26 from pot
+m.sanitra: doesn't show hand
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01
+Board [Kd 2h 2s 9s]
+Seat 1: fulache folded on the Turn
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: JootaJ folded before Flop (didn't bet)
+Seat 5: Nejcek89 folded before Flop (didn't bet)
+Seat 6: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 7: Mamont_Tor (small blind) folded before Flop
+Seat 8: m.sanitra (big blind) collected ($0.26)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513982725:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:31:02 ET
+Table 'Horemheb' 9-max Seat #7 is the button
+Seat 1: fulache ($1.83 in chips)
+Seat 3: olegkorneff ($2.71 in chips)
+Seat 4: JootaJ ($1.37 in chips)
+Seat 5: Nejcek89 ($1.85 in chips)
+Seat 6: pokerHero1 ($2.84 in chips)
+Seat 7: Mamont_Tor ($1.92 in chips)
+Seat 8: m.sanitra ($1.55 in chips)
+Seat 9: Mediapunto ($1.69 in chips)
+m.sanitra: posts small blind $0.01
+Mediapunto: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5c Ad]
+fulache: calls $0.02
+olegkorneff: folds
+JootaJ: folds
+Nejcek89: folds
+pokerHero1: folds
+Mamont_Tor: raises $0.06 to $0.08
+m.sanitra: folds
+Mediapunto: folds
+fulache: calls $0.06
+*** FLOP *** [9d Kc Qd]
+fulache: checks
+Mamont_Tor: bets $0.10
+fulache: folds
+Uncalled bet ($0.10) returned to Mamont_Tor
+Mamont_Tor collected $0.18 from pot
+Mamont_Tor: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [9d Kc Qd]
+Seat 1: fulache folded on the Flop
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: JootaJ folded before Flop (didn't bet)
+Seat 5: Nejcek89 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor (button) collected ($0.18)
+Seat 8: m.sanitra (small blind) folded before Flop
+Seat 9: Mediapunto (big blind) folded before Flop
+
+
+
+PokerStars Hand #212514024672:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:31:45 ET
+Table 'Horemheb' 9-max Seat #8 is the button
+Seat 1: fulache ($1.75 in chips)
+Seat 3: olegkorneff ($2.71 in chips)
+Seat 4: JootaJ ($1.37 in chips)
+Seat 5: Nejcek89 ($1.85 in chips)
+Seat 6: pokerHero1 ($2.84 in chips)
+Seat 7: Mamont_Tor ($2.02 in chips)
+Seat 8: m.sanitra ($1.54 in chips)
+Seat 9: Mediapunto ($1.67 in chips)
+Mediapunto: posts small blind $0.01
+fulache: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c 5h]
+olegkorneff: folds
+JootaJ: folds
+Nejcek89: calls $0.02
+pokerHero1: folds
+Mamont_Tor: folds
+m.sanitra: folds
+Mediapunto: folds
+fulache: checks
+*** FLOP *** [9h 5c Kh]
+fulache: checks
+Nejcek89: bets $0.02
+fulache: calls $0.02
+*** TURN *** [9h 5c Kh] [Tc]
+fulache: checks
+Nejcek89: checks
+*** RIVER *** [9h 5c Kh Tc] [Ks]
+fulache: bets $1.71 and is all-in
+Nejcek89: folds
+Uncalled bet ($1.71) returned to fulache
+fulache collected $0.09 from pot
+fulache: doesn't show hand
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Board [9h 5c Kh Tc Ks]
+Seat 1: fulache (big blind) collected ($0.09)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: JootaJ folded before Flop (didn't bet)
+Seat 5: Nejcek89 folded on the River
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra (button) folded before Flop (didn't bet)
+Seat 9: Mediapunto (small blind) folded before Flop
+
+
+
+PokerStars Hand #212514083946:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:32:46 ET
+Table 'Horemheb' 9-max Seat #9 is the button
+Seat 1: fulache ($1.80 in chips)
+Seat 3: olegkorneff ($2.71 in chips)
+Seat 4: JootaJ ($1.37 in chips)
+Seat 5: Nejcek89 ($1.81 in chips)
+Seat 6: pokerHero1 ($2.84 in chips)
+Seat 7: Mamont_Tor ($2.02 in chips)
+Seat 8: m.sanitra ($1.54 in chips)
+Seat 9: Mediapunto ($1.66 in chips)
+fulache: posts small blind $0.01
+olegkorneff: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d 8h]
+JootaJ: folds
+Nejcek89: folds
+pokerHero1: folds
+Mamont_Tor: folds
+m.sanitra: folds
+Mediapunto: raises $0.03 to $0.05
+fulache: folds
+olegkorneff: folds
+Uncalled bet ($0.03) returned to Mediapunto
+Mediapunto collected $0.05 from pot
+gizmondouk was removed from the table for failing to post
+gizmondouk leaves the table
+Mediapunto: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: fulache (small blind) folded before Flop
+Seat 3: olegkorneff (big blind) folded before Flop
+Seat 4: JootaJ folded before Flop (didn't bet)
+Seat 5: Nejcek89 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto (button) collected ($0.05)
+
+
+
+PokerStars Hand #212514105232:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:33:08 ET
+Table 'Horemheb' 9-max Seat #1 is the button
+Seat 1: fulache ($1.79 in chips)
+Seat 3: olegkorneff ($2.69 in chips)
+Seat 4: JootaJ ($1.37 in chips)
+Seat 5: Nejcek89 ($1.81 in chips)
+Seat 6: pokerHero1 ($2.84 in chips)
+Seat 7: Mamont_Tor ($2.02 in chips)
+Seat 8: m.sanitra ($1.54 in chips)
+Seat 9: Mediapunto ($1.69 in chips)
+olegkorneff: posts small blind $0.01
+$ereg@1 joins the table at seat #2
+JootaJ: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s 9d]
+Nejcek89: folds
+pokerHero1: folds
+Mamont_Tor: folds
+$ereg@1 leaves the table
+m.sanitra: folds
+Mediapunto: folds
+fulache: folds
+olegkorneff: folds
+Uncalled bet ($0.01) returned to JootaJ
+JootaJ collected $0.02 from pot
+JootaJ: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: fulache (button) folded before Flop (didn't bet)
+Seat 3: olegkorneff (small blind) folded before Flop
+Seat 4: JootaJ (big blind) collected ($0.02)
+Seat 5: Nejcek89 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514131920:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:33:33 ET
+Table 'Horemheb' 9-max Seat #3 is the button
+Seat 1: fulache ($1.79 in chips)
+Seat 3: olegkorneff ($2.68 in chips)
+Seat 4: JootaJ ($1.38 in chips)
+Seat 5: Nejcek89 ($1.81 in chips)
+Seat 6: pokerHero1 ($2.84 in chips)
+Seat 7: Mamont_Tor ($2.02 in chips)
+Seat 8: m.sanitra ($1.54 in chips)
+Seat 9: Mediapunto ($1.69 in chips)
+JootaJ: posts small blind $0.01
+Nejcek89: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad 2h]
+pokerHero1: folds
+Mamont_Tor: folds
+m.sanitra: folds
+Mediapunto: folds
+Nhük50 joins the table at seat #2
+fulache: folds
+olegkorneff: calls $0.02
+JootaJ: calls $0.01
+Nejcek89: checks
+*** FLOP *** [Js 4h 2s]
+JootaJ: checks
+Nejcek89: checks
+olegkorneff: checks
+*** TURN *** [Js 4h 2s] [Ac]
+JootaJ: checks
+Nejcek89: checks
+olegkorneff: checks
+*** RIVER *** [Js 4h 2s Ac] [8s]
+JootaJ: checks
+Nejcek89: checks
+olegkorneff: checks
+*** SHOW DOWN ***
+JootaJ: shows [Ks 6c] (high card Ace)
+Nejcek89: shows [5d 8h] (a pair of Eights)
+olegkorneff: mucks hand
+Nejcek89 collected $0.06 from pot
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [Js 4h 2s Ac 8s]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 3: olegkorneff (button) mucked [Qc 9c]
+Seat 4: JootaJ (small blind) showed [Ks 6c] and lost with high card Ace
+Seat 5: Nejcek89 (big blind) showed [5d 8h] and won ($0.06) with a pair of Eights
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514202584:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:34:46 ET
+Table 'Horemheb' 9-max Seat #4 is the button
+Seat 1: fulache ($1.79 in chips)
+Seat 2: Nhük50 ($1.60 in chips)
+Seat 3: olegkorneff ($2.66 in chips)
+Seat 4: JootaJ ($1.36 in chips)
+Seat 5: Nejcek89 ($1.85 in chips)
+Seat 6: pokerHero1 ($2.84 in chips)
+Seat 7: Mamont_Tor ($2.02 in chips)
+Seat 8: m.sanitra ($1.54 in chips)
+Seat 9: Mediapunto ($1.69 in chips)
+Nejcek89: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+Nhük50: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s Qc]
+Mamont_Tor: folds
+m.sanitra: folds
+Mediapunto: folds
+fulache: raises $0.07 to $0.09
+Nhük50: folds
+olegkorneff: folds
+JootaJ: folds
+Nejcek89: folds
+pokerHero1: folds
+Uncalled bet ($0.07) returned to fulache
+fulache collected $0.07 from pot
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Seat 1: fulache collected ($0.07)
+Seat 2: Nhük50 folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: JootaJ (button) folded before Flop (didn't bet)
+Seat 5: Nejcek89 (small blind) folded before Flop
+Seat 6: pokerHero1 (big blind) folded before Flop
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514236229:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:35:20 ET
+Table 'Horemheb' 9-max Seat #5 is the button
+Seat 1: fulache ($1.84 in chips)
+Seat 2: Nhük50 ($1.58 in chips)
+Seat 3: olegkorneff ($2.66 in chips)
+Seat 4: JootaJ ($1.36 in chips)
+Seat 5: Nejcek89 ($1.84 in chips)
+Seat 6: pokerHero1 ($2.82 in chips)
+Seat 7: Mamont_Tor ($2.02 in chips)
+Seat 8: m.sanitra ($1.54 in chips)
+Seat 9: Mediapunto ($1.69 in chips)
+pokerHero1: posts small blind $0.01
+Mamont_Tor: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c 6h]
+m.sanitra: folds
+Mediapunto: folds
+fulache: folds
+Nhük50: folds
+olegkorneff: folds
+JootaJ: folds
+Nejcek89: folds
+pokerHero1: raises $0.04 to $0.06
+Mamont_Tor: folds
+Uncalled bet ($0.04) returned to pokerHero1
+pokerHero1 collected $0.04 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: Nhük50 folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: JootaJ folded before Flop (didn't bet)
+Seat 5: Nejcek89 (button) folded before Flop (didn't bet)
+Seat 6: pokerHero1 (small blind) collected ($0.04)
+Seat 7: Mamont_Tor (big blind) folded before Flop
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514264820:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:35:50 ET
+Table 'Horemheb' 9-max Seat #6 is the button
+Seat 1: fulache ($1.84 in chips)
+Seat 2: Nhük50 ($1.58 in chips)
+Seat 3: olegkorneff ($2.66 in chips)
+Seat 4: JootaJ ($1.36 in chips)
+Seat 5: Nejcek89 ($1.84 in chips)
+Seat 6: pokerHero1 ($2.84 in chips)
+Seat 7: Mamont_Tor ($2 in chips)
+Seat 8: m.sanitra ($1.54 in chips)
+Seat 9: Mediapunto ($1.69 in chips)
+Mamont_Tor: posts small blind $0.01
+m.sanitra: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c 2s]
+Mediapunto: folds
+fulache: folds
+Mediapunto leaves the table
+Nhük50: raises $0.04 to $0.06
+olegkorneff: folds
+JootaJ: folds
+Nejcek89: folds
+pokerHero1: folds
+patriotsfan3912 joins the table at seat #9
+Mamont_Tor: calls $0.05
+m.sanitra: folds
+*** FLOP *** [Qh Qs Jd]
+Mamont_Tor: checks
+Nhük50: bets $0.07
+Mamont_Tor: calls $0.07
+*** TURN *** [Qh Qs Jd] [5s]
+Mamont_Tor: checks
+Nhük50: bets $0.10
+Mamont_Tor: calls $0.10
+*** RIVER *** [Qh Qs Jd 5s] [4d]
+Mamont_Tor: bets $0.44
+Nhük50: calls $0.44
+*** SHOW DOWN ***
+Mamont_Tor: shows [Jh Qc] (a full house, Queens full of Jacks)
+Nhük50: mucks hand
+Mamont_Tor collected $1.31 from pot
+*** SUMMARY ***
+Total pot $1.36 | Rake $0.05
+Board [Qh Qs Jd 5s 4d]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: Nhük50 mucked [Ac Jc]
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: JootaJ folded before Flop (didn't bet)
+Seat 5: Nejcek89 folded before Flop (didn't bet)
+Seat 6: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 7: Mamont_Tor (small blind) showed [Jh Qc] and won ($1.31) with a full house, Queens full of Jacks
+Seat 8: m.sanitra (big blind) folded before Flop
+Seat 9: Mediapunto folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514324058:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:36:48 ET
+Table 'Horemheb' 9-max Seat #7 is the button
+Seat 1: fulache ($1.84 in chips)
+Seat 2: Nhük50 ($0.91 in chips)
+Seat 3: olegkorneff ($2.66 in chips)
+Seat 4: JootaJ ($1.36 in chips)
+Seat 5: Nejcek89 ($1.84 in chips)
+Seat 6: pokerHero1 ($2.84 in chips)
+Seat 7: Mamont_Tor ($2.64 in chips)
+Seat 8: m.sanitra ($1.52 in chips)
+Seat 9: patriotsfan3912 ($2 in chips)
+m.sanitra: posts small blind $0.01
+patriotsfan3912: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d 3s]
+fulache: folds
+Nhük50: folds
+olegkorneff: calls $0.02
+JootaJ: raises $0.06 to $0.08
+Nejcek89: folds
+pokerHero1: calls $0.08
+Mamont_Tor: folds
+m.sanitra: folds
+patriotsfan3912: calls $0.06
+olegkorneff: calls $0.06
+*** FLOP *** [9s Kc Jc]
+patriotsfan3912: bets $0.08
+olegkorneff: calls $0.08
+JootaJ: calls $0.08
+pokerHero1: folds
+*** TURN *** [9s Kc Jc] [8c]
+patriotsfan3912: bets $0.12
+olegkorneff: calls $0.12
+JootaJ: raises $0.25 to $0.37
+patriotsfan3912: calls $0.25
+olegkorneff: folds
+*** RIVER *** [9s Kc Jc 8c] [7h]
+patriotsfan3912: bets $0.35
+JootaJ: raises $0.48 to $0.83 and is all-in
+patriotsfan3912: folds [9h 9d]
+Uncalled bet ($0.48) returned to JootaJ
+JootaJ collected $2.06 from pot
+JootaJ: doesn't show hand
+*** SUMMARY ***
+Total pot $2.13 | Rake $0.07
+Board [9s Kc Jc 8c 7h]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: Nhük50 folded before Flop (didn't bet)
+Seat 3: olegkorneff folded on the Turn
+Seat 4: JootaJ collected ($2.06)
+Seat 5: Nejcek89 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded on the Flop
+Seat 7: Mamont_Tor (button) folded before Flop (didn't bet)
+Seat 8: m.sanitra (small blind) folded before Flop
+Seat 9: patriotsfan3912 (big blind) folded on the River
+
+
+
+PokerStars Hand #212514430052:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:38:35 ET
+Table 'Horemheb' 9-max Seat #8 is the button
+Seat 1: fulache ($1.84 in chips)
+Seat 2: Nhük50 ($0.91 in chips)
+Seat 3: olegkorneff ($2.38 in chips)
+Seat 4: JootaJ ($2.54 in chips)
+Seat 5: Nejcek89 ($1.84 in chips)
+Seat 6: pokerHero1 ($2.76 in chips)
+Seat 7: Mamont_Tor ($2.64 in chips)
+Seat 8: m.sanitra ($1.51 in chips)
+Seat 9: patriotsfan3912 ($1.12 in chips)
+patriotsfan3912: posts small blind $0.01
+fulache: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8h 4d]
+Nhük50: folds
+olegkorneff: folds
+JootaJ: folds
+Nejcek89: calls $0.02
+pokerHero1: folds
+Mamont_Tor has timed out
+Mamont_Tor: folds
+m.sanitra: raises $0.02 to $0.04
+patriotsfan3912: folds
+fulache: folds
+Nejcek89: calls $0.02
+*** FLOP *** [Ks 6s Qc]
+Nejcek89: bets $0.04
+m.sanitra: calls $0.04
+*** TURN *** [Ks 6s Qc] [Jc]
+Nejcek89: checks
+m.sanitra: bets $0.18
+Nejcek89: folds
+Uncalled bet ($0.18) returned to m.sanitra
+m.sanitra collected $0.18 from pot
+m.sanitra: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [Ks 6s Qc Jc]
+Seat 1: fulache (big blind) folded before Flop
+Seat 2: Nhük50 folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: JootaJ folded before Flop (didn't bet)
+Seat 5: Nejcek89 folded on the Turn
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra (button) collected ($0.18)
+Seat 9: patriotsfan3912 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212514514236:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:40:01 ET
+Table 'Horemheb' 9-max Seat #9 is the button
+Seat 1: fulache ($1.82 in chips)
+Seat 2: Nhük50 ($0.91 in chips)
+Seat 3: olegkorneff ($2.38 in chips)
+Seat 4: JootaJ ($2.54 in chips)
+Seat 5: Nejcek89 ($1.76 in chips)
+Seat 6: pokerHero1 ($2.76 in chips)
+Seat 8: m.sanitra ($1.61 in chips)
+Seat 9: patriotsfan3912 ($1.11 in chips)
+fulache: posts small blind $0.01
+Nhük50: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6h 5s]
+olegkorneff: folds
+JootaJ: raises $0.06 to $0.08
+Nejcek89: folds
+pokerHero1: folds
+m.sanitra: folds
+patriotsfan3912: folds
+fulache: folds
+Nhük50: calls $0.06
+*** FLOP *** [Ac 2c 6d]
+Nhük50: checks
+JootaJ: bets $0.10
+Nhük50: calls $0.10
+*** TURN *** [Ac 2c 6d] [9h]
+Nhük50: checks
+JootaJ: bets $0.15
+Nhük50: calls $0.15
+*** RIVER *** [Ac 2c 6d 9h] [7h]
+Nhük50: checks
+JootaJ: checks
+*** SHOW DOWN ***
+Nhük50: shows [Kc Qc] (high card Ace)
+JootaJ: shows [Qs Qh] (a pair of Queens)
+JootaJ collected $0.65 from pot
+*** SUMMARY ***
+Total pot $0.67 | Rake $0.02
+Board [Ac 2c 6d 9h 7h]
+Seat 1: fulache (small blind) folded before Flop
+Seat 2: Nhük50 (big blind) showed [Kc Qc] and lost with high card Ace
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: JootaJ showed [Qs Qh] and won ($0.65) with a pair of Queens
+Seat 5: Nejcek89 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: patriotsfan3912 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514565312:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:40:48 ET
+Table 'Horemheb' 9-max Seat #1 is the button
+Seat 1: fulache ($1.81 in chips)
+Seat 2: Nhük50 ($0.58 in chips)
+Seat 3: olegkorneff ($2.38 in chips)
+Seat 4: JootaJ ($2.86 in chips)
+Seat 5: Nejcek89 ($1.76 in chips)
+Seat 6: pokerHero1 ($2.76 in chips)
+Seat 8: m.sanitra ($1.61 in chips)
+Seat 9: patriotsfan3912 ($1.11 in chips)
+Nhük50: posts small blind $0.01
+olegkorneff: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As 7c]
+JootaJ: folds
+Nejcek89: folds
+pokerHero1: folds
+m.sanitra: calls $0.02
+patriotsfan3912: folds
+fulache: raises $0.20 to $0.22
+Nhük50: folds
+olegkorneff: folds
+m.sanitra: folds
+Uncalled bet ($0.20) returned to fulache
+fulache collected $0.07 from pot
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Seat 1: fulache (button) collected ($0.07)
+Seat 2: Nhük50 (small blind) folded before Flop
+Seat 3: olegkorneff (big blind) folded before Flop
+Seat 4: JootaJ folded before Flop (didn't bet)
+Seat 5: Nejcek89 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop
+Seat 9: patriotsfan3912 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514601502:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:41:24 ET
+Table 'Horemheb' 9-max Seat #2 is the button
+Seat 1: fulache ($1.86 in chips)
+Seat 2: Nhük50 ($0.57 in chips)
+Seat 3: olegkorneff ($2.36 in chips)
+Seat 4: JootaJ ($2.86 in chips)
+Seat 5: Nejcek89 ($1.76 in chips)
+Seat 6: pokerHero1 ($2.76 in chips)
+Seat 8: m.sanitra ($1.59 in chips)
+Seat 9: patriotsfan3912 ($1.11 in chips)
+olegkorneff: posts small blind $0.01
+JootaJ: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qd Ah]
+Nejcek89: folds
+pokerHero1: raises $0.06 to $0.08
+m.sanitra: calls $0.08
+patriotsfan3912: folds
+fulache: folds
+Nhük50: folds
+olegkorneff: folds
+JootaJ: folds
+*** FLOP *** [5s 4s Ac]
+pokerHero1: bets $0.14
+m.sanitra: calls $0.14
+*** TURN *** [5s 4s Ac] [Jd]
+pokerHero1: bets $0.24
+m.sanitra: calls $0.24
+*** RIVER *** [5s 4s Ac Jd] [2d]
+pokerHero1: bets $0.46
+m.sanitra: calls $0.46
+*** SHOW DOWN ***
+pokerHero1: shows [Qd Ah] (a pair of Aces)
+m.sanitra: shows [Qc As] (a pair of Aces)
+pokerHero1 collected $0.90 from pot
+m.sanitra collected $0.90 from pot
+*** SUMMARY ***
+Total pot $1.87 | Rake $0.07
+Board [5s 4s Ac Jd 2d]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: Nhük50 (button) folded before Flop (didn't bet)
+Seat 3: olegkorneff (small blind) folded before Flop
+Seat 4: JootaJ (big blind) folded before Flop
+Seat 5: Nejcek89 folded before Flop (didn't bet)
+Seat 6: pokerHero1 showed [Qd Ah] and won ($0.90) with a pair of Aces
+Seat 8: m.sanitra showed [Qc As] and won ($0.90) with a pair of Aces
+Seat 9: patriotsfan3912 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514646331:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:42:09 ET
+Table 'Horemheb' 9-max Seat #3 is the button
+Seat 1: fulache ($1.86 in chips)
+Seat 2: Nhük50 ($0.57 in chips)
+Seat 3: olegkorneff ($2.35 in chips)
+Seat 4: JootaJ ($2.84 in chips)
+Seat 5: Nejcek89 ($1.76 in chips)
+Seat 6: pokerHero1 ($2.74 in chips)
+Seat 8: m.sanitra ($1.57 in chips)
+Seat 9: patriotsfan3912 ($1.11 in chips)
+JootaJ: posts small blind $0.01
+Nejcek89: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c 6s]
+pokerHero1: folds
+m.sanitra: folds
+patriotsfan3912: raises $0.02 to $0.04
+fulache: folds
+Nhük50: raises $0.53 to $0.57 and is all-in
+olegkorneff: folds
+JootaJ: folds
+Nejcek89: folds
+patriotsfan3912: folds
+Uncalled bet ($0.53) returned to Nhük50
+Nhük50 collected $0.11 from pot
+Nhük50: doesn't show hand
+*** SUMMARY ***
+Total pot $0.11 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: Nhük50 collected ($0.11)
+Seat 3: olegkorneff (button) folded before Flop (didn't bet)
+Seat 4: JootaJ (small blind) folded before Flop
+Seat 5: Nejcek89 (big blind) folded before Flop
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: patriotsfan3912 folded before Flop
+
+
+
+PokerStars Hand #212514678059:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:42:42 ET
+Table 'Horemheb' 9-max Seat #4 is the button
+Seat 1: fulache ($1.86 in chips)
+Seat 2: Nhük50 ($0.64 in chips)
+Seat 3: olegkorneff ($2.35 in chips)
+Seat 4: JootaJ ($2.83 in chips)
+Seat 5: Nejcek89 ($1.74 in chips)
+Seat 6: pokerHero1 ($2.74 in chips)
+Seat 8: m.sanitra ($1.57 in chips)
+Seat 9: patriotsfan3912 ($1.07 in chips)
+Nejcek89: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c 8c]
+m.sanitra: folds
+patriotsfan3912: folds
+fulache: folds
+Nhük50: folds
+olegkorneff: folds
+JootaJ: folds
+Nejcek89: folds
+Uncalled bet ($0.01) returned to pokerHero1
+pokerHero1 collected $0.02 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: Nhük50 folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: JootaJ (button) folded before Flop (didn't bet)
+Seat 5: Nejcek89 (small blind) folded before Flop
+Seat 6: pokerHero1 (big blind) collected ($0.02)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: patriotsfan3912 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514691371:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:42:56 ET
+Table 'Horemheb' 9-max Seat #5 is the button
+Seat 1: fulache ($1.86 in chips)
+Seat 2: Nhük50 ($0.64 in chips)
+Seat 3: olegkorneff ($2.35 in chips)
+Seat 4: JootaJ ($2.83 in chips)
+Seat 5: Nejcek89 ($1.73 in chips)
+Seat 6: pokerHero1 ($2.75 in chips)
+Seat 8: m.sanitra ($1.57 in chips)
+Seat 9: patriotsfan3912 ($1.07 in chips)
+pokerHero1: posts small blind $0.01
+m.sanitra: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4h Ts]
+patriotsfan3912: folds
+fulache: calls $0.02
+Nhük50: calls $0.02
+olegkorneff: calls $0.02
+JootaJ: folds
+Nejcek89: calls $0.02
+pokerHero1: folds
+m.sanitra: checks
+*** FLOP *** [Kc 3c 4s]
+m.sanitra: checks
+fulache: bets $0.04
+Nhük50: folds
+olegkorneff: calls $0.04
+Nejcek89: folds
+m.sanitra: folds
+*** TURN *** [Kc 3c 4s] [8c]
+fulache: checks
+olegkorneff: checks
+*** RIVER *** [Kc 3c 4s 8c] [7s]
+Nejcek89 leaves the table
+fulache: bets $0.18
+olegkorneff: calls $0.18
+*** SHOW DOWN ***
+fulache: shows [7c 9c] (a flush, King high)
+olegkorneff: mucks hand
+fulache collected $0.53 from pot
+*** SUMMARY ***
+Total pot $0.55 | Rake $0.02
+Board [Kc 3c 4s 8c 7s]
+Seat 1: fulache showed [7c 9c] and won ($0.53) with a flush, King high
+Seat 2: Nhük50 folded on the Flop
+Seat 3: olegkorneff mucked [Qh Ks]
+Seat 4: JootaJ folded before Flop (didn't bet)
+Seat 5: Nejcek89 (button) folded on the Flop
+Seat 6: pokerHero1 (small blind) folded before Flop
+Seat 8: m.sanitra (big blind) folded on the Flop
+Seat 9: patriotsfan3912 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514754568:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:44:00 ET
+Table 'Horemheb' 9-max Seat #6 is the button
+Seat 1: fulache ($2.15 in chips)
+Seat 2: Nhük50 ($0.62 in chips)
+Seat 3: olegkorneff ($2.11 in chips)
+Seat 4: JootaJ ($2.83 in chips)
+Seat 6: pokerHero1 ($2.74 in chips)
+Seat 8: m.sanitra ($1.55 in chips)
+Seat 9: patriotsfan3912 ($1.07 in chips)
+m.sanitra: posts small blind $0.01
+patriotsfan3912: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac 2s]
+SubSilver joins the table at seat #5
+fulache: folds
+Nhük50: folds
+olegkorneff: calls $0.02
+JootaJ: folds
+pokerHero1: folds
+m.sanitra: raises $0.04 to $0.06
+patriotsfan3912: folds
+olegkorneff: calls $0.04
+*** FLOP *** [4d Ts 5c]
+m.sanitra: checks
+olegkorneff: bets $0.06
+m.sanitra: folds
+Uncalled bet ($0.06) returned to olegkorneff
+olegkorneff collected $0.14 from pot
+olegkorneff: doesn't show hand
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [4d Ts 5c]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: Nhük50 folded before Flop (didn't bet)
+Seat 3: olegkorneff collected ($0.14)
+Seat 4: JootaJ folded before Flop (didn't bet)
+Seat 6: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 8: m.sanitra (small blind) folded on the Flop
+Seat 9: patriotsfan3912 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212514813303:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:44:50 ET
+Table 'Horemheb' 9-max Seat #8 is the button
+Seat 1: fulache ($2.15 in chips)
+Seat 2: Nhük50 ($0.62 in chips)
+Seat 3: olegkorneff ($2.19 in chips)
+Seat 4: JootaJ ($2.83 in chips)
+Seat 6: pokerHero1 ($2.74 in chips)
+Seat 8: m.sanitra ($1.49 in chips)
+Seat 9: patriotsfan3912 ($1.05 in chips)
+patriotsfan3912: posts small blind $0.01
+fulache: posts big blind $0.02
+SubSilver: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8h Ah]
+Nhük50: calls $0.02
+olegkorneff: folds
+JootaJ: folds
+pokerHero1: raises $0.06 to $0.08
+m.sanitra: calls $0.08
+patriotsfan3912: calls $0.07
+SubSilver leaves the table
+fulache: folds
+Nhük50: folds
+*** FLOP *** [As 2d 6h]
+patriotsfan3912: checks
+pokerHero1: bets $0.14
+m.sanitra: calls $0.14
+patriotsfan3912: folds
+*** TURN *** [As 2d 6h] [7s]
+pokerHero1: bets $0.26
+m.sanitra: calls $0.26
+*** RIVER *** [As 2d 6h 7s] [6d]
+pokerHero1: bets $0.24
+m.sanitra: raises $0.77 to $1.01 and is all-in
+Romeo2107512 joins the table at seat #5
+pokerHero1: folds
+Uncalled bet ($0.77) returned to m.sanitra
+m.sanitra collected $1.51 from pot
+m.sanitra: doesn't show hand
+*** SUMMARY ***
+Total pot $1.56 | Rake $0.05
+Board [As 2d 6h 7s 6d]
+Seat 1: fulache (big blind) folded before Flop
+Seat 2: Nhük50 folded before Flop
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: JootaJ folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded on the River
+Seat 8: m.sanitra (button) collected ($1.51)
+Seat 9: patriotsfan3912 (small blind) folded on the Flop
+
+
+
+PokerStars Hand #212514924452:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:46:43 ET
+Table 'Horemheb' 9-max Seat #9 is the button
+Seat 1: fulache ($2.13 in chips)
+Seat 2: Nhük50 ($0.60 in chips)
+Seat 3: olegkorneff ($2.19 in chips)
+Seat 4: JootaJ ($2.83 in chips)
+Seat 5: Romeo2107512 ($1 in chips)
+Seat 6: pokerHero1 ($2.02 in chips)
+Seat 8: m.sanitra ($2.28 in chips)
+Seat 9: patriotsfan3912 ($0.97 in chips)
+fulache: posts small blind $0.01
+Nhük50: posts big blind $0.02
+Romeo2107512: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s Ts]
+olegkorneff: folds
+JootaJ: folds
+Romeo2107512: checks
+pokerHero1: folds
+m.sanitra: calls $0.02
+patriotsfan3912: raises $0.02 to $0.04
+fulache: folds
+Nhük50: folds
+Romeo2107512: calls $0.02
+m.sanitra: calls $0.02
+*** FLOP *** [8c 4c 7c]
+Romeo2107512: checks
+m.sanitra: checks
+patriotsfan3912: bets $0.04
+Romeo2107512: folds
+m.sanitra: calls $0.04
+*** TURN *** [8c 4c 7c] [Ah]
+m.sanitra: checks
+patriotsfan3912: bets $0.06
+m.sanitra: calls $0.06
+*** RIVER *** [8c 4c 7c Ah] [7h]
+m.sanitra: checks
+patriotsfan3912: bets $0.09
+m.sanitra: folds
+Uncalled bet ($0.09) returned to patriotsfan3912
+patriotsfan3912 collected $0.34 from pot
+patriotsfan3912: doesn't show hand
+*** SUMMARY ***
+Total pot $0.35 | Rake $0.01
+Board [8c 4c 7c Ah 7h]
+Seat 1: fulache (small blind) folded before Flop
+Seat 2: Nhük50 (big blind) folded before Flop
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: JootaJ folded before Flop (didn't bet)
+Seat 5: Romeo2107512 folded on the Flop
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded on the River
+Seat 9: patriotsfan3912 (button) collected ($0.34)
+
+
+
+PokerStars Hand #212515007076:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:48:07 ET
+Table 'Horemheb' 9-max Seat #1 is the button
+Seat 1: fulache ($2.12 in chips)
+Seat 2: Nhük50 ($0.58 in chips)
+Seat 3: olegkorneff ($2.19 in chips)
+Seat 4: JootaJ ($2.83 in chips)
+Seat 5: Romeo2107512 ($0.96 in chips)
+Seat 6: pokerHero1 ($2.02 in chips)
+Seat 8: m.sanitra ($2.14 in chips)
+Seat 9: patriotsfan3912 ($1.17 in chips)
+Nhük50: posts small blind $0.01
+olegkorneff: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kc 7c]
+JootaJ: folds
+Romeo2107512: folds
+pokerHero1: folds
+m.sanitra: folds
+patriotsfan3912: folds
+fulache: folds
+Nhük50: calls $0.01
+olegkorneff: checks
+*** FLOP *** [8h 8d 2h]
+Nhük50: checks
+olegkorneff: checks
+*** TURN *** [8h 8d 2h] [Js]
+Nhük50: checks
+olegkorneff: checks
+*** RIVER *** [8h 8d 2h Js] [6s]
+Nhük50: checks
+olegkorneff: checks
+*** SHOW DOWN ***
+Nhük50: shows [4c Qh] (a pair of Eights)
+olegkorneff: shows [6c Ks] (two pair, Eights and Sixes)
+olegkorneff collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [8h 8d 2h Js 6s]
+Seat 1: fulache (button) folded before Flop (didn't bet)
+Seat 2: Nhük50 (small blind) showed [4c Qh] and lost with a pair of Eights
+Seat 3: olegkorneff (big blind) showed [6c Ks] and won ($0.04) with two pair, Eights and Sixes
+Seat 4: JootaJ folded before Flop (didn't bet)
+Seat 5: Romeo2107512 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: patriotsfan3912 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515044970:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:48:45 ET
+Table 'Horemheb' 9-max Seat #2 is the button
+Seat 1: fulache ($2.12 in chips)
+Seat 2: Nhük50 ($0.56 in chips)
+Seat 3: olegkorneff ($2.21 in chips)
+Seat 4: JootaJ ($2.83 in chips)
+Seat 5: Romeo2107512 ($0.96 in chips)
+Seat 6: pokerHero1 ($2.02 in chips)
+Seat 8: m.sanitra ($2.14 in chips)
+Seat 9: patriotsfan3912 ($1.17 in chips)
+olegkorneff: posts small blind $0.01
+JootaJ: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ah 6h]
+Romeo2107512: raises $0.05 to $0.07
+pokerHero1: folds
+m.sanitra: folds
+patriotsfan3912: folds
+fulache: folds
+Nhük50: folds
+olegkorneff: calls $0.06
+JootaJ: folds
+*** FLOP *** [8c 9c 4c]
+olegkorneff: checks
+Romeo2107512: bets $0.14
+olegkorneff: calls $0.14
+*** TURN *** [8c 9c 4c] [As]
+olegkorneff: checks
+Romeo2107512: checks
+*** RIVER *** [8c 9c 4c As] [9s]
+olegkorneff: checks
+Romeo2107512: checks
+*** SHOW DOWN ***
+olegkorneff: shows [Jd Jc] (two pair, Jacks and Nines)
+Romeo2107512: shows [Qh Qs] (two pair, Queens and Nines)
+Romeo2107512 collected $0.42 from pot
+*** SUMMARY ***
+Total pot $0.44 | Rake $0.02
+Board [8c 9c 4c As 9s]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: Nhük50 (button) folded before Flop (didn't bet)
+Seat 3: olegkorneff (small blind) showed [Jd Jc] and lost with two pair, Jacks and Nines
+Seat 4: JootaJ (big blind) folded before Flop
+Seat 5: Romeo2107512 showed [Qh Qs] and won ($0.42) with two pair, Queens and Nines
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: patriotsfan3912 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515088619:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:49:30 ET
+Table 'Horemheb' 9-max Seat #3 is the button
+Seat 1: fulache ($2.12 in chips)
+Seat 2: Nhük50 ($0.56 in chips)
+Seat 3: olegkorneff ($2 in chips)
+Seat 4: JootaJ ($2.81 in chips)
+Seat 5: Romeo2107512 ($1.17 in chips)
+Seat 6: pokerHero1 ($2.02 in chips)
+Seat 8: m.sanitra ($2.14 in chips)
+Seat 9: patriotsfan3912 ($1.17 in chips)
+JootaJ: posts small blind $0.01
+Romeo2107512: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d 8d]
+pokerHero1: folds
+m.sanitra: folds
+patriotsfan3912: folds
+fulache: folds
+Nhük50: raises $0.04 to $0.06
+olegkorneff: folds
+JootaJ: folds
+Romeo2107512: calls $0.04
+*** FLOP *** [6c Kh Qd]
+Romeo2107512: checks
+Nhük50: bets $0.07
+Romeo2107512: calls $0.07
+*** TURN *** [6c Kh Qd] [7d]
+Romeo2107512: checks
+Nhük50: checks
+*** RIVER *** [6c Kh Qd 7d] [Jd]
+Romeo2107512: checks
+Nhük50: checks
+*** SHOW DOWN ***
+Romeo2107512: shows [Qh Ks] (two pair, Kings and Queens)
+Nhük50: mucks hand
+Romeo2107512 collected $0.26 from pot
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01
+Board [6c Kh Qd 7d Jd]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: Nhük50 mucked [Jc Ah]
+Seat 3: olegkorneff (button) folded before Flop (didn't bet)
+Seat 4: JootaJ (small blind) folded before Flop
+Seat 5: Romeo2107512 (big blind) showed [Qh Ks] and won ($0.26) with two pair, Kings and Queens
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: patriotsfan3912 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515131357:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:50:14 ET
+Table 'Horemheb' 9-max Seat #4 is the button
+Seat 1: fulache ($2.12 in chips)
+Seat 2: Nhük50 ($0.43 in chips)
+Seat 3: olegkorneff ($2 in chips)
+Seat 4: JootaJ ($2.80 in chips)
+Seat 5: Romeo2107512 ($1.30 in chips)
+Seat 6: pokerHero1 ($2.02 in chips)
+Seat 8: m.sanitra ($2.14 in chips)
+Seat 9: patriotsfan3912 ($1.17 in chips)
+Romeo2107512: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c As]
+m.sanitra: calls $0.02
+patriotsfan3912: folds
+fulache: raises $0.12 to $0.14
+Nhük50: folds
+olegkorneff: folds
+JootaJ: folds
+Romeo2107512: folds
+pokerHero1: folds
+m.sanitra: calls $0.12
+*** FLOP *** [Td Js Qh]
+m.sanitra: checks
+fulache: checks
+*** TURN *** [Td Js Qh] [7d]
+m.sanitra: checks
+fulache: bets $0.15
+m.sanitra: folds
+Uncalled bet ($0.15) returned to fulache
+fulache collected $0.30 from pot
+*** SUMMARY ***
+Total pot $0.31 | Rake $0.01
+Board [Td Js Qh 7d]
+Seat 1: fulache collected ($0.30)
+Seat 2: Nhük50 folded before Flop (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: JootaJ (button) folded before Flop (didn't bet)
+Seat 5: Romeo2107512 (small blind) folded before Flop
+Seat 6: pokerHero1 (big blind) folded before Flop
+Seat 8: m.sanitra folded on the Turn
+Seat 9: patriotsfan3912 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515171432:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:50:55 ET
+Table 'Horemheb' 9-max Seat #5 is the button
+Seat 1: fulache ($2.28 in chips)
+Seat 2: Nhük50 ($0.43 in chips)
+Seat 3: olegkorneff ($2 in chips)
+Seat 4: JootaJ ($2.80 in chips)
+Seat 5: Romeo2107512 ($1.29 in chips)
+Seat 6: pokerHero1 ($2 in chips)
+Seat 8: m.sanitra ($2 in chips)
+Seat 9: patriotsfan3912 ($1.17 in chips)
+pokerHero1: posts small blind $0.01
+m.sanitra: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh Kh]
+patriotsfan3912: folds
+fulache: folds
+Nhük50: calls $0.02
+olegkorneff: calls $0.02
+JootaJ: folds
+Romeo2107512: folds
+pokerHero1: calls $0.01
+m.sanitra: checks
+*** FLOP *** [Ah 2h 3h]
+pokerHero1: bets $0.04
+m.sanitra: folds
+Nhük50: calls $0.04
+olegkorneff: calls $0.04
+*** TURN *** [Ah 2h 3h] [6h]
+pokerHero1: checks
+Nhük50: checks
+olegkorneff: checks
+*** RIVER *** [Ah 2h 3h 6h] [3d]
+pokerHero1: bets $0.19
+Nhük50: calls $0.19
+olegkorneff: raises $0.75 to $0.94
+pokerHero1: calls $0.75
+Nhük50: folds
+Nhük50 leaves the table
+*** SHOW DOWN ***
+olegkorneff: shows [2d 2s] (a full house, Deuces full of Threes)
+pokerHero1: mucks hand
+olegkorneff collected $2.19 from pot
+*** SUMMARY ***
+Total pot $2.27 | Rake $0.08
+Board [Ah 2h 3h 6h 3d]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: Nhük50 folded on the River
+Seat 3: olegkorneff showed [2d 2s] and won ($2.19) with a full house, Deuces full of Threes
+Seat 4: JootaJ folded before Flop (didn't bet)
+Seat 5: Romeo2107512 (button) folded before Flop (didn't bet)
+Seat 6: pokerHero1 (small blind) mucked [Qh Kh]
+Seat 8: m.sanitra (big blind) folded on the Flop
+Seat 9: patriotsfan3912 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515249520:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:52:05 ET
+Table 'Horemheb' 9-max Seat #6 is the button
+Seat 1: fulache ($2.28 in chips)
+Seat 3: olegkorneff ($3.19 in chips)
+Seat 4: JootaJ ($2.80 in chips)
+Seat 5: Romeo2107512 ($1.29 in chips)
+Seat 6: pokerHero1 ($2 in chips)
+Seat 8: m.sanitra ($1.98 in chips)
+Seat 9: patriotsfan3912 ($1.17 in chips)
+m.sanitra: posts small blind $0.01
+patriotsfan3912: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qs Kd]
+IryLee30 joins the table at seat #2
+fulache: folds
+olegkorneff: calls $0.02
+JootaJ: folds
+Romeo2107512: folds
+pokerHero1: raises $0.06 to $0.08
+m.sanitra: folds
+patriotsfan3912: folds
+olegkorneff: calls $0.06
+*** FLOP *** [4c Qh 9c]
+olegkorneff: checks
+pokerHero1: bets $0.14
+olegkorneff: folds
+Uncalled bet ($0.14) returned to pokerHero1
+pokerHero1 collected $0.18 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [4c Qh 9c]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 3: olegkorneff folded on the Flop
+Seat 4: JootaJ folded before Flop (didn't bet)
+Seat 5: Romeo2107512 folded before Flop (didn't bet)
+Seat 6: pokerHero1 (button) collected ($0.18)
+Seat 8: m.sanitra (small blind) folded before Flop
+Seat 9: patriotsfan3912 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212515278679:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:52:34 ET
+Table 'Horemheb' 9-max Seat #8 is the button
+Seat 1: fulache ($2.28 in chips)
+Seat 2: IryLee30 ($0.80 in chips)
+Seat 3: olegkorneff ($3.11 in chips)
+Seat 4: JootaJ ($2.80 in chips)
+Seat 5: Romeo2107512 ($1.29 in chips)
+Seat 6: pokerHero1 ($2.10 in chips)
+Seat 8: m.sanitra ($1.97 in chips)
+Seat 9: patriotsfan3912 ($1.15 in chips)
+patriotsfan3912: posts small blind $0.01
+fulache: posts big blind $0.02
+IryLee30: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6h As]
+IryLee30: checks
+olegkorneff: folds
+JootaJ: calls $0.02
+Romeo2107512: calls $0.02
+pokerHero1: folds
+m.sanitra: folds
+patriotsfan3912: folds
+fulache: checks
+*** FLOP *** [4d 3h 8h]
+fulache: checks
+IryLee30: checks
+JootaJ: checks
+Romeo2107512: checks
+*** TURN *** [4d 3h 8h] [Ac]
+fulache: checks
+IryLee30: checks
+JootaJ: bets $0.08
+olegkorneff is disconnected
+Romeo2107512: folds
+fulache: folds
+IryLee30: folds
+Uncalled bet ($0.08) returned to JootaJ
+JootaJ collected $0.09 from pot
+JootaJ: doesn't show hand
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Board [4d 3h 8h Ac]
+Seat 1: fulache (big blind) folded on the Turn
+Seat 2: IryLee30 folded on the Turn (didn't bet)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 4: JootaJ collected ($0.09)
+Seat 5: Romeo2107512 folded on the Turn
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 8: m.sanitra (button) folded before Flop (didn't bet)
+Seat 9: patriotsfan3912 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212515344220:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:53:42 ET
+Table 'Horemheb' 9-max Seat #9 is the button
+Seat 1: fulache ($2.26 in chips)
+Seat 2: IryLee30 ($0.78 in chips)
+Seat 4: JootaJ ($2.87 in chips)
+Seat 5: Romeo2107512 ($1.27 in chips)
+Seat 6: pokerHero1 ($2.10 in chips)
+Seat 7: Mamont_Tor ($2.64 in chips)
+Seat 8: m.sanitra ($1.97 in chips)
+Seat 9: patriotsfan3912 ($1.14 in chips)
+fulache: posts small blind $0.01
+IryLee30: posts big blind $0.02
+Mamont_Tor: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5c 6d]
+JootaJ: calls $0.02
+Romeo2107512: raises $0.04 to $0.06
+pokerHero1: folds
+Mamont_Tor: folds
+m.sanitra: folds
+patriotsfan3912: folds
+fulache: folds
+IryLee30: folds
+JootaJ: calls $0.04
+*** FLOP *** [5d Kh 5s]
+JootaJ: checks
+Romeo2107512: checks
+*** TURN *** [5d Kh 5s] [2h]
+JootaJ: checks
+Romeo2107512: checks
+*** RIVER *** [5d Kh 5s 2h] [3s]
+JootaJ: bets $0.08
+Romeo2107512: calls $0.08
+*** SHOW DOWN ***
+JootaJ: shows [Tc 8c] (a pair of Fives)
+Romeo2107512: shows [Qd As] (a pair of Fives - Ace kicker)
+Romeo2107512 collected $0.33 from pot
+*** SUMMARY ***
+Total pot $0.34 | Rake $0.01
+Board [5d Kh 5s 2h 3s]
+Seat 1: fulache (small blind) folded before Flop
+Seat 2: IryLee30 (big blind) folded before Flop
+Seat 4: JootaJ showed [Tc 8c] and lost with a pair of Fives
+Seat 5: Romeo2107512 showed [Qd As] and won ($0.33) with a pair of Fives
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: patriotsfan3912 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515402610:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:54:42 ET
+Table 'Horemheb' 9-max Seat #1 is the button
+Seat 1: fulache ($2.25 in chips)
+Seat 2: IryLee30 ($0.76 in chips)
+Seat 4: JootaJ ($2.73 in chips)
+Seat 5: Romeo2107512 ($1.46 in chips)
+Seat 6: pokerHero1 ($2.10 in chips)
+Seat 7: Mamont_Tor ($2.61 in chips)
+Seat 8: m.sanitra ($1.97 in chips)
+Seat 9: patriotsfan3912 ($1.14 in chips)
+IryLee30: posts small blind $0.01
+JootaJ: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8h Qs]
+Romeo2107512: folds
+pokerHero1: folds
+Mamont_Tor: raises $0.04 to $0.06
+m.sanitra: folds
+patriotsfan3912: folds
+fulache: folds
+IryLee30: raises $0.14 to $0.20
+JootaJ: folds
+Mamont_Tor: calls $0.14
+*** FLOP *** [2s Th 5d]
+IryLee30: bets $0.56 and is all-in
+Mamont_Tor: folds
+Uncalled bet ($0.56) returned to IryLee30
+IryLee30 collected $0.41 from pot
+IryLee30: doesn't show hand
+*** SUMMARY ***
+Total pot $0.42 | Rake $0.01
+Board [2s Th 5d]
+Seat 1: fulache (button) folded before Flop (didn't bet)
+Seat 2: IryLee30 (small blind) collected ($0.41)
+Seat 4: JootaJ (big blind) folded before Flop
+Seat 5: Romeo2107512 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor folded on the Flop
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: patriotsfan3912 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515443397:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:55:30 ET
+Table 'Horemheb' 9-max Seat #2 is the button
+Seat 1: fulache ($2.25 in chips)
+Seat 2: IryLee30 ($0.97 in chips)
+Seat 4: JootaJ ($2.71 in chips)
+Seat 5: Romeo2107512 ($1.46 in chips)
+Seat 6: pokerHero1 ($2.10 in chips)
+Seat 7: Mamont_Tor ($2.41 in chips)
+Seat 8: m.sanitra ($1.97 in chips)
+Seat 9: patriotsfan3912 ($1.14 in chips)
+JootaJ: posts small blind $0.01
+Romeo2107512: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5c 4h]
+pokerHero1: folds
+Mamont_Tor: raises $0.04 to $0.06
+m.sanitra: folds
+patriotsfan3912: folds
+fulache: folds
+IryLee30: folds
+JootaJ: folds
+Romeo2107512: calls $0.04
+*** FLOP *** [As Jh 3h]
+Romeo2107512: checks
+Mamont_Tor: bets $0.08
+Romeo2107512: folds
+Uncalled bet ($0.08) returned to Mamont_Tor
+Mamont_Tor collected $0.13 from pot
+Mamont_Tor: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [As Jh 3h]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: IryLee30 (button) folded before Flop (didn't bet)
+Seat 4: JootaJ (small blind) folded before Flop
+Seat 5: Romeo2107512 (big blind) folded on the Flop
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor collected ($0.13)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: patriotsfan3912 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515475391:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:56:15 ET
+Table 'Horemheb' 9-max Seat #4 is the button
+Seat 1: fulache ($2.25 in chips)
+Seat 2: IryLee30 ($0.97 in chips)
+Seat 4: JootaJ ($2.70 in chips)
+Seat 5: Romeo2107512 ($1.40 in chips)
+Seat 6: pokerHero1 ($2.10 in chips)
+Seat 7: Mamont_Tor ($2.48 in chips)
+Seat 8: m.sanitra ($1.97 in chips)
+Seat 9: patriotsfan3912 ($1.14 in chips)
+Romeo2107512: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc Kh]
+Mamont_Tor: folds
+m.sanitra: folds
+patriotsfan3912: folds
+fulache: calls $0.02
+IryLee30: raises $0.07 to $0.09
+JootaJ: folds
+Romeo2107512: folds
+pokerHero1: folds
+fulache: calls $0.07
+*** FLOP *** [9s 7s 8s]
+fulache: checks
+IryLee30: bets $0.88 and is all-in
+fulache: folds
+Uncalled bet ($0.88) returned to IryLee30
+IryLee30 collected $0.20 from pot
+IryLee30: doesn't show hand
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [9s 7s 8s]
+Seat 1: fulache folded on the Flop
+Seat 2: IryLee30 collected ($0.20)
+Seat 4: JootaJ (button) folded before Flop (didn't bet)
+Seat 5: Romeo2107512 (small blind) folded before Flop
+Seat 6: pokerHero1 (big blind) folded before Flop
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: patriotsfan3912 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515512571:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:57:08 ET
+Table 'Horemheb' 9-max Seat #5 is the button
+Seat 1: fulache ($2.16 in chips)
+Seat 2: IryLee30 ($1.08 in chips)
+Seat 4: JootaJ ($2.70 in chips)
+Seat 5: Romeo2107512 ($1.39 in chips)
+Seat 6: pokerHero1 ($2.08 in chips)
+Seat 8: m.sanitra ($1.97 in chips)
+Seat 9: patriotsfan3912 ($1.14 in chips)
+pokerHero1: posts small blind $0.01
+Mamont_Tor has timed out
+Mamont_Tor: is sitting out
+m.sanitra: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9h 5s]
+patriotsfan3912: folds
+fulache: folds
+IryLee30: folds
+JootaJ: folds
+Romeo2107512: raises $0.02 to $0.04
+pokerHero1: folds
+m.sanitra: folds
+Uncalled bet ($0.02) returned to Romeo2107512
+Romeo2107512 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: IryLee30 folded before Flop (didn't bet)
+Seat 4: JootaJ folded before Flop (didn't bet)
+Seat 5: Romeo2107512 (button) collected ($0.05)
+Seat 6: pokerHero1 (small blind) folded before Flop
+Seat 8: m.sanitra (big blind) folded before Flop
+Seat 9: patriotsfan3912 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515530380:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:57:33 ET
+Table 'Horemheb' 9-max Seat #6 is the button
+Seat 1: fulache ($2.16 in chips)
+Seat 2: IryLee30 ($1.08 in chips)
+Seat 4: JootaJ ($2.70 in chips)
+Seat 5: Romeo2107512 ($1.42 in chips)
+Seat 6: pokerHero1 ($2.07 in chips)
+Seat 8: m.sanitra ($1.95 in chips)
+Seat 9: patriotsfan3912 ($1.14 in chips)
+m.sanitra: posts small blind $0.01
+patriotsfan3912: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc 4d]
+fulache: folds
+IryLee30: folds
+JootaJ: calls $0.02
+Romeo2107512: folds
+pokerHero1: folds
+m.sanitra: folds
+patriotsfan3912: checks
+*** FLOP *** [7s Qs 6d]
+patriotsfan3912: checks
+JootaJ: bets $0.04
+patriotsfan3912: folds
+Uncalled bet ($0.04) returned to JootaJ
+JootaJ collected $0.05 from pot
+JootaJ: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [7s Qs 6d]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: IryLee30 folded before Flop (didn't bet)
+Seat 4: JootaJ collected ($0.05)
+Seat 5: Romeo2107512 folded before Flop (didn't bet)
+Seat 6: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 8: m.sanitra (small blind) folded before Flop
+Seat 9: patriotsfan3912 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212515559743:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:58:14 ET
+Table 'Horemheb' 9-max Seat #8 is the button
+Seat 1: fulache ($2.16 in chips)
+Seat 2: IryLee30 ($1.08 in chips)
+Seat 4: JootaJ ($2.73 in chips)
+Seat 5: Romeo2107512 ($1.42 in chips)
+Seat 6: pokerHero1 ($2.07 in chips)
+Seat 7: Mamont_Tor ($2.48 in chips)
+Seat 8: m.sanitra ($1.94 in chips)
+Seat 9: patriotsfan3912 ($1.12 in chips)
+patriotsfan3912: posts small blind $0.01
+fulache: posts big blind $0.02
+Mamont_Tor: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac Kh]
+IryLee30: folds
+JootaJ: folds
+Romeo2107512: folds
+pokerHero1: raises $0.10 to $0.12
+Mamont_Tor: folds
+m.sanitra: folds
+patriotsfan3912: folds
+fulache: calls $0.10
+*** FLOP *** [4h 2d 2s]
+fulache: checks
+pokerHero1: checks
+*** TURN *** [4h 2d 2s] [5c]
+fulache: bets $0.14
+pokerHero1: folds
+Uncalled bet ($0.14) returned to fulache
+fulache collected $0.27 from pot
+fulache: doesn't show hand
+*** SUMMARY ***
+Total pot $0.28 | Rake $0.01
+Board [4h 2d 2s 5c]
+Seat 1: fulache (big blind) collected ($0.27)
+Seat 2: IryLee30 folded before Flop (didn't bet)
+Seat 4: JootaJ folded before Flop (didn't bet)
+Seat 5: Romeo2107512 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded on the Turn
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra (button) folded before Flop (didn't bet)
+Seat 9: patriotsfan3912 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212515603424:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:59:14 ET
+Table 'Horemheb' 9-max Seat #9 is the button
+Seat 1: fulache ($2.31 in chips)
+Seat 2: IryLee30 ($1.08 in chips)
+Seat 4: JootaJ ($2.73 in chips)
+Seat 5: Romeo2107512 ($1.42 in chips)
+Seat 6: pokerHero1 ($1.95 in chips)
+Seat 7: Mamont_Tor ($2.45 in chips)
+Seat 8: m.sanitra ($1.94 in chips)
+Seat 9: patriotsfan3912 ($1.11 in chips)
+fulache: posts small blind $0.01
+IryLee30: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c Kh]
+JootaJ: calls $0.02
+Romeo2107512: folds
+pokerHero1: folds
+Mamont_Tor: folds
+m.sanitra: folds
+patriotsfan3912: raises $0.02 to $0.04
+fulache: folds
+IryLee30: raises $0.11 to $0.15
+JootaJ: folds
+patriotsfan3912: calls $0.11
+*** FLOP *** [5s 4h 9h]
+IryLee30: bets $0.93 and is all-in
+patriotsfan3912: folds
+Uncalled bet ($0.93) returned to IryLee30
+IryLee30 collected $0.32 from pot
+IryLee30: doesn't show hand
+*** SUMMARY ***
+Total pot $0.33 | Rake $0.01
+Board [5s 4h 9h]
+Seat 1: fulache (small blind) folded before Flop
+Seat 2: IryLee30 (big blind) collected ($0.32)
+Seat 4: JootaJ folded before Flop
+Seat 5: Romeo2107512 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: patriotsfan3912 (button) folded on the Flop
+
+
+
+PokerStars Hand #212515628406:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:59:49 ET
+Table 'Horemheb' 9-max Seat #1 is the button
+Seat 1: fulache ($2.30 in chips)
+Seat 2: IryLee30 ($1.25 in chips)
+Seat 4: JootaJ ($2.71 in chips)
+Seat 5: Romeo2107512 ($1.42 in chips)
+Seat 6: pokerHero1 ($1.95 in chips)
+Seat 7: Mamont_Tor ($2.45 in chips)
+Seat 8: m.sanitra ($1.94 in chips)
+Seat 9: patriotsfan3912 ($0.96 in chips)
+IryLee30: posts small blind $0.01
+JootaJ: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8d 5c]
+Romeo2107512: folds
+pokerHero1: folds
+Mamont_Tor: folds
+m.sanitra: folds
+patriotsfan3912: raises $0.04 to $0.06
+fulache: folds
+IryLee30: calls $0.05
+JootaJ: calls $0.04
+*** FLOP *** [6s 9s 3h]
+IryLee30: bets $0.09
+JootaJ: folds
+patriotsfan3912: raises $0.09 to $0.18
+IryLee30: folds [6d]
+Uncalled bet ($0.09) returned to patriotsfan3912
+patriotsfan3912 collected $0.35 from pot
+patriotsfan3912: doesn't show hand
+*** SUMMARY ***
+Total pot $0.36 | Rake $0.01
+Board [6s 9s 3h]
+Seat 1: fulache (button) folded before Flop (didn't bet)
+Seat 2: IryLee30 (small blind) folded on the Flop
+Seat 4: JootaJ (big blind) folded on the Flop
+Seat 5: Romeo2107512 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: patriotsfan3912 collected ($0.35)
+
+
+
+PokerStars Hand #212515671862:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:00:43 ET
+Table 'Horemheb' 9-max Seat #2 is the button
+Seat 1: fulache ($2.30 in chips)
+Seat 2: IryLee30 ($1.10 in chips)
+Seat 4: JootaJ ($2.65 in chips)
+Seat 5: Romeo2107512 ($1.42 in chips)
+Seat 6: pokerHero1 ($1.95 in chips)
+Seat 7: Mamont_Tor ($2.45 in chips)
+Seat 8: m.sanitra ($1.94 in chips)
+Seat 9: patriotsfan3912 ($1.16 in chips)
+JootaJ: posts small blind $0.01
+Romeo2107512: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8d Js]
+pokerHero1: folds
+Mamont_Tor: calls $0.02
+m.sanitra: folds
+patriotsfan3912: folds
+fulache: folds
+IryLee30: raises $0.07 to $0.09
+JootaJ: folds
+Romeo2107512: folds
+Mamont_Tor: calls $0.07
+*** FLOP *** [7d Qd 9s]
+Mamont_Tor: checks
+IryLee30: bets $0.13
+Mamont_Tor: calls $0.13
+*** TURN *** [7d Qd 9s] [Qh]
+Mamont_Tor: checks
+IryLee30: checks
+*** RIVER *** [7d Qd 9s Qh] [8s]
+Mamont_Tor: checks
+IryLee30: checks
+*** SHOW DOWN ***
+Mamont_Tor: shows [Kc Tc] (a pair of Queens)
+IryLee30: shows [9d Jc] (two pair, Queens and Nines)
+IryLee30 collected $0.45 from pot
+*** SUMMARY ***
+Total pot $0.47 | Rake $0.02
+Board [7d Qd 9s Qh 8s]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: IryLee30 (button) showed [9d Jc] and won ($0.45) with two pair, Queens and Nines
+Seat 4: JootaJ (small blind) folded before Flop
+Seat 5: Romeo2107512 (big blind) folded before Flop
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor showed [Kc Tc] and lost with a pair of Queens
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: patriotsfan3912 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515724646:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:01:43 ET
+Table 'Horemheb' 9-max Seat #4 is the button
+Seat 1: fulache ($2.30 in chips)
+Seat 4: JootaJ ($2.64 in chips)
+Seat 5: Romeo2107512 ($1.40 in chips)
+Seat 6: pokerHero1 ($1.95 in chips)
+Seat 7: Mamont_Tor ($2.23 in chips)
+Seat 8: m.sanitra ($1.94 in chips)
+Seat 9: patriotsfan3912 ($1.16 in chips)
+Romeo2107512: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ts 5h]
+Mamont_Tor: folds
+IryLee30 leaves the table
+m.sanitra: folds
+patriotsfan3912: folds
+fulache: folds
+JootaJ: raises $0.06 to $0.08
+Romeo2107512: folds
+pokerHero1: folds
+Uncalled bet ($0.06) returned to JootaJ
+JootaJ collected $0.05 from pot
+JootaJ: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 4: JootaJ (button) collected ($0.05)
+Seat 5: Romeo2107512 (small blind) folded before Flop
+Seat 6: pokerHero1 (big blind) folded before Flop
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: patriotsfan3912 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515744168:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:02:04 ET
+Table 'Horemheb' 9-max Seat #5 is the button
+Seat 1: fulache ($2.30 in chips)
+Seat 4: JootaJ ($2.67 in chips)
+Seat 5: Romeo2107512 ($1.39 in chips)
+Seat 6: pokerHero1 ($1.93 in chips)
+Seat 7: Mamont_Tor ($2.23 in chips)
+Seat 8: m.sanitra ($1.94 in chips)
+Seat 9: patriotsfan3912 ($1.16 in chips)
+pokerHero1: posts small blind $0.01
+Mamont_Tor: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c 7s]
+m.sanitra: folds
+patriotsfan3912: folds
+kitten_sweet joins the table at seat #2
+fulache: folds
+JootaJ: folds
+JootaJ leaves the table
+Romeo2107512: folds
+pokerHero1: folds
+Uncalled bet ($0.01) returned to Mamont_Tor
+Mamont_Tor collected $0.02 from pot
+Mamont_Tor: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 4: JootaJ folded before Flop (didn't bet)
+Seat 5: Romeo2107512 (button) folded before Flop (didn't bet)
+Seat 6: pokerHero1 (small blind) folded before Flop
+Seat 7: Mamont_Tor (big blind) collected ($0.02)
+Seat 8: m.sanitra folded before Flop (didn't bet)
+Seat 9: patriotsfan3912 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515772570:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:02:32 ET
+Table 'Horemheb' 9-max Seat #6 is the button
+Seat 1: fulache ($2.30 in chips)
+Seat 3: olegkorneff ($3.11 in chips)
+Seat 5: Romeo2107512 ($1.39 in chips)
+Seat 6: pokerHero1 ($1.92 in chips)
+Seat 7: Mamont_Tor ($2.24 in chips)
+Seat 9: patriotsfan3912 ($1.16 in chips)
+Mamont_Tor: posts small blind $0.01
+m.sanitra: is sitting out
+patriotsfan3912: posts big blind $0.02
+kitten_sweet: sits out
+olegkorneff: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd 2h]
+fulache: raises $0.08 to $0.10
+m.sanitra leaves the table
+olegkorneff: folds
+Romeo2107512: folds
+pokerHero1: folds
+lepetitprinc3 joins the table at seat #8
+Mamont_Tor: folds
+patriotsfan3912: folds
+Uncalled bet ($0.08) returned to fulache
+fulache collected $0.08 from pot
+fulache: doesn't show hand
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Seat 1: fulache collected ($0.08)
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 5: Romeo2107512 folded before Flop (didn't bet)
+Seat 6: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 7: Mamont_Tor (small blind) folded before Flop
+Seat 9: patriotsfan3912 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212515788146:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:02:47 ET
+Table 'Horemheb' 9-max Seat #7 is the button
+Seat 1: fulache ($2.36 in chips)
+Seat 3: olegkorneff ($3.08 in chips)
+Seat 5: Romeo2107512 ($1.39 in chips)
+Seat 6: pokerHero1 ($1.92 in chips)
+Seat 7: Mamont_Tor ($2.23 in chips)
+Seat 9: patriotsfan3912 ($1.14 in chips)
+patriotsfan3912: posts small blind $0.01
+fulache: posts big blind $0.02
+kitten_sweet: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kh 8s]
+olegkorneff: folds
+Romeo2107512: folds
+pokerHero1: folds
+Mamont_Tor: folds
+patriotsfan3912: raises $0.02 to $0.04
+fulache: calls $0.02
+*** FLOP *** [3h 9s 5d]
+patriotsfan3912: checks
+fulache: checks
+*** TURN *** [3h 9s 5d] [9c]
+patriotsfan3912: checks
+fulache: checks
+*** RIVER *** [3h 9s 5d 9c] [Qh]
+QMACH 173 joins the table at seat #4
+patriotsfan3912: bets $0.04
+fulache: folds
+Uncalled bet ($0.04) returned to patriotsfan3912
+patriotsfan3912 collected $0.08 from pot
+patriotsfan3912: doesn't show hand
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Board [3h 9s 5d 9c Qh]
+Seat 1: fulache (big blind) folded on the River
+Seat 3: olegkorneff folded before Flop (didn't bet)
+Seat 5: Romeo2107512 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor (button) folded before Flop (didn't bet)
+Seat 9: patriotsfan3912 (small blind) collected ($0.08)
+
+
+
+PokerStars Hand #212515836376:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:03:36 ET
+Table 'Horemheb' 9-max Seat #9 is the button
+Seat 1: fulache ($2.32 in chips)
+Seat 2: kitten_sweet ($0.80 in chips)
+Seat 3: olegkorneff ($3.08 in chips)
+Seat 5: Romeo2107512 ($1.39 in chips)
+Seat 6: pokerHero1 ($1.92 in chips)
+Seat 7: Mamont_Tor ($2.23 in chips)
+Seat 9: patriotsfan3912 ($1.18 in chips)
+fulache: posts small blind $0.01
+kitten_sweet: posts big blind $0.02
+QMACH 173: sits out
+lepetitprinc3: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d 4c]
+olegkorneff: calls $0.02
+Romeo2107512: folds
+pokerHero1: folds
+Mamont_Tor: folds
+patriotsfan3912: folds
+fulache: folds
+kitten_sweet: checks
+*** FLOP *** [3h Ks Td]
+kitten_sweet: checks
+olegkorneff: checks
+*** TURN *** [3h Ks Td] [4s]
+kitten_sweet: checks
+olegkorneff: bets $0.02
+kitten_sweet: folds
+Uncalled bet ($0.02) returned to olegkorneff
+olegkorneff collected $0.05 from pot
+olegkorneff: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [3h Ks Td 4s]
+Seat 1: fulache (small blind) folded before Flop
+Seat 2: kitten_sweet (big blind) folded on the Turn
+Seat 3: olegkorneff collected ($0.05)
+Seat 5: Romeo2107512 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 9: patriotsfan3912 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515865291:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:04:05 ET
+Table 'Horemheb' 9-max Seat #1 is the button
+Seat 1: fulache ($2.31 in chips)
+Seat 2: kitten_sweet ($0.78 in chips)
+Seat 3: olegkorneff ($3.11 in chips)
+Seat 5: Romeo2107512 ($1.39 in chips)
+Seat 6: pokerHero1 ($1.92 in chips)
+Seat 7: Mamont_Tor ($2.23 in chips)
+Seat 9: patriotsfan3912 ($1.18 in chips)
+kitten_sweet: posts small blind $0.01
+olegkorneff: posts big blind $0.02
+QMACH 173: sits out
+lepetitprinc3: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c Kh]
+Romeo2107512: folds
+pokerHero1: folds
+Mamont_Tor: raises $0.04 to $0.06
+patriotsfan3912: folds
+fulache: calls $0.06
+kitten_sweet: folds
+olegkorneff: calls $0.04
+*** FLOP *** [Th Qh Td]
+olegkorneff: checks
+Mamont_Tor: bets $0.10
+fulache: calls $0.10
+olegkorneff: calls $0.10
+*** TURN *** [Th Qh Td] [7s]
+olegkorneff: checks
+Mamont_Tor: bets $0.22
+fulache: calls $0.22
+olegkorneff: calls $0.22
+*** RIVER *** [Th Qh Td 7s] [4s]
+olegkorneff: checks
+Mamont_Tor: checks
+fulache: checks
+*** SHOW DOWN ***
+olegkorneff: shows [Ts Jd] (three of a kind, Tens)
+Mamont_Tor: mucks hand
+fulache: mucks hand
+olegkorneff collected $1.11 from pot
+*** SUMMARY ***
+Total pot $1.15 | Rake $0.04
+Board [Th Qh Td 7s 4s]
+Seat 1: fulache (button) mucked [Ah 9h]
+Seat 2: kitten_sweet (small blind) folded before Flop
+Seat 3: olegkorneff (big blind) showed [Ts Jd] and won ($1.11) with three of a kind, Tens
+Seat 5: Romeo2107512 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor mucked [Qc Jh]
+Seat 9: patriotsfan3912 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515944862:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:05:24 ET
+Table 'Horemheb' 9-max Seat #2 is the button
+Seat 1: fulache ($1.93 in chips)
+Seat 2: kitten_sweet ($0.77 in chips)
+Seat 3: olegkorneff ($3.84 in chips)
+Seat 4: QMACH 173 ($0.80 in chips)
+Seat 5: Romeo2107512 ($1.39 in chips)
+Seat 6: pokerHero1 ($1.92 in chips)
+Seat 7: Mamont_Tor ($1.85 in chips)
+Seat 9: patriotsfan3912 ($1.18 in chips)
+olegkorneff: posts small blind $0.01
+QMACH 173: posts big blind $0.02
+lepetitprinc3: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc 5h]
+Romeo2107512 has timed out
+Romeo2107512: folds
+pokerHero1: folds
+Mamont_Tor: folds
+patriotsfan3912: raises $0.02 to $0.04
+fulache: folds
+kitten_sweet: folds
+olegkorneff: calls $0.03
+QMACH 173: calls $0.02
+*** FLOP *** [As Td 5s]
+olegkorneff: checks
+QMACH 173: checks
+patriotsfan3912: bets $0.04
+olegkorneff: calls $0.04
+QMACH 173: folds
+*** TURN *** [As Td 5s] [2c]
+olegkorneff: checks
+patriotsfan3912: bets $0.08
+olegkorneff: calls $0.08
+*** RIVER *** [As Td 5s 2c] [Ad]
+olegkorneff: checks
+patriotsfan3912: bets $0.15
+olegkorneff: folds
+Uncalled bet ($0.15) returned to patriotsfan3912
+patriotsfan3912 collected $0.35 from pot
+patriotsfan3912: doesn't show hand
+*** SUMMARY ***
+Total pot $0.36 | Rake $0.01
+Board [As Td 5s 2c Ad]
+Seat 1: fulache folded before Flop (didn't bet)
+Seat 2: kitten_sweet (button) folded before Flop (didn't bet)
+Seat 3: olegkorneff (small blind) folded on the River
+Seat 4: QMACH 173 (big blind) folded on the Flop
+Seat 5: Romeo2107512 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Mamont_Tor folded before Flop (didn't bet)
+Seat 9: patriotsfan3912 collected ($0.35)
+
+
+

@@ -1,0 +1,1596 @@
+﻿PokerStars Hand #212113219605:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 13:54:25 ET
+Table 'Aksnes II' 9-max Seat #8 is the button
+Seat 1: Parker09SA ($2.70 in chips)
+Seat 2: pokerHero1 ($2.35 in chips)
+Seat 3: fifita78 ($1.20 in chips)
+Seat 5: grindhauz ($0.06 in chips)
+Seat 6: Undispute477 ($1.50 in chips)
+Seat 7: Jerry194208 ($1.73 in chips)
+Seat 8: BRUNOFUENTES27 ($2.64 in chips)
+Seat 9: Finalflash007 ($2.22 in chips)
+Finalflash007: posts small blind $0.01
+Parker09SA: posts big blind $0.02
+Buscapina277: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c 2s]
+pokerHero1: folds
+grindhauz said, "pokerstars is just the best platform ever"
+fifita78: folds
+grindhauz: raises $0.04 to $0.06 and is all-in
+Undispute477: folds
+Jerry194208: folds
+BRUNOFUENTES27: calls $0.06
+Finalflash007: folds
+Parker09SA: calls $0.04
+*** FLOP *** [Td 5h Jh]
+Parker09SA: checks
+BRUNOFUENTES27: checks
+*** TURN *** [Td 5h Jh] [9c]
+Parker09SA: checks
+BRUNOFUENTES27: checks
+*** RIVER *** [Td 5h Jh 9c] [6s]
+Parker09SA: checks
+BRUNOFUENTES27: bets $0.18
+Parker09SA: folds
+Uncalled bet ($0.18) returned to BRUNOFUENTES27
+*** SHOW DOWN ***
+BRUNOFUENTES27: shows [Jd 5d] (two pair, Jacks and Fives)
+grindhauz: shows [3d 8c] (high card Jack)
+BRUNOFUENTES27 collected $0.18 from pot
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [Td 5h Jh 9c 6s]
+Seat 1: Parker09SA (big blind) folded on the River
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: fifita78 folded before Flop (didn't bet)
+Seat 5: grindhauz showed [3d 8c] and lost with high card Jack
+Seat 6: Undispute477 folded before Flop (didn't bet)
+Seat 7: Jerry194208 folded before Flop (didn't bet)
+Seat 8: BRUNOFUENTES27 (button) showed [Jd 5d] and won ($0.18) with two pair, Jacks and Fives
+Seat 9: Finalflash007 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212113281147:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 13:55:19 ET
+Table 'Aksnes II' 9-max Seat #9 is the button
+Seat 1: Parker09SA ($2.64 in chips)
+Seat 2: pokerHero1 ($2.35 in chips)
+Seat 3: fifita78 ($1.20 in chips)
+Seat 6: Undispute477 ($1.50 in chips)
+Seat 7: Jerry194208 ($1.73 in chips)
+Seat 8: BRUNOFUENTES27 ($2.76 in chips)
+Seat 9: Finalflash007 ($2.21 in chips)
+Parker09SA: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+Buscapina277: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8h Td]
+fifita78: calls $0.02
+grindhauz leaves the table
+Undispute477: folds
+Jerry194208: folds
+BRUNOFUENTES27: folds
+Finalflash007: folds
+Parker09SA: folds
+pokerHero1: checks
+*** FLOP *** [Ks 5s 5d]
+pokerHero1: checks
+fifita78: checks
+*** TURN *** [Ks 5s 5d] [2s]
+pokerHero1: checks
+fifita78: bets $0.05
+pokerHero1: folds
+Uncalled bet ($0.05) returned to fifita78
+fifita78 collected $0.05 from pot
+fifita78: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [Ks 5s 5d 2s]
+Seat 1: Parker09SA (small blind) folded before Flop
+Seat 2: pokerHero1 (big blind) folded on the Turn
+Seat 3: fifita78 collected ($0.05)
+Seat 6: Undispute477 folded before Flop (didn't bet)
+Seat 7: Jerry194208 folded before Flop (didn't bet)
+Seat 8: BRUNOFUENTES27 folded before Flop (didn't bet)
+Seat 9: Finalflash007 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212113305516:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 13:55:52 ET
+Table 'Aksnes II' 9-max Seat #1 is the button
+Seat 1: Parker09SA ($2.63 in chips)
+Seat 2: pokerHero1 ($2.33 in chips)
+Seat 3: fifita78 ($1.23 in chips)
+Seat 6: Undispute477 ($1.50 in chips)
+Seat 7: Jerry194208 ($1.73 in chips)
+Seat 8: BRUNOFUENTES27 ($2.76 in chips)
+Seat 9: Finalflash007 ($2.21 in chips)
+pokerHero1: posts small blind $0.01
+fifita78: posts big blind $0.02
+Buscapina277: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ts Ad]
+Undispute477: folds
+Jerry194208: calls $0.02
+BRUNOFUENTES27: calls $0.02
+Finalflash007: folds
+Trend154reg joins the table at seat #5
+Parker09SA: calls $0.02
+pokerHero1: raises $0.10 to $0.12
+fifita78: folds
+Jerry194208: calls $0.10
+BRUNOFUENTES27: folds
+Parker09SA: folds
+*** FLOP *** [9c 8d 4d]
+pokerHero1: bets $0.20
+Jerry194208: folds
+Uncalled bet ($0.20) returned to pokerHero1
+pokerHero1 collected $0.29 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.30 | Rake $0.01
+Board [9c 8d 4d]
+Seat 1: Parker09SA (button) folded before Flop
+Seat 2: pokerHero1 (small blind) collected ($0.29)
+Seat 3: fifita78 (big blind) folded before Flop
+Seat 6: Undispute477 folded before Flop (didn't bet)
+Seat 7: Jerry194208 folded on the Flop
+Seat 8: BRUNOFUENTES27 folded before Flop
+Seat 9: Finalflash007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212113336277:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 13:56:32 ET
+Table 'Aksnes II' 9-max Seat #2 is the button
+Seat 1: Parker09SA ($2.61 in chips)
+Seat 2: pokerHero1 ($2.50 in chips)
+Seat 3: fifita78 ($1.21 in chips)
+Seat 4: Buscapina277 ($0.80 in chips)
+Seat 5: Trend154reg ($2 in chips)
+Seat 6: Undispute477 ($1.50 in chips)
+Seat 7: Jerry194208 ($1.61 in chips)
+Seat 8: BRUNOFUENTES27 ($2.74 in chips)
+Seat 9: Finalflash007 ($2.21 in chips)
+fifita78: posts small blind $0.01
+Buscapina277: posts big blind $0.02
+Trend154reg: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s Jh]
+Trend154reg: checks
+Undispute477: folds
+Jerry194208: folds
+BRUNOFUENTES27: calls $0.02
+Finalflash007: raises $0.05 to $0.07
+Parker09SA: calls $0.07
+pokerHero1: folds
+fifita78: folds
+Buscapina277: folds
+Trend154reg: calls $0.05
+BRUNOFUENTES27: folds
+*** FLOP *** [7s Ts Ad]
+Trend154reg: checks
+Finalflash007: checks
+Parker09SA: bets $0.14
+Trend154reg: folds
+Finalflash007: folds
+Uncalled bet ($0.14) returned to Parker09SA
+Parker09SA collected $0.25 from pot
+*** SUMMARY ***
+Total pot $0.26 | Rake $0.01
+Board [7s Ts Ad]
+Seat 1: Parker09SA collected ($0.25)
+Seat 2: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 3: fifita78 (small blind) folded before Flop
+Seat 4: Buscapina277 (big blind) folded before Flop
+Seat 5: Trend154reg folded on the Flop
+Seat 6: Undispute477 folded before Flop (didn't bet)
+Seat 7: Jerry194208 folded before Flop (didn't bet)
+Seat 8: BRUNOFUENTES27 folded before Flop
+Seat 9: Finalflash007 folded on the Flop
+
+
+
+PokerStars Hand #212113377559:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 13:57:26 ET
+Table 'Aksnes II' 9-max Seat #3 is the button
+Seat 1: Parker09SA ($2.79 in chips)
+Seat 2: pokerHero1 ($2.50 in chips)
+Seat 3: fifita78 ($1.20 in chips)
+Seat 4: Buscapina277 ($0.78 in chips)
+Seat 5: Trend154reg ($1.93 in chips)
+Seat 6: Undispute477 ($1.50 in chips)
+Seat 7: Jerry194208 ($1.61 in chips)
+Seat 8: BRUNOFUENTES27 ($2.72 in chips)
+Seat 9: Finalflash007 ($2.14 in chips)
+Buscapina277: posts small blind $0.01
+Trend154reg: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kh 2c]
+Undispute477: folds
+Jerry194208: folds
+Undispute477 leaves the table
+BRUNOFUENTES27: folds
+Finalflash007: raises $0.05 to $0.07
+subarist085 joins the table at seat #6
+Parker09SA: calls $0.07
+pokerHero1: folds
+fifita78: folds
+Buscapina277: calls $0.06
+Trend154reg: folds
+*** FLOP *** [2s 3h 4c]
+Buscapina277: checks
+Finalflash007: bets $0.15
+Parker09SA: folds
+Buscapina277: folds
+Uncalled bet ($0.15) returned to Finalflash007
+Finalflash007 collected $0.22 from pot
+Finalflash007: doesn't show hand
+*** SUMMARY ***
+Total pot $0.23 | Rake $0.01
+Board [2s 3h 4c]
+Seat 1: Parker09SA folded on the Flop
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: fifita78 (button) folded before Flop (didn't bet)
+Seat 4: Buscapina277 (small blind) folded on the Flop
+Seat 5: Trend154reg (big blind) folded before Flop
+Seat 6: Undispute477 folded before Flop (didn't bet)
+Seat 7: Jerry194208 folded before Flop (didn't bet)
+Seat 8: BRUNOFUENTES27 folded before Flop (didn't bet)
+Seat 9: Finalflash007 collected ($0.22)
+
+
+
+PokerStars Hand #212113408640:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 13:58:06 ET
+Table 'Aksnes II' 9-max Seat #4 is the button
+Seat 1: Parker09SA ($2.72 in chips)
+Seat 2: pokerHero1 ($2.50 in chips)
+Seat 3: fifita78 ($1.20 in chips)
+Seat 4: Buscapina277 ($0.71 in chips)
+Seat 5: Trend154reg ($1.91 in chips)
+Seat 6: subarist085 ($1.60 in chips)
+Seat 7: Jerry194208 ($1.61 in chips)
+Seat 8: BRUNOFUENTES27 ($2.72 in chips)
+Seat 9: Finalflash007 ($2.29 in chips)
+Trend154reg: posts small blind $0.01
+subarist085: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ts 7c]
+Jerry194208: calls $0.02
+BRUNOFUENTES27: calls $0.02
+Finalflash007: folds
+Parker09SA: calls $0.02
+pokerHero1: folds
+fifita78: folds
+Buscapina277: folds
+Trend154reg: folds
+subarist085: checks
+*** FLOP *** [Ks Qs Kc]
+subarist085: checks
+Jerry194208: bets $0.02
+BRUNOFUENTES27: calls $0.02
+Parker09SA: calls $0.02
+subarist085: folds
+*** TURN *** [Ks Qs Kc] [3h]
+Jerry194208: bets $0.02
+BRUNOFUENTES27: calls $0.02
+Parker09SA: calls $0.02
+*** RIVER *** [Ks Qs Kc 3h] [Ad]
+Jerry194208: bets $0.12
+BRUNOFUENTES27: folds
+Parker09SA: folds
+Uncalled bet ($0.12) returned to Jerry194208
+Jerry194208 collected $0.20 from pot
+Jerry194208: doesn't show hand
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [Ks Qs Kc 3h Ad]
+Seat 1: Parker09SA folded on the River
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: fifita78 folded before Flop (didn't bet)
+Seat 4: Buscapina277 (button) folded before Flop (didn't bet)
+Seat 5: Trend154reg (small blind) folded before Flop
+Seat 6: subarist085 (big blind) folded on the Flop
+Seat 7: Jerry194208 collected ($0.20)
+Seat 8: BRUNOFUENTES27 folded on the River
+Seat 9: Finalflash007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212113457154:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 13:59:09 ET
+Table 'Aksnes II' 9-max Seat #5 is the button
+Seat 1: Parker09SA ($2.66 in chips)
+Seat 2: pokerHero1 ($2.50 in chips)
+Seat 3: fifita78 ($1.20 in chips)
+Seat 4: Buscapina277 ($0.71 in chips)
+Seat 5: Trend154reg ($1.90 in chips)
+Seat 6: subarist085 ($1.58 in chips)
+Seat 7: Jerry194208 ($1.75 in chips)
+Seat 8: BRUNOFUENTES27 ($2.66 in chips)
+Seat 9: Finalflash007 ($2.29 in chips)
+subarist085: posts small blind $0.01
+Jerry194208: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd 8c]
+BRUNOFUENTES27: calls $0.02
+Finalflash007: raises $0.05 to $0.07
+Parker09SA: folds
+pokerHero1: folds
+fifita78: folds
+Buscapina277: folds
+Trend154reg: folds
+subarist085: calls $0.06
+Jerry194208: folds
+BRUNOFUENTES27: folds
+*** FLOP *** [Qh 9d 5c]
+subarist085: checks
+Finalflash007: bets $0.11
+subarist085: calls $0.11
+*** TURN *** [Qh 9d 5c] [Ah]
+subarist085: bets $0.20
+Finalflash007: folds
+Uncalled bet ($0.20) returned to subarist085
+subarist085 collected $0.39 from pot
+subarist085: doesn't show hand
+*** SUMMARY ***
+Total pot $0.40 | Rake $0.01
+Board [Qh 9d 5c Ah]
+Seat 1: Parker09SA folded before Flop (didn't bet)
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: fifita78 folded before Flop (didn't bet)
+Seat 4: Buscapina277 folded before Flop (didn't bet)
+Seat 5: Trend154reg (button) folded before Flop (didn't bet)
+Seat 6: subarist085 (small blind) collected ($0.39)
+Seat 7: Jerry194208 (big blind) folded before Flop
+Seat 8: BRUNOFUENTES27 folded before Flop
+Seat 9: Finalflash007 folded on the Turn
+
+
+
+PokerStars Hand #212113507858:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:00:12 ET
+Table 'Aksnes II' 9-max Seat #6 is the button
+Seat 1: Parker09SA ($2.66 in chips)
+Seat 2: pokerHero1 ($2.50 in chips)
+Seat 3: fifita78 ($1.20 in chips)
+Seat 4: Buscapina277 ($0.71 in chips)
+Seat 5: Trend154reg ($1.90 in chips)
+Seat 6: subarist085 ($1.79 in chips)
+Seat 7: Jerry194208 ($1.73 in chips)
+Seat 8: BRUNOFUENTES27 ($2.64 in chips)
+Seat 9: Finalflash007 ($2.11 in chips)
+Jerry194208: posts small blind $0.01
+BRUNOFUENTES27: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ts 9s]
+Finalflash007: folds
+Parker09SA: folds
+pokerHero1 has timed out
+pokerHero1: folds
+fifita78: raises $0.05 to $0.07
+Buscapina277: folds
+Trend154reg: calls $0.07
+subarist085: folds
+Jerry194208: folds
+Buscapina277 leaves the table
+BRUNOFUENTES27: calls $0.05
+*** FLOP *** [9c 6c Tc]
+GIE0RGE joins the table at seat #4
+BRUNOFUENTES27: checks
+fifita78: checks
+Trend154reg: bets $0.04
+BRUNOFUENTES27: raises $0.29 to $0.33
+fifita78: folds
+Trend154reg: calls $0.29
+*** TURN *** [9c 6c Tc] [4h]
+BRUNOFUENTES27: checks
+Trend154reg: checks
+*** RIVER *** [9c 6c Tc 4h] [7d]
+BRUNOFUENTES27: checks
+Trend154reg: checks
+*** SHOW DOWN ***
+BRUNOFUENTES27: shows [Ks 7s] (a pair of Sevens)
+Trend154reg: shows [Qd Qc] (a pair of Queens)
+Trend154reg collected $0.85 from pot
+*** SUMMARY ***
+Total pot $0.88 | Rake $0.03
+Board [9c 6c Tc 4h 7d]
+Seat 1: Parker09SA folded before Flop (didn't bet)
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: fifita78 folded on the Flop
+Seat 4: Buscapina277 folded before Flop (didn't bet)
+Seat 5: Trend154reg showed [Qd Qc] and won ($0.85) with a pair of Queens
+Seat 6: subarist085 (button) folded before Flop (didn't bet)
+Seat 7: Jerry194208 (small blind) folded before Flop
+Seat 8: BRUNOFUENTES27 (big blind) showed [Ks 7s] and lost with a pair of Sevens
+Seat 9: Finalflash007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212113583449:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:01:37 ET
+Table 'Aksnes II' 9-max Seat #7 is the button
+Seat 1: Parker09SA ($2.66 in chips)
+Seat 2: pokerHero1 ($2.50 in chips)
+Seat 3: fifita78 ($1.13 in chips)
+Seat 4: GIE0RGE ($1.60 in chips)
+Seat 5: Trend154reg ($2.35 in chips)
+Seat 6: subarist085 ($1.79 in chips)
+Seat 7: Jerry194208 ($1.72 in chips)
+Seat 8: BRUNOFUENTES27 ($2.24 in chips)
+Seat 9: Finalflash007 ($2.11 in chips)
+BRUNOFUENTES27: posts small blind $0.01
+Finalflash007: posts big blind $0.02
+GIE0RGE: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d Jh]
+Parker09SA: raises $0.08 to $0.10
+pokerHero1: folds
+fifita78: folds
+GIE0RGE: folds
+Trend154reg: folds
+subarist085: calls $0.10
+Jerry194208: calls $0.10
+BRUNOFUENTES27: calls $0.09
+Finalflash007: folds
+*** FLOP *** [Ac 6s 5c]
+BRUNOFUENTES27: checks
+Parker09SA: bets $0.24
+subarist085: folds
+Jerry194208: calls $0.24
+BRUNOFUENTES27: calls $0.24
+*** TURN *** [Ac 6s 5c] [Kd]
+BRUNOFUENTES27: bets $1.12
+Parker09SA: calls $1.12
+Jerry194208: calls $1.12
+*** RIVER *** [Ac 6s 5c Kd] [8s]
+BRUNOFUENTES27: checks
+Parker09SA: bets $1.20 and is all-in
+Jerry194208: calls $0.26 and is all-in
+BRUNOFUENTES27: calls $0.78 and is all-in
+Uncalled bet ($0.42) returned to Parker09SA
+*** SHOW DOWN ***
+Parker09SA: shows [As Ks] (two pair, Aces and Kings)
+BRUNOFUENTES27: shows [9s Ah] (a pair of Aces)
+Parker09SA collected $1.01 from side pot
+Jerry194208: shows [Kc Tc] (a pair of Kings)
+Parker09SA collected $5.11 from main pot
+*** SUMMARY ***
+Total pot $6.34 Main pot $5.11. Side pot $1.01. | Rake $0.22
+Board [Ac 6s 5c Kd 8s]
+Seat 1: Parker09SA showed [As Ks] and won ($6.12) with two pair, Aces and Kings
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: fifita78 folded before Flop (didn't bet)
+Seat 4: GIE0RGE folded before Flop (didn't bet)
+Seat 5: Trend154reg folded before Flop (didn't bet)
+Seat 6: subarist085 folded on the Flop
+Seat 7: Jerry194208 (button) showed [Kc Tc] and lost with a pair of Kings
+Seat 8: BRUNOFUENTES27 (small blind) showed [9s Ah] and lost with a pair of Aces
+Seat 9: Finalflash007 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212113654074:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:02:46 ET
+Table 'Aksnes II' 9-max Seat #9 is the button
+Seat 1: Parker09SA ($6.54 in chips)
+Seat 2: pokerHero1 ($2.50 in chips)
+Seat 3: fifita78 ($1.13 in chips)
+Seat 4: GIE0RGE ($1.58 in chips)
+Seat 5: Trend154reg ($2.35 in chips)
+Seat 6: subarist085 ($1.69 in chips)
+Seat 7: Jerry194208 ($2 in chips)
+Seat 9: Finalflash007 ($2.09 in chips)
+Parker09SA: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh Jd]
+fifita78: folds
+GIE0RGE: folds
+BRUNOFUENTES27 leaves the table
+Trend154reg: folds
+subarist085: folds
+Jerry194208: folds
+Jerry194208 leaves the table
+Finalflash007: raises $0.05 to $0.07
+Parker09SA: calls $0.06
+pokerHero1: calls $0.05
+*** FLOP *** [5d 4s Kh]
+Parker09SA: checks
+pokerHero1: checks
+Finalflash007: bets $0.13
+Parker09SA: folds
+pokerHero1: calls $0.13
+*** TURN *** [5d 4s Kh] [8s]
+pokerHero1: checks
+Finalflash007: checks
+*** RIVER *** [5d 4s Kh 8s] [3c]
+pokerHero1: checks
+Finalflash007: checks
+*** SHOW DOWN ***
+pokerHero1: shows [Qh Jd] (high card King)
+Finalflash007: shows [Ad 6d] (high card Ace)
+Finalflash007 collected $0.45 from pot
+*** SUMMARY ***
+Total pot $0.47 | Rake $0.02
+Board [5d 4s Kh 8s 3c]
+Seat 1: Parker09SA (small blind) folded on the Flop
+Seat 2: pokerHero1 (big blind) showed [Qh Jd] and lost with high card King
+Seat 3: fifita78 folded before Flop (didn't bet)
+Seat 4: GIE0RGE folded before Flop (didn't bet)
+Seat 5: Trend154reg folded before Flop (didn't bet)
+Seat 6: subarist085 folded before Flop (didn't bet)
+Seat 7: Jerry194208 folded before Flop (didn't bet)
+Seat 9: Finalflash007 (button) showed [Ad 6d] and won ($0.45) with high card Ace
+
+
+
+PokerStars Hand #212113717818:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:03:45 ET
+Table 'Aksnes II' 9-max Seat #1 is the button
+Seat 1: Parker09SA ($6.47 in chips)
+Seat 2: pokerHero1 ($2.30 in chips)
+Seat 3: fifita78 ($1.13 in chips)
+Seat 4: GIE0RGE ($1.58 in chips)
+Seat 5: Trend154reg ($2.35 in chips)
+Seat 6: subarist085 ($1.69 in chips)
+Seat 9: Finalflash007 ($2.34 in chips)
+pokerHero1: posts small blind $0.01
+Matze720 joins the table at seat #7
+fifita78: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5c 2s]
+GIE0RGE: raises $0.04 to $0.06
+Trend154reg: folds
+subarist085: calls $0.06
+Finalflash007: folds
+Parker09SA: folds
+pokerHero1: folds
+fifita78: folds
+*** FLOP *** [Ac 9s 7c]
+fifita78 leaves the table
+titoneopren joins the table at seat #8
+GIE0RGE: checks
+subarist085: checks
+*** TURN *** [Ac 9s 7c] [8h]
+partizan_vlg joins the table at seat #3
+GIE0RGE: bets $0.07
+subarist085: raises $0.15 to $0.22
+GIE0RGE: calls $0.15
+*** RIVER *** [Ac 9s 7c 8h] [Tc]
+GIE0RGE: checks
+subarist085: bets $0.56
+GIE0RGE: calls $0.56
+*** SHOW DOWN ***
+subarist085: shows [Ah 6h] (a straight, Six to Ten)
+GIE0RGE: mucks hand
+subarist085 collected $1.65 from pot
+*** SUMMARY ***
+Total pot $1.71 | Rake $0.06
+Board [Ac 9s 7c 8h Tc]
+Seat 1: Parker09SA (button) folded before Flop (didn't bet)
+Seat 2: pokerHero1 (small blind) folded before Flop
+Seat 3: fifita78 (big blind) folded before Flop
+Seat 4: GIE0RGE mucked [9c As]
+Seat 5: Trend154reg folded before Flop (didn't bet)
+Seat 6: subarist085 showed [Ah 6h] and won ($1.65) with a straight, Six to Ten
+Seat 9: Finalflash007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212113800686:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:05:03 ET
+Table 'Aksnes II' 9-max Seat #2 is the button
+Seat 1: Parker09SA ($6.47 in chips)
+Seat 2: pokerHero1 ($2.29 in chips)
+Seat 4: GIE0RGE ($0.74 in chips)
+Seat 5: Trend154reg ($2.35 in chips)
+Seat 6: subarist085 ($2.50 in chips)
+Seat 7: Matze720 ($2 in chips)
+Seat 9: Finalflash007 ($2.34 in chips)
+GIE0RGE: posts small blind $0.01
+Trend154reg: posts big blind $0.02
+Matze720: posts big blind $0.02
+titoneopren: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s As]
+subarist085: folds
+Matze720: checks
+Finalflash007: folds
+Parker09SA: folds
+pokerHero1: raises $0.06 to $0.08
+GIE0RGE: folds
+Trend154reg: folds
+Matze720: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.07 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Seat 1: Parker09SA folded before Flop (didn't bet)
+Seat 2: pokerHero1 (button) collected ($0.07)
+Seat 4: GIE0RGE (small blind) folded before Flop
+Seat 5: Trend154reg (big blind) folded before Flop
+Seat 6: subarist085 folded before Flop (didn't bet)
+Seat 7: Matze720 folded before Flop (didn't bet)
+Seat 9: Finalflash007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212113825574:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:05:26 ET
+Table 'Aksnes II' 9-max Seat #4 is the button
+Seat 1: Parker09SA ($6.47 in chips)
+Seat 2: pokerHero1 ($2.34 in chips)
+Seat 4: GIE0RGE ($0.73 in chips)
+Seat 5: Trend154reg ($2.33 in chips)
+Seat 6: subarist085 ($2.50 in chips)
+Seat 7: Matze720 ($1.98 in chips)
+Seat 9: Finalflash007 ($2.34 in chips)
+Trend154reg: posts small blind $0.01
+subarist085: posts big blind $0.02
+titoneopren: sits out
+partizan_vlg: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4h 8s]
+Matze720: calls $0.02
+Finalflash007: folds
+Parker09SA: raises $0.10 to $0.12
+pokerHero1: folds
+GIE0RGE: folds
+Trend154reg: folds
+subarist085: folds
+Matze720: folds
+Uncalled bet ($0.10) returned to Parker09SA
+Parker09SA collected $0.07 from pot
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Seat 1: Parker09SA collected ($0.07)
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 4: GIE0RGE (button) folded before Flop (didn't bet)
+Seat 5: Trend154reg (small blind) folded before Flop
+Seat 6: subarist085 (big blind) folded before Flop
+Seat 7: Matze720 folded before Flop
+Seat 9: Finalflash007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212113843167:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:05:43 ET
+Table 'Aksnes II' 9-max Seat #5 is the button
+Seat 1: Parker09SA ($6.52 in chips)
+Seat 2: pokerHero1 ($2.34 in chips)
+Seat 4: GIE0RGE ($0.73 in chips)
+Seat 5: Trend154reg ($2.32 in chips)
+Seat 6: subarist085 ($2.48 in chips)
+Seat 7: Matze720 ($1.96 in chips)
+Seat 9: Finalflash007 ($2.34 in chips)
+subarist085: posts small blind $0.01
+Matze720: posts big blind $0.02
+titoneopren: sits out
+partizan_vlg: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th 8d]
+Finalflash007: folds
+Parker09SA: folds
+pokerHero1: folds
+GIE0RGE: raises $0.04 to $0.06
+Trend154reg: folds
+subarist085: calls $0.05
+Matze720: calls $0.04
+*** FLOP *** [Td 3d 6s]
+subarist085: checks
+Matze720: checks
+GIE0RGE: bets $0.17
+subarist085: folds
+Matze720: folds
+Uncalled bet ($0.17) returned to GIE0RGE
+GIE0RGE collected $0.17 from pot
+GIE0RGE: doesn't show hand
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [Td 3d 6s]
+Seat 1: Parker09SA folded before Flop (didn't bet)
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 4: GIE0RGE collected ($0.17)
+Seat 5: Trend154reg (button) folded before Flop (didn't bet)
+Seat 6: subarist085 (small blind) folded on the Flop
+Seat 7: Matze720 (big blind) folded on the Flop
+Seat 9: Finalflash007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212113874895:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:06:12 ET
+Table 'Aksnes II' 9-max Seat #6 is the button
+Seat 1: Parker09SA ($6.52 in chips)
+Seat 2: pokerHero1 ($2.34 in chips)
+Seat 4: GIE0RGE ($0.84 in chips)
+Seat 5: Trend154reg ($2.32 in chips)
+Seat 6: subarist085 ($2.42 in chips)
+Seat 7: Matze720 ($1.90 in chips)
+Seat 8: titoneopren ($0.80 in chips)
+Seat 9: Finalflash007 ($2.34 in chips)
+Matze720: posts small blind $0.01
+titoneopren: posts big blind $0.02
+partizan_vlg: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c Tc]
+Finalflash007: raises $0.05 to $0.07
+Parker09SA: calls $0.07
+pokerHero1: folds
+GIE0RGE: folds
+Trend154reg: folds
+subarist085: folds
+Matze720: folds
+titoneopren has timed out
+titoneopren: folds
+*** FLOP *** [9c 2s 4h]
+Finalflash007: bets $0.11
+Parker09SA: folds
+Uncalled bet ($0.11) returned to Finalflash007
+Finalflash007 collected $0.16 from pot
+Finalflash007: doesn't show hand
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [9c 2s 4h]
+Seat 1: Parker09SA folded on the Flop
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 4: GIE0RGE folded before Flop (didn't bet)
+Seat 5: Trend154reg folded before Flop (didn't bet)
+Seat 6: subarist085 (button) folded before Flop (didn't bet)
+Seat 7: Matze720 (small blind) folded before Flop
+Seat 8: titoneopren (big blind) folded before Flop
+Seat 9: Finalflash007 collected ($0.16)
+
+
+
+PokerStars Hand #212113943772:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:07:11 ET
+Table 'Aksnes II' 9-max Seat #7 is the button
+Seat 2: pokerHero1 ($2.34 in chips)
+Seat 4: GIE0RGE ($0.84 in chips)
+Seat 5: Trend154reg ($2.32 in chips)
+Seat 6: subarist085 ($2.42 in chips)
+Seat 7: Matze720 ($1.89 in chips)
+Seat 9: Finalflash007 ($2.43 in chips)
+Finalflash007: posts small blind $0.01
+Parker09SA: is sitting out
+pokerHero1: posts big blind $0.02
+Parker09SA leaves the table
+partizan_vlg: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc 2s]
+njifares joins the table at seat #1
+GIE0RGE: folds
+Trend154reg: folds
+subarist085: calls $0.02
+Matze720: folds
+Finalflash007: calls $0.01
+pokerHero1: checks
+*** FLOP *** [4c As Th]
+Finalflash007: checks
+pokerHero1: checks
+subarist085: checks
+*** TURN *** [4c As Th] [Ad]
+Finalflash007: bets $0.04
+pokerHero1: folds
+subarist085: folds
+Uncalled bet ($0.04) returned to Finalflash007
+Finalflash007 collected $0.06 from pot
+Finalflash007: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [4c As Th Ad]
+Seat 2: pokerHero1 (big blind) folded on the Turn
+Seat 4: GIE0RGE folded before Flop (didn't bet)
+Seat 5: Trend154reg folded before Flop (didn't bet)
+Seat 6: subarist085 folded on the Turn
+Seat 7: Matze720 (button) folded before Flop (didn't bet)
+Seat 9: Finalflash007 (small blind) collected ($0.06)
+
+
+
+PokerStars Hand #212113994164:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:07:58 ET
+Table 'Aksnes II' 9-max Seat #9 is the button
+Seat 2: pokerHero1 ($2.32 in chips)
+Seat 3: partizan_vlg ($1 in chips)
+Seat 4: GIE0RGE ($0.84 in chips)
+Seat 5: Trend154reg ($2.32 in chips)
+Seat 6: subarist085 ($2.40 in chips)
+Seat 7: Matze720 ($1.89 in chips)
+Seat 9: Finalflash007 ($2.47 in chips)
+pokerHero1: posts small blind $0.01
+partizan_vlg: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h Jd]
+GIE0RGE: folds
+Trend154reg: folds
+subarist085: calls $0.02
+Matze720: calls $0.02
+Finalflash007: raises $0.09 to $0.11
+pokerHero1: folds
+partizan_vlg: folds
+subarist085: calls $0.09
+Matze720: folds
+*** FLOP *** [3s 6c 4h]
+subarist085: checks
+Finalflash007: bets $0.17
+subarist085: folds
+Uncalled bet ($0.17) returned to Finalflash007
+Finalflash007 collected $0.26 from pot
+Finalflash007: doesn't show hand
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01
+Board [3s 6c 4h]
+Seat 2: pokerHero1 (small blind) folded before Flop
+Seat 3: partizan_vlg (big blind) folded before Flop
+Seat 4: GIE0RGE folded before Flop (didn't bet)
+Seat 5: Trend154reg folded before Flop (didn't bet)
+Seat 6: subarist085 folded on the Flop
+Seat 7: Matze720 folded before Flop
+Seat 9: Finalflash007 (button) collected ($0.26)
+
+
+
+PokerStars Hand #212114031433:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:08:32 ET
+Table 'Aksnes II' 9-max Seat #2 is the button
+Seat 2: pokerHero1 ($2.31 in chips)
+Seat 3: partizan_vlg ($0.98 in chips)
+Seat 4: GIE0RGE ($0.84 in chips)
+Seat 5: Trend154reg ($2.32 in chips)
+Seat 6: subarist085 ($2.29 in chips)
+Seat 7: Matze720 ($1.87 in chips)
+Seat 9: Finalflash007 ($2.62 in chips)
+partizan_vlg: posts small blind $0.01
+GIE0RGE: posts big blind $0.02
+njifares: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d 6s]
+Trend154reg: calls $0.02
+subarist085: calls $0.02
+Matze720: raises $0.02 to $0.04
+Finalflash007: calls $0.04
+pokerHero1: folds
+partizan_vlg: calls $0.03
+GIE0RGE: calls $0.02
+Trend154reg: calls $0.02
+subarist085: raises $0.02 to $0.06
+Matze720: calls $0.02
+Finalflash007: calls $0.02
+partizan_vlg: calls $0.02
+GIE0RGE: calls $0.02
+Trend154reg: calls $0.02
+*** FLOP *** [Qc Kd Tc]
+partizan_vlg: checks
+GIE0RGE: bets $0.08
+Trend154reg: folds
+subarist085: folds
+Matze720: calls $0.08
+Finalflash007: calls $0.08
+partizan_vlg: folds
+*** TURN *** [Qc Kd Tc] [4d]
+GIE0RGE: bets $0.08
+Matze720: raises $0.08 to $0.16
+Finalflash007: folds
+GIE0RGE: calls $0.08
+*** RIVER *** [Qc Kd Tc 4d] [9d]
+GIE0RGE: bets $0.54 and is all-in
+Matze720: calls $0.54
+*** SHOW DOWN ***
+GIE0RGE: shows [Jh Th] (a straight, Nine to King)
+Matze720: shows [Ad Kc] (a pair of Kings)
+GIE0RGE collected $1.93 from pot
+*** SUMMARY ***
+Total pot $2 | Rake $0.07
+Board [Qc Kd Tc 4d 9d]
+Seat 2: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 3: partizan_vlg (small blind) folded on the Flop
+Seat 4: GIE0RGE (big blind) showed [Jh Th] and won ($1.93) with a straight, Nine to King
+Seat 5: Trend154reg folded on the Flop
+Seat 6: subarist085 folded on the Flop
+Seat 7: Matze720 showed [Ad Kc] and lost with a pair of Kings
+Seat 9: Finalflash007 folded on the Turn
+
+
+
+PokerStars Hand #212114163352:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:10:35 ET
+Table 'Aksnes II' 9-max Seat #3 is the button
+Seat 2: pokerHero1 ($2.31 in chips)
+Seat 3: partizan_vlg ($0.92 in chips)
+Seat 4: GIE0RGE ($1.93 in chips)
+Seat 5: Trend154reg ($2.26 in chips)
+Seat 6: subarist085 ($2.23 in chips)
+Seat 7: Matze720 ($1.03 in chips)
+Seat 8: titoneopren ($0.78 in chips)
+Seat 9: Finalflash007 ($2.48 in chips)
+GIE0RGE: posts small blind $0.01
+Trend154reg: posts big blind $0.02
+titoneopren: posts small blind $0.01
+njifares: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc 2c]
+subarist085: calls $0.02
+Matze720: calls $0.02
+titoneopren has timed out
+titoneopren: folds
+Finalflash007: raises $0.05 to $0.07
+pokerHero1: folds
+partizan_vlg: folds
+GIE0RGE: folds
+Trend154reg: folds
+subarist085: calls $0.05
+Matze720: calls $0.05
+*** FLOP *** [Th Ad Kc]
+subarist085: bets $0.12
+Matze720: raises $0.24 to $0.36
+Finalflash007: folds
+subarist085: calls $0.24
+*** TURN *** [Th Ad Kc] [6h]
+subarist085: checks
+Matze720: bets $0.60 and is all-in
+subarist085: calls $0.60
+*** RIVER *** [Th Ad Kc 6h] [6c]
+*** SHOW DOWN ***
+subarist085: shows [Ts Qd] (two pair, Tens and Sixes)
+Matze720: shows [Ac Jd] (two pair, Aces and Sixes)
+Matze720 collected $2.09 from pot
+*** SUMMARY ***
+Total pot $2.17 | Rake $0.08
+Board [Th Ad Kc 6h 6c]
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: partizan_vlg (button) folded before Flop (didn't bet)
+Seat 4: GIE0RGE (small blind) folded before Flop
+Seat 5: Trend154reg (big blind) folded before Flop
+Seat 6: subarist085 showed [Ts Qd] and lost with two pair, Tens and Sixes
+Seat 7: Matze720 showed [Ac Jd] and won ($2.09) with two pair, Aces and Sixes
+Seat 8: titoneopren folded before Flop (didn't bet)
+Seat 9: Finalflash007 folded on the Flop
+
+
+
+PokerStars Hand #212114252395:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:11:54 ET
+Table 'Aksnes II' 9-max Seat #4 is the button
+Seat 2: pokerHero1 ($2.31 in chips)
+Seat 3: partizan_vlg ($0.92 in chips)
+Seat 4: GIE0RGE ($1.92 in chips)
+Seat 5: Trend154reg ($2.24 in chips)
+Seat 6: subarist085 ($1.20 in chips)
+Seat 7: Matze720 ($2.09 in chips)
+Seat 9: Finalflash007 ($2.41 in chips)
+Trend154reg: posts small blind $0.01
+subarist085: posts big blind $0.02
+njifares: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh Kc]
+Matze720: calls $0.02
+Finalflash007: folds
+pokerHero1: raises $0.06 to $0.08
+partizan_vlg: folds
+GIE0RGE: folds
+Trend154reg: calls $0.07
+subarist085: calls $0.06
+Matze720: calls $0.06
+*** FLOP *** [7s 4c 8d]
+Trend154reg: checks
+subarist085: checks
+Matze720: bets $0.08
+pokerHero1: folds
+Trend154reg: folds
+subarist085: folds
+Uncalled bet ($0.08) returned to Matze720
+Matze720 collected $0.31 from pot
+Matze720: doesn't show hand
+*** SUMMARY ***
+Total pot $0.32 | Rake $0.01
+Board [7s 4c 8d]
+Seat 2: pokerHero1 folded on the Flop
+Seat 3: partizan_vlg folded before Flop (didn't bet)
+Seat 4: GIE0RGE (button) folded before Flop (didn't bet)
+Seat 5: Trend154reg (small blind) folded on the Flop
+Seat 6: subarist085 (big blind) folded on the Flop
+Seat 7: Matze720 collected ($0.31)
+Seat 9: Finalflash007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212114300103:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:12:39 ET
+Table 'Aksnes II' 9-max Seat #5 is the button
+Seat 2: pokerHero1 ($2.23 in chips)
+Seat 3: partizan_vlg ($0.92 in chips)
+Seat 4: GIE0RGE ($1.92 in chips)
+Seat 5: Trend154reg ($2.16 in chips)
+Seat 6: subarist085 ($1.12 in chips)
+Seat 7: Matze720 ($2.32 in chips)
+Seat 8: titoneopren ($0.77 in chips)
+Seat 9: Finalflash007 ($2.41 in chips)
+subarist085: posts small blind $0.01
+Matze720: posts big blind $0.02
+njifares: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5d 9h]
+titoneopren has timed out
+titoneopren: folds
+Finalflash007: raises $0.05 to $0.07
+pokerHero1: folds
+partizan_vlg: folds
+GIE0RGE: calls $0.07
+Trend154reg: folds
+subarist085: raises $0.05 to $0.12
+Matze720: folds
+Finalflash007: calls $0.05
+GIE0RGE: calls $0.05
+*** FLOP *** [3h Kh 4s]
+subarist085: bets $0.04
+Finalflash007: raises $0.12 to $0.16
+GIE0RGE: folds
+subarist085: calls $0.12
+*** TURN *** [3h Kh 4s] [6c]
+subarist085: checks
+Finalflash007: bets $0.45
+subarist085: folds
+Uncalled bet ($0.45) returned to Finalflash007
+Finalflash007 collected $0.68 from pot
+Finalflash007: doesn't show hand
+*** SUMMARY ***
+Total pot $0.70 | Rake $0.02
+Board [3h Kh 4s 6c]
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: partizan_vlg folded before Flop (didn't bet)
+Seat 4: GIE0RGE folded on the Flop
+Seat 5: Trend154reg (button) folded before Flop (didn't bet)
+Seat 6: subarist085 (small blind) folded on the Turn
+Seat 7: Matze720 (big blind) folded before Flop
+Seat 8: titoneopren folded before Flop (didn't bet)
+Seat 9: Finalflash007 collected ($0.68)
+
+
+
+PokerStars Hand #212114377692:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:13:51 ET
+Table 'Aksnes II' 9-max Seat #6 is the button
+Seat 2: pokerHero1 ($2.23 in chips)
+Seat 3: partizan_vlg ($0.92 in chips)
+Seat 4: GIE0RGE ($1.80 in chips)
+Seat 5: Trend154reg ($2.16 in chips)
+Seat 6: subarist085 ($0.84 in chips)
+Seat 7: Matze720 ($2.30 in chips)
+Seat 8: titoneopren ($0.77 in chips)
+Seat 9: Finalflash007 ($2.81 in chips)
+Matze720: posts small blind $0.01
+titoneopren: posts big blind $0.02
+njifares: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ks Ah]
+Finalflash007: raises $0.05 to $0.07
+pokerHero1: raises $0.15 to $0.22
+partizan_vlg: folds
+GIE0RGE: folds
+Trend154reg: folds
+subarist085: folds
+Matze720: folds
+titoneopren: folds
+Finalflash007: calls $0.15
+*** FLOP *** [Th 8h 7h]
+Finalflash007: checks
+pokerHero1: bets $0.34
+Finalflash007: folds
+Uncalled bet ($0.34) returned to pokerHero1
+pokerHero1 collected $0.45 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.47 | Rake $0.02
+Board [Th 8h 7h]
+Seat 2: pokerHero1 collected ($0.45)
+Seat 3: partizan_vlg folded before Flop (didn't bet)
+Seat 4: GIE0RGE folded before Flop (didn't bet)
+Seat 5: Trend154reg folded before Flop (didn't bet)
+Seat 6: subarist085 (button) folded before Flop (didn't bet)
+Seat 7: Matze720 (small blind) folded before Flop
+Seat 8: titoneopren (big blind) folded before Flop
+Seat 9: Finalflash007 folded on the Flop
+
+
+
+PokerStars Hand #212114422825:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:14:27 ET
+Table 'Aksnes II' 9-max Seat #7 is the button
+Seat 2: pokerHero1 ($2.46 in chips)
+Seat 3: partizan_vlg ($0.92 in chips)
+Seat 4: GIE0RGE ($1.80 in chips)
+Seat 5: Trend154reg ($2.16 in chips)
+Seat 6: subarist085 ($0.84 in chips)
+Seat 7: Matze720 ($2.29 in chips)
+Seat 8: titoneopren ($0.75 in chips)
+Seat 9: Finalflash007 ($2.59 in chips)
+titoneopren: posts small blind $0.01
+Finalflash007: posts big blind $0.02
+njifares: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7s Js]
+pokerHero1: folds
+partizan_vlg: folds
+GIE0RGE: raises $0.04 to $0.06
+Trend154reg: folds
+subarist085: calls $0.06
+Matze720: calls $0.06
+titoneopren: calls $0.05
+Finalflash007: calls $0.04
+*** FLOP *** [7h 9s Jh]
+titoneopren: checks
+Finalflash007: checks
+GIE0RGE: checks
+subarist085: bets $0.14
+Matze720: calls $0.14
+titoneopren: calls $0.14
+Finalflash007: folds
+GIE0RGE: folds
+*** TURN *** [7h 9s Jh] [Tc]
+titoneopren: bets $0.55 and is all-in
+subarist085: raises $0.09 to $0.64 and is all-in
+Matze720: calls $0.64
+*** RIVER *** [7h 9s Jh Tc] [8d]
+*** SHOW DOWN ***
+subarist085: shows [9h 6h] (a straight, Seven to Jack)
+Matze720: shows [7d 8s] (a straight, Seven to Jack)
+subarist085 collected $0.09 from side pot
+Matze720 collected $0.08 from side pot
+titoneopren: shows [Ah Qh] (a straight, Eight to Queen)
+titoneopren cashed out the hand for $0.65 | Cash Out Fee $0.01
+*** SUMMARY ***
+Total pot $2.55 Main pot $2.29. Side pot $0.17. | Rake $0.09
+Board [7h 9s Jh Tc 8d]
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: partizan_vlg folded before Flop (didn't bet)
+Seat 4: GIE0RGE folded on the Flop
+Seat 5: Trend154reg folded before Flop (didn't bet)
+Seat 6: subarist085 showed [9h 6h] and won ($0.09) with a straight, Seven to Jack
+Seat 7: Matze720 (button) showed [7d 8s] and won ($0.08) with a straight, Seven to Jack
+Seat 8: titoneopren (small blind) showed [Ah Qh] and won ($2.29) with a straight, Eight to Queen (pot not awarded as player cashed out)
+Seat 9: Finalflash007 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212114513537:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:15:50 ET
+Table 'Aksnes II' 9-max Seat #8 is the button
+Seat 1: njifares ($2 in chips)
+Seat 2: pokerHero1 ($2.46 in chips)
+Seat 3: partizan_vlg ($0.92 in chips)
+Seat 4: GIE0RGE ($1.74 in chips)
+Seat 5: Trend154reg ($2.16 in chips)
+Seat 6: subarist085 ($0.09 in chips)
+Seat 7: Matze720 ($1.53 in chips)
+Seat 8: titoneopren ($0.65 in chips)
+Seat 9: Finalflash007 ($2.53 in chips)
+Finalflash007: posts small blind $0.01
+njifares: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7h Tc]
+pokerHero1: folds
+partizan_vlg: raises $0.90 to $0.92 and is all-in
+GIE0RGE: folds
+Trend154reg: folds
+subarist085: calls $0.09 and is all-in
+Matze720: folds
+titoneopren: folds
+Finalflash007: folds
+njifares: folds
+Uncalled bet ($0.83) returned to partizan_vlg
+*** FLOP *** [3d 2s Ad]
+*** TURN *** [3d 2s Ad] [Ac]
+*** RIVER *** [3d 2s Ad Ac] [6s]
+*** SHOW DOWN ***
+partizan_vlg: shows [Kc Kd] (two pair, Aces and Kings)
+subarist085: shows [4d 5d] (a straight, Deuce to Six)
+subarist085 collected $0.20 from pot
+partizan_vlg cashed out the hand for $0.16
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [3d 2s Ad Ac 6s]
+Seat 1: njifares (big blind) folded before Flop
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: partizan_vlg showed [Kc Kd] and lost with two pair, Aces and Kings (cashed out).
+Seat 4: GIE0RGE folded before Flop (didn't bet)
+Seat 5: Trend154reg folded before Flop (didn't bet)
+Seat 6: subarist085 showed [4d 5d] and won ($0.20) with a straight, Deuce to Six
+Seat 7: Matze720 folded before Flop (didn't bet)
+Seat 8: titoneopren (button) folded before Flop (didn't bet)
+Seat 9: Finalflash007 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212114555114:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:16:28 ET
+Table 'Aksnes II' 9-max Seat #9 is the button
+Seat 1: njifares ($2 in chips)
+Seat 2: pokerHero1 ($2.46 in chips)
+Seat 3: partizan_vlg ($0.99 in chips)
+Seat 4: GIE0RGE ($1.74 in chips)
+Seat 5: Trend154reg ($2.16 in chips)
+Seat 6: subarist085 ($0.20 in chips)
+Seat 7: Matze720 ($1.53 in chips)
+Seat 8: titoneopren ($0.65 in chips)
+Seat 9: Finalflash007 ($2.52 in chips)
+njifares: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8c 7d]
+partizan_vlg: folds
+GIE0RGE: folds
+Trend154reg: folds
+subarist085: calls $0.02
+Matze720: calls $0.02
+titoneopren: folds
+Finalflash007: folds
+njifares: calls $0.01
+pokerHero1: checks
+*** FLOP *** [4h Qd Ad]
+njifares: checks
+pokerHero1: checks
+subarist085: checks
+Matze720: checks
+*** TURN *** [4h Qd Ad] [7s]
+njifares: checks
+pokerHero1: checks
+subarist085: checks
+Matze720: checks
+*** RIVER *** [4h Qd Ad 7s] [Ah]
+njifares: checks
+pokerHero1: checks
+subarist085: checks
+Matze720: checks
+*** SHOW DOWN ***
+njifares: shows [9d 9c] (two pair, Aces and Nines)
+pokerHero1: mucks hand
+subarist085: mucks hand
+Matze720: shows [Qc 9h] (two pair, Aces and Queens)
+Matze720 collected $0.08 from pot
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Board [4h Qd Ad 7s Ah]
+Seat 1: njifares (small blind) showed [9d 9c] and lost with two pair, Aces and Nines
+Seat 2: pokerHero1 (big blind) mucked [8c 7d]
+Seat 3: partizan_vlg folded before Flop (didn't bet)
+Seat 4: GIE0RGE folded before Flop (didn't bet)
+Seat 5: Trend154reg folded before Flop (didn't bet)
+Seat 6: subarist085 mucked [8d Th]
+Seat 7: Matze720 showed [Qc 9h] and won ($0.08) with two pair, Aces and Queens
+Seat 8: titoneopren folded before Flop (didn't bet)
+Seat 9: Finalflash007 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212114637059:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:17:43 ET
+Table 'Aksnes II' 9-max Seat #1 is the button
+Seat 1: njifares ($2 in chips)
+Seat 2: pokerHero1 ($2.44 in chips)
+Seat 3: partizan_vlg ($0.99 in chips)
+Seat 4: GIE0RGE ($1.74 in chips)
+Seat 5: Trend154reg ($2.16 in chips)
+Seat 6: subarist085 ($0.18 in chips)
+Seat 7: Matze720 ($1.59 in chips)
+Seat 8: titoneopren ($0.65 in chips)
+Seat 9: Finalflash007 ($2.52 in chips)
+pokerHero1: posts small blind $0.01
+partizan_vlg: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qs Qc]
+GIE0RGE: raises $0.02 to $0.04
+Trend154reg: folds
+subarist085: calls $0.04
+Matze720: folds
+titoneopren: calls $0.04
+Finalflash007: folds
+njifares: folds
+pokerHero1: raises $0.20 to $0.24
+partizan_vlg: folds
+GIE0RGE: folds
+subarist085: calls $0.14 and is all-in
+titoneopren: calls $0.20
+*** FLOP *** [2c 4c 7c]
+pokerHero1: bets $0.42
+titoneopren: calls $0.41 and is all-in
+Uncalled bet ($0.01) returned to pokerHero1
+*** TURN *** [2c 4c 7c] [2d]
+*** RIVER *** [2c 4c 7c 2d] [As]
+*** SHOW DOWN ***
+pokerHero1: shows [Qs Qc] (two pair, Queens and Deuces)
+titoneopren: shows [9d Ac] (two pair, Aces and Deuces)
+subarist085: shows [9s Js] (a pair of Deuces)
+titoneopren cashed out the hand for $0.66 | Cash Out Fee $0.01
+*** SUMMARY ***
+Total pot $1.54 Main pot $0.58. Side pot $0.91. | Rake $0.05
+Board [2c 4c 7c 2d As]
+Seat 1: njifares (button) folded before Flop (didn't bet)
+Seat 2: pokerHero1 (small blind) showed [Qs Qc] and lost with two pair, Queens and Deuces
+Seat 3: partizan_vlg (big blind) folded before Flop
+Seat 4: GIE0RGE folded before Flop
+Seat 5: Trend154reg folded before Flop (didn't bet)
+Seat 6: subarist085 showed [9s Js] and lost with a pair of Deuces
+Seat 7: Matze720 folded before Flop (didn't bet)
+Seat 8: titoneopren showed [9d Ac] and won ($1.49) with two pair, Aces and Deuces (pot not awarded as player cashed out)
+Seat 9: Finalflash007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212114719146:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:18:59 ET
+Table 'Aksnes II' 9-max Seat #2 is the button
+Seat 1: njifares ($2 in chips)
+Seat 2: pokerHero1 ($1.79 in chips)
+Seat 3: partizan_vlg ($0.97 in chips)
+Seat 4: GIE0RGE ($1.70 in chips)
+Seat 5: Trend154reg ($2.16 in chips)
+Seat 7: Matze720 ($1.59 in chips)
+Seat 8: titoneopren ($0.66 in chips)
+Seat 9: Finalflash007 ($2.52 in chips)
+partizan_vlg: posts small blind $0.01
+GIE0RGE: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td 2s]
+subarist085 leaves the table
+Trend154reg: folds
+Matze720: calls $0.02
+titoneopren has timed out
+titoneopren: folds
+Finalflash007: raises $0.05 to $0.07
+njifares: folds
+pokerHero1: folds
+partizan_vlg: folds
+GIE0RGE: calls $0.05
+Matze720: calls $0.05
+*** FLOP *** [Kc Ac 6c]
+GIE0RGE: checks
+Matze720: bets $0.08
+Finalflash007: folds
+GIE0RGE: calls $0.08
+*** TURN *** [Kc Ac 6c] [6s]
+GIE0RGE: checks
+Matze720: bets $0.18
+TankMurky joins the table at seat #6
+GIE0RGE: calls $0.18
+*** RIVER *** [Kc Ac 6c 6s] [5s]
+GIE0RGE: bets $0.24
+Matze720: calls $0.24
+*** SHOW DOWN ***
+GIE0RGE: shows [7s Qc] (a pair of Sixes)
+Matze720: shows [9c Ah] (two pair, Aces and Sixes)
+Matze720 collected $1.18 from pot
+*** SUMMARY ***
+Total pot $1.22 | Rake $0.04
+Board [Kc Ac 6c 6s 5s]
+Seat 1: njifares folded before Flop (didn't bet)
+Seat 2: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 3: partizan_vlg (small blind) folded before Flop
+Seat 4: GIE0RGE (big blind) showed [7s Qc] and lost with a pair of Sixes
+Seat 5: Trend154reg folded before Flop (didn't bet)
+Seat 7: Matze720 showed [9c Ah] and won ($1.18) with two pair, Aces and Sixes
+Seat 8: titoneopren folded before Flop (didn't bet)
+Seat 9: Finalflash007 folded on the Flop
+
+
+
+PokerStars Hand #212114812024:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:20:24 ET
+Table 'Aksnes II' 9-max Seat #3 is the button
+Seat 1: njifares ($2 in chips)
+Seat 2: pokerHero1 ($2 in chips)
+Seat 3: partizan_vlg ($0.96 in chips)
+Seat 4: GIE0RGE ($1.13 in chips)
+Seat 5: Trend154reg ($2.16 in chips)
+Seat 7: Matze720 ($2.20 in chips)
+Seat 8: titoneopren ($0.66 in chips)
+Seat 9: Finalflash007 ($2.45 in chips)
+GIE0RGE: posts small blind $0.01
+Trend154reg: posts big blind $0.02
+TankMurky: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c 4h]
+Matze720: raises $0.02 to $0.04
+titoneopren: raises $0.02 to $0.06
+Finalflash007: folds
+njifares: folds
+pokerHero1: folds
+partizan_vlg: folds
+GIE0RGE: folds
+Trend154reg: folds
+Matze720: calls $0.02
+*** FLOP *** [6h 6s 6c]
+Matze720: checks
+titoneopren: bets $0.14
+Matze720: folds
+Uncalled bet ($0.14) returned to titoneopren
+titoneopren collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [6h 6s 6c]
+Seat 1: njifares folded before Flop (didn't bet)
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: partizan_vlg (button) folded before Flop (didn't bet)
+Seat 4: GIE0RGE (small blind) folded before Flop
+Seat 5: Trend154reg (big blind) folded before Flop
+Seat 7: Matze720 folded on the Flop
+Seat 8: titoneopren collected ($0.14)
+Seat 9: Finalflash007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212114855706:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:21:05 ET
+Table 'Aksnes II' 9-max Seat #4 is the button
+Seat 1: njifares ($2 in chips)
+Seat 2: pokerHero1 ($2 in chips)
+Seat 3: partizan_vlg ($0.96 in chips)
+Seat 4: GIE0RGE ($1.12 in chips)
+Seat 5: Trend154reg ($2.14 in chips)
+Seat 6: TankMurky ($2 in chips)
+Seat 7: Matze720 ($2.14 in chips)
+Seat 8: titoneopren ($0.74 in chips)
+Seat 9: Finalflash007 ($2.45 in chips)
+Trend154reg: posts small blind $0.01
+TankMurky: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c 7s]
+Matze720: calls $0.02
+titoneopren: folds
+Finalflash007: folds
+njifares: folds
+pokerHero1: folds
+partizan_vlg: folds
+GIE0RGE: raises $0.02 to $0.04
+Trend154reg: folds
+TankMurky: raises $0.10 to $0.14
+Matze720: folds
+GIE0RGE: calls $0.10
+*** FLOP *** [9s Kh 5s]
+TankMurky: bets $0.22
+GIE0RGE: folds
+Uncalled bet ($0.22) returned to TankMurky
+TankMurky collected $0.30 from pot
+TankMurky: doesn't show hand
+*** SUMMARY ***
+Total pot $0.31 | Rake $0.01
+Board [9s Kh 5s]
+Seat 1: njifares folded before Flop (didn't bet)
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: partizan_vlg folded before Flop (didn't bet)
+Seat 4: GIE0RGE (button) folded on the Flop
+Seat 5: Trend154reg (small blind) folded before Flop
+Seat 6: TankMurky (big blind) collected ($0.30)
+Seat 7: Matze720 folded before Flop
+Seat 8: titoneopren folded before Flop (didn't bet)
+Seat 9: Finalflash007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212114896326:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:21:42 ET
+Table 'Aksnes II' 9-max Seat #5 is the button
+Seat 1: njifares ($2 in chips)
+Seat 2: pokerHero1 ($2 in chips)
+Seat 3: partizan_vlg ($0.96 in chips)
+Seat 4: GIE0RGE ($0.98 in chips)
+Seat 5: Trend154reg ($2.13 in chips)
+Seat 6: TankMurky ($2.16 in chips)
+Seat 7: Matze720 ($2.12 in chips)
+Seat 8: titoneopren ($0.74 in chips)
+Seat 9: Finalflash007 ($2.45 in chips)
+TankMurky: posts small blind $0.01
+Matze720: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac Td]
+titoneopren: folds
+Finalflash007: folds
+njifares: folds
+pokerHero1: raises $0.06 to $0.08
+partizan_vlg: folds
+GIE0RGE: folds
+Trend154reg: folds
+TankMurky: folds
+Matze720: calls $0.06
+*** FLOP *** [6d Qs 7c]
+Matze720: bets $0.10
+pokerHero1: folds
+Uncalled bet ($0.10) returned to Matze720
+Matze720 collected $0.16 from pot
+Matze720: doesn't show hand
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [6d Qs 7c]
+Seat 1: njifares folded before Flop (didn't bet)
+Seat 2: pokerHero1 folded on the Flop
+Seat 3: partizan_vlg folded before Flop (didn't bet)
+Seat 4: GIE0RGE folded before Flop (didn't bet)
+Seat 5: Trend154reg (button) folded before Flop (didn't bet)
+Seat 6: TankMurky (small blind) folded before Flop
+Seat 7: Matze720 (big blind) collected ($0.16)
+Seat 8: titoneopren folded before Flop (didn't bet)
+Seat 9: Finalflash007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212114947342:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:22:21 ET
+Table 'Aksnes II' 9-max Seat #6 is the button
+Seat 1: njifares ($2 in chips)
+Seat 2: pokerHero1 ($1.92 in chips)
+Seat 3: partizan_vlg ($0.96 in chips)
+Seat 4: GIE0RGE ($0.98 in chips)
+Seat 5: Trend154reg ($2.13 in chips)
+Seat 6: TankMurky ($2.15 in chips)
+Seat 7: Matze720 ($2.20 in chips)
+Seat 8: titoneopren ($0.74 in chips)
+Seat 9: Finalflash007 ($2.45 in chips)
+Matze720: posts small blind $0.01
+titoneopren: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad 4h]
+Finalflash007: folds
+njifares: folds
+pokerHero1: folds
+partizan_vlg: folds
+GIE0RGE: folds
+Trend154reg: folds
+TankMurky: folds
+Matze720: calls $0.01
+titoneopren: raises $0.06 to $0.08
+Matze720: calls $0.06
+*** FLOP *** [Qs 5c Ts]
+Matze720: checks
+titoneopren: bets $0.15
+Matze720: calls $0.15
+*** TURN *** [Qs 5c Ts] [7s]
+Matze720: bets $0.22
+titoneopren: calls $0.22
+*** RIVER *** [Qs 5c Ts 7s] [Jh]
+Matze720: bets $1.75 and is all-in
+titoneopren: calls $0.29 and is all-in
+Uncalled bet ($1.46) returned to Matze720
+*** SHOW DOWN ***
+Matze720: shows [Ks 9s] (a flush, King high)
+titoneopren: shows [Qc Kc] (a pair of Queens)
+Matze720 collected $1.43 from pot
+*** SUMMARY ***
+Total pot $1.48 | Rake $0.05
+Board [Qs 5c Ts 7s Jh]
+Seat 1: njifares folded before Flop (didn't bet)
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: partizan_vlg folded before Flop (didn't bet)
+Seat 4: GIE0RGE folded before Flop (didn't bet)
+Seat 5: Trend154reg folded before Flop (didn't bet)
+Seat 6: TankMurky (button) folded before Flop (didn't bet)
+Seat 7: Matze720 (small blind) showed [Ks 9s] and won ($1.43) with a flush, King high
+Seat 8: titoneopren (big blind) showed [Qc Kc] and lost with a pair of Queens
+Seat 9: Finalflash007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212115007586:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:23:16 ET
+Table 'Aksnes II' 9-max Seat #7 is the button
+Seat 1: njifares ($2 in chips)
+Seat 2: pokerHero1 ($1.92 in chips)
+Seat 3: partizan_vlg ($0.96 in chips)
+Seat 4: GIE0RGE ($0.98 in chips)
+Seat 5: Trend154reg ($2.13 in chips)
+Seat 6: TankMurky ($2.15 in chips)
+Seat 7: Matze720 ($2.89 in chips)
+Seat 9: Finalflash007 ($2.45 in chips)
+Finalflash007: posts small blind $0.01
+njifares: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qd 8d]
+pokerHero1: folds
+partizan_vlg: raises $0.04 to $0.06
+GIE0RGE: folds
+Trend154reg: calls $0.06
+TankMurky: folds
+Matze720: calls $0.06
+Finalflash007: folds
+njifares: folds
+*** FLOP *** [8s Kh Ah]
+partizan_vlg: bets $0.10
+Trend154reg: calls $0.10
+Matze720: folds
+*** TURN *** [8s Kh Ah] [Qs]
+partizan_vlg: bets $0.80 and is all-in
+Trend154reg: calls $0.80
+*** RIVER *** [8s Kh Ah Qs] [3h]
+*** SHOW DOWN ***
+partizan_vlg: shows [Ad Qc] (two pair, Aces and Queens)
+Trend154reg: shows [As Kd] (two pair, Aces and Kings)
+Trend154reg collected $1.94 from pot
+*** SUMMARY ***
+Total pot $2.01 | Rake $0.07
+Board [8s Kh Ah Qs 3h]
+Seat 1: njifares (big blind) folded before Flop
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: partizan_vlg showed [Ad Qc] and lost with two pair, Aces and Queens
+Seat 4: GIE0RGE folded before Flop (didn't bet)
+Seat 5: Trend154reg showed [As Kd] and won ($1.94) with two pair, Aces and Kings
+Seat 6: TankMurky folded before Flop (didn't bet)
+Seat 7: Matze720 (button) folded on the Flop
+Seat 9: Finalflash007 (small blind) folded before Flop
+
+
+

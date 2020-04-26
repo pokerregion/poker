@@ -1,0 +1,631 @@
+﻿PokerStars Hand #212330748828:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:48:09 ET
+Table 'Una' 9-max Seat #7 is the button
+Seat 1: jimmimax ($2 in chips)
+Seat 2: nutzz99 ($0.80 in chips)
+Seat 3: xBIGRIVERx ($3.04 in chips)
+Seat 4: revysledneck ($1.72 in chips)
+Seat 5: AgeofInnocence ($1.19 in chips)
+Seat 6: pengjin ($0.77 in chips)
+Seat 7: Kaufmann I ($1.89 in chips)
+Seat 8: Kazooka ($4.59 in chips)
+Seat 9: pokerHero1 ($2 in chips)
+Kazooka: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s 7h]
+jimmimax: folds
+nutzz99: folds
+xBIGRIVERx: folds
+revysledneck: calls $0.02
+AgeofInnocence: folds
+pengjin: folds
+Kaufmann I: folds
+Kazooka: calls $0.01
+pokerHero1: checks
+*** FLOP *** [8s Qh 8h]
+Kazooka: checks
+pokerHero1: checks
+revysledneck: checks
+*** TURN *** [8s Qh 8h] [3h]
+Kazooka: bets $0.02
+pokerHero1: folds
+revysledneck: calls $0.02
+*** RIVER *** [8s Qh 8h 3h] [2d]
+Kazooka: checks
+revysledneck: checks
+*** SHOW DOWN ***
+Kazooka: shows [2h 3d] (two pair, Eights and Threes)
+revysledneck: mucks hand
+Kazooka collected $0.10 from pot
+*** SUMMARY ***
+Total pot $0.10 | Rake $0
+Board [8s Qh 8h 3h 2d]
+Seat 1: jimmimax folded before Flop (didn't bet)
+Seat 2: nutzz99 folded before Flop (didn't bet)
+Seat 3: xBIGRIVERx folded before Flop (didn't bet)
+Seat 4: revysledneck mucked [Tc Jh]
+Seat 5: AgeofInnocence folded before Flop (didn't bet)
+Seat 6: pengjin folded before Flop (didn't bet)
+Seat 7: Kaufmann I (button) folded before Flop (didn't bet)
+Seat 8: Kazooka (small blind) showed [2h 3d] and won ($0.10) with two pair, Eights and Threes
+Seat 9: pokerHero1 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #212330790621:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:48:43 ET
+Table 'Una' 9-max Seat #8 is the button
+Seat 1: jimmimax ($2 in chips)
+Seat 2: nutzz99 ($0.80 in chips)
+Seat 3: xBIGRIVERx ($3.04 in chips)
+Seat 4: revysledneck ($1.68 in chips)
+Seat 5: AgeofInnocence ($1.19 in chips)
+Seat 6: pengjin ($0.77 in chips)
+Seat 7: Kaufmann I ($1.89 in chips)
+Seat 8: Kazooka ($4.65 in chips)
+Seat 9: pokerHero1 ($1.98 in chips)
+pokerHero1: posts small blind $0.01
+jimmimax: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8c 7s]
+nutzz99: folds
+xBIGRIVERx: folds
+revysledneck: calls $0.02
+AgeofInnocence: folds
+pengjin: calls $0.02
+Kaufmann I: folds
+Kazooka: calls $0.02
+pokerHero1: calls $0.01
+jimmimax: checks
+*** FLOP *** [2d 5d 9h]
+pokerHero1: checks
+jimmimax: bets $0.07
+revysledneck: calls $0.07
+pengjin: folds
+Kazooka: folds
+pokerHero1: folds
+*** TURN *** [2d 5d 9h] [3h]
+jimmimax: bets $0.16
+revysledneck: folds
+Uncalled bet ($0.16) returned to jimmimax
+jimmimax collected $0.23 from pot
+jimmimax: doesn't show hand
+*** SUMMARY ***
+Total pot $0.24 | Rake $0.01
+Board [2d 5d 9h 3h]
+Seat 1: jimmimax (big blind) collected ($0.23)
+Seat 2: nutzz99 folded before Flop (didn't bet)
+Seat 3: xBIGRIVERx folded before Flop (didn't bet)
+Seat 4: revysledneck folded on the Turn
+Seat 5: AgeofInnocence folded before Flop (didn't bet)
+Seat 6: pengjin folded on the Flop
+Seat 7: Kaufmann I folded before Flop (didn't bet)
+Seat 8: Kazooka (button) folded on the Flop
+Seat 9: pokerHero1 (small blind) folded on the Flop
+
+
+
+PokerStars Hand #212330847445:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:49:31 ET
+Table 'Una' 9-max Seat #9 is the button
+Seat 1: jimmimax ($2.14 in chips)
+Seat 2: nutzz99 ($0.80 in chips)
+Seat 3: xBIGRIVERx ($3.04 in chips)
+Seat 4: revysledneck ($1.59 in chips)
+Seat 5: AgeofInnocence ($1.19 in chips)
+Seat 6: pengjin ($0.75 in chips)
+Seat 7: Kaufmann I ($1.89 in chips)
+Seat 8: Kazooka ($4.63 in chips)
+Seat 9: pokerHero1 ($1.96 in chips)
+jimmimax: posts small blind $0.01
+nutzz99: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8s 8c]
+xBIGRIVERx: folds
+revysledneck: calls $0.02
+AgeofInnocence: folds
+pengjin: folds
+Kaufmann I: folds
+Kazooka: folds
+pokerHero1: raises $0.06 to $0.08
+jimmimax: folds
+nutzz99: raises $0.06 to $0.14
+revysledneck: folds
+pokerHero1: calls $0.06
+*** FLOP *** [5h 4c 3d]
+nutzz99: checks
+pokerHero1: bets $0.28
+nutzz99: folds
+Uncalled bet ($0.28) returned to pokerHero1
+pokerHero1 collected $0.30 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.31 | Rake $0.01
+Board [5h 4c 3d]
+Seat 1: jimmimax (small blind) folded before Flop
+Seat 2: nutzz99 (big blind) folded on the Flop
+Seat 3: xBIGRIVERx folded before Flop (didn't bet)
+Seat 4: revysledneck folded before Flop
+Seat 5: AgeofInnocence folded before Flop (didn't bet)
+Seat 6: pengjin folded before Flop (didn't bet)
+Seat 7: Kaufmann I folded before Flop (didn't bet)
+Seat 8: Kazooka folded before Flop (didn't bet)
+Seat 9: pokerHero1 (button) collected ($0.30)
+
+
+
+PokerStars Hand #212330900973:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:50:17 ET
+Table 'Una' 9-max Seat #1 is the button
+Seat 1: jimmimax ($2.13 in chips)
+Seat 2: nutzz99 ($0.66 in chips)
+Seat 3: xBIGRIVERx ($3.04 in chips)
+Seat 4: revysledneck ($1.57 in chips)
+Seat 5: AgeofInnocence ($1.19 in chips)
+Seat 6: pengjin ($0.75 in chips)
+Seat 7: Kaufmann I ($1.89 in chips)
+Seat 8: Kazooka ($4.63 in chips)
+Seat 9: pokerHero1 ($2.12 in chips)
+nutzz99: posts small blind $0.01
+xBIGRIVERx: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s 6s]
+revysledneck has timed out
+revysledneck: folds
+AgeofInnocence: folds
+pengjin: folds
+Kaufmann I: folds
+Kazooka: folds
+pokerHero1: folds
+jimmimax: folds
+nutzz99: calls $0.01
+xBIGRIVERx: raises $0.06 to $0.08
+nutzz99: folds
+Uncalled bet ($0.06) returned to xBIGRIVERx
+xBIGRIVERx collected $0.04 from pot
+xBIGRIVERx: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 1: jimmimax (button) folded before Flop (didn't bet)
+Seat 2: nutzz99 (small blind) folded before Flop
+Seat 3: xBIGRIVERx (big blind) collected ($0.04)
+Seat 4: revysledneck folded before Flop (didn't bet)
+Seat 5: AgeofInnocence folded before Flop (didn't bet)
+Seat 6: pengjin folded before Flop (didn't bet)
+Seat 7: Kaufmann I folded before Flop (didn't bet)
+Seat 8: Kazooka folded before Flop (didn't bet)
+Seat 9: pokerHero1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212330937710:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:50:48 ET
+Table 'Una' 9-max Seat #2 is the button
+Seat 1: jimmimax ($2.13 in chips)
+Seat 2: nutzz99 ($0.64 in chips)
+Seat 3: xBIGRIVERx ($3.06 in chips)
+Seat 5: AgeofInnocence ($1.19 in chips)
+Seat 6: pengjin ($0.75 in chips)
+Seat 7: Kaufmann I ($1.89 in chips)
+Seat 8: Kazooka ($4.63 in chips)
+Seat 9: pokerHero1 ($2.12 in chips)
+xBIGRIVERx: posts small blind $0.01
+AgeofInnocence: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh 6c]
+pengjin: folds
+Kaufmann I: folds
+Kazooka: calls $0.02
+pokerHero1: folds
+jimmimax: folds
+nutzz99: folds
+xBIGRIVERx: folds
+AgeofInnocence: checks
+*** FLOP *** [8c 7c 7h]
+AgeofInnocence: checks
+Kazooka: checks
+*** TURN *** [8c 7c 7h] [8s]
+AgeofInnocence: checks
+Kazooka: bets $0.02
+AgeofInnocence: calls $0.02
+*** RIVER *** [8c 7c 7h 8s] [5d]
+AgeofInnocence: checks
+Kazooka: bets $0.09
+AgeofInnocence: folds
+Uncalled bet ($0.09) returned to Kazooka
+Kazooka collected $0.09 from pot
+Kazooka: doesn't show hand
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Board [8c 7c 7h 8s 5d]
+Seat 1: jimmimax folded before Flop (didn't bet)
+Seat 2: nutzz99 (button) folded before Flop (didn't bet)
+Seat 3: xBIGRIVERx (small blind) folded before Flop
+Seat 5: AgeofInnocence (big blind) folded on the River
+Seat 6: pengjin folded before Flop (didn't bet)
+Seat 7: Kaufmann I folded before Flop (didn't bet)
+Seat 8: Kazooka collected ($0.09)
+Seat 9: pokerHero1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212330989260:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:51:32 ET
+Table 'Una' 9-max Seat #3 is the button
+Seat 1: jimmimax ($2.13 in chips)
+Seat 2: nutzz99 ($0.64 in chips)
+Seat 3: xBIGRIVERx ($3.05 in chips)
+Seat 5: AgeofInnocence ($1.15 in chips)
+Seat 6: pengjin ($0.75 in chips)
+Seat 7: Kaufmann I ($1.89 in chips)
+Seat 8: Kazooka ($4.68 in chips)
+Seat 9: pokerHero1 ($2.12 in chips)
+AgeofInnocence: posts small blind $0.01
+pengjin: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd 3h]
+Kaufmann I: folds
+Kazooka: folds
+pokerHero1: folds
+jimmimax: raises $0.04 to $0.06
+nutzz99: calls $0.06
+xBIGRIVERx: folds
+AgeofInnocence: folds
+pengjin: folds
+*** FLOP *** [9d Ah 6h]
+jimmimax: checks
+nutzz99: bets $0.07
+jimmimax: folds
+Uncalled bet ($0.07) returned to nutzz99
+nutzz99 collected $0.14 from pot
+nutzz99: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [9d Ah 6h]
+Seat 1: jimmimax folded on the Flop
+Seat 2: nutzz99 collected ($0.14)
+Seat 3: xBIGRIVERx (button) folded before Flop (didn't bet)
+Seat 5: AgeofInnocence (small blind) folded before Flop
+Seat 6: pengjin (big blind) folded before Flop
+Seat 7: Kaufmann I folded before Flop (didn't bet)
+Seat 8: Kazooka folded before Flop (didn't bet)
+Seat 9: pokerHero1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212331021136:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:51:58 ET
+Table 'Una' 9-max Seat #5 is the button
+Seat 1: jimmimax ($2.07 in chips)
+Seat 2: nutzz99 ($0.72 in chips)
+Seat 3: xBIGRIVERx ($3.05 in chips)
+Seat 4: revysledneck ($1.57 in chips)
+Seat 5: AgeofInnocence ($1.14 in chips)
+Seat 6: pengjin ($0.73 in chips)
+Seat 7: Kaufmann I ($1.89 in chips)
+Seat 8: Kazooka ($4.68 in chips)
+Seat 9: pokerHero1 ($2.12 in chips)
+pengjin: posts small blind $0.01
+Kaufmann I: posts big blind $0.02
+revysledneck: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5d Jh]
+Kazooka: folds
+pokerHero1: folds
+jimmimax: folds
+nutzz99: raises $0.04 to $0.06
+xBIGRIVERx: folds
+revysledneck: calls $0.04
+AgeofInnocence: folds
+pengjin: folds
+Kaufmann I: calls $0.04
+*** FLOP *** [7d Js 9s]
+Kaufmann I: checks
+nutzz99: checks
+revysledneck: bets $0.19
+Kaufmann I: folds
+nutzz99: folds
+Uncalled bet ($0.19) returned to revysledneck
+revysledneck collected $0.19 from pot
+revysledneck: doesn't show hand
+*** SUMMARY ***
+Total pot $0.20 | Rake $0.01
+Board [7d Js 9s]
+Seat 1: jimmimax folded before Flop (didn't bet)
+Seat 2: nutzz99 folded on the Flop
+Seat 3: xBIGRIVERx folded before Flop (didn't bet)
+Seat 4: revysledneck collected ($0.19)
+Seat 5: AgeofInnocence (button) folded before Flop (didn't bet)
+Seat 6: pengjin (small blind) folded before Flop
+Seat 7: Kaufmann I (big blind) folded on the Flop
+Seat 8: Kazooka folded before Flop (didn't bet)
+Seat 9: pokerHero1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212331077337:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:52:46 ET
+Table 'Una' 9-max Seat #6 is the button
+Seat 1: jimmimax ($2.07 in chips)
+Seat 2: nutzz99 ($0.66 in chips)
+Seat 3: xBIGRIVERx ($3.05 in chips)
+Seat 4: revysledneck ($1.69 in chips)
+Seat 5: AgeofInnocence ($1.14 in chips)
+Seat 6: pengjin ($0.72 in chips)
+Seat 7: Kaufmann I ($1.83 in chips)
+Seat 8: Kazooka ($4.68 in chips)
+Seat 9: pokerHero1 ($2.12 in chips)
+Kaufmann I: posts small blind $0.01
+Kazooka: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kh Ts]
+pokerHero1: folds
+jimmimax: folds
+nutzz99: folds
+xBIGRIVERx: folds
+revysledneck: calls $0.02
+AgeofInnocence: folds
+pengjin: calls $0.02
+Kaufmann I: folds
+Kazooka: checks
+*** FLOP *** [Jd 2h 5d]
+Kazooka: checks
+revysledneck: checks
+pengjin: checks
+*** TURN *** [Jd 2h 5d] [3c]
+Kazooka: checks
+revysledneck: checks
+pengjin: checks
+*** RIVER *** [Jd 2h 5d 3c] [5c]
+Kazooka: checks
+revysledneck: checks
+pengjin: checks
+*** SHOW DOWN ***
+Kazooka: shows [6c 8s] (a pair of Fives)
+revysledneck: shows [9h Ad] (a pair of Fives - Ace kicker)
+pengjin: shows [Ah Qd] (a pair of Fives - Ace+Queen kicker)
+pengjin collected $0.07 from pot
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Board [Jd 2h 5d 3c 5c]
+Seat 1: jimmimax folded before Flop (didn't bet)
+Seat 2: nutzz99 folded before Flop (didn't bet)
+Seat 3: xBIGRIVERx folded before Flop (didn't bet)
+Seat 4: revysledneck showed [9h Ad] and lost with a pair of Fives
+Seat 5: AgeofInnocence folded before Flop (didn't bet)
+Seat 6: pengjin (button) showed [Ah Qd] and won ($0.07) with a pair of Fives
+Seat 7: Kaufmann I (small blind) folded before Flop
+Seat 8: Kazooka (big blind) showed [6c 8s] and lost with a pair of Fives
+Seat 9: pokerHero1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212331123867:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:53:26 ET
+Table 'Una' 9-max Seat #7 is the button
+Seat 1: jimmimax ($2.07 in chips)
+Seat 2: nutzz99 ($0.66 in chips)
+Seat 3: xBIGRIVERx ($3.05 in chips)
+Seat 4: revysledneck ($1.67 in chips)
+Seat 5: AgeofInnocence ($1.14 in chips)
+Seat 6: pengjin ($0.77 in chips)
+Seat 7: Kaufmann I ($1.82 in chips)
+Seat 8: Kazooka ($4.66 in chips)
+Seat 9: pokerHero1 ($2.12 in chips)
+Kazooka: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc Qs]
+jimmimax: folds
+nutzz99: raises $0.02 to $0.04
+xBIGRIVERx: folds
+revysledneck: calls $0.04
+AgeofInnocence: calls $0.04
+pengjin: folds
+Kaufmann I: folds
+Kazooka: calls $0.03
+pokerHero1: folds
+*** FLOP *** [8d 4h Jh]
+Kazooka: checks
+nutzz99: bets $0.17
+revysledneck: calls $0.17
+AgeofInnocence: folds
+Kazooka: folds
+*** TURN *** [8d 4h Jh] [Qh]
+nutzz99: bets $0.25
+revysledneck: calls $0.25
+*** RIVER *** [8d 4h Jh Qh] [2s]
+nutzz99: bets $0.20 and is all-in
+revysledneck: folds
+Uncalled bet ($0.20) returned to nutzz99
+nutzz99 collected $0.98 from pot
+nutzz99: doesn't show hand
+*** SUMMARY ***
+Total pot $1.02 | Rake $0.04
+Board [8d 4h Jh Qh 2s]
+Seat 1: jimmimax folded before Flop (didn't bet)
+Seat 2: nutzz99 collected ($0.98)
+Seat 3: xBIGRIVERx folded before Flop (didn't bet)
+Seat 4: revysledneck folded on the River
+Seat 5: AgeofInnocence folded on the Flop
+Seat 6: pengjin folded before Flop (didn't bet)
+Seat 7: Kaufmann I (button) folded before Flop (didn't bet)
+Seat 8: Kazooka (small blind) folded on the Flop
+Seat 9: pokerHero1 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212331173167:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:54:07 ET
+Table 'Una' 9-max Seat #8 is the button
+Seat 1: jimmimax ($2.07 in chips)
+Seat 2: nutzz99 ($1.18 in chips)
+Seat 3: xBIGRIVERx ($3.05 in chips)
+Seat 4: revysledneck ($1.21 in chips)
+Seat 5: AgeofInnocence ($1.10 in chips)
+Seat 6: pengjin ($0.77 in chips)
+Seat 7: Kaufmann I ($1.82 in chips)
+Seat 8: Kazooka ($4.62 in chips)
+Seat 9: pokerHero1 ($2.10 in chips)
+pokerHero1: posts small blind $0.01
+jimmimax: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd 4h]
+nutzz99: folds
+xBIGRIVERx: folds
+revysledneck: raises $0.05 to $0.07
+AgeofInnocence: folds
+pengjin: calls $0.07
+Kaufmann I: folds
+Kazooka: folds
+pokerHero1: folds
+jimmimax: folds
+*** FLOP *** [3s 9d 7c]
+revysledneck: bets $0.08
+pengjin: raises $0.62 to $0.70 and is all-in
+revysledneck: folds
+Uncalled bet ($0.62) returned to pengjin
+pengjin collected $0.32 from pot
+pengjin: doesn't show hand
+*** SUMMARY ***
+Total pot $0.33 | Rake $0.01
+Board [3s 9d 7c]
+Seat 1: jimmimax (big blind) folded before Flop
+Seat 2: nutzz99 folded before Flop (didn't bet)
+Seat 3: xBIGRIVERx folded before Flop (didn't bet)
+Seat 4: revysledneck folded on the Flop
+Seat 5: AgeofInnocence folded before Flop (didn't bet)
+Seat 6: pengjin collected ($0.32)
+Seat 7: Kaufmann I folded before Flop (didn't bet)
+Seat 8: Kazooka (button) folded before Flop (didn't bet)
+Seat 9: pokerHero1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212331227782:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:54:45 ET
+Table 'Una' 9-max Seat #9 is the button
+Seat 1: jimmimax ($2.05 in chips)
+Seat 2: nutzz99 ($1.18 in chips)
+Seat 3: xBIGRIVERx ($3.05 in chips)
+Seat 4: revysledneck ($1.06 in chips)
+Seat 5: AgeofInnocence ($1.10 in chips)
+Seat 6: pengjin ($0.94 in chips)
+Seat 7: Kaufmann I ($1.82 in chips)
+Seat 8: Kazooka ($4.62 in chips)
+Seat 9: pokerHero1 ($2.09 in chips)
+jimmimax: posts small blind $0.01
+nutzz99: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh Jd]
+xBIGRIVERx: folds
+revysledneck: folds
+AgeofInnocence: folds
+pengjin: folds
+Kaufmann I: folds
+Kazooka: folds
+pokerHero1: raises $0.04 to $0.06
+jimmimax: folds
+nutzz99: calls $0.04
+*** FLOP *** [6s Jh Th]
+nutzz99: checks
+pokerHero1: bets $0.10
+nutzz99: folds
+Uncalled bet ($0.10) returned to pokerHero1
+pokerHero1 collected $0.13 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [6s Jh Th]
+Seat 1: jimmimax (small blind) folded before Flop
+Seat 2: nutzz99 (big blind) folded on the Flop
+Seat 3: xBIGRIVERx folded before Flop (didn't bet)
+Seat 4: revysledneck folded before Flop (didn't bet)
+Seat 5: AgeofInnocence folded before Flop (didn't bet)
+Seat 6: pengjin folded before Flop (didn't bet)
+Seat 7: Kaufmann I folded before Flop (didn't bet)
+Seat 8: Kazooka folded before Flop (didn't bet)
+Seat 9: pokerHero1 (button) collected ($0.13)
+
+
+
+PokerStars Hand #212331268604:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:55:28 ET
+Table 'Una' 9-max Seat #1 is the button
+Seat 1: jimmimax ($2.04 in chips)
+Seat 2: nutzz99 ($1.12 in chips)
+Seat 3: xBIGRIVERx ($3.05 in chips)
+Seat 4: revysledneck ($1.06 in chips)
+Seat 5: AgeofInnocence ($1.10 in chips)
+Seat 6: pengjin ($0.94 in chips)
+Seat 7: Kaufmann I ($1.82 in chips)
+Seat 8: Kazooka ($4.62 in chips)
+Seat 9: pokerHero1 ($2.16 in chips)
+nutzz99: posts small blind $0.01
+xBIGRIVERx: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td 4d]
+revysledneck: calls $0.02
+AgeofInnocence: folds
+pengjin: folds
+pengjin leaves the table
+Kaufmann I: raises $0.04 to $0.06
+Kazooka: calls $0.06
+pokerHero1: folds
+jimmimax: calls $0.06
+nutzz99: folds
+xBIGRIVERx: raises $0.22 to $0.28
+revysledneck: calls $0.26
+Kaufmann I: calls $0.22
+Kazooka: calls $0.22
+jimmimax: folds
+*** FLOP *** [8s 4h 3c]
+xBIGRIVERx: checks
+revysledneck: checks
+Kaufmann I: bets $1.54 and is all-in
+Kazooka: folds
+xBIGRIVERx: folds
+revysledneck: calls $0.78 and is all-in
+Uncalled bet ($0.76) returned to Kaufmann I
+*** TURN *** [8s 4h 3c] [3d]
+*** RIVER *** [8s 4h 3c 3d] [2c]
+*** SHOW DOWN ***
+revysledneck: shows [7h 6s] (a pair of Threes)
+Kaufmann I: shows [Qc Ad] (a pair of Threes - Ace kicker)
+Kaufmann I collected $2.65 from pot
+*** SUMMARY ***
+Total pot $2.75 | Rake $0.10
+Board [8s 4h 3c 3d 2c]
+Seat 1: jimmimax (button) folded before Flop
+Seat 2: nutzz99 (small blind) folded before Flop
+Seat 3: xBIGRIVERx (big blind) folded on the Flop
+Seat 4: revysledneck showed [7h 6s] and lost with a pair of Threes
+Seat 5: AgeofInnocence folded before Flop (didn't bet)
+Seat 6: pengjin folded before Flop (didn't bet)
+Seat 7: Kaufmann I showed [Qc Ad] and won ($2.65) with a pair of Threes
+Seat 8: Kazooka folded on the Flop
+Seat 9: pokerHero1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212331331048:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:56:52 ET
+Table 'Una' 9-max Seat #2 is the button
+Seat 1: jimmimax ($2 in chips)
+Seat 2: nutzz99 ($1.11 in chips)
+Seat 3: xBIGRIVERx ($2.77 in chips)
+Seat 7: Kaufmann I ($3.41 in chips)
+Seat 9: pokerHero1 ($2.16 in chips)
+xBIGRIVERx: posts small blind $0.01
+Kaufmann I: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4h Kc]
+AgeofInnocence leaves the table
+Kazooka leaves the table
+revysledneck leaves the table
+pokerHero1: raises $0.06 to $0.08
+jimmimax: folds
+nutzz99: folds
+xBIGRIVERx: folds
+Kaufmann I: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: jimmimax folded before Flop (didn't bet)
+Seat 2: nutzz99 (button) folded before Flop (didn't bet)
+Seat 3: xBIGRIVERx (small blind) folded before Flop
+Seat 7: Kaufmann I (big blind) folded before Flop
+Seat 9: pokerHero1 collected ($0.05)
+
+
+

@@ -1,0 +1,660 @@
+﻿PokerStars Hand #212510828437:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:34:26 ET
+Table 'Martha II' 9-max Seat #6 is the button
+Seat 1: Omega031 ($2.17 in chips)
+Seat 2: Samonik22 ($0.68 in chips)
+Seat 4: NekstPsaiko ($2.22 in chips)
+Seat 5: One makh ($0.76 in chips)
+Seat 6: chef1947 ($2.33 in chips)
+Seat 7: MerciVielmal ($0.90 in chips)
+Seat 8: pokerHero1 ($2 in chips)
+MerciVielmal: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+9hertz40: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d Jc]
+Omega031: folds
+Samonik22: folds
+NekstPsaiko: folds
+One makh: calls $0.02
+chef1947: folds
+MerciVielmal: folds
+pokerHero1: checks
+*** FLOP *** [Kc 9c Qs]
+pokerHero1: checks
+One makh: checks
+*** TURN *** [Kc 9c Qs] [4h]
+pokerHero1: checks
+One makh: checks
+*** RIVER *** [Kc 9c Qs 4h] [5d]
+pokerHero1: checks
+One makh: checks
+*** SHOW DOWN ***
+pokerHero1: shows [7d Jc] (high card King)
+One makh: shows [6h Ah] (high card Ace)
+One makh collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [Kc 9c Qs 4h 5d]
+Seat 1: Omega031 folded before Flop (didn't bet)
+Seat 2: Samonik22 folded before Flop (didn't bet)
+Seat 4: NekstPsaiko folded before Flop (didn't bet)
+Seat 5: One makh showed [6h Ah] and won ($0.05) with high card Ace
+Seat 6: chef1947 (button) folded before Flop (didn't bet)
+Seat 7: MerciVielmal (small blind) folded before Flop
+Seat 8: pokerHero1 (big blind) showed [7d Jc] and lost with high card King
+
+
+
+PokerStars Hand #212510858180:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:34:58 ET
+Table 'Martha II' 9-max Seat #7 is the button
+Seat 1: Omega031 ($2.17 in chips)
+Seat 2: Samonik22 ($0.68 in chips)
+Seat 4: NekstPsaiko ($2.22 in chips)
+Seat 5: One makh ($0.79 in chips)
+Seat 6: chef1947 ($2.33 in chips)
+Seat 7: MerciVielmal ($0.89 in chips)
+Seat 8: pokerHero1 ($1.98 in chips)
+Seat 9: 9hertz40 ($1.60 in chips)
+pokerHero1: posts small blind $0.01
+9hertz40: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s Qd]
+Omega031: folds
+Samonik22 has timed out
+Samonik22: folds
+NekstPsaiko: folds
+One makh: folds
+chef1947: folds
+MerciVielmal: folds
+pokerHero1: folds
+Uncalled bet ($0.01) returned to 9hertz40
+9hertz40 collected $0.02 from pot
+9hertz40: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: Omega031 folded before Flop (didn't bet)
+Seat 2: Samonik22 folded before Flop (didn't bet)
+Seat 4: NekstPsaiko folded before Flop (didn't bet)
+Seat 5: One makh folded before Flop (didn't bet)
+Seat 6: chef1947 folded before Flop (didn't bet)
+Seat 7: MerciVielmal (button) folded before Flop (didn't bet)
+Seat 8: pokerHero1 (small blind) folded before Flop
+Seat 9: 9hertz40 (big blind) collected ($0.02)
+
+
+
+PokerStars Hand #212510880715:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:35:24 ET
+Table 'Martha II' 9-max Seat #8 is the button
+Seat 1: Omega031 ($2.17 in chips)
+Seat 2: Samonik22 ($0.68 in chips)
+Seat 4: NekstPsaiko ($2.22 in chips)
+Seat 5: One makh ($0.79 in chips)
+Seat 6: chef1947 ($2.33 in chips)
+Seat 7: MerciVielmal ($0.89 in chips)
+Seat 8: pokerHero1 ($1.97 in chips)
+Seat 9: 9hertz40 ($1.61 in chips)
+9hertz40: posts small blind $0.01
+Omega031: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8h Qh]
+Samonik22 has timed out
+Samonik22: folds
+NekstPsaiko: folds
+One makh: folds
+chef1947: folds
+MerciVielmal: raises $0.06 to $0.08
+pokerHero1: folds
+9hertz40: calls $0.07
+Omega031: folds
+*** FLOP *** [8s Jh 8d]
+9hertz40: checks
+MerciVielmal: checks
+*** TURN *** [8s Jh 8d] [3d]
+9hertz40: checks
+MerciVielmal: checks
+*** RIVER *** [8s Jh 8d 3d] [Kd]
+9hertz40: checks
+MerciVielmal: bets $0.11
+9hertz40: folds
+Uncalled bet ($0.11) returned to MerciVielmal
+MerciVielmal collected $0.17 from pot
+MerciVielmal: doesn't show hand
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [8s Jh 8d 3d Kd]
+Seat 1: Omega031 (big blind) folded before Flop
+Seat 2: Samonik22 folded before Flop (didn't bet)
+Seat 4: NekstPsaiko folded before Flop (didn't bet)
+Seat 5: One makh folded before Flop (didn't bet)
+Seat 6: chef1947 folded before Flop (didn't bet)
+Seat 7: MerciVielmal collected ($0.17)
+Seat 8: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 9: 9hertz40 (small blind) folded on the River
+
+
+
+PokerStars Hand #212510939829:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:36:28 ET
+Table 'Martha II' 9-max Seat #9 is the button
+Seat 1: Omega031 ($2.15 in chips)
+Seat 2: Samonik22 ($0.68 in chips)
+Seat 4: NekstPsaiko ($2.22 in chips)
+Seat 5: One makh ($0.79 in chips)
+Seat 6: chef1947 ($2.33 in chips)
+Seat 7: MerciVielmal ($0.98 in chips)
+Seat 8: pokerHero1 ($1.97 in chips)
+Seat 9: 9hertz40 ($1.53 in chips)
+Omega031: posts small blind $0.01
+Samonik22: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h 7h]
+NekstPsaiko: folds
+One makh: raises $0.04 to $0.06
+chef1947: folds
+MerciVielmal: folds
+pokerHero1: folds
+9hertz40: calls $0.06
+Omega031: folds
+Samonik22: folds
+*** FLOP *** [Ad Qs 9h]
+One makh: bets $0.07
+9hertz40: calls $0.07
+*** TURN *** [Ad Qs 9h] [7s]
+One makh: bets $0.14
+9hertz40: calls $0.14
+*** RIVER *** [Ad Qs 9h 7s] [8d]
+One makh: bets $0.28
+9hertz40: calls $0.28
+*** SHOW DOWN ***
+One makh: shows [Ah 5h] (a pair of Aces)
+9hertz40: shows [4c Ac] (a pair of Aces)
+One makh collected $0.55 from pot
+9hertz40 collected $0.54 from pot
+*** SUMMARY ***
+Total pot $1.13 | Rake $0.04
+Board [Ad Qs 9h 7s 8d]
+Seat 1: Omega031 (small blind) folded before Flop
+Seat 2: Samonik22 (big blind) folded before Flop
+Seat 4: NekstPsaiko folded before Flop (didn't bet)
+Seat 5: One makh showed [Ah 5h] and won ($0.55) with a pair of Aces
+Seat 6: chef1947 folded before Flop (didn't bet)
+Seat 7: MerciVielmal folded before Flop (didn't bet)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: 9hertz40 (button) showed [4c Ac] and won ($0.54) with a pair of Aces
+
+
+
+PokerStars Hand #212510984386:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:37:17 ET
+Table 'Martha II' 9-max Seat #1 is the button
+Seat 1: Omega031 ($2.14 in chips)
+Seat 2: Samonik22 ($0.66 in chips)
+Seat 4: NekstPsaiko ($2.22 in chips)
+Seat 5: One makh ($0.79 in chips)
+Seat 6: chef1947 ($2.33 in chips)
+Seat 7: MerciVielmal ($0.98 in chips)
+Seat 8: pokerHero1 ($1.97 in chips)
+Seat 9: 9hertz40 ($1.52 in chips)
+Samonik22: posts small blind $0.01
+NekstPsaiko: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8c Th]
+One makh: folds
+chef1947: folds
+MerciVielmal: folds
+pokerHero1: folds
+9hertz40: folds
+Omega031: folds
+Samonik22: calls $0.01
+NekstPsaiko: checks
+*** FLOP *** [4h Kc 6d]
+Samonik22: bets $0.02
+NekstPsaiko: folds
+Uncalled bet ($0.02) returned to Samonik22
+Samonik22 collected $0.04 from pot
+pablo595 was removed from the table for failing to post
+pablo595 leaves the table
+Samonik22: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [4h Kc 6d]
+Seat 1: Omega031 (button) folded before Flop (didn't bet)
+Seat 2: Samonik22 (small blind) collected ($0.04)
+Seat 4: NekstPsaiko (big blind) folded on the Flop
+Seat 5: One makh folded before Flop (didn't bet)
+Seat 6: chef1947 folded before Flop (didn't bet)
+Seat 7: MerciVielmal folded before Flop (didn't bet)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: 9hertz40 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511012253:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:37:48 ET
+Table 'Martha II' 9-max Seat #2 is the button
+Seat 1: Omega031 ($2.14 in chips)
+Seat 2: Samonik22 ($0.68 in chips)
+Seat 4: NekstPsaiko ($2.20 in chips)
+Seat 5: One makh ($0.79 in chips)
+Seat 6: chef1947 ($2.33 in chips)
+Seat 7: MerciVielmal ($0.98 in chips)
+Seat 8: pokerHero1 ($1.97 in chips)
+Seat 9: 9hertz40 ($1.52 in chips)
+NekstPsaiko: posts small blind $0.01
+One makh: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc 8d]
+chef1947: folds
+MerciVielmal: folds
+pokerHero1: folds
+9hertz40: folds
+Wital_LT22 joins the table at seat #3
+Omega031: folds
+Samonik22: calls $0.02
+NekstPsaiko: folds
+One makh: checks
+*** FLOP *** [Ad 9h 2d]
+One makh: checks
+Samonik22: bets $0.02
+One makh: folds
+Uncalled bet ($0.02) returned to Samonik22
+Samonik22 collected $0.05 from pot
+Samonik22: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [Ad 9h 2d]
+Seat 1: Omega031 folded before Flop (didn't bet)
+Seat 2: Samonik22 (button) collected ($0.05)
+Seat 4: NekstPsaiko (small blind) folded before Flop
+Seat 5: One makh (big blind) folded on the Flop
+Seat 6: chef1947 folded before Flop (didn't bet)
+Seat 7: MerciVielmal folded before Flop (didn't bet)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: 9hertz40 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511049969:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:38:29 ET
+Table 'Martha II' 9-max Seat #4 is the button
+Seat 1: Omega031 ($2.14 in chips)
+Seat 2: Samonik22 ($0.71 in chips)
+Seat 4: NekstPsaiko ($2.19 in chips)
+Seat 5: One makh ($0.77 in chips)
+Seat 6: chef1947 ($2.33 in chips)
+Seat 7: MerciVielmal ($0.98 in chips)
+Seat 8: pokerHero1 ($1.97 in chips)
+Seat 9: 9hertz40 ($1.52 in chips)
+One makh: posts small blind $0.01
+chef1947: posts big blind $0.02
+Wital_LT22: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kc 7c]
+MerciVielmal: folds
+pokerHero1: folds
+9hertz40: folds
+Omega031: folds
+Samonik22: folds
+NekstPsaiko: folds
+One makh: calls $0.01
+chef1947: checks
+*** FLOP *** [7s Ad 5s]
+One makh: bets $0.02
+chef1947: calls $0.02
+*** TURN *** [7s Ad 5s] [9h]
+One makh: bets $0.02
+chef1947: raises $0.06 to $0.08
+One makh: calls $0.06
+*** RIVER *** [7s Ad 5s 9h] [7d]
+One makh: checks
+chef1947: checks
+*** SHOW DOWN ***
+One makh: shows [7h Jh] (three of a kind, Sevens)
+chef1947: mucks hand
+One makh collected $0.23 from pot
+*** SUMMARY ***
+Total pot $0.24 | Rake $0.01
+Board [7s Ad 5s 9h 7d]
+Seat 1: Omega031 folded before Flop (didn't bet)
+Seat 2: Samonik22 folded before Flop (didn't bet)
+Seat 4: NekstPsaiko (button) folded before Flop (didn't bet)
+Seat 5: One makh (small blind) showed [7h Jh] and won ($0.23) with three of a kind, Sevens
+Seat 6: chef1947 (big blind) mucked [5d Qs]
+Seat 7: MerciVielmal folded before Flop (didn't bet)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: 9hertz40 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511099668:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:39:25 ET
+Table 'Martha II' 9-max Seat #5 is the button
+Seat 1: Omega031 ($2.14 in chips)
+Seat 2: Samonik22 ($0.71 in chips)
+Seat 4: NekstPsaiko ($2.19 in chips)
+Seat 5: One makh ($0.88 in chips)
+Seat 6: chef1947 ($2.21 in chips)
+Seat 7: MerciVielmal ($0.98 in chips)
+Seat 8: pokerHero1 ($1.97 in chips)
+Seat 9: 9hertz40 ($1.52 in chips)
+chef1947: posts small blind $0.01
+MerciVielmal: posts big blind $0.02
+Wital_LT22: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h 4h]
+pokerHero1: folds
+9hertz40: folds
+Omega031: folds
+Samonik22: raises $0.02 to $0.04
+NekstPsaiko: folds
+One makh: calls $0.04
+chef1947: folds
+MerciVielmal: calls $0.02
+*** FLOP *** [Jd 7h Td]
+MerciVielmal: checks
+Samonik22: bets $0.02
+One makh: calls $0.02
+MerciVielmal: folds
+*** TURN *** [Jd 7h Td] [Ts]
+Samonik22: bets $0.08
+One makh: folds
+Uncalled bet ($0.08) returned to Samonik22
+Samonik22 collected $0.16 from pot
+Samonik22: doesn't show hand
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [Jd 7h Td Ts]
+Seat 1: Omega031 folded before Flop (didn't bet)
+Seat 2: Samonik22 collected ($0.16)
+Seat 4: NekstPsaiko folded before Flop (didn't bet)
+Seat 5: One makh (button) folded on the Turn
+Seat 6: chef1947 (small blind) folded before Flop
+Seat 7: MerciVielmal (big blind) folded on the Flop
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: 9hertz40 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511142910:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:40:12 ET
+Table 'Martha II' 9-max Seat #6 is the button
+Seat 1: Omega031 ($2.14 in chips)
+Seat 2: Samonik22 ($0.81 in chips)
+Seat 4: NekstPsaiko ($2.19 in chips)
+Seat 5: One makh ($0.82 in chips)
+Seat 6: chef1947 ($2.20 in chips)
+Seat 7: MerciVielmal ($0.94 in chips)
+Seat 8: pokerHero1 ($1.97 in chips)
+Seat 9: 9hertz40 ($1.52 in chips)
+MerciVielmal: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+Wital_LT22: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc Ac]
+9hertz40: folds
+Omega031: folds
+Samonik22: folds
+NekstPsaiko: folds
+One makh: folds
+chef1947: folds
+chef1947 leaves the table
+MerciVielmal: raises $0.08 to $0.10
+pokerHero1: calls $0.08
+*** FLOP *** [2s 2d As]
+MerciVielmal: bets $0.13
+pokerHero1: raises $0.17 to $0.30
+rayy2020 joins the table at seat #6
+One makh leaves the table
+MerciVielmal: calls $0.17
+*** TURN *** [2s 2d As] [6s]
+MerciVielmal: checks
+pokerHero1: bets $0.26
+MerciVielmal: calls $0.26
+*** RIVER *** [2s 2d As 6s] [Td]
+MerciVielmal: checks
+pokerHero1: bets $0.28
+MerciVielmal: calls $0.28 and is all-in
+*** SHOW DOWN ***
+pokerHero1: shows [Qc Ac] (two pair, Aces and Deuces)
+MerciVielmal: shows [7s Ts] (a flush, Ace high)
+Bobishko80 joins the table at seat #5
+MerciVielmal collected $1.81 from pot
+*** SUMMARY ***
+Total pot $1.88 | Rake $0.07
+Board [2s 2d As 6s Td]
+Seat 1: Omega031 folded before Flop (didn't bet)
+Seat 2: Samonik22 folded before Flop (didn't bet)
+Seat 4: NekstPsaiko folded before Flop (didn't bet)
+Seat 5: One makh folded before Flop (didn't bet)
+Seat 6: chef1947 (button) folded before Flop (didn't bet)
+Seat 7: MerciVielmal (small blind) showed [7s Ts] and won ($1.81) with a flush, Ace high
+Seat 8: pokerHero1 (big blind) showed [Qc Ac] and lost with two pair, Aces and Deuces
+Seat 9: 9hertz40 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511203662:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:41:20 ET
+Table 'Martha II' 9-max Seat #7 is the button
+Seat 1: Omega031 ($2.14 in chips)
+Seat 2: Samonik22 ($0.81 in chips)
+Seat 4: NekstPsaiko ($2.19 in chips)
+Seat 7: MerciVielmal ($1.81 in chips)
+Seat 8: pokerHero1 ($2 in chips)
+pokerHero1: posts small blind $0.01
+9hertz40: is sitting out
+Omega031: posts big blind $0.02
+Wital_LT22: sits out
+Bobishko80: sits out
+rayy2020: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc 4c]
+Samonik22: folds
+NekstPsaiko: folds
+MerciVielmal: folds
+MerciVielmal leaves the table
+pokerHero1: folds
+Uncalled bet ($0.01) returned to Omega031
+Omega031 collected $0.02 from pot
+9hertz40 leaves the table
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: Omega031 (big blind) collected ($0.02)
+Seat 2: Samonik22 folded before Flop (didn't bet)
+Seat 4: NekstPsaiko folded before Flop (didn't bet)
+Seat 7: MerciVielmal (button) folded before Flop (didn't bet)
+Seat 8: pokerHero1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212511212901:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:41:30 ET
+Table 'Martha II' 9-max Seat #8 is the button
+Seat 1: Omega031 ($2.15 in chips)
+Seat 2: Samonik22 ($0.81 in chips)
+Seat 4: NekstPsaiko ($2.19 in chips)
+Seat 5: Bobishko80 ($1 in chips)
+Seat 8: pokerHero1 ($1.99 in chips)
+Omega031: posts small blind $0.01
+Samonik22: posts big blind $0.02
+Wital_LT22: sits out
+Bobishko80: posts big blind $0.02
+rayy2020: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad 6d]
+NekstPsaiko: folds
+NekstPsaiko leaves the table
+krisztian005 joins the table at seat #7
+Bobishko80: checks
+pokerHero1: raises $0.06 to $0.08
+Omega031: folds
+Samonik22: folds
+Bobishko80: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.07 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Seat 1: Omega031 (small blind) folded before Flop
+Seat 2: Samonik22 (big blind) folded before Flop
+Seat 4: NekstPsaiko folded before Flop (didn't bet)
+Seat 5: Bobishko80 folded before Flop (didn't bet)
+Seat 8: pokerHero1 (button) collected ($0.07)
+
+
+
+PokerStars Hand #212511237857:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:41:57 ET
+Table 'Martha II' 9-max Seat #1 is the button
+Seat 1: Omega031 ($2.14 in chips)
+Seat 2: Samonik22 ($0.79 in chips)
+Seat 3: Wital_LT22 ($2 in chips)
+Seat 5: Bobishko80 ($0.98 in chips)
+Seat 8: pokerHero1 ($2.04 in chips)
+Samonik22: posts small blind $0.01
+Wital_LT22: posts big blind $0.02
+rayy2020: sits out
+krisztian005: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd Qs]
+Bobishko80: folds
+pokerHero1: folds
+Omega031: raises $0.02 to $0.04
+Samonik22: calls $0.03
+Wital_LT22: folds
+*** FLOP *** [3s Ad 2h]
+Samonik22: bets $0.02
+Omega031: raises $0.05 to $0.07
+krisztian005 leaves the table
+Samonik22: folds
+Uncalled bet ($0.05) returned to Omega031
+Omega031 collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [3s Ad 2h]
+Seat 1: Omega031 (button) collected ($0.14)
+Seat 2: Samonik22 (small blind) folded on the Flop
+Seat 3: Wital_LT22 (big blind) folded before Flop
+Seat 5: Bobishko80 folded before Flop (didn't bet)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511274850:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:42:38 ET
+Table 'Martha II' 9-max Seat #2 is the button
+Seat 1: Omega031 ($2.22 in chips)
+Seat 2: Samonik22 ($0.73 in chips)
+Seat 3: Wital_LT22 ($1.98 in chips)
+Seat 5: Bobishko80 ($0.98 in chips)
+Seat 8: pokerHero1 ($2.04 in chips)
+Wital_LT22: posts small blind $0.01
+Bobishko80: posts big blind $0.02
+rayy2020: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s 3c]
+pokerHero1: folds
+Omega031: raises $0.03 to $0.05
+Samonik22: folds
+Wital_LT22: folds
+Bobishko80: calls $0.03
+*** FLOP *** [Td Js 9h]
+Bobishko80: checks
+duckscassidy joins the table at seat #7
+Omega031: bets $0.06
+Bobishko80: calls $0.06
+*** TURN *** [Td Js 9h] [Jd]
+Bobishko80: checks
+Nutellam@n joins the table at seat #4
+Omega031: checks
+*** RIVER *** [Td Js 9h Jd] [8d]
+Bobishko80: bets $0.04
+Nutellam@n leaves the table
+Omega031: calls $0.04
+*** SHOW DOWN ***
+Bobishko80: shows [Jh Ad] (three of a kind, Jacks)
+Omega031: shows [7h Kh] (a straight, Seven to Jack)
+Omega031 collected $0.30 from pot
+*** SUMMARY ***
+Total pot $0.31 | Rake $0.01
+Board [Td Js 9h Jd 8d]
+Seat 1: Omega031 showed [7h Kh] and won ($0.30) with a straight, Seven to Jack
+Seat 2: Samonik22 (button) folded before Flop (didn't bet)
+Seat 3: Wital_LT22 (small blind) folded before Flop
+Seat 5: Bobishko80 (big blind) showed [Jh Ad] and lost with three of a kind, Jacks
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511348104:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:43:58 ET
+Table 'Martha II' 9-max Seat #3 is the button
+Seat 1: Omega031 ($2.37 in chips)
+Seat 2: Samonik22 ($0.73 in chips)
+Seat 3: Wital_LT22 ($1.97 in chips)
+Seat 5: Bobishko80 ($0.83 in chips)
+Seat 6: rayy2020 ($1.84 in chips)
+Seat 8: pokerHero1 ($2.04 in chips)
+Bobishko80: posts small blind $0.01
+rayy2020: posts big blind $0.02
+duckscassidy: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kc Ts]
+pokerHero1: folds
+Omega031: folds
+Samonik22: folds
+Wital_LT22: folds
+kosarev1010 joins the table at seat #4
+Bobishko80: folds
+Uncalled bet ($0.01) returned to rayy2020
+rayy2020 collected $0.02 from pot
+rayy2020: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: Omega031 folded before Flop (didn't bet)
+Seat 2: Samonik22 folded before Flop (didn't bet)
+Seat 3: Wital_LT22 (button) folded before Flop (didn't bet)
+Seat 5: Bobishko80 (small blind) folded before Flop
+Seat 6: rayy2020 (big blind) collected ($0.02)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511367343:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:44:19 ET
+Table 'Martha II' 9-max Seat #5 is the button
+Seat 1: Omega031 ($2.37 in chips)
+Seat 2: Samonik22 ($0.73 in chips)
+Seat 3: Wital_LT22 ($1.97 in chips)
+Seat 5: Bobishko80 ($0.82 in chips)
+Seat 6: rayy2020 ($1.85 in chips)
+Seat 7: duckscassidy ($2 in chips)
+Seat 8: pokerHero1 ($2.04 in chips)
+rayy2020: posts small blind $0.01
+duckscassidy: posts big blind $0.02
+kosarev1010: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jh 3s]
+pleiona joins the table at seat #9
+pokerHero1: folds
+Omega031: folds
+Samonik22: calls $0.02
+Wital_LT22: raises $0.07 to $0.09
+Bobishko80: folds
+rayy2020: folds
+duckscassidy: folds
+Samonik22: calls $0.07
+*** FLOP *** [Qd 6h 8d]
+Samonik22: bets $0.02
+Wital_LT22: calls $0.02
+*** TURN *** [Qd 6h 8d] [Ac]
+Samonik22: bets $0.06
+Wital_LT22: calls $0.06
+*** RIVER *** [Qd 6h 8d Ac] [7h]
+Samonik22: bets $0.18
+Wital_LT22: calls $0.18
+*** SHOW DOWN ***
+Samonik22: shows [Kh 6s] (a pair of Sixes)
+Wital_LT22: shows [Ad Kc] (a pair of Aces)
+Wital_LT22 collected $0.70 from pot
+*** SUMMARY ***
+Total pot $0.73 | Rake $0.03
+Board [Qd 6h 8d Ac 7h]
+Seat 1: Omega031 folded before Flop (didn't bet)
+Seat 2: Samonik22 showed [Kh 6s] and lost with a pair of Sixes
+Seat 3: Wital_LT22 showed [Ad Kc] and won ($0.70) with a pair of Aces
+Seat 5: Bobishko80 (button) folded before Flop (didn't bet)
+Seat 6: rayy2020 (small blind) folded before Flop
+Seat 7: duckscassidy (big blind) folded before Flop
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+
+
+

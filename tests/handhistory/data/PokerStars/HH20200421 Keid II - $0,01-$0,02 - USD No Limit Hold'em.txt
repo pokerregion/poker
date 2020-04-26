@@ -1,0 +1,4262 @@
+﻿PokerStars Hand #212448286639:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:56:04 ET
+Table 'Keid II' 9-max Seat #5 is the button
+Seat 1: Dago1984 ($1.87 in chips)
+Seat 2: LokiBalboa46 ($2.73 in chips)
+Seat 3: Happy we:-) ($1.54 in chips)
+Seat 5: lepetitprinc3 ($2.09 in chips)
+Seat 6: ebdy85 ($1.78 in chips)
+Seat 7: pokerHero1 ($2 in chips)
+Seat 8: Fossouar ($2 in chips)
+Seat 9: cutlaty ($2.17 in chips)
+ebdy85: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+donmakaron15: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac 3d]
+Fossouar has timed out
+Fossouar: folds
+cutlaty: folds
+Dago1984: calls $0.02
+LokiBalboa46: calls $0.02
+Happy we:-): raises $0.10 to $0.12
+lepetitprinc3: folds
+ebdy85: folds
+pokerHero1: folds
+Dago1984: folds
+LokiBalboa46: folds
+Uncalled bet ($0.10) returned to Happy we:-)
+Happy we:-) collected $0.09 from pot
+Happy we:-): doesn't show hand
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Seat 1: Dago1984 folded before Flop
+Seat 2: LokiBalboa46 folded before Flop
+Seat 3: Happy we:-) collected ($0.09)
+Seat 5: lepetitprinc3 (button) folded before Flop (didn't bet)
+Seat 6: ebdy85 (small blind) folded before Flop
+Seat 7: pokerHero1 (big blind) folded before Flop
+Seat 8: Fossouar folded before Flop (didn't bet)
+Seat 9: cutlaty folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448311552:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:56:41 ET
+Table 'Keid II' 9-max Seat #6 is the button
+Seat 1: Dago1984 ($1.85 in chips)
+Seat 2: LokiBalboa46 ($2.71 in chips)
+Seat 3: Happy we:-) ($1.61 in chips)
+Seat 5: lepetitprinc3 ($2.09 in chips)
+Seat 6: ebdy85 ($1.77 in chips)
+Seat 7: pokerHero1 ($1.98 in chips)
+Seat 8: Fossouar ($2 in chips)
+Seat 9: cutlaty ($2.17 in chips)
+pokerHero1: posts small blind $0.01
+Fossouar: posts big blind $0.02
+donmakaron15: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qs 3s]
+cutlaty: folds
+Dago1984: folds
+LokiBalboa46: calls $0.02
+Happy we:-): folds
+lepetitprinc3: folds
+ebdy85: folds
+pokerHero1: calls $0.01
+Fossouar: checks
+*** FLOP *** [Kd Jc Kc]
+pokerHero1: checks
+Fossouar: bets $0.04
+LokiBalboa46: folds
+pokerHero1: folds
+Uncalled bet ($0.04) returned to Fossouar
+Fossouar collected $0.06 from pot
+Fossouar: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [Kd Jc Kc]
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 folded on the Flop
+Seat 3: Happy we:-) folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: ebdy85 (button) folded before Flop (didn't bet)
+Seat 7: pokerHero1 (small blind) folded on the Flop
+Seat 8: Fossouar (big blind) collected ($0.06)
+Seat 9: cutlaty folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448332883:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:57:14 ET
+Table 'Keid II' 9-max Seat #7 is the button
+Seat 1: Dago1984 ($1.85 in chips)
+Seat 2: LokiBalboa46 ($2.69 in chips)
+Seat 3: Happy we:-) ($1.61 in chips)
+Seat 5: lepetitprinc3 ($2.09 in chips)
+Seat 6: ebdy85 ($1.77 in chips)
+Seat 7: pokerHero1 ($1.96 in chips)
+Seat 8: Fossouar ($2.04 in chips)
+Seat 9: cutlaty ($2.17 in chips)
+Fossouar: posts small blind $0.01
+cutlaty: posts big blind $0.02
+donmakaron15: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d 2d]
+Dago1984: calls $0.02
+LokiBalboa46 has timed out
+LokiBalboa46: folds
+Happy we:-): folds
+lepetitprinc3: raises $0.05 to $0.07
+ebdy85: folds
+pokerHero1: folds
+Fossouar: folds
+cutlaty: folds
+Dago1984: folds
+Uncalled bet ($0.05) returned to lepetitprinc3
+lepetitprinc3 collected $0.07 from pot
+lepetitprinc3: doesn't show hand
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Seat 1: Dago1984 folded before Flop
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Happy we:-) folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 collected ($0.07)
+Seat 6: ebdy85 folded before Flop (didn't bet)
+Seat 7: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 8: Fossouar (small blind) folded before Flop
+Seat 9: cutlaty (big blind) folded before Flop
+
+
+
+PokerStars Hand #212448366490:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:58:04 ET
+Table 'Keid II' 9-max Seat #8 is the button
+Seat 1: Dago1984 ($1.83 in chips)
+Seat 2: LokiBalboa46 ($2.69 in chips)
+Seat 3: Happy we:-) ($1.61 in chips)
+Seat 5: lepetitprinc3 ($2.14 in chips)
+Seat 6: ebdy85 ($1.77 in chips)
+Seat 7: pokerHero1 ($1.96 in chips)
+Seat 8: Fossouar ($2.03 in chips)
+Seat 9: cutlaty ($2.15 in chips)
+cutlaty: posts small blind $0.01
+Dago1984: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad Qc]
+LokiBalboa46: folds
+Happy we:-): folds
+lepetitprinc3: raises $0.05 to $0.07
+ebdy85: folds
+ebdy85 leaves the table
+pokerHero1: folds
+Fossouar: folds
+cutlaty: folds
+Dago1984: raises $0.09 to $0.16
+lepetitprinc3: folds
+Uncalled bet ($0.09) returned to Dago1984
+Dago1984 collected $0.15 from pot
+Dago1984: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0
+Seat 1: Dago1984 (big blind) collected ($0.15)
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Happy we:-) folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 folded before Flop
+Seat 6: ebdy85 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Fossouar (button) folded before Flop (didn't bet)
+Seat 9: cutlaty (small blind) folded before Flop
+
+
+
+PokerStars Hand #212448389856:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:58:38 ET
+Table 'Keid II' 9-max Seat #9 is the button
+Seat 1: Dago1984 ($1.91 in chips)
+Seat 2: LokiBalboa46 ($2.69 in chips)
+Seat 3: Happy we:-) ($1.61 in chips)
+Seat 5: lepetitprinc3 ($2.07 in chips)
+Seat 7: pokerHero1 ($1.96 in chips)
+Seat 8: Fossouar ($2.03 in chips)
+Seat 9: cutlaty ($2.14 in chips)
+Dago1984: posts small blind $0.01
+LokiBalboa46: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh Qd]
+Happy we:-): folds
+lepetitprinc3: raises $0.05 to $0.07
+pokerHero1: raises $0.21 to $0.28
+Fossouar: folds
+cutlaty: folds
+Dago1984: folds
+LokiBalboa46: folds
+dob-d737 joins the table at seat #6
+lepetitprinc3: folds
+Uncalled bet ($0.21) returned to pokerHero1
+pokerHero1 collected $0.17 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.17 | Rake $0
+Seat 1: Dago1984 (small blind) folded before Flop
+Seat 2: LokiBalboa46 (big blind) folded before Flop
+Seat 3: Happy we:-) folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 folded before Flop
+Seat 7: pokerHero1 collected ($0.17)
+Seat 8: Fossouar folded before Flop (didn't bet)
+Seat 9: cutlaty (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448418777:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:59:21 ET
+Table 'Keid II' 9-max Seat #1 is the button
+Seat 1: Dago1984 ($1.90 in chips)
+Seat 2: LokiBalboa46 ($2.67 in chips)
+Seat 3: Happy we:-) ($1.61 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: dob-d737 ($0.80 in chips)
+Seat 7: pokerHero1 ($2.06 in chips)
+Seat 8: Fossouar ($2.03 in chips)
+Seat 9: cutlaty ($2.14 in chips)
+LokiBalboa46: posts small blind $0.01
+Happy we:-): posts big blind $0.02
+dob-d737: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kc Ks]
+lepetitprinc3: calls $0.02
+dob-d737: checks
+pokerHero1: raises $0.10 to $0.12
+Fossouar: folds
+cutlaty: calls $0.12
+Dago1984: folds
+LokiBalboa46: folds
+Happy we:-): folds
+lepetitprinc3: folds
+dob-d737: calls $0.10
+*** FLOP *** [Ad 9c Jh]
+dob-d737: bets $0.20
+pokerHero1: folds
+cutlaty: folds
+Uncalled bet ($0.20) returned to dob-d737
+dob-d737 collected $0.40 from pot
+dob-d737: doesn't show hand
+*** SUMMARY ***
+Total pot $0.41 | Rake $0.01
+Board [Ad 9c Jh]
+Seat 1: Dago1984 (button) folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 (small blind) folded before Flop
+Seat 3: Happy we:-) (big blind) folded before Flop
+Seat 5: lepetitprinc3 folded before Flop
+Seat 6: dob-d737 collected ($0.40)
+Seat 7: pokerHero1 folded on the Flop
+Seat 8: Fossouar folded before Flop (didn't bet)
+Seat 9: cutlaty folded on the Flop
+
+
+
+PokerStars Hand #212448449111:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:00:05 ET
+Table 'Keid II' 9-max Seat #2 is the button
+Seat 1: Dago1984 ($1.90 in chips)
+Seat 2: LokiBalboa46 ($2.66 in chips)
+Seat 3: Happy we:-) ($1.59 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: dob-d737 ($1.08 in chips)
+Seat 7: pokerHero1 ($1.94 in chips)
+Seat 8: Fossouar ($2.03 in chips)
+Seat 9: cutlaty ($2.02 in chips)
+Happy we:-): posts small blind $0.01
+lepetitprinc3: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c Qs]
+dob-d737: raises $0.04 to $0.06
+pokerHero1: folds
+Fossouar: folds
+cutlaty: folds
+Dago1984: calls $0.06
+LokiBalboa46: calls $0.06
+Happy we:-): folds
+lepetitprinc3: folds
+*** FLOP *** [6h 3d 8d]
+dob-d737: bets $0.20
+Dago1984: folds
+LokiBalboa46: folds
+Uncalled bet ($0.20) returned to dob-d737
+dob-d737 collected $0.20 from pot
+dob-d737: doesn't show hand
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [6h 3d 8d]
+Seat 1: Dago1984 folded on the Flop
+Seat 2: LokiBalboa46 (button) folded on the Flop
+Seat 3: Happy we:-) (small blind) folded before Flop
+Seat 5: lepetitprinc3 (big blind) folded before Flop
+Seat 6: dob-d737 collected ($0.20)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Fossouar folded before Flop (didn't bet)
+Seat 9: cutlaty folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448471692:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:00:37 ET
+Table 'Keid II' 9-max Seat #3 is the button
+Seat 1: Dago1984 ($1.84 in chips)
+Seat 2: LokiBalboa46 ($2.60 in chips)
+Seat 3: Happy we:-) ($1.58 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: dob-d737 ($1.22 in chips)
+Seat 7: pokerHero1 ($1.94 in chips)
+Seat 8: Fossouar ($2.03 in chips)
+Seat 9: cutlaty ($2.02 in chips)
+lepetitprinc3: posts small blind $0.01
+dob-d737: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td 6h]
+pokerHero1: folds
+Fossouar: calls $0.02
+cutlaty: raises $0.04 to $0.06
+Dago1984: folds
+LokiBalboa46: folds
+Happy we:-): folds
+lepetitprinc3: folds
+dob-d737: folds
+Fossouar: calls $0.04
+*** FLOP *** [4h 6d 7s]
+Fossouar: checks
+cutlaty: bets $0.08
+Fossouar: raises $0.14 to $0.22
+cutlaty: folds
+Uncalled bet ($0.14) returned to Fossouar
+Fossouar collected $0.30 from pot
+Fossouar: doesn't show hand
+*** SUMMARY ***
+Total pot $0.31 | Rake $0.01
+Board [4h 6d 7s]
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Happy we:-) (button) folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 (small blind) folded before Flop
+Seat 6: dob-d737 (big blind) folded before Flop
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Fossouar collected ($0.30)
+Seat 9: cutlaty folded on the Flop
+
+
+
+PokerStars Hand #212448513512:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:01:30 ET
+Table 'Keid II' 9-max Seat #5 is the button
+Seat 1: Dago1984 ($1.84 in chips)
+Seat 2: LokiBalboa46 ($2.60 in chips)
+Seat 3: Happy we:-) ($1.58 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: dob-d737 ($1.20 in chips)
+Seat 7: pokerHero1 ($1.94 in chips)
+Seat 8: Fossouar ($2.19 in chips)
+Seat 9: cutlaty ($2 in chips)
+dob-d737: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd Qd]
+Fossouar: folds
+cutlaty: folds
+Dago1984: folds
+LokiBalboa46: folds
+Happy we:-): folds
+lepetitprinc3: folds
+dob-d737: calls $0.01
+pokerHero1: checks
+*** FLOP *** [3c 3h 3d]
+dob-d737: checks
+pokerHero1: checks
+*** TURN *** [3c 3h 3d] [Ah]
+dob-d737: bets $0.04
+pokerHero1: folds
+Uncalled bet ($0.04) returned to dob-d737
+dob-d737 collected $0.04 from pot
+dob-d737: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [3c 3h 3d Ah]
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Happy we:-) folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 (button) folded before Flop (didn't bet)
+Seat 6: dob-d737 (small blind) collected ($0.04)
+Seat 7: pokerHero1 (big blind) folded on the Turn
+Seat 8: Fossouar folded before Flop (didn't bet)
+Seat 9: cutlaty folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448547069:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:02:09 ET
+Table 'Keid II' 9-max Seat #6 is the button
+Seat 1: Dago1984 ($1.84 in chips)
+Seat 2: LokiBalboa46 ($2.60 in chips)
+Seat 3: Happy we:-) ($1.58 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: dob-d737 ($1.22 in chips)
+Seat 7: pokerHero1 ($1.92 in chips)
+Seat 8: Fossouar ($2.19 in chips)
+Seat 9: cutlaty ($2 in chips)
+pokerHero1: posts small blind $0.01
+Fossouar: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc 2d]
+cutlaty: folds
+Dago1984: raises $0.02 to $0.04
+LokiBalboa46: calls $0.04
+Happy we:-): folds
+Happy we:-) leaves the table
+lepetitprinc3: folds
+dob-d737: calls $0.04
+pokerHero1: folds
+Fossouar: folds
+*** FLOP *** [6d 4c 3d]
+Dago1984: bets $0.07
+LokiBalboa46: calls $0.07
+dob-d737: folds
+*** TURN *** [6d 4c 3d] [7s]
+Dago1984: bets $0.08
+kolmakov444 joins the table at seat #3
+LokiBalboa46: calls $0.08
+*** RIVER *** [6d 4c 3d 7s] [Qd]
+Dago1984: checks
+LokiBalboa46: checks
+*** SHOW DOWN ***
+Dago1984: shows [Td Th] (a pair of Tens)
+LokiBalboa46: mucks hand
+Dago1984 collected $0.43 from pot
+*** SUMMARY ***
+Total pot $0.45 | Rake $0.02
+Board [6d 4c 3d 7s Qd]
+Seat 1: Dago1984 showed [Td Th] and won ($0.43) with a pair of Tens
+Seat 2: LokiBalboa46 mucked [Ah 7d]
+Seat 3: Happy we:-) folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: dob-d737 (button) folded on the Flop
+Seat 7: pokerHero1 (small blind) folded before Flop
+Seat 8: Fossouar (big blind) folded before Flop
+Seat 9: cutlaty folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448591053:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:02:59 ET
+Table 'Keid II' 9-max Seat #7 is the button
+Seat 1: Dago1984 ($2.08 in chips)
+Seat 2: LokiBalboa46 ($2.41 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: dob-d737 ($1.18 in chips)
+Seat 7: pokerHero1 ($1.91 in chips)
+Seat 8: Fossouar ($2.17 in chips)
+Seat 9: cutlaty ($2 in chips)
+Fossouar: posts small blind $0.01
+cutlaty: posts big blind $0.02
+kolmakov444: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d 9s]
+Dago1984: folds
+LokiBalboa46: folds
+lepetitprinc3: folds
+dob-d737: calls $0.02
+pokerHero1: folds
+Fossouar: calls $0.01
+cutlaty: checks
+*** FLOP *** [6s Kd 9c]
+Fossouar: checks
+cutlaty: checks
+dob-d737: bets $0.02
+Fossouar: folds
+cutlaty: folds
+Uncalled bet ($0.02) returned to dob-d737
+dob-d737 collected $0.06 from pot
+dob-d737: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [6s Kd 9c]
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: dob-d737 collected ($0.06)
+Seat 7: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 8: Fossouar (small blind) folded on the Flop
+Seat 9: cutlaty (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212448621338:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:03:34 ET
+Table 'Keid II' 9-max Seat #8 is the button
+Seat 1: Dago1984 ($2.08 in chips)
+Seat 2: LokiBalboa46 ($2.41 in chips)
+Seat 3: kolmakov444 ($0.80 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: dob-d737 ($1.22 in chips)
+Seat 7: pokerHero1 ($1.91 in chips)
+Seat 8: Fossouar ($2.15 in chips)
+Seat 9: cutlaty ($2 in chips)
+cutlaty: posts small blind $0.01
+Dago1984: posts big blind $0.02
+kolmakov444: posts big blind $0.02
+donmakaron15: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s Jh]
+LokiBalboa46: folds
+kolmakov444: checks
+lepetitprinc3: folds
+dob-d737: folds
+pokerHero1: folds
+Fossouar: folds
+cutlaty: calls $0.01
+Dago1984: checks
+*** FLOP *** [Ac 3d 9d]
+dob-d737 leaves the table
+cutlaty: checks
+Dago1984: bets $0.04
+kolmakov444: calls $0.04
+cutlaty: calls $0.04
+*** TURN *** [Ac 3d 9d] [Td]
+cutlaty: checks
+Dago1984: bets $0.10
+kolmakov444: calls $0.10
+cutlaty: calls $0.10
+*** RIVER *** [Ac 3d 9d Td] [4h]
+cutlaty: checks
+Dago1984: bets $0.30
+kolmakov444: calls $0.30
+cutlaty: calls $0.30
+*** SHOW DOWN ***
+Dago1984: shows [Jd 2d] (a flush, Jack high)
+kolmakov444: mucks hand
+cutlaty: mucks hand
+Dago1984 collected $1.33 from pot
+*** SUMMARY ***
+Total pot $1.38 | Rake $0.05
+Board [Ac 3d 9d Td 4h]
+Seat 1: Dago1984 (big blind) showed [Jd 2d] and won ($1.33) with a flush, Jack high
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: kolmakov444 mucked [Ah 8c]
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: dob-d737 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Fossouar (button) folded before Flop (didn't bet)
+Seat 9: cutlaty (small blind) mucked [Ad Ts]
+
+
+
+PokerStars Hand #212448677619:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:04:37 ET
+Table 'Keid II' 9-max Seat #9 is the button
+Seat 1: Dago1984 ($2.95 in chips)
+Seat 2: LokiBalboa46 ($2.41 in chips)
+Seat 3: kolmakov444 ($0.34 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 7: pokerHero1 ($1.91 in chips)
+Seat 8: Fossouar ($2.15 in chips)
+Seat 9: cutlaty ($2 in chips)
+Dago1984: posts small blind $0.01
+LokiBalboa46: posts big blind $0.02
+donmakaron15: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh 4c]
+kolmakov444 has timed out
+kolmakov444: folds
+lepetitprinc3: folds
+pokerHero1: folds
+Fossouar: raises $0.04 to $0.06
+cutlaty: calls $0.06
+Dago1984: folds
+LokiBalboa46: calls $0.04
+*** FLOP *** [Ah 9c 4d]
+LokiBalboa46: checks
+Fossouar: checks
+cutlaty: checks
+*** TURN *** [Ah 9c 4d] [5d]
+LokiBalboa46: bets $0.06
+Fossouar: folds
+cutlaty: calls $0.06
+*** RIVER *** [Ah 9c 4d 5d] [3d]
+LokiBalboa46: bets $0.06
+cutlaty: raises $0.30 to $0.36
+andymolina23 joins the table at seat #6
+LokiBalboa46: raises $0.30 to $0.66
+cutlaty: raises $0.66 to $1.32
+LokiBalboa46: calls $0.66
+*** SHOW DOWN ***
+cutlaty: shows [Kd Qd] (a flush, King high)
+LokiBalboa46: mucks hand
+cutlaty collected $2.85 from pot
+*** SUMMARY ***
+Total pot $2.95 | Rake $0.10
+Board [Ah 9c 4d 5d 3d]
+Seat 1: Dago1984 (small blind) folded before Flop
+Seat 2: LokiBalboa46 (big blind) mucked [7d Jd]
+Seat 3: kolmakov444 folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Fossouar folded on the Turn
+Seat 9: cutlaty (button) showed [Kd Qd] and won ($2.85) with a flush, King high
+
+
+
+PokerStars Hand #212448784350:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:06:35 ET
+Table 'Keid II' 9-max Seat #1 is the button
+Seat 1: Dago1984 ($2.94 in chips)
+Seat 2: LokiBalboa46 ($0.97 in chips)
+Seat 3: kolmakov444 ($0.34 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: andymolina23 ($0.80 in chips)
+Seat 7: pokerHero1 ($1.91 in chips)
+Seat 8: Fossouar ($2.09 in chips)
+Seat 9: cutlaty ($3.41 in chips)
+LokiBalboa46: posts small blind $0.01
+kolmakov444: posts big blind $0.02
+donmakaron15: sits out
+andymolina23: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3c Kh]
+lepetitprinc3 has timed out
+lepetitprinc3: folds
+andymolina23: checks
+pokerHero1: folds
+Fossouar: folds
+cutlaty: folds
+Dago1984: folds
+LokiBalboa46: calls $0.01
+kolmakov444: checks
+*** FLOP *** [4s Js 8c]
+LokiBalboa46: checks
+kolmakov444: checks
+andymolina23: bets $0.04
+LokiBalboa46: calls $0.04
+kolmakov444: calls $0.04
+*** TURN *** [4s Js 8c] [3d]
+LokiBalboa46: checks
+kolmakov444: checks
+andymolina23: checks
+*** RIVER *** [4s Js 8c 3d] [9d]
+LokiBalboa46: bets $0.04
+kolmakov444: folds
+andymolina23: folds
+Uncalled bet ($0.04) returned to LokiBalboa46
+LokiBalboa46 collected $0.17 from pot
+LokiBalboa46: doesn't show hand
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [4s Js 8c 3d 9d]
+Seat 1: Dago1984 (button) folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 (small blind) collected ($0.17)
+Seat 3: kolmakov444 (big blind) folded on the River
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: andymolina23 folded on the River
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Fossouar folded before Flop (didn't bet)
+Seat 9: cutlaty folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448854016:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:07:53 ET
+Table 'Keid II' 9-max Seat #2 is the button
+Seat 1: Dago1984 ($2.94 in chips)
+Seat 2: LokiBalboa46 ($1.08 in chips)
+Seat 3: kolmakov444 ($0.28 in chips)
+Seat 4: donmakaron15 ($1.60 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: andymolina23 ($0.74 in chips)
+Seat 7: pokerHero1 ($1.91 in chips)
+Seat 8: Fossouar ($2.09 in chips)
+Seat 9: cutlaty ($3.41 in chips)
+kolmakov444: posts small blind $0.01
+donmakaron15: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6h 4c]
+lepetitprinc3 has timed out
+lepetitprinc3: folds
+andymolina23: raises $0.04 to $0.06
+pokerHero1: folds
+Fossouar: folds
+cutlaty: calls $0.06
+Dago1984: folds
+LokiBalboa46: calls $0.06
+kolmakov444: folds
+donmakaron15: calls $0.04
+*** FLOP *** [9h Jh Qd]
+donmakaron15: checks
+andymolina23: bets $0.12
+cutlaty: raises $0.24 to $0.36
+LokiBalboa46: folds
+donmakaron15: folds
+andymolina23: folds
+Uncalled bet ($0.24) returned to cutlaty
+cutlaty collected $0.47 from pot
+cutlaty: doesn't show hand
+*** SUMMARY ***
+Total pot $0.49 | Rake $0.02
+Board [9h Jh Qd]
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 (button) folded on the Flop
+Seat 3: kolmakov444 (small blind) folded before Flop
+Seat 4: donmakaron15 (big blind) folded on the Flop
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: andymolina23 folded on the Flop
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Fossouar folded before Flop (didn't bet)
+Seat 9: cutlaty collected ($0.47)
+
+
+
+PokerStars Hand #212448946587:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:09:29 ET
+Table 'Keid II' 9-max Seat #3 is the button
+Seat 1: Dago1984 ($2.94 in chips)
+Seat 2: LokiBalboa46 ($1.02 in chips)
+Seat 3: kolmakov444 ($0.27 in chips)
+Seat 4: donmakaron15 ($1.54 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: andymolina23 ($0.56 in chips)
+Seat 7: pokerHero1 ($1.91 in chips)
+Seat 8: Fossouar ($2.09 in chips)
+Seat 9: cutlaty ($3.70 in chips)
+donmakaron15: posts small blind $0.01
+lepetitprinc3: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac As]
+andymolina23: calls $0.02
+pokerHero1: raises $0.06 to $0.08
+Fossouar: folds
+cutlaty: calls $0.08
+Dago1984: calls $0.08
+LokiBalboa46: folds
+kolmakov444: raises $0.19 to $0.27 and is all-in
+donmakaron15: folds
+lepetitprinc3: folds
+andymolina23: folds
+pokerHero1: raises $0.59 to $0.86
+cutlaty: folds
+Dago1984: folds
+Uncalled bet ($0.59) returned to pokerHero1
+*** FLOP *** [Ts 9s 2d]
+*** TURN *** [Ts 9s 2d] [5h]
+*** RIVER *** [Ts 9s 2d 5h] [3d]
+*** SHOW DOWN ***
+pokerHero1: shows [Ac As] (a pair of Aces)
+kolmakov444: shows [8s 8c] (a pair of Eights)
+pokerHero1 collected $0.72 from pot
+*** SUMMARY ***
+Total pot $0.75 | Rake $0.03
+Board [Ts 9s 2d 5h 3d]
+Seat 1: Dago1984 folded before Flop
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: kolmakov444 (button) showed [8s 8c] and lost with a pair of Eights
+Seat 4: donmakaron15 (small blind) folded before Flop
+Seat 5: lepetitprinc3 (big blind) folded before Flop
+Seat 6: andymolina23 folded before Flop
+Seat 7: pokerHero1 showed [Ac As] and won ($0.72) with a pair of Aces
+Seat 8: Fossouar folded before Flop (didn't bet)
+Seat 9: cutlaty folded before Flop
+
+
+
+PokerStars Hand #212448995215:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:10:24 ET
+Table 'Keid II' 9-max Seat #4 is the button
+Seat 2: LokiBalboa46 ($1.02 in chips)
+Seat 4: donmakaron15 ($1.53 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: andymolina23 ($0.54 in chips)
+Seat 7: pokerHero1 ($2.36 in chips)
+Seat 8: Fossouar ($2.09 in chips)
+Seat 9: cutlaty ($3.62 in chips)
+lepetitprinc3: posts small blind $0.01
+andymolina23: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As 3d]
+pokerHero1: folds
+kolmakov444 leaves the table
+Fossouar: folds
+cutlaty: folds
+LokiBalboa46: folds
+donmakaron15: folds
+lepetitprinc3: folds
+Uncalled bet ($0.01) returned to andymolina23
+andymolina23 collected $0.02 from pot
+andymolina23: doesn't show hand
+Roubyz joins the table at seat #3
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 4: donmakaron15 (button) folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 (small blind) folded before Flop
+Seat 6: andymolina23 (big blind) collected ($0.02)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Fossouar folded before Flop (didn't bet)
+Seat 9: cutlaty folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449010229:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:10:40 ET
+Table 'Keid II' 9-max Seat #5 is the button
+Seat 2: LokiBalboa46 ($1.02 in chips)
+Seat 4: donmakaron15 ($1.53 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: andymolina23 ($0.55 in chips)
+Seat 7: pokerHero1 ($2.36 in chips)
+Seat 8: Fossouar ($2.09 in chips)
+Seat 9: cutlaty ($3.62 in chips)
+andymolina23: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+Roubyz: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad 8c]
+Fossouar: folds
+cutlaty: folds
+LokiBalboa46: folds
+donmakaron15: folds
+lepetitprinc3: raises $0.05 to $0.07
+andymolina23: raises $0.05 to $0.12
+pokerHero1: folds
+lepetitprinc3: calls $0.05
+*** FLOP *** [4h Ah 7h]
+andymolina23: bets $0.12
+lepetitprinc3: folds
+Uncalled bet ($0.12) returned to andymolina23
+andymolina23 collected $0.25 from pot
+andymolina23: doesn't show hand
+*** SUMMARY ***
+Total pot $0.26 | Rake $0.01
+Board [4h Ah 7h]
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 (button) folded on the Flop
+Seat 6: andymolina23 (small blind) collected ($0.25)
+Seat 7: pokerHero1 (big blind) folded before Flop
+Seat 8: Fossouar folded before Flop (didn't bet)
+Seat 9: cutlaty folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449053255:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:11:28 ET
+Table 'Keid II' 9-max Seat #6 is the button
+Seat 2: LokiBalboa46 ($1.02 in chips)
+Seat 4: donmakaron15 ($1.53 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: andymolina23 ($0.68 in chips)
+Seat 7: pokerHero1 ($2.34 in chips)
+Seat 8: Fossouar ($2.09 in chips)
+Seat 9: cutlaty ($3.62 in chips)
+pokerHero1: posts small blind $0.01
+Fossouar: posts big blind $0.02
+Roubyz: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qs Kd]
+cutlaty: folds
+LokiBalboa46: calls $0.02
+donmakaron15: folds
+lepetitprinc3: calls $0.02
+andymolina23: folds
+pokerHero1: calls $0.01
+Fossouar: checks
+*** FLOP *** [5d Tc 8c]
+pokerHero1: checks
+Fossouar: checks
+LokiBalboa46: bets $0.08
+lepetitprinc3: calls $0.08
+pokerHero1: folds
+Fossouar: folds
+*** TURN *** [5d Tc 8c] [4c]
+LokiBalboa46: checks
+lepetitprinc3: checks
+*** RIVER *** [5d Tc 8c 4c] [3d]
+LokiBalboa46: bets $0.06
+lepetitprinc3: calls $0.06
+*** SHOW DOWN ***
+LokiBalboa46: shows [9h 9d] (a pair of Nines)
+lepetitprinc3: shows [Ts Ks] (a pair of Tens)
+lepetitprinc3 collected $0.35 from pot
+*** SUMMARY ***
+Total pot $0.36 | Rake $0.01
+Board [5d Tc 8c 4c 3d]
+Seat 2: LokiBalboa46 showed [9h 9d] and lost with a pair of Nines
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 showed [Ts Ks] and won ($0.35) with a pair of Tens
+Seat 6: andymolina23 (button) folded before Flop (didn't bet)
+Seat 7: pokerHero1 (small blind) folded on the Flop
+Seat 8: Fossouar (big blind) folded on the Flop
+Seat 9: cutlaty folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449119408:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:12:42 ET
+Table 'Keid II' 9-max Seat #7 is the button
+Seat 2: LokiBalboa46 ($0.86 in chips)
+Seat 4: donmakaron15 ($1.53 in chips)
+Seat 5: lepetitprinc3 ($2.19 in chips)
+Seat 6: andymolina23 ($0.68 in chips)
+Seat 7: pokerHero1 ($2.32 in chips)
+Seat 8: Fossouar ($2.07 in chips)
+Seat 9: cutlaty ($3.62 in chips)
+Fossouar: posts small blind $0.01
+cutlaty: posts big blind $0.02
+Roubyz: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc 9h]
+LokiBalboa46: folds
+donmakaron15: raises $0.03 to $0.05
+lepetitprinc3: folds
+andymolina23: calls $0.05
+pokerHero1: folds
+Fossouar: folds
+cutlaty: folds
+*** FLOP *** [Qs As 7s]
+donmakaron15: checks
+andymolina23: bets $0.06
+donmakaron15: calls $0.06
+*** TURN *** [Qs As 7s] [8d]
+donmakaron15: checks
+andymolina23: bets $0.12
+donmakaron15: raises $0.12 to $0.24
+andymolina23: calls $0.12
+*** RIVER *** [Qs As 7s 8d] [9s]
+donmakaron15: checks
+andymolina23: bets $0.33 and is all-in
+donmakaron15: calls $0.33
+*** SHOW DOWN ***
+andymolina23: shows [Qd Ts] (a flush, Ace high)
+donmakaron15: shows [7d 7h] (three of a kind, Sevens)
+andymolina23 collected $1.34 from pot
+*** SUMMARY ***
+Total pot $1.39 | Rake $0.05
+Board [Qs As 7s 8d 9s]
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 4: donmakaron15 showed [7d 7h] and lost with three of a kind, Sevens
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: andymolina23 showed [Qd Ts] and won ($1.34) with a flush, Ace high
+Seat 7: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 8: Fossouar (small blind) folded before Flop
+Seat 9: cutlaty (big blind) folded before Flop
+
+
+
+PokerStars Hand #212449189637:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:13:55 ET
+Table 'Keid II' 9-max Seat #8 is the button
+Seat 2: LokiBalboa46 ($0.86 in chips)
+Seat 4: donmakaron15 ($0.85 in chips)
+Seat 5: lepetitprinc3 ($2.19 in chips)
+Seat 6: andymolina23 ($1.34 in chips)
+Seat 7: pokerHero1 ($2.32 in chips)
+Seat 8: Fossouar ($2.06 in chips)
+Seat 9: cutlaty ($3.60 in chips)
+cutlaty: posts small blind $0.01
+LokiBalboa46: posts big blind $0.02
+Roubyz: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8h 2c]
+donmakaron15: folds
+lepetitprinc3: folds
+andymolina23: folds
+pokerHero1: folds
+Fossouar: folds
+cutlaty: folds
+Uncalled bet ($0.01) returned to LokiBalboa46
+LokiBalboa46 collected $0.02 from pot
+LokiBalboa46: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 2: LokiBalboa46 (big blind) collected ($0.02)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Fossouar (button) folded before Flop (didn't bet)
+Seat 9: cutlaty (small blind) folded before Flop
+
+
+
+PokerStars Hand #212449209017:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:14:17 ET
+Table 'Keid II' 9-max Seat #9 is the button
+Seat 2: LokiBalboa46 ($0.87 in chips)
+Seat 3: Roubyz ($2 in chips)
+Seat 4: donmakaron15 ($0.85 in chips)
+Seat 5: lepetitprinc3 ($2.19 in chips)
+Seat 6: andymolina23 ($1.34 in chips)
+Seat 7: pokerHero1 ($2.32 in chips)
+Seat 8: Fossouar ($2.06 in chips)
+Seat 9: cutlaty ($3.59 in chips)
+LokiBalboa46: posts small blind $0.01
+Roubyz: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c 3d]
+donmakaron15 has timed out
+donmakaron15: folds
+lepetitprinc3: folds
+andymolina23: raises $0.04 to $0.06
+pokerHero1: folds
+Fossouar: raises $0.14 to $0.20
+cutlaty: folds
+cutlaty leaves the table
+LokiBalboa46: folds
+Roubyz: folds
+rake011 joins the table at seat #9
+andymolina23: calls $0.14
+*** FLOP *** [2s Qh 6s]
+andymolina23: bets $0.20
+Fossouar: calls $0.20
+*** TURN *** [2s Qh 6s] [6d]
+andymolina23: bets $0.40
+Fossouar: folds
+Uncalled bet ($0.40) returned to andymolina23
+andymolina23 collected $0.80 from pot
+andymolina23: doesn't show hand
+*** SUMMARY ***
+Total pot $0.83 | Rake $0.03
+Board [2s Qh 6s 6d]
+Seat 2: LokiBalboa46 (small blind) folded before Flop
+Seat 3: Roubyz (big blind) folded before Flop
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: andymolina23 collected ($0.80)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Fossouar folded on the Turn
+Seat 9: cutlaty (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449272615:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:15:28 ET
+Table 'Keid II' 9-max Seat #2 is the button
+Seat 1: Dago1984 ($2.86 in chips)
+Seat 2: LokiBalboa46 ($0.86 in chips)
+Seat 3: Roubyz ($2 in chips)
+Seat 4: donmakaron15 ($0.85 in chips)
+Seat 5: lepetitprinc3 ($2.19 in chips)
+Seat 6: andymolina23 ($1.74 in chips)
+Seat 7: pokerHero1 ($2.32 in chips)
+Seat 8: Fossouar ($2 in chips)
+Seat 9: rake011 ($2 in chips)
+Roubyz: posts small blind $0.01
+donmakaron15: posts big blind $0.02
+rake011: posts big blind $0.02
+Dago1984: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td Tc]
+lepetitprinc3 has timed out
+lepetitprinc3: folds
+andymolina23: folds
+pokerHero1: raises $0.10 to $0.12
+Fossouar: folds
+rake011: folds
+Dago1984: folds
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: folds
+Uncalled bet ($0.10) returned to pokerHero1
+pokerHero1 collected $0.10 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.10 | Rake $0
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 (button) folded before Flop (didn't bet)
+Seat 3: Roubyz (small blind) folded before Flop
+Seat 4: donmakaron15 (big blind) folded before Flop
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 collected ($0.10)
+Seat 8: Fossouar folded before Flop (didn't bet)
+Seat 9: rake011 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449301997:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:16:01 ET
+Table 'Keid II' 9-max Seat #3 is the button
+Seat 1: Dago1984 ($2.83 in chips)
+Seat 2: LokiBalboa46 ($0.86 in chips)
+Seat 3: Roubyz ($2 in chips)
+Seat 4: donmakaron15 ($0.83 in chips)
+Seat 5: lepetitprinc3 ($2.19 in chips)
+Seat 6: andymolina23 ($1.74 in chips)
+Seat 7: pokerHero1 ($2.40 in chips)
+Seat 8: Fossouar ($2 in chips)
+Seat 9: rake011 ($1.98 in chips)
+donmakaron15: posts small blind $0.01
+lepetitprinc3: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8h Ad]
+andymolina23: folds
+pokerHero1: folds
+Fossouar: folds
+rake011: folds
+Dago1984: folds
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: folds
+Uncalled bet ($0.01) returned to lepetitprinc3
+lepetitprinc3 collected $0.02 from pot
+lepetitprinc3: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz (button) folded before Flop (didn't bet)
+Seat 4: donmakaron15 (small blind) folded before Flop
+Seat 5: lepetitprinc3 (big blind) collected ($0.02)
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Fossouar folded before Flop (didn't bet)
+Seat 9: rake011 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449313135:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:16:13 ET
+Table 'Keid II' 9-max Seat #4 is the button
+Seat 1: Dago1984 ($2.83 in chips)
+Seat 2: LokiBalboa46 ($0.86 in chips)
+Seat 3: Roubyz ($2 in chips)
+Seat 4: donmakaron15 ($0.82 in chips)
+Seat 5: lepetitprinc3 ($2.20 in chips)
+Seat 6: andymolina23 ($1.74 in chips)
+Seat 7: pokerHero1 ($2.40 in chips)
+Seat 8: Fossouar ($2 in chips)
+Seat 9: rake011 ($1.98 in chips)
+lepetitprinc3: posts small blind $0.01
+andymolina23: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc 3h]
+pokerHero1: folds
+Fossouar: folds
+rake011: folds
+Dago1984: folds
+LokiBalboa46: raises $0.02 to $0.04
+Roubyz: folds
+donmakaron15: calls $0.04
+lepetitprinc3: calls $0.03
+andymolina23: folds
+*** FLOP *** [Qd 7h 8c]
+lepetitprinc3: checks
+LokiBalboa46: checks
+donmakaron15: checks
+*** TURN *** [Qd 7h 8c] [3c]
+lepetitprinc3: checks
+LokiBalboa46: checks
+donmakaron15: bets $0.06
+lepetitprinc3: calls $0.06
+LokiBalboa46: folds
+*** RIVER *** [Qd 7h 8c 3c] [6d]
+lepetitprinc3: checks
+donmakaron15: bets $0.08
+lepetitprinc3: calls $0.08
+*** SHOW DOWN ***
+donmakaron15: shows [9c Qh] (a pair of Queens)
+lepetitprinc3: mucks hand
+donmakaron15 collected $0.41 from pot
+*** SUMMARY ***
+Total pot $0.42 | Rake $0.01
+Board [Qd 7h 8c 3c 6d]
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 folded on the Turn
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 (button) showed [9c Qh] and won ($0.41) with a pair of Queens
+Seat 5: lepetitprinc3 (small blind) mucked [9h 9d]
+Seat 6: andymolina23 (big blind) folded before Flop
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Fossouar folded before Flop (didn't bet)
+Seat 9: rake011 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449391829:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:17:41 ET
+Table 'Keid II' 9-max Seat #5 is the button
+Seat 1: Dago1984 ($2.83 in chips)
+Seat 2: LokiBalboa46 ($0.82 in chips)
+Seat 3: Roubyz ($2 in chips)
+Seat 4: donmakaron15 ($1.05 in chips)
+Seat 5: lepetitprinc3 ($2.02 in chips)
+Seat 6: andymolina23 ($1.72 in chips)
+Seat 7: pokerHero1 ($2.40 in chips)
+Seat 8: Fossouar ($2 in chips)
+Seat 9: rake011 ($1.98 in chips)
+andymolina23: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc 8c]
+Fossouar: folds
+rake011: folds
+Dago1984: folds
+LokiBalboa46: folds
+Roubyz: raises $0.04 to $0.06
+donmakaron15: folds
+lepetitprinc3: raises $0.12 to $0.18
+andymolina23: folds
+pokerHero1: folds
+Roubyz: raises $0.32 to $0.50
+lepetitprinc3: folds
+Uncalled bet ($0.32) returned to Roubyz
+Roubyz collected $0.39 from pot
+Roubyz: doesn't show hand
+*** SUMMARY ***
+Total pot $0.39 | Rake $0
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz collected ($0.39)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 (button) folded before Flop
+Seat 6: andymolina23 (small blind) folded before Flop
+Seat 7: pokerHero1 (big blind) folded before Flop
+Seat 8: Fossouar folded before Flop (didn't bet)
+Seat 9: rake011 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449434244:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:18:29 ET
+Table 'Keid II' 9-max Seat #6 is the button
+Seat 1: Dago1984 ($2.83 in chips)
+Seat 2: LokiBalboa46 ($0.82 in chips)
+Seat 3: Roubyz ($2.21 in chips)
+Seat 4: donmakaron15 ($1.05 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: andymolina23 ($1.71 in chips)
+Seat 7: pokerHero1 ($2.38 in chips)
+Seat 8: Fossouar ($2 in chips)
+Seat 9: rake011 ($1.98 in chips)
+pokerHero1: posts small blind $0.01
+Fossouar: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad Td]
+rake011: folds
+Dago1984: folds
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: raises $0.04 to $0.06
+lepetitprinc3: folds
+andymolina23: calls $0.06
+pokerHero1: calls $0.05
+Fossouar: calls $0.04
+*** FLOP *** [7c 4c Jd]
+pokerHero1: checks
+Fossouar: checks
+donmakaron15: checks
+andymolina23: checks
+*** TURN *** [7c 4c Jd] [4d]
+pokerHero1: bets $0.10
+Fossouar: calls $0.10
+donmakaron15: folds
+andymolina23: calls $0.10
+*** RIVER *** [7c 4c Jd 4d] [Th]
+pokerHero1: checks
+Fossouar: checks
+andymolina23: bets $0.20
+pokerHero1: folds
+Fossouar: folds
+Uncalled bet ($0.20) returned to andymolina23
+andymolina23 collected $0.52 from pot
+andymolina23: doesn't show hand
+*** SUMMARY ***
+Total pot $0.54 | Rake $0.02
+Board [7c 4c Jd 4d Th]
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded on the Turn
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: andymolina23 (button) collected ($0.52)
+Seat 7: pokerHero1 (small blind) folded on the River
+Seat 8: Fossouar (big blind) folded on the River
+Seat 9: rake011 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449539193:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:20:27 ET
+Table 'Keid II' 9-max Seat #7 is the button
+Seat 1: Dago1984 ($2.83 in chips)
+Seat 2: LokiBalboa46 ($0.82 in chips)
+Seat 3: Roubyz ($2.21 in chips)
+Seat 4: donmakaron15 ($0.99 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: andymolina23 ($2.07 in chips)
+Seat 7: pokerHero1 ($2.22 in chips)
+Seat 8: Fossouar ($1.84 in chips)
+Seat 9: rake011 ($1.98 in chips)
+Fossouar: posts small blind $0.01
+rake011: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h 6h]
+Dago1984: raises $0.02 to $0.04
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: folds
+lepetitprinc3: folds
+andymolina23: calls $0.04
+pokerHero1: folds
+Fossouar: calls $0.03
+rake011: raises $0.12 to $0.16
+Dago1984: calls $0.12
+andymolina23: folds
+Fossouar: folds
+*** FLOP *** [4d 9c 5d]
+rake011: bets $0.20
+Dago1984: folds
+Uncalled bet ($0.20) returned to rake011
+rake011 collected $0.39 from pot
+*** SUMMARY ***
+Total pot $0.40 | Rake $0.01
+Board [4d 9c 5d]
+Seat 1: Dago1984 folded on the Flop
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: andymolina23 folded before Flop
+Seat 7: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 8: Fossouar (small blind) folded before Flop
+Seat 9: rake011 (big blind) collected ($0.39)
+
+
+
+PokerStars Hand #212449586283:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:21:19 ET
+Table 'Keid II' 9-max Seat #8 is the button
+Seat 1: Dago1984 ($2.67 in chips)
+Seat 2: LokiBalboa46 ($0.82 in chips)
+Seat 3: Roubyz ($2.21 in chips)
+Seat 4: donmakaron15 ($0.99 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: andymolina23 ($2.03 in chips)
+Seat 7: pokerHero1 ($2.22 in chips)
+Seat 8: Fossouar ($1.96 in chips)
+Seat 9: rake011 ($2.21 in chips)
+rake011: posts small blind $0.01
+Dago1984: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8h Th]
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: folds
+lepetitprinc3 has timed out
+lepetitprinc3: folds
+andymolina23: folds
+pokerHero1: folds
+Fossouar: folds
+rake011: calls $0.01
+Dago1984: checks
+*** FLOP *** [Qc Jh 3h]
+rake011: checks
+Dago1984: checks
+*** TURN *** [Qc Jh 3h] [2h]
+rake011: checks
+Dago1984: checks
+*** RIVER *** [Qc Jh 3h 2h] [5h]
+rake011: bets $0.02
+Dago1984: folds
+Uncalled bet ($0.02) returned to rake011
+rake011 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [Qc Jh 3h 2h 5h]
+Seat 1: Dago1984 (big blind) folded on the River
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Fossouar (button) folded before Flop (didn't bet)
+Seat 9: rake011 (small blind) collected ($0.04)
+
+
+
+PokerStars Hand #212449628596:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:22:07 ET
+Table 'Keid II' 9-max Seat #9 is the button
+Seat 1: Dago1984 ($2.65 in chips)
+Seat 2: LokiBalboa46 ($0.82 in chips)
+Seat 3: Roubyz ($2.21 in chips)
+Seat 4: donmakaron15 ($0.99 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: andymolina23 ($2.03 in chips)
+Seat 7: pokerHero1 ($2.22 in chips)
+Seat 8: Fossouar ($2 in chips)
+Seat 9: rake011 ($2.23 in chips)
+Dago1984: posts small blind $0.01
+LokiBalboa46: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c Kd]
+Roubyz: folds
+donmakaron15: raises $0.03 to $0.05
+lepetitprinc3: folds
+andymolina23: calls $0.05
+pokerHero1: folds
+Fossouar: folds
+rake011: folds
+Dago1984: folds
+LokiBalboa46: calls $0.03
+*** FLOP *** [8c 4h Qd]
+LokiBalboa46: checks
+donmakaron15: checks
+andymolina23: bets $0.08
+LokiBalboa46: folds
+donmakaron15: folds
+Uncalled bet ($0.08) returned to andymolina23
+andymolina23 collected $0.15 from pot
+andymolina23: doesn't show hand
+*** SUMMARY ***
+Total pot $0.16 | Rake $0.01
+Board [8c 4h Qd]
+Seat 1: Dago1984 (small blind) folded before Flop
+Seat 2: LokiBalboa46 (big blind) folded on the Flop
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded on the Flop
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: andymolina23 collected ($0.15)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Fossouar folded before Flop (didn't bet)
+Seat 9: rake011 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449692277:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:23:09 ET
+Table 'Keid II' 9-max Seat #1 is the button
+Seat 1: Dago1984 ($2.64 in chips)
+Seat 2: LokiBalboa46 ($0.77 in chips)
+Seat 3: Roubyz ($2.21 in chips)
+Seat 4: donmakaron15 ($0.94 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: andymolina23 ($2.13 in chips)
+Seat 7: pokerHero1 ($2.22 in chips)
+Seat 8: Fossouar ($2 in chips)
+Seat 9: rake011 ($2.23 in chips)
+LokiBalboa46: posts small blind $0.01
+Roubyz: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d 3s]
+donmakaron15: folds
+lepetitprinc3: folds
+andymolina23: folds
+pokerHero1: calls $0.02
+Fossouar: calls $0.02
+rake011: calls $0.02
+Dago1984: calls $0.02
+LokiBalboa46: folds
+Roubyz: checks
+*** FLOP *** [7h 6c Js]
+Roubyz: checks
+pokerHero1: checks
+Fossouar: checks
+rake011: checks
+Dago1984: checks
+*** TURN *** [7h 6c Js] [9h]
+Roubyz: checks
+pokerHero1: checks
+Fossouar: bets $0.06
+rake011: calls $0.06
+Dago1984: calls $0.06
+Roubyz: folds
+pokerHero1: folds
+*** RIVER *** [7h 6c Js 9h] [6s]
+Fossouar: checks
+rake011: bets $0.14
+Dago1984: folds
+Fossouar: calls $0.14
+*** SHOW DOWN ***
+rake011: shows [9c 9s] (a full house, Nines full of Sixes)
+Fossouar: mucks hand
+rake011 collected $0.55 from pot
+*** SUMMARY ***
+Total pot $0.57 | Rake $0.02
+Board [7h 6c Js 9h 6s]
+Seat 1: Dago1984 (button) folded on the River
+Seat 2: LokiBalboa46 (small blind) folded before Flop
+Seat 3: Roubyz (big blind) folded on the Turn
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded on the Turn
+Seat 8: Fossouar mucked [Ad 9d]
+Seat 9: rake011 showed [9c 9s] and won ($0.55) with a full house, Nines full of Sixes
+
+
+
+PokerStars Hand #212449762610:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:24:28 ET
+Table 'Keid II' 9-max Seat #2 is the button
+Seat 1: Dago1984 ($2.56 in chips)
+Seat 2: LokiBalboa46 ($0.76 in chips)
+Seat 3: Roubyz ($2.19 in chips)
+Seat 4: donmakaron15 ($0.94 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: andymolina23 ($2.13 in chips)
+Seat 7: pokerHero1 ($2.20 in chips)
+Seat 8: Fossouar ($1.78 in chips)
+Seat 9: rake011 ($2.56 in chips)
+Roubyz: posts small blind $0.01
+donmakaron15: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8c 8d]
+lepetitprinc3: folds
+andymolina23: calls $0.02
+pokerHero1: calls $0.02
+Fossouar: folds
+rake011: raises $0.12 to $0.14
+Dago1984: folds
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: folds
+andymolina23: folds
+pokerHero1: folds
+Uncalled bet ($0.12) returned to rake011
+rake011 collected $0.09 from pot
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 (button) folded before Flop (didn't bet)
+Seat 3: Roubyz (small blind) folded before Flop
+Seat 4: donmakaron15 (big blind) folded before Flop
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: andymolina23 folded before Flop
+Seat 7: pokerHero1 folded before Flop
+Seat 8: Fossouar folded before Flop (didn't bet)
+Seat 9: rake011 collected ($0.09)
+
+
+
+PokerStars Hand #212449799612:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:25:08 ET
+Table 'Keid II' 9-max Seat #3 is the button
+Seat 1: Dago1984 ($2.56 in chips)
+Seat 2: LokiBalboa46 ($0.76 in chips)
+Seat 3: Roubyz ($2.18 in chips)
+Seat 4: donmakaron15 ($0.92 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: andymolina23 ($2.11 in chips)
+Seat 7: pokerHero1 ($2.18 in chips)
+Seat 8: Fossouar ($2 in chips)
+Seat 9: rake011 ($2.63 in chips)
+donmakaron15: posts small blind $0.01
+lepetitprinc3: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5h Js]
+andymolina23: folds
+pokerHero1: folds
+Fossouar: folds
+rake011: folds
+Dago1984: calls $0.02
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: calls $0.01
+lepetitprinc3: checks
+*** FLOP *** [Kd 6s Ks]
+donmakaron15: checks
+lepetitprinc3: checks
+Dago1984: checks
+*** TURN *** [Kd 6s Ks] [7s]
+donmakaron15: checks
+lepetitprinc3: checks
+Dago1984: checks
+*** RIVER *** [Kd 6s Ks 7s] [4d]
+donmakaron15: checks
+lepetitprinc3: checks
+Dago1984: checks
+*** SHOW DOWN ***
+donmakaron15: shows [Th Ah] (a pair of Kings)
+lepetitprinc3: mucks hand
+Dago1984: mucks hand
+donmakaron15 collected $0.06 from pot
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [Kd 6s Ks 7s 4d]
+Seat 1: Dago1984 mucked [Tc 5c]
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz (button) folded before Flop (didn't bet)
+Seat 4: donmakaron15 (small blind) showed [Th Ah] and won ($0.06) with a pair of Kings
+Seat 5: lepetitprinc3 (big blind) mucked [8s 2c]
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Fossouar folded before Flop (didn't bet)
+Seat 9: rake011 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449861079:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:26:14 ET
+Table 'Keid II' 9-max Seat #4 is the button
+Seat 1: Dago1984 ($2.54 in chips)
+Seat 2: LokiBalboa46 ($0.76 in chips)
+Seat 3: Roubyz ($2.18 in chips)
+Seat 4: donmakaron15 ($0.96 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: andymolina23 ($2.11 in chips)
+Seat 7: pokerHero1 ($2.18 in chips)
+Seat 8: Fossouar ($2 in chips)
+Seat 9: rake011 ($2.63 in chips)
+lepetitprinc3: posts small blind $0.01
+andymolina23: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s 8d]
+pokerHero1: folds
+Fossouar: folds
+rake011: folds
+Dago1984: folds
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: raises $0.03 to $0.05
+lepetitprinc3: raises $0.13 to $0.18
+andymolina23: folds
+donmakaron15: raises $0.22 to $0.40
+lepetitprinc3 has timed out
+lepetitprinc3: folds
+Uncalled bet ($0.22) returned to donmakaron15
+donmakaron15 collected $0.38 from pot
+donmakaron15: doesn't show hand
+*** SUMMARY ***
+Total pot $0.38 | Rake $0
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 (button) collected ($0.38)
+Seat 5: lepetitprinc3 (small blind) folded before Flop
+Seat 6: andymolina23 (big blind) folded before Flop
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Fossouar folded before Flop (didn't bet)
+Seat 9: rake011 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449936406:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:27:35 ET
+Table 'Keid II' 9-max Seat #5 is the button
+Seat 1: Dago1984 ($2.54 in chips)
+Seat 2: LokiBalboa46 ($0.76 in chips)
+Seat 3: Roubyz ($2.18 in chips)
+Seat 4: donmakaron15 ($1.16 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: andymolina23 ($2.09 in chips)
+Seat 7: pokerHero1 ($2.18 in chips)
+Seat 8: Fossouar ($2 in chips)
+Seat 9: rake011 ($2.63 in chips)
+andymolina23: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td 9s]
+Fossouar: folds
+rake011: folds
+Dago1984: calls $0.02
+LokiBalboa46: calls $0.02
+Roubyz: raises $0.09 to $0.11
+donmakaron15: folds
+lepetitprinc3: folds
+andymolina23: folds
+pokerHero1: folds
+Dago1984: calls $0.09
+LokiBalboa46: calls $0.09
+*** FLOP *** [Ts 6d 5h]
+Dago1984: checks
+LokiBalboa46: bets $0.10
+Roubyz: calls $0.10
+Dago1984: folds
+*** TURN *** [Ts 6d 5h] [2s]
+LokiBalboa46: bets $0.10
+Roubyz: calls $0.10
+*** RIVER *** [Ts 6d 5h 2s] [6c]
+LokiBalboa46: bets $0.10
+Roubyz: calls $0.10
+*** SHOW DOWN ***
+LokiBalboa46: shows [Jd Ad] (a pair of Sixes)
+Roubyz: shows [7c 7h] (two pair, Sevens and Sixes)
+Roubyz collected $0.93 from pot
+*** SUMMARY ***
+Total pot $0.96 | Rake $0.03
+Board [Ts 6d 5h 2s 6c]
+Seat 1: Dago1984 folded on the Flop
+Seat 2: LokiBalboa46 showed [Jd Ad] and lost with a pair of Sixes
+Seat 3: Roubyz showed [7c 7h] and won ($0.93) with two pair, Sevens and Sixes
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 (button) folded before Flop (didn't bet)
+Seat 6: andymolina23 (small blind) folded before Flop
+Seat 7: pokerHero1 (big blind) folded before Flop
+Seat 8: Fossouar folded before Flop (didn't bet)
+Seat 9: rake011 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450002616:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:28:46 ET
+Table 'Keid II' 9-max Seat #6 is the button
+Seat 1: Dago1984 ($2.43 in chips)
+Seat 2: LokiBalboa46 ($0.35 in chips)
+Seat 3: Roubyz ($2.70 in chips)
+Seat 4: donmakaron15 ($1.16 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: andymolina23 ($2.08 in chips)
+Seat 7: pokerHero1 ($2.16 in chips)
+Seat 8: Fossouar ($2 in chips)
+Seat 9: rake011 ($2.63 in chips)
+pokerHero1: posts small blind $0.01
+Fossouar: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7s As]
+rake011: folds
+Dago1984: raises $0.02 to $0.04
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: folds
+lepetitprinc3: folds
+andymolina23: calls $0.04
+pokerHero1: calls $0.03
+Fossouar: folds
+*** FLOP *** [8c 5h 6d]
+pokerHero1: bets $0.08
+Dago1984: folds
+andymolina23: calls $0.08
+*** TURN *** [8c 5h 6d] [8s]
+pokerHero1: bets $0.12
+andymolina23: calls $0.12
+*** RIVER *** [8c 5h 6d 8s] [Ks]
+pokerHero1: checks
+andymolina23: checks
+*** SHOW DOWN ***
+pokerHero1: shows [7s As] (a pair of Eights)
+andymolina23: shows [6h Kh] (two pair, Kings and Eights)
+andymolina23 collected $0.52 from pot
+*** SUMMARY ***
+Total pot $0.54 | Rake $0.02
+Board [8c 5h 6d 8s Ks]
+Seat 1: Dago1984 folded on the Flop
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: andymolina23 (button) showed [6h Kh] and won ($0.52) with two pair, Kings and Eights
+Seat 7: pokerHero1 (small blind) showed [7s As] and lost with a pair of Eights
+Seat 8: Fossouar (big blind) folded before Flop
+Seat 9: rake011 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450067276:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:29:57 ET
+Table 'Keid II' 9-max Seat #7 is the button
+Seat 1: Dago1984 ($2.39 in chips)
+Seat 2: LokiBalboa46 ($2 in chips)
+Seat 3: Roubyz ($2.70 in chips)
+Seat 4: donmakaron15 ($1.16 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: andymolina23 ($2.36 in chips)
+Seat 7: pokerHero1 ($1.92 in chips)
+Seat 8: Fossouar ($1.98 in chips)
+Seat 9: rake011 ($2.63 in chips)
+Fossouar: posts small blind $0.01
+rake011: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3s 6h]
+Dago1984: calls $0.02
+LokiBalboa46: calls $0.02
+Roubyz: folds
+donmakaron15: folds
+lepetitprinc3: folds
+andymolina23: folds
+pokerHero1: folds
+Fossouar: calls $0.01
+rake011: checks
+*** FLOP *** [8h 6c 9s]
+Fossouar: checks
+rake011: bets $0.02
+Dago1984: folds
+LokiBalboa46: calls $0.02
+Fossouar: calls $0.02
+*** TURN *** [8h 6c 9s] [3c]
+Fossouar: checks
+rake011: bets $0.04
+LokiBalboa46: calls $0.04
+Fossouar: folds
+*** RIVER *** [8h 6c 9s 3c] [Jd]
+rake011: bets $0.04
+LokiBalboa46: folds
+Uncalled bet ($0.04) returned to rake011
+rake011 collected $0.21 from pot
+*** SUMMARY ***
+Total pot $0.22 | Rake $0.01
+Board [8h 6c 9s 3c Jd]
+Seat 1: Dago1984 folded on the Flop
+Seat 2: LokiBalboa46 folded on the River
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 8: Fossouar (small blind) folded on the Turn
+Seat 9: rake011 (big blind) collected ($0.21)
+
+
+
+PokerStars Hand #212450132118:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:31:06 ET
+Table 'Keid II' 9-max Seat #8 is the button
+Seat 1: Dago1984 ($2.37 in chips)
+Seat 2: LokiBalboa46 ($1.92 in chips)
+Seat 3: Roubyz ($2.70 in chips)
+Seat 4: donmakaron15 ($1.16 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: andymolina23 ($2.36 in chips)
+Seat 7: pokerHero1 ($2 in chips)
+Seat 8: Fossouar ($2 in chips)
+Seat 9: rake011 ($2.76 in chips)
+rake011: posts small blind $0.01
+Dago1984: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5d Ts]
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: folds
+lepetitprinc3: folds
+andymolina23: folds
+pokerHero1: folds
+Fossouar: folds
+rake011: calls $0.01
+Dago1984: checks
+*** FLOP *** [Js 2c 4h]
+rake011: checks
+Dago1984: checks
+*** TURN *** [Js 2c 4h] [7c]
+rake011: checks
+Dago1984: checks
+*** RIVER *** [Js 2c 4h 7c] [Ad]
+rake011: bets $0.02
+Dago1984: folds
+Uncalled bet ($0.02) returned to rake011
+rake011 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [Js 2c 4h 7c Ad]
+Seat 1: Dago1984 (big blind) folded on the River
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Fossouar (button) folded before Flop (didn't bet)
+Seat 9: rake011 (small blind) collected ($0.04)
+
+
+
+PokerStars Hand #212450162495:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:31:38 ET
+Table 'Keid II' 9-max Seat #9 is the button
+Seat 1: Dago1984 ($2.35 in chips)
+Seat 2: LokiBalboa46 ($1.92 in chips)
+Seat 3: Roubyz ($2.70 in chips)
+Seat 4: donmakaron15 ($1.16 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: andymolina23 ($2.36 in chips)
+Seat 7: pokerHero1 ($2 in chips)
+Seat 8: Fossouar ($2 in chips)
+Seat 9: rake011 ($2.78 in chips)
+Dago1984: posts small blind $0.01
+LokiBalboa46: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s 3s]
+Roubyz: folds
+donmakaron15 has timed out
+donmakaron15: folds
+lepetitprinc3: folds
+andymolina23: calls $0.02
+pokerHero1: folds
+Fossouar: folds
+rake011: folds
+Dago1984: calls $0.01
+LokiBalboa46: checks
+*** FLOP *** [Ac 5h Qc]
+Dago1984: checks
+LokiBalboa46: checks
+andymolina23: bets $0.06
+Dago1984: folds
+LokiBalboa46: folds
+Uncalled bet ($0.06) returned to andymolina23
+andymolina23 collected $0.06 from pot
+andymolina23: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [Ac 5h Qc]
+Seat 1: Dago1984 (small blind) folded on the Flop
+Seat 2: LokiBalboa46 (big blind) folded on the Flop
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: andymolina23 collected ($0.06)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Fossouar folded before Flop (didn't bet)
+Seat 9: rake011 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450209832:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:32:29 ET
+Table 'Keid II' 9-max Seat #1 is the button
+Seat 1: Dago1984 ($2.33 in chips)
+Seat 2: LokiBalboa46 ($1.90 in chips)
+Seat 3: Roubyz ($2.70 in chips)
+Seat 4: donmakaron15 ($1.16 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: andymolina23 ($2.40 in chips)
+Seat 7: pokerHero1 ($2 in chips)
+Seat 8: Fossouar ($2 in chips)
+Seat 9: rake011 ($2.78 in chips)
+LokiBalboa46: posts small blind $0.01
+Roubyz: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d 2c]
+donmakaron15: folds
+lepetitprinc3: folds
+andymolina23: folds
+pokerHero1: folds
+Fossouar: folds
+Fossouar leaves the table
+rake011: calls $0.02
+Dago1984: folds
+LokiBalboa46: calls $0.01
+Roubyz: checks
+*** FLOP *** [6d Ad 6s]
+LokiBalboa46: checks
+Roubyz: checks
+rake011: checks
+*** TURN *** [6d Ad 6s] [Kc]
+LokiBalboa46: checks
+Roubyz: checks
+rake011: checks
+*** RIVER *** [6d Ad 6s Kc] [6c]
+LokiBalboa46: checks
+Roubyz: checks
+rake011: checks
+*** SHOW DOWN ***
+LokiBalboa46: shows [Qs 3s] (three of a kind, Sixes)
+Roubyz: shows [Qc 7c] (three of a kind, Sixes)
+rake011: shows [4h 8h] (three of a kind, Sixes)
+LokiBalboa46 collected $0.02 from pot
+Roubyz collected $0.02 from pot
+rake011 collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [6d Ad 6s Kc 6c]
+Seat 1: Dago1984 (button) folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 (small blind) showed [Qs 3s] and won ($0.02) with three of a kind, Sixes
+Seat 3: Roubyz (big blind) showed [Qc 7c] and won ($0.02) with three of a kind, Sixes
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Fossouar folded before Flop (didn't bet)
+Seat 9: rake011 showed [4h 8h] and won ($0.02) with three of a kind, Sixes
+
+
+
+PokerStars Hand #212450260680:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:33:23 ET
+Table 'Keid II' 9-max Seat #2 is the button
+Seat 1: Dago1984 ($2.33 in chips)
+Seat 2: LokiBalboa46 ($1.90 in chips)
+Seat 3: Roubyz ($2.70 in chips)
+Seat 4: donmakaron15 ($1.16 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: andymolina23 ($2.40 in chips)
+Seat 7: pokerHero1 ($2 in chips)
+Seat 9: rake011 ($2.78 in chips)
+Roubyz: posts small blind $0.01
+donmakaron15: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8d 3c]
+lepetitprinc3: raises $0.05 to $0.07
+andymolina23: folds
+pokerHero1: folds
+rake011: folds
+Dago1984: folds
+madchesta joins the table at seat #8
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: folds
+Uncalled bet ($0.05) returned to lepetitprinc3
+lepetitprinc3 collected $0.05 from pot
+lepetitprinc3: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 (button) folded before Flop (didn't bet)
+Seat 3: Roubyz (small blind) folded before Flop
+Seat 4: donmakaron15 (big blind) folded before Flop
+Seat 5: lepetitprinc3 collected ($0.05)
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 9: rake011 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450282696:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:33:47 ET
+Table 'Keid II' 9-max Seat #3 is the button
+Seat 1: Dago1984 ($2.33 in chips)
+Seat 2: LokiBalboa46 ($1.90 in chips)
+Seat 3: Roubyz ($2.69 in chips)
+Seat 4: donmakaron15 ($1.14 in chips)
+Seat 5: lepetitprinc3 ($2.03 in chips)
+Seat 6: andymolina23 ($2.40 in chips)
+Seat 7: pokerHero1 ($2 in chips)
+Seat 8: madchesta ($1.29 in chips)
+Seat 9: rake011 ($2.78 in chips)
+donmakaron15: posts small blind $0.01
+lepetitprinc3: posts big blind $0.02
+madchesta: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js 5c]
+andymolina23: folds
+pokerHero1: folds
+madchesta: checks
+rake011: folds
+Dago1984: calls $0.02
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: calls $0.01
+lepetitprinc3: checks
+*** FLOP *** [2d 2c 8d]
+donmakaron15: checks
+lepetitprinc3: checks
+madchesta: bets $0.05
+Dago1984: folds
+donmakaron15: folds
+lepetitprinc3: calls $0.05
+*** TURN *** [2d 2c 8d] [Qd]
+lepetitprinc3: checks
+madchesta: bets $0.12
+lepetitprinc3: folds
+Uncalled bet ($0.12) returned to madchesta
+madchesta collected $0.17 from pot
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [2d 2c 8d Qd]
+Seat 1: Dago1984 folded on the Flop
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz (button) folded before Flop (didn't bet)
+Seat 4: donmakaron15 (small blind) folded on the Flop
+Seat 5: lepetitprinc3 (big blind) folded on the Turn
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: madchesta collected ($0.17)
+Seat 9: rake011 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450347097:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:34:55 ET
+Table 'Keid II' 9-max Seat #4 is the button
+Seat 1: Dago1984 ($2.31 in chips)
+Seat 2: LokiBalboa46 ($1.90 in chips)
+Seat 3: Roubyz ($2.69 in chips)
+Seat 4: donmakaron15 ($1.12 in chips)
+Seat 5: lepetitprinc3 ($2 in chips)
+Seat 6: andymolina23 ($2.40 in chips)
+Seat 7: pokerHero1 ($2 in chips)
+Seat 8: madchesta ($1.39 in chips)
+Seat 9: rake011 ($2.78 in chips)
+lepetitprinc3: posts small blind $0.01
+andymolina23: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s 6h]
+pokerHero1: folds
+madchesta: folds
+rake011: calls $0.02
+Dago1984: folds
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: folds
+lepetitprinc3: raises $0.06 to $0.08
+andymolina23: folds
+rake011: calls $0.06
+*** FLOP *** [Ad 4c 6d]
+lepetitprinc3: bets $0.08
+rake011: folds
+Uncalled bet ($0.08) returned to lepetitprinc3
+lepetitprinc3 collected $0.17 from pot
+lepetitprinc3: doesn't show hand
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [Ad 4c 6d]
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 (button) folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 (small blind) collected ($0.17)
+Seat 6: andymolina23 (big blind) folded before Flop
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: madchesta folded before Flop (didn't bet)
+Seat 9: rake011 folded on the Flop
+
+
+
+PokerStars Hand #212450383320:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:35:34 ET
+Table 'Keid II' 9-max Seat #5 is the button
+Seat 1: Dago1984 ($2.31 in chips)
+Seat 2: LokiBalboa46 ($1.90 in chips)
+Seat 3: Roubyz ($2.69 in chips)
+Seat 4: donmakaron15 ($1.12 in chips)
+Seat 5: lepetitprinc3 ($2.09 in chips)
+Seat 6: andymolina23 ($2.38 in chips)
+Seat 7: pokerHero1 ($2 in chips)
+Seat 8: madchesta ($1.39 in chips)
+Seat 9: rake011 ($2.70 in chips)
+andymolina23: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td Js]
+madchesta: folds
+rake011: folds
+Dago1984: folds
+LokiBalboa46: raises $0.04 to $0.06
+Roubyz: folds
+donmakaron15: calls $0.06
+lepetitprinc3: folds
+andymolina23: calls $0.05
+pokerHero1: folds
+*** FLOP *** [3s 7c 3d]
+andymolina23: checks
+LokiBalboa46: bets $0.06
+donmakaron15: folds
+andymolina23: calls $0.06
+*** TURN *** [3s 7c 3d] [Ac]
+andymolina23: checks
+LokiBalboa46: checks
+*** RIVER *** [3s 7c 3d Ac] [Qh]
+andymolina23: checks
+LokiBalboa46: checks
+*** SHOW DOWN ***
+andymolina23: shows [4s 5s] (a pair of Threes)
+LokiBalboa46: shows [5h 5c] (two pair, Fives and Threes)
+LokiBalboa46 collected $0.31 from pot
+*** SUMMARY ***
+Total pot $0.32 | Rake $0.01
+Board [3s 7c 3d Ac Qh]
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 showed [5h 5c] and won ($0.31) with two pair, Fives and Threes
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded on the Flop
+Seat 5: lepetitprinc3 (button) folded before Flop (didn't bet)
+Seat 6: andymolina23 (small blind) showed [4s 5s] and lost with a pair of Threes
+Seat 7: pokerHero1 (big blind) folded before Flop
+Seat 8: madchesta folded before Flop (didn't bet)
+Seat 9: rake011 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450450327:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:36:42 ET
+Table 'Keid II' 9-max Seat #6 is the button
+Seat 1: Dago1984 ($2.31 in chips)
+Seat 2: LokiBalboa46 ($2.09 in chips)
+Seat 3: Roubyz ($2.69 in chips)
+Seat 4: donmakaron15 ($1.06 in chips)
+Seat 5: lepetitprinc3 ($2.09 in chips)
+Seat 6: andymolina23 ($2.26 in chips)
+Seat 7: pokerHero1 ($1.98 in chips)
+Seat 8: madchesta ($1.39 in chips)
+Seat 9: rake011 ($2.70 in chips)
+pokerHero1: posts small blind $0.01
+madchesta: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s 4h]
+rake011 has timed out
+rake011: folds
+Dago1984: folds
+LokiBalboa46: folds
+Roubyz: raises $0.04 to $0.06
+donmakaron15: folds
+lepetitprinc3: folds
+andymolina23: calls $0.06
+pokerHero1: folds
+madchesta: folds
+*** FLOP *** [8c Qh 3s]
+Roubyz: bets $0.06
+andymolina23: calls $0.06
+*** TURN *** [8c Qh 3s] [9d]
+Roubyz: checks
+andymolina23: bets $0.12
+Roubyz: calls $0.12
+*** RIVER *** [8c Qh 3s 9d] [6d]
+Roubyz: checks
+andymolina23: bets $0.24
+Roubyz: calls $0.24
+*** SHOW DOWN ***
+andymolina23: shows [Qd Tc] (a pair of Queens)
+Roubyz: shows [Ac Qs] (a pair of Queens - Ace kicker)
+Roubyz collected $0.96 from pot
+*** SUMMARY ***
+Total pot $0.99 | Rake $0.03
+Board [8c Qh 3s 9d 6d]
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz showed [Ac Qs] and won ($0.96) with a pair of Queens
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: andymolina23 (button) showed [Qd Tc] and lost with a pair of Queens
+Seat 7: pokerHero1 (small blind) folded before Flop
+Seat 8: madchesta (big blind) folded before Flop
+Seat 9: rake011 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450528978:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:38:06 ET
+Table 'Keid II' 9-max Seat #7 is the button
+Seat 1: Dago1984 ($2.31 in chips)
+Seat 2: LokiBalboa46 ($2.09 in chips)
+Seat 3: Roubyz ($3.17 in chips)
+Seat 4: donmakaron15 ($1.06 in chips)
+Seat 5: lepetitprinc3 ($2.09 in chips)
+Seat 6: andymolina23 ($1.78 in chips)
+Seat 7: pokerHero1 ($1.97 in chips)
+Seat 8: madchesta ($1.37 in chips)
+Seat 9: rake011 ($2.70 in chips)
+madchesta: posts small blind $0.01
+rake011: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As 7c]
+Dago1984 has timed out
+Dago1984: folds
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: raises $0.02 to $0.04
+lepetitprinc3: raises $0.12 to $0.16
+andymolina23: folds
+pokerHero1: folds
+madchesta: folds
+rake011: folds
+donmakaron15: folds
+Uncalled bet ($0.12) returned to lepetitprinc3
+lepetitprinc3 collected $0.11 from pot
+lepetitprinc3: doesn't show hand
+*** SUMMARY ***
+Total pot $0.11 | Rake $0
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded before Flop
+Seat 5: lepetitprinc3 collected ($0.11)
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 8: madchesta (small blind) folded before Flop
+Seat 9: rake011 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212450560452:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:38:42 ET
+Table 'Keid II' 9-max Seat #8 is the button
+Seat 1: Dago1984 ($2.31 in chips)
+Seat 2: LokiBalboa46 ($2.09 in chips)
+Seat 3: Roubyz ($3.17 in chips)
+Seat 4: donmakaron15 ($1.02 in chips)
+Seat 5: lepetitprinc3 ($2.16 in chips)
+Seat 6: andymolina23 ($1.78 in chips)
+Seat 7: pokerHero1 ($1.97 in chips)
+Seat 8: madchesta ($1.36 in chips)
+Seat 9: rake011 ($2.68 in chips)
+rake011: posts small blind $0.01
+Dago1984: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jh 6d]
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: folds
+lepetitprinc3: folds
+andymolina23: folds
+pokerHero1: folds
+madchesta: raises $0.02 to $0.04
+rake011: folds
+Dago1984: calls $0.02
+*** FLOP *** [Qh 5c 7s]
+Dago1984: checks
+madchesta: bets $0.05
+Dago1984: folds
+Uncalled bet ($0.05) returned to madchesta
+madchesta collected $0.09 from pot
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Board [Qh 5c 7s]
+Seat 1: Dago1984 (big blind) folded on the Flop
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: madchesta (button) collected ($0.09)
+Seat 9: rake011 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212450586961:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:39:11 ET
+Table 'Keid II' 9-max Seat #9 is the button
+Seat 1: Dago1984 ($2.27 in chips)
+Seat 2: LokiBalboa46 ($2.09 in chips)
+Seat 3: Roubyz ($3.17 in chips)
+Seat 4: donmakaron15 ($1.02 in chips)
+Seat 5: lepetitprinc3 ($2.16 in chips)
+Seat 6: andymolina23 ($1.78 in chips)
+Seat 7: pokerHero1 ($1.97 in chips)
+Seat 8: madchesta ($1.41 in chips)
+Seat 9: rake011 ($2.67 in chips)
+Dago1984: posts small blind $0.01
+LokiBalboa46: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8c 6c]
+Roubyz: folds
+donmakaron15: folds
+lepetitprinc3: folds
+andymolina23: folds
+pokerHero1: folds
+madchesta: raises $0.02 to $0.04
+rake011: folds
+Dago1984: folds
+LokiBalboa46: calls $0.02
+*** FLOP *** [Qs 9c Jd]
+LokiBalboa46: bets $0.05
+madchesta: calls $0.05
+*** TURN *** [Qs 9c Jd] [Ad]
+LokiBalboa46: bets $0.06
+madchesta: raises $0.16 to $0.22
+LokiBalboa46: calls $0.16
+*** RIVER *** [Qs 9c Jd Ad] [Td]
+LokiBalboa46: checks
+madchesta: bets $1.10 and is all-in
+LokiBalboa46: calls $1.10
+*** SHOW DOWN ***
+madchesta: shows [5d 5s] (a pair of Fives)
+LokiBalboa46: shows [Kc Qc] (a straight, Ten to Ace)
+LokiBalboa46 collected $2.73 from pot
+*** SUMMARY ***
+Total pot $2.83 | Rake $0.10
+Board [Qs 9c Jd Ad Td]
+Seat 1: Dago1984 (small blind) folded before Flop
+Seat 2: LokiBalboa46 (big blind) showed [Kc Qc] and won ($2.73) with a straight, Ten to Ace
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: madchesta showed [5d 5s] and lost with a pair of Fives
+Seat 9: rake011 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450672724:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:40:37 ET
+Table 'Keid II' 9-max Seat #1 is the button
+Seat 1: Dago1984 ($2.26 in chips)
+Seat 2: LokiBalboa46 ($3.41 in chips)
+Seat 3: Roubyz ($3.17 in chips)
+Seat 4: donmakaron15 ($1.02 in chips)
+Seat 5: lepetitprinc3 ($2.16 in chips)
+Seat 6: andymolina23 ($1.78 in chips)
+Seat 7: pokerHero1 ($1.97 in chips)
+Seat 9: rake011 ($2.67 in chips)
+LokiBalboa46: posts small blind $0.01
+Roubyz: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s 8h]
+donmakaron15: folds
+lepetitprinc3: folds
+madchesta leaves the table
+andymolina23: folds
+pokerHero1: folds
+rake011: folds
+Dago1984: calls $0.02
+LokiBalboa46: calls $0.01
+MikhMaster joins the table at seat #8
+Roubyz: raises $0.08 to $0.10
+Dago1984: folds
+LokiBalboa46: folds
+Uncalled bet ($0.08) returned to Roubyz
+Roubyz collected $0.06 from pot
+Roubyz: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Seat 1: Dago1984 (button) folded before Flop
+Seat 2: LokiBalboa46 (small blind) folded before Flop
+Seat 3: Roubyz (big blind) collected ($0.06)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 9: rake011 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450702635:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:41:09 ET
+Table 'Keid II' 9-max Seat #2 is the button
+Seat 1: Dago1984 ($2.24 in chips)
+Seat 2: LokiBalboa46 ($3.39 in chips)
+Seat 3: Roubyz ($3.21 in chips)
+Seat 4: donmakaron15 ($1.02 in chips)
+Seat 5: lepetitprinc3 ($2.16 in chips)
+Seat 6: andymolina23 ($1.78 in chips)
+Seat 7: pokerHero1 ($1.97 in chips)
+Seat 9: rake011 ($2.67 in chips)
+Roubyz: posts small blind $0.01
+donmakaron15: posts big blind $0.02
+MikhMaster: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s 9c]
+lepetitprinc3: folds
+andymolina23: calls $0.02
+pokerHero1: folds
+rake011: calls $0.02
+Dago1984: calls $0.02
+LokiBalboa46: calls $0.02
+Roubyz: folds
+donmakaron15: checks
+*** FLOP *** [As 3s 5c]
+donmakaron15: checks
+andymolina23: checks
+rake011: bets $0.02
+Dago1984: calls $0.02
+LokiBalboa46: calls $0.02
+donmakaron15: folds
+andymolina23: folds
+*** TURN *** [As 3s 5c] [Qd]
+rake011: bets $0.02
+Dago1984: calls $0.02
+LokiBalboa46: folds
+*** RIVER *** [As 3s 5c Qd] [9d]
+rake011: bets $0.04
+Dago1984: folds
+Uncalled bet ($0.04) returned to rake011
+rake011 collected $0.20 from pot
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [As 3s 5c Qd 9d]
+Seat 1: Dago1984 folded on the River
+Seat 2: LokiBalboa46 (button) folded on the Turn
+Seat 3: Roubyz (small blind) folded before Flop
+Seat 4: donmakaron15 (big blind) folded on the Flop
+Seat 5: lepetitprinc3 folded before Flop (didn't bet)
+Seat 6: andymolina23 folded on the Flop
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 9: rake011 collected ($0.20)
+
+
+
+PokerStars Hand #212450771595:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:42:23 ET
+Table 'Keid II' 9-max Seat #3 is the button
+Seat 1: Dago1984 ($2.18 in chips)
+Seat 2: LokiBalboa46 ($3.35 in chips)
+Seat 3: Roubyz ($3.20 in chips)
+Seat 4: donmakaron15 ($1 in chips)
+Seat 6: andymolina23 ($1.76 in chips)
+Seat 7: pokerHero1 ($1.97 in chips)
+Seat 9: rake011 ($2.81 in chips)
+donmakaron15: posts small blind $0.01
+andymolina23: posts big blind $0.02
+MikhMaster: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad Jc]
+pokerHero1: raises $0.06 to $0.08
+lepetitprinc3 leaves the table
+rake011: folds
+Dago1984: folds
+LokiBalboa46: folds
+11Smirnov11 joins the table at seat #5
+Roubyz: folds
+donmakaron15: folds
+andymolina23 is disconnected
+11Smirnov11 leaves the table
+andymolina23 has timed out while disconnected
+andymolina23: folds
+Uncalled bet ($0.06) returned to pokerHero1
+ArrietaMA joins the table at seat #5
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz (button) folded before Flop (didn't bet)
+Seat 4: donmakaron15 (small blind) folded before Flop
+Seat 6: andymolina23 (big blind) folded before Flop
+Seat 7: pokerHero1 collected ($0.05)
+Seat 9: rake011 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450852112:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:43:49 ET
+Table 'Keid II' 9-max Seat #4 is the button
+Seat 1: Dago1984 ($2.18 in chips)
+Seat 2: LokiBalboa46 ($3.35 in chips)
+Seat 3: Roubyz ($3.20 in chips)
+Seat 4: donmakaron15 ($0.99 in chips)
+Seat 7: pokerHero1 ($2 in chips)
+Seat 8: MikhMaster ($2 in chips)
+Seat 9: rake011 ($2.81 in chips)
+pokerHero1: posts small blind $0.01
+MikhMaster: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad Jc]
+rake011: calls $0.02
+Dago1984: folds
+LokiBalboa46: raises $0.04 to $0.06
+Roubyz: folds
+donmakaron15: folds
+pokerHero1: folds
+MikhMaster: folds
+rake011: calls $0.04
+*** FLOP *** [As Ts Qd]
+rake011: checks
+LokiBalboa46: bets $0.06
+rake011: folds
+Uncalled bet ($0.06) returned to LokiBalboa46
+LokiBalboa46 collected $0.14 from pot
+LokiBalboa46: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [As Ts Qd]
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 collected ($0.14)
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 (button) folded before Flop (didn't bet)
+Seat 7: pokerHero1 (small blind) folded before Flop
+Seat 8: MikhMaster (big blind) folded before Flop
+Seat 9: rake011 folded on the Flop
+
+
+
+PokerStars Hand #212450885017:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:44:24 ET
+Table 'Keid II' 9-max Seat #7 is the button
+Seat 1: Dago1984 ($2.18 in chips)
+Seat 2: LokiBalboa46 ($3.43 in chips)
+Seat 3: Roubyz ($3.20 in chips)
+Seat 4: donmakaron15 ($0.99 in chips)
+Seat 5: ArrietaMA ($0.80 in chips)
+Seat 7: pokerHero1 ($1.99 in chips)
+Seat 8: MikhMaster ($2 in chips)
+Seat 9: rake011 ($2.75 in chips)
+MikhMaster: posts small blind $0.01
+rake011: posts big blind $0.02
+ArrietaMA: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js 3d]
+Dago1984: calls $0.02
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: folds
+ArrietaMA: checks
+pokerHero1: folds
+MikhMaster: raises $0.08 to $0.10
+rake011: folds
+Dago1984: calls $0.08
+ArrietaMA: calls $0.08
+*** FLOP *** [5d 8c 6s]
+MikhMaster: checks
+Dago1984: checks
+ArrietaMA: checks
+*** TURN *** [5d 8c 6s] [Qd]
+MikhMaster: checks
+Dago1984: bets $0.06
+ArrietaMA: calls $0.06
+MikhMaster: folds
+*** RIVER *** [5d 8c 6s Qd] [9c]
+Dago1984: bets $0.06
+ArrietaMA: calls $0.06
+*** SHOW DOWN ***
+Dago1984: shows [Qs Jd] (a pair of Queens)
+ArrietaMA: shows [6c 5c] (two pair, Sixes and Fives)
+ArrietaMA collected $0.54 from pot
+*** SUMMARY ***
+Total pot $0.56 | Rake $0.02
+Board [5d 8c 6s Qd 9c]
+Seat 1: Dago1984 showed [Qs Jd] and lost with a pair of Queens
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: ArrietaMA showed [6c 5c] and won ($0.54) with two pair, Sixes and Fives
+Seat 7: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 8: MikhMaster (small blind) folded on the Turn
+Seat 9: rake011 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212450940432:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:45:23 ET
+Table 'Keid II' 9-max Seat #8 is the button
+Seat 1: Dago1984 ($1.96 in chips)
+Seat 2: LokiBalboa46 ($3.43 in chips)
+Seat 3: Roubyz ($3.20 in chips)
+Seat 4: donmakaron15 ($0.99 in chips)
+Seat 5: ArrietaMA ($1.12 in chips)
+Seat 6: andymolina23 ($1.74 in chips)
+Seat 7: pokerHero1 ($1.99 in chips)
+Seat 8: MikhMaster ($2 in chips)
+Seat 9: rake011 ($2.73 in chips)
+rake011: posts small blind $0.01
+Dago1984: posts big blind $0.02
+andymolina23: posts small blind $0.01
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td Qd]
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15 has timed out
+donmakaron15: folds
+ArrietaMA: calls $0.02
+andymolina23: folds
+pokerHero1: raises $0.06 to $0.08
+MikhMaster: raises $0.22 to $0.30
+rake011: folds
+Dago1984: folds
+ArrietaMA: folds
+pokerHero1: folds
+Uncalled bet ($0.22) returned to MikhMaster
+MikhMaster collected $0.22 from pot
+MikhMaster: doesn't show hand
+*** SUMMARY ***
+Total pot $0.22 | Rake $0
+Seat 1: Dago1984 (big blind) folded before Flop
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: ArrietaMA folded before Flop
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop
+Seat 8: MikhMaster (button) collected ($0.22)
+Seat 9: rake011 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212450971792:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:45:56 ET
+Table 'Keid II' 9-max Seat #9 is the button
+Seat 1: Dago1984 ($1.94 in chips)
+Seat 2: LokiBalboa46 ($3.43 in chips)
+Seat 3: Roubyz ($3.20 in chips)
+Seat 5: ArrietaMA ($1.10 in chips)
+Seat 6: andymolina23 ($1.73 in chips)
+Seat 7: pokerHero1 ($1.91 in chips)
+Seat 8: MikhMaster ($2.14 in chips)
+Seat 9: rake011 ($2.72 in chips)
+Dago1984: posts small blind $0.01
+LokiBalboa46: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d Kc]
+Roubyz: folds
+ArrietaMA: folds
+andymolina23: calls $0.02
+pokerHero1: folds
+MikhMaster: folds
+rake011: raises $0.06 to $0.08
+Dago1984: folds
+LokiBalboa46: folds
+andymolina23: calls $0.06
+*** FLOP *** [Ts Jc 5h]
+andymolina23: bets $0.08
+rake011: calls $0.08
+*** TURN *** [Ts Jc 5h] [3c]
+andymolina23: bets $0.16
+rake011: calls $0.16
+*** RIVER *** [Ts Jc 5h 3c] [Tc]
+andymolina23: bets $0.32
+rake011: folds
+Uncalled bet ($0.32) returned to andymolina23
+andymolina23 collected $0.65 from pot
+andymolina23: doesn't show hand
+*** SUMMARY ***
+Total pot $0.67 | Rake $0.02
+Board [Ts Jc 5h 3c Tc]
+Seat 1: Dago1984 (small blind) folded before Flop
+Seat 2: LokiBalboa46 (big blind) folded before Flop
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 5: ArrietaMA folded before Flop (didn't bet)
+Seat 6: andymolina23 collected ($0.65)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: MikhMaster folded before Flop (didn't bet)
+Seat 9: rake011 (button) folded on the River
+
+
+
+PokerStars Hand #212451025453:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:46:53 ET
+Table 'Keid II' 9-max Seat #1 is the button
+Seat 1: Dago1984 ($1.93 in chips)
+Seat 2: LokiBalboa46 ($3.41 in chips)
+Seat 3: Roubyz ($3.20 in chips)
+Seat 4: donmakaron15 ($0.99 in chips)
+Seat 5: ArrietaMA ($1.10 in chips)
+Seat 6: andymolina23 ($2.06 in chips)
+Seat 7: pokerHero1 ($1.91 in chips)
+Seat 8: MikhMaster ($2.14 in chips)
+Seat 9: rake011 ($2.40 in chips)
+LokiBalboa46: posts small blind $0.01
+Roubyz: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac 2h]
+donmakaron15: folds
+ArrietaMA: calls $0.02
+andymolina23: folds
+pokerHero1: folds
+MikhMaster: raises $0.06 to $0.08
+rake011: folds
+rake011 leaves the table
+Dago1984: folds
+RichardKing111 joins the table at seat #9
+LokiBalboa46: folds
+Roubyz: folds
+ArrietaMA: calls $0.06
+*** FLOP *** [As 5s Ad]
+ArrietaMA: bets $0.02
+MikhMaster: calls $0.02
+*** TURN *** [As 5s Ad] [3s]
+ArrietaMA: bets $0.02
+MikhMaster: folds
+Uncalled bet ($0.02) returned to ArrietaMA
+ArrietaMA collected $0.22 from pot
+*** SUMMARY ***
+Total pot $0.23 | Rake $0.01
+Board [As 5s Ad 3s]
+Seat 1: Dago1984 (button) folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 (small blind) folded before Flop
+Seat 3: Roubyz (big blind) folded before Flop
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: ArrietaMA collected ($0.22)
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: MikhMaster folded on the Turn
+Seat 9: rake011 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451066793:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:47:37 ET
+Table 'Keid II' 9-max Seat #2 is the button
+Seat 1: Dago1984 ($1.93 in chips)
+Seat 2: LokiBalboa46 ($3.40 in chips)
+Seat 3: Roubyz ($3.18 in chips)
+Seat 4: donmakaron15 ($0.99 in chips)
+Seat 5: ArrietaMA ($1.22 in chips)
+Seat 6: andymolina23 ($2.06 in chips)
+Seat 7: pokerHero1 ($2 in chips)
+Seat 8: MikhMaster ($2.04 in chips)
+Roubyz: posts small blind $0.01
+donmakaron15: posts big blind $0.02
+RichardKing111: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qd 5c]
+ArrietaMA: folds
+andymolina23: calls $0.02
+pokerHero1: folds
+MikhMaster: folds
+Dago1984: folds
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: checks
+*** FLOP *** [5h Ad 3h]
+donmakaron15: checks
+andymolina23: checks
+*** TURN *** [5h Ad 3h] [Ts]
+donmakaron15: bets $0.03
+andymolina23: folds
+Uncalled bet ($0.03) returned to donmakaron15
+donmakaron15 collected $0.05 from pot
+donmakaron15: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [5h Ad 3h Ts]
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 (button) folded before Flop (didn't bet)
+Seat 3: Roubyz (small blind) folded before Flop
+Seat 4: donmakaron15 (big blind) collected ($0.05)
+Seat 5: ArrietaMA folded before Flop (didn't bet)
+Seat 6: andymolina23 folded on the Turn
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: MikhMaster folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451107521:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:48:20 ET
+Table 'Keid II' 9-max Seat #3 is the button
+Seat 1: Dago1984 ($1.93 in chips)
+Seat 2: LokiBalboa46 ($3.40 in chips)
+Seat 3: Roubyz ($3.17 in chips)
+Seat 4: donmakaron15 ($1.02 in chips)
+Seat 5: ArrietaMA ($1.22 in chips)
+Seat 6: andymolina23 ($2.04 in chips)
+Seat 7: pokerHero1 ($2 in chips)
+Seat 8: MikhMaster ($2.04 in chips)
+donmakaron15: posts small blind $0.01
+ArrietaMA: posts big blind $0.02
+RichardKing111: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8d 3c]
+andymolina23: calls $0.02
+pokerHero1: folds
+MikhMaster: folds
+Dago1984: raises $0.04 to $0.06
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: folds
+ArrietaMA: calls $0.04
+andymolina23: calls $0.04
+*** FLOP *** [4s 5d 6c]
+ArrietaMA: bets $0.02
+andymolina23: raises $0.10 to $0.12
+Dago1984: folds
+ArrietaMA: calls $0.10
+*** TURN *** [4s 5d 6c] [2s]
+ArrietaMA: bets $0.02
+andymolina23: calls $0.02
+*** RIVER *** [4s 5d 6c 2s] [2h]
+ArrietaMA: bets $0.02
+andymolina23: calls $0.02
+*** SHOW DOWN ***
+ArrietaMA: shows [6h 3h] (a straight, Deuce to Six)
+andymolina23: mucks hand
+ArrietaMA collected $0.49 from pot
+*** SUMMARY ***
+Total pot $0.51 | Rake $0.02
+Board [4s 5d 6c 2s 2h]
+Seat 1: Dago1984 folded on the Flop
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz (button) folded before Flop (didn't bet)
+Seat 4: donmakaron15 (small blind) folded before Flop
+Seat 5: ArrietaMA (big blind) showed [6h 3h] and won ($0.49) with a straight, Deuce to Six
+Seat 6: andymolina23 mucked [9d 7d]
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: MikhMaster folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451187166:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:49:44 ET
+Table 'Keid II' 9-max Seat #4 is the button
+Seat 1: Dago1984 ($1.87 in chips)
+Seat 2: LokiBalboa46 ($3.40 in chips)
+Seat 3: Roubyz ($3.17 in chips)
+Seat 4: donmakaron15 ($1.01 in chips)
+Seat 5: ArrietaMA ($1.49 in chips)
+Seat 6: andymolina23 ($1.82 in chips)
+Seat 7: pokerHero1 ($2 in chips)
+Seat 8: MikhMaster ($2.04 in chips)
+ArrietaMA: posts small blind $0.01
+andymolina23: posts big blind $0.02
+RichardKing111: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5h 9h]
+pokerHero1: folds
+MikhMaster: folds
+Dago1984: folds
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: raises $0.03 to $0.05
+ArrietaMA: calls $0.04
+andymolina23: folds
+*** FLOP *** [Td 9c Kh]
+ArrietaMA: checks
+donmakaron15: checks
+*** TURN *** [Td 9c Kh] [As]
+ArrietaMA: bets $0.02
+donmakaron15: calls $0.02
+*** RIVER *** [Td 9c Kh As] [Kc]
+ArrietaMA: bets $0.02
+donmakaron15: calls $0.02
+*** SHOW DOWN ***
+ArrietaMA: shows [Ad Qd] (two pair, Aces and Kings)
+donmakaron15: mucks hand
+ArrietaMA collected $0.19 from pot
+*** SUMMARY ***
+Total pot $0.20 | Rake $0.01
+Board [Td 9c Kh As Kc]
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 (button) mucked [Ac 3d]
+Seat 5: ArrietaMA (small blind) showed [Ad Qd] and won ($0.19) with two pair, Aces and Kings
+Seat 6: andymolina23 (big blind) folded before Flop
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: MikhMaster folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451228562:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:50:28 ET
+Table 'Keid II' 9-max Seat #5 is the button
+Seat 1: Dago1984 ($1.87 in chips)
+Seat 2: LokiBalboa46 ($3.40 in chips)
+Seat 3: Roubyz ($3.17 in chips)
+Seat 4: donmakaron15 ($0.92 in chips)
+Seat 5: ArrietaMA ($1.59 in chips)
+Seat 6: andymolina23 ($1.80 in chips)
+Seat 7: pokerHero1 ($2 in chips)
+Seat 8: MikhMaster ($2.04 in chips)
+andymolina23: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+RichardKing111: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8c 5s]
+MikhMaster: folds
+Dago1984: raises $0.04 to $0.06
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: folds
+ArrietaMA: folds
+andymolina23: folds
+pokerHero1: folds
+Uncalled bet ($0.04) returned to Dago1984
+Dago1984 collected $0.05 from pot
+Dago1984: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: Dago1984 collected ($0.05)
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: ArrietaMA (button) folded before Flop (didn't bet)
+Seat 6: andymolina23 (small blind) folded before Flop
+Seat 7: pokerHero1 (big blind) folded before Flop
+Seat 8: MikhMaster folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451273023:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:51:04 ET
+Table 'Keid II' 9-max Seat #6 is the button
+Seat 1: Dago1984 ($1.90 in chips)
+Seat 2: LokiBalboa46 ($3.40 in chips)
+Seat 3: Roubyz ($3.17 in chips)
+Seat 4: donmakaron15 ($0.92 in chips)
+Seat 5: ArrietaMA ($1.59 in chips)
+Seat 6: andymolina23 ($1.79 in chips)
+Seat 7: pokerHero1 ($1.98 in chips)
+Seat 8: MikhMaster ($2.04 in chips)
+pokerHero1: posts small blind $0.01
+MikhMaster: posts big blind $0.02
+RichardKing111: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d 2h]
+Dago1984: calls $0.02
+LokiBalboa46: raises $0.04 to $0.06
+Roubyz: folds
+donmakaron15: folds
+ArrietaMA: calls $0.06
+andymolina23: calls $0.06
+pokerHero1: folds
+MikhMaster: folds
+Dago1984: calls $0.04
+*** FLOP *** [Ad 5c Ts]
+Dago1984: checks
+LokiBalboa46: bets $0.04
+ArrietaMA: calls $0.04
+andymolina23: calls $0.04
+Dago1984: folds
+*** TURN *** [Ad 5c Ts] [Qh]
+LokiBalboa46: checks
+ArrietaMA: bets $0.06
+andymolina23: calls $0.06
+LokiBalboa46: calls $0.06
+*** RIVER *** [Ad 5c Ts Qh] [Kh]
+LokiBalboa46: checks
+ArrietaMA: checks
+andymolina23: bets $0.10
+LokiBalboa46: calls $0.10
+ArrietaMA: folds
+*** SHOW DOWN ***
+andymolina23: shows [Qs Jc] (a straight, Ten to Ace)
+LokiBalboa46: mucks hand
+andymolina23 collected $0.74 from pot
+*** SUMMARY ***
+Total pot $0.77 | Rake $0.03
+Board [Ad 5c Ts Qh Kh]
+Seat 1: Dago1984 folded on the Flop
+Seat 2: LokiBalboa46 mucked [Kc Tc]
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: ArrietaMA folded on the River
+Seat 6: andymolina23 (button) showed [Qs Jc] and won ($0.74) with a straight, Ten to Ace
+Seat 7: pokerHero1 (small blind) folded before Flop
+Seat 8: MikhMaster (big blind) folded before Flop
+
+
+
+PokerStars Hand #212451380010:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:52:59 ET
+Table 'Keid II' 9-max Seat #7 is the button
+Seat 1: Dago1984 ($1.84 in chips)
+Seat 2: LokiBalboa46 ($3.14 in chips)
+Seat 3: Roubyz ($3.17 in chips)
+Seat 4: donmakaron15 ($0.92 in chips)
+Seat 5: ArrietaMA ($1.43 in chips)
+Seat 6: andymolina23 ($2.27 in chips)
+Seat 7: pokerHero1 ($1.97 in chips)
+Seat 8: MikhMaster ($2.02 in chips)
+Seat 9: RichardKing111 ($1 in chips)
+MikhMaster: posts small blind $0.01
+RichardKing111: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c Td]
+Dago1984: calls $0.02
+LokiBalboa46 has timed out
+LokiBalboa46: folds
+Roubyz: raises $0.07 to $0.09
+donmakaron15: folds
+ArrietaMA: folds
+andymolina23: folds
+pokerHero1: folds
+MikhMaster: folds
+RichardKing111: folds
+Dago1984: folds
+Uncalled bet ($0.07) returned to Roubyz
+Roubyz collected $0.07 from pot
+Roubyz: doesn't show hand
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Seat 1: Dago1984 folded before Flop
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz collected ($0.07)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: ArrietaMA folded before Flop (didn't bet)
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 8: MikhMaster (small blind) folded before Flop
+Seat 9: RichardKing111 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212451425061:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:53:47 ET
+Table 'Keid II' 9-max Seat #8 is the button
+Seat 1: Dago1984 ($1.82 in chips)
+Seat 2: LokiBalboa46 ($3.14 in chips)
+Seat 3: Roubyz ($3.22 in chips)
+Seat 4: donmakaron15 ($0.92 in chips)
+Seat 5: ArrietaMA ($1.43 in chips)
+Seat 6: andymolina23 ($2.27 in chips)
+Seat 7: pokerHero1 ($1.97 in chips)
+Seat 8: MikhMaster ($2.01 in chips)
+Seat 9: RichardKing111 ($0.98 in chips)
+RichardKing111: posts small blind $0.01
+Dago1984: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7h 4c]
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15 has timed out
+donmakaron15: folds
+ArrietaMA: folds
+andymolina23: folds
+pokerHero1: folds
+MikhMaster: folds
+RichardKing111: folds
+Uncalled bet ($0.01) returned to Dago1984
+Dago1984 collected $0.02 from pot
+Dago1984: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: Dago1984 (big blind) collected ($0.02)
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: ArrietaMA folded before Flop (didn't bet)
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: MikhMaster (button) folded before Flop (didn't bet)
+Seat 9: RichardKing111 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212451451345:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:54:14 ET
+Table 'Keid II' 9-max Seat #9 is the button
+Seat 1: Dago1984 ($1.83 in chips)
+Seat 2: LokiBalboa46 ($3.14 in chips)
+Seat 3: Roubyz ($3.22 in chips)
+Seat 5: ArrietaMA ($1.43 in chips)
+Seat 6: andymolina23 ($2.27 in chips)
+Seat 7: pokerHero1 ($1.97 in chips)
+Seat 8: MikhMaster ($2.01 in chips)
+Seat 9: RichardKing111 ($0.97 in chips)
+Dago1984: posts small blind $0.01
+LokiBalboa46: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h 9s]
+Roubyz: folds
+ArrietaMA: calls $0.02
+andymolina23: folds
+pokerHero1: folds
+MikhMaster: folds
+RichardKing111: raises $0.04 to $0.06
+Dago1984: folds
+LokiBalboa46: calls $0.04
+ArrietaMA: calls $0.04
+*** FLOP *** [Jc 5s 9d]
+LokiBalboa46: checks
+ArrietaMA: checks
+RichardKing111: bets $0.08
+LokiBalboa46: folds
+ArrietaMA: calls $0.08
+*** TURN *** [Jc 5s 9d] [7d]
+ArrietaMA: checks
+RichardKing111: bets $0.10
+ArrietaMA: calls $0.10
+*** RIVER *** [Jc 5s 9d 7d] [Jh]
+ArrietaMA: bets $0.02
+RichardKing111: calls $0.02
+*** SHOW DOWN ***
+ArrietaMA: shows [6c 7h] (two pair, Jacks and Sevens)
+RichardKing111: shows [9c Ah] (two pair, Jacks and Nines)
+RichardKing111 collected $0.57 from pot
+*** SUMMARY ***
+Total pot $0.59 | Rake $0.02
+Board [Jc 5s 9d 7d Jh]
+Seat 1: Dago1984 (small blind) folded before Flop
+Seat 2: LokiBalboa46 (big blind) folded on the Flop
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 5: ArrietaMA showed [6c 7h] and lost with two pair, Jacks and Sevens
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: MikhMaster folded before Flop (didn't bet)
+Seat 9: RichardKing111 (button) showed [9c Ah] and won ($0.57) with two pair, Jacks and Nines
+
+
+
+PokerStars Hand #212451512358:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:55:23 ET
+Table 'Keid II' 9-max Seat #1 is the button
+Seat 1: Dago1984 ($1.82 in chips)
+Seat 2: LokiBalboa46 ($3.08 in chips)
+Seat 3: Roubyz ($3.22 in chips)
+Seat 5: ArrietaMA ($1.17 in chips)
+Seat 6: andymolina23 ($2.27 in chips)
+Seat 7: pokerHero1 ($1.97 in chips)
+Seat 8: MikhMaster ($2.01 in chips)
+Seat 9: RichardKing111 ($1.28 in chips)
+LokiBalboa46: posts small blind $0.01
+Roubyz: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8s 7c]
+ArrietaMA: folds
+andymolina23: calls $0.02
+pokerHero1: folds
+MikhMaster: folds
+RichardKing111: folds
+Dago1984: folds
+LokiBalboa46: folds
+Roubyz: checks
+*** FLOP *** [Ac 7s Ks]
+Roubyz: checks
+andymolina23: bets $0.04
+Roubyz: folds
+Uncalled bet ($0.04) returned to andymolina23
+andymolina23 collected $0.05 from pot
+andymolina23: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [Ac 7s Ks]
+Seat 1: Dago1984 (button) folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 (small blind) folded before Flop
+Seat 3: Roubyz (big blind) folded on the Flop
+Seat 5: ArrietaMA folded before Flop (didn't bet)
+Seat 6: andymolina23 collected ($0.05)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: MikhMaster folded before Flop (didn't bet)
+Seat 9: RichardKing111 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451534501:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:55:55 ET
+Table 'Keid II' 9-max Seat #2 is the button
+Seat 1: Dago1984 ($1.82 in chips)
+Seat 2: LokiBalboa46 ($3.07 in chips)
+Seat 3: Roubyz ($3.20 in chips)
+Seat 4: donmakaron15 ($0.92 in chips)
+Seat 5: ArrietaMA ($1.17 in chips)
+Seat 6: andymolina23 ($2.30 in chips)
+Seat 7: pokerHero1 ($1.97 in chips)
+Seat 8: MikhMaster ($2.01 in chips)
+Seat 9: RichardKing111 ($1.28 in chips)
+Roubyz: posts small blind $0.01
+donmakaron15: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th Ks]
+ArrietaMA: folds
+andymolina23: folds
+pokerHero1: folds
+MikhMaster: raises $0.04 to $0.06
+RichardKing111: raises $0.08 to $0.14
+Dago1984: folds
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: folds
+MikhMaster: calls $0.08
+*** FLOP *** [5h Kc Qd]
+MikhMaster: checks
+RichardKing111: checks
+*** TURN *** [5h Kc Qd] [Tc]
+MikhMaster: bets $0.15
+RichardKing111: calls $0.15
+*** RIVER *** [5h Kc Qd Tc] [Js]
+MikhMaster: bets $0.30
+RichardKing111: folds
+Uncalled bet ($0.30) returned to MikhMaster
+MikhMaster collected $0.59 from pot
+MikhMaster: doesn't show hand
+*** SUMMARY ***
+Total pot $0.61 | Rake $0.02
+Board [5h Kc Qd Tc Js]
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 (button) folded before Flop (didn't bet)
+Seat 3: Roubyz (small blind) folded before Flop
+Seat 4: donmakaron15 (big blind) folded before Flop
+Seat 5: ArrietaMA folded before Flop (didn't bet)
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: MikhMaster collected ($0.59)
+Seat 9: RichardKing111 folded on the River
+
+
+
+PokerStars Hand #212451572909:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:56:48 ET
+Table 'Keid II' 9-max Seat #3 is the button
+Seat 1: Dago1984 ($1.82 in chips)
+Seat 2: LokiBalboa46 ($3.07 in chips)
+Seat 3: Roubyz ($3.19 in chips)
+Seat 4: donmakaron15 ($0.90 in chips)
+Seat 5: ArrietaMA ($1.17 in chips)
+Seat 6: andymolina23 ($2.30 in chips)
+Seat 7: pokerHero1 ($1.97 in chips)
+Seat 8: MikhMaster ($2.31 in chips)
+Seat 9: RichardKing111 ($0.99 in chips)
+donmakaron15: posts small blind $0.01
+ArrietaMA: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c 9c]
+andymolina23: folds
+pokerHero1: folds
+MikhMaster: folds
+RichardKing111: folds
+Dago1984: folds
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: raises $0.04 to $0.06
+ArrietaMA: calls $0.04
+*** FLOP *** [Jd 9h 4s]
+donmakaron15: bets $0.05
+ArrietaMA: raises $0.05 to $0.10
+donmakaron15: folds
+Uncalled bet ($0.05) returned to ArrietaMA
+ArrietaMA collected $0.21 from pot
+ArrietaMA: doesn't show hand
+*** SUMMARY ***
+Total pot $0.22 | Rake $0.01
+Board [Jd 9h 4s]
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz (button) folded before Flop (didn't bet)
+Seat 4: donmakaron15 (small blind) folded on the Flop
+Seat 5: ArrietaMA (big blind) collected ($0.21)
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: MikhMaster folded before Flop (didn't bet)
+Seat 9: RichardKing111 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451600728:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:57:26 ET
+Table 'Keid II' 9-max Seat #4 is the button
+Seat 1: Dago1984 ($1.82 in chips)
+Seat 2: LokiBalboa46 ($3.07 in chips)
+Seat 3: Roubyz ($3.19 in chips)
+Seat 4: donmakaron15 ($0.79 in chips)
+Seat 5: ArrietaMA ($1.27 in chips)
+Seat 6: andymolina23 ($2.30 in chips)
+Seat 7: pokerHero1 ($1.97 in chips)
+Seat 8: MikhMaster ($2.31 in chips)
+Seat 9: RichardKing111 ($0.99 in chips)
+ArrietaMA: posts small blind $0.01
+andymolina23: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jh Jc]
+pokerHero1: raises $0.06 to $0.08
+MikhMaster: folds
+RichardKing111: calls $0.08
+Dago1984: folds
+LokiBalboa46: calls $0.08
+Roubyz: folds
+donmakaron15: calls $0.08
+ArrietaMA: calls $0.07
+andymolina23: folds
+*** FLOP *** [Kd 3h Js]
+ArrietaMA: checks
+pokerHero1: bets $0.14
+RichardKing111: calls $0.14
+LokiBalboa46: calls $0.14
+donmakaron15: folds
+ArrietaMA: folds
+*** TURN *** [Kd 3h Js] [Qd]
+pokerHero1: bets $0.50
+ArrietaMA leaves the table
+RichardKing111: folds
+LokiBalboa46: calls $0.50
+*** RIVER *** [Kd 3h Js Qd] [7s]
+pokerHero1: bets $1.25 and is all-in
+Pleishner61 joins the table at seat #5
+LokiBalboa46: calls $1.25
+*** SHOW DOWN ***
+pokerHero1: shows [Jh Jc] (three of a kind, Jacks)
+LokiBalboa46: shows [Ad Qs] (a pair of Queens)
+pokerHero1 collected $4.19 from pot
+*** SUMMARY ***
+Total pot $4.34 | Rake $0.15
+Board [Kd 3h Js Qd 7s]
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 showed [Ad Qs] and lost with a pair of Queens
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 (button) folded on the Flop
+Seat 5: ArrietaMA (small blind) folded on the Flop
+Seat 6: andymolina23 (big blind) folded before Flop
+Seat 7: pokerHero1 showed [Jh Jc] and won ($4.19) with three of a kind, Jacks
+Seat 8: MikhMaster folded before Flop (didn't bet)
+Seat 9: RichardKing111 folded on the Turn
+
+
+
+PokerStars Hand #212451690464:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:59:30 ET
+Table 'Keid II' 9-max Seat #6 is the button
+Seat 1: Dago1984 ($1.82 in chips)
+Seat 2: LokiBalboa46 ($1.10 in chips)
+Seat 3: Roubyz ($3.19 in chips)
+Seat 4: donmakaron15 ($0.71 in chips)
+Seat 5: Pleishner61 ($2 in chips)
+Seat 6: andymolina23 ($2.28 in chips)
+Seat 7: pokerHero1 ($4.19 in chips)
+Seat 9: RichardKing111 ($0.77 in chips)
+pokerHero1: posts small blind $0.01
+MikhMaster: is sitting out
+RichardKing111: posts big blind $0.02
+Pleishner61: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7s 6h]
+Dago1984: calls $0.02
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: folds
+Pleishner61: checks
+andymolina23: folds
+pokerHero1: calls $0.01
+RichardKing111: checks
+*** FLOP *** [4s 3s 3c]
+pokerHero1: checks
+RichardKing111: checks
+Dago1984: checks
+Pleishner61: checks
+*** TURN *** [4s 3s 3c] [7h]
+pokerHero1: checks
+RichardKing111: checks
+Dago1984: checks
+Pleishner61: checks
+*** RIVER *** [4s 3s 3c 7h] [4h]
+pokerHero1: bets $0.06
+RichardKing111: folds
+Dago1984: folds
+Pleishner61: raises $0.20 to $0.26
+pokerHero1: folds
+Uncalled bet ($0.20) returned to Pleishner61
+Pleishner61 collected $0.19 from pot
+*** SUMMARY ***
+Total pot $0.20 | Rake $0.01
+Board [4s 3s 3c 7h 4h]
+Seat 1: Dago1984 folded on the River
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: Pleishner61 collected ($0.19)
+Seat 6: andymolina23 (button) folded before Flop (didn't bet)
+Seat 7: pokerHero1 (small blind) folded on the River
+Seat 9: RichardKing111 (big blind) folded on the River
+
+
+
+PokerStars Hand #212451745617:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:00:30 ET
+Table 'Keid II' 9-max Seat #7 is the button
+Seat 1: Dago1984 ($1.80 in chips)
+Seat 2: LokiBalboa46 ($1.10 in chips)
+Seat 3: Roubyz ($3.19 in chips)
+Seat 4: donmakaron15 ($0.71 in chips)
+Seat 5: Pleishner61 ($2.11 in chips)
+Seat 6: andymolina23 ($2.28 in chips)
+Seat 7: pokerHero1 ($4.11 in chips)
+Seat 9: RichardKing111 ($0.75 in chips)
+RichardKing111: posts small blind $0.01
+Dago1984: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qd Qs]
+LokiBalboa46: calls $0.02
+Roubyz: folds
+MikhMaster leaves the table
+donmakaron15: raises $0.06 to $0.08
+CiliAnja joins the table at seat #8
+Pleishner61: folds
+andymolina23: folds
+pokerHero1: raises $0.28 to $0.36
+CiliAnja leaves the table
+RichardKing111: raises $0.39 to $0.75 and is all-in
+Dago1984: folds
+LokiBalboa46: folds
+donmakaron15: calls $0.63 and is all-in
+pokerHero1: calls $0.39
+*** FLOP *** [5d 3h 8s]
+*** TURN *** [5d 3h 8s] [5c]
+*** RIVER *** [5d 3h 8s 5c] [5s]
+*** SHOW DOWN ***
+RichardKing111: shows [9s 9d] (a full house, Fives full of Nines)
+pokerHero1: shows [Qd Qs] (a full house, Fives full of Queens)
+pokerHero1 collected $0.08 from side pot
+donmakaron15: shows [Ac Ah] (a full house, Fives full of Aces)
+donmakaron15 collected $2.09 from main pot
+RichardKing111 cashed out the hand for $0.34
+*** SUMMARY ***
+Total pot $2.25 Main pot $2.09. Side pot $0.08. | Rake $0.08
+Board [5d 3h 8s 5c 5s]
+Seat 1: Dago1984 (big blind) folded before Flop
+Seat 2: LokiBalboa46 folded before Flop
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 showed [Ac Ah] and won ($2.09) with a full house, Fives full of Aces
+Seat 5: Pleishner61 folded before Flop (didn't bet)
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 (button) showed [Qd Qs] and won ($0.08) with a full house, Fives full of Queens
+Seat 9: RichardKing111 (small blind) showed [9s 9d] and lost with a full house, Fives full of Nines (cashed out).
+
+
+
+PokerStars Hand #212451792399:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:01:28 ET
+Table 'Keid II' 9-max Seat #9 is the button
+Seat 1: Dago1984 ($1.78 in chips)
+Seat 2: LokiBalboa46 ($1.08 in chips)
+Seat 3: Roubyz ($3.19 in chips)
+Seat 4: donmakaron15 ($2.09 in chips)
+Seat 5: Pleishner61 ($2.11 in chips)
+Seat 6: andymolina23 ($2.28 in chips)
+Seat 7: pokerHero1 ($3.44 in chips)
+Seat 9: RichardKing111 ($0.34 in chips)
+Dago1984: posts small blind $0.01
+LokiBalboa46: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As 6s]
+Roubyz: folds
+donmakaron15: folds
+Pleishner61: calls $0.02
+andymolina23: raises $0.04 to $0.06
+pokerHero1: calls $0.06
+RichardKing111: folds
+Dago1984: folds
+LokiBalboa46: folds
+Pleishner61: calls $0.04
+*** FLOP *** [Th 4h 4c]
+KukenPK joins the table at seat #8
+Pleishner61: checks
+andymolina23: checks
+pokerHero1: checks
+*** TURN *** [Th 4h 4c] [Ad]
+Pleishner61: checks
+andymolina23: bets $0.10
+pokerHero1: calls $0.10
+Pleishner61: folds
+*** RIVER *** [Th 4h 4c Ad] [8c]
+andymolina23: bets $0.12
+pokerHero1: calls $0.12
+*** SHOW DOWN ***
+andymolina23: shows [Js Ac] (two pair, Aces and Fours)
+pokerHero1: mucks hand
+andymolina23 collected $0.63 from pot
+*** SUMMARY ***
+Total pot $0.65 | Rake $0.02
+Board [Th 4h 4c Ad 8c]
+Seat 1: Dago1984 (small blind) folded before Flop
+Seat 2: LokiBalboa46 (big blind) folded before Flop
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: Pleishner61 folded on the Turn
+Seat 6: andymolina23 showed [Js Ac] and won ($0.63) with two pair, Aces and Fours
+Seat 7: pokerHero1 mucked [As 6s]
+Seat 9: RichardKing111 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451848727:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:02:30 ET
+Table 'Keid II' 9-max Seat #1 is the button
+Seat 1: Dago1984 ($1.77 in chips)
+Seat 2: LokiBalboa46 ($1.06 in chips)
+Seat 3: Roubyz ($3.19 in chips)
+Seat 4: donmakaron15 ($2.09 in chips)
+Seat 5: Pleishner61 ($2.05 in chips)
+Seat 6: andymolina23 ($2.63 in chips)
+Seat 7: pokerHero1 ($3.16 in chips)
+Seat 8: KukenPK ($0.80 in chips)
+Seat 9: RichardKing111 ($0.34 in chips)
+LokiBalboa46: posts small blind $0.01
+Roubyz: posts big blind $0.02
+KukenPK: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7s Td]
+donmakaron15: folds
+Pleishner61: calls $0.02
+andymolina23: calls $0.02
+pokerHero1: folds
+KukenPK: checks
+RichardKing111: raises $0.32 to $0.34 and is all-in
+Dago1984: folds
+LokiBalboa46: raises $0.72 to $1.06 and is all-in
+Roubyz: folds
+Pleishner61: calls $1.04
+andymolina23: folds
+KukenPK: folds
+*** FLOP *** [Jh Qh 4d]
+*** TURN *** [Jh Qh 4d] [Qd]
+*** RIVER *** [Jh Qh 4d Qd] [Ac]
+*** SHOW DOWN ***
+LokiBalboa46: shows [Qc Qs] (four of a kind, Queens)
+Pleishner61: shows [7d Ah] (two pair, Aces and Queens)
+LokiBalboa46 collected $1.39 from side pot
+RichardKing111: shows [9s 9c] (two pair, Queens and Nines)
+LokiBalboa46 collected $1.04 from main pot
+RichardKing111 cashed out the hand for $0.17
+*** SUMMARY ***
+Total pot $2.52 Main pot $1.04. Side pot $1.39. | Rake $0.09
+Board [Jh Qh 4d Qd Ac]
+Seat 1: Dago1984 (button) folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 (small blind) showed [Qc Qs] and won ($2.43) with four of a kind, Queens
+Seat 3: Roubyz (big blind) folded before Flop
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: Pleishner61 showed [7d Ah] and lost with two pair, Aces and Queens
+Seat 6: andymolina23 folded before Flop
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: KukenPK folded before Flop (didn't bet)
+Seat 9: RichardKing111 showed [9s 9c] and lost with two pair, Queens and Nines (cashed out).
+
+
+
+PokerStars Hand #212451889366:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:03:12 ET
+Table 'Keid II' 9-max Seat #2 is the button
+Seat 1: Dago1984 ($1.77 in chips)
+Seat 2: LokiBalboa46 ($2.43 in chips)
+Seat 3: Roubyz ($3.17 in chips)
+Seat 4: donmakaron15 ($2.09 in chips)
+Seat 5: Pleishner61 ($0.99 in chips)
+Seat 6: andymolina23 ($2.61 in chips)
+Seat 7: pokerHero1 ($3.16 in chips)
+Seat 8: KukenPK ($0.78 in chips)
+Seat 9: RichardKing111 ($0.17 in chips)
+Roubyz: posts small blind $0.01
+donmakaron15: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th 6d]
+Pleishner61: raises $0.04 to $0.06
+andymolina23: folds
+pokerHero1: folds
+KukenPK: raises $0.72 to $0.78 and is all-in
+RichardKing111: folds
+Dago1984: folds
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: folds
+Pleishner61: calls $0.72
+*** FLOP *** [2h 2d 4d]
+*** TURN *** [2h 2d 4d] [5c]
+*** RIVER *** [2h 2d 4d 5c] [Qc]
+*** SHOW DOWN ***
+Pleishner61: shows [Ah Jh] (a pair of Deuces)
+KukenPK: shows [Kh Kc] (two pair, Kings and Deuces)
+KukenPK collected $1.53 from pot
+*** SUMMARY ***
+Total pot $1.59 | Rake $0.06
+Board [2h 2d 4d 5c Qc]
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 (button) folded before Flop (didn't bet)
+Seat 3: Roubyz (small blind) folded before Flop
+Seat 4: donmakaron15 (big blind) folded before Flop
+Seat 5: Pleishner61 showed [Ah Jh] and lost with a pair of Deuces
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: KukenPK showed [Kh Kc] and won ($1.53) with two pair, Kings and Deuces
+Seat 9: RichardKing111 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451924282:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:03:50 ET
+Table 'Keid II' 9-max Seat #3 is the button
+Seat 1: Dago1984 ($1.77 in chips)
+Seat 2: LokiBalboa46 ($2.43 in chips)
+Seat 3: Roubyz ($3.16 in chips)
+Seat 4: donmakaron15 ($2.07 in chips)
+Seat 5: Pleishner61 ($0.21 in chips)
+Seat 6: andymolina23 ($2.61 in chips)
+Seat 7: pokerHero1 ($3.16 in chips)
+Seat 8: KukenPK ($1.53 in chips)
+Seat 9: RichardKing111 ($0.17 in chips)
+donmakaron15: posts small blind $0.01
+Pleishner61: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qs Ah]
+andymolina23: folds
+pokerHero1: raises $0.06 to $0.08
+KukenPK: calls $0.08
+RichardKing111: folds
+Dago1984: folds
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: raises $0.12 to $0.20
+Pleishner61: calls $0.18
+pokerHero1: folds
+KukenPK: raises $1.33 to $1.53 and is all-in
+donmakaron15: folds
+Pleishner61: calls $0.01 and is all-in
+Uncalled bet ($1.32) returned to KukenPK
+*** FLOP *** [5c 3d 2d]
+*** TURN *** [5c 3d 2d] [Ac]
+*** RIVER *** [5c 3d 2d Ac] [Kc]
+*** SHOW DOWN ***
+Pleishner61: shows [Qc 9d] (high card Ace)
+KukenPK: shows [Kh As] (two pair, Aces and Kings)
+KukenPK cashed out the hand for $0.44
+*** SUMMARY ***
+Total pot $0.70 | Rake $0.02
+Board [5c 3d 2d Ac Kc]
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz (button) folded before Flop (didn't bet)
+Seat 4: donmakaron15 (small blind) folded before Flop
+Seat 5: Pleishner61 (big blind) showed [Qc 9d] and lost with high card Ace
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop
+Seat 8: KukenPK showed [Kh As] and won ($0.68) with two pair, Aces and Kings (pot not awarded as player cashed out)
+Seat 9: RichardKing111 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451991310:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:05:00 ET
+Table 'Keid II' 9-max Seat #4 is the button
+Seat 1: Dago1984 ($1.77 in chips)
+Seat 2: LokiBalboa46 ($2.43 in chips)
+Seat 3: Roubyz ($3.16 in chips)
+Seat 4: donmakaron15 ($1.87 in chips)
+Seat 6: andymolina23 ($2.61 in chips)
+Seat 7: pokerHero1 ($3.08 in chips)
+Seat 8: KukenPK ($1.76 in chips)
+Seat 9: RichardKing111 ($0.17 in chips)
+andymolina23: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d 3h]
+Pleishner61 leaves the table
+KukenPK: calls $0.02
+RichardKing111: folds
+Dago1984: folds
+LokiBalboa46: folds
+Roubyz: folds
+donmakaron15: folds
+LokiBalboa46 leaves the table
+andymolina23: folds
+pokerHero1: checks
+*** FLOP *** [2d 5d As]
+pokerHero1: checks
+KukenPK: checks
+*** TURN *** [2d 5d As] [3c]
+pokerHero1: checks
+KukenPK: checks
+*** RIVER *** [2d 5d As 3c] [6c]
+pokerHero1: bets $0.04
+KukenPK: folds
+Uncalled bet ($0.04) returned to pokerHero1
+KukenPK leaves the table
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [2d 5d As 3c 6c]
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 2: LokiBalboa46 folded before Flop (didn't bet)
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 (button) folded before Flop (didn't bet)
+Seat 6: andymolina23 (small blind) folded before Flop
+Seat 7: pokerHero1 (big blind) collected ($0.05)
+Seat 8: KukenPK folded on the River
+Seat 9: RichardKing111 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212452029497:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:05:39 ET
+Table 'Keid II' 9-max Seat #6 is the button
+Seat 1: Dago1984 ($1.77 in chips)
+Seat 3: Roubyz ($3.16 in chips)
+Seat 4: donmakaron15 ($1.87 in chips)
+Seat 6: andymolina23 ($2.60 in chips)
+Seat 7: pokerHero1 ($3.11 in chips)
+Seat 9: RichardKing111 ($0.17 in chips)
+pokerHero1: posts small blind $0.01
+RichardKing111: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th 7s]
+Dago1984: calls $0.02
+Roubyz: folds
+donmakaron15: folds
+andymolina23: folds
+pokerHero1: folds
+RichardKing111: raises $0.15 to $0.17 and is all-in
+Dago1984: calls $0.15
+*** FLOP *** [6h Qd 4h]
+*** TURN *** [6h Qd 4h] [2s]
+*** RIVER *** [6h Qd 4h 2s] [Ac]
+*** SHOW DOWN ***
+RichardKing111: shows [6s Ad] (two pair, Aces and Sixes)
+Dago1984: shows [5d 5s] (a pair of Fives)
+RichardKing111 collected $0.34 from pot
+Dago1984 cashed out the hand for $0.19
+*** SUMMARY ***
+Total pot $0.35 | Rake $0.01
+Board [6h Qd 4h 2s Ac]
+Seat 1: Dago1984 showed [5d 5s] and lost with a pair of Fives (cashed out).
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 6: andymolina23 (button) folded before Flop (didn't bet)
+Seat 7: pokerHero1 (small blind) folded before Flop
+Seat 9: RichardKing111 (big blind) showed [6s Ad] and won ($0.34) with two pair, Aces and Sixes
+
+
+
+PokerStars Hand #212452058670:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:06:09 ET
+Table 'Keid II' 9-max Seat #7 is the button
+Seat 1: Dago1984 ($1.79 in chips)
+Seat 3: Roubyz ($3.16 in chips)
+Seat 4: donmakaron15 ($1.87 in chips)
+Seat 6: andymolina23 ($2.60 in chips)
+Seat 7: pokerHero1 ($3.10 in chips)
+Seat 9: RichardKing111 ($0.34 in chips)
+RichardKing111: posts small blind $0.01
+Dago1984: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d 5d]
+Roubyz: raises $0.04 to $0.06
+donmakaron15: folds
+andymolina23: calls $0.06
+pokerHero1: folds
+RichardKing111: folds
+Dago1984: calls $0.04
+*** FLOP *** [7d 8c Th]
+Dago1984: bets $0.09
+Roubyz: calls $0.09
+andymolina23: folds
+*** TURN *** [7d 8c Th] [7c]
+Dago1984: bets $0.20
+Roubyz: folds
+Uncalled bet ($0.20) returned to Dago1984
+Dago1984 collected $0.36 from pot
+Dago1984: doesn't show hand
+*** SUMMARY ***
+Total pot $0.37 | Rake $0.01
+Board [7d 8c Th 7c]
+Seat 1: Dago1984 (big blind) collected ($0.36)
+Seat 3: Roubyz folded on the Turn
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 6: andymolina23 folded on the Flop
+Seat 7: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 9: RichardKing111 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212452085708:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:06:36 ET
+Table 'Keid II' 9-max Seat #9 is the button
+Seat 1: Dago1984 ($2 in chips)
+Seat 3: Roubyz ($3.01 in chips)
+Seat 4: donmakaron15 ($1.87 in chips)
+Seat 6: andymolina23 ($2.54 in chips)
+Seat 7: pokerHero1 ($3.10 in chips)
+Seat 9: RichardKing111 ($0.33 in chips)
+Dago1984: posts small blind $0.01
+Roubyz: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kh 5d]
+donmakaron15: raises $0.03 to $0.05
+andymolina23: folds
+pokerHero1: folds
+RichardKing111: folds
+Dago1984: folds
+Roubyz: folds
+Uncalled bet ($0.03) returned to donmakaron15
+donmakaron15 collected $0.05 from pot
+donmakaron15: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: Dago1984 (small blind) folded before Flop
+Seat 3: Roubyz (big blind) folded before Flop
+Seat 4: donmakaron15 collected ($0.05)
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 9: RichardKing111 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212452100540:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:06:52 ET
+Table 'Keid II' 9-max Seat #1 is the button
+Seat 1: Dago1984 ($1.99 in chips)
+Seat 3: Roubyz ($2.99 in chips)
+Seat 4: donmakaron15 ($1.90 in chips)
+Seat 6: andymolina23 ($2.54 in chips)
+Seat 7: pokerHero1 ($3.10 in chips)
+Seat 9: RichardKing111 ($0.33 in chips)
+Roubyz: posts small blind $0.01
+donmakaron15: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qd 6h]
+andymolina23: folds
+Zum1988 joins the table at seat #5
+pokerHero1: folds
+RichardKing111: folds
+Dago1984: calls $0.02
+Roubyz: folds
+donmakaron15: checks
+*** FLOP *** [Jh 4h 8c]
+donmakaron15: checks
+boyis9 joins the table at seat #2
+Dago1984: bets $0.02
+donmakaron15: folds
+Uncalled bet ($0.02) returned to Dago1984
+Dago1984 collected $0.05 from pot
+Dago1984: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [Jh 4h 8c]
+Seat 1: Dago1984 (button) collected ($0.05)
+Seat 3: Roubyz (small blind) folded before Flop
+Seat 4: donmakaron15 (big blind) folded on the Flop
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 9: RichardKing111 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212452121267:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:07:13 ET
+Table 'Keid II' 9-max Seat #3 is the button
+Seat 1: Dago1984 ($2.02 in chips)
+Seat 3: Roubyz ($2.98 in chips)
+Seat 4: donmakaron15 ($1.88 in chips)
+Seat 5: Zum1988 ($2 in chips)
+Seat 6: andymolina23 ($2.54 in chips)
+Seat 7: pokerHero1 ($3.10 in chips)
+Seat 9: RichardKing111 ($0.33 in chips)
+donmakaron15: posts small blind $0.01
+Zum1988: posts big blind $0.02
+boyis9: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th 7d]
+andymolina23: folds
+pokerHero1: folds
+RichardKing111: folds
+Dago1984: calls $0.02
+Roubyz: raises $0.07 to $0.09
+donmakaron15: folds
+Zum1988: folds
+Dago1984: folds
+Uncalled bet ($0.07) returned to Roubyz
+Roubyz collected $0.07 from pot
+Roubyz: doesn't show hand
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Seat 1: Dago1984 folded before Flop
+Seat 3: Roubyz (button) collected ($0.07)
+Seat 4: donmakaron15 (small blind) folded before Flop
+Seat 5: Zum1988 (big blind) folded before Flop
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 9: RichardKing111 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212452147823:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:07:40 ET
+Table 'Keid II' 9-max Seat #4 is the button
+Seat 1: Dago1984 ($2 in chips)
+Seat 3: Roubyz ($3.03 in chips)
+Seat 4: donmakaron15 ($1.87 in chips)
+Seat 5: Zum1988 ($1.98 in chips)
+Seat 6: andymolina23 ($2.54 in chips)
+Seat 7: pokerHero1 ($3.10 in chips)
+Seat 9: RichardKing111 ($0.33 in chips)
+Zum1988: posts small blind $0.01
+andymolina23: posts big blind $0.02
+boyis9: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ts Qc]
+pokerHero1: folds
+RichardKing111: folds
+Dago1984: calls $0.02
+Roubyz: folds
+donmakaron15: folds
+Wizardzxd joins the table at seat #8
+Zum1988: calls $0.01
+andymolina23: raises $0.04 to $0.06
+Dago1984: folds
+Zum1988: calls $0.04
+*** FLOP *** [7d 5s Kd]
+Zum1988: checks
+andymolina23: bets $0.06
+Zum1988: folds
+Uncalled bet ($0.06) returned to andymolina23
+andymolina23 collected $0.14 from pot
+andymolina23: doesn't show hand
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [7d 5s Kd]
+Seat 1: Dago1984 folded before Flop
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 (button) folded before Flop (didn't bet)
+Seat 5: Zum1988 (small blind) folded on the Flop
+Seat 6: andymolina23 (big blind) collected ($0.14)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 9: RichardKing111 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212452191491:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:08:24 ET
+Table 'Keid II' 9-max Seat #5 is the button
+Seat 1: Dago1984 ($1.98 in chips)
+Seat 3: Roubyz ($3.03 in chips)
+Seat 4: donmakaron15 ($1.87 in chips)
+Seat 5: Zum1988 ($1.92 in chips)
+Seat 6: andymolina23 ($2.62 in chips)
+Seat 7: pokerHero1 ($3.10 in chips)
+Seat 8: Wizardzxd ($2 in chips)
+Seat 9: RichardKing111 ($0.33 in chips)
+andymolina23: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+Wizardzxd: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4h Kd]
+Wizardzxd: checks
+RichardKing111: raises $0.04 to $0.06
+Dago1984: folds
+Roubyz: folds
+donmakaron15: folds
+Zum1988: calls $0.06
+andymolina23: calls $0.05
+pokerHero1: folds
+Wizardzxd: calls $0.04
+*** FLOP *** [Jh Qh Ks]
+andymolina23: bets $0.12
+Wizardzxd: folds
+RichardKing111: raises $0.15 to $0.27 and is all-in
+Zum1988: calls $0.27
+andymolina23: calls $0.15
+*** TURN *** [Jh Qh Ks] [4c]
+andymolina23: checks
+Zum1988: checks
+*** RIVER *** [Jh Qh Ks 4c] [3d]
+andymolina23: checks
+Zum1988: bets $1.59 and is all-in
+Dago1984 leaves the table
+andymolina23: calls $1.59
+*** SHOW DOWN ***
+Zum1988: shows [9s Qc] (a pair of Queens)
+andymolina23: shows [Qs Js] (two pair, Queens and Jacks)
+andymolina23 collected $3.07 from side pot
+RichardKing111: shows [Ah Qd] (a pair of Queens)
+andymolina23 collected $1.03 from main pot
+*** SUMMARY ***
+Total pot $4.25 Main pot $1.03. Side pot $3.07. | Rake $0.15
+Board [Jh Qh Ks 4c 3d]
+Seat 1: Dago1984 folded before Flop (didn't bet)
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: Zum1988 (button) showed [9s Qc] and lost with a pair of Queens
+Seat 6: andymolina23 (small blind) showed [Qs Js] and won ($4.10) with two pair, Queens and Jacks
+Seat 7: pokerHero1 (big blind) folded before Flop
+Seat 8: Wizardzxd folded on the Flop
+Seat 9: RichardKing111 showed [Ah Qd] and lost with a pair of Queens
+
+
+
+PokerStars Hand #212452309625:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:10:16 ET
+Table 'Keid II' 9-max Seat #6 is the button
+Seat 3: Roubyz ($3.03 in chips)
+Seat 4: donmakaron15 ($1.87 in chips)
+Seat 6: andymolina23 ($4.80 in chips)
+Seat 7: pokerHero1 ($3.08 in chips)
+Seat 8: Wizardzxd ($1.94 in chips)
+pokerHero1: posts small blind $0.01
+Wizardzxd: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc Js]
+Roubyz: folds
+RichardKing111 leaves the table
+BBartek94 joins the table at seat #1
+donmakaron15 has timed out
+donmakaron15: folds
+andymolina23: calls $0.02
+Insanows joins the table at seat #9
+pokerHero1: calls $0.01
+Wizardzxd: raises $0.02 to $0.04
+andymolina23: raises $0.02 to $0.06
+pokerHero1: folds
+Wizardzxd: raises $0.02 to $0.08
+andymolina23: calls $0.02
+*** FLOP *** [4s Jc As]
+Wizardzxd: bets $0.16
+andymolina23: folds
+Uncalled bet ($0.16) returned to Wizardzxd
+Wizardzxd collected $0.17 from pot
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [4s Jc As]
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 6: andymolina23 (button) folded on the Flop
+Seat 7: pokerHero1 (small blind) folded before Flop
+Seat 8: Wizardzxd (big blind) collected ($0.17)
+
+
+
+PokerStars Hand #212452364722:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:11:13 ET
+Table 'Keid II' 9-max Seat #7 is the button
+Seat 3: Roubyz ($3.03 in chips)
+Seat 4: donmakaron15 ($1.87 in chips)
+Seat 5: Zum1988 ($1.44 in chips)
+Seat 6: andymolina23 ($4.72 in chips)
+Seat 7: pokerHero1 ($3.06 in chips)
+Seat 8: Wizardzxd ($2.03 in chips)
+Seat 9: Insanows ($1.60 in chips)
+Wizardzxd: posts small blind $0.01
+Insanows: posts big blind $0.02
+BBartek94: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kc 5c]
+Roubyz: folds
+donmakaron15: folds
+Zum1988: calls $0.02
+andymolina23: raises $0.04 to $0.06
+pokerHero1: folds
+Wizardzxd: calls $0.05
+Insanows: folds
+Zum1988: calls $0.04
+*** FLOP *** [5s As 4d]
+Wizardzxd: checks
+Zum1988: bets $0.10
+andymolina23: calls $0.10
+Wizardzxd: calls $0.10
+*** TURN *** [5s As 4d] [8c]
+Wizardzxd: checks
+Zum1988: bets $0.50
+andymolina23: raises $0.50 to $1
+Wizardzxd: folds
+Zum1988: raises $0.28 to $1.28 and is all-in
+andymolina23: calls $0.28
+*** RIVER *** [5s As 4d 8c] [3c]
+*** SHOW DOWN ***
+Zum1988: shows [6s Ad] (a pair of Aces)
+andymolina23: shows [4h 4c] (three of a kind, Fours)
+andymolina23 collected $2.95 from pot
+Zum1988 cashed out the hand for $0.27
+*** SUMMARY ***
+Total pot $3.06 | Rake $0.11
+Board [5s As 4d 8c 3c]
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: Zum1988 showed [6s Ad] and lost with a pair of Aces (cashed out).
+Seat 6: andymolina23 showed [4h 4c] and won ($2.95) with three of a kind, Fours
+Seat 7: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 8: Wizardzxd (small blind) folded on the Turn
+Seat 9: Insanows (big blind) folded before Flop
+
+
+
+PokerStars Hand #212452447003:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:12:38 ET
+Table 'Keid II' 9-max Seat #8 is the button
+Seat 1: BBartek94 ($2 in chips)
+Seat 3: Roubyz ($3.03 in chips)
+Seat 4: donmakaron15 ($1.87 in chips)
+Seat 5: Zum1988 ($0.27 in chips)
+Seat 6: andymolina23 ($6.23 in chips)
+Seat 7: pokerHero1 ($3.06 in chips)
+Seat 8: Wizardzxd ($1.87 in chips)
+Seat 9: Insanows ($1.58 in chips)
+Insanows: posts small blind $0.01
+BBartek94: posts big blind $0.02
+boyis9: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kc As]
+Roubyz: folds
+donmakaron15: folds
+Zum1988: folds
+andymolina23: folds
+pokerHero1: raises $0.06 to $0.08
+Wizardzxd: calls $0.08
+Insanows: calls $0.07
+BBartek94: folds
+*** FLOP *** [6c 3d Qc]
+Insanows: checks
+pokerHero1: checks
+Wizardzxd: checks
+*** TURN *** [6c 3d Qc] [4h]
+Insanows: checks
+pokerHero1: bets $0.19
+Wizardzxd: folds
+Insanows: folds
+Uncalled bet ($0.19) returned to pokerHero1
+pokerHero1 collected $0.25 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.26 | Rake $0.01
+Board [6c 3d Qc 4h]
+Seat 1: BBartek94 (big blind) folded before Flop
+Seat 3: Roubyz folded before Flop (didn't bet)
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: Zum1988 folded before Flop (didn't bet)
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 collected ($0.25)
+Seat 8: Wizardzxd (button) folded on the Turn
+Seat 9: Insanows (small blind) folded on the Turn
+
+
+
+PokerStars Hand #212452509352:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:13:42 ET
+Table 'Keid II' 9-max Seat #9 is the button
+Seat 1: BBartek94 ($1.98 in chips)
+Seat 2: boyis9 ($2 in chips)
+Seat 3: Roubyz ($3.03 in chips)
+Seat 4: donmakaron15 ($1.87 in chips)
+Seat 5: Zum1988 ($0.27 in chips)
+Seat 6: andymolina23 ($6.23 in chips)
+Seat 7: pokerHero1 ($3.23 in chips)
+Seat 8: Wizardzxd ($1.79 in chips)
+Seat 9: Insanows ($1.50 in chips)
+BBartek94: posts small blind $0.01
+boyis9: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h 7s]
+Roubyz: raises $0.04 to $0.06
+donmakaron15 has timed out
+donmakaron15: folds
+Zum1988: raises $0.21 to $0.27 and is all-in
+andymolina23: folds
+pokerHero1: folds
+Wizardzxd: folds
+Insanows: folds
+BBartek94: folds
+boyis9: folds
+Roubyz: calls $0.21
+*** FLOP *** [Th 6d 7d]
+*** TURN *** [Th 6d 7d] [7c]
+*** RIVER *** [Th 6d 7d 7c] [Qd]
+*** SHOW DOWN ***
+Roubyz: shows [As Ks] (a pair of Sevens)
+Zum1988: shows [Ac 2c] (a pair of Sevens - lower kicker)
+Roubyz collected $0.55 from pot
+*** SUMMARY ***
+Total pot $0.57 | Rake $0.02
+Board [Th 6d 7d 7c Qd]
+Seat 1: BBartek94 (small blind) folded before Flop
+Seat 2: boyis9 (big blind) folded before Flop
+Seat 3: Roubyz showed [As Ks] and won ($0.55) with a pair of Sevens
+Seat 4: donmakaron15 folded before Flop (didn't bet)
+Seat 5: Zum1988 showed [Ac 2c] and lost with a pair of Sevens
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Wizardzxd folded before Flop (didn't bet)
+Seat 9: Insanows (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212452567614:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:14:41 ET
+Table 'Keid II' 9-max Seat #1 is the button
+Seat 1: BBartek94 ($1.97 in chips)
+Seat 2: boyis9 ($1.98 in chips)
+Seat 3: Roubyz ($3.31 in chips)
+Seat 6: andymolina23 ($6.23 in chips)
+Seat 7: pokerHero1 ($3.23 in chips)
+Seat 8: Wizardzxd ($1.79 in chips)
+Seat 9: Insanows ($1.50 in chips)
+boyis9: posts small blind $0.01
+Roubyz: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c 9d]
+andymolina23: calls $0.02
+pokerHero1: folds
+Wizardzxd: calls $0.02
+Insanows: folds
+BBartek94: raises $0.02 to $0.04
+boyis9: raises $0.10 to $0.14
+Roubyz: folds
+andymolina23: folds
+Wizardzxd: calls $0.12
+Zum1988 leaves the table
+BBartek94: folds
+*** FLOP *** [Ks Jc 5h]
+boyis9: bets $0.35
+srgatillo8 joins the table at seat #5
+Wizardzxd: calls $0.35
+*** TURN *** [Ks Jc 5h] [7h]
+boyis9: bets $1.49 and is all-in
+Wizardzxd: calls $1.30 and is all-in
+Uncalled bet ($0.19) returned to boyis9
+*** RIVER *** [Ks Jc 5h 7h] [Jh]
+*** SHOW DOWN ***
+boyis9: shows [Js Ah] (three of a kind, Jacks)
+Wizardzxd: shows [Th Jd] (three of a kind, Jacks - lower kicker)
+boyis9 collected $3.53 from pot
+*** SUMMARY ***
+Total pot $3.66 | Rake $0.13
+Board [Ks Jc 5h 7h Jh]
+Seat 1: BBartek94 (button) folded before Flop
+Seat 2: boyis9 (small blind) showed [Js Ah] and won ($3.53) with three of a kind, Jacks
+Seat 3: Roubyz (big blind) folded before Flop
+Seat 6: andymolina23 folded before Flop
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Wizardzxd showed [Th Jd] and lost with three of a kind, Jacks
+Seat 9: Insanows folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212452644314:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:16:00 ET
+Table 'Keid II' 9-max Seat #2 is the button
+Seat 1: BBartek94 ($1.93 in chips)
+Seat 2: boyis9 ($3.72 in chips)
+Seat 3: Roubyz ($3.29 in chips)
+Seat 4: donmakaron15 ($1.87 in chips)
+Seat 6: andymolina23 ($6.21 in chips)
+Seat 7: pokerHero1 ($3.23 in chips)
+Seat 9: Insanows ($1.50 in chips)
+Roubyz: posts small blind $0.01
+donmakaron15: posts big blind $0.02
+srgatillo8: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c As]
+andymolina23: folds
+pokerHero1: folds
+Insanows: raises $0.06 to $0.08
+BBartek94: folds
+boyis9: folds
+boyis9 leaves the table
+Roubyz: folds
+donmakaron15: calls $0.06
+*** FLOP *** [Ac Ts Kd]
+donmakaron15: checks
+Insanows: bets $0.08
+donmakaron15: folds
+Uncalled bet ($0.08) returned to Insanows
+Insanows collected $0.16 from pot
+Insanows: doesn't show hand
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [Ac Ts Kd]
+Seat 1: BBartek94 folded before Flop (didn't bet)
+Seat 2: boyis9 (button) folded before Flop (didn't bet)
+Seat 3: Roubyz (small blind) folded before Flop
+Seat 4: donmakaron15 (big blind) folded on the Flop
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 9: Insanows collected ($0.16)
+
+
+
+PokerStars Hand #212452671288:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:16:27 ET
+Table 'Keid II' 9-max Seat #3 is the button
+Seat 1: BBartek94 ($1.93 in chips)
+Seat 3: Roubyz ($3.28 in chips)
+Seat 4: donmakaron15 ($1.79 in chips)
+Seat 5: srgatillo8 ($2 in chips)
+Seat 6: andymolina23 ($6.21 in chips)
+Seat 7: pokerHero1 ($3.23 in chips)
+Seat 8: Wizardzxd ($2 in chips)
+Seat 9: Insanows ($1.58 in chips)
+donmakaron15: posts small blind $0.01
+srgatillo8: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h Kh]
+TEMA1306 joins the table at seat #2
+andymolina23: folds
+pokerHero1: folds
+Wizardzxd: calls $0.02
+Insanows: folds
+BBartek94: folds
+Roubyz: raises $0.07 to $0.09
+donmakaron15: folds
+srgatillo8: folds
+Wizardzxd: calls $0.07
+*** FLOP *** [7h 2c Kc]
+Wizardzxd: checks
+Roubyz: bets $0.08
+Wizardzxd: calls $0.08
+*** TURN *** [7h 2c Kc] [9h]
+Wizardzxd: checks
+Roubyz: bets $0.26
+Wizardzxd: folds
+Uncalled bet ($0.26) returned to Roubyz
+Roubyz collected $0.36 from pot
+Roubyz: doesn't show hand
+*** SUMMARY ***
+Total pot $0.37 | Rake $0.01
+Board [7h 2c Kc 9h]
+Seat 1: BBartek94 folded before Flop (didn't bet)
+Seat 3: Roubyz (button) collected ($0.36)
+Seat 4: donmakaron15 (small blind) folded before Flop
+Seat 5: srgatillo8 (big blind) folded before Flop
+Seat 6: andymolina23 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Wizardzxd folded on the Turn
+Seat 9: Insanows folded before Flop (didn't bet)
+
+
+

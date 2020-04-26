@@ -1,0 +1,960 @@
+﻿PokerStars Hand #212509820622:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:15:43 ET
+Table 'Eurykleia III' 9-max Seat #1 is the button
+Seat 1: Ykycu_Moe ($2 in chips)
+Seat 2: MXMR83 ($1.19 in chips)
+Seat 3: pokerHero1 ($2 in chips)
+Seat 4: duckscassidy ($2.18 in chips)
+Seat 5: Millers1234 ($2.38 in chips)
+Seat 6: Aspang ($2 in chips)
+Seat 7: Dago1984 ($4.80 in chips)
+Seat 8: JP00001 ($2.02 in chips)
+Seat 9: Ive007 ($2.66 in chips)
+MXMR83: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d Qh]
+duckscassidy: folds
+Millers1234: raises $0.03 to $0.05
+Aspang: folds
+Dago1984: calls $0.05
+JP00001: folds
+Ive007: calls $0.05
+Ykycu_Moe: calls $0.05
+MXMR83: folds
+pokerHero1: folds
+*** FLOP *** [7h 8d 4d]
+Millers1234: bets $0.12
+Dago1984: calls $0.12
+Ive007: folds
+Ykycu_Moe: folds
+*** TURN *** [7h 8d 4d] [Kc]
+Millers1234: checks
+Dago1984: bets $0.23
+Millers1234: calls $0.23
+*** RIVER *** [7h 8d 4d Kc] [Qc]
+Millers1234: checks
+Dago1984: checks
+*** SHOW DOWN ***
+Millers1234: shows [Ts Td] (a pair of Tens)
+Dago1984: shows [As Ah] (a pair of Aces)
+Dago1984 collected $0.90 from pot
+*** SUMMARY ***
+Total pot $0.93 | Rake $0.03
+Board [7h 8d 4d Kc Qc]
+Seat 1: Ykycu_Moe (button) folded on the Flop
+Seat 2: MXMR83 (small blind) folded before Flop
+Seat 3: pokerHero1 (big blind) folded before Flop
+Seat 4: duckscassidy folded before Flop (didn't bet)
+Seat 5: Millers1234 showed [Ts Td] and lost with a pair of Tens
+Seat 6: Aspang folded before Flop (didn't bet)
+Seat 7: Dago1984 showed [As Ah] and won ($0.90) with a pair of Aces
+Seat 8: JP00001 folded before Flop (didn't bet)
+Seat 9: Ive007 folded on the Flop
+
+
+
+PokerStars Hand #212509881754:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:16:54 ET
+Table 'Eurykleia III' 9-max Seat #2 is the button
+Seat 1: Ykycu_Moe ($2 in chips)
+Seat 2: MXMR83 ($1.18 in chips)
+Seat 3: pokerHero1 ($1.98 in chips)
+Seat 4: duckscassidy ($2.18 in chips)
+Seat 5: Millers1234 ($1.98 in chips)
+Seat 6: Aspang ($2 in chips)
+Seat 7: Dago1984 ($5.30 in chips)
+Seat 8: JP00001 ($2.02 in chips)
+Seat 9: Ive007 ($2.61 in chips)
+pokerHero1: posts small blind $0.01
+duckscassidy: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5d Tc]
+Millers1234: folds
+Aspang: folds
+Dago1984: calls $0.02
+JP00001: folds
+Ive007: raises $0.02 to $0.04
+Ykycu_Moe: folds
+MXMR83: folds
+pokerHero1: folds
+duckscassidy: calls $0.02
+Dago1984: calls $0.02
+*** FLOP *** [9h 4c 3c]
+duckscassidy: bets $0.07
+Dago1984: folds
+Ive007: calls $0.07
+*** TURN *** [9h 4c 3c] [7d]
+duckscassidy: bets $0.13
+Ive007: calls $0.13
+*** RIVER *** [9h 4c 3c 7d] [Kd]
+duckscassidy: checks
+Ive007: checks
+*** SHOW DOWN ***
+duckscassidy: shows [5c 2c] (high card King)
+Ive007: shows [9c Ac] (a pair of Nines)
+Ive007 collected $0.51 from pot
+*** SUMMARY ***
+Total pot $0.53 | Rake $0.02
+Board [9h 4c 3c 7d Kd]
+Seat 1: Ykycu_Moe folded before Flop (didn't bet)
+Seat 2: MXMR83 (button) folded before Flop (didn't bet)
+Seat 3: pokerHero1 (small blind) folded before Flop
+Seat 4: duckscassidy (big blind) showed [5c 2c] and lost with high card King
+Seat 5: Millers1234 folded before Flop (didn't bet)
+Seat 6: Aspang folded before Flop (didn't bet)
+Seat 7: Dago1984 folded on the Flop
+Seat 8: JP00001 folded before Flop (didn't bet)
+Seat 9: Ive007 showed [9c Ac] and won ($0.51) with a pair of Nines
+
+
+
+PokerStars Hand #212509970622:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:18:25 ET
+Table 'Eurykleia III' 9-max Seat #3 is the button
+Seat 1: Ykycu_Moe ($2 in chips)
+Seat 2: MXMR83 ($1.18 in chips)
+Seat 3: pokerHero1 ($1.97 in chips)
+Seat 4: duckscassidy ($2 in chips)
+Seat 5: Millers1234 ($1.98 in chips)
+Seat 6: Aspang ($2 in chips)
+Seat 7: Dago1984 ($5.26 in chips)
+Seat 8: JP00001 ($2.02 in chips)
+Seat 9: Ive007 ($2.88 in chips)
+duckscassidy: posts small blind $0.01
+Millers1234: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th 3s]
+Aspang: folds
+Dago1984: calls $0.02
+JP00001: calls $0.02
+Ive007: raises $0.04 to $0.06
+Ykycu_Moe: folds
+MXMR83 has timed out
+MXMR83: folds
+pokerHero1: folds
+duckscassidy: folds
+Millers1234: folds
+Dago1984: calls $0.04
+JP00001: calls $0.04
+*** FLOP *** [As Qh 9h]
+Dago1984: bets $0.10
+JP00001: folds
+Ive007: calls $0.10
+*** TURN *** [As Qh 9h] [6h]
+Dago1984: bets $0.08
+Ive007: calls $0.08
+*** RIVER *** [As Qh 9h 6h] [6s]
+Dago1984: bets $0.06
+Ive007: calls $0.06
+*** SHOW DOWN ***
+Dago1984: shows [9s Qs] (two pair, Queens and Nines)
+Ive007: mucks hand
+Dago1984 collected $0.67 from pot
+*** SUMMARY ***
+Total pot $0.69 | Rake $0.02
+Board [As Qh 9h 6h 6s]
+Seat 1: Ykycu_Moe folded before Flop (didn't bet)
+Seat 2: MXMR83 folded before Flop (didn't bet)
+Seat 3: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 4: duckscassidy (small blind) folded before Flop
+Seat 5: Millers1234 (big blind) folded before Flop
+Seat 6: Aspang folded before Flop (didn't bet)
+Seat 7: Dago1984 showed [9s Qs] and won ($0.67) with two pair, Queens and Nines
+Seat 8: JP00001 folded on the Flop
+Seat 9: Ive007 mucked [8d 8h]
+
+
+
+PokerStars Hand #212510032061:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:19:37 ET
+Table 'Eurykleia III' 9-max Seat #4 is the button
+Seat 1: Ykycu_Moe ($2 in chips)
+Seat 2: MXMR83 ($1.18 in chips)
+Seat 3: pokerHero1 ($1.97 in chips)
+Seat 4: duckscassidy ($2 in chips)
+Seat 5: Millers1234 ($1.96 in chips)
+Seat 6: Aspang ($2 in chips)
+Seat 7: Dago1984 ($5.63 in chips)
+Seat 8: JP00001 ($1.96 in chips)
+Seat 9: Ive007 ($2.58 in chips)
+Millers1234: posts small blind $0.01
+Aspang: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js Jc]
+Dago1984: calls $0.02
+JP00001: raises $0.04 to $0.06
+Ive007: folds
+Ykycu_Moe: folds
+MXMR83: calls $0.06
+pokerHero1: calls $0.06
+duckscassidy: folds
+Millers1234: calls $0.05
+Aspang: folds
+Dago1984: calls $0.04
+*** FLOP *** [Th As 3c]
+Millers1234: checks
+Dago1984: checks
+JP00001: checks
+MXMR83: checks
+pokerHero1: checks
+*** TURN *** [Th As 3c] [7h]
+Millers1234: checks
+Dago1984: checks
+JP00001: checks
+MXMR83: checks
+pokerHero1: checks
+*** RIVER *** [Th As 3c 7h] [2c]
+Millers1234: checks
+Dago1984: checks
+JP00001: bets $0.08
+MXMR83: folds
+pokerHero1: calls $0.08
+Millers1234: folds
+Dago1984: folds
+*** SHOW DOWN ***
+JP00001: shows [Qh Kc] (high card Ace)
+pokerHero1: shows [Js Jc] (a pair of Jacks)
+pokerHero1 collected $0.46 from pot
+*** SUMMARY ***
+Total pot $0.48 | Rake $0.02
+Board [Th As 3c 7h 2c]
+Seat 1: Ykycu_Moe folded before Flop (didn't bet)
+Seat 2: MXMR83 folded on the River
+Seat 3: pokerHero1 showed [Js Jc] and won ($0.46) with a pair of Jacks
+Seat 4: duckscassidy (button) folded before Flop (didn't bet)
+Seat 5: Millers1234 (small blind) folded on the River
+Seat 6: Aspang (big blind) folded before Flop
+Seat 7: Dago1984 folded on the River
+Seat 8: JP00001 showed [Qh Kc] and lost with high card Ace
+Seat 9: Ive007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510097874:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:20:53 ET
+Table 'Eurykleia III' 9-max Seat #5 is the button
+Seat 1: Ykycu_Moe ($2 in chips)
+Seat 2: MXMR83 ($1.12 in chips)
+Seat 3: pokerHero1 ($2.29 in chips)
+Seat 4: duckscassidy ($2 in chips)
+Seat 5: Millers1234 ($1.90 in chips)
+Seat 6: Aspang ($2 in chips)
+Seat 7: Dago1984 ($5.57 in chips)
+Seat 8: JP00001 ($1.82 in chips)
+Seat 9: Ive007 ($2.58 in chips)
+Aspang: posts small blind $0.01
+Dago1984: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3c Ts]
+JP00001: folds
+Ive007: folds
+Ykycu_Moe: folds
+MXMR83: raises $0.04 to $0.06
+pokerHero1: folds
+duckscassidy has timed out
+duckscassidy: folds
+Millers1234: folds
+Aspang: folds
+Dago1984: folds
+Uncalled bet ($0.04) returned to MXMR83
+MXMR83 collected $0.05 from pot
+MXMR83: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: Ykycu_Moe folded before Flop (didn't bet)
+Seat 2: MXMR83 collected ($0.05)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: duckscassidy folded before Flop (didn't bet)
+Seat 5: Millers1234 (button) folded before Flop (didn't bet)
+Seat 6: Aspang (small blind) folded before Flop
+Seat 7: Dago1984 (big blind) folded before Flop
+Seat 8: JP00001 folded before Flop (didn't bet)
+Seat 9: Ive007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510127325:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:21:27 ET
+Table 'Eurykleia III' 9-max Seat #6 is the button
+Seat 1: Ykycu_Moe ($2 in chips)
+Seat 2: MXMR83 ($1.15 in chips)
+Seat 3: pokerHero1 ($2.29 in chips)
+Seat 4: duckscassidy ($2 in chips)
+Seat 5: Millers1234 ($1.90 in chips)
+Seat 6: Aspang ($2 in chips)
+Seat 7: Dago1984 ($5.55 in chips)
+Seat 8: JP00001 ($1.82 in chips)
+Seat 9: Ive007 ($2.58 in chips)
+Dago1984: posts small blind $0.01
+JP00001: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c 3h]
+Ive007: folds
+Ykycu_Moe: folds
+MXMR83: folds
+pokerHero1: folds
+duckscassidy: folds
+Millers1234: folds
+Aspang: folds
+Dago1984: calls $0.01
+JP00001: checks
+*** FLOP *** [5d 2h Ks]
+Dago1984: bets $0.02
+JP00001: raises $0.02 to $0.04
+Dago1984: calls $0.02
+*** TURN *** [5d 2h Ks] [3s]
+Dago1984: checks
+JP00001: bets $0.08
+Dago1984: calls $0.08
+*** RIVER *** [5d 2h Ks 3s] [Qh]
+Dago1984: checks
+JP00001: checks
+*** SHOW DOWN ***
+Dago1984: shows [Ah 3c] (a pair of Threes)
+JP00001: shows [2d 5s] (two pair, Fives and Deuces)
+JP00001 collected $0.27 from pot
+*** SUMMARY ***
+Total pot $0.28 | Rake $0.01
+Board [5d 2h Ks 3s Qh]
+Seat 1: Ykycu_Moe folded before Flop (didn't bet)
+Seat 2: MXMR83 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: duckscassidy folded before Flop (didn't bet)
+Seat 5: Millers1234 folded before Flop (didn't bet)
+Seat 6: Aspang (button) folded before Flop (didn't bet)
+Seat 7: Dago1984 (small blind) showed [Ah 3c] and lost with a pair of Threes
+Seat 8: JP00001 (big blind) showed [2d 5s] and won ($0.27) with two pair, Fives and Deuces
+Seat 9: Ive007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510182845:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:22:31 ET
+Table 'Eurykleia III' 9-max Seat #7 is the button
+Seat 1: Ykycu_Moe ($2 in chips)
+Seat 2: MXMR83 ($1.15 in chips)
+Seat 3: pokerHero1 ($2.29 in chips)
+Seat 4: duckscassidy ($2 in chips)
+Seat 5: Millers1234 ($1.90 in chips)
+Seat 6: Aspang ($2 in chips)
+Seat 7: Dago1984 ($5.41 in chips)
+Seat 8: JP00001 ($1.95 in chips)
+Seat 9: Ive007 ($2.58 in chips)
+JP00001: posts small blind $0.01
+Ive007: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c Jd]
+Ykycu_Moe: folds
+MXMR83: folds
+pokerHero1: folds
+duckscassidy: raises $0.02 to $0.04
+Millers1234: folds
+Aspang: folds
+Dago1984: folds
+JP00001: calls $0.03
+Ive007: folds
+*** FLOP *** [Td 9h Jh]
+JP00001: checks
+duckscassidy: bets $0.07
+JP00001: calls $0.07
+*** TURN *** [Td 9h Jh] [4h]
+JP00001: checks
+duckscassidy: bets $0.12
+JP00001: folds
+Uncalled bet ($0.12) returned to duckscassidy
+duckscassidy collected $0.23 from pot
+duckscassidy: doesn't show hand
+*** SUMMARY ***
+Total pot $0.24 | Rake $0.01
+Board [Td 9h Jh 4h]
+Seat 1: Ykycu_Moe folded before Flop (didn't bet)
+Seat 2: MXMR83 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: duckscassidy collected ($0.23)
+Seat 5: Millers1234 folded before Flop (didn't bet)
+Seat 6: Aspang folded before Flop (didn't bet)
+Seat 7: Dago1984 (button) folded before Flop (didn't bet)
+Seat 8: JP00001 (small blind) folded on the Turn
+Seat 9: Ive007 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212510242017:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:23:40 ET
+Table 'Eurykleia III' 9-max Seat #8 is the button
+Seat 1: Ykycu_Moe ($2 in chips)
+Seat 2: MXMR83 ($1.15 in chips)
+Seat 3: pokerHero1 ($2.29 in chips)
+Seat 4: duckscassidy ($2.12 in chips)
+Seat 5: Millers1234 ($1.90 in chips)
+Seat 6: Aspang ($2 in chips)
+Seat 7: Dago1984 ($5.41 in chips)
+Seat 8: JP00001 ($1.84 in chips)
+Seat 9: Ive007 ($2.56 in chips)
+Ive007: posts small blind $0.01
+Ykycu_Moe: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd 7h]
+MXMR83: folds
+pokerHero1 has timed out
+pokerHero1: folds
+duckscassidy: raises $0.04 to $0.06
+Millers1234: folds
+Aspang: folds
+Dago1984: folds
+JP00001: folds
+Ive007: folds
+Ykycu_Moe: folds
+Uncalled bet ($0.04) returned to duckscassidy
+duckscassidy collected $0.05 from pot
+duckscassidy: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: Ykycu_Moe (big blind) folded before Flop
+Seat 2: MXMR83 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: duckscassidy collected ($0.05)
+Seat 5: Millers1234 folded before Flop (didn't bet)
+Seat 6: Aspang folded before Flop (didn't bet)
+Seat 7: Dago1984 folded before Flop (didn't bet)
+Seat 8: JP00001 (button) folded before Flop (didn't bet)
+Seat 9: Ive007 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212510431172:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:27:16 ET
+Table 'Eurykleia III' 9-max Seat #4 is the button
+Seat 1: Ykycu_Moe ($2.07 in chips)
+Seat 2: MXMR83 ($1.21 in chips)
+Seat 3: pokerHero1 ($2.29 in chips)
+Seat 4: duckscassidy ($2 in chips)
+Seat 5: Millers1234 ($2.67 in chips)
+Seat 6: Aspang ($2 in chips)
+Seat 7: Dago1984 ($5.35 in chips)
+Seat 8: JP00001 ($1.82 in chips)
+Seat 9: Ive007 ($2.53 in chips)
+Millers1234: posts small blind $0.01
+Aspang: posts big blind $0.02
+pokerHero1: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d 9c]
+Dago1984: folds
+JP00001: folds
+Ive007: folds
+Ykycu_Moe: folds
+MXMR83: folds
+pokerHero1: raises $0.06 to $0.08
+duckscassidy: folds
+Millers1234: calls $0.07
+Aspang: folds
+*** FLOP *** [9s Ks Jd]
+Millers1234: checks
+pokerHero1: bets $0.12
+Millers1234: calls $0.12
+*** TURN *** [9s Ks Jd] [6c]
+Millers1234: checks
+pokerHero1: checks
+*** RIVER *** [9s Ks Jd 6c] [Ah]
+Millers1234: checks
+pokerHero1: checks
+*** SHOW DOWN ***
+Millers1234: shows [Qs Kc] (a pair of Kings)
+pokerHero1: mucks hand
+Millers1234 collected $0.41 from pot
+*** SUMMARY ***
+Total pot $0.43 | Rake $0.02
+Board [9s Ks Jd 6c Ah]
+Seat 1: Ykycu_Moe folded before Flop (didn't bet)
+Seat 2: MXMR83 folded before Flop (didn't bet)
+Seat 3: pokerHero1 mucked [7d 9c]
+Seat 4: duckscassidy (button) folded before Flop (didn't bet)
+Seat 5: Millers1234 (small blind) showed [Qs Kc] and won ($0.41) with a pair of Kings
+Seat 6: Aspang (big blind) folded before Flop
+Seat 7: Dago1984 folded before Flop (didn't bet)
+Seat 8: JP00001 folded before Flop (didn't bet)
+Seat 9: Ive007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510484293:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:28:16 ET
+Table 'Eurykleia III' 9-max Seat #5 is the button
+Seat 1: Ykycu_Moe ($2.07 in chips)
+Seat 2: MXMR83 ($1.21 in chips)
+Seat 3: pokerHero1 ($2.08 in chips)
+Seat 4: duckscassidy ($2 in chips)
+Seat 5: Millers1234 ($2.88 in chips)
+Seat 6: Aspang ($2 in chips)
+Seat 7: Dago1984 ($5.35 in chips)
+Seat 8: JP00001 ($1.82 in chips)
+Seat 9: Ive007 ($2.53 in chips)
+Aspang: posts small blind $0.01
+Dago1984: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc Ts]
+JP00001: folds
+Ive007 has timed out
+Ive007: folds
+Ykycu_Moe: raises $0.04 to $0.06
+MXMR83: folds
+pokerHero1: folds
+duckscassidy: folds
+Millers1234: folds
+Aspang: folds
+Dago1984: calls $0.04
+*** FLOP *** [Jd 2d 5s]
+Dago1984: bets $0.02
+Ykycu_Moe: raises $0.08 to $0.10
+Dago1984: calls $0.08
+*** TURN *** [Jd 2d 5s] [Td]
+Dago1984: checks
+Ykycu_Moe: bets $0.20
+Dago1984: folds
+Uncalled bet ($0.20) returned to Ykycu_Moe
+Ykycu_Moe collected $0.32 from pot
+Ykycu_Moe: doesn't show hand
+*** SUMMARY ***
+Total pot $0.33 | Rake $0.01
+Board [Jd 2d 5s Td]
+Seat 1: Ykycu_Moe collected ($0.32)
+Seat 2: MXMR83 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: duckscassidy folded before Flop (didn't bet)
+Seat 5: Millers1234 (button) folded before Flop (didn't bet)
+Seat 6: Aspang (small blind) folded before Flop
+Seat 7: Dago1984 (big blind) folded on the Turn
+Seat 8: JP00001 folded before Flop (didn't bet)
+Seat 9: Ive007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510520945:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:28:58 ET
+Table 'Eurykleia III' 9-max Seat #6 is the button
+Seat 1: Ykycu_Moe ($2.23 in chips)
+Seat 2: MXMR83 ($1.21 in chips)
+Seat 3: pokerHero1 ($2.08 in chips)
+Seat 4: duckscassidy ($2 in chips)
+Seat 5: Millers1234 ($2.88 in chips)
+Seat 6: Aspang ($2 in chips)
+Seat 7: Dago1984 ($5.19 in chips)
+Seat 8: JP00001 ($1.82 in chips)
+Seat 9: Ive007 ($2.53 in chips)
+Dago1984: posts small blind $0.01
+JP00001: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4h Tc]
+Ive007: folds
+Ykycu_Moe: folds
+MXMR83: folds
+pokerHero1: folds
+duckscassidy: raises $0.04 to $0.06
+Millers1234: folds
+Aspang: folds
+Dago1984: folds
+JP00001: folds
+Uncalled bet ($0.04) returned to duckscassidy
+duckscassidy collected $0.05 from pot
+duckscassidy: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: Ykycu_Moe folded before Flop (didn't bet)
+Seat 2: MXMR83 folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: duckscassidy collected ($0.05)
+Seat 5: Millers1234 folded before Flop (didn't bet)
+Seat 6: Aspang (button) folded before Flop (didn't bet)
+Seat 7: Dago1984 (small blind) folded before Flop
+Seat 8: JP00001 (big blind) folded before Flop
+Seat 9: Ive007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510538857:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:29:18 ET
+Table 'Eurykleia III' 9-max Seat #7 is the button
+Seat 1: Ykycu_Moe ($2.23 in chips)
+Seat 2: MXMR83 ($1.21 in chips)
+Seat 3: pokerHero1 ($2.08 in chips)
+Seat 4: duckscassidy ($2.03 in chips)
+Seat 5: Millers1234 ($2.88 in chips)
+Seat 6: Aspang ($2 in chips)
+Seat 7: Dago1984 ($5.18 in chips)
+Seat 8: JP00001 ($1.80 in chips)
+Seat 9: Ive007 ($2.53 in chips)
+JP00001: posts small blind $0.01
+Ive007: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qs 2s]
+Ykycu_Moe: folds
+MXMR83: raises $0.06 to $0.08
+pokerHero1: folds
+duckscassidy: folds
+Millers1234: folds
+Aspang: calls $0.08
+Dago1984: folds
+JP00001: folds
+Ive007: calls $0.06
+*** FLOP *** [6c Ad 3c]
+Ive007: bets $0.18
+MXMR83: calls $0.18
+Aspang: calls $0.18
+*** TURN *** [6c Ad 3c] [2c]
+Ive007: checks
+MXMR83: checks
+Aspang: bets $0.16
+Ive007: calls $0.16
+MXMR83: raises $0.79 to $0.95 and is all-in
+Aspang: raises $0.79 to $1.74 and is all-in
+Ive007: folds
+Uncalled bet ($0.79) returned to Aspang
+*** RIVER *** [6c Ad 3c 2c] [Ks]
+*** SHOW DOWN ***
+MXMR83: shows [Jh Ac] (a pair of Aces)
+Aspang: shows [8c 9c] (a flush, Nine high)
+Aspang collected $2.75 from pot
+MXMR83 cashed out the hand for $0.44
+*** SUMMARY ***
+Total pot $2.85 | Rake $0.10
+Board [6c Ad 3c 2c Ks]
+Seat 1: Ykycu_Moe folded before Flop (didn't bet)
+Seat 2: MXMR83 showed [Jh Ac] and lost with a pair of Aces (cashed out).
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: duckscassidy folded before Flop (didn't bet)
+Seat 5: Millers1234 folded before Flop (didn't bet)
+Seat 6: Aspang showed [8c 9c] and won ($2.75) with a flush, Nine high
+Seat 7: Dago1984 (button) folded before Flop (didn't bet)
+Seat 8: JP00001 (small blind) folded before Flop
+Seat 9: Ive007 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #212510612388:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:30:40 ET
+Table 'Eurykleia III' 9-max Seat #8 is the button
+Seat 3: pokerHero1 ($2.08 in chips)
+Seat 4: duckscassidy ($2.03 in chips)
+Seat 5: Millers1234 ($2.88 in chips)
+Seat 6: Aspang ($3.54 in chips)
+Seat 7: Dago1984 ($5.18 in chips)
+Seat 8: JP00001 ($1.79 in chips)
+Seat 9: Ive007 ($2.11 in chips)
+Ive007: posts small blind $0.01
+Ykycu_Moe: is sitting out
+Ykycu_Moe leaves the table
+MXMR83: is sitting out
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d 8s]
+MXMR83 leaves the table
+duckscassidy: folds
+Millers1234: raises $0.06 to $0.08
+Aspang: folds
+Dago1984: folds
+JP00001: folds
+Ive007: folds
+pokerHero1: folds
+Uncalled bet ($0.06) returned to Millers1234
+Millers1234 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 3: pokerHero1 (big blind) folded before Flop
+Seat 4: duckscassidy folded before Flop (didn't bet)
+Seat 5: Millers1234 collected ($0.05)
+Seat 6: Aspang folded before Flop (didn't bet)
+Seat 7: Dago1984 folded before Flop (didn't bet)
+Seat 8: JP00001 (button) folded before Flop (didn't bet)
+Seat 9: Ive007 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212510632582:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:31:03 ET
+Table 'Eurykleia III' 9-max Seat #9 is the button
+Seat 3: pokerHero1 ($2.06 in chips)
+Seat 4: duckscassidy ($2.03 in chips)
+Seat 5: Millers1234 ($2.91 in chips)
+Seat 6: Aspang ($3.54 in chips)
+Seat 7: Dago1984 ($5.18 in chips)
+Seat 8: JP00001 ($1.79 in chips)
+Seat 9: Ive007 ($2.10 in chips)
+pokerHero1: posts small blind $0.01
+duckscassidy: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c 4c]
+Millers1234: folds
+Aspang: raises $0.05 to $0.07
+Dago1984: folds
+JP00001: folds
+Ive007: calls $0.07
+pokerHero1: folds
+duckscassidy: folds
+*** FLOP *** [8s 3d Qs]
+Aspang: checks
+Ive007: bets $0.08
+Aspang: folds
+Uncalled bet ($0.08) returned to Ive007
+Ive007 collected $0.16 from pot
+Ive007: doesn't show hand
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [8s 3d Qs]
+Seat 3: pokerHero1 (small blind) folded before Flop
+Seat 4: duckscassidy (big blind) folded before Flop
+Seat 5: Millers1234 folded before Flop (didn't bet)
+Seat 6: Aspang folded on the Flop
+Seat 7: Dago1984 folded before Flop (didn't bet)
+Seat 8: JP00001 folded before Flop (didn't bet)
+Seat 9: Ive007 (button) collected ($0.16)
+
+
+
+PokerStars Hand #212510674299:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:31:49 ET
+Table 'Eurykleia III' 9-max Seat #3 is the button
+Seat 3: pokerHero1 ($2.05 in chips)
+Seat 4: duckscassidy ($2.01 in chips)
+Seat 5: Millers1234 ($2.91 in chips)
+Seat 6: Aspang ($3.47 in chips)
+Seat 7: Dago1984 ($5.18 in chips)
+Seat 8: JP00001 ($1.79 in chips)
+Seat 9: Ive007 ($2.19 in chips)
+duckscassidy: posts small blind $0.01
+Millers1234: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s 3s]
+Aspang: folds
+Dago1984: folds
+JP00001: folds
+Ive007: folds
+pokerHero1: folds
+duckscassidy: raises $0.04 to $0.06
+Millers1234: folds
+Uncalled bet ($0.04) returned to duckscassidy
+duckscassidy collected $0.04 from pot
+duckscassidy: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 3: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 4: duckscassidy (small blind) collected ($0.04)
+Seat 5: Millers1234 (big blind) folded before Flop
+Seat 6: Aspang folded before Flop (didn't bet)
+Seat 7: Dago1984 folded before Flop (didn't bet)
+Seat 8: JP00001 folded before Flop (didn't bet)
+Seat 9: Ive007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510690134:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:32:07 ET
+Table 'Eurykleia III' 9-max Seat #4 is the button
+Seat 3: pokerHero1 ($2.05 in chips)
+Seat 4: duckscassidy ($2.03 in chips)
+Seat 5: Millers1234 ($2.89 in chips)
+Seat 6: Aspang ($3.47 in chips)
+Seat 7: Dago1984 ($5.18 in chips)
+Seat 8: JP00001 ($1.79 in chips)
+Seat 9: Ive007 ($2.19 in chips)
+Millers1234: posts small blind $0.01
+Aspang: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5c Kh]
+Dago1984: calls $0.02
+JP00001: folds
+Ive007: folds
+pokerHero1: folds
+duckscassidy: raises $0.07 to $0.09
+Millers1234: folds
+Aspang: folds
+Dago1984: folds
+Uncalled bet ($0.07) returned to duckscassidy
+duckscassidy collected $0.07 from pot
+duckscassidy: doesn't show hand
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: duckscassidy (button) collected ($0.07)
+Seat 5: Millers1234 (small blind) folded before Flop
+Seat 6: Aspang (big blind) folded before Flop
+Seat 7: Dago1984 folded before Flop
+Seat 8: JP00001 folded before Flop (didn't bet)
+Seat 9: Ive007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510712436:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:32:31 ET
+Table 'Eurykleia III' 9-max Seat #5 is the button
+Seat 3: pokerHero1 ($2.05 in chips)
+Seat 4: duckscassidy ($2.08 in chips)
+Seat 5: Millers1234 ($2.88 in chips)
+Seat 6: Aspang ($3.45 in chips)
+Seat 7: Dago1984 ($5.16 in chips)
+Seat 8: JP00001 ($1.79 in chips)
+Seat 9: Ive007 ($2.19 in chips)
+Aspang: posts small blind $0.01
+Dago1984: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As 4h]
+JP00001: folds
+Ive007: folds
+pokerHero1: folds
+duckscassidy: folds
+Millers1234: folds
+Aspang: folds
+Uncalled bet ($0.01) returned to Dago1984
+Dago1984 collected $0.02 from pot
+Dago1984: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: duckscassidy folded before Flop (didn't bet)
+Seat 5: Millers1234 (button) folded before Flop (didn't bet)
+Seat 6: Aspang (small blind) folded before Flop
+Seat 7: Dago1984 (big blind) collected ($0.02)
+Seat 8: JP00001 folded before Flop (didn't bet)
+Seat 9: Ive007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510728707:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:32:49 ET
+Table 'Eurykleia III' 9-max Seat #6 is the button
+Seat 3: pokerHero1 ($2.05 in chips)
+Seat 4: duckscassidy ($2.08 in chips)
+Seat 5: Millers1234 ($2.88 in chips)
+Seat 6: Aspang ($3.44 in chips)
+Seat 7: Dago1984 ($5.17 in chips)
+Seat 8: JP00001 ($1.79 in chips)
+Seat 9: Ive007 ($2.19 in chips)
+Dago1984: posts small blind $0.01
+JP00001: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9h 9s]
+Ive007: folds
+pokerHero1: calls $0.02
+duckscassidy: folds
+Millers1234: folds
+Aspang: folds
+Dago1984: calls $0.01
+Metis266 joins the table at seat #1
+JP00001: checks
+*** FLOP *** [6s Tc Qs]
+Dago1984: bets $0.04
+JP00001: calls $0.04
+pokerHero1: folds
+*** TURN *** [6s Tc Qs] [Ks]
+Dago1984: bets $0.02
+Zelipukin joins the table at seat #2
+JP00001: raises $0.04 to $0.06
+Dago1984: folds
+Uncalled bet ($0.04) returned to JP00001
+JP00001 collected $0.17 from pot
+JP00001: doesn't show hand
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [6s Tc Qs Ks]
+Seat 3: pokerHero1 folded on the Flop
+Seat 4: duckscassidy folded before Flop (didn't bet)
+Seat 5: Millers1234 folded before Flop (didn't bet)
+Seat 6: Aspang (button) folded before Flop (didn't bet)
+Seat 7: Dago1984 (small blind) folded on the Turn
+Seat 8: JP00001 (big blind) collected ($0.17)
+Seat 9: Ive007 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510769386:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:33:35 ET
+Table 'Eurykleia III' 9-max Seat #7 is the button
+Seat 1: Metis266 ($0.80 in chips)
+Seat 2: Zelipukin ($0.80 in chips)
+Seat 3: pokerHero1 ($2.03 in chips)
+Seat 4: duckscassidy ($2.08 in chips)
+Seat 5: Millers1234 ($2.88 in chips)
+Seat 6: Aspang ($3.44 in chips)
+Seat 7: Dago1984 ($5.09 in chips)
+Seat 8: JP00001 ($1.88 in chips)
+Seat 9: Ive007 ($2.19 in chips)
+JP00001: posts small blind $0.01
+Ive007: posts big blind $0.02
+Metis266: posts big blind $0.02
+Zelipukin: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4h 9h]
+Metis266: checks
+Zelipukin: checks
+pokerHero1: folds
+duckscassidy: folds
+Millers1234: folds
+Aspang: folds
+Dago1984: folds
+JP00001: folds
+Ive007: raises $0.06 to $0.08
+Metis266: folds
+Zelipukin: calls $0.06
+*** FLOP *** [6h 9c 5h]
+Ive007: checks
+Zelipukin: bets $0.09
+Ive007: calls $0.09
+*** TURN *** [6h 9c 5h] [7c]
+Ive007: checks
+Zelipukin: bets $0.36
+Ive007: folds
+Uncalled bet ($0.36) returned to Zelipukin
+Zelipukin collected $0.36 from pot
+*** SUMMARY ***
+Total pot $0.37 | Rake $0.01
+Board [6h 9c 5h 7c]
+Seat 1: Metis266 folded before Flop (didn't bet)
+Seat 2: Zelipukin collected ($0.36)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: duckscassidy folded before Flop (didn't bet)
+Seat 5: Millers1234 folded before Flop (didn't bet)
+Seat 6: Aspang folded before Flop (didn't bet)
+Seat 7: Dago1984 (button) folded before Flop (didn't bet)
+Seat 8: JP00001 (small blind) folded before Flop
+Seat 9: Ive007 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #212510822450:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:34:19 ET
+Table 'Eurykleia III' 9-max Seat #8 is the button
+Seat 1: Metis266 ($0.78 in chips)
+Seat 2: Zelipukin ($0.99 in chips)
+Seat 3: pokerHero1 ($2.03 in chips)
+Seat 4: duckscassidy ($2.08 in chips)
+Seat 5: Millers1234 ($2.88 in chips)
+Seat 6: Aspang ($3.44 in chips)
+Seat 7: Dago1984 ($5.09 in chips)
+Seat 8: JP00001 ($1.87 in chips)
+Seat 9: Ive007 ($2.02 in chips)
+Ive007: posts small blind $0.01
+Metis266: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c Kd]
+Zelipukin: folds
+pokerHero1: folds
+duckscassidy: folds
+Millers1234: raises $0.03 to $0.05
+Aspang: calls $0.05
+Dago1984: folds
+JP00001: folds
+Ive007: calls $0.04
+Metis266: calls $0.03
+*** FLOP *** [5d 9c 7h]
+Ive007: checks
+Metis266: checks
+Millers1234: checks
+Aspang: bets $0.10
+Ive007: calls $0.10
+Metis266: folds
+Millers1234: folds
+*** TURN *** [5d 9c 7h] [8d]
+Ive007: checks
+Aspang: checks
+*** RIVER *** [5d 9c 7h 8d] [Qh]
+Ive007: checks
+Aspang: checks
+*** SHOW DOWN ***
+Ive007: shows [7c Ad] (a pair of Sevens)
+Aspang: shows [9s 8s] (two pair, Nines and Eights)
+Aspang collected $0.39 from pot
+*** SUMMARY ***
+Total pot $0.40 | Rake $0.01
+Board [5d 9c 7h 8d Qh]
+Seat 1: Metis266 (big blind) folded on the Flop
+Seat 2: Zelipukin folded before Flop (didn't bet)
+Seat 3: pokerHero1 folded before Flop (didn't bet)
+Seat 4: duckscassidy folded before Flop (didn't bet)
+Seat 5: Millers1234 folded on the Flop
+Seat 6: Aspang showed [9s 8s] and won ($0.39) with two pair, Nines and Eights
+Seat 7: Dago1984 folded before Flop (didn't bet)
+Seat 8: JP00001 (button) folded before Flop (didn't bet)
+Seat 9: Ive007 (small blind) showed [7c Ad] and lost with a pair of Sevens
+
+
+

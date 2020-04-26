@@ -1,0 +1,3683 @@
+﻿PokerStars Hand #212179868358:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:04:07 ET
+Table 'Genoveva III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2 in chips)
+Seat 2: partizan_vlg ($0.80 in chips)
+Seat 3: maikmaik494 ($2 in chips)
+Seat 5: isennnn ($1.86 in chips)
+Seat 6: DirkBlack08 ($7.45 in chips)
+Seat 7: necesse est ($2.95 in chips)
+Seat 8: elexrus ($2.84 in chips)
+Seat 9: aka_Kranv1ch ($2.16 in chips)
+aka_Kranv1ch: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8d 6c]
+partizan_vlg has timed out
+partizan_vlg: folds
+maikmaik494: raises $0.04 to $0.06
+isennnn: folds
+DirkBlack08: folds
+necesse est: folds
+elexrus: calls $0.06
+aka_Kranv1ch: folds
+pokerHero1: folds
+*** FLOP *** [4c 8c 9c]
+maikmaik494: checks
+elexrus: bets $0.06
+maikmaik494: folds
+Uncalled bet ($0.06) returned to elexrus
+elexrus collected $0.14 from pot
+elexrus: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [4c 8c 9c]
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: maikmaik494 folded on the Flop
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 folded before Flop (didn't bet)
+Seat 7: necesse est folded before Flop (didn't bet)
+Seat 8: elexrus (button) collected ($0.14)
+Seat 9: aka_Kranv1ch (small blind) folded before Flop
+
+
+
+PokerStars Hand #212179916532:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:04:51 ET
+Table 'Genoveva III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($1.98 in chips)
+Seat 2: partizan_vlg ($0.80 in chips)
+Seat 3: maikmaik494 ($2 in chips)
+Seat 5: isennnn ($1.86 in chips)
+Seat 6: DirkBlack08 ($7.45 in chips)
+Seat 7: necesse est ($2.95 in chips)
+Seat 8: elexrus ($2.92 in chips)
+Seat 9: aka_Kranv1ch ($2.15 in chips)
+pokerHero1: posts small blind $0.01
+partizan_vlg: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c 7c]
+maikmaik494: raises $0.04 to $0.06
+isennnn: folds
+DirkBlack08: folds
+necesse est: folds
+elexrus: calls $0.06
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: calls $0.04
+*** FLOP *** [2d 4h Qd]
+partizan_vlg: checks
+maikmaik494: checks
+elexrus: bets $0.06
+partizan_vlg: folds
+maikmaik494: calls $0.06
+*** TURN *** [2d 4h Qd] [9d]
+maikmaik494: checks
+elexrus: bets $0.06
+maikmaik494: calls $0.06
+*** RIVER *** [2d 4h Qd 9d] [Td]
+maikmaik494: checks
+elexrus: checks
+*** SHOW DOWN ***
+maikmaik494: shows [Kh Jh] (a straight, Nine to King)
+elexrus: shows [Jd Qs] (a flush, Queen high)
+elexrus collected $0.41 from pot
+*** SUMMARY ***
+Total pot $0.43 | Rake $0.02
+Board [2d 4h Qd 9d Td]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: partizan_vlg (big blind) folded on the Flop
+Seat 3: maikmaik494 showed [Kh Jh] and lost with a straight, Nine to King
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 folded before Flop (didn't bet)
+Seat 7: necesse est folded before Flop (didn't bet)
+Seat 8: elexrus showed [Jd Qs] and won ($0.41) with a flush, Queen high
+Seat 9: aka_Kranv1ch (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212179983617:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:05:50 ET
+Table 'Genoveva III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($1.97 in chips)
+Seat 2: partizan_vlg ($0.74 in chips)
+Seat 3: maikmaik494 ($2 in chips)
+Seat 5: isennnn ($1.86 in chips)
+Seat 6: DirkBlack08 ($7.45 in chips)
+Seat 7: necesse est ($2.95 in chips)
+Seat 8: elexrus ($3.15 in chips)
+Seat 9: aka_Kranv1ch ($2.15 in chips)
+partizan_vlg: posts small blind $0.01
+maikmaik494: posts big blind $0.02
+3737minar: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c 9d]
+isennnn: folds
+DirkBlack08: folds
+necesse est: folds
+elexrus: folds
+aka_Kranv1ch: raises $0.04 to $0.06
+pokerHero1: folds
+partizan_vlg: folds
+maikmaik494: folds
+Uncalled bet ($0.04) returned to aka_Kranv1ch
+aka_Kranv1ch collected $0.05 from pot
+aka_Kranv1ch: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: partizan_vlg (small blind) folded before Flop
+Seat 3: maikmaik494 (big blind) folded before Flop
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 folded before Flop (didn't bet)
+Seat 7: necesse est folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch collected ($0.05)
+
+
+
+PokerStars Hand #212180014082:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:06:16 ET
+Table 'Genoveva III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($1.97 in chips)
+Seat 2: partizan_vlg ($0.73 in chips)
+Seat 3: maikmaik494 ($2 in chips)
+Seat 4: 3737minar ($1.60 in chips)
+Seat 5: isennnn ($1.86 in chips)
+Seat 6: DirkBlack08 ($7.45 in chips)
+Seat 7: necesse est ($2.95 in chips)
+Seat 8: elexrus ($3.15 in chips)
+Seat 9: aka_Kranv1ch ($2.18 in chips)
+maikmaik494: posts small blind $0.01
+3737minar: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kc As]
+isennnn: folds
+DirkBlack08: folds
+necesse est: folds
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: raises $0.06 to $0.08
+partizan_vlg: folds
+maikmaik494: folds
+3737minar: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 collected ($0.05)
+Seat 2: partizan_vlg (button) folded before Flop (didn't bet)
+Seat 3: maikmaik494 (small blind) folded before Flop
+Seat 4: 3737minar (big blind) folded before Flop
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 folded before Flop (didn't bet)
+Seat 7: necesse est folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180044664:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:06:43 ET
+Table 'Genoveva III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2 in chips)
+Seat 2: partizan_vlg ($0.73 in chips)
+Seat 3: maikmaik494 ($2 in chips)
+Seat 4: 3737minar ($1.58 in chips)
+Seat 5: isennnn ($1.86 in chips)
+Seat 6: DirkBlack08 ($7.45 in chips)
+Seat 7: necesse est ($2.95 in chips)
+Seat 8: elexrus ($3.15 in chips)
+Seat 9: aka_Kranv1ch ($2.18 in chips)
+3737minar: posts small blind $0.01
+isennnn: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5c 6h]
+DirkBlack08: raises $0.06 to $0.08
+necesse est: folds
+elexrus: calls $0.08
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+maikmaik494: folds
+3737minar: folds
+isennnn: folds
+*** FLOP *** [4c Kh 6s]
+DirkBlack08: bets $0.12
+elexrus: calls $0.12
+*** TURN *** [4c Kh 6s] [Js]
+DirkBlack08: checks
+elexrus: checks
+*** RIVER *** [4c Kh 6s Js] [6c]
+DirkBlack08: bets $0.28
+elexrus: calls $0.28
+*** SHOW DOWN ***
+DirkBlack08: shows [4h 4s] (a full house, Fours full of Sixes)
+elexrus: mucks hand
+DirkBlack08 collected $0.96 from pot
+*** SUMMARY ***
+Total pot $0.99 | Rake $0.03
+Board [4c Kh 6s Js 6c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: maikmaik494 (button) folded before Flop (didn't bet)
+Seat 4: 3737minar (small blind) folded before Flop
+Seat 5: isennnn (big blind) folded before Flop
+Seat 6: DirkBlack08 showed [4h 4s] and won ($0.96) with a full house, Fours full of Sixes
+Seat 7: necesse est folded before Flop (didn't bet)
+Seat 8: elexrus mucked [Jc Ac]
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180122886:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:07:52 ET
+Table 'Genoveva III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2 in chips)
+Seat 2: partizan_vlg ($0.73 in chips)
+Seat 3: maikmaik494 ($2 in chips)
+Seat 4: 3737minar ($1.57 in chips)
+Seat 5: isennnn ($1.84 in chips)
+Seat 6: DirkBlack08 ($7.93 in chips)
+Seat 7: necesse est ($2.95 in chips)
+Seat 8: elexrus ($2.67 in chips)
+Seat 9: aka_Kranv1ch ($2.18 in chips)
+isennnn: posts small blind $0.01
+DirkBlack08: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5h 4d]
+necesse est: folds
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+maikmaik494: raises $0.04 to $0.06
+3737minar: folds
+isennnn: folds
+DirkBlack08: folds
+Uncalled bet ($0.04) returned to maikmaik494
+maikmaik494 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: maikmaik494 collected ($0.05)
+Seat 4: 3737minar (button) folded before Flop (didn't bet)
+Seat 5: isennnn (small blind) folded before Flop
+Seat 6: DirkBlack08 (big blind) folded before Flop
+Seat 7: necesse est folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180146761:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:08:14 ET
+Table 'Genoveva III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2 in chips)
+Seat 2: partizan_vlg ($0.73 in chips)
+Seat 3: maikmaik494 ($2.03 in chips)
+Seat 4: 3737minar ($1.57 in chips)
+Seat 5: isennnn ($1.83 in chips)
+Seat 6: DirkBlack08 ($7.91 in chips)
+Seat 7: necesse est ($2.95 in chips)
+Seat 8: elexrus ($2.67 in chips)
+Seat 9: aka_Kranv1ch ($2.18 in chips)
+DirkBlack08: posts small blind $0.01
+necesse est: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8h Qc]
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg has timed out
+partizan_vlg: folds
+maikmaik494: folds
+3737minar: folds
+isennnn: raises $0.04 to $0.06
+DirkBlack08: calls $0.05
+necesse est: folds
+*** FLOP *** [2s 3s 8d]
+necesse est leaves the table
+DirkBlack08: checks
+isennnn: bets $0.06
+DirkBlack08: calls $0.06
+*** TURN *** [2s 3s 8d] [8c]
+DirkBlack08: checks
+isennnn: bets $0.24
+DirkBlack08: calls $0.24
+*** RIVER *** [2s 3s 8d 8c] [3h]
+DirkBlack08: checks
+isennnn: bets $0.70
+DirkBlack08: calls $0.70
+*** SHOW DOWN ***
+isennnn: shows [Js Jh] (two pair, Jacks and Eights)
+DirkBlack08: mucks hand
+isennnn collected $2.07 from pot
+*** SUMMARY ***
+Total pot $2.14 | Rake $0.07
+Board [2s 3s 8d 8c 3h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: maikmaik494 folded before Flop (didn't bet)
+Seat 4: 3737minar folded before Flop (didn't bet)
+Seat 5: isennnn (button) showed [Js Jh] and won ($2.07) with two pair, Jacks and Eights
+Seat 6: DirkBlack08 (small blind) mucked [9c 9s]
+Seat 7: necesse est (big blind) folded before Flop
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180274764:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:10:00 ET
+Table 'Genoveva III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2 in chips)
+Seat 2: partizan_vlg ($0.73 in chips)
+Seat 3: maikmaik494 ($2.03 in chips)
+Seat 4: 3737minar ($1.57 in chips)
+Seat 5: isennnn ($2.84 in chips)
+Seat 6: DirkBlack08 ($6.85 in chips)
+Seat 8: elexrus ($2.67 in chips)
+Seat 9: aka_Kranv1ch ($2.18 in chips)
+elexrus: posts small blind $0.01
+aka_Kranv1ch: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d Ts]
+pokerHero1 has timed out
+pokerHero1: folds
+partizan_vlg has timed out
+partizan_vlg: folds
+maikmaik494: folds
+3737minar: folds
+isennnn: folds
+DirkBlack08: raises $0.06 to $0.08
+elexrus: folds
+aka_Kranv1ch: raises $0.18 to $0.26
+DirkBlack08: calls $0.18
+*** FLOP *** [6c Jc 8c]
+aka_Kranv1ch: bets $0.32
+DirkBlack08: raises $0.48 to $0.80
+aka_Kranv1ch: folds
+Uncalled bet ($0.48) returned to DirkBlack08
+DirkBlack08 collected $1.13 from pot
+DirkBlack08: doesn't show hand
+*** SUMMARY ***
+Total pot $1.17 | Rake $0.04
+Board [6c Jc 8c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: maikmaik494 folded before Flop (didn't bet)
+Seat 4: 3737minar folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 (button) collected ($1.13)
+Seat 8: elexrus (small blind) folded before Flop
+Seat 9: aka_Kranv1ch (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212180365636:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:11:17 ET
+Table 'Genoveva III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2 in chips)
+Seat 3: maikmaik494 ($2.03 in chips)
+Seat 4: 3737minar ($1.57 in chips)
+Seat 5: isennnn ($2.84 in chips)
+Seat 6: DirkBlack08 ($7.40 in chips)
+Seat 8: elexrus ($2.66 in chips)
+Seat 9: aka_Kranv1ch ($2 in chips)
+aka_Kranv1ch: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d Ah]
+maikmaik494: folds
+3737minar: folds
+isennnn: folds
+DirkBlack08: raises $0.06 to $0.08
+elexrus: folds
+aka_Kranv1ch: raises $0.18 to $0.26
+pokerHero1: folds
+DirkBlack08: folds
+Uncalled bet ($0.18) returned to aka_Kranv1ch
+aka_Kranv1ch collected $0.18 from pot
+aka_Kranv1ch: doesn't show hand
+*** SUMMARY ***
+Total pot $0.18 | Rake $0
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 3: maikmaik494 folded before Flop (didn't bet)
+Seat 4: 3737minar folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 folded before Flop
+Seat 8: elexrus (button) folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch (small blind) collected ($0.18)
+
+
+
+PokerStars Hand #212180406605:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:11:53 ET
+Table 'Genoveva III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($1.98 in chips)
+Seat 2: partizan_vlg ($0.73 in chips)
+Seat 3: maikmaik494 ($2.03 in chips)
+Seat 4: 3737minar ($1.57 in chips)
+Seat 5: isennnn ($2.84 in chips)
+Seat 6: DirkBlack08 ($7.32 in chips)
+Seat 8: elexrus ($2.66 in chips)
+Seat 9: aka_Kranv1ch ($2.10 in chips)
+pokerHero1: posts small blind $0.01
+partizan_vlg: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h Td]
+maikmaik494: raises $0.04 to $0.06
+3737minar: folds
+isennnn: folds
+DirkBlack08: folds
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+Uncalled bet ($0.04) returned to maikmaik494
+maikmaik494 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: partizan_vlg (big blind) folded before Flop
+Seat 3: maikmaik494 collected ($0.05)
+Seat 4: 3737minar folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180462258:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:12:42 ET
+Table 'Genoveva III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($1.97 in chips)
+Seat 2: partizan_vlg ($0.71 in chips)
+Seat 3: maikmaik494 ($2.06 in chips)
+Seat 4: 3737minar ($1.57 in chips)
+Seat 5: isennnn ($2.84 in chips)
+Seat 6: DirkBlack08 ($7.32 in chips)
+Seat 8: elexrus ($2.66 in chips)
+Seat 9: aka_Kranv1ch ($2.10 in chips)
+partizan_vlg: posts small blind $0.01
+maikmaik494: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6h Kh]
+3737minar: folds
+isennnn: folds
+DirkBlack08: folds
+elexrus: folds
+aka_Kranv1ch: raises $0.04 to $0.06
+pokerHero1: folds
+partizan_vlg: folds
+maikmaik494: folds
+Uncalled bet ($0.04) returned to aka_Kranv1ch
+aka_Kranv1ch collected $0.05 from pot
+aka_Kranv1ch: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: partizan_vlg (small blind) folded before Flop
+Seat 3: maikmaik494 (big blind) folded before Flop
+Seat 4: 3737minar folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch collected ($0.05)
+
+
+
+PokerStars Hand #212180482441:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:12:59 ET
+Table 'Genoveva III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($1.97 in chips)
+Seat 2: partizan_vlg ($0.70 in chips)
+Seat 3: maikmaik494 ($2.04 in chips)
+Seat 5: isennnn ($2.84 in chips)
+Seat 6: DirkBlack08 ($7.32 in chips)
+Seat 8: elexrus ($2.66 in chips)
+Seat 9: aka_Kranv1ch ($2.13 in chips)
+maikmaik494: posts small blind $0.01
+3737minar: is sitting out
+isennnn: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s 8h]
+DirkBlack08: folds
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+maikmaik494: folds
+Uncalled bet ($0.01) returned to isennnn
+isennnn collected $0.02 from pot
+isennnn: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg (button) folded before Flop (didn't bet)
+Seat 3: maikmaik494 (small blind) folded before Flop
+Seat 5: isennnn (big blind) collected ($0.02)
+Seat 6: DirkBlack08 folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180497213:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:13:12 ET
+Table 'Genoveva III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($1.97 in chips)
+Seat 2: partizan_vlg ($0.70 in chips)
+Seat 3: maikmaik494 ($2.03 in chips)
+Seat 5: isennnn ($2.85 in chips)
+Seat 6: DirkBlack08 ($7.32 in chips)
+Seat 8: elexrus ($2.66 in chips)
+Seat 9: aka_Kranv1ch ($2.13 in chips)
+isennnn: posts small blind $0.01
+DirkBlack08: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s 3c]
+elexrus: raises $0.04 to $0.06
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+maikmaik494: folds
+isennnn: folds
+DirkBlack08: folds
+Uncalled bet ($0.04) returned to elexrus
+elexrus collected $0.05 from pot
+elexrus: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: maikmaik494 (button) folded before Flop (didn't bet)
+Seat 5: isennnn (small blind) folded before Flop
+Seat 6: DirkBlack08 (big blind) folded before Flop
+Seat 8: elexrus collected ($0.05)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180520911:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:13:33 ET
+Table 'Genoveva III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($1.97 in chips)
+Seat 2: partizan_vlg ($1.02 in chips)
+Seat 3: maikmaik494 ($2.03 in chips)
+Seat 5: isennnn ($2.84 in chips)
+Seat 6: DirkBlack08 ($7.30 in chips)
+Seat 8: elexrus ($2.69 in chips)
+Seat 9: aka_Kranv1ch ($2.13 in chips)
+DirkBlack08: posts small blind $0.01
+elexrus: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8h 2s]
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: raises $0.04 to $0.06
+maikmaik494: folds
+isennnn: folds
+Danutz Dumitru joins the table at seat #7
+DirkBlack08: folds
+elexrus: calls $0.04
+*** FLOP *** [5h 3s 9s]
+3737minar leaves the table
+elexrus: bets $0.06
+partizan_vlg: folds
+Uncalled bet ($0.06) returned to elexrus
+elexrus collected $0.13 from pot
+elexrus: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [5h 3s 9s]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded on the Flop
+Seat 3: maikmaik494 folded before Flop (didn't bet)
+Seat 5: isennnn (button) folded before Flop (didn't bet)
+Seat 6: DirkBlack08 (small blind) folded before Flop
+Seat 8: elexrus (big blind) collected ($0.13)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180569765:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:14:16 ET
+Table 'Genoveva III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($1.97 in chips)
+Seat 2: partizan_vlg ($0.96 in chips)
+Seat 3: maikmaik494 ($2.03 in chips)
+Seat 5: isennnn ($2.84 in chips)
+Seat 6: DirkBlack08 ($7.29 in chips)
+Seat 8: elexrus ($2.76 in chips)
+Seat 9: aka_Kranv1ch ($2.13 in chips)
+elexrus: posts small blind $0.01
+aka_Kranv1ch: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c 7s]
+pokerHero1: folds
+partizan_vlg has timed out
+partizan_vlg: folds
+maikmaik494: folds
+isennnn: folds
+DirkBlack08: folds
+elexrus: raises $0.04 to $0.06
+aka_Kranv1ch: raises $0.20 to $0.26
+elexrus: calls $0.20
+*** FLOP *** [2h 5c 5d]
+elexrus: checks
+aka_Kranv1ch: bets $0.25
+fADEOUT joins the table at seat #4
+elexrus: raises $0.51 to $0.76
+aka_Kranv1ch: folds
+Uncalled bet ($0.51) returned to elexrus
+elexrus collected $0.98 from pot
+elexrus: doesn't show hand
+*** SUMMARY ***
+Total pot $1.02 | Rake $0.04
+Board [2h 5c 5d]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: maikmaik494 folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 (button) folded before Flop (didn't bet)
+Seat 8: elexrus (small blind) collected ($0.98)
+Seat 9: aka_Kranv1ch (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212180652326:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:15:28 ET
+Table 'Genoveva III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($1.97 in chips)
+Seat 3: maikmaik494 ($2.03 in chips)
+Seat 5: isennnn ($2.84 in chips)
+Seat 6: DirkBlack08 ($7.29 in chips)
+Seat 7: Danutz Dumitru ($2 in chips)
+Seat 8: elexrus ($3.23 in chips)
+Seat 9: aka_Kranv1ch ($2 in chips)
+aka_Kranv1ch: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+fADEOUT: sits out
+Danutz Dumitru: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th Ks]
+maikmaik494: folds
+fADEOUT leaves the table
+isennnn: folds
+DirkBlack08: folds
+Danutz Dumitru: raises $0.06 to $0.08
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+Uncalled bet ($0.06) returned to Danutz Dumitru
+Danutz Dumitru collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 3: maikmaik494 folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 folded before Flop (didn't bet)
+Seat 7: Danutz Dumitru collected ($0.05)
+Seat 8: elexrus (button) folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch (small blind) folded before Flop
+
+
+
+PokerStars Hand #212180689573:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:16:00 ET
+Table 'Genoveva III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($1.95 in chips)
+Seat 3: maikmaik494 ($2.03 in chips)
+Seat 5: isennnn ($2.84 in chips)
+Seat 6: DirkBlack08 ($7.29 in chips)
+Seat 7: Danutz Dumitru ($2.03 in chips)
+Seat 8: elexrus ($3.23 in chips)
+Seat 9: aka_Kranv1ch ($2 in chips)
+pokerHero1: posts small blind $0.01
+maikmaik494: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8d 4s]
+isennnn: folds
+DirkBlack08: folds
+Danutz Dumitru: raises $0.04 to $0.06
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+maikmaik494: folds
+Uncalled bet ($0.04) returned to Danutz Dumitru
+Danutz Dumitru collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 3: maikmaik494 (big blind) folded before Flop
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 folded before Flop (didn't bet)
+Seat 7: Danutz Dumitru collected ($0.05)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180726674:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:16:33 ET
+Table 'Genoveva III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($1.94 in chips)
+Seat 3: maikmaik494 ($2.01 in chips)
+Seat 5: isennnn ($2.84 in chips)
+Seat 6: DirkBlack08 ($7.29 in chips)
+Seat 7: Danutz Dumitru ($2.06 in chips)
+Seat 8: elexrus ($3.23 in chips)
+Seat 9: aka_Kranv1ch ($2 in chips)
+maikmaik494: posts small blind $0.01
+isennnn: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s 2s]
+DirkBlack08: folds
+Danutz Dumitru: folds
+berbatov_pz joins the table at seat #4
+elexrus: raises $0.04 to $0.06
+aka_Kranv1ch: folds
+pokerHero1: folds
+maikmaik494: folds
+isennnn: folds
+Uncalled bet ($0.04) returned to elexrus
+elexrus collected $0.05 from pot
+elexrus: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 3: maikmaik494 (small blind) folded before Flop
+Seat 5: isennnn (big blind) folded before Flop
+Seat 6: DirkBlack08 folded before Flop (didn't bet)
+Seat 7: Danutz Dumitru folded before Flop (didn't bet)
+Seat 8: elexrus collected ($0.05)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180757317:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:17:00 ET
+Table 'Genoveva III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($1.94 in chips)
+Seat 3: maikmaik494 ($2 in chips)
+Seat 5: isennnn ($2.82 in chips)
+Seat 6: DirkBlack08 ($7.29 in chips)
+Seat 7: Danutz Dumitru ($2.06 in chips)
+Seat 8: elexrus ($3.26 in chips)
+Seat 9: aka_Kranv1ch ($2 in chips)
+isennnn: posts small blind $0.01
+DirkBlack08: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h 4d]
+Danutz Dumitru: folds
+elexrus: folds
+aka_Kranv1ch has timed out
+aka_Kranv1ch: folds
+pokerHero1: folds
+maikmaik494: folds
+isennnn: folds
+Uncalled bet ($0.01) returned to DirkBlack08
+DirkBlack08 collected $0.02 from pot
+DirkBlack08: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: maikmaik494 (button) folded before Flop (didn't bet)
+Seat 5: isennnn (small blind) folded before Flop
+Seat 6: DirkBlack08 (big blind) collected ($0.02)
+Seat 7: Danutz Dumitru folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180792950:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:17:31 ET
+Table 'Genoveva III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($1.94 in chips)
+Seat 3: maikmaik494 ($2 in chips)
+Seat 4: berbatov_pz ($1.60 in chips)
+Seat 5: isennnn ($2.81 in chips)
+Seat 6: DirkBlack08 ($7.30 in chips)
+Seat 8: elexrus ($3.26 in chips)
+Seat 9: aka_Kranv1ch ($2 in chips)
+DirkBlack08: posts small blind $0.01
+Danutz Dumitru has timed out
+Danutz Dumitru: is sitting out
+elexrus: posts big blind $0.02
+partizan_vlg: sits out
+berbatov_pz: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2s 5s]
+aka_Kranv1ch: folds
+pokerHero1: folds
+maikmaik494: folds
+berbatov_pz: checks
+isennnn: raises $0.06 to $0.08
+DirkBlack08: folds
+elexrus: folds
+berbatov_pz: folds
+Uncalled bet ($0.06) returned to isennnn
+isennnn collected $0.07 from pot
+isennnn: doesn't show hand
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: maikmaik494 folded before Flop (didn't bet)
+Seat 4: berbatov_pz folded before Flop (didn't bet)
+Seat 5: isennnn (button) collected ($0.07)
+Seat 6: DirkBlack08 (small blind) folded before Flop
+Seat 8: elexrus (big blind) folded before Flop
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180864953:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:18:28 ET
+Table 'Genoveva III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($1.94 in chips)
+Seat 3: maikmaik494 ($2 in chips)
+Seat 4: berbatov_pz ($1.58 in chips)
+Seat 5: isennnn ($2.86 in chips)
+Seat 6: DirkBlack08 ($7.29 in chips)
+Seat 8: elexrus ($3.24 in chips)
+Seat 9: aka_Kranv1ch ($2 in chips)
+elexrus: posts small blind $0.01
+aka_Kranv1ch: posts big blind $0.02
+partizan_vlg: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qs 2h]
+pokerHero1 has timed out
+pokerHero1: folds
+maikmaik494: folds
+berbatov_pz: folds
+isennnn: raises $0.04 to $0.06
+DirkBlack08: folds
+elexrus: folds
+aka_Kranv1ch: folds
+Uncalled bet ($0.04) returned to isennnn
+isennnn collected $0.05 from pot
+isennnn: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: maikmaik494 folded before Flop (didn't bet)
+Seat 4: berbatov_pz folded before Flop (didn't bet)
+Seat 5: isennnn collected ($0.05)
+Seat 6: DirkBlack08 (button) folded before Flop (didn't bet)
+Seat 8: elexrus (small blind) folded before Flop
+Seat 9: aka_Kranv1ch (big blind) folded before Flop
+
+
+
+PokerStars Hand #212180910955:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:19:08 ET
+Table 'Genoveva III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($1.94 in chips)
+Seat 3: maikmaik494 ($2 in chips)
+Seat 4: berbatov_pz ($1.58 in chips)
+Seat 5: isennnn ($2.89 in chips)
+Seat 6: DirkBlack08 ($7.29 in chips)
+Seat 8: elexrus ($3.23 in chips)
+Seat 9: aka_Kranv1ch ($2 in chips)
+aka_Kranv1ch: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+partizan_vlg: sits out
+Danutz Dumitru has timed out
+Danutz Dumitru: is sitting out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2s Ad]
+maikmaik494: folds
+maikmaik494 leaves the table
+tom xiao0216 joins the table at seat #3
+berbatov_pz has timed out
+berbatov_pz: folds
+isennnn: folds
+DirkBlack08: folds
+elexrus: folds
+aka_Kranv1ch: raises $0.04 to $0.06
+pokerHero1: raises $0.08 to $0.14
+aka_Kranv1ch: folds
+Uncalled bet ($0.08) returned to pokerHero1
+pokerHero1 collected $0.12 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Seat 1: pokerHero1 (big blind) collected ($0.12)
+Seat 3: maikmaik494 folded before Flop (didn't bet)
+Seat 4: berbatov_pz folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 folded before Flop (didn't bet)
+Seat 8: elexrus (button) folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch (small blind) folded before Flop
+
+
+
+PokerStars Hand #212180974480:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:20:03 ET
+Table 'Genoveva III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2 in chips)
+Seat 2: partizan_vlg ($0.96 in chips)
+Seat 5: isennnn ($2.89 in chips)
+Seat 6: DirkBlack08 ($7.29 in chips)
+Seat 8: elexrus ($3.23 in chips)
+Seat 9: aka_Kranv1ch ($2 in chips)
+pokerHero1: posts small blind $0.01
+partizan_vlg: posts big blind $0.02
+tom xiao0216: sits out
+Danutz Dumitru has timed out
+Danutz Dumitru: is sitting out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s 5h]
+isennnn: raises $0.04 to $0.06
+DirkBlack08: folds
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: calls $0.04
+*** FLOP *** [4d Kc 4h]
+partizan_vlg: checks
+isennnn: checks
+*** TURN *** [4d Kc 4h] [Tc]
+partizan_vlg: checks
+isennnn: bets $0.12
+partizan_vlg is disconnected
+Danutz Dumitru is disconnected
+partizan_vlg has timed out while disconnected
+partizan_vlg: folds
+Uncalled bet ($0.12) returned to isennnn
+isennnn collected $0.13 from pot
+isennnn: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [4d Kc 4h Tc]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: partizan_vlg (big blind) folded on the Turn
+Seat 5: isennnn collected ($0.13)
+Seat 6: DirkBlack08 folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181078044:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:21:33 ET
+Table 'Genoveva III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($1.99 in chips)
+Seat 5: isennnn ($2.96 in chips)
+Seat 6: DirkBlack08 ($7.29 in chips)
+Seat 8: elexrus ($3.23 in chips)
+Seat 9: aka_Kranv1ch ($2 in chips)
+berbatov_pz has timed out
+berbatov_pz: is sitting out
+isennnn: posts small blind $0.01
+DirkBlack08: posts big blind $0.02
+Danutz Dumitru has timed out while disconnected
+Danutz Dumitru: is sitting out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qd 2h]
+elexrus: folds
+berbatov_pz leaves the table
+aka_Kranv1ch: raises $0.04 to $0.06
+pokerHero1: folds
+isennnn: folds
+HERTTZZ joins the table at seat #4
+DirkBlack08: folds
+Uncalled bet ($0.04) returned to aka_Kranv1ch
+aka_Kranv1ch collected $0.05 from pot
+aka_Kranv1ch: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 5: isennnn (small blind) folded before Flop
+Seat 6: DirkBlack08 (big blind) folded before Flop
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch collected ($0.05)
+
+
+
+PokerStars Hand #212181136429:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:22:24 ET
+Table 'Genoveva III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($1.99 in chips)
+Seat 5: isennnn ($2.95 in chips)
+Seat 6: DirkBlack08 ($7.27 in chips)
+Seat 8: elexrus ($3.23 in chips)
+Seat 9: aka_Kranv1ch ($2.03 in chips)
+DirkBlack08: posts small blind $0.01
+elexrus: posts big blind $0.02
+tom xiao0216: sits out
+HERTTZZ: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ah Td]
+aka_Kranv1ch: folds
+pokerHero1: raises $0.06 to $0.08
+isennnn: folds
+DirkBlack08: folds
+elexrus: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 collected ($0.05)
+Seat 5: isennnn (button) folded before Flop (didn't bet)
+Seat 6: DirkBlack08 (small blind) folded before Flop
+Seat 8: elexrus (big blind) folded before Flop
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181154941:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:22:40 ET
+Table 'Genoveva III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.02 in chips)
+Seat 5: isennnn ($2.95 in chips)
+Seat 6: DirkBlack08 ($7.26 in chips)
+Seat 8: elexrus ($3.21 in chips)
+Seat 9: aka_Kranv1ch ($2.03 in chips)
+elexrus: posts small blind $0.01
+aka_Kranv1ch: posts big blind $0.02
+tom xiao0216: sits out
+HERTTZZ: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c 7c]
+pokerHero1: folds
+isennnn: folds
+DirkBlack08: raises $0.06 to $0.08
+elexrus: calls $0.07
+aka_Kranv1ch: folds
+*** FLOP *** [Jd Tc Td]
+elexrus: bets $0.06
+DirkBlack08: folds
+Uncalled bet ($0.06) returned to elexrus
+elexrus collected $0.17 from pot
+elexrus: doesn't show hand
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [Jd Tc Td]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 (button) folded on the Flop
+Seat 8: elexrus (small blind) collected ($0.17)
+Seat 9: aka_Kranv1ch (big blind) folded before Flop
+
+
+
+PokerStars Hand #212181200353:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:23:19 ET
+Table 'Genoveva III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.02 in chips)
+Seat 5: isennnn ($2.95 in chips)
+Seat 6: DirkBlack08 ($7.18 in chips)
+Seat 8: elexrus ($3.30 in chips)
+Seat 9: aka_Kranv1ch ($2.01 in chips)
+aka_Kranv1ch: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+tom xiao0216: sits out
+HERTTZZ: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s 6h]
+isennnn: folds
+DirkBlack08: raises $0.06 to $0.08
+elexrus: calls $0.08
+aka_Kranv1ch: calls $0.07
+pokerHero1: folds
+*** FLOP *** [2s 4d Kd]
+aka_Kranv1ch: checks
+DirkBlack08: bets $0.14
+elexrus: folds
+aka_Kranv1ch: folds
+Uncalled bet ($0.14) returned to DirkBlack08
+DirkBlack08 collected $0.25 from pot
+DirkBlack08: doesn't show hand
+*** SUMMARY ***
+Total pot $0.26 | Rake $0.01
+Board [2s 4d Kd]
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 collected ($0.25)
+Seat 8: elexrus (button) folded on the Flop
+Seat 9: aka_Kranv1ch (small blind) folded on the Flop
+
+
+
+PokerStars Hand #212181233771:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:23:48 ET
+Table 'Genoveva III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2 in chips)
+Seat 2: partizan_vlg ($0.90 in chips)
+Seat 5: isennnn ($2.95 in chips)
+Seat 6: DirkBlack08 ($7.35 in chips)
+Seat 8: elexrus ($3.22 in chips)
+Seat 9: aka_Kranv1ch ($2 in chips)
+pokerHero1: posts small blind $0.01
+partizan_vlg: posts big blind $0.02
+tom xiao0216: sits out
+HERTTZZ: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h 6d]
+isennnn: folds
+DirkBlack08: raises $0.06 to $0.08
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+Uncalled bet ($0.06) returned to DirkBlack08
+DirkBlack08 collected $0.05 from pot
+DirkBlack08: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: partizan_vlg (big blind) folded before Flop
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 collected ($0.05)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181260374:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:24:11 ET
+Table 'Genoveva III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($1.99 in chips)
+Seat 2: partizan_vlg ($0.88 in chips)
+Seat 3: tom xiao0216 ($2 in chips)
+Seat 5: isennnn ($2.95 in chips)
+Seat 6: DirkBlack08 ($7.38 in chips)
+Seat 8: elexrus ($3.22 in chips)
+Seat 9: aka_Kranv1ch ($2 in chips)
+partizan_vlg: posts small blind $0.01
+tom xiao0216: posts big blind $0.02
+HERTTZZ: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7s 5c]
+isennnn: folds
+DirkBlack08: folds
+elexrus: raises $0.04 to $0.06
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: folds
+Uncalled bet ($0.04) returned to elexrus
+elexrus collected $0.05 from pot
+elexrus: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: partizan_vlg (small blind) folded before Flop
+Seat 3: tom xiao0216 (big blind) folded before Flop
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 folded before Flop (didn't bet)
+Seat 8: elexrus collected ($0.05)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181279864:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:24:27 ET
+Table 'Genoveva III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($1.99 in chips)
+Seat 2: partizan_vlg ($0.87 in chips)
+Seat 3: tom xiao0216 ($1.98 in chips)
+Seat 4: HERTTZZ ($2 in chips)
+Seat 5: isennnn ($2.95 in chips)
+Seat 6: DirkBlack08 ($7.38 in chips)
+Seat 8: elexrus ($3.25 in chips)
+Seat 9: aka_Kranv1ch ($2 in chips)
+tom xiao0216: posts small blind $0.01
+HERTTZZ: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc Th]
+isennnn: folds
+DirkBlack08: folds
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: raises $0.06 to $0.08
+partizan_vlg: folds
+tom xiao0216: calls $0.07
+HERTTZZ: folds
+*** FLOP *** [Qc Qs 7s]
+tom xiao0216: checks
+pokerHero1: bets $0.12
+Danutz Dumitru leaves the table
+AlexHuday13 joins the table at seat #7
+tom xiao0216: calls $0.12
+*** TURN *** [Qc Qs 7s] [4c]
+tom xiao0216: checks
+pokerHero1: checks
+*** RIVER *** [Qc Qs 7s 4c] [3s]
+tom xiao0216: checks
+pokerHero1: bets $0.20
+tom xiao0216: folds
+Uncalled bet ($0.20) returned to pokerHero1
+pokerHero1 collected $0.41 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.42 | Rake $0.01
+Board [Qc Qs 7s 4c 3s]
+Seat 1: pokerHero1 collected ($0.41)
+Seat 2: partizan_vlg (button) folded before Flop (didn't bet)
+Seat 3: tom xiao0216 (small blind) folded on the River
+Seat 4: HERTTZZ (big blind) folded before Flop
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181385230:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:25:58 ET
+Table 'Genoveva III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.20 in chips)
+Seat 2: partizan_vlg ($0.87 in chips)
+Seat 3: tom xiao0216 ($1.78 in chips)
+Seat 4: HERTTZZ ($2 in chips)
+Seat 5: isennnn ($2.95 in chips)
+Seat 6: DirkBlack08 ($7.38 in chips)
+Seat 8: elexrus ($3.25 in chips)
+Seat 9: aka_Kranv1ch ($2 in chips)
+HERTTZZ: posts small blind $0.01
+isennnn: posts big blind $0.02
+AlexHuday13: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad 6h]
+DirkBlack08: raises $0.06 to $0.08
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: folds
+HERTTZZ: folds
+isennnn: folds
+Uncalled bet ($0.06) returned to DirkBlack08
+DirkBlack08 collected $0.05 from pot
+DirkBlack08: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 (button) folded before Flop (didn't bet)
+Seat 4: HERTTZZ (small blind) folded before Flop
+Seat 5: isennnn (big blind) folded before Flop
+Seat 6: DirkBlack08 collected ($0.05)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181404708:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:26:14 ET
+Table 'Genoveva III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.20 in chips)
+Seat 2: partizan_vlg ($0.87 in chips)
+Seat 3: tom xiao0216 ($1.78 in chips)
+Seat 4: HERTTZZ ($2 in chips)
+Seat 5: isennnn ($2.93 in chips)
+Seat 6: DirkBlack08 ($7.41 in chips)
+Seat 8: elexrus ($3.25 in chips)
+Seat 9: aka_Kranv1ch ($2 in chips)
+isennnn: posts small blind $0.01
+DirkBlack08: posts big blind $0.02
+AlexHuday13: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d 9d]
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: folds
+HERTTZZ: folds
+isennnn: folds
+Uncalled bet ($0.01) returned to DirkBlack08
+DirkBlack08 collected $0.02 from pot
+DirkBlack08: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 4: HERTTZZ (button) folded before Flop (didn't bet)
+Seat 5: isennnn (small blind) folded before Flop
+Seat 6: DirkBlack08 (big blind) collected ($0.02)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181430352:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:26:36 ET
+Table 'Genoveva III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.20 in chips)
+Seat 2: partizan_vlg ($0.87 in chips)
+Seat 3: tom xiao0216 ($1.78 in chips)
+Seat 4: HERTTZZ ($2 in chips)
+Seat 5: isennnn ($2.92 in chips)
+Seat 6: DirkBlack08 ($7.42 in chips)
+Seat 7: AlexHuday13 ($2 in chips)
+Seat 8: elexrus ($3.25 in chips)
+Seat 9: aka_Kranv1ch ($2 in chips)
+DirkBlack08: posts small blind $0.01
+AlexHuday13: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As Js]
+elexrus: raises $0.04 to $0.06
+aka_Kranv1ch: folds
+pokerHero1: raises $0.12 to $0.18
+partizan_vlg: folds
+tom xiao0216: folds
+HERTTZZ: folds
+isennnn: folds
+DirkBlack08: folds
+AlexHuday13: folds
+elexrus: folds
+Uncalled bet ($0.12) returned to pokerHero1
+pokerHero1 collected $0.15 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0
+Seat 1: pokerHero1 collected ($0.15)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 4: HERTTZZ folded before Flop (didn't bet)
+Seat 5: isennnn (button) folded before Flop (didn't bet)
+Seat 6: DirkBlack08 (small blind) folded before Flop
+Seat 7: AlexHuday13 (big blind) folded before Flop
+Seat 8: elexrus folded before Flop
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181490837:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:27:27 ET
+Table 'Genoveva III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.29 in chips)
+Seat 2: partizan_vlg ($0.87 in chips)
+Seat 3: tom xiao0216 ($1.78 in chips)
+Seat 4: HERTTZZ ($2 in chips)
+Seat 5: isennnn ($2.92 in chips)
+Seat 6: DirkBlack08 ($7.41 in chips)
+Seat 7: AlexHuday13 ($2 in chips)
+Seat 8: elexrus ($3.19 in chips)
+Seat 9: aka_Kranv1ch ($2 in chips)
+AlexHuday13: posts small blind $0.01
+elexrus: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d 8d]
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216 has timed out
+tom xiao0216: folds
+HERTTZZ: folds
+isennnn: folds
+DirkBlack08: raises $0.06 to $0.08
+AlexHuday13: folds
+elexrus: calls $0.06
+*** FLOP *** [2s Ac Jh]
+elexrus: bets $0.06
+DirkBlack08: calls $0.06
+*** TURN *** [2s Ac Jh] [5c]
+elexrus: bets $0.06
+DirkBlack08: calls $0.06
+*** RIVER *** [2s Ac Jh 5c] [3h]
+elexrus: checks
+DirkBlack08: bets $0.66
+elexrus: folds
+Uncalled bet ($0.66) returned to DirkBlack08
+DirkBlack08 collected $0.40 from pot
+DirkBlack08: doesn't show hand
+*** SUMMARY ***
+Total pot $0.41 | Rake $0.01
+Board [2s Ac Jh 5c 3h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 4: HERTTZZ folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 (button) collected ($0.40)
+Seat 7: AlexHuday13 (small blind) folded before Flop
+Seat 8: elexrus (big blind) folded on the River
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181602523:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:29:05 ET
+Table 'Genoveva III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.29 in chips)
+Seat 2: partizan_vlg ($0.87 in chips)
+Seat 3: tom xiao0216 ($1.78 in chips)
+Seat 4: HERTTZZ ($2 in chips)
+Seat 5: isennnn ($2.92 in chips)
+Seat 6: DirkBlack08 ($7.61 in chips)
+Seat 7: AlexHuday13 ($2 in chips)
+Seat 8: elexrus ($2.99 in chips)
+Seat 9: aka_Kranv1ch ($2 in chips)
+elexrus: posts small blind $0.01
+aka_Kranv1ch: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh 9c]
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: folds
+HERTTZZ: raises $0.04 to $0.06
+isennnn: folds
+DirkBlack08: folds
+AlexHuday13: folds
+elexrus: folds
+aka_Kranv1ch: folds
+Uncalled bet ($0.04) returned to HERTTZZ
+HERTTZZ collected $0.05 from pot
+HERTTZZ: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 4: HERTTZZ collected ($0.05)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 folded before Flop (didn't bet)
+Seat 7: AlexHuday13 (button) folded before Flop (didn't bet)
+Seat 8: elexrus (small blind) folded before Flop
+Seat 9: aka_Kranv1ch (big blind) folded before Flop
+
+
+
+PokerStars Hand #212181644263:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:29:42 ET
+Table 'Genoveva III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.29 in chips)
+Seat 2: partizan_vlg ($0.87 in chips)
+Seat 3: tom xiao0216 ($1.78 in chips)
+Seat 4: HERTTZZ ($2.03 in chips)
+Seat 5: isennnn ($2.92 in chips)
+Seat 6: DirkBlack08 ($7.61 in chips)
+Seat 7: AlexHuday13 ($2 in chips)
+Seat 8: elexrus ($2.98 in chips)
+Seat 9: aka_Kranv1ch ($2 in chips)
+aka_Kranv1ch: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh As]
+partizan_vlg: folds
+tom xiao0216: raises $0.03 to $0.05
+HERTTZZ: folds
+isennnn: folds
+DirkBlack08: folds
+AlexHuday13: folds
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: calls $0.03
+*** FLOP *** [7h Tc 2s]
+pokerHero1: checks
+tom xiao0216: bets $0.03
+pokerHero1: folds
+Uncalled bet ($0.03) returned to tom xiao0216
+tom xiao0216 collected $0.11 from pot
+tom xiao0216: doesn't show hand
+*** SUMMARY ***
+Total pot $0.11 | Rake $0
+Board [7h Tc 2s]
+Seat 1: pokerHero1 (big blind) folded on the Flop
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 collected ($0.11)
+Seat 4: HERTTZZ folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 folded before Flop (didn't bet)
+Seat 7: AlexHuday13 folded before Flop (didn't bet)
+Seat 8: elexrus (button) folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch (small blind) folded before Flop
+
+
+
+PokerStars Hand #212181685710:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:30:16 ET
+Table 'Genoveva III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.24 in chips)
+Seat 2: partizan_vlg ($0.87 in chips)
+Seat 3: tom xiao0216 ($1.84 in chips)
+Seat 4: HERTTZZ ($2.03 in chips)
+Seat 5: isennnn ($2.92 in chips)
+Seat 6: DirkBlack08 ($7.61 in chips)
+Seat 7: AlexHuday13 ($2 in chips)
+Seat 8: elexrus ($2.98 in chips)
+Seat 9: aka_Kranv1ch ($2 in chips)
+pokerHero1: posts small blind $0.01
+partizan_vlg: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3c 6d]
+tom xiao0216: raises $0.02 to $0.04
+HERTTZZ: folds
+isennnn has timed out
+isennnn: folds
+DirkBlack08: folds
+AlexHuday13: folds
+elexrus: folds
+aka_Kranv1ch: calls $0.04
+pokerHero1: folds
+partizan_vlg: folds
+*** FLOP *** [4c 6h 5d]
+tom xiao0216: checks
+aka_Kranv1ch: bets $0.13
+tom xiao0216: folds
+Uncalled bet ($0.13) returned to aka_Kranv1ch
+aka_Kranv1ch collected $0.11 from pot
+aka_Kranv1ch: doesn't show hand
+*** SUMMARY ***
+Total pot $0.11 | Rake $0
+Board [4c 6h 5d]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: partizan_vlg (big blind) folded before Flop
+Seat 3: tom xiao0216 folded on the Flop
+Seat 4: HERTTZZ folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 folded before Flop (didn't bet)
+Seat 7: AlexHuday13 folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch (button) collected ($0.11)
+
+
+
+PokerStars Hand #212181764649:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:31:15 ET
+Table 'Genoveva III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.23 in chips)
+Seat 2: partizan_vlg ($0.85 in chips)
+Seat 3: tom xiao0216 ($1.80 in chips)
+Seat 4: HERTTZZ ($2.03 in chips)
+Seat 5: isennnn ($2.92 in chips)
+Seat 6: DirkBlack08 ($7.61 in chips)
+Seat 7: AlexHuday13 ($2 in chips)
+Seat 8: elexrus ($2.98 in chips)
+Seat 9: aka_Kranv1ch ($2.07 in chips)
+partizan_vlg: posts small blind $0.01
+tom xiao0216: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kc 2h]
+HERTTZZ: raises $0.04 to $0.06
+isennnn: folds
+DirkBlack08: calls $0.06
+AlexHuday13: calls $0.06
+elexrus: calls $0.06
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: folds
+*** FLOP *** [9s Kd 6h]
+HERTTZZ: checks
+DirkBlack08: checks
+AlexHuday13: checks
+elexrus: bets $0.10
+HERTTZZ: folds
+DirkBlack08: folds
+AlexHuday13: folds
+Uncalled bet ($0.10) returned to elexrus
+elexrus collected $0.26 from pot
+elexrus: doesn't show hand
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01
+Board [9s Kd 6h]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: partizan_vlg (small blind) folded before Flop
+Seat 3: tom xiao0216 (big blind) folded before Flop
+Seat 4: HERTTZZ folded on the Flop
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 folded on the Flop
+Seat 7: AlexHuday13 folded on the Flop
+Seat 8: elexrus collected ($0.26)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181844008:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:32:22 ET
+Table 'Genoveva III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.23 in chips)
+Seat 2: partizan_vlg ($0.84 in chips)
+Seat 3: tom xiao0216 ($1.78 in chips)
+Seat 4: HERTTZZ ($2 in chips)
+Seat 5: isennnn ($2.92 in chips)
+Seat 6: DirkBlack08 ($7.55 in chips)
+Seat 7: AlexHuday13 ($2 in chips)
+Seat 8: elexrus ($3.18 in chips)
+tom xiao0216: posts small blind $0.01
+HERTTZZ: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc Ah]
+isennnn: folds
+DirkBlack08: folds
+AlexHuday13: folds
+elexrus: folds
+pokerHero1: raises $0.06 to $0.08
+partizan_vlg: folds
+tom xiao0216: folds
+HERTTZZ: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 collected ($0.05)
+Seat 2: partizan_vlg (button) folded before Flop (didn't bet)
+Seat 3: tom xiao0216 (small blind) folded before Flop
+Seat 4: HERTTZZ (big blind) folded before Flop
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: DirkBlack08 folded before Flop (didn't bet)
+Seat 7: AlexHuday13 folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181874782:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:32:49 ET
+Table 'Genoveva III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.26 in chips)
+Seat 2: partizan_vlg ($0.84 in chips)
+Seat 3: tom xiao0216 ($1.77 in chips)
+Seat 4: HERTTZZ ($2 in chips)
+Seat 5: isennnn ($2.92 in chips)
+Seat 6: DirkBlack08 ($7.55 in chips)
+Seat 7: AlexHuday13 ($2 in chips)
+Seat 8: elexrus ($3.18 in chips)
+HERTTZZ: posts small blind $0.01
+isennnn: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8s Qd]
+DirkBlack08: folds
+DirkBlack08 leaves the table
+AlexHuday13: calls $0.02
+elexrus: raises $0.06 to $0.08
+pokerHero1: folds
+partizan_vlg: folds
+Mibie joins the table at seat #6
+tom xiao0216: folds
+HERTTZZ: folds
+isennnn: folds
+AlexHuday13: calls $0.06
+*** FLOP *** [2h 5s Ks]
+AlexHuday13: checks
+elexrus: bets $0.06
+AlexHuday13: folds
+Uncalled bet ($0.06) returned to elexrus
+elexrus collected $0.18 from pot
+elexrus: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [2h 5s Ks]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 (button) folded before Flop (didn't bet)
+Seat 4: HERTTZZ (small blind) folded before Flop
+Seat 5: isennnn (big blind) folded before Flop
+Seat 6: DirkBlack08 folded before Flop (didn't bet)
+Seat 7: AlexHuday13 folded on the Flop
+Seat 8: elexrus collected ($0.18)
+
+
+
+PokerStars Hand #212181935492:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:33:40 ET
+Table 'Genoveva III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.26 in chips)
+Seat 2: partizan_vlg ($0.84 in chips)
+Seat 3: tom xiao0216 ($1.77 in chips)
+Seat 4: HERTTZZ ($2 in chips)
+Seat 5: isennnn ($2.90 in chips)
+Seat 6: Mibie ($2 in chips)
+Seat 7: AlexHuday13 ($2 in chips)
+Seat 8: elexrus ($3.28 in chips)
+isennnn: posts small blind $0.01
+Mibie: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td Kd]
+AlexHuday13: folds
+elexrus: raises $0.04 to $0.06
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: folds
+HERTTZZ: folds
+isennnn: folds
+Mibie: folds
+Uncalled bet ($0.04) returned to elexrus
+elexrus collected $0.05 from pot
+elexrus: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 4: HERTTZZ (button) folded before Flop (didn't bet)
+Seat 5: isennnn (small blind) folded before Flop
+Seat 6: Mibie (big blind) folded before Flop
+Seat 7: AlexHuday13 folded before Flop (didn't bet)
+Seat 8: elexrus collected ($0.05)
+
+
+
+PokerStars Hand #212181958340:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:33:59 ET
+Table 'Genoveva III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.26 in chips)
+Seat 2: partizan_vlg ($0.84 in chips)
+Seat 3: tom xiao0216 ($1.77 in chips)
+Seat 4: HERTTZZ ($2 in chips)
+Seat 5: isennnn ($2.89 in chips)
+Seat 6: Mibie ($1.98 in chips)
+Seat 7: AlexHuday13 ($2 in chips)
+Seat 8: elexrus ($3.31 in chips)
+Mibie: posts small blind $0.01
+AlexHuday13: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c As]
+elexrus: raises $0.04 to $0.06
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: folds
+HERTTZZ: folds
+isennnn: folds
+Mibie: folds
+AlexHuday13: folds
+Uncalled bet ($0.04) returned to elexrus
+elexrus collected $0.05 from pot
+elexrus: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 4: HERTTZZ folded before Flop (didn't bet)
+Seat 5: isennnn (button) folded before Flop (didn't bet)
+Seat 6: Mibie (small blind) folded before Flop
+Seat 7: AlexHuday13 (big blind) folded before Flop
+Seat 8: elexrus collected ($0.05)
+
+
+
+PokerStars Hand #212181996415:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:34:31 ET
+Table 'Genoveva III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.26 in chips)
+Seat 2: partizan_vlg ($0.84 in chips)
+Seat 3: tom xiao0216 ($1.77 in chips)
+Seat 4: HERTTZZ ($2 in chips)
+Seat 5: isennnn ($2.89 in chips)
+Seat 6: Mibie ($1.97 in chips)
+Seat 7: AlexHuday13 ($2 in chips)
+Seat 8: elexrus ($3.34 in chips)
+AlexHuday13: posts small blind $0.01
+elexrus: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd 8h]
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: folds
+HERTTZZ: folds
+isennnn: raises $0.04 to $0.06
+Mibie: folds
+AlexHuday13: folds
+elexrus: calls $0.04
+*** FLOP *** [7d 9s 7h]
+elexrus: bets $0.04
+isennnn: calls $0.04
+*** TURN *** [7d 9s 7h] [5c]
+elexrus: bets $0.06
+isennnn: calls $0.06
+*** RIVER *** [7d 9s 7h 5c] [7s]
+elexrus: checks
+isennnn: bets $0.32
+elexrus: calls $0.32
+*** SHOW DOWN ***
+isennnn: shows [5h Ah] (a full house, Sevens full of Fives)
+elexrus: mucks hand
+isennnn collected $0.94 from pot
+*** SUMMARY ***
+Total pot $0.97 | Rake $0.03
+Board [7d 9s 7h 5c 7s]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 4: HERTTZZ folded before Flop (didn't bet)
+Seat 5: isennnn showed [5h Ah] and won ($0.94) with a full house, Sevens full of Fives
+Seat 6: Mibie (button) folded before Flop (didn't bet)
+Seat 7: AlexHuday13 (small blind) folded before Flop
+Seat 8: elexrus (big blind) mucked [As 6s]
+
+
+
+PokerStars Hand #212182087766:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:35:48 ET
+Table 'Genoveva III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.26 in chips)
+Seat 2: partizan_vlg ($0.84 in chips)
+Seat 3: tom xiao0216 ($1.77 in chips)
+Seat 4: HERTTZZ ($2 in chips)
+Seat 5: isennnn ($3.35 in chips)
+Seat 6: Mibie ($1.97 in chips)
+Seat 7: AlexHuday13 ($2 in chips)
+Seat 8: elexrus ($2.86 in chips)
+Seat 9: aka_Kranv1ch ($2.07 in chips)
+elexrus: posts small blind $0.01
+aka_Kranv1ch: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td Kh]
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: folds
+HERTTZZ: folds
+isennnn: folds
+Mibie: folds
+AlexHuday13: raises $0.02 to $0.04
+elexrus: raises $0.04 to $0.08
+aka_Kranv1ch: folds
+AlexHuday13: calls $0.04
+*** FLOP *** [Ad Kd 9s]
+elexrus: bets $0.08
+AlexHuday13: calls $0.08
+*** TURN *** [Ad Kd 9s] [7c]
+elexrus: bets $0.18
+AlexHuday13: calls $0.18
+*** RIVER *** [Ad Kd 9s 7c] [6d]
+elexrus: checks
+AlexHuday13: bets $0.32
+elexrus: calls $0.32
+*** SHOW DOWN ***
+AlexHuday13: shows [Jd Qd] (a flush, Ace high)
+elexrus: mucks hand
+AlexHuday13 collected $1.29 from pot
+*** SUMMARY ***
+Total pot $1.34 | Rake $0.05
+Board [Ad Kd 9s 7c 6d]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 4: HERTTZZ folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: Mibie folded before Flop (didn't bet)
+Seat 7: AlexHuday13 (button) showed [Jd Qd] and won ($1.29) with a flush, Ace high
+Seat 8: elexrus (small blind) mucked [Ac Qh]
+Seat 9: aka_Kranv1ch (big blind) folded before Flop
+
+
+
+PokerStars Hand #212182191384:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:37:15 ET
+Table 'Genoveva III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.26 in chips)
+Seat 2: partizan_vlg ($0.84 in chips)
+Seat 3: tom xiao0216 ($1.77 in chips)
+Seat 4: HERTTZZ ($2 in chips)
+Seat 5: isennnn ($3.35 in chips)
+Seat 6: Mibie ($1.97 in chips)
+Seat 7: AlexHuday13 ($2.63 in chips)
+Seat 8: elexrus ($2.20 in chips)
+Seat 9: aka_Kranv1ch ($2.05 in chips)
+aka_Kranv1ch: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh 3d]
+partizan_vlg: raises $0.82 to $0.84 and is all-in
+tom xiao0216: folds
+HERTTZZ: folds
+isennnn: folds
+Mibie: folds
+AlexHuday13: folds
+elexrus: calls $0.84
+aka_Kranv1ch: folds
+pokerHero1: folds
+*** FLOP *** [Ad Jc 6c]
+*** TURN *** [Ad Jc 6c] [3h]
+*** RIVER *** [Ad Jc 6c 3h] [7d]
+*** SHOW DOWN ***
+partizan_vlg: shows [Qd Qs] (a pair of Queens)
+elexrus: shows [Ks Ac] (a pair of Aces)
+elexrus collected $1.65 from pot
+partizan_vlg cashed out the hand for $0.93 | Cash Out Fee $0.01
+*** SUMMARY ***
+Total pot $1.71 | Rake $0.06
+Board [Ad Jc 6c 3h 7d]
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 2: partizan_vlg showed [Qd Qs] and lost with a pair of Queens (cashed out).
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 4: HERTTZZ folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: Mibie folded before Flop (didn't bet)
+Seat 7: AlexHuday13 folded before Flop (didn't bet)
+Seat 8: elexrus (button) showed [Ks Ac] and won ($1.65) with a pair of Aces
+Seat 9: aka_Kranv1ch (small blind) folded before Flop
+
+
+
+PokerStars Hand #212182239276:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:37:47 ET
+Table 'Genoveva III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.24 in chips)
+Seat 2: partizan_vlg ($0.93 in chips)
+Seat 3: tom xiao0216 ($1.77 in chips)
+Seat 4: HERTTZZ ($2 in chips)
+Seat 5: isennnn ($3.35 in chips)
+Seat 6: Mibie ($1.97 in chips)
+Seat 7: AlexHuday13 ($2.63 in chips)
+Seat 8: elexrus ($3.01 in chips)
+Seat 9: aka_Kranv1ch ($2.04 in chips)
+pokerHero1: posts small blind $0.01
+partizan_vlg: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c 7d]
+tom xiao0216: calls $0.02
+HERTTZZ: folds
+isennnn: raises $0.04 to $0.06
+Mibie: folds
+AlexHuday13: folds
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: calls $0.04
+*** FLOP *** [Jh 7s 4d]
+tom xiao0216: bets $0.04
+isennnn: folds
+Uncalled bet ($0.04) returned to tom xiao0216
+tom xiao0216 collected $0.14 from pot
+tom xiao0216: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [Jh 7s 4d]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: partizan_vlg (big blind) folded before Flop
+Seat 3: tom xiao0216 collected ($0.14)
+Seat 4: HERTTZZ folded before Flop (didn't bet)
+Seat 5: isennnn folded on the Flop
+Seat 6: Mibie folded before Flop (didn't bet)
+Seat 7: AlexHuday13 folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182293885:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:38:33 ET
+Table 'Genoveva III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.23 in chips)
+Seat 2: partizan_vlg ($0.91 in chips)
+Seat 3: tom xiao0216 ($1.85 in chips)
+Seat 4: HERTTZZ ($2 in chips)
+Seat 5: isennnn ($3.29 in chips)
+Seat 6: Mibie ($1.97 in chips)
+Seat 7: AlexHuday13 ($2.63 in chips)
+Seat 8: elexrus ($3.01 in chips)
+Seat 9: aka_Kranv1ch ($2.04 in chips)
+partizan_vlg: posts small blind $0.01
+tom xiao0216: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s 4h]
+HERTTZZ: folds
+isennnn: folds
+Mibie: raises $0.04 to $0.06
+AlexHuday13: folds
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: calls $0.04
+*** FLOP *** [Ts Tc 7d]
+tom xiao0216: checks
+Mibie: checks
+*** TURN *** [Ts Tc 7d] [2h]
+HERTTZZ leaves the table
+tom xiao0216: checks
+Mibie: checks
+*** RIVER *** [Ts Tc 7d 2h] [5c]
+tom xiao0216: bets $0.30
+Mibie: folds
+Uncalled bet ($0.30) returned to tom xiao0216
+tom xiao0216 collected $0.13 from pot
+tom xiao0216: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [Ts Tc 7d 2h 5c]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: partizan_vlg (small blind) folded before Flop
+Seat 3: tom xiao0216 (big blind) collected ($0.13)
+Seat 4: HERTTZZ folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: Mibie folded on the River
+Seat 7: AlexHuday13 folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182349125:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:39:20 ET
+Table 'Genoveva III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.23 in chips)
+Seat 2: partizan_vlg ($0.90 in chips)
+Seat 3: tom xiao0216 ($1.92 in chips)
+Seat 5: isennnn ($3.29 in chips)
+Seat 6: Mibie ($1.91 in chips)
+Seat 7: AlexHuday13 ($2.63 in chips)
+Seat 8: elexrus ($3.01 in chips)
+Seat 9: aka_Kranv1ch ($2.04 in chips)
+tom xiao0216: posts small blind $0.01
+isennnn: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9h Kd]
+Mibie: folds
+AlexHuday13 has timed out
+AlexHuday13: folds
+elexrus: raises $0.04 to $0.06
+Kronos55 joins the table at seat #4
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: calls $0.05
+isennnn: folds
+*** FLOP *** [2h Qs 4h]
+tom xiao0216: checks
+elexrus: bets $0.06
+tom xiao0216: folds
+Uncalled bet ($0.06) returned to elexrus
+elexrus collected $0.14 from pot
+elexrus: doesn't show hand
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [2h Qs 4h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg (button) folded before Flop (didn't bet)
+Seat 3: tom xiao0216 (small blind) folded on the Flop
+Seat 5: isennnn (big blind) folded before Flop
+Seat 6: Mibie folded before Flop (didn't bet)
+Seat 7: AlexHuday13 folded before Flop (didn't bet)
+Seat 8: elexrus collected ($0.14)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182422948:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:40:22 ET
+Table 'Genoveva III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.23 in chips)
+Seat 2: partizan_vlg ($0.90 in chips)
+Seat 3: tom xiao0216 ($1.86 in chips)
+Seat 5: isennnn ($3.27 in chips)
+Seat 6: Mibie ($1.91 in chips)
+Seat 7: AlexHuday13 ($2.63 in chips)
+Seat 8: elexrus ($3.09 in chips)
+Seat 9: aka_Kranv1ch ($2.04 in chips)
+isennnn: posts small blind $0.01
+Mibie: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9h 9s]
+AlexHuday13: folds
+elexrus: raises $0.04 to $0.06
+aka_Kranv1ch: folds
+pokerHero1: calls $0.06
+partizan_vlg: folds
+tom xiao0216: folds
+isennnn: folds
+Mibie: folds
+*** FLOP *** [2d 4s 3d]
+elexrus: bets $0.06
+pokerHero1: raises $0.10 to $0.16
+elexrus: calls $0.10
+*** TURN *** [2d 4s 3d] [Kh]
+elexrus: bets $0.06
+pokerHero1: calls $0.06
+*** RIVER *** [2d 4s 3d Kh] [Jh]
+elexrus: bets $0.22
+pokerHero1: folds
+Uncalled bet ($0.22) returned to elexrus
+elexrus collected $0.57 from pot
+elexrus: doesn't show hand
+*** SUMMARY ***
+Total pot $0.59 | Rake $0.02
+Board [2d 4s 3d Kh Jh]
+Seat 1: pokerHero1 folded on the River
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 (button) folded before Flop (didn't bet)
+Seat 5: isennnn (small blind) folded before Flop
+Seat 6: Mibie (big blind) folded before Flop
+Seat 7: AlexHuday13 folded before Flop (didn't bet)
+Seat 8: elexrus collected ($0.57)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182510614:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:41:35 ET
+Table 'Genoveva III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($1.95 in chips)
+Seat 2: partizan_vlg ($0.90 in chips)
+Seat 3: tom xiao0216 ($1.86 in chips)
+Seat 4: Kronos55 ($1.20 in chips)
+Seat 5: isennnn ($3.26 in chips)
+Seat 6: Mibie ($1.89 in chips)
+Seat 7: AlexHuday13 ($2.63 in chips)
+Seat 8: elexrus ($3.38 in chips)
+Seat 9: aka_Kranv1ch ($2.04 in chips)
+Mibie: posts small blind $0.01
+AlexHuday13: posts big blind $0.02
+Kronos55: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6h 9d]
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216 has timed out
+tom xiao0216: folds
+Kronos55: checks
+isennnn: folds
+Mibie: calls $0.01
+AlexHuday13: checks
+*** FLOP *** [Jh Kc Js]
+Mibie: checks
+AlexHuday13: checks
+Kronos55: checks
+*** TURN *** [Jh Kc Js] [Qh]
+Mibie: checks
+AlexHuday13: checks
+Kronos55: checks
+*** RIVER *** [Jh Kc Js Qh] [8h]
+Mibie: checks
+AlexHuday13: checks
+Kronos55: bets $0.06
+Mibie: calls $0.06
+AlexHuday13: folds
+*** SHOW DOWN ***
+Kronos55: shows [9c Ts] (a straight, Nine to King)
+Mibie: mucks hand
+Kronos55 collected $0.17 from pot
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [Jh Kc Js Qh 8h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 4: Kronos55 showed [9c Ts] and won ($0.17) with a straight, Nine to King
+Seat 5: isennnn (button) folded before Flop (didn't bet)
+Seat 6: Mibie (small blind) mucked [Qd 2s]
+Seat 7: AlexHuday13 (big blind) folded on the River
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182614389:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:43:00 ET
+Table 'Genoveva III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($1.95 in chips)
+Seat 2: partizan_vlg ($0.90 in chips)
+Seat 3: tom xiao0216 ($1.86 in chips)
+Seat 4: Kronos55 ($1.29 in chips)
+Seat 5: isennnn ($3.26 in chips)
+Seat 6: Mibie ($1.81 in chips)
+Seat 7: AlexHuday13 ($2.61 in chips)
+Seat 8: elexrus ($3.38 in chips)
+Seat 9: aka_Kranv1ch ($2.04 in chips)
+AlexHuday13: posts small blind $0.01
+elexrus: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad Kc]
+aka_Kranv1ch: folds
+pokerHero1: raises $0.06 to $0.08
+partizan_vlg: folds
+tom xiao0216: folds
+Kronos55: folds
+isennnn: folds
+Mibie: folds
+AlexHuday13: folds
+elexrus: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 collected ($0.05)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 4: Kronos55 folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: Mibie (button) folded before Flop (didn't bet)
+Seat 7: AlexHuday13 (small blind) folded before Flop
+Seat 8: elexrus (big blind) folded before Flop
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182640541:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:43:21 ET
+Table 'Genoveva III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($1.98 in chips)
+Seat 2: partizan_vlg ($0.90 in chips)
+Seat 3: tom xiao0216 ($1.86 in chips)
+Seat 4: Kronos55 ($1.29 in chips)
+Seat 5: isennnn ($3.26 in chips)
+Seat 6: Mibie ($1.81 in chips)
+Seat 7: AlexHuday13 ($2.60 in chips)
+Seat 8: elexrus ($3.36 in chips)
+Seat 9: aka_Kranv1ch ($2.04 in chips)
+elexrus: posts small blind $0.01
+aka_Kranv1ch: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c Qc]
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: calls $0.02
+Kronos55: folds
+isennnn: folds
+Mibie: folds
+AlexHuday13: folds
+elexrus: calls $0.01
+aka_Kranv1ch: checks
+*** FLOP *** [Ts 8s Jd]
+elexrus: checks
+aka_Kranv1ch: checks
+tom xiao0216: bets $0.03
+elexrus: folds
+aka_Kranv1ch: calls $0.03
+*** TURN *** [Ts 8s Jd] [Qh]
+aka_Kranv1ch: checks
+tom xiao0216: bets $0.04
+aka_Kranv1ch: raises $0.08 to $0.12
+tom xiao0216: calls $0.08
+*** RIVER *** [Ts 8s Jd Qh] [3c]
+aka_Kranv1ch: bets $0.18
+tom xiao0216: folds
+Uncalled bet ($0.18) returned to aka_Kranv1ch
+aka_Kranv1ch collected $0.35 from pot
+aka_Kranv1ch: doesn't show hand
+*** SUMMARY ***
+Total pot $0.36 | Rake $0.01
+Board [Ts 8s Jd Qh 3c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded on the River
+Seat 4: Kronos55 folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: Mibie folded before Flop (didn't bet)
+Seat 7: AlexHuday13 (button) folded before Flop (didn't bet)
+Seat 8: elexrus (small blind) folded on the Flop
+Seat 9: aka_Kranv1ch (big blind) collected ($0.35)
+
+
+
+PokerStars Hand #212182710204:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:44:14 ET
+Table 'Genoveva III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($1.98 in chips)
+Seat 2: partizan_vlg ($0.90 in chips)
+Seat 3: tom xiao0216 ($1.69 in chips)
+Seat 4: Kronos55 ($1.29 in chips)
+Seat 5: isennnn ($3.26 in chips)
+Seat 6: Mibie ($1.81 in chips)
+Seat 7: AlexHuday13 ($2.60 in chips)
+Seat 8: elexrus ($3.34 in chips)
+Seat 9: aka_Kranv1ch ($2.22 in chips)
+aka_Kranv1ch: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c 4c]
+partizan_vlg: folds
+tom xiao0216: folds
+Kronos55: calls $0.02
+isennnn: folds
+Mibie: folds
+AlexHuday13: folds
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: checks
+*** FLOP *** [7d 6h 5s]
+pokerHero1: checks
+Kronos55: checks
+*** TURN *** [7d 6h 5s] [3h]
+pokerHero1: bets $0.03
+Kronos55: folds
+Uncalled bet ($0.03) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [7d 6h 5s 3h]
+Seat 1: pokerHero1 (big blind) collected ($0.05)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 4: Kronos55 folded on the Turn
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: Mibie folded before Flop (didn't bet)
+Seat 7: AlexHuday13 folded before Flop (didn't bet)
+Seat 8: elexrus (button) folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch (small blind) folded before Flop
+
+
+
+PokerStars Hand #212182764176:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:44:58 ET
+Table 'Genoveva III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.01 in chips)
+Seat 2: partizan_vlg ($0.90 in chips)
+Seat 3: tom xiao0216 ($1.69 in chips)
+Seat 4: Kronos55 ($1.27 in chips)
+Seat 5: isennnn ($3.26 in chips)
+Seat 6: Mibie ($1.81 in chips)
+Seat 8: elexrus ($3.34 in chips)
+Seat 9: aka_Kranv1ch ($2.21 in chips)
+pokerHero1: posts small blind $0.01
+partizan_vlg: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7s Ts]
+tom xiao0216: calls $0.02
+Kronos55: folds
+isennnn: folds
+Mibie: folds
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: raises $0.88 to $0.90 and is all-in
+tom xiao0216: folds
+Uncalled bet ($0.88) returned to partizan_vlg
+partizan_vlg collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: partizan_vlg (big blind) collected ($0.05)
+Seat 3: tom xiao0216 folded before Flop
+Seat 4: Kronos55 folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: Mibie folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182815213:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:45:39 ET
+Table 'Genoveva III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2 in chips)
+Seat 2: partizan_vlg ($0.93 in chips)
+Seat 3: tom xiao0216 ($1.67 in chips)
+Seat 4: Kronos55 ($1.27 in chips)
+Seat 5: isennnn ($3.26 in chips)
+Seat 6: Mibie ($1.81 in chips)
+Seat 8: elexrus ($3.34 in chips)
+Seat 9: aka_Kranv1ch ($2.21 in chips)
+partizan_vlg: posts small blind $0.01
+tom xiao0216: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad Kh]
+Kronos55: folds
+isennnn: folds
+Mibie: folds
+elexrus: raises $0.04 to $0.06
+aka_Kranv1ch: folds
+pokerHero1: raises $0.18 to $0.24
+partizan_vlg: folds
+tom xiao0216: folds
+elexrus: folds
+Uncalled bet ($0.18) returned to pokerHero1
+pokerHero1 collected $0.15 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0
+Seat 1: pokerHero1 (button) collected ($0.15)
+Seat 2: partizan_vlg (small blind) folded before Flop
+Seat 3: tom xiao0216 (big blind) folded before Flop
+Seat 4: Kronos55 folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: Mibie folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182872421:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:46:26 ET
+Table 'Genoveva III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.09 in chips)
+Seat 2: partizan_vlg ($0.92 in chips)
+Seat 3: tom xiao0216 ($1.65 in chips)
+Seat 4: Kronos55 ($1.27 in chips)
+Seat 5: isennnn ($3.26 in chips)
+Seat 6: Mibie ($1.81 in chips)
+Seat 8: elexrus ($3.28 in chips)
+Seat 9: aka_Kranv1ch ($2.21 in chips)
+tom xiao0216: posts small blind $0.01
+Kronos55: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qs 6c]
+isennnn: raises $0.04 to $0.06
+Mibie: folds
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: folds
+Kronos55: folds
+Uncalled bet ($0.04) returned to isennnn
+isennnn collected $0.05 from pot
+isennnn: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg (button) folded before Flop (didn't bet)
+Seat 3: tom xiao0216 (small blind) folded before Flop
+Seat 4: Kronos55 (big blind) folded before Flop
+Seat 5: isennnn collected ($0.05)
+Seat 6: Mibie folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182909988:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:46:56 ET
+Table 'Genoveva III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.09 in chips)
+Seat 2: partizan_vlg ($0.92 in chips)
+Seat 3: tom xiao0216 ($1.64 in chips)
+Seat 4: Kronos55 ($1.25 in chips)
+Seat 5: isennnn ($3.29 in chips)
+Seat 6: Mibie ($1.81 in chips)
+Seat 8: elexrus ($3.28 in chips)
+Seat 9: aka_Kranv1ch ($2.21 in chips)
+Kronos55: posts small blind $0.01
+isennnn: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5c Ad]
+Mibie: folds
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: raises $0.03 to $0.05
+Kronos55: folds
+isennnn: folds
+Uncalled bet ($0.03) returned to tom xiao0216
+tom xiao0216 collected $0.05 from pot
+tom xiao0216: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 (button) collected ($0.05)
+Seat 4: Kronos55 (small blind) folded before Flop
+Seat 5: isennnn (big blind) folded before Flop
+Seat 6: Mibie folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182933151:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:47:15 ET
+Table 'Genoveva III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.09 in chips)
+Seat 2: partizan_vlg ($0.92 in chips)
+Seat 3: tom xiao0216 ($1.67 in chips)
+Seat 4: Kronos55 ($1.24 in chips)
+Seat 5: isennnn ($3.27 in chips)
+Seat 6: Mibie ($1.81 in chips)
+Seat 8: elexrus ($3.28 in chips)
+Seat 9: aka_Kranv1ch ($2.21 in chips)
+isennnn: posts small blind $0.01
+Mibie: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d 5d]
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: folds
+Kronos55: folds
+isennnn: raises $0.04 to $0.06
+Mibie: calls $0.04
+*** FLOP *** [4c Ac Th]
+isennnn: bets $0.06
+Mibie: calls $0.06
+*** TURN *** [4c Ac Th] [4d]
+isennnn: bets $0.18
+Mibie: calls $0.18
+*** RIVER *** [4c Ac Th 4d] [8h]
+isennnn: bets $0.30
+Mibie: folds
+Uncalled bet ($0.30) returned to isennnn
+isennnn collected $0.58 from pot
+isennnn: doesn't show hand
+*** SUMMARY ***
+Total pot $0.60 | Rake $0.02
+Board [4c Ac Th 4d 8h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 4: Kronos55 (button) folded before Flop (didn't bet)
+Seat 5: isennnn (small blind) collected ($0.58)
+Seat 6: Mibie (big blind) folded on the River
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183007546:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:48:16 ET
+Table 'Genoveva III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.09 in chips)
+Seat 2: partizan_vlg ($0.92 in chips)
+Seat 3: tom xiao0216 ($1.67 in chips)
+Seat 4: Kronos55 ($1.24 in chips)
+Seat 5: isennnn ($3.55 in chips)
+Seat 6: Mibie ($1.51 in chips)
+Seat 8: elexrus ($3.28 in chips)
+Seat 9: aka_Kranv1ch ($2.21 in chips)
+Mibie: posts small blind $0.01
+elexrus: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h 7c]
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: folds
+Kronos55: folds
+isennnn: folds
+Mibie: calls $0.01
+elexrus: checks
+*** FLOP *** [Ac Qd Jc]
+Mibie: checks
+elexrus: bets $0.02
+Mibie: folds
+Uncalled bet ($0.02) returned to elexrus
+elexrus collected $0.04 from pot
+elexrus: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [Ac Qd Jc]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 4: Kronos55 folded before Flop (didn't bet)
+Seat 5: isennnn (button) folded before Flop (didn't bet)
+Seat 6: Mibie (small blind) folded on the Flop
+Seat 8: elexrus (big blind) collected ($0.04)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183055936:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:48:55 ET
+Table 'Genoveva III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.09 in chips)
+Seat 2: partizan_vlg ($0.92 in chips)
+Seat 3: tom xiao0216 ($1.67 in chips)
+Seat 4: Kronos55 ($1.24 in chips)
+Seat 5: isennnn ($3.55 in chips)
+Seat 6: Mibie ($1.49 in chips)
+Seat 8: elexrus ($3.30 in chips)
+Seat 9: aka_Kranv1ch ($2.21 in chips)
+elexrus: posts small blind $0.01
+aka_Kranv1ch: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc 3h]
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: folds
+Kronos55: calls $0.02
+isennnn: raises $0.06 to $0.08
+Mibie: folds
+elexrus: calls $0.07
+aka_Kranv1ch: folds
+Kronos55: calls $0.06
+*** FLOP *** [As 3c Kh]
+elexrus: checks
+Kronos55: checks
+isennnn: checks
+*** TURN *** [As 3c Kh] [8s]
+elexrus: bets $0.08
+Kronos55: calls $0.08
+isennnn: calls $0.08
+*** RIVER *** [As 3c Kh 8s] [2d]
+elexrus: bets $0.24
+Kronos55: calls $0.24
+isennnn: folds
+*** SHOW DOWN ***
+elexrus: shows [Ah Jh] (a pair of Aces)
+Kronos55: shows [8h 8c] (three of a kind, Eights)
+Kronos55 collected $0.95 from pot
+*** SUMMARY ***
+Total pot $0.98 | Rake $0.03
+Board [As 3c Kh 8s 2d]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 4: Kronos55 showed [8h 8c] and won ($0.95) with three of a kind, Eights
+Seat 5: isennnn folded on the River
+Seat 6: Mibie (button) folded before Flop (didn't bet)
+Seat 8: elexrus (small blind) showed [Ah Jh] and lost with a pair of Aces
+Seat 9: aka_Kranv1ch (big blind) folded before Flop
+
+
+
+PokerStars Hand #212183165360:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:50:24 ET
+Table 'Genoveva III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.09 in chips)
+Seat 2: partizan_vlg ($0.92 in chips)
+Seat 3: tom xiao0216 ($1.67 in chips)
+Seat 4: Kronos55 ($1.79 in chips)
+Seat 5: isennnn ($3.39 in chips)
+Seat 6: Mibie ($1.49 in chips)
+Seat 8: elexrus ($2.90 in chips)
+Seat 9: aka_Kranv1ch ($2.19 in chips)
+aka_Kranv1ch: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+AlexHuday13: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh Ac]
+partizan_vlg: folds
+tom xiao0216: folds
+Kronos55: folds
+isennnn: folds
+Mibie: folds
+elexrus: folds
+aka_Kranv1ch: calls $0.01
+pokerHero1: checks
+*** FLOP *** [7c 5c 3c]
+aka_Kranv1ch: bets $0.02
+pokerHero1: raises $0.04 to $0.06
+aka_Kranv1ch: folds
+Uncalled bet ($0.04) returned to pokerHero1
+pokerHero1 collected $0.08 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Board [7c 5c 3c]
+Seat 1: pokerHero1 (big blind) collected ($0.08)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 4: Kronos55 folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: Mibie folded before Flop (didn't bet)
+Seat 8: elexrus (button) folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch (small blind) folded on the Flop
+
+
+
+PokerStars Hand #212183214773:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:51:04 ET
+Table 'Genoveva III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.13 in chips)
+Seat 2: partizan_vlg ($0.92 in chips)
+Seat 3: tom xiao0216 ($1.67 in chips)
+Seat 4: Kronos55 ($1.79 in chips)
+Seat 5: isennnn ($3.39 in chips)
+Seat 6: Mibie ($1.49 in chips)
+Seat 8: elexrus ($2.90 in chips)
+Seat 9: aka_Kranv1ch ($2.15 in chips)
+pokerHero1: posts small blind $0.01
+partizan_vlg: posts big blind $0.02
+AlexHuday13: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d 9h]
+tom xiao0216: folds
+Kronos55: folds
+isennnn: folds
+Mibie: folds
+elexrus: folds
+aka_Kranv1ch: raises $0.04 to $0.06
+pokerHero1: folds
+partizan_vlg: folds
+Uncalled bet ($0.04) returned to aka_Kranv1ch
+aka_Kranv1ch collected $0.05 from pot
+aka_Kranv1ch: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: partizan_vlg (big blind) folded before Flop
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 4: Kronos55 folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: Mibie folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch (button) collected ($0.05)
+
+
+
+PokerStars Hand #212183250707:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:51:27 ET
+Table 'Genoveva III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.12 in chips)
+Seat 2: partizan_vlg ($0.90 in chips)
+Seat 3: tom xiao0216 ($1.67 in chips)
+Seat 4: Kronos55 ($1.79 in chips)
+Seat 5: isennnn ($3.39 in chips)
+Seat 6: Mibie ($1.49 in chips)
+Seat 8: elexrus ($2.90 in chips)
+Seat 9: aka_Kranv1ch ($2.18 in chips)
+partizan_vlg: posts small blind $0.01
+tom xiao0216: posts big blind $0.02
+AlexHuday13: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As Kd]
+Kronos55: folds
+isennnn: folds
+Mibie: folds
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: raises $0.08 to $0.10
+partizan_vlg: folds
+tom xiao0216: folds
+Uncalled bet ($0.08) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (button) collected ($0.05)
+Seat 2: partizan_vlg (small blind) folded before Flop
+Seat 3: tom xiao0216 (big blind) folded before Flop
+Seat 4: Kronos55 folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: Mibie folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183288122:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:51:57 ET
+Table 'Genoveva III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.15 in chips)
+Seat 2: partizan_vlg ($0.89 in chips)
+Seat 3: tom xiao0216 ($1.65 in chips)
+Seat 4: Kronos55 ($1.79 in chips)
+Seat 5: isennnn ($3.39 in chips)
+Seat 6: Mibie ($1.49 in chips)
+Seat 8: elexrus ($2.90 in chips)
+Seat 9: aka_Kranv1ch ($2.18 in chips)
+tom xiao0216: posts small blind $0.01
+Kronos55: posts big blind $0.02
+AlexHuday13: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c 8s]
+isennnn: folds
+Mibie: folds
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg has timed out
+partizan_vlg: folds
+tom xiao0216: folds
+Uncalled bet ($0.01) returned to Kronos55
+Kronos55 collected $0.02 from pot
+Kronos55: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg (button) folded before Flop (didn't bet)
+Seat 3: tom xiao0216 (small blind) folded before Flop
+Seat 4: Kronos55 (big blind) collected ($0.02)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: Mibie folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183317192:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:52:21 ET
+Table 'Genoveva III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.15 in chips)
+Seat 3: tom xiao0216 ($1.64 in chips)
+Seat 4: Kronos55 ($1.80 in chips)
+Seat 5: isennnn ($3.39 in chips)
+Seat 6: Mibie ($1.49 in chips)
+Seat 8: elexrus ($2.90 in chips)
+Seat 9: aka_Kranv1ch ($2.18 in chips)
+Kronos55: posts small blind $0.01
+isennnn: posts big blind $0.02
+AlexHuday13: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh 9h]
+Mibie: folds
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+tom xiao0216: folds
+Kronos55: folds
+Uncalled bet ($0.01) returned to isennnn
+isennnn collected $0.02 from pot
+isennnn: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: tom xiao0216 (button) folded before Flop (didn't bet)
+Seat 4: Kronos55 (small blind) folded before Flop
+Seat 5: isennnn (big blind) collected ($0.02)
+Seat 6: Mibie folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183342267:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:52:41 ET
+Table 'Genoveva III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.15 in chips)
+Seat 2: partizan_vlg ($0.89 in chips)
+Seat 3: tom xiao0216 ($1.64 in chips)
+Seat 4: Kronos55 ($1.79 in chips)
+Seat 5: isennnn ($3.40 in chips)
+Seat 6: Mibie ($1.49 in chips)
+Seat 8: elexrus ($2.90 in chips)
+Seat 9: aka_Kranv1ch ($2.18 in chips)
+isennnn: posts small blind $0.01
+Mibie: posts big blind $0.02
+AlexHuday13: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c Qh]
+elexrus: raises $0.04 to $0.06
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: folds
+Kronos55: folds
+isennnn: folds
+Mibie: calls $0.04
+*** FLOP *** [Ad Kc Qc]
+Mibie: bets $0.06
+elexrus: calls $0.06
+*** TURN *** [Ad Kc Qc] [3c]
+Mibie: bets $0.12
+elexrus: folds
+Uncalled bet ($0.12) returned to Mibie
+Mibie collected $0.24 from pot
+Mibie: doesn't show hand
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.01
+Board [Ad Kc Qc 3c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 4: Kronos55 (button) folded before Flop (didn't bet)
+Seat 5: isennnn (small blind) folded before Flop
+Seat 6: Mibie (big blind) collected ($0.24)
+Seat 8: elexrus folded on the Turn
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183391788:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:53:21 ET
+Table 'Genoveva III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.15 in chips)
+Seat 2: partizan_vlg ($0.89 in chips)
+Seat 3: tom xiao0216 ($1.64 in chips)
+Seat 4: Kronos55 ($1.79 in chips)
+Seat 5: isennnn ($3.39 in chips)
+Seat 6: Mibie ($1.61 in chips)
+Seat 7: AlexHuday13 ($2.60 in chips)
+Seat 8: elexrus ($2.78 in chips)
+Seat 9: aka_Kranv1ch ($2.18 in chips)
+Mibie: posts small blind $0.01
+AlexHuday13: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d Ts]
+elexrus: raises $0.04 to $0.06
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: folds
+Kronos55: calls $0.06
+isennnn: folds
+Mibie: folds
+AlexHuday13: folds
+*** FLOP *** [5d 8d 9s]
+elexrus: bets $0.06
+Kronos55: calls $0.06
+*** TURN *** [5d 8d 9s] [Jc]
+elexrus: bets $0.06
+Kronos55: calls $0.06
+*** RIVER *** [5d 8d 9s Jc] [5h]
+elexrus: checks
+Kronos55: checks
+*** SHOW DOWN ***
+elexrus: shows [8c Qd] (two pair, Eights and Fives)
+Kronos55: shows [Ac Js] (two pair, Jacks and Fives)
+Kronos55 collected $0.38 from pot
+*** SUMMARY ***
+Total pot $0.39 | Rake $0.01
+Board [5d 8d 9s Jc 5h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 4: Kronos55 showed [Ac Js] and won ($0.38) with two pair, Jacks and Fives
+Seat 5: isennnn (button) folded before Flop (didn't bet)
+Seat 6: Mibie (small blind) folded before Flop
+Seat 7: AlexHuday13 (big blind) folded before Flop
+Seat 8: elexrus showed [8c Qd] and lost with two pair, Eights and Fives
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183502812:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:54:52 ET
+Table 'Genoveva III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.15 in chips)
+Seat 2: partizan_vlg ($0.89 in chips)
+Seat 3: tom xiao0216 ($1.64 in chips)
+Seat 4: Kronos55 ($1.99 in chips)
+Seat 5: isennnn ($3.39 in chips)
+Seat 6: Mibie ($1.60 in chips)
+Seat 7: AlexHuday13 ($2.58 in chips)
+Seat 8: elexrus ($2.60 in chips)
+Seat 9: aka_Kranv1ch ($2.18 in chips)
+AlexHuday13: posts small blind $0.01
+elexrus: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3c 5c]
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216 has timed out
+tom xiao0216: folds
+Kronos55: folds
+isennnn: folds
+Mibie: folds
+AlexHuday13: folds
+Uncalled bet ($0.01) returned to elexrus
+elexrus collected $0.02 from pot
+elexrus: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 4: Kronos55 folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: Mibie (button) folded before Flop (didn't bet)
+Seat 7: AlexHuday13 (small blind) folded before Flop
+Seat 8: elexrus (big blind) collected ($0.02)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183535099:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:55:19 ET
+Table 'Genoveva III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.15 in chips)
+Seat 2: partizan_vlg ($0.89 in chips)
+Seat 3: tom xiao0216 ($1.64 in chips)
+Seat 4: Kronos55 ($1.99 in chips)
+Seat 5: isennnn ($3.39 in chips)
+Seat 6: Mibie ($1.60 in chips)
+Seat 7: AlexHuday13 ($2.57 in chips)
+Seat 8: elexrus ($2.61 in chips)
+Seat 9: aka_Kranv1ch ($2.18 in chips)
+elexrus: posts small blind $0.01
+aka_Kranv1ch: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th As]
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: calls $0.02
+Kronos55: folds
+isennnn: folds
+Mibie: raises $0.04 to $0.06
+AlexHuday13: calls $0.06
+elexrus: folds
+aka_Kranv1ch: folds
+tom xiao0216: calls $0.04
+*** FLOP *** [7h 8h 7c]
+tom xiao0216: checks
+Mibie: checks
+AlexHuday13: checks
+*** TURN *** [7h 8h 7c] [5s]
+tom xiao0216: checks
+Mibie: checks
+AlexHuday13: checks
+*** RIVER *** [7h 8h 7c 5s] [2h]
+tom xiao0216: checks
+Mibie: checks
+AlexHuday13: bets $0.05
+tom xiao0216: folds
+Mibie: folds
+Uncalled bet ($0.05) returned to AlexHuday13
+AlexHuday13 collected $0.20 from pot
+AlexHuday13: doesn't show hand
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [7h 8h 7c 5s 2h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded on the River
+Seat 4: Kronos55 folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: Mibie folded on the River
+Seat 7: AlexHuday13 (button) collected ($0.20)
+Seat 8: elexrus (small blind) folded before Flop
+Seat 9: aka_Kranv1ch (big blind) folded before Flop
+
+
+
+PokerStars Hand #212183611663:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:56:50 ET
+Table 'Genoveva III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.15 in chips)
+Seat 2: partizan_vlg ($0.89 in chips)
+Seat 3: tom xiao0216 ($2 in chips)
+Seat 4: Kronos55 ($1.99 in chips)
+Seat 5: isennnn ($3.39 in chips)
+Seat 6: Mibie ($1.54 in chips)
+Seat 7: AlexHuday13 ($2.71 in chips)
+Seat 8: elexrus ($2.60 in chips)
+Seat 9: aka_Kranv1ch ($2.16 in chips)
+aka_Kranv1ch: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd Ks]
+partizan_vlg: folds
+tom xiao0216: folds
+Kronos55: raises $0.04 to $0.06
+isennnn: calls $0.06
+Mibie: folds
+AlexHuday13: folds
+elexrus has timed out
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+*** FLOP *** [3c 2c 8h]
+Kronos55: checks
+isennnn: checks
+*** TURN *** [3c 2c 8h] [7c]
+Kronos55: checks
+isennnn: bets $0.10
+Kronos55: calls $0.10
+*** RIVER *** [3c 2c 8h 7c] [6h]
+Kronos55: checks
+isennnn: bets $0.34
+Kronos55: folds
+Uncalled bet ($0.34) returned to isennnn
+isennnn collected $0.34 from pot
+isennnn: doesn't show hand
+*** SUMMARY ***
+Total pot $0.35 | Rake $0.01
+Board [3c 2c 8h 7c 6h]
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 4: Kronos55 folded on the River
+Seat 5: isennnn collected ($0.34)
+Seat 6: Mibie folded before Flop (didn't bet)
+Seat 7: AlexHuday13 folded before Flop (didn't bet)
+Seat 8: elexrus (button) folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch (small blind) folded before Flop
+
+
+
+PokerStars Hand #212183705534:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:58:38 ET
+Table 'Genoveva III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.13 in chips)
+Seat 2: partizan_vlg ($0.89 in chips)
+Seat 3: tom xiao0216 ($2 in chips)
+Seat 4: Kronos55 ($1.83 in chips)
+Seat 5: isennnn ($3.57 in chips)
+Seat 6: Mibie ($1.54 in chips)
+Seat 7: AlexHuday13 ($2.71 in chips)
+Seat 8: elexrus ($2.60 in chips)
+Seat 9: aka_Kranv1ch ($2.15 in chips)
+pokerHero1: posts small blind $0.01
+partizan_vlg: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d 6d]
+tom xiao0216: folds
+Kronos55: calls $0.02
+isennnn: folds
+Mibie: folds
+AlexHuday13: raises $0.02 to $0.04
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+Kronos55: calls $0.02
+*** FLOP *** [3h 5s 7d]
+Kronos55: checks
+AlexHuday13: checks
+*** TURN *** [3h 5s 7d] [Ks]
+Kronos55: checks
+AlexHuday13: checks
+*** RIVER *** [3h 5s 7d Ks] [9d]
+Kronos55: checks
+AlexHuday13: checks
+*** SHOW DOWN ***
+Kronos55: shows [Ah Qs] (high card Ace)
+AlexHuday13: mucks hand
+Kronos55 collected $0.11 from pot
+*** SUMMARY ***
+Total pot $0.11 | Rake $0
+Board [3h 5s 7d Ks 9d]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: partizan_vlg (big blind) folded before Flop
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 4: Kronos55 showed [Ah Qs] and won ($0.11) with high card Ace
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: Mibie folded before Flop (didn't bet)
+Seat 7: AlexHuday13 mucked [2s As]
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183794298:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:00:14 ET
+Table 'Genoveva III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.12 in chips)
+Seat 2: partizan_vlg ($0.87 in chips)
+Seat 3: tom xiao0216 ($2 in chips)
+Seat 4: Kronos55 ($1.90 in chips)
+Seat 5: isennnn ($3.57 in chips)
+Seat 6: Mibie ($1.54 in chips)
+Seat 7: AlexHuday13 ($2.67 in chips)
+Seat 8: elexrus ($2.60 in chips)
+Seat 9: aka_Kranv1ch ($2.15 in chips)
+partizan_vlg: posts small blind $0.01
+tom xiao0216: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h 8c]
+Kronos55: folds
+isennnn: folds
+Mibie: raises $0.04 to $0.06
+AlexHuday13: folds
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: folds
+Uncalled bet ($0.04) returned to Mibie
+Mibie collected $0.05 from pot
+Mibie: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: partizan_vlg (small blind) folded before Flop
+Seat 3: tom xiao0216 (big blind) folded before Flop
+Seat 4: Kronos55 folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: Mibie collected ($0.05)
+Seat 7: AlexHuday13 folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183826298:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:00:46 ET
+Table 'Genoveva III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.12 in chips)
+Seat 2: partizan_vlg ($0.86 in chips)
+Seat 3: tom xiao0216 ($1.98 in chips)
+Seat 4: Kronos55 ($1.90 in chips)
+Seat 5: isennnn ($3.57 in chips)
+Seat 6: Mibie ($1.57 in chips)
+Seat 7: AlexHuday13 ($2.67 in chips)
+Seat 8: elexrus ($2.60 in chips)
+Seat 9: aka_Kranv1ch ($2.15 in chips)
+tom xiao0216: posts small blind $0.01
+Kronos55: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd Ac]
+isennnn: folds
+Mibie: folds
+AlexHuday13: folds
+elexrus: raises $0.04 to $0.06
+aka_Kranv1ch: folds
+pokerHero1: raises $0.12 to $0.18
+partizan_vlg: folds
+tom xiao0216: folds
+Kronos55: folds
+elexrus: calls $0.12
+*** FLOP *** [9c Td 8c]
+elexrus: bets $0.08
+pokerHero1: calls $0.08
+*** TURN *** [9c Td 8c] [3h]
+elexrus: bets $0.16
+pokerHero1: raises $0.34 to $0.50
+elexrus: folds
+Uncalled bet ($0.34) returned to pokerHero1
+pokerHero1 collected $0.84 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.87 | Rake $0.03
+Board [9c Td 8c 3h]
+Seat 1: pokerHero1 collected ($0.84)
+Seat 2: partizan_vlg (button) folded before Flop (didn't bet)
+Seat 3: tom xiao0216 (small blind) folded before Flop
+Seat 4: Kronos55 (big blind) folded before Flop
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: Mibie folded before Flop (didn't bet)
+Seat 7: AlexHuday13 folded before Flop (didn't bet)
+Seat 8: elexrus folded on the Turn
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183917630:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:02:10 ET
+Table 'Genoveva III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.54 in chips)
+Seat 2: partizan_vlg ($0.86 in chips)
+Seat 3: tom xiao0216 ($1.97 in chips)
+Seat 4: Kronos55 ($1.88 in chips)
+Seat 5: isennnn ($3.57 in chips)
+Seat 6: Mibie ($1.57 in chips)
+Seat 7: AlexHuday13 ($2.67 in chips)
+Seat 8: elexrus ($2.18 in chips)
+Seat 9: aka_Kranv1ch ($2.15 in chips)
+Kronos55: posts small blind $0.01
+isennnn: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5d Kh]
+Mibie: folds
+AlexHuday13: calls $0.02
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: folds
+Kronos55: folds
+isennnn: checks
+*** FLOP *** [Td 5c 8d]
+isennnn: checks
+AlexHuday13: checks
+*** TURN *** [Td 5c 8d] [7c]
+isennnn: checks
+AlexHuday13: bets $0.02
+isennnn: calls $0.02
+*** RIVER *** [Td 5c 8d 7c] [4d]
+isennnn: checks
+AlexHuday13: bets $0.04
+isennnn: calls $0.04
+*** SHOW DOWN ***
+AlexHuday13: shows [As 6s] (a straight, Four to Eight)
+isennnn: mucks hand
+AlexHuday13 collected $0.16 from pot
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [Td 5c 8d 7c 4d]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 (button) folded before Flop (didn't bet)
+Seat 4: Kronos55 (small blind) folded before Flop
+Seat 5: isennnn (big blind) mucked [Ad 7s]
+Seat 6: Mibie folded before Flop (didn't bet)
+Seat 7: AlexHuday13 showed [As 6s] and won ($0.16) with a straight, Four to Eight
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183997967:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:03:11 ET
+Table 'Genoveva III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.54 in chips)
+Seat 2: partizan_vlg ($0.86 in chips)
+Seat 3: tom xiao0216 ($1.97 in chips)
+Seat 4: Kronos55 ($1.87 in chips)
+Seat 5: isennnn ($3.49 in chips)
+Seat 6: Mibie ($1.57 in chips)
+Seat 7: AlexHuday13 ($2.75 in chips)
+Seat 8: elexrus ($2.18 in chips)
+Seat 9: aka_Kranv1ch ($2.15 in chips)
+isennnn: posts small blind $0.01
+Mibie: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3s 3c]
+AlexHuday13: folds
+elexrus: folds
+aka_Kranv1ch has timed out
+aka_Kranv1ch: folds
+pokerHero1: calls $0.02
+partizan_vlg: folds
+tom xiao0216: raises $0.04 to $0.06
+Kronos55: folds
+isennnn: folds
+Mibie: calls $0.04
+pokerHero1: calls $0.04
+*** FLOP *** [5d Tc 7d]
+Mibie: checks
+pokerHero1: checks
+tom xiao0216: checks
+*** TURN *** [5d Tc 7d] [5c]
+Mibie: checks
+pokerHero1: checks
+tom xiao0216: checks
+*** RIVER *** [5d Tc 7d 5c] [Ad]
+Mibie: checks
+pokerHero1: checks
+tom xiao0216: bets $0.12
+Mibie: folds
+pokerHero1: folds
+Uncalled bet ($0.12) returned to tom xiao0216
+tom xiao0216 collected $0.18 from pot
+tom xiao0216: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [5d Tc 7d 5c Ad]
+Seat 1: pokerHero1 folded on the River
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 collected ($0.18)
+Seat 4: Kronos55 (button) folded before Flop (didn't bet)
+Seat 5: isennnn (small blind) folded before Flop
+Seat 6: Mibie (big blind) folded on the River
+Seat 7: AlexHuday13 folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184077824:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:04:14 ET
+Table 'Genoveva III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.48 in chips)
+Seat 2: partizan_vlg ($0.86 in chips)
+Seat 3: tom xiao0216 ($2.09 in chips)
+Seat 5: isennnn ($3.48 in chips)
+Seat 6: Mibie ($1.51 in chips)
+Seat 7: AlexHuday13 ($2.75 in chips)
+Seat 8: elexrus ($2.18 in chips)
+Seat 9: aka_Kranv1ch ($2.15 in chips)
+Mibie: posts small blind $0.01
+AlexHuday13: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac 7s]
+elexrus: raises $0.04 to $0.06
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216 has timed out
+tom xiao0216: folds
+isennnn: folds
+Mibie: folds
+AlexHuday13: calls $0.04
+*** FLOP *** [Ks 6c 9d]
+AlexHuday13: checks
+elexrus: bets $0.04
+AlexHuday13: calls $0.04
+*** TURN *** [Ks 6c 9d] [3c]
+AlexHuday13: checks
+elexrus: bets $0.12
+AlexHuday13: folds
+Uncalled bet ($0.12) returned to elexrus
+elexrus collected $0.20 from pot
+elexrus: doesn't show hand
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [Ks 6c 9d 3c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 5: isennnn (button) folded before Flop (didn't bet)
+Seat 6: Mibie (small blind) folded before Flop
+Seat 7: AlexHuday13 (big blind) folded on the Turn
+Seat 8: elexrus collected ($0.20)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184182814:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:05:32 ET
+Table 'Genoveva III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.48 in chips)
+Seat 2: partizan_vlg ($0.86 in chips)
+Seat 3: tom xiao0216 ($2.09 in chips)
+Seat 5: isennnn ($3.48 in chips)
+Seat 6: Mibie ($1.50 in chips)
+Seat 7: AlexHuday13 ($2.65 in chips)
+Seat 8: elexrus ($2.28 in chips)
+Seat 9: aka_Kranv1ch ($2.15 in chips)
+AlexHuday13: posts small blind $0.01
+elexrus: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh 5d]
+aka_Kranv1ch: folds
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: folds
+isennnn: folds
+Mibie: raises $0.04 to $0.06
+AlexHuday13: folds
+elexrus: folds
+Uncalled bet ($0.04) returned to Mibie
+Mibie collected $0.05 from pot
+Mibie: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: Mibie (button) collected ($0.05)
+Seat 7: AlexHuday13 (small blind) folded before Flop
+Seat 8: elexrus (big blind) folded before Flop
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184219770:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:06:00 ET
+Table 'Genoveva III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.48 in chips)
+Seat 2: partizan_vlg ($0.86 in chips)
+Seat 3: tom xiao0216 ($2.09 in chips)
+Seat 5: isennnn ($3.48 in chips)
+Seat 6: Mibie ($1.53 in chips)
+Seat 7: AlexHuday13 ($2.64 in chips)
+Seat 8: elexrus ($2.26 in chips)
+Seat 9: aka_Kranv1ch ($2.15 in chips)
+elexrus: posts small blind $0.01
+aka_Kranv1ch: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad Th]
+pokerHero1: folds
+partizan_vlg: folds
+tom xiao0216: calls $0.02
+isennnn: folds
+Mibie: raises $0.04 to $0.06
+AlexHuday13: folds
+elexrus: folds
+aka_Kranv1ch: folds
+tom xiao0216: calls $0.04
+*** FLOP *** [Qc As 5h]
+tom xiao0216: checks
+Mibie: checks
+*** TURN *** [Qc As 5h] [Kc]
+tom xiao0216: bets $0.07
+Mibie: folds
+Uncalled bet ($0.07) returned to tom xiao0216
+tom xiao0216 collected $0.14 from pot
+tom xiao0216: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [Qc As 5h Kc]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 collected ($0.14)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: Mibie folded on the Turn
+Seat 7: AlexHuday13 (button) folded before Flop (didn't bet)
+Seat 8: elexrus (small blind) folded before Flop
+Seat 9: aka_Kranv1ch (big blind) folded before Flop
+
+
+
+PokerStars Hand #212184283628:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:06:48 ET
+Table 'Genoveva III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.48 in chips)
+Seat 2: partizan_vlg ($0.86 in chips)
+Seat 3: tom xiao0216 ($2.17 in chips)
+Seat 5: isennnn ($3.48 in chips)
+Seat 6: Mibie ($1.47 in chips)
+Seat 7: AlexHuday13 ($2.64 in chips)
+Seat 8: elexrus ($2.25 in chips)
+Seat 9: aka_Kranv1ch ($2.13 in chips)
+aka_Kranv1ch: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h 3c]
+partizan_vlg: folds
+tom xiao0216: folds
+isennnn: folds
+Mibie: folds
+AlexHuday13: folds
+elexrus: folds
+aka_Kranv1ch: calls $0.01
+pokerHero1: checks
+*** FLOP *** [Qs Td 2h]
+aka_Kranv1ch: checks
+pokerHero1: bets $0.04
+aka_Kranv1ch: folds
+Uncalled bet ($0.04) returned to pokerHero1
+pokerHero1 collected $0.04 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [Qs Td 2h]
+Seat 1: pokerHero1 (big blind) collected ($0.04)
+Seat 2: partizan_vlg folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: Mibie folded before Flop (didn't bet)
+Seat 7: AlexHuday13 folded before Flop (didn't bet)
+Seat 8: elexrus (button) folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch (small blind) folded on the Flop
+
+
+
+PokerStars Hand #212184327812:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:07:21 ET
+Table 'Genoveva III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.50 in chips)
+Seat 3: tom xiao0216 ($2.17 in chips)
+Seat 5: isennnn ($3.48 in chips)
+Seat 6: Mibie ($1.47 in chips)
+Seat 7: AlexHuday13 ($2.64 in chips)
+Seat 8: elexrus ($2.25 in chips)
+Seat 9: aka_Kranv1ch ($2.11 in chips)
+pokerHero1: posts small blind $0.01
+partizan_vlg: is sitting out
+partizan_vlg leaves the table
+tom xiao0216: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc 6c]
+isennnn: folds
+Mibie: folds
+AlexHuday13: folds
+elexrus: folds
+aka_Kranv1ch: raises $0.04 to $0.06
+pokerHero1: folds
+tom xiao0216: calls $0.04
+*** FLOP *** [7c 4d Kc]
+Gjuran95 joins the table at seat #2
+tom xiao0216: bets $0.04
+aka_Kranv1ch: folds
+Uncalled bet ($0.04) returned to tom xiao0216
+tom xiao0216 collected $0.13 from pot
+tom xiao0216: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [7c 4d Kc]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 3: tom xiao0216 (big blind) collected ($0.13)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: Mibie folded before Flop (didn't bet)
+Seat 7: AlexHuday13 folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch (button) folded on the Flop
+
+
+
+PokerStars Hand #212184381501:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:07:55 ET
+Table 'Genoveva III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.49 in chips)
+Seat 3: tom xiao0216 ($2.24 in chips)
+Seat 5: isennnn ($3.48 in chips)
+Seat 6: Mibie ($1.47 in chips)
+Seat 7: AlexHuday13 ($2.64 in chips)
+Seat 8: elexrus ($2.25 in chips)
+Seat 9: aka_Kranv1ch ($2.05 in chips)
+tom xiao0216: posts small blind $0.01
+isennnn: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th 8s]
+Mibie: folds
+AlexHuday13: folds
+elexrus: raises $0.04 to $0.06
+aka_Kranv1ch: folds
+pokerHero1: folds
+tom xiao0216: folds
+isennnn: folds
+Uncalled bet ($0.04) returned to elexrus
+elexrus collected $0.05 from pot
+elexrus: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 3: tom xiao0216 (small blind) folded before Flop
+Seat 5: isennnn (big blind) folded before Flop
+Seat 6: Mibie folded before Flop (didn't bet)
+Seat 7: AlexHuday13 folded before Flop (didn't bet)
+Seat 8: elexrus collected ($0.05)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184402113:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:08:11 ET
+Table 'Genoveva III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.49 in chips)
+Seat 3: tom xiao0216 ($2.23 in chips)
+Seat 5: isennnn ($3.46 in chips)
+Seat 6: Mibie ($1.47 in chips)
+Seat 7: AlexHuday13 ($2.64 in chips)
+Seat 8: elexrus ($2.28 in chips)
+Seat 9: aka_Kranv1ch ($2.05 in chips)
+isennnn: posts small blind $0.01
+Mibie: posts big blind $0.02
+Gjuran95: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js 5s]
+AlexHuday13: folds
+elexrus: folds
+aka_Kranv1ch: folds
+pokerHero1: folds
+tom xiao0216: folds
+isennnn: folds
+Uncalled bet ($0.01) returned to Mibie
+Mibie collected $0.02 from pot
+Mibie: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: tom xiao0216 (button) folded before Flop (didn't bet)
+Seat 5: isennnn (small blind) folded before Flop
+Seat 6: Mibie (big blind) collected ($0.02)
+Seat 7: AlexHuday13 folded before Flop (didn't bet)
+Seat 8: elexrus folded before Flop (didn't bet)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184419119:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:08:24 ET
+Table 'Genoveva III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.49 in chips)
+Seat 3: tom xiao0216 ($2.23 in chips)
+Seat 5: isennnn ($3.45 in chips)
+Seat 6: Mibie ($1.48 in chips)
+Seat 7: AlexHuday13 ($2.64 in chips)
+Seat 8: elexrus ($2.28 in chips)
+Seat 9: aka_Kranv1ch ($2.05 in chips)
+Mibie: posts small blind $0.01
+AlexHuday13: posts big blind $0.02
+Gjuran95: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9h 6d]
+elexrus: raises $0.04 to $0.06
+aka_Kranv1ch: folds
+pokerHero1: folds
+tom xiao0216: folds
+isennnn: folds
+Mibie: folds
+AlexHuday13: calls $0.04
+*** FLOP *** [5c 2s Kc]
+AlexHuday13: checks
+elexrus: bets $0.04
+AlexHuday13: folds
+Uncalled bet ($0.04) returned to elexrus
+elexrus collected $0.13 from pot
+elexrus: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [5c 2s Kc]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 5: isennnn (button) folded before Flop (didn't bet)
+Seat 6: Mibie (small blind) folded before Flop
+Seat 7: AlexHuday13 (big blind) folded on the Flop
+Seat 8: elexrus collected ($0.13)
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184501674:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:09:26 ET
+Table 'Genoveva III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.49 in chips)
+Seat 3: tom xiao0216 ($2.23 in chips)
+Seat 5: isennnn ($3.45 in chips)
+Seat 6: Mibie ($1.47 in chips)
+Seat 7: AlexHuday13 ($2.58 in chips)
+Seat 8: elexrus ($2.35 in chips)
+Seat 9: aka_Kranv1ch ($2.05 in chips)
+AlexHuday13: posts small blind $0.01
+elexrus: posts big blind $0.02
+Gjuran95: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d Ks]
+aka_Kranv1ch: folds
+pokerHero1: folds
+tom xiao0216: folds
+isennnn: folds
+Mibie: raises $0.04 to $0.06
+AlexHuday13: folds
+elexrus: raises $0.04 to $0.10
+Mibie: calls $0.04
+*** FLOP *** [4d 4c 8c]
+elexrus: bets $0.10
+Mibie: calls $0.10
+*** TURN *** [4d 4c 8c] [6c]
+elexrus: bets $0.28
+Mibie: calls $0.28
+*** RIVER *** [4d 4c 8c 6c] [8h]
+elexrus: bets $1
+Mibie: calls $0.99 and is all-in
+Uncalled bet ($0.01) returned to elexrus
+*** SHOW DOWN ***
+elexrus: shows [6h 6d] (a full house, Sixes full of Eights)
+Mibie: shows [Ac 4s] (a full house, Fours full of Eights)
+elexrus collected $2.85 from pot
+*** SUMMARY ***
+Total pot $2.95 | Rake $0.10
+Board [4d 4c 8c 6c 8h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop (didn't bet)
+Seat 5: isennnn folded before Flop (didn't bet)
+Seat 6: Mibie (button) showed [Ac 4s] and lost with a full house, Fours full of Eights
+Seat 7: AlexHuday13 (small blind) folded before Flop
+Seat 8: elexrus (big blind) showed [6h 6d] and won ($2.85) with a full house, Sixes full of Eights
+Seat 9: aka_Kranv1ch folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184606767:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:10:48 ET
+Table 'Genoveva III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.49 in chips)
+Seat 3: tom xiao0216 ($2.23 in chips)
+Seat 4: Kronos55 ($1.87 in chips)
+Seat 5: isennnn ($3.45 in chips)
+Seat 7: AlexHuday13 ($2.57 in chips)
+Seat 8: elexrus ($3.73 in chips)
+Seat 9: aka_Kranv1ch ($2.05 in chips)
+elexrus: posts small blind $0.01
+aka_Kranv1ch: posts big blind $0.02
+Gjuran95: sits out
+Kronos55: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d 8s]
+pokerHero1: folds
+tom xiao0216: calls $0.02
+Kronos55: checks
+isennnn: raises $0.08 to $0.10
+AlexHuday13: folds
+elexrus: folds
+aka_Kranv1ch: folds
+tom xiao0216: folds
+Kronos55: folds
+Uncalled bet ($0.08) returned to isennnn
+isennnn collected $0.10 from pot
+isennnn: doesn't show hand
+*** SUMMARY ***
+Total pot $0.10 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: tom xiao0216 folded before Flop
+Seat 4: Kronos55 folded before Flop (didn't bet)
+Seat 5: isennnn collected ($0.10)
+Seat 7: AlexHuday13 (button) folded before Flop (didn't bet)
+Seat 8: elexrus (small blind) folded before Flop
+Seat 9: aka_Kranv1ch (big blind) folded before Flop
+
+
+

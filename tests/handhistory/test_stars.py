@@ -109,6 +109,31 @@ PokerStars Hand #152504147861: Tournament #1545751329, 870+130 Hold'em No Limit 
     def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
         assert getattr(hand_header, attribute) == expected_value
 
+class TestHandHeaderNoLimitHoldemCashMoney:
+    hand_text = """
+        PokerStars Hand #212113412965:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 13:58:12 ET
+    """
+
+    @pytest.mark.parametrize(
+        ("attribute", "expected_value"),
+        [
+            ("ident", "212113412965"),
+            ("game_type", GameType.CASH),
+            ("tournament_ident", None),
+            ("tournament_level", None),
+            ("currency", Currency.USD),
+            ("buyin", None),
+            ("rake", None),
+            ("game", Game.HOLDEM),
+            ("limit", Limit.NL),
+            ("sb", Decimal('0.01')),
+            ("bb", Decimal('0.02')),
+            ("date", ET.localize(datetime(2020, 4, 16, 13, 58, 12))),
+            ("extra", {"money_type": MoneyType.REAL}),
+        ],
+    )
+    def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
+        assert getattr(hand_header, attribute) == expected_value
 
 class TestHandHeaderLimitHoldemCashPlayMoney:
     hand_text = """

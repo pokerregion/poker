@@ -1,0 +1,3817 @@
+﻿PokerStars Hand #212448093420:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:52:18 ET
+Table 'Lilio III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2 in chips)
+Seat 2: BoSs_DragonzZ ($1.39 in chips)
+Seat 3: wangkerd ($1.80 in chips)
+Seat 4: doiar ($2.81 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 6: gizmondouk ($2.16 in chips)
+Seat 7: ginger_cola ($1.92 in chips)
+Seat 8: bananmonster ($3.38 in chips)
+bananmonster: posts small blind $0.01
+pokertoma15: is sitting out
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As 3h]
+BoSs_DragonzZ: folds
+wangkerd: calls $0.02
+doiar: folds
+Anudrmdrfkr: folds
+gizmondouk: raises $0.06 to $0.08
+ginger_cola: folds
+bananmonster: folds
+pokerHero1: folds
+wangkerd: calls $0.06
+*** FLOP *** [Tc 4d 2d]
+wangkerd: checks
+gizmondouk: bets $0.10
+wangkerd: raises $0.26 to $0.36
+gizmondouk: folds
+Uncalled bet ($0.26) returned to wangkerd
+wangkerd collected $0.38 from pot
+*** SUMMARY ***
+Total pot $0.39 | Rake $0.01
+Board [Tc 4d 2d]
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 2: BoSs_DragonzZ folded before Flop (didn't bet)
+Seat 3: wangkerd collected ($0.38)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr folded before Flop (didn't bet)
+Seat 6: gizmondouk folded on the Flop
+Seat 7: ginger_cola (button) folded before Flop (didn't bet)
+Seat 8: bananmonster (small blind) folded before Flop
+
+
+
+PokerStars Hand #212448141385:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:53:14 ET
+Table 'Lilio III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($1.98 in chips)
+Seat 2: BoSs_DragonzZ ($1.39 in chips)
+Seat 3: wangkerd ($2 in chips)
+Seat 4: doiar ($2.81 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($1.92 in chips)
+Seat 8: bananmonster ($3.37 in chips)
+pokerHero1: posts small blind $0.01
+BoSs_DragonzZ: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kc 2h]
+wangkerd: folds
+doiar: folds
+Anudrmdrfkr: folds
+gizmondouk: folds
+ginger_cola has timed out
+ginger_cola: folds
+bananmonster: calls $0.02
+pokerHero1: folds
+BoSs_DragonzZ: checks
+*** FLOP *** [Tc 9c Th]
+BoSs_DragonzZ: checks
+bananmonster: checks
+*** TURN *** [Tc 9c Th] [Jd]
+BoSs_DragonzZ: checks
+bananmonster: checks
+*** RIVER *** [Tc 9c Th Jd] [Ah]
+BoSs_DragonzZ: checks
+bananmonster: checks
+*** SHOW DOWN ***
+BoSs_DragonzZ: shows [Ks 5s] (a pair of Tens)
+bananmonster: mucks hand
+BoSs_DragonzZ collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [Tc 9c Th Jd Ah]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: BoSs_DragonzZ (big blind) showed [Ks 5s] and won ($0.05) with a pair of Tens
+Seat 3: wangkerd folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: bananmonster (button) mucked [7h Qd]
+
+
+
+PokerStars Hand #212448197391:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:54:08 ET
+Table 'Lilio III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($1.97 in chips)
+Seat 2: BoSs_DragonzZ ($1.42 in chips)
+Seat 3: wangkerd ($2 in chips)
+Seat 4: doiar ($2.81 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($1.92 in chips)
+Seat 8: bananmonster ($3.35 in chips)
+BoSs_DragonzZ: posts small blind $0.01
+wangkerd: posts big blind $0.02
+pokertoma15: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s 5h]
+doiar: folds
+Anudrmdrfkr: calls $0.02
+gizmondouk: folds
+ginger_cola: folds
+bananmonster: folds
+pokerHero1: calls $0.02
+BoSs_DragonzZ: calls $0.01
+wangkerd: checks
+*** FLOP *** [4s 3d Kc]
+BoSs_DragonzZ: checks
+wangkerd: checks
+Anudrmdrfkr: checks
+pokerHero1: checks
+*** TURN *** [4s 3d Kc] [9c]
+BoSs_DragonzZ: bets $0.02
+wangkerd: raises $0.04 to $0.06
+Anudrmdrfkr: folds
+pokerHero1: folds
+BoSs_DragonzZ: raises $0.04 to $0.10
+wangkerd: calls $0.04
+*** RIVER *** [4s 3d Kc 9c] [3h]
+BoSs_DragonzZ: bets $0.27
+wangkerd: calls $0.27
+*** SHOW DOWN ***
+BoSs_DragonzZ: shows [9d 3c] (a full house, Threes full of Nines)
+wangkerd: mucks hand
+BoSs_DragonzZ collected $0.79 from pot
+*** SUMMARY ***
+Total pot $0.82 | Rake $0.03
+Board [4s 3d Kc 9c 3h]
+Seat 1: pokerHero1 (button) folded on the Turn
+Seat 2: BoSs_DragonzZ (small blind) showed [9d 3c] and won ($0.79) with a full house, Threes full of Nines
+Seat 3: wangkerd (big blind) mucked [Ks 6s]
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr folded on the Turn
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: bananmonster folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448255835:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:55:17 ET
+Table 'Lilio III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($1.95 in chips)
+Seat 2: BoSs_DragonzZ ($1.82 in chips)
+Seat 3: wangkerd ($1.61 in chips)
+Seat 4: doiar ($2.81 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($1.92 in chips)
+Seat 8: bananmonster ($3.35 in chips)
+wangkerd: posts small blind $0.01
+doiar: posts big blind $0.02
+pokertoma15: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d Th]
+Anudrmdrfkr: calls $0.02
+gizmondouk: folds
+ginger_cola: folds
+bananmonster: folds
+pokerHero1: folds
+BoSs_DragonzZ: folds
+wangkerd: raises $0.06 to $0.08
+doiar: folds
+Anudrmdrfkr: calls $0.06
+*** FLOP *** [Js 9h Ah]
+wangkerd: bets $0.08
+Anudrmdrfkr: calls $0.08
+*** TURN *** [Js 9h Ah] [7s]
+wangkerd: checks
+Anudrmdrfkr: bets $0.18
+wangkerd: calls $0.18
+*** RIVER *** [Js 9h Ah 7s] [8h]
+wangkerd: bets $1.27 and is all-in
+pokertoma15 leaves the table
+Anudrmdrfkr: calls $1.27
+*** SHOW DOWN ***
+wangkerd: shows [4h 6h] (a flush, Ace high)
+Anudrmdrfkr: shows [Tc Qs] (a straight, Eight to Queen)
+wangkerd collected $3.13 from pot
+*** SUMMARY ***
+Total pot $3.24 | Rake $0.11
+Board [Js 9h Ah 7s 8h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BoSs_DragonzZ (button) folded before Flop (didn't bet)
+Seat 3: wangkerd (small blind) showed [4h 6h] and won ($3.13) with a flush, Ace high
+Seat 4: doiar (big blind) folded before Flop
+Seat 5: Anudrmdrfkr showed [Tc Qs] and lost with a straight, Eight to Queen
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: bananmonster folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448292916:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:56:13 ET
+Table 'Lilio III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($1.95 in chips)
+Seat 2: BoSs_DragonzZ ($1.82 in chips)
+Seat 3: wangkerd ($3.13 in chips)
+Seat 4: doiar ($2.79 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($1.92 in chips)
+Seat 8: bananmonster ($3.35 in chips)
+doiar: posts small blind $0.01
+Anudrmdrfkr: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc 6s]
+gizmondouk: folds
+ginger_cola: raises $0.02 to $0.04
+greg7080 joins the table at seat #9
+bananmonster: folds
+pokerHero1: folds
+BoSs_DragonzZ: calls $0.04
+wangkerd: folds
+wangkerd leaves the table
+doiar: folds
+Anudrmdrfkr: folds
+*** FLOP *** [8s 4c Ks]
+ginger_cola: checks
+BoSs_DragonzZ: checks
+*** TURN *** [8s 4c Ks] [3h]
+ginger_cola: checks
+BoSs_DragonzZ: checks
+*** RIVER *** [8s 4c Ks 3h] [Qs]
+ginger_cola: checks
+BoSs_DragonzZ: bets $1.78 and is all-in
+ginger_cola: folds
+Uncalled bet ($1.78) returned to BoSs_DragonzZ
+BoSs_DragonzZ collected $0.11 from pot
+BoSs_DragonzZ: doesn't show hand
+*** SUMMARY ***
+Total pot $0.11 | Rake $0
+Board [8s 4c Ks 3h Qs]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BoSs_DragonzZ collected ($0.11)
+Seat 3: wangkerd (button) folded before Flop (didn't bet)
+Seat 4: doiar (small blind) folded before Flop
+Seat 5: Anudrmdrfkr (big blind) folded before Flop
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded on the River
+Seat 8: bananmonster folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448326225:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:57:04 ET
+Table 'Lilio III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($1.95 in chips)
+Seat 2: BoSs_DragonzZ ($1.89 in chips)
+Seat 4: doiar ($2.78 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($1.88 in chips)
+Seat 8: bananmonster ($3.35 in chips)
+Anudrmdrfkr: posts small blind $0.01
+gizmondouk: posts big blind $0.02
+greg7080: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s 7s]
+ginger_cola: raises $0.02 to $0.04
+bananmonster: folds
+pokerHero1: folds
+BoSs_DragonzZ: calls $0.04
+doiar: folds
+Anudrmdrfkr: calls $0.03
+gizmondouk: folds
+*** FLOP *** [9d Td 8c]
+Anudrmdrfkr: bets $0.14
+DoDo18041984 joins the table at seat #3
+ginger_cola: folds
+BoSs_DragonzZ: folds
+Uncalled bet ($0.14) returned to Anudrmdrfkr
+Anudrmdrfkr collected $0.14 from pot
+Anudrmdrfkr: doesn't show hand
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [9d Td 8c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BoSs_DragonzZ folded on the Flop
+Seat 4: doiar (button) folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr (small blind) collected ($0.14)
+Seat 6: gizmondouk (big blind) folded before Flop
+Seat 7: ginger_cola folded on the Flop
+Seat 8: bananmonster folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448350069:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:57:39 ET
+Table 'Lilio III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($1.95 in chips)
+Seat 2: BoSs_DragonzZ ($1.85 in chips)
+Seat 3: DoDo18041984 ($1 in chips)
+Seat 4: doiar ($2.78 in chips)
+Seat 5: Anudrmdrfkr ($2.10 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($1.84 in chips)
+Seat 8: bananmonster ($3.35 in chips)
+gizmondouk: posts small blind $0.01
+ginger_cola: posts big blind $0.02
+greg7080: sits out
+DoDo18041984: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d 5d]
+bananmonster: calls $0.02
+pokerHero1: folds
+BoSs_DragonzZ: calls $0.02
+DoDo18041984: checks
+doiar: raises $0.12 to $0.14
+Anudrmdrfkr: folds
+gizmondouk: folds
+ginger_cola: folds
+bananmonster: folds
+BoSs_DragonzZ: calls $0.12
+DoDo18041984: calls $0.12
+*** FLOP *** [Jh 7s 2h]
+BoSs_DragonzZ: checks
+DoDo18041984: bets $0.04
+doiar: calls $0.04
+BoSs_DragonzZ: calls $0.04
+*** TURN *** [Jh 7s 2h] [5c]
+BoSs_DragonzZ: checks
+DoDo18041984: checks
+doiar: checks
+*** RIVER *** [Jh 7s 2h 5c] [3c]
+BoSs_DragonzZ: bets $0.57
+DoDo18041984: raises $0.25 to $0.82 and is all-in
+doiar: folds
+BoSs_DragonzZ: calls $0.25
+*** SHOW DOWN ***
+DoDo18041984: shows [Td 7c] (a pair of Sevens)
+BoSs_DragonzZ: shows [Ac Js] (a pair of Jacks)
+BoSs_DragonzZ collected $2.15 from pot
+*** SUMMARY ***
+Total pot $2.23 | Rake $0.08
+Board [Jh 7s 2h 5c 3c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BoSs_DragonzZ showed [Ac Js] and won ($2.15) with a pair of Jacks
+Seat 3: DoDo18041984 showed [Td 7c] and lost with a pair of Sevens
+Seat 4: doiar folded on the River
+Seat 5: Anudrmdrfkr (button) folded before Flop (didn't bet)
+Seat 6: gizmondouk (small blind) folded before Flop
+Seat 7: ginger_cola (big blind) folded before Flop
+Seat 8: bananmonster folded before Flop
+
+
+
+PokerStars Hand #212448402214:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:58:56 ET
+Table 'Lilio III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($1.95 in chips)
+Seat 2: BoSs_DragonzZ ($3 in chips)
+Seat 4: doiar ($2.60 in chips)
+Seat 5: Anudrmdrfkr ($2.10 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($1.82 in chips)
+Seat 8: bananmonster ($3.33 in chips)
+ginger_cola: posts small blind $0.01
+bananmonster: posts big blind $0.02
+greg7080: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s Ad]
+pokerHero1: folds
+BoSs_DragonzZ: folds
+doiar: folds
+Anudrmdrfkr: folds
+DoDo18041984 leaves the table
+gizmondouk: folds
+ginger_cola: raises $0.04 to $0.06
+bananmonster: folds
+Uncalled bet ($0.04) returned to ginger_cola
+ginger_cola collected $0.04 from pot
+ginger_cola: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BoSs_DragonzZ folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr folded before Flop (didn't bet)
+Seat 6: gizmondouk (button) folded before Flop (didn't bet)
+Seat 7: ginger_cola (small blind) collected ($0.04)
+Seat 8: bananmonster (big blind) folded before Flop
+
+
+
+PokerStars Hand #212448417732:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:59:19 ET
+Table 'Lilio III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($1.95 in chips)
+Seat 2: BoSs_DragonzZ ($3 in chips)
+Seat 4: doiar ($2.60 in chips)
+Seat 5: Anudrmdrfkr ($2.10 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($1.84 in chips)
+Seat 8: bananmonster ($3.31 in chips)
+Seat 9: greg7080 ($2 in chips)
+bananmonster: posts small blind $0.01
+greg7080: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js 7d]
+pokerHero1: folds
+BoSs_DragonzZ: folds
+doiar: folds
+Anudrmdrfkr: folds
+gizmondouk: folds
+ginger_cola: folds
+bananmonster: calls $0.01
+greg7080: checks
+*** FLOP *** [Tc 3d As]
+bananmonster: checks
+greg7080: bets $0.04
+Benny1213 joins the table at seat #3
+bananmonster: folds
+Uncalled bet ($0.04) returned to greg7080
+greg7080 collected $0.04 from pot
+greg7080: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [Tc 3d As]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BoSs_DragonzZ folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola (button) folded before Flop (didn't bet)
+Seat 8: bananmonster (small blind) folded on the Flop
+Seat 9: greg7080 (big blind) collected ($0.04)
+
+
+
+PokerStars Hand #212448440748:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:59:53 ET
+Table 'Lilio III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($1.95 in chips)
+Seat 2: BoSs_DragonzZ ($3 in chips)
+Seat 4: doiar ($2.60 in chips)
+Seat 5: Anudrmdrfkr ($2.10 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($1.84 in chips)
+Seat 8: bananmonster ($3.29 in chips)
+Seat 9: greg7080 ($2.02 in chips)
+greg7080: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+Benny1213: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h 8h]
+BoSs_DragonzZ: calls $0.02
+doiar: folds
+Anudrmdrfkr: raises $0.06 to $0.08
+gizmondouk: folds
+ginger_cola: raises $0.08 to $0.16
+bananmonster: folds
+greg7080: folds
+pokerHero1: folds
+BoSs_DragonzZ: folds
+Anudrmdrfkr: calls $0.08
+*** FLOP *** [Th Ks Ac]
+Anudrmdrfkr: checks
+ginger_cola: bets $0.18
+Anudrmdrfkr: calls $0.18
+*** TURN *** [Th Ks Ac] [2d]
+Anudrmdrfkr: checks
+ginger_cola: bets $0.35
+Anudrmdrfkr: folds
+Uncalled bet ($0.35) returned to ginger_cola
+ginger_cola collected $0.70 from pot
+ginger_cola: doesn't show hand
+*** SUMMARY ***
+Total pot $0.73 | Rake $0.03
+Board [Th Ks Ac 2d]
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 2: BoSs_DragonzZ folded before Flop
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr folded on the Turn
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola collected ($0.70)
+Seat 8: bananmonster (button) folded before Flop (didn't bet)
+Seat 9: greg7080 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212448499149:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:01:12 ET
+Table 'Lilio III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($1.93 in chips)
+Seat 2: BoSs_DragonzZ ($2.98 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($2.20 in chips)
+Seat 8: bananmonster ($3.29 in chips)
+Seat 9: greg7080 ($2.01 in chips)
+pokerHero1: posts small blind $0.01
+BoSs_DragonzZ: posts big blind $0.02
+Benny1213: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d Ks]
+Anudrmdrfkr: folds
+gizmondouk: folds
+ginger_cola: folds
+bananmonster: folds
+greg7080: folds
+pokerHero1: raises $0.02 to $0.04
+BoSs_DragonzZ: calls $0.02
+*** FLOP *** [4s 2c 3c]
+pokerHero1: bets $0.04
+BoSs_DragonzZ: calls $0.04
+*** TURN *** [4s 2c 3c] [8s]
+pokerHero1: bets $0.04
+BoSs_DragonzZ: calls $0.04
+*** RIVER *** [4s 2c 3c 8s] [Ad]
+pokerHero1: checks
+BoSs_DragonzZ: checks
+*** SHOW DOWN ***
+pokerHero1: shows [4d Ks] (a pair of Fours)
+BoSs_DragonzZ: mucks hand
+pokerHero1 collected $0.23 from pot
+*** SUMMARY ***
+Total pot $0.24 | Rake $0.01
+Board [4s 2c 3c 8s Ad]
+Seat 1: pokerHero1 (small blind) showed [4d Ks] and won ($0.23) with a pair of Fours
+Seat 2: BoSs_DragonzZ (big blind) mucked [Th Qc]
+Seat 5: Anudrmdrfkr folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: bananmonster folded before Flop (didn't bet)
+Seat 9: greg7080 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448524411:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:01:44 ET
+Table 'Lilio III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.04 in chips)
+Seat 2: BoSs_DragonzZ ($2.86 in chips)
+Seat 3: Benny1213 ($2 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($2.20 in chips)
+Seat 8: bananmonster ($3.29 in chips)
+Seat 9: greg7080 ($2.01 in chips)
+BoSs_DragonzZ: posts small blind $0.01
+Benny1213: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d 5d]
+Anudrmdrfkr: raises $0.05 to $0.07
+gizmondouk: folds
+ginger_cola: folds
+bananmonster: folds
+greg7080: folds
+pokerHero1: folds
+BoSs_DragonzZ: folds
+Benny1213: folds
+Uncalled bet ($0.05) returned to Anudrmdrfkr
+Anudrmdrfkr collected $0.05 from pot
+Anudrmdrfkr: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: BoSs_DragonzZ (small blind) folded before Flop
+Seat 3: Benny1213 (big blind) folded before Flop
+Seat 5: Anudrmdrfkr collected ($0.05)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: bananmonster folded before Flop (didn't bet)
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448543781:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:02:05 ET
+Table 'Lilio III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.04 in chips)
+Seat 2: BoSs_DragonzZ ($2.85 in chips)
+Seat 3: Benny1213 ($2 in chips)
+Seat 5: Anudrmdrfkr ($2.03 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($2.20 in chips)
+Seat 8: bananmonster ($3.29 in chips)
+Seat 9: greg7080 ($2.01 in chips)
+Benny1213: posts small blind $0.01
+Anudrmdrfkr: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d 9c]
+gizmondouk: folds
+ginger_cola: raises $0.04 to $0.06
+bananmonster: calls $0.06
+greg7080: folds
+pokerHero1: folds
+BoSs_DragonzZ: folds
+Benny1213: folds
+Anudrmdrfkr: folds
+*** FLOP *** [Js 5h Jd]
+ginger_cola: bets $0.02
+BoSs_DragonzZ leaves the table
+bananmonster: raises $0.08 to $0.10
+ginger_cola: calls $0.08
+*** TURN *** [Js 5h Jd] [Qc]
+ginger_cola: checks
+bananmonster: checks
+*** RIVER *** [Js 5h Jd Qc] [6s]
+ginger_cola: checks
+bananmonster: checks
+*** SHOW DOWN ***
+ginger_cola: shows [Ah Kd] (a pair of Jacks)
+bananmonster: shows [Qs Ad] (two pair, Queens and Jacks)
+bananmonster collected $0.34 from pot
+*** SUMMARY ***
+Total pot $0.35 | Rake $0.01
+Board [Js 5h Jd Qc 6s]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BoSs_DragonzZ (button) folded before Flop (didn't bet)
+Seat 3: Benny1213 (small blind) folded before Flop
+Seat 5: Anudrmdrfkr (big blind) folded before Flop
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola showed [Ah Kd] and lost with a pair of Jacks
+Seat 8: bananmonster showed [Qs Ad] and won ($0.34) with two pair, Queens and Jacks
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448580511:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:02:47 ET
+Table 'Lilio III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.04 in chips)
+Seat 3: Benny1213 ($2 in chips)
+Seat 5: Anudrmdrfkr ($2.01 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($2.04 in chips)
+Seat 8: bananmonster ($3.47 in chips)
+Seat 9: greg7080 ($2.01 in chips)
+Anudrmdrfkr: posts small blind $0.01
+gizmondouk: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d 7s]
+ginger_cola: folds
+bananmonster: calls $0.02
+greg7080: folds
+pokerHero1: raises $0.06 to $0.08
+Benny1213: folds
+Anudrmdrfkr: folds
+gizmondouk: folds
+bananmonster: calls $0.06
+*** FLOP *** [Ks 5d 7h]
+bananmonster: checks
+pokerHero1: bets $0.08
+bananmonster: folds
+Uncalled bet ($0.08) returned to pokerHero1
+pokerHero1 collected $0.18 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [Ks 5d 7h]
+Seat 1: pokerHero1 collected ($0.18)
+Seat 3: Benny1213 (button) folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr (small blind) folded before Flop
+Seat 6: gizmondouk (big blind) folded before Flop
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: bananmonster folded on the Flop
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448606472:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:03:17 ET
+Table 'Lilio III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.14 in chips)
+Seat 3: Benny1213 ($2 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($2.04 in chips)
+Seat 8: bananmonster ($3.39 in chips)
+Seat 9: greg7080 ($2.01 in chips)
+gizmondouk: posts small blind $0.01
+ginger_cola: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc 7s]
+bananmonster: folds
+bananmonster leaves the table
+greg7080: folds
+pokerHero1: folds
+Benny1213: folds
+Anudrmdrfkr: folds
+nikisergi126 joins the table at seat #8
+gizmondouk: folds
+Uncalled bet ($0.01) returned to ginger_cola
+ginger_cola collected $0.02 from pot
+ginger_cola: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr (button) folded before Flop (didn't bet)
+Seat 6: gizmondouk (small blind) folded before Flop
+Seat 7: ginger_cola (big blind) collected ($0.02)
+Seat 8: bananmonster folded before Flop (didn't bet)
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448624673:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:03:38 ET
+Table 'Lilio III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.14 in chips)
+Seat 3: Benny1213 ($2 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($2.05 in chips)
+Seat 8: nikisergi126 ($0.80 in chips)
+Seat 9: greg7080 ($2.01 in chips)
+ginger_cola: posts small blind $0.01
+nikisergi126: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc Ks]
+greg7080: folds
+pokerHero1: folds
+Benny1213: raises $0.04 to $0.06
+Anudrmdrfkr: folds
+gizmondouk: folds
+ginger_cola: folds
+nikisergi126: folds
+Uncalled bet ($0.04) returned to Benny1213
+Benny1213 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: Benny1213 collected ($0.05)
+Seat 5: Anudrmdrfkr folded before Flop (didn't bet)
+Seat 6: gizmondouk (button) folded before Flop (didn't bet)
+Seat 7: ginger_cola (small blind) folded before Flop
+Seat 8: nikisergi126 (big blind) folded before Flop
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448641174:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:03:56 ET
+Table 'Lilio III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.14 in chips)
+Seat 3: Benny1213 ($2.03 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($2.04 in chips)
+Seat 8: nikisergi126 ($0.78 in chips)
+Seat 9: greg7080 ($2.01 in chips)
+nikisergi126: posts small blind $0.01
+greg7080: posts big blind $0.02
+doiar: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c Td]
+pokerHero1: folds
+Benny1213: folds
+Anudrmdrfkr: folds
+gizmondouk: folds
+ginger_cola: raises $0.02 to $0.04
+nikisergi126: calls $0.03
+greg7080: folds
+*** FLOP *** [Ac 9h 8s]
+nikisergi126: checks
+ginger_cola: checks
+*** TURN *** [Ac 9h 8s] [6s]
+nikisergi126: bets $0.05
+ginger_cola: calls $0.05
+*** RIVER *** [Ac 9h 8s 6s] [4c]
+vih09 joins the table at seat #2
+nikisergi126: bets $0.69 and is all-in
+ginger_cola: folds
+Uncalled bet ($0.69) returned to nikisergi126
+nikisergi126 collected $0.19 from pot
+nikisergi126: doesn't show hand
+*** SUMMARY ***
+Total pot $0.20 | Rake $0.01
+Board [Ac 9h 8s 6s 4c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola (button) folded on the River
+Seat 8: nikisergi126 (small blind) collected ($0.19)
+Seat 9: greg7080 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212448679619:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:04:39 ET
+Table 'Lilio III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.14 in chips)
+Seat 3: Benny1213 ($2.03 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($1.95 in chips)
+Seat 8: nikisergi126 ($0.88 in chips)
+Seat 9: greg7080 ($1.99 in chips)
+greg7080: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+vih09: sits out
+doiar: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kh 4h]
+Benny1213: folds
+Anudrmdrfkr: folds
+gizmondouk: folds
+ginger_cola: folds
+nikisergi126: folds
+greg7080: folds
+Uncalled bet ($0.01) returned to pokerHero1
+pokerHero1 collected $0.02 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: pokerHero1 (big blind) collected ($0.02)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: nikisergi126 (button) folded before Flop (didn't bet)
+Seat 9: greg7080 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212448693489:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:04:55 ET
+Table 'Lilio III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.15 in chips)
+Seat 2: vih09 ($1 in chips)
+Seat 3: Benny1213 ($2.03 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($1.95 in chips)
+Seat 8: nikisergi126 ($0.88 in chips)
+Seat 9: greg7080 ($1.98 in chips)
+pokerHero1: posts small blind $0.01
+vih09: posts big blind $0.02
+doiar: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c 5h]
+Benny1213: folds
+Anudrmdrfkr: folds
+gizmondouk: folds
+ginger_cola: folds
+nikisergi126: calls $0.02
+greg7080: raises $0.04 to $0.06
+pokerHero1: folds
+vih09: folds
+nikisergi126: calls $0.04
+*** FLOP *** [6c 3h 3d]
+nikisergi126: bets $0.82 and is all-in
+greg7080: folds
+Uncalled bet ($0.82) returned to nikisergi126
+nikisergi126 collected $0.14 from pot
+nikisergi126: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [6c 3h 3d]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: vih09 (big blind) folded before Flop
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: nikisergi126 collected ($0.14)
+Seat 9: greg7080 (button) folded on the Flop
+
+
+
+PokerStars Hand #212448728784:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:05:34 ET
+Table 'Lilio III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.14 in chips)
+Seat 2: vih09 ($0.98 in chips)
+Seat 3: Benny1213 ($2.03 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($1.95 in chips)
+Seat 8: nikisergi126 ($0.96 in chips)
+Seat 9: greg7080 ($1.94 in chips)
+vih09: posts small blind $0.01
+Benny1213: posts big blind $0.02
+doiar: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d 9h]
+Anudrmdrfkr: raises $0.05 to $0.07
+gizmondouk: folds
+ginger_cola: folds
+nikisergi126: calls $0.07
+greg7080: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: folds
+*** FLOP *** [6s Jd 9c]
+Anudrmdrfkr: checks
+nikisergi126: checks
+*** TURN *** [6s Jd 9c] [Tc]
+Anudrmdrfkr: bets $0.02
+nikisergi126: calls $0.02
+*** RIVER *** [6s Jd 9c Tc] [7h]
+Anudrmdrfkr: checks
+nikisergi126: checks
+*** SHOW DOWN ***
+Anudrmdrfkr: shows [Jh Jc] (three of a kind, Jacks)
+nikisergi126: mucks hand
+Anudrmdrfkr collected $0.20 from pot
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [6s Jd 9c Tc 7h]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: vih09 (small blind) folded before Flop
+Seat 3: Benny1213 (big blind) folded before Flop
+Seat 5: Anudrmdrfkr showed [Jh Jc] and won ($0.20) with three of a kind, Jacks
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: nikisergi126 mucked [4h Ah]
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448785488:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:06:36 ET
+Table 'Lilio III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.14 in chips)
+Seat 2: vih09 ($0.97 in chips)
+Seat 3: Benny1213 ($2.01 in chips)
+Seat 4: doiar ($2.60 in chips)
+Seat 5: Anudrmdrfkr ($2.11 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($1.95 in chips)
+Seat 8: nikisergi126 ($0.87 in chips)
+Seat 9: greg7080 ($2 in chips)
+Benny1213: posts small blind $0.01
+doiar: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js 5c]
+Anudrmdrfkr: calls $0.02
+gizmondouk: folds
+ginger_cola: folds
+nikisergi126: folds
+greg7080: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: folds
+doiar: checks
+*** FLOP *** [6d 4h 4c]
+doiar: checks
+Anudrmdrfkr: checks
+*** TURN *** [6d 4h 4c] [6s]
+doiar: checks
+Anudrmdrfkr: checks
+*** RIVER *** [6d 4h 4c 6s] [Ac]
+doiar: checks
+Anudrmdrfkr: checks
+*** SHOW DOWN ***
+doiar: shows [9h Tc] (two pair, Sixes and Fours)
+Anudrmdrfkr: shows [Ts 9s] (two pair, Sixes and Fours)
+doiar collected $0.03 from pot
+Anudrmdrfkr collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [6d 4h 4c 6s Ac]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 (button) folded before Flop (didn't bet)
+Seat 3: Benny1213 (small blind) folded before Flop
+Seat 4: doiar (big blind) showed [9h Tc] and won ($0.03) with two pair, Sixes and Fours
+Seat 5: Anudrmdrfkr showed [Ts 9s] and won ($0.02) with two pair, Sixes and Fours
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: nikisergi126 folded before Flop (didn't bet)
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448823124:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:07:18 ET
+Table 'Lilio III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.14 in chips)
+Seat 2: vih09 ($0.97 in chips)
+Seat 3: Benny1213 ($2 in chips)
+Seat 4: doiar ($2.61 in chips)
+Seat 5: Anudrmdrfkr ($2.11 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($1.95 in chips)
+Seat 8: nikisergi126 ($0.87 in chips)
+Seat 9: greg7080 ($2 in chips)
+doiar: posts small blind $0.01
+Anudrmdrfkr: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c 4c]
+gizmondouk: folds
+ginger_cola: folds
+nikisergi126: calls $0.02
+greg7080: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: folds
+doiar: raises $0.04 to $0.06
+Anudrmdrfkr: folds
+nikisergi126: calls $0.04
+*** FLOP *** [4h 3c 3h]
+doiar: checks
+nikisergi126: bets $0.81 and is all-in
+doiar: folds
+Uncalled bet ($0.81) returned to nikisergi126
+nikisergi126 collected $0.14 from pot
+nikisergi126: doesn't show hand
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [4h 3c 3h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 (button) folded before Flop (didn't bet)
+Seat 4: doiar (small blind) folded on the Flop
+Seat 5: Anudrmdrfkr (big blind) folded before Flop
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: nikisergi126 collected ($0.14)
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448875034:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:08:16 ET
+Table 'Lilio III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.14 in chips)
+Seat 2: vih09 ($0.97 in chips)
+Seat 3: Benny1213 ($2 in chips)
+Seat 4: doiar ($2.55 in chips)
+Seat 5: Anudrmdrfkr ($2.09 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($1.95 in chips)
+Seat 8: nikisergi126 ($0.95 in chips)
+Seat 9: greg7080 ($2 in chips)
+Anudrmdrfkr: posts small blind $0.01
+gizmondouk: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jh 7c]
+ginger_cola: folds
+nikisergi126: folds
+greg7080: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: folds
+doiar: folds
+Anudrmdrfkr: folds
+Uncalled bet ($0.01) returned to gizmondouk
+gizmondouk collected $0.02 from pot
+gizmondouk: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar (button) folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr (small blind) folded before Flop
+Seat 6: gizmondouk (big blind) collected ($0.02)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: nikisergi126 folded before Flop (didn't bet)
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448894572:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:08:38 ET
+Table 'Lilio III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.14 in chips)
+Seat 2: vih09 ($0.97 in chips)
+Seat 3: Benny1213 ($2 in chips)
+Seat 4: doiar ($2.55 in chips)
+Seat 5: Anudrmdrfkr ($2.08 in chips)
+Seat 6: gizmondouk ($2.01 in chips)
+Seat 7: ginger_cola ($1.95 in chips)
+Seat 8: nikisergi126 ($0.95 in chips)
+Seat 9: greg7080 ($2 in chips)
+gizmondouk: posts small blind $0.01
+ginger_cola: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8h 4s]
+nikisergi126: folds
+greg7080: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: folds
+doiar: folds
+Anudrmdrfkr: folds
+gizmondouk: folds
+Uncalled bet ($0.01) returned to ginger_cola
+ginger_cola collected $0.02 from pot
+ginger_cola: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr (button) folded before Flop (didn't bet)
+Seat 6: gizmondouk (small blind) folded before Flop
+Seat 7: ginger_cola (big blind) collected ($0.02)
+Seat 8: nikisergi126 folded before Flop (didn't bet)
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448922147:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:09:09 ET
+Table 'Lilio III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.14 in chips)
+Seat 2: vih09 ($0.97 in chips)
+Seat 3: Benny1213 ($2 in chips)
+Seat 4: doiar ($2.55 in chips)
+Seat 5: Anudrmdrfkr ($2.08 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($1.96 in chips)
+Seat 8: nikisergi126 ($0.95 in chips)
+Seat 9: greg7080 ($2 in chips)
+ginger_cola: posts small blind $0.01
+nikisergi126: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c 9h]
+greg7080: folds
+pokerHero1: folds
+vih09: calls $0.02
+Benny1213: raises $0.06 to $0.08
+doiar: folds
+Anudrmdrfkr: calls $0.08
+gizmondouk: folds
+ginger_cola: folds
+nikisergi126: folds
+vih09: calls $0.06
+*** FLOP *** [8h 4s 7d]
+vih09: checks
+nikisergi126 leaves the table
+Benny1213: bets $0.17
+Anudrmdrfkr: folds
+vih09: folds
+Uncalled bet ($0.17) returned to Benny1213
+Benny1213 collected $0.26 from pot
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01
+Board [8h 4s 7d]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded on the Flop
+Seat 3: Benny1213 collected ($0.26)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr folded on the Flop
+Seat 6: gizmondouk (button) folded before Flop (didn't bet)
+Seat 7: ginger_cola (small blind) folded before Flop
+Seat 8: nikisergi126 (big blind) folded before Flop
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448973723:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:09:59 ET
+Table 'Lilio III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.14 in chips)
+Seat 2: vih09 ($0.89 in chips)
+Seat 3: Benny1213 ($2.18 in chips)
+Seat 4: doiar ($2.55 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($1.95 in chips)
+Seat 9: greg7080 ($2 in chips)
+greg7080: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s 4s]
+vih09: calls $0.02
+Benny1213: folds
+doiar: raises $0.04 to $0.06
+Anudrmdrfkr: calls $0.06
+gizmondouk: folds
+ginger_cola: folds
+greg7080: folds
+pokerHero1: folds
+vih09: calls $0.04
+*** FLOP *** [5h Tc 3c]
+vih09: checks
+doiar: checks
+Anudrmdrfkr: checks
+*** TURN *** [5h Tc 3c] [8s]
+vih09: checks
+doiar: bets $0.12
+Anudrmdrfkr: folds
+vih09: folds
+Uncalled bet ($0.12) returned to doiar
+doiar collected $0.20 from pot
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [5h Tc 3c 8s]
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 2: vih09 folded on the Turn
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar collected ($0.20)
+Seat 5: Anudrmdrfkr folded on the Turn
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola (button) folded before Flop (didn't bet)
+Seat 9: greg7080 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212449022983:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:10:54 ET
+Table 'Lilio III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.12 in chips)
+Seat 2: vih09 ($0.83 in chips)
+Seat 3: Benny1213 ($2.18 in chips)
+Seat 4: doiar ($2.69 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 6: gizmondouk ($2 in chips)
+Seat 7: ginger_cola ($1.95 in chips)
+Seat 9: greg7080 ($2 in chips)
+Gune4ka joins the table at seat #8
+pokerHero1: posts small blind $0.01
+vih09: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th Kd]
+Benny1213: folds
+doiar: folds
+Anudrmdrfkr: folds
+gizmondouk: raises $0.04 to $0.06
+ginger_cola: calls $0.06
+greg7080: calls $0.06
+pokerHero1: folds
+vih09: folds
+*** FLOP *** [7d Kh 4h]
+gizmondouk: checks
+ginger_cola: checks
+greg7080: checks
+*** TURN *** [7d Kh 4h] [4d]
+gizmondouk: checks
+ginger_cola: checks
+greg7080: checks
+*** RIVER *** [7d Kh 4h 4d] [2s]
+gizmondouk: checks
+ginger_cola: checks
+greg7080: checks
+*** SHOW DOWN ***
+gizmondouk: shows [Qc Qs] (two pair, Queens and Fours)
+ginger_cola: mucks hand
+greg7080: mucks hand
+gizmondouk collected $0.20 from pot
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [7d Kh 4h 4d 2s]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: vih09 (big blind) folded before Flop
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr folded before Flop (didn't bet)
+Seat 6: gizmondouk showed [Qc Qs] and won ($0.20) with two pair, Queens and Fours
+Seat 7: ginger_cola mucked [6c 5c]
+Seat 9: greg7080 (button) mucked [Ah Qd]
+
+
+
+PokerStars Hand #212449073593:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:11:51 ET
+Table 'Lilio III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.11 in chips)
+Seat 2: vih09 ($0.81 in chips)
+Seat 3: Benny1213 ($2.18 in chips)
+Seat 4: doiar ($2.69 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 6: gizmondouk ($2.14 in chips)
+Seat 7: ginger_cola ($1.89 in chips)
+Seat 9: greg7080 ($1.94 in chips)
+vih09: posts small blind $0.01
+Benny1213: posts big blind $0.02
+Gune4ka: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd 4c]
+doiar: folds
+Anudrmdrfkr: raises $0.05 to $0.07
+gizmondouk: folds
+ginger_cola: folds
+greg7080: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: folds
+Uncalled bet ($0.05) returned to Anudrmdrfkr
+Anudrmdrfkr collected $0.05 from pot
+Anudrmdrfkr: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: vih09 (small blind) folded before Flop
+Seat 3: Benny1213 (big blind) folded before Flop
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr collected ($0.05)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449110302:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:12:32 ET
+Table 'Lilio III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.11 in chips)
+Seat 2: vih09 ($0.80 in chips)
+Seat 3: Benny1213 ($2.16 in chips)
+Seat 4: doiar ($2.69 in chips)
+Seat 5: Anudrmdrfkr ($2.03 in chips)
+Seat 6: gizmondouk ($2.14 in chips)
+Seat 7: ginger_cola ($1.89 in chips)
+Seat 9: greg7080 ($2 in chips)
+Benny1213: posts small blind $0.01
+doiar: posts big blind $0.02
+Gune4ka: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3s 4d]
+Anudrmdrfkr: folds
+gizmondouk: folds
+ginger_cola: raises $0.02 to $0.04
+greg7080: calls $0.04
+pokerHero1: folds
+vih09: folds
+Benny1213: calls $0.03
+doiar: folds
+*** FLOP *** [6c Qs 8h]
+Benny1213: checks
+ginger_cola: bets $0.07
+greg7080: folds
+Benny1213: folds
+Uncalled bet ($0.07) returned to ginger_cola
+ginger_cola collected $0.14 from pot
+ginger_cola: doesn't show hand
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [6c Qs 8h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 (button) folded before Flop (didn't bet)
+Seat 3: Benny1213 (small blind) folded on the Flop
+Seat 4: doiar (big blind) folded before Flop
+Seat 5: Anudrmdrfkr folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola collected ($0.14)
+Seat 9: greg7080 folded on the Flop
+
+
+
+PokerStars Hand #212449169087:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:13:32 ET
+Table 'Lilio III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.11 in chips)
+Seat 2: vih09 ($0.80 in chips)
+Seat 3: Benny1213 ($2.12 in chips)
+Seat 4: doiar ($2.67 in chips)
+Seat 5: Anudrmdrfkr ($2.03 in chips)
+Seat 6: gizmondouk ($2.14 in chips)
+Seat 7: ginger_cola ($1.99 in chips)
+Seat 9: greg7080 ($1.96 in chips)
+doiar: posts small blind $0.01
+Anudrmdrfkr: posts big blind $0.02
+Gune4ka: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3s 8h]
+gizmondouk: folds
+ginger_cola: folds
+greg7080: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: folds
+doiar: raises $0.02 to $0.04
+Anudrmdrfkr: folds
+Uncalled bet ($0.02) returned to doiar
+doiar collected $0.04 from pot
+doiar: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 (button) folded before Flop (didn't bet)
+Seat 4: doiar (small blind) collected ($0.04)
+Seat 5: Anudrmdrfkr (big blind) folded before Flop
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449192662:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:13:58 ET
+Table 'Lilio III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.11 in chips)
+Seat 2: vih09 ($0.80 in chips)
+Seat 3: Benny1213 ($2.12 in chips)
+Seat 4: doiar ($2.69 in chips)
+Seat 5: Anudrmdrfkr ($2.01 in chips)
+Seat 6: gizmondouk ($2.14 in chips)
+Seat 7: ginger_cola ($1.99 in chips)
+Seat 9: greg7080 ($2 in chips)
+Anudrmdrfkr: posts small blind $0.01
+gizmondouk: posts big blind $0.02
+Gune4ka: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7h Jd]
+ginger_cola: folds
+greg7080: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: folds
+doiar: raises $0.04 to $0.06
+Anudrmdrfkr: folds
+gizmondouk: folds
+Uncalled bet ($0.04) returned to doiar
+doiar collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar (button) collected ($0.05)
+Seat 5: Anudrmdrfkr (small blind) folded before Flop
+Seat 6: gizmondouk (big blind) folded before Flop
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449219990:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:14:29 ET
+Table 'Lilio III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.11 in chips)
+Seat 2: vih09 ($0.80 in chips)
+Seat 3: Benny1213 ($2.12 in chips)
+Seat 4: doiar ($2.72 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 6: gizmondouk ($2.12 in chips)
+Seat 7: ginger_cola ($1.99 in chips)
+Seat 9: greg7080 ($2 in chips)
+gizmondouk: posts small blind $0.01
+ginger_cola: posts big blind $0.02
+Gune4ka: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d Tc]
+greg7080: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: raises $0.04 to $0.06
+doiar: folds
+Anudrmdrfkr: folds
+gizmondouk: folds
+ginger_cola: folds
+Uncalled bet ($0.04) returned to Benny1213
+Benny1213 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 collected ($0.05)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr (button) folded before Flop (didn't bet)
+Seat 6: gizmondouk (small blind) folded before Flop
+Seat 7: ginger_cola (big blind) folded before Flop
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449248218:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:15:01 ET
+Table 'Lilio III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.11 in chips)
+Seat 2: vih09 ($0.80 in chips)
+Seat 3: Benny1213 ($2.15 in chips)
+Seat 4: doiar ($2.72 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 6: gizmondouk ($2.11 in chips)
+Seat 7: ginger_cola ($1.97 in chips)
+Seat 8: Gune4ka ($2 in chips)
+Seat 9: greg7080 ($2 in chips)
+ginger_cola: posts small blind $0.01
+Gune4ka: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd 2d]
+greg7080: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: folds
+doiar: folds
+Anudrmdrfkr: folds
+gizmondouk: raises $0.04 to $0.06
+ginger_cola: calls $0.05
+Gune4ka: folds
+*** FLOP *** [Ts 5d 7s]
+ginger_cola: checks
+gizmondouk: bets $0.10
+ginger_cola: folds
+Uncalled bet ($0.10) returned to gizmondouk
+gizmondouk collected $0.14 from pot
+gizmondouk: doesn't show hand
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [Ts 5d 7s]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr folded before Flop (didn't bet)
+Seat 6: gizmondouk (button) collected ($0.14)
+Seat 7: ginger_cola (small blind) folded on the Flop
+Seat 8: Gune4ka (big blind) folded before Flop
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449302458:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:16:01 ET
+Table 'Lilio III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.11 in chips)
+Seat 2: vih09 ($0.80 in chips)
+Seat 3: Benny1213 ($2.15 in chips)
+Seat 4: doiar ($2.72 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 6: gizmondouk ($2.19 in chips)
+Seat 7: ginger_cola ($1.91 in chips)
+Seat 8: Gune4ka ($1.98 in chips)
+Seat 9: greg7080 ($2 in chips)
+Gune4ka: posts small blind $0.01
+greg7080: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s 6s]
+pokerHero1: folds
+vih09: folds
+Benny1213: raises $0.04 to $0.06
+doiar: folds
+Anudrmdrfkr has timed out
+Anudrmdrfkr: folds
+gizmondouk: folds
+ginger_cola: folds
+Gune4ka: folds
+greg7080: folds
+Uncalled bet ($0.04) returned to Benny1213
+Benny1213 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 collected ($0.05)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola (button) folded before Flop (didn't bet)
+Seat 8: Gune4ka (small blind) folded before Flop
+Seat 9: greg7080 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212449344637:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:16:48 ET
+Table 'Lilio III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.11 in chips)
+Seat 2: vih09 ($0.80 in chips)
+Seat 3: Benny1213 ($2.18 in chips)
+Seat 4: doiar ($2.72 in chips)
+Seat 7: ginger_cola ($1.91 in chips)
+Seat 8: Gune4ka ($1.97 in chips)
+Seat 9: greg7080 ($1.98 in chips)
+greg7080: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc 4d]
+Anudrmdrfkr is disconnected
+vih09: folds
+Benny1213: folds
+doiar: folds
+ginger_cola: folds
+Gune4ka: calls $0.02
+greg7080: folds
+pokerHero1: checks
+*** FLOP *** [4s 8d 6s]
+pokerHero1: checks
+Gune4ka: checks
+*** TURN *** [4s 8d 6s] [8s]
+pokerHero1: checks
+Gune4ka: bets $0.02
+pokerHero1: folds
+Uncalled bet ($0.02) returned to Gune4ka
+Gune4ka collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [4s 8d 6s 8s]
+Seat 1: pokerHero1 (big blind) folded on the Turn
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: Gune4ka (button) collected ($0.05)
+Seat 9: greg7080 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212449375384:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:17:23 ET
+Table 'Lilio III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.09 in chips)
+Seat 2: vih09 ($0.80 in chips)
+Seat 3: Benny1213 ($2.18 in chips)
+Seat 4: doiar ($2.72 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 7: ginger_cola ($1.91 in chips)
+Seat 8: Gune4ka ($2 in chips)
+Seat 9: greg7080 ($2 in chips)
+pokerHero1: posts small blind $0.01
+vih09: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2s 6s]
+Benny1213: folds
+doiar: folds
+Anudrmdrfkr: raises $0.06 to $0.08
+ginger_cola: folds
+Gune4ka: folds
+greg7080: folds
+pokerHero1: folds
+vih09: folds
+Uncalled bet ($0.06) returned to Anudrmdrfkr
+Anudrmdrfkr collected $0.05 from pot
+Anudrmdrfkr: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: vih09 (big blind) folded before Flop
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr collected ($0.05)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: greg7080 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449391969:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:17:41 ET
+Table 'Lilio III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.08 in chips)
+Seat 2: vih09 ($0.78 in chips)
+Seat 3: Benny1213 ($2.18 in chips)
+Seat 4: doiar ($2.72 in chips)
+Seat 5: Anudrmdrfkr ($2.03 in chips)
+Seat 7: ginger_cola ($1.91 in chips)
+Seat 8: Gune4ka ($2 in chips)
+Seat 9: greg7080 ($2 in chips)
+vih09: posts small blind $0.01
+Benny1213: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s Tc]
+doiar: folds
+Anudrmdrfkr: folds
+ginger_cola: raises $0.02 to $0.04
+Gune4ka: folds
+greg7080: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: folds
+Uncalled bet ($0.02) returned to ginger_cola
+ginger_cola collected $0.05 from pot
+ginger_cola: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: vih09 (small blind) folded before Flop
+Seat 3: Benny1213 (big blind) folded before Flop
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr folded before Flop (didn't bet)
+Seat 7: ginger_cola collected ($0.05)
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449415038:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:18:07 ET
+Table 'Lilio III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.08 in chips)
+Seat 2: vih09 ($0.77 in chips)
+Seat 3: Benny1213 ($2.16 in chips)
+Seat 4: doiar ($2.72 in chips)
+Seat 5: Anudrmdrfkr ($2.03 in chips)
+Seat 7: ginger_cola ($1.94 in chips)
+Seat 8: Gune4ka ($2 in chips)
+Seat 9: greg7080 ($2 in chips)
+Benny1213: posts small blind $0.01
+doiar: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad 7c]
+Anudrmdrfkr: folds
+ginger_cola: raises $0.02 to $0.04
+Gune4ka: folds
+greg7080: calls $0.04
+pokerHero1: folds
+vih09: folds
+Benny1213: folds
+doiar: folds
+*** FLOP *** [5c 6s 3c]
+ginger_cola: checks
+greg7080: checks
+*** TURN *** [5c 6s 3c] [Kd]
+ginger_cola: checks
+greg7080: checks
+*** RIVER *** [5c 6s 3c Kd] [6d]
+ginger_cola: checks
+greg7080: checks
+*** SHOW DOWN ***
+ginger_cola: shows [2h Ah] (a pair of Sixes)
+greg7080: mucks hand
+ginger_cola collected $0.11 from pot
+*** SUMMARY ***
+Total pot $0.11 | Rake $0
+Board [5c 6s 3c Kd 6d]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 (button) folded before Flop (didn't bet)
+Seat 3: Benny1213 (small blind) folded before Flop
+Seat 4: doiar (big blind) folded before Flop
+Seat 5: Anudrmdrfkr folded before Flop (didn't bet)
+Seat 7: ginger_cola showed [2h Ah] and won ($0.11) with a pair of Sixes
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: greg7080 mucked [Ts Qs]
+
+
+
+PokerStars Hand #212449465515:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:19:04 ET
+Table 'Lilio III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.08 in chips)
+Seat 2: vih09 ($0.77 in chips)
+Seat 3: Benny1213 ($2.15 in chips)
+Seat 4: doiar ($2.70 in chips)
+Seat 5: Anudrmdrfkr ($2.03 in chips)
+Seat 7: ginger_cola ($2.01 in chips)
+Seat 8: Gune4ka ($2 in chips)
+Seat 9: greg7080 ($1.96 in chips)
+doiar: posts small blind $0.01
+Anudrmdrfkr: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5c Js]
+ginger_cola: folds
+Gune4ka: folds
+greg7080: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: folds
+doiar: folds
+Uncalled bet ($0.01) returned to Anudrmdrfkr
+Anudrmdrfkr collected $0.02 from pot
+Anudrmdrfkr: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 (button) folded before Flop (didn't bet)
+Seat 4: doiar (small blind) folded before Flop
+Seat 5: Anudrmdrfkr (big blind) collected ($0.02)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449484735:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:19:25 ET
+Table 'Lilio III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.08 in chips)
+Seat 2: vih09 ($0.77 in chips)
+Seat 3: Benny1213 ($2.15 in chips)
+Seat 4: doiar ($2.69 in chips)
+Seat 5: Anudrmdrfkr ($2.04 in chips)
+Seat 6: gizmondouk ($2.19 in chips)
+Seat 7: ginger_cola ($2.01 in chips)
+Seat 8: Gune4ka ($2 in chips)
+Seat 9: greg7080 ($1.96 in chips)
+Anudrmdrfkr: posts small blind $0.01
+gizmondouk: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3c Qh]
+ginger_cola: raises $0.04 to $0.06
+Gune4ka: folds
+greg7080: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: folds
+doiar: folds
+Anudrmdrfkr: folds
+gizmondouk: folds
+Uncalled bet ($0.04) returned to ginger_cola
+ginger_cola collected $0.05 from pot
+ginger_cola: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar (button) folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr (small blind) folded before Flop
+Seat 6: gizmondouk (big blind) folded before Flop
+Seat 7: ginger_cola collected ($0.05)
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449514697:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:19:59 ET
+Table 'Lilio III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.08 in chips)
+Seat 2: vih09 ($0.77 in chips)
+Seat 3: Benny1213 ($2.15 in chips)
+Seat 4: doiar ($2.69 in chips)
+Seat 5: Anudrmdrfkr ($2.03 in chips)
+Seat 6: gizmondouk ($2.17 in chips)
+Seat 7: ginger_cola ($2.04 in chips)
+Seat 8: Gune4ka ($2 in chips)
+Seat 9: greg7080 ($2 in chips)
+gizmondouk: posts small blind $0.01
+ginger_cola: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s 6c]
+Gune4ka: folds
+greg7080: raises $0.04 to $0.06
+pokerHero1: folds
+vih09: calls $0.06
+Benny1213: folds
+doiar: folds
+Anudrmdrfkr: folds
+gizmondouk: folds
+ginger_cola: folds
+*** FLOP *** [Ks 3s Ts]
+greg7080: bets $0.07
+vih09: calls $0.07
+*** TURN *** [Ks 3s Ts] [2h]
+greg7080: bets $0.14
+vih09: calls $0.14
+*** RIVER *** [Ks 3s Ts 2h] [9s]
+greg7080: checks
+vih09: bets $0.50 and is all-in
+greg7080: folds
+Uncalled bet ($0.50) returned to vih09
+vih09 collected $0.55 from pot
+vih09: doesn't show hand
+*** SUMMARY ***
+Total pot $0.57 | Rake $0.02
+Board [Ks 3s Ts 2h 9s]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 collected ($0.55)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr (button) folded before Flop (didn't bet)
+Seat 6: gizmondouk (small blind) folded before Flop
+Seat 7: ginger_cola (big blind) folded before Flop
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: greg7080 folded on the River
+
+
+
+PokerStars Hand #212449565521:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:20:56 ET
+Table 'Lilio III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.08 in chips)
+Seat 2: vih09 ($1.05 in chips)
+Seat 3: Benny1213 ($2.15 in chips)
+Seat 4: doiar ($2.69 in chips)
+Seat 5: Anudrmdrfkr ($2.03 in chips)
+Seat 6: gizmondouk ($2.16 in chips)
+Seat 7: ginger_cola ($2.02 in chips)
+Seat 8: Gune4ka ($2 in chips)
+Seat 9: greg7080 ($1.73 in chips)
+ginger_cola: posts small blind $0.01
+Gune4ka: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d Qc]
+greg7080: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: folds
+doiar: raises $0.04 to $0.06
+Anudrmdrfkr: folds
+gizmondouk: folds
+ginger_cola: folds
+Gune4ka: folds
+Uncalled bet ($0.04) returned to doiar
+doiar collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar collected ($0.05)
+Seat 5: Anudrmdrfkr folded before Flop (didn't bet)
+Seat 6: gizmondouk (button) folded before Flop (didn't bet)
+Seat 7: ginger_cola (small blind) folded before Flop
+Seat 8: Gune4ka (big blind) folded before Flop
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449596884:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:21:32 ET
+Table 'Lilio III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.08 in chips)
+Seat 2: vih09 ($1.05 in chips)
+Seat 3: Benny1213 ($2.15 in chips)
+Seat 4: doiar ($2.72 in chips)
+Seat 5: Anudrmdrfkr ($2.03 in chips)
+Seat 6: gizmondouk ($2.16 in chips)
+Seat 7: ginger_cola ($2.01 in chips)
+Seat 8: Gune4ka ($1.98 in chips)
+Seat 9: greg7080 ($2 in chips)
+Gune4ka: posts small blind $0.01
+greg7080: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6h 6c]
+pokerHero1: calls $0.02
+vih09: calls $0.02
+Benny1213: folds
+doiar: folds
+Anudrmdrfkr: folds
+gizmondouk: folds
+ginger_cola: folds
+Gune4ka: calls $0.01
+greg7080: raises $0.10 to $0.12
+pokerHero1: calls $0.10
+vih09: calls $0.10
+Gune4ka: folds
+*** FLOP *** [3d Kh Th]
+greg7080: bets $0.19
+pokerHero1: folds
+vih09: calls $0.19
+*** TURN *** [3d Kh Th] [Ad]
+greg7080: bets $0.73
+vih09: folds
+Uncalled bet ($0.73) returned to greg7080
+greg7080 collected $0.73 from pot
+greg7080: doesn't show hand
+*** SUMMARY ***
+Total pot $0.76 | Rake $0.03
+Board [3d Kh Th Ad]
+Seat 1: pokerHero1 folded on the Flop
+Seat 2: vih09 folded on the Turn
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola (button) folded before Flop (didn't bet)
+Seat 8: Gune4ka (small blind) folded before Flop
+Seat 9: greg7080 (big blind) collected ($0.73)
+
+
+
+PokerStars Hand #212449676004:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:22:51 ET
+Table 'Lilio III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($1.96 in chips)
+Seat 2: vih09 ($0.74 in chips)
+Seat 3: Benny1213 ($2.15 in chips)
+Seat 4: doiar ($2.72 in chips)
+Seat 5: Anudrmdrfkr ($2.03 in chips)
+Seat 6: gizmondouk ($2.16 in chips)
+Seat 7: ginger_cola ($2.01 in chips)
+Seat 8: Gune4ka ($1.96 in chips)
+Seat 9: greg7080 ($2.42 in chips)
+greg7080: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd 3d]
+vih09: folds
+Benny1213: folds
+doiar: folds
+Anudrmdrfkr: folds
+gizmondouk: folds
+ginger_cola: folds
+Gune4ka: folds
+greg7080: calls $0.01
+pokerHero1: checks
+*** FLOP *** [7c Kd 9h]
+greg7080: bets $0.02
+pokerHero1: folds
+Uncalled bet ($0.02) returned to greg7080
+greg7080 collected $0.04 from pot
+greg7080: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [7c Kd 9h]
+Seat 1: pokerHero1 (big blind) folded on the Flop
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: Gune4ka (button) folded before Flop (didn't bet)
+Seat 9: greg7080 (small blind) collected ($0.04)
+
+
+
+PokerStars Hand #212449705977:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:23:25 ET
+Table 'Lilio III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($1.94 in chips)
+Seat 2: vih09 ($0.74 in chips)
+Seat 3: Benny1213 ($2.15 in chips)
+Seat 4: doiar ($2.72 in chips)
+Seat 5: Anudrmdrfkr ($2.03 in chips)
+Seat 6: gizmondouk ($2.16 in chips)
+Seat 7: ginger_cola ($2.01 in chips)
+Seat 8: Gune4ka ($1.96 in chips)
+Seat 9: greg7080 ($2.44 in chips)
+pokerHero1: posts small blind $0.01
+vih09: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6h 4s]
+Benny1213: folds
+doiar: raises $0.04 to $0.06
+Anudrmdrfkr: folds
+gizmondouk: folds
+ginger_cola: folds
+Gune4ka: folds
+greg7080: folds
+pokerHero1: folds
+vih09: folds
+Uncalled bet ($0.04) returned to doiar
+doiar collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: vih09 (big blind) folded before Flop
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar collected ($0.05)
+Seat 5: Anudrmdrfkr folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: greg7080 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449729607:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:23:51 ET
+Table 'Lilio III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($1.93 in chips)
+Seat 2: vih09 ($0.72 in chips)
+Seat 3: Benny1213 ($2.15 in chips)
+Seat 4: doiar ($2.75 in chips)
+Seat 5: Anudrmdrfkr ($2.03 in chips)
+Seat 6: gizmondouk ($2.16 in chips)
+Seat 7: ginger_cola ($2.01 in chips)
+Seat 8: Gune4ka ($1.96 in chips)
+Seat 9: greg7080 ($2.44 in chips)
+vih09: posts small blind $0.01
+Benny1213: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3s Kd]
+doiar: folds
+Anudrmdrfkr: folds
+gizmondouk: folds
+ginger_cola: folds
+Gune4ka: calls $0.02
+greg7080: folds
+pokerHero1: folds
+vih09: calls $0.01
+Benny1213: checks
+*** FLOP *** [8d 4h Th]
+vih09: checks
+Benny1213: checks
+Gune4ka: checks
+*** TURN *** [8d 4h Th] [Qh]
+vih09: checks
+Benny1213: checks
+Gune4ka: checks
+*** RIVER *** [8d 4h Th Qh] [Td]
+vih09: bets $0.06
+Benny1213: folds
+Gune4ka: folds
+Uncalled bet ($0.06) returned to vih09
+vih09 collected $0.06 from pot
+vih09: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [8d 4h Th Qh Td]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: vih09 (small blind) collected ($0.06)
+Seat 3: Benny1213 (big blind) folded on the River
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: Gune4ka folded on the River
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449792597:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:25:01 ET
+Table 'Lilio III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($1.93 in chips)
+Seat 2: vih09 ($0.76 in chips)
+Seat 3: Benny1213 ($2.13 in chips)
+Seat 4: doiar ($2.75 in chips)
+Seat 5: Anudrmdrfkr ($2.03 in chips)
+Seat 6: gizmondouk ($2.16 in chips)
+Seat 7: ginger_cola ($2.01 in chips)
+Seat 8: Gune4ka ($1.94 in chips)
+Seat 9: greg7080 ($2.44 in chips)
+Benny1213: posts small blind $0.01
+doiar: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d 8d]
+Anudrmdrfkr: folds
+gizmondouk: folds
+ginger_cola: folds
+Gune4ka: folds
+greg7080: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: raises $0.04 to $0.06
+doiar: folds
+Uncalled bet ($0.04) returned to Benny1213
+Benny1213 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 (button) folded before Flop (didn't bet)
+Seat 3: Benny1213 (small blind) collected ($0.04)
+Seat 4: doiar (big blind) folded before Flop
+Seat 5: Anudrmdrfkr folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449824603:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:25:35 ET
+Table 'Lilio III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($1.93 in chips)
+Seat 2: vih09 ($0.76 in chips)
+Seat 3: Benny1213 ($2.15 in chips)
+Seat 4: doiar ($2.73 in chips)
+Seat 5: Anudrmdrfkr ($2.03 in chips)
+Seat 6: gizmondouk ($2.16 in chips)
+Seat 7: ginger_cola ($2.01 in chips)
+Seat 8: Gune4ka ($1.94 in chips)
+Seat 9: greg7080 ($2.44 in chips)
+doiar: posts small blind $0.01
+Anudrmdrfkr: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad 2h]
+gizmondouk: folds
+ginger_cola: calls $0.02
+Gune4ka: folds
+greg7080: folds
+pokerHero1: raises $0.06 to $0.08
+vih09: folds
+Benny1213: folds
+doiar: folds
+Anudrmdrfkr: calls $0.06
+ginger_cola: calls $0.06
+*** FLOP *** [8c 7s Qs]
+Anudrmdrfkr: checks
+ginger_cola: checks
+pokerHero1: bets $0.16
+Anudrmdrfkr: folds
+ginger_cola: folds
+Uncalled bet ($0.16) returned to pokerHero1
+pokerHero1 collected $0.24 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.01
+Board [8c 7s Qs]
+Seat 1: pokerHero1 collected ($0.24)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 (button) folded before Flop (didn't bet)
+Seat 4: doiar (small blind) folded before Flop
+Seat 5: Anudrmdrfkr (big blind) folded on the Flop
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded on the Flop
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449882219:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:26:37 ET
+Table 'Lilio III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.09 in chips)
+Seat 2: vih09 ($0.76 in chips)
+Seat 3: Benny1213 ($2.15 in chips)
+Seat 4: doiar ($2.72 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 6: gizmondouk ($2.16 in chips)
+Seat 7: ginger_cola ($1.93 in chips)
+Seat 8: Gune4ka ($1.94 in chips)
+Seat 9: greg7080 ($2.44 in chips)
+Anudrmdrfkr: posts small blind $0.01
+gizmondouk: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3s Qh]
+ginger_cola: raises $0.02 to $0.04
+Gune4ka: folds
+greg7080: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: calls $0.04
+doiar: calls $0.04
+Anudrmdrfkr: calls $0.03
+gizmondouk: raises $0.08 to $0.12
+ginger_cola: calls $0.08
+Benny1213: folds
+doiar: calls $0.08
+Anudrmdrfkr: calls $0.08
+*** FLOP *** [2c Kc 7c]
+Anudrmdrfkr: checks
+gizmondouk: checks
+ginger_cola: bets $0.25
+doiar: folds
+Anudrmdrfkr: raises $0.25 to $0.50
+gizmondouk: calls $0.50
+ginger_cola: calls $0.25
+*** TURN *** [2c Kc 7c] [5d]
+Anudrmdrfkr: bets $1.38 and is all-in
+gizmondouk: calls $1.38
+ginger_cola: calls $1.31 and is all-in
+*** FIRST RIVER *** [2c Kc 7c 5d] [Td]
+*** SECOND RIVER *** [2c Kc 7c 5d] [3d]
+*** FIRST SHOW DOWN ***
+Anudrmdrfkr: shows [2s 2d] (three of a kind, Deuces)
+gizmondouk: shows [Ks Kh] (three of a kind, Kings)
+gizmondouk collected $0.07 from side pot
+ginger_cola: shows [7h 7s] (three of a kind, Sevens)
+gizmondouk collected $2.87 from main pot
+*** SECOND SHOW DOWN ***
+Anudrmdrfkr: shows [2s 2d] (three of a kind, Deuces)
+gizmondouk: shows [Ks Kh] (three of a kind, Kings)
+gizmondouk collected $0.07 from side pot
+ginger_cola: shows [7h 7s] (three of a kind, Sevens)
+gizmondouk collected $2.87 from main pot
+*** SUMMARY ***
+Total pot $6.09 Main pot $5.74. Side pot $0.14. | Rake $0.21
+Hand was run twice
+FIRST Board [2c Kc 7c 5d Td]
+SECOND Board [2c Kc 7c 5d 3d]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop
+Seat 4: doiar (button) folded on the Flop
+Seat 5: Anudrmdrfkr (small blind) showed [2s 2d] and lost with three of a kind, Deuces, and lost with three of a kind, Deuces
+Seat 6: gizmondouk (big blind) showed [Ks Kh] and won ($2.94) with three of a kind, Kings, and won ($2.94) with three of a kind, Kings
+Seat 7: ginger_cola showed [7h 7s] and lost with three of a kind, Sevens, and lost with three of a kind, Sevens
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449981140:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:28:23 ET
+Table 'Lilio III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.09 in chips)
+Seat 2: vih09 ($0.76 in chips)
+Seat 3: Benny1213 ($2.11 in chips)
+Seat 4: doiar ($2.60 in chips)
+Seat 5: Anudrmdrfkr ($2 in chips)
+Seat 6: gizmondouk ($6.04 in chips)
+Seat 7: ginger_cola ($2 in chips)
+Seat 8: Gune4ka ($1.94 in chips)
+Seat 9: greg7080 ($2.44 in chips)
+gizmondouk: posts small blind $0.01
+ginger_cola: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h 3s]
+Gune4ka: folds
+greg7080: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: folds
+doiar: folds
+Anudrmdrfkr: folds
+Anudrmdrfkr leaves the table
+gizmondouk: raises $0.04 to $0.06
+ginger_cola: calls $0.04
+*** FLOP *** [6c 5h 9c]
+hoddle.1 joins the table at seat #5
+gizmondouk: checks
+ginger_cola: checks
+*** TURN *** [6c 5h 9c] [6h]
+gizmondouk: checks
+ginger_cola: checks
+*** RIVER *** [6c 5h 9c 6h] [Ad]
+gizmondouk: checks
+ginger_cola: checks
+*** SHOW DOWN ***
+gizmondouk: shows [Ah Qd] (two pair, Aces and Sixes)
+ginger_cola: mucks hand
+gizmondouk collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Board [6c 5h 9c 6h Ad]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: Anudrmdrfkr (button) folded before Flop (didn't bet)
+Seat 6: gizmondouk (small blind) showed [Ah Qd] and won ($0.12) with two pair, Aces and Sixes
+Seat 7: ginger_cola (big blind) mucked [Qh Jh]
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450026807:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:29:13 ET
+Table 'Lilio III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.09 in chips)
+Seat 2: vih09 ($0.76 in chips)
+Seat 3: Benny1213 ($2.11 in chips)
+Seat 4: doiar ($2.60 in chips)
+Seat 6: gizmondouk ($6.10 in chips)
+Seat 7: ginger_cola ($1.94 in chips)
+Seat 8: Gune4ka ($1.94 in chips)
+Seat 9: greg7080 ($2.44 in chips)
+ginger_cola: posts small blind $0.01
+Gune4ka: posts big blind $0.02
+hoddle.1: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6h 5d]
+greg7080: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: folds
+doiar: raises $0.04 to $0.06
+gizmondouk: folds
+ginger_cola: folds
+Gune4ka: folds
+Uncalled bet ($0.04) returned to doiar
+doiar collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar collected ($0.05)
+Seat 6: gizmondouk (button) folded before Flop (didn't bet)
+Seat 7: ginger_cola (small blind) folded before Flop
+Seat 8: Gune4ka (big blind) folded before Flop
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450056790:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:29:45 ET
+Table 'Lilio III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.09 in chips)
+Seat 2: vih09 ($0.76 in chips)
+Seat 3: Benny1213 ($2.11 in chips)
+Seat 4: doiar ($2.63 in chips)
+Seat 6: gizmondouk ($6.10 in chips)
+Seat 7: ginger_cola ($1.93 in chips)
+Seat 8: Gune4ka ($1.92 in chips)
+Seat 9: greg7080 ($2.44 in chips)
+Gune4ka: posts small blind $0.01
+greg7080: posts big blind $0.02
+hoddle.1: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc Qs]
+pokerHero1: raises $0.06 to $0.08
+vih09: folds
+Benny1213: folds
+doiar: folds
+gizmondouk: folds
+ginger_cola: folds
+Gune4ka: folds
+greg7080: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 collected ($0.05)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola (button) folded before Flop (didn't bet)
+Seat 8: Gune4ka (small blind) folded before Flop
+Seat 9: greg7080 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212450080407:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:30:10 ET
+Table 'Lilio III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.12 in chips)
+Seat 2: vih09 ($0.76 in chips)
+Seat 3: Benny1213 ($2.11 in chips)
+Seat 4: doiar ($2.63 in chips)
+Seat 6: gizmondouk ($6.10 in chips)
+Seat 7: ginger_cola ($1.93 in chips)
+Seat 8: Gune4ka ($1.91 in chips)
+Seat 9: greg7080 ($2.42 in chips)
+greg7080: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+hoddle.1: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d 6h]
+vih09: folds
+Benny1213: folds
+doiar: folds
+gizmondouk: folds
+ginger_cola: folds
+Gune4ka: folds
+greg7080: calls $0.01
+pokerHero1: checks
+*** FLOP *** [2h 9s Jd]
+greg7080: checks
+pokerHero1: bets $0.04
+greg7080: folds
+Uncalled bet ($0.04) returned to pokerHero1
+pokerHero1 collected $0.04 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [2h 9s Jd]
+Seat 1: pokerHero1 (big blind) collected ($0.04)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: Gune4ka (button) folded before Flop (didn't bet)
+Seat 9: greg7080 (small blind) folded on the Flop
+
+
+
+PokerStars Hand #212450113681:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:30:46 ET
+Table 'Lilio III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.14 in chips)
+Seat 2: vih09 ($0.76 in chips)
+Seat 3: Benny1213 ($2.11 in chips)
+Seat 4: doiar ($2.63 in chips)
+Seat 6: gizmondouk ($6.10 in chips)
+Seat 7: ginger_cola ($1.93 in chips)
+Seat 8: Gune4ka ($1.91 in chips)
+Seat 9: greg7080 ($2.40 in chips)
+pokerHero1: posts small blind $0.01
+vih09: posts big blind $0.02
+hoddle.1: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c Js]
+Benny1213: folds
+doiar: folds
+gizmondouk: folds
+ginger_cola: folds
+Gune4ka: calls $0.02
+greg7080: folds
+pokerHero1: folds
+vih09: checks
+*** FLOP *** [Td 8c 2h]
+vih09: checks
+Gune4ka: checks
+*** TURN *** [Td 8c 2h] [7c]
+vih09: checks
+Gune4ka: bets $0.02
+vih09: folds
+Uncalled bet ($0.02) returned to Gune4ka
+Gune4ka collected $0.05 from pot
+Gune4ka: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [Td 8c 2h 7c]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: vih09 (big blind) folded on the Turn
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: Gune4ka collected ($0.05)
+Seat 9: greg7080 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450163958:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:31:39 ET
+Table 'Lilio III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.13 in chips)
+Seat 2: vih09 ($0.74 in chips)
+Seat 3: Benny1213 ($2.11 in chips)
+Seat 4: doiar ($2.63 in chips)
+Seat 6: gizmondouk ($6.10 in chips)
+Seat 7: ginger_cola ($1.93 in chips)
+Seat 8: Gune4ka ($1.94 in chips)
+Seat 9: greg7080 ($2.40 in chips)
+vih09: posts small blind $0.01
+Benny1213: posts big blind $0.02
+hoddle.1: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8s Jh]
+doiar: folds
+gizmondouk: folds
+ginger_cola: folds
+Gune4ka: folds
+greg7080: folds
+pokerHero1: raises $0.04 to $0.06
+vih09: calls $0.05
+Benny1213: folds
+*** FLOP *** [Qc 9c Ks]
+vih09: bets $0.04
+pokerHero1: folds
+Uncalled bet ($0.04) returned to vih09
+vih09 collected $0.14 from pot
+vih09: doesn't show hand
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [Qc 9c Ks]
+Seat 1: pokerHero1 (button) folded on the Flop
+Seat 2: vih09 (small blind) collected ($0.14)
+Seat 3: Benny1213 (big blind) folded before Flop
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450207301:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:32:26 ET
+Table 'Lilio III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.07 in chips)
+Seat 2: vih09 ($0.82 in chips)
+Seat 3: Benny1213 ($2.09 in chips)
+Seat 4: doiar ($2.63 in chips)
+Seat 6: gizmondouk ($6.10 in chips)
+Seat 7: ginger_cola ($1.93 in chips)
+Seat 8: Gune4ka ($1.94 in chips)
+Seat 9: greg7080 ($2.40 in chips)
+Benny1213: posts small blind $0.01
+doiar: posts big blind $0.02
+hoddle.1: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c 6h]
+gizmondouk: raises $0.04 to $0.06
+ginger_cola: folds
+Gune4ka: folds
+greg7080: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: folds
+doiar: folds
+Uncalled bet ($0.04) returned to gizmondouk
+gizmondouk collected $0.05 from pot
+gizmondouk: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 (button) folded before Flop (didn't bet)
+Seat 3: Benny1213 (small blind) folded before Flop
+Seat 4: doiar (big blind) folded before Flop
+Seat 6: gizmondouk collected ($0.05)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450240650:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:33:02 ET
+Table 'Lilio III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.07 in chips)
+Seat 2: vih09 ($0.82 in chips)
+Seat 3: Benny1213 ($2.08 in chips)
+Seat 4: doiar ($2.61 in chips)
+Seat 5: hoddle.1 ($2 in chips)
+Seat 6: gizmondouk ($6.13 in chips)
+Seat 7: ginger_cola ($1.93 in chips)
+Seat 8: Gune4ka ($1.94 in chips)
+Seat 9: greg7080 ($2.40 in chips)
+doiar: posts small blind $0.01
+hoddle.1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd 7s]
+gizmondouk: folds
+ginger_cola: raises $0.02 to $0.04
+Gune4ka: folds
+greg7080: calls $0.04
+pokerHero1: folds
+vih09: raises $0.08 to $0.12
+Benny1213: folds
+doiar: folds
+hoddle.1: folds
+ginger_cola: calls $0.08
+greg7080: folds
+*** FLOP *** [Ad Qh 4h]
+ginger_cola: checks
+vih09: checks
+*** TURN *** [Ad Qh 4h] [Ks]
+ginger_cola: checks
+vih09: bets $0.06
+ginger_cola: calls $0.06
+*** RIVER *** [Ad Qh 4h Ks] [Tc]
+ginger_cola: checks
+vih09: bets $0.64 and is all-in
+ginger_cola: folds
+Uncalled bet ($0.64) returned to vih09
+vih09 collected $0.41 from pot
+vih09: doesn't show hand
+*** SUMMARY ***
+Total pot $0.43 | Rake $0.02
+Board [Ad Qh 4h Ks Tc]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 collected ($0.41)
+Seat 3: Benny1213 (button) folded before Flop (didn't bet)
+Seat 4: doiar (small blind) folded before Flop
+Seat 5: hoddle.1 (big blind) folded before Flop
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded on the River
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: greg7080 folded before Flop
+
+
+
+PokerStars Hand #212450312625:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:34:19 ET
+Table 'Lilio III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.07 in chips)
+Seat 2: vih09 ($1.05 in chips)
+Seat 3: Benny1213 ($2.08 in chips)
+Seat 4: doiar ($2.60 in chips)
+Seat 5: hoddle.1 ($1.98 in chips)
+Seat 6: gizmondouk ($6.13 in chips)
+Seat 7: ginger_cola ($1.75 in chips)
+Seat 8: Gune4ka ($1.94 in chips)
+Seat 9: greg7080 ($2.36 in chips)
+hoddle.1: posts small blind $0.01
+gizmondouk: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d 2d]
+ginger_cola: folds
+Gune4ka: folds
+greg7080: folds
+pokerHero1: calls $0.02
+vih09: calls $0.02
+Benny1213: folds
+doiar: folds
+hoddle.1: calls $0.01
+greg7080 leaves the table
+gizmondouk: checks
+*** FLOP *** [Ks Ad Kh]
+hoddle.1: checks
+yda454 joins the table at seat #9
+gizmondouk: checks
+pokerHero1: checks
+vih09: bets $0.06
+hoddle.1: folds
+gizmondouk: calls $0.06
+pokerHero1: folds
+*** TURN *** [Ks Ad Kh] [Kd]
+gizmondouk: checks
+vih09: bets $0.06
+gizmondouk: calls $0.06
+*** RIVER *** [Ks Ad Kh Kd] [9c]
+gizmondouk: bets $5.99 and is all-in
+vih09: folds
+Uncalled bet ($5.99) returned to gizmondouk
+gizmondouk collected $0.31 from pot
+gizmondouk: doesn't show hand
+*** SUMMARY ***
+Total pot $0.32 | Rake $0.01
+Board [Ks Ad Kh Kd 9c]
+Seat 1: pokerHero1 folded on the Flop
+Seat 2: vih09 folded on the River
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar (button) folded before Flop (didn't bet)
+Seat 5: hoddle.1 (small blind) folded on the Flop
+Seat 6: gizmondouk (big blind) collected ($0.31)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450371117:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:35:21 ET
+Table 'Lilio III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.05 in chips)
+Seat 2: vih09 ($0.91 in chips)
+Seat 3: Benny1213 ($2.08 in chips)
+Seat 4: doiar ($2.60 in chips)
+Seat 5: hoddle.1 ($1.96 in chips)
+Seat 6: gizmondouk ($6.30 in chips)
+Seat 8: Gune4ka ($1.94 in chips)
+gizmondouk: posts small blind $0.01
+ginger_cola: is sitting out
+Gune4ka: posts big blind $0.02
+yda454: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8c 8h]
+pokerHero1: calls $0.02
+vih09: folds
+Benny1213: folds
+doiar: folds
+hoddle.1: folds
+gizmondouk: folds
+Gune4ka: checks
+*** FLOP *** [Ts 8s 5c]
+Gune4ka: checks
+pokerHero1: bets $0.04
+Gune4ka: folds
+Uncalled bet ($0.04) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [Ts 8s 5c]
+Seat 1: pokerHero1 collected ($0.05)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: hoddle.1 (button) folded before Flop (didn't bet)
+Seat 6: gizmondouk (small blind) folded before Flop
+Seat 8: Gune4ka (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212450407021:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:35:55 ET
+Table 'Lilio III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.08 in chips)
+Seat 2: vih09 ($0.91 in chips)
+Seat 3: Benny1213 ($2.08 in chips)
+Seat 4: doiar ($2.60 in chips)
+Seat 5: hoddle.1 ($1.96 in chips)
+Seat 6: gizmondouk ($6.29 in chips)
+Seat 8: Gune4ka ($1.92 in chips)
+Seat 9: yda454 ($0.80 in chips)
+Gune4ka: posts small blind $0.01
+yda454: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c Th]
+pokerHero1: folds
+vih09: folds
+Benny1213: folds
+doiar: folds
+hoddle.1: folds
+gizmondouk: folds
+Gune4ka: calls $0.01
+yda454: checks
+*** FLOP *** [Td 6s 8c]
+Gune4ka: bets $0.02
+yda454: folds
+Uncalled bet ($0.02) returned to Gune4ka
+Gune4ka collected $0.04 from pot
+Gune4ka: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [Td 6s 8c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: hoddle.1 folded before Flop (didn't bet)
+Seat 6: gizmondouk (button) folded before Flop (didn't bet)
+Seat 8: Gune4ka (small blind) collected ($0.04)
+Seat 9: yda454 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212450446781:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:36:37 ET
+Table 'Lilio III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.08 in chips)
+Seat 2: vih09 ($0.91 in chips)
+Seat 3: Benny1213 ($2.08 in chips)
+Seat 4: doiar ($2.60 in chips)
+Seat 5: hoddle.1 ($1.96 in chips)
+Seat 6: gizmondouk ($6.29 in chips)
+Seat 8: Gune4ka ($1.94 in chips)
+Seat 9: yda454 ($0.78 in chips)
+yda454: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js 5s]
+vih09: folds
+Benny1213: folds
+doiar: folds
+hoddle.1: folds
+gizmondouk: folds
+Gune4ka: calls $0.02
+yda454: raises $0.04 to $0.06
+pokerHero1: folds
+Gune4ka: folds
+Uncalled bet ($0.04) returned to yda454
+yda454 collected $0.06 from pot
+yda454: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: hoddle.1 folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 8: Gune4ka (button) folded before Flop
+Seat 9: yda454 (small blind) collected ($0.06)
+
+
+
+PokerStars Hand #212450477796:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:37:11 ET
+Table 'Lilio III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.06 in chips)
+Seat 2: vih09 ($0.91 in chips)
+Seat 3: Benny1213 ($2.08 in chips)
+Seat 4: doiar ($2.60 in chips)
+Seat 5: hoddle.1 ($1.96 in chips)
+Seat 6: gizmondouk ($6.29 in chips)
+Seat 8: Gune4ka ($1.92 in chips)
+Seat 9: yda454 ($0.82 in chips)
+pokerHero1: posts small blind $0.01
+vih09: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s 2h]
+Benny1213: raises $0.04 to $0.06
+doiar: folds
+hoddle.1: folds
+gizmondouk: folds
+Gune4ka: folds
+yda454 has timed out
+yda454: folds
+pokerHero1: folds
+vih09: calls $0.04
+*** FLOP *** [2d 7h Jh]
+vih09: bets $0.04
+Benny1213: raises $0.09 to $0.13
+vih09: folds
+Uncalled bet ($0.09) returned to Benny1213
+Benny1213 collected $0.20 from pot
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [2d 7h Jh]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: vih09 (big blind) folded on the Flop
+Seat 3: Benny1213 collected ($0.20)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: hoddle.1 folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: yda454 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450529870:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:38:07 ET
+Table 'Lilio III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.05 in chips)
+Seat 2: vih09 ($0.81 in chips)
+Seat 3: Benny1213 ($2.18 in chips)
+Seat 4: doiar ($2.60 in chips)
+Seat 5: hoddle.1 ($1.96 in chips)
+Seat 6: gizmondouk ($6.29 in chips)
+Seat 8: Gune4ka ($1.92 in chips)
+Seat 9: yda454 ($0.82 in chips)
+vih09: posts small blind $0.01
+Benny1213: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qd Ts]
+doiar: folds
+hoddle.1: folds
+gizmondouk: folds
+Gune4ka: folds
+yda454: folds
+pokerHero1: raises $0.04 to $0.06
+vih09: folds
+Benny1213: folds
+Uncalled bet ($0.04) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (button) collected ($0.05)
+Seat 2: vih09 (small blind) folded before Flop
+Seat 3: Benny1213 (big blind) folded before Flop
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: hoddle.1 folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: yda454 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450561976:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:38:44 ET
+Table 'Lilio III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.08 in chips)
+Seat 2: vih09 ($0.80 in chips)
+Seat 3: Benny1213 ($2.16 in chips)
+Seat 4: doiar ($2.60 in chips)
+Seat 5: hoddle.1 ($1.96 in chips)
+Seat 6: gizmondouk ($6.29 in chips)
+Seat 8: Gune4ka ($1.92 in chips)
+Seat 9: yda454 ($0.82 in chips)
+Benny1213: posts small blind $0.01
+doiar: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ks 8c]
+hoddle.1: folds
+gizmondouk: folds
+Gune4ka: folds
+yda454: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: calls $0.01
+doiar: raises $0.04 to $0.06
+Benny1213: calls $0.04
+*** FLOP *** [Qs 4d 4h]
+Benny1213: checks
+doiar: bets $0.08
+Benny1213: folds
+Uncalled bet ($0.08) returned to doiar
+doiar collected $0.12 from pot
+doiar: doesn't show hand
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Board [Qs 4d 4h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 (button) folded before Flop (didn't bet)
+Seat 3: Benny1213 (small blind) folded on the Flop
+Seat 4: doiar (big blind) collected ($0.12)
+Seat 5: hoddle.1 folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: yda454 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450611843:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:39:38 ET
+Table 'Lilio III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.08 in chips)
+Seat 2: vih09 ($0.80 in chips)
+Seat 3: Benny1213 ($2.10 in chips)
+Seat 4: doiar ($2.66 in chips)
+Seat 5: hoddle.1 ($1.96 in chips)
+Seat 6: gizmondouk ($6.29 in chips)
+Seat 8: Gune4ka ($1.92 in chips)
+Seat 9: yda454 ($0.82 in chips)
+doiar: posts small blind $0.01
+hoddle.1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d As]
+gizmondouk: folds
+Gune4ka: folds
+yda454: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: raises $0.04 to $0.06
+doiar: folds
+hoddle.1: folds
+Uncalled bet ($0.04) returned to Benny1213
+Benny1213 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 (button) collected ($0.05)
+Seat 4: doiar (small blind) folded before Flop
+Seat 5: hoddle.1 (big blind) folded before Flop
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: yda454 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450643017:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:40:05 ET
+Table 'Lilio III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.08 in chips)
+Seat 2: vih09 ($0.80 in chips)
+Seat 3: Benny1213 ($2.13 in chips)
+Seat 4: doiar ($2.65 in chips)
+Seat 5: hoddle.1 ($1.94 in chips)
+Seat 6: gizmondouk ($6.29 in chips)
+Seat 8: Gune4ka ($1.92 in chips)
+Seat 9: yda454 ($0.82 in chips)
+hoddle.1: posts small blind $0.01
+gizmondouk: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d Qd]
+Gune4ka: folds
+yda454: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: raises $0.04 to $0.06
+doiar: folds
+hoddle.1: folds
+gizmondouk: folds
+Uncalled bet ($0.04) returned to Benny1213
+Benny1213 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 collected ($0.05)
+Seat 4: doiar (button) folded before Flop (didn't bet)
+Seat 5: hoddle.1 (small blind) folded before Flop
+Seat 6: gizmondouk (big blind) folded before Flop
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: yda454 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450665367:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:40:29 ET
+Table 'Lilio III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.08 in chips)
+Seat 2: vih09 ($0.80 in chips)
+Seat 3: Benny1213 ($2.16 in chips)
+Seat 4: doiar ($2.65 in chips)
+Seat 5: hoddle.1 ($1.93 in chips)
+Seat 6: gizmondouk ($6.27 in chips)
+Seat 8: Gune4ka ($1.92 in chips)
+Seat 9: yda454 ($0.82 in chips)
+gizmondouk: posts small blind $0.01
+Gune4ka: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8c 5c]
+yda454 has timed out
+yda454: folds
+pokerHero1: folds
+vih09: raises $0.04 to $0.06
+Benny1213: folds
+doiar: folds
+hoddle.1: folds
+gizmondouk: folds
+Gune4ka: folds
+Uncalled bet ($0.04) returned to vih09
+vih09 collected $0.05 from pot
+vih09: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 collected ($0.05)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: hoddle.1 (button) folded before Flop (didn't bet)
+Seat 6: gizmondouk (small blind) folded before Flop
+Seat 8: Gune4ka (big blind) folded before Flop
+Seat 9: yda454 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450706411:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:41:13 ET
+Table 'Lilio III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.08 in chips)
+Seat 2: vih09 ($0.83 in chips)
+Seat 3: Benny1213 ($2.16 in chips)
+Seat 4: doiar ($2.65 in chips)
+Seat 5: hoddle.1 ($1.93 in chips)
+Seat 6: gizmondouk ($6.26 in chips)
+Seat 8: Gune4ka ($1.90 in chips)
+Seat 9: yda454 ($0.82 in chips)
+Gune4ka: posts small blind $0.01
+yda454: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d 5s]
+pokerHero1: folds
+vih09: folds
+Benny1213: folds
+doiar: folds
+hoddle.1: calls $0.02
+gizmondouk: folds
+Gune4ka: calls $0.01
+yda454: checks
+*** FLOP *** [6s 3s Th]
+Gune4ka: checks
+yda454: checks
+hoddle.1: checks
+*** TURN *** [6s 3s Th] [6h]
+Gune4ka: checks
+yda454: checks
+hoddle.1: checks
+*** RIVER *** [6s 3s Th 6h] [9h]
+Gune4ka: bets $0.03
+yda454: folds
+hoddle.1: folds
+Uncalled bet ($0.03) returned to Gune4ka
+Gune4ka collected $0.06 from pot
+Gune4ka: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [6s 3s Th 6h 9h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: hoddle.1 folded on the River
+Seat 6: gizmondouk (button) folded before Flop (didn't bet)
+Seat 8: Gune4ka (small blind) collected ($0.06)
+Seat 9: yda454 (big blind) folded on the River
+
+
+
+PokerStars Hand #212450765065:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:42:16 ET
+Table 'Lilio III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.08 in chips)
+Seat 2: vih09 ($0.83 in chips)
+Seat 3: Benny1213 ($2.16 in chips)
+Seat 4: doiar ($2.65 in chips)
+Seat 5: hoddle.1 ($1.91 in chips)
+Seat 6: gizmondouk ($6.26 in chips)
+Seat 8: Gune4ka ($1.94 in chips)
+Seat 9: yda454 ($0.80 in chips)
+yda454: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th 7s]
+vih09: calls $0.02
+Benny1213: calls $0.02
+doiar: folds
+hoddle.1: calls $0.02
+gizmondouk: folds
+Gune4ka: calls $0.02
+yda454: folds
+pokerHero1: checks
+*** FLOP *** [Ah 4d Qd]
+pokerHero1: checks
+vih09: bets $0.06
+Benny1213: folds
+hoddle.1: folds
+Gune4ka: calls $0.06
+pokerHero1: folds
+*** TURN *** [Ah 4d Qd] [8h]
+vih09: checks
+Gune4ka: checks
+*** RIVER *** [Ah 4d Qd 8h] [As]
+vih09: checks
+Gune4ka: bets $0.11
+vih09: calls $0.11
+*** SHOW DOWN ***
+Gune4ka: shows [Kc Jc] (a pair of Aces)
+vih09: shows [Jd Qc] (two pair, Aces and Queens)
+vih09 collected $0.43 from pot
+*** SUMMARY ***
+Total pot $0.45 | Rake $0.02
+Board [Ah 4d Qd 8h As]
+Seat 1: pokerHero1 (big blind) folded on the Flop
+Seat 2: vih09 showed [Jd Qc] and won ($0.43) with two pair, Aces and Queens
+Seat 3: Benny1213 folded on the Flop
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: hoddle.1 folded on the Flop
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 8: Gune4ka (button) showed [Kc Jc] and lost with a pair of Aces
+Seat 9: yda454 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212450813104:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:43:07 ET
+Table 'Lilio III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.06 in chips)
+Seat 2: vih09 ($1.07 in chips)
+Seat 3: Benny1213 ($2.14 in chips)
+Seat 4: doiar ($2.65 in chips)
+Seat 5: hoddle.1 ($1.89 in chips)
+Seat 6: gizmondouk ($6.26 in chips)
+Seat 8: Gune4ka ($1.75 in chips)
+Seat 9: yda454 ($0.79 in chips)
+pokerHero1: posts small blind $0.01
+vih09: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c 3d]
+Benny1213: folds
+doiar: folds
+hoddle.1: folds
+gizmondouk: folds
+Gune4ka: folds
+yda454: folds
+pokerHero1: folds
+Uncalled bet ($0.01) returned to vih09
+vih09 collected $0.02 from pot
+vih09: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: vih09 (big blind) collected ($0.02)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: hoddle.1 folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: yda454 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450831427:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:43:27 ET
+Table 'Lilio III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.05 in chips)
+Seat 2: vih09 ($1.08 in chips)
+Seat 3: Benny1213 ($2.14 in chips)
+Seat 4: doiar ($2.65 in chips)
+Seat 5: hoddle.1 ($1.89 in chips)
+Seat 6: gizmondouk ($6.26 in chips)
+Seat 8: Gune4ka ($1.75 in chips)
+Seat 9: yda454 ($0.79 in chips)
+vih09: posts small blind $0.01
+Benny1213: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h 3d]
+doiar: folds
+hoddle.1: calls $0.02
+gizmondouk: folds
+Gune4ka: folds
+yda454: folds
+pokerHero1: folds
+vih09: calls $0.01
+Benny1213: checks
+*** FLOP *** [6h 9h Jc]
+vih09: checks
+Benny1213: checks
+hoddle.1: checks
+*** TURN *** [6h 9h Jc] [7d]
+vih09: checks
+Benny1213: checks
+hoddle.1: checks
+*** RIVER *** [6h 9h Jc 7d] [6d]
+vih09: bets $0.06
+Benny1213: folds
+hoddle.1: folds
+Uncalled bet ($0.06) returned to vih09
+vih09 collected $0.06 from pot
+vih09: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [6h 9h Jc 7d 6d]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: vih09 (small blind) collected ($0.06)
+Seat 3: Benny1213 (big blind) folded on the River
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: hoddle.1 folded on the River
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: yda454 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450886135:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:44:25 ET
+Table 'Lilio III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.05 in chips)
+Seat 2: vih09 ($1.12 in chips)
+Seat 3: Benny1213 ($2.12 in chips)
+Seat 4: doiar ($2.65 in chips)
+Seat 5: hoddle.1 ($1.87 in chips)
+Seat 6: gizmondouk ($6.26 in chips)
+Seat 8: Gune4ka ($1.75 in chips)
+Seat 9: yda454 ($0.79 in chips)
+Benny1213: posts small blind $0.01
+doiar: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kc Ad]
+hoddle.1: folds
+gizmondouk: folds
+hoddle.1 leaves the table
+Gune4ka: raises $0.04 to $0.06
+yda454: folds
+pokerHero1: raises $0.20 to $0.26
+vih09: folds
+Benny1213: calls $0.25
+doiar: folds
+Gune4ka: folds
+*** FLOP *** [3c Qc 5s]
+Benny1213: checks
+pokerHero1: bets $0.34
+Benny1213: calls $0.34
+*** TURN *** [3c Qc 5s] [9d]
+CHECKALLIN-DNLM joins the table at seat #5
+Benny1213: checks
+pokerHero1: checks
+*** RIVER *** [3c Qc 5s 9d] [7h]
+Benny1213: checks
+pokerHero1: checks
+*** SHOW DOWN ***
+Benny1213: shows [Ks Kd] (a pair of Kings)
+pokerHero1: mucks hand
+Benny1213 collected $1.24 from pot
+*** SUMMARY ***
+Total pot $1.28 | Rake $0.04
+Board [3c Qc 5s 9d 7h]
+Seat 1: pokerHero1 mucked [Kc Ad]
+Seat 2: vih09 (button) folded before Flop (didn't bet)
+Seat 3: Benny1213 (small blind) showed [Ks Kd] and won ($1.24) with a pair of Kings
+Seat 4: doiar (big blind) folded before Flop
+Seat 5: hoddle.1 folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 8: Gune4ka folded before Flop
+Seat 9: yda454 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450952807:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:45:36 ET
+Table 'Lilio III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($1.45 in chips)
+Seat 2: vih09 ($1.12 in chips)
+Seat 3: Benny1213 ($2.76 in chips)
+Seat 4: doiar ($2.63 in chips)
+Seat 5: CHECKALLIN-DNLM ($2 in chips)
+Seat 6: gizmondouk ($6.26 in chips)
+Seat 8: Gune4ka ($1.69 in chips)
+Seat 9: yda454 ($0.79 in chips)
+doiar: posts small blind $0.01
+CHECKALLIN-DNLM: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d Ks]
+gizmondouk: folds
+Gune4ka: folds
+yda454: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: folds
+doiar: folds
+Uncalled bet ($0.01) returned to CHECKALLIN-DNLM
+CHECKALLIN-DNLM collected $0.02 from pot
+CHECKALLIN-DNLM: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 (button) folded before Flop (didn't bet)
+Seat 4: doiar (small blind) folded before Flop
+Seat 5: CHECKALLIN-DNLM (big blind) collected ($0.02)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: yda454 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450970947:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:45:55 ET
+Table 'Lilio III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2 in chips)
+Seat 2: vih09 ($1.12 in chips)
+Seat 3: Benny1213 ($2.76 in chips)
+Seat 4: doiar ($2.62 in chips)
+Seat 5: CHECKALLIN-DNLM ($2.01 in chips)
+Seat 6: gizmondouk ($6.26 in chips)
+Seat 8: Gune4ka ($1.69 in chips)
+Seat 9: yda454 ($0.79 in chips)
+CHECKALLIN-DNLM: posts small blind $0.01
+gizmondouk: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c Ac]
+Gune4ka: folds
+yda454: folds
+pokerHero1: raises $0.06 to $0.08
+vih09: calls $0.08
+Benny1213: folds
+doiar: calls $0.08
+CHECKALLIN-DNLM: folds
+gizmondouk: folds
+*** FLOP *** [Ts 6s 9s]
+pokerHero1: checks
+vih09: bets $0.06
+doiar: folds
+pokerHero1: folds
+Uncalled bet ($0.06) returned to vih09
+vih09 collected $0.26 from pot
+vih09: doesn't show hand
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01
+Board [Ts 6s 9s]
+Seat 1: pokerHero1 folded on the Flop
+Seat 2: vih09 collected ($0.26)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar (button) folded on the Flop
+Seat 5: CHECKALLIN-DNLM (small blind) folded before Flop
+Seat 6: gizmondouk (big blind) folded before Flop
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: yda454 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451025323:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:46:52 ET
+Table 'Lilio III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($1.92 in chips)
+Seat 2: vih09 ($1.30 in chips)
+Seat 3: Benny1213 ($2.76 in chips)
+Seat 4: doiar ($2.54 in chips)
+Seat 5: CHECKALLIN-DNLM ($2 in chips)
+Seat 6: gizmondouk ($6.24 in chips)
+Seat 7: ginger_cola ($1.75 in chips)
+Seat 8: Gune4ka ($1.69 in chips)
+Seat 9: yda454 ($0.79 in chips)
+gizmondouk: posts small blind $0.01
+ginger_cola: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kc Qd]
+Gune4ka: folds
+yda454: folds
+pokerHero1: raises $0.04 to $0.06
+vih09: calls $0.06
+Benny1213: folds
+doiar: folds
+CHECKALLIN-DNLM: folds
+gizmondouk: folds
+ginger_cola: folds
+*** FLOP *** [3c 5d 6h]
+pokerHero1: bets $0.11
+vih09: folds
+Uncalled bet ($0.11) returned to pokerHero1
+pokerHero1 collected $0.14 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [3c 5d 6h]
+Seat 1: pokerHero1 collected ($0.14)
+Seat 2: vih09 folded on the Flop
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: CHECKALLIN-DNLM (button) folded before Flop (didn't bet)
+Seat 6: gizmondouk (small blind) folded before Flop
+Seat 7: ginger_cola (big blind) folded before Flop
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: yda454 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451069195:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:47:39 ET
+Table 'Lilio III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2 in chips)
+Seat 2: vih09 ($1.24 in chips)
+Seat 3: Benny1213 ($2.76 in chips)
+Seat 4: doiar ($2.54 in chips)
+Seat 5: CHECKALLIN-DNLM ($2 in chips)
+Seat 6: gizmondouk ($6.23 in chips)
+Seat 7: ginger_cola ($1.73 in chips)
+Seat 8: Gune4ka ($1.69 in chips)
+Seat 9: yda454 ($0.79 in chips)
+ginger_cola: posts small blind $0.01
+Gune4ka: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc As]
+yda454: raises $0.04 to $0.06
+pokerHero1: folds
+vih09: folds
+Benny1213: folds
+doiar: folds
+CHECKALLIN-DNLM: calls $0.06
+gizmondouk: folds
+ginger_cola: folds
+Gune4ka: folds
+*** FLOP *** [4h Tc 9h]
+yda454: bets $0.06
+CHECKALLIN-DNLM: calls $0.06
+*** TURN *** [4h Tc 9h] [Ac]
+yda454: checks
+CHECKALLIN-DNLM: checks
+*** RIVER *** [4h Tc 9h Ac] [4c]
+yda454: bets $0.26
+CHECKALLIN-DNLM: folds
+Uncalled bet ($0.26) returned to yda454
+yda454 collected $0.26 from pot
+yda454: doesn't show hand
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01
+Board [4h Tc 9h Ac 4c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: CHECKALLIN-DNLM folded on the River
+Seat 6: gizmondouk (button) folded before Flop (didn't bet)
+Seat 7: ginger_cola (small blind) folded before Flop
+Seat 8: Gune4ka (big blind) folded before Flop
+Seat 9: yda454 collected ($0.26)
+
+
+
+PokerStars Hand #212451122108:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:48:35 ET
+Table 'Lilio III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2 in chips)
+Seat 2: vih09 ($1.24 in chips)
+Seat 3: Benny1213 ($2.76 in chips)
+Seat 4: doiar ($2.54 in chips)
+Seat 5: CHECKALLIN-DNLM ($2 in chips)
+Seat 6: gizmondouk ($6.23 in chips)
+Seat 7: ginger_cola ($1.72 in chips)
+Seat 8: Gune4ka ($1.67 in chips)
+Seat 9: yda454 ($0.93 in chips)
+Gune4ka: posts small blind $0.01
+yda454: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9h 2s]
+pokerHero1: folds
+vih09: folds
+Benny1213: raises $0.04 to $0.06
+doiar: folds
+CHECKALLIN-DNLM: folds
+gizmondouk: folds
+ginger_cola: folds
+Gune4ka: folds
+yda454: folds
+Uncalled bet ($0.04) returned to Benny1213
+Benny1213 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 collected ($0.05)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: CHECKALLIN-DNLM folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola (button) folded before Flop (didn't bet)
+Seat 8: Gune4ka (small blind) folded before Flop
+Seat 9: yda454 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212451147943:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:49:02 ET
+Table 'Lilio III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2 in chips)
+Seat 2: vih09 ($1.24 in chips)
+Seat 3: Benny1213 ($2.79 in chips)
+Seat 4: doiar ($2.54 in chips)
+Seat 5: CHECKALLIN-DNLM ($2 in chips)
+Seat 6: gizmondouk ($6.23 in chips)
+Seat 7: ginger_cola ($1.72 in chips)
+Seat 8: Gune4ka ($1.66 in chips)
+Seat 9: yda454 ($0.91 in chips)
+yda454: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc 4d]
+vih09: folds
+Benny1213: folds
+doiar: folds
+CHECKALLIN-DNLM: folds
+gizmondouk: folds
+ginger_cola: raises $0.02 to $0.04
+Gune4ka: folds
+yda454: folds
+pokerHero1: folds
+Uncalled bet ($0.02) returned to ginger_cola
+ginger_cola collected $0.05 from pot
+ginger_cola: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: CHECKALLIN-DNLM folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola collected ($0.05)
+Seat 8: Gune4ka (button) folded before Flop (didn't bet)
+Seat 9: yda454 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212451177699:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:49:34 ET
+Table 'Lilio III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($1.98 in chips)
+Seat 2: vih09 ($1.24 in chips)
+Seat 3: Benny1213 ($2.79 in chips)
+Seat 4: doiar ($2.54 in chips)
+Seat 5: CHECKALLIN-DNLM ($2 in chips)
+Seat 6: gizmondouk ($6.23 in chips)
+Seat 7: ginger_cola ($1.75 in chips)
+Seat 8: Gune4ka ($1.66 in chips)
+Seat 9: yda454 ($0.90 in chips)
+pokerHero1: posts small blind $0.01
+vih09: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac Jc]
+Benny1213: folds
+doiar: raises $0.04 to $0.06
+CHECKALLIN-DNLM: folds
+gizmondouk: folds
+ginger_cola: folds
+Gune4ka: folds
+yda454: folds
+pokerHero1: calls $0.05
+vih09: folds
+*** FLOP *** [4s 6d 5s]
+pokerHero1: checks
+doiar: bets $0.15
+pokerHero1: folds
+Uncalled bet ($0.15) returned to doiar
+doiar collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [4s 6d 5s]
+Seat 1: pokerHero1 (small blind) folded on the Flop
+Seat 2: vih09 (big blind) folded before Flop
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar collected ($0.14)
+Seat 5: CHECKALLIN-DNLM folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: yda454 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451206663:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:50:05 ET
+Table 'Lilio III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($1.92 in chips)
+Seat 2: vih09 ($1.22 in chips)
+Seat 3: Benny1213 ($2.79 in chips)
+Seat 4: doiar ($2.62 in chips)
+Seat 5: CHECKALLIN-DNLM ($2 in chips)
+Seat 6: gizmondouk ($6.23 in chips)
+Seat 7: ginger_cola ($1.75 in chips)
+Seat 8: Gune4ka ($1.66 in chips)
+Seat 9: yda454 ($0.90 in chips)
+vih09: posts small blind $0.01
+Benny1213: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5d Jh]
+doiar: folds
+CHECKALLIN-DNLM: folds
+gizmondouk: folds
+ginger_cola: raises $0.02 to $0.04
+Gune4ka: folds
+yda454: folds
+pokerHero1: folds
+vih09: folds
+Benny1213: calls $0.02
+*** FLOP *** [Ac 7s Kc]
+Benny1213: checks
+ginger_cola: checks
+*** TURN *** [Ac 7s Kc] [3d]
+Benny1213: checks
+ginger_cola: checks
+*** RIVER *** [Ac 7s Kc 3d] [6h]
+Benny1213: checks
+ginger_cola: checks
+*** SHOW DOWN ***
+Benny1213: shows [8d Jd] (high card Ace)
+ginger_cola: shows [5h 4h] (a straight, Three to Seven)
+ginger_cola collected $0.09 from pot
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Board [Ac 7s Kc 3d 6h]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: vih09 (small blind) folded before Flop
+Seat 3: Benny1213 (big blind) showed [8d Jd] and lost with high card Ace
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: CHECKALLIN-DNLM folded before Flop (didn't bet)
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola showed [5h 4h] and won ($0.09) with a straight, Three to Seven
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: yda454 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451271777:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:51:03 ET
+Table 'Lilio III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($1.92 in chips)
+Seat 2: vih09 ($1.21 in chips)
+Seat 3: Benny1213 ($2.75 in chips)
+Seat 4: doiar ($2.62 in chips)
+Seat 5: CHECKALLIN-DNLM ($2 in chips)
+Seat 6: gizmondouk ($6.23 in chips)
+Seat 7: ginger_cola ($1.80 in chips)
+Seat 9: yda454 ($0.90 in chips)
+Benny1213: posts small blind $0.01
+doiar: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5c Td]
+CHECKALLIN-DNLM: calls $0.02
+gizmondouk: folds
+ginger_cola: folds
+yda454: raises $0.04 to $0.06
+pokerHero1: folds
+vih09: folds
+Benny1213: folds
+doiar: calls $0.04
+CHECKALLIN-DNLM: calls $0.04
+*** FLOP *** [Jd 8d 7h]
+doiar: bets $0.12
+CHECKALLIN-DNLM: folds
+yda454: folds
+Uncalled bet ($0.12) returned to doiar
+doiar collected $0.18 from pot
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [Jd 8d 7h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 (button) folded before Flop (didn't bet)
+Seat 3: Benny1213 (small blind) folded before Flop
+Seat 4: doiar (big blind) collected ($0.18)
+Seat 5: CHECKALLIN-DNLM folded on the Flop
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 9: yda454 folded on the Flop
+
+
+
+PokerStars Hand #212451320533:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:51:55 ET
+Table 'Lilio III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($1.92 in chips)
+Seat 2: vih09 ($1.21 in chips)
+Seat 3: Benny1213 ($2.74 in chips)
+Seat 4: doiar ($2.74 in chips)
+Seat 5: CHECKALLIN-DNLM ($2 in chips)
+Seat 6: gizmondouk ($6.23 in chips)
+Seat 7: ginger_cola ($1.80 in chips)
+Seat 9: yda454 ($0.84 in chips)
+doiar: posts small blind $0.01
+CHECKALLIN-DNLM: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7s 8d]
+gizmondouk: folds
+ginger_cola: folds
+yda454: raises $0.04 to $0.06
+pokerHero1: folds
+vih09: calls $0.06
+Benny1213: calls $0.06
+doiar: calls $0.05
+CHECKALLIN-DNLM: folds
+*** FLOP *** [7d Tc 5d]
+doiar: checks
+yda454: checks
+vih09: checks
+Benny1213: bets $0.14
+doiar: folds
+yda454: folds
+vih09: folds
+Uncalled bet ($0.14) returned to Benny1213
+Benny1213 collected $0.25 from pot
+Benny1213: doesn't show hand
+*** SUMMARY ***
+Total pot $0.26 | Rake $0.01
+Board [7d Tc 5d]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded on the Flop
+Seat 3: Benny1213 (button) collected ($0.25)
+Seat 4: doiar (small blind) folded on the Flop
+Seat 5: CHECKALLIN-DNLM (big blind) folded before Flop
+Seat 6: gizmondouk folded before Flop (didn't bet)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 9: yda454 folded on the Flop
+
+
+
+PokerStars Hand #212451367707:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:52:46 ET
+Table 'Lilio III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($1.92 in chips)
+Seat 2: vih09 ($1.15 in chips)
+Seat 3: Benny1213 ($2.93 in chips)
+Seat 4: doiar ($2.68 in chips)
+Seat 5: CHECKALLIN-DNLM ($2 in chips)
+Seat 6: gizmondouk ($6.23 in chips)
+Seat 7: ginger_cola ($1.80 in chips)
+Seat 8: Gune4ka ($1.66 in chips)
+Seat 9: yda454 ($0.78 in chips)
+CHECKALLIN-DNLM: posts small blind $0.01
+gizmondouk: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td 8s]
+ginger_cola: folds
+Gune4ka: folds
+yda454: folds
+pokerHero1: folds
+vih09: folds
+vih09 leaves the table
+Benny1213: raises $0.04 to $0.06
+doiar: folds
+CHECKALLIN-DNLM: folds
+gizmondouk: raises $0.12 to $0.18
+Thargor111 joins the table at seat #2
+Benny1213: folds
+Uncalled bet ($0.12) returned to gizmondouk
+gizmondouk collected $0.13 from pot
+gizmondouk: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: vih09 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop
+Seat 4: doiar (button) folded before Flop (didn't bet)
+Seat 5: CHECKALLIN-DNLM (small blind) folded before Flop
+Seat 6: gizmondouk (big blind) collected ($0.13)
+Seat 7: ginger_cola folded before Flop (didn't bet)
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: yda454 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451416302:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:53:38 ET
+Table 'Lilio III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($1.92 in chips)
+Seat 3: Benny1213 ($2.87 in chips)
+Seat 4: doiar ($2.68 in chips)
+Seat 5: CHECKALLIN-DNLM ($2 in chips)
+Seat 6: gizmondouk ($6.30 in chips)
+Seat 7: ginger_cola ($1.80 in chips)
+Seat 8: Gune4ka ($1.66 in chips)
+Seat 9: yda454 ($0.78 in chips)
+gizmondouk: posts small blind $0.01
+ginger_cola: posts big blind $0.02
+Thargor111: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc 6c]
+Gune4ka: folds
+yda454: folds
+pokerHero1: folds
+Benny1213: folds
+doiar: folds
+CHECKALLIN-DNLM: folds
+gizmondouk: folds
+Uncalled bet ($0.01) returned to ginger_cola
+ginger_cola collected $0.02 from pot
+ginger_cola: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded before Flop (didn't bet)
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: CHECKALLIN-DNLM (button) folded before Flop (didn't bet)
+Seat 6: gizmondouk (small blind) folded before Flop
+Seat 7: ginger_cola (big blind) collected ($0.02)
+Seat 8: Gune4ka folded before Flop (didn't bet)
+Seat 9: yda454 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451442301:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:54:04 ET
+Table 'Lilio III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($1.92 in chips)
+Seat 3: Benny1213 ($2.87 in chips)
+Seat 4: doiar ($2.68 in chips)
+Seat 5: CHECKALLIN-DNLM ($2 in chips)
+Seat 6: gizmondouk ($6.29 in chips)
+Seat 7: ginger_cola ($1.81 in chips)
+Seat 8: Gune4ka ($1.66 in chips)
+Seat 9: yda454 ($0.78 in chips)
+ginger_cola: posts small blind $0.01
+Gune4ka: posts big blind $0.02
+Thargor111: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c 3h]
+yda454: raises $0.04 to $0.06
+pokerHero1: folds
+Benny1213: calls $0.06
+doiar: folds
+CHECKALLIN-DNLM: folds
+gizmondouk: folds
+ginger_cola: folds
+Gune4ka: calls $0.04
+*** FLOP *** [Th Kh Td]
+Gune4ka: bets $0.09
+yda454: folds
+Benny1213: calls $0.09
+*** TURN *** [Th Kh Td] [Js]
+Gune4ka: bets $0.18
+Benny1213: calls $0.18
+*** RIVER *** [Th Kh Td Js] [Jc]
+Gune4ka: bets $0.35
+Benny1213: folds
+Uncalled bet ($0.35) returned to Gune4ka
+Gune4ka collected $0.70 from pot
+*** SUMMARY ***
+Total pot $0.73 | Rake $0.03
+Board [Th Kh Td Js Jc]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: Benny1213 folded on the River
+Seat 4: doiar folded before Flop (didn't bet)
+Seat 5: CHECKALLIN-DNLM folded before Flop (didn't bet)
+Seat 6: gizmondouk (button) folded before Flop (didn't bet)
+Seat 7: ginger_cola (small blind) folded before Flop
+Seat 8: Gune4ka (big blind) collected ($0.70)
+Seat 9: yda454 folded on the Flop
+
+
+

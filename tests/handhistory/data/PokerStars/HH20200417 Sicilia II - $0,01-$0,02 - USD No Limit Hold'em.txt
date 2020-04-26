@@ -1,0 +1,5415 @@
+﻿PokerStars Hand #212178467840:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:41:09 ET
+Table 'Sicilia II' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2 in chips)
+Seat 2: ingride775 ($1.30 in chips)
+Seat 3: Pedro Sorribes ($2 in chips)
+Seat 4: RAHA1000 ($0.75 in chips)
+Seat 5: Riugian ($2.34 in chips)
+Seat 6: marko2401 ($1.45 in chips)
+Seat 8: zuantewith80 ($1.15 in chips)
+Seat 9: Koda2601 ($3.53 in chips)
+Koda2601: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+Pedro Sorribes: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ah Jd]
+Byrdy11 joins the table at seat #7
+ingride775: calls $0.02
+Pedro Sorribes: checks
+RAHA1000: calls $0.02
+Riugian: folds
+marko2401: folds
+zuantewith80: raises $0.04 to $0.06
+Koda2601: folds
+pokerHero1: folds
+ingride775: calls $0.04
+Pedro Sorribes: calls $0.04
+RAHA1000: calls $0.04
+*** FLOP *** [As 8h Qc]
+ingride775: checks
+Pedro Sorribes: checks
+RAHA1000: checks
+zuantewith80: checks
+*** TURN *** [As 8h Qc] [2d]
+ingride775: checks
+Pedro Sorribes: checks
+RAHA1000: checks
+zuantewith80: checks
+*** RIVER *** [As 8h Qc 2d] [9d]
+ingride775: checks
+Pedro Sorribes: checks
+RAHA1000: checks
+zuantewith80: checks
+*** SHOW DOWN ***
+ingride775: shows [9h 7h] (a pair of Nines)
+Pedro Sorribes: mucks hand
+RAHA1000: mucks hand
+zuantewith80: mucks hand
+ingride775 collected $0.26 from pot
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01
+Board [As 8h Qc 2d 9d]
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 2: ingride775 showed [9h 7h] and won ($0.26) with a pair of Nines
+Seat 3: Pedro Sorribes mucked [Jh 4s]
+Seat 4: RAHA1000 mucked [Td Kc]
+Seat 5: Riugian folded before Flop (didn't bet)
+Seat 6: marko2401 folded before Flop (didn't bet)
+Seat 8: zuantewith80 (button) mucked [Ks Jc]
+Seat 9: Koda2601 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212178561548:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:42:38 ET
+Table 'Sicilia II' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($1.98 in chips)
+Seat 2: ingride775 ($1.50 in chips)
+Seat 3: Pedro Sorribes ($1.94 in chips)
+Seat 4: RAHA1000 ($0.69 in chips)
+Seat 5: Riugian ($2.34 in chips)
+Seat 6: marko2401 ($1.45 in chips)
+Seat 7: Byrdy11 ($1.60 in chips)
+Seat 8: zuantewith80 ($1.17 in chips)
+Seat 9: Koda2601 ($3.52 in chips)
+pokerHero1: posts small blind $0.01
+ingride775: posts big blind $0.02
+Byrdy11: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th Qh]
+Pedro Sorribes: folds
+RAHA1000: folds
+Riugian: folds
+marko2401: folds
+Byrdy11: checks
+zuantewith80: raises $0.10 to $0.12
+Koda2601: folds
+pokerHero1: folds
+ingride775 has timed out
+ingride775: folds
+Byrdy11: folds
+Uncalled bet ($0.10) returned to zuantewith80
+zuantewith80 collected $0.07 from pot
+zuantewith80: doesn't show hand
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: ingride775 (big blind) folded before Flop
+Seat 3: Pedro Sorribes folded before Flop (didn't bet)
+Seat 4: RAHA1000 folded before Flop (didn't bet)
+Seat 5: Riugian folded before Flop (didn't bet)
+Seat 6: marko2401 folded before Flop (didn't bet)
+Seat 7: Byrdy11 folded before Flop (didn't bet)
+Seat 8: zuantewith80 collected ($0.07)
+Seat 9: Koda2601 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212178628786:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:43:41 ET
+Table 'Sicilia II' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($1.97 in chips)
+Seat 3: Pedro Sorribes ($1.94 in chips)
+Seat 4: RAHA1000 ($0.69 in chips)
+Seat 5: Riugian ($2.34 in chips)
+Seat 6: marko2401 ($1.45 in chips)
+Seat 7: Byrdy11 ($1.58 in chips)
+Seat 8: zuantewith80 ($1.22 in chips)
+Seat 9: Koda2601 ($3.52 in chips)
+Pedro Sorribes: posts small blind $0.01
+RAHA1000: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s 4h]
+Riugian: folds
+marko2401: folds
+Byrdy11: calls $0.02
+zuantewith80: folds
+Koda2601: folds
+pokerHero1: folds
+Pedro Sorribes: calls $0.01
+RAHA1000: checks
+*** FLOP *** [2h 5d 6c]
+Pedro Sorribes: checks
+RAHA1000: checks
+Byrdy11: checks
+*** TURN *** [2h 5d 6c] [4s]
+Pedro Sorribes: bets $0.06
+RAHA1000: folds
+Byrdy11: calls $0.06
+*** RIVER *** [2h 5d 6c 4s] [Jd]
+Pedro Sorribes: bets $0.17
+Byrdy11: folds
+Uncalled bet ($0.17) returned to Pedro Sorribes
+Pedro Sorribes collected $0.17 from pot
+Pedro Sorribes: doesn't show hand
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [2h 5d 6c 4s Jd]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes (small blind) collected ($0.17)
+Seat 4: RAHA1000 (big blind) folded on the Turn
+Seat 5: Riugian folded before Flop (didn't bet)
+Seat 6: marko2401 folded before Flop (didn't bet)
+Seat 7: Byrdy11 folded on the River
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212178692385:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:44:41 ET
+Table 'Sicilia II' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($1.97 in chips)
+Seat 2: ingride775 ($1.48 in chips)
+Seat 3: Pedro Sorribes ($2.03 in chips)
+Seat 4: RAHA1000 ($0.67 in chips)
+Seat 5: Riugian ($2.34 in chips)
+Seat 6: marko2401 ($1.45 in chips)
+Seat 7: Byrdy11 ($1.50 in chips)
+Seat 8: zuantewith80 ($1.22 in chips)
+Seat 9: Koda2601 ($3.52 in chips)
+RAHA1000: posts small blind $0.01
+Riugian: posts big blind $0.02
+ingride775: posts small blind $0.01
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ah Qh]
+marko2401: raises $0.04 to $0.06
+Byrdy11: calls $0.06
+zuantewith80: calls $0.06
+Koda2601: folds
+pokerHero1: raises $0.18 to $0.24
+ingride775: folds
+Pedro Sorribes: calls $0.24
+RAHA1000: folds
+Riugian: folds
+marko2401: calls $0.18
+Byrdy11: folds
+zuantewith80: folds
+*** FLOP *** [Kd 9s 6s]
+marko2401: checks
+ingride775 leaves the table
+pokerHero1: checks
+Pedro Sorribes: checks
+*** TURN *** [Kd 9s 6s] [Ad]
+marko2401: checks
+pokerHero1: bets $0.43
+Pedro Sorribes: folds
+marko2401: folds
+Uncalled bet ($0.43) returned to pokerHero1
+pokerHero1 collected $0.85 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.88 | Rake $0.03
+Board [Kd 9s 6s Ad]
+Seat 1: pokerHero1 collected ($0.85)
+Seat 2: ingride775 folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes (button) folded on the Turn
+Seat 4: RAHA1000 (small blind) folded before Flop
+Seat 5: Riugian (big blind) folded before Flop
+Seat 6: marko2401 folded on the Turn
+Seat 7: Byrdy11 folded before Flop
+Seat 8: zuantewith80 folded before Flop
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212178783112:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:46:03 ET
+Table 'Sicilia II' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.58 in chips)
+Seat 3: Pedro Sorribes ($1.79 in chips)
+Seat 4: RAHA1000 ($0.66 in chips)
+Seat 5: Riugian ($2.32 in chips)
+Seat 6: marko2401 ($1.21 in chips)
+Seat 7: Byrdy11 ($1.44 in chips)
+Seat 8: zuantewith80 ($1.17 in chips)
+Seat 9: Koda2601 ($3.52 in chips)
+Riugian: posts small blind $0.01
+marko2401: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d 3s]
+Byrdy11: calls $0.02
+BRAT PIDD joins the table at seat #2
+zuantewith80: folds
+Koda2601: folds
+pokerHero1: folds
+Pedro Sorribes: calls $0.02
+RAHA1000: calls $0.02
+Riugian: raises $0.06 to $0.08
+marko2401: folds
+Byrdy11: calls $0.06
+Pedro Sorribes: calls $0.06
+RAHA1000: calls $0.06
+*** FLOP *** [7c Ts 3c]
+Riugian: checks
+Byrdy11: checks
+Pedro Sorribes: bets $0.10
+RAHA1000: folds
+Riugian: calls $0.10
+Byrdy11: folds
+*** TURN *** [7c Ts 3c] [Ks]
+Riugian: checks
+Pedro Sorribes: bets $0.08
+Riugian: calls $0.08
+*** RIVER *** [7c Ts 3c Ks] [2h]
+Riugian: checks
+Pedro Sorribes: checks
+*** SHOW DOWN ***
+Riugian: shows [As 8s] (high card Ace)
+Pedro Sorribes: shows [7s Qh] (a pair of Sevens)
+Pedro Sorribes collected $0.68 from pot
+*** SUMMARY ***
+Total pot $0.70 | Rake $0.02
+Board [7c Ts 3c Ks 2h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes showed [7s Qh] and won ($0.68) with a pair of Sevens
+Seat 4: RAHA1000 (button) folded on the Flop
+Seat 5: Riugian (small blind) showed [As 8s] and lost with high card Ace
+Seat 6: marko2401 (big blind) folded before Flop
+Seat 7: Byrdy11 folded on the Flop
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212178892510:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:47:37 ET
+Table 'Sicilia II' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.58 in chips)
+Seat 3: Pedro Sorribes ($2.21 in chips)
+Seat 4: RAHA1000 ($0.58 in chips)
+Seat 5: Riugian ($2.06 in chips)
+Seat 6: marko2401 ($1.19 in chips)
+Seat 7: Byrdy11 ($1.36 in chips)
+Seat 8: zuantewith80 ($1.17 in chips)
+Seat 9: Koda2601 ($3.52 in chips)
+marko2401: posts small blind $0.01
+Byrdy11: posts big blind $0.02
+BRAT PIDD: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8c Kh]
+zuantewith80: folds
+Koda2601: folds
+pokerHero1: folds
+Pedro Sorribes: raises $0.02 to $0.04
+RAHA1000: calls $0.04
+Riugian: raises $0.06 to $0.10
+marko2401: folds
+Byrdy11: calls $0.08
+Pedro Sorribes: calls $0.06
+RAHA1000: calls $0.06
+*** FLOP *** [7d 5c 5s]
+Byrdy11: bets $0.02
+Pedro Sorribes: raises $0.22 to $0.24
+RAHA1000: folds
+Riugian: folds
+Byrdy11: calls $0.22
+*** TURN *** [7d 5c 5s] [4d]
+Byrdy11: checks
+Pedro Sorribes: bets $0.18
+Byrdy11: calls $0.18
+*** RIVER *** [7d 5c 5s 4d] [2s]
+Byrdy11: checks
+Pedro Sorribes: bets $0.10
+Byrdy11: calls $0.10
+*** SHOW DOWN ***
+Pedro Sorribes: shows [5d Kc] (three of a kind, Fives)
+Byrdy11: mucks hand
+Pedro Sorribes collected $1.40 from pot
+*** SUMMARY ***
+Total pot $1.45 | Rake $0.05
+Board [7d 5c 5s 4d 2s]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes showed [5d Kc] and won ($1.40) with three of a kind, Fives
+Seat 4: RAHA1000 folded on the Flop
+Seat 5: Riugian (button) folded on the Flop
+Seat 6: marko2401 (small blind) folded before Flop
+Seat 7: Byrdy11 (big blind) mucked [Qd Qc]
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212178978927:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:48:58 ET
+Table 'Sicilia II' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.58 in chips)
+Seat 3: Pedro Sorribes ($2.99 in chips)
+Seat 4: RAHA1000 ($0.48 in chips)
+Seat 5: Riugian ($1.96 in chips)
+Seat 6: marko2401 ($1.18 in chips)
+Seat 7: Byrdy11 ($0.74 in chips)
+Seat 8: zuantewith80 ($1.17 in chips)
+Seat 9: Koda2601 ($3.52 in chips)
+Byrdy11: posts small blind $0.01
+zuantewith80: posts big blind $0.02
+BRAT PIDD: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c 8c]
+Koda2601: folds
+pokerHero1: folds
+Pedro Sorribes: folds
+RAHA1000: calls $0.02
+Riugian: folds
+marko2401: folds
+Byrdy11: calls $0.01
+zuantewith80: checks
+*** FLOP *** [5c 8d As]
+Byrdy11: checks
+zuantewith80: bets $0.06
+RAHA1000: folds
+Byrdy11: folds
+Uncalled bet ($0.06) returned to zuantewith80
+zuantewith80 collected $0.06 from pot
+zuantewith80: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [5c 8d As]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded before Flop (didn't bet)
+Seat 4: RAHA1000 folded on the Flop
+Seat 5: Riugian folded before Flop (didn't bet)
+Seat 6: marko2401 (button) folded before Flop (didn't bet)
+Seat 7: Byrdy11 (small blind) folded on the Flop
+Seat 8: zuantewith80 (big blind) collected ($0.06)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212179008110:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:49:25 ET
+Table 'Sicilia II' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.58 in chips)
+Seat 3: Pedro Sorribes ($2.99 in chips)
+Seat 5: Riugian ($1.96 in chips)
+Seat 6: marko2401 ($1.18 in chips)
+Seat 7: Byrdy11 ($0.72 in chips)
+Seat 8: zuantewith80 ($1.21 in chips)
+Seat 9: Koda2601 ($3.52 in chips)
+zuantewith80: posts small blind $0.01
+Koda2601: posts big blind $0.02
+BRAT PIDD: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d Qc]
+pokerHero1: folds
+Pedro Sorribes: calls $0.02
+Riugian: folds
+marko2401: folds
+Byrdy11: calls $0.02
+zuantewith80: calls $0.01
+Koda2601: checks
+*** FLOP *** [Jh Ac 2c]
+zuantewith80: checks
+Koda2601: checks
+Pedro Sorribes: bets $0.02
+Byrdy11: calls $0.02
+zuantewith80: folds
+Koda2601: folds
+*** TURN *** [Jh Ac 2c] [8d]
+Pedro Sorribes: checks
+Byrdy11: bets $0.10
+Pedro Sorribes: folds
+Uncalled bet ($0.10) returned to Byrdy11
+Byrdy11 collected $0.12 from pot
+Byrdy11: doesn't show hand
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Board [Jh Ac 2c 8d]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded on the Turn
+Seat 5: Riugian folded before Flop (didn't bet)
+Seat 6: marko2401 folded before Flop (didn't bet)
+Seat 7: Byrdy11 (button) collected ($0.12)
+Seat 8: zuantewith80 (small blind) folded on the Flop
+Seat 9: Koda2601 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212179065452:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:50:18 ET
+Table 'Sicilia II' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.58 in chips)
+Seat 3: Pedro Sorribes ($2.95 in chips)
+Seat 5: Riugian ($1.96 in chips)
+Seat 6: marko2401 ($1.18 in chips)
+Seat 7: Byrdy11 ($0.80 in chips)
+Seat 8: zuantewith80 ($1.19 in chips)
+Seat 9: Koda2601 ($3.50 in chips)
+Koda2601: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+BRAT PIDD: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c 8h]
+Pedro Sorribes: folds
+Riugian: folds
+marko2401: raises $0.02 to $0.04
+Byrdy11: folds
+zuantewith80: folds
+Koda2601: calls $0.03
+pokerHero1: calls $0.02
+*** FLOP *** [Qs 3c 5c]
+Koda2601: checks
+pokerHero1: checks
+marko2401: checks
+*** TURN *** [Qs 3c 5c] [Th]
+Koda2601: checks
+pokerHero1: checks
+marko2401: bets $0.08
+Koda2601: folds
+pokerHero1: folds
+Uncalled bet ($0.08) returned to marko2401
+marko2401 collected $0.12 from pot
+marko2401: doesn't show hand
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Board [Qs 3c 5c Th]
+Seat 1: pokerHero1 (big blind) folded on the Turn
+Seat 3: Pedro Sorribes folded before Flop (didn't bet)
+Seat 5: Riugian folded before Flop (didn't bet)
+Seat 6: marko2401 collected ($0.12)
+Seat 7: Byrdy11 folded before Flop (didn't bet)
+Seat 8: zuantewith80 (button) folded before Flop (didn't bet)
+Seat 9: Koda2601 (small blind) folded on the Turn
+
+
+
+PokerStars Hand #212179108965:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:50:59 ET
+Table 'Sicilia II' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.54 in chips)
+Seat 2: BRAT PIDD ($2 in chips)
+Seat 3: Pedro Sorribes ($2.95 in chips)
+Seat 5: Riugian ($1.96 in chips)
+Seat 6: marko2401 ($1.26 in chips)
+Seat 7: Byrdy11 ($0.80 in chips)
+Seat 8: zuantewith80 ($1.19 in chips)
+Seat 9: Koda2601 ($3.46 in chips)
+pokerHero1: posts small blind $0.01
+BRAT PIDD: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7s 4d]
+Pedro Sorribes: folds
+Riugian: folds
+marko2401: folds
+Byrdy11: calls $0.02
+zuantewith80: folds
+Koda2601: folds
+pokerHero1: folds
+BRAT PIDD: checks
+*** FLOP *** [5s 8c 3c]
+BRAT PIDD: checks
+Byrdy11: checks
+*** TURN *** [5s 8c 3c] [Ad]
+BRAT PIDD: checks
+Byrdy11: checks
+*** RIVER *** [5s 8c 3c Ad] [5h]
+BRAT PIDD: checks
+Byrdy11: checks
+*** SHOW DOWN ***
+BRAT PIDD: shows [4s 7c] (a pair of Fives)
+Byrdy11: shows [Qh 6c] (a pair of Fives - Ace+Queen kicker)
+Byrdy11 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [5s 8c 3c Ad 5h]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: BRAT PIDD (big blind) showed [4s 7c] and lost with a pair of Fives
+Seat 3: Pedro Sorribes folded before Flop (didn't bet)
+Seat 5: Riugian folded before Flop (didn't bet)
+Seat 6: marko2401 folded before Flop (didn't bet)
+Seat 7: Byrdy11 showed [Qh 6c] and won ($0.05) with a pair of Fives
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212179151359:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:51:38 ET
+Table 'Sicilia II' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.53 in chips)
+Seat 2: BRAT PIDD ($2 in chips)
+Seat 3: Pedro Sorribes ($2.95 in chips)
+Seat 4: RAHA1000 ($0.46 in chips)
+Seat 5: Riugian ($1.96 in chips)
+Seat 6: marko2401 ($1.26 in chips)
+Seat 7: Byrdy11 ($0.83 in chips)
+Seat 8: zuantewith80 ($1.19 in chips)
+Seat 9: Koda2601 ($3.46 in chips)
+BRAT PIDD: posts small blind $0.01
+Pedro Sorribes: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kc 2h]
+RAHA1000: folds
+Riugian: folds
+marko2401: folds
+Byrdy11: calls $0.02
+zuantewith80: folds
+Koda2601: folds
+pokerHero1: folds
+BRAT PIDD: calls $0.01
+Pedro Sorribes: checks
+*** FLOP *** [Ad Qh Js]
+BRAT PIDD: checks
+Pedro Sorribes: checks
+Byrdy11: checks
+*** TURN *** [Ad Qh Js] [6d]
+BRAT PIDD: checks
+Pedro Sorribes: checks
+Byrdy11: bets $0.02
+BRAT PIDD: calls $0.02
+Pedro Sorribes: calls $0.02
+*** RIVER *** [Ad Qh Js 6d] [4d]
+BRAT PIDD: checks
+Pedro Sorribes: checks
+Byrdy11: bets $0.02
+BRAT PIDD: calls $0.02
+Pedro Sorribes: calls $0.02
+*** SHOW DOWN ***
+Byrdy11: shows [Qd 2s] (a pair of Queens)
+BRAT PIDD: shows [Th Qs] (a pair of Queens - Ace+Jack+Ten kicker)
+Pedro Sorribes: mucks hand
+BRAT PIDD collected $0.17 from pot
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [Ad Qh Js 6d 4d]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: BRAT PIDD (small blind) showed [Th Qs] and won ($0.17) with a pair of Queens
+Seat 3: Pedro Sorribes (big blind) mucked [9d 4h]
+Seat 4: RAHA1000 folded before Flop (didn't bet)
+Seat 5: Riugian folded before Flop (didn't bet)
+Seat 6: marko2401 folded before Flop (didn't bet)
+Seat 7: Byrdy11 showed [Qd 2s] and lost with a pair of Queens
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212179214244:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:52:39 ET
+Table 'Sicilia II' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.53 in chips)
+Seat 2: BRAT PIDD ($2.11 in chips)
+Seat 3: Pedro Sorribes ($2.89 in chips)
+Seat 4: RAHA1000 ($0.46 in chips)
+Seat 5: Riugian ($1.96 in chips)
+Seat 6: marko2401 ($1.26 in chips)
+Seat 7: Byrdy11 ($0.77 in chips)
+Seat 8: zuantewith80 ($1.19 in chips)
+Seat 9: Koda2601 ($3.46 in chips)
+Pedro Sorribes: posts small blind $0.01
+RAHA1000: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5h 2h]
+Riugian: folds
+marko2401: folds
+Byrdy11: calls $0.02
+zuantewith80: folds
+Koda2601: folds
+pokerHero1: folds
+BRAT PIDD: folds
+Pedro Sorribes: calls $0.01
+RAHA1000: checks
+*** FLOP *** [9c 7s Tc]
+Pedro Sorribes: bets $0.03
+RAHA1000: folds
+Byrdy11: calls $0.03
+*** TURN *** [9c 7s Tc] [5c]
+Pedro Sorribes: checks
+Byrdy11: bets $0.06
+Pedro Sorribes: calls $0.06
+*** RIVER *** [9c 7s Tc 5c] [6s]
+Pedro Sorribes: checks
+Byrdy11: checks
+*** SHOW DOWN ***
+Pedro Sorribes: shows [9d Qs] (a pair of Nines)
+Byrdy11: mucks hand
+Pedro Sorribes collected $0.23 from pot
+*** SUMMARY ***
+Total pot $0.24 | Rake $0.01
+Board [9c 7s Tc 5c 6s]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BRAT PIDD (button) folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes (small blind) showed [9d Qs] and won ($0.23) with a pair of Nines
+Seat 4: RAHA1000 (big blind) folded on the Flop
+Seat 5: Riugian folded before Flop (didn't bet)
+Seat 6: marko2401 folded before Flop (didn't bet)
+Seat 7: Byrdy11 mucked [4h Ah]
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212179281625:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:53:43 ET
+Table 'Sicilia II' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.53 in chips)
+Seat 2: BRAT PIDD ($2.11 in chips)
+Seat 3: Pedro Sorribes ($3.01 in chips)
+Seat 4: RAHA1000 ($0.44 in chips)
+Seat 5: Riugian ($1.96 in chips)
+Seat 6: marko2401 ($1.26 in chips)
+Seat 7: Byrdy11 ($0.66 in chips)
+Seat 8: zuantewith80 ($1.19 in chips)
+Seat 9: Koda2601 ($3.46 in chips)
+RAHA1000: posts small blind $0.01
+Riugian: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6h 7d]
+marko2401: folds
+Byrdy11: calls $0.02
+zuantewith80: folds
+Koda2601: calls $0.02
+pokerHero1: folds
+BRAT PIDD: raises $0.10 to $0.12
+Pedro Sorribes: folds
+RAHA1000: folds
+Riugian: folds
+Byrdy11: calls $0.10
+Koda2601: folds
+*** FLOP *** [4d 3c 9c]
+Byrdy11: checks
+BRAT PIDD: bets $0.18
+Byrdy11: folds
+Uncalled bet ($0.18) returned to BRAT PIDD
+BRAT PIDD collected $0.28 from pot
+BRAT PIDD: doesn't show hand
+*** SUMMARY ***
+Total pot $0.29 | Rake $0.01
+Board [4d 3c 9c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BRAT PIDD collected ($0.28)
+Seat 3: Pedro Sorribes (button) folded before Flop (didn't bet)
+Seat 4: RAHA1000 (small blind) folded before Flop
+Seat 5: Riugian (big blind) folded before Flop
+Seat 6: marko2401 folded before Flop (didn't bet)
+Seat 7: Byrdy11 folded on the Flop
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop
+
+
+
+PokerStars Hand #212179331007:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:54:31 ET
+Table 'Sicilia II' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.53 in chips)
+Seat 2: BRAT PIDD ($2.27 in chips)
+Seat 3: Pedro Sorribes ($3.01 in chips)
+Seat 4: RAHA1000 ($0.43 in chips)
+Seat 5: Riugian ($1.94 in chips)
+Seat 6: marko2401 ($1.26 in chips)
+Seat 7: Byrdy11 ($0.54 in chips)
+Seat 8: zuantewith80 ($1.19 in chips)
+Seat 9: Koda2601 ($3.44 in chips)
+Riugian: posts small blind $0.01
+marko2401: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd 2s]
+Byrdy11: calls $0.02
+zuantewith80: folds
+Koda2601: calls $0.02
+pokerHero1: folds
+BRAT PIDD: raises $0.10 to $0.12
+Pedro Sorribes: folds
+RAHA1000: folds
+Riugian: folds
+marko2401: folds
+Byrdy11: folds
+Koda2601: calls $0.10
+*** FLOP *** [7s 4s 4c]
+Koda2601: checks
+BRAT PIDD: checks
+*** TURN *** [7s 4s 4c] [Ks]
+Koda2601: checks
+BRAT PIDD: checks
+*** RIVER *** [7s 4s 4c Ks] [5h]
+Koda2601: bets $0.14
+BRAT PIDD: folds
+Uncalled bet ($0.14) returned to Koda2601
+Koda2601 collected $0.28 from pot
+Koda2601: doesn't show hand
+*** SUMMARY ***
+Total pot $0.29 | Rake $0.01
+Board [7s 4s 4c Ks 5h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BRAT PIDD folded on the River
+Seat 3: Pedro Sorribes folded before Flop (didn't bet)
+Seat 4: RAHA1000 (button) folded before Flop (didn't bet)
+Seat 5: Riugian (small blind) folded before Flop
+Seat 6: marko2401 (big blind) folded before Flop
+Seat 7: Byrdy11 folded before Flop
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 collected ($0.28)
+
+
+
+PokerStars Hand #212179382330:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:55:24 ET
+Table 'Sicilia II' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.53 in chips)
+Seat 2: BRAT PIDD ($2.15 in chips)
+Seat 3: Pedro Sorribes ($3.01 in chips)
+Seat 4: RAHA1000 ($0.43 in chips)
+Seat 5: Riugian ($1.93 in chips)
+Seat 6: marko2401 ($1.24 in chips)
+Seat 7: Byrdy11 ($0.52 in chips)
+Seat 8: zuantewith80 ($1.19 in chips)
+Seat 9: Koda2601 ($3.60 in chips)
+marko2401: posts small blind $0.01
+Byrdy11: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc Tc]
+zuantewith80: raises $0.04 to $0.06
+Koda2601: folds
+pokerHero1: folds
+BRAT PIDD: folds
+Pedro Sorribes: calls $0.06
+RAHA1000: folds
+Riugian: calls $0.06
+marko2401: folds
+Byrdy11: folds
+*** FLOP *** [4h 4s Td]
+zuantewith80: checks
+Pedro Sorribes: checks
+Riugian: checks
+*** TURN *** [4h 4s Td] [Ad]
+zuantewith80: bets $0.14
+Pedro Sorribes: calls $0.14
+Riugian: folds
+*** RIVER *** [4h 4s Td Ad] [Ah]
+zuantewith80: bets $0.42
+Pedro Sorribes: calls $0.42
+*** SHOW DOWN ***
+zuantewith80: shows [As Kd] (a full house, Aces full of Fours)
+Pedro Sorribes: shows [Ac 2s] (a full house, Aces full of Fours)
+zuantewith80 collected $0.64 from pot
+Pedro Sorribes collected $0.64 from pot
+*** SUMMARY ***
+Total pot $1.33 | Rake $0.05
+Board [4h 4s Td Ad Ah]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BRAT PIDD folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes showed [Ac 2s] and won ($0.64) with a full house, Aces full of Fours
+Seat 4: RAHA1000 folded before Flop (didn't bet)
+Seat 5: Riugian (button) folded on the Turn
+Seat 6: marko2401 (small blind) folded before Flop
+Seat 7: Byrdy11 (big blind) folded before Flop
+Seat 8: zuantewith80 showed [As Kd] and won ($0.64) with a full house, Aces full of Fours
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212179436239:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:56:33 ET
+Table 'Sicilia II' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.53 in chips)
+Seat 2: BRAT PIDD ($2.15 in chips)
+Seat 3: Pedro Sorribes ($3.03 in chips)
+Seat 4: RAHA1000 ($0.43 in chips)
+Seat 5: Riugian ($1.87 in chips)
+Seat 6: marko2401 ($1.23 in chips)
+Seat 7: Byrdy11 ($0.50 in chips)
+Seat 8: zuantewith80 ($1.21 in chips)
+Seat 9: Koda2601 ($3.60 in chips)
+Byrdy11: posts small blind $0.01
+zuantewith80: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qs 5s]
+Koda2601: calls $0.02
+pokerHero1: folds
+BRAT PIDD: folds
+Pedro Sorribes: folds
+RAHA1000: folds
+Riugian: raises $0.06 to $0.08
+marko2401: folds
+Byrdy11: folds
+zuantewith80: folds
+Koda2601: calls $0.06
+*** FLOP *** [6s 3s Ts]
+Koda2601: checks
+Riugian: bets $0.18
+Koda2601: folds
+Uncalled bet ($0.18) returned to Riugian
+Riugian collected $0.18 from pot
+Riugian: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [6s 3s Ts]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BRAT PIDD folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded before Flop (didn't bet)
+Seat 4: RAHA1000 folded before Flop (didn't bet)
+Seat 5: Riugian collected ($0.18)
+Seat 6: marko2401 (button) folded before Flop (didn't bet)
+Seat 7: Byrdy11 (small blind) folded before Flop
+Seat 8: zuantewith80 (big blind) folded before Flop
+Seat 9: Koda2601 folded on the Flop
+
+
+
+PokerStars Hand #212179479097:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:57:28 ET
+Table 'Sicilia II' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.53 in chips)
+Seat 2: BRAT PIDD ($2.15 in chips)
+Seat 3: Pedro Sorribes ($3.03 in chips)
+Seat 4: RAHA1000 ($0.43 in chips)
+Seat 5: Riugian ($1.97 in chips)
+Seat 6: marko2401 ($1.23 in chips)
+Seat 7: Byrdy11 ($0.49 in chips)
+Seat 8: zuantewith80 ($1.19 in chips)
+Seat 9: Koda2601 ($3.52 in chips)
+zuantewith80: posts small blind $0.01
+Koda2601: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c 2h]
+pokerHero1: folds
+BRAT PIDD: folds
+Pedro Sorribes: calls $0.02
+RAHA1000: folds
+Riugian: folds
+marko2401: folds
+Byrdy11: calls $0.02
+zuantewith80: folds
+Koda2601: checks
+*** FLOP *** [Td 2s 7d]
+Koda2601: checks
+Pedro Sorribes: bets $0.07
+Byrdy11: folds
+Koda2601: folds
+Uncalled bet ($0.07) returned to Pedro Sorribes
+Pedro Sorribes collected $0.07 from pot
+Pedro Sorribes: doesn't show hand
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Board [Td 2s 7d]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BRAT PIDD folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes collected ($0.07)
+Seat 4: RAHA1000 folded before Flop (didn't bet)
+Seat 5: Riugian folded before Flop (didn't bet)
+Seat 6: marko2401 folded before Flop (didn't bet)
+Seat 7: Byrdy11 (button) folded on the Flop
+Seat 8: zuantewith80 (small blind) folded before Flop
+Seat 9: Koda2601 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212179515365:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:58:14 ET
+Table 'Sicilia II' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.53 in chips)
+Seat 2: BRAT PIDD ($2.15 in chips)
+Seat 3: Pedro Sorribes ($3.08 in chips)
+Seat 4: RAHA1000 ($0.43 in chips)
+Seat 5: Riugian ($1.97 in chips)
+Seat 6: marko2401 ($1.23 in chips)
+Seat 7: Byrdy11 ($0.47 in chips)
+Seat 8: zuantewith80 ($1.18 in chips)
+Seat 9: Koda2601 ($3.50 in chips)
+Koda2601: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5c Ks]
+BRAT PIDD: folds
+Pedro Sorribes: folds
+RAHA1000: calls $0.02
+Riugian: folds
+marko2401: calls $0.02
+Byrdy11: calls $0.02
+zuantewith80: folds
+Koda2601: folds
+pokerHero1: checks
+*** FLOP *** [4c Kc 3d]
+pokerHero1: checks
+RAHA1000: checks
+marko2401: checks
+Byrdy11: checks
+*** TURN *** [4c Kc 3d] [Kd]
+pokerHero1: bets $0.04
+RAHA1000: folds
+marko2401: folds
+Byrdy11: calls $0.04
+*** RIVER *** [4c Kc 3d Kd] [Kh]
+pokerHero1: bets $0.04
+Byrdy11: raises $0.24 to $0.28
+pokerHero1: raises $0.32 to $0.60
+Byrdy11: calls $0.13 and is all-in
+Uncalled bet ($0.19) returned to pokerHero1
+*** SHOW DOWN ***
+pokerHero1: shows [5c Ks] (four of a kind, Kings)
+Byrdy11: shows [Ts Ad] (three of a kind, Kings)
+pokerHero1 collected $0.96 from pot
+*** SUMMARY ***
+Total pot $0.99 | Rake $0.03
+Board [4c Kc 3d Kd Kh]
+Seat 1: pokerHero1 (big blind) showed [5c Ks] and won ($0.96) with four of a kind, Kings
+Seat 2: BRAT PIDD folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded before Flop (didn't bet)
+Seat 4: RAHA1000 folded on the Turn
+Seat 5: Riugian folded before Flop (didn't bet)
+Seat 6: marko2401 folded on the Turn
+Seat 7: Byrdy11 showed [Ts Ad] and lost with three of a kind, Kings
+Seat 8: zuantewith80 (button) folded before Flop (didn't bet)
+Seat 9: Koda2601 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212179582364:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:59:36 ET
+Table 'Sicilia II' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($3.02 in chips)
+Seat 2: BRAT PIDD ($2.15 in chips)
+Seat 3: Pedro Sorribes ($3.08 in chips)
+Seat 4: RAHA1000 ($0.41 in chips)
+Seat 5: Riugian ($1.97 in chips)
+Seat 6: marko2401 ($1.21 in chips)
+Seat 8: zuantewith80 ($1.18 in chips)
+Seat 9: Koda2601 ($3.49 in chips)
+pokerHero1: posts small blind $0.01
+BRAT PIDD: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac 9d]
+Pedro Sorribes: calls $0.02
+RAHA1000: folds
+Riugian: calls $0.02
+marko2401: folds
+zuantewith80: folds
+Koda2601: calls $0.02
+pokerHero1: folds
+BRAT PIDD: checks
+*** FLOP *** [As 5d 7s]
+BRAT PIDD: checks
+Pedro Sorribes: bets $0.02
+Byrdy11 leaves the table
+Riugian: calls $0.02
+Koda2601: raises $0.08 to $0.10
+BRAT PIDD: folds
+Pedro Sorribes: calls $0.08
+Riugian: folds
+*** TURN *** [As 5d 7s] [3d]
+Pedro Sorribes: checks
+Koda2601: bets $0.30
+Pedro Sorribes: folds
+Uncalled bet ($0.30) returned to Koda2601
+Koda2601 collected $0.30 from pot
+Koda2601: doesn't show hand
+*** SUMMARY ***
+Total pot $0.31 | Rake $0.01
+Board [As 5d 7s 3d]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: BRAT PIDD (big blind) folded on the Flop
+Seat 3: Pedro Sorribes folded on the Turn
+Seat 4: RAHA1000 folded before Flop (didn't bet)
+Seat 5: Riugian folded on the Flop
+Seat 6: marko2401 folded before Flop (didn't bet)
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 (button) collected ($0.30)
+
+
+
+PokerStars Hand #212179647266:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:00:41 ET
+Table 'Sicilia II' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($3.01 in chips)
+Seat 2: BRAT PIDD ($2.13 in chips)
+Seat 3: Pedro Sorribes ($2.96 in chips)
+Seat 4: RAHA1000 ($0.41 in chips)
+Seat 5: Riugian ($1.93 in chips)
+Seat 6: marko2401 ($1.21 in chips)
+Seat 8: zuantewith80 ($1.18 in chips)
+Seat 9: Koda2601 ($3.67 in chips)
+BRAT PIDD: posts small blind $0.01
+Pedro Sorribes: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s Ac]
+3737minar joins the table at seat #7
+RAHA1000: folds
+Riugian: folds
+marko2401: folds
+zuantewith80: folds
+Koda2601: folds
+pokerHero1: raises $0.04 to $0.06
+BRAT PIDD: raises $0.14 to $0.20
+Pedro Sorribes: calls $0.18
+pokerHero1: folds
+*** FLOP *** [5d Td 3s]
+BRAT PIDD: bets $0.22
+Pedro Sorribes: folds
+Uncalled bet ($0.22) returned to BRAT PIDD
+BRAT PIDD collected $0.44 from pot
+BRAT PIDD: doesn't show hand
+*** SUMMARY ***
+Total pot $0.46 | Rake $0.02
+Board [5d Td 3s]
+Seat 1: pokerHero1 (button) folded before Flop
+Seat 2: BRAT PIDD (small blind) collected ($0.44)
+Seat 3: Pedro Sorribes (big blind) folded on the Flop
+Seat 4: RAHA1000 folded before Flop (didn't bet)
+Seat 5: Riugian folded before Flop (didn't bet)
+Seat 6: marko2401 folded before Flop (didn't bet)
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212179685194:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:01:20 ET
+Table 'Sicilia II' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.95 in chips)
+Seat 2: BRAT PIDD ($2.37 in chips)
+Seat 3: Pedro Sorribes ($2.76 in chips)
+Seat 4: RAHA1000 ($0.41 in chips)
+Seat 5: Riugian ($1.93 in chips)
+Seat 6: marko2401 ($1.21 in chips)
+Seat 8: zuantewith80 ($1.18 in chips)
+Seat 9: Koda2601 ($3.67 in chips)
+Pedro Sorribes: posts small blind $0.01
+RAHA1000: posts big blind $0.02
+3737minar has timed out
+3737minar: is sitting out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9d 9c]
+3737minar is disconnected
+Riugian: folds
+marko2401: raises $0.04 to $0.06
+zuantewith80: folds
+Koda2601: folds
+pokerHero1: calls $0.06
+BRAT PIDD: folds
+Pedro Sorribes: raises $0.04 to $0.10
+RAHA1000: folds
+marko2401: raises $0.44 to $0.54
+pokerHero1: folds
+Pedro Sorribes: calls $0.44
+*** FLOP *** [2h Ts Ad]
+Pedro Sorribes: bets $0.66
+marko2401: folds
+Uncalled bet ($0.66) returned to Pedro Sorribes
+Pedro Sorribes collected $1.12 from pot
+Pedro Sorribes: doesn't show hand
+*** SUMMARY ***
+Total pot $1.16 | Rake $0.04
+Board [2h Ts Ad]
+Seat 1: pokerHero1 folded before Flop
+Seat 2: BRAT PIDD (button) folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes (small blind) collected ($1.12)
+Seat 4: RAHA1000 (big blind) folded before Flop
+Seat 5: Riugian folded before Flop (didn't bet)
+Seat 6: marko2401 folded on the Flop
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212179773553:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:02:42 ET
+Table 'Sicilia II' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.89 in chips)
+Seat 2: BRAT PIDD ($2.37 in chips)
+Seat 3: Pedro Sorribes ($3.34 in chips)
+Seat 4: RAHA1000 ($0.39 in chips)
+Seat 5: Riugian ($1.93 in chips)
+Seat 6: marko2401 ($0.67 in chips)
+Seat 8: zuantewith80 ($1.18 in chips)
+Seat 9: Koda2601 ($3.67 in chips)
+RAHA1000: posts small blind $0.01
+Riugian: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd Kh]
+marko2401: folds
+zuantewith80: folds
+Koda2601: folds
+pokerHero1: raises $0.06 to $0.08
+BRAT PIDD: folds
+Pedro Sorribes: folds
+RAHA1000: folds
+Riugian: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 collected ($0.05)
+Seat 2: BRAT PIDD folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes (button) folded before Flop (didn't bet)
+Seat 4: RAHA1000 (small blind) folded before Flop
+Seat 5: Riugian (big blind) folded before Flop
+Seat 6: marko2401 folded before Flop (didn't bet)
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212179807683:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:03:14 ET
+Table 'Sicilia II' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.92 in chips)
+Seat 2: BRAT PIDD ($2.37 in chips)
+Seat 3: Pedro Sorribes ($3.34 in chips)
+Seat 4: RAHA1000 ($0.38 in chips)
+Seat 5: Riugian ($1.91 in chips)
+Seat 6: marko2401 ($0.67 in chips)
+Seat 8: zuantewith80 ($1.18 in chips)
+Seat 9: Koda2601 ($3.67 in chips)
+Riugian: posts small blind $0.01
+marko2401: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d 7s]
+zuantewith80: folds
+Koda2601: folds
+pokerHero1: folds
+BRAT PIDD: folds
+Pedro Sorribes: raises $0.02 to $0.04
+RAHA1000: calls $0.04
+Riugian: raises $0.06 to $0.10
+marko2401: folds
+Pedro Sorribes: raises $0.06 to $0.16
+RAHA1000: folds
+Riugian: calls $0.06
+*** FLOP *** [Qs Td 3s]
+Riugian: checks
+Pedro Sorribes: bets $0.19
+Riugian: calls $0.19
+*** TURN *** [Qs Td 3s] [5s]
+Riugian: checks
+Pedro Sorribes: checks
+*** RIVER *** [Qs Td 3s 5s] [2s]
+Riugian: checks
+Pedro Sorribes: bets $0.73
+Riugian: folds
+Uncalled bet ($0.73) returned to Pedro Sorribes
+Pedro Sorribes collected $0.73 from pot
+Pedro Sorribes: doesn't show hand
+*** SUMMARY ***
+Total pot $0.76 | Rake $0.03
+Board [Qs Td 3s 5s 2s]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BRAT PIDD folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes collected ($0.73)
+Seat 4: RAHA1000 (button) folded before Flop
+Seat 5: Riugian (small blind) folded on the River
+Seat 6: marko2401 (big blind) folded before Flop
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212179909547:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:04:45 ET
+Table 'Sicilia II' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.92 in chips)
+Seat 2: BRAT PIDD ($2.37 in chips)
+Seat 3: Pedro Sorribes ($3.72 in chips)
+Seat 4: RAHA1000 ($0.34 in chips)
+Seat 5: Riugian ($1.56 in chips)
+Seat 6: marko2401 ($0.65 in chips)
+Seat 9: Koda2601 ($3.67 in chips)
+marko2401: posts small blind $0.01
+zuantewith80: is sitting out
+Koda2601: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ks 3h]
+pokerHero1: folds
+BRAT PIDD: folds
+Pedro Sorribes: folds
+RAHA1000: folds
+Riugian: raises $0.04 to $0.06
+marko2401: folds
+Koda2601: calls $0.04
+*** FLOP *** [Kc 6c 2h]
+Koda2601: checks
+Riugian: checks
+*** TURN *** [Kc 6c 2h] [Jh]
+Koda2601: checks
+Riugian: bets $0.13
+Koda2601: folds
+Uncalled bet ($0.13) returned to Riugian
+Riugian collected $0.13 from pot
+Riugian: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [Kc 6c 2h Jh]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BRAT PIDD folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded before Flop (didn't bet)
+Seat 4: RAHA1000 folded before Flop (didn't bet)
+Seat 5: Riugian (button) collected ($0.13)
+Seat 6: marko2401 (small blind) folded before Flop
+Seat 9: Koda2601 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #212179962868:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:05:31 ET
+Table 'Sicilia II' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.92 in chips)
+Seat 2: BRAT PIDD ($2.37 in chips)
+Seat 3: Pedro Sorribes ($3.72 in chips)
+Seat 4: RAHA1000 ($0.34 in chips)
+Seat 5: Riugian ($1.63 in chips)
+Seat 6: marko2401 ($0.64 in chips)
+Seat 9: Koda2601 ($3.61 in chips)
+Koda2601: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d 8h]
+BRAT PIDD: folds
+Pedro Sorribes: calls $0.02
+RAHA1000: calls $0.02
+Riugian: raises $0.06 to $0.08
+marko2401: folds
+Koda2601: folds
+pokerHero1: folds
+Pedro Sorribes: calls $0.06
+RAHA1000: folds
+*** FLOP *** [6h 3c 2d]
+Pedro Sorribes: bets $0.10
+Riugian: folds
+Uncalled bet ($0.10) returned to Pedro Sorribes
+Pedro Sorribes collected $0.20 from pot
+Pedro Sorribes: doesn't show hand
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [6h 3c 2d]
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 2: BRAT PIDD folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes collected ($0.20)
+Seat 4: RAHA1000 folded before Flop
+Seat 5: Riugian folded on the Flop
+Seat 6: marko2401 (button) folded before Flop (didn't bet)
+Seat 9: Koda2601 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212180009377:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:06:12 ET
+Table 'Sicilia II' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.90 in chips)
+Seat 2: BRAT PIDD ($2.37 in chips)
+Seat 3: Pedro Sorribes ($3.84 in chips)
+Seat 4: RAHA1000 ($0.32 in chips)
+Seat 5: Riugian ($1.55 in chips)
+Seat 6: marko2401 ($0.64 in chips)
+Seat 9: Koda2601 ($3.60 in chips)
+pokerHero1: posts small blind $0.01
+BRAT PIDD: posts big blind $0.02
+3737minar: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d Jh]
+Pedro Sorribes: folds
+RAHA1000: folds
+Riugian: folds
+marko2401: folds
+Koda2601: folds
+pokerHero1: raises $0.02 to $0.04
+BRAT PIDD: calls $0.02
+*** FLOP *** [3d 5s 9d]
+pokerHero1: checks
+BRAT PIDD: checks
+*** TURN *** [3d 5s 9d] [Ts]
+pokerHero1: checks
+BRAT PIDD: bets $0.05
+pokerHero1: folds
+Uncalled bet ($0.05) returned to BRAT PIDD
+BRAT PIDD collected $0.08 from pot
+BRAT PIDD: doesn't show hand
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Board [3d 5s 9d Ts]
+Seat 1: pokerHero1 (small blind) folded on the Turn
+Seat 2: BRAT PIDD (big blind) collected ($0.08)
+Seat 3: Pedro Sorribes folded before Flop (didn't bet)
+Seat 4: RAHA1000 folded before Flop (didn't bet)
+Seat 5: Riugian folded before Flop (didn't bet)
+Seat 6: marko2401 folded before Flop (didn't bet)
+Seat 9: Koda2601 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180054875:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:06:52 ET
+Table 'Sicilia II' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.86 in chips)
+Seat 2: BRAT PIDD ($2.41 in chips)
+Seat 3: Pedro Sorribes ($3.84 in chips)
+Seat 4: RAHA1000 ($0.32 in chips)
+Seat 5: Riugian ($1.55 in chips)
+Seat 6: marko2401 ($0.64 in chips)
+Seat 9: Koda2601 ($3.60 in chips)
+BRAT PIDD: posts small blind $0.01
+Pedro Sorribes: posts big blind $0.02
+3737minar: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ks 2h]
+RAHA1000: folds
+Riugian: folds
+marko2401: folds
+Koda2601: folds
+pokerHero1: folds
+BRAT PIDD: folds
+Uncalled bet ($0.01) returned to Pedro Sorribes
+Pedro Sorribes collected $0.02 from pot
+Pedro Sorribes: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: BRAT PIDD (small blind) folded before Flop
+Seat 3: Pedro Sorribes (big blind) collected ($0.02)
+Seat 4: RAHA1000 folded before Flop (didn't bet)
+Seat 5: Riugian folded before Flop (didn't bet)
+Seat 6: marko2401 folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180070113:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:07:05 ET
+Table 'Sicilia II' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.86 in chips)
+Seat 2: BRAT PIDD ($2.40 in chips)
+Seat 3: Pedro Sorribes ($3.85 in chips)
+Seat 4: RAHA1000 ($0.32 in chips)
+Seat 5: Riugian ($1.55 in chips)
+Seat 6: marko2401 ($0.64 in chips)
+Seat 9: Koda2601 ($3.60 in chips)
+Pedro Sorribes: posts small blind $0.01
+RAHA1000: posts big blind $0.02
+3737minar: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d 8c]
+Riugian: folds
+marko2401: raises $0.04 to $0.06
+Koda2601: calls $0.06
+pokerHero1: folds
+BRAT PIDD: folds
+Pedro Sorribes: calls $0.05
+RAHA1000: calls $0.04
+*** FLOP *** [Td 4c 8h]
+Pedro Sorribes: checks
+RAHA1000: checks
+marko2401: bets $0.12
+Koda2601: folds
+Pedro Sorribes: calls $0.12
+RAHA1000: folds
+*** TURN *** [Td 4c 8h] [Jc]
+Pedro Sorribes: checks
+marko2401: checks
+*** RIVER *** [Td 4c 8h Jc] [3h]
+Pedro Sorribes: checks
+marko2401: checks
+*** SHOW DOWN ***
+Pedro Sorribes: shows [9h 6d] (high card Jack)
+marko2401: shows [Ac Kc] (high card Ace)
+marko2401 collected $0.46 from pot
+*** SUMMARY ***
+Total pot $0.48 | Rake $0.02
+Board [Td 4c 8h Jc 3h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BRAT PIDD (button) folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes (small blind) showed [9h 6d] and lost with high card Jack
+Seat 4: RAHA1000 (big blind) folded on the Flop
+Seat 5: Riugian folded before Flop (didn't bet)
+Seat 6: marko2401 showed [Ac Kc] and won ($0.46) with high card Ace
+Seat 9: Koda2601 folded on the Flop
+
+
+
+PokerStars Hand #212180148640:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:08:15 ET
+Table 'Sicilia II' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.86 in chips)
+Seat 2: BRAT PIDD ($2.40 in chips)
+Seat 3: Pedro Sorribes ($3.67 in chips)
+Seat 4: RAHA1000 ($0.26 in chips)
+Seat 5: Riugian ($1.55 in chips)
+Seat 6: marko2401 ($0.92 in chips)
+Seat 9: Koda2601 ($3.54 in chips)
+RAHA1000: posts small blind $0.01
+Riugian: posts big blind $0.02
+3737minar: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8s 8d]
+marko2401: folds
+marko2401 leaves the table
+Koda2601: folds
+pokerHero1: calls $0.02
+BRAT PIDD: folds
+Pedro Sorribes: calls $0.02
+RAHA1000: calls $0.01
+Riugian: checks
+*** FLOP *** [Tc 4c 4s]
+RAHA1000: checks
+Riugian: checks
+pokerHero1: bets $0.06
+Pedro Sorribes: folds
+RAHA1000: folds
+Riugian: calls $0.06
+*** TURN *** [Tc 4c 4s] [Kd]
+Riugian: checks
+pokerHero1: bets $0.10
+Riugian: folds
+Uncalled bet ($0.10) returned to pokerHero1
+pokerHero1 collected $0.19 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.20 | Rake $0.01
+Board [Tc 4c 4s Kd]
+Seat 1: pokerHero1 collected ($0.19)
+Seat 2: BRAT PIDD folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes (button) folded on the Flop
+Seat 4: RAHA1000 (small blind) folded on the Flop
+Seat 5: Riugian (big blind) folded on the Turn
+Seat 6: marko2401 folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180216825:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:09:17 ET
+Table 'Sicilia II' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.97 in chips)
+Seat 2: BRAT PIDD ($2.40 in chips)
+Seat 3: Pedro Sorribes ($3.65 in chips)
+Seat 4: RAHA1000 ($0.24 in chips)
+Seat 5: Riugian ($1.47 in chips)
+Seat 7: 3737minar ($1.60 in chips)
+Seat 9: Koda2601 ($3.54 in chips)
+Riugian: posts small blind $0.01
+3737minar: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6h 9d]
+Koda2601 has timed out
+Koda2601: folds
+pokerHero1: folds
+BRAT PIDD: raises $0.04 to $0.06
+Pedro Sorribes: calls $0.06
+RAHA1000: folds
+Riugian: folds
+3737minar: folds
+*** FLOP *** [7c 2d 3h]
+BRAT PIDD: bets $0.09
+Pedro Sorribes: folds
+Uncalled bet ($0.09) returned to BRAT PIDD
+BRAT PIDD collected $0.14 from pot
+BRAT PIDD: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [7c 2d 3h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BRAT PIDD collected ($0.14)
+Seat 3: Pedro Sorribes folded on the Flop
+Seat 4: RAHA1000 (button) folded before Flop (didn't bet)
+Seat 5: Riugian (small blind) folded before Flop
+Seat 7: 3737minar (big blind) folded before Flop
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180292625:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:10:12 ET
+Table 'Sicilia II' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.97 in chips)
+Seat 2: BRAT PIDD ($2.48 in chips)
+Seat 3: Pedro Sorribes ($3.59 in chips)
+Seat 4: RAHA1000 ($0.24 in chips)
+Seat 5: Riugian ($1.46 in chips)
+Seat 7: 3737minar ($1.58 in chips)
+Seat 9: Koda2601 ($3.54 in chips)
+3737minar: posts small blind $0.01
+Koda2601: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6h 6c]
+pokerHero1: calls $0.02
+BRAT PIDD: folds
+Pedro Sorribes: folds
+RAHA1000: calls $0.02
+Riugian: calls $0.02
+3737minar: folds
+Koda2601: raises $0.08 to $0.10
+pokerHero1: calls $0.08
+RAHA1000: folds
+Riugian: folds
+*** FLOP *** [Qs 2c Js]
+Koda2601: bets $0.12
+pokerHero1: folds
+Uncalled bet ($0.12) returned to Koda2601
+Koda2601 collected $0.24 from pot
+Koda2601: doesn't show hand
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.01
+Board [Qs 2c Js]
+Seat 1: pokerHero1 folded on the Flop
+Seat 2: BRAT PIDD folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded before Flop (didn't bet)
+Seat 4: RAHA1000 folded before Flop
+Seat 5: Riugian (button) folded before Flop
+Seat 7: 3737minar (small blind) folded before Flop
+Seat 9: Koda2601 (big blind) collected ($0.24)
+
+
+
+PokerStars Hand #212180344306:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:10:58 ET
+Table 'Sicilia II' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.87 in chips)
+Seat 2: BRAT PIDD ($2.48 in chips)
+Seat 3: Pedro Sorribes ($3.59 in chips)
+Seat 4: RAHA1000 ($0.22 in chips)
+Seat 5: Riugian ($1.44 in chips)
+Seat 7: 3737minar ($1.57 in chips)
+Seat 9: Koda2601 ($3.68 in chips)
+Koda2601: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ts 4d]
+BRAT PIDD: folds
+Pedro Sorribes: calls $0.02
+RAHA1000: folds
+Riugian: folds
+3737minar: folds
+Koda2601: calls $0.01
+pokerHero1: checks
+*** FLOP *** [Qs 6d 8h]
+Tuz_i_Tuz joins the table at seat #6
+Koda2601: bets $0.04
+pokerHero1: folds
+Pedro Sorribes: folds
+Uncalled bet ($0.04) returned to Koda2601
+Koda2601 collected $0.06 from pot
+Koda2601: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [Qs 6d 8h]
+Seat 1: pokerHero1 (big blind) folded on the Flop
+Seat 2: BRAT PIDD folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded on the Flop
+Seat 4: RAHA1000 folded before Flop (didn't bet)
+Seat 5: Riugian folded before Flop (didn't bet)
+Seat 7: 3737minar (button) folded before Flop (didn't bet)
+Seat 9: Koda2601 (small blind) collected ($0.06)
+
+
+
+PokerStars Hand #212180396676:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:11:44 ET
+Table 'Sicilia II' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.85 in chips)
+Seat 2: BRAT PIDD ($2.48 in chips)
+Seat 3: Pedro Sorribes ($3.57 in chips)
+Seat 4: RAHA1000 ($0.22 in chips)
+Seat 5: Riugian ($1.44 in chips)
+Seat 6: Tuz_i_Tuz ($2 in chips)
+Seat 7: 3737minar ($1.57 in chips)
+Seat 9: Koda2601 ($3.72 in chips)
+pokerHero1: posts small blind $0.01
+BRAT PIDD: posts big blind $0.02
+Tuz_i_Tuz: posts big blind $0.02
+zuantewith80: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d 6c]
+Pedro Sorribes: calls $0.02
+RAHA1000: raises $0.20 to $0.22 and is all-in
+Riugian: folds
+Tuz_i_Tuz: folds
+3737minar: folds
+Koda2601: folds
+pokerHero1: folds
+BRAT PIDD: folds
+Pedro Sorribes: folds
+Uncalled bet ($0.20) returned to RAHA1000
+RAHA1000 collected $0.09 from pot
+RAHA1000: doesn't show hand
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: BRAT PIDD (big blind) folded before Flop
+Seat 3: Pedro Sorribes folded before Flop
+Seat 4: RAHA1000 collected ($0.09)
+Seat 5: Riugian folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: 3737minar folded before Flop (didn't bet)
+Seat 9: Koda2601 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180449164:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:12:30 ET
+Table 'Sicilia II' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.84 in chips)
+Seat 2: BRAT PIDD ($2.46 in chips)
+Seat 3: Pedro Sorribes ($3.55 in chips)
+Seat 4: RAHA1000 ($0.29 in chips)
+Seat 5: Riugian ($1.44 in chips)
+Seat 6: Tuz_i_Tuz ($1.98 in chips)
+Seat 7: 3737minar ($1.57 in chips)
+Seat 9: Koda2601 ($3.72 in chips)
+BRAT PIDD: posts small blind $0.01
+Pedro Sorribes: posts big blind $0.02
+zuantewith80: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ks Ah]
+RAHA1000: raises $0.27 to $0.29 and is all-in
+Riugian: folds
+Tuz_i_Tuz: folds
+3737minar: folds
+Koda2601: folds
+pokerHero1: raises $0.33 to $0.62
+BRAT PIDD: folds
+Pedro Sorribes: folds
+Uncalled bet ($0.33) returned to pokerHero1
+*** FLOP *** [5d Td 9s]
+*** TURN *** [5d Td 9s] [7d]
+*** RIVER *** [5d Td 9s 7d] [Jc]
+*** SHOW DOWN ***
+RAHA1000: shows [Qd Ad] (a flush, Ace high)
+pokerHero1: shows [Ks Ah] (high card Ace)
+RAHA1000 collected $0.59 from pot
+*** SUMMARY ***
+Total pot $0.61 | Rake $0.02
+Board [5d Td 9s 7d Jc]
+Seat 1: pokerHero1 (button) showed [Ks Ah] and lost with high card Ace
+Seat 2: BRAT PIDD (small blind) folded before Flop
+Seat 3: Pedro Sorribes (big blind) folded before Flop
+Seat 4: RAHA1000 showed [Qd Ad] and won ($0.59) with a flush, Ace high
+Seat 5: Riugian folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: 3737minar folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180499528:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:13:14 ET
+Table 'Sicilia II' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.55 in chips)
+Seat 2: BRAT PIDD ($2.45 in chips)
+Seat 3: Pedro Sorribes ($3.53 in chips)
+Seat 5: Riugian ($1.44 in chips)
+Seat 6: Tuz_i_Tuz ($2 in chips)
+Seat 7: 3737minar ($1.57 in chips)
+Seat 9: Koda2601 ($3.72 in chips)
+Pedro Sorribes: posts small blind $0.01
+Riugian: posts big blind $0.02
+zuantewith80: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th 8s]
+Tuz_i_Tuz: folds
+3737minar: folds
+Koda2601: raises $0.04 to $0.06
+pokerHero1: folds
+BRAT PIDD: folds
+Pedro Sorribes: calls $0.05
+Riugian: folds
+*** FLOP *** [8c 5h 9s]
+Pedro Sorribes: checks
+Koda2601: bets $0.06
+Pedro Sorribes: calls $0.06
+*** TURN *** [8c 5h 9s] [9h]
+Pedro Sorribes: checks
+Koda2601: checks
+*** RIVER *** [8c 5h 9s 9h] [Js]
+Pedro Sorribes: checks
+Koda2601: checks
+*** SHOW DOWN ***
+Pedro Sorribes: shows [As 6d] (a pair of Nines)
+Koda2601: shows [5c Ad] (two pair, Nines and Fives)
+Koda2601 collected $0.25 from pot
+*** SUMMARY ***
+Total pot $0.26 | Rake $0.01
+Board [8c 5h 9s 9h Js]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BRAT PIDD (button) folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes (small blind) showed [As 6d] and lost with a pair of Nines
+Seat 5: Riugian (big blind) folded before Flop
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: 3737minar folded before Flop (didn't bet)
+Seat 9: Koda2601 showed [5c Ad] and won ($0.25) with two pair, Nines and Fives
+
+
+
+PokerStars Hand #212180552584:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:14:01 ET
+Table 'Sicilia II' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.55 in chips)
+Seat 2: BRAT PIDD ($2.45 in chips)
+Seat 3: Pedro Sorribes ($3.41 in chips)
+Seat 5: Riugian ($1.42 in chips)
+Seat 6: Tuz_i_Tuz ($2 in chips)
+Seat 7: 3737minar ($1.57 in chips)
+Seat 9: Koda2601 ($3.85 in chips)
+Riugian: posts small blind $0.01
+Tuz_i_Tuz: posts big blind $0.02
+zuantewith80: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c 5h]
+3737minar: folds
+Koda2601: folds
+pokerHero1: folds
+BRAT PIDD: folds
+Pedro Sorribes: raises $0.02 to $0.04
+Riugian: folds
+Tuz_i_Tuz: calls $0.02
+*** FLOP *** [Ac Ah 9c]
+Riugian leaves the table
+Tuz_i_Tuz: checks
+Pedro Sorribes: bets $0.09
+Tuz_i_Tuz: calls $0.09
+*** TURN *** [Ac Ah 9c] [9h]
+Tuz_i_Tuz: checks
+Pedro Sorribes: bets $0.13
+Tuz_i_Tuz: folds
+Uncalled bet ($0.13) returned to Pedro Sorribes
+Pedro Sorribes collected $0.26 from pot
+Pedro Sorribes: doesn't show hand
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01
+Board [Ac Ah 9c 9h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BRAT PIDD folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes (button) collected ($0.26)
+Seat 5: Riugian (small blind) folded before Flop
+Seat 6: Tuz_i_Tuz (big blind) folded on the Turn
+Seat 7: 3737minar folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180626522:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:15:05 ET
+Table 'Sicilia II' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.55 in chips)
+Seat 2: BRAT PIDD ($2.45 in chips)
+Seat 3: Pedro Sorribes ($3.54 in chips)
+Seat 4: RAHA1000 ($0.59 in chips)
+Seat 6: Tuz_i_Tuz ($1.87 in chips)
+Seat 7: 3737minar ($1.57 in chips)
+Seat 8: zuantewith80 ($1.18 in chips)
+Seat 9: Koda2601 ($3.85 in chips)
+3737minar: posts small blind $0.01
+zuantewith80: posts big blind $0.02
+RAHA1000: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c 5h]
+pablokine2 joins the table at seat #5
+Koda2601: folds
+pokerHero1: folds
+BRAT PIDD: folds
+Pedro Sorribes: raises $0.02 to $0.04
+RAHA1000: raises $0.06 to $0.10
+Tuz_i_Tuz: folds
+3737minar: folds
+zuantewith80: folds
+Pedro Sorribes: calls $0.06
+*** FLOP *** [5s 9s Kc]
+Pedro Sorribes: bets $0.02
+RAHA1000: raises $0.14 to $0.16
+Pedro Sorribes: folds
+Uncalled bet ($0.14) returned to RAHA1000
+RAHA1000 collected $0.27 from pot
+RAHA1000: doesn't show hand
+*** SUMMARY ***
+Total pot $0.28 | Rake $0.01
+Board [5s 9s Kc]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BRAT PIDD folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded on the Flop
+Seat 4: RAHA1000 collected ($0.27)
+Seat 6: Tuz_i_Tuz (button) folded before Flop (didn't bet)
+Seat 7: 3737minar (small blind) folded before Flop
+Seat 8: zuantewith80 (big blind) folded before Flop
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180695132:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:16:05 ET
+Table 'Sicilia II' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.55 in chips)
+Seat 2: BRAT PIDD ($2.45 in chips)
+Seat 3: Pedro Sorribes ($3.42 in chips)
+Seat 4: RAHA1000 ($0.73 in chips)
+Seat 5: pablokine2 ($0.80 in chips)
+Seat 6: Tuz_i_Tuz ($1.87 in chips)
+Seat 7: 3737minar ($1.56 in chips)
+Seat 8: zuantewith80 ($1.16 in chips)
+Seat 9: Koda2601 ($3.85 in chips)
+zuantewith80: posts small blind $0.01
+Koda2601: posts big blind $0.02
+pablokine2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8d 2h]
+pokerHero1: folds
+BRAT PIDD: folds
+Pedro Sorribes: calls $0.02
+RAHA1000: calls $0.02
+pablokine2: checks
+Tuz_i_Tuz: folds
+3737minar: folds
+zuantewith80: folds
+Koda2601: raises $0.08 to $0.10
+Pedro Sorribes: calls $0.08
+RAHA1000: calls $0.08
+pablokine2: calls $0.08
+*** FLOP *** [6s Qh 7s]
+Koda2601: checks
+Pedro Sorribes: checks
+RAHA1000: bets $0.14
+pablokine2: folds
+Koda2601: folds
+Pedro Sorribes: folds
+Uncalled bet ($0.14) returned to RAHA1000
+RAHA1000 collected $0.40 from pot
+RAHA1000: doesn't show hand
+*** SUMMARY ***
+Total pot $0.41 | Rake $0.01
+Board [6s Qh 7s]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BRAT PIDD folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded on the Flop
+Seat 4: RAHA1000 collected ($0.40)
+Seat 5: pablokine2 folded on the Flop
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: 3737minar (button) folded before Flop (didn't bet)
+Seat 8: zuantewith80 (small blind) folded before Flop
+Seat 9: Koda2601 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212180755894:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:16:59 ET
+Table 'Sicilia II' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.55 in chips)
+Seat 2: BRAT PIDD ($2.45 in chips)
+Seat 3: Pedro Sorribes ($3.32 in chips)
+Seat 4: RAHA1000 ($1.03 in chips)
+Seat 5: pablokine2 ($0.70 in chips)
+Seat 6: Tuz_i_Tuz ($2 in chips)
+Seat 7: 3737minar ($1.56 in chips)
+Seat 8: zuantewith80 ($1.15 in chips)
+Seat 9: Koda2601 ($3.75 in chips)
+Koda2601: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8h 7d]
+BRAT PIDD: raises $0.04 to $0.06
+Pedro Sorribes: calls $0.06
+RAHA1000: folds
+pablokine2: folds
+RAHA1000 leaves the table
+Tuz_i_Tuz: raises $0.24 to $0.30
+3737minar: folds
+zuantewith80: folds
+Koda2601: folds
+pokerHero1: folds
+BRAT PIDD: calls $0.24
+Pedro Sorribes: folds
+*** FLOP *** [Qc 5s 3d]
+napets_f joins the table at seat #4
+BRAT PIDD: checks
+Tuz_i_Tuz: bets $0.36
+BRAT PIDD: folds
+Uncalled bet ($0.36) returned to Tuz_i_Tuz
+Tuz_i_Tuz collected $0.67 from pot
+Tuz_i_Tuz: doesn't show hand
+*** SUMMARY ***
+Total pot $0.69 | Rake $0.02
+Board [Qc 5s 3d]
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 2: BRAT PIDD folded on the Flop
+Seat 3: Pedro Sorribes folded before Flop
+Seat 4: RAHA1000 folded before Flop (didn't bet)
+Seat 5: pablokine2 folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz collected ($0.67)
+Seat 7: 3737minar folded before Flop (didn't bet)
+Seat 8: zuantewith80 (button) folded before Flop (didn't bet)
+Seat 9: Koda2601 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212180818855:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:17:47 ET
+Table 'Sicilia II' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.53 in chips)
+Seat 2: BRAT PIDD ($2.15 in chips)
+Seat 3: Pedro Sorribes ($3.26 in chips)
+Seat 5: pablokine2 ($0.70 in chips)
+Seat 6: Tuz_i_Tuz ($2.37 in chips)
+Seat 7: 3737minar ($1.56 in chips)
+Seat 8: zuantewith80 ($1.15 in chips)
+Seat 9: Koda2601 ($3.74 in chips)
+pokerHero1: posts small blind $0.01
+BRAT PIDD: posts big blind $0.02
+napets_f: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c 7s]
+Pedro Sorribes has timed out
+Pedro Sorribes: folds
+pablokine2: folds
+Tuz_i_Tuz: folds
+3737minar: folds
+zuantewith80: folds
+Koda2601: folds
+pokerHero1: raises $0.02 to $0.04
+BRAT PIDD: calls $0.02
+*** FLOP *** [3d Ts Qc]
+pokerHero1: checks
+BRAT PIDD: checks
+*** TURN *** [3d Ts Qc] [4s]
+pokerHero1: checks
+BRAT PIDD: checks
+*** RIVER *** [3d Ts Qc 4s] [3s]
+pokerHero1: checks
+BRAT PIDD: checks
+*** SHOW DOWN ***
+pokerHero1: shows [9c 7s] (a pair of Threes)
+BRAT PIDD: shows [6h 4h] (two pair, Fours and Threes)
+BRAT PIDD collected $0.08 from pot
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Board [3d Ts Qc 4s 3s]
+Seat 1: pokerHero1 (small blind) showed [9c 7s] and lost with a pair of Threes
+Seat 2: BRAT PIDD (big blind) showed [6h 4h] and won ($0.08) with two pair, Fours and Threes
+Seat 3: Pedro Sorribes folded before Flop (didn't bet)
+Seat 5: pablokine2 folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: 3737minar folded before Flop (didn't bet)
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180864101:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:18:27 ET
+Table 'Sicilia II' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.49 in chips)
+Seat 2: BRAT PIDD ($2.19 in chips)
+Seat 3: Pedro Sorribes ($3.26 in chips)
+Seat 5: pablokine2 ($0.70 in chips)
+Seat 6: Tuz_i_Tuz ($2.37 in chips)
+Seat 7: 3737minar ($1.56 in chips)
+Seat 8: zuantewith80 ($1.15 in chips)
+Seat 9: Koda2601 ($3.74 in chips)
+BRAT PIDD: posts small blind $0.01
+Pedro Sorribes: posts big blind $0.02
+napets_f: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s Jc]
+pablokine2: folds
+Tuz_i_Tuz: raises $0.02 to $0.04
+3737minar: folds
+zuantewith80: folds
+Koda2601: folds
+pokerHero1: folds
+BRAT PIDD: raises $0.14 to $0.18
+Pedro Sorribes: folds
+Tuz_i_Tuz: folds
+Uncalled bet ($0.14) returned to BRAT PIDD
+BRAT PIDD collected $0.10 from pot
+BRAT PIDD: doesn't show hand
+*** SUMMARY ***
+Total pot $0.10 | Rake $0
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: BRAT PIDD (small blind) collected ($0.10)
+Seat 3: Pedro Sorribes (big blind) folded before Flop
+Seat 5: pablokine2 folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded before Flop
+Seat 7: 3737minar folded before Flop (didn't bet)
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180907961:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:19:05 ET
+Table 'Sicilia II' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.49 in chips)
+Seat 2: BRAT PIDD ($2.25 in chips)
+Seat 3: Pedro Sorribes ($3.24 in chips)
+Seat 4: napets_f ($0.80 in chips)
+Seat 5: pablokine2 ($0.70 in chips)
+Seat 6: Tuz_i_Tuz ($2.33 in chips)
+Seat 7: 3737minar ($1.56 in chips)
+Seat 8: zuantewith80 ($1.15 in chips)
+Seat 9: Koda2601 ($3.74 in chips)
+Pedro Sorribes: posts small blind $0.01
+napets_f: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad 5d]
+pablokine2: folds
+Tuz_i_Tuz: folds
+3737minar: folds
+zuantewith80: folds
+Koda2601: folds
+pokerHero1: raises $0.06 to $0.08
+BRAT PIDD: folds
+Pedro Sorribes: calls $0.07
+napets_f: folds
+*** FLOP *** [4c Qh Ac]
+Pedro Sorribes: bets $0.09
+pokerHero1: calls $0.09
+*** TURN *** [4c Qh Ac] [9d]
+Pedro Sorribes: bets $0.02
+pokerHero1: calls $0.02
+*** RIVER *** [4c Qh Ac 9d] [6h]
+Pedro Sorribes: bets $0.02
+pokerHero1: raises $0.28 to $0.30
+Pedro Sorribes: calls $0.28
+*** SHOW DOWN ***
+pokerHero1: shows [Ad 5d] (a pair of Aces)
+Pedro Sorribes: mucks hand
+pokerHero1 collected $0.96 from pot
+*** SUMMARY ***
+Total pot $1 | Rake $0.04
+Board [4c Qh Ac 9d 6h]
+Seat 1: pokerHero1 showed [Ad 5d] and won ($0.96) with a pair of Aces
+Seat 2: BRAT PIDD (button) folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes (small blind) mucked [Th Qs]
+Seat 4: napets_f (big blind) folded before Flop
+Seat 5: pablokine2 folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: 3737minar folded before Flop (didn't bet)
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212180994416:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:20:21 ET
+Table 'Sicilia II' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.96 in chips)
+Seat 2: BRAT PIDD ($2.25 in chips)
+Seat 3: Pedro Sorribes ($2.75 in chips)
+Seat 4: napets_f ($0.78 in chips)
+Seat 5: pablokine2 ($0.70 in chips)
+Seat 6: Tuz_i_Tuz ($2.33 in chips)
+Seat 7: 3737minar ($1.56 in chips)
+Seat 8: zuantewith80 ($1.15 in chips)
+Seat 9: Koda2601 ($3.74 in chips)
+napets_f: posts small blind $0.01
+pablokine2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8s Qd]
+Tuz_i_Tuz: folds
+3737minar: folds
+zuantewith80: folds
+Koda2601: folds
+pokerHero1: folds
+BRAT PIDD: raises $0.03 to $0.05
+Pedro Sorribes: folds
+napets_f: folds
+pablokine2: calls $0.03
+*** FLOP *** [Th 5d Ts]
+pablokine2: checks
+BRAT PIDD: checks
+*** TURN *** [Th 5d Ts] [Js]
+pablokine2: checks
+BRAT PIDD: checks
+*** RIVER *** [Th 5d Ts Js] [Qc]
+pablokine2: checks
+BRAT PIDD: checks
+*** SHOW DOWN ***
+pablokine2: shows [2s Ah] (a pair of Tens)
+BRAT PIDD: shows [2d 2h] (two pair, Tens and Deuces)
+BRAT PIDD collected $0.11 from pot
+*** SUMMARY ***
+Total pot $0.11 | Rake $0
+Board [Th 5d Ts Js Qc]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BRAT PIDD showed [2d 2h] and won ($0.11) with two pair, Tens and Deuces
+Seat 3: Pedro Sorribes (button) folded before Flop (didn't bet)
+Seat 4: napets_f (small blind) folded before Flop
+Seat 5: pablokine2 (big blind) showed [2s Ah] and lost with a pair of Tens
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: 3737minar folded before Flop (didn't bet)
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181058533:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:21:17 ET
+Table 'Sicilia II' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.96 in chips)
+Seat 2: BRAT PIDD ($2.31 in chips)
+Seat 3: Pedro Sorribes ($2.75 in chips)
+Seat 4: napets_f ($0.77 in chips)
+Seat 5: pablokine2 ($0.65 in chips)
+Seat 6: Tuz_i_Tuz ($2.33 in chips)
+Seat 7: 3737minar ($1.56 in chips)
+Seat 8: zuantewith80 ($1.15 in chips)
+Seat 9: Koda2601 ($3.74 in chips)
+pablokine2: posts small blind $0.01
+Tuz_i_Tuz: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js 3c]
+3737minar: raises $0.02 to $0.04
+zuantewith80: folds
+Koda2601: folds
+pokerHero1: folds
+BRAT PIDD: folds
+Pedro Sorribes: calls $0.04
+napets_f: folds
+pablokine2: calls $0.03
+Tuz_i_Tuz: folds
+*** FLOP *** [7s 4d 5h]
+pablokine2: checks
+3737minar: bets $0.07
+Pedro Sorribes: folds
+pablokine2: folds
+Uncalled bet ($0.07) returned to 3737minar
+3737minar collected $0.14 from pot
+3737minar: doesn't show hand
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [7s 4d 5h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: BRAT PIDD folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded on the Flop
+Seat 4: napets_f (button) folded before Flop (didn't bet)
+Seat 5: pablokine2 (small blind) folded on the Flop
+Seat 6: Tuz_i_Tuz (big blind) folded before Flop
+Seat 7: 3737minar collected ($0.14)
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181118117:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:22:08 ET
+Table 'Sicilia II' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.96 in chips)
+Seat 2: BRAT PIDD ($2.31 in chips)
+Seat 3: Pedro Sorribes ($2.71 in chips)
+Seat 4: napets_f ($0.77 in chips)
+Seat 5: pablokine2 ($0.61 in chips)
+Seat 6: Tuz_i_Tuz ($2.31 in chips)
+Seat 8: zuantewith80 ($1.15 in chips)
+Seat 9: Koda2601 ($3.74 in chips)
+Tuz_i_Tuz: posts small blind $0.01
+3737minar: is sitting out
+zuantewith80: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4h 4d]
+Koda2601: folds
+pokerHero1: calls $0.02
+BRAT PIDD: folds
+3737minar leaves the table
+Pedro Sorribes: calls $0.02
+napets_f: folds
+airdestiny joins the table at seat #7
+pablokine2: folds
+Tuz_i_Tuz: folds
+zuantewith80: checks
+*** FLOP *** [5h Ad Jd]
+zuantewith80: checks
+pokerHero1: checks
+Pedro Sorribes: checks
+*** TURN *** [5h Ad Jd] [9d]
+zuantewith80: checks
+pokerHero1: bets $0.06
+Pedro Sorribes: folds
+BRAT PIDD leaves the table
+zuantewith80: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.07 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Board [5h Ad Jd 9d]
+Seat 1: pokerHero1 collected ($0.07)
+Seat 2: BRAT PIDD folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded on the Turn
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 5: pablokine2 (button) folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz (small blind) folded before Flop
+Seat 8: zuantewith80 (big blind) folded on the Turn
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181177838:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:23:00 ET
+Table 'Sicilia II' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($3.01 in chips)
+Seat 3: Pedro Sorribes ($2.69 in chips)
+Seat 4: napets_f ($0.77 in chips)
+Seat 5: pablokine2 ($0.61 in chips)
+Seat 6: Tuz_i_Tuz ($2.30 in chips)
+Seat 8: zuantewith80 ($1.13 in chips)
+Seat 9: Koda2601 ($3.74 in chips)
+zuantewith80: posts small blind $0.01
+Koda2601: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3s Jd]
+unegus joins the table at seat #2
+pokerHero1: folds
+Pedro Sorribes: calls $0.02
+napets_f: folds
+pablokine2 has timed out
+pablokine2: folds
+Tuz_i_Tuz: folds
+zuantewith80: folds
+Koda2601: checks
+*** FLOP *** [Jh Js 4c]
+Koda2601: checks
+Pedro Sorribes: bets $0.05
+Koda2601: folds
+Uncalled bet ($0.05) returned to Pedro Sorribes
+Pedro Sorribes collected $0.05 from pot
+Pedro Sorribes: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [Jh Js 4c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes collected ($0.05)
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 5: pablokine2 folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz (button) folded before Flop (didn't bet)
+Seat 8: zuantewith80 (small blind) folded before Flop
+Seat 9: Koda2601 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212181215769:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:23:33 ET
+Table 'Sicilia II' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($3.01 in chips)
+Seat 3: Pedro Sorribes ($2.72 in chips)
+Seat 4: napets_f ($0.77 in chips)
+Seat 6: Tuz_i_Tuz ($2.30 in chips)
+Seat 8: zuantewith80 ($1.12 in chips)
+Seat 9: Koda2601 ($3.72 in chips)
+Koda2601: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+unegus: sits out
+airdestiny: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2s 7s]
+Pedro Sorribes: calls $0.02
+napets_f: folds
+Tuz_i_Tuz: folds
+zuantewith80: folds
+Koda2601: calls $0.01
+pokerHero1: checks
+*** FLOP *** [6d 6s 8c]
+Koda2601: checks
+pokerHero1: checks
+Pedro Sorribes: checks
+*** TURN *** [6d 6s 8c] [Ah]
+Koda2601: checks
+pokerHero1: checks
+Pedro Sorribes: bets $0.06
+Koda2601: folds
+pokerHero1: folds
+Uncalled bet ($0.06) returned to Pedro Sorribes
+Pedro Sorribes collected $0.06 from pot
+Pedro Sorribes: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [6d 6s 8c Ah]
+Seat 1: pokerHero1 (big blind) folded on the Turn
+Seat 3: Pedro Sorribes collected ($0.06)
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 8: zuantewith80 (button) folded before Flop (didn't bet)
+Seat 9: Koda2601 (small blind) folded on the Turn
+
+
+
+PokerStars Hand #212181249233:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:24:01 ET
+Table 'Sicilia II' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.99 in chips)
+Seat 2: unegus ($2 in chips)
+Seat 3: Pedro Sorribes ($2.76 in chips)
+Seat 4: napets_f ($0.77 in chips)
+Seat 6: Tuz_i_Tuz ($2.30 in chips)
+Seat 8: zuantewith80 ($1.17 in chips)
+Seat 9: Koda2601 ($3.70 in chips)
+pokerHero1: posts small blind $0.01
+unegus: posts big blind $0.02
+airdestiny: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7s 7c]
+Pedro Sorribes: folds
+napets_f: calls $0.02
+Tuz_i_Tuz: raises $0.06 to $0.08
+zuantewith80: folds
+Koda2601: folds
+pokerHero1: calls $0.07
+unegus: calls $0.06
+napets_f: folds
+*** FLOP *** [6s Ac Ks]
+pokerHero1: checks
+unegus: checks
+Tuz_i_Tuz: bets $0.08
+pokerHero1: folds
+unegus: calls $0.08
+*** TURN *** [6s Ac Ks] [5h]
+unegus: checks
+Tuz_i_Tuz: checks
+*** RIVER *** [6s Ac Ks 5h] [4d]
+unegus: checks
+Tuz_i_Tuz: checks
+*** SHOW DOWN ***
+unegus: shows [Jc Kc] (a pair of Kings)
+Tuz_i_Tuz: mucks hand
+unegus collected $0.41 from pot
+*** SUMMARY ***
+Total pot $0.42 | Rake $0.01
+Board [6s Ac Ks 5h 4d]
+Seat 1: pokerHero1 (small blind) folded on the Flop
+Seat 2: unegus (big blind) showed [Jc Kc] and won ($0.41) with a pair of Kings
+Seat 3: Pedro Sorribes folded before Flop (didn't bet)
+Seat 4: napets_f folded before Flop
+Seat 6: Tuz_i_Tuz mucked [Qc Qs]
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181302882:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:24:47 ET
+Table 'Sicilia II' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.91 in chips)
+Seat 2: unegus ($2.25 in chips)
+Seat 3: Pedro Sorribes ($2.76 in chips)
+Seat 4: napets_f ($0.75 in chips)
+Seat 6: Tuz_i_Tuz ($2.14 in chips)
+Seat 8: zuantewith80 ($1.17 in chips)
+Seat 9: Koda2601 ($3.70 in chips)
+unegus: posts small blind $0.01
+Pedro Sorribes: posts big blind $0.02
+airdestiny: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c Ah]
+napets_f: folds
+Tuz_i_Tuz: raises $0.04 to $0.06
+zuantewith80: folds
+Koda2601: folds
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: calls $0.04
+*** FLOP *** [7c 4d 3s]
+Pedro Sorribes: bets $0.07
+Tuz_i_Tuz: folds
+Uncalled bet ($0.07) returned to Pedro Sorribes
+Pedro Sorribes collected $0.13 from pot
+Pedro Sorribes: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [7c 4d 3s]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: unegus (small blind) folded before Flop
+Seat 3: Pedro Sorribes (big blind) collected ($0.13)
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded on the Flop
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181350335:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:25:28 ET
+Table 'Sicilia II' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.91 in chips)
+Seat 2: unegus ($2.24 in chips)
+Seat 3: Pedro Sorribes ($2.83 in chips)
+Seat 4: napets_f ($0.75 in chips)
+Seat 6: Tuz_i_Tuz ($2.08 in chips)
+Seat 8: zuantewith80 ($1.17 in chips)
+Seat 9: Koda2601 ($3.70 in chips)
+Pedro Sorribes: posts small blind $0.01
+napets_f: posts big blind $0.02
+airdestiny: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc 2d]
+Tuz_i_Tuz: calls $0.02
+zuantewith80: folds
+Koda2601: folds
+pokerHero1: folds
+unegus: calls $0.02
+Pedro Sorribes: calls $0.01
+napets_f: checks
+*** FLOP *** [2h Qs 4c]
+Pedro Sorribes: checks
+napets_f: checks
+Tuz_i_Tuz: bets $0.06
+unegus: calls $0.06
+Pedro Sorribes: folds
+napets_f: folds
+*** TURN *** [2h Qs 4c] [7s]
+Tuz_i_Tuz: bets $0.12
+unegus: calls $0.12
+*** RIVER *** [2h Qs 4c 7s] [Kd]
+Tuz_i_Tuz: bets $0.21
+unegus: calls $0.21
+*** SHOW DOWN ***
+Tuz_i_Tuz: shows [Ad As] (a pair of Aces)
+unegus: mucks hand
+Tuz_i_Tuz collected $0.83 from pot
+*** SUMMARY ***
+Total pot $0.86 | Rake $0.03
+Board [2h Qs 4c 7s Kd]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: unegus (button) mucked [Jd Qh]
+Seat 3: Pedro Sorribes (small blind) folded on the Flop
+Seat 4: napets_f (big blind) folded on the Flop
+Seat 6: Tuz_i_Tuz showed [Ad As] and won ($0.83) with a pair of Aces
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181409252:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:26:18 ET
+Table 'Sicilia II' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.91 in chips)
+Seat 2: unegus ($1.83 in chips)
+Seat 3: Pedro Sorribes ($2.81 in chips)
+Seat 4: napets_f ($0.73 in chips)
+Seat 6: Tuz_i_Tuz ($2.50 in chips)
+Seat 8: zuantewith80 ($1.17 in chips)
+Seat 9: Koda2601 ($3.70 in chips)
+napets_f: posts small blind $0.01
+Tuz_i_Tuz: posts big blind $0.02
+airdestiny: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th Jc]
+zuantewith80: folds
+Koda2601: folds
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: folds
+napets_f: calls $0.01
+Tuz_i_Tuz: checks
+*** FLOP *** [Ad Jh 5s]
+napets_f: checks
+Tuz_i_Tuz: checks
+*** TURN *** [Ad Jh 5s] [6d]
+napets_f: checks
+Tuz_i_Tuz: bets $0.02
+napets_f: calls $0.02
+*** RIVER *** [Ad Jh 5s 6d] [8h]
+napets_f: checks
+Tuz_i_Tuz: bets $0.08
+napets_f: raises $0.14 to $0.22
+Tuz_i_Tuz: folds
+Uncalled bet ($0.14) returned to napets_f
+napets_f collected $0.23 from pot
+napets_f: doesn't show hand
+*** SUMMARY ***
+Total pot $0.24 | Rake $0.01
+Board [Ad Jh 5s 6d 8h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes (button) folded before Flop (didn't bet)
+Seat 4: napets_f (small blind) collected ($0.23)
+Seat 6: Tuz_i_Tuz (big blind) folded on the River
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181471725:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:27:12 ET
+Table 'Sicilia II' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.91 in chips)
+Seat 2: unegus ($1.83 in chips)
+Seat 3: Pedro Sorribes ($2.81 in chips)
+Seat 4: napets_f ($0.84 in chips)
+Seat 6: Tuz_i_Tuz ($2.38 in chips)
+Seat 7: airdestiny ($2 in chips)
+Seat 8: zuantewith80 ($1.17 in chips)
+Seat 9: Koda2601 ($3.70 in chips)
+Tuz_i_Tuz: posts small blind $0.01
+airdestiny: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c Ah]
+zuantewith80: folds
+Koda2601: folds
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: calls $0.02
+napets_f: folds
+Tuz_i_Tuz: calls $0.01
+zuantewith80 leaves the table
+airdestiny: raises $0.08 to $0.10
+Pedro Sorribes: calls $0.08
+andybeta joins the table at seat #8
+Tuz_i_Tuz: folds
+*** FLOP *** [3d 3s Jh]
+airdestiny: bets $0.14
+Pedro Sorribes: folds
+Uncalled bet ($0.14) returned to airdestiny
+airdestiny collected $0.21 from pot
+airdestiny: doesn't show hand
+*** SUMMARY ***
+Total pot $0.22 | Rake $0.01
+Board [3d 3s Jh]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded on the Flop
+Seat 4: napets_f (button) folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz (small blind) folded before Flop
+Seat 7: airdestiny (big blind) collected ($0.21)
+Seat 8: zuantewith80 folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181515461:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:27:48 ET
+Table 'Sicilia II' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.91 in chips)
+Seat 2: unegus ($1.83 in chips)
+Seat 3: Pedro Sorribes ($2.71 in chips)
+Seat 4: napets_f ($0.84 in chips)
+Seat 6: Tuz_i_Tuz ($2.36 in chips)
+Seat 7: airdestiny ($2.11 in chips)
+Seat 8: andybeta ($1.60 in chips)
+Seat 9: Koda2601 ($3.70 in chips)
+airdestiny: posts small blind $0.01
+andybeta: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d Ks]
+Koda2601: folds
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: folds
+napets_f: folds
+Tuz_i_Tuz: raises $0.04 to $0.06
+airdestiny: raises $0.16 to $0.22
+andybeta: folds
+Tuz_i_Tuz: folds
+Uncalled bet ($0.16) returned to airdestiny
+airdestiny collected $0.14 from pot
+airdestiny: doesn't show hand
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded before Flop (didn't bet)
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz (button) folded before Flop
+Seat 7: airdestiny (small blind) collected ($0.14)
+Seat 8: andybeta (big blind) folded before Flop
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181536562:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:28:06 ET
+Table 'Sicilia II' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.91 in chips)
+Seat 2: unegus ($1.83 in chips)
+Seat 3: Pedro Sorribes ($2.71 in chips)
+Seat 4: napets_f ($0.84 in chips)
+Seat 6: Tuz_i_Tuz ($2.30 in chips)
+Seat 7: airdestiny ($2.19 in chips)
+Seat 8: andybeta ($1.58 in chips)
+Seat 9: Koda2601 ($3.70 in chips)
+andybeta: posts small blind $0.01
+Koda2601: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jh 8d]
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: folds
+napets_f: folds
+Tuz_i_Tuz: folds
+airdestiny: raises $0.06 to $0.08
+andybeta: folds
+Koda2601: calls $0.06
+*** FLOP *** [Jc 7h Qh]
+Koda2601: checks
+airdestiny: checks
+*** TURN *** [Jc 7h Qh] [Ad]
+Koda2601: checks
+airdestiny: bets $0.12
+Koda2601: folds
+Uncalled bet ($0.12) returned to airdestiny
+airdestiny collected $0.16 from pot
+airdestiny: doesn't show hand
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [Jc 7h Qh Ad]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded before Flop (didn't bet)
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny (button) collected ($0.16)
+Seat 8: andybeta (small blind) folded before Flop
+Seat 9: Koda2601 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #212181572351:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:28:39 ET
+Table 'Sicilia II' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.91 in chips)
+Seat 2: unegus ($1.83 in chips)
+Seat 3: Pedro Sorribes ($2.71 in chips)
+Seat 4: napets_f ($0.84 in chips)
+Seat 6: Tuz_i_Tuz ($2.30 in chips)
+Seat 7: airdestiny ($2.27 in chips)
+Seat 8: andybeta ($1.57 in chips)
+Seat 9: Koda2601 ($3.62 in chips)
+Koda2601: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc 2c]
+unegus: folds
+Pedro Sorribes: raises $0.02 to $0.04
+napets_f: folds
+Tuz_i_Tuz: folds
+airdestiny: folds
+andybeta: folds
+Koda2601: calls $0.03
+pokerHero1: folds
+*** FLOP *** [6d Kc 3c]
+Koda2601: checks
+Pedro Sorribes: bets $0.10
+Koda2601: calls $0.10
+*** TURN *** [6d Kc 3c] [8s]
+Koda2601: checks
+Pedro Sorribes: bets $0.15
+Koda2601: raises $0.59 to $0.74
+Pedro Sorribes: calls $0.59
+*** RIVER *** [6d Kc 3c 8s] [Ac]
+Koda2601: bets $2.74 and is all-in
+Pedro Sorribes: folds
+Uncalled bet ($2.74) returned to Koda2601
+Koda2601 collected $1.72 from pot
+Koda2601: doesn't show hand
+*** SUMMARY ***
+Total pot $1.78 | Rake $0.06
+Board [6d Kc 3c 8s Ac]
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded on the River
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 8: andybeta (button) folded before Flop (didn't bet)
+Seat 9: Koda2601 (small blind) collected ($1.72)
+
+
+
+PokerStars Hand #212181642941:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:29:41 ET
+Table 'Sicilia II' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.89 in chips)
+Seat 2: unegus ($1.83 in chips)
+Seat 3: Pedro Sorribes ($1.83 in chips)
+Seat 4: napets_f ($0.84 in chips)
+Seat 6: Tuz_i_Tuz ($2.30 in chips)
+Seat 7: airdestiny ($2.27 in chips)
+Seat 8: andybeta ($1.57 in chips)
+Seat 9: Koda2601 ($4.46 in chips)
+pokerHero1: posts small blind $0.01
+unegus: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jh 2c]
+Pedro Sorribes: calls $0.02
+napets_f: folds
+Tuz_i_Tuz: folds
+airdestiny: folds
+andybeta: folds
+Koda2601: raises $0.06 to $0.08
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: calls $0.06
+*** FLOP *** [2d 7c 4d]
+Pedro Sorribes: checks
+Koda2601: checks
+*** TURN *** [2d 7c 4d] [6s]
+Pedro Sorribes: checks
+Koda2601: checks
+*** RIVER *** [2d 7c 4d 6s] [As]
+Pedro Sorribes: bets $0.09
+Koda2601: calls $0.09
+*** SHOW DOWN ***
+Pedro Sorribes: shows [Ac 9h] (a pair of Aces)
+Koda2601: shows [Jc Ad] (a pair of Aces - Jack kicker)
+Koda2601 collected $0.36 from pot
+*** SUMMARY ***
+Total pot $0.37 | Rake $0.01
+Board [2d 7c 4d 6s As]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: unegus (big blind) folded before Flop
+Seat 3: Pedro Sorribes showed [Ac 9h] and lost with a pair of Aces
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 8: andybeta folded before Flop (didn't bet)
+Seat 9: Koda2601 (button) showed [Jc Ad] and won ($0.36) with a pair of Aces
+
+
+
+PokerStars Hand #212181699738:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:30:28 ET
+Table 'Sicilia II' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.88 in chips)
+Seat 2: unegus ($1.81 in chips)
+Seat 3: Pedro Sorribes ($1.66 in chips)
+Seat 4: napets_f ($0.84 in chips)
+Seat 6: Tuz_i_Tuz ($2.30 in chips)
+Seat 7: airdestiny ($2.27 in chips)
+Seat 8: andybeta ($1.57 in chips)
+Seat 9: Koda2601 ($4.65 in chips)
+unegus: posts small blind $0.01
+Pedro Sorribes: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js Jc]
+napets_f: folds
+Tuz_i_Tuz: folds
+airdestiny: folds
+andybeta: folds
+Koda2601: folds
+pokerHero1: raises $0.06 to $0.08
+unegus: folds
+Pedro Sorribes: calls $0.06
+*** FLOP *** [6c 3h 4h]
+Pedro Sorribes: checks
+pokerHero1: bets $0.12
+Pedro Sorribes: folds
+Uncalled bet ($0.12) returned to pokerHero1
+pokerHero1 collected $0.16 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [6c 3h 4h]
+Seat 1: pokerHero1 (button) collected ($0.16)
+Seat 2: unegus (small blind) folded before Flop
+Seat 3: Pedro Sorribes (big blind) folded on the Flop
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 8: andybeta folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181740210:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:31:03 ET
+Table 'Sicilia II' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.96 in chips)
+Seat 2: unegus ($1.80 in chips)
+Seat 3: Pedro Sorribes ($1.58 in chips)
+Seat 4: napets_f ($0.84 in chips)
+Seat 6: Tuz_i_Tuz ($2.30 in chips)
+Seat 7: airdestiny ($2.27 in chips)
+Seat 8: andybeta ($1.57 in chips)
+Seat 9: Koda2601 ($4.65 in chips)
+Pedro Sorribes: posts small blind $0.01
+napets_f: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac 9s]
+Tuz_i_Tuz: folds
+airdestiny: raises $0.08 to $0.10
+andybeta: folds
+Koda2601: folds
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: calls $0.09
+napets_f: folds
+*** FLOP *** [7h 7d Qh]
+Pedro Sorribes: checks
+airdestiny: bets $0.10
+Pedro Sorribes: calls $0.10
+*** TURN *** [7h 7d Qh] [3s]
+Pedro Sorribes: checks
+airdestiny: checks
+*** RIVER *** [7h 7d Qh 3s] [Qc]
+Pedro Sorribes: checks
+airdestiny: checks
+*** SHOW DOWN ***
+Pedro Sorribes: shows [5h Th] (two pair, Queens and Sevens)
+airdestiny: shows [Kd Ah] (two pair, Queens and Sevens - Ace kicker)
+airdestiny collected $0.41 from pot
+*** SUMMARY ***
+Total pot $0.42 | Rake $0.01
+Board [7h 7d Qh 3s Qc]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: unegus (button) folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes (small blind) showed [5h Th] and lost with two pair, Queens and Sevens
+Seat 4: napets_f (big blind) folded before Flop
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny showed [Kd Ah] and won ($0.41) with two pair, Queens and Sevens
+Seat 8: andybeta folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181813810:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:31:56 ET
+Table 'Sicilia II' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.96 in chips)
+Seat 2: unegus ($1.80 in chips)
+Seat 3: Pedro Sorribes ($1.38 in chips)
+Seat 4: napets_f ($0.82 in chips)
+Seat 6: Tuz_i_Tuz ($2.30 in chips)
+Seat 7: airdestiny ($2.48 in chips)
+Seat 8: andybeta ($1.57 in chips)
+Seat 9: Koda2601 ($4.65 in chips)
+napets_f: posts small blind $0.01
+Tuz_i_Tuz: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td 4c]
+airdestiny: folds
+andybeta: folds
+Koda2601: folds
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: raises $0.02 to $0.04
+napets_f: folds
+Tuz_i_Tuz: raises $0.10 to $0.14
+Pedro Sorribes: calls $0.10
+*** FLOP *** [8c 4s 4d]
+Tuz_i_Tuz: checks
+Pedro Sorribes: checks
+*** TURN *** [8c 4s 4d] [9c]
+Tuz_i_Tuz: bets $0.08
+Pedro Sorribes: folds
+Uncalled bet ($0.08) returned to Tuz_i_Tuz
+Tuz_i_Tuz collected $0.28 from pot
+Tuz_i_Tuz: doesn't show hand
+*** SUMMARY ***
+Total pot $0.29 | Rake $0.01
+Board [8c 4s 4d 9c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes (button) folded on the Turn
+Seat 4: napets_f (small blind) folded before Flop
+Seat 6: Tuz_i_Tuz (big blind) collected ($0.28)
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 8: andybeta folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181863036:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:32:39 ET
+Table 'Sicilia II' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.96 in chips)
+Seat 2: unegus ($1.80 in chips)
+Seat 3: Pedro Sorribes ($1.24 in chips)
+Seat 4: napets_f ($0.81 in chips)
+Seat 6: Tuz_i_Tuz ($2.44 in chips)
+Seat 7: airdestiny ($2.48 in chips)
+Seat 8: andybeta ($1.57 in chips)
+Seat 9: Koda2601 ($4.65 in chips)
+Tuz_i_Tuz: posts small blind $0.01
+airdestiny: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3c Qc]
+andybeta: folds
+Koda2601: folds
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: folds
+napets_f: raises $0.02 to $0.04
+Tuz_i_Tuz: folds
+airdestiny: folds
+Uncalled bet ($0.02) returned to napets_f
+napets_f collected $0.05 from pot
+napets_f: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded before Flop (didn't bet)
+Seat 4: napets_f (button) collected ($0.05)
+Seat 6: Tuz_i_Tuz (small blind) folded before Flop
+Seat 7: airdestiny (big blind) folded before Flop
+Seat 8: andybeta folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212181879930:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:32:53 ET
+Table 'Sicilia II' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.96 in chips)
+Seat 2: unegus ($1.80 in chips)
+Seat 3: Pedro Sorribes ($1.24 in chips)
+Seat 4: napets_f ($0.84 in chips)
+Seat 6: Tuz_i_Tuz ($2.43 in chips)
+Seat 7: airdestiny ($2.46 in chips)
+Seat 8: andybeta ($1.57 in chips)
+Seat 9: Koda2601 ($4.65 in chips)
+airdestiny: posts small blind $0.01
+andybeta: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9h 3d]
+Koda2601: calls $0.02
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: raises $0.02 to $0.04
+napets_f: folds
+Tuz_i_Tuz: folds
+airdestiny: folds
+andybeta: calls $0.02
+Koda2601: calls $0.02
+*** FLOP *** [Ac 3c 6s]
+andybeta: checks
+Koda2601: checks
+Pedro Sorribes: bets $0.07
+andybeta: folds
+Koda2601: folds
+Uncalled bet ($0.07) returned to Pedro Sorribes
+Pedro Sorribes collected $0.13 from pot
+Pedro Sorribes: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [Ac 3c 6s]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes collected ($0.13)
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz (button) folded before Flop (didn't bet)
+Seat 7: airdestiny (small blind) folded before Flop
+Seat 8: andybeta (big blind) folded on the Flop
+Seat 9: Koda2601 folded on the Flop
+
+
+
+PokerStars Hand #212181915519:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:33:23 ET
+Table 'Sicilia II' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.96 in chips)
+Seat 2: unegus ($1.80 in chips)
+Seat 3: Pedro Sorribes ($1.33 in chips)
+Seat 4: napets_f ($0.84 in chips)
+Seat 6: Tuz_i_Tuz ($2.43 in chips)
+Seat 7: airdestiny ($2.45 in chips)
+Seat 8: andybeta ($1.53 in chips)
+Seat 9: Koda2601 ($4.61 in chips)
+andybeta: posts small blind $0.01
+Koda2601: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8c 5d]
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: calls $0.02
+napets_f: folds
+Tuz_i_Tuz: raises $0.07 to $0.09
+airdestiny: calls $0.09
+andybeta: folds
+Koda2601: folds
+Pedro Sorribes: calls $0.07
+*** FLOP *** [3d Tc 9s]
+Pedro Sorribes: bets $0.10
+Tuz_i_Tuz: calls $0.10
+airdestiny: folds
+*** TURN *** [3d Tc 9s] [4d]
+Pedro Sorribes: checks
+Tuz_i_Tuz: bets $0.24
+Pedro Sorribes: calls $0.24
+*** RIVER *** [3d Tc 9s 4d] [8s]
+Pedro Sorribes: checks
+Tuz_i_Tuz: checks
+*** SHOW DOWN ***
+Pedro Sorribes: shows [Th 7d] (a pair of Tens)
+Tuz_i_Tuz: mucks hand
+Pedro Sorribes collected $0.95 from pot
+*** SUMMARY ***
+Total pot $0.98 | Rake $0.03
+Board [3d Tc 9s 4d 8s]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes showed [Th 7d] and won ($0.95) with a pair of Tens
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz mucked [9d Ad]
+Seat 7: airdestiny (button) folded on the Flop
+Seat 8: andybeta (small blind) folded before Flop
+Seat 9: Koda2601 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212182002114:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:34:36 ET
+Table 'Sicilia II' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.96 in chips)
+Seat 2: unegus ($1.80 in chips)
+Seat 3: Pedro Sorribes ($1.85 in chips)
+Seat 4: napets_f ($0.84 in chips)
+Seat 6: Tuz_i_Tuz ($2 in chips)
+Seat 7: airdestiny ($2.36 in chips)
+Seat 8: andybeta ($1.52 in chips)
+Seat 9: Koda2601 ($4.59 in chips)
+Koda2601: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7s 2c]
+unegus: folds
+Pedro Sorribes: calls $0.02
+napets_f: calls $0.02
+Tuz_i_Tuz: folds
+airdestiny: raises $0.08 to $0.10
+andybeta: folds
+Koda2601: folds
+pokerHero1: folds
+Pedro Sorribes: calls $0.08
+napets_f: folds
+*** FLOP *** [Kh Ah 3c]
+Pedro Sorribes: bets $0.24
+airdestiny: folds
+Uncalled bet ($0.24) returned to Pedro Sorribes
+Pedro Sorribes collected $0.24 from pot
+Pedro Sorribes: doesn't show hand
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.01
+Board [Kh Ah 3c]
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes collected ($0.24)
+Seat 4: napets_f folded before Flop
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny folded on the Flop
+Seat 8: andybeta (button) folded before Flop (didn't bet)
+Seat 9: Koda2601 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212182051312:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:35:17 ET
+Table 'Sicilia II' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.94 in chips)
+Seat 2: unegus ($1.80 in chips)
+Seat 3: Pedro Sorribes ($1.99 in chips)
+Seat 4: napets_f ($0.82 in chips)
+Seat 6: Tuz_i_Tuz ($2 in chips)
+Seat 7: airdestiny ($2.26 in chips)
+Seat 8: andybeta ($1.52 in chips)
+Seat 9: Koda2601 ($4.58 in chips)
+pokerHero1: posts small blind $0.01
+unegus: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c 7s]
+Pedro Sorribes: calls $0.02
+napets_f: folds
+Tuz_i_Tuz: raises $0.07 to $0.09
+airdestiny: folds
+andybeta: folds
+Koda2601: folds
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: calls $0.07
+*** FLOP *** [6h 2c 4s]
+Pedro Sorribes: bets $0.10
+Tuz_i_Tuz: calls $0.10
+*** TURN *** [6h 2c 4s] [Th]
+Pedro Sorribes: checks
+Tuz_i_Tuz: bets $0.26
+Pedro Sorribes: folds
+Uncalled bet ($0.26) returned to Tuz_i_Tuz
+Tuz_i_Tuz collected $0.40 from pot
+*** SUMMARY ***
+Total pot $0.41 | Rake $0.01
+Board [6h 2c 4s Th]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: unegus (big blind) folded before Flop
+Seat 3: Pedro Sorribes folded on the Turn
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz collected ($0.40)
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 8: andybeta folded before Flop (didn't bet)
+Seat 9: Koda2601 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182099401:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:35:57 ET
+Table 'Sicilia II' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.93 in chips)
+Seat 2: unegus ($1.78 in chips)
+Seat 3: Pedro Sorribes ($1.80 in chips)
+Seat 4: napets_f ($0.82 in chips)
+Seat 6: Tuz_i_Tuz ($2.21 in chips)
+Seat 7: airdestiny ($2.26 in chips)
+Seat 8: andybeta ($1.52 in chips)
+Seat 9: Koda2601 ($4.58 in chips)
+unegus: posts small blind $0.01
+Pedro Sorribes: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d 9c]
+napets_f: folds
+Tuz_i_Tuz: folds
+airdestiny: folds
+andybeta: folds
+Koda2601: folds
+pokerHero1: folds
+unegus: raises $0.04 to $0.06
+Pedro Sorribes: calls $0.04
+*** FLOP *** [8h 7s Qd]
+unegus: bets $0.06
+Pedro Sorribes: folds
+Uncalled bet ($0.06) returned to unegus
+unegus collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Board [8h 7s Qd]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: unegus (small blind) collected ($0.12)
+Seat 3: Pedro Sorribes (big blind) folded on the Flop
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 8: andybeta folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182140607:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:36:32 ET
+Table 'Sicilia II' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.93 in chips)
+Seat 2: unegus ($1.84 in chips)
+Seat 3: Pedro Sorribes ($1.74 in chips)
+Seat 4: napets_f ($0.82 in chips)
+Seat 6: Tuz_i_Tuz ($2.21 in chips)
+Seat 7: airdestiny ($2.26 in chips)
+Seat 8: andybeta ($1.52 in chips)
+Seat 9: Koda2601 ($4.58 in chips)
+Pedro Sorribes: posts small blind $0.01
+napets_f: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js Jh]
+Tuz_i_Tuz: folds
+airdestiny: folds
+andybeta: calls $0.02
+Koda2601: folds
+pokerHero1: raises $0.08 to $0.10
+unegus: folds
+Pedro Sorribes: calls $0.09
+napets_f: folds
+andybeta: calls $0.08
+*** FLOP *** [8s 7c 6h]
+Pedro Sorribes: bets $0.16
+andybeta: folds
+pokerHero1: raises $0.24 to $0.40
+Pedro Sorribes: calls $0.24
+*** TURN *** [8s 7c 6h] [4h]
+Pedro Sorribes: checks
+pokerHero1: bets $0.50
+Pedro Sorribes: folds
+Uncalled bet ($0.50) returned to pokerHero1
+pokerHero1 collected $1.08 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $1.12 | Rake $0.04
+Board [8s 7c 6h 4h]
+Seat 1: pokerHero1 collected ($1.08)
+Seat 2: unegus (button) folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes (small blind) folded on the Turn
+Seat 4: napets_f (big blind) folded before Flop
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 8: andybeta folded on the Flop
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182208814:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:37:30 ET
+Table 'Sicilia II' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($3.51 in chips)
+Seat 2: unegus ($1.84 in chips)
+Seat 3: Pedro Sorribes ($1.24 in chips)
+Seat 4: napets_f ($0.80 in chips)
+Seat 6: Tuz_i_Tuz ($2.21 in chips)
+Seat 7: airdestiny ($2.26 in chips)
+Seat 8: andybeta ($1.42 in chips)
+Seat 9: Koda2601 ($4.58 in chips)
+napets_f: posts small blind $0.01
+Tuz_i_Tuz: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7s Kd]
+airdestiny: raises $0.08 to $0.10
+andybeta: folds
+Koda2601: folds
+pokerHero1 has timed out
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: folds
+napets_f: folds
+Tuz_i_Tuz: folds
+Uncalled bet ($0.08) returned to airdestiny
+airdestiny collected $0.05 from pot
+airdestiny: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes (button) folded before Flop (didn't bet)
+Seat 4: napets_f (small blind) folded before Flop
+Seat 6: Tuz_i_Tuz (big blind) folded before Flop
+Seat 7: airdestiny collected ($0.05)
+Seat 8: andybeta folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182258926:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:38:03 ET
+Table 'Sicilia II' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($3.51 in chips)
+Seat 2: unegus ($1.84 in chips)
+Seat 3: Pedro Sorribes ($1.24 in chips)
+Seat 4: napets_f ($0.79 in chips)
+Seat 6: Tuz_i_Tuz ($2.19 in chips)
+Seat 7: airdestiny ($2.29 in chips)
+Seat 8: andybeta ($1.42 in chips)
+Seat 9: Koda2601 ($4.58 in chips)
+Tuz_i_Tuz: posts small blind $0.01
+airdestiny: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d Kh]
+andybeta: raises $0.04 to $0.06
+Koda2601: folds
+pokerHero1: folds
+unegus: calls $0.06
+Pedro Sorribes: calls $0.06
+napets_f: folds
+Tuz_i_Tuz: calls $0.05
+airdestiny: calls $0.04
+*** FLOP *** [Qs 6c Ac]
+Tuz_i_Tuz: checks
+airdestiny: checks
+andybeta: bets $0.08
+unegus: calls $0.08
+Pedro Sorribes: calls $0.08
+Tuz_i_Tuz: folds
+airdestiny: calls $0.08
+*** TURN *** [Qs 6c Ac] [Tc]
+airdestiny: checks
+andybeta: bets $0.10
+unegus: calls $0.10
+Pedro Sorribes: raises $1 to $1.10 and is all-in
+airdestiny: folds
+andybeta: calls $1
+unegus: folds
+*** RIVER *** [Qs 6c Ac Tc] [8s]
+*** SHOW DOWN ***
+andybeta: shows [Kd Ad] (a pair of Aces)
+Pedro Sorribes: shows [7c 2c] (a flush, Ace high)
+Pedro Sorribes collected $2.82 from pot
+*** SUMMARY ***
+Total pot $2.92 | Rake $0.10
+Board [Qs 6c Ac Tc 8s]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: unegus folded on the Turn
+Seat 3: Pedro Sorribes showed [7c 2c] and won ($2.82) with a flush, Ace high
+Seat 4: napets_f (button) folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz (small blind) folded on the Flop
+Seat 7: airdestiny (big blind) folded on the Turn
+Seat 8: andybeta showed [Kd Ad] and lost with a pair of Aces
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182361547:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:39:30 ET
+Table 'Sicilia II' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($3.51 in chips)
+Seat 2: unegus ($1.60 in chips)
+Seat 3: Pedro Sorribes ($2.82 in chips)
+Seat 4: napets_f ($0.79 in chips)
+Seat 6: Tuz_i_Tuz ($2.13 in chips)
+Seat 7: airdestiny ($2.15 in chips)
+Seat 8: andybeta ($0.18 in chips)
+Seat 9: Koda2601 ($4.58 in chips)
+airdestiny: posts small blind $0.01
+andybeta: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s 8s]
+Koda2601: folds
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: calls $0.02
+napets_f: folds
+Tuz_i_Tuz: folds
+airdestiny: folds
+andybeta: checks
+*** FLOP *** [3s 3d 4d]
+andybeta: checks
+Pedro Sorribes: checks
+*** TURN *** [3s 3d 4d] [2d]
+andybeta: checks
+Pedro Sorribes: checks
+*** RIVER *** [3s 3d 4d 2d] [Kh]
+andybeta: bets $0.16 and is all-in
+Pedro Sorribes: folds
+Uncalled bet ($0.16) returned to andybeta
+andybeta collected $0.05 from pot
+andybeta: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [3s 3d 4d 2d Kh]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded on the River
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz (button) folded before Flop (didn't bet)
+Seat 7: airdestiny (small blind) folded before Flop
+Seat 8: andybeta (big blind) collected ($0.05)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182404244:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:40:06 ET
+Table 'Sicilia II' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($3.51 in chips)
+Seat 2: unegus ($1.60 in chips)
+Seat 3: Pedro Sorribes ($2.80 in chips)
+Seat 4: napets_f ($0.79 in chips)
+Seat 6: Tuz_i_Tuz ($2.13 in chips)
+Seat 7: airdestiny ($2.14 in chips)
+Seat 8: andybeta ($0.21 in chips)
+Seat 9: Koda2601 ($4.58 in chips)
+andybeta: posts small blind $0.01
+Koda2601: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d 3h]
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: folds
+napets_f: folds
+Tuz_i_Tuz: raises $0.04 to $0.06
+airdestiny: folds
+andybeta: folds
+Koda2601: calls $0.04
+*** FLOP *** [Jd 9c Jh]
+Koda2601: bets $0.06
+Tuz_i_Tuz: calls $0.06
+*** TURN *** [Jd 9c Jh] [8h]
+Koda2601: bets $0.10
+Tuz_i_Tuz: calls $0.10
+*** RIVER *** [Jd 9c Jh 8h] [Qc]
+Koda2601: bets $0.10
+Tuz_i_Tuz: calls $0.10
+*** SHOW DOWN ***
+Koda2601: shows [Ah 9h] (two pair, Jacks and Nines)
+Tuz_i_Tuz: shows [Ac Qd] (two pair, Queens and Jacks)
+Tuz_i_Tuz collected $0.63 from pot
+*** SUMMARY ***
+Total pot $0.65 | Rake $0.02
+Board [Jd 9c Jh 8h Qc]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded before Flop (didn't bet)
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz showed [Ac Qd] and won ($0.63) with two pair, Queens and Jacks
+Seat 7: airdestiny (button) folded before Flop (didn't bet)
+Seat 8: andybeta (small blind) folded before Flop
+Seat 9: Koda2601 (big blind) showed [Ah 9h] and lost with two pair, Jacks and Nines
+
+
+
+PokerStars Hand #212182447837:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:40:42 ET
+Table 'Sicilia II' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($3.51 in chips)
+Seat 2: unegus ($1.60 in chips)
+Seat 3: Pedro Sorribes ($2.80 in chips)
+Seat 4: napets_f ($0.79 in chips)
+Seat 6: Tuz_i_Tuz ($2.44 in chips)
+Seat 7: airdestiny ($2.14 in chips)
+Seat 8: andybeta ($0.20 in chips)
+Seat 9: Koda2601 ($4.26 in chips)
+Koda2601: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8s 3h]
+unegus: folds
+Pedro Sorribes: folds
+napets_f: folds
+Tuz_i_Tuz: folds
+airdestiny: folds
+andybeta: raises $0.18 to $0.20 and is all-in
+Koda2601: folds
+pokerHero1: folds
+Uncalled bet ($0.18) returned to andybeta
+andybeta collected $0.05 from pot
+andybeta: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded before Flop (didn't bet)
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 8: andybeta (button) collected ($0.05)
+Seat 9: Koda2601 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212182495390:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:41:22 ET
+Table 'Sicilia II' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($3.49 in chips)
+Seat 2: unegus ($1.60 in chips)
+Seat 3: Pedro Sorribes ($2.80 in chips)
+Seat 4: napets_f ($0.79 in chips)
+Seat 6: Tuz_i_Tuz ($2.44 in chips)
+Seat 7: airdestiny ($2.14 in chips)
+Seat 8: andybeta ($0.23 in chips)
+Seat 9: Koda2601 ($4.25 in chips)
+pokerHero1: posts small blind $0.01
+unegus: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd 2d]
+Pedro Sorribes: calls $0.02
+napets_f: folds
+Tuz_i_Tuz: folds
+airdestiny: raises $0.08 to $0.10
+andybeta: calls $0.10
+Koda2601: folds
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: calls $0.08
+*** FLOP *** [6h 9s Td]
+Pedro Sorribes: checks
+airdestiny: checks
+andybeta: checks
+*** TURN *** [6h 9s Td] [2c]
+Pedro Sorribes: checks
+airdestiny: bets $0.16
+andybeta: calls $0.13 and is all-in
+Pedro Sorribes: folds
+Uncalled bet ($0.03) returned to airdestiny
+*** RIVER *** [6h 9s Td 2c] [4c]
+*** SHOW DOWN ***
+airdestiny: shows [Jh 9h] (a pair of Nines)
+andybeta: shows [8d 7d] (a straight, Six to Ten)
+andybeta collected $0.57 from pot
+*** SUMMARY ***
+Total pot $0.59 | Rake $0.02
+Board [6h 9s Td 2c 4c]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: unegus (big blind) folded before Flop
+Seat 3: Pedro Sorribes folded on the Turn
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny showed [Jh 9h] and lost with a pair of Nines
+Seat 8: andybeta showed [8d 7d] and won ($0.57) with a straight, Six to Ten
+Seat 9: Koda2601 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182558031:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:42:14 ET
+Table 'Sicilia II' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($3.48 in chips)
+Seat 2: unegus ($1.58 in chips)
+Seat 3: Pedro Sorribes ($2.70 in chips)
+Seat 4: napets_f ($0.79 in chips)
+Seat 6: Tuz_i_Tuz ($2.44 in chips)
+Seat 7: airdestiny ($2 in chips)
+Seat 8: andybeta ($0.57 in chips)
+Seat 9: Koda2601 ($4.25 in chips)
+unegus: posts small blind $0.01
+Pedro Sorribes: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c Jd]
+napets_f: folds
+Tuz_i_Tuz: raises $0.04 to $0.06
+airdestiny: calls $0.06
+andybeta: calls $0.06
+Koda2601: calls $0.06
+pokerHero1: folds
+unegus: raises $0.34 to $0.40
+Pedro Sorribes: folds
+Tuz_i_Tuz: calls $0.34
+airdestiny: folds
+andybeta: calls $0.34
+Koda2601: calls $0.34
+*** FLOP *** [5c 3d 6d]
+unegus: bets $1.18 and is all-in
+Tuz_i_Tuz: folds
+andybeta: calls $0.17 and is all-in
+Koda2601: calls $1.18
+Koda2601 has timed out
+*** TURN *** [5c 3d 6d] [Qd]
+*** RIVER *** [5c 3d 6d Qd] [2d]
+*** SHOW DOWN ***
+unegus: shows [Kd Kh] (a flush, King high)
+Koda2601: shows [9d 9h] (a flush, Queen high)
+unegus collected $1.95 from side pot
+andybeta: shows [Ah 6h] (a pair of Sixes)
+unegus collected $2.11 from main pot
+andybeta cashed out the hand for $0.42
+*** SUMMARY ***
+Total pot $4.21 Main pot $2.11. Side pot $1.95. | Rake $0.15
+Board [5c 3d 6d Qd 2d]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: unegus (small blind) showed [Kd Kh] and won ($4.06) with a flush, King high
+Seat 3: Pedro Sorribes (big blind) folded before Flop
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded on the Flop
+Seat 7: airdestiny folded before Flop
+Seat 8: andybeta showed [Ah 6h] and lost with a pair of Sixes (cashed out).
+Seat 9: Koda2601 showed [9d 9h] and lost with a flush, Queen high
+
+
+
+PokerStars Hand #212182646580:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:43:26 ET
+Table 'Sicilia II' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($3.48 in chips)
+Seat 2: unegus ($4.06 in chips)
+Seat 3: Pedro Sorribes ($2.68 in chips)
+Seat 4: napets_f ($0.79 in chips)
+Seat 6: Tuz_i_Tuz ($2.04 in chips)
+Seat 7: airdestiny ($2 in chips)
+Seat 8: andybeta ($0.42 in chips)
+Seat 9: Koda2601 ($2.67 in chips)
+Pedro Sorribes: posts small blind $0.01
+napets_f: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad Ac]
+Tuz_i_Tuz: raises $0.02 to $0.04
+airdestiny: calls $0.04
+andybeta: folds
+andybeta leaves the table
+Koda2601: folds
+pokerHero1: raises $0.12 to $0.16
+unegus: folds
+Pedro Sorribes: folds
+napets_f: folds
+Tuz_i_Tuz: calls $0.12
+airdestiny: folds
+*** FLOP *** [Qc 8c Qs]
+Tuz_i_Tuz: checks
+stohii joins the table at seat #8
+pokerHero1: bets $0.26
+Tuz_i_Tuz: folds
+Uncalled bet ($0.26) returned to pokerHero1
+pokerHero1 collected $0.38 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.39 | Rake $0.01
+Board [Qc 8c Qs]
+Seat 1: pokerHero1 collected ($0.38)
+Seat 2: unegus (button) folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes (small blind) folded before Flop
+Seat 4: napets_f (big blind) folded before Flop
+Seat 6: Tuz_i_Tuz folded on the Flop
+Seat 7: airdestiny folded before Flop
+Seat 8: andybeta folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182695783:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:44:06 ET
+Table 'Sicilia II' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($3.70 in chips)
+Seat 2: unegus ($4.06 in chips)
+Seat 3: Pedro Sorribes ($2.67 in chips)
+Seat 4: napets_f ($0.77 in chips)
+Seat 6: Tuz_i_Tuz ($1.88 in chips)
+Seat 7: airdestiny ($2 in chips)
+Seat 9: Koda2601 ($2.67 in chips)
+napets_f: posts small blind $0.01
+Tuz_i_Tuz: posts big blind $0.02
+stohii: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ks Jh]
+airdestiny: folds
+Koda2601: folds
+pokerHero1: raises $0.06 to $0.08
+unegus: calls $0.08
+Pedro Sorribes: calls $0.08
+napets_f: folds
+Tuz_i_Tuz: folds
+*** FLOP *** [8d 6d Js]
+pokerHero1: bets $0.14
+unegus: calls $0.14
+Pedro Sorribes: folds
+*** TURN *** [8d 6d Js] [6c]
+pokerHero1: bets $0.16
+unegus: calls $0.16
+*** RIVER *** [8d 6d Js 6c] [4s]
+pokerHero1: bets $0.32
+unegus: calls $0.32
+*** SHOW DOWN ***
+pokerHero1: shows [Ks Jh] (two pair, Jacks and Sixes)
+unegus: mucks hand
+pokerHero1 collected $1.46 from pot
+pablokine2 was removed from the table for failing to post
+pablokine2 leaves the table
+*** SUMMARY ***
+Total pot $1.51 | Rake $0.05
+Board [8d 6d Js 6c 4s]
+Seat 1: pokerHero1 showed [Ks Jh] and won ($1.46) with two pair, Jacks and Sixes
+Seat 2: unegus mucked [Td Ts]
+Seat 3: Pedro Sorribes (button) folded on the Flop
+Seat 4: napets_f (small blind) folded before Flop
+Seat 6: Tuz_i_Tuz (big blind) folded before Flop
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182775936:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:45:07 ET
+Table 'Sicilia II' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($4.46 in chips)
+Seat 2: unegus ($3.36 in chips)
+Seat 3: Pedro Sorribes ($2.59 in chips)
+Seat 4: napets_f ($0.76 in chips)
+Seat 6: Tuz_i_Tuz ($1.86 in chips)
+Seat 7: airdestiny ($2 in chips)
+Seat 9: Koda2601 ($2.67 in chips)
+Tuz_i_Tuz: posts small blind $0.01
+airdestiny: posts big blind $0.02
+stohii: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c 3s]
+Koda2601: folds
+pokerHero1: folds
+unegus: folds
+ivan69252 joins the table at seat #5
+Pedro Sorribes: raises $0.02 to $0.04
+napets_f: folds
+Tuz_i_Tuz: calls $0.03
+airdestiny: calls $0.02
+*** FLOP *** [2h Qs Qc]
+Tuz_i_Tuz: checks
+airdestiny: checks
+Pedro Sorribes: bets $0.06
+Tuz_i_Tuz: folds
+airdestiny: calls $0.06
+*** TURN *** [2h Qs Qc] [5d]
+Koda2601 leaves the table
+airdestiny: checks
+Gogi578 joins the table at seat #9
+Pedro Sorribes: bets $0.12
+airdestiny: raises $0.36 to $0.48
+Pedro Sorribes: calls $0.36
+*** RIVER *** [2h Qs Qc 5d] [Ah]
+airdestiny: bets $0.58
+Pedro Sorribes: folds
+Uncalled bet ($0.58) returned to airdestiny
+airdestiny collected $1.16 from pot
+airdestiny: doesn't show hand
+*** SUMMARY ***
+Total pot $1.20 | Rake $0.04
+Board [2h Qs Qc 5d Ah]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded on the River
+Seat 4: napets_f (button) folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz (small blind) folded on the Flop
+Seat 7: airdestiny (big blind) collected ($1.16)
+Seat 9: Koda2601 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182864590:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:46:19 ET
+Table 'Sicilia II' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($4.46 in chips)
+Seat 2: unegus ($3.36 in chips)
+Seat 3: Pedro Sorribes ($2.01 in chips)
+Seat 4: napets_f ($0.76 in chips)
+Seat 5: ivan69252 ($1.08 in chips)
+Seat 6: Tuz_i_Tuz ($1.82 in chips)
+Seat 7: airdestiny ($2.58 in chips)
+Seat 8: stohii ($1 in chips)
+Seat 9: Gogi578 ($0.80 in chips)
+airdestiny: posts small blind $0.01
+stohii: posts big blind $0.02
+Gogi578: posts big blind $0.02
+ivan69252: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5h Td]
+Gogi578: checks
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: raises $0.02 to $0.04
+napets_f: folds
+ivan69252: folds
+Tuz_i_Tuz: folds
+airdestiny: folds
+stohii: calls $0.02
+Gogi578: calls $0.02
+*** FLOP *** [3c 8d Qc]
+stohii: checks
+Gogi578: checks
+Pedro Sorribes: checks
+*** TURN *** [3c 8d Qc] [Kh]
+stohii: checks
+Gogi578: checks
+Pedro Sorribes: checks
+*** RIVER *** [3c 8d Qc Kh] [4c]
+stohii: checks
+Gogi578: bets $0.06
+Pedro Sorribes: folds
+stohii: folds
+Uncalled bet ($0.06) returned to Gogi578
+Gogi578 collected $0.14 from pot
+Gogi578: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [3c 8d Qc Kh 4c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded on the River
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 5: ivan69252 folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz (button) folded before Flop (didn't bet)
+Seat 7: airdestiny (small blind) folded before Flop
+Seat 8: stohii (big blind) folded on the River
+Seat 9: Gogi578 collected ($0.14)
+
+
+
+PokerStars Hand #212182932596:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:47:15 ET
+Table 'Sicilia II' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($4.46 in chips)
+Seat 2: unegus ($3.36 in chips)
+Seat 3: Pedro Sorribes ($1.97 in chips)
+Seat 4: napets_f ($0.76 in chips)
+Seat 5: ivan69252 ($1.06 in chips)
+Seat 6: Tuz_i_Tuz ($2 in chips)
+Seat 7: airdestiny ($2.57 in chips)
+Seat 8: stohii ($1 in chips)
+Seat 9: Gogi578 ($0.90 in chips)
+stohii: posts small blind $0.01
+Gogi578: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s Ts]
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: calls $0.02
+napets_f: folds
+ivan69252: folds
+Tuz_i_Tuz: raises $0.06 to $0.08
+airdestiny: raises $0.16 to $0.24
+stohii: folds
+Gogi578: folds
+Pedro Sorribes: folds
+Tuz_i_Tuz: folds
+Uncalled bet ($0.16) returned to airdestiny
+airdestiny collected $0.21 from pot
+airdestiny: doesn't show hand
+*** SUMMARY ***
+Total pot $0.21 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded before Flop
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 5: ivan69252 folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded before Flop
+Seat 7: airdestiny (button) collected ($0.21)
+Seat 8: stohii (small blind) folded before Flop
+Seat 9: Gogi578 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212182974705:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:47:49 ET
+Table 'Sicilia II' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($4.46 in chips)
+Seat 2: unegus ($3.36 in chips)
+Seat 3: Pedro Sorribes ($1.95 in chips)
+Seat 4: napets_f ($0.76 in chips)
+Seat 5: ivan69252 ($1.06 in chips)
+Seat 6: Tuz_i_Tuz ($1.92 in chips)
+Seat 7: airdestiny ($2.70 in chips)
+Seat 8: stohii ($1 in chips)
+Seat 9: Gogi578 ($0.88 in chips)
+Gogi578: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3s 4d]
+unegus: folds
+Pedro Sorribes: raises $0.02 to $0.04
+napets_f: folds
+ivan69252: calls $0.04
+Tuz_i_Tuz: folds
+airdestiny: folds
+stohii: folds
+Gogi578: calls $0.03
+pokerHero1: folds
+*** FLOP *** [Tc 8d Td]
+Gogi578: checks
+Pedro Sorribes: bets $0.07
+ivan69252: folds
+Gogi578: calls $0.07
+*** TURN *** [Tc 8d Td] [3h]
+Gogi578: checks
+Pedro Sorribes: bets $0.14
+Gogi578: calls $0.14
+*** RIVER *** [Tc 8d Td 3h] [6s]
+Gogi578: bets $0.26
+Pedro Sorribes: calls $0.26
+*** SHOW DOWN ***
+Gogi578: shows [Kc 8h] (two pair, Tens and Eights)
+Pedro Sorribes: shows [Jd Jh] (two pair, Jacks and Tens)
+Pedro Sorribes collected $1.04 from pot
+*** SUMMARY ***
+Total pot $1.08 | Rake $0.04
+Board [Tc 8d Td 3h 6s]
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes showed [Jd Jh] and won ($1.04) with two pair, Jacks and Tens
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 5: ivan69252 folded on the Flop
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 8: stohii (button) folded before Flop (didn't bet)
+Seat 9: Gogi578 (small blind) showed [Kc 8h] and lost with two pair, Tens and Eights
+
+
+
+PokerStars Hand #212183027491:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:48:32 ET
+Table 'Sicilia II' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($4.44 in chips)
+Seat 2: unegus ($3.36 in chips)
+Seat 3: Pedro Sorribes ($2.48 in chips)
+Seat 4: napets_f ($0.76 in chips)
+Seat 5: ivan69252 ($1.02 in chips)
+Seat 6: Tuz_i_Tuz ($1.92 in chips)
+Seat 7: airdestiny ($2.70 in chips)
+Seat 8: stohii ($1 in chips)
+Seat 9: Gogi578 ($0.37 in chips)
+pokerHero1: posts small blind $0.01
+unegus: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s 7d]
+Pedro Sorribes: folds
+napets_f: calls $0.02
+ivan69252: calls $0.02
+Tuz_i_Tuz: folds
+airdestiny has timed out
+airdestiny: folds
+stohii: folds
+Gogi578: calls $0.02
+pokerHero1: folds
+unegus: checks
+*** FLOP *** [Jc 8s 2d]
+unegus: checks
+napets_f: checks
+ivan69252: bets $0.05
+Gogi578: calls $0.05
+unegus: folds
+napets_f: folds
+*** TURN *** [Jc 8s 2d] [8h]
+ivan69252: bets $0.09
+Gogi578: folds
+Uncalled bet ($0.09) returned to ivan69252
+ivan69252 collected $0.18 from pot
+ivan69252: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [Jc 8s 2d 8h]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: unegus (big blind) folded on the Flop
+Seat 3: Pedro Sorribes folded before Flop (didn't bet)
+Seat 4: napets_f folded on the Flop
+Seat 5: ivan69252 collected ($0.18)
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 8: stohii folded before Flop (didn't bet)
+Seat 9: Gogi578 (button) folded on the Turn
+
+
+
+PokerStars Hand #212183137219:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:50:01 ET
+Table 'Sicilia II' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($4.43 in chips)
+Seat 2: unegus ($3.34 in chips)
+Seat 3: Pedro Sorribes ($2.48 in chips)
+Seat 4: napets_f ($0.74 in chips)
+Seat 5: ivan69252 ($1.13 in chips)
+Seat 6: Tuz_i_Tuz ($1.92 in chips)
+Seat 7: airdestiny ($2.70 in chips)
+Seat 8: stohii ($1 in chips)
+Seat 9: Gogi578 ($0.30 in chips)
+unegus: posts small blind $0.01
+Pedro Sorribes: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd 7d]
+napets_f: folds
+ivan69252: folds
+Tuz_i_Tuz: folds
+airdestiny: raises $0.06 to $0.08
+stohii: raises $0.10 to $0.18
+Gogi578: raises $0.12 to $0.30 and is all-in
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: calls $0.28
+airdestiny: folds
+stohii: calls $0.12
+*** FLOP *** [Kd 4h Qd]
+Pedro Sorribes: checks
+stohii: bets $0.62
+Pedro Sorribes: calls $0.62
+*** TURN *** [Kd 4h Qd] [5c]
+Pedro Sorribes: checks
+stohii: checks
+*** RIVER *** [Kd 4h Qd 5c] [Td]
+Pedro Sorribes: bets $0.08
+stohii: calls $0.08 and is all-in
+*** SHOW DOWN ***
+Pedro Sorribes: shows [Qh Th] (two pair, Queens and Tens)
+stohii: shows [As Ts] (a pair of Tens)
+Pedro Sorribes collected $1.35 from side pot
+Gogi578: shows [Kh 5h] (two pair, Kings and Fives)
+Gogi578 collected $0.96 from main pot
+*** SUMMARY ***
+Total pot $2.39 Main pot $0.96. Side pot $1.35. | Rake $0.08
+Board [Kd 4h Qd 5c Td]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: unegus (small blind) folded before Flop
+Seat 3: Pedro Sorribes (big blind) showed [Qh Th] and won ($1.35) with two pair, Queens and Tens
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 5: ivan69252 folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny folded before Flop
+Seat 8: stohii showed [As Ts] and lost with a pair of Tens
+Seat 9: Gogi578 showed [Kh 5h] and won ($0.96) with two pair, Kings and Fives
+
+
+
+PokerStars Hand #212183218564:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:51:07 ET
+Table 'Sicilia II' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($4.43 in chips)
+Seat 2: unegus ($3.33 in chips)
+Seat 3: Pedro Sorribes ($2.83 in chips)
+Seat 4: napets_f ($0.74 in chips)
+Seat 5: ivan69252 ($1.13 in chips)
+Seat 6: Tuz_i_Tuz ($2 in chips)
+Seat 7: airdestiny ($2.62 in chips)
+Seat 8: stohii ($1 in chips)
+Seat 9: Gogi578 ($0.96 in chips)
+Pedro Sorribes: posts small blind $0.01
+napets_f: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d 2s]
+ivan69252: folds
+Tuz_i_Tuz: folds
+airdestiny: folds
+stohii: raises $0.03 to $0.05
+Gogi578: folds
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: calls $0.04
+napets_f: calls $0.03
+*** FLOP *** [5h Jd 2c]
+Pedro Sorribes: checks
+napets_f: checks
+stohii: bets $0.11
+Pedro Sorribes: folds
+napets_f: calls $0.11
+*** TURN *** [5h Jd 2c] [As]
+napets_f: checks
+stohii: checks
+*** RIVER *** [5h Jd 2c As] [4s]
+napets_f: bets $0.06
+stohii: calls $0.06
+*** SHOW DOWN ***
+napets_f: shows [Kh Jh] (a pair of Jacks)
+stohii: mucks hand
+napets_f collected $0.47 from pot
+*** SUMMARY ***
+Total pot $0.49 | Rake $0.02
+Board [5h Jd 2c As 4s]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: unegus (button) folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes (small blind) folded on the Flop
+Seat 4: napets_f (big blind) showed [Kh Jh] and won ($0.47) with a pair of Jacks
+Seat 5: ivan69252 folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 8: stohii mucked [9d Jc]
+Seat 9: Gogi578 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183297110:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:52:05 ET
+Table 'Sicilia II' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($4.43 in chips)
+Seat 2: unegus ($3.33 in chips)
+Seat 3: Pedro Sorribes ($2.78 in chips)
+Seat 4: napets_f ($0.99 in chips)
+Seat 5: ivan69252 ($1.13 in chips)
+Seat 6: Tuz_i_Tuz ($2 in chips)
+Seat 7: airdestiny ($2.62 in chips)
+Seat 8: stohii ($1 in chips)
+Seat 9: Gogi578 ($0.96 in chips)
+napets_f: posts small blind $0.01
+ivan69252: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5c As]
+Tuz_i_Tuz: folds
+airdestiny: folds
+stohii: folds
+Gogi578: calls $0.02
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: calls $0.02
+napets_f: folds
+ivan69252: checks
+*** FLOP *** [Qs 9d 4h]
+ivan69252: checks
+Gogi578: checks
+Pedro Sorribes: checks
+*** TURN *** [Qs 9d 4h] [3s]
+ivan69252: bets $0.04
+Gogi578: calls $0.04
+Pedro Sorribes: calls $0.04
+*** RIVER *** [Qs 9d 4h 3s] [4c]
+ivan69252: bets $0.09
+Tuz_i_Tuz is disconnected
+Gogi578: calls $0.09
+Pedro Sorribes: calls $0.09
+*** SHOW DOWN ***
+ivan69252: shows [7c Qd] (two pair, Queens and Fours)
+Gogi578: shows [Qc Ad] (two pair, Queens and Fours - Ace kicker)
+Pedro Sorribes: mucks hand
+Gogi578 collected $0.44 from pot
+*** SUMMARY ***
+Total pot $0.46 | Rake $0.02
+Board [Qs 9d 4h 3s 4c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes (button) mucked [3d 8c]
+Seat 4: napets_f (small blind) folded before Flop
+Seat 5: ivan69252 (big blind) showed [7c Qd] and lost with two pair, Queens and Fours
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 8: stohii folded before Flop (didn't bet)
+Seat 9: Gogi578 showed [Qc Ad] and won ($0.44) with two pair, Queens and Fours
+
+
+
+PokerStars Hand #212183355714:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:52:52 ET
+Table 'Sicilia II' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($4.43 in chips)
+Seat 2: unegus ($3.33 in chips)
+Seat 3: Pedro Sorribes ($2.63 in chips)
+Seat 4: napets_f ($0.98 in chips)
+Seat 5: ivan69252 ($0.98 in chips)
+Seat 7: airdestiny ($2.62 in chips)
+Seat 8: stohii ($1 in chips)
+Seat 9: Gogi578 ($1.25 in chips)
+ivan69252: posts small blind $0.01
+Tuz_i_Tuz has timed out while disconnected
+Tuz_i_Tuz: is sitting out
+airdestiny: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3s 2c]
+stohii: raises $0.02 to $0.04
+Gogi578: folds
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: calls $0.04
+napets_f: folds
+ivan69252: calls $0.03
+airdestiny: folds
+*** FLOP *** [Td 9d 6c]
+ivan69252: checks
+stohii: bets $0.02
+Pedro Sorribes: calls $0.02
+ivan69252: calls $0.02
+*** TURN *** [Td 9d 6c] [5s]
+ivan69252: checks
+stohii: bets $0.05
+Pedro Sorribes: calls $0.05
+ivan69252: calls $0.05
+*** RIVER *** [Td 9d 6c 5s] [Qh]
+ivan69252: checks
+stohii: bets $0.10
+Pedro Sorribes: folds
+ivan69252: calls $0.10
+*** SHOW DOWN ***
+stohii: shows [Kh 6s] (a pair of Sixes)
+ivan69252: shows [Qc Ks] (a pair of Queens)
+ivan69252 collected $0.53 from pot
+*** SUMMARY ***
+Total pot $0.55 | Rake $0.02
+Board [Td 9d 6c 5s Qh]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded on the River
+Seat 4: napets_f (button) folded before Flop (didn't bet)
+Seat 5: ivan69252 (small blind) showed [Qc Ks] and won ($0.53) with a pair of Queens
+Seat 7: airdestiny (big blind) folded before Flop
+Seat 8: stohii showed [Kh 6s] and lost with a pair of Sixes
+Seat 9: Gogi578 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183447801:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:54:07 ET
+Table 'Sicilia II' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($4.43 in chips)
+Seat 2: unegus ($3.33 in chips)
+Seat 3: Pedro Sorribes ($2.52 in chips)
+Seat 4: napets_f ($0.98 in chips)
+Seat 5: ivan69252 ($1.30 in chips)
+Seat 7: airdestiny ($2.60 in chips)
+Seat 8: stohii ($1 in chips)
+Seat 9: Gogi578 ($1.25 in chips)
+airdestiny: posts small blind $0.01
+stohii: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd Td]
+Gogi578: folds
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: calls $0.02
+napets_f: folds
+ivan69252: folds
+airdestiny: raises $0.08 to $0.10
+stohii: raises $0.22 to $0.32
+Pedro Sorribes: folds
+airdestiny: folds
+Uncalled bet ($0.22) returned to stohii
+stohii collected $0.22 from pot
+*** SUMMARY ***
+Total pot $0.22 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded before Flop
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 5: ivan69252 (button) folded before Flop (didn't bet)
+Seat 7: airdestiny (small blind) folded before Flop
+Seat 8: stohii (big blind) collected ($0.22)
+Seat 9: Gogi578 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183490235:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:54:41 ET
+Table 'Sicilia II' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($4.43 in chips)
+Seat 2: unegus ($3.33 in chips)
+Seat 3: Pedro Sorribes ($2.50 in chips)
+Seat 4: napets_f ($0.98 in chips)
+Seat 5: ivan69252 ($1.30 in chips)
+Seat 6: Tuz_i_Tuz ($2 in chips)
+Seat 7: airdestiny ($2.50 in chips)
+Seat 8: stohii ($1.12 in chips)
+Seat 9: Gogi578 ($1.25 in chips)
+stohii: posts small blind $0.01
+Gogi578: posts big blind $0.02
+Tuz_i_Tuz: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3c 6h]
+pokerHero1: folds
+unegus: folds
+Pedro Sorribes: folds
+napets_f: calls $0.02
+ivan69252: folds
+Tuz_i_Tuz: checks
+airdestiny: raises $0.10 to $0.12
+stohii: folds
+Gogi578: calls $0.10
+napets_f: folds
+Tuz_i_Tuz: folds
+*** FLOP *** [4s Ah Ts]
+Gogi578: checks
+airdestiny: checks
+*** TURN *** [4s Ah Ts] [6d]
+Gogi578: checks
+airdestiny: checks
+*** RIVER *** [4s Ah Ts 6d] [Tc]
+Gogi578: bets $0.14
+airdestiny: folds
+Uncalled bet ($0.14) returned to Gogi578
+Gogi578 collected $0.29 from pot
+Gogi578: doesn't show hand
+*** SUMMARY ***
+Total pot $0.30 | Rake $0.01
+Board [4s Ah Ts 6d Tc]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded before Flop (didn't bet)
+Seat 4: napets_f folded before Flop
+Seat 5: ivan69252 folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny (button) folded on the River
+Seat 8: stohii (small blind) folded before Flop
+Seat 9: Gogi578 (big blind) collected ($0.29)
+
+
+
+PokerStars Hand #212183539568:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:55:24 ET
+Table 'Sicilia II' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($4.43 in chips)
+Seat 2: unegus ($3.33 in chips)
+Seat 3: Pedro Sorribes ($2.50 in chips)
+Seat 4: napets_f ($0.96 in chips)
+Seat 5: ivan69252 ($1.30 in chips)
+Seat 6: Tuz_i_Tuz ($1.97 in chips)
+Seat 7: airdestiny ($2.38 in chips)
+Seat 8: stohii ($1.11 in chips)
+Seat 9: Gogi578 ($1.42 in chips)
+Gogi578: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2s 5s]
+unegus: folds
+Pedro Sorribes: raises $0.02 to $0.04
+napets_f: folds
+ivan69252: calls $0.04
+Tuz_i_Tuz: folds
+airdestiny: folds
+stohii: folds
+Gogi578: calls $0.03
+pokerHero1: folds
+*** FLOP *** [6h Jc Js]
+Gogi578: checks
+Pedro Sorribes: bets $0.14
+ivan69252: folds
+Gogi578: folds
+Uncalled bet ($0.14) returned to Pedro Sorribes
+Pedro Sorribes collected $0.14 from pot
+Pedro Sorribes: doesn't show hand
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [6h Jc Js]
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 2: unegus folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes collected ($0.14)
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 5: ivan69252 folded on the Flop
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 8: stohii (button) folded before Flop (didn't bet)
+Seat 9: Gogi578 (small blind) folded on the Flop
+
+
+
+PokerStars Hand #212183568879:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:56:00 ET
+Table 'Sicilia II' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($4.41 in chips)
+Seat 3: Pedro Sorribes ($2.60 in chips)
+Seat 4: napets_f ($0.96 in chips)
+Seat 5: ivan69252 ($1.26 in chips)
+Seat 6: Tuz_i_Tuz ($1.97 in chips)
+Seat 7: airdestiny ($2.38 in chips)
+Seat 8: stohii ($1.11 in chips)
+Seat 9: Gogi578 ($1.38 in chips)
+pokerHero1: posts small blind $0.01
+unegus: is sitting out
+Pedro Sorribes: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c 8s]
+napets_f: folds
+ivan69252: folds
+unegus leaves the table
+Tuz_i_Tuz: raises $0.04 to $0.06
+airdestiny: folds
+stohii: folds
+Gogi578: calls $0.06
+pokerHero1: folds
+Pedro Sorribes: calls $0.04
+*** FLOP *** [5s 4h Ts]
+Pedro Sorribes: bets $0.02
+Tuz_i_Tuz: calls $0.02
+Gogi578: calls $0.02
+*** TURN *** [5s 4h Ts] [5c]
+Pedro Sorribes: bets $0.02
+Cardboardddd joins the table at seat #2
+Tuz_i_Tuz: calls $0.02
+Gogi578: calls $0.02
+*** RIVER *** [5s 4h Ts 5c] [6c]
+Pedro Sorribes: bets $0.02
+Tuz_i_Tuz: folds
+Gogi578: calls $0.02
+*** SHOW DOWN ***
+Pedro Sorribes: shows [Qc 4d] (two pair, Fives and Fours)
+Gogi578: shows [9d 9s] (two pair, Nines and Fives)
+Gogi578 collected $0.34 from pot
+*** SUMMARY ***
+Total pot $0.35 | Rake $0.01
+Board [5s 4h Ts 5c 6c]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 3: Pedro Sorribes (big blind) showed [Qc 4d] and lost with two pair, Fives and Fours
+Seat 4: napets_f folded before Flop (didn't bet)
+Seat 5: ivan69252 folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded on the River
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 8: stohii folded before Flop (didn't bet)
+Seat 9: Gogi578 (button) showed [9d 9s] and won ($0.34) with two pair, Nines and Fives
+
+
+
+PokerStars Hand #212183603824:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:56:41 ET
+Table 'Sicilia II' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($4.40 in chips)
+Seat 3: Pedro Sorribes ($2.48 in chips)
+Seat 5: ivan69252 ($1.26 in chips)
+Seat 6: Tuz_i_Tuz ($1.87 in chips)
+Seat 7: airdestiny ($2.38 in chips)
+Seat 8: stohii ($1.11 in chips)
+Seat 9: Gogi578 ($1.60 in chips)
+Pedro Sorribes: posts small blind $0.01
+napets_f: is sitting out
+ivan69252: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s 6h]
+Tuz_i_Tuz: folds
+napets_f leaves the table
+airdestiny: raises $0.06 to $0.08
+stohii: raises $0.06 to $0.14
+Gogi578: folds
+pokerHero1: folds
+Pedro Sorribes: folds
+ivan69252: folds
+airdestiny: folds
+Uncalled bet ($0.06) returned to stohii
+stohii collected $0.19 from pot
+*** SUMMARY ***
+Total pot $0.19 | Rake $0
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes (small blind) folded before Flop
+Seat 5: ivan69252 (big blind) folded before Flop
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny folded before Flop
+Seat 8: stohii collected ($0.19)
+Seat 9: Gogi578 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183623005:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:57:03 ET
+Table 'Sicilia II' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($4.40 in chips)
+Seat 2: Cardboardddd ($0.80 in chips)
+Seat 3: Pedro Sorribes ($2.47 in chips)
+Seat 5: ivan69252 ($1.24 in chips)
+Seat 6: Tuz_i_Tuz ($1.87 in chips)
+Seat 7: airdestiny ($2.30 in chips)
+Seat 8: stohii ($1.22 in chips)
+Seat 9: Gogi578 ($1.60 in chips)
+ivan69252: posts small blind $0.01
+Tuz_i_Tuz: posts big blind $0.02
+Cardboardddd: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac Kc]
+airdestiny: folds
+stohii: calls $0.02
+Gogi578: folds
+pokerHero1: raises $0.10 to $0.12
+nightwolfpro joins the table at seat #4
+Cardboardddd: folds
+Pedro Sorribes: folds
+ivan69252: folds
+Tuz_i_Tuz: folds
+stohii: calls $0.10
+*** FLOP *** [2c Qc 5d]
+stohii: checks
+pokerHero1: bets $0.16
+stohii: calls $0.16
+*** TURN *** [2c Qc 5d] [As]
+stohii: checks
+pokerHero1: bets $0.30
+stohii: raises $0.64 to $0.94 and is all-in
+pokerHero1: calls $0.64
+*** RIVER *** [2c Qc 5d As] [Qh]
+*** SHOW DOWN ***
+stohii: shows [Ad 6c] (two pair, Aces and Queens)
+pokerHero1: shows [Ac Kc] (two pair, Aces and Queens - King kicker)
+pokerHero1 collected $2.40 from pot
+*** SUMMARY ***
+Total pot $2.49 | Rake $0.09
+Board [2c Qc 5d As Qh]
+Seat 1: pokerHero1 showed [Ac Kc] and won ($2.40) with two pair, Aces and Queens
+Seat 2: Cardboardddd folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes (button) folded before Flop (didn't bet)
+Seat 5: ivan69252 (small blind) folded before Flop
+Seat 6: Tuz_i_Tuz (big blind) folded before Flop
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 8: stohii showed [Ad 6c] and lost with two pair, Aces and Queens
+Seat 9: Gogi578 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183683127:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:58:12 ET
+Table 'Sicilia II' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($5.58 in chips)
+Seat 2: Cardboardddd ($0.78 in chips)
+Seat 3: Pedro Sorribes ($2.47 in chips)
+Seat 5: ivan69252 ($1.23 in chips)
+Seat 6: Tuz_i_Tuz ($1.85 in chips)
+Seat 7: airdestiny ($2.30 in chips)
+Seat 8: stohii ($1 in chips)
+Seat 9: Gogi578 ($1.60 in chips)
+Tuz_i_Tuz: posts small blind $0.01
+airdestiny: posts big blind $0.02
+nightwolfpro: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d 2c]
+stohii: folds
+Gogi578: folds
+stohii leaves the table
+pokerHero1: folds
+Cardboardddd: calls $0.02
+Pedro Sorribes: raises $0.02 to $0.04
+ivan69252: folds
+Tuz_i_Tuz: calls $0.03
+airdestiny: folds
+BobGrana joins the table at seat #8
+Cardboardddd: calls $0.02
+*** FLOP *** [Jh 9c Kc]
+Tuz_i_Tuz: checks
+Cardboardddd: bets $0.14
+Pedro Sorribes: calls $0.14
+Tuz_i_Tuz: calls $0.14
+*** TURN *** [Jh 9c Kc] [8c]
+Tuz_i_Tuz: checks
+Cardboardddd: bets $0.60 and is all-in
+Pedro Sorribes: calls $0.60
+Tuz_i_Tuz: folds
+*** RIVER *** [Jh 9c Kc 8c] [2d]
+*** SHOW DOWN ***
+Cardboardddd: shows [Kh 9d] (two pair, Kings and Nines)
+Pedro Sorribes: shows [Qc Qh] (a pair of Queens)
+Cardboardddd collected $1.70 from pot
+*** SUMMARY ***
+Total pot $1.76 | Rake $0.06
+Board [Jh 9c Kc 8c 2d]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: Cardboardddd showed [Kh 9d] and won ($1.70) with two pair, Kings and Nines
+Seat 3: Pedro Sorribes showed [Qc Qh] and lost with a pair of Queens
+Seat 5: ivan69252 (button) folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz (small blind) folded on the Turn
+Seat 7: airdestiny (big blind) folded before Flop
+Seat 8: stohii folded before Flop (didn't bet)
+Seat 9: Gogi578 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183729795:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:59:05 ET
+Table 'Sicilia II' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($5.58 in chips)
+Seat 2: Cardboardddd ($1.70 in chips)
+Seat 3: Pedro Sorribes ($1.69 in chips)
+Seat 5: ivan69252 ($1.23 in chips)
+Seat 6: Tuz_i_Tuz ($1.67 in chips)
+Seat 7: airdestiny ($2.28 in chips)
+Seat 8: BobGrana ($0.80 in chips)
+Seat 9: Gogi578 ($1.60 in chips)
+airdestiny: posts small blind $0.01
+BobGrana: posts big blind $0.02
+nightwolfpro: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s 8s]
+Gogi578: folds
+pokerHero1: folds
+Cardboardddd: calls $0.02
+Pedro Sorribes: calls $0.02
+ivan69252: folds
+Tuz_i_Tuz: folds
+airdestiny: folds
+BobGrana: checks
+*** FLOP *** [Js 8d 5s]
+BobGrana: checks
+Cardboardddd: checks
+Pedro Sorribes: checks
+*** TURN *** [Js 8d 5s] [2c]
+BobGrana: checks
+Cardboardddd: checks
+Pedro Sorribes: bets $0.07
+BobGrana: folds
+Cardboardddd: folds
+Uncalled bet ($0.07) returned to Pedro Sorribes
+Pedro Sorribes collected $0.07 from pot
+Pedro Sorribes: doesn't show hand
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Board [Js 8d 5s 2c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: Cardboardddd folded on the Turn
+Seat 3: Pedro Sorribes collected ($0.07)
+Seat 5: ivan69252 folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz (button) folded before Flop (didn't bet)
+Seat 7: airdestiny (small blind) folded before Flop
+Seat 8: BobGrana (big blind) folded on the Turn
+Seat 9: Gogi578 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183759307:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:59:39 ET
+Table 'Sicilia II' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($5.58 in chips)
+Seat 2: Cardboardddd ($1.68 in chips)
+Seat 3: Pedro Sorribes ($1.74 in chips)
+Seat 5: ivan69252 ($1.23 in chips)
+Seat 6: Tuz_i_Tuz ($2 in chips)
+Seat 7: airdestiny ($2.27 in chips)
+Seat 8: BobGrana ($0.78 in chips)
+Seat 9: Gogi578 ($1.60 in chips)
+BobGrana: posts small blind $0.01
+Gogi578: posts big blind $0.02
+nightwolfpro: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4h 5c]
+pokerHero1: folds
+Cardboardddd: folds
+Pedro Sorribes: calls $0.02
+ivan69252: calls $0.02
+Tuz_i_Tuz: calls $0.02
+airdestiny: raises $0.10 to $0.12
+BobGrana: folds
+Gogi578: calls $0.10
+Pedro Sorribes: calls $0.10
+ivan69252: folds
+Tuz_i_Tuz: calls $0.10
+*** FLOP *** [2d 9s 9h]
+Gogi578: checks
+Pedro Sorribes: checks
+Tuz_i_Tuz: checks
+airdestiny: checks
+*** TURN *** [2d 9s 9h] [3c]
+Gogi578: checks
+Pedro Sorribes: checks
+Tuz_i_Tuz: bets $0.30
+airdestiny: folds
+Gogi578: calls $0.30
+Pedro Sorribes: folds
+*** RIVER *** [2d 9s 9h 3c] [6c]
+Gogi578: checks
+Tuz_i_Tuz: checks
+*** SHOW DOWN ***
+Gogi578: shows [Kc Qh] (a pair of Nines)
+Tuz_i_Tuz: shows [4c 4d] (two pair, Nines and Fours)
+Tuz_i_Tuz collected $1.07 from pot
+*** SUMMARY ***
+Total pot $1.11 | Rake $0.04
+Board [2d 9s 9h 3c 6c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: Cardboardddd folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded on the Turn
+Seat 5: ivan69252 folded before Flop
+Seat 6: Tuz_i_Tuz showed [4c 4d] and won ($1.07) with two pair, Nines and Fours
+Seat 7: airdestiny (button) folded on the Turn
+Seat 8: BobGrana (small blind) folded before Flop
+Seat 9: Gogi578 (big blind) showed [Kc Qh] and lost with a pair of Nines
+
+
+
+PokerStars Hand #212183842838:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:01:02 ET
+Table 'Sicilia II' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($5.58 in chips)
+Seat 2: Cardboardddd ($1.68 in chips)
+Seat 3: Pedro Sorribes ($1.62 in chips)
+Seat 5: ivan69252 ($1.21 in chips)
+Seat 6: Tuz_i_Tuz ($2.65 in chips)
+Seat 7: airdestiny ($2.15 in chips)
+Seat 8: BobGrana ($0.77 in chips)
+Seat 9: Gogi578 ($1.18 in chips)
+Gogi578: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+nightwolfpro: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c Jc]
+Cardboardddd: raises $0.04 to $0.06
+Pedro Sorribes: calls $0.06
+ivan69252: calls $0.06
+Tuz_i_Tuz: folds
+airdestiny: folds
+BobGrana: calls $0.06
+Gogi578: calls $0.05
+pokerHero1: folds
+*** FLOP *** [Qc 8d 3c]
+Gogi578: checks
+Cardboardddd: checks
+Pedro Sorribes: bets $0.16
+ivan69252: folds
+BobGrana: folds
+Gogi578: calls $0.16
+Cardboardddd: folds
+*** TURN *** [Qc 8d 3c] [Qd]
+Gogi578: checks
+Pedro Sorribes: bets $0.10
+Gogi578: calls $0.10
+*** RIVER *** [Qc 8d 3c Qd] [Jh]
+Gogi578: bets $0.40
+Pedro Sorribes: calls $0.40
+*** SHOW DOWN ***
+Gogi578: shows [8h Kc] (two pair, Queens and Eights)
+Pedro Sorribes: mucks hand
+Gogi578 collected $1.58 from pot
+*** SUMMARY ***
+Total pot $1.64 | Rake $0.06
+Board [Qc 8d 3c Qd Jh]
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 2: Cardboardddd folded on the Flop
+Seat 3: Pedro Sorribes mucked [As 3h]
+Seat 5: ivan69252 folded on the Flop
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 8: BobGrana (button) folded on the Flop
+Seat 9: Gogi578 (small blind) showed [8h Kc] and won ($1.58) with two pair, Queens and Eights
+
+
+
+PokerStars Hand #212183915644:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:02:08 ET
+Table 'Sicilia II' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($5.56 in chips)
+Seat 2: Cardboardddd ($1.62 in chips)
+Seat 3: Pedro Sorribes ($0.90 in chips)
+Seat 5: ivan69252 ($1.15 in chips)
+Seat 6: Tuz_i_Tuz ($2.65 in chips)
+Seat 7: airdestiny ($2.15 in chips)
+Seat 8: BobGrana ($0.71 in chips)
+Seat 9: Gogi578 ($2.04 in chips)
+pokerHero1: posts small blind $0.01
+Cardboardddd: posts big blind $0.02
+nightwolfpro: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c Js]
+Pedro Sorribes: calls $0.02
+ivan69252: calls $0.02
+Tuz_i_Tuz: folds
+airdestiny: folds
+BobGrana: folds
+Gogi578: calls $0.02
+pokerHero1: folds
+Cardboardddd: checks
+*** FLOP *** [Qh Kd Kh]
+Cardboardddd: bets $0.04
+Pedro Sorribes: folds
+ivan69252: folds
+Gogi578: calls $0.04
+*** TURN *** [Qh Kd Kh] [7d]
+Cardboardddd: bets $0.06
+Gogi578: calls $0.06
+*** RIVER *** [Qh Kd Kh 7d] [Qc]
+Cardboardddd: bets $0.28
+Gogi578: raises $0.28 to $0.56
+Cardboardddd: calls $0.28
+*** SHOW DOWN ***
+Gogi578: shows [2c Kc] (a full house, Kings full of Queens)
+Cardboardddd: mucks hand
+Gogi578 collected $1.36 from pot
+*** SUMMARY ***
+Total pot $1.41 | Rake $0.05
+Board [Qh Kd Kh 7d Qc]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: Cardboardddd (big blind) mucked [Qd 3c]
+Seat 3: Pedro Sorribes folded on the Flop
+Seat 5: ivan69252 folded on the Flop
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 8: BobGrana folded before Flop (didn't bet)
+Seat 9: Gogi578 (button) showed [2c Kc] and won ($1.36) with a full house, Kings full of Queens
+
+
+
+PokerStars Hand #212184012225:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:03:23 ET
+Table 'Sicilia II' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($5.55 in chips)
+Seat 2: Cardboardddd ($0.94 in chips)
+Seat 3: Pedro Sorribes ($0.88 in chips)
+Seat 5: ivan69252 ($1.13 in chips)
+Seat 6: Tuz_i_Tuz ($2.65 in chips)
+Seat 7: airdestiny ($2.15 in chips)
+Seat 8: BobGrana ($0.71 in chips)
+Seat 9: Gogi578 ($2.72 in chips)
+Cardboardddd: posts small blind $0.01
+Pedro Sorribes: posts big blind $0.02
+nightwolfpro: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kh Qh]
+Cardboardddd said, "knew it"
+ivan69252: folds
+Tuz_i_Tuz: folds
+airdestiny: folds
+BobGrana: folds
+Gogi578: calls $0.02
+pokerHero1: raises $0.06 to $0.08
+Cardboardddd: folds
+Pedro Sorribes: calls $0.06
+Gogi578: calls $0.06
+*** FLOP *** [Js As 3s]
+Pedro Sorribes: checks
+Gogi578: checks
+pokerHero1: checks
+*** TURN *** [Js As 3s] [8s]
+Pedro Sorribes: checks
+Gogi578: checks
+pokerHero1: checks
+*** RIVER *** [Js As 3s 8s] [Qd]
+Pedro Sorribes: bets $0.12
+Gogi578: calls $0.12
+pokerHero1: folds
+*** SHOW DOWN ***
+Pedro Sorribes: shows [5d Jd] (a pair of Jacks)
+Gogi578: shows [Td Ac] (a pair of Aces)
+Gogi578 collected $0.47 from pot
+*** SUMMARY ***
+Total pot $0.49 | Rake $0.02
+Board [Js As 3s 8s Qd]
+Seat 1: pokerHero1 (button) folded on the River
+Seat 2: Cardboardddd (small blind) folded before Flop
+Seat 3: Pedro Sorribes (big blind) showed [5d Jd] and lost with a pair of Jacks
+Seat 5: ivan69252 folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 8: BobGrana folded before Flop (didn't bet)
+Seat 9: Gogi578 showed [Td Ac] and won ($0.47) with a pair of Aces
+
+
+
+PokerStars Hand #212184080077:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:04:16 ET
+Table 'Sicilia II' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($5.47 in chips)
+Seat 2: Cardboardddd ($0.93 in chips)
+Seat 3: Pedro Sorribes ($0.68 in chips)
+Seat 4: nightwolfpro ($2 in chips)
+Seat 5: ivan69252 ($1.13 in chips)
+Seat 6: Tuz_i_Tuz ($2.65 in chips)
+Seat 7: airdestiny ($2.15 in chips)
+Seat 8: BobGrana ($0.71 in chips)
+Seat 9: Gogi578 ($2.99 in chips)
+Pedro Sorribes: posts small blind $0.01
+nightwolfpro: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c Qh]
+ivan69252: calls $0.02
+Tuz_i_Tuz: folds
+airdestiny: raises $0.08 to $0.10
+BobGrana: folds
+Gogi578: calls $0.10
+pokerHero1: folds
+Cardboardddd: folds
+Pedro Sorribes: folds
+nightwolfpro: folds
+ivan69252: folds
+*** FLOP *** [9c 2c 6s]
+airdestiny: bets $0.18
+Gogi578: folds
+Uncalled bet ($0.18) returned to airdestiny
+airdestiny collected $0.24 from pot
+airdestiny: doesn't show hand
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.01
+Board [9c 2c 6s]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: Cardboardddd (button) folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes (small blind) folded before Flop
+Seat 4: nightwolfpro (big blind) folded before Flop
+Seat 5: ivan69252 folded before Flop
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny collected ($0.24)
+Seat 8: BobGrana folded before Flop (didn't bet)
+Seat 9: Gogi578 folded on the Flop
+
+
+
+PokerStars Hand #212184138252:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:04:58 ET
+Table 'Sicilia II' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($5.47 in chips)
+Seat 2: Cardboardddd ($0.93 in chips)
+Seat 3: Pedro Sorribes ($0.67 in chips)
+Seat 4: nightwolfpro ($2 in chips)
+Seat 5: ivan69252 ($1.11 in chips)
+Seat 6: Tuz_i_Tuz ($2.65 in chips)
+Seat 7: airdestiny ($2.29 in chips)
+Seat 8: BobGrana ($0.71 in chips)
+Seat 9: Gogi578 ($2.89 in chips)
+nightwolfpro: posts small blind $0.01
+ivan69252: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c Tc]
+Tuz_i_Tuz: calls $0.02
+airdestiny: raises $0.08 to $0.10
+BobGrana: folds
+Gogi578: folds
+pokerHero1: folds
+Cardboardddd: folds
+Pedro Sorribes: folds
+nightwolfpro: folds
+ivan69252: folds
+Tuz_i_Tuz: folds
+Uncalled bet ($0.08) returned to airdestiny
+airdestiny collected $0.07 from pot
+airdestiny: doesn't show hand
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: Cardboardddd folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes (button) folded before Flop (didn't bet)
+Seat 4: nightwolfpro (small blind) folded before Flop
+Seat 5: ivan69252 (big blind) folded before Flop
+Seat 6: Tuz_i_Tuz folded before Flop
+Seat 7: airdestiny collected ($0.07)
+Seat 8: BobGrana folded before Flop (didn't bet)
+Seat 9: Gogi578 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184181762:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:05:31 ET
+Table 'Sicilia II' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($5.47 in chips)
+Seat 2: Cardboardddd ($0.93 in chips)
+Seat 3: Pedro Sorribes ($0.67 in chips)
+Seat 4: nightwolfpro ($2 in chips)
+Seat 5: ivan69252 ($1.09 in chips)
+Seat 6: Tuz_i_Tuz ($2.63 in chips)
+Seat 7: airdestiny ($2.34 in chips)
+Seat 8: BobGrana ($0.71 in chips)
+Seat 9: Gogi578 ($2.89 in chips)
+ivan69252: posts small blind $0.01
+Tuz_i_Tuz: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h Ac]
+airdestiny: folds
+BobGrana: folds
+Gogi578: calls $0.02
+pokerHero1: folds
+Cardboardddd: calls $0.02
+Pedro Sorribes: raises $0.02 to $0.04
+nightwolfpro: folds
+ivan69252: calls $0.03
+Tuz_i_Tuz: folds
+Gogi578: calls $0.02
+Cardboardddd: calls $0.02
+*** FLOP *** [9s Th 3c]
+ivan69252: checks
+Gogi578: checks
+Cardboardddd: bets $0.16
+Pedro Sorribes: folds
+ivan69252: calls $0.16
+Gogi578: folds
+*** TURN *** [9s Th 3c] [9c]
+ivan69252: checks
+Cardboardddd: bets $0.48
+ivan69252: raises $0.41 to $0.89 and is all-in
+Cardboardddd: folds
+Uncalled bet ($0.41) returned to ivan69252
+ivan69252 collected $1.41 from pot
+ivan69252: doesn't show hand
+*** SUMMARY ***
+Total pot $1.46 | Rake $0.05
+Board [9s Th 3c 9c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: Cardboardddd folded on the Turn
+Seat 3: Pedro Sorribes folded on the Flop
+Seat 4: nightwolfpro (button) folded before Flop (didn't bet)
+Seat 5: ivan69252 (small blind) collected ($1.41)
+Seat 6: Tuz_i_Tuz (big blind) folded before Flop
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 8: BobGrana folded before Flop (didn't bet)
+Seat 9: Gogi578 folded on the Flop
+
+
+
+PokerStars Hand #212184238482:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:06:14 ET
+Table 'Sicilia II' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($5.47 in chips)
+Seat 2: Cardboardddd ($0.25 in chips)
+Seat 3: Pedro Sorribes ($0.63 in chips)
+Seat 4: nightwolfpro ($2 in chips)
+Seat 5: ivan69252 ($1.82 in chips)
+Seat 6: Tuz_i_Tuz ($2.61 in chips)
+Seat 7: airdestiny ($2.34 in chips)
+Seat 8: BobGrana ($0.71 in chips)
+Seat 9: Gogi578 ($2.85 in chips)
+Tuz_i_Tuz: posts small blind $0.01
+airdestiny: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jh Ad]
+BobGrana: folds
+Gogi578: folds
+pokerHero1: raises $0.06 to $0.08
+Cardboardddd: folds
+Pedro Sorribes: calls $0.08
+nightwolfpro: folds
+ivan69252: folds
+Tuz_i_Tuz: folds
+airdestiny: folds
+*** FLOP *** [5c 5d Jd]
+pokerHero1: bets $0.06
+Pedro Sorribes: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.18 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [5c 5d Jd]
+Seat 1: pokerHero1 collected ($0.18)
+Seat 2: Cardboardddd folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded on the Flop
+Seat 4: nightwolfpro folded before Flop (didn't bet)
+Seat 5: ivan69252 (button) folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz (small blind) folded before Flop
+Seat 7: airdestiny (big blind) folded before Flop
+Seat 8: BobGrana folded before Flop (didn't bet)
+Seat 9: Gogi578 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184283220:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:06:47 ET
+Table 'Sicilia II' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($5.57 in chips)
+Seat 2: Cardboardddd ($0.25 in chips)
+Seat 3: Pedro Sorribes ($0.55 in chips)
+Seat 4: nightwolfpro ($2 in chips)
+Seat 5: ivan69252 ($1.82 in chips)
+Seat 6: Tuz_i_Tuz ($2.60 in chips)
+Seat 7: airdestiny ($2.32 in chips)
+Seat 8: BobGrana ($0.71 in chips)
+Seat 9: Gogi578 ($2.85 in chips)
+airdestiny: posts small blind $0.01
+BobGrana: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d 9h]
+Gogi578: folds
+pokerHero1: folds
+Cardboardddd: calls $0.02
+Pedro Sorribes: calls $0.02
+nightwolfpro: folds
+ivan69252: folds
+Tuz_i_Tuz: folds
+airdestiny: raises $0.10 to $0.12
+BobGrana: folds
+Cardboardddd: raises $0.10 to $0.22
+Pedro Sorribes: folds
+airdestiny: raises $0.10 to $0.32
+Cardboardddd: calls $0.03 and is all-in
+Uncalled bet ($0.07) returned to airdestiny
+*** FLOP *** [3c 5s 4d]
+*** TURN *** [3c 5s 4d] [7s]
+*** RIVER *** [3c 5s 4d 7s] [Qc]
+*** SHOW DOWN ***
+airdestiny: shows [Js Qd] (a pair of Queens)
+Cardboardddd: shows [Jd Ah] (high card Ace)
+airdestiny collected $0.52 from pot
+*** SUMMARY ***
+Total pot $0.54 | Rake $0.02
+Board [3c 5s 4d 7s Qc]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: Cardboardddd showed [Jd Ah] and lost with high card Ace
+Seat 3: Pedro Sorribes folded before Flop
+Seat 4: nightwolfpro folded before Flop (didn't bet)
+Seat 5: ivan69252 folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz (button) folded before Flop (didn't bet)
+Seat 7: airdestiny (small blind) showed [Js Qd] and won ($0.52) with a pair of Queens
+Seat 8: BobGrana (big blind) folded before Flop
+Seat 9: Gogi578 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184342211:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:07:32 ET
+Table 'Sicilia II' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($5.57 in chips)
+Seat 3: Pedro Sorribes ($0.53 in chips)
+Seat 4: nightwolfpro ($2 in chips)
+Seat 5: ivan69252 ($1.82 in chips)
+Seat 6: Tuz_i_Tuz ($2.60 in chips)
+Seat 7: airdestiny ($2.59 in chips)
+Seat 8: BobGrana ($0.69 in chips)
+Seat 9: Gogi578 ($2.85 in chips)
+BobGrana: posts small blind $0.01
+Gogi578: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s Jh]
+pokerHero1: folds
+Pedro Sorribes: calls $0.02
+Cardboardddd said, "river trash"
+nightwolfpro: folds
+ivan69252: folds
+Tuz_i_Tuz: raises $0.06 to $0.08
+airdestiny: folds
+Cardboardddd leaves the table
+BobGrana: folds
+Gogi578: calls $0.06
+Pedro Sorribes: calls $0.06
+*** FLOP *** [Ah Kh 4d]
+Gogi578: checks
+krizis012 joins the table at seat #2
+Pedro Sorribes: checks
+Tuz_i_Tuz: bets $0.10
+Gogi578: calls $0.10
+Pedro Sorribes: calls $0.10
+*** TURN *** [Ah Kh 4d] [5c]
+Gogi578: checks
+Pedro Sorribes: checks
+Tuz_i_Tuz: checks
+*** RIVER *** [Ah Kh 4d 5c] [Kc]
+Gogi578: bets $0.26
+Pedro Sorribes: folds
+Tuz_i_Tuz: folds
+Uncalled bet ($0.26) returned to Gogi578
+Gogi578 collected $0.53 from pot
+Gogi578: doesn't show hand
+*** SUMMARY ***
+Total pot $0.55 | Rake $0.02
+Board [Ah Kh 4d 5c Kc]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded on the River
+Seat 4: nightwolfpro folded before Flop (didn't bet)
+Seat 5: ivan69252 folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded on the River
+Seat 7: airdestiny (button) folded before Flop (didn't bet)
+Seat 8: BobGrana (small blind) folded before Flop
+Seat 9: Gogi578 (big blind) collected ($0.53)
+
+
+
+PokerStars Hand #212184428605:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:08:31 ET
+Table 'Sicilia II' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($5.57 in chips)
+Seat 3: Pedro Sorribes ($0.35 in chips)
+Seat 4: nightwolfpro ($2 in chips)
+Seat 5: ivan69252 ($1.82 in chips)
+Seat 6: Tuz_i_Tuz ($2.42 in chips)
+Seat 7: airdestiny ($2.59 in chips)
+Seat 8: BobGrana ($0.68 in chips)
+Seat 9: Gogi578 ($3.20 in chips)
+Gogi578: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+krizis012: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd Td]
+Pedro Sorribes: calls $0.02
+nightwolfpro: folds
+ivan69252: folds
+Tuz_i_Tuz: folds
+airdestiny: folds
+BobGrana: raises $0.07 to $0.09
+Gogi578: folds
+pokerHero1: folds
+Pedro Sorribes: calls $0.07
+*** FLOP *** [2h Jh 4c]
+Pedro Sorribes: checks
+BobGrana: bets $0.09
+Pedro Sorribes: folds
+Uncalled bet ($0.09) returned to BobGrana
+BobGrana collected $0.20 from pot
+BobGrana: doesn't show hand
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [2h Jh 4c]
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 3: Pedro Sorribes folded on the Flop
+Seat 4: nightwolfpro folded before Flop (didn't bet)
+Seat 5: ivan69252 folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 8: BobGrana (button) collected ($0.20)
+Seat 9: Gogi578 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212184485721:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:09:14 ET
+Table 'Sicilia II' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($5.55 in chips)
+Seat 2: krizis012 ($1 in chips)
+Seat 3: Pedro Sorribes ($0.26 in chips)
+Seat 4: nightwolfpro ($2 in chips)
+Seat 5: ivan69252 ($1.82 in chips)
+Seat 6: Tuz_i_Tuz ($2.42 in chips)
+Seat 7: airdestiny ($2.59 in chips)
+Seat 8: BobGrana ($0.79 in chips)
+Seat 9: Gogi578 ($3.19 in chips)
+pokerHero1: posts small blind $0.01
+krizis012: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4h Td]
+Pedro Sorribes: raises $0.02 to $0.04
+nightwolfpro: folds
+ivan69252: calls $0.04
+Tuz_i_Tuz: folds
+airdestiny: folds
+BobGrana: folds
+Gogi578: calls $0.04
+pokerHero1: folds
+krizis012: calls $0.02
+*** FLOP *** [Tc 5s 3h]
+krizis012: checks
+Pedro Sorribes: checks
+ivan69252: checks
+Gogi578: checks
+*** TURN *** [Tc 5s 3h] [7c]
+krizis012: checks
+Pedro Sorribes: checks
+ivan69252: checks
+Gogi578: checks
+*** RIVER *** [Tc 5s 3h 7c] [6h]
+krizis012: bets $0.12
+Pedro Sorribes: folds
+ivan69252: folds
+Gogi578: calls $0.12
+*** SHOW DOWN ***
+krizis012: shows [6c 6d] (three of a kind, Sixes)
+Gogi578: mucks hand
+krizis012 collected $0.40 from pot
+*** SUMMARY ***
+Total pot $0.41 | Rake $0.01
+Board [Tc 5s 3h 7c 6h]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: krizis012 (big blind) showed [6c 6d] and won ($0.40) with three of a kind, Sixes
+Seat 3: Pedro Sorribes folded on the River
+Seat 4: nightwolfpro folded before Flop (didn't bet)
+Seat 5: ivan69252 folded on the River
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 8: BobGrana folded before Flop (didn't bet)
+Seat 9: Gogi578 (button) mucked [3c 3d]
+
+
+
+PokerStars Hand #212184562988:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:10:12 ET
+Table 'Sicilia II' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($5.54 in chips)
+Seat 2: krizis012 ($1.24 in chips)
+Seat 3: Pedro Sorribes ($0.22 in chips)
+Seat 4: nightwolfpro ($2 in chips)
+Seat 5: ivan69252 ($1.78 in chips)
+Seat 6: Tuz_i_Tuz ($2.42 in chips)
+Seat 7: airdestiny ($2.59 in chips)
+Seat 8: BobGrana ($0.79 in chips)
+Seat 9: Gogi578 ($3.03 in chips)
+krizis012: posts small blind $0.01
+Pedro Sorribes: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ah 8h]
+nightwolfpro: folds
+ivan69252: folds
+Tuz_i_Tuz: folds
+airdestiny: folds
+BobGrana: raises $0.03 to $0.05
+Gogi578: folds
+pokerHero1: raises $0.13 to $0.18
+krizis012: folds
+Pedro Sorribes: folds
+BobGrana: calls $0.13
+*** FLOP *** [3h 5h 7h]
+BobGrana: checks
+pokerHero1: checks
+*** TURN *** [3h 5h 7h] [Jh]
+BobGrana: checks
+pokerHero1: bets $0.10
+BobGrana: calls $0.10
+*** RIVER *** [3h 5h 7h Jh] [4d]
+BobGrana: checks
+airdestiny leaves the table
+pokerHero1: bets $0.52
+BobGrana: calls $0.51 and is all-in
+Uncalled bet ($0.01) returned to pokerHero1
+*** SHOW DOWN ***
+pokerHero1: shows [Ah 8h] (a flush, Ace high)
+BobGrana: shows [Qh Jc] (a flush, Queen high)
+pokerHero1 collected $1.55 from pot
+*** SUMMARY ***
+Total pot $1.61 | Rake $0.06
+Board [3h 5h 7h Jh 4d]
+Seat 1: pokerHero1 (button) showed [Ah 8h] and won ($1.55) with a flush, Ace high
+Seat 2: krizis012 (small blind) folded before Flop
+Seat 3: Pedro Sorribes (big blind) folded before Flop
+Seat 4: nightwolfpro folded before Flop (didn't bet)
+Seat 5: ivan69252 folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: airdestiny folded before Flop (didn't bet)
+Seat 8: BobGrana showed [Qh Jc] and lost with a flush, Queen high
+Seat 9: Gogi578 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184634699:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:11:09 ET
+Table 'Sicilia II' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($6.30 in chips)
+Seat 2: krizis012 ($1.23 in chips)
+Seat 3: Pedro Sorribes ($0.20 in chips)
+Seat 4: nightwolfpro ($2 in chips)
+Seat 5: ivan69252 ($1.78 in chips)
+Seat 6: Tuz_i_Tuz ($2.42 in chips)
+Seat 9: Gogi578 ($3.03 in chips)
+Pedro Sorribes: posts small blind $0.01
+nightwolfpro: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8h 4h]
+ivan69252: folds
+BobGrana leaves the table
+Tuz_i_Tuz: folds
+Gogi578: folds
+pokerHero1: folds
+krizis012: raises $0.05 to $0.07
+Pedro Sorribes: calls $0.06
+nightwolfpro: folds
+*** FLOP *** [4s Ad 5s]
+sotnik_frts joins the table at seat #7
+Pedro Sorribes: bets $0.08
+krizis012: folds
+Uncalled bet ($0.08) returned to Pedro Sorribes
+Pedro Sorribes collected $0.15 from pot
+chupacabra93 joins the table at seat #8
+Pedro Sorribes: doesn't show hand
+*** SUMMARY ***
+Total pot $0.16 | Rake $0.01
+Board [4s Ad 5s]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: krizis012 (button) folded on the Flop
+Seat 3: Pedro Sorribes (small blind) collected ($0.15)
+Seat 4: nightwolfpro (big blind) folded before Flop
+Seat 5: ivan69252 folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 9: Gogi578 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184685295:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:11:48 ET
+Table 'Sicilia II' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($6.30 in chips)
+Seat 2: krizis012 ($1.16 in chips)
+Seat 3: Pedro Sorribes ($0.28 in chips)
+Seat 4: nightwolfpro ($2 in chips)
+Seat 5: ivan69252 ($1.78 in chips)
+Seat 6: Tuz_i_Tuz ($2.42 in chips)
+Seat 7: sotnik_frts ($1.60 in chips)
+Seat 9: Gogi578 ($3.03 in chips)
+nightwolfpro: posts small blind $0.01
+ivan69252: posts big blind $0.02
+sotnik_frts: posts big blind $0.02
+chupacabra93: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s Kh]
+Tuz_i_Tuz: folds
+sotnik_frts: checks
+Gogi578: folds
+pokerHero1: folds
+krizis012: raises $0.07 to $0.09
+Pedro Sorribes: folds
+nightwolfpro: folds
+ivan69252: folds
+sotnik_frts: folds
+Uncalled bet ($0.07) returned to krizis012
+krizis012 collected $0.07 from pot
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: krizis012 collected ($0.07)
+Seat 3: Pedro Sorribes (button) folded before Flop (didn't bet)
+Seat 4: nightwolfpro (small blind) folded before Flop
+Seat 5: ivan69252 (big blind) folded before Flop
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: sotnik_frts folded before Flop (didn't bet)
+Seat 9: Gogi578 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184722971:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:12:18 ET
+Table 'Sicilia II' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($6.30 in chips)
+Seat 2: krizis012 ($1.21 in chips)
+Seat 3: Pedro Sorribes ($0.28 in chips)
+Seat 4: nightwolfpro ($2 in chips)
+Seat 5: ivan69252 ($1.76 in chips)
+Seat 6: Tuz_i_Tuz ($2.42 in chips)
+Seat 7: sotnik_frts ($1.58 in chips)
+Seat 9: Gogi578 ($3.03 in chips)
+ivan69252: posts small blind $0.01
+Tuz_i_Tuz: posts big blind $0.02
+chupacabra93: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9d Kd]
+sotnik_frts: folds
+Gogi578: folds
+pokerHero1: folds
+krizis012: raises $0.04 to $0.06
+Pedro Sorribes has timed out
+Pedro Sorribes: folds
+nightwolfpro: folds
+ivan69252: calls $0.05
+Tuz_i_Tuz is disconnected
+Tuz_i_Tuz is connected
+Tuz_i_Tuz: folds
+*** FLOP *** [Th 9h 8h]
+ivan69252: checks
+krizis012: checks
+*** TURN *** [Th 9h 8h] [Jh]
+ivan69252: checks
+krizis012: checks
+*** RIVER *** [Th 9h 8h Jh] [3c]
+ivan69252: checks
+krizis012: checks
+*** SHOW DOWN ***
+ivan69252: shows [6d Ad] (high card Ace)
+krizis012: shows [5s Ac] (high card Ace)
+ivan69252 collected $0.07 from pot
+krizis012 collected $0.07 from pot
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [Th 9h 8h Jh 3c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: krizis012 showed [5s Ac] and won ($0.07) with high card Ace
+Seat 3: Pedro Sorribes folded before Flop (didn't bet)
+Seat 4: nightwolfpro (button) folded before Flop (didn't bet)
+Seat 5: ivan69252 (small blind) showed [6d Ad] and won ($0.07) with high card Ace
+Seat 6: Tuz_i_Tuz (big blind) folded before Flop
+Seat 7: sotnik_frts folded before Flop (didn't bet)
+Seat 9: Gogi578 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184839218:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:13:47 ET
+Table 'Sicilia II' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($6.30 in chips)
+Seat 2: krizis012 ($1.22 in chips)
+Seat 3: Pedro Sorribes ($0.28 in chips)
+Seat 4: nightwolfpro ($2 in chips)
+Seat 5: ivan69252 ($1.77 in chips)
+Seat 6: Tuz_i_Tuz ($2.40 in chips)
+Seat 7: sotnik_frts ($1.58 in chips)
+Seat 9: Gogi578 ($3.03 in chips)
+Tuz_i_Tuz: posts small blind $0.01
+sotnik_frts: posts big blind $0.02
+chupacabra93: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As 3d]
+Gogi578: folds
+pokerHero1: folds
+krizis012: raises $0.06 to $0.08
+Pedro Sorribes: calls $0.08
+nightwolfpro: folds
+Gogi578 leaves the table
+ivan69252: calls $0.08
+Tuz_i_Tuz: folds
+sotnik_frts: folds
+*** FLOP *** [4h 6d 3h]
+krizis012: checks
+Pedro Sorribes: checks
+ivan69252: checks
+*** TURN *** [4h 6d 3h] [7h]
+krizis012: bets $0.13
+Pedro Sorribes: folds
+ivan69252: calls $0.13
+*** RIVER *** [4h 6d 3h 7h] [9s]
+krizis012: checks
+ivan69252: bets $0.26
+luchnikdm joins the table at seat #9
+krizis012: calls $0.26
+*** SHOW DOWN ***
+ivan69252: shows [Ts Ah] (high card Ace)
+krizis012: shows [Kh 9c] (a pair of Nines)
+krizis012 collected $1.01 from pot
+*** SUMMARY ***
+Total pot $1.05 | Rake $0.04
+Board [4h 6d 3h 7h 9s]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: krizis012 showed [Kh 9c] and won ($1.01) with a pair of Nines
+Seat 3: Pedro Sorribes folded on the Turn
+Seat 4: nightwolfpro folded before Flop (didn't bet)
+Seat 5: ivan69252 (button) showed [Ts Ah] and lost with high card Ace
+Seat 6: Tuz_i_Tuz (small blind) folded before Flop
+Seat 7: sotnik_frts (big blind) folded before Flop
+Seat 9: Gogi578 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184965236:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:15:23 ET
+Table 'Sicilia II' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($6.30 in chips)
+Seat 2: krizis012 ($1.76 in chips)
+Seat 3: Pedro Sorribes ($0.20 in chips)
+Seat 4: nightwolfpro ($2 in chips)
+Seat 5: ivan69252 ($1.30 in chips)
+Seat 6: Tuz_i_Tuz ($2.39 in chips)
+Seat 7: sotnik_frts ($1.56 in chips)
+Seat 8: chupacabra93 ($2 in chips)
+sotnik_frts: posts small blind $0.01
+chupacabra93: posts big blind $0.02
+luchnikdm: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ks Ac]
+pokerHero1: raises $0.08 to $0.10
+krizis012: folds
+Pedro Sorribes: folds
+nightwolfpro: folds
+ivan69252: folds
+ivan69252 leaves the table
+Tuz_i_Tuz: folds
+sotnik_frts: folds
+chupacabra93: folds
+Uncalled bet ($0.08) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 collected ($0.05)
+Seat 2: krizis012 folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes folded before Flop (didn't bet)
+Seat 4: nightwolfpro folded before Flop (didn't bet)
+Seat 5: ivan69252 folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz (button) folded before Flop (didn't bet)
+Seat 7: sotnik_frts (small blind) folded before Flop
+Seat 8: chupacabra93 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212184996458:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:15:46 ET
+Table 'Sicilia II' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($6.33 in chips)
+Seat 2: krizis012 ($1.76 in chips)
+Seat 3: Pedro Sorribes ($0.20 in chips)
+Seat 4: nightwolfpro ($2 in chips)
+Seat 6: Tuz_i_Tuz ($2.39 in chips)
+Seat 7: sotnik_frts ($1.55 in chips)
+Seat 8: chupacabra93 ($1.98 in chips)
+Seat 9: luchnikdm ($0.80 in chips)
+chupacabra93: posts small blind $0.01
+luchnikdm: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s 8c]
+pokerHero1: folds
+Stevie_TF joins the table at seat #5
+krizis012 has timed out
+krizis012: folds
+Pedro Sorribes: raises $0.02 to $0.04
+nightwolfpro: folds
+Tuz_i_Tuz: folds
+sotnik_frts: folds
+chupacabra93: folds
+luchnikdm: folds
+Uncalled bet ($0.02) returned to Pedro Sorribes
+Pedro Sorribes collected $0.05 from pot
+Pedro Sorribes: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: krizis012 folded before Flop (didn't bet)
+Seat 3: Pedro Sorribes collected ($0.05)
+Seat 4: nightwolfpro folded before Flop (didn't bet)
+Seat 6: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 7: sotnik_frts (button) folded before Flop (didn't bet)
+Seat 8: chupacabra93 (small blind) folded before Flop
+Seat 9: luchnikdm (big blind) folded before Flop
+
+
+

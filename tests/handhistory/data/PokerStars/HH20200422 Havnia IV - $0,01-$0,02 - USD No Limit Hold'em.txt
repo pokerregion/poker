@@ -1,0 +1,4079 @@
+﻿PokerStars Hand #212509925682:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:17:37 ET
+Table 'Havnia IV' 9-max Seat #2 is the button
+Seat 1: Krokus2864 ($2.17 in chips)
+Seat 2: MeisterKnobi ($2.13 in chips)
+Seat 3: jde187 ($1.58 in chips)
+Seat 4: pokerHero1 ($2 in chips)
+Seat 5: kalafot ($1.63 in chips)
+Seat 6: AK-2771753 ($1.37 in chips)
+Seat 7: Vladbrow ($1.86 in chips)
+Seat 8: ioan Greece ($1.06 in chips)
+jde187: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+Cap.Zaspan: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c Qd]
+kalafot: folds
+AK-2771753: folds
+Vladbrow: folds
+ioan Greece: calls $0.02
+Krokus2864: folds
+MeisterKnobi: folds
+jde187: folds
+pokerHero1: checks
+*** FLOP *** [Ks 8h Ac]
+pokerHero1: checks
+ioan Greece: checks
+*** TURN *** [Ks 8h Ac] [As]
+pokerHero1: checks
+ioan Greece: checks
+*** RIVER *** [Ks 8h Ac As] [Td]
+pokerHero1: checks
+ioan Greece: bets $0.05
+pokerHero1: folds
+Uncalled bet ($0.05) returned to ioan Greece
+ioan Greece collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [Ks 8h Ac As Td]
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi (button) folded before Flop (didn't bet)
+Seat 3: jde187 (small blind) folded before Flop
+Seat 4: pokerHero1 (big blind) folded on the River
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: AK-2771753 folded before Flop (didn't bet)
+Seat 7: Vladbrow folded before Flop (didn't bet)
+Seat 8: ioan Greece collected ($0.05)
+
+
+
+PokerStars Hand #212509951918:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:18:03 ET
+Table 'Havnia IV' 9-max Seat #3 is the button
+Seat 1: Krokus2864 ($2.17 in chips)
+Seat 2: MeisterKnobi ($2.13 in chips)
+Seat 3: jde187 ($1.57 in chips)
+Seat 4: pokerHero1 ($1.98 in chips)
+Seat 5: kalafot ($1.63 in chips)
+Seat 6: AK-2771753 ($1.37 in chips)
+Seat 7: Vladbrow ($1.86 in chips)
+Seat 8: ioan Greece ($1.09 in chips)
+pokerHero1: posts small blind $0.01
+kalafot: posts big blind $0.02
+Cap.Zaspan: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9d Ad]
+AK-2771753: calls $0.02
+Vladbrow: folds
+ioan Greece: calls $0.02
+Krokus2864: folds
+MeisterKnobi: calls $0.02
+jde187: calls $0.02
+pokerHero1: calls $0.01
+kalafot: checks
+*** FLOP *** [Ah Jd 6c]
+pokerHero1: bets $0.08
+kalafot: folds
+AK-2771753: folds
+ioan Greece: folds
+MeisterKnobi: folds
+jde187: folds
+Uncalled bet ($0.08) returned to pokerHero1
+pokerHero1 collected $0.12 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Board [Ah Jd 6c]
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi folded on the Flop
+Seat 3: jde187 (button) folded on the Flop
+Seat 4: pokerHero1 (small blind) collected ($0.12)
+Seat 5: kalafot (big blind) folded on the Flop
+Seat 6: AK-2771753 folded on the Flop
+Seat 7: Vladbrow folded before Flop (didn't bet)
+Seat 8: ioan Greece folded on the Flop
+
+
+
+PokerStars Hand #212509998756:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:18:58 ET
+Table 'Havnia IV' 9-max Seat #4 is the button
+Seat 1: Krokus2864 ($2.17 in chips)
+Seat 2: MeisterKnobi ($2.11 in chips)
+Seat 3: jde187 ($1.55 in chips)
+Seat 4: pokerHero1 ($2.08 in chips)
+Seat 5: kalafot ($1.61 in chips)
+Seat 6: AK-2771753 ($1.35 in chips)
+Seat 7: Vladbrow ($1.86 in chips)
+Seat 8: ioan Greece ($1.07 in chips)
+kalafot: posts small blind $0.01
+AK-2771753: posts big blind $0.02
+Cap.Zaspan: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7s 2d]
+Vladbrow: folds
+ioan Greece: calls $0.02
+Krokus2864: folds
+MeisterKnobi: folds
+jde187: calls $0.02
+pokerHero1: folds
+kalafot: calls $0.01
+AK-2771753: checks
+*** FLOP *** [9d 2s 7h]
+kalafot: checks
+AK-2771753: checks
+ioan Greece: checks
+jde187: checks
+*** TURN *** [9d 2s 7h] [3d]
+kalafot: bets $0.04
+AK-2771753: folds
+ioan Greece: folds
+jde187: calls $0.04
+*** RIVER *** [9d 2s 7h 3d] [6d]
+kalafot: bets $0.08
+jde187: folds
+Uncalled bet ($0.08) returned to kalafot
+kalafot collected $0.15 from pot
+kalafot: doesn't show hand
+*** SUMMARY ***
+Total pot $0.16 | Rake $0.01
+Board [9d 2s 7h 3d 6d]
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 3: jde187 folded on the River
+Seat 4: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 5: kalafot (small blind) collected ($0.15)
+Seat 6: AK-2771753 (big blind) folded on the Turn
+Seat 7: Vladbrow folded before Flop (didn't bet)
+Seat 8: ioan Greece folded on the Turn
+
+
+
+PokerStars Hand #212510046254:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:19:53 ET
+Table 'Havnia IV' 9-max Seat #5 is the button
+Seat 1: Krokus2864 ($2.17 in chips)
+Seat 2: MeisterKnobi ($2.11 in chips)
+Seat 3: jde187 ($1.49 in chips)
+Seat 4: pokerHero1 ($2.08 in chips)
+Seat 5: kalafot ($1.70 in chips)
+Seat 6: AK-2771753 ($1.33 in chips)
+Seat 7: Vladbrow ($1.86 in chips)
+Seat 8: ioan Greece ($1.05 in chips)
+AK-2771753: posts small blind $0.01
+Vladbrow: posts big blind $0.02
+Cap.Zaspan: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6h 8s]
+ioan Greece: folds
+Krokus2864: folds
+MeisterKnobi: raises $0.03 to $0.05
+jde187: folds
+pokerHero1: folds
+kalafot: folds
+AK-2771753: calls $0.04
+Vladbrow: folds
+*** FLOP *** [3d 9d Td]
+AK-2771753: bets $0.08
+ioan Greece leaves the table
+MeisterKnobi: folds
+Uncalled bet ($0.08) returned to AK-2771753
+AK-2771753 collected $0.12 from pot
+AK-2771753: doesn't show hand
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Board [3d 9d Td]
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi folded on the Flop
+Seat 3: jde187 folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot (button) folded before Flop (didn't bet)
+Seat 6: AK-2771753 (small blind) collected ($0.12)
+Seat 7: Vladbrow (big blind) folded before Flop
+Seat 8: ioan Greece folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510087858:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:20:42 ET
+Table 'Havnia IV' 9-max Seat #6 is the button
+Seat 1: Krokus2864 ($2.17 in chips)
+Seat 2: MeisterKnobi ($2.06 in chips)
+Seat 3: jde187 ($1.49 in chips)
+Seat 4: pokerHero1 ($2.08 in chips)
+Seat 5: kalafot ($1.70 in chips)
+Seat 6: AK-2771753 ($1.40 in chips)
+Seat 7: Vladbrow ($1.84 in chips)
+Seat 9: Cap.Zaspan ($2.29 in chips)
+Vladbrow: posts small blind $0.01
+Cap.Zaspan: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3c Jh]
+Krokus2864: folds
+georg484 joins the table at seat #8
+MeisterKnobi has timed out
+MeisterKnobi: folds
+jde187: folds
+pokerHero1: folds
+kalafot: folds
+AK-2771753: folds
+Vladbrow: folds
+Uncalled bet ($0.01) returned to Cap.Zaspan
+Cap.Zaspan collected $0.02 from pot
+Cap.Zaspan: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 3: jde187 folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: AK-2771753 (button) folded before Flop (didn't bet)
+Seat 7: Vladbrow (small blind) folded before Flop
+Seat 9: Cap.Zaspan (big blind) collected ($0.02)
+
+
+
+PokerStars Hand #212510108460:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:21:05 ET
+Table 'Havnia IV' 9-max Seat #7 is the button
+Seat 1: Krokus2864 ($2.17 in chips)
+Seat 2: MeisterKnobi ($2.06 in chips)
+Seat 3: jde187 ($1.49 in chips)
+Seat 4: pokerHero1 ($2.08 in chips)
+Seat 5: kalafot ($1.70 in chips)
+Seat 6: AK-2771753 ($1.40 in chips)
+Seat 7: Vladbrow ($1.83 in chips)
+Seat 9: Cap.Zaspan ($2.30 in chips)
+Cap.Zaspan: posts small blind $0.01
+Krokus2864: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9h 9s]
+MeisterKnobi: folds
+jde187: raises $0.08 to $0.10
+pokerHero1: folds
+kalafot: folds
+AK-2771753: calls $0.10
+Vladbrow: folds
+Cap.Zaspan: folds
+Krokus2864: folds
+*** FLOP *** [Th 4c 8c]
+jde187: bets $1.39 and is all-in
+AK-2771753: folds
+Uncalled bet ($1.39) returned to jde187
+jde187 collected $0.22 from pot
+jde187: doesn't show hand
+*** SUMMARY ***
+Total pot $0.23 | Rake $0.01
+Board [Th 4c 8c]
+Seat 1: Krokus2864 (big blind) folded before Flop
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 3: jde187 collected ($0.22)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: AK-2771753 folded on the Flop
+Seat 7: Vladbrow (button) folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan (small blind) folded before Flop
+
+
+
+PokerStars Hand #212510145273:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:21:48 ET
+Table 'Havnia IV' 9-max Seat #9 is the button
+Seat 1: Krokus2864 ($2.15 in chips)
+Seat 2: MeisterKnobi ($2.06 in chips)
+Seat 3: jde187 ($1.61 in chips)
+Seat 4: pokerHero1 ($2.08 in chips)
+Seat 5: kalafot ($1.70 in chips)
+Seat 6: AK-2771753 ($1.30 in chips)
+Seat 7: Vladbrow ($1.83 in chips)
+Seat 8: georg484 ($0.80 in chips)
+Seat 9: Cap.Zaspan ($2.29 in chips)
+Krokus2864: posts small blind $0.01
+MeisterKnobi: posts big blind $0.02
+georg484: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d 8h]
+jde187: calls $0.02
+pokerHero1: folds
+kalafot: folds
+AK-2771753: raises $0.02 to $0.04
+Vladbrow: folds
+georg484: calls $0.02
+Cap.Zaspan: folds
+Krokus2864: folds
+MeisterKnobi: calls $0.02
+jde187: calls $0.02
+*** FLOP *** [9c Qs 8c]
+MeisterKnobi: checks
+jde187: checks
+AK-2771753: checks
+georg484: checks
+*** TURN *** [9c Qs 8c] [5d]
+MeisterKnobi: checks
+jde187: checks
+AK-2771753: bets $0.06
+georg484: folds
+MeisterKnobi: folds
+jde187: folds
+Uncalled bet ($0.06) returned to AK-2771753
+AK-2771753 collected $0.16 from pot
+AK-2771753: doesn't show hand
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [9c Qs 8c 5d]
+Seat 1: Krokus2864 (small blind) folded before Flop
+Seat 2: MeisterKnobi (big blind) folded on the Turn
+Seat 3: jde187 folded on the Turn
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: AK-2771753 collected ($0.16)
+Seat 7: Vladbrow folded before Flop (didn't bet)
+Seat 8: georg484 folded on the Turn
+Seat 9: Cap.Zaspan (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510212585:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:23:06 ET
+Table 'Havnia IV' 9-max Seat #1 is the button
+Seat 1: Krokus2864 ($2.14 in chips)
+Seat 2: MeisterKnobi ($2.02 in chips)
+Seat 3: jde187 ($1.57 in chips)
+Seat 4: pokerHero1 ($2.08 in chips)
+Seat 5: kalafot ($1.70 in chips)
+Seat 6: AK-2771753 ($1.42 in chips)
+Seat 7: Vladbrow ($1.83 in chips)
+Seat 8: georg484 ($0.76 in chips)
+Seat 9: Cap.Zaspan ($2.29 in chips)
+MeisterKnobi: posts small blind $0.01
+jde187: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc Th]
+pokerHero1: raises $0.06 to $0.08
+kalafot: folds
+AK-2771753: folds
+Vladbrow: folds
+georg484: folds
+Cap.Zaspan: folds
+Krokus2864: folds
+MeisterKnobi: folds
+jde187: calls $0.06
+*** FLOP *** [Ks Kh 9s]
+jde187: checks
+pokerHero1: bets $0.12
+jde187: calls $0.12
+*** TURN *** [Ks Kh 9s] [As]
+jde187: checks
+pokerHero1: checks
+*** RIVER *** [Ks Kh 9s As] [Kd]
+jde187: bets $1.37 and is all-in
+pokerHero1: folds
+Uncalled bet ($1.37) returned to jde187
+jde187 collected $0.40 from pot
+jde187: doesn't show hand
+*** SUMMARY ***
+Total pot $0.41 | Rake $0.01
+Board [Ks Kh 9s As Kd]
+Seat 1: Krokus2864 (button) folded before Flop (didn't bet)
+Seat 2: MeisterKnobi (small blind) folded before Flop
+Seat 3: jde187 (big blind) collected ($0.40)
+Seat 4: pokerHero1 folded on the River
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: AK-2771753 folded before Flop (didn't bet)
+Seat 7: Vladbrow folded before Flop (didn't bet)
+Seat 8: georg484 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510257154:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:23:58 ET
+Table 'Havnia IV' 9-max Seat #2 is the button
+Seat 1: Krokus2864 ($2.14 in chips)
+Seat 2: MeisterKnobi ($2.01 in chips)
+Seat 3: jde187 ($1.77 in chips)
+Seat 4: pokerHero1 ($1.88 in chips)
+Seat 5: kalafot ($1.70 in chips)
+Seat 6: AK-2771753 ($1.42 in chips)
+Seat 7: Vladbrow ($1.83 in chips)
+Seat 8: georg484 ($0.76 in chips)
+Seat 9: Cap.Zaspan ($2.29 in chips)
+jde187: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c Ts]
+kalafot has timed out
+kalafot: folds
+AK-2771753: folds
+Vladbrow: folds
+georg484: calls $0.02
+Cap.Zaspan: raises $0.06 to $0.08
+Krokus2864: folds
+MeisterKnobi: folds
+jde187: folds
+pokerHero1: folds
+georg484: calls $0.06
+*** FLOP *** [6s Tc 6c]
+georg484: bets $0.02
+Cap.Zaspan: folds
+Uncalled bet ($0.02) returned to georg484
+georg484 collected $0.18 from pot
+georg484: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [6s Tc 6c]
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi (button) folded before Flop (didn't bet)
+Seat 3: jde187 (small blind) folded before Flop
+Seat 4: pokerHero1 (big blind) folded before Flop
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: AK-2771753 folded before Flop (didn't bet)
+Seat 7: Vladbrow folded before Flop (didn't bet)
+Seat 8: georg484 collected ($0.18)
+Seat 9: Cap.Zaspan folded on the Flop
+
+
+
+PokerStars Hand #212510294177:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:24:41 ET
+Table 'Havnia IV' 9-max Seat #3 is the button
+Seat 1: Krokus2864 ($2.14 in chips)
+Seat 2: MeisterKnobi ($2.01 in chips)
+Seat 3: jde187 ($1.76 in chips)
+Seat 4: pokerHero1 ($1.86 in chips)
+Seat 5: kalafot ($1.70 in chips)
+Seat 6: AK-2771753 ($1.42 in chips)
+Seat 7: Vladbrow ($1.83 in chips)
+Seat 8: georg484 ($0.86 in chips)
+Seat 9: Cap.Zaspan ($2.21 in chips)
+pokerHero1: posts small blind $0.01
+kalafot: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc 7c]
+AK-2771753: folds
+Vladbrow: folds
+georg484: calls $0.02
+Cap.Zaspan: folds
+Krokus2864: folds
+MeisterKnobi: calls $0.02
+jde187: calls $0.02
+pokerHero1: folds
+kalafot: checks
+*** FLOP *** [5s Ah 4h]
+kalafot: checks
+georg484: checks
+MeisterKnobi: checks
+jde187: checks
+*** TURN *** [5s Ah 4h] [Qs]
+kalafot: checks
+georg484: checks
+MeisterKnobi: checks
+jde187: bets $0.08
+kalafot: calls $0.08
+georg484: folds
+MeisterKnobi: folds
+*** RIVER *** [5s Ah 4h Qs] [Kc]
+kalafot: checks
+jde187: checks
+*** SHOW DOWN ***
+kalafot: shows [Jd Qd] (a pair of Queens)
+jde187: mucks hand
+kalafot collected $0.24 from pot
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.01
+Board [5s Ah 4h Qs Kc]
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi folded on the Turn
+Seat 3: jde187 (button) mucked [Td Qh]
+Seat 4: pokerHero1 (small blind) folded before Flop
+Seat 5: kalafot (big blind) showed [Jd Qd] and won ($0.24) with a pair of Queens
+Seat 6: AK-2771753 folded before Flop (didn't bet)
+Seat 7: Vladbrow folded before Flop (didn't bet)
+Seat 8: georg484 folded on the Turn
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510391844:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:26:32 ET
+Table 'Havnia IV' 9-max Seat #4 is the button
+Seat 1: Krokus2864 ($2.14 in chips)
+Seat 2: MeisterKnobi ($1.99 in chips)
+Seat 3: jde187 ($1.66 in chips)
+Seat 4: pokerHero1 ($1.99 in chips)
+Seat 5: kalafot ($1.84 in chips)
+Seat 6: AK-2771753 ($1.42 in chips)
+Seat 7: Vladbrow ($1.83 in chips)
+Seat 8: georg484 ($0.84 in chips)
+Seat 9: Cap.Zaspan ($2.21 in chips)
+kalafot: posts small blind $0.01
+AK-2771753: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9h 8c]
+Vladbrow: raises $0.04 to $0.06
+georg484: calls $0.06
+Cap.Zaspan: calls $0.06
+Krokus2864: folds
+MeisterKnobi: folds
+jde187: folds
+pokerHero1: folds
+kalafot: folds
+AK-2771753: folds
+*** FLOP *** [Tc Ac 6c]
+Vladbrow: bets $0.10
+georg484: folds
+Cap.Zaspan: folds
+Uncalled bet ($0.10) returned to Vladbrow
+Vladbrow collected $0.20 from pot
+Vladbrow: doesn't show hand
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [Tc Ac 6c]
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 3: jde187 folded before Flop (didn't bet)
+Seat 4: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 5: kalafot (small blind) folded before Flop
+Seat 6: AK-2771753 (big blind) folded before Flop
+Seat 7: Vladbrow collected ($0.20)
+Seat 8: georg484 folded on the Flop
+Seat 9: Cap.Zaspan folded on the Flop
+
+
+
+PokerStars Hand #212510428892:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:27:14 ET
+Table 'Havnia IV' 9-max Seat #5 is the button
+Seat 1: Krokus2864 ($2.14 in chips)
+Seat 2: MeisterKnobi ($1.99 in chips)
+Seat 3: jde187 ($1.66 in chips)
+Seat 4: pokerHero1 ($1.99 in chips)
+Seat 5: kalafot ($1.83 in chips)
+Seat 6: AK-2771753 ($1.40 in chips)
+Seat 7: Vladbrow ($1.97 in chips)
+Seat 8: georg484 ($0.78 in chips)
+Seat 9: Cap.Zaspan ($2.15 in chips)
+AK-2771753: posts small blind $0.01
+Vladbrow: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2s 3s]
+georg484: calls $0.02
+Cap.Zaspan: raises $0.04 to $0.06
+Krokus2864: folds
+MeisterKnobi: folds
+jde187: folds
+pokerHero1: folds
+kalafot: folds
+AK-2771753: calls $0.05
+Vladbrow: folds
+georg484: calls $0.04
+*** FLOP *** [2h 4h 5s]
+AK-2771753: checks
+georg484: checks
+Cap.Zaspan: checks
+*** TURN *** [2h 4h 5s] [7c]
+AK-2771753: checks
+georg484: checks
+Cap.Zaspan: checks
+*** RIVER *** [2h 4h 5s 7c] [4c]
+AK-2771753: checks
+georg484: checks
+Cap.Zaspan: checks
+*** SHOW DOWN ***
+AK-2771753: shows [Jc 8h] (a pair of Fours)
+georg484: shows [5c 8c] (two pair, Fives and Fours)
+Cap.Zaspan: mucks hand
+georg484 collected $0.19 from pot
+*** SUMMARY ***
+Total pot $0.20 | Rake $0.01
+Board [2h 4h 5s 7c 4c]
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 3: jde187 folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot (button) folded before Flop (didn't bet)
+Seat 6: AK-2771753 (small blind) showed [Jc 8h] and lost with a pair of Fours
+Seat 7: Vladbrow (big blind) folded before Flop
+Seat 8: georg484 showed [5c 8c] and won ($0.19) with two pair, Fives and Fours
+Seat 9: Cap.Zaspan mucked [Tc Ac]
+
+
+
+PokerStars Hand #212510470793:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:28:01 ET
+Table 'Havnia IV' 9-max Seat #6 is the button
+Seat 1: Krokus2864 ($2.14 in chips)
+Seat 2: MeisterKnobi ($1.99 in chips)
+Seat 3: jde187 ($1.66 in chips)
+Seat 4: pokerHero1 ($1.99 in chips)
+Seat 5: kalafot ($1.83 in chips)
+Seat 6: AK-2771753 ($1.34 in chips)
+Seat 7: Vladbrow ($1.95 in chips)
+Seat 8: georg484 ($0.91 in chips)
+Seat 9: Cap.Zaspan ($2.09 in chips)
+Vladbrow: posts small blind $0.01
+georg484: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qs 2d]
+Cap.Zaspan: folds
+Krokus2864: calls $0.02
+MeisterKnobi: folds
+jde187: calls $0.02
+pokerHero1: folds
+kalafot has timed out
+kalafot: folds
+AK-2771753: folds
+Vladbrow: calls $0.01
+georg484: checks
+*** FLOP *** [8h 7s 4s]
+Vladbrow: checks
+georg484: checks
+Krokus2864: bets $0.08
+jde187: calls $0.08
+Vladbrow: calls $0.08
+georg484: folds
+*** TURN *** [8h 7s 4s] [9h]
+Vladbrow: checks
+Krokus2864: checks
+jde187: bets $0.16
+Vladbrow: folds
+Krokus2864: calls $0.16
+*** RIVER *** [8h 7s 4s 9h] [5c]
+Krokus2864: checks
+jde187: bets $0.31
+Krokus2864: calls $0.31
+*** SHOW DOWN ***
+jde187: shows [6h Ad] (a straight, Five to Nine)
+Krokus2864: mucks hand
+jde187 collected $1.22 from pot
+*** SUMMARY ***
+Total pot $1.26 | Rake $0.04
+Board [8h 7s 4s 9h 5c]
+Seat 1: Krokus2864 mucked [Ts 9s]
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 3: jde187 showed [6h Ad] and won ($1.22) with a straight, Five to Nine
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: AK-2771753 (button) folded before Flop (didn't bet)
+Seat 7: Vladbrow (small blind) folded on the Turn
+Seat 8: georg484 (big blind) folded on the Flop
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510546403:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:29:27 ET
+Table 'Havnia IV' 9-max Seat #7 is the button
+Seat 1: Krokus2864 ($2 in chips)
+Seat 2: MeisterKnobi ($1.99 in chips)
+Seat 3: jde187 ($2.31 in chips)
+Seat 4: pokerHero1 ($1.99 in chips)
+Seat 5: kalafot ($1.83 in chips)
+Seat 6: AK-2771753 ($1.34 in chips)
+Seat 7: Vladbrow ($1.85 in chips)
+Seat 8: georg484 ($0.89 in chips)
+Seat 9: Cap.Zaspan ($2.09 in chips)
+georg484: posts small blind $0.01
+Cap.Zaspan: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5d Kd]
+Krokus2864: folds
+MeisterKnobi has timed out
+MeisterKnobi: folds
+jde187: calls $0.02
+pokerHero1: folds
+kalafot: folds
+AK-2771753: folds
+Vladbrow: folds
+georg484: calls $0.01
+Cap.Zaspan: checks
+*** FLOP *** [2h 4d Qs]
+georg484: checks
+Cap.Zaspan: checks
+jde187: bets $0.04
+georg484: folds
+Cap.Zaspan: folds
+Uncalled bet ($0.04) returned to jde187
+jde187 collected $0.06 from pot
+jde187: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [2h 4d Qs]
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 3: jde187 collected ($0.06)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: AK-2771753 folded before Flop (didn't bet)
+Seat 7: Vladbrow (button) folded before Flop (didn't bet)
+Seat 8: georg484 (small blind) folded on the Flop
+Seat 9: Cap.Zaspan (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212510589561:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:30:15 ET
+Table 'Havnia IV' 9-max Seat #8 is the button
+Seat 1: Krokus2864 ($2 in chips)
+Seat 2: MeisterKnobi ($1.99 in chips)
+Seat 3: jde187 ($2.35 in chips)
+Seat 4: pokerHero1 ($1.99 in chips)
+Seat 5: kalafot ($1.83 in chips)
+Seat 6: AK-2771753 ($1.34 in chips)
+Seat 7: Vladbrow ($1.85 in chips)
+Seat 8: georg484 ($0.87 in chips)
+Seat 9: Cap.Zaspan ($2.07 in chips)
+Cap.Zaspan: posts small blind $0.01
+Krokus2864: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d 7d]
+MeisterKnobi: folds
+jde187: folds
+pokerHero1: folds
+kalafot: folds
+AK-2771753: folds
+Vladbrow: folds
+georg484: calls $0.02
+Cap.Zaspan: folds
+Krokus2864: checks
+*** FLOP *** [3h 3c Jh]
+Krokus2864: checks
+georg484: checks
+*** TURN *** [3h 3c Jh] [Qs]
+Krokus2864: checks
+georg484: checks
+*** RIVER *** [3h 3c Jh Qs] [9s]
+Krokus2864: checks
+georg484: bets $0.02
+Krokus2864: calls $0.02
+*** SHOW DOWN ***
+georg484: shows [Tc Qh] (two pair, Queens and Threes)
+Krokus2864: mucks hand
+georg484 collected $0.09 from pot
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Board [3h 3c Jh Qs 9s]
+Seat 1: Krokus2864 (big blind) mucked [Ah 8h]
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 3: jde187 folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: AK-2771753 folded before Flop (didn't bet)
+Seat 7: Vladbrow folded before Flop (didn't bet)
+Seat 8: georg484 (button) showed [Tc Qh] and won ($0.09) with two pair, Queens and Threes
+Seat 9: Cap.Zaspan (small blind) folded before Flop
+
+
+
+PokerStars Hand #212510619825:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:30:49 ET
+Table 'Havnia IV' 9-max Seat #9 is the button
+Seat 1: Krokus2864 ($2 in chips)
+Seat 2: MeisterKnobi ($1.99 in chips)
+Seat 3: jde187 ($2.35 in chips)
+Seat 4: pokerHero1 ($1.99 in chips)
+Seat 5: kalafot ($1.83 in chips)
+Seat 6: AK-2771753 ($1.34 in chips)
+Seat 7: Vladbrow ($1.85 in chips)
+Seat 8: georg484 ($0.92 in chips)
+Seat 9: Cap.Zaspan ($2.06 in chips)
+Krokus2864: posts small blind $0.01
+MeisterKnobi: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d Qh]
+jde187: calls $0.02
+pokerHero1: folds
+kalafot: folds
+AK-2771753: folds
+Vladbrow: folds
+georg484: folds
+Cap.Zaspan: raises $0.06 to $0.08
+Krokus2864: folds
+MeisterKnobi: folds
+jde187: calls $0.06
+*** FLOP *** [2s 9s 2h]
+jde187: checks
+Cap.Zaspan: checks
+*** TURN *** [2s 9s 2h] [7c]
+jde187: bets $0.18
+Cap.Zaspan: folds
+Uncalled bet ($0.18) returned to jde187
+jde187 collected $0.18 from pot
+jde187: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [2s 9s 2h 7c]
+Seat 1: Krokus2864 (small blind) folded before Flop
+Seat 2: MeisterKnobi (big blind) folded before Flop
+Seat 3: jde187 collected ($0.18)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: AK-2771753 folded before Flop (didn't bet)
+Seat 7: Vladbrow folded before Flop (didn't bet)
+Seat 8: georg484 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan (button) folded on the Turn
+
+
+
+PokerStars Hand #212510662713:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:31:36 ET
+Table 'Havnia IV' 9-max Seat #1 is the button
+Seat 1: Krokus2864 ($2 in chips)
+Seat 2: MeisterKnobi ($1.97 in chips)
+Seat 4: pokerHero1 ($1.99 in chips)
+Seat 5: kalafot ($1.83 in chips)
+Seat 6: AK-2771753 ($1.34 in chips)
+Seat 7: Vladbrow ($1.85 in chips)
+Seat 8: georg484 ($0.92 in chips)
+Seat 9: Cap.Zaspan ($1.98 in chips)
+MeisterKnobi: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc 2s]
+kalafot: folds
+AK-2771753: calls $0.02
+Vladbrow: folds
+georg484: calls $0.02
+Cap.Zaspan: calls $0.02
+Krokus2864: calls $0.02
+MeisterKnobi: folds
+pokerHero1: checks
+*** FLOP *** [Ad Tc Qc]
+pokerHero1: checks
+AK-2771753: bets $0.06
+georg484: folds
+Cap.Zaspan: calls $0.06
+Krokus2864: calls $0.06
+pokerHero1: folds
+*** TURN *** [Ad Tc Qc] [7d]
+AK-2771753: checks
+Cap.Zaspan: checks
+Krokus2864: bets $0.28
+AK-2771753: folds
+Cap.Zaspan: calls $0.28
+*** RIVER *** [Ad Tc Qc 7d] [9h]
+Cap.Zaspan: checks
+Krokus2864: bets $0.82
+Cap.Zaspan: calls $0.82
+*** SHOW DOWN ***
+Krokus2864: shows [7s Ah] (two pair, Aces and Sevens)
+Cap.Zaspan: mucks hand
+Krokus2864 collected $2.40 from pot
+*** SUMMARY ***
+Total pot $2.49 | Rake $0.09
+Board [Ad Tc Qc 7d 9h]
+Seat 1: Krokus2864 (button) showed [7s Ah] and won ($2.40) with two pair, Aces and Sevens
+Seat 2: MeisterKnobi (small blind) folded before Flop
+Seat 4: pokerHero1 (big blind) folded on the Flop
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: AK-2771753 folded on the Turn
+Seat 7: Vladbrow folded before Flop (didn't bet)
+Seat 8: georg484 folded on the Flop
+Seat 9: Cap.Zaspan mucked [As 6c]
+
+
+
+PokerStars Hand #212510708156:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:32:27 ET
+Table 'Havnia IV' 9-max Seat #2 is the button
+Seat 1: Krokus2864 ($3.22 in chips)
+Seat 2: MeisterKnobi ($1.96 in chips)
+Seat 4: pokerHero1 ($1.97 in chips)
+Seat 5: kalafot ($1.83 in chips)
+Seat 6: AK-2771753 ($1.26 in chips)
+Seat 7: Vladbrow ($1.85 in chips)
+Seat 8: georg484 ($0.90 in chips)
+Seat 9: Cap.Zaspan ($2 in chips)
+pokerHero1: posts small blind $0.01
+kalafot: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td 7s]
+AK-2771753: raises $0.04 to $0.06
+Vladbrow: folds
+georg484: folds
+Cap.Zaspan: folds
+Krokus2864: folds
+MeisterKnobi: folds
+pokerHero1: folds
+kalafot: calls $0.04
+*** FLOP *** [5h Th 5d]
+kalafot: checks
+AK-2771753: bets $0.04
+kalafot: folds
+Uncalled bet ($0.04) returned to AK-2771753
+AK-2771753 collected $0.13 from pot
+AK-2771753: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [5h Th 5d]
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi (button) folded before Flop (didn't bet)
+Seat 4: pokerHero1 (small blind) folded before Flop
+Seat 5: kalafot (big blind) folded on the Flop
+Seat 6: AK-2771753 collected ($0.13)
+Seat 7: Vladbrow folded before Flop (didn't bet)
+Seat 8: georg484 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510750990:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:33:14 ET
+Table 'Havnia IV' 9-max Seat #4 is the button
+Seat 1: Krokus2864 ($3.22 in chips)
+Seat 2: MeisterKnobi ($1.96 in chips)
+Seat 3: jde187 ($2.45 in chips)
+Seat 4: pokerHero1 ($1.96 in chips)
+Seat 5: kalafot ($1.77 in chips)
+Seat 6: AK-2771753 ($1.33 in chips)
+Seat 7: Vladbrow ($1.85 in chips)
+Seat 8: georg484 ($0.90 in chips)
+Seat 9: Cap.Zaspan ($2 in chips)
+kalafot: posts small blind $0.01
+AK-2771753: posts big blind $0.02
+jde187: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2s Kh]
+Vladbrow: raises $0.04 to $0.06
+georg484: folds
+Cap.Zaspan: folds
+Krokus2864: folds
+MeisterKnobi: folds
+jde187: calls $0.04
+pokerHero1: folds
+kalafot: folds
+AK-2771753: calls $0.04
+*** FLOP *** [Td 6d 8s]
+AK-2771753: checks
+Vladbrow: bets $0.08
+jde187: folds
+AK-2771753: calls $0.08
+*** TURN *** [Td 6d 8s] [Tc]
+AK-2771753: checks
+Vladbrow: bets $0.16
+AK-2771753: calls $0.16
+*** RIVER *** [Td 6d 8s Tc] [5c]
+AK-2771753: bets $0.38
+Vladbrow: calls $0.38
+*** SHOW DOWN ***
+AK-2771753: shows [7h 9d] (a straight, Six to Ten)
+Vladbrow: mucks hand
+AK-2771753 collected $1.39 from pot
+*** SUMMARY ***
+Total pot $1.44 | Rake $0.05
+Board [Td 6d 8s Tc 5c]
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 3: jde187 folded on the Flop
+Seat 4: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 5: kalafot (small blind) folded before Flop
+Seat 6: AK-2771753 (big blind) showed [7h 9d] and won ($1.39) with a straight, Six to Ten
+Seat 7: Vladbrow mucked [Kd Kc]
+Seat 8: georg484 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510843399:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:34:42 ET
+Table 'Havnia IV' 9-max Seat #5 is the button
+Seat 1: Krokus2864 ($3.22 in chips)
+Seat 2: MeisterKnobi ($1.96 in chips)
+Seat 3: jde187 ($2.38 in chips)
+Seat 4: pokerHero1 ($1.96 in chips)
+Seat 5: kalafot ($1.76 in chips)
+Seat 6: AK-2771753 ($2.04 in chips)
+Seat 7: Vladbrow ($1.17 in chips)
+Seat 8: georg484 ($0.90 in chips)
+Seat 9: Cap.Zaspan ($2 in chips)
+AK-2771753: posts small blind $0.01
+Vladbrow: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5h 6h]
+georg484: folds
+Cap.Zaspan: folds
+Krokus2864: folds
+MeisterKnobi: folds
+jde187: folds
+pokerHero1: calls $0.02
+kalafot: raises $0.04 to $0.06
+AK-2771753: folds
+Vladbrow: calls $0.04
+pokerHero1: folds
+*** FLOP *** [2d 7d 7h]
+Vladbrow: checks
+kalafot: bets $0.14
+Vladbrow: folds
+Uncalled bet ($0.14) returned to kalafot
+kalafot collected $0.14 from pot
+kalafot: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [2d 7d 7h]
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 3: jde187 folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop
+Seat 5: kalafot (button) collected ($0.14)
+Seat 6: AK-2771753 (small blind) folded before Flop
+Seat 7: Vladbrow (big blind) folded on the Flop
+Seat 8: georg484 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510874758:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:35:17 ET
+Table 'Havnia IV' 9-max Seat #6 is the button
+Seat 1: Krokus2864 ($3.22 in chips)
+Seat 2: MeisterKnobi ($1.96 in chips)
+Seat 3: jde187 ($2.38 in chips)
+Seat 4: pokerHero1 ($1.94 in chips)
+Seat 5: kalafot ($1.84 in chips)
+Seat 6: AK-2771753 ($2.03 in chips)
+Seat 7: Vladbrow ($1.11 in chips)
+Seat 8: georg484 ($0.90 in chips)
+Seat 9: Cap.Zaspan ($2 in chips)
+Vladbrow: posts small blind $0.01
+georg484: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s 3h]
+Cap.Zaspan: folds
+Krokus2864: folds
+MeisterKnobi: raises $0.05 to $0.07
+jde187: folds
+pokerHero1: folds
+kalafot: folds
+AK-2771753: calls $0.07
+Vladbrow: calls $0.06
+georg484: folds
+*** FLOP *** [4s 8h Kd]
+Vladbrow: bets $0.14
+MeisterKnobi: folds
+AK-2771753: calls $0.14
+*** TURN *** [4s 8h Kd] [3d]
+Vladbrow: bets $0.30
+AK-2771753: calls $0.30
+*** RIVER *** [4s 8h Kd 3d] [7d]
+Vladbrow: bets $0.60 and is all-in
+AK-2771753: calls $0.60
+*** SHOW DOWN ***
+Vladbrow: shows [Ts Ks] (a pair of Kings)
+AK-2771753: shows [5c 6d] (a straight, Four to Eight)
+AK-2771753 collected $2.23 from pot
+*** SUMMARY ***
+Total pot $2.31 | Rake $0.08
+Board [4s 8h Kd 3d 7d]
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi folded on the Flop
+Seat 3: jde187 folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: AK-2771753 (button) showed [5c 6d] and won ($2.23) with a straight, Four to Eight
+Seat 7: Vladbrow (small blind) showed [Ts Ks] and lost with a pair of Kings
+Seat 8: georg484 (big blind) folded before Flop
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212510929809:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:36:18 ET
+Table 'Havnia IV' 9-max Seat #8 is the button
+Seat 1: Krokus2864 ($3.22 in chips)
+Seat 2: MeisterKnobi ($1.89 in chips)
+Seat 3: jde187 ($2.38 in chips)
+Seat 4: pokerHero1 ($1.94 in chips)
+Seat 5: kalafot ($1.84 in chips)
+Seat 6: AK-2771753 ($3.15 in chips)
+Seat 8: georg484 ($0.88 in chips)
+Cap.Zaspan is disconnected
+Cap.Zaspan is connected
+Cap.Zaspan has timed out
+Cap.Zaspan: is sitting out
+Krokus2864: posts small blind $0.01
+MeisterKnobi: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3s Tc]
+jde187: raises $0.02 to $0.04
+pokerHero1: folds
+kalafot: folds
+AK-2771753: folds
+Vladbrow said, "...."
+georg484: calls $0.04
+Krokus2864: folds
+Vladbrow leaves the table
+MeisterKnobi: folds
+*** FLOP *** [8s Qh 8c]
+UnholyFrog joins the table at seat #7
+jde187: checks
+georg484: checks
+*** TURN *** [8s Qh 8c] [As]
+jde187: checks
+georg484: bets $0.02
+jde187: calls $0.02
+*** RIVER *** [8s Qh 8c As] [2c]
+jde187: checks
+georg484: bets $0.10
+jde187: folds
+Uncalled bet ($0.10) returned to georg484
+georg484 collected $0.14 from pot
+georg484: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [8s Qh 8c As 2c]
+Seat 1: Krokus2864 (small blind) folded before Flop
+Seat 2: MeisterKnobi (big blind) folded before Flop
+Seat 3: jde187 folded on the River
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: AK-2771753 folded before Flop (didn't bet)
+Seat 8: georg484 (button) collected ($0.14)
+
+
+
+PokerStars Hand #212510990795:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:37:24 ET
+Table 'Havnia IV' 9-max Seat #1 is the button
+Seat 1: Krokus2864 ($3.21 in chips)
+Seat 2: MeisterKnobi ($1.87 in chips)
+Seat 3: jde187 ($2.32 in chips)
+Seat 4: pokerHero1 ($1.94 in chips)
+Seat 5: kalafot ($1.84 in chips)
+Seat 6: AK-2771753 ($3.15 in chips)
+Seat 8: georg484 ($0.96 in chips)
+MeisterKnobi: posts small blind $0.01
+jde187: posts big blind $0.02
+UnholyFrog: sits out
+Cap.Zaspan: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c 4c]
+pokerHero1: folds
+kalafot: folds
+AK-2771753: calls $0.02
+georg484: calls $0.02
+Krokus2864: folds
+MeisterKnobi: calls $0.01
+jde187: checks
+*** FLOP *** [5h 8s 2c]
+MeisterKnobi: checks
+jde187: bets $0.08
+AK-2771753: folds
+georg484: folds
+MeisterKnobi: folds
+Uncalled bet ($0.08) returned to jde187
+jde187 collected $0.08 from pot
+jde187: doesn't show hand
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Board [5h 8s 2c]
+Seat 1: Krokus2864 (button) folded before Flop (didn't bet)
+Seat 2: MeisterKnobi (small blind) folded on the Flop
+Seat 3: jde187 (big blind) collected ($0.08)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: AK-2771753 folded on the Flop
+Seat 8: georg484 folded on the Flop
+
+
+
+PokerStars Hand #212511026841:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:38:04 ET
+Table 'Havnia IV' 9-max Seat #2 is the button
+Seat 1: Krokus2864 ($3.21 in chips)
+Seat 2: MeisterKnobi ($1.85 in chips)
+Seat 3: jde187 ($2.38 in chips)
+Seat 4: pokerHero1 ($1.94 in chips)
+Seat 5: kalafot ($1.84 in chips)
+Seat 6: AK-2771753 ($3.13 in chips)
+Seat 8: georg484 ($0.94 in chips)
+jde187: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+UnholyFrog: sits out
+Cap.Zaspan: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3c 2d]
+kalafot: folds
+AK-2771753: folds
+georg484: folds
+Krokus2864: folds
+MeisterKnobi: raises $0.02 to $0.04
+jde187: calls $0.03
+pokerHero1: calls $0.02
+*** FLOP *** [As 3h Ts]
+jde187: checks
+pokerHero1: checks
+MeisterKnobi: bets $0.04
+jde187: calls $0.04
+pokerHero1: folds
+*** TURN *** [As 3h Ts] [Kd]
+jde187: bets $0.10
+MeisterKnobi: calls $0.10
+*** RIVER *** [As 3h Ts Kd] [8s]
+jde187: bets $0.20
+MeisterKnobi: calls $0.20
+*** SHOW DOWN ***
+jde187: shows [Td Kh] (two pair, Kings and Tens)
+MeisterKnobi: mucks hand
+jde187 collected $0.77 from pot
+*** SUMMARY ***
+Total pot $0.80 | Rake $0.03
+Board [As 3h Ts Kd 8s]
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi (button) mucked [Ac 5h]
+Seat 3: jde187 (small blind) showed [Td Kh] and won ($0.77) with two pair, Kings and Tens
+Seat 4: pokerHero1 (big blind) folded on the Flop
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: AK-2771753 folded before Flop (didn't bet)
+Seat 8: georg484 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511083247:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:39:06 ET
+Table 'Havnia IV' 9-max Seat #3 is the button
+Seat 1: Krokus2864 ($3.21 in chips)
+Seat 2: MeisterKnobi ($1.47 in chips)
+Seat 3: jde187 ($2.77 in chips)
+Seat 4: pokerHero1 ($2 in chips)
+Seat 5: kalafot ($1.84 in chips)
+Seat 6: AK-2771753 ($3.13 in chips)
+Seat 8: georg484 ($0.94 in chips)
+pokerHero1: posts small blind $0.01
+kalafot: posts big blind $0.02
+UnholyFrog: sits out
+Cap.Zaspan: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8c Th]
+AK-2771753: folds
+georg484: folds
+Krokus2864: folds
+MeisterKnobi: raises $0.05 to $0.07
+jde187: folds
+pokerHero1: folds
+kalafot: folds
+Uncalled bet ($0.05) returned to MeisterKnobi
+MeisterKnobi collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi collected ($0.05)
+Seat 3: jde187 (button) folded before Flop (didn't bet)
+Seat 4: pokerHero1 (small blind) folded before Flop
+Seat 5: kalafot (big blind) folded before Flop
+Seat 6: AK-2771753 folded before Flop (didn't bet)
+Seat 8: georg484 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511105351:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:39:31 ET
+Table 'Havnia IV' 9-max Seat #4 is the button
+Seat 1: Krokus2864 ($3.21 in chips)
+Seat 2: MeisterKnobi ($1.50 in chips)
+Seat 3: jde187 ($2.77 in chips)
+Seat 4: pokerHero1 ($1.99 in chips)
+Seat 5: kalafot ($1.82 in chips)
+Seat 6: AK-2771753 ($3.13 in chips)
+Seat 8: georg484 ($0.94 in chips)
+kalafot: posts small blind $0.01
+AK-2771753: posts big blind $0.02
+UnholyFrog: sits out
+Cap.Zaspan: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ts 6h]
+georg484: folds
+Krokus2864: folds
+MeisterKnobi: calls $0.02
+jde187: calls $0.02
+pokerHero1: folds
+kalafot: calls $0.01
+AK-2771753: checks
+*** FLOP *** [2c 5c Kd]
+kalafot: checks
+AK-2771753: bets $0.04
+MeisterKnobi: folds
+jde187: calls $0.04
+kalafot: folds
+*** TURN *** [2c 5c Kd] [7s]
+AK-2771753: checks
+jde187: bets $0.10
+AK-2771753: calls $0.10
+*** RIVER *** [2c 5c Kd 7s] [4h]
+AK-2771753: checks
+jde187: bets $0.26
+AK-2771753: folds
+Uncalled bet ($0.26) returned to jde187
+jde187 collected $0.35 from pot
+jde187: doesn't show hand
+*** SUMMARY ***
+Total pot $0.36 | Rake $0.01
+Board [2c 5c Kd 7s 4h]
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi folded on the Flop
+Seat 3: jde187 collected ($0.35)
+Seat 4: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 5: kalafot (small blind) folded on the Flop
+Seat 6: AK-2771753 (big blind) folded on the River
+Seat 8: georg484 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511150133:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:40:20 ET
+Table 'Havnia IV' 9-max Seat #5 is the button
+Seat 1: Krokus2864 ($3.21 in chips)
+Seat 2: MeisterKnobi ($1.48 in chips)
+Seat 3: jde187 ($2.96 in chips)
+Seat 4: pokerHero1 ($1.99 in chips)
+Seat 5: kalafot ($1.80 in chips)
+Seat 6: AK-2771753 ($2.97 in chips)
+Seat 7: UnholyFrog ($2 in chips)
+Seat 8: georg484 ($0.94 in chips)
+AK-2771753: posts small blind $0.01
+UnholyFrog: posts big blind $0.02
+Cap.Zaspan: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5d Ad]
+georg484: folds
+Krokus2864: folds
+MeisterKnobi: calls $0.02
+jde187: folds
+pokerHero1: calls $0.02
+kalafot: folds
+AK-2771753: raises $0.04 to $0.06
+UnholyFrog: folds
+MeisterKnobi: calls $0.04
+pokerHero1: calls $0.04
+*** FLOP *** [7d Qd Jd]
+AK-2771753: bets $0.06
+MeisterKnobi: folds
+pokerHero1: calls $0.06
+*** TURN *** [7d Qd Jd] [7h]
+AK-2771753: bets $0.06
+pokerHero1: calls $0.06
+*** RIVER *** [7d Qd Jd 7h] [3h]
+AK-2771753: bets $0.12
+pokerHero1: raises $0.30 to $0.42
+AK-2771753: calls $0.30
+*** SHOW DOWN ***
+pokerHero1: shows [5d Ad] (a flush, Ace high)
+AK-2771753: mucks hand
+pokerHero1 collected $1.24 from pot
+*** SUMMARY ***
+Total pot $1.28 | Rake $0.04
+Board [7d Qd Jd 7h 3h]
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi folded on the Flop
+Seat 3: jde187 folded before Flop (didn't bet)
+Seat 4: pokerHero1 showed [5d Ad] and won ($1.24) with a flush, Ace high
+Seat 5: kalafot (button) folded before Flop (didn't bet)
+Seat 6: AK-2771753 (small blind) mucked [Qh Ks]
+Seat 7: UnholyFrog (big blind) folded before Flop
+Seat 8: georg484 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511234554:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:41:53 ET
+Table 'Havnia IV' 9-max Seat #6 is the button
+Seat 1: Krokus2864 ($3.21 in chips)
+Seat 2: MeisterKnobi ($1.42 in chips)
+Seat 3: jde187 ($2.96 in chips)
+Seat 4: pokerHero1 ($2.63 in chips)
+Seat 5: kalafot ($1.80 in chips)
+Seat 6: AK-2771753 ($2.37 in chips)
+Seat 7: UnholyFrog ($1.98 in chips)
+Seat 8: georg484 ($0.94 in chips)
+UnholyFrog: posts small blind $0.01
+georg484: posts big blind $0.02
+Cap.Zaspan: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5c 4c]
+Krokus2864: folds
+MeisterKnobi has timed out
+MeisterKnobi: folds
+jde187: folds
+pokerHero1: folds
+kalafot: raises $0.04 to $0.06
+AK-2771753: folds
+UnholyFrog: folds
+georg484: folds
+Uncalled bet ($0.04) returned to kalafot
+kalafot collected $0.05 from pot
+kalafot: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 3: jde187 folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot collected ($0.05)
+Seat 6: AK-2771753 (button) folded before Flop (didn't bet)
+Seat 7: UnholyFrog (small blind) folded before Flop
+Seat 8: georg484 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212511266055:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:42:28 ET
+Table 'Havnia IV' 9-max Seat #7 is the button
+Seat 1: Krokus2864 ($3.21 in chips)
+Seat 2: MeisterKnobi ($1.42 in chips)
+Seat 3: jde187 ($2.96 in chips)
+Seat 4: pokerHero1 ($2.63 in chips)
+Seat 5: kalafot ($1.83 in chips)
+Seat 6: AK-2771753 ($2.37 in chips)
+Seat 7: UnholyFrog ($1.97 in chips)
+Seat 8: georg484 ($0.92 in chips)
+Seat 9: Cap.Zaspan ($2 in chips)
+georg484: posts small blind $0.01
+Cap.Zaspan: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8h Qd]
+Krokus2864: folds
+MeisterKnobi: folds
+jde187: folds
+pokerHero1: folds
+kalafot: folds
+AK-2771753: raises $0.04 to $0.06
+UnholyFrog: raises $0.04 to $0.10
+georg484: folds
+Cap.Zaspan: folds
+AK-2771753: raises $0.34 to $0.44
+UnholyFrog: calls $0.34
+*** FLOP *** [9s Kh 4d]
+AK-2771753: bets $0.94
+UnholyFrog: folds
+Uncalled bet ($0.94) returned to AK-2771753
+AK-2771753 collected $0.88 from pot
+AK-2771753: doesn't show hand
+*** SUMMARY ***
+Total pot $0.91 | Rake $0.03
+Board [9s Kh 4d]
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 3: jde187 folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: AK-2771753 collected ($0.88)
+Seat 7: UnholyFrog (button) folded on the Flop
+Seat 8: georg484 (small blind) folded before Flop
+Seat 9: Cap.Zaspan (big blind) folded before Flop
+
+
+
+PokerStars Hand #212511317594:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:43:25 ET
+Table 'Havnia IV' 9-max Seat #8 is the button
+Seat 1: Krokus2864 ($3.21 in chips)
+Seat 2: MeisterKnobi ($1.42 in chips)
+Seat 3: jde187 ($2.96 in chips)
+Seat 4: pokerHero1 ($2.63 in chips)
+Seat 5: kalafot ($1.83 in chips)
+Seat 6: AK-2771753 ($2.81 in chips)
+Seat 7: UnholyFrog ($1.53 in chips)
+Seat 8: georg484 ($0.91 in chips)
+Seat 9: Cap.Zaspan ($1.98 in chips)
+Cap.Zaspan: posts small blind $0.01
+Krokus2864: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jh Jd]
+MeisterKnobi: folds
+jde187: raises $0.04 to $0.06
+pokerHero1: raises $0.12 to $0.18
+kalafot: folds
+AK-2771753: folds
+UnholyFrog: folds
+georg484: folds
+Cap.Zaspan: folds
+Krokus2864: folds
+AK-2771753 leaves the table
+jde187: calls $0.12
+*** FLOP *** [8h Qc 8d]
+jde187: bets $0.19
+pokerHero1: raises $0.31 to $0.50
+jde187: calls $0.31
+*** TURN *** [8h Qc 8d] [2h]
+jde187: checks
+pokerHero1: bets $0.50
+jde187: calls $0.50
+*** RIVER *** [8h Qc 8d 2h] [Th]
+jde187: checks
+id_kov joins the table at seat #6
+pokerHero1: checks
+*** SHOW DOWN ***
+jde187: shows [Ah As] (two pair, Aces and Eights)
+pokerHero1: mucks hand
+jde187 collected $2.31 from pot
+*** SUMMARY ***
+Total pot $2.39 | Rake $0.08
+Board [8h Qc 8d 2h Th]
+Seat 1: Krokus2864 (big blind) folded before Flop
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 3: jde187 showed [Ah As] and won ($2.31) with two pair, Aces and Eights
+Seat 4: pokerHero1 mucked [Jh Jd]
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: AK-2771753 folded before Flop (didn't bet)
+Seat 7: UnholyFrog folded before Flop (didn't bet)
+Seat 8: georg484 (button) folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan (small blind) folded before Flop
+
+
+
+PokerStars Hand #212511377833:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:44:30 ET
+Table 'Havnia IV' 9-max Seat #9 is the button
+Seat 1: Krokus2864 ($3.19 in chips)
+Seat 2: MeisterKnobi ($1.42 in chips)
+Seat 3: jde187 ($4.09 in chips)
+Seat 4: pokerHero1 ($1.45 in chips)
+Seat 5: kalafot ($1.83 in chips)
+Seat 7: UnholyFrog ($1.53 in chips)
+Seat 8: georg484 ($0.91 in chips)
+Seat 9: Cap.Zaspan ($1.97 in chips)
+Krokus2864: posts small blind $0.01
+MeisterKnobi: posts big blind $0.02
+id_kov: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc Jd]
+jde187: calls $0.02
+pokerHero1: raises $0.08 to $0.10
+kalafot: folds
+UnholyFrog: folds
+georg484: folds
+Cap.Zaspan: folds
+Krokus2864: folds
+MeisterKnobi: folds
+jde187: folds
+Uncalled bet ($0.08) returned to pokerHero1
+pokerHero1 collected $0.07 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Seat 1: Krokus2864 (small blind) folded before Flop
+Seat 2: MeisterKnobi (big blind) folded before Flop
+Seat 3: jde187 folded before Flop
+Seat 4: pokerHero1 collected ($0.07)
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 7: UnholyFrog folded before Flop (didn't bet)
+Seat 8: georg484 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511423943:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:45:20 ET
+Table 'Havnia IV' 9-max Seat #1 is the button
+Seat 1: Krokus2864 ($3.18 in chips)
+Seat 2: MeisterKnobi ($1.40 in chips)
+Seat 4: pokerHero1 ($1.50 in chips)
+Seat 5: kalafot ($1.83 in chips)
+Seat 7: UnholyFrog ($1.53 in chips)
+Seat 8: georg484 ($0.91 in chips)
+Seat 9: Cap.Zaspan ($1.97 in chips)
+MeisterKnobi: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+id_kov: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c 4d]
+kalafot: folds
+UnholyFrog: folds
+georg484: calls $0.02
+Cap.Zaspan: folds
+Krokus2864: folds
+MeisterKnobi: raises $0.03 to $0.05
+pokerHero1: folds
+georg484: calls $0.03
+*** FLOP *** [Td Ad 7c]
+MeisterKnobi: bets $0.06
+georg484: folds
+Uncalled bet ($0.06) returned to MeisterKnobi
+MeisterKnobi collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Board [Td Ad 7c]
+Seat 1: Krokus2864 (button) folded before Flop (didn't bet)
+Seat 2: MeisterKnobi (small blind) collected ($0.12)
+Seat 4: pokerHero1 (big blind) folded before Flop
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 7: UnholyFrog folded before Flop (didn't bet)
+Seat 8: georg484 folded on the Flop
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511469245:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:46:10 ET
+Table 'Havnia IV' 9-max Seat #2 is the button
+Seat 1: Krokus2864 ($3.18 in chips)
+Seat 2: MeisterKnobi ($1.47 in chips)
+Seat 4: pokerHero1 ($1.98 in chips)
+Seat 5: kalafot ($1.83 in chips)
+Seat 7: UnholyFrog ($1.53 in chips)
+Seat 8: georg484 ($0.86 in chips)
+Seat 9: Cap.Zaspan ($1.97 in chips)
+pokerHero1: posts small blind $0.01
+kalafot: posts big blind $0.02
+id_kov: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h Ah]
+jde187 leaves the table
+UnholyFrog: raises $0.05 to $0.07
+georg484: folds
+Cap.Zaspan: folds
+Krokus2864: folds
+Zapato41 joins the table at seat #3
+MeisterKnobi: folds
+pokerHero1: calls $0.06
+kalafot: folds
+*** FLOP *** [5h 7h 2s]
+pokerHero1: bets $0.08
+UnholyFrog: raises $0.31 to $0.39
+pokerHero1: calls $0.31
+*** TURN *** [5h 7h 2s] [5c]
+pokerHero1: checks
+UnholyFrog: bets $0.91
+pokerHero1: folds
+Uncalled bet ($0.91) returned to UnholyFrog
+UnholyFrog collected $0.91 from pot
+UnholyFrog: doesn't show hand
+*** SUMMARY ***
+Total pot $0.94 | Rake $0.03
+Board [5h 7h 2s 5c]
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi (button) folded before Flop (didn't bet)
+Seat 4: pokerHero1 (small blind) folded on the Turn
+Seat 5: kalafot (big blind) folded before Flop
+Seat 7: UnholyFrog collected ($0.91)
+Seat 8: georg484 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511513863:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:46:58 ET
+Table 'Havnia IV' 9-max Seat #4 is the button
+Seat 1: Krokus2864 ($3.18 in chips)
+Seat 2: MeisterKnobi ($1.47 in chips)
+Seat 4: pokerHero1 ($2 in chips)
+Seat 5: kalafot ($1.81 in chips)
+Seat 6: id_kov ($1.80 in chips)
+Seat 7: UnholyFrog ($1.98 in chips)
+Seat 8: georg484 ($0.86 in chips)
+Seat 9: Cap.Zaspan ($1.97 in chips)
+kalafot: posts small blind $0.01
+id_kov: posts big blind $0.02
+Zapato41: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd 7d]
+UnholyFrog: folds
+georg484: folds
+Cap.Zaspan: folds
+Krokus2864: folds
+MeisterKnobi: folds
+pokerHero1 has timed out
+pokerHero1: folds
+kalafot: folds
+Uncalled bet ($0.01) returned to id_kov
+id_kov collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 4: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 5: kalafot (small blind) folded before Flop
+Seat 6: id_kov (big blind) collected ($0.02)
+Seat 7: UnholyFrog folded before Flop (didn't bet)
+Seat 8: georg484 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511542698:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:47:30 ET
+Table 'Havnia IV' 9-max Seat #5 is the button
+Seat 1: Krokus2864 ($3.18 in chips)
+Seat 2: MeisterKnobi ($1.47 in chips)
+Seat 4: pokerHero1 ($2 in chips)
+Seat 5: kalafot ($1.80 in chips)
+Seat 6: id_kov ($1.81 in chips)
+Seat 7: UnholyFrog ($1.98 in chips)
+Seat 8: georg484 ($0.86 in chips)
+Seat 9: Cap.Zaspan ($1.97 in chips)
+id_kov: posts small blind $0.01
+UnholyFrog: posts big blind $0.02
+Zapato41: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c 8c]
+georg484: calls $0.02
+Cap.Zaspan: folds
+Krokus2864: folds
+MeisterKnobi: folds
+pokerHero1: folds
+kalafot: folds
+id_kov: folds
+UnholyFrog: checks
+*** FLOP *** [7s 3c 4h]
+UnholyFrog: checks
+georg484: checks
+*** TURN *** [7s 3c 4h] [As]
+UnholyFrog: checks
+georg484: checks
+*** RIVER *** [7s 3c 4h As] [7h]
+UnholyFrog: checks
+georg484: checks
+*** SHOW DOWN ***
+UnholyFrog: shows [Tc 9s] (a pair of Sevens)
+georg484: shows [Jd 4d] (two pair, Sevens and Fours)
+georg484 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [7s 3c 4h As 7h]
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot (button) folded before Flop (didn't bet)
+Seat 6: id_kov (small blind) folded before Flop
+Seat 7: UnholyFrog (big blind) showed [Tc 9s] and lost with a pair of Sevens
+Seat 8: georg484 showed [Jd 4d] and won ($0.05) with two pair, Sevens and Fours
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511583984:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:48:15 ET
+Table 'Havnia IV' 9-max Seat #6 is the button
+Seat 1: Krokus2864 ($3.18 in chips)
+Seat 2: MeisterKnobi ($1.47 in chips)
+Seat 4: pokerHero1 ($2 in chips)
+Seat 5: kalafot ($1.80 in chips)
+Seat 6: id_kov ($1.80 in chips)
+Seat 7: UnholyFrog ($1.96 in chips)
+Seat 8: georg484 ($0.89 in chips)
+Seat 9: Cap.Zaspan ($1.97 in chips)
+UnholyFrog: posts small blind $0.01
+georg484: posts big blind $0.02
+Zapato41: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d Ac]
+Cap.Zaspan: folds
+Krokus2864: folds
+MeisterKnobi: folds
+pokerHero1: raises $0.06 to $0.08
+kalafot: folds
+id_kov: folds
+UnholyFrog: folds
+georg484: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 4: pokerHero1 collected ($0.05)
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: id_kov (button) folded before Flop (didn't bet)
+Seat 7: UnholyFrog (small blind) folded before Flop
+Seat 8: georg484 (big blind) folded before Flop
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511608728:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:48:42 ET
+Table 'Havnia IV' 9-max Seat #7 is the button
+Seat 1: Krokus2864 ($3.18 in chips)
+Seat 2: MeisterKnobi ($1.47 in chips)
+Seat 4: pokerHero1 ($2.03 in chips)
+Seat 5: kalafot ($1.80 in chips)
+Seat 6: id_kov ($1.80 in chips)
+Seat 7: UnholyFrog ($1.95 in chips)
+Seat 8: georg484 ($0.87 in chips)
+Seat 9: Cap.Zaspan ($1.97 in chips)
+georg484: posts small blind $0.01
+Cap.Zaspan: posts big blind $0.02
+Zapato41: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d 6h]
+Krokus2864: folds
+Krokus2864 leaves the table
+MeisterKnobi: folds
+pokerHero1: folds
+kalafot: folds
+TankMurky joins the table at seat #1
+id_kov: folds
+UnholyFrog: raises $0.05 to $0.07
+georg484: folds
+Cap.Zaspan: calls $0.05
+*** FLOP *** [Th Qc 2h]
+Cap.Zaspan: checks
+UnholyFrog: bets $0.07
+Cap.Zaspan: calls $0.07
+*** TURN *** [Th Qc 2h] [Qd]
+Cap.Zaspan: checks
+UnholyFrog: checks
+*** RIVER *** [Th Qc 2h Qd] [4d]
+Cap.Zaspan: bets $0.20
+UnholyFrog: folds
+Uncalled bet ($0.20) returned to Cap.Zaspan
+Cap.Zaspan collected $0.28 from pot
+Cap.Zaspan: doesn't show hand
+*** SUMMARY ***
+Total pot $0.29 | Rake $0.01
+Board [Th Qc 2h Qd 4d]
+Seat 1: Krokus2864 folded before Flop (didn't bet)
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 7: UnholyFrog (button) folded on the River
+Seat 8: georg484 (small blind) folded before Flop
+Seat 9: Cap.Zaspan (big blind) collected ($0.28)
+
+
+
+PokerStars Hand #212511653548:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:49:31 ET
+Table 'Havnia IV' 9-max Seat #8 is the button
+Seat 1: TankMurky ($2 in chips)
+Seat 2: MeisterKnobi ($1.47 in chips)
+Seat 4: pokerHero1 ($2.03 in chips)
+Seat 5: kalafot ($1.80 in chips)
+Seat 6: id_kov ($1.80 in chips)
+Seat 7: UnholyFrog ($1.81 in chips)
+Seat 8: georg484 ($0.86 in chips)
+Seat 9: Cap.Zaspan ($2.11 in chips)
+Cap.Zaspan: posts small blind $0.01
+TankMurky: posts big blind $0.02
+Zapato41: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s Th]
+MeisterKnobi: folds
+pokerHero1: folds
+kalafot: folds
+id_kov: folds
+UnholyFrog: folds
+georg484: folds
+Cap.Zaspan: folds
+Uncalled bet ($0.01) returned to TankMurky
+TankMurky collected $0.02 from pot
+TankMurky: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: TankMurky (big blind) collected ($0.02)
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 7: UnholyFrog folded before Flop (didn't bet)
+Seat 8: georg484 (button) folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan (small blind) folded before Flop
+
+
+
+PokerStars Hand #212511667502:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:49:46 ET
+Table 'Havnia IV' 9-max Seat #9 is the button
+Seat 1: TankMurky ($2.01 in chips)
+Seat 2: MeisterKnobi ($1.47 in chips)
+Seat 4: pokerHero1 ($2.03 in chips)
+Seat 5: kalafot ($1.80 in chips)
+Seat 6: id_kov ($1.80 in chips)
+Seat 7: UnholyFrog ($1.81 in chips)
+Seat 8: georg484 ($0.86 in chips)
+Seat 9: Cap.Zaspan ($2.10 in chips)
+TankMurky: posts small blind $0.01
+MeisterKnobi: posts big blind $0.02
+Zapato41: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8c 8h]
+pokerHero1: calls $0.02
+kalafot: folds
+id_kov: folds
+UnholyFrog: folds
+georg484: folds
+Cap.Zaspan: folds
+TankMurky: calls $0.01
+MeisterKnobi: checks
+*** FLOP *** [Ah Ts 3c]
+TankMurky: bets $0.04
+MeisterKnobi: folds
+pokerHero1: folds
+Uncalled bet ($0.04) returned to TankMurky
+TankMurky collected $0.06 from pot
+TankMurky: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [Ah Ts 3c]
+Seat 1: TankMurky (small blind) collected ($0.06)
+Seat 2: MeisterKnobi (big blind) folded on the Flop
+Seat 4: pokerHero1 folded on the Flop
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 7: UnholyFrog folded before Flop (didn't bet)
+Seat 8: georg484 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511694509:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:50:16 ET
+Table 'Havnia IV' 9-max Seat #1 is the button
+Seat 1: TankMurky ($2.05 in chips)
+Seat 2: MeisterKnobi ($1.45 in chips)
+Seat 3: Zapato41 ($2 in chips)
+Seat 4: pokerHero1 ($2.01 in chips)
+Seat 5: kalafot ($1.80 in chips)
+Seat 6: id_kov ($1.80 in chips)
+Seat 7: UnholyFrog ($1.81 in chips)
+Seat 8: georg484 ($0.86 in chips)
+Seat 9: Cap.Zaspan ($2.10 in chips)
+MeisterKnobi: posts small blind $0.01
+Zapato41: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad 3d]
+pokerHero1: folds
+kalafot: folds
+id_kov: folds
+UnholyFrog: raises $0.05 to $0.07
+georg484: folds
+Cap.Zaspan: calls $0.07
+TankMurky: folds
+MeisterKnobi: folds
+Zapato41: folds
+*** FLOP *** [8s 2d 7s]
+UnholyFrog: bets $0.16
+Cap.Zaspan: folds
+Uncalled bet ($0.16) returned to UnholyFrog
+UnholyFrog collected $0.16 from pot
+UnholyFrog: doesn't show hand
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [8s 2d 7s]
+Seat 1: TankMurky (button) folded before Flop (didn't bet)
+Seat 2: MeisterKnobi (small blind) folded before Flop
+Seat 3: Zapato41 (big blind) folded before Flop
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 7: UnholyFrog collected ($0.16)
+Seat 8: georg484 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan folded on the Flop
+
+
+
+PokerStars Hand #212511720337:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:50:44 ET
+Table 'Havnia IV' 9-max Seat #2 is the button
+Seat 1: TankMurky ($2.05 in chips)
+Seat 2: MeisterKnobi ($1.44 in chips)
+Seat 3: Zapato41 ($2 in chips)
+Seat 4: pokerHero1 ($2.01 in chips)
+Seat 5: kalafot ($1.80 in chips)
+Seat 6: id_kov ($1.80 in chips)
+Seat 7: UnholyFrog ($1.90 in chips)
+Seat 8: georg484 ($0.86 in chips)
+Seat 9: Cap.Zaspan ($2.03 in chips)
+Zapato41: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s Kc]
+kalafot: folds
+id_kov: folds
+UnholyFrog: folds
+georg484: folds
+Cap.Zaspan: folds
+TankMurky: folds
+MeisterKnobi: raises $0.03 to $0.05
+Zapato41: calls $0.04
+pokerHero1: folds
+*** FLOP *** [8h Jh Jc]
+Zapato41: checks
+MeisterKnobi: bets $0.04
+Zapato41: raises $0.10 to $0.14
+MeisterKnobi: calls $0.10
+*** TURN *** [8h Jh Jc] [Th]
+Zapato41: bets $0.20
+MeisterKnobi: calls $0.20
+*** RIVER *** [8h Jh Jc Th] [2s]
+Zapato41: checks
+MeisterKnobi: checks
+*** SHOW DOWN ***
+Zapato41: shows [Ac 5c] (a pair of Jacks)
+MeisterKnobi: shows [Td Ah] (two pair, Jacks and Tens)
+MeisterKnobi collected $0.77 from pot
+*** SUMMARY ***
+Total pot $0.80 | Rake $0.03
+Board [8h Jh Jc Th 2s]
+Seat 1: TankMurky folded before Flop (didn't bet)
+Seat 2: MeisterKnobi (button) showed [Td Ah] and won ($0.77) with two pair, Jacks and Tens
+Seat 3: Zapato41 (small blind) showed [Ac 5c] and lost with a pair of Jacks
+Seat 4: pokerHero1 (big blind) folded before Flop
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 7: UnholyFrog folded before Flop (didn't bet)
+Seat 8: georg484 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511769131:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:51:33 ET
+Table 'Havnia IV' 9-max Seat #3 is the button
+Seat 1: TankMurky ($2.05 in chips)
+Seat 2: MeisterKnobi ($1.82 in chips)
+Seat 3: Zapato41 ($2 in chips)
+Seat 4: pokerHero1 ($1.99 in chips)
+Seat 5: kalafot ($1.80 in chips)
+Seat 6: id_kov ($1.80 in chips)
+Seat 7: UnholyFrog ($1.90 in chips)
+Seat 8: georg484 ($0.86 in chips)
+Seat 9: Cap.Zaspan ($2.03 in chips)
+pokerHero1: posts small blind $0.01
+kalafot: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5d 4h]
+id_kov: folds
+UnholyFrog: folds
+georg484: calls $0.02
+Cap.Zaspan: raises $0.04 to $0.06
+TankMurky: folds
+MeisterKnobi: folds
+Zapato41: folds
+pokerHero1: folds
+kalafot: folds
+georg484: calls $0.04
+*** FLOP *** [5h Th Ts]
+georg484: checks
+Cap.Zaspan: bets $0.08
+georg484: folds
+Uncalled bet ($0.08) returned to Cap.Zaspan
+Cap.Zaspan collected $0.14 from pot
+Cap.Zaspan: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [5h Th Ts]
+Seat 1: TankMurky folded before Flop (didn't bet)
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 3: Zapato41 (button) folded before Flop (didn't bet)
+Seat 4: pokerHero1 (small blind) folded before Flop
+Seat 5: kalafot (big blind) folded before Flop
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 7: UnholyFrog folded before Flop (didn't bet)
+Seat 8: georg484 folded on the Flop
+Seat 9: Cap.Zaspan collected ($0.14)
+
+
+
+PokerStars Hand #212511809611:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:52:17 ET
+Table 'Havnia IV' 9-max Seat #4 is the button
+Seat 1: TankMurky ($2.05 in chips)
+Seat 2: MeisterKnobi ($1.82 in chips)
+Seat 3: Zapato41 ($2 in chips)
+Seat 4: pokerHero1 ($1.98 in chips)
+Seat 5: kalafot ($1.78 in chips)
+Seat 6: id_kov ($1.80 in chips)
+Seat 7: UnholyFrog ($1.90 in chips)
+Seat 8: georg484 ($0.80 in chips)
+Seat 9: Cap.Zaspan ($2.11 in chips)
+kalafot: posts small blind $0.01
+id_kov: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9d 6h]
+UnholyFrog: folds
+georg484: folds
+Cap.Zaspan: folds
+TankMurky: calls $0.02
+georg484 leaves the table
+MeisterKnobi: folds
+Zapato41: folds
+pokerHero1: folds
+kalafot: calls $0.01
+id_kov: checks
+*** FLOP *** [2s Kh 9s]
+kalafot: checks
+id_kov: checks
+TankMurky: checks
+*** TURN *** [2s Kh 9s] [5d]
+notoriusARG9 joins the table at seat #8
+kalafot: checks
+id_kov: checks
+TankMurky: checks
+*** RIVER *** [2s Kh 9s 5d] [5h]
+kalafot: bets $0.06
+id_kov: calls $0.06
+TankMurky: folds
+*** SHOW DOWN ***
+kalafot: shows [3c 4c] (a pair of Fives)
+id_kov: shows [Kd 7h] (two pair, Kings and Fives)
+id_kov collected $0.17 from pot
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [2s Kh 9s 5d 5h]
+Seat 1: TankMurky folded on the River
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 3: Zapato41 folded before Flop (didn't bet)
+Seat 4: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 5: kalafot (small blind) showed [3c 4c] and lost with a pair of Fives
+Seat 6: id_kov (big blind) showed [Kd 7h] and won ($0.17) with two pair, Kings and Fives
+Seat 7: UnholyFrog folded before Flop (didn't bet)
+Seat 8: georg484 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511872886:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:53:26 ET
+Table 'Havnia IV' 9-max Seat #5 is the button
+Seat 1: TankMurky ($2.03 in chips)
+Seat 2: MeisterKnobi ($1.82 in chips)
+Seat 3: Zapato41 ($2 in chips)
+Seat 4: pokerHero1 ($1.98 in chips)
+Seat 5: kalafot ($1.70 in chips)
+Seat 6: id_kov ($1.89 in chips)
+Seat 7: UnholyFrog ($1.90 in chips)
+Seat 9: Cap.Zaspan ($2.11 in chips)
+id_kov: posts small blind $0.01
+UnholyFrog: posts big blind $0.02
+notoriusARG9: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac 5s]
+Cap.Zaspan: folds
+TankMurky: calls $0.02
+MeisterKnobi: folds
+Zapato41: folds
+pokerHero1: raises $0.08 to $0.10
+kalafot: folds
+id_kov: folds
+UnholyFrog: calls $0.08
+TankMurky: folds
+*** FLOP *** [7d Th Qd]
+UnholyFrog: checks
+pokerHero1: checks
+*** TURN *** [7d Th Qd] [2c]
+UnholyFrog: checks
+pokerHero1: checks
+*** RIVER *** [7d Th Qd 2c] [2d]
+UnholyFrog: checks
+pokerHero1: checks
+*** SHOW DOWN ***
+UnholyFrog: shows [As 4s] (a pair of Deuces)
+pokerHero1: shows [Ac 5s] (a pair of Deuces)
+UnholyFrog collected $0.11 from pot
+pokerHero1 collected $0.11 from pot
+*** SUMMARY ***
+Total pot $0.23 | Rake $0.01
+Board [7d Th Qd 2c 2d]
+Seat 1: TankMurky folded before Flop
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 3: Zapato41 folded before Flop (didn't bet)
+Seat 4: pokerHero1 showed [Ac 5s] and won ($0.11) with a pair of Deuces
+Seat 5: kalafot (button) folded before Flop (didn't bet)
+Seat 6: id_kov (small blind) folded before Flop
+Seat 7: UnholyFrog (big blind) showed [As 4s] and won ($0.11) with a pair of Deuces
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511930911:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:54:30 ET
+Table 'Havnia IV' 9-max Seat #6 is the button
+Seat 1: TankMurky ($2.01 in chips)
+Seat 2: MeisterKnobi ($1.82 in chips)
+Seat 3: Zapato41 ($2 in chips)
+Seat 4: pokerHero1 ($1.99 in chips)
+Seat 5: kalafot ($1.70 in chips)
+Seat 6: id_kov ($1.88 in chips)
+Seat 7: UnholyFrog ($1.91 in chips)
+Seat 8: notoriusARG9 ($2 in chips)
+Seat 9: Cap.Zaspan ($2.11 in chips)
+UnholyFrog: posts small blind $0.01
+notoriusARG9: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s 2h]
+Cap.Zaspan: folds
+TankMurky: folds
+MeisterKnobi: folds
+Zapato41: raises $0.04 to $0.06
+pokerHero1: folds
+kalafot: folds
+id_kov: folds
+UnholyFrog: calls $0.05
+notoriusARG9: calls $0.04
+*** FLOP *** [4s 9d Jc]
+UnholyFrog: bets $0.17
+notoriusARG9: folds
+Zapato41: raises $0.26 to $0.43
+UnholyFrog: folds
+Uncalled bet ($0.26) returned to Zapato41
+Zapato41 collected $0.50 from pot
+Zapato41: doesn't show hand
+*** SUMMARY ***
+Total pot $0.52 | Rake $0.02
+Board [4s 9d Jc]
+Seat 1: TankMurky folded before Flop (didn't bet)
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 3: Zapato41 collected ($0.50)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: id_kov (button) folded before Flop (didn't bet)
+Seat 7: UnholyFrog (small blind) folded on the Flop
+Seat 8: notoriusARG9 (big blind) folded on the Flop
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212511994483:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:55:53 ET
+Table 'Havnia IV' 9-max Seat #7 is the button
+Seat 1: TankMurky ($2.01 in chips)
+Seat 2: MeisterKnobi ($1.82 in chips)
+Seat 3: Zapato41 ($2.27 in chips)
+Seat 4: pokerHero1 ($1.99 in chips)
+Seat 5: kalafot ($1.70 in chips)
+Seat 6: id_kov ($1.88 in chips)
+Seat 7: UnholyFrog ($1.68 in chips)
+Seat 8: notoriusARG9 ($1.94 in chips)
+Seat 9: Cap.Zaspan ($2.11 in chips)
+notoriusARG9: posts small blind $0.01
+Cap.Zaspan: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5c 9h]
+TankMurky: folds
+MeisterKnobi: folds
+Zapato41: folds
+pokerHero1: folds
+kalafot: folds
+id_kov: raises $0.04 to $0.06
+UnholyFrog: folds
+notoriusARG9: folds
+Cap.Zaspan: calls $0.04
+*** FLOP *** [Td 9d 6c]
+Cap.Zaspan: checks
+id_kov: bets $0.10
+Cap.Zaspan: folds
+Uncalled bet ($0.10) returned to id_kov
+id_kov collected $0.13 from pot
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [Td 9d 6c]
+Seat 1: TankMurky folded before Flop (didn't bet)
+Seat 2: MeisterKnobi folded before Flop (didn't bet)
+Seat 3: Zapato41 folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: id_kov collected ($0.13)
+Seat 7: UnholyFrog (button) folded before Flop (didn't bet)
+Seat 8: notoriusARG9 (small blind) folded before Flop
+Seat 9: Cap.Zaspan (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212512017689:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:56:27 ET
+Table 'Havnia IV' 9-max Seat #8 is the button
+Seat 1: TankMurky ($2.01 in chips)
+Seat 2: MeisterKnobi ($1.82 in chips)
+Seat 3: Zapato41 ($2.27 in chips)
+Seat 4: pokerHero1 ($1.99 in chips)
+Seat 5: kalafot ($1.70 in chips)
+Seat 6: id_kov ($1.95 in chips)
+Seat 7: UnholyFrog ($1.68 in chips)
+Seat 8: notoriusARG9 ($1.93 in chips)
+Seat 9: Cap.Zaspan ($2.05 in chips)
+Cap.Zaspan: posts small blind $0.01
+TankMurky: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5c Th]
+MeisterKnobi: raises $0.02 to $0.04
+Zapato41: folds
+pokerHero1: folds
+kalafot: folds
+id_kov: folds
+UnholyFrog: folds
+notoriusARG9: folds
+Cap.Zaspan: folds
+TankMurky: folds
+Uncalled bet ($0.02) returned to MeisterKnobi
+MeisterKnobi collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: TankMurky (big blind) folded before Flop
+Seat 2: MeisterKnobi collected ($0.05)
+Seat 3: Zapato41 folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 7: UnholyFrog folded before Flop (didn't bet)
+Seat 8: notoriusARG9 (button) folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan (small blind) folded before Flop
+
+
+
+PokerStars Hand #212512040091:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:56:51 ET
+Table 'Havnia IV' 9-max Seat #9 is the button
+Seat 1: TankMurky ($2 in chips)
+Seat 2: MeisterKnobi ($1.85 in chips)
+Seat 3: Zapato41 ($2.27 in chips)
+Seat 4: pokerHero1 ($1.99 in chips)
+Seat 5: kalafot ($1.70 in chips)
+Seat 6: id_kov ($1.95 in chips)
+Seat 7: UnholyFrog ($1.68 in chips)
+Seat 8: notoriusARG9 ($1.93 in chips)
+Seat 9: Cap.Zaspan ($2.04 in chips)
+TankMurky: posts small blind $0.01
+MeisterKnobi: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c Ks]
+Zapato41: folds
+pokerHero1: folds
+kalafot: folds
+id_kov: folds
+UnholyFrog: raises $0.05 to $0.07
+notoriusARG9: folds
+Cap.Zaspan: calls $0.07
+TankMurky: folds
+MeisterKnobi: folds
+*** FLOP *** [9s Jd 4d]
+UnholyFrog: checks
+Cap.Zaspan: bets $0.08
+UnholyFrog: folds
+Uncalled bet ($0.08) returned to Cap.Zaspan
+Cap.Zaspan collected $0.16 from pot
+Cap.Zaspan: doesn't show hand
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [9s Jd 4d]
+Seat 1: TankMurky (small blind) folded before Flop
+Seat 2: MeisterKnobi (big blind) folded before Flop
+Seat 3: Zapato41 folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 7: UnholyFrog folded on the Flop
+Seat 8: notoriusARG9 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan (button) collected ($0.16)
+
+
+
+PokerStars Hand #212512081951:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:57:50 ET
+Table 'Havnia IV' 9-max Seat #1 is the button
+Seat 1: TankMurky ($2 in chips)
+Seat 2: MeisterKnobi ($1.83 in chips)
+Seat 3: Zapato41 ($2.27 in chips)
+Seat 4: pokerHero1 ($1.99 in chips)
+Seat 5: kalafot ($1.70 in chips)
+Seat 6: id_kov ($1.95 in chips)
+Seat 7: UnholyFrog ($1.61 in chips)
+Seat 8: notoriusARG9 ($1.93 in chips)
+Seat 9: Cap.Zaspan ($2.13 in chips)
+MeisterKnobi: posts small blind $0.01
+Zapato41: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2s 7d]
+pokerHero1: folds
+kalafot: folds
+id_kov: folds
+UnholyFrog has timed out
+UnholyFrog: folds
+notoriusARG9: raises $0.02 to $0.04
+Cap.Zaspan: folds
+TankMurky: folds
+MeisterKnobi: calls $0.03
+Zapato41: calls $0.02
+*** FLOP *** [Ad Qh 9c]
+MeisterKnobi: checks
+Zapato41: checks
+notoriusARG9: bets $0.06
+MeisterKnobi: folds
+Zapato41: folds
+Uncalled bet ($0.06) returned to notoriusARG9
+notoriusARG9 collected $0.12 from pot
+kalafot leaves the table
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Board [Ad Qh 9c]
+Seat 1: TankMurky (button) folded before Flop (didn't bet)
+Seat 2: MeisterKnobi (small blind) folded on the Flop
+Seat 3: Zapato41 (big blind) folded on the Flop
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: kalafot folded before Flop (didn't bet)
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 7: UnholyFrog folded before Flop (didn't bet)
+Seat 8: notoriusARG9 collected ($0.12)
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512122107:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:58:47 ET
+Table 'Havnia IV' 9-max Seat #2 is the button
+Seat 1: TankMurky ($2 in chips)
+Seat 2: MeisterKnobi ($1.79 in chips)
+Seat 3: Zapato41 ($2.23 in chips)
+Seat 4: pokerHero1 ($1.99 in chips)
+Seat 6: id_kov ($1.95 in chips)
+Seat 7: UnholyFrog ($1.61 in chips)
+Seat 8: notoriusARG9 ($2.01 in chips)
+Seat 9: Cap.Zaspan ($2.13 in chips)
+Zapato41: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc 6d]
+yjqian23 joins the table at seat #5
+id_kov: folds
+UnholyFrog: calls $0.02
+notoriusARG9: folds
+Cap.Zaspan: folds
+TankMurky: folds
+MeisterKnobi: folds
+MeisterKnobi leaves the table
+Zapato41: folds
+pokerHero1: checks
+*** FLOP *** [8d Ac 2s]
+pokerHero1: checks
+WooDoo-1968 joins the table at seat #2
+UnholyFrog: bets $0.05
+pokerHero1: folds
+Uncalled bet ($0.05) returned to UnholyFrog
+UnholyFrog collected $0.05 from pot
+UnholyFrog: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [8d Ac 2s]
+Seat 1: TankMurky folded before Flop (didn't bet)
+Seat 2: MeisterKnobi (button) folded before Flop (didn't bet)
+Seat 3: Zapato41 (small blind) folded before Flop
+Seat 4: pokerHero1 (big blind) folded on the Flop
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 7: UnholyFrog collected ($0.05)
+Seat 8: notoriusARG9 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512151203:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 12:59:28 ET
+Table 'Havnia IV' 9-max Seat #3 is the button
+Seat 1: TankMurky ($2 in chips)
+Seat 3: Zapato41 ($2.22 in chips)
+Seat 4: pokerHero1 ($1.97 in chips)
+Seat 5: yjqian23 ($2 in chips)
+Seat 6: id_kov ($1.95 in chips)
+Seat 7: UnholyFrog ($1.64 in chips)
+Seat 8: notoriusARG9 ($2.01 in chips)
+Seat 9: Cap.Zaspan ($2.13 in chips)
+pokerHero1: posts small blind $0.01
+yjqian23: posts big blind $0.02
+WooDoo-1968: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qs Tc]
+id_kov has timed out
+id_kov: folds
+UnholyFrog: folds
+notoriusARG9: folds
+Cap.Zaspan: folds
+TankMurky: raises $0.06 to $0.08
+Zapato41: folds
+pokerHero1: folds
+yjqian23: folds
+Uncalled bet ($0.06) returned to TankMurky
+TankMurky collected $0.05 from pot
+TankMurky: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: TankMurky collected ($0.05)
+Seat 3: Zapato41 (button) folded before Flop (didn't bet)
+Seat 4: pokerHero1 (small blind) folded before Flop
+Seat 5: yjqian23 (big blind) folded before Flop
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 7: UnholyFrog folded before Flop (didn't bet)
+Seat 8: notoriusARG9 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512175987:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:00:03 ET
+Table 'Havnia IV' 9-max Seat #4 is the button
+Seat 1: TankMurky ($2.03 in chips)
+Seat 3: Zapato41 ($2.22 in chips)
+Seat 4: pokerHero1 ($1.96 in chips)
+Seat 5: yjqian23 ($1.98 in chips)
+Seat 6: id_kov ($1.95 in chips)
+Seat 7: UnholyFrog ($1.64 in chips)
+Seat 8: notoriusARG9 ($2.01 in chips)
+Seat 9: Cap.Zaspan ($2.13 in chips)
+yjqian23: posts small blind $0.01
+id_kov: posts big blind $0.02
+WooDoo-1968: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qd Ah]
+UnholyFrog: folds
+notoriusARG9 has timed out
+notoriusARG9: folds
+Cap.Zaspan: folds
+TankMurky: folds
+Zapato41 has timed out
+Zapato41: folds
+pokerHero1: raises $0.06 to $0.08
+yjqian23: folds
+id_kov: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: TankMurky folded before Flop (didn't bet)
+Seat 3: Zapato41 folded before Flop (didn't bet)
+Seat 4: pokerHero1 (button) collected ($0.05)
+Seat 5: yjqian23 (small blind) folded before Flop
+Seat 6: id_kov (big blind) folded before Flop
+Seat 7: UnholyFrog folded before Flop (didn't bet)
+Seat 8: notoriusARG9 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512207944:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:00:44 ET
+Table 'Havnia IV' 9-max Seat #5 is the button
+Seat 1: TankMurky ($2.03 in chips)
+Seat 4: pokerHero1 ($1.99 in chips)
+Seat 5: yjqian23 ($1.97 in chips)
+Seat 6: id_kov ($1.93 in chips)
+Seat 7: UnholyFrog ($1.64 in chips)
+Seat 8: notoriusARG9 ($2.01 in chips)
+Seat 9: Cap.Zaspan ($2.13 in chips)
+Zapato41 leaves the table
+id_kov: posts small blind $0.01
+UnholyFrog: posts big blind $0.02
+WooDoo-1968: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d 9s]
+notoriusARG9: raises $0.02 to $0.04
+Cap.Zaspan: folds
+TankMurky: folds
+pokerHero1: folds
+stepancev58 joins the table at seat #3
+yjqian23: folds
+id_kov: folds
+UnholyFrog: folds
+Uncalled bet ($0.02) returned to notoriusARG9
+notoriusARG9 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: TankMurky folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: yjqian23 (button) folded before Flop (didn't bet)
+Seat 6: id_kov (small blind) folded before Flop
+Seat 7: UnholyFrog (big blind) folded before Flop
+Seat 8: notoriusARG9 collected ($0.05)
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512233088:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:01:07 ET
+Table 'Havnia IV' 9-max Seat #6 is the button
+Seat 1: TankMurky ($2.03 in chips)
+Seat 4: pokerHero1 ($1.99 in chips)
+Seat 5: yjqian23 ($1.97 in chips)
+Seat 6: id_kov ($1.92 in chips)
+Seat 7: UnholyFrog ($1.62 in chips)
+Seat 8: notoriusARG9 ($2.04 in chips)
+Seat 9: Cap.Zaspan ($2.13 in chips)
+UnholyFrog: posts small blind $0.01
+notoriusARG9: posts big blind $0.02
+WooDoo-1968: sits out
+stepancev58: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s 5h]
+Cap.Zaspan: folds
+TankMurky: folds
+pokerHero1: calls $0.02
+yjqian23: folds
+id_kov: folds
+UnholyFrog: calls $0.01
+notoriusARG9: checks
+*** FLOP *** [4h 9d 6d]
+UnholyFrog: bets $0.06
+notoriusARG9: folds
+pokerHero1: folds
+Uncalled bet ($0.06) returned to UnholyFrog
+UnholyFrog collected $0.06 from pot
+UnholyFrog: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [4h 9d 6d]
+Seat 1: TankMurky folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded on the Flop
+Seat 5: yjqian23 folded before Flop (didn't bet)
+Seat 6: id_kov (button) folded before Flop (didn't bet)
+Seat 7: UnholyFrog (small blind) collected ($0.06)
+Seat 8: notoriusARG9 (big blind) folded on the Flop
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512258751:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:01:38 ET
+Table 'Havnia IV' 9-max Seat #7 is the button
+Seat 1: TankMurky ($2.03 in chips)
+Seat 4: pokerHero1 ($1.97 in chips)
+Seat 5: yjqian23 ($1.97 in chips)
+Seat 6: id_kov ($1.92 in chips)
+Seat 7: UnholyFrog ($1.66 in chips)
+Seat 8: notoriusARG9 ($2.02 in chips)
+Seat 9: Cap.Zaspan ($2.13 in chips)
+notoriusARG9: posts small blind $0.01
+Cap.Zaspan: posts big blind $0.02
+WooDoo-1968: sits out
+stepancev58: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c 8h]
+TankMurky: folds
+pokerHero1: folds
+yjqian23: calls $0.02
+id_kov: folds
+UnholyFrog: folds
+notoriusARG9: calls $0.01
+Cap.Zaspan: checks
+*** FLOP *** [As 2d 8c]
+notoriusARG9: checks
+Cap.Zaspan: checks
+yjqian23: bets $0.02
+notoriusARG9: folds
+Cap.Zaspan: folds
+Uncalled bet ($0.02) returned to yjqian23
+yjqian23 collected $0.06 from pot
+yjqian23: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [As 2d 8c]
+Seat 1: TankMurky folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: yjqian23 collected ($0.06)
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 7: UnholyFrog (button) folded before Flop (didn't bet)
+Seat 8: notoriusARG9 (small blind) folded on the Flop
+Seat 9: Cap.Zaspan (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212512282554:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:02:04 ET
+Table 'Havnia IV' 9-max Seat #8 is the button
+Seat 2: WooDoo-1968 ($2 in chips)
+Seat 4: pokerHero1 ($1.97 in chips)
+Seat 5: yjqian23 ($2.01 in chips)
+Seat 6: id_kov ($1.92 in chips)
+Seat 7: UnholyFrog ($1.66 in chips)
+Seat 8: notoriusARG9 ($2 in chips)
+Seat 9: Cap.Zaspan ($2.11 in chips)
+Cap.Zaspan: posts small blind $0.01
+TankMurky: is sitting out
+WooDoo-1968: posts big blind $0.02
+stepancev58: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5h 5c]
+pokerHero1: calls $0.02
+yjqian23: folds
+yjqian23 leaves the table
+TankMurky leaves the table
+id_kov: folds
+UnholyFrog: raises $0.07 to $0.09
+notoriusARG9: calls $0.09
+Cap.Zaspan: folds
+WooDoo-1968: folds
+pokerHero1: calls $0.07
+*** FLOP *** [Kh Js Jh]
+derwood333 joins the table at seat #1
+pokerHero1: checks
+UnholyFrog: bets $0.29
+steve777333 joins the table at seat #5
+notoriusARG9: calls $0.29
+pokerHero1: folds
+*** TURN *** [Kh Js Jh] [Ac]
+UnholyFrog: bets $0.85
+notoriusARG9: folds
+Uncalled bet ($0.85) returned to UnholyFrog
+UnholyFrog collected $0.85 from pot
+UnholyFrog: doesn't show hand
+*** SUMMARY ***
+Total pot $0.88 | Rake $0.03
+Board [Kh Js Jh Ac]
+Seat 2: WooDoo-1968 (big blind) folded before Flop
+Seat 4: pokerHero1 folded on the Flop
+Seat 5: yjqian23 folded before Flop (didn't bet)
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 7: UnholyFrog collected ($0.85)
+Seat 8: notoriusARG9 (button) folded on the Turn
+Seat 9: Cap.Zaspan (small blind) folded before Flop
+
+
+
+PokerStars Hand #212512352136:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:03:20 ET
+Table 'Havnia IV' 9-max Seat #9 is the button
+Seat 2: WooDoo-1968 ($1.98 in chips)
+Seat 3: stepancev58 ($0.80 in chips)
+Seat 4: pokerHero1 ($1.88 in chips)
+Seat 6: id_kov ($1.92 in chips)
+Seat 7: UnholyFrog ($2.13 in chips)
+Seat 8: notoriusARG9 ($1.62 in chips)
+Seat 9: Cap.Zaspan ($2.10 in chips)
+WooDoo-1968: posts small blind $0.01
+stepancev58: posts big blind $0.02
+steve777333: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d 5c]
+pokerHero1: folds
+id_kov: folds
+UnholyFrog: folds
+notoriusARG9: raises $0.02 to $0.04
+Cap.Zaspan: folds
+WooDoo-1968: folds
+stepancev58: folds
+Uncalled bet ($0.02) returned to notoriusARG9
+notoriusARG9 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 2: WooDoo-1968 (small blind) folded before Flop
+Seat 3: stepancev58 (big blind) folded before Flop
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 7: UnholyFrog folded before Flop (didn't bet)
+Seat 8: notoriusARG9 collected ($0.05)
+Seat 9: Cap.Zaspan (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512369519:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:03:39 ET
+Table 'Havnia IV' 9-max Seat #2 is the button
+Seat 1: derwood333 ($2 in chips)
+Seat 2: WooDoo-1968 ($1.97 in chips)
+Seat 3: stepancev58 ($0.78 in chips)
+Seat 4: pokerHero1 ($1.88 in chips)
+Seat 6: id_kov ($1.92 in chips)
+Seat 7: UnholyFrog ($2.13 in chips)
+Seat 8: notoriusARG9 ($1.65 in chips)
+stepancev58: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+steve777333: sits out
+derwood333: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s 4h]
+id_kov: folds
+UnholyFrog: folds
+notoriusARG9: folds
+derwood333: raises $0.04 to $0.06
+WooDoo-1968: folds
+stepancev58: folds
+pokerHero1: folds
+Uncalled bet ($0.04) returned to derwood333
+derwood333 collected $0.05 from pot
+derwood333: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: derwood333 collected ($0.05)
+Seat 2: WooDoo-1968 (button) folded before Flop (didn't bet)
+Seat 3: stepancev58 (small blind) folded before Flop
+Seat 4: pokerHero1 (big blind) folded before Flop
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 7: UnholyFrog folded before Flop (didn't bet)
+Seat 8: notoriusARG9 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512388369:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:03:59 ET
+Table 'Havnia IV' 9-max Seat #3 is the button
+Seat 1: derwood333 ($2.03 in chips)
+Seat 2: WooDoo-1968 ($1.97 in chips)
+Seat 3: stepancev58 ($0.77 in chips)
+Seat 4: pokerHero1 ($1.86 in chips)
+Seat 5: steve777333 ($2 in chips)
+Seat 6: id_kov ($1.92 in chips)
+Seat 7: UnholyFrog ($2.13 in chips)
+Seat 8: notoriusARG9 ($1.65 in chips)
+pokerHero1: posts small blind $0.01
+steve777333: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th 6s]
+id_kov: folds
+UnholyFrog: folds
+notoriusARG9: raises $0.02 to $0.04
+derwood333: calls $0.04
+WooDoo-1968: folds
+stepancev58: folds
+pokerHero1: folds
+steve777333: folds
+*** FLOP *** [7d 5s Ad]
+notoriusARG9: bets $0.04
+derwood333: raises $0.04 to $0.08
+notoriusARG9: folds
+Uncalled bet ($0.04) returned to derwood333
+derwood333 collected $0.18 from pot
+derwood333: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [7d 5s Ad]
+Seat 1: derwood333 collected ($0.18)
+Seat 2: WooDoo-1968 folded before Flop (didn't bet)
+Seat 3: stepancev58 (button) folded before Flop (didn't bet)
+Seat 4: pokerHero1 (small blind) folded before Flop
+Seat 5: steve777333 (big blind) folded before Flop
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 7: UnholyFrog folded before Flop (didn't bet)
+Seat 8: notoriusARG9 folded on the Flop
+
+
+
+PokerStars Hand #212512417606:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:04:30 ET
+Table 'Havnia IV' 9-max Seat #4 is the button
+Seat 1: derwood333 ($2.13 in chips)
+Seat 2: WooDoo-1968 ($1.97 in chips)
+Seat 3: stepancev58 ($0.77 in chips)
+Seat 4: pokerHero1 ($1.85 in chips)
+Seat 5: steve777333 ($2 in chips)
+Seat 6: id_kov ($1.92 in chips)
+Seat 7: UnholyFrog ($2.13 in chips)
+Seat 8: notoriusARG9 ($1.57 in chips)
+steve777333: posts small blind $0.01
+id_kov: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc Qd]
+UnholyFrog: folds
+notoriusARG9: folds
+derwood333: folds
+WooDoo-1968: folds
+stepancev58: folds
+pokerHero1: raises $0.06 to $0.08
+steve777333: folds
+id_kov: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: derwood333 folded before Flop (didn't bet)
+Seat 2: WooDoo-1968 folded before Flop (didn't bet)
+Seat 3: stepancev58 folded before Flop (didn't bet)
+Seat 4: pokerHero1 (button) collected ($0.05)
+Seat 5: steve777333 (small blind) folded before Flop
+Seat 6: id_kov (big blind) folded before Flop
+Seat 7: UnholyFrog folded before Flop (didn't bet)
+Seat 8: notoriusARG9 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512452961:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:05:08 ET
+Table 'Havnia IV' 9-max Seat #5 is the button
+Seat 1: derwood333 ($2.13 in chips)
+Seat 2: WooDoo-1968 ($1.97 in chips)
+Seat 3: stepancev58 ($0.77 in chips)
+Seat 4: pokerHero1 ($1.88 in chips)
+Seat 5: steve777333 ($2 in chips)
+Seat 6: id_kov ($1.90 in chips)
+Seat 7: UnholyFrog ($2.13 in chips)
+Seat 8: notoriusARG9 ($1.57 in chips)
+id_kov: posts small blind $0.01
+UnholyFrog: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc As]
+notoriusARG9: folds
+derwood333: raises $0.04 to $0.06
+WooDoo-1968: calls $0.06
+stepancev58: folds
+pokerHero1: calls $0.06
+steve777333: folds
+id_kov: folds
+UnholyFrog: folds
+*** FLOP *** [4d 8h 7d]
+derwood333: bets $0.06
+WooDoo-1968: folds
+pokerHero1: raises $0.14 to $0.20
+derwood333: calls $0.14
+*** TURN *** [4d 8h 7d] [7h]
+derwood333: checks
+pokerHero1: checks
+*** RIVER *** [4d 8h 7d 7h] [Kh]
+derwood333: bets $0.30
+pokerHero1: folds
+Uncalled bet ($0.30) returned to derwood333
+derwood333 collected $0.59 from pot
+derwood333: doesn't show hand
+*** SUMMARY ***
+Total pot $0.61 | Rake $0.02
+Board [4d 8h 7d 7h Kh]
+Seat 1: derwood333 collected ($0.59)
+Seat 2: WooDoo-1968 folded on the Flop
+Seat 3: stepancev58 folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded on the River
+Seat 5: steve777333 (button) folded before Flop (didn't bet)
+Seat 6: id_kov (small blind) folded before Flop
+Seat 7: UnholyFrog (big blind) folded before Flop
+Seat 8: notoriusARG9 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512495187:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:05:50 ET
+Table 'Havnia IV' 9-max Seat #6 is the button
+Seat 1: derwood333 ($2.46 in chips)
+Seat 2: WooDoo-1968 ($1.91 in chips)
+Seat 3: stepancev58 ($0.77 in chips)
+Seat 4: pokerHero1 ($2 in chips)
+Seat 5: steve777333 ($2 in chips)
+Seat 6: id_kov ($1.89 in chips)
+Seat 7: UnholyFrog ($2.11 in chips)
+Seat 8: notoriusARG9 ($1.57 in chips)
+UnholyFrog: posts small blind $0.01
+notoriusARG9: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qs Js]
+derwood333: calls $0.02
+WooDoo-1968: folds
+stepancev58: folds
+pokerHero1: raises $0.06 to $0.08
+steve777333: folds
+id_kov: folds
+UnholyFrog: folds
+notoriusARG9: folds
+derwood333: calls $0.06
+*** FLOP *** [Kh 7d As]
+derwood333: checks
+pokerHero1: checks
+*** TURN *** [Kh 7d As] [5d]
+derwood333: bets $0.09
+pokerHero1: folds
+Uncalled bet ($0.09) returned to derwood333
+derwood333 collected $0.18 from pot
+derwood333: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [Kh 7d As 5d]
+Seat 1: derwood333 collected ($0.18)
+Seat 2: WooDoo-1968 folded before Flop (didn't bet)
+Seat 3: stepancev58 folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded on the Turn
+Seat 5: steve777333 folded before Flop (didn't bet)
+Seat 6: id_kov (button) folded before Flop (didn't bet)
+Seat 7: UnholyFrog (small blind) folded before Flop
+Seat 8: notoriusARG9 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212512542522:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:06:36 ET
+Table 'Havnia IV' 9-max Seat #7 is the button
+Seat 1: derwood333 ($2.56 in chips)
+Seat 2: WooDoo-1968 ($1.91 in chips)
+Seat 3: stepancev58 ($0.77 in chips)
+Seat 4: pokerHero1 ($1.92 in chips)
+Seat 5: steve777333 ($2 in chips)
+Seat 6: id_kov ($1.89 in chips)
+Seat 7: UnholyFrog ($2.10 in chips)
+Seat 8: notoriusARG9 ($1.55 in chips)
+notoriusARG9: posts small blind $0.01
+derwood333: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7h 9d]
+WooDoo-1968: folds
+stepancev58 has timed out
+stepancev58: folds
+pokerHero1: folds
+steve777333: folds
+id_kov: folds
+UnholyFrog: folds
+notoriusARG9: raises $0.04 to $0.06
+derwood333: folds
+Uncalled bet ($0.04) returned to notoriusARG9
+notoriusARG9 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 1: derwood333 (big blind) folded before Flop
+Seat 2: WooDoo-1968 folded before Flop (didn't bet)
+Seat 3: stepancev58 folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: steve777333 folded before Flop (didn't bet)
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 7: UnholyFrog (button) folded before Flop (didn't bet)
+Seat 8: notoriusARG9 (small blind) collected ($0.04)
+
+
+
+PokerStars Hand #212512574215:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:07:08 ET
+Table 'Havnia IV' 9-max Seat #8 is the button
+Seat 1: derwood333 ($2.54 in chips)
+Seat 2: WooDoo-1968 ($1.91 in chips)
+Seat 4: pokerHero1 ($1.92 in chips)
+Seat 5: steve777333 ($2 in chips)
+Seat 6: id_kov ($1.89 in chips)
+Seat 7: UnholyFrog ($2.10 in chips)
+Seat 8: notoriusARG9 ($1.57 in chips)
+derwood333: posts small blind $0.01
+WooDoo-1968: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9h 7h]
+pokerHero1: folds
+steve777333: folds
+id_kov has timed out
+id_kov: folds
+UnholyFrog: folds
+notoriusARG9: folds
+derwood333: calls $0.01
+WooDoo-1968: checks
+*** FLOP *** [Ts Kd 5s]
+derwood333: bets $0.02
+WooDoo-1968: calls $0.02
+*** TURN *** [Ts Kd 5s] [Th]
+derwood333: checks
+WooDoo-1968: checks
+*** RIVER *** [Ts Kd 5s Th] [As]
+derwood333: bets $0.04
+WooDoo-1968: calls $0.04
+*** SHOW DOWN ***
+derwood333: shows [4s 7s] (a flush, Ace high)
+WooDoo-1968: mucks hand
+derwood333 collected $0.15 from pot
+*** SUMMARY ***
+Total pot $0.16 | Rake $0.01
+Board [Ts Kd 5s Th As]
+Seat 1: derwood333 (small blind) showed [4s 7s] and won ($0.15) with a flush, Ace high
+Seat 2: WooDoo-1968 (big blind) mucked [Ks Jc]
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: steve777333 folded before Flop (didn't bet)
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 7: UnholyFrog folded before Flop (didn't bet)
+Seat 8: notoriusARG9 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512616210:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:07:50 ET
+Table 'Havnia IV' 9-max Seat #1 is the button
+Seat 1: derwood333 ($2.61 in chips)
+Seat 2: WooDoo-1968 ($1.83 in chips)
+Seat 3: stepancev58 ($0.77 in chips)
+Seat 4: pokerHero1 ($1.92 in chips)
+Seat 5: steve777333 ($2 in chips)
+Seat 7: UnholyFrog ($2.10 in chips)
+Seat 8: notoriusARG9 ($1.57 in chips)
+WooDoo-1968: posts small blind $0.01
+stepancev58: posts big blind $0.02
+Cap.Zaspan: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6h 7s]
+pokerHero1: folds
+steve777333: folds
+UnholyFrog: folds
+notoriusARG9: raises $0.04 to $0.06
+derwood333: folds
+WooDoo-1968: folds
+stepancev58: folds
+Uncalled bet ($0.04) returned to notoriusARG9
+notoriusARG9 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: derwood333 (button) folded before Flop (didn't bet)
+Seat 2: WooDoo-1968 (small blind) folded before Flop
+Seat 3: stepancev58 (big blind) folded before Flop
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: steve777333 folded before Flop (didn't bet)
+Seat 7: UnholyFrog folded before Flop (didn't bet)
+Seat 8: notoriusARG9 collected ($0.05)
+
+
+
+PokerStars Hand #212512638131:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:08:12 ET
+Table 'Havnia IV' 9-max Seat #2 is the button
+Seat 1: derwood333 ($2.61 in chips)
+Seat 2: WooDoo-1968 ($1.82 in chips)
+Seat 3: stepancev58 ($0.75 in chips)
+Seat 4: pokerHero1 ($1.92 in chips)
+Seat 5: steve777333 ($2 in chips)
+Seat 6: id_kov ($1.89 in chips)
+Seat 7: UnholyFrog ($2.10 in chips)
+Seat 8: notoriusARG9 ($1.60 in chips)
+stepancev58: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+Cap.Zaspan: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h 8s]
+steve777333: folds
+id_kov: folds
+UnholyFrog: folds
+notoriusARG9: folds
+derwood333: folds
+WooDoo-1968: folds
+stepancev58: folds
+Uncalled bet ($0.01) returned to pokerHero1
+pokerHero1 collected $0.02 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: derwood333 folded before Flop (didn't bet)
+Seat 2: WooDoo-1968 (button) folded before Flop (didn't bet)
+Seat 3: stepancev58 (small blind) folded before Flop
+Seat 4: pokerHero1 (big blind) collected ($0.02)
+Seat 5: steve777333 folded before Flop (didn't bet)
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 7: UnholyFrog folded before Flop (didn't bet)
+Seat 8: notoriusARG9 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512668794:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:08:44 ET
+Table 'Havnia IV' 9-max Seat #3 is the button
+Seat 1: derwood333 ($2.61 in chips)
+Seat 2: WooDoo-1968 ($1.82 in chips)
+Seat 3: stepancev58 ($0.74 in chips)
+Seat 4: pokerHero1 ($1.93 in chips)
+Seat 5: steve777333 ($2 in chips)
+Seat 6: id_kov ($1.89 in chips)
+Seat 7: UnholyFrog ($2.10 in chips)
+Seat 8: notoriusARG9 ($1.60 in chips)
+pokerHero1: posts small blind $0.01
+steve777333: posts big blind $0.02
+Cap.Zaspan: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac 5c]
+id_kov: folds
+UnholyFrog: folds
+notoriusARG9: folds
+derwood333: folds
+WooDoo-1968: folds
+stepancev58: folds
+pokerHero1: calls $0.01
+steve777333: raises $0.05 to $0.07
+pokerHero1: folds
+Uncalled bet ($0.05) returned to steve777333
+steve777333 collected $0.04 from pot
+steve777333: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 1: derwood333 folded before Flop (didn't bet)
+Seat 2: WooDoo-1968 folded before Flop (didn't bet)
+Seat 3: stepancev58 (button) folded before Flop (didn't bet)
+Seat 4: pokerHero1 (small blind) folded before Flop
+Seat 5: steve777333 (big blind) collected ($0.04)
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 7: UnholyFrog folded before Flop (didn't bet)
+Seat 8: notoriusARG9 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512695307:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:09:11 ET
+Table 'Havnia IV' 9-max Seat #4 is the button
+Seat 1: derwood333 ($2.61 in chips)
+Seat 2: WooDoo-1968 ($1.82 in chips)
+Seat 3: stepancev58 ($0.74 in chips)
+Seat 4: pokerHero1 ($1.91 in chips)
+Seat 5: steve777333 ($2.02 in chips)
+Seat 6: id_kov ($1.89 in chips)
+Seat 7: UnholyFrog ($2.10 in chips)
+Seat 8: notoriusARG9 ($1.60 in chips)
+steve777333: posts small blind $0.01
+id_kov: posts big blind $0.02
+Cap.Zaspan: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8h 6h]
+UnholyFrog: folds
+notoriusARG9: folds
+derwood333: folds
+WooDoo-1968: folds
+stepancev58: folds
+pokerHero1: folds
+steve777333: raises $0.05 to $0.07
+id_kov: folds
+Uncalled bet ($0.05) returned to steve777333
+steve777333 collected $0.04 from pot
+steve777333: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 1: derwood333 folded before Flop (didn't bet)
+Seat 2: WooDoo-1968 folded before Flop (didn't bet)
+Seat 3: stepancev58 folded before Flop (didn't bet)
+Seat 4: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 5: steve777333 (small blind) collected ($0.04)
+Seat 6: id_kov (big blind) folded before Flop
+Seat 7: UnholyFrog folded before Flop (didn't bet)
+Seat 8: notoriusARG9 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512714958:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:09:31 ET
+Table 'Havnia IV' 9-max Seat #5 is the button
+Seat 1: derwood333 ($2.61 in chips)
+Seat 2: WooDoo-1968 ($1.82 in chips)
+Seat 3: stepancev58 ($0.74 in chips)
+Seat 4: pokerHero1 ($1.91 in chips)
+Seat 5: steve777333 ($2.04 in chips)
+Seat 6: id_kov ($1.87 in chips)
+Seat 7: UnholyFrog ($2.10 in chips)
+Seat 8: notoriusARG9 ($1.60 in chips)
+id_kov: posts small blind $0.01
+UnholyFrog: posts big blind $0.02
+Cap.Zaspan: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9h 4s]
+notoriusARG9: raises $0.02 to $0.04
+derwood333: folds
+WooDoo-1968: calls $0.04
+stepancev58: calls $0.04
+pokerHero1: folds
+steve777333: folds
+id_kov: folds
+UnholyFrog: folds
+*** FLOP *** [Ts 5c Kc]
+notoriusARG9: bets $0.05
+WooDoo-1968: folds
+stepancev58: folds
+Uncalled bet ($0.05) returned to notoriusARG9
+notoriusARG9 collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [Ts 5c Kc]
+Seat 1: derwood333 folded before Flop (didn't bet)
+Seat 2: WooDoo-1968 folded on the Flop
+Seat 3: stepancev58 folded on the Flop
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: steve777333 (button) folded before Flop (didn't bet)
+Seat 6: id_kov (small blind) folded before Flop
+Seat 7: UnholyFrog (big blind) folded before Flop
+Seat 8: notoriusARG9 collected ($0.14)
+
+
+
+PokerStars Hand #212512767979:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:10:26 ET
+Table 'Havnia IV' 9-max Seat #6 is the button
+Seat 1: derwood333 ($2.61 in chips)
+Seat 2: WooDoo-1968 ($1.78 in chips)
+Seat 3: stepancev58 ($0.70 in chips)
+Seat 4: pokerHero1 ($1.91 in chips)
+Seat 5: steve777333 ($2.04 in chips)
+Seat 6: id_kov ($1.86 in chips)
+Seat 8: notoriusARG9 ($1.70 in chips)
+Seat 9: Cap.Zaspan ($2.10 in chips)
+notoriusARG9: posts small blind $0.01
+Cap.Zaspan: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d As]
+derwood333: raises $0.02 to $0.04
+WooDoo-1968: folds
+stepancev58: folds
+pokerHero1: folds
+steve777333: folds
+id_kov: folds
+notoriusARG9: folds
+Cap.Zaspan: folds
+Uncalled bet ($0.02) returned to derwood333
+derwood333 collected $0.05 from pot
+derwood333: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: derwood333 collected ($0.05)
+Seat 2: WooDoo-1968 folded before Flop (didn't bet)
+Seat 3: stepancev58 folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: steve777333 folded before Flop (didn't bet)
+Seat 6: id_kov (button) folded before Flop (didn't bet)
+Seat 8: notoriusARG9 (small blind) folded before Flop
+Seat 9: Cap.Zaspan (big blind) folded before Flop
+
+
+
+PokerStars Hand #212512785599:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:10:44 ET
+Table 'Havnia IV' 9-max Seat #8 is the button
+Seat 1: derwood333 ($2.64 in chips)
+Seat 2: WooDoo-1968 ($1.78 in chips)
+Seat 3: stepancev58 ($0.70 in chips)
+Seat 4: pokerHero1 ($1.91 in chips)
+Seat 5: steve777333 ($2.04 in chips)
+Seat 6: id_kov ($1.86 in chips)
+Seat 8: notoriusARG9 ($1.69 in chips)
+Seat 9: Cap.Zaspan ($2.08 in chips)
+Cap.Zaspan: posts small blind $0.01
+derwood333: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8s 3s]
+WooDoo-1968: calls $0.02
+stepancev58: calls $0.02
+pokerHero1: folds
+steve777333: folds
+id_kov: folds
+UnholyFrog leaves the table
+notoriusARG9: raises $0.04 to $0.06
+Cap.Zaspan: folds
+derwood333: calls $0.04
+WooDoo-1968: calls $0.04
+stepancev58: calls $0.04
+*** FLOP *** [Kd 9c 2d]
+derwood333: checks
+WooDoo-1968: checks
+stepancev58: checks
+notoriusARG9: bets $0.16
+derwood333: folds
+WooDoo-1968: folds
+stepancev58: folds
+Uncalled bet ($0.16) returned to notoriusARG9
+notoriusARG9 collected $0.24 from pot
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.01
+Board [Kd 9c 2d]
+Seat 1: derwood333 (big blind) folded on the Flop
+Seat 2: WooDoo-1968 folded on the Flop
+Seat 3: stepancev58 folded on the Flop
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: steve777333 folded before Flop (didn't bet)
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 8: notoriusARG9 (button) collected ($0.24)
+Seat 9: Cap.Zaspan (small blind) folded before Flop
+
+
+
+PokerStars Hand #212512836079:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:11:36 ET
+Table 'Havnia IV' 9-max Seat #9 is the button
+Seat 1: derwood333 ($2.58 in chips)
+Seat 2: WooDoo-1968 ($1.72 in chips)
+Seat 3: stepancev58 ($0.64 in chips)
+Seat 4: pokerHero1 ($1.91 in chips)
+Seat 5: steve777333 ($2.04 in chips)
+Seat 6: id_kov ($1.86 in chips)
+Seat 8: notoriusARG9 ($1.87 in chips)
+Seat 9: Cap.Zaspan ($2.07 in chips)
+derwood333: posts small blind $0.01
+WooDoo-1968: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad 3s]
+stepancev58: folds
+pokerHero1: folds
+steve777333: folds
+id_kov: folds
+notoriusARG9: folds
+Cap.Zaspan: folds
+derwood333: calls $0.01
+WooDoo-1968: checks
+*** FLOP *** [3d 4s 8d]
+derwood333: bets $0.02
+WooDoo-1968: folds
+Uncalled bet ($0.02) returned to derwood333
+derwood333 collected $0.04 from pot
+derwood333: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [3d 4s 8d]
+Seat 1: derwood333 (small blind) collected ($0.04)
+Seat 2: WooDoo-1968 (big blind) folded on the Flop
+Seat 3: stepancev58 folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: steve777333 folded before Flop (didn't bet)
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 8: notoriusARG9 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512859827:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:12:00 ET
+Table 'Havnia IV' 9-max Seat #1 is the button
+Seat 1: derwood333 ($2.60 in chips)
+Seat 2: WooDoo-1968 ($1.70 in chips)
+Seat 3: stepancev58 ($0.64 in chips)
+Seat 4: pokerHero1 ($1.91 in chips)
+Seat 5: steve777333 ($2.04 in chips)
+Seat 6: id_kov ($1.86 in chips)
+Seat 8: notoriusARG9 ($1.87 in chips)
+Seat 9: Cap.Zaspan ($2.07 in chips)
+WooDoo-1968: posts small blind $0.01
+stepancev58: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd Kd]
+pokerHero1: raises $0.06 to $0.08
+Baker565 joins the table at seat #7
+steve777333: folds
+id_kov: folds
+notoriusARG9: folds
+Cap.Zaspan: folds
+derwood333: folds
+WooDoo-1968: folds
+stepancev58: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: derwood333 (button) folded before Flop (didn't bet)
+Seat 2: WooDoo-1968 (small blind) folded before Flop
+Seat 3: stepancev58 (big blind) folded before Flop
+Seat 4: pokerHero1 collected ($0.05)
+Seat 5: steve777333 folded before Flop (didn't bet)
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 8: notoriusARG9 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512878563:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:12:20 ET
+Table 'Havnia IV' 9-max Seat #2 is the button
+Seat 1: derwood333 ($2.60 in chips)
+Seat 2: WooDoo-1968 ($1.69 in chips)
+Seat 3: stepancev58 ($0.62 in chips)
+Seat 4: pokerHero1 ($1.94 in chips)
+Seat 5: steve777333 ($2.04 in chips)
+Seat 6: id_kov ($1.86 in chips)
+Seat 7: Baker565 ($1.60 in chips)
+Seat 8: notoriusARG9 ($1.87 in chips)
+Seat 9: Cap.Zaspan ($2.07 in chips)
+stepancev58: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+Baker565: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4h 4d]
+steve777333: folds
+id_kov: raises $0.02 to $0.04
+Baker565: folds
+notoriusARG9: calls $0.04
+Cap.Zaspan: folds
+derwood333: folds
+WooDoo-1968: folds
+stepancev58: folds
+pokerHero1: calls $0.02
+*** FLOP *** [Ts 2h 8s]
+pokerHero1: checks
+id_kov: checks
+notoriusARG9: checks
+*** TURN *** [Ts 2h 8s] [Ac]
+pokerHero1: checks
+id_kov: checks
+notoriusARG9: bets $0.04
+pokerHero1: folds
+id_kov: folds
+Uncalled bet ($0.04) returned to notoriusARG9
+notoriusARG9 collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [Ts 2h 8s Ac]
+Seat 1: derwood333 folded before Flop (didn't bet)
+Seat 2: WooDoo-1968 (button) folded before Flop (didn't bet)
+Seat 3: stepancev58 (small blind) folded before Flop
+Seat 4: pokerHero1 (big blind) folded on the Turn
+Seat 5: steve777333 folded before Flop (didn't bet)
+Seat 6: id_kov folded on the Turn
+Seat 7: Baker565 folded before Flop (didn't bet)
+Seat 8: notoriusARG9 collected ($0.14)
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512938100:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:13:21 ET
+Table 'Havnia IV' 9-max Seat #3 is the button
+Seat 1: derwood333 ($2.60 in chips)
+Seat 2: WooDoo-1968 ($1.69 in chips)
+Seat 3: stepancev58 ($0.61 in chips)
+Seat 4: pokerHero1 ($1.90 in chips)
+Seat 6: id_kov ($1.82 in chips)
+Seat 7: Baker565 ($1.58 in chips)
+Seat 8: notoriusARG9 ($1.97 in chips)
+Seat 9: Cap.Zaspan ($2.07 in chips)
+pokerHero1: posts small blind $0.01
+steve777333: is sitting out
+id_kov: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js 3h]
+steve777333 leaves the table
+Baker565: folds
+lebydev joins the table at seat #5
+notoriusARG9: folds
+Cap.Zaspan: folds
+derwood333: folds
+WooDoo-1968: calls $0.02
+stepancev58: calls $0.02
+pokerHero1: folds
+id_kov: checks
+*** FLOP *** [Tc 8d Ks]
+id_kov: checks
+WooDoo-1968: bets $0.07
+stepancev58: folds
+id_kov: folds
+Uncalled bet ($0.07) returned to WooDoo-1968
+WooDoo-1968 collected $0.07 from pot
+WooDoo-1968: doesn't show hand
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Board [Tc 8d Ks]
+Seat 1: derwood333 folded before Flop (didn't bet)
+Seat 2: WooDoo-1968 collected ($0.07)
+Seat 3: stepancev58 (button) folded on the Flop
+Seat 4: pokerHero1 (small blind) folded before Flop
+Seat 6: id_kov (big blind) folded on the Flop
+Seat 7: Baker565 folded before Flop (didn't bet)
+Seat 8: notoriusARG9 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212512978927:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:13:59 ET
+Table 'Havnia IV' 9-max Seat #4 is the button
+Seat 1: derwood333 ($2.60 in chips)
+Seat 2: WooDoo-1968 ($1.74 in chips)
+Seat 3: stepancev58 ($0.59 in chips)
+Seat 4: pokerHero1 ($1.89 in chips)
+Seat 6: id_kov ($1.80 in chips)
+Seat 7: Baker565 ($1.58 in chips)
+Seat 8: notoriusARG9 ($1.97 in chips)
+Seat 9: Cap.Zaspan ($2.07 in chips)
+id_kov: posts small blind $0.01
+Baker565: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s 6c]
+notoriusARG9: folds
+Cap.Zaspan: folds
+derwood333: calls $0.02
+WooDoo-1968: folds
+stepancev58: folds
+pokerHero1: folds
+id_kov: folds
+Baker565: checks
+*** FLOP *** [6s 9d Jc]
+Baker565: checks
+derwood333: bets $0.02
+Baker565: folds
+Uncalled bet ($0.02) returned to derwood333
+derwood333 collected $0.05 from pot
+derwood333: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [6s 9d Jc]
+Seat 1: derwood333 collected ($0.05)
+Seat 2: WooDoo-1968 folded before Flop (didn't bet)
+Seat 3: stepancev58 folded before Flop (didn't bet)
+Seat 4: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 6: id_kov (small blind) folded before Flop
+Seat 7: Baker565 (big blind) folded on the Flop
+Seat 8: notoriusARG9 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513020751:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:14:43 ET
+Table 'Havnia IV' 9-max Seat #6 is the button
+Seat 1: derwood333 ($2.63 in chips)
+Seat 2: WooDoo-1968 ($1.74 in chips)
+Seat 3: stepancev58 ($0.59 in chips)
+Seat 4: pokerHero1 ($1.89 in chips)
+Seat 5: lebydev ($2 in chips)
+Seat 6: id_kov ($1.79 in chips)
+Seat 7: Baker565 ($1.56 in chips)
+Seat 8: notoriusARG9 ($1.97 in chips)
+Seat 9: Cap.Zaspan ($2.07 in chips)
+Baker565: posts small blind $0.01
+notoriusARG9: posts big blind $0.02
+lebydev: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9h 8c]
+Cap.Zaspan: folds
+derwood333: calls $0.02
+WooDoo-1968: folds
+stepancev58: raises $0.04 to $0.06
+pokerHero1: folds
+lebydev: folds
+id_kov has timed out
+id_kov: folds
+Baker565: calls $0.05
+notoriusARG9: calls $0.04
+derwood333: calls $0.04
+*** FLOP *** [Td Qh 8h]
+Baker565: bets $0.13
+notoriusARG9: calls $0.13
+derwood333: calls $0.13
+stepancev58: raises $0.40 to $0.53 and is all-in
+Baker565: calls $0.40
+notoriusARG9: folds
+derwood333: folds
+*** TURN *** [Td Qh 8h] [Th]
+*** RIVER *** [Td Qh 8h Th] [4c]
+*** SHOW DOWN ***
+Baker565: shows [Jh Qs] (two pair, Queens and Tens)
+stepancev58: shows [Ad Ah] (two pair, Aces and Tens)
+stepancev58 collected $1.52 from pot
+*** SUMMARY ***
+Total pot $1.58 | Rake $0.06
+Board [Td Qh 8h Th 4c]
+Seat 1: derwood333 folded on the Flop
+Seat 2: WooDoo-1968 folded before Flop (didn't bet)
+Seat 3: stepancev58 showed [Ad Ah] and won ($1.52) with two pair, Aces and Tens
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: lebydev folded before Flop (didn't bet)
+Seat 6: id_kov (button) folded before Flop (didn't bet)
+Seat 7: Baker565 (small blind) showed [Jh Qs] and lost with two pair, Queens and Tens
+Seat 8: notoriusARG9 (big blind) folded on the Flop
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513137725:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:16:44 ET
+Table 'Havnia IV' 9-max Seat #7 is the button
+Seat 1: derwood333 ($2.44 in chips)
+Seat 2: WooDoo-1968 ($1.74 in chips)
+Seat 3: stepancev58 ($1.52 in chips)
+Seat 4: pokerHero1 ($1.89 in chips)
+Seat 5: lebydev ($1.98 in chips)
+Seat 6: id_kov ($1.79 in chips)
+Seat 7: Baker565 ($0.97 in chips)
+Seat 8: notoriusARG9 ($1.78 in chips)
+Seat 9: Cap.Zaspan ($2.07 in chips)
+notoriusARG9: posts small blind $0.01
+Cap.Zaspan: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c 4h]
+derwood333: raises $0.04 to $0.06
+WooDoo-1968: folds
+stepancev58: folds
+pokerHero1: calls $0.06
+lebydev: folds
+id_kov: raises $0.14 to $0.20
+Baker565: folds
+notoriusARG9: folds
+Cap.Zaspan: folds
+derwood333: calls $0.14
+pokerHero1: folds
+*** FLOP *** [Td Jd 9s]
+Baker565 leaves the table
+derwood333: bets $0.18
+id_kov: calls $0.18
+*** TURN *** [Td Jd 9s] [8c]
+rmann24 joins the table at seat #7
+derwood333: bets $0.32
+id_kov: folds
+Uncalled bet ($0.32) returned to derwood333
+derwood333 collected $0.82 from pot
+derwood333: doesn't show hand
+*** SUMMARY ***
+Total pot $0.85 | Rake $0.03
+Board [Td Jd 9s 8c]
+Seat 1: derwood333 collected ($0.82)
+Seat 2: WooDoo-1968 folded before Flop (didn't bet)
+Seat 3: stepancev58 folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop
+Seat 5: lebydev folded before Flop (didn't bet)
+Seat 6: id_kov folded on the Turn
+Seat 7: Baker565 (button) folded before Flop (didn't bet)
+Seat 8: notoriusARG9 (small blind) folded before Flop
+Seat 9: Cap.Zaspan (big blind) folded before Flop
+
+
+
+PokerStars Hand #212513192001:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:17:40 ET
+Table 'Havnia IV' 9-max Seat #8 is the button
+Seat 1: derwood333 ($2.88 in chips)
+Seat 2: WooDoo-1968 ($1.74 in chips)
+Seat 3: stepancev58 ($1.52 in chips)
+Seat 4: pokerHero1 ($1.83 in chips)
+Seat 5: lebydev ($1.98 in chips)
+Seat 6: id_kov ($1.41 in chips)
+Seat 8: notoriusARG9 ($1.77 in chips)
+Seat 9: Cap.Zaspan ($2.05 in chips)
+Cap.Zaspan: posts small blind $0.01
+derwood333: posts big blind $0.02
+rmann24: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d 6s]
+WooDoo-1968: folds
+stepancev58: folds
+pokerHero1: folds
+lebydev: folds
+id_kov: raises $0.04 to $0.06
+notoriusARG9: folds
+Cap.Zaspan: calls $0.05
+derwood333: calls $0.04
+*** FLOP *** [5c Kc Kh]
+Cap.Zaspan: checks
+derwood333: checks
+id_kov: checks
+*** TURN *** [5c Kc Kh] [Jh]
+Cap.Zaspan: checks
+derwood333: bets $0.06
+id_kov: folds
+Cap.Zaspan: folds
+Uncalled bet ($0.06) returned to derwood333
+derwood333 collected $0.17 from pot
+derwood333: doesn't show hand
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [5c Kc Kh Jh]
+Seat 1: derwood333 (big blind) collected ($0.17)
+Seat 2: WooDoo-1968 folded before Flop (didn't bet)
+Seat 3: stepancev58 folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: lebydev folded before Flop (didn't bet)
+Seat 6: id_kov folded on the Turn
+Seat 8: notoriusARG9 (button) folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan (small blind) folded on the Turn
+
+
+
+PokerStars Hand #212513240028:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:18:22 ET
+Table 'Havnia IV' 9-max Seat #9 is the button
+Seat 1: derwood333 ($2.99 in chips)
+Seat 2: WooDoo-1968 ($1.74 in chips)
+Seat 3: stepancev58 ($1.52 in chips)
+Seat 4: pokerHero1 ($1.83 in chips)
+Seat 5: lebydev ($1.98 in chips)
+Seat 6: id_kov ($1.35 in chips)
+Seat 8: notoriusARG9 ($1.77 in chips)
+Seat 9: Cap.Zaspan ($1.99 in chips)
+derwood333: posts small blind $0.01
+WooDoo-1968: posts big blind $0.02
+rmann24: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9d 3h]
+stepancev58 has timed out
+stepancev58: folds
+pokerHero1: folds
+lebydev: calls $0.02
+id_kov: folds
+notoriusARG9: folds
+Cap.Zaspan: folds
+derwood333: raises $0.04 to $0.06
+WooDoo-1968: folds
+lebydev: calls $0.04
+*** FLOP *** [3s 5s Jh]
+derwood333: bets $0.07
+stepancev58 leaves the table
+lebydev: folds
+Uncalled bet ($0.07) returned to derwood333
+derwood333 collected $0.14 from pot
+derwood333: doesn't show hand
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [3s 5s Jh]
+Seat 1: derwood333 (small blind) collected ($0.14)
+Seat 2: WooDoo-1968 (big blind) folded before Flop
+Seat 3: stepancev58 folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: lebydev folded on the Flop
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 8: notoriusARG9 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513271921:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:18:55 ET
+Table 'Havnia IV' 9-max Seat #1 is the button
+Seat 1: derwood333 ($3.07 in chips)
+Seat 2: WooDoo-1968 ($1.72 in chips)
+Seat 4: pokerHero1 ($1.83 in chips)
+Seat 5: lebydev ($1.92 in chips)
+Seat 6: id_kov ($1.35 in chips)
+Seat 8: notoriusARG9 ($1.77 in chips)
+Seat 9: Cap.Zaspan ($1.99 in chips)
+WooDoo-1968: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+rmann24: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h Qh]
+demon200988 joins the table at seat #3
+lebydev: calls $0.02
+id_kov: folds
+notoriusARG9: folds
+Cap.Zaspan: folds
+derwood333: calls $0.02
+WooDoo-1968: folds
+pokerHero1: checks
+*** FLOP *** [5c 6d 3s]
+pokerHero1: checks
+lebydev: bets $0.02
+derwood333: folds
+pokerHero1: folds
+Uncalled bet ($0.02) returned to lebydev
+lebydev collected $0.07 from pot
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Board [5c 6d 3s]
+Seat 1: derwood333 (button) folded on the Flop
+Seat 2: WooDoo-1968 (small blind) folded before Flop
+Seat 4: pokerHero1 (big blind) folded on the Flop
+Seat 5: lebydev collected ($0.07)
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 8: notoriusARG9 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513306534:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:19:30 ET
+Table 'Havnia IV' 9-max Seat #2 is the button
+Seat 1: derwood333 ($3.05 in chips)
+Seat 2: WooDoo-1968 ($1.71 in chips)
+Seat 4: pokerHero1 ($1.81 in chips)
+Seat 5: lebydev ($1.97 in chips)
+Seat 6: id_kov ($1.35 in chips)
+Seat 8: notoriusARG9 ($1.77 in chips)
+Seat 9: Cap.Zaspan ($1.99 in chips)
+pokerHero1: posts small blind $0.01
+lebydev: posts big blind $0.02
+rmann24: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kc 6c]
+id_kov: folds
+notoriusARG9: folds
+Cap.Zaspan: folds
+derwood333: calls $0.02
+WooDoo-1968: folds
+pokerHero1: calls $0.01
+lebydev: checks
+*** FLOP *** [Jd Qs Jc]
+pokerHero1: checks
+lebydev: checks
+derwood333: bets $0.03
+pokerHero1: folds
+lebydev: folds
+Uncalled bet ($0.03) returned to derwood333
+derwood333 collected $0.06 from pot
+derwood333: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [Jd Qs Jc]
+Seat 1: derwood333 collected ($0.06)
+Seat 2: WooDoo-1968 (button) folded before Flop (didn't bet)
+Seat 4: pokerHero1 (small blind) folded on the Flop
+Seat 5: lebydev (big blind) folded on the Flop
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 8: notoriusARG9 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513338858:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:20:03 ET
+Table 'Havnia IV' 9-max Seat #4 is the button
+Seat 1: derwood333 ($3.09 in chips)
+Seat 2: WooDoo-1968 ($1.71 in chips)
+Seat 4: pokerHero1 ($1.79 in chips)
+Seat 5: lebydev ($1.95 in chips)
+Seat 6: id_kov ($1.35 in chips)
+Seat 8: notoriusARG9 ($1.77 in chips)
+Seat 9: Cap.Zaspan ($1.99 in chips)
+lebydev: posts small blind $0.01
+id_kov: posts big blind $0.02
+rmann24: sits out
+demon200988: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kh Ac]
+notoriusARG9: folds
+Cap.Zaspan: folds
+derwood333: calls $0.02
+WooDoo-1968: folds
+pokerHero1: raises $0.06 to $0.08
+lebydev: folds
+id_kov: folds
+derwood333: calls $0.06
+*** FLOP *** [7s Jc Kc]
+derwood333: checks
+pokerHero1: bets $0.14
+derwood333: calls $0.14
+*** TURN *** [7s Jc Kc] [7h]
+derwood333: checks
+pokerHero1: bets $0.26
+derwood333: calls $0.26
+*** RIVER *** [7s Jc Kc 7h] [Qh]
+derwood333: checks
+pokerHero1: bets $0.50
+derwood333: calls $0.50
+*** SHOW DOWN ***
+pokerHero1: shows [Kh Ac] (two pair, Kings and Sevens)
+derwood333: shows [6c 7c] (three of a kind, Sevens)
+derwood333 collected $1.92 from pot
+*** SUMMARY ***
+Total pot $1.99 | Rake $0.07
+Board [7s Jc Kc 7h Qh]
+Seat 1: derwood333 showed [6c 7c] and won ($1.92) with three of a kind, Sevens
+Seat 2: WooDoo-1968 folded before Flop (didn't bet)
+Seat 4: pokerHero1 (button) showed [Kh Ac] and lost with two pair, Kings and Sevens
+Seat 5: lebydev (small blind) folded before Flop
+Seat 6: id_kov (big blind) folded before Flop
+Seat 8: notoriusARG9 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513390060:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:20:54 ET
+Table 'Havnia IV' 9-max Seat #5 is the button
+Seat 1: derwood333 ($4.03 in chips)
+Seat 2: WooDoo-1968 ($1.71 in chips)
+Seat 4: pokerHero1 ($2 in chips)
+Seat 5: lebydev ($1.94 in chips)
+Seat 6: id_kov ($1.33 in chips)
+Seat 7: rmann24 ($2 in chips)
+Seat 8: notoriusARG9 ($1.77 in chips)
+Seat 9: Cap.Zaspan ($1.99 in chips)
+id_kov: posts small blind $0.01
+rmann24: posts big blind $0.02
+demon200988: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5h Jd]
+notoriusARG9: folds
+Cap.Zaspan: folds
+derwood333: calls $0.02
+WooDoo-1968: calls $0.02
+pokerHero1: folds
+lebydev: folds
+id_kov: folds
+rmann24: checks
+*** FLOP *** [4d 8c 6d]
+rmann24: checks
+derwood333: bets $0.04
+WooDoo-1968: calls $0.04
+rmann24: calls $0.04
+*** TURN *** [4d 8c 6d] [Kh]
+rmann24: checks
+derwood333: checks
+WooDoo-1968: checks
+*** RIVER *** [4d 8c 6d Kh] [Qh]
+rmann24: checks
+derwood333: checks
+WooDoo-1968: checks
+*** SHOW DOWN ***
+rmann24: shows [9s 7d] (high card King)
+derwood333: shows [Ah 8s] (a pair of Eights)
+WooDoo-1968: mucks hand
+derwood333 collected $0.18 from pot
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [4d 8c 6d Kh Qh]
+Seat 1: derwood333 showed [Ah 8s] and won ($0.18) with a pair of Eights
+Seat 2: WooDoo-1968 mucked [5c 5d]
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: lebydev (button) folded before Flop (didn't bet)
+Seat 6: id_kov (small blind) folded before Flop
+Seat 7: rmann24 (big blind) showed [9s 7d] and lost with high card King
+Seat 8: notoriusARG9 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513433351:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:21:39 ET
+Table 'Havnia IV' 9-max Seat #6 is the button
+Seat 1: derwood333 ($4.15 in chips)
+Seat 2: WooDoo-1968 ($1.65 in chips)
+Seat 4: pokerHero1 ($2 in chips)
+Seat 5: lebydev ($1.94 in chips)
+Seat 6: id_kov ($1.32 in chips)
+Seat 7: rmann24 ($1.94 in chips)
+Seat 8: notoriusARG9 ($1.77 in chips)
+Seat 9: Cap.Zaspan ($1.99 in chips)
+rmann24: posts small blind $0.01
+notoriusARG9: posts big blind $0.02
+demon200988: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4h 3s]
+Cap.Zaspan: folds
+derwood333: calls $0.02
+WooDoo-1968: folds
+pokerHero1: folds
+lebydev: folds
+id_kov: folds
+rmann24: raises $0.04 to $0.06
+notoriusARG9: raises $0.06 to $0.12
+derwood333: calls $0.10
+rmann24: calls $0.06
+*** FLOP *** [Jh 2s 6c]
+rmann24: checks
+notoriusARG9: bets $0.20
+derwood333: folds
+rmann24: folds
+Uncalled bet ($0.20) returned to notoriusARG9
+notoriusARG9 collected $0.35 from pot
+*** SUMMARY ***
+Total pot $0.36 | Rake $0.01
+Board [Jh 2s 6c]
+Seat 1: derwood333 folded on the Flop
+Seat 2: WooDoo-1968 folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: lebydev folded before Flop (didn't bet)
+Seat 6: id_kov (button) folded before Flop (didn't bet)
+Seat 7: rmann24 (small blind) folded on the Flop
+Seat 8: notoriusARG9 (big blind) collected ($0.35)
+Seat 9: Cap.Zaspan folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513479386:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:22:27 ET
+Table 'Havnia IV' 9-max Seat #7 is the button
+Seat 1: derwood333 ($4.03 in chips)
+Seat 2: WooDoo-1968 ($1.65 in chips)
+Seat 4: pokerHero1 ($2 in chips)
+Seat 5: lebydev ($1.94 in chips)
+Seat 6: id_kov ($1.32 in chips)
+Seat 7: rmann24 ($1.82 in chips)
+Seat 8: notoriusARG9 ($2 in chips)
+Seat 9: Cap.Zaspan ($1.99 in chips)
+notoriusARG9: posts small blind $0.01
+Cap.Zaspan: posts big blind $0.02
+demon200988: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c Ks]
+derwood333: calls $0.02
+WooDoo-1968: folds
+pokerHero1: folds
+lebydev: folds
+id_kov: folds
+rmann24: folds
+notoriusARG9: calls $0.01
+Cap.Zaspan: checks
+*** FLOP *** [Kc 5s As]
+notoriusARG9: checks
+Cap.Zaspan: checks
+derwood333: bets $0.02
+notoriusARG9: folds
+Cap.Zaspan: folds
+Uncalled bet ($0.02) returned to derwood333
+derwood333 collected $0.06 from pot
+derwood333: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [Kc 5s As]
+Seat 1: derwood333 collected ($0.06)
+Seat 2: WooDoo-1968 folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: lebydev folded before Flop (didn't bet)
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 7: rmann24 (button) folded before Flop (didn't bet)
+Seat 8: notoriusARG9 (small blind) folded on the Flop
+Seat 9: Cap.Zaspan (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212513513443:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:23:02 ET
+Table 'Havnia IV' 9-max Seat #8 is the button
+Seat 1: derwood333 ($4.07 in chips)
+Seat 2: WooDoo-1968 ($1.65 in chips)
+Seat 4: pokerHero1 ($2 in chips)
+Seat 5: lebydev ($1.94 in chips)
+Seat 6: id_kov ($1.32 in chips)
+Seat 7: rmann24 ($2 in chips)
+Seat 8: notoriusARG9 ($1.98 in chips)
+Seat 9: Cap.Zaspan ($1.97 in chips)
+Cap.Zaspan: posts small blind $0.01
+derwood333: posts big blind $0.02
+demon200988: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td 7d]
+WooDoo-1968: folds
+pokerHero1: folds
+lebydev: folds
+id_kov: folds
+rmann24: folds
+notoriusARG9: raises $0.04 to $0.06
+Cap.Zaspan: folds
+derwood333: folds
+Uncalled bet ($0.04) returned to notoriusARG9
+notoriusARG9 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: derwood333 (big blind) folded before Flop
+Seat 2: WooDoo-1968 folded before Flop (didn't bet)
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: lebydev folded before Flop (didn't bet)
+Seat 6: id_kov folded before Flop (didn't bet)
+Seat 7: rmann24 folded before Flop (didn't bet)
+Seat 8: notoriusARG9 (button) collected ($0.05)
+Seat 9: Cap.Zaspan (small blind) folded before Flop
+
+
+
+PokerStars Hand #212513532330:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:23:22 ET
+Table 'Havnia IV' 9-max Seat #9 is the button
+Seat 1: derwood333 ($4.05 in chips)
+Seat 2: WooDoo-1968 ($1.65 in chips)
+Seat 4: pokerHero1 ($2 in chips)
+Seat 5: lebydev ($1.94 in chips)
+Seat 6: id_kov ($1.32 in chips)
+Seat 7: rmann24 ($2 in chips)
+Seat 8: notoriusARG9 ($2.01 in chips)
+Seat 9: Cap.Zaspan ($1.96 in chips)
+derwood333: posts small blind $0.01
+WooDoo-1968: posts big blind $0.02
+demon200988: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8c 4h]
+pokerHero1: folds
+lebydev: folds
+id_kov: raises $0.02 to $0.04
+rmann24: folds
+notoriusARG9: folds
+Cap.Zaspan: folds
+derwood333: calls $0.03
+WooDoo-1968: folds
+*** FLOP *** [2d Qs 4c]
+derwood333: checks
+id_kov: checks
+*** TURN *** [2d Qs 4c] [7d]
+derwood333: checks
+id_kov: checks
+*** RIVER *** [2d Qs 4c 7d] [7c]
+derwood333: checks
+id_kov: checks
+*** SHOW DOWN ***
+derwood333: shows [Jc 6s] (a pair of Sevens)
+id_kov: shows [Ah 8h] (a pair of Sevens - Ace kicker)
+id_kov collected $0.10 from pot
+*** SUMMARY ***
+Total pot $0.10 | Rake $0
+Board [2d Qs 4c 7d 7c]
+Seat 1: derwood333 (small blind) showed [Jc 6s] and lost with a pair of Sevens
+Seat 2: WooDoo-1968 (big blind) folded before Flop
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: lebydev folded before Flop (didn't bet)
+Seat 6: id_kov showed [Ah 8h] and won ($0.10) with a pair of Sevens
+Seat 7: rmann24 folded before Flop (didn't bet)
+Seat 8: notoriusARG9 folded before Flop (didn't bet)
+Seat 9: Cap.Zaspan (button) folded before Flop (didn't bet)
+
+
+

@@ -100,8 +100,8 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
                           (\s+(?P<cash_currency>\S+))?                # cash currency
                          ))
                         \)\s+
-                        -\s+.+?\s+                                    # localized date
-                        \[(?P<date>.+?)\]                             # ET date
+                        -\s+                                   # no localized dateanymore
+                        (?P<date>.+)                             # ET date
                         """,
         re.VERBOSE,
     )

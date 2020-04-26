@@ -1,0 +1,5114 @@
+﻿PokerStars Hand #212448256649:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:55:18 ET
+Table 'Herget III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2 in chips)
+Seat 2: aborigen140 ($2.14 in chips)
+Seat 3: h1_tech_1mba ($2.13 in chips)
+Seat 4: Teddy Judge ($2 in chips)
+Seat 5: Sjamaan II ($0.30 in chips)
+Seat 6: Wookash8 ($2.98 in chips)
+Seat 7: PICTURS ($2.75 in chips)
+Seat 8: pablo595 ($1.44 in chips)
+Seat 9: kosarev1010 ($1.98 in chips)
+kosarev1010: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad 8d]
+aborigen140: folds
+h1_tech_1mba: folds
+Teddy Judge: folds
+Sjamaan II: folds
+Wookash8: folds
+PICTURS: calls $0.02
+pablo595: folds
+kosarev1010: folds
+pokerHero1: checks
+*** FLOP *** [8c 2h Td]
+pokerHero1: checks
+PICTURS: bets $0.05
+pokerHero1: calls $0.05
+*** TURN *** [8c 2h Td] [3d]
+pokerHero1: bets $0.10
+PICTURS: raises $0.10 to $0.20
+pokerHero1: calls $0.10
+*** RIVER *** [8c 2h Td 3d] [2c]
+pokerHero1: checks
+PICTURS: checks
+*** SHOW DOWN ***
+pokerHero1: shows [Ad 8d] (two pair, Eights and Deuces)
+PICTURS: shows [8h 3h] (two pair, Eights and Threes)
+PICTURS collected $0.53 from pot
+*** SUMMARY ***
+Total pot $0.55 | Rake $0.02
+Board [8c 2h Td 3d 2c]
+Seat 1: pokerHero1 (big blind) showed [Ad 8d] and lost with two pair, Eights and Deuces
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: h1_tech_1mba folded before Flop (didn't bet)
+Seat 4: Teddy Judge folded before Flop (didn't bet)
+Seat 5: Sjamaan II folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS showed [8h 3h] and won ($0.53) with two pair, Eights and Threes
+Seat 8: pablo595 (button) folded before Flop (didn't bet)
+Seat 9: kosarev1010 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212448287306:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:56:05 ET
+Table 'Herget III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($1.73 in chips)
+Seat 2: aborigen140 ($2.14 in chips)
+Seat 3: h1_tech_1mba ($2.13 in chips)
+Seat 4: Teddy Judge ($2 in chips)
+Seat 5: Sjamaan II ($0.30 in chips)
+Seat 6: Wookash8 ($2.98 in chips)
+Seat 7: PICTURS ($3.01 in chips)
+Seat 8: pablo595 ($1.44 in chips)
+Seat 9: kosarev1010 ($1.97 in chips)
+pokerHero1: posts small blind $0.01
+aborigen140: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ah 2d]
+h1_tech_1mba: folds
+Teddy Judge: raises $0.05 to $0.07
+Sjamaan II: folds
+Wookash8: folds
+PICTURS: folds
+pablo595: folds
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+Uncalled bet ($0.05) returned to Teddy Judge
+Teddy Judge collected $0.05 from pot
+Teddy Judge: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: aborigen140 (big blind) folded before Flop
+Seat 3: h1_tech_1mba folded before Flop (didn't bet)
+Seat 4: Teddy Judge collected ($0.05)
+Seat 5: Sjamaan II folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: pablo595 folded before Flop (didn't bet)
+Seat 9: kosarev1010 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448304605:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:56:31 ET
+Table 'Herget III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($1.99 in chips)
+Seat 2: aborigen140 ($2.12 in chips)
+Seat 3: h1_tech_1mba ($2.13 in chips)
+Seat 4: Teddy Judge ($2.03 in chips)
+Seat 5: Sjamaan II ($0.30 in chips)
+Seat 6: Wookash8 ($2.98 in chips)
+Seat 7: PICTURS ($3.01 in chips)
+Seat 8: pablo595 ($1.44 in chips)
+Seat 9: kosarev1010 ($1.97 in chips)
+aborigen140: posts small blind $0.01
+h1_tech_1mba: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kh 7d]
+Teddy Judge: folds
+Sjamaan II: folds
+Wookash8: folds
+PICTURS: calls $0.02
+pablo595: folds
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+h1_tech_1mba: checks
+*** FLOP *** [As Th Jc]
+h1_tech_1mba: checks
+PICTURS: bets $0.05
+h1_tech_1mba: folds
+Uncalled bet ($0.05) returned to PICTURS
+PICTURS collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [As Th Jc]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: aborigen140 (small blind) folded before Flop
+Seat 3: h1_tech_1mba (big blind) folded on the Flop
+Seat 4: Teddy Judge folded before Flop (didn't bet)
+Seat 5: Sjamaan II folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS collected ($0.05)
+Seat 8: pablo595 folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448329065:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:57:08 ET
+Table 'Herget III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($1.99 in chips)
+Seat 2: aborigen140 ($2.11 in chips)
+Seat 3: h1_tech_1mba ($2.11 in chips)
+Seat 4: Teddy Judge ($2.03 in chips)
+Seat 5: Sjamaan II ($0.30 in chips)
+Seat 6: Wookash8 ($2.98 in chips)
+Seat 7: PICTURS ($3.04 in chips)
+Seat 8: pablo595 ($1.44 in chips)
+Seat 9: kosarev1010 ($1.97 in chips)
+h1_tech_1mba: posts small blind $0.01
+Teddy Judge: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ah Kd]
+Sjamaan II: folds
+Wookash8: folds
+PICTURS: calls $0.02
+pablo595: folds
+kosarev1010: folds
+pokerHero1: raises $0.10 to $0.12
+aborigen140: folds
+h1_tech_1mba: folds
+Teddy Judge: folds
+PICTURS: folds
+Uncalled bet ($0.10) returned to pokerHero1
+pokerHero1 collected $0.07 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Seat 1: pokerHero1 collected ($0.07)
+Seat 2: aborigen140 (button) folded before Flop (didn't bet)
+Seat 3: h1_tech_1mba (small blind) folded before Flop
+Seat 4: Teddy Judge (big blind) folded before Flop
+Seat 5: Sjamaan II folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded before Flop
+Seat 8: pablo595 folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448344438:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:57:31 ET
+Table 'Herget III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.04 in chips)
+Seat 2: aborigen140 ($2.11 in chips)
+Seat 3: h1_tech_1mba ($2.10 in chips)
+Seat 4: Teddy Judge ($2.01 in chips)
+Seat 5: Sjamaan II ($0.30 in chips)
+Seat 6: Wookash8 ($2.98 in chips)
+Seat 7: PICTURS ($3.02 in chips)
+Seat 8: pablo595 ($1.44 in chips)
+Seat 9: kosarev1010 ($1.97 in chips)
+Teddy Judge: posts small blind $0.01
+Sjamaan II: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s Jd]
+Wookash8: folds
+PICTURS: folds
+pablo595: folds
+kosarev1010: raises $0.04 to $0.06
+pokerHero1: folds
+aborigen140: folds
+h1_tech_1mba: calls $0.06
+Teddy Judge: folds
+Sjamaan II: folds
+*** FLOP *** [6d 7h 7c]
+kosarev1010: bets $0.06
+h1_tech_1mba: calls $0.06
+*** TURN *** [6d 7h 7c] [3d]
+kosarev1010: checks
+h1_tech_1mba: bets $0.15
+kosarev1010: folds
+Uncalled bet ($0.15) returned to h1_tech_1mba
+h1_tech_1mba collected $0.26 from pot
+h1_tech_1mba: doesn't show hand
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01
+Board [6d 7h 7c 3d]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: h1_tech_1mba (button) collected ($0.26)
+Seat 4: Teddy Judge (small blind) folded before Flop
+Seat 5: Sjamaan II (big blind) folded before Flop
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: pablo595 folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded on the Turn
+
+
+
+PokerStars Hand #212448379295:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:58:23 ET
+Table 'Herget III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.04 in chips)
+Seat 2: aborigen140 ($2.11 in chips)
+Seat 3: h1_tech_1mba ($2.24 in chips)
+Seat 4: Teddy Judge ($2 in chips)
+Seat 5: Sjamaan II ($0.28 in chips)
+Seat 6: Wookash8 ($2.98 in chips)
+Seat 7: PICTURS ($3.02 in chips)
+Seat 8: pablo595 ($1.44 in chips)
+Seat 9: kosarev1010 ($1.85 in chips)
+Sjamaan II: posts small blind $0.01
+Wookash8: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc Td]
+PICTURS: folds
+pablo595: folds
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+h1_tech_1mba: raises $0.02 to $0.04
+Teddy Judge: folds
+Sjamaan II: calls $0.03
+Wookash8: folds
+*** FLOP *** [Kd 2s Kh]
+Sjamaan II: checks
+h1_tech_1mba: bets $0.06
+Sjamaan II: raises $0.18 to $0.24 and is all-in
+h1_tech_1mba: folds
+Uncalled bet ($0.18) returned to Sjamaan II
+Sjamaan II collected $0.21 from pot
+Sjamaan II: doesn't show hand
+*** SUMMARY ***
+Total pot $0.22 | Rake $0.01
+Board [Kd 2s Kh]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: h1_tech_1mba folded on the Flop
+Seat 4: Teddy Judge (button) folded before Flop (didn't bet)
+Seat 5: Sjamaan II (small blind) collected ($0.21)
+Seat 6: Wookash8 (big blind) folded before Flop
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: pablo595 folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448410394:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 11:59:08 ET
+Table 'Herget III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.04 in chips)
+Seat 2: aborigen140 ($2.11 in chips)
+Seat 3: h1_tech_1mba ($2.14 in chips)
+Seat 4: Teddy Judge ($2 in chips)
+Seat 5: Sjamaan II ($0.39 in chips)
+Seat 6: Wookash8 ($2.96 in chips)
+Seat 7: PICTURS ($3.02 in chips)
+Seat 8: pablo595 ($1.44 in chips)
+Seat 9: kosarev1010 ($1.85 in chips)
+Wookash8: posts small blind $0.01
+PICTURS: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ks 3d]
+pablo595: folds
+kosarev1010: calls $0.02
+pokerHero1: folds
+aborigen140: calls $0.02
+h1_tech_1mba: folds
+Teddy Judge: calls $0.02
+Sjamaan II: calls $0.02
+Wookash8: folds
+PICTURS: checks
+*** FLOP *** [Kc 6s Jh]
+PICTURS: checks
+kosarev1010: checks
+aborigen140: checks
+Teddy Judge: checks
+Sjamaan II: checks
+*** TURN *** [Kc 6s Jh] [5d]
+PICTURS: checks
+kosarev1010: checks
+aborigen140: checks
+Teddy Judge: checks
+Sjamaan II: checks
+*** RIVER *** [Kc 6s Jh 5d] [6c]
+PICTURS: checks
+kosarev1010: checks
+aborigen140: checks
+Teddy Judge: checks
+Sjamaan II: checks
+*** SHOW DOWN ***
+PICTURS: shows [3h 9h] (a pair of Sixes)
+kosarev1010: shows [Ah 8h] (a pair of Sixes - Ace kicker)
+aborigen140: shows [Tc Ts] (two pair, Tens and Sixes)
+Teddy Judge: mucks hand
+Sjamaan II: mucks hand
+aborigen140 collected $0.11 from pot
+*** SUMMARY ***
+Total pot $0.11 | Rake $0
+Board [Kc 6s Jh 5d 6c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 showed [Tc Ts] and won ($0.11) with two pair, Tens and Sixes
+Seat 3: h1_tech_1mba folded before Flop (didn't bet)
+Seat 4: Teddy Judge mucked [As 7h]
+Seat 5: Sjamaan II (button) mucked [9d Th]
+Seat 6: Wookash8 (small blind) folded before Flop
+Seat 7: PICTURS (big blind) showed [3h 9h] and lost with a pair of Sixes
+Seat 8: pablo595 folded before Flop (didn't bet)
+Seat 9: kosarev1010 showed [Ah 8h] and lost with a pair of Sixes
+
+
+
+PokerStars Hand #212448447807:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:00:03 ET
+Table 'Herget III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.04 in chips)
+Seat 2: aborigen140 ($2.20 in chips)
+Seat 3: h1_tech_1mba ($2.14 in chips)
+Seat 4: Teddy Judge ($2 in chips)
+Seat 5: Sjamaan II ($0.37 in chips)
+Seat 6: Wookash8 ($2.95 in chips)
+Seat 7: PICTURS ($3 in chips)
+Seat 8: pablo595 ($1.44 in chips)
+Seat 9: kosarev1010 ($1.83 in chips)
+PICTURS: posts small blind $0.01
+pablo595: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3c 8c]
+kosarev1010 has timed out
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+h1_tech_1mba: folds
+Teddy Judge: folds
+Sjamaan II: folds
+Wookash8: folds
+Sjamaan II leaves the table
+PICTURS: calls $0.01
+pablo595: checks
+*** FLOP *** [8d As Qc]
+PICTURS: bets $0.02
+pablo595: calls $0.02
+*** TURN *** [8d As Qc] [Qh]
+PICTURS: checks
+pablo595: checks
+*** RIVER *** [8d As Qc Qh] [4d]
+PICTURS: checks
+pablo595: bets $0.10
+PICTURS: folds
+Uncalled bet ($0.10) returned to pablo595
+pablo595 collected $0.08 from pot
+pablo595: doesn't show hand
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Board [8d As Qc Qh 4d]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: h1_tech_1mba folded before Flop (didn't bet)
+Seat 4: Teddy Judge folded before Flop (didn't bet)
+Seat 5: Sjamaan II folded before Flop (didn't bet)
+Seat 6: Wookash8 (button) folded before Flop (didn't bet)
+Seat 7: PICTURS (small blind) folded on the River
+Seat 8: pablo595 (big blind) collected ($0.08)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448486915:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:00:57 ET
+Table 'Herget III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.04 in chips)
+Seat 2: aborigen140 ($2.20 in chips)
+Seat 3: h1_tech_1mba ($2.14 in chips)
+Seat 4: Teddy Judge ($2 in chips)
+Seat 6: Wookash8 ($2.95 in chips)
+Seat 7: PICTURS ($2.96 in chips)
+Seat 8: pablo595 ($1.48 in chips)
+pablo595: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7h Ah]
+aborigen140: folds
+h1_tech_1mba: folds
+Teddy Judge: folds
+Wookash8: folds
+PICTURS: calls $0.02
+pablo595: folds
+pokerHero1: raises $0.04 to $0.06
+PICTURS: calls $0.04
+*** FLOP *** [Qh Ad Kd]
+pokerHero1: bets $0.10
+PICTURS: folds [8d]
+tucimira joins the table at seat #5
+Uncalled bet ($0.10) returned to pokerHero1
+pokerHero1 collected $0.13 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [Qh Ad Kd]
+Seat 1: pokerHero1 (big blind) collected ($0.13)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: h1_tech_1mba folded before Flop (didn't bet)
+Seat 4: Teddy Judge folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS (button) folded on the Flop
+Seat 8: pablo595 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212448507130:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:01:22 ET
+Table 'Herget III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.11 in chips)
+Seat 2: aborigen140 ($2.20 in chips)
+Seat 3: h1_tech_1mba ($2.14 in chips)
+Seat 4: Teddy Judge ($2 in chips)
+Seat 6: Wookash8 ($2.95 in chips)
+Seat 7: PICTURS ($2.90 in chips)
+Seat 8: pablo595 ($1.47 in chips)
+pokerHero1: posts small blind $0.01
+aborigen140: posts big blind $0.02
+tucimira: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td 8d]
+h1_tech_1mba: folds
+Teddy Judge: folds
+Wookash8: folds
+PICTURS: calls $0.02
+pablo595: folds
+pokerHero1: calls $0.01
+aborigen140: checks
+*** FLOP *** [2d Tc 3d]
+pokerHero1: checks
+aborigen140: checks
+PICTURS: bets $0.02
+pokerHero1: raises $0.04 to $0.06
+aborigen140: folds
+PICTURS: calls $0.04
+*** TURN *** [2d Tc 3d] [4d]
+pokerHero1: bets $0.13
+PICTURS: calls $0.13
+*** RIVER *** [2d Tc 3d 4d] [2c]
+pokerHero1: checks
+PICTURS: checks
+*** SHOW DOWN ***
+pokerHero1: shows [Td 8d] (a flush, Ten high)
+PICTURS: mucks hand
+pokerHero1 collected $0.42 from pot
+*** SUMMARY ***
+Total pot $0.44 | Rake $0.02
+Board [2d Tc 3d 4d 2c]
+Seat 1: pokerHero1 (small blind) showed [Td 8d] and won ($0.42) with a flush, Ten high
+Seat 2: aborigen140 (big blind) folded on the Flop
+Seat 3: h1_tech_1mba folded before Flop (didn't bet)
+Seat 4: Teddy Judge folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS mucked [Ac 6d]
+Seat 8: pablo595 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448552262:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:02:15 ET
+Table 'Herget III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.32 in chips)
+Seat 2: aborigen140 ($2.18 in chips)
+Seat 4: Teddy Judge ($2 in chips)
+Seat 6: Wookash8 ($2.95 in chips)
+Seat 7: PICTURS ($2.69 in chips)
+Seat 8: pablo595 ($1.47 in chips)
+Seat 9: kosarev1010 ($1.83 in chips)
+aborigen140: posts small blind $0.01
+h1_tech_1mba: is sitting out
+Teddy Judge: posts big blind $0.02
+tucimira: sits out
+kosarev1010: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s 8h]
+Wookash8: folds
+PICTURS: calls $0.02
+pablo595: folds
+kosarev1010: checks
+pokerHero1: folds
+aborigen140: folds
+Teddy Judge: checks
+*** FLOP *** [8c 2c Js]
+Teddy Judge: checks
+PICTURS: checks
+kosarev1010: checks
+*** TURN *** [8c 2c Js] [8d]
+h1_tech_1mba leaves the table
+Teddy Judge: checks
+PICTURS: checks
+kosarev1010: checks
+*** RIVER *** [8c 2c Js 8d] [9c]
+Teddy Judge: checks
+PICTURS: bets $0.04
+kosarev1010: folds
+Teddy Judge: folds
+Uncalled bet ($0.04) returned to PICTURS
+PICTURS collected $0.08 from pot
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Board [8c 2c Js 8d 9c]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: aborigen140 (small blind) folded before Flop
+Seat 4: Teddy Judge (big blind) folded on the River
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS collected ($0.08)
+Seat 8: pablo595 folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded on the River (didn't bet)
+
+
+
+PokerStars Hand #212448587950:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:02:56 ET
+Table 'Herget III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.32 in chips)
+Seat 2: aborigen140 ($2.17 in chips)
+Seat 4: Teddy Judge ($2 in chips)
+Seat 5: tucimira ($2 in chips)
+Seat 6: Wookash8 ($2.95 in chips)
+Seat 7: PICTURS ($2.75 in chips)
+Seat 8: pablo595 ($1.47 in chips)
+Seat 9: kosarev1010 ($1.80 in chips)
+Teddy Judge: posts small blind $0.01
+tucimira: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c 7h]
+celsopimenta joins the table at seat #3
+Wookash8: folds
+PICTURS: calls $0.02
+pablo595: folds
+kosarev1010: folds
+pokerHero1: calls $0.02
+aborigen140: folds
+Teddy Judge: folds
+tucimira: checks
+*** FLOP *** [4h 8h 9d]
+tucimira: checks
+PICTURS: checks
+pokerHero1: bets $0.06
+tucimira: folds
+PICTURS: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.07 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Board [4h 8h 9d]
+Seat 1: pokerHero1 collected ($0.07)
+Seat 2: aborigen140 (button) folded before Flop (didn't bet)
+Seat 4: Teddy Judge (small blind) folded before Flop
+Seat 5: tucimira (big blind) folded on the Flop
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded on the Flop
+Seat 8: pablo595 folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448623889:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:03:37 ET
+Table 'Herget III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.37 in chips)
+Seat 2: aborigen140 ($2.17 in chips)
+Seat 3: celsopimenta ($0.80 in chips)
+Seat 4: Teddy Judge ($2 in chips)
+Seat 5: tucimira ($2 in chips)
+Seat 6: Wookash8 ($2.95 in chips)
+Seat 7: PICTURS ($2.73 in chips)
+Seat 8: pablo595 ($1.47 in chips)
+Seat 9: kosarev1010 ($1.80 in chips)
+tucimira: posts small blind $0.01
+Wookash8: posts big blind $0.02
+celsopimenta: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac Qd]
+PICTURS: folds
+pablo595: folds
+kosarev1010: calls $0.02
+pokerHero1: raises $0.06 to $0.08
+aborigen140: folds
+celsopimenta: calls $0.06
+Teddy Judge: folds
+tucimira: folds
+Wookash8: folds
+kosarev1010: folds
+*** FLOP *** [Tc Js 6c]
+pokerHero1: bets $0.12
+celsopimenta: folds
+Uncalled bet ($0.12) returned to pokerHero1
+pokerHero1 collected $0.20 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [Tc Js 6c]
+Seat 1: pokerHero1 collected ($0.20)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: celsopimenta folded on the Flop
+Seat 4: Teddy Judge (button) folded before Flop (didn't bet)
+Seat 5: tucimira (small blind) folded before Flop
+Seat 6: Wookash8 (big blind) folded before Flop
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: pablo595 folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop
+
+
+
+PokerStars Hand #212448668312:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:04:27 ET
+Table 'Herget III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.49 in chips)
+Seat 2: aborigen140 ($2.17 in chips)
+Seat 3: celsopimenta ($0.72 in chips)
+Seat 4: Teddy Judge ($2 in chips)
+Seat 5: tucimira ($2 in chips)
+Seat 6: Wookash8 ($2.93 in chips)
+Seat 7: PICTURS ($2.73 in chips)
+Seat 8: pablo595 ($1.47 in chips)
+Seat 9: kosarev1010 ($1.78 in chips)
+Wookash8: posts small blind $0.01
+PICTURS: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc 5h]
+pablo595: raises $0.04 to $0.06
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+celsopimenta: folds
+Teddy Judge: folds
+tucimira: folds
+Wookash8: folds
+PICTURS: folds
+Uncalled bet ($0.04) returned to pablo595
+pablo595 collected $0.05 from pot
+pablo595: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: celsopimenta folded before Flop (didn't bet)
+Seat 4: Teddy Judge folded before Flop (didn't bet)
+Seat 5: tucimira (button) folded before Flop (didn't bet)
+Seat 6: Wookash8 (small blind) folded before Flop
+Seat 7: PICTURS (big blind) folded before Flop
+Seat 8: pablo595 collected ($0.05)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448700269:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:05:02 ET
+Table 'Herget III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.49 in chips)
+Seat 2: aborigen140 ($2.17 in chips)
+Seat 3: celsopimenta ($0.72 in chips)
+Seat 4: Teddy Judge ($2 in chips)
+Seat 5: tucimira ($2 in chips)
+Seat 6: Wookash8 ($2.92 in chips)
+Seat 7: PICTURS ($2.71 in chips)
+Seat 8: pablo595 ($1.50 in chips)
+Seat 9: kosarev1010 ($1.78 in chips)
+PICTURS: posts small blind $0.01
+pablo595: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h Js]
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+celsopimenta: folds
+Teddy Judge: calls $0.02
+tucimira: folds
+Wookash8: folds
+PICTURS: raises $0.06 to $0.08
+pablo595: folds
+Teddy Judge: calls $0.06
+*** FLOP *** [4d 6s Kc]
+PICTURS: checks
+Teddy Judge: checks
+*** TURN *** [4d 6s Kc] [Kh]
+PICTURS: bets $0.09
+Teddy Judge: calls $0.09
+*** RIVER *** [4d 6s Kc Kh] [6c]
+PICTURS: bets $0.18
+Teddy Judge: folds
+Uncalled bet ($0.18) returned to PICTURS
+PICTURS collected $0.35 from pot
+*** SUMMARY ***
+Total pot $0.36 | Rake $0.01
+Board [4d 6s Kc Kh 6c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: celsopimenta folded before Flop (didn't bet)
+Seat 4: Teddy Judge folded on the River
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 (button) folded before Flop (didn't bet)
+Seat 7: PICTURS (small blind) collected ($0.35)
+Seat 8: pablo595 (big blind) folded before Flop
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448744266:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:05:51 ET
+Table 'Herget III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.49 in chips)
+Seat 2: aborigen140 ($2.17 in chips)
+Seat 3: celsopimenta ($0.72 in chips)
+Seat 4: Teddy Judge ($2 in chips)
+Seat 5: tucimira ($2 in chips)
+Seat 6: Wookash8 ($2.92 in chips)
+Seat 7: PICTURS ($2.89 in chips)
+Seat 8: pablo595 ($1.48 in chips)
+Seat 9: kosarev1010 ($1.78 in chips)
+pablo595: posts small blind $0.01
+kosarev1010: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8s 8d]
+pokerHero1: calls $0.02
+aborigen140: folds
+celsopimenta: folds
+Teddy Judge: folds
+tucimira: folds
+Wookash8: folds
+PICTURS: calls $0.02
+pablo595: calls $0.01
+kosarev1010: checks
+*** FLOP *** [6c Th 3c]
+pablo595: checks
+kosarev1010: checks
+pokerHero1: checks
+PICTURS: bets $0.08
+pablo595: folds
+kosarev1010: folds
+pokerHero1: folds
+Uncalled bet ($0.08) returned to PICTURS
+PICTURS collected $0.08 from pot
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Board [6c Th 3c]
+Seat 1: pokerHero1 folded on the Flop
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: celsopimenta folded before Flop (didn't bet)
+Seat 4: Teddy Judge folded before Flop (didn't bet)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS (button) collected ($0.08)
+Seat 8: pablo595 (small blind) folded on the Flop
+Seat 9: kosarev1010 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212448792820:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:06:44 ET
+Table 'Herget III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.47 in chips)
+Seat 2: aborigen140 ($2.17 in chips)
+Seat 3: celsopimenta ($0.72 in chips)
+Seat 4: Teddy Judge ($2 in chips)
+Seat 5: tucimira ($2 in chips)
+Seat 6: Wookash8 ($2.92 in chips)
+Seat 7: PICTURS ($2.95 in chips)
+Seat 8: pablo595 ($1.46 in chips)
+Seat 9: kosarev1010 ($1.76 in chips)
+kosarev1010: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc 7d]
+aborigen140: calls $0.02
+celsopimenta: folds
+Teddy Judge: folds
+tucimira: folds
+Wookash8: folds
+PICTURS: folds
+pablo595: folds
+kosarev1010: folds
+pokerHero1: checks
+*** FLOP *** [5c Jd 4h]
+pokerHero1: checks
+aborigen140: checks
+*** TURN *** [5c Jd 4h] [Js]
+pokerHero1: checks
+aborigen140: checks
+*** RIVER *** [5c Jd 4h Js] [3s]
+pokerHero1: checks
+aborigen140: checks
+*** SHOW DOWN ***
+pokerHero1: shows [Tc 7d] (a pair of Jacks)
+aborigen140: shows [8d 8c] (two pair, Jacks and Eights)
+aborigen140 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [5c Jd 4h Js 3s]
+Seat 1: pokerHero1 (big blind) showed [Tc 7d] and lost with a pair of Jacks
+Seat 2: aborigen140 showed [8d 8c] and won ($0.05) with two pair, Jacks and Eights
+Seat 3: celsopimenta folded before Flop (didn't bet)
+Seat 4: Teddy Judge folded before Flop (didn't bet)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: pablo595 (button) folded before Flop (didn't bet)
+Seat 9: kosarev1010 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212448832127:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:07:28 ET
+Table 'Herget III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.45 in chips)
+Seat 2: aborigen140 ($2.20 in chips)
+Seat 3: celsopimenta ($0.72 in chips)
+Seat 4: Teddy Judge ($2 in chips)
+Seat 5: tucimira ($2 in chips)
+Seat 6: Wookash8 ($2.92 in chips)
+Seat 7: PICTURS ($2.95 in chips)
+Seat 8: pablo595 ($1.46 in chips)
+Seat 9: kosarev1010 ($1.75 in chips)
+pokerHero1: posts small blind $0.01
+aborigen140: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d Qc]
+celsopimenta: folds
+celsopimenta leaves the table
+Teddy Judge: raises $0.05 to $0.07
+tucimira: folds
+Wookash8: folds
+PICTURS: folds
+pablo595: folds
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+Uncalled bet ($0.05) returned to Teddy Judge
+Teddy Judge collected $0.05 from pot
+Teddy Judge: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: aborigen140 (big blind) folded before Flop
+Seat 3: celsopimenta folded before Flop (didn't bet)
+Seat 4: Teddy Judge collected ($0.05)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: pablo595 folded before Flop (didn't bet)
+Seat 9: kosarev1010 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448848976:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:07:47 ET
+Table 'Herget III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.44 in chips)
+Seat 2: aborigen140 ($2.18 in chips)
+Seat 5: tucimira ($2 in chips)
+Seat 6: Wookash8 ($2.92 in chips)
+Seat 7: PICTURS ($2.95 in chips)
+Seat 8: pablo595 ($1.46 in chips)
+Seat 9: kosarev1010 ($1.75 in chips)
+aborigen140: posts small blind $0.01
+Teddy Judge: is sitting out
+Teddy Judge leaves the table
+tucimira: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th 7s]
+Wookash8: folds
+PICTURS: calls $0.02
+pablo595: folds
+kosarev1010: calls $0.02
+pokerHero1: folds
+aborigen140: calls $0.01
+tucimira: checks
+*** FLOP *** [6d 3d 2c]
+aborigen140: checks
+tucimira: checks
+PICTURS: bets $0.04
+kosarev1010: folds
+aborigen140: folds
+tucimira: folds
+Uncalled bet ($0.04) returned to PICTURS
+PICTURS collected $0.08 from pot
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Board [6d 3d 2c]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: aborigen140 (small blind) folded on the Flop
+Seat 5: tucimira (big blind) folded on the Flop
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS collected ($0.08)
+Seat 8: pablo595 folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded on the Flop
+
+
+
+PokerStars Hand #212448896444:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:08:40 ET
+Table 'Herget III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.44 in chips)
+Seat 2: aborigen140 ($2.16 in chips)
+Seat 5: tucimira ($2 in chips)
+Seat 6: Wookash8 ($2.92 in chips)
+Seat 7: PICTURS ($3.01 in chips)
+Seat 8: pablo595 ($1.46 in chips)
+Seat 9: kosarev1010 ($1.98 in chips)
+tucimira: posts small blind $0.01
+Wookash8: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3c Kd]
+PICTURS: folds
+pablo595: folds
+kosarev1010: folds
+pokerHero1: raises $0.06 to $0.08
+aborigen140: folds
+tucimira: folds
+Wookash8: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 collected ($0.05)
+Seat 2: aborigen140 (button) folded before Flop (didn't bet)
+Seat 5: tucimira (small blind) folded before Flop
+Seat 6: Wookash8 (big blind) folded before Flop
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: pablo595 folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448919304:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:09:05 ET
+Table 'Herget III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.47 in chips)
+Seat 2: aborigen140 ($2.16 in chips)
+Seat 5: tucimira ($2 in chips)
+Seat 6: Wookash8 ($2.90 in chips)
+Seat 7: PICTURS ($3.01 in chips)
+Seat 8: pablo595 ($1.46 in chips)
+Seat 9: kosarev1010 ($1.98 in chips)
+Wookash8: posts small blind $0.01
+PICTURS: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jh Qs]
+pablo595: raises $0.04 to $0.06
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+tucimira: folds
+Wookash8: folds
+PICTURS: calls $0.04
+*** FLOP *** [Qh 7c Kd]
+PICTURS: checks
+grocer3637 joins the table at seat #3
+pablo595: bets $0.08
+PICTURS: folds
+Uncalled bet ($0.08) returned to pablo595
+pablo595 collected $0.13 from pot
+pablo595: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [Qh 7c Kd]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 5: tucimira (button) folded before Flop (didn't bet)
+Seat 6: Wookash8 (small blind) folded before Flop
+Seat 7: PICTURS (big blind) folded on the Flop
+Seat 8: pablo595 collected ($0.13)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448951443:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:09:34 ET
+Table 'Herget III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.47 in chips)
+Seat 2: aborigen140 ($2.16 in chips)
+Seat 5: tucimira ($2 in chips)
+Seat 6: Wookash8 ($2.89 in chips)
+Seat 7: PICTURS ($2.95 in chips)
+Seat 8: pablo595 ($1.53 in chips)
+Seat 9: kosarev1010 ($1.98 in chips)
+UnholyFrog joins the table at seat #4
+PICTURS: posts small blind $0.01
+pablo595: posts big blind $0.02
+grocer3637: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3c 2c]
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+tucimira: folds
+Wookash8: folds
+PICTURS: folds
+Uncalled bet ($0.01) returned to pablo595
+pablo595 collected $0.02 from pot
+pablo595: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 (button) folded before Flop (didn't bet)
+Seat 7: PICTURS (small blind) folded before Flop
+Seat 8: pablo595 (big blind) collected ($0.02)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212448969118:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:09:54 ET
+Table 'Herget III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.47 in chips)
+Seat 2: aborigen140 ($2.16 in chips)
+Seat 3: grocer3637 ($1.60 in chips)
+Seat 5: tucimira ($2 in chips)
+Seat 6: Wookash8 ($2.89 in chips)
+Seat 7: PICTURS ($2.94 in chips)
+Seat 8: pablo595 ($1.54 in chips)
+Seat 9: kosarev1010 ($1.98 in chips)
+pablo595: posts small blind $0.01
+kosarev1010: posts big blind $0.02
+grocer3637: posts big blind $0.02
+UnholyFrog: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d Th]
+pokerHero1 has timed out
+pokerHero1: folds
+aborigen140: folds
+grocer3637: checks
+tucimira: folds
+Wookash8: folds
+PICTURS: folds
+pablo595: calls $0.01
+kosarev1010: checks
+*** FLOP *** [Qs 3h Ks]
+pablo595: checks
+kosarev1010: checks
+grocer3637: bets $0.04
+pablo595: folds
+kosarev1010: folds
+Uncalled bet ($0.04) returned to grocer3637
+grocer3637 collected $0.06 from pot
+grocer3637: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [Qs 3h Ks]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: grocer3637 collected ($0.06)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS (button) folded before Flop (didn't bet)
+Seat 8: pablo595 (small blind) folded on the Flop
+Seat 9: kosarev1010 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212449029669:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:11:02 ET
+Table 'Herget III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.47 in chips)
+Seat 2: aborigen140 ($2.16 in chips)
+Seat 3: grocer3637 ($1.64 in chips)
+Seat 5: tucimira ($2 in chips)
+Seat 6: Wookash8 ($2.89 in chips)
+Seat 7: PICTURS ($2.94 in chips)
+Seat 8: pablo595 ($1.52 in chips)
+Seat 9: kosarev1010 ($1.96 in chips)
+kosarev1010: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+UnholyFrog: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d 6c]
+aborigen140: folds
+grocer3637: calls $0.02
+tucimira: calls $0.02
+Wookash8: raises $0.06 to $0.08
+PICTURS: folds
+pablo595: folds
+kosarev1010: calls $0.07
+pokerHero1: folds
+grocer3637: folds
+tucimira: calls $0.06
+*** FLOP *** [6h 3d 5d]
+kosarev1010: bets $0.19
+tucimira: calls $0.19
+Wookash8: folds
+*** TURN *** [6h 3d 5d] [Jc]
+kosarev1010: checks
+tucimira: bets $0.40
+kosarev1010: folds
+Uncalled bet ($0.40) returned to tucimira
+tucimira collected $0.64 from pot
+*** SUMMARY ***
+Total pot $0.66 | Rake $0.02
+Board [6h 3d 5d Jc]
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: grocer3637 folded before Flop
+Seat 5: tucimira collected ($0.64)
+Seat 6: Wookash8 folded on the Flop
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: pablo595 (button) folded before Flop (didn't bet)
+Seat 9: kosarev1010 (small blind) folded on the Turn
+
+
+
+PokerStars Hand #212449115053:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:12:37 ET
+Table 'Herget III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.45 in chips)
+Seat 2: aborigen140 ($2.16 in chips)
+Seat 3: grocer3637 ($1.62 in chips)
+Seat 5: tucimira ($2.37 in chips)
+Seat 6: Wookash8 ($2.81 in chips)
+Seat 7: PICTURS ($2.94 in chips)
+Seat 8: pablo595 ($1.52 in chips)
+Seat 9: kosarev1010 ($1.69 in chips)
+pokerHero1: posts small blind $0.01
+aborigen140: posts big blind $0.02
+UnholyFrog: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c Tc]
+grocer3637: calls $0.02
+tucimira: folds
+Wookash8: folds
+PICTURS: calls $0.02
+pablo595: folds
+kosarev1010: folds
+pokerHero1: calls $0.01
+aborigen140: checks
+*** FLOP *** [5s Qh Jh]
+pokerHero1: checks
+aborigen140: checks
+grocer3637: bets $0.04
+PICTURS: folds
+pokerHero1: folds
+aborigen140: folds
+Uncalled bet ($0.04) returned to grocer3637
+grocer3637 collected $0.08 from pot
+grocer3637: doesn't show hand
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Board [5s Qh Jh]
+Seat 1: pokerHero1 (small blind) folded on the Flop
+Seat 2: aborigen140 (big blind) folded on the Flop
+Seat 3: grocer3637 collected ($0.08)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded on the Flop
+Seat 8: pablo595 folded before Flop (didn't bet)
+Seat 9: kosarev1010 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449159944:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:13:22 ET
+Table 'Herget III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.43 in chips)
+Seat 2: aborigen140 ($2.14 in chips)
+Seat 3: grocer3637 ($1.68 in chips)
+Seat 5: tucimira ($2.37 in chips)
+Seat 6: Wookash8 ($2.81 in chips)
+Seat 7: PICTURS ($2.92 in chips)
+Seat 8: pablo595 ($1.52 in chips)
+Seat 9: kosarev1010 ($1.69 in chips)
+aborigen140: posts small blind $0.01
+grocer3637: posts big blind $0.02
+UnholyFrog: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd 9d]
+tucimira: raises $0.06 to $0.08
+Wookash8: folds
+PICTURS: folds
+pablo595: folds
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+grocer3637: calls $0.06
+*** FLOP *** [3s 8c 3d]
+grocer3637: checks
+tucimira: bets $0.08
+grocer3637: folds
+Uncalled bet ($0.08) returned to tucimira
+tucimira collected $0.16 from pot
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [3s 8c 3d]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: aborigen140 (small blind) folded before Flop
+Seat 3: grocer3637 (big blind) folded on the Flop
+Seat 5: tucimira collected ($0.16)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: pablo595 folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449188719:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:13:54 ET
+Table 'Herget III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.43 in chips)
+Seat 2: aborigen140 ($2.13 in chips)
+Seat 3: grocer3637 ($1.60 in chips)
+Seat 4: UnholyFrog ($2 in chips)
+Seat 5: tucimira ($2.45 in chips)
+Seat 6: Wookash8 ($2.81 in chips)
+Seat 7: PICTURS ($2.92 in chips)
+Seat 8: pablo595 ($1.52 in chips)
+Seat 9: kosarev1010 ($1.69 in chips)
+grocer3637: posts small blind $0.01
+UnholyFrog: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th 9s]
+tucimira: folds
+Wookash8: folds
+PICTURS: folds
+pablo595: folds
+kosarev1010: raises $0.05 to $0.07
+pokerHero1: folds
+aborigen140: folds
+grocer3637: calls $0.06
+UnholyFrog: folds
+*** FLOP *** [5h 2d Ad]
+grocer3637: checks
+kosarev1010: bets $0.11
+grocer3637: folds
+Uncalled bet ($0.11) returned to kosarev1010
+kosarev1010 collected $0.15 from pot
+kosarev1010: doesn't show hand
+*** SUMMARY ***
+Total pot $0.16 | Rake $0.01
+Board [5h 2d Ad]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 (button) folded before Flop (didn't bet)
+Seat 3: grocer3637 (small blind) folded on the Flop
+Seat 4: UnholyFrog (big blind) folded before Flop
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: pablo595 folded before Flop (didn't bet)
+Seat 9: kosarev1010 collected ($0.15)
+
+
+
+PokerStars Hand #212449233186:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:14:44 ET
+Table 'Herget III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.43 in chips)
+Seat 2: aborigen140 ($2.13 in chips)
+Seat 3: grocer3637 ($1.53 in chips)
+Seat 4: UnholyFrog ($1.98 in chips)
+Seat 5: tucimira ($2.45 in chips)
+Seat 6: Wookash8 ($2.81 in chips)
+Seat 7: PICTURS ($2.92 in chips)
+Seat 8: pablo595 ($1.52 in chips)
+Seat 9: kosarev1010 ($1.77 in chips)
+UnholyFrog: posts small blind $0.01
+tucimira: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh 5s]
+Wookash8: folds
+PICTURS: folds
+pablo595: folds
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+grocer3637: calls $0.02
+UnholyFrog: calls $0.01
+tucimira: checks
+*** FLOP *** [Js Tc 9s]
+UnholyFrog: bets $0.03
+tucimira: folds
+grocer3637: calls $0.03
+*** TURN *** [Js Tc 9s] [Jc]
+UnholyFrog: checks
+grocer3637: bets $0.04
+UnholyFrog: calls $0.04
+*** RIVER *** [Js Tc 9s Jc] [9c]
+UnholyFrog: checks
+grocer3637: checks
+*** SHOW DOWN ***
+UnholyFrog: shows [3s 8d] (two pair, Jacks and Nines)
+grocer3637: shows [Th Kh] (two pair, Jacks and Tens)
+grocer3637 collected $0.19 from pot
+*** SUMMARY ***
+Total pot $0.20 | Rake $0.01
+Board [Js Tc 9s Jc 9c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: grocer3637 (button) showed [Th Kh] and won ($0.19) with two pair, Jacks and Tens
+Seat 4: UnholyFrog (small blind) showed [3s 8d] and lost with two pair, Jacks and Nines
+Seat 5: tucimira (big blind) folded on the Flop
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: pablo595 folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449307622:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:16:07 ET
+Table 'Herget III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.43 in chips)
+Seat 2: aborigen140 ($2.13 in chips)
+Seat 3: grocer3637 ($1.63 in chips)
+Seat 4: UnholyFrog ($1.89 in chips)
+Seat 5: tucimira ($2.43 in chips)
+Seat 6: Wookash8 ($2.81 in chips)
+Seat 7: PICTURS ($2.92 in chips)
+Seat 8: pablo595 ($1.52 in chips)
+Seat 9: kosarev1010 ($1.77 in chips)
+tucimira: posts small blind $0.01
+Wookash8: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d 5h]
+PICTURS: calls $0.02
+pablo595: folds
+kosarev1010: raises $0.07 to $0.09
+pokerHero1: folds
+aborigen140: folds
+grocer3637: folds
+UnholyFrog: calls $0.09
+tucimira: folds
+Wookash8: folds
+PICTURS: calls $0.07
+*** FLOP *** [Qh 9h 2h]
+PICTURS: bets $0.02
+kosarev1010: calls $0.02
+UnholyFrog: raises $0.18 to $0.20
+PICTURS: folds
+kosarev1010: folds
+Uncalled bet ($0.18) returned to UnholyFrog
+UnholyFrog collected $0.35 from pot
+UnholyFrog: doesn't show hand
+*** SUMMARY ***
+Total pot $0.36 | Rake $0.01
+Board [Qh 9h 2h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: grocer3637 folded before Flop (didn't bet)
+Seat 4: UnholyFrog (button) collected ($0.35)
+Seat 5: tucimira (small blind) folded before Flop
+Seat 6: Wookash8 (big blind) folded before Flop
+Seat 7: PICTURS folded on the Flop
+Seat 8: pablo595 folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded on the Flop
+
+
+
+PokerStars Hand #212449362961:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:17:09 ET
+Table 'Herget III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.43 in chips)
+Seat 2: aborigen140 ($2.13 in chips)
+Seat 3: grocer3637 ($1.63 in chips)
+Seat 4: UnholyFrog ($2.13 in chips)
+Seat 5: tucimira ($2.42 in chips)
+Seat 6: Wookash8 ($2.79 in chips)
+Seat 7: PICTURS ($2.81 in chips)
+Seat 8: pablo595 ($1.52 in chips)
+Seat 9: kosarev1010 ($1.66 in chips)
+Wookash8: posts small blind $0.01
+PICTURS: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s 2c]
+pablo595: folds
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+grocer3637: raises $0.02 to $0.04
+UnholyFrog: folds
+tucimira: calls $0.04
+Wookash8: folds
+PICTURS: calls $0.02
+*** FLOP *** [Td 6h Qh]
+PICTURS: bets $0.02
+grocer3637: raises $0.17 to $0.19
+tucimira: folds
+PICTURS: folds
+Uncalled bet ($0.17) returned to grocer3637
+grocer3637 collected $0.16 from pot
+grocer3637: doesn't show hand
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [Td 6h Qh]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: grocer3637 collected ($0.16)
+Seat 4: UnholyFrog folded before Flop (didn't bet)
+Seat 5: tucimira (button) folded on the Flop
+Seat 6: Wookash8 (small blind) folded before Flop
+Seat 7: PICTURS (big blind) folded on the Flop
+Seat 8: pablo595 folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449421098:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:18:14 ET
+Table 'Herget III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.43 in chips)
+Seat 2: aborigen140 ($2.13 in chips)
+Seat 3: grocer3637 ($1.73 in chips)
+Seat 4: UnholyFrog ($2.13 in chips)
+Seat 5: tucimira ($2.38 in chips)
+Seat 6: Wookash8 ($2.78 in chips)
+Seat 7: PICTURS ($2.75 in chips)
+Seat 8: pablo595 ($1.52 in chips)
+Seat 9: kosarev1010 ($2 in chips)
+PICTURS: posts small blind $0.01
+pablo595: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac Kd]
+kosarev1010: folds
+pokerHero1: raises $0.06 to $0.08
+aborigen140: folds
+grocer3637: folds
+UnholyFrog: folds
+tucimira: folds
+Wookash8: folds
+PICTURS: folds
+pablo595: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 collected ($0.05)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: grocer3637 folded before Flop (didn't bet)
+Seat 4: UnholyFrog folded before Flop (didn't bet)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 (button) folded before Flop (didn't bet)
+Seat 7: PICTURS (small blind) folded before Flop
+Seat 8: pablo595 (big blind) folded before Flop
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449454866:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:18:52 ET
+Table 'Herget III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.46 in chips)
+Seat 2: aborigen140 ($2.13 in chips)
+Seat 3: grocer3637 ($1.73 in chips)
+Seat 4: UnholyFrog ($2.13 in chips)
+Seat 5: tucimira ($2.38 in chips)
+Seat 6: Wookash8 ($2.78 in chips)
+Seat 7: PICTURS ($2.74 in chips)
+Seat 8: pablo595 ($1.50 in chips)
+Seat 9: kosarev1010 ($2 in chips)
+pablo595: posts small blind $0.01
+kosarev1010: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s Ah]
+pokerHero1: folds
+aborigen140: folds
+grocer3637: folds
+UnholyFrog: folds
+tucimira: folds
+Wookash8: folds
+PICTURS: calls $0.02
+pablo595: folds
+kosarev1010: checks
+*** FLOP *** [Js Ts 9d]
+kosarev1010: checks
+PICTURS: bets $0.05
+kosarev1010: calls $0.05
+*** TURN *** [Js Ts 9d] [5c]
+kosarev1010: checks
+PICTURS: bets $0.14
+kosarev1010: folds
+Uncalled bet ($0.14) returned to PICTURS
+PICTURS collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [Js Ts 9d 5c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: grocer3637 folded before Flop (didn't bet)
+Seat 4: UnholyFrog folded before Flop (didn't bet)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS (button) collected ($0.14)
+Seat 8: pablo595 (small blind) folded before Flop
+Seat 9: kosarev1010 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #212449500935:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:19:43 ET
+Table 'Herget III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.46 in chips)
+Seat 2: aborigen140 ($2.13 in chips)
+Seat 3: grocer3637 ($1.73 in chips)
+Seat 4: UnholyFrog ($2.13 in chips)
+Seat 6: Wookash8 ($2.78 in chips)
+Seat 7: PICTURS ($2.81 in chips)
+Seat 8: pablo595 ($1.49 in chips)
+Seat 9: kosarev1010 ($1.93 in chips)
+kosarev1010: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9d 8c]
+aborigen140: folds
+grocer3637: calls $0.02
+UnholyFrog has timed out
+UnholyFrog: folds
+Wookash8: folds
+PICTURS: calls $0.02
+pablo595: folds
+kosarev1010: folds
+pokerHero1: checks
+*** FLOP *** [8s Ks Qd]
+pokerHero1: checks
+grocer3637: bets $0.02
+PICTURS: calls $0.02
+pokerHero1: folds
+*** TURN *** [8s Ks Qd] [Ts]
+grocer3637: bets $0.02
+PICTURS: calls $0.02
+*** RIVER *** [8s Ks Qd Ts] [9c]
+grocer3637: checks
+PICTURS: bets $0.07
+grocer3637: folds
+Uncalled bet ($0.07) returned to PICTURS
+PICTURS collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [8s Ks Qd Ts 9c]
+Seat 1: pokerHero1 (big blind) folded on the Flop
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: grocer3637 folded on the River
+Seat 4: UnholyFrog folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS collected ($0.14)
+Seat 8: pablo595 (button) folded before Flop (didn't bet)
+Seat 9: kosarev1010 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212449556068:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:20:46 ET
+Table 'Herget III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.44 in chips)
+Seat 2: aborigen140 ($2.13 in chips)
+Seat 3: grocer3637 ($1.67 in chips)
+Seat 4: UnholyFrog ($2.13 in chips)
+Seat 6: Wookash8 ($2.78 in chips)
+Seat 7: PICTURS ($2.89 in chips)
+Seat 8: pablo595 ($1.49 in chips)
+Seat 9: kosarev1010 ($1.92 in chips)
+pokerHero1: posts small blind $0.01
+aborigen140: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d 6d]
+grocer3637: raises $0.02 to $0.04
+UnholyFrog: folds
+Wookash8: folds
+PICTURS: calls $0.04
+pablo595: folds
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+*** FLOP *** [Kc 6s 9s]
+grocer3637: bets $0.11
+PICTURS: calls $0.11
+*** TURN *** [Kc 6s 9s] [2h]
+grocer3637: bets $0.04
+PICTURS: calls $0.04
+*** RIVER *** [Kc 6s 9s 2h] [4c]
+grocer3637: bets $0.20
+PICTURS: folds
+Uncalled bet ($0.20) returned to grocer3637
+grocer3637 collected $0.40 from pot
+grocer3637: doesn't show hand
+*** SUMMARY ***
+Total pot $0.41 | Rake $0.01
+Board [Kc 6s 9s 2h 4c]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: aborigen140 (big blind) folded before Flop
+Seat 3: grocer3637 collected ($0.40)
+Seat 4: UnholyFrog folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded on the River
+Seat 8: pablo595 folded before Flop (didn't bet)
+Seat 9: kosarev1010 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449598026:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:21:33 ET
+Table 'Herget III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.43 in chips)
+Seat 2: aborigen140 ($2.11 in chips)
+Seat 3: grocer3637 ($1.88 in chips)
+Seat 4: UnholyFrog ($2.13 in chips)
+Seat 6: Wookash8 ($2.78 in chips)
+Seat 7: PICTURS ($2.70 in chips)
+Seat 8: pablo595 ($1.49 in chips)
+Seat 9: kosarev1010 ($1.92 in chips)
+aborigen140: posts small blind $0.01
+grocer3637: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s 9h]
+UnholyFrog: folds
+Wookash8: folds
+PICTURS: calls $0.02
+pablo595: folds
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+grocer3637: raises $0.02 to $0.04
+PICTURS: calls $0.02
+*** FLOP *** [Tc 6d 9d]
+grocer3637: bets $0.04
+PICTURS: folds [5d]
+Uncalled bet ($0.04) returned to grocer3637
+grocer3637 collected $0.09 from pot
+grocer3637: doesn't show hand
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Board [Tc 6d 9d]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: aborigen140 (small blind) folded before Flop
+Seat 3: grocer3637 (big blind) collected ($0.09)
+Seat 4: UnholyFrog folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded on the Flop
+Seat 8: pablo595 folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449620828:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:21:58 ET
+Table 'Herget III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.43 in chips)
+Seat 2: aborigen140 ($2.10 in chips)
+Seat 3: grocer3637 ($1.93 in chips)
+Seat 4: UnholyFrog ($2.13 in chips)
+Seat 6: Wookash8 ($2.78 in chips)
+Seat 7: PICTURS ($2.66 in chips)
+Seat 8: pablo595 ($1.49 in chips)
+Seat 9: kosarev1010 ($1.92 in chips)
+grocer3637: posts small blind $0.01
+UnholyFrog: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh 2d]
+Wookash8: folds
+PICTURS: calls $0.02
+pablo595: raises $0.08 to $0.10
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: raises $0.14 to $0.24
+grocer3637: folds
+UnholyFrog: folds
+PICTURS: folds
+pablo595: calls $0.14
+*** FLOP *** [Ac 4c 9c]
+pablo595: checks
+aborigen140: bets $0.26
+pablo595: folds
+Uncalled bet ($0.26) returned to aborigen140
+aborigen140 collected $0.51 from pot
+aborigen140: doesn't show hand
+*** SUMMARY ***
+Total pot $0.53 | Rake $0.02
+Board [Ac 4c 9c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 (button) collected ($0.51)
+Seat 3: grocer3637 (small blind) folded before Flop
+Seat 4: UnholyFrog (big blind) folded before Flop
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded before Flop
+Seat 8: pablo595 folded on the Flop
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449664648:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:22:38 ET
+Table 'Herget III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.43 in chips)
+Seat 2: aborigen140 ($2.37 in chips)
+Seat 3: grocer3637 ($1.92 in chips)
+Seat 4: UnholyFrog ($2.11 in chips)
+Seat 6: Wookash8 ($2.78 in chips)
+Seat 7: PICTURS ($2.64 in chips)
+Seat 8: pablo595 ($1.25 in chips)
+Seat 9: kosarev1010 ($1.92 in chips)
+UnholyFrog: posts small blind $0.01
+Wookash8: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3s 2h]
+PICTURS: folds
+pablo595: folds
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+grocer3637: folds
+UnholyFrog: calls $0.01
+Wookash8: raises $0.04 to $0.06
+UnholyFrog: folds
+Uncalled bet ($0.04) returned to Wookash8
+Wookash8 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: grocer3637 (button) folded before Flop (didn't bet)
+Seat 4: UnholyFrog (small blind) folded before Flop
+Seat 6: Wookash8 (big blind) collected ($0.04)
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: pablo595 folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449689042:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:23:06 ET
+Table 'Herget III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.43 in chips)
+Seat 2: aborigen140 ($2.37 in chips)
+Seat 3: grocer3637 ($1.92 in chips)
+Seat 4: UnholyFrog ($2.09 in chips)
+Seat 6: Wookash8 ($2.80 in chips)
+Seat 7: PICTURS ($2.64 in chips)
+Seat 8: pablo595 ($1.25 in chips)
+Seat 9: kosarev1010 ($1.92 in chips)
+Wookash8: posts small blind $0.01
+PICTURS: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh Ks]
+pablo595: calls $0.02
+kosarev1010: folds
+pokerHero1: raises $0.06 to $0.08
+aborigen140: folds
+grocer3637: calls $0.08
+UnholyFrog has timed out
+UnholyFrog: folds
+Wookash8: folds
+PICTURS: folds
+pablo595: calls $0.06
+*** FLOP *** [3c 2s 7h]
+pablo595: checks
+pokerHero1: checks
+grocer3637: checks
+*** TURN *** [3c 2s 7h] [Ts]
+pablo595: bets $0.08
+pokerHero1: folds
+grocer3637: raises $0.42 to $0.50
+pablo595: folds
+Uncalled bet ($0.42) returned to grocer3637
+grocer3637 collected $0.41 from pot
+grocer3637: doesn't show hand
+*** SUMMARY ***
+Total pot $0.43 | Rake $0.02
+Board [3c 2s 7h Ts]
+Seat 1: pokerHero1 folded on the Turn
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: grocer3637 collected ($0.41)
+Seat 4: UnholyFrog (button) folded before Flop (didn't bet)
+Seat 6: Wookash8 (small blind) folded before Flop
+Seat 7: PICTURS (big blind) folded before Flop
+Seat 8: pablo595 folded on the Turn
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449756051:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:24:20 ET
+Table 'Herget III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.35 in chips)
+Seat 2: aborigen140 ($2.37 in chips)
+Seat 3: grocer3637 ($2.17 in chips)
+Seat 4: UnholyFrog ($2.09 in chips)
+Seat 6: Wookash8 ($2.79 in chips)
+Seat 7: PICTURS ($2.62 in chips)
+Seat 8: pablo595 ($1.09 in chips)
+Seat 9: kosarev1010 ($1.92 in chips)
+PICTURS: posts small blind $0.01
+pablo595: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc Ts]
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+grocer3637: calls $0.02
+UnholyFrog: raises $0.07 to $0.09
+Wookash8: folds
+PICTURS: calls $0.08
+pablo595: folds
+grocer3637: calls $0.07
+*** FLOP *** [6c 7h Th]
+PICTURS: checks
+grocer3637: bets $0.04
+UnholyFrog: calls $0.04
+PICTURS: calls $0.04
+*** TURN *** [6c 7h Th] [Tc]
+PICTURS: checks
+grocer3637: bets $0.02
+pablo595 leaves the table
+UnholyFrog: calls $0.02
+PICTURS: calls $0.02
+*** RIVER *** [6c 7h Th Tc] [Kh]
+PICTURS: checks
+grocer3637: bets $0.22
+Trend154reg joins the table at seat #8
+UnholyFrog: calls $0.22
+PICTURS: calls $0.22
+*** SHOW DOWN ***
+grocer3637: shows [6h 5h] (a flush, King high)
+UnholyFrog: mucks hand
+PICTURS: mucks hand
+grocer3637 collected $1.09 from pot
+*** SUMMARY ***
+Total pot $1.13 | Rake $0.04
+Board [6c 7h Th Tc Kh]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: grocer3637 showed [6h 5h] and won ($1.09) with a flush, King high
+Seat 4: UnholyFrog mucked [Qs Kc]
+Seat 6: Wookash8 (button) folded before Flop (didn't bet)
+Seat 7: PICTURS (small blind) mucked [Ks Qh]
+Seat 8: pablo595 (big blind) folded before Flop
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449817087:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:25:27 ET
+Table 'Herget III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.35 in chips)
+Seat 2: aborigen140 ($2.37 in chips)
+Seat 3: grocer3637 ($2.89 in chips)
+Seat 4: UnholyFrog ($1.72 in chips)
+Seat 6: Wookash8 ($2.79 in chips)
+Seat 7: PICTURS ($2.25 in chips)
+Seat 9: kosarev1010 ($1.92 in chips)
+kosarev1010: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+tucimira has timed out
+tucimira: is sitting out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h 9c]
+aborigen140: folds
+grocer3637: calls $0.02
+UnholyFrog: raises $0.07 to $0.09
+Wookash8: folds
+PICTURS: folds
+kosarev1010: calls $0.08
+pokerHero1: folds
+grocer3637: folds
+*** FLOP *** [9d Qh Th]
+grocer3637 leaves the table
+hzzz6 joins the table at seat #3
+kosarev1010: checks
+UnholyFrog: checks
+*** TURN *** [9d Qh Th] [7h]
+kosarev1010: bets $0.08
+UnholyFrog: calls $0.08
+*** RIVER *** [9d Qh Th 7h] [8c]
+kosarev1010: checks
+UnholyFrog: bets $0.19
+kosarev1010: calls $0.19
+*** SHOW DOWN ***
+UnholyFrog: shows [As Kh] (high card Ace)
+kosarev1010: shows [Qs Ah] (a pair of Queens)
+kosarev1010 collected $0.73 from pot
+*** SUMMARY ***
+Total pot $0.76 | Rake $0.03
+Board [9d Qh Th 7h 8c]
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: grocer3637 folded before Flop
+Seat 4: UnholyFrog showed [As Kh] and lost with high card Ace
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS (button) folded before Flop (didn't bet)
+Seat 9: kosarev1010 (small blind) showed [Qs Ah] and won ($0.73) with a pair of Queens
+
+
+
+PokerStars Hand #212449906076:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:27:02 ET
+Table 'Herget III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.33 in chips)
+Seat 2: aborigen140 ($2.37 in chips)
+Seat 4: UnholyFrog ($1.36 in chips)
+Seat 6: Wookash8 ($2.79 in chips)
+Seat 7: PICTURS ($2.25 in chips)
+Seat 8: Trend154reg ($2 in chips)
+Seat 9: kosarev1010 ($2.29 in chips)
+pokerHero1: posts small blind $0.01
+aborigen140: posts big blind $0.02
+hzzz6: sits out
+tucimira is disconnected
+tucimira has timed out while disconnected
+tucimira: is sitting out
+Trend154reg: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8s 9h]
+UnholyFrog: folds
+Wookash8: folds
+PICTURS: calls $0.02
+Trend154reg: checks
+kosarev1010: folds
+pokerHero1: calls $0.01
+aborigen140: checks
+*** FLOP *** [4c 9d Qh]
+pokerHero1: checks
+aborigen140: checks
+PICTURS: bets $0.02
+Trend154reg: folds
+pokerHero1: calls $0.02
+aborigen140: folds
+*** TURN *** [4c 9d Qh] [5d]
+pokerHero1: checks
+PICTURS: bets $0.12
+pokerHero1: folds
+Uncalled bet ($0.12) returned to PICTURS
+PICTURS collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Board [4c 9d Qh 5d]
+Seat 1: pokerHero1 (small blind) folded on the Turn
+Seat 2: aborigen140 (big blind) folded on the Flop
+Seat 4: UnholyFrog folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS collected ($0.12)
+Seat 8: Trend154reg folded on the Flop (didn't bet)
+Seat 9: kosarev1010 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212449946166:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:27:46 ET
+Table 'Herget III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.29 in chips)
+Seat 2: aborigen140 ($2.35 in chips)
+Seat 3: hzzz6 ($2 in chips)
+Seat 4: UnholyFrog ($1.36 in chips)
+Seat 6: Wookash8 ($2.79 in chips)
+Seat 7: PICTURS ($2.33 in chips)
+Seat 8: Trend154reg ($1.98 in chips)
+Seat 9: kosarev1010 ($2.29 in chips)
+aborigen140: posts small blind $0.01
+hzzz6: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac 9h]
+UnholyFrog: folds
+Wookash8: calls $0.02
+PICTURS: calls $0.02
+Trend154reg: folds
+kosarev1010: folds
+pokerHero1: raises $0.06 to $0.08
+aborigen140: folds
+hzzz6: calls $0.06
+Wookash8: calls $0.06
+PICTURS: calls $0.06
+*** FLOP *** [7d Ah Ad]
+hzzz6: checks
+Wookash8: checks
+PICTURS: checks
+pokerHero1: bets $0.10
+hzzz6: calls $0.10
+Wookash8: folds
+PICTURS: calls $0.10
+*** TURN *** [7d Ah Ad] [Tc]
+hzzz6: checks
+PICTURS: checks
+pokerHero1: bets $0.46
+hzzz6: folds
+PICTURS: folds
+Uncalled bet ($0.46) returned to pokerHero1
+pokerHero1 collected $0.61 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.63 | Rake $0.02
+Board [7d Ah Ad Tc]
+Seat 1: pokerHero1 (button) collected ($0.61)
+Seat 2: aborigen140 (small blind) folded before Flop
+Seat 3: hzzz6 (big blind) folded on the Turn
+Seat 4: UnholyFrog folded before Flop (didn't bet)
+Seat 6: Wookash8 folded on the Flop
+Seat 7: PICTURS folded on the Turn
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450015042:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:29:00 ET
+Table 'Herget III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.72 in chips)
+Seat 2: aborigen140 ($2.34 in chips)
+Seat 3: hzzz6 ($1.82 in chips)
+Seat 4: UnholyFrog ($1.36 in chips)
+Seat 5: tucimira ($2.38 in chips)
+Seat 6: Wookash8 ($2.71 in chips)
+Seat 7: PICTURS ($2.15 in chips)
+Seat 8: Trend154reg ($1.98 in chips)
+Seat 9: kosarev1010 ($2.29 in chips)
+hzzz6: posts small blind $0.01
+UnholyFrog: posts big blind $0.02
+tucimira: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ts 3h]
+tucimira: checks
+Wookash8: folds
+PICTURS: calls $0.02
+Trend154reg: folds
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+hzzz6: calls $0.01
+UnholyFrog: checks
+*** FLOP *** [4d 9d 2c]
+hzzz6: checks
+UnholyFrog: bets $0.09
+tucimira: folds
+PICTURS: folds
+hzzz6: folds
+Uncalled bet ($0.09) returned to UnholyFrog
+UnholyFrog collected $0.09 from pot
+UnholyFrog: doesn't show hand
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Board [4d 9d 2c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 (button) folded before Flop (didn't bet)
+Seat 3: hzzz6 (small blind) folded on the Flop
+Seat 4: UnholyFrog (big blind) collected ($0.09)
+Seat 5: tucimira folded on the Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded on the Flop
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450051417:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:29:39 ET
+Table 'Herget III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.72 in chips)
+Seat 2: aborigen140 ($2.34 in chips)
+Seat 3: hzzz6 ($1.80 in chips)
+Seat 4: UnholyFrog ($1.43 in chips)
+Seat 5: tucimira ($2.35 in chips)
+Seat 6: Wookash8 ($2.71 in chips)
+Seat 7: PICTURS ($2.13 in chips)
+Seat 8: Trend154reg ($1.98 in chips)
+Seat 9: kosarev1010 ($2.29 in chips)
+UnholyFrog: posts small blind $0.01
+tucimira: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s 3s]
+Wookash8: folds
+PICTURS: calls $0.02
+Trend154reg: folds
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+hzzz6: folds
+UnholyFrog: calls $0.01
+tucimira: checks
+*** FLOP *** [3h 9c 2s]
+UnholyFrog: bets $0.06
+tucimira: folds
+PICTURS: calls $0.06
+*** TURN *** [3h 9c 2s] [5h]
+UnholyFrog: bets $0.17
+PICTURS: calls $0.17
+*** RIVER *** [3h 9c 2s 5h] [Jd]
+UnholyFrog: checks
+PICTURS: bets $0.50
+UnholyFrog: folds
+Uncalled bet ($0.50) returned to PICTURS
+PICTURS collected $0.50 from pot
+*** SUMMARY ***
+Total pot $0.52 | Rake $0.02
+Board [3h 9c 2s 5h Jd]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: hzzz6 (button) folded before Flop (didn't bet)
+Seat 4: UnholyFrog (small blind) folded on the River
+Seat 5: tucimira (big blind) folded on the Flop
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS collected ($0.50)
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450112905:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:30:45 ET
+Table 'Herget III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.72 in chips)
+Seat 2: aborigen140 ($2.34 in chips)
+Seat 3: hzzz6 ($1.80 in chips)
+Seat 4: UnholyFrog ($1.18 in chips)
+Seat 5: tucimira ($2.33 in chips)
+Seat 6: Wookash8 ($2.71 in chips)
+Seat 7: PICTURS ($2.38 in chips)
+Seat 8: Trend154reg ($1.98 in chips)
+Seat 9: kosarev1010 ($2.29 in chips)
+tucimira: posts small blind $0.01
+Wookash8: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c 2d]
+PICTURS: calls $0.02
+Trend154reg: folds
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+hzzz6: folds
+UnholyFrog: calls $0.02
+tucimira: folds
+Wookash8: checks
+*** FLOP *** [3d 8h 9s]
+Wookash8: bets $0.07
+PICTURS: folds
+UnholyFrog: folds
+Uncalled bet ($0.07) returned to Wookash8
+Wookash8 collected $0.07 from pot
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Board [3d 8h 9s]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: hzzz6 folded before Flop (didn't bet)
+Seat 4: UnholyFrog (button) folded on the Flop
+Seat 5: tucimira (small blind) folded before Flop
+Seat 6: Wookash8 (big blind) collected ($0.07)
+Seat 7: PICTURS folded on the Flop
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450153094:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:31:28 ET
+Table 'Herget III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.72 in chips)
+Seat 2: aborigen140 ($2.34 in chips)
+Seat 3: hzzz6 ($1.80 in chips)
+Seat 4: UnholyFrog ($1.16 in chips)
+Seat 5: tucimira ($2.32 in chips)
+Seat 6: Wookash8 ($2.76 in chips)
+Seat 7: PICTURS ($2.36 in chips)
+Seat 8: Trend154reg ($1.98 in chips)
+Seat 9: kosarev1010 ($2.29 in chips)
+Wookash8: posts small blind $0.01
+PICTURS: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad Ac]
+Trend154reg: folds
+kosarev1010: folds
+pokerHero1: raises $0.06 to $0.08
+aborigen140: folds
+hzzz6: folds
+UnholyFrog: folds
+tucimira: folds
+Wookash8: folds
+PICTURS: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 collected ($0.05)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: hzzz6 folded before Flop (didn't bet)
+Seat 4: UnholyFrog folded before Flop (didn't bet)
+Seat 5: tucimira (button) folded before Flop (didn't bet)
+Seat 6: Wookash8 (small blind) folded before Flop
+Seat 7: PICTURS (big blind) folded before Flop
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450175766:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:31:52 ET
+Table 'Herget III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.75 in chips)
+Seat 2: aborigen140 ($2.34 in chips)
+Seat 3: hzzz6 ($1.80 in chips)
+Seat 4: UnholyFrog ($1.16 in chips)
+Seat 5: tucimira ($2.32 in chips)
+Seat 6: Wookash8 ($2.75 in chips)
+Seat 7: PICTURS ($2.34 in chips)
+Seat 8: Trend154reg ($1.98 in chips)
+Seat 9: kosarev1010 ($2.29 in chips)
+PICTURS: posts small blind $0.01
+Trend154reg: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d 9s]
+kosarev1010: calls $0.02
+pokerHero1: folds
+aborigen140: folds
+hzzz6: folds
+UnholyFrog: folds
+tucimira: folds
+Wookash8: folds
+PICTURS: folds
+Trend154reg: checks
+*** FLOP *** [Tc 2s Th]
+Trend154reg: checks
+kosarev1010: checks
+*** TURN *** [Tc 2s Th] [9h]
+Trend154reg: bets $0.02
+kosarev1010: folds
+Uncalled bet ($0.02) returned to Trend154reg
+Trend154reg collected $0.05 from pot
+Trend154reg: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [Tc 2s Th 9h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: hzzz6 folded before Flop (didn't bet)
+Seat 4: UnholyFrog folded before Flop (didn't bet)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 (button) folded before Flop (didn't bet)
+Seat 7: PICTURS (small blind) folded before Flop
+Seat 8: Trend154reg (big blind) collected ($0.05)
+Seat 9: kosarev1010 folded on the Turn
+
+
+
+PokerStars Hand #212450199848:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:32:18 ET
+Table 'Herget III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.75 in chips)
+Seat 2: aborigen140 ($2.34 in chips)
+Seat 3: hzzz6 ($1.80 in chips)
+Seat 4: UnholyFrog ($1.16 in chips)
+Seat 5: tucimira ($2.32 in chips)
+Seat 6: Wookash8 ($2.75 in chips)
+Seat 7: PICTURS ($2.33 in chips)
+Seat 8: Trend154reg ($2.01 in chips)
+Seat 9: kosarev1010 ($2.27 in chips)
+Trend154reg: posts small blind $0.01
+kosarev1010: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc Jd]
+pokerHero1: folds
+aborigen140: calls $0.02
+hzzz6: folds
+UnholyFrog: folds
+tucimira: calls $0.02
+Wookash8: folds
+PICTURS: folds
+Trend154reg: folds
+kosarev1010: checks
+*** FLOP *** [6d 8s 5h]
+kosarev1010: checks
+aborigen140: checks
+tucimira: checks
+*** TURN *** [6d 8s 5h] [Ks]
+kosarev1010: checks
+aborigen140: checks
+tucimira: bets $0.04
+kosarev1010: folds
+aborigen140: folds
+Uncalled bet ($0.04) returned to tucimira
+tucimira collected $0.07 from pot
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Board [6d 8s 5h Ks]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded on the Turn
+Seat 3: hzzz6 folded before Flop (didn't bet)
+Seat 4: UnholyFrog folded before Flop (didn't bet)
+Seat 5: tucimira collected ($0.07)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS (button) folded before Flop (didn't bet)
+Seat 8: Trend154reg (small blind) folded before Flop
+Seat 9: kosarev1010 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #212450245396:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:33:07 ET
+Table 'Herget III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.75 in chips)
+Seat 2: aborigen140 ($2.32 in chips)
+Seat 3: hzzz6 ($1.80 in chips)
+Seat 4: UnholyFrog ($1.16 in chips)
+Seat 5: tucimira ($2.37 in chips)
+Seat 6: Wookash8 ($2.75 in chips)
+Seat 7: PICTURS ($2.33 in chips)
+Seat 8: Trend154reg ($2 in chips)
+Seat 9: kosarev1010 ($2.25 in chips)
+kosarev1010: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As 8h]
+aborigen140: folds
+hzzz6: raises $0.02 to $0.04
+UnholyFrog: folds
+tucimira: folds
+Wookash8: folds
+PICTURS: calls $0.04
+Trend154reg: folds
+kosarev1010: folds
+pokerHero1: folds
+*** FLOP *** [Ac 5s 6d]
+hzzz6: bets $0.04
+PICTURS: raises $0.04 to $0.08
+hzzz6: folds
+Uncalled bet ($0.04) returned to PICTURS
+PICTURS collected $0.18 from pot
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [Ac 5s 6d]
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: hzzz6 folded on the Flop
+Seat 4: UnholyFrog folded before Flop (didn't bet)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS collected ($0.18)
+Seat 8: Trend154reg (button) folded before Flop (didn't bet)
+Seat 9: kosarev1010 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212450281858:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:33:46 ET
+Table 'Herget III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.73 in chips)
+Seat 2: aborigen140 ($2.32 in chips)
+Seat 3: hzzz6 ($1.72 in chips)
+Seat 4: UnholyFrog ($1.16 in chips)
+Seat 5: tucimira ($2.37 in chips)
+Seat 6: Wookash8 ($2.75 in chips)
+Seat 7: PICTURS ($2.43 in chips)
+Seat 8: Trend154reg ($2 in chips)
+Seat 9: kosarev1010 ($2.24 in chips)
+pokerHero1: posts small blind $0.01
+aborigen140: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7h Ks]
+hzzz6: folds
+UnholyFrog: folds
+tucimira: raises $0.06 to $0.08
+Wookash8: folds
+PICTURS: calls $0.08
+Trend154reg: folds
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+*** FLOP *** [8c 4c 6s]
+tucimira: checks
+PICTURS: checks
+*** TURN *** [8c 4c 6s] [5d]
+tucimira: checks
+PICTURS: bets $0.09
+tucimira: folds
+Uncalled bet ($0.09) returned to PICTURS
+PICTURS collected $0.18 from pot
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [8c 4c 6s 5d]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: aborigen140 (big blind) folded before Flop
+Seat 3: hzzz6 folded before Flop (didn't bet)
+Seat 4: UnholyFrog folded before Flop (didn't bet)
+Seat 5: tucimira folded on the Turn
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS collected ($0.18)
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450331399:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:34:39 ET
+Table 'Herget III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.72 in chips)
+Seat 2: aborigen140 ($2.30 in chips)
+Seat 3: hzzz6 ($1.72 in chips)
+Seat 4: UnholyFrog ($1.16 in chips)
+Seat 5: tucimira ($2.29 in chips)
+Seat 6: Wookash8 ($2.75 in chips)
+Seat 7: PICTURS ($2.53 in chips)
+Seat 8: Trend154reg ($2 in chips)
+Seat 9: kosarev1010 ($2.24 in chips)
+aborigen140: posts small blind $0.01
+hzzz6: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc 9h]
+UnholyFrog: raises $0.04 to $0.06
+tucimira: folds
+Wookash8: folds
+PICTURS: folds
+Trend154reg: folds
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+hzzz6: folds
+Uncalled bet ($0.04) returned to UnholyFrog
+UnholyFrog collected $0.05 from pot
+UnholyFrog: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: aborigen140 (small blind) folded before Flop
+Seat 3: hzzz6 (big blind) folded before Flop
+Seat 4: UnholyFrog collected ($0.05)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450355356:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:35:04 ET
+Table 'Herget III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($2.72 in chips)
+Seat 2: aborigen140 ($2.29 in chips)
+Seat 3: hzzz6 ($1.70 in chips)
+Seat 4: UnholyFrog ($1.19 in chips)
+Seat 5: tucimira ($2.29 in chips)
+Seat 6: Wookash8 ($2.75 in chips)
+Seat 7: PICTURS ($2.53 in chips)
+Seat 8: Trend154reg ($2 in chips)
+Seat 9: kosarev1010 ($2.24 in chips)
+hzzz6: posts small blind $0.01
+UnholyFrog: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd 9s]
+tucimira: folds
+Wookash8: folds
+PICTURS: folds
+Trend154reg: folds
+kosarev1010 has timed out
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+hzzz6: raises $0.02 to $0.04
+UnholyFrog: calls $0.02
+*** FLOP *** [2s 7h 7d]
+hzzz6: checks
+UnholyFrog: bets $0.08
+hzzz6: calls $0.08
+*** TURN *** [2s 7h 7d] [Jc]
+hzzz6: bets $0.10
+UnholyFrog: folds
+Uncalled bet ($0.10) returned to hzzz6
+hzzz6 collected $0.23 from pot
+hzzz6: doesn't show hand
+*** SUMMARY ***
+Total pot $0.24 | Rake $0.01
+Board [2s 7h 7d Jc]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 (button) folded before Flop (didn't bet)
+Seat 3: hzzz6 (small blind) collected ($0.23)
+Seat 4: UnholyFrog (big blind) folded on the Turn
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450421578:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:36:10 ET
+Table 'Herget III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.72 in chips)
+Seat 2: aborigen140 ($2.29 in chips)
+Seat 3: hzzz6 ($1.81 in chips)
+Seat 4: UnholyFrog ($1.07 in chips)
+Seat 5: tucimira ($2.29 in chips)
+Seat 6: Wookash8 ($2.75 in chips)
+Seat 7: PICTURS ($2.53 in chips)
+Seat 8: Trend154reg ($2 in chips)
+UnholyFrog: posts small blind $0.01
+tucimira: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9d 7c]
+Wookash8: folds
+PICTURS: raises $0.04 to $0.06
+Trend154reg: folds
+pokerHero1: folds
+aborigen140: calls $0.06
+hzzz6: calls $0.06
+UnholyFrog: folds
+tucimira: folds
+*** FLOP *** [8d Jd 5h]
+PICTURS: bets $0.10
+aborigen140: folds
+hzzz6: calls $0.10
+*** TURN *** [8d Jd 5h] [Ts]
+PICTURS: bets $0.40
+hzzz6: folds
+Uncalled bet ($0.40) returned to PICTURS
+PICTURS collected $0.40 from pot
+*** SUMMARY ***
+Total pot $0.41 | Rake $0.01
+Board [8d Jd 5h Ts]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded on the Flop
+Seat 3: hzzz6 (button) folded on the Turn
+Seat 4: UnholyFrog (small blind) folded before Flop
+Seat 5: tucimira (big blind) folded before Flop
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS collected ($0.40)
+Seat 8: Trend154reg folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450474868:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:37:08 ET
+Table 'Herget III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.72 in chips)
+Seat 2: aborigen140 ($2.23 in chips)
+Seat 3: hzzz6 ($1.65 in chips)
+Seat 4: UnholyFrog ($1.06 in chips)
+Seat 5: tucimira ($2.27 in chips)
+Seat 6: Wookash8 ($2.75 in chips)
+Seat 7: PICTURS ($2.77 in chips)
+Seat 8: Trend154reg ($2 in chips)
+Seat 9: kosarev1010 ($2.24 in chips)
+tucimira: posts small blind $0.01
+Wookash8: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8d Jh]
+PICTURS: folds
+Trend154reg: folds
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+hzzz6: folds
+UnholyFrog: folds
+tucimira: folds
+Uncalled bet ($0.01) returned to Wookash8
+Wookash8 collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: hzzz6 folded before Flop (didn't bet)
+Seat 4: UnholyFrog (button) folded before Flop (didn't bet)
+Seat 5: tucimira (small blind) folded before Flop
+Seat 6: Wookash8 (big blind) collected ($0.02)
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450491528:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:37:27 ET
+Table 'Herget III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.72 in chips)
+Seat 2: aborigen140 ($2.23 in chips)
+Seat 3: hzzz6 ($1.65 in chips)
+Seat 4: UnholyFrog ($1.06 in chips)
+Seat 5: tucimira ($2.26 in chips)
+Seat 6: Wookash8 ($2.76 in chips)
+Seat 7: PICTURS ($2.77 in chips)
+Seat 8: Trend154reg ($2 in chips)
+Seat 9: kosarev1010 ($2.24 in chips)
+Wookash8: posts small blind $0.01
+PICTURS: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qd Jd]
+Trend154reg: calls $0.02
+kosarev1010: folds
+pokerHero1: raises $0.06 to $0.08
+aborigen140: folds
+hzzz6: folds
+UnholyFrog: folds
+tucimira: folds
+Wookash8: folds
+PICTURS: folds
+Trend154reg: calls $0.06
+*** FLOP *** [2c 3c 7d]
+Trend154reg: checks
+pokerHero1: bets $0.14
+Trend154reg: folds
+Uncalled bet ($0.14) returned to pokerHero1
+pokerHero1 collected $0.18 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [2c 3c 7d]
+Seat 1: pokerHero1 collected ($0.18)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: hzzz6 folded before Flop (didn't bet)
+Seat 4: UnholyFrog folded before Flop (didn't bet)
+Seat 5: tucimira (button) folded before Flop (didn't bet)
+Seat 6: Wookash8 (small blind) folded before Flop
+Seat 7: PICTURS (big blind) folded before Flop
+Seat 8: Trend154reg folded on the Flop
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450525241:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:38:02 ET
+Table 'Herget III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.82 in chips)
+Seat 2: aborigen140 ($2.23 in chips)
+Seat 3: hzzz6 ($1.65 in chips)
+Seat 4: UnholyFrog ($1.06 in chips)
+Seat 5: tucimira ($2.26 in chips)
+Seat 6: Wookash8 ($2.75 in chips)
+Seat 7: PICTURS ($2.75 in chips)
+Seat 8: Trend154reg ($1.92 in chips)
+Seat 9: kosarev1010 ($2.24 in chips)
+PICTURS: posts small blind $0.01
+Trend154reg: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3c Th]
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+hzzz6: calls $0.02
+UnholyFrog: calls $0.02
+tucimira: raises $0.10 to $0.12
+Wookash8: folds
+PICTURS: folds
+Trend154reg: folds
+hzzz6: folds
+UnholyFrog: calls $0.10
+*** FLOP *** [9c 8c Jd]
+UnholyFrog: checks
+tucimira: bets $0.20
+UnholyFrog: folds
+Uncalled bet ($0.20) returned to tucimira
+tucimira collected $0.28 from pot
+tucimira: doesn't show hand
+*** SUMMARY ***
+Total pot $0.29 | Rake $0.01
+Board [9c 8c Jd]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: hzzz6 folded before Flop
+Seat 4: UnholyFrog folded on the Flop
+Seat 5: tucimira collected ($0.28)
+Seat 6: Wookash8 (button) folded before Flop (didn't bet)
+Seat 7: PICTURS (small blind) folded before Flop
+Seat 8: Trend154reg (big blind) folded before Flop
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450566305:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:38:49 ET
+Table 'Herget III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.82 in chips)
+Seat 2: aborigen140 ($2.23 in chips)
+Seat 3: hzzz6 ($1.63 in chips)
+Seat 4: UnholyFrog ($0.94 in chips)
+Seat 5: tucimira ($2.42 in chips)
+Seat 6: Wookash8 ($2.75 in chips)
+Seat 7: PICTURS ($2.74 in chips)
+Seat 8: Trend154reg ($1.90 in chips)
+Seat 9: kosarev1010 ($2.24 in chips)
+Trend154reg: posts small blind $0.01
+kosarev1010: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc Ah]
+pokerHero1: raises $0.06 to $0.08
+aborigen140: folds
+hzzz6: folds
+UnholyFrog: folds
+tucimira: calls $0.08
+Wookash8: folds
+PICTURS: folds
+Trend154reg: folds
+kosarev1010: calls $0.06
+*** FLOP *** [2h Qs Ts]
+kosarev1010: checks
+pokerHero1: bets $0.18
+tucimira: folds
+kosarev1010: calls $0.18
+*** TURN *** [2h Qs Ts] [9h]
+kosarev1010: checks
+pokerHero1: bets $0.26
+kosarev1010: folds
+Uncalled bet ($0.26) returned to pokerHero1
+pokerHero1 collected $0.59 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.61 | Rake $0.02
+Board [2h Qs Ts 9h]
+Seat 1: pokerHero1 collected ($0.59)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: hzzz6 folded before Flop (didn't bet)
+Seat 4: UnholyFrog folded before Flop (didn't bet)
+Seat 5: tucimira folded on the Flop
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS (button) folded before Flop (didn't bet)
+Seat 8: Trend154reg (small blind) folded before Flop
+Seat 9: kosarev1010 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #212450607795:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:39:34 ET
+Table 'Herget III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($3.15 in chips)
+Seat 2: aborigen140 ($2.23 in chips)
+Seat 3: hzzz6 ($1.63 in chips)
+Seat 4: UnholyFrog ($0.94 in chips)
+Seat 5: tucimira ($2.34 in chips)
+Seat 6: Wookash8 ($2.75 in chips)
+Seat 7: PICTURS ($2.74 in chips)
+Seat 8: Trend154reg ($1.89 in chips)
+Seat 9: kosarev1010 ($1.98 in chips)
+kosarev1010: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c 2d]
+aborigen140: folds
+hzzz6: raises $0.02 to $0.04
+UnholyFrog: folds
+tucimira: folds
+Wookash8: folds
+PICTURS: calls $0.04
+Trend154reg: folds
+kosarev1010: folds
+pokerHero1: calls $0.02
+*** FLOP *** [7c 2h 4d]
+pokerHero1: checks
+hzzz6: checks
+PICTURS: bets $0.02
+pokerHero1: calls $0.02
+hzzz6: calls $0.02
+*** TURN *** [7c 2h 4d] [Js]
+pokerHero1: checks
+hzzz6: checks
+PICTURS: bets $0.02
+pokerHero1: raises $0.08 to $0.10
+hzzz6: calls $0.10
+PICTURS: folds
+*** RIVER *** [7c 2h 4d Js] [7s]
+pokerHero1: bets $0.40
+hzzz6: calls $0.40
+*** SHOW DOWN ***
+pokerHero1: shows [2c 2d] (a full house, Deuces full of Sevens)
+hzzz6: mucks hand
+pokerHero1 collected $1.17 from pot
+*** SUMMARY ***
+Total pot $1.21 | Rake $0.04
+Board [7c 2h 4d Js 7s]
+Seat 1: pokerHero1 (big blind) showed [2c 2d] and won ($1.17) with a full house, Deuces full of Sevens
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: hzzz6 mucked [Kc Jd]
+Seat 4: UnholyFrog folded before Flop (didn't bet)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded on the Turn
+Seat 8: Trend154reg (button) folded before Flop (didn't bet)
+Seat 9: kosarev1010 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212450686861:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:40:53 ET
+Table 'Herget III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($3.76 in chips)
+Seat 2: aborigen140 ($2.23 in chips)
+Seat 3: hzzz6 ($1.07 in chips)
+Seat 4: UnholyFrog ($0.94 in chips)
+Seat 5: tucimira ($2.34 in chips)
+Seat 6: Wookash8 ($2.75 in chips)
+Seat 7: PICTURS ($2.66 in chips)
+Seat 8: Trend154reg ($1.89 in chips)
+Seat 9: kosarev1010 ($1.97 in chips)
+pokerHero1: posts small blind $0.01
+aborigen140: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2s 4s]
+hzzz6: raises $0.02 to $0.04
+UnholyFrog: folds
+tucimira: folds
+Wookash8: folds
+PICTURS: calls $0.04
+Trend154reg: folds
+kosarev1010: raises $0.15 to $0.19
+pokerHero1: folds
+aborigen140: folds
+hzzz6: raises $0.88 to $1.07 and is all-in
+PICTURS: folds
+kosarev1010: calls $0.88
+*** FLOP *** [8s 6h 4h]
+*** TURN *** [8s 6h 4h] [Qs]
+*** RIVER *** [8s 6h 4h Qs] [7d]
+*** SHOW DOWN ***
+hzzz6: shows [As 7s] (a pair of Sevens)
+kosarev1010: shows [Js Jd] (a pair of Jacks)
+kosarev1010 collected $2.13 from pot
+*** SUMMARY ***
+Total pot $2.21 | Rake $0.08
+Board [8s 6h 4h Qs 7d]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: aborigen140 (big blind) folded before Flop
+Seat 3: hzzz6 showed [As 7s] and lost with a pair of Sevens
+Seat 4: UnholyFrog folded before Flop (didn't bet)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded before Flop
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 (button) showed [Js Jd] and won ($2.13) with a pair of Jacks
+
+
+
+PokerStars Hand #212450727575:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:41:36 ET
+Table 'Herget III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($3.75 in chips)
+Seat 2: aborigen140 ($2.21 in chips)
+Seat 4: UnholyFrog ($0.94 in chips)
+Seat 5: tucimira ($2.34 in chips)
+Seat 6: Wookash8 ($2.75 in chips)
+Seat 7: PICTURS ($2.62 in chips)
+Seat 8: Trend154reg ($1.89 in chips)
+Seat 9: kosarev1010 ($3.03 in chips)
+aborigen140: posts small blind $0.01
+UnholyFrog: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8d As]
+tucimira: folds
+Wookash8: folds
+PICTURS: folds
+Trend154reg: folds
+hzzz6 leaves the table
+kosarev1010: folds
+pokerHero1: raises $0.06 to $0.08
+aborigen140: folds
+UnholyFrog: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (button) collected ($0.05)
+Seat 2: aborigen140 (small blind) folded before Flop
+Seat 4: UnholyFrog (big blind) folded before Flop
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450741269:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:41:51 ET
+Table 'Herget III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($3.78 in chips)
+Seat 2: aborigen140 ($2.20 in chips)
+Seat 4: UnholyFrog ($0.92 in chips)
+Seat 5: tucimira ($2.34 in chips)
+Seat 6: Wookash8 ($2.75 in chips)
+Seat 7: PICTURS ($2.62 in chips)
+Seat 8: Trend154reg ($1.89 in chips)
+Seat 9: kosarev1010 ($3.03 in chips)
+UnholyFrog: posts small blind $0.01
+tucimira: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s 7h]
+Wookash8: folds
+PICTURS: calls $0.02
+Trend154reg: folds
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+UnholyFrog: calls $0.01
+tucimira: checks
+*** FLOP *** [3h Qh 9d]
+UnholyFrog: bets $0.06
+tucimira: folds
+PICTURS: folds
+Uncalled bet ($0.06) returned to UnholyFrog
+UnholyFrog collected $0.06 from pot
+UnholyFrog: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [3h Qh 9d]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 (button) folded before Flop (didn't bet)
+Seat 4: UnholyFrog (small blind) collected ($0.06)
+Seat 5: tucimira (big blind) folded on the Flop
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded on the Flop
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450771078:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:42:22 ET
+Table 'Herget III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($3.78 in chips)
+Seat 2: aborigen140 ($2.20 in chips)
+Seat 4: UnholyFrog ($0.96 in chips)
+Seat 5: tucimira ($2.32 in chips)
+Seat 6: Wookash8 ($2.75 in chips)
+Seat 7: PICTURS ($2.60 in chips)
+Seat 8: Trend154reg ($1.89 in chips)
+Seat 9: kosarev1010 ($3.03 in chips)
+tucimira: posts small blind $0.01
+Wookash8: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc 5d]
+VicHolson joins the table at seat #3
+PICTURS: folds
+Trend154reg: folds
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+UnholyFrog: calls $0.02
+tucimira: folds
+Wookash8: raises $0.06 to $0.08
+UnholyFrog: folds
+Uncalled bet ($0.06) returned to Wookash8
+Wookash8 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 4: UnholyFrog (button) folded before Flop
+Seat 5: tucimira (small blind) folded before Flop
+Seat 6: Wookash8 (big blind) collected ($0.05)
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450802286:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:42:56 ET
+Table 'Herget III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($3.78 in chips)
+Seat 2: aborigen140 ($2.20 in chips)
+Seat 4: UnholyFrog ($0.94 in chips)
+Seat 5: tucimira ($2.31 in chips)
+Seat 6: Wookash8 ($2.78 in chips)
+Seat 7: PICTURS ($2.60 in chips)
+Seat 8: Trend154reg ($1.89 in chips)
+Seat 9: kosarev1010 ($3.03 in chips)
+Wookash8: posts small blind $0.01
+PICTURS: posts big blind $0.02
+VicHolson: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac 7h]
+Trend154reg: folds
+kosarev1010: raises $0.05 to $0.07
+pokerHero1: folds
+aborigen140: folds
+UnholyFrog: folds
+tucimira: folds
+Wookash8: calls $0.06
+PICTURS: calls $0.05
+*** FLOP *** [7d As 5d]
+Wookash8: bets $0.12
+PICTURS: folds
+kosarev1010: folds
+Uncalled bet ($0.12) returned to Wookash8
+Wookash8 collected $0.20 from pot
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [7d As 5d]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 4: UnholyFrog folded before Flop (didn't bet)
+Seat 5: tucimira (button) folded before Flop (didn't bet)
+Seat 6: Wookash8 (small blind) collected ($0.20)
+Seat 7: PICTURS (big blind) folded on the Flop
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded on the Flop
+
+
+
+PokerStars Hand #212450831241:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:43:27 ET
+Table 'Herget III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($3.78 in chips)
+Seat 2: aborigen140 ($2.20 in chips)
+Seat 4: UnholyFrog ($0.94 in chips)
+Seat 5: tucimira ($2.31 in chips)
+Seat 6: Wookash8 ($2.91 in chips)
+Seat 7: PICTURS ($2.53 in chips)
+Seat 8: Trend154reg ($1.89 in chips)
+Seat 9: kosarev1010 ($2.96 in chips)
+PICTURS: posts small blind $0.01
+Trend154reg: posts big blind $0.02
+VicHolson: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4h 6h]
+kosarev1010 has timed out
+kosarev1010: folds
+pokerHero1: folds
+aborigen140: folds
+UnholyFrog: folds
+tucimira: raises $0.06 to $0.08
+Wookash8: folds
+PICTURS: calls $0.07
+Trend154reg: folds
+*** FLOP *** [9d Th 2d]
+PICTURS: bets $0.02
+tucimira: folds
+Uncalled bet ($0.02) returned to PICTURS
+PICTURS collected $0.17 from pot
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [9d Th 2d]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 4: UnholyFrog folded before Flop (didn't bet)
+Seat 5: tucimira folded on the Flop
+Seat 6: Wookash8 (button) folded before Flop (didn't bet)
+Seat 7: PICTURS (small blind) collected ($0.17)
+Seat 8: Trend154reg (big blind) folded before Flop
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450860352:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:43:58 ET
+Table 'Herget III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($3.78 in chips)
+Seat 2: aborigen140 ($2.20 in chips)
+Seat 4: UnholyFrog ($0.94 in chips)
+Seat 5: tucimira ($2.23 in chips)
+Seat 6: Wookash8 ($2.91 in chips)
+Seat 7: PICTURS ($2.62 in chips)
+Seat 8: Trend154reg ($1.87 in chips)
+Trend154reg: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+VicHolson: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s 5d]
+aborigen140: folds
+UnholyFrog: raises $0.08 to $0.10
+tucimira: folds
+Wookash8: folds
+PICTURS: folds
+Trend154reg: folds
+pokerHero1: folds
+Uncalled bet ($0.08) returned to UnholyFrog
+UnholyFrog collected $0.05 from pot
+UnholyFrog: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 4: UnholyFrog collected ($0.05)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS (button) folded before Flop (didn't bet)
+Seat 8: Trend154reg (small blind) folded before Flop
+
+
+
+PokerStars Hand #212450881335:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:44:20 ET
+Table 'Herget III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($3.76 in chips)
+Seat 2: aborigen140 ($2.20 in chips)
+Seat 4: UnholyFrog ($0.97 in chips)
+Seat 5: tucimira ($2.23 in chips)
+Seat 6: Wookash8 ($2.91 in chips)
+Seat 7: PICTURS ($2.62 in chips)
+Seat 8: Trend154reg ($1.86 in chips)
+pokerHero1: posts small blind $0.01
+aborigen140: posts big blind $0.02
+VicHolson: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc 5s]
+UnholyFrog: folds
+tucimira: folds
+Wookash8: folds
+PICTURS: folds
+Trend154reg: folds
+pokerHero1: raises $0.02 to $0.04
+aborigen140: calls $0.02
+*** FLOP *** [4c 9h Ah]
+pokerHero1: checks
+aborigen140: checks
+*** TURN *** [4c 9h Ah] [Ad]
+pokerHero1: checks
+aborigen140: checks
+*** RIVER *** [4c 9h Ah Ad] [7h]
+pokerHero1: bets $0.08
+aborigen140: raises $2.08 to $2.16 and is all-in
+pokerHero1: folds
+Uncalled bet ($2.08) returned to aborigen140
+aborigen140 collected $0.23 from pot
+aborigen140: doesn't show hand
+*** SUMMARY ***
+Total pot $0.24 | Rake $0.01
+Board [4c 9h Ah Ad 7h]
+Seat 1: pokerHero1 (small blind) folded on the River
+Seat 2: aborigen140 (big blind) collected ($0.23)
+Seat 4: UnholyFrog folded before Flop (didn't bet)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: Trend154reg (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450922349:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:45:04 ET
+Table 'Herget III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($3.64 in chips)
+Seat 2: aborigen140 ($2.31 in chips)
+Seat 3: VicHolson ($2 in chips)
+Seat 4: UnholyFrog ($0.97 in chips)
+Seat 5: tucimira ($2.23 in chips)
+Seat 6: Wookash8 ($2.91 in chips)
+Seat 7: PICTURS ($2.62 in chips)
+Seat 8: Trend154reg ($1.86 in chips)
+aborigen140: posts small blind $0.01
+VicHolson: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d 4s]
+UnholyFrog: folds
+tucimira: folds
+Wookash8: folds
+PICTURS: folds
+Trend154reg: folds
+pokerHero1: folds
+aborigen140: calls $0.01
+VicHolson: checks
+*** FLOP *** [3d 4d 8h]
+aborigen140: checks
+VicHolson: bets $0.02
+aborigen140: folds
+Uncalled bet ($0.02) returned to VicHolson
+VicHolson collected $0.04 from pot
+VicHolson: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [3d 4d 8h]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: aborigen140 (small blind) folded on the Flop
+Seat 3: VicHolson (big blind) collected ($0.04)
+Seat 4: UnholyFrog folded before Flop (didn't bet)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: Trend154reg folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212450957782:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:45:41 ET
+Table 'Herget III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($3.64 in chips)
+Seat 2: aborigen140 ($2.29 in chips)
+Seat 3: VicHolson ($2.02 in chips)
+Seat 4: UnholyFrog ($0.97 in chips)
+Seat 5: tucimira ($2.23 in chips)
+Seat 6: Wookash8 ($2.91 in chips)
+Seat 7: PICTURS ($2.62 in chips)
+Seat 8: Trend154reg ($1.86 in chips)
+VicHolson: posts small blind $0.01
+UnholyFrog: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js 4c]
+tucimira: folds
+Wookash8: folds
+PICTURS: raises $0.02 to $0.04
+Trend154reg: calls $0.04
+pokerHero1: folds
+aborigen140: folds
+VicHolson: folds
+UnholyFrog: raises $0.13 to $0.17
+PICTURS: calls $0.13
+Trend154reg: calls $0.13
+*** FLOP *** [3c 9s Tc]
+UnholyFrog: bets $0.50
+PICTURS: raises $0.50 to $1
+Trend154reg: raises $0.69 to $1.69 and is all-in
+UnholyFrog: calls $0.30 and is all-in
+PICTURS: calls $0.69
+*** TURN *** [3c 9s Tc] [7c]
+*** RIVER *** [3c 9s Tc 7c] [4s]
+*** SHOW DOWN ***
+PICTURS: shows [Kd Jd] (high card King)
+Trend154reg: shows [Ts Td] (three of a kind, Tens)
+Trend154reg collected $1.72 from side pot
+UnholyFrog: shows [Jh Jc] (a pair of Jacks)
+Trend154reg collected $2.82 from main pot
+*** SUMMARY ***
+Total pot $4.70 Main pot $2.82. Side pot $1.72. | Rake $0.16
+Board [3c 9s Tc 7c 4s]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 (button) folded before Flop (didn't bet)
+Seat 3: VicHolson (small blind) folded before Flop
+Seat 4: UnholyFrog (big blind) showed [Jh Jc] and lost with a pair of Jacks
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS showed [Kd Jd] and lost with high card King
+Seat 8: Trend154reg showed [Ts Td] and won ($4.54) with three of a kind, Tens
+
+
+
+PokerStars Hand #212451020484:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:46:47 ET
+Table 'Herget III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($3.64 in chips)
+Seat 2: aborigen140 ($2.29 in chips)
+Seat 3: VicHolson ($2.01 in chips)
+Seat 5: tucimira ($2.23 in chips)
+Seat 6: Wookash8 ($2.91 in chips)
+Seat 7: PICTURS ($0.76 in chips)
+Seat 8: Trend154reg ($4.54 in chips)
+tucimira: posts small blind $0.01
+Wookash8: posts big blind $0.02
+kosarev1010: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3c 2s]
+PICTURS: calls $0.02
+Trend154reg: folds
+pokerHero1: folds
+aborigen140: folds
+VicHolson: raises $0.02 to $0.04
+tucimira: folds
+UnholyFrog leaves the table
+Wookash8: folds
+PICTURS: calls $0.02
+*** FLOP *** [Ks 8d Qh]
+PICTURS: bets $0.11
+VicHolson: folds
+Uncalled bet ($0.11) returned to PICTURS
+PICTURS collected $0.11 from pot
+*** SUMMARY ***
+Total pot $0.11 | Rake $0
+Board [Ks 8d Qh]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: VicHolson (button) folded on the Flop
+Seat 5: tucimira (small blind) folded before Flop
+Seat 6: Wookash8 (big blind) folded before Flop
+Seat 7: PICTURS collected ($0.11)
+Seat 8: Trend154reg folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451052720:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:47:22 ET
+Table 'Herget III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($3.64 in chips)
+Seat 2: aborigen140 ($2.29 in chips)
+Seat 3: VicHolson ($1.97 in chips)
+Seat 5: tucimira ($2.22 in chips)
+Seat 6: Wookash8 ($2.89 in chips)
+Seat 7: PICTURS ($0.83 in chips)
+Seat 8: Trend154reg ($4.54 in chips)
+Wookash8: posts small blind $0.01
+PICTURS: posts big blind $0.02
+kosarev1010: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7h 4s]
+Trend154reg: folds
+pokerHero1: folds
+aborigen140: folds
+VicHolson: raises $0.02 to $0.04
+tucimira: raises $0.12 to $0.16
+Wookash8: folds
+PICTURS: folds
+VicHolson: calls $0.12
+*** FLOP *** [Jd Td 8s]
+VicHolson: checks
+tucimira: checks
+*** TURN *** [Jd Td 8s] [Jh]
+VicHolson: bets $0.10
+tucimira: calls $0.10
+*** RIVER *** [Jd Td 8s Jh] [2c]
+Diego160910 joins the table at seat #4
+VicHolson: checks
+tucimira: checks
+*** SHOW DOWN ***
+VicHolson: shows [Kd As] (a pair of Jacks)
+tucimira: shows [Ah Kh] (a pair of Jacks)
+VicHolson collected $0.27 from pot
+tucimira collected $0.26 from pot
+*** SUMMARY ***
+Total pot $0.55 | Rake $0.02
+Board [Jd Td 8s Jh 2c]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: VicHolson showed [Kd As] and won ($0.27) with a pair of Jacks
+Seat 5: tucimira (button) showed [Ah Kh] and won ($0.26) with a pair of Jacks
+Seat 6: Wookash8 (small blind) folded before Flop
+Seat 7: PICTURS (big blind) folded before Flop
+Seat 8: Trend154reg folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451103192:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:48:15 ET
+Table 'Herget III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($3.64 in chips)
+Seat 2: aborigen140 ($2.29 in chips)
+Seat 3: VicHolson ($1.98 in chips)
+Seat 4: Diego160910 ($1.60 in chips)
+Seat 5: tucimira ($2.22 in chips)
+Seat 6: Wookash8 ($2.88 in chips)
+Seat 7: PICTURS ($0.81 in chips)
+Seat 8: Trend154reg ($4.54 in chips)
+PICTURS: posts small blind $0.01
+Trend154reg: posts big blind $0.02
+kosarev1010: sits out
+Diego160910: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h 3c]
+pokerHero1: calls $0.02
+aborigen140: folds
+VicHolson: folds
+Diego160910: checks
+tucimira: folds
+Wookash8: folds
+PICTURS: calls $0.01
+Trend154reg: checks
+*** FLOP *** [9c Jh 4h]
+PICTURS: checks
+Trend154reg: checks
+pokerHero1: checks
+Diego160910: checks
+*** TURN *** [9c Jh 4h] [7d]
+PICTURS: bets $0.02
+Trend154reg: calls $0.02
+pokerHero1: folds
+Diego160910: calls $0.02
+*** RIVER *** [9c Jh 4h 7d] [4s]
+PICTURS: checks
+Trend154reg: checks
+Diego160910: checks
+*** SHOW DOWN ***
+PICTURS: shows [5d 6c] (a pair of Fours)
+Trend154reg: shows [7h 5h] (two pair, Sevens and Fours)
+Diego160910: mucks hand
+Trend154reg collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [9c Jh 4h 7d 4s]
+Seat 1: pokerHero1 folded on the Turn
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: VicHolson folded before Flop (didn't bet)
+Seat 4: Diego160910 mucked [Qs Ac]
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 (button) folded before Flop (didn't bet)
+Seat 7: PICTURS (small blind) showed [5d 6c] and lost with a pair of Fours
+Seat 8: Trend154reg (big blind) showed [7h 5h] and won ($0.14) with two pair, Sevens and Fours
+
+
+
+PokerStars Hand #212451154492:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:49:09 ET
+Table 'Herget III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($3.62 in chips)
+Seat 2: aborigen140 ($2.29 in chips)
+Seat 3: VicHolson ($1.98 in chips)
+Seat 4: Diego160910 ($1.56 in chips)
+Seat 5: tucimira ($2.22 in chips)
+Seat 6: Wookash8 ($2.88 in chips)
+Seat 7: PICTURS ($0.77 in chips)
+Seat 8: Trend154reg ($4.64 in chips)
+Seat 9: kosarev1010 ($2.96 in chips)
+Trend154reg: posts small blind $0.01
+kosarev1010: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td 4s]
+pokerHero1: folds
+aborigen140: calls $0.02
+VicHolson: calls $0.02
+Diego160910: folds
+tucimira: folds
+Wookash8: folds
+PICTURS: folds
+Trend154reg: folds
+Diego160910 leaves the table
+kosarev1010: checks
+*** FLOP *** [Jh Qh 5s]
+Anthony Zuy joins the table at seat #4
+kosarev1010: checks
+aborigen140: checks
+VicHolson: checks
+*** TURN *** [Jh Qh 5s] [4c]
+kosarev1010: bets $0.03
+aborigen140: folds
+VicHolson: calls $0.03
+*** RIVER *** [Jh Qh 5s 4c] [4h]
+kosarev1010: checks
+VicHolson: bets $0.18
+kosarev1010: calls $0.18
+*** SHOW DOWN ***
+VicHolson: shows [Th Js] (two pair, Jacks and Fours)
+kosarev1010: shows [Jd 2s] (two pair, Jacks and Fours)
+kosarev1010 collected $0.24 from pot
+VicHolson collected $0.23 from pot
+*** SUMMARY ***
+Total pot $0.49 | Rake $0.02
+Board [Jh Qh 5s 4c 4h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: aborigen140 folded on the Turn
+Seat 3: VicHolson showed [Th Js] and won ($0.23) with two pair, Jacks and Fours
+Seat 4: Diego160910 folded before Flop (didn't bet)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS (button) folded before Flop (didn't bet)
+Seat 8: Trend154reg (small blind) folded before Flop
+Seat 9: kosarev1010 (big blind) showed [Jd 2s] and won ($0.24) with two pair, Jacks and Fours
+
+
+
+PokerStars Hand #212451222534:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:50:22 ET
+Table 'Herget III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($3.62 in chips)
+Seat 2: aborigen140 ($2.27 in chips)
+Seat 3: VicHolson ($1.98 in chips)
+Seat 4: Anthony Zuy ($2 in chips)
+Seat 5: tucimira ($2.22 in chips)
+Seat 6: Wookash8 ($2.88 in chips)
+Seat 7: PICTURS ($0.77 in chips)
+Seat 8: Trend154reg ($4.63 in chips)
+Seat 9: kosarev1010 ($2.97 in chips)
+kosarev1010: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+Anthony Zuy: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c 5d]
+aborigen140: folds
+VicHolson: folds
+Anthony Zuy: checks
+tucimira: folds
+Wookash8: calls $0.02
+PICTURS: folds
+Trend154reg: folds
+kosarev1010: folds
+pokerHero1: checks
+*** FLOP *** [8c 3d Qs]
+aborigen140 leaves the table
+pokerHero1: checks
+Anthony Zuy: checks
+Wookash8: checks
+*** TURN *** [8c 3d Qs] [Qd]
+pokerHero1: checks
+Anthony Zuy: checks
+Wookash8: checks
+*** RIVER *** [8c 3d Qs Qd] [9h]
+pokerHero1: checks
+Anthony Zuy: bets $0.02
+Wookash8: calls $0.02
+pokerHero1: folds
+*** SHOW DOWN ***
+Anthony Zuy: shows [9c 4s] (two pair, Queens and Nines)
+Wookash8: mucks hand
+Anthony Zuy collected $0.11 from pot
+*** SUMMARY ***
+Total pot $0.11 | Rake $0
+Board [8c 3d Qs Qd 9h]
+Seat 1: pokerHero1 (big blind) folded on the River
+Seat 2: aborigen140 folded before Flop (didn't bet)
+Seat 3: VicHolson folded before Flop (didn't bet)
+Seat 4: Anthony Zuy showed [9c 4s] and won ($0.11) with two pair, Queens and Nines
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 mucked [6h 6c]
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: Trend154reg (button) folded before Flop (didn't bet)
+Seat 9: kosarev1010 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212451285696:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:51:18 ET
+Table 'Herget III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($3.60 in chips)
+Seat 3: VicHolson ($1.98 in chips)
+Seat 4: Anthony Zuy ($2.07 in chips)
+Seat 5: tucimira ($2.22 in chips)
+Seat 6: Wookash8 ($2.84 in chips)
+Seat 7: PICTURS ($0.77 in chips)
+Seat 8: Trend154reg ($4.63 in chips)
+Seat 9: kosarev1010 ($2.96 in chips)
+pokerHero1: posts small blind $0.01
+VicHolson: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6h 3c]
+Anthony Zuy: folds
+tucimira: calls $0.02
+Wookash8: folds
+PICTURS: folds
+Trend154reg: folds
+kosarev1010: folds
+pokerHero1: folds
+VicHolson: checks
+*** FLOP *** [6d 5d Ad]
+VicHolson: checks
+tucimira: checks
+*** TURN *** [6d 5d Ad] [3s]
+VicHolson: checks
+tucimira: checks
+*** RIVER *** [6d 5d Ad 3s] [7c]
+VicHolson: checks
+tucimira: checks
+*** SHOW DOWN ***
+VicHolson: shows [Tc Js] (high card Ace)
+tucimira: shows [2c 2h] (a pair of Deuces)
+tucimira collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [6d 5d Ad 3s 7c]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 3: VicHolson (big blind) showed [Tc Js] and lost with high card Ace
+Seat 4: Anthony Zuy folded before Flop (didn't bet)
+Seat 5: tucimira showed [2c 2h] and won ($0.05) with a pair of Deuces
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451337554:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:52:13 ET
+Table 'Herget III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($3.59 in chips)
+Seat 3: VicHolson ($1.96 in chips)
+Seat 4: Anthony Zuy ($2.07 in chips)
+Seat 5: tucimira ($2.25 in chips)
+Seat 6: Wookash8 ($2.84 in chips)
+Seat 7: PICTURS ($0.77 in chips)
+Seat 8: Trend154reg ($4.63 in chips)
+Seat 9: kosarev1010 ($2.96 in chips)
+VicHolson: posts small blind $0.01
+Anthony Zuy: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc As]
+tucimira: folds
+Wookash8: folds
+valera1959 joins the table at seat #2
+PICTURS: calls $0.02
+Trend154reg: folds
+kosarev1010: calls $0.02
+pokerHero1: raises $0.08 to $0.10
+VicHolson: folds
+Anthony Zuy: folds
+PICTURS: calls $0.08
+kosarev1010: folds
+*** FLOP *** [Ts 6s Js]
+PICTURS: checks
+pokerHero1: bets $0.16
+PICTURS: folds
+Uncalled bet ($0.16) returned to pokerHero1
+pokerHero1 collected $0.24 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.01
+Board [Ts 6s Js]
+Seat 1: pokerHero1 (button) collected ($0.24)
+Seat 3: VicHolson (small blind) folded before Flop
+Seat 4: Anthony Zuy (big blind) folded before Flop
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded on the Flop
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop
+
+
+
+PokerStars Hand #212451367961:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:52:46 ET
+Table 'Herget III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($3.73 in chips)
+Seat 2: valera1959 ($0.80 in chips)
+Seat 3: VicHolson ($1.95 in chips)
+Seat 4: Anthony Zuy ($2.05 in chips)
+Seat 5: tucimira ($2.25 in chips)
+Seat 6: Wookash8 ($2.84 in chips)
+Seat 7: PICTURS ($0.67 in chips)
+Seat 8: Trend154reg ($4.63 in chips)
+Seat 9: kosarev1010 ($2.94 in chips)
+Anthony Zuy: posts small blind $0.01
+tucimira: posts big blind $0.02
+valera1959: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d 3s]
+Wookash8: folds
+PICTURS: folds
+Trend154reg: folds
+kosarev1010: folds
+pokerHero1: folds
+valera1959: raises $0.02 to $0.04
+VicHolson: calls $0.04
+Anthony Zuy: folds
+tucimira: raises $0.16 to $0.20
+valera1959: calls $0.16
+VicHolson: folds
+*** FLOP *** [Qc 6h Kh]
+tucimira: bets $0.30
+valera1959: raises $0.30 to $0.60 and is all-in
+tucimira: calls $0.30
+*** TURN *** [Qc 6h Kh] [Td]
+*** RIVER *** [Qc 6h Kh Td] [9s]
+*** SHOW DOWN ***
+tucimira: shows [Qh Qd] (three of a kind, Queens)
+valera1959: shows [Qs Kd] (two pair, Kings and Queens)
+tucimira collected $1.59 from pot
+*** SUMMARY ***
+Total pot $1.65 | Rake $0.06
+Board [Qc 6h Kh Td 9s]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: valera1959 showed [Qs Kd] and lost with two pair, Kings and Queens
+Seat 3: VicHolson (button) folded before Flop
+Seat 4: Anthony Zuy (small blind) folded before Flop
+Seat 5: tucimira (big blind) showed [Qh Qd] and won ($1.59) with three of a kind, Queens
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451418264:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:53:40 ET
+Table 'Herget III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($3.73 in chips)
+Seat 3: VicHolson ($1.91 in chips)
+Seat 4: Anthony Zuy ($2.04 in chips)
+Seat 5: tucimira ($3.04 in chips)
+Seat 6: Wookash8 ($2.84 in chips)
+Seat 7: PICTURS ($0.67 in chips)
+Seat 8: Trend154reg ($4.63 in chips)
+Seat 9: kosarev1010 ($2.94 in chips)
+tucimira: posts small blind $0.01
+Wookash8: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c 4d]
+PICTURS: folds
+Trend154reg: folds
+valera1959 leaves the table
+kosarev1010: folds
+pokerHero1: folds
+VicHolson: folds
+Anthony Zuy: calls $0.02
+tucimira: folds
+Wookash8: raises $0.04 to $0.06
+Anthony Zuy: raises $0.04 to $0.10
+Wookash8: calls $0.04
+*** FLOP *** [2d Js Tc]
+Wookash8: checks
+Anthony Zuy: checks
+*** TURN *** [2d Js Tc] [Kd]
+Wookash8: bets $0.10
+Ev3rgr33n4ever joins the table at seat #2
+Anthony Zuy: raises $0.10 to $0.20
+Wookash8: calls $0.10
+*** RIVER *** [2d Js Tc Kd] [5h]
+Wookash8: checks
+Anthony Zuy: bets $0.20
+Wookash8: calls $0.20
+*** SHOW DOWN ***
+Anthony Zuy: shows [7h 7d] (a pair of Sevens)
+Wookash8: shows [Ah Ks] (a pair of Kings)
+Wookash8 collected $0.97 from pot
+*** SUMMARY ***
+Total pot $1.01 | Rake $0.04
+Board [2d Js Tc Kd 5h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: VicHolson folded before Flop (didn't bet)
+Seat 4: Anthony Zuy (button) showed [7h 7d] and lost with a pair of Sevens
+Seat 5: tucimira (small blind) folded before Flop
+Seat 6: Wookash8 (big blind) showed [Ah Ks] and won ($0.97) with a pair of Kings
+Seat 7: PICTURS folded before Flop (didn't bet)
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451469826:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:54:34 ET
+Table 'Herget III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($3.73 in chips)
+Seat 3: VicHolson ($1.91 in chips)
+Seat 4: Anthony Zuy ($1.54 in chips)
+Seat 5: tucimira ($3.03 in chips)
+Seat 6: Wookash8 ($3.31 in chips)
+Seat 7: PICTURS ($0.67 in chips)
+Seat 8: Trend154reg ($4.63 in chips)
+Seat 9: kosarev1010 ($2.94 in chips)
+Wookash8: posts small blind $0.01
+PICTURS: posts big blind $0.02
+Ev3rgr33n4ever: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc 6c]
+Trend154reg: folds
+kosarev1010: raises $0.05 to $0.07
+pokerHero1: folds
+VicHolson: calls $0.07
+Anthony Zuy has timed out
+Anthony Zuy: folds
+tucimira: folds
+Wookash8: folds
+PICTURS: folds
+*** FLOP *** [2s 3c As]
+Anthony Zuy is disconnected
+kosarev1010: bets $0.09
+VicHolson: folds
+Uncalled bet ($0.09) returned to kosarev1010
+kosarev1010 collected $0.16 from pot
+kosarev1010: doesn't show hand
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [2s 3c As]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: VicHolson folded on the Flop
+Seat 4: Anthony Zuy folded before Flop (didn't bet)
+Seat 5: tucimira (button) folded before Flop (didn't bet)
+Seat 6: Wookash8 (small blind) folded before Flop
+Seat 7: PICTURS (big blind) folded before Flop
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 collected ($0.16)
+
+
+
+PokerStars Hand #212451511123:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:55:22 ET
+Table 'Herget III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($3.73 in chips)
+Seat 2: Ev3rgr33n4ever ($2 in chips)
+Seat 3: VicHolson ($1.84 in chips)
+Seat 5: tucimira ($3.03 in chips)
+Seat 6: Wookash8 ($3.30 in chips)
+Seat 7: PICTURS ($0.65 in chips)
+Seat 8: Trend154reg ($4.63 in chips)
+Seat 9: kosarev1010 ($3.03 in chips)
+PICTURS: posts small blind $0.01
+Trend154reg: posts big blind $0.02
+Ev3rgr33n4ever: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9h Qd]
+kosarev1010: folds
+pokerHero1: folds
+Ev3rgr33n4ever: checks
+VicHolson: calls $0.02
+tucimira: folds
+Wookash8: folds
+PICTURS: calls $0.01
+Trend154reg: checks
+*** FLOP *** [Qh 8h 5d]
+PICTURS: bets $0.02
+Trend154reg: folds
+Ev3rgr33n4ever: raises $0.12 to $0.14
+VicHolson: folds
+PICTURS: calls $0.12
+*** TURN *** [Qh 8h 5d] [2h]
+PICTURS: checks
+Ev3rgr33n4ever: checks
+*** RIVER *** [Qh 8h 5d 2h] [Th]
+PICTURS: bets $0.18
+Ev3rgr33n4ever: calls $0.18
+*** SHOW DOWN ***
+PICTURS: shows [Jh 9s] (a flush, Queen high)
+Ev3rgr33n4ever: mucks hand
+PICTURS collected $0.69 from pot
+*** SUMMARY ***
+Total pot $0.72 | Rake $0.03
+Board [Qh 8h 5d 2h Th]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: Ev3rgr33n4ever mucked [5c 5h]
+Seat 3: VicHolson folded on the Flop
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 (button) folded before Flop (didn't bet)
+Seat 7: PICTURS (small blind) showed [Jh 9s] and won ($0.69) with a flush, Queen high
+Seat 8: Trend154reg (big blind) folded on the Flop
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451544608:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:56:09 ET
+Table 'Herget III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($3.73 in chips)
+Seat 2: Ev3rgr33n4ever ($1.66 in chips)
+Seat 3: VicHolson ($1.82 in chips)
+Seat 5: tucimira ($3.03 in chips)
+Seat 6: Wookash8 ($3.30 in chips)
+Seat 7: PICTURS ($1 in chips)
+Seat 8: Trend154reg ($4.61 in chips)
+Seat 9: kosarev1010 ($3.03 in chips)
+Trend154reg: posts small blind $0.01
+kosarev1010: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7h Ad]
+pokerHero1: folds
+Ev3rgr33n4ever: folds
+VicHolson: folds
+tucimira: folds
+Wookash8: folds
+PICTURS: calls $0.02
+Trend154reg: folds
+kosarev1010: checks
+*** FLOP *** [As 9c Jd]
+kosarev1010: checks
+PICTURS: bets $0.05
+kosarev1010: folds
+Uncalled bet ($0.05) returned to PICTURS
+PICTURS collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [As 9c Jd]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: Ev3rgr33n4ever folded before Flop (didn't bet)
+Seat 3: VicHolson folded before Flop (didn't bet)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS (button) collected ($0.05)
+Seat 8: Trend154reg (small blind) folded before Flop
+Seat 9: kosarev1010 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212451577303:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:56:54 ET
+Table 'Herget III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($3.73 in chips)
+Seat 2: Ev3rgr33n4ever ($1.66 in chips)
+Seat 3: VicHolson ($1.82 in chips)
+Seat 5: tucimira ($3.03 in chips)
+Seat 6: Wookash8 ($3.30 in chips)
+Seat 7: PICTURS ($1.03 in chips)
+Seat 8: Trend154reg ($4.60 in chips)
+Seat 9: kosarev1010 ($3.01 in chips)
+kosarev1010: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2s 4d]
+Ev3rgr33n4ever: calls $0.02
+VicHolson: folds
+tucimira: folds
+Wookash8: folds
+PICTURS: calls $0.02
+Trend154reg: folds
+kosarev1010: folds
+pokerHero1: checks
+*** FLOP *** [8d Jd Qc]
+pokerHero1: checks
+Ev3rgr33n4ever: checks
+PICTURS: bets $0.04
+pokerHero1: folds
+Ev3rgr33n4ever: folds
+Uncalled bet ($0.04) returned to PICTURS
+PICTURS collected $0.07 from pot
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Board [8d Jd Qc]
+Seat 1: pokerHero1 (big blind) folded on the Flop
+Seat 2: Ev3rgr33n4ever folded on the Flop
+Seat 3: VicHolson folded before Flop (didn't bet)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS collected ($0.07)
+Seat 8: Trend154reg (button) folded before Flop (didn't bet)
+Seat 9: kosarev1010 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212451599700:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:57:25 ET
+Table 'Herget III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($3.71 in chips)
+Seat 2: Ev3rgr33n4ever ($1.64 in chips)
+Seat 3: VicHolson ($1.82 in chips)
+Seat 5: tucimira ($3.03 in chips)
+Seat 6: Wookash8 ($3.30 in chips)
+Seat 7: PICTURS ($1.08 in chips)
+Seat 8: Trend154reg ($4.60 in chips)
+Seat 9: kosarev1010 ($3 in chips)
+pokerHero1: posts small blind $0.01
+Ev3rgr33n4ever: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qd Ah]
+VicHolson: folds
+tucimira: folds
+Wookash8: folds
+PICTURS: calls $0.02
+Trend154reg: folds
+kosarev1010: folds
+pokerHero1: raises $0.06 to $0.08
+Ev3rgr33n4ever: calls $0.06
+PICTURS: folds
+*** FLOP *** [3h 9c 2c]
+pokerHero1: checks
+Ev3rgr33n4ever: checks
+*** TURN *** [3h 9c 2c] [2d]
+pokerHero1: checks
+Ev3rgr33n4ever: checks
+*** RIVER *** [3h 9c 2c 2d] [Jh]
+pokerHero1: checks
+Ev3rgr33n4ever: checks
+*** SHOW DOWN ***
+pokerHero1: shows [Qd Ah] (a pair of Deuces)
+Ev3rgr33n4ever: mucks hand
+pokerHero1 collected $0.17 from pot
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [3h 9c 2c 2d Jh]
+Seat 1: pokerHero1 (small blind) showed [Qd Ah] and won ($0.17) with a pair of Deuces
+Seat 2: Ev3rgr33n4ever (big blind) mucked [Qs Kd]
+Seat 3: VicHolson folded before Flop (didn't bet)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded before Flop
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451625462:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:58:01 ET
+Table 'Herget III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($3.80 in chips)
+Seat 2: Ev3rgr33n4ever ($1.56 in chips)
+Seat 3: VicHolson ($1.82 in chips)
+Seat 5: tucimira ($3.03 in chips)
+Seat 6: Wookash8 ($3.30 in chips)
+Seat 7: PICTURS ($1.06 in chips)
+Seat 8: Trend154reg ($4.60 in chips)
+Seat 9: kosarev1010 ($3 in chips)
+Ev3rgr33n4ever: posts small blind $0.01
+VicHolson: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h 8s]
+tucimira: folds
+Wookash8: folds
+PICTURS: calls $0.02
+Trend154reg: calls $0.02
+kosarev1010: calls $0.02
+pokerHero1: folds
+Ev3rgr33n4ever: folds
+VicHolson: checks
+*** FLOP *** [5s Jh Jc]
+Ev3rgr33n4ever leaves the table
+VicHolson: checks
+PICTURS: checks
+Mr.Miyagi420 joins the table at seat #2
+Trend154reg: checks
+kosarev1010: checks
+*** TURN *** [5s Jh Jc] [2h]
+VicHolson: checks
+PICTURS: checks
+Trend154reg: checks
+kosarev1010: bets $0.06
+VicHolson: folds
+PICTURS: folds
+Trend154reg: folds
+Uncalled bet ($0.06) returned to kosarev1010
+kosarev1010 collected $0.09 from pot
+kosarev1010: doesn't show hand
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Board [5s Jh Jc 2h]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: Ev3rgr33n4ever (small blind) folded before Flop
+Seat 3: VicHolson (big blind) folded on the Turn
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: PICTURS folded on the Turn
+Seat 8: Trend154reg folded on the Turn
+Seat 9: kosarev1010 collected ($0.09)
+
+
+
+PokerStars Hand #212451660742:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:58:50 ET
+Table 'Herget III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($3.80 in chips)
+Seat 3: VicHolson ($1.80 in chips)
+Seat 5: tucimira ($3.03 in chips)
+Seat 6: Wookash8 ($3.30 in chips)
+Seat 7: PICTURS ($1.04 in chips)
+Seat 8: Trend154reg ($4.58 in chips)
+Seat 9: kosarev1010 ($3.07 in chips)
+tucimira: posts small blind $0.01
+Wookash8: posts big blind $0.02
+Mr.Miyagi420: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac 8h]
+PICTURS: calls $0.02
+Trend154reg: folds
+kosarev1010: folds
+pokerHero1: folds
+VicHolson: raises $0.02 to $0.04
+tucimira: folds
+Wookash8: calls $0.02
+PICTURS: calls $0.02
+*** FLOP *** [Kc 8c 5d]
+Wookash8: checks
+PICTURS: bets $0.04
+VicHolson: calls $0.04
+Wookash8: folds
+*** TURN *** [Kc 8c 5d] [7d]
+PICTURS: bets $0.04
+VicHolson: calls $0.04
+*** RIVER *** [Kc 8c 5d 7d] [2s]
+PICTURS: checks
+VicHolson: bets $0.20
+PICTURS: folds
+Uncalled bet ($0.20) returned to VicHolson
+VicHolson collected $0.28 from pot
+VicHolson: doesn't show hand
+*** SUMMARY ***
+Total pot $0.29 | Rake $0.01
+Board [Kc 8c 5d 7d 2s]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: VicHolson (button) collected ($0.28)
+Seat 5: tucimira (small blind) folded before Flop
+Seat 6: Wookash8 (big blind) folded on the Flop
+Seat 7: PICTURS folded on the River
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451698095:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:59:40 ET
+Table 'Herget III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($3.80 in chips)
+Seat 2: Mr.Miyagi420 ($1.20 in chips)
+Seat 3: VicHolson ($1.96 in chips)
+Seat 5: tucimira ($3.02 in chips)
+Seat 6: Wookash8 ($3.26 in chips)
+Seat 7: PICTURS ($0.92 in chips)
+Seat 8: Trend154reg ($4.58 in chips)
+Seat 9: kosarev1010 ($3.07 in chips)
+Wookash8: posts small blind $0.01
+PICTURS: posts big blind $0.02
+Mr.Miyagi420: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c Ks]
+Trend154reg: folds
+kosarev1010: folds
+pokerHero1: folds
+Mr.Miyagi420: raises $0.04 to $0.06
+VicHolson: calls $0.06
+tucimira: folds
+Wookash8: folds
+PICTURS: calls $0.04
+*** FLOP *** [Th 9d Qc]
+PICTURS: bets $0.02
+Mr.Miyagi420: calls $0.02
+VicHolson: calls $0.02
+*** TURN *** [Th 9d Qc] [As]
+PICTURS: bets $0.24
+Mr.Miyagi420: calls $0.24
+VicHolson: folds
+*** RIVER *** [Th 9d Qc As] [Ad]
+PICTURS: bets $0.60 and is all-in
+Mr.Miyagi420: calls $0.60
+*** SHOW DOWN ***
+PICTURS: shows [Jc 8s] (a straight, Eight to Queen)
+Mr.Miyagi420: shows [Ac Qh] (a full house, Aces full of Queens)
+Mr.Miyagi420 collected $1.86 from pot
+*** SUMMARY ***
+Total pot $1.93 | Rake $0.07
+Board [Th 9d Qc As Ad]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: Mr.Miyagi420 showed [Ac Qh] and won ($1.86) with a full house, Aces full of Queens
+Seat 3: VicHolson folded on the Turn
+Seat 5: tucimira (button) folded before Flop (didn't bet)
+Seat 6: Wookash8 (small blind) folded before Flop
+Seat 7: PICTURS (big blind) showed [Jc 8s] and lost with a straight, Eight to Queen
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451741860:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:00:25 ET
+Table 'Herget III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($3.80 in chips)
+Seat 2: Mr.Miyagi420 ($2.14 in chips)
+Seat 3: VicHolson ($1.88 in chips)
+Seat 5: tucimira ($3.02 in chips)
+Seat 6: Wookash8 ($3.25 in chips)
+Seat 8: Trend154reg ($4.58 in chips)
+Seat 9: kosarev1010 ($3.07 in chips)
+Trend154reg: posts small blind $0.01
+kosarev1010: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ts 7c]
+pokerHero1: folds
+Mr.Miyagi420: calls $0.02
+VicHolson: folds
+tucimira: folds
+PICTURS leaves the table
+Wookash8: folds
+Trend154reg: folds
+kosarev1010: checks
+*** FLOP *** [9c Qs Qd]
+kosarev1010: checks
+Mr.Miyagi420: bets $0.02
+merti97 joins the table at seat #7
+kosarev1010: folds
+Uncalled bet ($0.02) returned to Mr.Miyagi420
+Mr.Miyagi420 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [9c Qs Qd]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: Mr.Miyagi420 collected ($0.05)
+Seat 3: VicHolson folded before Flop (didn't bet)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 (button) folded before Flop (didn't bet)
+Seat 8: Trend154reg (small blind) folded before Flop
+Seat 9: kosarev1010 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212451794069:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:01:29 ET
+Table 'Herget III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($3.80 in chips)
+Seat 2: Mr.Miyagi420 ($2.17 in chips)
+Seat 3: VicHolson ($1.88 in chips)
+Seat 5: tucimira ($3.02 in chips)
+Seat 6: Wookash8 ($3.25 in chips)
+Seat 7: merti97 ($2 in chips)
+Seat 8: Trend154reg ($4.57 in chips)
+Seat 9: kosarev1010 ($3.05 in chips)
+kosarev1010: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+merti97: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5h 3d]
+Mr.Miyagi420: folds
+VicHolson: folds
+tucimira: folds
+Wookash8: folds
+merti97: checks
+Trend154reg: folds
+kosarev1010: folds
+pokerHero1: checks
+*** FLOP *** [Kd 7s 2d]
+pokerHero1: checks
+merti97: checks
+*** TURN *** [Kd 7s 2d] [Qh]
+pokerHero1: checks
+merti97: checks
+*** RIVER *** [Kd 7s 2d Qh] [6s]
+pokerHero1: checks
+merti97: checks
+*** SHOW DOWN ***
+pokerHero1: shows [5h 3d] (high card King)
+merti97: shows [9d 8c] (high card King - Queen+Nine kicker)
+merti97 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [Kd 7s 2d Qh 6s]
+Seat 1: pokerHero1 (big blind) showed [5h 3d] and lost with high card King
+Seat 2: Mr.Miyagi420 folded before Flop (didn't bet)
+Seat 3: VicHolson folded before Flop (didn't bet)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: merti97 showed [9d 8c] and won ($0.05) with high card King
+Seat 8: Trend154reg (button) folded before Flop (didn't bet)
+Seat 9: kosarev1010 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212451828097:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:02:07 ET
+Table 'Herget III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($3.78 in chips)
+Seat 2: Mr.Miyagi420 ($2.17 in chips)
+Seat 3: VicHolson ($1.88 in chips)
+Seat 5: tucimira ($3.02 in chips)
+Seat 6: Wookash8 ($3.25 in chips)
+Seat 7: merti97 ($2.03 in chips)
+Seat 8: Trend154reg ($4.57 in chips)
+Seat 9: kosarev1010 ($3.04 in chips)
+pokerHero1: posts small blind $0.01
+Mr.Miyagi420: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kh 4d]
+VicHolson: folds
+tucimira: folds
+Wookash8: folds
+merti97: calls $0.02
+Trend154reg: folds
+kosarev1010: folds
+pokerHero1: folds
+Trend154reg leaves the table
+Mr.Miyagi420: checks
+*** FLOP *** [6s Jd 2c]
+Mr.Miyagi420: checks
+merti97: checks
+*** TURN *** [6s Jd 2c] [5d]
+Mr.Miyagi420: checks
+merti97: bets $0.02
+Mr.Miyagi420: folds
+Uncalled bet ($0.02) returned to merti97
+merti97 collected $0.05 from pot
+merti97: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [6s Jd 2c 5d]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: Mr.Miyagi420 (big blind) folded on the Turn
+Seat 3: VicHolson folded before Flop (didn't bet)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: merti97 collected ($0.05)
+Seat 8: Trend154reg folded before Flop (didn't bet)
+Seat 9: kosarev1010 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451886968:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:03:10 ET
+Table 'Herget III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($3.77 in chips)
+Seat 2: Mr.Miyagi420 ($2.15 in chips)
+Seat 3: VicHolson ($1.88 in chips)
+Seat 5: tucimira ($3.02 in chips)
+Seat 6: Wookash8 ($3.25 in chips)
+Seat 7: merti97 ($2.06 in chips)
+Seat 9: kosarev1010 ($3.04 in chips)
+Mr.Miyagi420: posts small blind $0.01
+VicHolson: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s 6h]
+tucimira: folds
+Wookash8: folds
+merti97: calls $0.02
+kosarev1010: folds
+pokerHero1: folds
+Mr.Miyagi420: folds
+ing.julius joins the table at seat #8
+VicHolson: checks
+*** FLOP *** [6c Ks Ad]
+VicHolson: checks
+merti97: checks
+*** TURN *** [6c Ks Ad] [3s]
+VicHolson: checks
+merti97: bets $0.02
+VicHolson: folds
+Uncalled bet ($0.02) returned to merti97
+merti97 collected $0.05 from pot
+merti97: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [6c Ks Ad 3s]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: Mr.Miyagi420 (small blind) folded before Flop
+Seat 3: VicHolson (big blind) folded on the Turn
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: merti97 collected ($0.05)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451923376:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:03:49 ET
+Table 'Herget III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($3.77 in chips)
+Seat 2: Mr.Miyagi420 ($2.14 in chips)
+Seat 3: VicHolson ($1.86 in chips)
+Seat 5: tucimira ($3.02 in chips)
+Seat 6: Wookash8 ($3.25 in chips)
+Seat 7: merti97 ($2.09 in chips)
+Seat 8: ing.julius ($1.60 in chips)
+Seat 9: kosarev1010 ($3.04 in chips)
+VicHolson: posts small blind $0.01
+tucimira: posts big blind $0.02
+ing.julius: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c 2d]
+Wookash8: folds
+merti97: calls $0.02
+ing.julius: checks
+kosarev1010: folds
+pokerHero1: folds
+Mr.Miyagi420: calls $0.02
+VicHolson: folds
+tucimira: checks
+*** FLOP *** [5s 8c 9d]
+tucimira: checks
+merti97: bets $0.02
+ing.julius: calls $0.02
+Mr.Miyagi420: folds
+tucimira: folds
+*** TURN *** [5s 8c 9d] [Kc]
+merti97: bets $0.04
+ing.julius: calls $0.04
+*** RIVER *** [5s 8c 9d Kc] [8h]
+merti97: bets $0.06
+ing.julius: folds
+Uncalled bet ($0.06) returned to merti97
+merti97 collected $0.20 from pot
+merti97: doesn't show hand
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [5s 8c 9d Kc 8h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: Mr.Miyagi420 (button) folded on the Flop
+Seat 3: VicHolson (small blind) folded before Flop
+Seat 5: tucimira (big blind) folded on the Flop
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: merti97 collected ($0.20)
+Seat 8: ing.julius folded on the River
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451975642:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:04:43 ET
+Table 'Herget III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($3.77 in chips)
+Seat 2: Mr.Miyagi420 ($2.12 in chips)
+Seat 3: VicHolson ($1.85 in chips)
+Seat 5: tucimira ($3 in chips)
+Seat 6: Wookash8 ($3.25 in chips)
+Seat 7: merti97 ($2.21 in chips)
+Seat 8: ing.julius ($1.52 in chips)
+Seat 9: kosarev1010 ($3.04 in chips)
+tucimira: posts small blind $0.01
+Wookash8: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As Qh]
+merti97: calls $0.02
+ing.julius: folds
+kosarev1010: folds
+pokerHero1: raises $0.06 to $0.08
+Mr.Miyagi420: folds
+VicHolson: calls $0.08
+tucimira: folds
+Anthony Zuy was removed from the table for failing to post
+Anthony Zuy leaves the table
+Wookash8: calls $0.06
+merti97: calls $0.06
+*** FLOP *** [5c 4d 8c]
+Wookash8: bets $0.16
+merti97: calls $0.16
+pokerHero1: folds
+VicHolson: folds
+*** TURN *** [5c 4d 8c] [4h]
+Wookash8: bets $0.32
+merti97: raises $0.32 to $0.64
+Bily Bo joins the table at seat #4
+Wookash8: folds
+Uncalled bet ($0.32) returned to merti97
+merti97 collected $1.24 from pot
+merti97: doesn't show hand
+*** SUMMARY ***
+Total pot $1.29 | Rake $0.05
+Board [5c 4d 8c 4h]
+Seat 1: pokerHero1 folded on the Flop
+Seat 2: Mr.Miyagi420 folded before Flop (didn't bet)
+Seat 3: VicHolson (button) folded on the Flop
+Seat 5: tucimira (small blind) folded before Flop
+Seat 6: Wookash8 (big blind) folded on the Turn
+Seat 7: merti97 collected ($1.24)
+Seat 8: ing.julius folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212452057944:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:06:09 ET
+Table 'Herget III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($3.69 in chips)
+Seat 2: Mr.Miyagi420 ($2.12 in chips)
+Seat 3: VicHolson ($1.77 in chips)
+Seat 5: tucimira ($2.99 in chips)
+Seat 6: Wookash8 ($2.69 in chips)
+Seat 7: merti97 ($2.89 in chips)
+Seat 8: ing.julius ($1.52 in chips)
+Seat 9: kosarev1010 ($3.04 in chips)
+Wookash8: posts small blind $0.01
+merti97: posts big blind $0.02
+Bily Bo: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c Qc]
+ing.julius has timed out
+ing.julius: folds
+kosarev1010: folds
+pokerHero1: folds
+Mr.Miyagi420: folds
+VicHolson: folds
+tucimira: folds
+Wookash8: folds
+Uncalled bet ($0.01) returned to merti97
+merti97 collected $0.02 from pot
+merti97: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: Mr.Miyagi420 folded before Flop (didn't bet)
+Seat 3: VicHolson folded before Flop (didn't bet)
+Seat 5: tucimira (button) folded before Flop (didn't bet)
+Seat 6: Wookash8 (small blind) folded before Flop
+Seat 7: merti97 (big blind) collected ($0.02)
+Seat 8: ing.julius folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212452087809:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:06:39 ET
+Table 'Herget III' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($3.69 in chips)
+Seat 2: Mr.Miyagi420 ($2.12 in chips)
+Seat 3: VicHolson ($1.77 in chips)
+Seat 5: tucimira ($2.99 in chips)
+Seat 6: Wookash8 ($2.68 in chips)
+Seat 7: merti97 ($2.90 in chips)
+Seat 8: ing.julius ($1.52 in chips)
+Seat 9: kosarev1010 ($3.04 in chips)
+merti97: posts small blind $0.01
+ing.julius: posts big blind $0.02
+Bily Bo: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s 2c]
+kosarev1010: folds
+pokerHero1: folds
+Mr.Miyagi420: folds
+VicHolson: folds
+tucimira: folds
+Wookash8: folds
+merti97: calls $0.01
+ing.julius: checks
+*** FLOP *** [Ah 8c 6h]
+merti97: bets $0.02
+ing.julius: calls $0.02
+*** TURN *** [Ah 8c 6h] [4s]
+merti97: bets $0.06
+ing.julius: folds
+Uncalled bet ($0.06) returned to merti97
+merti97 collected $0.08 from pot
+merti97: doesn't show hand
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Board [Ah 8c 6h 4s]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: Mr.Miyagi420 folded before Flop (didn't bet)
+Seat 3: VicHolson folded before Flop (didn't bet)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 (button) folded before Flop (didn't bet)
+Seat 7: merti97 (small blind) collected ($0.08)
+Seat 8: ing.julius (big blind) folded on the Turn
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212452144130:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:07:36 ET
+Table 'Herget III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($3.69 in chips)
+Seat 2: Mr.Miyagi420 ($2.12 in chips)
+Seat 3: VicHolson ($1.77 in chips)
+Seat 5: tucimira ($2.99 in chips)
+Seat 6: Wookash8 ($2.68 in chips)
+Seat 7: merti97 ($2.94 in chips)
+Seat 8: ing.julius ($1.48 in chips)
+Seat 9: kosarev1010 ($3.04 in chips)
+ing.julius: posts small blind $0.01
+kosarev1010: posts big blind $0.02
+Bily Bo: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc 3d]
+pokerHero1: folds
+Mr.Miyagi420: folds
+VicHolson: folds
+tucimira: folds
+Wookash8: folds
+merti97: calls $0.02
+ing.julius: calls $0.01
+kosarev1010: checks
+*** FLOP *** [2s 8d 4h]
+ing.julius: checks
+kosarev1010: checks
+merti97: checks
+*** TURN *** [2s 8d 4h] [6d]
+ing.julius: checks
+kosarev1010: checks
+merti97: checks
+*** RIVER *** [2s 8d 4h 6d] [5h]
+ing.julius: checks
+kosarev1010: bets $0.05
+merti97: raises $0.33 to $0.38
+ing.julius: folds
+kosarev1010: calls $0.33
+*** SHOW DOWN ***
+merti97: shows [9d 3s] (a straight, Deuce to Six)
+kosarev1010: shows [Kh 7s] (a straight, Four to Eight)
+kosarev1010 collected $0.79 from pot
+*** SUMMARY ***
+Total pot $0.82 | Rake $0.03
+Board [2s 8d 4h 6d 5h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: Mr.Miyagi420 folded before Flop (didn't bet)
+Seat 3: VicHolson folded before Flop (didn't bet)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: merti97 (button) showed [9d 3s] and lost with a straight, Deuce to Six
+Seat 8: ing.julius (small blind) folded on the River
+Seat 9: kosarev1010 (big blind) showed [Kh 7s] and won ($0.79) with a straight, Four to Eight
+
+
+
+PokerStars Hand #212452204414:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:08:37 ET
+Table 'Herget III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($3.69 in chips)
+Seat 2: Mr.Miyagi420 ($2.12 in chips)
+Seat 3: VicHolson ($1.77 in chips)
+Seat 5: tucimira ($2.99 in chips)
+Seat 6: Wookash8 ($2.68 in chips)
+Seat 7: merti97 ($2.54 in chips)
+Seat 8: ing.julius ($1.46 in chips)
+Seat 9: kosarev1010 ($3.43 in chips)
+kosarev1010: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+Bily Bo: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As 8s]
+Mr.Miyagi420: folds
+VicHolson: folds
+tucimira: folds
+Wookash8: folds
+merti97: calls $0.02
+ing.julius: calls $0.02
+kosarev1010: folds
+pokerHero1: raises $0.08 to $0.10
+merti97: calls $0.08
+ing.julius: folds
+*** FLOP *** [3d 4h Kc]
+pokerHero1: bets $0.12
+merti97: folds
+Uncalled bet ($0.12) returned to pokerHero1
+pokerHero1 collected $0.22 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.23 | Rake $0.01
+Board [3d 4h Kc]
+Seat 1: pokerHero1 (big blind) collected ($0.22)
+Seat 2: Mr.Miyagi420 folded before Flop (didn't bet)
+Seat 3: VicHolson folded before Flop (didn't bet)
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: merti97 folded on the Flop
+Seat 8: ing.julius (button) folded before Flop
+Seat 9: kosarev1010 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212452243439:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:09:17 ET
+Table 'Herget III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($3.81 in chips)
+Seat 3: VicHolson ($1.77 in chips)
+Seat 5: tucimira ($2.99 in chips)
+Seat 6: Wookash8 ($2.68 in chips)
+Seat 7: merti97 ($2.44 in chips)
+Seat 8: ing.julius ($1.44 in chips)
+Seat 9: kosarev1010 ($3.42 in chips)
+pokerHero1: posts small blind $0.01
+Mr.Miyagi420: is sitting out
+VicHolson: posts big blind $0.02
+Bily Bo: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc 3h]
+tucimira: folds
+Wookash8: folds
+Mr.Miyagi420 leaves the table
+merti97: calls $0.02
+ing.julius: calls $0.02
+kosarev1010: folds
+pokerHero1: folds
+VicHolson: checks
+*** FLOP *** [5d Ac Jh]
+VicHolson: checks
+merti97: checks
+Tuz_i_Tuz joins the table at seat #2
+ing.julius: bets $0.04
+VicHolson: folds
+merti97: calls $0.04
+*** TURN *** [5d Ac Jh] [6s]
+merti97: checks
+ing.julius: bets $0.06
+merti97: calls $0.06
+*** RIVER *** [5d Ac Jh 6s] [Qc]
+merti97: bets $0.16
+ing.julius: calls $0.16
+*** SHOW DOWN ***
+merti97: shows [Ad Kh] (a pair of Aces)
+ing.julius: mucks hand
+merti97 collected $0.57 from pot
+*** SUMMARY ***
+Total pot $0.59 | Rake $0.02
+Board [5d Ac Jh 6s Qc]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 3: VicHolson (big blind) folded on the Flop
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: merti97 showed [Ad Kh] and won ($0.57) with a pair of Aces
+Seat 8: ing.julius mucked [Ah 4h]
+Seat 9: kosarev1010 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212452309742:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:10:16 ET
+Table 'Herget III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($3.80 in chips)
+Seat 3: VicHolson ($1.75 in chips)
+Seat 4: Bily Bo ($2 in chips)
+Seat 5: tucimira ($2.99 in chips)
+Seat 6: Wookash8 ($2.68 in chips)
+Seat 7: merti97 ($2.73 in chips)
+Seat 8: ing.julius ($1.16 in chips)
+Seat 9: kosarev1010 ($3.42 in chips)
+VicHolson: posts small blind $0.01
+Bily Bo: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd Kc]
+tucimira: folds
+Wookash8: folds
+merti97: calls $0.02
+ing.julius: folds
+kosarev1010: folds
+pokerHero1: raises $0.06 to $0.08
+VicHolson: folds
+Bily Bo: calls $0.06
+merti97: calls $0.06
+*** FLOP *** [8h 4s 9h]
+Bily Bo: checks
+merti97: bets $0.08
+pokerHero1: folds
+Bily Bo: raises $0.20 to $0.28
+merti97: calls $0.20
+*** TURN *** [8h 4s 9h] [Qh]
+Bily Bo: checks
+merti97: bets $0.34
+Bily Bo: calls $0.34
+*** RIVER *** [8h 4s 9h Qh] [3c]
+Bily Bo: checks
+merti97: bets $0.20
+Bily Bo: calls $0.20
+*** SHOW DOWN ***
+merti97: shows [5h 2c] (high card Queen)
+Bily Bo: shows [8c 8d] (three of a kind, Eights)
+Bily Bo collected $1.82 from pot
+tucimira leaves the table
+*** SUMMARY ***
+Total pot $1.89 | Rake $0.07
+Board [8h 4s 9h Qh 3c]
+Seat 1: pokerHero1 (button) folded on the Flop
+Seat 3: VicHolson (small blind) folded before Flop
+Seat 4: Bily Bo (big blind) showed [8c 8d] and won ($1.82) with three of a kind, Eights
+Seat 5: tucimira folded before Flop (didn't bet)
+Seat 6: Wookash8 folded before Flop (didn't bet)
+Seat 7: merti97 showed [5h 2c] and lost with high card Queen
+Seat 8: ing.julius folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212452386303:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:11:36 ET
+Table 'Herget III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($3.72 in chips)
+Seat 2: Tuz_i_Tuz ($2 in chips)
+Seat 3: VicHolson ($1.74 in chips)
+Seat 4: Bily Bo ($2.92 in chips)
+Seat 6: Wookash8 ($2.68 in chips)
+Seat 7: merti97 ($1.83 in chips)
+Seat 8: ing.julius ($1.16 in chips)
+Seat 9: kosarev1010 ($3.42 in chips)
+Bily Bo: posts small blind $0.01
+Wookash8: posts big blind $0.02
+Tuz_i_Tuz: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As Th]
+merti97: raises $0.02 to $0.04
+ing.julius: calls $0.04
+kosarev1010: folds
+pokerHero1: folds
+Tuz_i_Tuz: folds
+VicHolson: raises $0.02 to $0.06
+Bily Bo: folds
+Wookash8: folds
+merti97: calls $0.02
+ing.julius: calls $0.02
+*** FLOP *** [2s 3d 6c]
+merti97: bets $0.02
+ing.julius: folds
+Wookash8 leaves the table
+VicHolson: raises $0.10 to $0.12
+merti97: calls $0.10
+*** TURN *** [2s 3d 6c] [8c]
+merti97: bets $0.02
+VicHolson: raises $0.18 to $0.20
+merti97: calls $0.18
+*** RIVER *** [2s 3d 6c 8c] [Qs]
+merti97: checks
+VicHolson: checks
+*** SHOW DOWN ***
+merti97: shows [Kh Kd] (a pair of Kings)
+VicHolson: mucks hand
+merti97 collected $0.84 from pot
+*** SUMMARY ***
+Total pot $0.87 | Rake $0.03
+Board [2s 3d 6c 8c Qs]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 3: VicHolson (button) mucked [Jd Jh]
+Seat 4: Bily Bo (small blind) folded before Flop
+Seat 6: Wookash8 (big blind) folded before Flop
+Seat 7: merti97 showed [Kh Kd] and won ($0.84) with a pair of Kings
+Seat 8: ing.julius folded on the Flop
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212452454253:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:12:45 ET
+Table 'Herget III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($3.72 in chips)
+Seat 2: Tuz_i_Tuz ($1.98 in chips)
+Seat 3: VicHolson ($1.36 in chips)
+Seat 4: Bily Bo ($2.91 in chips)
+Seat 7: merti97 ($2.29 in chips)
+Seat 8: ing.julius ($1.10 in chips)
+Seat 9: kosarev1010 ($3.42 in chips)
+merti97: posts small blind $0.01
+ing.julius: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8d Th]
+kosarev1010: folds
+pokerHero1: folds
+Tuz_i_Tuz: raises $0.05 to $0.07
+VicHolson: folds
+Bily Bo: folds
+psmith1956 joins the table at seat #5
+merti97: folds
+ing.julius: calls $0.05
+*** FLOP *** [9c As 2d]
+ing.julius: checks
+Tuz_i_Tuz: bets $0.07
+ing.julius: folds
+Uncalled bet ($0.07) returned to Tuz_i_Tuz
+Tuz_i_Tuz collected $0.14 from pot
+Tuz_i_Tuz: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [9c As 2d]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: Tuz_i_Tuz collected ($0.14)
+Seat 3: VicHolson folded before Flop (didn't bet)
+Seat 4: Bily Bo (button) folded before Flop (didn't bet)
+Seat 7: merti97 (small blind) folded before Flop
+Seat 8: ing.julius (big blind) folded on the Flop
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212452499494:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:13:32 ET
+Table 'Herget III' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($3.72 in chips)
+Seat 2: Tuz_i_Tuz ($2.05 in chips)
+Seat 3: VicHolson ($1.36 in chips)
+Seat 4: Bily Bo ($2.91 in chips)
+Seat 7: merti97 ($2.28 in chips)
+Seat 8: ing.julius ($1.03 in chips)
+Seat 9: kosarev1010 ($3.42 in chips)
+ing.julius: posts small blind $0.01
+kosarev1010: posts big blind $0.02
+psmith1956: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9d 9s]
+nudi222 joins the table at seat #6
+pokerHero1: calls $0.02
+Tuz_i_Tuz: folds
+VicHolson: folds
+Bily Bo: folds
+merti97: calls $0.02
+ing.julius: calls $0.01
+kosarev1010: checks
+*** FLOP *** [7h 3d Tc]
+ing.julius: checks
+kosarev1010: checks
+pokerHero1: checks
+merti97: checks
+*** TURN *** [7h 3d Tc] [5s]
+ing.julius: checks
+kosarev1010: checks
+pokerHero1: bets $0.06
+merti97: folds
+ing.julius: folds
+kosarev1010: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.08 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Board [7h 3d Tc 5s]
+Seat 1: pokerHero1 collected ($0.08)
+Seat 2: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 3: VicHolson folded before Flop (didn't bet)
+Seat 4: Bily Bo folded before Flop (didn't bet)
+Seat 7: merti97 (button) folded on the Turn
+Seat 8: ing.julius (small blind) folded on the Turn
+Seat 9: kosarev1010 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #212452547217:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:14:21 ET
+Table 'Herget III' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($3.78 in chips)
+Seat 2: Tuz_i_Tuz ($2.05 in chips)
+Seat 3: VicHolson ($1.36 in chips)
+Seat 4: Bily Bo ($2.91 in chips)
+Seat 6: nudi222 ($0.80 in chips)
+Seat 7: merti97 ($2.26 in chips)
+Seat 8: ing.julius ($1.01 in chips)
+Seat 9: kosarev1010 ($3.40 in chips)
+kosarev1010: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+psmith1956: sits out
+nudi222: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s 3h]
+Tuz_i_Tuz: folds
+VicHolson: folds
+Bily Bo: folds
+nudi222: checks
+merti97: calls $0.02
+ing.julius: calls $0.02
+kosarev1010: calls $0.01
+pokerHero1: checks
+*** FLOP *** [Th 4s 4c]
+kosarev1010: checks
+pokerHero1: checks
+nudi222: checks
+merti97: bets $0.04
+ing.julius: folds
+kosarev1010: raises $0.10 to $0.14
+pokerHero1: folds
+nudi222: folds
+merti97: folds
+Uncalled bet ($0.10) returned to kosarev1010
+kosarev1010 collected $0.17 from pot
+kosarev1010: doesn't show hand
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [Th 4s 4c]
+Seat 1: pokerHero1 (big blind) folded on the Flop
+Seat 2: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 3: VicHolson folded before Flop (didn't bet)
+Seat 4: Bily Bo folded before Flop (didn't bet)
+Seat 6: nudi222 folded on the Flop (didn't bet)
+Seat 7: merti97 folded on the Flop
+Seat 8: ing.julius (button) folded on the Flop
+Seat 9: kosarev1010 (small blind) collected ($0.17)
+
+
+
+PokerStars Hand #212452596054:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:15:10 ET
+Table 'Herget III' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($3.76 in chips)
+Seat 2: Tuz_i_Tuz ($2.05 in chips)
+Seat 3: VicHolson ($1.36 in chips)
+Seat 4: Bily Bo ($2.91 in chips)
+Seat 6: nudi222 ($0.78 in chips)
+Seat 7: merti97 ($2.20 in chips)
+Seat 8: ing.julius ($0.99 in chips)
+Seat 9: kosarev1010 ($3.51 in chips)
+pokerHero1: posts small blind $0.01
+Tuz_i_Tuz: posts big blind $0.02
+psmith1956: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d Ks]
+VicHolson: folds
+Bily Bo: folds
+nudi222: folds
+merti97: calls $0.02
+ing.julius: folds
+kosarev1010: raises $0.07 to $0.09
+pokerHero1: folds
+Tuz_i_Tuz: folds
+merti97: calls $0.07
+*** FLOP *** [Kc Kh 3h]
+merti97: bets $0.10
+kosarev1010: folds
+Uncalled bet ($0.10) returned to merti97
+merti97 collected $0.20 from pot
+merti97: doesn't show hand
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [Kc Kh 3h]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: Tuz_i_Tuz (big blind) folded before Flop
+Seat 3: VicHolson folded before Flop (didn't bet)
+Seat 4: Bily Bo folded before Flop (didn't bet)
+Seat 6: nudi222 folded before Flop (didn't bet)
+Seat 7: merti97 collected ($0.20)
+Seat 8: ing.julius folded before Flop (didn't bet)
+Seat 9: kosarev1010 (button) folded on the Flop
+
+
+
+PokerStars Hand #212452634452:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:15:50 ET
+Table 'Herget III' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($3.75 in chips)
+Seat 2: Tuz_i_Tuz ($2.03 in chips)
+Seat 3: VicHolson ($1.36 in chips)
+Seat 4: Bily Bo ($2.91 in chips)
+Seat 5: psmith1956 ($1 in chips)
+Seat 6: nudi222 ($0.78 in chips)
+Seat 7: merti97 ($2.31 in chips)
+Seat 8: ing.julius ($0.99 in chips)
+Seat 9: kosarev1010 ($3.42 in chips)
+Tuz_i_Tuz: posts small blind $0.01
+VicHolson: posts big blind $0.02
+psmith1956: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c Th]
+Bily Bo: raises $0.04 to $0.06
+psmith1956: folds
+nudi222 has timed out
+nudi222: folds
+merti97: calls $0.06
+ing.julius: folds
+kosarev1010: folds
+pokerHero1: folds
+Tuz_i_Tuz: folds
+VicHolson: folds
+*** FLOP *** [4s Jh 7s]
+Bily Bo: bets $0.10
+merti97: calls $0.10
+*** TURN *** [4s Jh 7s] [5s]
+Bily Bo: checks
+merti97: checks
+*** RIVER *** [4s Jh 7s 5s] [Jd]
+Bily Bo: bets $0.20
+merti97: calls $0.20
+*** SHOW DOWN ***
+Bily Bo: shows [Qd Ah] (a pair of Jacks)
+merti97: shows [4h 9h] (two pair, Jacks and Fours)
+merti97 collected $0.74 from pot
+*** SUMMARY ***
+Total pot $0.77 | Rake $0.03
+Board [4s Jh 7s 5s Jd]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: Tuz_i_Tuz (small blind) folded before Flop
+Seat 3: VicHolson (big blind) folded before Flop
+Seat 4: Bily Bo showed [Qd Ah] and lost with a pair of Jacks
+Seat 5: psmith1956 folded before Flop (didn't bet)
+Seat 6: nudi222 folded before Flop (didn't bet)
+Seat 7: merti97 showed [4h 9h] and won ($0.74) with two pair, Jacks and Fours
+Seat 8: ing.julius folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212452708309:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:17:05 ET
+Table 'Herget III' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($3.75 in chips)
+Seat 2: Tuz_i_Tuz ($2.02 in chips)
+Seat 3: VicHolson ($1.34 in chips)
+Seat 4: Bily Bo ($2.55 in chips)
+Seat 5: psmith1956 ($0.98 in chips)
+Seat 6: nudi222 ($0.78 in chips)
+Seat 7: merti97 ($2.69 in chips)
+Seat 8: ing.julius ($0.99 in chips)
+Seat 9: kosarev1010 ($3.42 in chips)
+VicHolson: posts small blind $0.01
+Bily Bo: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8c 5s]
+psmith1956: folds
+nudi222: calls $0.02
+merti97: folds
+ing.julius: calls $0.02
+kosarev1010: folds
+pokerHero1: folds
+Tuz_i_Tuz: folds
+VicHolson: folds
+Bily Bo: raises $0.05 to $0.07
+nudi222: folds
+ing.julius: calls $0.05
+*** FLOP *** [3h 2d 7d]
+Bily Bo: bets $0.10
+ing.julius: folds
+Uncalled bet ($0.10) returned to Bily Bo
+Bily Bo collected $0.16 from pot
+Bily Bo: doesn't show hand
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [3h 2d 7d]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: Tuz_i_Tuz (button) folded before Flop (didn't bet)
+Seat 3: VicHolson (small blind) folded before Flop
+Seat 4: Bily Bo (big blind) collected ($0.16)
+Seat 5: psmith1956 folded before Flop (didn't bet)
+Seat 6: nudi222 folded before Flop
+Seat 7: merti97 folded before Flop (didn't bet)
+Seat 8: ing.julius folded on the Flop
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212452760433:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:17:58 ET
+Table 'Herget III' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($3.75 in chips)
+Seat 2: Tuz_i_Tuz ($2.02 in chips)
+Seat 3: VicHolson ($1.33 in chips)
+Seat 4: Bily Bo ($2.64 in chips)
+Seat 5: psmith1956 ($0.98 in chips)
+Seat 6: nudi222 ($0.76 in chips)
+Seat 7: merti97 ($2.69 in chips)
+Seat 8: ing.julius ($0.92 in chips)
+Seat 9: kosarev1010 ($3.42 in chips)
+Bily Bo: posts small blind $0.01
+psmith1956: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d As]
+nudi222: folds
+merti97: calls $0.02
+ing.julius: calls $0.02
+kosarev1010: raises $0.09 to $0.11
+pokerHero1: folds
+Tuz_i_Tuz: calls $0.11
+VicHolson: folds
+Bily Bo: folds
+psmith1956: folds
+merti97: calls $0.09
+ing.julius: calls $0.09
+*** FLOP *** [3h Kc 8h]
+merti97: checks
+ing.julius: checks
+kosarev1010: checks
+Tuz_i_Tuz: bets $0.18
+merti97: calls $0.18
+ing.julius: calls $0.18
+kosarev1010: folds
+*** TURN *** [3h Kc 8h] [4h]
+merti97: bets $0.34
+ing.julius: folds
+Tuz_i_Tuz: folds
+Uncalled bet ($0.34) returned to merti97
+merti97 collected $0.97 from pot
+merti97: doesn't show hand
+*** SUMMARY ***
+Total pot $1.01 | Rake $0.04
+Board [3h Kc 8h 4h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: Tuz_i_Tuz folded on the Turn
+Seat 3: VicHolson (button) folded before Flop (didn't bet)
+Seat 4: Bily Bo (small blind) folded before Flop
+Seat 5: psmith1956 (big blind) folded before Flop
+Seat 6: nudi222 folded before Flop (didn't bet)
+Seat 7: merti97 collected ($0.97)
+Seat 8: ing.julius folded on the Turn
+Seat 9: kosarev1010 folded on the Flop
+
+
+
+PokerStars Hand #212452862640:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:19:43 ET
+Table 'Herget III' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($3.75 in chips)
+Seat 2: Tuz_i_Tuz ($1.73 in chips)
+Seat 3: VicHolson ($1.33 in chips)
+Seat 4: Bily Bo ($2.63 in chips)
+Seat 5: psmith1956 ($0.96 in chips)
+Seat 6: nudi222 ($0.76 in chips)
+Seat 7: merti97 ($3.37 in chips)
+Seat 8: ing.julius ($0.63 in chips)
+Seat 9: kosarev1010 ($3.31 in chips)
+psmith1956: posts small blind $0.01
+nudi222: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5c Jc]
+merti97: calls $0.02
+ing.julius: folds
+kosarev1010: folds
+pokerHero1: folds
+Tuz_i_Tuz: raises $0.04 to $0.06
+VicHolson: folds
+VicHolson leaves the table
+Bily Bo: folds
+psmith1956: folds
+nudi222: folds
+merti97: calls $0.04
+*** FLOP *** [3s Js 9c]
+merti97: checks
+format st joins the table at seat #3
+Tuz_i_Tuz: bets $0.07
+merti97: calls $0.07
+*** TURN *** [3s Js 9c] [Kc]
+merti97: checks
+Tuz_i_Tuz: checks
+*** RIVER *** [3s Js 9c Kc] [Kh]
+merti97: bets $0.10
+Tuz_i_Tuz: folds
+Uncalled bet ($0.10) returned to merti97
+merti97 collected $0.28 from pot
+merti97: doesn't show hand
+*** SUMMARY ***
+Total pot $0.29 | Rake $0.01
+Board [3s Js 9c Kc Kh]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: Tuz_i_Tuz folded on the River
+Seat 3: VicHolson folded before Flop (didn't bet)
+Seat 4: Bily Bo (button) folded before Flop (didn't bet)
+Seat 5: psmith1956 (small blind) folded before Flop
+Seat 6: nudi222 (big blind) folded before Flop
+Seat 7: merti97 collected ($0.28)
+Seat 8: ing.julius folded before Flop (didn't bet)
+Seat 9: kosarev1010 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212452908149:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:20:29 ET
+Table 'Herget III' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($3.75 in chips)
+Seat 2: Tuz_i_Tuz ($1.60 in chips)
+Seat 4: Bily Bo ($2.63 in chips)
+Seat 5: psmith1956 ($0.95 in chips)
+Seat 6: nudi222 ($0.74 in chips)
+Seat 7: merti97 ($3.52 in chips)
+Seat 8: ing.julius ($0.63 in chips)
+Seat 9: kosarev1010 ($3.31 in chips)
+nudi222: posts small blind $0.01
+merti97: posts big blind $0.02
+format st: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ks 8s]
+ing.julius: folds
+kosarev1010: raises $0.02 to $0.04
+pokerHero1: folds
+Tuz_i_Tuz: folds
+Bily Bo: folds
+psmith1956: folds
+nudi222: folds
+merti97: folds
+Uncalled bet ($0.02) returned to kosarev1010
+merti97 leaves the table
+kosarev1010 collected $0.05 from pot
+kosarev1010: doesn't show hand
+MA551VE joins the table at seat #7
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: Tuz_i_Tuz folded before Flop (didn't bet)
+Seat 4: Bily Bo folded before Flop (didn't bet)
+Seat 5: psmith1956 (button) folded before Flop (didn't bet)
+Seat 6: nudi222 (small blind) folded before Flop
+Seat 7: merti97 (big blind) folded before Flop
+Seat 8: ing.julius folded before Flop (didn't bet)
+Seat 9: kosarev1010 collected ($0.05)
+
+
+

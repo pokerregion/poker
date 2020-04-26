@@ -1,0 +1,843 @@
+﻿PokerStars Hand #212178478541:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:41:19 ET
+Table 'Shapleya II' 9-max Seat #5 is the button
+Seat 1: gespect ($1.67 in chips)
+Seat 2: Abhsent ($2.07 in chips)
+Seat 3: $ucce$$or ($2.08 in chips)
+Seat 4: yoshinoya <3 ($2.06 in chips)
+Seat 5: Alex_Sitia ($0.98 in chips)
+Seat 6: Incognito308 ($1.93 in chips)
+Seat 7: pokerHero1 ($2 in chips)
+Seat 8: Ruub76 ($4.96 in chips)
+Seat 9: rad073 ($1.08 in chips)
+Incognito308: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c 7s]
+Ruub76: folds
+rad073: folds
+gespect: calls $0.02
+Abhsent: folds
+$ucce$$or: folds
+yoshinoya <3: folds
+Alex_Sitia: raises $0.07 to $0.09
+Incognito308: folds
+pokerHero1: folds
+gespect: calls $0.07
+*** FLOP *** [7c 2d 7h]
+gespect: checks
+Alex_Sitia: bets $0.20
+gespect: folds
+Uncalled bet ($0.20) returned to Alex_Sitia
+Alex_Sitia collected $0.20 from pot
+Alex_Sitia: doesn't show hand
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [7c 2d 7h]
+Seat 1: gespect folded on the Flop
+Seat 2: Abhsent folded before Flop (didn't bet)
+Seat 3: $ucce$$or folded before Flop (didn't bet)
+Seat 4: yoshinoya <3 folded before Flop (didn't bet)
+Seat 5: Alex_Sitia (button) collected ($0.20)
+Seat 6: Incognito308 (small blind) folded before Flop
+Seat 7: pokerHero1 (big blind) folded before Flop
+Seat 8: Ruub76 folded before Flop (didn't bet)
+Seat 9: rad073 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212178525210:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:42:03 ET
+Table 'Shapleya II' 9-max Seat #6 is the button
+Seat 1: gespect ($1.58 in chips)
+Seat 2: Abhsent ($2.07 in chips)
+Seat 3: $ucce$$or ($2.08 in chips)
+Seat 4: yoshinoya <3 ($2.06 in chips)
+Seat 5: Alex_Sitia ($1.09 in chips)
+Seat 6: Incognito308 ($1.92 in chips)
+Seat 7: pokerHero1 ($1.98 in chips)
+Seat 8: Ruub76 ($4.96 in chips)
+Seat 9: rad073 ($1.08 in chips)
+pokerHero1: posts small blind $0.01
+Ruub76: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d Qh]
+rad073: folds
+gespect: calls $0.02
+Abhsent: folds
+$ucce$$or: folds
+yoshinoya <3: folds
+Alex_Sitia: raises $0.04 to $0.06
+Incognito308: calls $0.06
+pokerHero1: folds
+Ruub76: calls $0.04
+gespect: folds
+*** FLOP *** [Jd 3s 3d]
+Ruub76: checks
+Alex_Sitia: bets $0.02
+Incognito308: folds
+Ruub76: folds
+Uncalled bet ($0.02) returned to Alex_Sitia
+Alex_Sitia collected $0.20 from pot
+Alex_Sitia: doesn't show hand
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [Jd 3s 3d]
+Seat 1: gespect folded before Flop
+Seat 2: Abhsent folded before Flop (didn't bet)
+Seat 3: $ucce$$or folded before Flop (didn't bet)
+Seat 4: yoshinoya <3 folded before Flop (didn't bet)
+Seat 5: Alex_Sitia collected ($0.20)
+Seat 6: Incognito308 (button) folded on the Flop
+Seat 7: pokerHero1 (small blind) folded before Flop
+Seat 8: Ruub76 (big blind) folded on the Flop
+Seat 9: rad073 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212178579740:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:42:55 ET
+Table 'Shapleya II' 9-max Seat #7 is the button
+Seat 1: gespect ($1.56 in chips)
+Seat 2: Abhsent ($2.07 in chips)
+Seat 3: $ucce$$or ($2.08 in chips)
+Seat 4: yoshinoya <3 ($2.06 in chips)
+Seat 5: Alex_Sitia ($1.23 in chips)
+Seat 6: Incognito308 ($1.86 in chips)
+Seat 7: pokerHero1 ($1.97 in chips)
+Seat 8: Ruub76 ($4.90 in chips)
+Seat 9: rad073 ($1.08 in chips)
+Ruub76: posts small blind $0.01
+rad073: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th Td]
+gespect: calls $0.02
+Abhsent: folds
+$ucce$$or: folds
+yoshinoya <3: folds
+Alex_Sitia: calls $0.02
+Incognito308: folds
+pokerHero1: raises $0.06 to $0.08
+Ruub76: folds
+rad073: calls $0.06
+gespect: folds
+Alex_Sitia: calls $0.06
+*** FLOP *** [9c 5d Qh]
+rad073: checks
+Alex_Sitia: checks
+pokerHero1: bets $0.18
+rad073: folds
+Alex_Sitia: folds
+Uncalled bet ($0.18) returned to pokerHero1
+pokerHero1 collected $0.26 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01
+Board [9c 5d Qh]
+Seat 1: gespect folded before Flop
+Seat 2: Abhsent folded before Flop (didn't bet)
+Seat 3: $ucce$$or folded before Flop (didn't bet)
+Seat 4: yoshinoya <3 folded before Flop (didn't bet)
+Seat 5: Alex_Sitia folded on the Flop
+Seat 6: Incognito308 folded before Flop (didn't bet)
+Seat 7: pokerHero1 (button) collected ($0.26)
+Seat 8: Ruub76 (small blind) folded before Flop
+Seat 9: rad073 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212178654870:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:44:06 ET
+Table 'Shapleya II' 9-max Seat #8 is the button
+Seat 1: gespect ($1.54 in chips)
+Seat 2: Abhsent ($2.07 in chips)
+Seat 3: $ucce$$or ($2.08 in chips)
+Seat 4: yoshinoya <3 ($2.06 in chips)
+Seat 5: Alex_Sitia ($1.15 in chips)
+Seat 6: Incognito308 ($1.86 in chips)
+Seat 7: pokerHero1 ($2.15 in chips)
+Seat 8: Ruub76 ($4.89 in chips)
+Seat 9: rad073 ($1 in chips)
+rad073: posts small blind $0.01
+gespect: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th 4h]
+Abhsent: folds
+$ucce$$or: folds
+yoshinoya <3: folds
+Alex_Sitia: calls $0.02
+Incognito308: folds
+pokerHero1: folds
+Ruub76: calls $0.02
+rad073: calls $0.01
+gespect: checks
+*** FLOP *** [5h Ah 2c]
+rad073: bets $0.04
+gespect: calls $0.04
+Alex_Sitia: folds
+Ruub76: calls $0.04
+*** TURN *** [5h Ah 2c] [7c]
+rad073: bets $0.18
+gespect: calls $0.18
+Ruub76: folds
+*** RIVER *** [5h Ah 2c 7c] [2s]
+Alex_Sitia leaves the table
+rad073: bets $0.26
+gespect: raises $0.28 to $0.54
+PsAikoS joins the table at seat #5
+rad073: calls $0.28
+*** SHOW DOWN ***
+gespect: shows [8d 8s] (two pair, Eights and Deuces)
+rad073: shows [6c As] (two pair, Aces and Deuces)
+rad073 collected $1.58 from pot
+*** SUMMARY ***
+Total pot $1.64 | Rake $0.06
+Board [5h Ah 2c 7c 2s]
+Seat 1: gespect (big blind) showed [8d 8s] and lost with two pair, Eights and Deuces
+Seat 2: Abhsent folded before Flop (didn't bet)
+Seat 3: $ucce$$or folded before Flop (didn't bet)
+Seat 4: yoshinoya <3 folded before Flop (didn't bet)
+Seat 5: Alex_Sitia folded on the Flop
+Seat 6: Incognito308 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Ruub76 (button) folded on the Turn
+Seat 9: rad073 (small blind) showed [6c As] and won ($1.58) with two pair, Aces and Deuces
+
+
+
+PokerStars Hand #212178857249:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:47:04 ET
+Table 'Shapleya II' 9-max Seat #9 is the button
+Seat 1: gespect ($0.76 in chips)
+Seat 2: Abhsent ($2.07 in chips)
+Seat 3: $ucce$$or ($2.08 in chips)
+Seat 4: yoshinoya <3 ($2.06 in chips)
+Seat 5: PsAikoS ($0.80 in chips)
+Seat 6: Incognito308 ($1.86 in chips)
+Seat 7: pokerHero1 ($2.15 in chips)
+Seat 8: Ruub76 ($4.83 in chips)
+Seat 9: rad073 ($1.80 in chips)
+gespect: posts small blind $0.01
+Abhsent: posts big blind $0.02
+PsAikoS: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td 6s]
+$ucce$$or: folds
+yoshinoya <3: raises $0.04 to $0.06
+PsAikoS: folds
+Incognito308: folds
+pokerHero1: folds
+Ruub76: folds
+rad073 has timed out
+rad073: folds
+gespect: folds
+Abhsent: folds
+Uncalled bet ($0.04) returned to yoshinoya <3
+gespect leaves the table
+yoshinoya <3 collected $0.07 from pot
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Seat 1: gespect (small blind) folded before Flop
+Seat 2: Abhsent (big blind) folded before Flop
+Seat 3: $ucce$$or folded before Flop (didn't bet)
+Seat 4: yoshinoya <3 collected ($0.07)
+Seat 5: PsAikoS folded before Flop (didn't bet)
+Seat 6: Incognito308 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Ruub76 folded before Flop (didn't bet)
+Seat 9: rad073 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212178908585:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:47:52 ET
+Table 'Shapleya II' 9-max Seat #2 is the button
+Seat 2: Abhsent ($2.05 in chips)
+Seat 3: $ucce$$or ($2.08 in chips)
+Seat 4: yoshinoya <3 ($2.11 in chips)
+Seat 5: PsAikoS ($0.78 in chips)
+Seat 6: Incognito308 ($1.86 in chips)
+Seat 7: pokerHero1 ($2.15 in chips)
+Seat 8: Ruub76 ($4.83 in chips)
+$ucce$$or: posts small blind $0.01
+yoshinoya <3: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jh Kc]
+PsAikoS: folds
+Incognito308: folds
+pokerHero1: raises $0.06 to $0.08
+Ruub76: folds
+Abhsent: calls $0.08
+$ucce$$or: folds
+yoshinoya <3: calls $0.06
+*** FLOP *** [4d Qh 6c]
+yoshinoya <3: bets $0.10
+pokerHero1: folds
+Abhsent: calls $0.10
+*** TURN *** [4d Qh 6c] [6s]
+yoshinoya <3: bets $0.20
+Abhsent: folds
+Uncalled bet ($0.20) returned to yoshinoya <3
+yoshinoya <3 collected $0.43 from pot
+*** SUMMARY ***
+Total pot $0.45 | Rake $0.02
+Board [4d Qh 6c 6s]
+Seat 2: Abhsent (button) folded on the Turn
+Seat 3: $ucce$$or (small blind) folded before Flop
+Seat 4: yoshinoya <3 (big blind) collected ($0.43)
+Seat 5: PsAikoS folded before Flop (didn't bet)
+Seat 6: Incognito308 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded on the Flop
+Seat 8: Ruub76 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212178959743:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:48:40 ET
+Table 'Shapleya II' 9-max Seat #3 is the button
+Seat 2: Abhsent ($1.87 in chips)
+Seat 3: $ucce$$or ($2.07 in chips)
+Seat 4: yoshinoya <3 ($2.36 in chips)
+Seat 5: PsAikoS ($0.78 in chips)
+Seat 6: Incognito308 ($1.86 in chips)
+Seat 7: pokerHero1 ($2.07 in chips)
+Seat 8: Ruub76 ($4.83 in chips)
+Seat 9: rad073 ($1.80 in chips)
+yoshinoya <3: posts small blind $0.01
+PsAikoS: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd 4c]
+Incognito308: folds
+pokerHero1: folds
+Ruub76: folds
+rad073 has timed out
+rad073: folds
+Abhsent: folds
+$ucce$$or: folds
+yoshinoya <3: calls $0.01
+PsAikoS: checks
+*** FLOP *** [Jc Jd Kc]
+yoshinoya <3: bets $0.06
+PsAikoS: folds
+Uncalled bet ($0.06) returned to yoshinoya <3
+Skfruk! joins the table at seat #1
+yoshinoya <3 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [Jc Jd Kc]
+Seat 2: Abhsent folded before Flop (didn't bet)
+Seat 3: $ucce$$or (button) folded before Flop (didn't bet)
+Seat 4: yoshinoya <3 (small blind) collected ($0.04)
+Seat 5: PsAikoS (big blind) folded on the Flop
+Seat 6: Incognito308 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Ruub76 folded before Flop (didn't bet)
+Seat 9: rad073 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212179018340:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:49:34 ET
+Table 'Shapleya II' 9-max Seat #4 is the button
+Seat 2: Abhsent ($1.87 in chips)
+Seat 3: $ucce$$or ($2.07 in chips)
+Seat 4: yoshinoya <3 ($2.38 in chips)
+Seat 5: PsAikoS ($0.76 in chips)
+Seat 6: Incognito308 ($1.86 in chips)
+Seat 7: pokerHero1 ($2.07 in chips)
+Seat 8: Ruub76 ($4.83 in chips)
+PsAikoS: posts small blind $0.01
+Incognito308: posts big blind $0.02
+Skfruk!: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s 2c]
+pokerHero1: folds
+Ruub76: folds
+Abhsent: folds
+$ucce$$or: folds
+yoshinoya <3: calls $0.02
+PsAikoS: calls $0.01
+Incognito308: checks
+*** FLOP *** [5d 9d Jc]
+PsAikoS: checks
+Incognito308: checks
+yoshinoya <3: bets $0.10
+PsAikoS: folds
+Incognito308: folds
+Uncalled bet ($0.10) returned to yoshinoya <3
+yoshinoya <3 collected $0.06 from pot
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [5d 9d Jc]
+Seat 2: Abhsent folded before Flop (didn't bet)
+Seat 3: $ucce$$or folded before Flop (didn't bet)
+Seat 4: yoshinoya <3 (button) collected ($0.06)
+Seat 5: PsAikoS (small blind) folded on the Flop
+Seat 6: Incognito308 (big blind) folded on the Flop
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Ruub76 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212179069458:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:50:22 ET
+Table 'Shapleya II' 9-max Seat #5 is the button
+Seat 2: Abhsent ($1.87 in chips)
+Seat 3: $ucce$$or ($2.07 in chips)
+Seat 4: yoshinoya <3 ($2.42 in chips)
+Seat 5: PsAikoS ($0.74 in chips)
+Seat 6: Incognito308 ($1.84 in chips)
+Seat 7: pokerHero1 ($2.07 in chips)
+Seat 8: Ruub76 ($4.83 in chips)
+Seat 9: rad073 ($1.80 in chips)
+Incognito308: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+Skfruk!: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9d 7h]
+Ruub76: folds
+rad073 has timed out
+rad073: folds
+Abhsent: folds
+$ucce$$or: raises $0.04 to $0.06
+yoshinoya <3: folds
+PsAikoS: calls $0.06
+Incognito308: folds
+pokerHero1: folds
+*** FLOP *** [6h 3h Kd]
+$ucce$$or: bets $0.08
+PsAikoS: calls $0.08
+*** TURN *** [6h 3h Kd] [Tc]
+$ucce$$or: bets $0.20
+PsAikoS: calls $0.20
+*** RIVER *** [6h 3h Kd Tc] [2d]
+$ucce$$or: bets $0.40
+PsAikoS: folds
+Uncalled bet ($0.40) returned to $ucce$$or
+$ucce$$or collected $0.69 from pot
+$ucce$$or: doesn't show hand
+*** SUMMARY ***
+Total pot $0.71 | Rake $0.02
+Board [6h 3h Kd Tc 2d]
+Seat 2: Abhsent folded before Flop (didn't bet)
+Seat 3: $ucce$$or collected ($0.69)
+Seat 4: yoshinoya <3 folded before Flop (didn't bet)
+Seat 5: PsAikoS (button) folded on the River
+Seat 6: Incognito308 (small blind) folded before Flop
+Seat 7: pokerHero1 (big blind) folded before Flop
+Seat 8: Ruub76 folded before Flop (didn't bet)
+Seat 9: rad073 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212179154517:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:51:41 ET
+Table 'Shapleya II' 9-max Seat #6 is the button
+Seat 2: Abhsent ($1.87 in chips)
+Seat 3: $ucce$$or ($2.42 in chips)
+Seat 4: yoshinoya <3 ($2.42 in chips)
+Seat 5: PsAikoS ($0.40 in chips)
+Seat 6: Incognito308 ($1.83 in chips)
+Seat 7: pokerHero1 ($2.05 in chips)
+Seat 8: Ruub76 ($4.83 in chips)
+pokerHero1: posts small blind $0.01
+Ruub76: posts big blind $0.02
+Skfruk!: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4h Qs]
+Abhsent: folds
+$ucce$$or: raises $0.04 to $0.06
+yoshinoya <3: folds
+PsAikoS: folds
+Incognito308: calls $0.06
+pokerHero1: folds
+Ruub76: folds
+*** FLOP *** [Td 6c 6h]
+$ucce$$or: checks
+Incognito308: checks
+*** TURN *** [Td 6c 6h] [2c]
+$ucce$$or: bets $0.06
+Incognito308: calls $0.06
+*** RIVER *** [Td 6c 6h 2c] [Tc]
+$ucce$$or: bets $0.12
+Incognito308: calls $0.12
+*** SHOW DOWN ***
+$ucce$$or: shows [Qh Th] (a full house, Tens full of Sixes)
+Incognito308: mucks hand
+$ucce$$or collected $0.49 from pot
+*** SUMMARY ***
+Total pot $0.51 | Rake $0.02
+Board [Td 6c 6h 2c Tc]
+Seat 2: Abhsent folded before Flop (didn't bet)
+Seat 3: $ucce$$or showed [Qh Th] and won ($0.49) with a full house, Tens full of Sixes
+Seat 4: yoshinoya <3 folded before Flop (didn't bet)
+Seat 5: PsAikoS folded before Flop (didn't bet)
+Seat 6: Incognito308 (button) mucked [Jc 9c]
+Seat 7: pokerHero1 (small blind) folded before Flop
+Seat 8: Ruub76 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212179223292:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:52:48 ET
+Table 'Shapleya II' 9-max Seat #7 is the button
+Seat 1: Skfruk! ($2 in chips)
+Seat 2: Abhsent ($1.87 in chips)
+Seat 3: $ucce$$or ($2.67 in chips)
+Seat 4: yoshinoya <3 ($2.42 in chips)
+Seat 5: PsAikoS ($0.40 in chips)
+Seat 6: Incognito308 ($1.59 in chips)
+Seat 7: pokerHero1 ($2.04 in chips)
+Seat 8: Ruub76 ($4.81 in chips)
+Ruub76: posts small blind $0.01
+rad073 has timed out
+rad073: is sitting out
+Skfruk!: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5d Kc]
+Abhsent: folds
+$ucce$$or: folds
+yoshinoya <3: folds
+PsAikoS: folds
+Incognito308: folds
+pokerHero1: folds
+Ruub76: calls $0.01
+Skfruk!: checks
+*** FLOP *** [Ah Ks Kh]
+Ruub76: checks
+Skfruk!: checks
+*** TURN *** [Ah Ks Kh] [3d]
+Ruub76: checks
+Skfruk!: checks
+*** RIVER *** [Ah Ks Kh 3d] [8c]
+Ruub76: checks
+Skfruk!: bets $0.02
+Ruub76: folds
+Uncalled bet ($0.02) returned to Skfruk!
+Skfruk! collected $0.04 from pot
+Skfruk!: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [Ah Ks Kh 3d 8c]
+Seat 1: Skfruk! (big blind) collected ($0.04)
+Seat 2: Abhsent folded before Flop (didn't bet)
+Seat 3: $ucce$$or folded before Flop (didn't bet)
+Seat 4: yoshinoya <3 folded before Flop (didn't bet)
+Seat 5: PsAikoS folded before Flop (didn't bet)
+Seat 6: Incognito308 folded before Flop (didn't bet)
+Seat 7: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 8: Ruub76 (small blind) folded on the River
+
+
+
+PokerStars Hand #212179285965:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:53:47 ET
+Table 'Shapleya II' 9-max Seat #8 is the button
+Seat 1: Skfruk! ($2.02 in chips)
+Seat 2: Abhsent ($1.87 in chips)
+Seat 3: $ucce$$or ($2.67 in chips)
+Seat 4: yoshinoya <3 ($2.42 in chips)
+Seat 5: PsAikoS ($0.40 in chips)
+Seat 6: Incognito308 ($1.59 in chips)
+Seat 7: pokerHero1 ($2.04 in chips)
+Seat 8: Ruub76 ($4.79 in chips)
+Skfruk!: posts small blind $0.01
+Abhsent: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d Kc]
+$ucce$$or: folds
+yoshinoya <3: calls $0.02
+PsAikoS: folds
+Incognito308: raises $0.06 to $0.08
+pokerHero1: folds
+Ruub76: folds
+Skfruk!: folds
+Abhsent: folds
+yoshinoya <3: calls $0.06
+*** FLOP *** [Jh 3h 3d]
+yoshinoya <3: checks
+Incognito308: bets $0.11
+yoshinoya <3: folds
+Uncalled bet ($0.11) returned to Incognito308
+Incognito308 collected $0.18 from pot
+Incognito308: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [Jh 3h 3d]
+Seat 1: Skfruk! (small blind) folded before Flop
+Seat 2: Abhsent (big blind) folded before Flop
+Seat 3: $ucce$$or folded before Flop (didn't bet)
+Seat 4: yoshinoya <3 folded on the Flop
+Seat 5: PsAikoS folded before Flop (didn't bet)
+Seat 6: Incognito308 collected ($0.18)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Ruub76 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212179329300:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:54:30 ET
+Table 'Shapleya II' 9-max Seat #1 is the button
+Seat 1: Skfruk! ($2.01 in chips)
+Seat 2: Abhsent ($1.85 in chips)
+Seat 4: yoshinoya <3 ($2.34 in chips)
+Seat 5: PsAikoS ($0.40 in chips)
+Seat 6: Incognito308 ($1.69 in chips)
+Seat 7: pokerHero1 ($2.04 in chips)
+Seat 8: Ruub76 ($4.79 in chips)
+Abhsent: posts small blind $0.01
+$ucce$$or: is sitting out
+yoshinoya <3: posts big blind $0.02
+rad073 has timed out
+rad073: is sitting out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js 3h]
+$ucce$$or leaves the table
+PsAikoS: folds
+Incognito308: folds
+pokerHero1: folds
+Ruub76: folds
+Skfruk!: raises $0.04 to $0.06
+Abhsent: folds
+yoshinoya <3: folds
+Uncalled bet ($0.04) returned to Skfruk!
+Skfruk! collected $0.05 from pot
+Skfruk!: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: Skfruk! (button) collected ($0.05)
+Seat 2: Abhsent (small blind) folded before Flop
+Seat 4: yoshinoya <3 (big blind) folded before Flop
+Seat 5: PsAikoS folded before Flop (didn't bet)
+Seat 6: Incognito308 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Ruub76 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212179370823:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:55:09 ET
+Table 'Shapleya II' 9-max Seat #2 is the button
+Seat 1: Skfruk! ($2.04 in chips)
+Seat 2: Abhsent ($1.84 in chips)
+Seat 4: yoshinoya <3 ($2.32 in chips)
+Seat 6: Incognito308 ($1.69 in chips)
+Seat 7: pokerHero1 ($2.04 in chips)
+Seat 8: Ruub76 ($4.79 in chips)
+yoshinoya <3: posts small blind $0.01
+PsAikoS: is sitting out
+Incognito308: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td 2d]
+pokerHero1: folds
+PsAikoS leaves the table
+Ruub76: folds
+Skfruk!: folds
+Abhsent: raises $0.04 to $0.06
+yoshinoya <3: folds
+Incognito308: folds
+Uncalled bet ($0.04) returned to Abhsent
+Abhsent collected $0.05 from pot
+Abhsent: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: Skfruk! folded before Flop (didn't bet)
+Seat 2: Abhsent (button) collected ($0.05)
+Seat 4: yoshinoya <3 (small blind) folded before Flop
+Seat 6: Incognito308 (big blind) folded before Flop
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Ruub76 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212179392343:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:55:37 ET
+Table 'Shapleya II' 9-max Seat #4 is the button
+Seat 1: Skfruk! ($2.04 in chips)
+Seat 2: Abhsent ($1.87 in chips)
+Seat 4: yoshinoya <3 ($2.31 in chips)
+Seat 6: Incognito308 ($1.67 in chips)
+Seat 7: pokerHero1 ($2.04 in chips)
+Seat 8: Ruub76 ($4.79 in chips)
+Incognito308: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js Qh]
+Ruub76: folds
+Skfruk!: folds
+Abhsent: folds
+yoshinoya <3: raises $0.04 to $0.06
+Incognito308: calls $0.05
+pokerHero1: folds
+*** FLOP *** [Qd 9h 5h]
+Incognito308: bets $0.08
+rad073 leaves the table
+yoshinoya <3: calls $0.08
+*** TURN *** [Qd 9h 5h] [Qs]
+Incognito308: bets $0.18
+yoshinoya <3: calls $0.18
+*** RIVER *** [Qd 9h 5h Qs] [Kd]
+Incognito308: bets $1.35 and is all-in
+yoshinoya <3: folds
+Uncalled bet ($1.35) returned to Incognito308
+Incognito308 collected $0.64 from pot
+Incognito308: doesn't show hand
+*** SUMMARY ***
+Total pot $0.66 | Rake $0.02
+Board [Qd 9h 5h Qs Kd]
+Seat 1: Skfruk! folded before Flop (didn't bet)
+Seat 2: Abhsent folded before Flop (didn't bet)
+Seat 4: yoshinoya <3 (button) folded on the River
+Seat 6: Incognito308 (small blind) collected ($0.64)
+Seat 7: pokerHero1 (big blind) folded before Flop
+Seat 8: Ruub76 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212179449421:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:56:50 ET
+Table 'Shapleya II' 9-max Seat #6 is the button
+Seat 1: Skfruk! ($2.04 in chips)
+Seat 2: Abhsent ($1.87 in chips)
+Seat 4: yoshinoya <3 ($1.99 in chips)
+Seat 6: Incognito308 ($1.99 in chips)
+Seat 7: pokerHero1 ($2.02 in chips)
+Seat 8: Ruub76 ($4.79 in chips)
+pokerHero1: posts small blind $0.01
+Ruub76: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h 6c]
+Skfruk!: raises $0.04 to $0.06
+Abhsent: folds
+yoshinoya <3: calls $0.06
+Incognito308: folds
+pokerHero1: folds
+Ruub76: calls $0.04
+*** FLOP *** [2d 7d Jd]
+Ruub76: checks
+Skfruk!: checks
+yoshinoya <3: checks
+*** TURN *** [2d 7d Jd] [5d]
+Ruub76: checks
+Skfruk!: bets $0.09
+yoshinoya <3: calls $0.09
+Ruub76: calls $0.09
+*** RIVER *** [2d 7d Jd 5d] [Jc]
+Ruub76: checks
+Skfruk!: checks
+yoshinoya <3: bets $1.84 and is all-in
+Ruub76: folds
+Brynjólfur joins the table at seat #9
+Skfruk!: folds
+Uncalled bet ($1.84) returned to yoshinoya <3
+yoshinoya <3 collected $0.44 from pot
+*** SUMMARY ***
+Total pot $0.46 | Rake $0.02
+Board [2d 7d Jd 5d Jc]
+Seat 1: Skfruk! folded on the River
+Seat 2: Abhsent folded before Flop (didn't bet)
+Seat 4: yoshinoya <3 collected ($0.44)
+Seat 6: Incognito308 (button) folded before Flop (didn't bet)
+Seat 7: pokerHero1 (small blind) folded before Flop
+Seat 8: Ruub76 (big blind) folded on the River
+
+
+
+PokerStars Hand #212179501942:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:57:57 ET
+Table 'Shapleya II' 9-max Seat #7 is the button
+Seat 1: Skfruk! ($2 in chips)
+Seat 2: Abhsent ($1.87 in chips)
+Seat 4: yoshinoya <3 ($2.28 in chips)
+Seat 6: Incognito308 ($1.99 in chips)
+Seat 7: pokerHero1 ($2.01 in chips)
+Seat 8: Ruub76 ($4.64 in chips)
+Seat 9: Brynjólfur ($2 in chips)
+Ruub76: posts small blind $0.01
+Brynjólfur: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ks 2h]
+Skfruk!: folds
+Abhsent: raises $0.04 to $0.06
+yoshinoya <3: folds
+Incognito308: folds
+pokerHero1: folds
+Ruub76: folds
+Brynjólfur: calls $0.04
+*** FLOP *** [Jd 9h 7c]
+Brynjólfur: checks
+Abhsent: checks
+*** TURN *** [Jd 9h 7c] [Qh]
+Brynjólfur: bets $0.10
+Abhsent: raises $0.15 to $0.25
+Brynjólfur: folds
+Uncalled bet ($0.15) returned to Abhsent
+Abhsent collected $0.32 from pot
+Abhsent: doesn't show hand
+*** SUMMARY ***
+Total pot $0.33 | Rake $0.01
+Board [Jd 9h 7c Qh]
+Seat 1: Skfruk! folded before Flop (didn't bet)
+Seat 2: Abhsent collected ($0.32)
+Seat 4: yoshinoya <3 folded before Flop (didn't bet)
+Seat 6: Incognito308 folded before Flop (didn't bet)
+Seat 7: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 8: Ruub76 (small blind) folded before Flop
+Seat 9: Brynjólfur (big blind) folded on the Turn
+
+
+
+PokerStars Hand #212179527580:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:58:30 ET
+Table 'Shapleya II' 9-max Seat #8 is the button
+Seat 4: yoshinoya <3 ($2.28 in chips)
+Seat 6: Incognito308 ($1.99 in chips)
+Seat 7: pokerHero1 ($2.01 in chips)
+Seat 8: Ruub76 ($4.63 in chips)
+Seat 9: Brynjólfur ($1.84 in chips)
+Brynjólfur: posts small blind $0.01
+Skfruk!: is sitting out
+Abhsent: is sitting out
+yoshinoya <3: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ks 2c]
+Incognito308: folds
+pokerHero1: folds
+Skfruk! leaves the table
+Ruub76: raises $0.04 to $0.06
+Brynjólfur: calls $0.05
+yoshinoya <3: folds
+*** FLOP *** [Ts 5d Ac]
+Brynjólfur: checks
+Ruub76: checks
+*** TURN *** [Ts 5d Ac] [8d]
+Brynjólfur: checks
+Ruub76: checks
+*** RIVER *** [Ts 5d Ac 8d] [Qc]
+Brynjólfur: checks
+Ruub76: checks
+*** SHOW DOWN ***
+Brynjólfur: shows [6c 6d] (a pair of Sixes)
+Ruub76: shows [Jc Qh] (a pair of Queens)
+Ruub76 collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [Ts 5d Ac 8d Qc]
+Seat 4: yoshinoya <3 (big blind) folded before Flop
+Seat 6: Incognito308 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Ruub76 (button) showed [Jc Qh] and won ($0.14) with a pair of Queens
+Seat 9: Brynjólfur (small blind) showed [6c 6d] and lost with a pair of Sixes
+
+
+
+PokerStars Hand #212179562678:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 13:59:11 ET
+Table 'Shapleya II' 9-max Seat #9 is the button
+Seat 4: yoshinoya <3 ($2.26 in chips)
+Seat 6: Incognito308 ($1.99 in chips)
+Seat 7: pokerHero1 ($2.01 in chips)
+Seat 8: Ruub76 ($4.71 in chips)
+Seat 9: Brynjólfur ($1.78 in chips)
+yoshinoya <3: posts small blind $0.01
+Incognito308: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac 8c]
+pokerHero1: folds
+Ruub76: folds
+Brynjólfur: folds
+yoshinoya <3: raises $0.04 to $0.06
+Incognito308: folds
+Uncalled bet ($0.04) returned to yoshinoya <3
+yoshinoya <3 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 4: yoshinoya <3 (small blind) collected ($0.04)
+Seat 6: Incognito308 (big blind) folded before Flop
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Ruub76 folded before Flop (didn't bet)
+Seat 9: Brynjólfur (button) folded before Flop (didn't bet)
+
+
+

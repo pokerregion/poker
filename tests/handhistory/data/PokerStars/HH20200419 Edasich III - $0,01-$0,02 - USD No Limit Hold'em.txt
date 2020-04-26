@@ -1,0 +1,2365 @@
+﻿PokerStars Hand #212331440481:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 13:59:19 ET
+Table 'Edasich III' 9-max Seat #6 is the button
+Seat 1: QuadsMaster30 ($1.89 in chips)
+Seat 2: lextim ($5.58 in chips)
+Seat 3: 88Dead ($3.46 in chips)
+Seat 4: e.profil.r50 ($2.06 in chips)
+Seat 5: elpexoni ($2.15 in chips)
+Seat 6: szalay87 ($1.28 in chips)
+Seat 7: rekawian1991 ($2 in chips)
+Seat 8: pokerHero1 ($2 in chips)
+Seat 9: ogio27 ($1.05 in chips)
+rekawian1991: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c 5s]
+ogio27: folds
+QuadsMaster30: folds
+lextim: folds
+88Dead: folds
+e.profil.r50: folds
+elpexoni has timed out
+elpexoni: folds
+szalay87: calls $0.02
+rekawian1991: folds
+pokerHero1: checks
+*** FLOP *** [Qs 4c Kh]
+pokerHero1: checks
+szalay87: bets $0.02
+pokerHero1: folds
+Uncalled bet ($0.02) returned to szalay87
+szalay87 collected $0.05 from pot
+szalay87: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [Qs 4c Kh]
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 2: lextim folded before Flop (didn't bet)
+Seat 3: 88Dead folded before Flop (didn't bet)
+Seat 4: e.profil.r50 folded before Flop (didn't bet)
+Seat 5: elpexoni folded before Flop (didn't bet)
+Seat 6: szalay87 (button) collected ($0.05)
+Seat 7: rekawian1991 (small blind) folded before Flop
+Seat 8: pokerHero1 (big blind) folded on the Flop
+Seat 9: ogio27 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212331478324:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:00:04 ET
+Table 'Edasich III' 9-max Seat #7 is the button
+Seat 1: QuadsMaster30 ($1.89 in chips)
+Seat 2: lextim ($5.58 in chips)
+Seat 3: 88Dead ($3.46 in chips)
+Seat 4: e.profil.r50 ($2.06 in chips)
+Seat 5: elpexoni ($2.15 in chips)
+Seat 6: szalay87 ($1.31 in chips)
+Seat 7: rekawian1991 ($2 in chips)
+Seat 8: pokerHero1 ($1.98 in chips)
+Seat 9: ogio27 ($1.05 in chips)
+pokerHero1: posts small blind $0.01
+ogio27: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ts 7c]
+QuadsMaster30: folds
+lextim: folds
+88Dead: folds
+e.profil.r50: folds
+elpexoni: folds
+szalay87: calls $0.02
+rekawian1991: folds
+pokerHero1: folds
+ogio27: checks
+*** FLOP *** [9h 6c 8c]
+ogio27: checks
+szalay87: bets $0.02
+ogio27: calls $0.02
+*** TURN *** [9h 6c 8c] [As]
+ogio27: checks
+szalay87: bets $0.06
+ogio27: folds
+Uncalled bet ($0.06) returned to szalay87
+szalay87 collected $0.09 from pot
+szalay87: doesn't show hand
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Board [9h 6c 8c As]
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 2: lextim folded before Flop (didn't bet)
+Seat 3: 88Dead folded before Flop (didn't bet)
+Seat 4: e.profil.r50 folded before Flop (didn't bet)
+Seat 5: elpexoni folded before Flop (didn't bet)
+Seat 6: szalay87 collected ($0.09)
+Seat 7: rekawian1991 (button) folded before Flop (didn't bet)
+Seat 8: pokerHero1 (small blind) folded before Flop
+Seat 9: ogio27 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #212331521208:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:00:53 ET
+Table 'Edasich III' 9-max Seat #8 is the button
+Seat 1: QuadsMaster30 ($1.89 in chips)
+Seat 2: lextim ($5.58 in chips)
+Seat 3: 88Dead ($3.46 in chips)
+Seat 4: e.profil.r50 ($2.06 in chips)
+Seat 5: elpexoni ($2.15 in chips)
+Seat 6: szalay87 ($1.36 in chips)
+Seat 7: rekawian1991 ($2 in chips)
+Seat 8: pokerHero1 ($1.97 in chips)
+Seat 9: ogio27 ($1.01 in chips)
+ogio27: posts small blind $0.01
+QuadsMaster30: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qs Ad]
+lextim: folds
+88Dead: folds
+e.profil.r50: folds
+elpexoni: folds
+szalay87: calls $0.02
+rekawian1991: folds
+pokerHero1: raises $0.06 to $0.08
+ogio27: folds
+QuadsMaster30: folds
+szalay87: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.07 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Seat 1: QuadsMaster30 (big blind) folded before Flop
+Seat 2: lextim folded before Flop (didn't bet)
+Seat 3: 88Dead folded before Flop (didn't bet)
+Seat 4: e.profil.r50 folded before Flop (didn't bet)
+Seat 5: elpexoni folded before Flop (didn't bet)
+Seat 6: szalay87 folded before Flop
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 (button) collected ($0.07)
+Seat 9: ogio27 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212331553187:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:01:18 ET
+Table 'Edasich III' 9-max Seat #9 is the button
+Seat 1: QuadsMaster30 ($1.87 in chips)
+Seat 2: lextim ($5.58 in chips)
+Seat 3: 88Dead ($3.46 in chips)
+Seat 4: e.profil.r50 ($2.06 in chips)
+Seat 5: elpexoni ($2.15 in chips)
+Seat 6: szalay87 ($1.34 in chips)
+Seat 7: rekawian1991 ($2 in chips)
+Seat 8: pokerHero1 ($2.02 in chips)
+Seat 9: ogio27 ($1 in chips)
+QuadsMaster30: posts small blind $0.01
+lextim: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h Kd]
+88Dead: folds
+e.profil.r50: folds
+elpexoni: folds
+szalay87: folds
+rekawian1991: folds
+pokerHero1: folds
+ogio27: folds
+QuadsMaster30: calls $0.01
+lextim: checks
+*** FLOP *** [3s 3c Qd]
+QuadsMaster30: checks
+lextim: checks
+*** TURN *** [3s 3c Qd] [9c]
+QuadsMaster30: checks
+lextim: checks
+*** RIVER *** [3s 3c Qd 9c] [2h]
+QuadsMaster30: checks
+lextim: checks
+*** SHOW DOWN ***
+QuadsMaster30: shows [5h 2c] (two pair, Threes and Deuces)
+lextim: mucks hand
+QuadsMaster30 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [3s 3c Qd 9c 2h]
+Seat 1: QuadsMaster30 (small blind) showed [5h 2c] and won ($0.04) with two pair, Threes and Deuces
+Seat 2: lextim (big blind) mucked [As 7c]
+Seat 3: 88Dead folded before Flop (didn't bet)
+Seat 4: e.profil.r50 folded before Flop (didn't bet)
+Seat 5: elpexoni folded before Flop (didn't bet)
+Seat 6: szalay87 folded before Flop (didn't bet)
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: ogio27 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212331592880:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:01:56 ET
+Table 'Edasich III' 9-max Seat #1 is the button
+Seat 1: QuadsMaster30 ($1.89 in chips)
+Seat 2: lextim ($5.56 in chips)
+Seat 3: 88Dead ($3.46 in chips)
+Seat 4: e.profil.r50 ($2.06 in chips)
+Seat 5: elpexoni ($2.15 in chips)
+Seat 6: szalay87 ($1.34 in chips)
+Seat 7: rekawian1991 ($2 in chips)
+Seat 8: pokerHero1 ($2.02 in chips)
+Seat 9: ogio27 ($1 in chips)
+lextim: posts small blind $0.01
+88Dead: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc 8d]
+e.profil.r50: folds
+elpexoni: folds
+szalay87: folds
+rekawian1991: folds
+pokerHero1: folds
+ogio27: folds
+QuadsMaster30: raises $0.04 to $0.06
+lextim: folds
+88Dead: calls $0.04
+*** FLOP *** [6c 3s Qh]
+88Dead: checks
+QuadsMaster30: bets $0.07
+88Dead: folds
+Uncalled bet ($0.07) returned to QuadsMaster30
+QuadsMaster30 collected $0.13 from pot
+QuadsMaster30: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [6c 3s Qh]
+Seat 1: QuadsMaster30 (button) collected ($0.13)
+Seat 2: lextim (small blind) folded before Flop
+Seat 3: 88Dead (big blind) folded on the Flop
+Seat 4: e.profil.r50 folded before Flop (didn't bet)
+Seat 5: elpexoni folded before Flop (didn't bet)
+Seat 6: szalay87 folded before Flop (didn't bet)
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: ogio27 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212331643745:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:02:39 ET
+Table 'Edasich III' 9-max Seat #2 is the button
+Seat 1: QuadsMaster30 ($1.96 in chips)
+Seat 2: lextim ($5.55 in chips)
+Seat 3: 88Dead ($3.40 in chips)
+Seat 4: e.profil.r50 ($2.06 in chips)
+Seat 5: elpexoni ($2.15 in chips)
+Seat 6: szalay87 ($1.34 in chips)
+Seat 7: rekawian1991 ($2 in chips)
+Seat 8: pokerHero1 ($2.02 in chips)
+Seat 9: ogio27 ($1 in chips)
+88Dead: posts small blind $0.01
+e.profil.r50: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d 2s]
+elpexoni: folds
+szalay87: folds
+rekawian1991 has timed out
+rekawian1991: folds
+pokerHero1: folds
+ogio27: calls $0.02
+QuadsMaster30: folds
+lextim: folds
+88Dead: calls $0.01
+e.profil.r50: checks
+*** FLOP *** [Ac 7s Qh]
+88Dead: checks
+e.profil.r50: checks
+ogio27: bets $0.04
+88Dead: calls $0.04
+e.profil.r50: folds
+*** TURN *** [Ac 7s Qh] [4c]
+88Dead: checks
+ogio27: bets $0.07
+88Dead: folds
+Uncalled bet ($0.07) returned to ogio27
+ogio27 collected $0.14 from pot
+ogio27: doesn't show hand
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [Ac 7s Qh 4c]
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 2: lextim (button) folded before Flop (didn't bet)
+Seat 3: 88Dead (small blind) folded on the Turn
+Seat 4: e.profil.r50 (big blind) folded on the Flop
+Seat 5: elpexoni folded before Flop (didn't bet)
+Seat 6: szalay87 folded before Flop (didn't bet)
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: ogio27 collected ($0.14)
+
+
+
+PokerStars Hand #212331755916:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:04:09 ET
+Table 'Edasich III' 9-max Seat #3 is the button
+Seat 1: QuadsMaster30 ($1.96 in chips)
+Seat 2: lextim ($5.55 in chips)
+Seat 3: 88Dead ($3.34 in chips)
+Seat 4: e.profil.r50 ($2.04 in chips)
+Seat 5: elpexoni ($2.15 in chips)
+Seat 6: szalay87 ($1.34 in chips)
+Seat 7: rekawian1991 ($2 in chips)
+Seat 8: pokerHero1 ($2.02 in chips)
+Seat 9: ogio27 ($1.08 in chips)
+e.profil.r50: posts small blind $0.01
+elpexoni: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d 9s]
+szalay87: folds
+rekawian1991: folds
+pokerHero1: folds
+ogio27: folds
+QuadsMaster30: folds
+lextim: folds
+88Dead: raises $0.02 to $0.04
+e.profil.r50: raises $0.12 to $0.16
+elpexoni: folds
+88Dead: calls $0.12
+*** FLOP *** [5c Ts 8d]
+e.profil.r50: bets $0.32
+88Dead: folds
+Uncalled bet ($0.32) returned to e.profil.r50
+e.profil.r50 collected $0.33 from pot
+e.profil.r50: doesn't show hand
+*** SUMMARY ***
+Total pot $0.34 | Rake $0.01
+Board [5c Ts 8d]
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 2: lextim folded before Flop (didn't bet)
+Seat 3: 88Dead (button) folded on the Flop
+Seat 4: e.profil.r50 (small blind) collected ($0.33)
+Seat 5: elpexoni (big blind) folded before Flop
+Seat 6: szalay87 folded before Flop (didn't bet)
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: ogio27 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212331828378:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:05:10 ET
+Table 'Edasich III' 9-max Seat #4 is the button
+Seat 1: QuadsMaster30 ($1.96 in chips)
+Seat 2: lextim ($5.55 in chips)
+Seat 3: 88Dead ($3.18 in chips)
+Seat 4: e.profil.r50 ($2.21 in chips)
+Seat 5: elpexoni ($2.13 in chips)
+Seat 6: szalay87 ($1.34 in chips)
+Seat 7: rekawian1991 ($2 in chips)
+Seat 8: pokerHero1 ($2.02 in chips)
+Seat 9: ogio27 ($1.08 in chips)
+elpexoni: posts small blind $0.01
+szalay87: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8c 2h]
+rekawian1991: folds
+pokerHero1 has timed out
+pokerHero1: folds
+ogio27: folds
+QuadsMaster30: folds
+lextim: folds
+88Dead: raises $0.04 to $0.06
+e.profil.r50: calls $0.06
+elpexoni: folds
+szalay87: folds
+*** FLOP *** [7d Js Kd]
+88Dead: checks
+e.profil.r50: checks
+*** TURN *** [7d Js Kd] [7s]
+88Dead: checks
+e.profil.r50: checks
+*** RIVER *** [7d Js Kd 7s] [7h]
+88Dead: checks
+e.profil.r50: bets $0.38
+88Dead: folds
+Uncalled bet ($0.38) returned to e.profil.r50
+e.profil.r50 collected $0.14 from pot
+e.profil.r50: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [7d Js Kd 7s 7h]
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 2: lextim folded before Flop (didn't bet)
+Seat 3: 88Dead folded on the River
+Seat 4: e.profil.r50 (button) collected ($0.14)
+Seat 5: elpexoni (small blind) folded before Flop
+Seat 6: szalay87 (big blind) folded before Flop
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: ogio27 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212331930979:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:06:35 ET
+Table 'Edasich III' 9-max Seat #5 is the button
+Seat 1: QuadsMaster30 ($1.96 in chips)
+Seat 2: lextim ($5.55 in chips)
+Seat 3: 88Dead ($3.12 in chips)
+Seat 4: e.profil.r50 ($2.29 in chips)
+Seat 5: elpexoni ($2.12 in chips)
+Seat 6: szalay87 ($1.32 in chips)
+Seat 7: rekawian1991 ($2 in chips)
+Seat 8: pokerHero1 ($2.02 in chips)
+Seat 9: ogio27 ($1.08 in chips)
+szalay87: posts small blind $0.01
+rekawian1991: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kh 9c]
+pokerHero1: folds
+ogio27: folds
+QuadsMaster30: folds
+lextim: folds
+88Dead: raises $0.02 to $0.04
+e.profil.r50: folds
+elpexoni: calls $0.04
+szalay87: folds
+rekawian1991: folds
+*** FLOP *** [Tc 3h 7c]
+88Dead: checks
+elpexoni: checks
+*** TURN *** [Tc 3h 7c] [8d]
+88Dead: checks
+elpexoni: checks
+*** RIVER *** [Tc 3h 7c 8d] [3d]
+88Dead: checks
+elpexoni: checks
+*** SHOW DOWN ***
+88Dead: shows [9d Ad] (a pair of Threes)
+elpexoni: shows [5d 5h] (two pair, Fives and Threes)
+elpexoni collected $0.11 from pot
+*** SUMMARY ***
+Total pot $0.11 | Rake $0
+Board [Tc 3h 7c 8d 3d]
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 2: lextim folded before Flop (didn't bet)
+Seat 3: 88Dead showed [9d Ad] and lost with a pair of Threes
+Seat 4: e.profil.r50 folded before Flop (didn't bet)
+Seat 5: elpexoni (button) showed [5d 5h] and won ($0.11) with two pair, Fives and Threes
+Seat 6: szalay87 (small blind) folded before Flop
+Seat 7: rekawian1991 (big blind) folded before Flop
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: ogio27 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332003575:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:07:35 ET
+Table 'Edasich III' 9-max Seat #6 is the button
+Seat 2: lextim ($5.55 in chips)
+Seat 3: 88Dead ($3.08 in chips)
+Seat 4: e.profil.r50 ($2.29 in chips)
+Seat 5: elpexoni ($2.19 in chips)
+Seat 6: szalay87 ($1.31 in chips)
+Seat 7: rekawian1991 ($2 in chips)
+Seat 8: pokerHero1 ($2.02 in chips)
+Seat 9: ogio27 ($1.08 in chips)
+rekawian1991: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5h Jd]
+ogio27: folds
+lextim: folds
+ogio27 leaves the table
+88Dead: folds
+e.profil.r50: raises $0.04 to $0.06
+elpexoni: folds
+szalay87: folds
+rekawian1991: folds
+pokerHero1: folds
+Uncalled bet ($0.04) returned to e.profil.r50
+e.profil.r50 collected $0.05 from pot
+e.profil.r50: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 2: lextim folded before Flop (didn't bet)
+Seat 3: 88Dead folded before Flop (didn't bet)
+Seat 4: e.profil.r50 collected ($0.05)
+Seat 5: elpexoni folded before Flop (didn't bet)
+Seat 6: szalay87 (button) folded before Flop (didn't bet)
+Seat 7: rekawian1991 (small blind) folded before Flop
+Seat 8: pokerHero1 (big blind) folded before Flop
+Seat 9: ogio27 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332024073:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:07:51 ET
+Table 'Edasich III' 9-max Seat #7 is the button
+Seat 2: lextim ($5.55 in chips)
+Seat 3: 88Dead ($3.08 in chips)
+Seat 4: e.profil.r50 ($2.32 in chips)
+Seat 5: elpexoni ($2.19 in chips)
+Seat 6: szalay87 ($1.31 in chips)
+Seat 7: rekawian1991 ($2 in chips)
+Seat 8: pokerHero1 ($2 in chips)
+pokerHero1: posts small blind $0.01
+lextim: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9h Jh]
+88Dead: calls $0.02
+e.profil.r50: folds
+elpexoni: calls $0.02
+szalay87: folds
+rekawian1991: raises $0.08 to $0.10
+pokerHero1: folds
+lextim: calls $0.08
+88Dead: calls $0.08
+elpexoni: folds
+*** FLOP *** [9c Qd 2c]
+lextim: checks
+88Dead: checks
+rekawian1991: bets $0.21
+lextim: folds
+zemja joins the table at seat #9
+88Dead: folds
+Uncalled bet ($0.21) returned to rekawian1991
+rekawian1991 collected $0.32 from pot
+rekawian1991: doesn't show hand
+*** SUMMARY ***
+Total pot $0.33 | Rake $0.01
+Board [9c Qd 2c]
+Seat 2: lextim (big blind) folded on the Flop
+Seat 3: 88Dead folded on the Flop
+Seat 4: e.profil.r50 folded before Flop (didn't bet)
+Seat 5: elpexoni folded before Flop
+Seat 6: szalay87 folded before Flop (didn't bet)
+Seat 7: rekawian1991 (button) collected ($0.32)
+Seat 8: pokerHero1 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212332098946:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:08:50 ET
+Table 'Edasich III' 9-max Seat #8 is the button
+Seat 2: lextim ($5.45 in chips)
+Seat 3: 88Dead ($2.98 in chips)
+Seat 4: e.profil.r50 ($2.32 in chips)
+Seat 5: elpexoni ($2.17 in chips)
+Seat 6: szalay87 ($1.31 in chips)
+Seat 7: rekawian1991 ($2.22 in chips)
+Seat 8: pokerHero1 ($1.99 in chips)
+lextim: posts small blind $0.01
+88Dead: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ts 2h]
+e.profil.r50 has timed out
+e.profil.r50: folds
+elpexoni: calls $0.02
+szalay87: folds
+rekawian1991: raises $0.06 to $0.08
+pokerHero1: folds
+lextim: folds
+88Dead: folds
+elpexoni: calls $0.06
+*** FLOP *** [3s 3h 4h]
+elpexoni: checks
+rekawian1991: bets $0.12
+elpexoni: folds
+Uncalled bet ($0.12) returned to rekawian1991
+rekawian1991 collected $0.18 from pot
+rekawian1991: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [3s 3h 4h]
+Seat 2: lextim (small blind) folded before Flop
+Seat 3: 88Dead (big blind) folded before Flop
+Seat 4: e.profil.r50 folded before Flop (didn't bet)
+Seat 5: elpexoni folded on the Flop
+Seat 6: szalay87 folded before Flop (didn't bet)
+Seat 7: rekawian1991 collected ($0.18)
+Seat 8: pokerHero1 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332152310:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:09:32 ET
+Table 'Edasich III' 9-max Seat #2 is the button
+Seat 1: QuadsMaster30 ($1.96 in chips)
+Seat 2: lextim ($5.44 in chips)
+Seat 3: 88Dead ($2.96 in chips)
+Seat 4: e.profil.r50 ($2.32 in chips)
+Seat 5: elpexoni ($2.09 in chips)
+Seat 6: szalay87 ($1.31 in chips)
+Seat 7: rekawian1991 ($2.32 in chips)
+Seat 8: pokerHero1 ($1.99 in chips)
+88Dead: posts small blind $0.01
+e.profil.r50: posts big blind $0.02
+zemja: sits out
+QuadsMaster30: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d 6d]
+elpexoni: folds
+szalay87: calls $0.02
+rekawian1991: raises $0.10 to $0.12
+pokerHero1: folds
+QuadsMaster30: folds
+lextim: folds
+88Dead: folds
+e.profil.r50: folds
+szalay87: folds
+Uncalled bet ($0.10) returned to rekawian1991
+rekawian1991 collected $0.10 from pot
+rekawian1991: doesn't show hand
+*** SUMMARY ***
+Total pot $0.10 | Rake $0
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 2: lextim (button) folded before Flop (didn't bet)
+Seat 3: 88Dead (small blind) folded before Flop
+Seat 4: e.profil.r50 (big blind) folded before Flop
+Seat 5: elpexoni folded before Flop (didn't bet)
+Seat 6: szalay87 folded before Flop
+Seat 7: rekawian1991 collected ($0.10)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332202466:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:10:08 ET
+Table 'Edasich III' 9-max Seat #3 is the button
+Seat 1: QuadsMaster30 ($1.93 in chips)
+Seat 2: lextim ($5.44 in chips)
+Seat 3: 88Dead ($2.95 in chips)
+Seat 4: e.profil.r50 ($2.30 in chips)
+Seat 5: elpexoni ($2.09 in chips)
+Seat 6: szalay87 ($1.29 in chips)
+Seat 7: rekawian1991 ($2.40 in chips)
+Seat 8: pokerHero1 ($1.99 in chips)
+e.profil.r50: posts small blind $0.01
+elpexoni: posts big blind $0.02
+zemja: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As 8d]
+szalay87: folds
+rekawian1991: raises $0.06 to $0.08
+pokerHero1: folds
+QuadsMaster30: folds
+lextim: raises $0.19 to $0.27
+88Dead: folds
+e.profil.r50: folds
+elpexoni: folds
+rekawian1991: folds
+Uncalled bet ($0.19) returned to lextim
+lextim collected $0.19 from pot
+lextim: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 2: lextim collected ($0.19)
+Seat 3: 88Dead (button) folded before Flop (didn't bet)
+Seat 4: e.profil.r50 (small blind) folded before Flop
+Seat 5: elpexoni (big blind) folded before Flop
+Seat 6: szalay87 folded before Flop (didn't bet)
+Seat 7: rekawian1991 folded before Flop
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332228173:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:10:29 ET
+Table 'Edasich III' 9-max Seat #4 is the button
+Seat 1: QuadsMaster30 ($1.93 in chips)
+Seat 2: lextim ($5.55 in chips)
+Seat 3: 88Dead ($2.95 in chips)
+Seat 4: e.profil.r50 ($2.29 in chips)
+Seat 5: elpexoni ($2.07 in chips)
+Seat 6: szalay87 ($1.29 in chips)
+Seat 7: rekawian1991 ($2.32 in chips)
+Seat 8: pokerHero1 ($1.99 in chips)
+elpexoni: posts small blind $0.01
+szalay87: posts big blind $0.02
+zemja: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8s 3d]
+rekawian1991: raises $0.06 to $0.08
+pokerHero1: folds
+QuadsMaster30: folds
+lextim: folds
+88Dead: folds
+e.profil.r50: folds
+elpexoni: folds
+szalay87: folds
+Uncalled bet ($0.06) returned to rekawian1991
+rekawian1991 collected $0.05 from pot
+rekawian1991: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 2: lextim folded before Flop (didn't bet)
+Seat 3: 88Dead folded before Flop (didn't bet)
+Seat 4: e.profil.r50 (button) folded before Flop (didn't bet)
+Seat 5: elpexoni (small blind) folded before Flop
+Seat 6: szalay87 (big blind) folded before Flop
+Seat 7: rekawian1991 collected ($0.05)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332266572:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:11:00 ET
+Table 'Edasich III' 9-max Seat #5 is the button
+Seat 1: QuadsMaster30 ($1.93 in chips)
+Seat 2: lextim ($5.55 in chips)
+Seat 3: 88Dead ($2.95 in chips)
+Seat 4: e.profil.r50 ($2.29 in chips)
+Seat 5: elpexoni ($2.06 in chips)
+Seat 6: szalay87 ($1.27 in chips)
+Seat 7: rekawian1991 ($2.35 in chips)
+Seat 8: pokerHero1 ($1.99 in chips)
+szalay87: posts small blind $0.01
+rekawian1991: posts big blind $0.02
+zemja: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6h 2h]
+pokerHero1: folds
+QuadsMaster30: calls $0.02
+lextim: folds
+88Dead: raises $0.04 to $0.06
+e.profil.r50: folds
+elpexoni: folds
+szalay87: folds
+rekawian1991: folds
+QuadsMaster30: calls $0.04
+*** FLOP *** [Jh Ah 8c]
+QuadsMaster30: checks
+88Dead: bets $0.14
+QuadsMaster30: folds
+Uncalled bet ($0.14) returned to 88Dead
+88Dead collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [Jh Ah 8c]
+Seat 1: QuadsMaster30 folded on the Flop
+Seat 2: lextim folded before Flop (didn't bet)
+Seat 3: 88Dead collected ($0.14)
+Seat 4: e.profil.r50 folded before Flop (didn't bet)
+Seat 5: elpexoni (button) folded before Flop (didn't bet)
+Seat 6: szalay87 (small blind) folded before Flop
+Seat 7: rekawian1991 (big blind) folded before Flop
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332344024:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:12:01 ET
+Table 'Edasich III' 9-max Seat #6 is the button
+Seat 1: QuadsMaster30 ($1.87 in chips)
+Seat 2: lextim ($5.55 in chips)
+Seat 3: 88Dead ($3.03 in chips)
+Seat 4: e.profil.r50 ($2.29 in chips)
+Seat 5: elpexoni ($2.06 in chips)
+Seat 6: szalay87 ($1.26 in chips)
+Seat 7: rekawian1991 ($2.33 in chips)
+Seat 8: pokerHero1 ($1.99 in chips)
+rekawian1991: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+zemja: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kc 6d]
+QuadsMaster30: folds
+lextim: folds
+88Dead: raises $0.04 to $0.06
+e.profil.r50: folds
+elpexoni: folds
+szalay87: folds
+rekawian1991: folds
+pokerHero1: folds
+Uncalled bet ($0.04) returned to 88Dead
+88Dead collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 2: lextim folded before Flop (didn't bet)
+Seat 3: 88Dead collected ($0.05)
+Seat 4: e.profil.r50 folded before Flop (didn't bet)
+Seat 5: elpexoni folded before Flop (didn't bet)
+Seat 6: szalay87 (button) folded before Flop (didn't bet)
+Seat 7: rekawian1991 (small blind) folded before Flop
+Seat 8: pokerHero1 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212332371168:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:12:22 ET
+Table 'Edasich III' 9-max Seat #7 is the button
+Seat 1: QuadsMaster30 ($1.87 in chips)
+Seat 2: lextim ($5.55 in chips)
+Seat 3: 88Dead ($3.06 in chips)
+Seat 4: e.profil.r50 ($2.29 in chips)
+Seat 5: elpexoni ($2.06 in chips)
+Seat 6: szalay87 ($1.26 in chips)
+Seat 7: rekawian1991 ($2.32 in chips)
+Seat 8: pokerHero1 ($1.97 in chips)
+Seat 9: zemja ($1.02 in chips)
+pokerHero1: posts small blind $0.01
+zemja: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad 8c]
+QuadsMaster30: folds
+lextim: folds
+88Dead: calls $0.02
+e.profil.r50: folds
+elpexoni: folds
+szalay87: folds
+rekawian1991: folds
+pokerHero1: raises $0.04 to $0.06
+zemja: calls $0.04
+88Dead: calls $0.04
+*** FLOP *** [9s Kh 4s]
+pokerHero1: checks
+zemja: checks
+88Dead: checks
+*** TURN *** [9s Kh 4s] [Qd]
+pokerHero1: checks
+zemja: bets $0.02
+88Dead: folds
+pokerHero1: calls $0.02
+*** RIVER *** [9s Kh 4s Qd] [9c]
+pokerHero1: checks
+zemja: checks
+*** SHOW DOWN ***
+pokerHero1: shows [Ad 8c] (a pair of Nines)
+zemja: shows [Ah 5h] (a pair of Nines)
+pokerHero1 collected $0.11 from pot
+zemja collected $0.10 from pot
+*** SUMMARY ***
+Total pot $0.22 | Rake $0.01
+Board [9s Kh 4s Qd 9c]
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 2: lextim folded before Flop (didn't bet)
+Seat 3: 88Dead folded on the Turn
+Seat 4: e.profil.r50 folded before Flop (didn't bet)
+Seat 5: elpexoni folded before Flop (didn't bet)
+Seat 6: szalay87 folded before Flop (didn't bet)
+Seat 7: rekawian1991 (button) folded before Flop (didn't bet)
+Seat 8: pokerHero1 (small blind) showed [Ad 8c] and won ($0.11) with a pair of Nines
+Seat 9: zemja (big blind) showed [Ah 5h] and won ($0.10) with a pair of Nines
+
+
+
+PokerStars Hand #212332447900:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:13:24 ET
+Table 'Edasich III' 9-max Seat #8 is the button
+Seat 1: QuadsMaster30 ($1.87 in chips)
+Seat 2: lextim ($5.55 in chips)
+Seat 3: 88Dead ($3 in chips)
+Seat 4: e.profil.r50 ($2.29 in chips)
+Seat 5: elpexoni ($2.06 in chips)
+Seat 6: szalay87 ($1.26 in chips)
+Seat 7: rekawian1991 ($2.32 in chips)
+Seat 8: pokerHero1 ($2 in chips)
+Seat 9: zemja ($1.04 in chips)
+zemja: posts small blind $0.01
+QuadsMaster30: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jh 5h]
+lextim: calls $0.02
+88Dead: raises $0.06 to $0.08
+e.profil.r50: folds
+elpexoni: folds
+szalay87: folds
+rekawian1991: folds
+pokerHero1: folds
+zemja: folds
+QuadsMaster30: folds
+lextim: calls $0.06
+*** FLOP *** [6s 9d Qh]
+lextim: checks
+88Dead: bets $0.18
+lextim: folds
+Uncalled bet ($0.18) returned to 88Dead
+88Dead collected $0.18 from pot
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [6s 9d Qh]
+Seat 1: QuadsMaster30 (big blind) folded before Flop
+Seat 2: lextim folded on the Flop
+Seat 3: 88Dead collected ($0.18)
+Seat 4: e.profil.r50 folded before Flop (didn't bet)
+Seat 5: elpexoni folded before Flop (didn't bet)
+Seat 6: szalay87 folded before Flop (didn't bet)
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 9: zemja (small blind) folded before Flop
+
+
+
+PokerStars Hand #212332498602:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:14:04 ET
+Table 'Edasich III' 9-max Seat #9 is the button
+Seat 1: QuadsMaster30 ($1.85 in chips)
+Seat 2: lextim ($5.47 in chips)
+Seat 3: 88Dead ($3.10 in chips)
+Seat 4: e.profil.r50 ($2.29 in chips)
+Seat 5: elpexoni ($2.06 in chips)
+Seat 6: szalay87 ($1.26 in chips)
+Seat 7: rekawian1991 ($2.32 in chips)
+Seat 8: pokerHero1 ($2 in chips)
+Seat 9: zemja ($1.03 in chips)
+QuadsMaster30: posts small blind $0.01
+lextim: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js 2d]
+88Dead: calls $0.02
+e.profil.r50: folds
+elpexoni: folds
+szalay87: calls $0.02
+rekawian1991: folds
+pokerHero1: folds
+zemja: folds
+QuadsMaster30: calls $0.01
+lextim: raises $0.08 to $0.10
+88Dead: calls $0.08
+szalay87: folds
+QuadsMaster30: folds
+*** FLOP *** [4s Ac 9c]
+lextim: bets $0.12
+88Dead: folds
+Uncalled bet ($0.12) returned to lextim
+lextim collected $0.23 from pot
+lextim: doesn't show hand
+*** SUMMARY ***
+Total pot $0.24 | Rake $0.01
+Board [4s Ac 9c]
+Seat 1: QuadsMaster30 (small blind) folded before Flop
+Seat 2: lextim (big blind) collected ($0.23)
+Seat 3: 88Dead folded on the Flop
+Seat 4: e.profil.r50 folded before Flop (didn't bet)
+Seat 5: elpexoni folded before Flop (didn't bet)
+Seat 6: szalay87 folded before Flop
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: zemja (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332566270:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:14:58 ET
+Table 'Edasich III' 9-max Seat #1 is the button
+Seat 1: QuadsMaster30 ($1.83 in chips)
+Seat 2: lextim ($5.60 in chips)
+Seat 3: 88Dead ($3 in chips)
+Seat 4: e.profil.r50 ($2.29 in chips)
+Seat 5: elpexoni ($2.06 in chips)
+Seat 6: szalay87 ($1.24 in chips)
+Seat 7: rekawian1991 ($2.32 in chips)
+Seat 8: pokerHero1 ($2 in chips)
+Seat 9: zemja ($1.03 in chips)
+lextim: posts small blind $0.01
+88Dead: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th 9h]
+e.profil.r50: folds
+elpexoni: folds
+szalay87: folds
+rekawian1991: raises $0.04 to $0.06
+pokerHero1: folds
+zemja: folds
+QuadsMaster30: raises $0.06 to $0.12
+lextim: calls $0.11
+88Dead: calls $0.10
+rekawian1991: folds
+*** FLOP *** [7c Ac Jd]
+lextim: checks
+88Dead: checks
+QuadsMaster30: bets $0.21
+lextim: folds
+88Dead: calls $0.21
+*** TURN *** [7c Ac Jd] [8c]
+88Dead: checks
+QuadsMaster30: bets $0.41
+88Dead: calls $0.41
+*** RIVER *** [7c Ac Jd 8c] [2h]
+88Dead: checks
+QuadsMaster30: checks
+*** SHOW DOWN ***
+88Dead: shows [4d Ad] (a pair of Aces)
+QuadsMaster30: mucks hand
+88Dead collected $1.60 from pot
+*** SUMMARY ***
+Total pot $1.66 | Rake $0.06
+Board [7c Ac Jd 8c 2h]
+Seat 1: QuadsMaster30 (button) mucked [Qh Qd]
+Seat 2: lextim (small blind) folded on the Flop
+Seat 3: 88Dead (big blind) showed [4d Ad] and won ($1.60) with a pair of Aces
+Seat 4: e.profil.r50 folded before Flop (didn't bet)
+Seat 5: elpexoni folded before Flop (didn't bet)
+Seat 6: szalay87 folded before Flop (didn't bet)
+Seat 7: rekawian1991 folded before Flop
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: zemja folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332700467:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:16:47 ET
+Table 'Edasich III' 9-max Seat #2 is the button
+Seat 1: QuadsMaster30 ($1.09 in chips)
+Seat 2: lextim ($5.48 in chips)
+Seat 3: 88Dead ($3.86 in chips)
+Seat 4: e.profil.r50 ($2.29 in chips)
+Seat 5: elpexoni ($2.06 in chips)
+Seat 6: szalay87 ($1.24 in chips)
+Seat 7: rekawian1991 ($2.26 in chips)
+Seat 8: pokerHero1 ($2 in chips)
+Seat 9: zemja ($1.03 in chips)
+88Dead: posts small blind $0.01
+e.profil.r50: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8s Ac]
+elpexoni: folds
+szalay87: folds
+rekawian1991: folds
+pokerHero1: raises $0.06 to $0.08
+zemja: folds
+QuadsMaster30: folds
+lextim: folds
+88Dead: folds
+e.profil.r50: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 2: lextim (button) folded before Flop (didn't bet)
+Seat 3: 88Dead (small blind) folded before Flop
+Seat 4: e.profil.r50 (big blind) folded before Flop
+Seat 5: elpexoni folded before Flop (didn't bet)
+Seat 6: szalay87 folded before Flop (didn't bet)
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 collected ($0.05)
+Seat 9: zemja folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332738293:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:17:16 ET
+Table 'Edasich III' 9-max Seat #3 is the button
+Seat 1: QuadsMaster30 ($1.09 in chips)
+Seat 2: lextim ($5.48 in chips)
+Seat 3: 88Dead ($3.85 in chips)
+Seat 4: e.profil.r50 ($2.27 in chips)
+Seat 5: elpexoni ($2.06 in chips)
+Seat 6: szalay87 ($1.24 in chips)
+Seat 7: rekawian1991 ($2.26 in chips)
+Seat 8: pokerHero1 ($2.03 in chips)
+Seat 9: zemja ($1.03 in chips)
+e.profil.r50: posts small blind $0.01
+elpexoni: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3s 8c]
+szalay87: folds
+rekawian1991: raises $0.06 to $0.08
+pokerHero1: folds
+zemja: folds
+QuadsMaster30: folds
+lextim: raises $0.06 to $0.14
+88Dead: folds
+e.profil.r50: folds
+elpexoni: folds
+rekawian1991: raises $0.32 to $0.46
+lextim: calls $0.32
+*** FLOP *** [4h Qd 7d]
+rekawian1991: bets $0.61
+lextim: folds
+Uncalled bet ($0.61) returned to rekawian1991
+rekawian1991 collected $0.92 from pot
+rekawian1991: doesn't show hand
+*** SUMMARY ***
+Total pot $0.95 | Rake $0.03
+Board [4h Qd 7d]
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 2: lextim folded on the Flop
+Seat 3: 88Dead (button) folded before Flop (didn't bet)
+Seat 4: e.profil.r50 (small blind) folded before Flop
+Seat 5: elpexoni (big blind) folded before Flop
+Seat 6: szalay87 folded before Flop (didn't bet)
+Seat 7: rekawian1991 collected ($0.92)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: zemja folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332812968:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:18:11 ET
+Table 'Edasich III' 9-max Seat #4 is the button
+Seat 1: QuadsMaster30 ($1.09 in chips)
+Seat 2: lextim ($5.02 in chips)
+Seat 3: 88Dead ($3.85 in chips)
+Seat 4: e.profil.r50 ($2.26 in chips)
+Seat 5: elpexoni ($2.04 in chips)
+Seat 6: szalay87 ($1.24 in chips)
+Seat 7: rekawian1991 ($2.72 in chips)
+Seat 8: pokerHero1 ($2.03 in chips)
+Seat 9: zemja ($1.03 in chips)
+elpexoni: posts small blind $0.01
+szalay87: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qs Kc]
+rekawian1991: folds
+pokerHero1: folds
+zemja: folds
+QuadsMaster30: folds
+lextim: folds
+88Dead: folds
+e.profil.r50: folds
+elpexoni: folds
+Uncalled bet ($0.01) returned to szalay87
+szalay87 collected $0.02 from pot
+szalay87: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 2: lextim folded before Flop (didn't bet)
+Seat 3: 88Dead folded before Flop (didn't bet)
+Seat 4: e.profil.r50 (button) folded before Flop (didn't bet)
+Seat 5: elpexoni (small blind) folded before Flop
+Seat 6: szalay87 (big blind) collected ($0.02)
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: zemja folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212332832411:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:18:27 ET
+Table 'Edasich III' 9-max Seat #5 is the button
+Seat 1: QuadsMaster30 ($1.09 in chips)
+Seat 2: lextim ($5.02 in chips)
+Seat 3: 88Dead ($3.85 in chips)
+Seat 4: e.profil.r50 ($2.26 in chips)
+Seat 5: elpexoni ($2.03 in chips)
+Seat 6: szalay87 ($1.25 in chips)
+Seat 7: rekawian1991 ($2.72 in chips)
+Seat 8: pokerHero1 ($2.03 in chips)
+Seat 9: zemja ($1.03 in chips)
+szalay87: posts small blind $0.01
+rekawian1991: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc 5c]
+pokerHero1: folds
+zemja: calls $0.02
+QuadsMaster30: folds
+lextim: folds
+88Dead: folds
+e.profil.r50: raises $0.04 to $0.06
+elpexoni: calls $0.06
+szalay87: folds
+rekawian1991: folds
+zemja: calls $0.04
+*** FLOP *** [4d 3c 5s]
+zemja: bets $0.06
+e.profil.r50: folds
+elpexoni: folds
+Uncalled bet ($0.06) returned to zemja
+zemja collected $0.20 from pot
+zemja: doesn't show hand
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [4d 3c 5s]
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 2: lextim folded before Flop (didn't bet)
+Seat 3: 88Dead folded before Flop (didn't bet)
+Seat 4: e.profil.r50 folded on the Flop
+Seat 5: elpexoni (button) folded on the Flop
+Seat 6: szalay87 (small blind) folded before Flop
+Seat 7: rekawian1991 (big blind) folded before Flop
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: zemja collected ($0.20)
+
+
+
+PokerStars Hand #212332883845:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:19:08 ET
+Table 'Edasich III' 9-max Seat #6 is the button
+Seat 1: QuadsMaster30 ($1.09 in chips)
+Seat 2: lextim ($5.02 in chips)
+Seat 3: 88Dead ($3.85 in chips)
+Seat 4: e.profil.r50 ($2.20 in chips)
+Seat 5: elpexoni ($1.97 in chips)
+Seat 6: szalay87 ($1.24 in chips)
+Seat 7: rekawian1991 ($2.70 in chips)
+Seat 8: pokerHero1 ($2.03 in chips)
+Seat 9: zemja ($1.17 in chips)
+rekawian1991: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8h Th]
+zemja: calls $0.02
+QuadsMaster30: folds
+lextim: folds
+88Dead has timed out
+88Dead: folds
+e.profil.r50: folds
+e.profil.r50 leaves the table
+elpexoni: folds
+elpexoni leaves the table
+szalay87: calls $0.02
+rekawian1991: folds
+pokerHero1: checks
+*** FLOP *** [Ah Js Qs]
+pokerHero1: checks
+zemja: checks
+Cihan5858 joins the table at seat #5
+szalay87: checks
+*** TURN *** [Ah Js Qs] [9c]
+Toppi888 joins the table at seat #4
+pokerHero1: bets $0.06
+zemja: folds
+szalay87: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.07 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Board [Ah Js Qs 9c]
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 2: lextim folded before Flop (didn't bet)
+Seat 3: 88Dead folded before Flop (didn't bet)
+Seat 4: e.profil.r50 folded before Flop (didn't bet)
+Seat 5: elpexoni folded before Flop (didn't bet)
+Seat 6: szalay87 (button) folded on the Turn
+Seat 7: rekawian1991 (small blind) folded before Flop
+Seat 8: pokerHero1 (big blind) collected ($0.07)
+Seat 9: zemja folded on the Turn
+
+
+
+PokerStars Hand #212332942040:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:19:55 ET
+Table 'Edasich III' 9-max Seat #7 is the button
+Seat 1: QuadsMaster30 ($1.09 in chips)
+Seat 2: lextim ($5.02 in chips)
+Seat 5: Cihan5858 ($1.91 in chips)
+Seat 6: szalay87 ($1.22 in chips)
+Seat 7: rekawian1991 ($2.69 in chips)
+Seat 8: pokerHero1 ($2.08 in chips)
+Seat 9: zemja ($1.15 in chips)
+pokerHero1: posts small blind $0.01
+zemja: posts big blind $0.02
+Toppi888: sits out
+Cihan5858: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8d Ah]
+QuadsMaster30: folds
+lextim: raises $0.02 to $0.04
+Cihan5858: raises $0.02 to $0.06
+szalay87: folds
+rekawian1991: folds
+pokerHero1: folds
+zemja: folds
+lextim: raises $0.15 to $0.21
+Cihan5858: raises $1.70 to $1.91 and is all-in
+lextim: calls $1.70
+*** FLOP *** [3s 4c Td]
+*** TURN *** [3s 4c Td] [8h]
+*** RIVER *** [3s 4c Td 8h] [Kc]
+*** SHOW DOWN ***
+lextim: shows [Qd Qc] (a pair of Queens)
+Cihan5858: shows [Kd As] (a pair of Kings)
+Cihan5858 collected $3.72 from pot
+lextim cashed out the hand for $2.10 | Cash Out Fee $0.02
+*** SUMMARY ***
+Total pot $3.85 | Rake $0.13
+Board [3s 4c Td 8h Kc]
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 2: lextim showed [Qd Qc] and lost with a pair of Queens (cashed out).
+Seat 5: Cihan5858 showed [Kd As] and won ($3.72) with a pair of Kings
+Seat 6: szalay87 folded before Flop (didn't bet)
+Seat 7: rekawian1991 (button) folded before Flop (didn't bet)
+Seat 8: pokerHero1 (small blind) folded before Flop
+Seat 9: zemja (big blind) folded before Flop
+
+
+
+PokerStars Hand #212333015682:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:20:55 ET
+Table 'Edasich III' 9-max Seat #8 is the button
+Seat 1: QuadsMaster30 ($1.09 in chips)
+Seat 2: lextim ($5.21 in chips)
+Seat 5: Cihan5858 ($3.72 in chips)
+Seat 6: szalay87 ($1.22 in chips)
+Seat 7: rekawian1991 ($2.69 in chips)
+Seat 8: pokerHero1 ($2.07 in chips)
+Seat 9: zemja ($1.13 in chips)
+zemja: posts small blind $0.01
+QuadsMaster30: posts big blind $0.02
+Toppi888: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h 9h]
+lextim: folds
+Cihan5858: folds
+szalay87: folds
+rekawian1991: folds
+pokerHero1: raises $0.02 to $0.04
+zemja: folds
+QuadsMaster30: calls $0.02
+*** FLOP *** [4h Js Kh]
+QuadsMaster30: checks
+pokerHero1: bets $0.06
+QuadsMaster30: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.09 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Board [4h Js Kh]
+Seat 1: QuadsMaster30 (big blind) folded on the Flop
+Seat 2: lextim folded before Flop (didn't bet)
+Seat 5: Cihan5858 folded before Flop (didn't bet)
+Seat 6: szalay87 folded before Flop (didn't bet)
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 (button) collected ($0.09)
+Seat 9: zemja (small blind) folded before Flop
+
+
+
+PokerStars Hand #212333065148:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:21:36 ET
+Table 'Edasich III' 9-max Seat #9 is the button
+Seat 1: QuadsMaster30 ($1.05 in chips)
+Seat 2: lextim ($5.21 in chips)
+Seat 3: 88Dead ($3.85 in chips)
+Seat 5: Cihan5858 ($3.72 in chips)
+Seat 6: szalay87 ($1.22 in chips)
+Seat 7: rekawian1991 ($2.69 in chips)
+Seat 8: pokerHero1 ($2.12 in chips)
+Seat 9: zemja ($1.12 in chips)
+QuadsMaster30: posts small blind $0.01
+lextim: posts big blind $0.02
+Toppi888: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc Kh]
+88Dead has timed out
+88Dead: folds
+Cihan5858: folds
+szalay87: calls $0.02
+rekawian1991: raises $0.06 to $0.08
+pokerHero1: folds
+zemja: folds
+QuadsMaster30: folds
+lextim: calls $0.06
+szalay87: folds
+*** FLOP *** [Qc 5s Th]
+lextim: bets $0.18
+rekawian1991: calls $0.18
+*** TURN *** [Qc 5s Th] [3s]
+lextim: bets $0.53
+rekawian1991: folds
+Uncalled bet ($0.53) returned to lextim
+lextim collected $0.53 from pot
+lextim: doesn't show hand
+*** SUMMARY ***
+Total pot $0.55 | Rake $0.02
+Board [Qc 5s Th 3s]
+Seat 1: QuadsMaster30 (small blind) folded before Flop
+Seat 2: lextim (big blind) collected ($0.53)
+Seat 3: 88Dead folded before Flop (didn't bet)
+Seat 5: Cihan5858 folded before Flop (didn't bet)
+Seat 6: szalay87 folded before Flop
+Seat 7: rekawian1991 folded on the Turn
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: zemja (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212333144238:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:22:39 ET
+Table 'Edasich III' 9-max Seat #1 is the button
+Seat 1: QuadsMaster30 ($1.04 in chips)
+Seat 2: lextim ($5.48 in chips)
+Seat 3: 88Dead ($3.85 in chips)
+Seat 5: Cihan5858 ($3.72 in chips)
+Seat 6: szalay87 ($1.20 in chips)
+Seat 7: rekawian1991 ($2.43 in chips)
+Seat 8: pokerHero1 ($2.12 in chips)
+Seat 9: zemja ($1.12 in chips)
+lextim: posts small blind $0.01
+88Dead: posts big blind $0.02
+Toppi888: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc Jd]
+Cihan5858: folds
+szalay87: calls $0.02
+rekawian1991: folds
+Cihan5858 leaves the table
+pokerHero1: raises $0.06 to $0.08
+Old Louis joins the table at seat #5
+zemja: folds
+QuadsMaster30: folds
+lextim: calls $0.07
+88Dead: calls $0.06
+szalay87: folds
+*** FLOP *** [9h 9c 4d]
+lextim: checks
+88Dead: checks
+pokerHero1: bets $0.18
+lextim: calls $0.18
+88Dead: folds
+*** TURN *** [9h 9c 4d] [Th]
+Old Louis leaves the table
+lextim: checks
+hayp94 joins the table at seat #5
+pokerHero1: checks
+*** RIVER *** [9h 9c 4d Th] [2d]
+lextim: bets $0.60
+pokerHero1: calls $0.60
+*** SHOW DOWN ***
+lextim: shows [9d 9s] (four of a kind, Nines)
+pokerHero1: mucks hand
+lextim collected $1.76 from pot
+*** SUMMARY ***
+Total pot $1.82 | Rake $0.06
+Board [9h 9c 4d Th 2d]
+Seat 1: QuadsMaster30 (button) folded before Flop (didn't bet)
+Seat 2: lextim (small blind) showed [9d 9s] and won ($1.76) with four of a kind, Nines
+Seat 3: 88Dead (big blind) folded on the Flop
+Seat 5: Cihan5858 folded before Flop (didn't bet)
+Seat 6: szalay87 folded before Flop
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 mucked [Jc Jd]
+Seat 9: zemja folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212333269221:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:24:20 ET
+Table 'Edasich III' 9-max Seat #2 is the button
+Seat 1: QuadsMaster30 ($1.04 in chips)
+Seat 2: lextim ($6.38 in chips)
+Seat 3: 88Dead ($3.77 in chips)
+Seat 4: Toppi888 ($2 in chips)
+Seat 5: hayp94 ($0.80 in chips)
+Seat 6: szalay87 ($1.18 in chips)
+Seat 7: rekawian1991 ($2.43 in chips)
+Seat 8: pokerHero1 ($2 in chips)
+Seat 9: zemja ($1.12 in chips)
+88Dead: posts small blind $0.01
+Toppi888: posts big blind $0.02
+hayp94: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s Th]
+hayp94: checks
+szalay87: folds
+rekawian1991: folds
+pokerHero1: folds
+zemja: folds
+QuadsMaster30: calls $0.02
+lextim: raises $0.09 to $0.11
+88Dead: folds
+Toppi888: folds
+hayp94: calls $0.09
+QuadsMaster30: folds
+*** FLOP *** [Jd 6d 2h]
+hayp94: checks
+lextim: bets $0.26
+hayp94: folds
+Uncalled bet ($0.26) returned to lextim
+lextim collected $0.26 from pot
+lextim: doesn't show hand
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01
+Board [Jd 6d 2h]
+Seat 1: QuadsMaster30 folded before Flop
+Seat 2: lextim (button) collected ($0.26)
+Seat 3: 88Dead (small blind) folded before Flop
+Seat 4: Toppi888 (big blind) folded before Flop
+Seat 5: hayp94 folded on the Flop
+Seat 6: szalay87 folded before Flop (didn't bet)
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: zemja folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212333329240:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:25:11 ET
+Table 'Edasich III' 9-max Seat #3 is the button
+Seat 1: QuadsMaster30 ($1.02 in chips)
+Seat 2: lextim ($6.53 in chips)
+Seat 3: 88Dead ($3.76 in chips)
+Seat 4: Toppi888 ($2 in chips)
+Seat 5: hayp94 ($0.69 in chips)
+Seat 6: szalay87 ($1.18 in chips)
+Seat 7: rekawian1991 ($2.43 in chips)
+Seat 8: pokerHero1 ($2 in chips)
+Seat 9: zemja ($1.12 in chips)
+Toppi888: posts small blind $0.01
+hayp94: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2s 3c]
+szalay87: calls $0.02
+rekawian1991: folds
+pokerHero1: folds
+zemja: folds
+QuadsMaster30: folds
+lextim: folds
+88Dead: raises $0.02 to $0.04
+Toppi888: folds
+hayp94: calls $0.02
+szalay87: calls $0.02
+*** FLOP *** [Ad 4d 9d]
+hayp94: bets $0.02
+szalay87: raises $0.02 to $0.04
+88Dead: calls $0.04
+hayp94: calls $0.02
+*** TURN *** [Ad 4d 9d] [3d]
+hayp94: checks
+szalay87: checks
+88Dead: checks
+*** RIVER *** [Ad 4d 9d 3d] [Jc]
+hayp94: bets $0.02
+szalay87: calls $0.02
+88Dead: calls $0.02
+*** SHOW DOWN ***
+hayp94: shows [As 9s] (two pair, Aces and Nines)
+szalay87: mucks hand
+88Dead: shows [6c 7d] (a flush, Ace high)
+88Dead collected $0.30 from pot
+*** SUMMARY ***
+Total pot $0.31 | Rake $0.01
+Board [Ad 4d 9d 3d Jc]
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 2: lextim folded before Flop (didn't bet)
+Seat 3: 88Dead (button) showed [6c 7d] and won ($0.30) with a flush, Ace high
+Seat 4: Toppi888 (small blind) folded before Flop
+Seat 5: hayp94 (big blind) showed [As 9s] and lost with two pair, Aces and Nines
+Seat 6: szalay87 mucked [Ah 5s]
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: zemja folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212333426211:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:26:24 ET
+Table 'Edasich III' 9-max Seat #4 is the button
+Seat 1: QuadsMaster30 ($1.02 in chips)
+Seat 2: lextim ($6.53 in chips)
+Seat 3: 88Dead ($3.96 in chips)
+Seat 4: Toppi888 ($2 in chips)
+Seat 5: hayp94 ($0.59 in chips)
+Seat 6: szalay87 ($1.08 in chips)
+Seat 7: rekawian1991 ($2.43 in chips)
+Seat 8: pokerHero1 ($2 in chips)
+Seat 9: zemja ($1.12 in chips)
+hayp94: posts small blind $0.01
+szalay87: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c Ah]
+rekawian1991: raises $0.06 to $0.08
+pokerHero1: folds
+zemja: folds
+QuadsMaster30: folds
+lextim: folds
+88Dead: folds
+Toppi888: folds
+hayp94: folds
+szalay87: folds
+Uncalled bet ($0.06) returned to rekawian1991
+rekawian1991 collected $0.05 from pot
+rekawian1991: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 2: lextim folded before Flop (didn't bet)
+Seat 3: 88Dead folded before Flop (didn't bet)
+Seat 4: Toppi888 (button) folded before Flop (didn't bet)
+Seat 5: hayp94 (small blind) folded before Flop
+Seat 6: szalay87 (big blind) folded before Flop
+Seat 7: rekawian1991 collected ($0.05)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: zemja folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212333455679:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:26:48 ET
+Table 'Edasich III' 9-max Seat #5 is the button
+Seat 1: QuadsMaster30 ($1.02 in chips)
+Seat 2: lextim ($6.53 in chips)
+Seat 3: 88Dead ($3.96 in chips)
+Seat 4: Toppi888 ($2 in chips)
+Seat 5: hayp94 ($0.58 in chips)
+Seat 6: szalay87 ($1.06 in chips)
+Seat 7: rekawian1991 ($2.46 in chips)
+Seat 8: pokerHero1 ($2 in chips)
+Seat 9: zemja ($1.12 in chips)
+szalay87: posts small blind $0.01
+rekawian1991: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h Td]
+pokerHero1: folds
+zemja: calls $0.02
+QuadsMaster30: folds
+lextim: folds
+88Dead: folds
+Toppi888 has timed out
+Toppi888: folds
+hayp94: folds
+szalay87: calls $0.01
+rekawian1991: checks
+*** FLOP *** [Ks 2d Ah]
+szalay87: checks
+rekawian1991: checks
+zemja: checks
+*** TURN *** [Ks 2d Ah] [Qd]
+szalay87: checks
+rekawian1991: checks
+zemja: checks
+*** RIVER *** [Ks 2d Ah Qd] [8h]
+szalay87: checks
+rekawian1991: checks
+lextim leaves the table
+zemja: checks
+*** SHOW DOWN ***
+szalay87: shows [5c Jh] (high card Ace)
+rekawian1991: mucks hand
+zemja: shows [6d Kd] (a pair of Kings)
+zemja collected $0.06 from pot
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [Ks 2d Ah Qd 8h]
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 2: lextim folded before Flop (didn't bet)
+Seat 3: 88Dead folded before Flop (didn't bet)
+Seat 4: Toppi888 folded before Flop (didn't bet)
+Seat 5: hayp94 (button) folded before Flop (didn't bet)
+Seat 6: szalay87 (small blind) showed [5c Jh] and lost with high card Ace
+Seat 7: rekawian1991 (big blind) mucked [5s 7h]
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: zemja showed [6d Kd] and won ($0.06) with a pair of Kings
+
+
+
+PokerStars Hand #212333532394:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:27:50 ET
+Table 'Edasich III' 9-max Seat #6 is the button
+Seat 1: QuadsMaster30 ($1.02 in chips)
+Seat 3: 88Dead ($3.96 in chips)
+Seat 4: Toppi888 ($2 in chips)
+Seat 5: hayp94 ($0.58 in chips)
+Seat 6: szalay87 ($1.04 in chips)
+Seat 7: rekawian1991 ($2.44 in chips)
+Seat 8: pokerHero1 ($2 in chips)
+Seat 9: zemja ($1.16 in chips)
+rekawian1991: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h 8d]
+ptoldo joins the table at seat #2
+zemja: folds
+QuadsMaster30: folds
+88Dead: folds
+Toppi888: folds
+hayp94: calls $0.02
+szalay87: folds
+rekawian1991: raises $0.10 to $0.12
+pokerHero1: folds
+hayp94: folds
+Uncalled bet ($0.10) returned to rekawian1991
+rekawian1991 collected $0.06 from pot
+rekawian1991: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 3: 88Dead folded before Flop (didn't bet)
+Seat 4: Toppi888 folded before Flop (didn't bet)
+Seat 5: hayp94 folded before Flop
+Seat 6: szalay87 (button) folded before Flop (didn't bet)
+Seat 7: rekawian1991 (small blind) collected ($0.06)
+Seat 8: pokerHero1 (big blind) folded before Flop
+Seat 9: zemja folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212333573057:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:28:23 ET
+Table 'Edasich III' 9-max Seat #7 is the button
+Seat 1: QuadsMaster30 ($1.02 in chips)
+Seat 2: ptoldo ($1.60 in chips)
+Seat 3: 88Dead ($3.96 in chips)
+Seat 4: Toppi888 ($2 in chips)
+Seat 5: hayp94 ($0.56 in chips)
+Seat 6: szalay87 ($1.04 in chips)
+Seat 7: rekawian1991 ($2.48 in chips)
+Seat 8: pokerHero1 ($1.98 in chips)
+Seat 9: zemja ($1.16 in chips)
+pokerHero1: posts small blind $0.01
+zemja: posts big blind $0.02
+ptoldo: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td 9s]
+QuadsMaster30: folds
+ptoldo: checks
+88Dead: raises $0.02 to $0.04
+Toppi888: raises $0.08 to $0.12
+hayp94: folds
+szalay87: folds
+rekawian1991: folds
+pokerHero1: folds
+zemja: folds
+ptoldo: folds
+88Dead: calls $0.08
+*** FLOP *** [6d 7s Js]
+88Dead: checks
+Toppi888: bets $0.18
+88Dead: calls $0.18
+*** TURN *** [6d 7s Js] [8h]
+88Dead: checks
+Toppi888: checks
+*** RIVER *** [6d 7s Js 8h] [Ah]
+88Dead: checks
+Toppi888: checks
+*** SHOW DOWN ***
+88Dead: shows [9d Jd] (a pair of Jacks)
+Toppi888: shows [Ac Ks] (a pair of Aces)
+Toppi888 collected $0.63 from pot
+*** SUMMARY ***
+Total pot $0.65 | Rake $0.02
+Board [6d 7s Js 8h Ah]
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 2: ptoldo folded before Flop (didn't bet)
+Seat 3: 88Dead showed [9d Jd] and lost with a pair of Jacks
+Seat 4: Toppi888 showed [Ac Ks] and won ($0.63) with a pair of Aces
+Seat 5: hayp94 folded before Flop (didn't bet)
+Seat 6: szalay87 folded before Flop (didn't bet)
+Seat 7: rekawian1991 (button) folded before Flop (didn't bet)
+Seat 8: pokerHero1 (small blind) folded before Flop
+Seat 9: zemja (big blind) folded before Flop
+
+
+
+PokerStars Hand #212333675010:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:29:48 ET
+Table 'Edasich III' 9-max Seat #8 is the button
+Seat 1: QuadsMaster30 ($1.02 in chips)
+Seat 2: ptoldo ($1.58 in chips)
+Seat 3: 88Dead ($3.66 in chips)
+Seat 4: Toppi888 ($2.33 in chips)
+Seat 5: hayp94 ($0.56 in chips)
+Seat 6: szalay87 ($1.04 in chips)
+Seat 7: rekawian1991 ($2.48 in chips)
+Seat 8: pokerHero1 ($1.97 in chips)
+Seat 9: zemja ($1.14 in chips)
+zemja: posts small blind $0.01
+QuadsMaster30: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd As]
+ptoldo: raises $0.06 to $0.08
+88Dead: folds
+Toppi888: folds
+hayp94: folds
+szalay87: folds
+rekawian1991: folds
+pokerHero1: raises $0.16 to $0.24
+zemja: folds
+QuadsMaster30: folds
+ptoldo: calls $0.16
+*** FLOP *** [3d 3c 7h]
+ptoldo: checks
+pokerHero1: bets $0.18
+ptoldo: calls $0.18
+*** TURN *** [3d 3c 7h] [Qs]
+ptoldo: checks
+pokerHero1: checks
+*** RIVER *** [3d 3c 7h Qs] [9c]
+ptoldo: checks
+pokerHero1: checks
+*** SHOW DOWN ***
+ptoldo: shows [Ac Ks] (a pair of Threes)
+pokerHero1: shows [Kd As] (a pair of Threes)
+ptoldo collected $0.42 from pot
+pokerHero1 collected $0.42 from pot
+*** SUMMARY ***
+Total pot $0.87 | Rake $0.03
+Board [3d 3c 7h Qs 9c]
+Seat 1: QuadsMaster30 (big blind) folded before Flop
+Seat 2: ptoldo showed [Ac Ks] and won ($0.42) with a pair of Threes
+Seat 3: 88Dead folded before Flop (didn't bet)
+Seat 4: Toppi888 folded before Flop (didn't bet)
+Seat 5: hayp94 folded before Flop (didn't bet)
+Seat 6: szalay87 folded before Flop (didn't bet)
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 (button) showed [Kd As] and won ($0.42) with a pair of Threes
+Seat 9: zemja (small blind) folded before Flop
+
+
+
+PokerStars Hand #212333733591:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:30:33 ET
+Table 'Edasich III' 9-max Seat #9 is the button
+Seat 1: QuadsMaster30 ($1 in chips)
+Seat 2: ptoldo ($1.58 in chips)
+Seat 3: 88Dead ($3.66 in chips)
+Seat 4: Toppi888 ($2.33 in chips)
+Seat 5: hayp94 ($0.56 in chips)
+Seat 6: szalay87 ($1.04 in chips)
+Seat 7: rekawian1991 ($2.48 in chips)
+Seat 8: pokerHero1 ($1.97 in chips)
+Seat 9: zemja ($1.13 in chips)
+QuadsMaster30: posts small blind $0.01
+ptoldo: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5h Kh]
+88Dead has timed out
+88Dead: folds
+Toppi888: folds
+hayp94: calls $0.02
+szalay87: folds
+rekawian1991: raises $0.06 to $0.08
+pokerHero1: folds
+zemja: folds
+QuadsMaster30: folds
+ptoldo: calls $0.06
+hayp94: calls $0.06
+*** FLOP *** [8h 7h 4c]
+ptoldo: bets $0.24
+hayp94: folds
+rekawian1991: calls $0.24
+*** TURN *** [8h 7h 4c] [8c]
+ptoldo: bets $0.08
+rekawian1991: calls $0.08
+*** RIVER *** [8h 7h 4c 8c] [3c]
+ptoldo: bets $0.08
+rekawian1991: calls $0.08
+*** SHOW DOWN ***
+ptoldo: shows [Js 7d] (two pair, Eights and Sevens)
+rekawian1991: shows [9s 9h] (two pair, Nines and Eights)
+rekawian1991 collected $1.01 from pot
+*** SUMMARY ***
+Total pot $1.05 | Rake $0.04
+Board [8h 7h 4c 8c 3c]
+Seat 1: QuadsMaster30 (small blind) folded before Flop
+Seat 2: ptoldo (big blind) showed [Js 7d] and lost with two pair, Eights and Sevens
+Seat 3: 88Dead folded before Flop (didn't bet)
+Seat 4: Toppi888 folded before Flop (didn't bet)
+Seat 5: hayp94 folded on the Flop
+Seat 6: szalay87 folded before Flop (didn't bet)
+Seat 7: rekawian1991 showed [9s 9h] and won ($1.01) with two pair, Nines and Eights
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: zemja (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212333828255:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:31:47 ET
+Table 'Edasich III' 9-max Seat #1 is the button
+Seat 1: QuadsMaster30 ($0.99 in chips)
+Seat 2: ptoldo ($1.10 in chips)
+Seat 3: 88Dead ($3.66 in chips)
+Seat 4: Toppi888 ($2.33 in chips)
+Seat 5: hayp94 ($0.48 in chips)
+Seat 6: szalay87 ($1.04 in chips)
+Seat 7: rekawian1991 ($3.01 in chips)
+Seat 8: pokerHero1 ($1.97 in chips)
+Seat 9: zemja ($1.13 in chips)
+ptoldo: posts small blind $0.01
+88Dead: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s Ts]
+Toppi888: folds
+hayp94: calls $0.02
+szalay87: folds
+rekawian1991: folds
+pokerHero1: folds
+zemja: raises $0.04 to $0.06
+QuadsMaster30: folds
+ptoldo: calls $0.05
+88Dead: folds
+hayp94: calls $0.04
+*** FLOP *** [7c 4s Js]
+ptoldo: checks
+hayp94: checks
+zemja: bets $0.02
+ptoldo: calls $0.02
+hayp94: folds
+*** TURN *** [7c 4s Js] [5h]
+ptoldo: checks
+zemja: checks
+*** RIVER *** [7c 4s Js 5h] [8s]
+ptoldo: bets $0.23
+zemja: folds
+Uncalled bet ($0.23) returned to ptoldo
+ptoldo collected $0.23 from pot
+ptoldo: doesn't show hand
+*** SUMMARY ***
+Total pot $0.24 | Rake $0.01
+Board [7c 4s Js 5h 8s]
+Seat 1: QuadsMaster30 (button) folded before Flop (didn't bet)
+Seat 2: ptoldo (small blind) collected ($0.23)
+Seat 3: 88Dead (big blind) folded before Flop
+Seat 4: Toppi888 folded before Flop (didn't bet)
+Seat 5: hayp94 folded on the Flop
+Seat 6: szalay87 folded before Flop (didn't bet)
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: zemja folded on the River
+
+
+
+PokerStars Hand #212333898382:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:32:43 ET
+Table 'Edasich III' 9-max Seat #2 is the button
+Seat 1: QuadsMaster30 ($0.99 in chips)
+Seat 2: ptoldo ($1.25 in chips)
+Seat 3: 88Dead ($3.64 in chips)
+Seat 4: Toppi888 ($2.33 in chips)
+Seat 5: hayp94 ($0.42 in chips)
+Seat 6: szalay87 ($1.04 in chips)
+Seat 7: rekawian1991 ($3.01 in chips)
+Seat 8: pokerHero1 ($1.97 in chips)
+Seat 9: zemja ($1.05 in chips)
+88Dead: posts small blind $0.01
+Toppi888: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qs 9c]
+hayp94: calls $0.02
+szalay87: folds
+rekawian1991: folds
+pokerHero1: folds
+zemja: folds
+QuadsMaster30: calls $0.02
+ptoldo: calls $0.02
+88Dead: folds
+Toppi888: checks
+*** FLOP *** [Ts Qh Ks]
+Toppi888: checks
+hayp94: checks
+QuadsMaster30: bets $0.05
+ptoldo: raises $0.19 to $0.24
+Toppi888: folds
+hayp94: folds
+QuadsMaster30: calls $0.19
+*** TURN *** [Ts Qh Ks] [8d]
+QuadsMaster30: checks
+ptoldo: bets $0.14
+QuadsMaster30: folds
+Uncalled bet ($0.14) returned to ptoldo
+ptoldo collected $0.55 from pot
+ptoldo: doesn't show hand
+*** SUMMARY ***
+Total pot $0.57 | Rake $0.02
+Board [Ts Qh Ks 8d]
+Seat 1: QuadsMaster30 folded on the Turn
+Seat 2: ptoldo (button) collected ($0.55)
+Seat 3: 88Dead (small blind) folded before Flop
+Seat 4: Toppi888 (big blind) folded on the Flop
+Seat 5: hayp94 folded on the Flop
+Seat 6: szalay87 folded before Flop (didn't bet)
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: zemja folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212333989506:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:33:46 ET
+Table 'Edasich III' 9-max Seat #3 is the button
+Seat 1: QuadsMaster30 ($0.73 in chips)
+Seat 2: ptoldo ($1.54 in chips)
+Seat 3: 88Dead ($3.63 in chips)
+Seat 4: Toppi888 ($2.31 in chips)
+Seat 5: hayp94 ($0.40 in chips)
+Seat 6: szalay87 ($1.04 in chips)
+Seat 7: rekawian1991 ($3.01 in chips)
+Seat 8: pokerHero1 ($1.97 in chips)
+Seat 9: zemja ($1.05 in chips)
+Toppi888: posts small blind $0.01
+hayp94: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h Tc]
+szalay87: folds
+rekawian1991: folds
+pokerHero1: folds
+szalay87 leaves the table
+zemja: calls $0.02
+QuadsMaster30: raises $0.04 to $0.06
+ptoldo: calls $0.06
+88Dead: calls $0.06
+Toppi888: folds
+hayp94: folds
+zemja: calls $0.04
+*** FLOP *** [2c 8d 3c]
+zemja: checks
+QuadsMaster30: bets $0.26
+ptoldo: folds
+88Dead: folds
+zemja: folds
+Uncalled bet ($0.26) returned to QuadsMaster30
+QuadsMaster30 collected $0.26 from pot
+QuadsMaster30: doesn't show hand
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01
+Board [2c 8d 3c]
+Seat 1: QuadsMaster30 collected ($0.26)
+Seat 2: ptoldo folded on the Flop
+Seat 3: 88Dead (button) folded on the Flop
+Seat 4: Toppi888 (small blind) folded before Flop
+Seat 5: hayp94 (big blind) folded before Flop
+Seat 6: szalay87 folded before Flop (didn't bet)
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: zemja folded on the Flop
+
+
+
+PokerStars Hand #212334068203:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:34:48 ET
+Table 'Edasich III' 9-max Seat #4 is the button
+Seat 1: QuadsMaster30 ($0.93 in chips)
+Seat 2: ptoldo ($1.48 in chips)
+Seat 3: 88Dead ($3.57 in chips)
+Seat 4: Toppi888 ($2.30 in chips)
+Seat 5: hayp94 ($0.38 in chips)
+Seat 7: rekawian1991 ($3.01 in chips)
+Seat 8: pokerHero1 ($1.97 in chips)
+Seat 9: zemja ($0.99 in chips)
+hayp94: posts small blind $0.01
+rekawian1991: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c 6c]
+pokerHero1: folds
+zemja: calls $0.02
+QuadsMaster30: calls $0.02
+ptoldo: calls $0.02
+88Dead: calls $0.02
+Toppi888: folds
+hayp94: raises $0.36 to $0.38 and is all-in
+KooKooRooZa joins the table at seat #6
+rekawian1991: folds
+zemja: calls $0.36
+QuadsMaster30: folds
+ptoldo: folds
+88Dead: folds
+*** FLOP *** [Ac Kd Tc]
+*** TURN *** [Ac Kd Tc] [Qc]
+*** RIVER *** [Ac Kd Tc Qc] [Ah]
+*** SHOW DOWN ***
+hayp94: shows [Ad 2d] (three of a kind, Aces)
+zemja: shows [Jc Kh] (a straight, Ten to Ace)
+zemja cashed out the hand for $0.32
+*** SUMMARY ***
+Total pot $0.84 | Rake $0.03
+Board [Ac Kd Tc Qc Ah]
+Seat 1: QuadsMaster30 folded before Flop
+Seat 2: ptoldo folded before Flop
+Seat 3: 88Dead folded before Flop
+Seat 4: Toppi888 (button) folded before Flop (didn't bet)
+Seat 5: hayp94 (small blind) showed [Ad 2d] and lost with three of a kind, Aces
+Seat 7: rekawian1991 (big blind) folded before Flop
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: zemja showed [Jc Kh] and won ($0.81) with a straight, Ten to Ace (pot not awarded as player cashed out)
+
+
+
+PokerStars Hand #212334146400:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:35:49 ET
+Table 'Edasich III' 9-max Seat #7 is the button
+Seat 1: QuadsMaster30 ($0.91 in chips)
+Seat 2: ptoldo ($1.46 in chips)
+Seat 3: 88Dead ($3.55 in chips)
+Seat 4: Toppi888 ($2.30 in chips)
+Seat 7: rekawian1991 ($2.99 in chips)
+Seat 8: pokerHero1 ($1.97 in chips)
+Seat 9: zemja ($0.93 in chips)
+pokerHero1: posts small blind $0.01
+zemja: posts big blind $0.02
+KooKooRooZa: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c Jh]
+QuadsMaster30: raises $0.04 to $0.06
+ptoldo: calls $0.06
+hayp94 leaves the table
+88Dead: calls $0.06
+Toppi888: raises $0.21 to $0.27
+rekawian1991: folds
+pokerHero1: folds
+zemja: folds
+QuadsMaster30: raises $0.64 to $0.91 and is all-in
+ptoldo: folds
+88Dead: folds
+ivanfartovyi joins the table at seat #5
+Toppi888: calls $0.64
+*** FLOP *** [Qc 7d Kh]
+*** TURN *** [Qc 7d Kh] [5h]
+*** RIVER *** [Qc 7d Kh 5h] [5d]
+*** SHOW DOWN ***
+QuadsMaster30: shows [Qh Qs] (a full house, Queens full of Fives)
+Toppi888: shows [Ad Kd] (two pair, Kings and Fives)
+QuadsMaster30 collected $1.90 from pot
+*** SUMMARY ***
+Total pot $1.97 | Rake $0.07
+Board [Qc 7d Kh 5h 5d]
+Seat 1: QuadsMaster30 showed [Qh Qs] and won ($1.90) with a full house, Queens full of Fives
+Seat 2: ptoldo folded before Flop
+Seat 3: 88Dead folded before Flop
+Seat 4: Toppi888 showed [Ad Kd] and lost with two pair, Kings and Fives
+Seat 7: rekawian1991 (button) folded before Flop (didn't bet)
+Seat 8: pokerHero1 (small blind) folded before Flop
+Seat 9: zemja (big blind) folded before Flop
+
+
+
+PokerStars Hand #212334216615:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:36:43 ET
+Table 'Edasich III' 9-max Seat #8 is the button
+Seat 1: QuadsMaster30 ($1.90 in chips)
+Seat 2: ptoldo ($1.40 in chips)
+Seat 3: 88Dead ($3.49 in chips)
+Seat 4: Toppi888 ($2 in chips)
+Seat 5: ivanfartovyi ($1.60 in chips)
+Seat 7: rekawian1991 ($2.99 in chips)
+Seat 8: pokerHero1 ($1.96 in chips)
+Seat 9: zemja ($0.91 in chips)
+zemja: posts small blind $0.01
+QuadsMaster30: posts big blind $0.02
+ivanfartovyi: posts big blind $0.02
+KooKooRooZa: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8c Ad]
+ptoldo: calls $0.02
+88Dead: folds
+Toppi888: folds
+ivanfartovyi: checks
+rekawian1991: folds
+pokerHero1: raises $0.10 to $0.12
+zemja: folds
+QuadsMaster30: folds
+ptoldo: calls $0.10
+ivanfartovyi: folds
+*** FLOP *** [7h Ts Qd]
+ptoldo: bets $0.28
+pokerHero1: raises $0.42 to $0.70
+ptoldo: calls $0.42
+*** TURN *** [7h Ts Qd] [9c]
+ptoldo: bets $0.58 and is all-in
+pokerHero1: calls $0.58
+*** RIVER *** [7h Ts Qd 9c] [9h]
+*** SHOW DOWN ***
+ptoldo: shows [Jd Kd] (a straight, Nine to King)
+pokerHero1: shows [8c Ad] (a pair of Nines)
+ptoldo collected $2.75 from pot
+*** SUMMARY ***
+Total pot $2.85 | Rake $0.10
+Board [7h Ts Qd 9c 9h]
+Seat 1: QuadsMaster30 (big blind) folded before Flop
+Seat 2: ptoldo showed [Jd Kd] and won ($2.75) with a straight, Nine to King
+Seat 3: 88Dead folded before Flop (didn't bet)
+Seat 4: Toppi888 folded before Flop (didn't bet)
+Seat 5: ivanfartovyi folded before Flop (didn't bet)
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 (button) showed [8c Ad] and lost with a pair of Nines
+Seat 9: zemja (small blind) folded before Flop
+
+
+
+PokerStars Hand #212334303548:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:37:48 ET
+Table 'Edasich III' 9-max Seat #9 is the button
+Seat 1: QuadsMaster30 ($1.88 in chips)
+Seat 2: ptoldo ($2.75 in chips)
+Seat 3: 88Dead ($3.49 in chips)
+Seat 4: Toppi888 ($2 in chips)
+Seat 5: ivanfartovyi ($1.58 in chips)
+Seat 7: rekawian1991 ($2.99 in chips)
+Seat 8: pokerHero1 ($2 in chips)
+Seat 9: zemja ($0.90 in chips)
+QuadsMaster30: posts small blind $0.01
+ptoldo: posts big blind $0.02
+KooKooRooZa: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3c Ad]
+88Dead: folds
+Toppi888: raises $0.04 to $0.06
+ivanfartovyi: folds
+rekawian1991: folds
+pokerHero1: folds
+zemja: folds
+QuadsMaster30: folds
+ptoldo: calls $0.04
+*** FLOP *** [Th 4h 8h]
+ptoldo: checks
+Toppi888: bets $0.08
+ptoldo: folds
+Uncalled bet ($0.08) returned to Toppi888
+Toppi888 collected $0.13 from pot
+Toppi888: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [Th 4h 8h]
+Seat 1: QuadsMaster30 (small blind) folded before Flop
+Seat 2: ptoldo (big blind) folded on the Flop
+Seat 3: 88Dead folded before Flop (didn't bet)
+Seat 4: Toppi888 collected ($0.13)
+Seat 5: ivanfartovyi folded before Flop (didn't bet)
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: zemja (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212334362785:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:38:33 ET
+Table 'Edasich III' 9-max Seat #1 is the button
+Seat 1: QuadsMaster30 ($1.87 in chips)
+Seat 2: ptoldo ($2.69 in chips)
+Seat 3: 88Dead ($3.49 in chips)
+Seat 4: Toppi888 ($2.07 in chips)
+Seat 5: ivanfartovyi ($1.58 in chips)
+Seat 7: rekawian1991 ($2.99 in chips)
+Seat 8: pokerHero1 ($2 in chips)
+Seat 9: zemja ($0.90 in chips)
+ptoldo: posts small blind $0.01
+88Dead: posts big blind $0.02
+KooKooRooZa: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d 4d]
+Toppi888: folds
+ivanfartovyi: folds
+rekawian1991: folds
+pokerHero1: folds
+zemja: calls $0.02
+QuadsMaster30: folds
+ptoldo: calls $0.01
+88Dead: checks
+*** FLOP *** [Th 8h 3c]
+ptoldo: checks
+88Dead: bets $0.02
+zemja: calls $0.02
+ptoldo: folds
+*** TURN *** [Th 8h 3c] [2c]
+88Dead: bets $0.04
+zemja: calls $0.04
+*** RIVER *** [Th 8h 3c 2c] [Tc]
+88Dead: bets $0.08
+zemja: folds
+Uncalled bet ($0.08) returned to 88Dead
+88Dead collected $0.17 from pot
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [Th 8h 3c 2c Tc]
+Seat 1: QuadsMaster30 (button) folded before Flop (didn't bet)
+Seat 2: ptoldo (small blind) folded on the Flop
+Seat 3: 88Dead (big blind) collected ($0.17)
+Seat 4: Toppi888 folded before Flop (didn't bet)
+Seat 5: ivanfartovyi folded before Flop (didn't bet)
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: zemja folded on the River
+
+
+
+PokerStars Hand #212334440039:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:39:32 ET
+Table 'Edasich III' 9-max Seat #2 is the button
+Seat 1: QuadsMaster30 ($1.87 in chips)
+Seat 2: ptoldo ($2.67 in chips)
+Seat 3: 88Dead ($3.58 in chips)
+Seat 4: Toppi888 ($2.07 in chips)
+Seat 5: ivanfartovyi ($1.58 in chips)
+Seat 7: rekawian1991 ($2.99 in chips)
+Seat 8: pokerHero1 ($2 in chips)
+Seat 9: zemja ($0.82 in chips)
+88Dead: posts small blind $0.01
+Toppi888: posts big blind $0.02
+KooKooRooZa: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d Kd]
+ivanfartovyi: folds
+rekawian1991: folds
+pokerHero1: folds
+zemja: folds
+QuadsMaster30: calls $0.02
+ptoldo: calls $0.02
+88Dead: calls $0.01
+Toppi888: checks
+*** FLOP *** [3d 9h 6s]
+88Dead: checks
+Toppi888: checks
+QuadsMaster30: checks
+ptoldo: bets $0.16
+88Dead: calls $0.16
+Toppi888: calls $0.16
+QuadsMaster30: folds
+*** TURN *** [3d 9h 6s] [5s]
+88Dead: checks
+Toppi888: checks
+ptoldo: bets $2.49 and is all-in
+88Dead: calls $2.49
+Toppi888: folds
+88Dead has timed out
+*** RIVER *** [3d 9h 6s 5s] [Th]
+*** SHOW DOWN ***
+88Dead: shows [6c 8h] (a pair of Sixes)
+ptoldo: shows [9c 6h] (two pair, Nines and Sixes)
+ptoldo collected $5.35 from pot
+*** SUMMARY ***
+Total pot $5.54 | Rake $0.19
+Board [3d 9h 6s 5s Th]
+Seat 1: QuadsMaster30 folded on the Flop
+Seat 2: ptoldo (button) showed [9c 6h] and won ($5.35) with two pair, Nines and Sixes
+Seat 3: 88Dead (small blind) showed [6c 8h] and lost with a pair of Sixes
+Seat 4: Toppi888 (big blind) folded on the Turn
+Seat 5: ivanfartovyi folded before Flop (didn't bet)
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: zemja folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212334593588:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:41:32 ET
+Table 'Edasich III' 9-max Seat #3 is the button
+Seat 1: QuadsMaster30 ($1.85 in chips)
+Seat 2: ptoldo ($5.35 in chips)
+Seat 3: 88Dead ($0.91 in chips)
+Seat 4: Toppi888 ($2 in chips)
+Seat 5: ivanfartovyi ($1.58 in chips)
+Seat 7: rekawian1991 ($2.99 in chips)
+Seat 8: pokerHero1 ($2 in chips)
+Seat 9: zemja ($0.82 in chips)
+Toppi888: posts small blind $0.01
+ivanfartovyi: posts big blind $0.02
+KooKooRooZa: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c Kh]
+rekawian1991: folds
+pokerHero1: folds
+zemja: calls $0.02
+QuadsMaster30: calls $0.02
+ptoldo: calls $0.02
+88Dead: calls $0.02
+Toppi888: calls $0.01
+ivanfartovyi: checks
+*** FLOP *** [7h Th 6s]
+Toppi888: checks
+ivanfartovyi: checks
+zemja: bets $0.54
+QuadsMaster30: folds
+ptoldo: folds
+88Dead: folds
+Toppi888: folds
+ivanfartovyi: folds
+Uncalled bet ($0.54) returned to zemja
+zemja collected $0.12 from pot
+zemja: doesn't show hand
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Board [7h Th 6s]
+Seat 1: QuadsMaster30 folded on the Flop
+Seat 2: ptoldo folded on the Flop
+Seat 3: 88Dead (button) folded on the Flop
+Seat 4: Toppi888 (small blind) folded on the Flop
+Seat 5: ivanfartovyi (big blind) folded on the Flop
+Seat 7: rekawian1991 folded before Flop (didn't bet)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: zemja collected ($0.12)
+
+
+
+PokerStars Hand #212334697197:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/19 14:42:57 ET
+Table 'Edasich III' 9-max Seat #4 is the button
+Seat 1: QuadsMaster30 ($1.83 in chips)
+Seat 2: ptoldo ($5.33 in chips)
+Seat 3: 88Dead ($0.89 in chips)
+Seat 4: Toppi888 ($2 in chips)
+Seat 5: ivanfartovyi ($1.56 in chips)
+Seat 6: KooKooRooZa ($2 in chips)
+Seat 7: rekawian1991 ($2.99 in chips)
+Seat 8: pokerHero1 ($2 in chips)
+Seat 9: zemja ($0.92 in chips)
+ivanfartovyi: posts small blind $0.01
+KooKooRooZa: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qd 8c]
+rekawian1991: raises $0.06 to $0.08
+pokerHero1: folds
+zemja: folds
+QuadsMaster30: folds
+ptoldo: calls $0.08
+88Dead: folds
+Toppi888: folds
+ivanfartovyi: folds
+KooKooRooZa: folds
+*** FLOP *** [2d Th Qc]
+rekawian1991: checks
+ptoldo: checks
+*** TURN *** [2d Th Qc] [Kd]
+rekawian1991: bets $0.12
+ptoldo: folds
+Uncalled bet ($0.12) returned to rekawian1991
+rekawian1991 collected $0.18 from pot
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [2d Th Qc Kd]
+Seat 1: QuadsMaster30 folded before Flop (didn't bet)
+Seat 2: ptoldo folded on the Turn
+Seat 3: 88Dead folded before Flop (didn't bet)
+Seat 4: Toppi888 (button) folded before Flop (didn't bet)
+Seat 5: ivanfartovyi (small blind) folded before Flop
+Seat 6: KooKooRooZa (big blind) folded before Flop
+Seat 7: rekawian1991 collected ($0.18)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: zemja folded before Flop (didn't bet)
+
+
+

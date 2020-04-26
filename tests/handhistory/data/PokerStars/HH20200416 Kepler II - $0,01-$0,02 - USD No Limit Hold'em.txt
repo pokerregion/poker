@@ -1,0 +1,730 @@
+﻿PokerStars Hand #212113204354:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 13:54:11 ET
+Table 'Kepler II' 9-max Seat #6 is the button
+Seat 1: judgeDread33 ($3.09 in chips)
+Seat 2: harps84 ($3.40 in chips)
+Seat 3: WinstonO84 ($1.73 in chips)
+Seat 4: dboogaart ($6.10 in chips)
+Seat 6: pokerHero1 ($3.91 in chips)
+Seat 8: Electronikus ($2.85 in chips)
+Seat 9: gizmondouk ($2 in chips)
+Electronikus: posts small blind $0.01
+gizmondouk: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s 6d]
+judgeDread33: calls $0.02
+harps84: folds
+WinstonO84: calls $0.02
+dboogaart: folds
+pokerHero1: folds
+Electronikus: folds
+gizmondouk: raises $0.06 to $0.08
+judgeDread33: calls $0.06
+WinstonO84: folds
+*** FLOP *** [9h 5d 6s]
+gizmondouk: bets $0.12
+judgeDread33: calls $0.12
+*** TURN *** [9h 5d 6s] [5s]
+gizmondouk: bets $0.24
+judgeDread33: folds
+Uncalled bet ($0.24) returned to gizmondouk
+gizmondouk collected $0.41 from pot
+gizmondouk: doesn't show hand
+*** SUMMARY ***
+Total pot $0.43 | Rake $0.02
+Board [9h 5d 6s 5s]
+Seat 1: judgeDread33 folded on the Turn
+Seat 2: harps84 folded before Flop (didn't bet)
+Seat 3: WinstonO84 folded before Flop
+Seat 4: dboogaart folded before Flop (didn't bet)
+Seat 6: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 8: Electronikus (small blind) folded before Flop
+Seat 9: gizmondouk (big blind) collected ($0.41)
+
+
+
+PokerStars Hand #212113250339:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 13:54:48 ET
+Table 'Kepler II' 9-max Seat #8 is the button
+Seat 2: harps84 ($3.40 in chips)
+Seat 3: WinstonO84 ($1.71 in chips)
+Seat 4: dboogaart ($6.10 in chips)
+Seat 5: ady_alyn87 ($0.40 in chips)
+Seat 6: pokerHero1 ($3.91 in chips)
+Seat 8: Electronikus ($2.84 in chips)
+Seat 9: gizmondouk ($2.21 in chips)
+gizmondouk: posts small blind $0.01
+judgeDread33: is sitting out
+harps84: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2s 4c]
+judgeDread33 leaves the table
+WinstonO84: raises $0.02 to $0.04
+dboogaart: folds
+lapvegas52 joins the table at seat #1
+ady_alyn87: folds
+pokerHero1: folds
+Electronikus: folds
+gizmondouk: folds
+harps84: calls $0.02
+*** FLOP *** [6d 5d 8c]
+harps84: checks
+WinstonO84: bets $0.05
+harps84: calls $0.05
+*** TURN *** [6d 5d 8c] [5s]
+harps84: checks
+WinstonO84: checks
+*** RIVER *** [6d 5d 8c 5s] [4s]
+harps84: checks
+WinstonO84: bets $0.09
+harps84: calls $0.09
+*** SHOW DOWN ***
+WinstonO84: shows [Td Th] (two pair, Tens and Fives)
+harps84: shows [Qd Qc] (two pair, Queens and Fives)
+harps84 collected $0.36 from pot
+*** SUMMARY ***
+Total pot $0.37 | Rake $0.01
+Board [6d 5d 8c 5s 4s]
+Seat 2: harps84 (big blind) showed [Qd Qc] and won ($0.36) with two pair, Queens and Fives
+Seat 3: WinstonO84 showed [Td Th] and lost with two pair, Tens and Fives
+Seat 4: dboogaart folded before Flop (didn't bet)
+Seat 5: ady_alyn87 folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Electronikus (button) folded before Flop (didn't bet)
+Seat 9: gizmondouk (small blind) folded before Flop
+
+
+
+PokerStars Hand #212113294436:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 13:55:37 ET
+Table 'Kepler II' 9-max Seat #9 is the button
+Seat 2: harps84 ($3.58 in chips)
+Seat 3: WinstonO84 ($1.53 in chips)
+Seat 4: dboogaart ($6.10 in chips)
+Seat 5: ady_alyn87 ($0.40 in chips)
+Seat 6: pokerHero1 ($3.91 in chips)
+Seat 8: Electronikus ($2.84 in chips)
+Seat 9: gizmondouk ($2.20 in chips)
+harps84: posts small blind $0.01
+WinstonO84: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc 6s]
+dboogaart: raises $0.06 to $0.08
+ady_alyn87: calls $0.08
+pokerHero1: folds
+Electronikus: folds
+gizmondouk: folds
+harps84: folds
+WinstonO84: folds
+*** FLOP *** [8c Jd 5d]
+dboogaart: bets $0.12
+ady_alyn87: folds
+Uncalled bet ($0.12) returned to dboogaart
+dboogaart collected $0.18 from pot
+dboogaart: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [8c Jd 5d]
+Seat 2: harps84 (small blind) folded before Flop
+Seat 3: WinstonO84 (big blind) folded before Flop
+Seat 4: dboogaart collected ($0.18)
+Seat 5: ady_alyn87 folded on the Flop
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Electronikus folded before Flop (didn't bet)
+Seat 9: gizmondouk (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212113322299:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 13:56:13 ET
+Table 'Kepler II' 9-max Seat #2 is the button
+Seat 2: harps84 ($3.57 in chips)
+Seat 3: WinstonO84 ($1.51 in chips)
+Seat 4: dboogaart ($6.20 in chips)
+Seat 5: ady_alyn87 ($0.32 in chips)
+Seat 6: pokerHero1 ($3.91 in chips)
+Seat 8: Electronikus ($2.84 in chips)
+Seat 9: gizmondouk ($2.20 in chips)
+WinstonO84: posts small blind $0.01
+dboogaart: posts big blind $0.02
+lapvegas52: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9d Ah]
+ady_alyn87: calls $0.02
+pokerHero1 has timed out
+pokerHero1: folds
+Electronikus: raises $0.04 to $0.06
+gizmondouk: folds
+harps84: folds
+WinstonO84: folds
+dboogaart: folds
+ady_alyn87: calls $0.04
+*** FLOP *** [6c Ks 6h]
+ady_alyn87: checks
+harps84 leaves the table
+Electronikus: checks
+*** TURN *** [6c Ks 6h] [Tc]
+ady_alyn87: checks
+244Kairos leaves the table
+Electronikus: checks
+*** RIVER *** [6c Ks 6h Tc] [Ts]
+ady_alyn87: checks
+Electronikus: checks
+*** SHOW DOWN ***
+ady_alyn87: shows [5h Qh] (two pair, Tens and Sixes)
+Electronikus: shows [Ac 5c] (two pair, Tens and Sixes - Ace kicker)
+Electronikus collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [6c Ks 6h Tc Ts]
+Seat 2: harps84 (button) folded before Flop (didn't bet)
+Seat 3: WinstonO84 (small blind) folded before Flop
+Seat 4: dboogaart (big blind) folded before Flop
+Seat 5: ady_alyn87 showed [5h Qh] and lost with two pair, Tens and Sixes
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Electronikus showed [Ac 5c] and won ($0.14) with two pair, Tens and Sixes
+Seat 9: gizmondouk folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212113373628:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 13:57:20 ET
+Table 'Kepler II' 9-max Seat #3 is the button
+Seat 3: WinstonO84 ($1.50 in chips)
+Seat 4: dboogaart ($6.18 in chips)
+Seat 5: ady_alyn87 ($0.26 in chips)
+Seat 6: pokerHero1 ($3.91 in chips)
+Seat 8: Electronikus ($2.92 in chips)
+Seat 9: gizmondouk ($2.20 in chips)
+dboogaart: posts small blind $0.01
+ady_alyn87: posts big blind $0.02
+lapvegas52: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h 5c]
+pokerHero1: folds
+Electronikus: folds
+gizmondouk: folds
+WinstonO84: folds
+dboogaart: folds
+Uncalled bet ($0.01) returned to ady_alyn87
+ady_alyn87 collected $0.02 from pot
+ady_alyn87: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 3: WinstonO84 (button) folded before Flop (didn't bet)
+Seat 4: dboogaart (small blind) folded before Flop
+Seat 5: ady_alyn87 (big blind) collected ($0.02)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Electronikus folded before Flop (didn't bet)
+Seat 9: gizmondouk folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212113390230:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 13:57:42 ET
+Table 'Kepler II' 9-max Seat #4 is the button
+Seat 3: WinstonO84 ($1.50 in chips)
+Seat 4: dboogaart ($6.17 in chips)
+Seat 5: ady_alyn87 ($0.27 in chips)
+Seat 6: pokerHero1 ($3.91 in chips)
+Seat 8: Electronikus ($2.92 in chips)
+Seat 9: gizmondouk ($2.20 in chips)
+ady_alyn87: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+lapvegas52: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h 6c]
+Kuerby0815 joins the table at seat #7
+Electronikus: folds
+gizmondouk: raises $0.04 to $0.06
+WinstonO84: folds
+dboogaart: folds
+ady_alyn87: calls $0.05
+pokerHero1: folds
+*** FLOP *** [Th Jh 4s]
+ady_alyn87: checks
+gizmondouk: bets $0.08
+ady_alyn87: raises $0.10 to $0.18
+gizmondouk: folds
+Uncalled bet ($0.10) returned to ady_alyn87
+ady_alyn87 collected $0.29 from pot
+ady_alyn87: doesn't show hand
+*** SUMMARY ***
+Total pot $0.30 | Rake $0.01
+Board [Th Jh 4s]
+Seat 3: WinstonO84 folded before Flop (didn't bet)
+Seat 4: dboogaart (button) folded before Flop (didn't bet)
+Seat 5: ady_alyn87 (small blind) collected ($0.29)
+Seat 6: pokerHero1 (big blind) folded before Flop
+Seat 8: Electronikus folded before Flop (didn't bet)
+Seat 9: gizmondouk folded on the Flop
+
+
+
+PokerStars Hand #212113412965:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 13:58:12 ET
+Table 'Kepler II' 9-max Seat #5 is the button
+Seat 3: WinstonO84 ($1.50 in chips)
+Seat 4: dboogaart ($6.17 in chips)
+Seat 5: ady_alyn87 ($0.42 in chips)
+Seat 6: pokerHero1 ($3.89 in chips)
+Seat 7: Kuerby0815 ($1.60 in chips)
+Seat 8: Electronikus ($2.92 in chips)
+Seat 9: gizmondouk ($2.06 in chips)
+pokerHero1: posts small blind $0.01
+Kuerby0815: posts big blind $0.02
+lapvegas52: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ah Kc]
+Electronikus: folds
+gizmondouk: folds
+WinstonO84: folds
+dboogaart: folds
+ady_alyn87: calls $0.02
+pokerHero1: raises $0.08 to $0.10
+Kuerby0815: calls $0.08
+ady_alyn87: folds
+*** FLOP *** [Jd Qs Ac]
+pokerHero1: bets $0.14
+Kuerby0815: calls $0.14
+*** TURN *** [Jd Qs Ac] [4d]
+pokerHero1: bets $0.16
+Kuerby0815: calls $0.16
+*** RIVER *** [Jd Qs Ac 4d] [4h]
+ady_alyn87 leaves the table
+pokerHero1: bets $0.20
+Kuerby0815: raises $0.20 to $0.40
+pokerHero1: calls $0.20
+*** SHOW DOWN ***
+Kuerby0815: shows [9c Jh] (two pair, Jacks and Fours)
+pokerHero1: shows [Ah Kc] (two pair, Aces and Fours)
+pokerHero1 collected $1.56 from pot
+*** SUMMARY ***
+Total pot $1.62 | Rake $0.06
+Board [Jd Qs Ac 4d 4h]
+Seat 3: WinstonO84 folded before Flop (didn't bet)
+Seat 4: dboogaart folded before Flop (didn't bet)
+Seat 5: ady_alyn87 (button) folded before Flop
+Seat 6: pokerHero1 (small blind) showed [Ah Kc] and won ($1.56) with two pair, Aces and Fours
+Seat 7: Kuerby0815 (big blind) showed [9c Jh] and lost with two pair, Jacks and Fours
+Seat 8: Electronikus folded before Flop (didn't bet)
+Seat 9: gizmondouk folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212113448549:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 13:58:58 ET
+Table 'Kepler II' 9-max Seat #6 is the button
+Seat 3: WinstonO84 ($1.50 in chips)
+Seat 4: dboogaart ($6.17 in chips)
+Seat 6: pokerHero1 ($4.65 in chips)
+Seat 7: Kuerby0815 ($0.80 in chips)
+Seat 8: Electronikus ($2.92 in chips)
+Seat 9: gizmondouk ($2.06 in chips)
+Kuerby0815: posts small blind $0.01
+Electronikus: posts big blind $0.02
+lapvegas52: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d 8c]
+gizmondouk: raises $0.04 to $0.06
+WinstonO84: folds
+dboogaart: folds
+pokerHero1: folds
+Kuerby0815: calls $0.05
+Electronikus: folds
+*** FLOP *** [4s Ah 6d]
+Kuerby0815: bets $0.10
+gizmondouk: folds
+Uncalled bet ($0.10) returned to Kuerby0815
+Kuerby0815 collected $0.14 from pot
+Kuerby0815: doesn't show hand
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [4s Ah 6d]
+Seat 3: WinstonO84 folded before Flop (didn't bet)
+Seat 4: dboogaart folded before Flop (didn't bet)
+Seat 6: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 7: Kuerby0815 (small blind) collected ($0.14)
+Seat 8: Electronikus (big blind) folded before Flop
+Seat 9: gizmondouk folded on the Flop
+
+
+
+PokerStars Hand #212113469667:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 13:59:25 ET
+Table 'Kepler II' 9-max Seat #7 is the button
+Seat 3: WinstonO84 ($1.50 in chips)
+Seat 4: dboogaart ($6.17 in chips)
+Seat 6: pokerHero1 ($4.65 in chips)
+Seat 7: Kuerby0815 ($0.88 in chips)
+Seat 8: Electronikus ($2.90 in chips)
+Seat 9: gizmondouk ($2 in chips)
+Electronikus: posts small blind $0.01
+gizmondouk: posts big blind $0.02
+lapvegas52: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd 9h]
+WinstonO84: folds
+dboogaart: raises $0.04 to $0.06
+pokerHero1: folds
+Kuerby0815: calls $0.06
+Electronikus: calls $0.05
+gizmondouk: folds
+*** FLOP *** [Kc 2c 3s]
+Electronikus: checks
+dboogaart: checks
+Kuerby0815: checks
+*** TURN *** [Kc 2c 3s] [4h]
+Electronikus: checks
+dboogaart: checks
+Kuerby0815: bets $0.06
+Electronikus: folds
+dboogaart: folds
+Uncalled bet ($0.06) returned to Kuerby0815
+Kuerby0815 collected $0.19 from pot
+Kuerby0815: doesn't show hand
+*** SUMMARY ***
+Total pot $0.20 | Rake $0.01
+Board [Kc 2c 3s 4h]
+Seat 3: WinstonO84 folded before Flop (didn't bet)
+Seat 4: dboogaart folded on the Turn
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Kuerby0815 (button) collected ($0.19)
+Seat 8: Electronikus (small blind) folded on the Turn
+Seat 9: gizmondouk (big blind) folded before Flop
+
+
+
+PokerStars Hand #212113507600:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:00:11 ET
+Table 'Kepler II' 9-max Seat #8 is the button
+Seat 1: lapvegas52 ($1.60 in chips)
+Seat 3: WinstonO84 ($1.50 in chips)
+Seat 4: dboogaart ($6.11 in chips)
+Seat 6: pokerHero1 ($4.65 in chips)
+Seat 7: Kuerby0815 ($1.01 in chips)
+Seat 8: Electronikus ($2.84 in chips)
+Seat 9: gizmondouk ($2 in chips)
+gizmondouk: posts small blind $0.01
+lapvegas52: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d 4d]
+WinstonO84: folds
+dboogaart: folds
+pokerHero1: folds
+Kuerby0815: raises $0.02 to $0.04
+Electronikus: folds
+gizmondouk: folds
+lapvegas52: calls $0.02
+*** FLOP *** [Tc 8h Ad]
+lapvegas52: bets $0.02
+Kuerby0815: raises $0.02 to $0.04
+lapvegas52: calls $0.02
+*** TURN *** [Tc 8h Ad] [3s]
+lapvegas52: checks
+Kuerby0815: bets $0.10
+lapvegas52: calls $0.10
+*** RIVER *** [Tc 8h Ad 3s] [5h]
+lapvegas52: checks
+Kuerby0815: bets $0.14
+lapvegas52: folds
+Uncalled bet ($0.14) returned to Kuerby0815
+Kuerby0815 collected $0.36 from pot
+Kuerby0815: doesn't show hand
+*** SUMMARY ***
+Total pot $0.37 | Rake $0.01
+Board [Tc 8h Ad 3s 5h]
+Seat 1: lapvegas52 (big blind) folded on the River
+Seat 3: WinstonO84 folded before Flop (didn't bet)
+Seat 4: dboogaart folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Kuerby0815 collected ($0.36)
+Seat 8: Electronikus (button) folded before Flop (didn't bet)
+Seat 9: gizmondouk (small blind) folded before Flop
+
+
+
+PokerStars Hand #212113567159:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:01:20 ET
+Table 'Kepler II' 9-max Seat #9 is the button
+Seat 1: lapvegas52 ($1.42 in chips)
+Seat 3: WinstonO84 ($1.50 in chips)
+Seat 4: dboogaart ($6.11 in chips)
+Seat 6: pokerHero1 ($4.65 in chips)
+Seat 7: Kuerby0815 ($1.19 in chips)
+Seat 8: Electronikus ($2.84 in chips)
+Seat 9: gizmondouk ($2 in chips)
+lapvegas52: posts small blind $0.01
+WinstonO84: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c Tc]
+dboogaart: folds
+pokerHero1: folds
+Kuerby0815: calls $0.02
+Electronikus: folds
+gizmondouk: folds
+lapvegas52: calls $0.01
+WinstonO84: checks
+*** FLOP *** [Jc 4h 6d]
+lapvegas52: checks
+WinstonO84: checks
+Kuerby0815: checks
+*** TURN *** [Jc 4h 6d] [8c]
+lapvegas52: checks
+WinstonO84: checks
+Kuerby0815: bets $0.04
+lapvegas52: calls $0.04
+WinstonO84: folds
+*** RIVER *** [Jc 4h 6d 8c] [Ah]
+lapvegas52: checks
+Kuerby0815: bets $0.08
+lapvegas52: calls $0.08
+*** SHOW DOWN ***
+Kuerby0815: shows [2h Ac] (a pair of Aces)
+lapvegas52: mucks hand
+Kuerby0815 collected $0.29 from pot
+*** SUMMARY ***
+Total pot $0.30 | Rake $0.01
+Board [Jc 4h 6d 8c Ah]
+Seat 1: lapvegas52 (small blind) mucked [7h Ks]
+Seat 3: WinstonO84 (big blind) folded on the Turn
+Seat 4: dboogaart folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Kuerby0815 showed [2h Ac] and won ($0.29) with a pair of Aces
+Seat 8: Electronikus folded before Flop (didn't bet)
+Seat 9: gizmondouk (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212113630742:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:02:24 ET
+Table 'Kepler II' 9-max Seat #1 is the button
+Seat 1: lapvegas52 ($1.28 in chips)
+Seat 3: WinstonO84 ($1.48 in chips)
+Seat 4: dboogaart ($6.11 in chips)
+Seat 6: pokerHero1 ($4.65 in chips)
+Seat 7: Kuerby0815 ($1.34 in chips)
+Seat 8: Electronikus ($2.84 in chips)
+Seat 9: gizmondouk ($2 in chips)
+WinstonO84: posts small blind $0.01
+dboogaart: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c 6h]
+pokerHero1: calls $0.02
+Kuerby0815: calls $0.02
+Electronikus: folds
+gizmondouk: folds
+lapvegas52: calls $0.02
+WinstonO84: folds
+dboogaart: checks
+*** FLOP *** [Td 9s 8h]
+dboogaart: checks
+pokerHero1: checks
+Kuerby0815: checks
+lapvegas52: bets $0.02
+dboogaart: folds
+pokerHero1: folds
+Kuerby0815: folds
+Uncalled bet ($0.02) returned to lapvegas52
+lapvegas52 collected $0.09 from pot
+lapvegas52: doesn't show hand
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Board [Td 9s 8h]
+Seat 1: lapvegas52 (button) collected ($0.09)
+Seat 3: WinstonO84 (small blind) folded before Flop
+Seat 4: dboogaart (big blind) folded on the Flop
+Seat 6: pokerHero1 folded on the Flop
+Seat 7: Kuerby0815 folded on the Flop
+Seat 8: Electronikus folded before Flop (didn't bet)
+Seat 9: gizmondouk folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212113675028:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:03:05 ET
+Table 'Kepler II' 9-max Seat #3 is the button
+Seat 1: lapvegas52 ($1.35 in chips)
+Seat 3: WinstonO84 ($1.47 in chips)
+Seat 4: dboogaart ($6.09 in chips)
+Seat 6: pokerHero1 ($4.63 in chips)
+Seat 7: Kuerby0815 ($1.32 in chips)
+Seat 8: Electronikus ($2.84 in chips)
+Seat 9: gizmondouk ($2 in chips)
+dboogaart: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c 2h]
+Kuerby0815: calls $0.02
+Electronikus: folds
+gizmondouk: folds
+lapvegas52: calls $0.02
+WinstonO84: calls $0.02
+dboogaart: raises $0.10 to $0.12
+pokerHero1: folds
+Kuerby0815: folds
+lapvegas52: calls $0.10
+WinstonO84: folds
+*** FLOP *** [Ad 5h 3h]
+dboogaart: bets $0.18
+lapvegas52: folds
+Uncalled bet ($0.18) returned to dboogaart
+dboogaart collected $0.29 from pot
+dboogaart: doesn't show hand
+*** SUMMARY ***
+Total pot $0.30 | Rake $0.01
+Board [Ad 5h 3h]
+Seat 1: lapvegas52 folded on the Flop
+Seat 3: WinstonO84 (button) folded before Flop
+Seat 4: dboogaart (small blind) collected ($0.29)
+Seat 6: pokerHero1 (big blind) folded before Flop
+Seat 7: Kuerby0815 folded before Flop
+Seat 8: Electronikus folded before Flop (didn't bet)
+Seat 9: gizmondouk folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212113720415:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:03:48 ET
+Table 'Kepler II' 9-max Seat #4 is the button
+Seat 1: lapvegas52 ($1.23 in chips)
+Seat 3: WinstonO84 ($1.45 in chips)
+Seat 4: dboogaart ($6.26 in chips)
+Seat 6: pokerHero1 ($4.61 in chips)
+Seat 7: Kuerby0815 ($1.30 in chips)
+Seat 8: Electronikus ($2.84 in chips)
+Seat 9: gizmondouk ($2 in chips)
+pokerHero1: posts small blind $0.01
+Kuerby0815: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c Ah]
+Electronikus: folds
+gizmondouk: raises $0.04 to $0.06
+lapvegas52: calls $0.06
+WinstonO84: folds
+dboogaart: folds
+pokerHero1: folds
+Kuerby0815: calls $0.04
+*** FLOP *** [4d 6c Jc]
+Kuerby0815: checks
+gizmondouk: bets $0.12
+lapvegas52: raises $0.42 to $0.54
+Kuerby0815: folds
+gizmondouk: folds
+Uncalled bet ($0.42) returned to lapvegas52
+lapvegas52 collected $0.41 from pot
+lapvegas52: doesn't show hand
+*** SUMMARY ***
+Total pot $0.43 | Rake $0.02
+Board [4d 6c Jc]
+Seat 1: lapvegas52 collected ($0.41)
+Seat 3: WinstonO84 folded before Flop (didn't bet)
+Seat 4: dboogaart (button) folded before Flop (didn't bet)
+Seat 6: pokerHero1 (small blind) folded before Flop
+Seat 7: Kuerby0815 (big blind) folded on the Flop
+Seat 8: Electronikus folded before Flop (didn't bet)
+Seat 9: gizmondouk folded on the Flop
+
+
+
+PokerStars Hand #212113762804:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:04:28 ET
+Table 'Kepler II' 9-max Seat #6 is the button
+Seat 1: lapvegas52 ($1.46 in chips)
+Seat 3: WinstonO84 ($1.45 in chips)
+Seat 4: dboogaart ($6.26 in chips)
+Seat 6: pokerHero1 ($4.60 in chips)
+Seat 7: Kuerby0815 ($1.24 in chips)
+Seat 9: gizmondouk ($2 in chips)
+Kuerby0815: posts small blind $0.01
+Electronikus: is sitting out
+gizmondouk: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d 2c]
+lapvegas52: folds
+WinstonO84: folds
+dboogaart: folds
+pokerHero1: folds
+Kuerby0815: calls $0.01
+gizmondouk: raises $0.06 to $0.08
+Kuerby0815: folds
+Uncalled bet ($0.06) returned to gizmondouk
+gizmondouk collected $0.04 from pot
+gizmondouk: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 1: lapvegas52 folded before Flop (didn't bet)
+Seat 3: WinstonO84 folded before Flop (didn't bet)
+Seat 4: dboogaart folded before Flop (didn't bet)
+Seat 6: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 7: Kuerby0815 (small blind) folded before Flop
+Seat 9: gizmondouk (big blind) collected ($0.04)
+
+
+
+PokerStars Hand #212113778315:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:04:42 ET
+Table 'Kepler II' 9-max Seat #7 is the button
+Seat 1: lapvegas52 ($1.46 in chips)
+Seat 3: WinstonO84 ($1.45 in chips)
+Seat 4: dboogaart ($6.26 in chips)
+Seat 6: pokerHero1 ($4.60 in chips)
+Seat 7: Kuerby0815 ($1.22 in chips)
+Seat 9: gizmondouk ($2.02 in chips)
+gizmondouk: posts small blind $0.01
+lapvegas52: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jh 5d]
+WinstonO84: calls $0.02
+dboogaart: raises $0.06 to $0.08
+pokerHero1: folds
+Kuerby0815: raises $0.06 to $0.14
+gizmondouk: folds
+lapvegas52: folds
+WinstonO84: folds
+dboogaart: calls $0.06
+*** FLOP *** [Th 9c Ks]
+dboogaart: checks
+Kuerby0815: bets $0.18
+dboogaart: raises $0.24 to $0.42
+Kuerby0815: calls $0.24
+*** TURN *** [Th 9c Ks] [6h]
+dboogaart: bets $0.57
+Kuerby0815: raises $0.09 to $0.66 and is all-in
+dboogaart: calls $0.09
+*** RIVER *** [Th 9c Ks 6h] [5c]
+*** SHOW DOWN ***
+dboogaart: shows [Qd Jd] (a straight, Nine to King)
+Kuerby0815: shows [Qh Kd] (a pair of Kings)
+dboogaart collected $2.40 from pot
+*** SUMMARY ***
+Total pot $2.49 | Rake $0.09
+Board [Th 9c Ks 6h 5c]
+Seat 1: lapvegas52 (big blind) folded before Flop
+Seat 3: WinstonO84 folded before Flop
+Seat 4: dboogaart showed [Qd Jd] and won ($2.40) with a straight, Nine to King
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: Kuerby0815 (button) showed [Qh Kd] and lost with a pair of Kings
+Seat 9: gizmondouk (small blind) folded before Flop
+
+
+
+PokerStars Hand #212113833645:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 14:05:34 ET
+Table 'Kepler II' 9-max Seat #9 is the button
+Seat 1: lapvegas52 ($1.44 in chips)
+Seat 3: WinstonO84 ($1.43 in chips)
+Seat 4: dboogaart ($7.44 in chips)
+Seat 6: pokerHero1 ($4.60 in chips)
+Seat 9: gizmondouk ($2.01 in chips)
+lapvegas52: posts small blind $0.01
+WinstonO84: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s 4c]
+dboogaart: raises $0.06 to $0.08
+pokerHero1: folds
+gizmondouk: folds
+Kuerby0815 leaves the table
+lapvegas52: calls $0.07
+WinstonO84: folds
+*** FLOP *** [Kd Kc 3s]
+lapvegas52: checks
+dboogaart: bets $0.10
+lapvegas52: folds
+Uncalled bet ($0.10) returned to dboogaart
+dboogaart collected $0.17 from pot
+dboogaart: doesn't show hand
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [Kd Kc 3s]
+Seat 1: lapvegas52 (small blind) folded on the Flop
+Seat 3: WinstonO84 (big blind) folded before Flop
+Seat 4: dboogaart collected ($0.17)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 9: gizmondouk (button) folded before Flop (didn't bet)
+
+
+

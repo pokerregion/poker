@@ -1,0 +1,2237 @@
+﻿PokerStars Hand #212513686122:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:25:57 ET
+Table 'Leonora II' 9-max Seat #9 is the button
+Seat 1: olegos8888 ($0.76 in chips)
+Seat 2: pokerHero1 ($2 in chips)
+Seat 3: Luckblu ($2.07 in chips)
+Seat 5: dorkylork ($2.40 in chips)
+Seat 6: SIMMMONS ($2.25 in chips)
+Seat 7: greg7080 ($2.13 in chips)
+Seat 8: Vanek940 ($1.10 in chips)
+Seat 9: Tuhtyn ($1.64 in chips)
+olegos8888: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qs Jh]
+Luckblu: folds
+dorkylork: raises $0.06 to $0.08
+SIMMMONS: folds
+greg7080: folds
+Vanek940: folds
+Tuhtyn: folds
+olegos8888: folds
+pokerHero1: folds
+Uncalled bet ($0.06) returned to dorkylork
+dorkylork collected $0.05 from pot
+dorkylork: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: olegos8888 (small blind) folded before Flop
+Seat 2: pokerHero1 (big blind) folded before Flop
+Seat 3: Luckblu folded before Flop (didn't bet)
+Seat 5: dorkylork collected ($0.05)
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 7: greg7080 folded before Flop (didn't bet)
+Seat 8: Vanek940 folded before Flop (didn't bet)
+Seat 9: Tuhtyn (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513703260:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:26:15 ET
+Table 'Leonora II' 9-max Seat #1 is the button
+Seat 1: olegos8888 ($0.75 in chips)
+Seat 2: pokerHero1 ($1.98 in chips)
+Seat 3: Luckblu ($2.07 in chips)
+Seat 6: SIMMMONS ($2.25 in chips)
+Seat 7: greg7080 ($2.13 in chips)
+Seat 8: Vanek940 ($1.10 in chips)
+Seat 9: Tuhtyn ($1.64 in chips)
+pokerHero1: posts small blind $0.01
+Luckblu: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qd Ac]
+SIMMMONS: folds
+greg7080: folds
+Vanek940: folds
+Tuhtyn: calls $0.02
+olegos8888: raises $0.07 to $0.09
+pokerHero1: folds
+Luckblu: folds
+Tuhtyn: calls $0.07
+*** FLOP *** [4c Ts 3d]
+Tuhtyn: checks
+olegos8888: bets $0.12
+Tuhtyn: folds
+Uncalled bet ($0.12) returned to olegos8888
+olegos8888 collected $0.20 from pot
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [4c Ts 3d]
+Seat 1: olegos8888 (button) collected ($0.20)
+Seat 2: pokerHero1 (small blind) folded before Flop
+Seat 3: Luckblu (big blind) folded before Flop
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 7: greg7080 folded before Flop (didn't bet)
+Seat 8: Vanek940 folded before Flop (didn't bet)
+Seat 9: Tuhtyn folded on the Flop
+
+
+
+PokerStars Hand #212513737652:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:26:50 ET
+Table 'Leonora II' 9-max Seat #2 is the button
+Seat 1: olegos8888 ($0.86 in chips)
+Seat 2: pokerHero1 ($1.97 in chips)
+Seat 3: Luckblu ($2.05 in chips)
+Seat 6: SIMMMONS ($2.25 in chips)
+Seat 7: greg7080 ($2.13 in chips)
+Seat 8: Vanek940 ($1.10 in chips)
+Seat 9: Tuhtyn ($1.55 in chips)
+Luckblu: posts small blind $0.01
+SIMMMONS: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4c Ah]
+greg7080: folds
+Vanek940: folds
+Tuhtyn: folds
+olegos8888: folds
+pokerHero1: raises $0.04 to $0.06
+Luckblu: folds
+SIMMMONS: folds
+Uncalled bet ($0.04) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 (button) collected ($0.05)
+Seat 3: Luckblu (small blind) folded before Flop
+Seat 6: SIMMMONS (big blind) folded before Flop
+Seat 7: greg7080 folded before Flop (didn't bet)
+Seat 8: Vanek940 folded before Flop (didn't bet)
+Seat 9: Tuhtyn folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513752718:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:27:05 ET
+Table 'Leonora II' 9-max Seat #3 is the button
+Seat 1: olegos8888 ($0.86 in chips)
+Seat 2: pokerHero1 ($2 in chips)
+Seat 3: Luckblu ($2.04 in chips)
+Seat 6: SIMMMONS ($2.23 in chips)
+Seat 7: greg7080 ($2.13 in chips)
+Seat 8: Vanek940 ($1.10 in chips)
+Seat 9: Tuhtyn ($1.55 in chips)
+SIMMMONS: posts small blind $0.01
+greg7080: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s Kd]
+Vanek940: folds
+Tuhtyn: folds
+olegos8888: folds
+ebemtiparite joins the table at seat #5
+pokerHero1: folds
+Luckblu: folds
+SIMMMONS: folds
+Uncalled bet ($0.01) returned to greg7080
+greg7080 collected $0.02 from pot
+greg7080: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: Luckblu (button) folded before Flop (didn't bet)
+Seat 6: SIMMMONS (small blind) folded before Flop
+Seat 7: greg7080 (big blind) collected ($0.02)
+Seat 8: Vanek940 folded before Flop (didn't bet)
+Seat 9: Tuhtyn folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513766949:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:27:20 ET
+Table 'Leonora II' 9-max Seat #6 is the button
+Seat 1: olegos8888 ($0.86 in chips)
+Seat 2: pokerHero1 ($2 in chips)
+Seat 3: Luckblu ($2.04 in chips)
+Seat 6: SIMMMONS ($2.22 in chips)
+Seat 7: greg7080 ($2.14 in chips)
+Seat 8: Vanek940 ($1.10 in chips)
+Seat 9: Tuhtyn ($1.55 in chips)
+greg7080: posts small blind $0.01
+Vanek940: posts big blind $0.02
+ebemtiparite has timed out
+ebemtiparite: is sitting out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5h Kd]
+Tuhtyn: folds
+olegos8888: folds
+pokerHero1: folds
+Luckblu: folds
+SIMMMONS: folds
+greg7080: raises $0.02 to $0.04
+Vanek940: calls $0.02
+*** FLOP *** [8s Qd Ac]
+greg7080: checks
+Vanek940: bets $0.03
+greg7080: folds
+Uncalled bet ($0.03) returned to Vanek940
+Vanek940 collected $0.08 from pot
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Board [8s Qd Ac]
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: Luckblu folded before Flop (didn't bet)
+Seat 6: SIMMMONS (button) folded before Flop (didn't bet)
+Seat 7: greg7080 (small blind) folded on the Flop
+Seat 8: Vanek940 (big blind) collected ($0.08)
+Seat 9: Tuhtyn folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513810647:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:28:05 ET
+Table 'Leonora II' 9-max Seat #7 is the button
+Seat 1: olegos8888 ($0.86 in chips)
+Seat 2: pokerHero1 ($2 in chips)
+Seat 3: Luckblu ($2.04 in chips)
+Seat 6: SIMMMONS ($2.22 in chips)
+Seat 7: greg7080 ($2.10 in chips)
+Seat 8: Vanek940 ($1.14 in chips)
+Seat 9: Tuhtyn ($1.55 in chips)
+Vanek940: posts small blind $0.01
+Tuhtyn: posts big blind $0.02
+yerkin_ggwp: sits out
+ebemtiparite: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s 3s]
+olegos8888: calls $0.02
+pokerHero1: folds
+Luckblu: folds
+SIMMMONS: folds
+greg7080: folds
+Vanek940: calls $0.01
+Tuhtyn: checks
+*** FLOP *** [2c 4d Kh]
+Vanek940: checks
+Tuhtyn: bets $0.04
+olegos8888: calls $0.04
+Vanek940: calls $0.04
+*** TURN *** [2c 4d Kh] [Th]
+Vanek940: checks
+Tuhtyn: checks
+olegos8888: bets $0.09
+Vanek940: folds
+Tuhtyn: calls $0.09
+*** RIVER *** [2c 4d Kh Th] [Jd]
+Tuhtyn: checks
+olegos8888: checks
+*** SHOW DOWN ***
+Tuhtyn: shows [7s 7h] (a pair of Sevens)
+olegos8888: shows [Qc Kc] (a pair of Kings)
+olegos8888 collected $0.35 from pot
+*** SUMMARY ***
+Total pot $0.36 | Rake $0.01
+Board [2c 4d Kh Th Jd]
+Seat 1: olegos8888 showed [Qc Kc] and won ($0.35) with a pair of Kings
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: Luckblu folded before Flop (didn't bet)
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 7: greg7080 (button) folded before Flop (didn't bet)
+Seat 8: Vanek940 (small blind) folded on the Turn
+Seat 9: Tuhtyn (big blind) showed [7s 7h] and lost with a pair of Sevens
+
+
+
+PokerStars Hand #212513873294:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:29:10 ET
+Table 'Leonora II' 9-max Seat #8 is the button
+Seat 1: olegos8888 ($1.06 in chips)
+Seat 2: pokerHero1 ($2 in chips)
+Seat 3: Luckblu ($2.04 in chips)
+Seat 4: yerkin_ggwp ($0.90 in chips)
+Seat 6: SIMMMONS ($2.22 in chips)
+Seat 7: greg7080 ($2.10 in chips)
+Seat 8: Vanek940 ($1.08 in chips)
+Seat 9: Tuhtyn ($1.40 in chips)
+Tuhtyn: posts small blind $0.01
+olegos8888: posts big blind $0.02
+yerkin_ggwp: posts small & big blinds $0.03
+ebemtiparite: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As Qd]
+pokerHero1: raises $0.06 to $0.08
+Luckblu: calls $0.08
+yerkin_ggwp: calls $0.06
+SIMMMONS: folds
+greg7080: folds
+Vanek940: raises $1 to $1.08 and is all-in
+Tuhtyn: folds
+olegos8888: folds
+pokerHero1: folds
+Luckblu: folds
+yerkin_ggwp: folds
+Uncalled bet ($1) returned to Vanek940
+Vanek940 collected $0.36 from pot
+Vanek940: doesn't show hand
+*** SUMMARY ***
+Total pot $0.36 | Rake $0
+Seat 1: olegos8888 (big blind) folded before Flop
+Seat 2: pokerHero1 folded before Flop
+Seat 3: Luckblu folded before Flop
+Seat 4: yerkin_ggwp folded before Flop
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 7: greg7080 folded before Flop (didn't bet)
+Seat 8: Vanek940 (button) collected ($0.36)
+Seat 9: Tuhtyn (small blind) folded before Flop
+
+
+
+PokerStars Hand #212513923502:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:30:02 ET
+Table 'Leonora II' 9-max Seat #9 is the button
+Seat 1: olegos8888 ($1.04 in chips)
+Seat 2: pokerHero1 ($1.92 in chips)
+Seat 3: Luckblu ($2 in chips)
+Seat 4: yerkin_ggwp ($0.81 in chips)
+Seat 6: SIMMMONS ($2.22 in chips)
+Seat 7: greg7080 ($2.10 in chips)
+Seat 8: Vanek940 ($1.36 in chips)
+Seat 9: Tuhtyn ($1.39 in chips)
+olegos8888: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+ebemtiparite: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c Td]
+Luckblu: raises $0.04 to $0.06
+yerkin_ggwp: folds
+SIMMMONS: folds
+greg7080: folds
+Vanek940: calls $0.06
+Tuhtyn: folds
+olegos8888: folds
+pokerHero1: folds
+*** FLOP *** [Tc 4h 5d]
+Luckblu: bets $0.07
+Vanek940: folds
+Uncalled bet ($0.07) returned to Luckblu
+Luckblu collected $0.14 from pot
+Luckblu: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [Tc 4h 5d]
+Seat 1: olegos8888 (small blind) folded before Flop
+Seat 2: pokerHero1 (big blind) folded before Flop
+Seat 3: Luckblu collected ($0.14)
+Seat 4: yerkin_ggwp folded before Flop (didn't bet)
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 7: greg7080 folded before Flop (didn't bet)
+Seat 8: Vanek940 folded on the Flop
+Seat 9: Tuhtyn (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513953706:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:30:33 ET
+Table 'Leonora II' 9-max Seat #1 is the button
+Seat 1: olegos8888 ($1.03 in chips)
+Seat 2: pokerHero1 ($1.90 in chips)
+Seat 4: yerkin_ggwp ($0.81 in chips)
+Seat 6: SIMMMONS ($2.22 in chips)
+Seat 7: greg7080 ($2.10 in chips)
+Seat 8: Vanek940 ($1.30 in chips)
+Seat 9: Tuhtyn ($1.39 in chips)
+pokerHero1: posts small blind $0.01
+Luckblu: is sitting out
+yerkin_ggwp: posts big blind $0.02
+ebemtiparite: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9h 6s]
+SIMMMONS: folds
+Luckblu leaves the table
+greg7080: folds
+Vanek940: raises $0.04 to $0.06
+Tuhtyn: calls $0.06
+dafer1989 joins the table at seat #3
+olegos8888: folds
+pokerHero1: folds
+yerkin_ggwp: calls $0.04
+*** FLOP *** [Ks Th 2d]
+yerkin_ggwp: bets $0.05
+Vanek940: calls $0.05
+Tuhtyn: calls $0.05
+*** TURN *** [Ks Th 2d] [8c]
+yerkin_ggwp: checks
+Vanek940: bets $0.13
+Tuhtyn: calls $0.13
+yerkin_ggwp: calls $0.13
+*** RIVER *** [Ks Th 2d 8c] [3c]
+yerkin_ggwp: checks
+Vanek940: checks
+Tuhtyn: checks
+*** SHOW DOWN ***
+yerkin_ggwp: shows [Js Td] (a pair of Tens)
+Vanek940: shows [Ah Tc] (a pair of Tens - Ace kicker)
+Tuhtyn: mucks hand
+Vanek940 collected $0.70 from pot
+*** SUMMARY ***
+Total pot $0.73 | Rake $0.03
+Board [Ks Th 2d 8c 3c]
+Seat 1: olegos8888 (button) folded before Flop (didn't bet)
+Seat 2: pokerHero1 (small blind) folded before Flop
+Seat 4: yerkin_ggwp (big blind) showed [Js Td] and lost with a pair of Tens
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 7: greg7080 folded before Flop (didn't bet)
+Seat 8: Vanek940 showed [Ah Tc] and won ($0.70) with a pair of Tens
+Seat 9: Tuhtyn mucked [Qd As]
+
+
+
+PokerStars Hand #212514020227:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:31:40 ET
+Table 'Leonora II' 9-max Seat #2 is the button
+Seat 1: olegos8888 ($1.03 in chips)
+Seat 2: pokerHero1 ($1.89 in chips)
+Seat 4: yerkin_ggwp ($0.57 in chips)
+Seat 5: ebemtiparite ($0.80 in chips)
+Seat 6: SIMMMONS ($2.22 in chips)
+Seat 7: greg7080 ($2.10 in chips)
+Seat 8: Vanek940 ($1.76 in chips)
+Seat 9: Tuhtyn ($1.15 in chips)
+yerkin_ggwp: posts small blind $0.01
+ebemtiparite: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As 4h]
+SIMMMONS: raises $0.04 to $0.06
+greg7080: calls $0.06
+Vanek940: folds
+Tuhtyn: calls $0.06
+olegos8888: folds
+pokerHero1: folds
+yerkin_ggwp: calls $0.05
+ebemtiparite: folds
+*** FLOP *** [Qd 5c Ah]
+yerkin_ggwp: checks
+SIMMMONS: checks
+greg7080: checks
+Tuhtyn: bets $0.06
+yerkin_ggwp: calls $0.06
+SIMMMONS: folds
+greg7080: folds
+*** TURN *** [Qd 5c Ah] [Kd]
+yerkin_ggwp: checks
+Tuhtyn: bets $0.06
+yerkin_ggwp: folds
+Uncalled bet ($0.06) returned to Tuhtyn
+Tuhtyn collected $0.37 from pot
+*** SUMMARY ***
+Total pot $0.38 | Rake $0.01
+Board [Qd 5c Ah Kd]
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 4: yerkin_ggwp (small blind) folded on the Turn
+Seat 5: ebemtiparite (big blind) folded before Flop
+Seat 6: SIMMMONS folded on the Flop
+Seat 7: greg7080 folded on the Flop
+Seat 8: Vanek940 folded before Flop (didn't bet)
+Seat 9: Tuhtyn collected ($0.37)
+
+
+
+PokerStars Hand #212514078841:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:32:40 ET
+Table 'Leonora II' 9-max Seat #4 is the button
+Seat 1: olegos8888 ($1.03 in chips)
+Seat 2: pokerHero1 ($1.89 in chips)
+Seat 4: yerkin_ggwp ($0.45 in chips)
+Seat 5: ebemtiparite ($0.78 in chips)
+Seat 6: SIMMMONS ($2.16 in chips)
+Seat 7: greg7080 ($2.04 in chips)
+Seat 8: Vanek940 ($1.76 in chips)
+Seat 9: Tuhtyn ($1.40 in chips)
+ebemtiparite: posts small blind $0.01
+SIMMMONS: posts big blind $0.02
+dafer1989: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc Qh]
+greg7080: folds
+Vanek940: folds
+Tuhtyn: folds
+olegos8888: folds
+pokerHero1: folds
+yerkin_ggwp: folds
+ebemtiparite: calls $0.01
+SIMMMONS: checks
+*** FLOP *** [8c 5d 8d]
+ebemtiparite: bets $0.02
+SIMMMONS: folds
+Uncalled bet ($0.02) returned to ebemtiparite
+ebemtiparite collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [8c 5d 8d]
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 4: yerkin_ggwp (button) folded before Flop (didn't bet)
+Seat 5: ebemtiparite (small blind) collected ($0.04)
+Seat 6: SIMMMONS (big blind) folded on the Flop
+Seat 7: greg7080 folded before Flop (didn't bet)
+Seat 8: Vanek940 folded before Flop (didn't bet)
+Seat 9: Tuhtyn folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514121875:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:33:23 ET
+Table 'Leonora II' 9-max Seat #5 is the button
+Seat 1: olegos8888 ($1.03 in chips)
+Seat 2: pokerHero1 ($2 in chips)
+Seat 4: yerkin_ggwp ($0.45 in chips)
+Seat 5: ebemtiparite ($0.80 in chips)
+Seat 6: SIMMMONS ($2.14 in chips)
+Seat 7: greg7080 ($2.04 in chips)
+Seat 8: Vanek940 ($1.76 in chips)
+Seat 9: Tuhtyn ($1.40 in chips)
+SIMMMONS: posts small blind $0.01
+greg7080: posts big blind $0.02
+dafer1989: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th 3s]
+Vanek940: folds
+Tuhtyn: folds
+olegos8888: folds
+pokerHero1: folds
+yerkin_ggwp: calls $0.02
+ebemtiparite: folds
+SIMMMONS: calls $0.01
+greg7080: checks
+*** FLOP *** [2c Js 3h]
+SIMMMONS: checks
+greg7080: checks
+yerkin_ggwp: checks
+*** TURN *** [2c Js 3h] [6s]
+SIMMMONS: checks
+greg7080: bets $0.06
+yerkin_ggwp: calls $0.06
+SIMMMONS: folds
+*** RIVER *** [2c Js 3h 6s] [2s]
+greg7080: bets $0.09
+yerkin_ggwp: calls $0.09
+*** SHOW DOWN ***
+greg7080: shows [8s Jh] (two pair, Jacks and Deuces)
+yerkin_ggwp: shows [Kc Ks] (two pair, Kings and Deuces)
+yerkin_ggwp collected $0.35 from pot
+*** SUMMARY ***
+Total pot $0.36 | Rake $0.01
+Board [2c Js 3h 6s 2s]
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 4: yerkin_ggwp showed [Kc Ks] and won ($0.35) with two pair, Kings and Deuces
+Seat 5: ebemtiparite (button) folded before Flop (didn't bet)
+Seat 6: SIMMMONS (small blind) folded on the Turn
+Seat 7: greg7080 (big blind) showed [8s Jh] and lost with two pair, Jacks and Deuces
+Seat 8: Vanek940 folded before Flop (didn't bet)
+Seat 9: Tuhtyn folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514194217:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:34:37 ET
+Table 'Leonora II' 9-max Seat #6 is the button
+Seat 1: olegos8888 ($1.03 in chips)
+Seat 2: pokerHero1 ($2 in chips)
+Seat 4: yerkin_ggwp ($0.63 in chips)
+Seat 5: ebemtiparite ($0.80 in chips)
+Seat 6: SIMMMONS ($2.12 in chips)
+Seat 7: greg7080 ($1.87 in chips)
+Seat 9: Tuhtyn ($1.40 in chips)
+greg7080: posts small blind $0.01
+Vanek940: is sitting out
+Tuhtyn: posts big blind $0.02
+dafer1989: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c 4d]
+Vanek940 leaves the table
+olegos8888: folds
+pokerHero1: folds
+yerkin_ggwp: calls $0.02
+yjqian23 joins the table at seat #8
+ebemtiparite: folds
+SIMMMONS: calls $0.02
+greg7080: raises $0.06 to $0.08
+Tuhtyn: folds
+yerkin_ggwp: calls $0.06
+SIMMMONS: calls $0.06
+*** FLOP *** [9c Tc Ac]
+greg7080: checks
+yerkin_ggwp: bets $0.05
+SIMMMONS: folds
+greg7080: calls $0.05
+*** TURN *** [9c Tc Ac] [Ah]
+greg7080: checks
+yerkin_ggwp: bets $0.20
+greg7080: calls $0.20
+*** RIVER *** [9c Tc Ac Ah] [2c]
+greg7080: checks
+yerkin_ggwp: checks
+*** SHOW DOWN ***
+greg7080: shows [Qh As] (three of a kind, Aces)
+yerkin_ggwp: shows [4c Ad] (a flush, Ace high)
+yerkin_ggwp collected $0.73 from pot
+*** SUMMARY ***
+Total pot $0.76 | Rake $0.03
+Board [9c Tc Ac Ah 2c]
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 4: yerkin_ggwp showed [4c Ad] and won ($0.73) with a flush, Ace high
+Seat 5: ebemtiparite folded before Flop (didn't bet)
+Seat 6: SIMMMONS (button) folded on the Flop
+Seat 7: greg7080 (small blind) showed [Qh As] and lost with three of a kind, Aces
+Seat 9: Tuhtyn (big blind) folded before Flop
+
+
+
+PokerStars Hand #212514262860:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:35:48 ET
+Table 'Leonora II' 9-max Seat #7 is the button
+Seat 1: olegos8888 ($1.03 in chips)
+Seat 2: pokerHero1 ($2 in chips)
+Seat 4: yerkin_ggwp ($1.03 in chips)
+Seat 5: ebemtiparite ($0.80 in chips)
+Seat 6: SIMMMONS ($2.04 in chips)
+Seat 7: greg7080 ($1.54 in chips)
+Seat 9: Tuhtyn ($1.38 in chips)
+Tuhtyn: posts small blind $0.01
+olegos8888: posts big blind $0.02
+dafer1989: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8c 4h]
+pokerHero1: folds
+yerkin_ggwp: calls $0.02
+ebemtiparite: folds
+SIMMMONS: folds
+greg7080: folds
+Tuhtyn: calls $0.01
+olegos8888: checks
+*** FLOP *** [Ts 5d 4c]
+Tuhtyn: checks
+olegos8888: checks
+yerkin_ggwp: checks
+*** TURN *** [Ts 5d 4c] [4s]
+Tuhtyn: checks
+olegos8888: checks
+yerkin_ggwp: checks
+*** RIVER *** [Ts 5d 4c 4s] [Jd]
+Tuhtyn: bets $0.04
+olegos8888: folds
+yerkin_ggwp: folds
+Uncalled bet ($0.04) returned to Tuhtyn
+Tuhtyn collected $0.06 from pot
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [Ts 5d 4c 4s Jd]
+Seat 1: olegos8888 (big blind) folded on the River
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 4: yerkin_ggwp folded on the River
+Seat 5: ebemtiparite folded before Flop (didn't bet)
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 7: greg7080 (button) folded before Flop (didn't bet)
+Seat 9: Tuhtyn (small blind) collected ($0.06)
+
+
+
+PokerStars Hand #212514336371:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:37:00 ET
+Table 'Leonora II' 9-max Seat #9 is the button
+Seat 1: olegos8888 ($1.01 in chips)
+Seat 2: pokerHero1 ($2 in chips)
+Seat 4: yerkin_ggwp ($1.01 in chips)
+Seat 5: ebemtiparite ($0.80 in chips)
+Seat 6: SIMMMONS ($2.04 in chips)
+Seat 7: greg7080 ($2 in chips)
+Seat 9: Tuhtyn ($1.42 in chips)
+olegos8888: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+dafer1989: sits out
+yjqian23: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s Qc]
+yerkin_ggwp: folds
+ebemtiparite: folds
+SIMMMONS: folds
+greg7080: folds
+Tuhtyn: folds
+olegos8888: raises $0.04 to $0.06
+pokerHero1: folds
+Uncalled bet ($0.04) returned to olegos8888
+olegos8888 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 1: olegos8888 (small blind) collected ($0.04)
+Seat 2: pokerHero1 (big blind) folded before Flop
+Seat 4: yerkin_ggwp folded before Flop (didn't bet)
+Seat 5: ebemtiparite folded before Flop (didn't bet)
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 7: greg7080 folded before Flop (didn't bet)
+Seat 9: Tuhtyn (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514368472:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:37:33 ET
+Table 'Leonora II' 9-max Seat #1 is the button
+Seat 1: olegos8888 ($1.03 in chips)
+Seat 2: pokerHero1 ($1.98 in chips)
+Seat 3: dafer1989 ($0.80 in chips)
+Seat 4: yerkin_ggwp ($1.01 in chips)
+Seat 5: ebemtiparite ($0.80 in chips)
+Seat 6: SIMMMONS ($2.04 in chips)
+Seat 7: greg7080 ($2 in chips)
+Seat 9: Tuhtyn ($1.42 in chips)
+pokerHero1: posts small blind $0.01
+dafer1989: posts big blind $0.02
+yjqian23: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c 6s]
+yerkin_ggwp: calls $0.02
+ebemtiparite: raises $0.02 to $0.04
+SIMMMONS: folds
+greg7080: folds
+Tuhtyn: calls $0.04
+olegos8888: folds
+pokerHero1: calls $0.03
+dafer1989 is disconnected
+dafer1989 is connected
+dafer1989 has timed out
+dafer1989: folds
+yerkin_ggwp: calls $0.02
+*** FLOP *** [5c 8d Tc]
+pokerHero1: checks
+yerkin_ggwp: checks
+ebemtiparite: checks
+Tuhtyn: checks
+*** TURN *** [5c 8d Tc] [2c]
+pokerHero1: checks
+yerkin_ggwp: checks
+ebemtiparite: bets $0.17
+Tuhtyn: folds
+pokerHero1: folds
+yerkin_ggwp: folds
+Uncalled bet ($0.17) returned to ebemtiparite
+ebemtiparite collected $0.17 from pot
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [5c 8d Tc 2c]
+Seat 1: olegos8888 (button) folded before Flop (didn't bet)
+Seat 2: pokerHero1 (small blind) folded on the Turn
+Seat 3: dafer1989 (big blind) folded before Flop
+Seat 4: yerkin_ggwp folded on the Turn
+Seat 5: ebemtiparite collected ($0.17)
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 7: greg7080 folded before Flop (didn't bet)
+Seat 9: Tuhtyn folded on the Turn
+
+
+
+PokerStars Hand #212514490956:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:39:37 ET
+Table 'Leonora II' 9-max Seat #2 is the button
+Seat 1: olegos8888 ($1.03 in chips)
+Seat 2: pokerHero1 ($1.94 in chips)
+Seat 3: dafer1989 ($0.78 in chips)
+Seat 4: yerkin_ggwp ($0.97 in chips)
+Seat 5: ebemtiparite ($0.93 in chips)
+Seat 6: SIMMMONS ($2.04 in chips)
+Seat 7: greg7080 ($2 in chips)
+Seat 9: Tuhtyn ($1.38 in chips)
+dafer1989: posts small blind $0.01
+yerkin_ggwp: posts big blind $0.02
+yjqian23: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kh Ah]
+ebemtiparite: folds
+SIMMMONS: folds
+greg7080: folds
+Tuhtyn: calls $0.02
+olegos8888: calls $0.02
+pokerHero1: raises $0.10 to $0.12
+dafer1989: folds
+yerkin_ggwp: calls $0.10
+Tuhtyn: calls $0.10
+olegos8888: calls $0.10
+*** FLOP *** [9s Kd 6h]
+yerkin_ggwp: checks
+Tuhtyn: checks
+olegos8888: checks
+pokerHero1: bets $0.47
+yerkin_ggwp: folds
+Tuhtyn: folds
+olegos8888: folds
+Uncalled bet ($0.47) returned to pokerHero1
+pokerHero1 collected $0.47 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.49 | Rake $0.02
+Board [9s Kd 6h]
+Seat 1: olegos8888 folded on the Flop
+Seat 2: pokerHero1 (button) collected ($0.47)
+Seat 3: dafer1989 (small blind) folded before Flop
+Seat 4: yerkin_ggwp (big blind) folded on the Flop
+Seat 5: ebemtiparite folded before Flop (didn't bet)
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 7: greg7080 folded before Flop (didn't bet)
+Seat 9: Tuhtyn folded on the Flop
+
+
+
+PokerStars Hand #212514564601:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:40:47 ET
+Table 'Leonora II' 9-max Seat #3 is the button
+Seat 1: olegos8888 ($0.91 in chips)
+Seat 2: pokerHero1 ($2.29 in chips)
+Seat 3: dafer1989 ($0.77 in chips)
+Seat 4: yerkin_ggwp ($0.85 in chips)
+Seat 5: ebemtiparite ($0.93 in chips)
+Seat 6: SIMMMONS ($2.04 in chips)
+Seat 7: greg7080 ($2 in chips)
+Seat 9: Tuhtyn ($1.26 in chips)
+yerkin_ggwp: posts small blind $0.01
+ebemtiparite: posts big blind $0.02
+yjqian23: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8s 8d]
+SIMMMONS: folds
+greg7080: folds
+Tuhtyn: folds
+olegos8888: folds
+pokerHero1: calls $0.02
+dafer1989: folds
+yerkin_ggwp: calls $0.01
+ebemtiparite: checks
+*** FLOP *** [Jc Qh Ts]
+yerkin_ggwp: bets $0.02
+ebemtiparite: folds
+pokerHero1: folds
+Uncalled bet ($0.02) returned to yerkin_ggwp
+yerkin_ggwp collected $0.06 from pot
+yerkin_ggwp: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [Jc Qh Ts]
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 folded on the Flop
+Seat 3: dafer1989 (button) folded before Flop (didn't bet)
+Seat 4: yerkin_ggwp (small blind) collected ($0.06)
+Seat 5: ebemtiparite (big blind) folded on the Flop
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 7: greg7080 folded before Flop (didn't bet)
+Seat 9: Tuhtyn folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514594619:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:41:17 ET
+Table 'Leonora II' 9-max Seat #4 is the button
+Seat 1: olegos8888 ($0.91 in chips)
+Seat 2: pokerHero1 ($2.27 in chips)
+Seat 3: dafer1989 ($0.77 in chips)
+Seat 4: yerkin_ggwp ($0.89 in chips)
+Seat 5: ebemtiparite ($0.91 in chips)
+Seat 6: SIMMMONS ($2.04 in chips)
+Seat 7: greg7080 ($2 in chips)
+ebemtiparite: posts small blind $0.01
+SIMMMONS: posts big blind $0.02
+yjqian23: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c 8s]
+greg7080: folds
+olegos8888: folds
+pokerHero1: folds
+dafer1989: folds
+yerkin_ggwp: calls $0.02
+ebemtiparite: calls $0.01
+SIMMMONS: checks
+*** FLOP *** [4c 6d 4s]
+ebemtiparite: bets $0.02
+SIMMMONS: folds
+yerkin_ggwp: calls $0.02
+*** TURN *** [4c 6d 4s] [9s]
+ebemtiparite: bets $0.10
+yerkin_ggwp: calls $0.10
+*** RIVER *** [4c 6d 4s 9s] [5h]
+ebemtiparite: checks
+yerkin_ggwp: checks
+*** SHOW DOWN ***
+ebemtiparite: shows [Jd Td] (a pair of Fours)
+yerkin_ggwp: shows [3s 3d] (two pair, Fours and Threes)
+yerkin_ggwp collected $0.29 from pot
+*** SUMMARY ***
+Total pot $0.30 | Rake $0.01
+Board [4c 6d 4s 9s 5h]
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: dafer1989 folded before Flop (didn't bet)
+Seat 4: yerkin_ggwp (button) showed [3s 3d] and won ($0.29) with two pair, Fours and Threes
+Seat 5: ebemtiparite (small blind) showed [Jd Td] and lost with a pair of Fours
+Seat 6: SIMMMONS (big blind) folded on the Flop
+Seat 7: greg7080 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514668503:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:42:32 ET
+Table 'Leonora II' 9-max Seat #5 is the button
+Seat 1: olegos8888 ($0.91 in chips)
+Seat 2: pokerHero1 ($2.27 in chips)
+Seat 3: dafer1989 ($0.77 in chips)
+Seat 5: ebemtiparite ($0.77 in chips)
+Seat 6: SIMMMONS ($2.02 in chips)
+Seat 8: yjqian23 ($2 in chips)
+SIMMMONS: posts small blind $0.01
+yjqian23: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc 5h]
+olegos8888: folds
+pokerHero1: folds
+dafer1989: raises $0.02 to $0.04
+ebemtiparite is disconnected
+ebemtiparite has timed out
+ebemtiparite: folds
+SIMMMONS: folds
+yjqian23: raises $0.09 to $0.13
+dafer1989: calls $0.09
+*** FLOP *** [Kh 5c Kc]
+yjqian23: bets $0.02
+dafer1989: calls $0.02
+*** TURN *** [Kh 5c Kc] [Kd]
+yjqian23: bets $0.02
+ebemtiparite leaves the table
+dafer1989: raises $0.08 to $0.10
+yjqian23: calls $0.08
+*** RIVER *** [Kh 5c Kc Kd] [4h]
+yjqian23: bets $0.02
+dafer1989: calls $0.02
+*** SHOW DOWN ***
+yjqian23: shows [Ah Ad] (a full house, Kings full of Aces)
+dafer1989: mucks hand
+yjqian23 collected $0.53 from pot
+*** SUMMARY ***
+Total pot $0.55 | Rake $0.02
+Board [Kh 5c Kc Kd 4h]
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: dafer1989 mucked [Th Ac]
+Seat 5: ebemtiparite (button) folded before Flop (didn't bet)
+Seat 6: SIMMMONS (small blind) folded before Flop
+Seat 8: yjqian23 (big blind) showed [Ah Ad] and won ($0.53) with a full house, Kings full of Aces
+
+
+
+PokerStars Hand #212514743386:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:43:49 ET
+Table 'Leonora II' 9-max Seat #6 is the button
+Seat 1: olegos8888 ($0.91 in chips)
+Seat 2: pokerHero1 ($2.27 in chips)
+Seat 3: dafer1989 ($0.50 in chips)
+Seat 6: SIMMMONS ($2.01 in chips)
+Seat 8: yjqian23 ($2.26 in chips)
+Seat 9: Tuhtyn ($1.26 in chips)
+yjqian23: posts small blind $0.01
+Tuhtyn: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h 7c]
+olegos8888: calls $0.02
+pokerHero1: folds
+dafer1989: folds
+SIMMMONS: folds
+yjqian23: folds
+Tuhtyn: checks
+*** FLOP *** [2c Qh Kd]
+Tuhtyn: bets $0.02
+olegos8888: folds
+Uncalled bet ($0.02) returned to Tuhtyn
+Tuhtyn collected $0.05 from pot
+sashsashsash joins the table at seat #5
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [2c Qh Kd]
+Seat 1: olegos8888 folded on the Flop
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: dafer1989 folded before Flop (didn't bet)
+Seat 6: SIMMMONS (button) folded before Flop (didn't bet)
+Seat 8: yjqian23 (small blind) folded before Flop
+Seat 9: Tuhtyn (big blind) collected ($0.05)
+
+
+
+PokerStars Hand #212514762355:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:44:08 ET
+Table 'Leonora II' 9-max Seat #8 is the button
+Seat 1: olegos8888 ($0.89 in chips)
+Seat 2: pokerHero1 ($2.27 in chips)
+Seat 3: dafer1989 ($0.50 in chips)
+Seat 6: SIMMMONS ($2.01 in chips)
+Seat 8: yjqian23 ($2.25 in chips)
+Seat 9: Tuhtyn ($1.29 in chips)
+Tuhtyn: posts small blind $0.01
+olegos8888: posts big blind $0.02
+sashsashsash: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As 3c]
+pokerHero1: folds
+dafer1989: folds
+SIMMMONS: folds
+yjqian23: folds
+yjqian23 leaves the table
+Tuhtyn: folds
+Uncalled bet ($0.01) returned to olegos8888
+olegos8888 collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: olegos8888 (big blind) collected ($0.02)
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: dafer1989 folded before Flop (didn't bet)
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 8: yjqian23 (button) folded before Flop (didn't bet)
+Seat 9: Tuhtyn (small blind) folded before Flop
+
+
+
+PokerStars Hand #212514774015:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:44:20 ET
+Table 'Leonora II' 9-max Seat #9 is the button
+Seat 1: olegos8888 ($0.90 in chips)
+Seat 2: pokerHero1 ($2.27 in chips)
+Seat 3: dafer1989 ($0.50 in chips)
+Seat 6: SIMMMONS ($2.01 in chips)
+Seat 9: Tuhtyn ($1.28 in chips)
+olegos8888: posts small blind $0.01
+Donatello-llo joins the table at seat #8
+pokerHero1: posts big blind $0.02
+sashsashsash: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6h Kd]
+dafer1989: calls $0.02
+SIMMMONS: folds
+Tuhtyn: folds
+olegos8888: calls $0.01
+pokerHero1: checks
+*** FLOP *** [4d 6d 3d]
+olegos8888: checks
+pokerHero1: bets $0.06
+dafer1989: folds
+olegos8888: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.06 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [4d 6d 3d]
+Seat 1: olegos8888 (small blind) folded on the Flop
+Seat 2: pokerHero1 (big blind) collected ($0.06)
+Seat 3: dafer1989 folded on the Flop
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 9: Tuhtyn (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514815221:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:44:52 ET
+Table 'Leonora II' 9-max Seat #1 is the button
+Seat 1: olegos8888 ($0.88 in chips)
+Seat 2: pokerHero1 ($2.31 in chips)
+Seat 3: dafer1989 ($0.48 in chips)
+Seat 6: SIMMMONS ($2.01 in chips)
+Seat 9: Tuhtyn ($1.28 in chips)
+pokerHero1: posts small blind $0.01
+dafer1989: posts big blind $0.02
+sashsashsash: sits out
+Donatello-llo: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d 6c]
+SIMMMONS: folds
+Tuhtyn: raises $0.04 to $0.06
+olegos8888: folds
+pokerHero1: folds
+dafer1989: folds
+Uncalled bet ($0.04) returned to Tuhtyn
+Tuhtyn collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: olegos8888 (button) folded before Flop (didn't bet)
+Seat 2: pokerHero1 (small blind) folded before Flop
+Seat 3: dafer1989 (big blind) folded before Flop
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 9: Tuhtyn collected ($0.05)
+
+
+
+PokerStars Hand #212514830370:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:45:07 ET
+Table 'Leonora II' 9-max Seat #2 is the button
+Seat 1: olegos8888 ($0.88 in chips)
+Seat 2: pokerHero1 ($2.30 in chips)
+Seat 3: dafer1989 ($0.46 in chips)
+Seat 5: sashsashsash ($1.60 in chips)
+Seat 6: SIMMMONS ($2.01 in chips)
+Seat 9: Tuhtyn ($1.31 in chips)
+dafer1989: posts small blind $0.01
+sashsashsash: posts big blind $0.02
+Donatello-llo: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qd Jh]
+SIMMMONS: folds
+Tuhtyn: folds
+olegos8888: folds
+pokerHero1: raises $0.06 to $0.08
+dafer1989: folds
+sashsashsash: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 (button) collected ($0.05)
+Seat 3: dafer1989 (small blind) folded before Flop
+Seat 5: sashsashsash (big blind) folded before Flop
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 9: Tuhtyn folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514844647:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:45:22 ET
+Table 'Leonora II' 9-max Seat #3 is the button
+Seat 1: olegos8888 ($0.88 in chips)
+Seat 2: pokerHero1 ($2.33 in chips)
+Seat 3: dafer1989 ($0.45 in chips)
+Seat 5: sashsashsash ($1.58 in chips)
+Seat 6: SIMMMONS ($2.01 in chips)
+Seat 9: Tuhtyn ($1.31 in chips)
+sashsashsash: posts small blind $0.01
+SIMMMONS: posts big blind $0.02
+greg7080: sits out
+Donatello-llo: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2s Qd]
+Tuhtyn: raises $0.04 to $0.06
+olegos8888: folds
+pokerHero1: folds
+dafer1989: folds
+sashsashsash: folds
+SIMMMONS: folds
+Uncalled bet ($0.04) returned to Tuhtyn
+Tuhtyn collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: dafer1989 (button) folded before Flop (didn't bet)
+Seat 5: sashsashsash (small blind) folded before Flop
+Seat 6: SIMMMONS (big blind) folded before Flop
+Seat 9: Tuhtyn collected ($0.05)
+
+
+
+PokerStars Hand #212514859568:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:45:37 ET
+Table 'Leonora II' 9-max Seat #5 is the button
+Seat 1: olegos8888 ($0.88 in chips)
+Seat 2: pokerHero1 ($2.33 in chips)
+Seat 3: dafer1989 ($0.45 in chips)
+Seat 5: sashsashsash ($1.57 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 7: greg7080 ($2 in chips)
+Seat 9: Tuhtyn ($1.34 in chips)
+SIMMMONS: posts small blind $0.01
+greg7080: posts big blind $0.02
+Donatello-llo: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h 8s]
+Tuhtyn: folds
+olegos8888: raises $0.05 to $0.07
+pokerHero1: folds
+dafer1989: calls $0.07
+sashsashsash: folds
+SIMMMONS: folds
+greg7080: folds
+*** FLOP *** [Ks Jd 9c]
+olegos8888: bets $0.08
+dafer1989: folds
+Uncalled bet ($0.08) returned to olegos8888
+olegos8888 collected $0.16 from pot
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [Ks Jd 9c]
+Seat 1: olegos8888 collected ($0.16)
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: dafer1989 folded on the Flop
+Seat 5: sashsashsash (button) folded before Flop (didn't bet)
+Seat 6: SIMMMONS (small blind) folded before Flop
+Seat 7: greg7080 (big blind) folded before Flop
+Seat 9: Tuhtyn folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514893835:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:46:12 ET
+Table 'Leonora II' 9-max Seat #6 is the button
+Seat 1: olegos8888 ($0.97 in chips)
+Seat 2: pokerHero1 ($2.33 in chips)
+Seat 3: dafer1989 ($0.38 in chips)
+Seat 5: sashsashsash ($1.57 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 7: greg7080 ($1.98 in chips)
+Seat 8: Donatello-llo ($2 in chips)
+Seat 9: Tuhtyn ($1.34 in chips)
+greg7080: posts small blind $0.01
+Donatello-llo: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4h Ad]
+Tuhtyn: calls $0.02
+olegos8888: folds
+pokerHero1: raises $0.06 to $0.08
+dafer1989: folds
+sashsashsash: calls $0.08
+SIMMMONS: folds
+greg7080: folds
+Donatello-llo: calls $0.06
+Tuhtyn: folds
+*** FLOP *** [7h 6d Js]
+Donatello-llo: checks
+pokerHero1: checks
+sashsashsash: bets $0.15
+Donatello-llo: folds
+pokerHero1: folds
+Uncalled bet ($0.15) returned to sashsashsash
+sashsashsash collected $0.26 from pot
+sashsashsash: doesn't show hand
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01
+Board [7h 6d Js]
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 folded on the Flop
+Seat 3: dafer1989 folded before Flop (didn't bet)
+Seat 5: sashsashsash collected ($0.26)
+Seat 6: SIMMMONS (button) folded before Flop (didn't bet)
+Seat 7: greg7080 (small blind) folded before Flop
+Seat 8: Donatello-llo (big blind) folded on the Flop
+Seat 9: Tuhtyn folded before Flop
+
+
+
+PokerStars Hand #212514948432:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:47:07 ET
+Table 'Leonora II' 9-max Seat #7 is the button
+Seat 1: olegos8888 ($0.97 in chips)
+Seat 2: pokerHero1 ($2.25 in chips)
+Seat 3: dafer1989 ($0.38 in chips)
+Seat 4: yerkin_ggwp ($1.04 in chips)
+Seat 5: sashsashsash ($1.75 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 7: greg7080 ($2 in chips)
+Seat 8: Donatello-llo ($1.92 in chips)
+Seat 9: Tuhtyn ($1.32 in chips)
+Donatello-llo: posts small blind $0.01
+Tuhtyn: posts big blind $0.02
+yerkin_ggwp: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh 6s]
+olegos8888: folds
+pokerHero1: folds
+dafer1989: calls $0.02
+yerkin_ggwp: checks
+sashsashsash: folds
+SIMMMONS: folds
+greg7080: raises $0.06 to $0.08
+Donatello-llo: folds
+Tuhtyn: folds
+dafer1989: calls $0.06
+yerkin_ggwp: calls $0.06
+*** FLOP *** [4c Kd Qc]
+dafer1989: bets $0.30 and is all-in
+yerkin_ggwp: calls $0.30
+greg7080: folds
+*** TURN *** [4c Kd Qc] [9c]
+*** RIVER *** [4c Kd Qc 9c] [4h]
+*** SHOW DOWN ***
+dafer1989: shows [Qd 8d] (two pair, Queens and Fours)
+yerkin_ggwp: shows [7s Qs] (two pair, Queens and Fours)
+yerkin_ggwp collected $0.42 from pot
+dafer1989 cashed out the hand for $0.62 | Cash Out Fee $0.01
+*** SUMMARY ***
+Total pot $0.88 | Rake $0.03
+Board [4c Kd Qc 9c 4h]
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: dafer1989 showed [Qd 8d] and won ($0.43) with two pair, Queens and Fours (pot not awarded as player cashed out)
+Seat 4: yerkin_ggwp showed [7s Qs] and won ($0.42) with two pair, Queens and Fours
+Seat 5: sashsashsash folded before Flop (didn't bet)
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 7: greg7080 (button) folded on the Flop
+Seat 8: Donatello-llo (small blind) folded before Flop
+Seat 9: Tuhtyn (big blind) folded before Flop
+
+
+
+PokerStars Hand #212515008415:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:48:08 ET
+Table 'Leonora II' 9-max Seat #8 is the button
+Seat 1: olegos8888 ($0.97 in chips)
+Seat 2: pokerHero1 ($2.25 in chips)
+Seat 3: dafer1989 ($0.62 in chips)
+Seat 4: yerkin_ggwp ($1.07 in chips)
+Seat 5: sashsashsash ($1.75 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 7: greg7080 ($1.92 in chips)
+Seat 8: Donatello-llo ($1.91 in chips)
+Seat 9: Tuhtyn ($1.30 in chips)
+Tuhtyn: posts small blind $0.01
+olegos8888: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s 3s]
+pokerHero1: folds
+dafer1989: folds
+yerkin_ggwp: calls $0.02
+sashsashsash: folds
+SIMMMONS: folds
+greg7080: folds
+Donatello-llo: folds
+Tuhtyn: calls $0.01
+olegos8888: checks
+*** FLOP *** [3d 6d As]
+Tuhtyn: checks
+olegos8888: checks
+yerkin_ggwp: bets $0.05
+Tuhtyn: folds
+olegos8888: folds
+Uncalled bet ($0.05) returned to yerkin_ggwp
+yerkin_ggwp collected $0.06 from pot
+yerkin_ggwp: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [3d 6d As]
+Seat 1: olegos8888 (big blind) folded on the Flop
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 3: dafer1989 folded before Flop (didn't bet)
+Seat 4: yerkin_ggwp collected ($0.06)
+Seat 5: sashsashsash folded before Flop (didn't bet)
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 7: greg7080 folded before Flop (didn't bet)
+Seat 8: Donatello-llo (button) folded before Flop (didn't bet)
+Seat 9: Tuhtyn (small blind) folded on the Flop
+
+
+
+PokerStars Hand #212515060836:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:49:02 ET
+Table 'Leonora II' 9-max Seat #9 is the button
+Seat 1: olegos8888 ($0.95 in chips)
+Seat 2: pokerHero1 ($2.25 in chips)
+Seat 3: dafer1989 ($0.62 in chips)
+Seat 4: yerkin_ggwp ($1.11 in chips)
+Seat 5: sashsashsash ($1.75 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 7: greg7080 ($2 in chips)
+Seat 8: Donatello-llo ($1.91 in chips)
+Seat 9: Tuhtyn ($1.28 in chips)
+olegos8888: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ts 3c]
+dafer1989: folds
+yerkin_ggwp: calls $0.02
+sashsashsash: raises $0.06 to $0.08
+SIMMMONS: folds
+greg7080: folds
+Donatello-llo: folds
+Tuhtyn: folds
+olegos8888: folds
+pokerHero1: folds
+yerkin_ggwp: calls $0.06
+*** FLOP *** [4d 7h 6s]
+yerkin_ggwp: checks
+sashsashsash: bets $0.13
+yerkin_ggwp: folds
+Uncalled bet ($0.13) returned to sashsashsash
+sashsashsash collected $0.18 from pot
+sashsashsash: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [4d 7h 6s]
+Seat 1: olegos8888 (small blind) folded before Flop
+Seat 2: pokerHero1 (big blind) folded before Flop
+Seat 3: dafer1989 folded before Flop (didn't bet)
+Seat 4: yerkin_ggwp folded on the Flop
+Seat 5: sashsashsash collected ($0.18)
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 7: greg7080 folded before Flop (didn't bet)
+Seat 8: Donatello-llo folded before Flop (didn't bet)
+Seat 9: Tuhtyn (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515115559:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:49:58 ET
+Table 'Leonora II' 9-max Seat #1 is the button
+Seat 1: olegos8888 ($0.94 in chips)
+Seat 2: pokerHero1 ($2.23 in chips)
+Seat 3: dafer1989 ($0.62 in chips)
+Seat 4: yerkin_ggwp ($1.03 in chips)
+Seat 5: sashsashsash ($1.85 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 7: greg7080 ($2 in chips)
+Seat 8: Donatello-llo ($1.91 in chips)
+Seat 9: Tuhtyn ($1.28 in chips)
+pokerHero1: posts small blind $0.01
+dafer1989: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd Ad]
+yerkin_ggwp: calls $0.02
+sashsashsash: calls $0.02
+SIMMMONS: folds
+greg7080: folds
+Donatello-llo: calls $0.02
+Tuhtyn: folds
+olegos8888: folds
+pokerHero1: raises $0.08 to $0.10
+dafer1989: folds
+yerkin_ggwp: calls $0.08
+sashsashsash: calls $0.08
+Donatello-llo: calls $0.08
+*** FLOP *** [3h Td 6d]
+pokerHero1: bets $0.18
+yerkin_ggwp: folds
+sashsashsash: folds
+Donatello-llo: folds
+Uncalled bet ($0.18) returned to pokerHero1
+pokerHero1 collected $0.41 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.42 | Rake $0.01
+Board [3h Td 6d]
+Seat 1: olegos8888 (button) folded before Flop (didn't bet)
+Seat 2: pokerHero1 (small blind) collected ($0.41)
+Seat 3: dafer1989 (big blind) folded before Flop
+Seat 4: yerkin_ggwp folded on the Flop
+Seat 5: sashsashsash folded on the Flop
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 7: greg7080 folded before Flop (didn't bet)
+Seat 8: Donatello-llo folded on the Flop
+Seat 9: Tuhtyn folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515179159:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:51:03 ET
+Table 'Leonora II' 9-max Seat #2 is the button
+Seat 1: olegos8888 ($0.94 in chips)
+Seat 2: pokerHero1 ($2.54 in chips)
+Seat 3: dafer1989 ($0.60 in chips)
+Seat 4: yerkin_ggwp ($0.93 in chips)
+Seat 5: sashsashsash ($1.75 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 7: greg7080 ($2 in chips)
+Seat 8: Donatello-llo ($1.81 in chips)
+Seat 9: Tuhtyn ($1.28 in chips)
+dafer1989: posts small blind $0.01
+yerkin_ggwp: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c Td]
+sashsashsash: folds
+SIMMMONS: folds
+greg7080: folds
+Donatello-llo: folds
+Tuhtyn: raises $1.26 to $1.28 and is all-in
+olegos8888: folds
+pokerHero1: folds
+dafer1989: calls $0.59 and is all-in
+yerkin_ggwp: folds
+Uncalled bet ($0.68) returned to Tuhtyn
+*** FLOP *** [Kc 8h 4d]
+*** TURN *** [Kc 8h 4d] [3c]
+*** RIVER *** [Kc 8h 4d 3c] [5h]
+*** SHOW DOWN ***
+dafer1989: shows [9d Ad] (high card Ace)
+Tuhtyn: shows [As Ah] (a pair of Aces)
+Tuhtyn collected $1.18 from pot
+*** SUMMARY ***
+Total pot $1.22 | Rake $0.04
+Board [Kc 8h 4d 3c 5h]
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 3: dafer1989 (small blind) showed [9d Ad] and lost with high card Ace
+Seat 4: yerkin_ggwp (big blind) folded before Flop
+Seat 5: sashsashsash folded before Flop (didn't bet)
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 7: greg7080 folded before Flop (didn't bet)
+Seat 8: Donatello-llo folded before Flop (didn't bet)
+Seat 9: Tuhtyn showed [As Ah] and won ($1.18) with a pair of Aces
+
+
+
+PokerStars Hand #212515215748:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:51:30 ET
+Table 'Leonora II' 9-max Seat #4 is the button
+Seat 1: olegos8888 ($0.94 in chips)
+Seat 2: pokerHero1 ($2.54 in chips)
+Seat 4: yerkin_ggwp ($0.91 in chips)
+Seat 5: sashsashsash ($1.75 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 7: greg7080 ($2 in chips)
+Seat 8: Donatello-llo ($1.81 in chips)
+Seat 9: Tuhtyn ($1.86 in chips)
+sashsashsash: posts small blind $0.01
+SIMMMONS: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td 7h]
+greg7080: folds
+Donatello-llo: folds
+Tuhtyn: raises $0.04 to $0.06
+olegos8888: calls $0.06
+pokerHero1: folds
+yerkin_ggwp: calls $0.06
+sashsashsash: folds
+SIMMMONS: calls $0.04
+*** FLOP *** [5s 6c 7s]
+SIMMMONS: checks
+Tuhtyn: bets $0.12
+olegos8888: raises $0.76 to $0.88 and is all-in
+yerkin_ggwp: calls $0.85 and is all-in
+SIMMMONS: folds
+Tuhtyn: calls $0.76
+olegos8888 has timed out
+*** TURN *** [5s 6c 7s] [7c]
+*** RIVER *** [5s 6c 7s 7c] [8c]
+*** SHOW DOWN ***
+Tuhtyn: shows [9s 9d] (a straight, Five to Nine)
+olegos8888: shows [4c 3c] (a flush, Eight high)
+olegos8888 collected $0.06 from side pot
+yerkin_ggwp: shows [5h Ac] (two pair, Sevens and Fives)
+olegos8888 collected $2.70 from main pot
+*** SUMMARY ***
+Total pot $2.86 Main pot $2.70. Side pot $0.06. | Rake $0.10
+Board [5s 6c 7s 7c 8c]
+Seat 1: olegos8888 showed [4c 3c] and won ($2.76) with a flush, Eight high
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 4: yerkin_ggwp (button) showed [5h Ac] and lost with two pair, Sevens and Fives
+Seat 5: sashsashsash (small blind) folded before Flop
+Seat 6: SIMMMONS (big blind) folded on the Flop
+Seat 7: greg7080 folded before Flop (didn't bet)
+Seat 8: Donatello-llo folded before Flop (didn't bet)
+Seat 9: Tuhtyn showed [9s 9d] and lost with a straight, Five to Nine
+
+
+
+PokerStars Hand #212515298711:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:52:55 ET
+Table 'Leonora II' 9-max Seat #5 is the button
+Seat 1: olegos8888 ($2.76 in chips)
+Seat 2: pokerHero1 ($2.54 in chips)
+Seat 5: sashsashsash ($1.74 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 7: greg7080 ($2 in chips)
+Seat 8: Donatello-llo ($2 in chips)
+Seat 9: Tuhtyn ($0.92 in chips)
+SIMMMONS: posts small blind $0.01
+greg7080: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7h 7s]
+Donatello-llo: folds
+Tuhtyn: raises $0.02 to $0.04
+olegos8888: folds
+pokerHero1: calls $0.04
+sashsashsash: calls $0.04
+SIMMMONS: folds
+greg7080: folds
+*** FLOP *** [4c 2c 7d]
+Tuhtyn: bets $0.88 and is all-in
+pokerHero1: raises $0.92 to $1.80
+sashsashsash: folds
+Uncalled bet ($0.92) returned to pokerHero1
+*** TURN *** [4c 2c 7d] [As]
+*** RIVER *** [4c 2c 7d As] [8s]
+*** SHOW DOWN ***
+Tuhtyn: shows [Jh Js] (a pair of Jacks)
+pokerHero1: shows [7h 7s] (three of a kind, Sevens)
+pokerHero1 collected $1.84 from pot
+*** SUMMARY ***
+Total pot $1.91 | Rake $0.07
+Board [4c 2c 7d As 8s]
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 showed [7h 7s] and won ($1.84) with three of a kind, Sevens
+Seat 5: sashsashsash (button) folded on the Flop
+Seat 6: SIMMMONS (small blind) folded before Flop
+Seat 7: greg7080 (big blind) folded before Flop
+Seat 8: Donatello-llo folded before Flop (didn't bet)
+Seat 9: Tuhtyn showed [Jh Js] and lost with a pair of Jacks
+
+
+
+PokerStars Hand #212515344699:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:53:42 ET
+Table 'Leonora II' 9-max Seat #6 is the button
+Seat 1: olegos8888 ($2.76 in chips)
+Seat 2: pokerHero1 ($3.46 in chips)
+Seat 4: yerkin_ggwp ($0.80 in chips)
+Seat 5: sashsashsash ($1.70 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 7: greg7080 ($1.98 in chips)
+Seat 8: Donatello-llo ($2 in chips)
+Seat 9: Tuhtyn ($1 in chips)
+greg7080: posts small blind $0.01
+Donatello-llo: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ks Ah]
+Tuhtyn: calls $0.02
+olegos8888: folds
+pokerHero1: raises $0.08 to $0.10
+yerkin_ggwp: folds
+sashsashsash: calls $0.10
+SIMMMONS: folds
+greg7080: folds
+Donatello-llo: folds
+Tuhtyn: calls $0.08
+*** FLOP *** [Ad Qd Td]
+Tuhtyn: checks
+pokerHero1: bets $0.16
+sashsashsash: calls $0.16
+Tuhtyn: calls $0.16
+*** TURN *** [Ad Qd Td] [8h]
+Tuhtyn: checks
+pokerHero1: checks
+sashsashsash: checks
+*** RIVER *** [Ad Qd Td 8h] [Qh]
+Tuhtyn: checks
+pokerHero1: checks
+sashsashsash: checks
+*** SHOW DOWN ***
+Tuhtyn: shows [Js Ac] (two pair, Aces and Queens)
+pokerHero1: shows [Ks Ah] (two pair, Aces and Queens - King kicker)
+sashsashsash: mucks hand
+pokerHero1 collected $0.78 from pot
+*** SUMMARY ***
+Total pot $0.81 | Rake $0.03
+Board [Ad Qd Td 8h Qh]
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 showed [Ks Ah] and won ($0.78) with two pair, Aces and Queens
+Seat 4: yerkin_ggwp folded before Flop (didn't bet)
+Seat 5: sashsashsash mucked [Jh Jd]
+Seat 6: SIMMMONS (button) folded before Flop (didn't bet)
+Seat 7: greg7080 (small blind) folded before Flop
+Seat 8: Donatello-llo (big blind) folded before Flop
+Seat 9: Tuhtyn showed [Js Ac] and lost with two pair, Aces and Queens
+
+
+
+PokerStars Hand #212515392830:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:54:31 ET
+Table 'Leonora II' 9-max Seat #7 is the button
+Seat 1: olegos8888 ($2.76 in chips)
+Seat 2: pokerHero1 ($3.98 in chips)
+Seat 4: yerkin_ggwp ($0.80 in chips)
+Seat 5: sashsashsash ($1.44 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 7: greg7080 ($2 in chips)
+Seat 8: Donatello-llo ($1.98 in chips)
+Seat 9: Tuhtyn ($1 in chips)
+Donatello-llo: posts small blind $0.01
+Tuhtyn: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8h 8d]
+olegos8888: folds
+pokerHero1: calls $0.02
+yerkin_ggwp: calls $0.02
+sashsashsash: folds
+SIMMMONS: raises $0.09 to $0.11
+greg7080: calls $0.11
+Donatello-llo: folds
+Tuhtyn: raises $0.89 to $1 and is all-in
+pokerHero1: folds
+yerkin_ggwp: folds
+SIMMMONS: raises $1 to $2 and is all-in
+greg7080: folds
+Uncalled bet ($1) returned to SIMMMONS
+*** FLOP *** [9h 4s 6h]
+*** TURN *** [9h 4s 6h] [Td]
+*** RIVER *** [9h 4s 6h Td] [Jc]
+*** SHOW DOWN ***
+Tuhtyn: shows [As Ah] (a pair of Aces)
+SIMMMONS: shows [Kc Kh] (a pair of Kings)
+Tuhtyn collected $2.08 from pot
+SIMMMONS cashed out the hand for $0.37
+*** SUMMARY ***
+Total pot $2.16 | Rake $0.08
+Board [9h 4s 6h Td Jc]
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 folded before Flop
+Seat 4: yerkin_ggwp folded before Flop
+Seat 5: sashsashsash folded before Flop (didn't bet)
+Seat 6: SIMMMONS showed [Kc Kh] and lost with a pair of Kings (cashed out).
+Seat 7: greg7080 (button) folded before Flop
+Seat 8: Donatello-llo (small blind) folded before Flop
+Seat 9: Tuhtyn (big blind) showed [As Ah] and won ($2.08) with a pair of Aces
+
+
+
+PokerStars Hand #212515437185:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:55:21 ET
+Table 'Leonora II' 9-max Seat #8 is the button
+Seat 1: olegos8888 ($2.76 in chips)
+Seat 2: pokerHero1 ($3.96 in chips)
+Seat 4: yerkin_ggwp ($0.78 in chips)
+Seat 5: sashsashsash ($1.44 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 7: greg7080 ($1.89 in chips)
+Seat 8: Donatello-llo ($1.97 in chips)
+Seat 9: Tuhtyn ($2.08 in chips)
+Tuhtyn: posts small blind $0.01
+olegos8888: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ks Ad]
+pokerHero1: raises $0.06 to $0.08
+yerkin_ggwp: calls $0.08
+sashsashsash: folds
+SIMMMONS: folds
+greg7080: folds
+Donatello-llo: calls $0.08
+greg7080 leaves the table
+Tuhtyn: folds
+olegos8888: folds
+*** FLOP *** [4d 9h 9d]
+Lil'Nit666 joins the table at seat #7
+pokerHero1: bets $0.13
+yerkin_ggwp: calls $0.13
+Donatello-llo: folds
+*** TURN *** [4d 9h 9d] [6d]
+pokerHero1: checks
+yerkin_ggwp: bets $0.17
+pokerHero1: calls $0.17
+*** RIVER *** [4d 9h 9d 6d] [7h]
+pokerHero1: checks
+yerkin_ggwp: bets $0.20
+pokerHero1: calls $0.20
+*** SHOW DOWN ***
+yerkin_ggwp: shows [8c 9s] (three of a kind, Nines)
+pokerHero1: mucks hand
+yerkin_ggwp collected $1.23 from pot
+*** SUMMARY ***
+Total pot $1.27 | Rake $0.04
+Board [4d 9h 9d 6d 7h]
+Seat 1: olegos8888 (big blind) folded before Flop
+Seat 2: pokerHero1 mucked [Ks Ad]
+Seat 4: yerkin_ggwp showed [8c 9s] and won ($1.23) with three of a kind, Nines
+Seat 5: sashsashsash folded before Flop (didn't bet)
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 7: greg7080 folded before Flop (didn't bet)
+Seat 8: Donatello-llo (button) folded on the Flop
+Seat 9: Tuhtyn (small blind) folded before Flop
+
+
+
+PokerStars Hand #212515480685:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:56:23 ET
+Table 'Leonora II' 9-max Seat #9 is the button
+Seat 1: olegos8888 ($2.74 in chips)
+Seat 2: pokerHero1 ($3.38 in chips)
+Seat 4: yerkin_ggwp ($1.43 in chips)
+Seat 5: sashsashsash ($1.44 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 8: Donatello-llo ($1.92 in chips)
+Seat 9: Tuhtyn ($2.07 in chips)
+olegos8888: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+Lil'Nit666: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h Tc]
+yerkin_ggwp: calls $0.02
+sashsashsash: folds
+SIMMMONS: folds
+Donatello-llo: folds
+Tuhtyn: folds
+olegos8888: folds
+pokerHero1: checks
+*** FLOP *** [9c Ts 5s]
+pokerHero1: bets $0.05
+yerkin_ggwp: calls $0.05
+*** TURN *** [9c Ts 5s] [As]
+pokerHero1: checks
+yerkin_ggwp: checks
+*** RIVER *** [9c Ts 5s As] [Qs]
+pokerHero1: checks
+yerkin_ggwp: bets $0.16
+pokerHero1: folds
+Uncalled bet ($0.16) returned to yerkin_ggwp
+yerkin_ggwp collected $0.14 from pot
+yerkin_ggwp: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [9c Ts 5s As Qs]
+Seat 1: olegos8888 (small blind) folded before Flop
+Seat 2: pokerHero1 (big blind) folded on the River
+Seat 4: yerkin_ggwp collected ($0.14)
+Seat 5: sashsashsash folded before Flop (didn't bet)
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 8: Donatello-llo folded before Flop (didn't bet)
+Seat 9: Tuhtyn (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515503716:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:56:55 ET
+Table 'Leonora II' 9-max Seat #1 is the button
+Seat 1: olegos8888 ($2.73 in chips)
+Seat 2: pokerHero1 ($3.31 in chips)
+Seat 4: yerkin_ggwp ($1.50 in chips)
+Seat 5: sashsashsash ($1.44 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 8: Donatello-llo ($1.92 in chips)
+Seat 9: Tuhtyn ($2.07 in chips)
+pokerHero1: posts small blind $0.01
+yerkin_ggwp: posts big blind $0.02
+Lil'Nit666: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kc 7s]
+sashsashsash: calls $0.02
+SIMMMONS: folds
+Donatello-llo: folds
+Tuhtyn: folds
+olegos8888: folds
+pokerHero1: folds
+yerkin_ggwp: checks
+*** FLOP *** [2s 3c Qs]
+yerkin_ggwp: bets $0.02
+Lil'Nit666 leaves the table
+sashsashsash: raises $0.04 to $0.06
+yerkin_ggwp: calls $0.04
+*** TURN *** [2s 3c Qs] [Jd]
+thekingfishs joins the table at seat #7
+yerkin_ggwp: checks
+sashsashsash: bets $0.06
+yerkin_ggwp: calls $0.06
+*** RIVER *** [2s 3c Qs Jd] [6s]
+yerkin_ggwp: checks
+sashsashsash: checks
+*** SHOW DOWN ***
+yerkin_ggwp: shows [4c Qh] (a pair of Queens)
+sashsashsash: mucks hand
+yerkin_ggwp collected $0.28 from pot
+*** SUMMARY ***
+Total pot $0.29 | Rake $0.01
+Board [2s 3c Qs Jd 6s]
+Seat 1: olegos8888 (button) folded before Flop (didn't bet)
+Seat 2: pokerHero1 (small blind) folded before Flop
+Seat 4: yerkin_ggwp (big blind) showed [4c Qh] and won ($0.28) with a pair of Queens
+Seat 5: sashsashsash mucked [Ad 5h]
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 8: Donatello-llo folded before Flop (didn't bet)
+Seat 9: Tuhtyn folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515533997:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:57:38 ET
+Table 'Leonora II' 9-max Seat #2 is the button
+Seat 1: olegos8888 ($2.73 in chips)
+Seat 2: pokerHero1 ($3.30 in chips)
+Seat 4: yerkin_ggwp ($1.64 in chips)
+Seat 5: sashsashsash ($1.30 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 8: Donatello-llo ($1.92 in chips)
+Seat 9: Tuhtyn ($2.07 in chips)
+yerkin_ggwp: posts small blind $0.01
+sashsashsash: posts big blind $0.02
+thekingfishs: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7h Td]
+SIMMMONS: folds
+Donatello-llo: folds
+Tuhtyn: folds
+olegos8888: raises $0.02 to $0.04
+pokerHero1: folds
+yerkin_ggwp: calls $0.03
+sashsashsash: calls $0.02
+*** FLOP *** [3c Ks 7s]
+yerkin_ggwp: checks
+sashsashsash: checks
+olegos8888: bets $0.04
+yerkin_ggwp: calls $0.04
+sashsashsash: folds
+*** TURN *** [3c Ks 7s] [6d]
+yerkin_ggwp: checks
+olegos8888: checks
+*** RIVER *** [3c Ks 7s 6d] [Kd]
+yerkin_ggwp: bets $0.16
+olegos8888: folds
+Uncalled bet ($0.16) returned to yerkin_ggwp
+yerkin_ggwp collected $0.19 from pot
+*** SUMMARY ***
+Total pot $0.20 | Rake $0.01
+Board [3c Ks 7s 6d Kd]
+Seat 1: olegos8888 folded on the River
+Seat 2: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 4: yerkin_ggwp (small blind) collected ($0.19)
+Seat 5: sashsashsash (big blind) folded on the Flop
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 8: Donatello-llo folded before Flop (didn't bet)
+Seat 9: Tuhtyn folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515591321:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:58:58 ET
+Table 'Leonora II' 9-max Seat #5 is the button
+Seat 1: olegos8888 ($2.65 in chips)
+Seat 2: pokerHero1 ($3.30 in chips)
+Seat 5: sashsashsash ($1.26 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 7: thekingfishs ($2 in chips)
+Seat 8: Donatello-llo ($1.92 in chips)
+Seat 9: Tuhtyn ($2.07 in chips)
+SIMMMONS: posts small blind $0.01
+thekingfishs: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d Tc]
+Donatello-llo: raises $0.06 to $0.08
+Tuhtyn: folds
+olegos8888: folds
+pokerHero1: folds
+sashsashsash: folds
+SIMMMONS: folds
+thekingfishs: folds
+Uncalled bet ($0.06) returned to Donatello-llo
+Donatello-llo collected $0.05 from pot
+Donatello-llo: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 5: sashsashsash (button) folded before Flop (didn't bet)
+Seat 6: SIMMMONS (small blind) folded before Flop
+Seat 7: thekingfishs (big blind) folded before Flop
+Seat 8: Donatello-llo collected ($0.05)
+Seat 9: Tuhtyn folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515604846:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:59:16 ET
+Table 'Leonora II' 9-max Seat #6 is the button
+Seat 1: olegos8888 ($2.65 in chips)
+Seat 2: pokerHero1 ($3.30 in chips)
+Seat 5: sashsashsash ($1.26 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 7: thekingfishs ($1.98 in chips)
+Seat 8: Donatello-llo ($1.95 in chips)
+Seat 9: Tuhtyn ($2.07 in chips)
+thekingfishs: posts small blind $0.01
+Donatello-llo: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5c Kc]
+Tuhtyn: calls $0.02
+olegos8888: folds
+pokerHero1: folds
+sashsashsash: raises $0.06 to $0.08
+SIMMMONS: folds
+thekingfishs: calls $0.07
+Donatello-llo: folds
+Tuhtyn: calls $0.06
+*** FLOP *** [Ah 3d 7d]
+thekingfishs: checks
+Tuhtyn: checks
+sashsashsash: bets $0.22
+thekingfishs: folds
+Tuhtyn: folds
+Uncalled bet ($0.22) returned to sashsashsash
+sashsashsash collected $0.25 from pot
+sashsashsash: doesn't show hand
+*** SUMMARY ***
+Total pot $0.26 | Rake $0.01
+Board [Ah 3d 7d]
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 5: sashsashsash collected ($0.25)
+Seat 6: SIMMMONS (button) folded before Flop (didn't bet)
+Seat 7: thekingfishs (small blind) folded on the Flop
+Seat 8: Donatello-llo (big blind) folded before Flop
+Seat 9: Tuhtyn folded on the Flop
+
+
+
+PokerStars Hand #212515647169:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:00:11 ET
+Table 'Leonora II' 9-max Seat #7 is the button
+Seat 1: olegos8888 ($2.65 in chips)
+Seat 2: pokerHero1 ($3.30 in chips)
+Seat 5: sashsashsash ($1.43 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 7: thekingfishs ($1.90 in chips)
+Seat 8: Donatello-llo ($1.93 in chips)
+Seat 9: Tuhtyn ($1.99 in chips)
+Donatello-llo: posts small blind $0.01
+Tuhtyn: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad Ts]
+olegos8888: folds
+pokerHero1: raises $0.06 to $0.08
+sashsashsash: folds
+SIMMMONS: folds
+thekingfishs: folds
+Donatello-llo: folds
+Tuhtyn: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 collected ($0.05)
+Seat 5: sashsashsash folded before Flop (didn't bet)
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 7: thekingfishs (button) folded before Flop (didn't bet)
+Seat 8: Donatello-llo (small blind) folded before Flop
+Seat 9: Tuhtyn (big blind) folded before Flop
+
+
+
+PokerStars Hand #212515661982:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:00:31 ET
+Table 'Leonora II' 9-max Seat #8 is the button
+Seat 1: olegos8888 ($2.65 in chips)
+Seat 2: pokerHero1 ($3.33 in chips)
+Seat 5: sashsashsash ($1.43 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 7: thekingfishs ($1.90 in chips)
+Seat 8: Donatello-llo ($1.92 in chips)
+Seat 9: Tuhtyn ($1.97 in chips)
+Tuhtyn: posts small blind $0.01
+olegos8888: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s 2h]
+pokerHero1: folds
+sashsashsash: raises $0.06 to $0.08
+SIMMMONS: folds
+thekingfishs: folds
+Donatello-llo: folds
+Tuhtyn: folds
+olegos8888: folds
+Uncalled bet ($0.06) returned to sashsashsash
+sashsashsash collected $0.05 from pot
+sashsashsash: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: olegos8888 (big blind) folded before Flop
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 5: sashsashsash collected ($0.05)
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 7: thekingfishs folded before Flop (didn't bet)
+Seat 8: Donatello-llo (button) folded before Flop (didn't bet)
+Seat 9: Tuhtyn (small blind) folded before Flop
+
+
+
+PokerStars Hand #212515682321:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:00:56 ET
+Table 'Leonora II' 9-max Seat #9 is the button
+Seat 1: olegos8888 ($2.63 in chips)
+Seat 2: pokerHero1 ($3.33 in chips)
+Seat 5: sashsashsash ($1.46 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 7: thekingfishs ($1.90 in chips)
+Seat 8: Donatello-llo ($1.92 in chips)
+Seat 9: Tuhtyn ($1.96 in chips)
+olegos8888: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jh Td]
+sashsashsash: folds
+SIMMMONS: folds
+thekingfishs: folds
+Donatello-llo: folds
+Tuhtyn: calls $0.02
+Donatello-llo leaves the table
+olegos8888: calls $0.01
+pokerHero1: checks
+*** FLOP *** [Js Jd Ac]
+olegos8888: checks
+pokerHero1: bets $0.04
+Tuhtyn: calls $0.04
+olegos8888: folds
+*** TURN *** [Js Jd Ac] [2d]
+pokerHero1: bets $0.14
+Tuhtyn: folds
+Uncalled bet ($0.14) returned to pokerHero1
+pokerHero1 collected $0.14 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [Js Jd Ac 2d]
+Seat 1: olegos8888 (small blind) folded on the Flop
+Seat 2: pokerHero1 (big blind) collected ($0.14)
+Seat 5: sashsashsash folded before Flop (didn't bet)
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 7: thekingfishs folded before Flop (didn't bet)
+Seat 8: Donatello-llo folded before Flop (didn't bet)
+Seat 9: Tuhtyn (button) folded on the Turn
+
+
+
+PokerStars Hand #212515727019:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:01:46 ET
+Table 'Leonora II' 9-max Seat #1 is the button
+Seat 1: olegos8888 ($2.61 in chips)
+Seat 2: pokerHero1 ($3.41 in chips)
+Seat 5: sashsashsash ($1.46 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 7: thekingfishs ($1.90 in chips)
+Seat 9: Tuhtyn ($1.90 in chips)
+pokerHero1: posts small blind $0.01
+sashsashsash: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad 9c]
+SIMMMONS: folds
+Livester joins the table at seat #8
+thekingfishs: folds
+Tuhtyn: folds
+olegos8888: calls $0.02
+pokerHero1: calls $0.01
+sashsashsash: checks
+*** FLOP *** [As 2d Ts]
+pokerHero1: bets $0.06
+sashsashsash: folds
+olegos8888: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.06 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [As 2d Ts]
+Seat 1: olegos8888 (button) folded on the Flop
+Seat 2: pokerHero1 (small blind) collected ($0.06)
+Seat 5: sashsashsash (big blind) folded on the Flop
+Seat 6: SIMMMONS folded before Flop (didn't bet)
+Seat 7: thekingfishs folded before Flop (didn't bet)
+Seat 9: Tuhtyn folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515769894:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:02:29 ET
+Table 'Leonora II' 9-max Seat #2 is the button
+Seat 1: olegos8888 ($2.59 in chips)
+Seat 2: pokerHero1 ($3.45 in chips)
+Seat 5: sashsashsash ($1.44 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 7: thekingfishs ($1.90 in chips)
+Seat 9: Tuhtyn ($1.90 in chips)
+sashsashsash: posts small blind $0.01
+SIMMMONS: posts big blind $0.02
+Livester: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ac 3h]
+thekingfishs: folds
+Tuhtyn: folds
+olegos8888: folds
+pokerHero1: raises $0.02 to $0.04
+sashsashsash: calls $0.03
+SIMMMONS: folds
+*** FLOP *** [3s 7d 5h]
+sashsashsash: bets $0.07
+pokerHero1: folds
+Uncalled bet ($0.07) returned to sashsashsash
+sashsashsash collected $0.10 from pot
+sashsashsash: doesn't show hand
+*** SUMMARY ***
+Total pot $0.10 | Rake $0
+Board [3s 7d 5h]
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 (button) folded on the Flop
+Seat 5: sashsashsash (small blind) collected ($0.10)
+Seat 6: SIMMMONS (big blind) folded before Flop
+Seat 7: thekingfishs folded before Flop (didn't bet)
+Seat 9: Tuhtyn folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515796687:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:02:56 ET
+Table 'Leonora II' 9-max Seat #5 is the button
+Seat 1: olegos8888 ($2.59 in chips)
+Seat 2: pokerHero1 ($3.41 in chips)
+Seat 5: sashsashsash ($1.50 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 7: thekingfishs ($1.90 in chips)
+Seat 9: Tuhtyn ($1.90 in chips)
+SIMMMONS: posts small blind $0.01
+thekingfishs: posts big blind $0.02
+Livester: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h Js]
+Tuhtyn: raises $0.04 to $0.06
+olegos8888: calls $0.06
+pokerHero1: folds
+sashsashsash: folds
+SIMMMONS: folds
+thekingfishs: calls $0.04
+*** FLOP *** [Ad 3c Qc]
+thekingfishs: checks
+Tuhtyn: checks
+olegos8888: bets $0.06
+thekingfishs: calls $0.06
+Tuhtyn: calls $0.06
+*** TURN *** [Ad 3c Qc] [7h]
+thekingfishs: checks
+Tuhtyn: checks
+olegos8888: checks
+*** RIVER *** [Ad 3c Qc 7h] [Kc]
+thekingfishs: bets $0.27
+Tuhtyn: folds
+olegos8888: calls $0.27
+*** SHOW DOWN ***
+thekingfishs: shows [8c Ac] (a flush, Ace high)
+olegos8888: mucks hand
+thekingfishs collected $0.88 from pot
+*** SUMMARY ***
+Total pot $0.91 | Rake $0.03
+Board [Ad 3c Qc 7h Kc]
+Seat 1: olegos8888 mucked [Qs Ks]
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 5: sashsashsash (button) folded before Flop (didn't bet)
+Seat 6: SIMMMONS (small blind) folded before Flop
+Seat 7: thekingfishs (big blind) showed [8c Ac] and won ($0.88) with a flush, Ace high
+Seat 9: Tuhtyn folded on the River
+
+
+
+PokerStars Hand #212515851061:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:03:51 ET
+Table 'Leonora II' 9-max Seat #6 is the button
+Seat 1: olegos8888 ($2.20 in chips)
+Seat 2: pokerHero1 ($3.41 in chips)
+Seat 5: sashsashsash ($1.50 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 7: thekingfishs ($2.39 in chips)
+Seat 8: Livester ($2 in chips)
+Seat 9: Tuhtyn ($1.78 in chips)
+thekingfishs: posts small blind $0.01
+Livester: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c 6h]
+Tuhtyn: folds
+olegos8888: raises $0.05 to $0.07
+pokerHero1: folds
+sashsashsash: folds
+SIMMMONS: raises $0.13 to $0.20
+thekingfishs: folds
+Livester: folds
+olegos8888: raises $2 to $2.20 and is all-in
+SIMMMONS: folds
+Uncalled bet ($2) returned to olegos8888
+olegos8888 collected $0.43 from pot
+*** SUMMARY ***
+Total pot $0.43 | Rake $0
+Seat 1: olegos8888 collected ($0.43)
+Seat 2: pokerHero1 folded before Flop (didn't bet)
+Seat 5: sashsashsash folded before Flop (didn't bet)
+Seat 6: SIMMMONS (button) folded before Flop
+Seat 7: thekingfishs (small blind) folded before Flop
+Seat 8: Livester (big blind) folded before Flop
+Seat 9: Tuhtyn folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515902123:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:04:42 ET
+Table 'Leonora II' 9-max Seat #7 is the button
+Seat 1: olegos8888 ($2.43 in chips)
+Seat 2: pokerHero1 ($3.41 in chips)
+Seat 5: sashsashsash ($1.50 in chips)
+Seat 6: SIMMMONS ($2 in chips)
+Seat 7: thekingfishs ($2.38 in chips)
+Seat 8: Livester ($2 in chips)
+Seat 9: Tuhtyn ($1.78 in chips)
+Livester: posts small blind $0.01
+Tuhtyn: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ts Ks]
+olegos8888: folds
+pokerHero1: raises $0.06 to $0.08
+sashsashsash: folds
+SIMMMONS: calls $0.08
+thekingfishs: calls $0.08
+Livester: folds
+Tuhtyn: folds
+*** FLOP *** [Kh 5h 3d]
+dafer1989 is disconnected
+pokerHero1: bets $0.14
+SIMMMONS: folds
+thekingfishs: folds
+Uncalled bet ($0.14) returned to pokerHero1
+pokerHero1 collected $0.26 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.27 | Rake $0.01
+Board [Kh 5h 3d]
+Seat 1: olegos8888 folded before Flop (didn't bet)
+Seat 2: pokerHero1 collected ($0.26)
+Seat 5: sashsashsash folded before Flop (didn't bet)
+Seat 6: SIMMMONS folded on the Flop
+Seat 7: thekingfishs (button) folded on the Flop
+Seat 8: Livester (small blind) folded before Flop
+Seat 9: Tuhtyn (big blind) folded before Flop
+
+
+

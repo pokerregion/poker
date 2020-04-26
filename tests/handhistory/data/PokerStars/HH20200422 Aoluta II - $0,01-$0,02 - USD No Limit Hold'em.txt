@@ -1,0 +1,3191 @@
+﻿PokerStars Hand #212513147691:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:16:54 ET
+Table 'Aoluta II' 9-max Seat #3 is the button
+Seat 1: Dera798 ($1.98 in chips)
+Seat 2: spidernet ($1.29 in chips)
+Seat 3: O_Micha_68 ($0.54 in chips)
+Seat 4: AndyJohn663 ($1.77 in chips)
+Seat 5: pokerHero1 ($2 in chips)
+Seat 6: Goatface666 ($2.17 in chips)
+Seat 7: zehni ($2.01 in chips)
+Seat 8: Anat1964 ($0.66 in chips)
+Seat 9: 133556 ($0.81 in chips)
+AndyJohn663: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8s Qd]
+Goatface666: raises $0.06 to $0.08
+zehni: folds
+Anat1964: folds
+133556: folds
+Dera798: folds
+spidernet: folds
+O_Micha_68: calls $0.08
+AndyJohn663: folds
+pokerHero1: folds
+*** FLOP *** [9h 3s 7c]
+Goatface666: bets $0.14
+O_Micha_68: folds
+Uncalled bet ($0.14) returned to Goatface666
+Goatface666 collected $0.18 from pot
+Goatface666: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [9h 3s 7c]
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 2: spidernet folded before Flop (didn't bet)
+Seat 3: O_Micha_68 (button) folded on the Flop
+Seat 4: AndyJohn663 (small blind) folded before Flop
+Seat 5: pokerHero1 (big blind) folded before Flop
+Seat 6: Goatface666 collected ($0.18)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: Anat1964 folded before Flop (didn't bet)
+Seat 9: 133556 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513174486:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:17:21 ET
+Table 'Aoluta II' 9-max Seat #4 is the button
+Seat 1: Dera798 ($1.98 in chips)
+Seat 2: spidernet ($1.29 in chips)
+Seat 3: O_Micha_68 ($0.46 in chips)
+Seat 4: AndyJohn663 ($1.76 in chips)
+Seat 5: pokerHero1 ($1.98 in chips)
+Seat 7: zehni ($2.01 in chips)
+Seat 8: Anat1964 ($0.66 in chips)
+Seat 9: 133556 ($0.81 in chips)
+pokerHero1: posts small blind $0.01
+Goatface666: is sitting out
+zehni: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd 2c]
+Anat1964: folds
+133556: raises $0.02 to $0.04
+Dera798: folds
+Goatface666 leaves the table
+spidernet: calls $0.04
+O_Micha_68: raises $0.42 to $0.46 and is all-in
+AndyJohn663: folds
+pokerHero1: folds
+zehni: folds
+133556: folds
+spidernet: calls $0.42
+*** FLOP *** [9c 5d Js]
+*** TURN *** [9c 5d Js] [7c]
+*** RIVER *** [9c 5d Js 7c] [2d]
+*** SHOW DOWN ***
+spidernet: shows [Qh 9d] (a pair of Nines)
+O_Micha_68: shows [Qd As] (high card Ace)
+spidernet collected $0.96 from pot
+*** SUMMARY ***
+Total pot $0.99 | Rake $0.03
+Board [9c 5d Js 7c 2d]
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 2: spidernet showed [Qh 9d] and won ($0.96) with a pair of Nines
+Seat 3: O_Micha_68 showed [Qd As] and lost with high card Ace
+Seat 4: AndyJohn663 (button) folded before Flop (didn't bet)
+Seat 5: pokerHero1 (small blind) folded before Flop
+Seat 7: zehni (big blind) folded before Flop
+Seat 8: Anat1964 folded before Flop (didn't bet)
+Seat 9: 133556 folded before Flop
+
+
+
+PokerStars Hand #212513220564:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:18:02 ET
+Table 'Aoluta II' 9-max Seat #5 is the button
+Seat 1: Dera798 ($1.98 in chips)
+Seat 2: spidernet ($1.79 in chips)
+Seat 4: AndyJohn663 ($1.76 in chips)
+Seat 5: pokerHero1 ($1.97 in chips)
+Seat 7: zehni ($1.99 in chips)
+Seat 8: Anat1964 ($0.66 in chips)
+Seat 9: 133556 ($0.77 in chips)
+zehni: posts small blind $0.01
+Anat1964: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d 3c]
+133556: folds
+O_Micha_68 leaves the table
+Dera798: folds
+spidernet: calls $0.02
+AndyJohn663: folds
+9hertz40 joins the table at seat #6
+pokerHero1: folds
+zehni: calls $0.01
+Anat1964: checks
+*** FLOP *** [Td Jh 8h]
+zehni: checks
+Anat1964: checks
+spidernet: bets $0.06
+zehni: folds
+Anat1964: folds
+Uncalled bet ($0.06) returned to spidernet
+spidernet collected $0.06 from pot
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [Td Jh 8h]
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 2: spidernet collected ($0.06)
+Seat 4: AndyJohn663 folded before Flop (didn't bet)
+Seat 5: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 7: zehni (small blind) folded on the Flop
+Seat 8: Anat1964 (big blind) folded on the Flop
+Seat 9: 133556 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513254276:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:18:37 ET
+Table 'Aoluta II' 9-max Seat #7 is the button
+Seat 1: Dera798 ($1.98 in chips)
+Seat 2: spidernet ($1.83 in chips)
+Seat 4: AndyJohn663 ($1.76 in chips)
+Seat 5: pokerHero1 ($1.97 in chips)
+Seat 7: zehni ($1.97 in chips)
+Seat 8: Anat1964 ($0.64 in chips)
+Seat 9: 133556 ($0.77 in chips)
+Anat1964: posts small blind $0.01
+133556: posts big blind $0.02
+9hertz40: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc 6d]
+Homsjunior joins the table at seat #3
+Dera798: folds
+spidernet: folds
+AndyJohn663: folds
+pokerHero1: folds
+zehni: raises $0.03 to $0.05
+Anat1964: folds
+133556: calls $0.03
+*** FLOP *** [8d 4c Js]
+133556: bets $0.02
+zehni: calls $0.02
+*** TURN *** [8d 4c Js] [Qs]
+133556: bets $0.02
+zehni: raises $0.09 to $0.11
+133556: folds
+Uncalled bet ($0.09) returned to zehni
+zehni collected $0.18 from pot
+zehni: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [8d 4c Js Qs]
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 2: spidernet folded before Flop (didn't bet)
+Seat 4: AndyJohn663 folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 7: zehni (button) collected ($0.18)
+Seat 8: Anat1964 (small blind) folded before Flop
+Seat 9: 133556 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #212513289543:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:19:13 ET
+Table 'Aoluta II' 9-max Seat #8 is the button
+Seat 1: Dera798 ($1.98 in chips)
+Seat 2: spidernet ($1.83 in chips)
+Seat 3: Homsjunior ($2 in chips)
+Seat 4: AndyJohn663 ($1.76 in chips)
+Seat 5: pokerHero1 ($1.97 in chips)
+Seat 7: zehni ($2.06 in chips)
+Seat 8: Anat1964 ($0.63 in chips)
+Seat 9: 133556 ($0.68 in chips)
+133556: posts small blind $0.01
+Dera798: posts big blind $0.02
+Homsjunior: posts big blind $0.02
+9hertz40: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd Qh]
+spidernet: raises $0.08 to $0.10
+Homsjunior: folds
+AndyJohn663: folds
+pokerHero1: folds
+zehni: folds
+Anat1964: folds
+133556: calls $0.09
+Dera798: calls $0.08
+*** FLOP *** [Td 7c Ah]
+133556: checks
+Dera798: checks
+spidernet: checks
+*** TURN *** [Td 7c Ah] [3d]
+133556: bets $0.02
+Dera798: calls $0.02
+spidernet: raises $0.18 to $0.20
+133556: folds
+Dera798: folds
+Uncalled bet ($0.18) returned to spidernet
+spidernet collected $0.37 from pot
+*** SUMMARY ***
+Total pot $0.38 | Rake $0.01
+Board [Td 7c Ah 3d]
+Seat 1: Dera798 (big blind) folded on the Turn
+Seat 2: spidernet collected ($0.37)
+Seat 3: Homsjunior folded before Flop (didn't bet)
+Seat 4: AndyJohn663 folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: Anat1964 (button) folded before Flop (didn't bet)
+Seat 9: 133556 (small blind) folded on the Turn
+
+
+
+PokerStars Hand #212513332773:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:19:57 ET
+Table 'Aoluta II' 9-max Seat #9 is the button
+Seat 1: Dera798 ($1.86 in chips)
+Seat 3: Homsjunior ($1.98 in chips)
+Seat 4: AndyJohn663 ($1.76 in chips)
+Seat 5: pokerHero1 ($1.97 in chips)
+Seat 7: zehni ($2.06 in chips)
+Seat 8: Anat1964 ($0.63 in chips)
+Seat 9: 133556 ($0.56 in chips)
+Dera798: posts small blind $0.01
+spidernet: is sitting out
+Homsjunior: posts big blind $0.02
+9hertz40: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5c Th]
+AndyJohn663: folds
+pokerHero1: folds
+zehni: folds
+spidernet leaves the table
+Anat1964: calls $0.02
+133556: raises $0.54 to $0.56 and is all-in
+Dera798: folds
+Aajajai joins the table at seat #2
+Homsjunior: folds
+Anat1964: folds
+Uncalled bet ($0.54) returned to 133556
+133556 collected $0.07 from pot
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Seat 1: Dera798 (small blind) folded before Flop
+Seat 3: Homsjunior (big blind) folded before Flop
+Seat 4: AndyJohn663 folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: Anat1964 folded before Flop
+Seat 9: 133556 (button) collected ($0.07)
+
+
+
+PokerStars Hand #212513355582:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:20:21 ET
+Table 'Aoluta II' 9-max Seat #1 is the button
+Seat 1: Dera798 ($1.85 in chips)
+Seat 3: Homsjunior ($1.96 in chips)
+Seat 5: pokerHero1 ($1.97 in chips)
+Seat 7: zehni ($2.06 in chips)
+Seat 8: Anat1964 ($0.61 in chips)
+Seat 9: 133556 ($0.61 in chips)
+Homsjunior: posts small blind $0.01
+AndyJohn663: is sitting out
+pokerHero1: posts big blind $0.02
+9hertz40: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5s 6h]
+zehni: folds
+Anat1964: calls $0.02
+133556: folds
+Dera798: folds
+Homsjunior: folds
+pokerHero1: checks
+*** FLOP *** [9h Qs 8s]
+pokerHero1: checks
+Anat1964: checks
+*** TURN *** [9h Qs 8s] [5h]
+pokerHero1: checks
+Anat1964: checks
+*** RIVER *** [9h Qs 8s 5h] [9c]
+pokerHero1: checks
+Anat1964: bets $0.04
+9hertz40 leaves the table
+pokerHero1: folds
+Uncalled bet ($0.04) returned to Anat1964
+Anat1964 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [9h Qs 8s 5h 9c]
+Seat 1: Dera798 (button) folded before Flop (didn't bet)
+Seat 3: Homsjunior (small blind) folded before Flop
+Seat 5: pokerHero1 (big blind) folded on the River
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: Anat1964 collected ($0.05)
+Seat 9: 133556 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513398108:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:21:03 ET
+Table 'Aoluta II' 9-max Seat #3 is the button
+Seat 1: Dera798 ($1.85 in chips)
+Seat 3: Homsjunior ($1.95 in chips)
+Seat 5: pokerHero1 ($1.95 in chips)
+Seat 7: zehni ($2.06 in chips)
+Seat 8: Anat1964 ($0.64 in chips)
+Seat 9: 133556 ($0.61 in chips)
+pokerHero1: posts small blind $0.01
+zehni: posts big blind $0.02
+Aajajai: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h Ks]
+Anat1964: folds
+133556: folds
+Dera798: raises $0.04 to $0.06
+Homsjunior: folds
+pokerHero1: folds
+zehni: folds
+Uncalled bet ($0.04) returned to Dera798
+sportmen86 joins the table at seat #6
+Dera798 collected $0.05 from pot
+Dera798: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: Dera798 collected ($0.05)
+Seat 3: Homsjunior (button) folded before Flop (didn't bet)
+Seat 5: pokerHero1 (small blind) folded before Flop
+Seat 7: zehni (big blind) folded before Flop
+Seat 8: Anat1964 folded before Flop (didn't bet)
+Seat 9: 133556 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513414002:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:21:19 ET
+Table 'Aoluta II' 9-max Seat #5 is the button
+Seat 1: Dera798 ($1.88 in chips)
+Seat 3: Homsjunior ($1.95 in chips)
+Seat 5: pokerHero1 ($1.94 in chips)
+Seat 7: zehni ($2.04 in chips)
+Seat 8: Anat1964 ($0.64 in chips)
+Seat 9: 133556 ($0.61 in chips)
+zehni: posts small blind $0.01
+Anat1964: posts big blind $0.02
+Aajajai: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8d Qs]
+133556: folds
+Dera798: folds
+Homsjunior: calls $0.02
+pokerHero1: folds
+zehni: calls $0.01
+Anat1964: checks
+*** FLOP *** [6h Jd Jh]
+zehni: checks
+Anat1964: checks
+Homsjunior: checks
+*** TURN *** [6h Jd Jh] [Kh]
+zehni: checks
+Anat1964: checks
+Homsjunior: bets $0.04
+zehni: calls $0.04
+Anat1964: folds
+*** RIVER *** [6h Jd Jh Kh] [Ah]
+zehni: bets $0.07
+Homsjunior: calls $0.07
+*** SHOW DOWN ***
+zehni: shows [Qd Th] (a flush, Ace high)
+Homsjunior: mucks hand
+zehni collected $0.27 from pot
+*** SUMMARY ***
+Total pot $0.28 | Rake $0.01
+Board [6h Jd Jh Kh Ah]
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 3: Homsjunior mucked [Ks 2s]
+Seat 5: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 7: zehni (small blind) showed [Qd Th] and won ($0.27) with a flush, Ace high
+Seat 8: Anat1964 (big blind) folded on the Turn
+Seat 9: 133556 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513477025:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:22:24 ET
+Table 'Aoluta II' 9-max Seat #7 is the button
+Seat 1: Dera798 ($1.88 in chips)
+Seat 2: Aajajai ($0.98 in chips)
+Seat 3: Homsjunior ($1.82 in chips)
+Seat 5: pokerHero1 ($1.94 in chips)
+Seat 7: zehni ($2.18 in chips)
+Seat 8: Anat1964 ($0.62 in chips)
+Seat 9: 133556 ($0.61 in chips)
+Anat1964: posts small blind $0.01
+133556: posts big blind $0.02
+Aajajai: posts big blind $0.02
+sportmen86: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s Kh]
+Dera798: folds
+Aajajai: raises $0.06 to $0.08
+Homsjunior: folds
+pokerHero1: folds
+zehni: folds
+Anat1964: folds
+133556: folds
+Uncalled bet ($0.06) returned to Aajajai
+Aajajai collected $0.05 from pot
+Aajajai: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 2: Aajajai collected ($0.05)
+Seat 3: Homsjunior folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 7: zehni (button) folded before Flop (didn't bet)
+Seat 8: Anat1964 (small blind) folded before Flop
+Seat 9: 133556 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212513498360:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:22:46 ET
+Table 'Aoluta II' 9-max Seat #8 is the button
+Seat 1: Dera798 ($1.88 in chips)
+Seat 2: Aajajai ($1.01 in chips)
+Seat 3: Homsjunior ($1.82 in chips)
+Seat 5: pokerHero1 ($1.94 in chips)
+Seat 7: zehni ($2.18 in chips)
+Seat 8: Anat1964 ($0.61 in chips)
+Seat 9: 133556 ($0.59 in chips)
+133556: posts small blind $0.01
+Dera798: posts big blind $0.02
+sportmen86: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d Qd]
+Aajajai: raises $0.02 to $0.04
+Homsjunior: folds
+pokerHero1: folds
+zehni: folds
+Anat1964: folds
+133556: calls $0.03
+Dera798: folds
+*** FLOP *** [4c 3c 8h]
+133556: checks
+Aajajai: checks
+*** TURN *** [4c 3c 8h] [2h]
+133556: bets $0.04
+Aajajai: folds
+Uncalled bet ($0.04) returned to 133556
+133556 collected $0.10 from pot
+133556: doesn't show hand
+*** SUMMARY ***
+Total pot $0.10 | Rake $0
+Board [4c 3c 8h 2h]
+Seat 1: Dera798 (big blind) folded before Flop
+Seat 2: Aajajai folded on the Turn
+Seat 3: Homsjunior folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: Anat1964 (button) folded before Flop (didn't bet)
+Seat 9: 133556 (small blind) collected ($0.10)
+
+
+
+PokerStars Hand #212513534715:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:23:24 ET
+Table 'Aoluta II' 9-max Seat #9 is the button
+Seat 1: Dera798 ($1.86 in chips)
+Seat 2: Aajajai ($0.97 in chips)
+Seat 3: Homsjunior ($1.82 in chips)
+Seat 5: pokerHero1 ($1.94 in chips)
+Seat 7: zehni ($2.18 in chips)
+Seat 8: Anat1964 ($0.61 in chips)
+Seat 9: 133556 ($0.65 in chips)
+Dera798: posts small blind $0.01
+Aajajai: posts big blind $0.02
+sportmen86: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s Kd]
+Homsjunior: calls $0.02
+pokerHero1: folds
+zehni: folds
+Anat1964: folds
+133556: calls $0.02
+AndyJohn663 leaves the table
+Dera798: calls $0.01
+Aajajai: checks
+*** FLOP *** [Qs Td Ad]
+Dera798: checks
+Aajajai: bets $0.95 and is all-in
+Axlmw joins the table at seat #4
+Homsjunior: folds
+133556: folds
+Dera798: folds
+Uncalled bet ($0.95) returned to Aajajai
+Aajajai collected $0.08 from pot
+Aajajai: doesn't show hand
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Board [Qs Td Ad]
+Seat 1: Dera798 (small blind) folded on the Flop
+Seat 2: Aajajai (big blind) collected ($0.08)
+Seat 3: Homsjunior folded on the Flop
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: Anat1964 folded before Flop (didn't bet)
+Seat 9: 133556 (button) folded on the Flop
+
+
+
+PokerStars Hand #212513572909:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:24:04 ET
+Table 'Aoluta II' 9-max Seat #1 is the button
+Seat 1: Dera798 ($1.84 in chips)
+Seat 2: Aajajai ($1.03 in chips)
+Seat 3: Homsjunior ($1.80 in chips)
+Seat 5: pokerHero1 ($1.94 in chips)
+Seat 7: zehni ($2.18 in chips)
+Seat 8: Anat1964 ($0.61 in chips)
+Seat 9: 133556 ($0.63 in chips)
+Aajajai: posts small blind $0.01
+Homsjunior: posts big blind $0.02
+Axlmw: sits out
+sportmen86: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2s 4c]
+pokerHero1: folds
+zehni: folds
+Anat1964: folds
+133556: folds
+Dera798: folds
+Aajajai: raises $1.01 to $1.03 and is all-in
+Homsjunior: folds
+Uncalled bet ($1.01) returned to Aajajai
+Aajajai collected $0.04 from pot
+Aajajai: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 1: Dera798 (button) folded before Flop (didn't bet)
+Seat 2: Aajajai (small blind) collected ($0.04)
+Seat 3: Homsjunior (big blind) folded before Flop
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: Anat1964 folded before Flop (didn't bet)
+Seat 9: 133556 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513594888:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:24:26 ET
+Table 'Aoluta II' 9-max Seat #2 is the button
+Seat 1: Dera798 ($1.84 in chips)
+Seat 2: Aajajai ($1.05 in chips)
+Seat 3: Homsjunior ($1.78 in chips)
+Seat 4: Axlmw ($2 in chips)
+Seat 5: pokerHero1 ($1.94 in chips)
+Seat 7: zehni ($2.18 in chips)
+Seat 8: Anat1964 ($0.61 in chips)
+Seat 9: 133556 ($0.63 in chips)
+Homsjunior: posts small blind $0.01
+Axlmw: posts big blind $0.02
+sportmen86: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh 4d]
+pokerHero1: folds
+zehni: folds
+Anat1964: folds
+133556: raises $0.04 to $0.06
+Dera798: calls $0.06
+Aajajai: folds
+Homsjunior: folds
+Axlmw: folds
+*** FLOP *** [7s Kc Ac]
+133556: bets $0.06
+Dera798: calls $0.06
+*** TURN *** [7s Kc Ac] [Kh]
+133556: bets $0.02
+Dera798: calls $0.02
+*** RIVER *** [7s Kc Ac Kh] [2d]
+133556: bets $0.06
+Dera798: folds
+Uncalled bet ($0.06) returned to 133556
+133556 collected $0.30 from pot
+133556: doesn't show hand
+*** SUMMARY ***
+Total pot $0.31 | Rake $0.01
+Board [7s Kc Ac Kh 2d]
+Seat 1: Dera798 folded on the River
+Seat 2: Aajajai (button) folded before Flop (didn't bet)
+Seat 3: Homsjunior (small blind) folded before Flop
+Seat 4: Axlmw (big blind) folded before Flop
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: Anat1964 folded before Flop (didn't bet)
+Seat 9: 133556 collected ($0.30)
+
+
+
+PokerStars Hand #212513658472:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:25:28 ET
+Table 'Aoluta II' 9-max Seat #3 is the button
+Seat 1: Dera798 ($1.70 in chips)
+Seat 2: Aajajai ($1.05 in chips)
+Seat 3: Homsjunior ($1.77 in chips)
+Seat 4: Axlmw ($1.98 in chips)
+Seat 5: pokerHero1 ($1.94 in chips)
+Seat 7: zehni ($2.18 in chips)
+Seat 8: Anat1964 ($0.61 in chips)
+Seat 9: 133556 ($0.79 in chips)
+Axlmw: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+sportmen86: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7s 3d]
+zehni: calls $0.02
+Anat1964: folds
+133556: calls $0.02
+Dera798: folds
+Aajajai: raises $1.03 to $1.05 and is all-in
+Homsjunior: folds
+Axlmw: folds
+pokerHero1: folds
+zehni: folds
+133556: folds
+Uncalled bet ($1.03) returned to Aajajai
+Aajajai collected $0.09 from pot
+Aajajai: doesn't show hand
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 2: Aajajai collected ($0.09)
+Seat 3: Homsjunior (button) folded before Flop (didn't bet)
+Seat 4: Axlmw (small blind) folded before Flop
+Seat 5: pokerHero1 (big blind) folded before Flop
+Seat 7: zehni folded before Flop
+Seat 8: Anat1964 folded before Flop (didn't bet)
+Seat 9: 133556 folded before Flop
+
+
+
+PokerStars Hand #212513689068:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:26:00 ET
+Table 'Aoluta II' 9-max Seat #4 is the button
+Seat 1: Dera798 ($1.70 in chips)
+Seat 2: Aajajai ($1.12 in chips)
+Seat 3: Homsjunior ($1.77 in chips)
+Seat 4: Axlmw ($1.97 in chips)
+Seat 5: pokerHero1 ($1.92 in chips)
+Seat 6: sportmen86 ($0.80 in chips)
+Seat 7: zehni ($2.16 in chips)
+Seat 8: Anat1964 ($0.61 in chips)
+Seat 9: 133556 ($0.77 in chips)
+pokerHero1: posts small blind $0.01
+sportmen86: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d 6c]
+zehni: folds
+Anat1964: calls $0.02
+133556: calls $0.02
+Dera798: folds
+Aajajai: raises $1.10 to $1.12 and is all-in
+Homsjunior: folds
+Axlmw: folds
+pokerHero1: folds
+sportmen86: folds
+Anat1964: folds
+133556: folds
+Uncalled bet ($1.10) returned to Aajajai
+Aajajai collected $0.09 from pot
+Aajajai: doesn't show hand
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 2: Aajajai collected ($0.09)
+Seat 3: Homsjunior folded before Flop (didn't bet)
+Seat 4: Axlmw (button) folded before Flop (didn't bet)
+Seat 5: pokerHero1 (small blind) folded before Flop
+Seat 6: sportmen86 (big blind) folded before Flop
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: Anat1964 folded before Flop
+Seat 9: 133556 folded before Flop
+
+
+
+PokerStars Hand #212513715124:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:26:27 ET
+Table 'Aoluta II' 9-max Seat #5 is the button
+Seat 1: Dera798 ($1.70 in chips)
+Seat 2: Aajajai ($1.19 in chips)
+Seat 3: Homsjunior ($1.77 in chips)
+Seat 4: Axlmw ($1.97 in chips)
+Seat 5: pokerHero1 ($1.91 in chips)
+Seat 6: sportmen86 ($0.78 in chips)
+Seat 7: zehni ($2.16 in chips)
+Seat 8: Anat1964 ($0.59 in chips)
+Seat 9: 133556 ($0.75 in chips)
+sportmen86: posts small blind $0.01
+zehni: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ts 6s]
+Anat1964: folds
+133556: folds
+Dera798: folds
+Aajajai: raises $1.17 to $1.19 and is all-in
+Homsjunior: folds
+Axlmw: folds
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+Uncalled bet ($1.17) returned to Aajajai
+Aajajai collected $0.05 from pot
+Aajajai: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 2: Aajajai collected ($0.05)
+Seat 3: Homsjunior folded before Flop (didn't bet)
+Seat 4: Axlmw folded before Flop (didn't bet)
+Seat 5: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 6: sportmen86 (small blind) folded before Flop
+Seat 7: zehni (big blind) folded before Flop
+Seat 8: Anat1964 folded before Flop (didn't bet)
+Seat 9: 133556 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513740852:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:26:53 ET
+Table 'Aoluta II' 9-max Seat #6 is the button
+Seat 1: Dera798 ($1.70 in chips)
+Seat 2: Aajajai ($1.22 in chips)
+Seat 3: Homsjunior ($1.77 in chips)
+Seat 4: Axlmw ($1.97 in chips)
+Seat 5: pokerHero1 ($1.91 in chips)
+Seat 6: sportmen86 ($0.77 in chips)
+Seat 7: zehni ($2.14 in chips)
+Seat 8: Anat1964 ($0.59 in chips)
+Seat 9: 133556 ($0.75 in chips)
+zehni: posts small blind $0.01
+Anat1964: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s Kh]
+133556: raises $0.04 to $0.06
+Dera798: folds
+Aajajai: raises $1.16 to $1.22 and is all-in
+Homsjunior: folds
+Axlmw: folds
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+Anat1964: folds
+133556: folds
+Uncalled bet ($1.16) returned to Aajajai
+Aajajai collected $0.15 from pot
+Aajajai: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 2: Aajajai collected ($0.15)
+Seat 3: Homsjunior folded before Flop (didn't bet)
+Seat 4: Axlmw folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 (button) folded before Flop (didn't bet)
+Seat 7: zehni (small blind) folded before Flop
+Seat 8: Anat1964 (big blind) folded before Flop
+Seat 9: 133556 folded before Flop
+
+
+
+PokerStars Hand #212513759519:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:27:12 ET
+Table 'Aoluta II' 9-max Seat #7 is the button
+Seat 1: Dera798 ($1.70 in chips)
+Seat 2: Aajajai ($1.31 in chips)
+Seat 3: Homsjunior ($1.77 in chips)
+Seat 4: Axlmw ($1.97 in chips)
+Seat 5: pokerHero1 ($1.91 in chips)
+Seat 6: sportmen86 ($0.77 in chips)
+Seat 7: zehni ($2.13 in chips)
+Seat 8: Anat1964 ($0.57 in chips)
+Seat 9: 133556 ($0.69 in chips)
+Anat1964: posts small blind $0.01
+133556: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3s Js]
+Dera798: folds
+Aajajai: raises $1.29 to $1.31 and is all-in
+Homsjunior: folds
+Axlmw: folds
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+Anat1964: folds
+133556: folds
+Uncalled bet ($1.29) returned to Aajajai
+Aajajai collected $0.05 from pot
+Aajajai: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 2: Aajajai collected ($0.05)
+Seat 3: Homsjunior folded before Flop (didn't bet)
+Seat 4: Axlmw folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni (button) folded before Flop (didn't bet)
+Seat 8: Anat1964 (small blind) folded before Flop
+Seat 9: 133556 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212513788270:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:27:42 ET
+Table 'Aoluta II' 9-max Seat #8 is the button
+Seat 1: Dera798 ($1.70 in chips)
+Seat 2: Aajajai ($1.34 in chips)
+Seat 3: Homsjunior ($1.77 in chips)
+Seat 4: Axlmw ($1.97 in chips)
+Seat 5: pokerHero1 ($1.91 in chips)
+Seat 6: sportmen86 ($0.77 in chips)
+Seat 7: zehni ($2.13 in chips)
+Seat 8: Anat1964 ($0.56 in chips)
+Seat 9: 133556 ($0.67 in chips)
+133556: posts small blind $0.01
+Dera798: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js 3s]
+Aajajai: raises $1.32 to $1.34 and is all-in
+Homsjunior: folds
+Axlmw: folds
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+Anat1964: calls $0.56 and is all-in
+133556: folds
+Dera798: calls $1.32
+*** FLOP *** [Kd 3c 7c]
+*** TURN *** [Kd 3c 7c] [9s]
+*** RIVER *** [Kd 3c 7c 9s] [9h]
+*** SHOW DOWN ***
+Dera798: shows [Qh Ad] (a pair of Nines)
+Aajajai: shows [7h 9c] (a full house, Nines full of Sevens)
+Aajajai collected $1.51 from side pot
+Anat1964: shows [3h Ah] (two pair, Nines and Threes)
+Aajajai collected $1.63 from main pot
+Dera798 cashed out the hand for $1.62 | Cash Out Fee $0.02
+*** SUMMARY ***
+Total pot $3.25 Main pot $1.63. Side pot $1.51. | Rake $0.11
+Board [Kd 3c 7c 9s 9h]
+Seat 1: Dera798 (big blind) showed [Qh Ad] and lost with a pair of Nines (cashed out).
+Seat 2: Aajajai showed [7h 9c] and won ($3.14) with a full house, Nines full of Sevens
+Seat 3: Homsjunior folded before Flop (didn't bet)
+Seat 4: Axlmw folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: Anat1964 (button) showed [3h Ah] and lost with two pair, Nines and Threes
+Seat 9: 133556 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212513818865:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:28:14 ET
+Table 'Aoluta II' 9-max Seat #9 is the button
+Seat 1: Dera798 ($1.98 in chips)
+Seat 2: Aajajai ($3.14 in chips)
+Seat 3: Homsjunior ($1.77 in chips)
+Seat 4: Axlmw ($1.97 in chips)
+Seat 5: pokerHero1 ($1.91 in chips)
+Seat 6: sportmen86 ($0.77 in chips)
+Seat 7: zehni ($2.13 in chips)
+Seat 9: 133556 ($0.66 in chips)
+Dera798: posts small blind $0.01
+Aajajai: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7s 6c]
+Homsjunior: calls $0.02
+Axlmw: raises $0.06 to $0.08
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+133556: calls $0.08
+Dera798: folds
+Aajajai: raises $3.06 to $3.14 and is all-in
+Homsjunior: folds
+Axlmw: folds
+133556: calls $0.58 and is all-in
+Uncalled bet ($2.48) returned to Aajajai
+*** FLOP *** [6h 3h 2c]
+*** TURN *** [6h 3h 2c] [7c]
+*** RIVER *** [6h 3h 2c 7c] [8c]
+*** SHOW DOWN ***
+Aajajai: shows [Kh Qh] (high card King)
+133556: shows [Qc Js] (high card Queen)
+Aajajai collected $1.38 from pot
+133556 cashed out the hand for $0.34
+*** SUMMARY ***
+Total pot $1.43 | Rake $0.05
+Board [6h 3h 2c 7c 8c]
+Seat 1: Dera798 (small blind) folded before Flop
+Seat 2: Aajajai (big blind) showed [Kh Qh] and won ($1.38) with high card King
+Seat 3: Homsjunior folded before Flop
+Seat 4: Axlmw folded before Flop
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 9: 133556 (button) showed [Qc Js] and lost with high card Queen (cashed out).
+
+
+
+PokerStars Hand #212513861207:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:28:57 ET
+Table 'Aoluta II' 9-max Seat #1 is the button
+Seat 1: Dera798 ($1.97 in chips)
+Seat 2: Aajajai ($3.86 in chips)
+Seat 3: Homsjunior ($1.75 in chips)
+Seat 4: Axlmw ($1.89 in chips)
+Seat 5: pokerHero1 ($1.91 in chips)
+Seat 6: sportmen86 ($0.77 in chips)
+Seat 7: zehni ($2.13 in chips)
+Seat 8: Anat1964 ($0.80 in chips)
+Seat 9: 133556 ($0.34 in chips)
+Aajajai: posts small blind $0.01
+Homsjunior: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th 6s]
+Axlmw: folds
+pokerHero1: folds
+sportmen86: folds
+Aajajai said, "pff"
+zehni: folds
+Anat1964: calls $0.02
+133556: raises $0.32 to $0.34 and is all-in
+Dera798: folds
+Aajajai: raises $3.52 to $3.86 and is all-in
+Homsjunior: folds
+Anat1964: calls $0.78 and is all-in
+Uncalled bet ($3.06) returned to Aajajai
+Axlmw leaves the table
+*** FLOP *** [5d 2d 6h]
+*** TURN *** [5d 2d 6h] [Jd]
+*** RIVER *** [5d 2d 6h Jd] [6c]
+Sjamaan II joins the table at seat #4
+*** SHOW DOWN ***
+Aajajai: shows [Ac 7d] (a pair of Sixes)
+Anat1964: shows [Ad Td] (a flush, Ace high)
+Anat1964 collected $0.89 from side pot
+133556: shows [Ah 8h] (a pair of Sixes)
+Anat1964 collected $1 from main pot
+*** SUMMARY ***
+Total pot $1.96 Main pot $1. Side pot $0.89. | Rake $0.07
+Board [5d 2d 6h Jd 6c]
+Seat 1: Dera798 (button) folded before Flop (didn't bet)
+Seat 2: Aajajai (small blind) showed [Ac 7d] and lost with a pair of Sixes
+Seat 3: Homsjunior (big blind) folded before Flop
+Seat 4: Axlmw folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: Anat1964 showed [Ad Td] and won ($1.89) with a flush, Ace high
+Seat 9: 133556 showed [Ah 8h] and lost with a pair of Sixes
+
+
+
+PokerStars Hand #212513896090:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:29:34 ET
+Table 'Aoluta II' 9-max Seat #2 is the button
+Seat 1: Dera798 ($1.97 in chips)
+Seat 2: Aajajai ($3.06 in chips)
+Seat 3: Homsjunior ($1.73 in chips)
+Seat 4: Sjamaan II ($1.60 in chips)
+Seat 5: pokerHero1 ($1.91 in chips)
+Seat 6: sportmen86 ($0.77 in chips)
+Seat 7: zehni ($2.13 in chips)
+Seat 8: Anat1964 ($1.89 in chips)
+Homsjunior: posts small blind $0.01
+Sjamaan II: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kd 4c]
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+133556 leaves the table
+Anat1964: folds
+Dera798: folds
+WladimirBuryak joins the table at seat #9
+Aajajai: raises $3.04 to $3.06 and is all-in
+Homsjunior: folds
+Sjamaan II: folds
+Uncalled bet ($3.04) returned to Aajajai
+Aajajai collected $0.05 from pot
+Aajajai: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 2: Aajajai (button) collected ($0.05)
+Seat 3: Homsjunior (small blind) folded before Flop
+Seat 4: Sjamaan II (big blind) folded before Flop
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: Anat1964 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513916729:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:29:55 ET
+Table 'Aoluta II' 9-max Seat #3 is the button
+Seat 1: Dera798 ($1.97 in chips)
+Seat 2: Aajajai ($3.09 in chips)
+Seat 3: Homsjunior ($1.72 in chips)
+Seat 4: Sjamaan II ($1.58 in chips)
+Seat 5: pokerHero1 ($1.91 in chips)
+Seat 6: sportmen86 ($0.77 in chips)
+Seat 7: zehni ($2.13 in chips)
+Seat 8: Anat1964 ($1.89 in chips)
+Seat 9: WladimirBuryak ($0.80 in chips)
+Sjamaan II: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+WladimirBuryak: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As Ad]
+sportmen86: folds
+zehni: folds
+Anat1964: folds
+WladimirBuryak: checks
+Dera798: calls $0.02
+Aajajai: raises $3.07 to $3.09 and is all-in
+Homsjunior: folds
+Sjamaan II: folds
+pokerHero1: calls $1.89 and is all-in
+WladimirBuryak: folds
+Dera798: folds
+Uncalled bet ($1.18) returned to Aajajai
+*** FLOP *** [8s 6c Ah]
+*** TURN *** [8s 6c Ah] [4h]
+*** RIVER *** [8s 6c Ah 4h] [9h]
+*** SHOW DOWN ***
+pokerHero1: shows [As Ad] (three of a kind, Aces)
+Aajajai: shows [9s Td] (a pair of Nines)
+pokerHero1 collected $3.73 from pot
+Aajajai cashed out the hand for $0.65 | Cash Out Fee $0.01
+*** SUMMARY ***
+Total pot $3.87 | Rake $0.14
+Board [8s 6c Ah 4h 9h]
+Seat 1: Dera798 folded before Flop
+Seat 2: Aajajai showed [9s Td] and lost with a pair of Nines (cashed out).
+Seat 3: Homsjunior (button) folded before Flop (didn't bet)
+Seat 4: Sjamaan II (small blind) folded before Flop
+Seat 5: pokerHero1 (big blind) showed [As Ad] and won ($3.73) with three of a kind, Aces
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: Anat1964 folded before Flop (didn't bet)
+Seat 9: WladimirBuryak folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513952917:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:30:32 ET
+Table 'Aoluta II' 9-max Seat #4 is the button
+Seat 1: Dera798 ($1.95 in chips)
+Seat 2: Aajajai ($1.83 in chips)
+Seat 3: Homsjunior ($1.72 in chips)
+Seat 4: Sjamaan II ($1.57 in chips)
+Seat 5: pokerHero1 ($3.73 in chips)
+Seat 6: sportmen86 ($0.77 in chips)
+Seat 7: zehni ($2.13 in chips)
+Seat 8: Anat1964 ($1.89 in chips)
+Seat 9: WladimirBuryak ($0.78 in chips)
+pokerHero1: posts small blind $0.01
+sportmen86: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9s 3d]
+zehni: folds
+Anat1964: folds
+WladimirBuryak: folds
+Dera798: folds
+Aajajai: raises $1.81 to $1.83 and is all-in
+Homsjunior: folds
+Sjamaan II: folds
+pokerHero1: folds
+sportmen86: folds
+Uncalled bet ($1.81) returned to Aajajai
+Aajajai collected $0.05 from pot
+Aajajai: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 2: Aajajai collected ($0.05)
+Seat 3: Homsjunior folded before Flop (didn't bet)
+Seat 4: Sjamaan II (button) folded before Flop (didn't bet)
+Seat 5: pokerHero1 (small blind) folded before Flop
+Seat 6: sportmen86 (big blind) folded before Flop
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: Anat1964 folded before Flop (didn't bet)
+Seat 9: WladimirBuryak folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212513981340:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:31:01 ET
+Table 'Aoluta II' 9-max Seat #5 is the button
+Seat 1: Dera798 ($1.95 in chips)
+Seat 2: Aajajai ($1.86 in chips)
+Seat 3: Homsjunior ($1.72 in chips)
+Seat 4: Sjamaan II ($1.57 in chips)
+Seat 5: pokerHero1 ($3.72 in chips)
+Seat 6: sportmen86 ($0.75 in chips)
+Seat 7: zehni ($2.13 in chips)
+Seat 8: Anat1964 ($1.89 in chips)
+Seat 9: WladimirBuryak ($0.78 in chips)
+sportmen86: posts small blind $0.01
+zehni: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c Ts]
+Anat1964: folds
+WladimirBuryak: folds
+Dera798: calls $0.02
+Aajajai: raises $1.84 to $1.86 and is all-in
+Homsjunior: calls $1.72 and is all-in
+Sjamaan II: folds
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+Dera798: folds
+Uncalled bet ($0.14) returned to Aajajai
+*** FLOP *** [Tc 6h Kd]
+*** TURN *** [Tc 6h Kd] [2s]
+*** RIVER *** [Tc 6h Kd 2s] [6d]
+*** SHOW DOWN ***
+Aajajai: shows [9c 7s] (a pair of Sixes)
+Homsjunior: shows [Ac Ah] (two pair, Aces and Sixes)
+Homsjunior collected $3.37 from pot
+*** SUMMARY ***
+Total pot $3.49 | Rake $0.12
+Board [Tc 6h Kd 2s 6d]
+Seat 1: Dera798 folded before Flop
+Seat 2: Aajajai showed [9c 7s] and lost with a pair of Sixes
+Seat 3: Homsjunior showed [Ac Ah] and won ($3.37) with two pair, Aces and Sixes
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 6: sportmen86 (small blind) folded before Flop
+Seat 7: zehni (big blind) folded before Flop
+Seat 8: Anat1964 folded before Flop (didn't bet)
+Seat 9: WladimirBuryak folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514019442:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:31:39 ET
+Table 'Aoluta II' 9-max Seat #6 is the button
+Seat 1: Dera798 ($1.93 in chips)
+Seat 2: Aajajai ($0.14 in chips)
+Seat 3: Homsjunior ($3.37 in chips)
+Seat 4: Sjamaan II ($1.57 in chips)
+Seat 5: pokerHero1 ($3.72 in chips)
+Seat 6: sportmen86 ($0.74 in chips)
+Seat 7: zehni ($2.11 in chips)
+Seat 8: Anat1964 ($1.89 in chips)
+Seat 9: WladimirBuryak ($1.61 in chips)
+zehni: posts small blind $0.01
+Anat1964: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9d Kd]
+WladimirBuryak: folds
+Dera798: raises $0.02 to $0.04
+Aajajai: raises $0.10 to $0.14 and is all-in
+Homsjunior: calls $0.14
+Sjamaan II: folds
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+Anat1964: folds
+Dera798: calls $0.10
+*** FLOP *** [Td Js 4s]
+Dera798: checks
+Homsjunior: checks
+*** TURN *** [Td Js 4s] [4c]
+Dera798: bets $0.04
+Homsjunior: raises $0.04 to $0.08
+Dera798: calls $0.04
+*** RIVER *** [Td Js 4s 4c] [Ad]
+Dera798: bets $0.02
+Homsjunior: raises $0.32 to $0.34
+Dera798: folds
+Uncalled bet ($0.32) returned to Homsjunior
+*** SHOW DOWN ***
+Homsjunior: shows [Qd 4d] (three of a kind, Fours)
+Homsjunior collected $0.20 from side pot
+Aajajai: shows [Jc 6h] (two pair, Jacks and Fours)
+Homsjunior collected $0.43 from main pot
+*** SUMMARY ***
+Total pot $0.65 Main pot $0.43. Side pot $0.20. | Rake $0.02
+Board [Td Js 4s 4c Ad]
+Seat 1: Dera798 folded on the River
+Seat 2: Aajajai showed [Jc 6h] and lost with two pair, Jacks and Fours
+Seat 3: Homsjunior showed [Qd 4d] and won ($0.63) with three of a kind, Fours
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 (button) folded before Flop (didn't bet)
+Seat 7: zehni (small blind) folded before Flop
+Seat 8: Anat1964 (big blind) folded before Flop
+Seat 9: WladimirBuryak folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514085232:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:32:47 ET
+Table 'Aoluta II' 9-max Seat #7 is the button
+Seat 1: Dera798 ($1.69 in chips)
+Seat 3: Homsjunior ($3.76 in chips)
+Seat 4: Sjamaan II ($1.57 in chips)
+Seat 5: pokerHero1 ($3.72 in chips)
+Seat 6: sportmen86 ($0.74 in chips)
+Seat 7: zehni ($2.10 in chips)
+Seat 8: Anat1964 ($1.87 in chips)
+Seat 9: WladimirBuryak ($1.61 in chips)
+Anat1964: posts small blind $0.01
+WladimirBuryak: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th 6c]
+hfnbckfd joins the table at seat #2
+Dera798: folds
+Homsjunior: folds
+Sjamaan II: folds
+pokerHero1: folds
+sportmen86: raises $0.04 to $0.06
+zehni: folds
+Anat1964: folds
+WladimirBuryak: folds
+Uncalled bet ($0.04) returned to sportmen86
+sportmen86 collected $0.05 from pot
+sportmen86: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 3: Homsjunior folded before Flop (didn't bet)
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 collected ($0.05)
+Seat 7: zehni (button) folded before Flop (didn't bet)
+Seat 8: Anat1964 (small blind) folded before Flop
+Seat 9: WladimirBuryak (big blind) folded before Flop
+
+
+
+PokerStars Hand #212514104864:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:33:07 ET
+Table 'Aoluta II' 9-max Seat #8 is the button
+Seat 1: Dera798 ($1.69 in chips)
+Seat 3: Homsjunior ($3.76 in chips)
+Seat 4: Sjamaan II ($1.57 in chips)
+Seat 5: pokerHero1 ($3.72 in chips)
+Seat 6: sportmen86 ($0.77 in chips)
+Seat 7: zehni ($2.10 in chips)
+Seat 8: Anat1964 ($1.86 in chips)
+Seat 9: WladimirBuryak ($1.59 in chips)
+WladimirBuryak: posts small blind $0.01
+Dera798: posts big blind $0.02
+hfnbckfd: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d 6h]
+Homsjunior: calls $0.02
+Sjamaan II: folds
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+Anat1964: folds
+WladimirBuryak: folds
+Dera798: checks
+*** FLOP *** [4c 9s 3d]
+Dera798: checks
+Homsjunior: checks
+*** TURN *** [4c 9s 3d] [Kd]
+Dera798: checks
+Homsjunior: checks
+*** RIVER *** [4c 9s 3d Kd] [2c]
+Dera798: checks
+Homsjunior: checks
+*** SHOW DOWN ***
+Dera798: shows [Qd 8c] (high card King)
+Homsjunior: mucks hand
+Dera798 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [4c 9s 3d Kd 2c]
+Seat 1: Dera798 (big blind) showed [Qd 8c] and won ($0.05) with high card King
+Seat 3: Homsjunior mucked [8d Jh]
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: Anat1964 (button) folded before Flop (didn't bet)
+Seat 9: WladimirBuryak (small blind) folded before Flop
+
+
+
+PokerStars Hand #212514148458:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:33:50 ET
+Table 'Aoluta II' 9-max Seat #9 is the button
+Seat 1: Dera798 ($1.72 in chips)
+Seat 2: hfnbckfd ($2 in chips)
+Seat 3: Homsjunior ($3.74 in chips)
+Seat 4: Sjamaan II ($1.57 in chips)
+Seat 5: pokerHero1 ($3.72 in chips)
+Seat 6: sportmen86 ($0.77 in chips)
+Seat 7: zehni ($2.10 in chips)
+Seat 8: Anat1964 ($1.86 in chips)
+Seat 9: WladimirBuryak ($1.58 in chips)
+Dera798: posts small blind $0.01
+hfnbckfd: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3c 2s]
+Homsjunior: calls $0.02
+Sjamaan II: folds
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+Anat1964: folds
+WladimirBuryak: calls $0.02
+Dera798: calls $0.01
+hfnbckfd: checks
+*** FLOP *** [Th Qc Ah]
+Dera798: checks
+hfnbckfd: bets $0.06
+Homsjunior: folds
+WladimirBuryak: folds
+Dera798: calls $0.06
+*** TURN *** [Th Qc Ah] [3s]
+Dera798: checks
+hfnbckfd: checks
+*** RIVER *** [Th Qc Ah 3s] [Qd]
+Dera798: checks
+hfnbckfd: checks
+*** SHOW DOWN ***
+Dera798: shows [As 6s] (two pair, Aces and Queens)
+hfnbckfd: mucks hand
+Dera798 collected $0.19 from pot
+*** SUMMARY ***
+Total pot $0.20 | Rake $0.01
+Board [Th Qc Ah 3s Qd]
+Seat 1: Dera798 (small blind) showed [As 6s] and won ($0.19) with two pair, Aces and Queens
+Seat 2: hfnbckfd (big blind) mucked [8h 9c]
+Seat 3: Homsjunior folded on the Flop
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: Anat1964 folded before Flop (didn't bet)
+Seat 9: WladimirBuryak (button) folded on the Flop
+
+
+
+PokerStars Hand #212514202877:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:34:46 ET
+Table 'Aoluta II' 9-max Seat #1 is the button
+Seat 1: Dera798 ($1.83 in chips)
+Seat 2: hfnbckfd ($2 in chips)
+Seat 3: Homsjunior ($3.72 in chips)
+Seat 4: Sjamaan II ($1.57 in chips)
+Seat 5: pokerHero1 ($3.72 in chips)
+Seat 6: sportmen86 ($0.77 in chips)
+Seat 7: zehni ($2.10 in chips)
+Seat 8: Anat1964 ($1.86 in chips)
+Seat 9: WladimirBuryak ($1.56 in chips)
+hfnbckfd: posts small blind $0.01
+Homsjunior: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8d Qd]
+Sjamaan II: folds
+pokerHero1: folds
+sportmen86: raises $0.04 to $0.06
+zehni: folds
+Anat1964: folds
+WladimirBuryak: folds
+Dera798: folds
+hfnbckfd: folds
+Homsjunior: folds
+Uncalled bet ($0.04) returned to sportmen86
+sportmen86 collected $0.05 from pot
+sportmen86: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: Dera798 (button) folded before Flop (didn't bet)
+Seat 2: hfnbckfd (small blind) folded before Flop
+Seat 3: Homsjunior (big blind) folded before Flop
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 collected ($0.05)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: Anat1964 folded before Flop (didn't bet)
+Seat 9: WladimirBuryak folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514222411:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:35:06 ET
+Table 'Aoluta II' 9-max Seat #2 is the button
+Seat 1: Dera798 ($1.83 in chips)
+Seat 2: hfnbckfd ($2 in chips)
+Seat 3: Homsjunior ($3.70 in chips)
+Seat 4: Sjamaan II ($1.57 in chips)
+Seat 5: pokerHero1 ($3.72 in chips)
+Seat 6: sportmen86 ($0.80 in chips)
+Seat 7: zehni ($2.10 in chips)
+Seat 8: Anat1964 ($1.86 in chips)
+Seat 9: WladimirBuryak ($1.56 in chips)
+Homsjunior: posts small blind $0.01
+Sjamaan II: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d 9c]
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+Anat1964: folds
+WladimirBuryak: folds
+Dera798: raises $0.04 to $0.06
+hfnbckfd: folds
+Homsjunior: calls $0.05
+Sjamaan II: folds
+*** FLOP *** [5h Jc 3h]
+Homsjunior: checks
+Dera798: checks
+*** TURN *** [5h Jc 3h] [Ad]
+Homsjunior: bets $0.08
+Dera798: raises $0.16 to $0.24
+Homsjunior: calls $0.16
+*** RIVER *** [5h Jc 3h Ad] [Jd]
+Homsjunior: checks
+Dera798: checks
+*** SHOW DOWN ***
+Homsjunior: shows [9h Ah] (two pair, Aces and Jacks)
+Dera798: shows [Ac Ks] (two pair, Aces and Jacks - King kicker)
+Dera798 collected $0.60 from pot
+*** SUMMARY ***
+Total pot $0.62 | Rake $0.02
+Board [5h Jc 3h Ad Jd]
+Seat 1: Dera798 showed [Ac Ks] and won ($0.60) with two pair, Aces and Jacks
+Seat 2: hfnbckfd (button) folded before Flop (didn't bet)
+Seat 3: Homsjunior (small blind) showed [9h Ah] and lost with two pair, Aces and Jacks
+Seat 4: Sjamaan II (big blind) folded before Flop
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: Anat1964 folded before Flop (didn't bet)
+Seat 9: WladimirBuryak folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514278330:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:36:03 ET
+Table 'Aoluta II' 9-max Seat #3 is the button
+Seat 1: Dera798 ($2.13 in chips)
+Seat 2: hfnbckfd ($2 in chips)
+Seat 3: Homsjunior ($3.40 in chips)
+Seat 4: Sjamaan II ($1.55 in chips)
+Seat 5: pokerHero1 ($3.72 in chips)
+Seat 6: sportmen86 ($0.80 in chips)
+Seat 7: zehni ($2.10 in chips)
+Seat 8: Anat1964 ($1.86 in chips)
+Seat 9: WladimirBuryak ($1.56 in chips)
+Sjamaan II: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc 2c]
+sportmen86: folds
+zehni: raises $0.03 to $0.05
+Anat1964: folds
+WladimirBuryak: folds
+Dera798: folds
+hfnbckfd: folds
+Homsjunior: calls $0.05
+Sjamaan II: folds
+pokerHero1: folds
+*** FLOP *** [9s 8s Jh]
+zehni: bets $0.07
+Homsjunior: folds
+Uncalled bet ($0.07) returned to zehni
+zehni collected $0.13 from pot
+zehni: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [9s 8s Jh]
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 2: hfnbckfd folded before Flop (didn't bet)
+Seat 3: Homsjunior (button) folded on the Flop
+Seat 4: Sjamaan II (small blind) folded before Flop
+Seat 5: pokerHero1 (big blind) folded before Flop
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni collected ($0.13)
+Seat 8: Anat1964 folded before Flop (didn't bet)
+Seat 9: WladimirBuryak folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514302179:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:36:28 ET
+Table 'Aoluta II' 9-max Seat #4 is the button
+Seat 1: Dera798 ($2.13 in chips)
+Seat 2: hfnbckfd ($2 in chips)
+Seat 3: Homsjunior ($3.35 in chips)
+Seat 4: Sjamaan II ($1.54 in chips)
+Seat 5: pokerHero1 ($3.70 in chips)
+Seat 6: sportmen86 ($0.80 in chips)
+Seat 7: zehni ($2.18 in chips)
+Seat 8: Anat1964 ($1.86 in chips)
+Seat 9: WladimirBuryak ($1.56 in chips)
+pokerHero1: posts small blind $0.01
+sportmen86: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As Kd]
+zehni: folds
+Anat1964: calls $0.02
+WladimirBuryak: folds
+Dera798: raises $0.02 to $0.04
+hfnbckfd: folds
+Homsjunior: folds
+Sjamaan II: calls $0.04
+pokerHero1: raises $0.12 to $0.16
+sportmen86: folds
+Anat1964: folds
+Dera798: folds
+Sjamaan II: calls $0.12
+*** FLOP *** [7c 3h Th]
+pokerHero1: bets $0.22
+Sjamaan II: calls $0.22
+*** TURN *** [7c 3h Th] [2d]
+pokerHero1: checks
+Sjamaan II: checks
+*** RIVER *** [7c 3h Th 2d] [Ks]
+pokerHero1: bets $0.73
+Sjamaan II: folds
+Uncalled bet ($0.73) returned to pokerHero1
+pokerHero1 collected $0.81 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.84 | Rake $0.03
+Board [7c 3h Th 2d Ks]
+Seat 1: Dera798 folded before Flop
+Seat 2: hfnbckfd folded before Flop (didn't bet)
+Seat 3: Homsjunior folded before Flop (didn't bet)
+Seat 4: Sjamaan II (button) folded on the River
+Seat 5: pokerHero1 (small blind) collected ($0.81)
+Seat 6: sportmen86 (big blind) folded before Flop
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: Anat1964 folded before Flop
+Seat 9: WladimirBuryak folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514378929:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:37:44 ET
+Table 'Aoluta II' 9-max Seat #5 is the button
+Seat 1: Dera798 ($2.09 in chips)
+Seat 2: hfnbckfd ($2 in chips)
+Seat 3: Homsjunior ($3.35 in chips)
+Seat 4: Sjamaan II ($1.16 in chips)
+Seat 5: pokerHero1 ($4.13 in chips)
+Seat 6: sportmen86 ($0.78 in chips)
+Seat 7: zehni ($2.18 in chips)
+Seat 8: Anat1964 ($1.84 in chips)
+Seat 9: WladimirBuryak ($1.56 in chips)
+sportmen86: posts small blind $0.01
+zehni: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5h Ah]
+Anat1964: folds
+WladimirBuryak: folds
+Anat1964 leaves the table
+Dera798: folds
+hfnbckfd: raises $0.04 to $0.06
+Homsjunior: folds
+Sjamaan II: folds
+pokerHero1: calls $0.06
+sportmen86: folds
+zehni: folds
+*** FLOP *** [5s Tc 3h]
+hfnbckfd: bets $0.02
+pokerHero1: calls $0.02
+*** TURN *** [5s Tc 3h] [Qh]
+hfnbckfd: bets $0.06
+pokerHero1: raises $0.14 to $0.20
+hfnbckfd: calls $0.14
+*** RIVER *** [5s Tc 3h Qh] [Ad]
+hfnbckfd: bets $0.57
+pokerHero1: calls $0.57
+*** SHOW DOWN ***
+hfnbckfd: shows [Th Td] (three of a kind, Tens)
+pokerHero1: mucks hand
+hfnbckfd collected $1.67 from pot
+*** SUMMARY ***
+Total pot $1.73 | Rake $0.06
+Board [5s Tc 3h Qh Ad]
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 2: hfnbckfd showed [Th Td] and won ($1.67) with three of a kind, Tens
+Seat 3: Homsjunior folded before Flop (didn't bet)
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 (button) mucked [5h Ah]
+Seat 6: sportmen86 (small blind) folded before Flop
+Seat 7: zehni (big blind) folded before Flop
+Seat 8: Anat1964 folded before Flop (didn't bet)
+Seat 9: WladimirBuryak folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514431016:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:38:36 ET
+Table 'Aoluta II' 9-max Seat #6 is the button
+Seat 1: Dera798 ($2.09 in chips)
+Seat 2: hfnbckfd ($2.82 in chips)
+Seat 3: Homsjunior ($3.35 in chips)
+Seat 4: Sjamaan II ($1.16 in chips)
+Seat 5: pokerHero1 ($3.28 in chips)
+Seat 6: sportmen86 ($0.77 in chips)
+Seat 7: zehni ($2.16 in chips)
+Seat 9: WladimirBuryak ($1.56 in chips)
+zehni: posts small blind $0.01
+WladimirBuryak: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th 4h]
+Dera798: folds
+hfnbckfd: folds
+Homsjunior: calls $0.02
+Sjamaan II: folds
+pokerHero1: folds
+sportmen86: raises $0.06 to $0.08
+zehni: folds
+WladimirBuryak: folds
+Homsjunior: calls $0.06
+*** FLOP *** [9c Kd Qc]
+Homsjunior: checks
+sportmen86: checks
+*** TURN *** [9c Kd Qc] [2h]
+Homsjunior: checks
+sportmen86: checks
+*** RIVER *** [9c Kd Qc 2h] [8s]
+Homsjunior: checks
+sportmen86: checks
+*** SHOW DOWN ***
+Homsjunior: shows [4c 7c] (high card King)
+sportmen86: shows [6c 6d] (a pair of Sixes)
+sportmen86 collected $0.18 from pot
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [9c Kd Qc 2h 8s]
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 2: hfnbckfd folded before Flop (didn't bet)
+Seat 3: Homsjunior showed [4c 7c] and lost with high card King
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 (button) showed [6c 6d] and won ($0.18) with a pair of Sixes
+Seat 7: zehni (small blind) folded before Flop
+Seat 9: WladimirBuryak (big blind) folded before Flop
+
+
+
+PokerStars Hand #212514475996:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:39:22 ET
+Table 'Aoluta II' 9-max Seat #7 is the button
+Seat 1: Dera798 ($2.09 in chips)
+Seat 2: hfnbckfd ($2.82 in chips)
+Seat 3: Homsjunior ($3.27 in chips)
+Seat 4: Sjamaan II ($1.16 in chips)
+Seat 5: pokerHero1 ($3.28 in chips)
+Seat 6: sportmen86 ($0.87 in chips)
+Seat 7: zehni ($2.15 in chips)
+Seat 9: WladimirBuryak ($1.54 in chips)
+WladimirBuryak: posts small blind $0.01
+Dera798: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As Ah]
+hfnbckfd: folds
+Homsjunior: folds
+Sjamaan II: folds
+pokerHero1: raises $0.06 to $0.08
+sportmen86: folds
+luna28277 joins the table at seat #8
+zehni: folds
+WladimirBuryak: folds
+Dera798: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: Dera798 (big blind) folded before Flop
+Seat 2: hfnbckfd folded before Flop (didn't bet)
+Seat 3: Homsjunior folded before Flop (didn't bet)
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 collected ($0.05)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni (button) folded before Flop (didn't bet)
+Seat 9: WladimirBuryak (small blind) folded before Flop
+
+
+
+PokerStars Hand #212514498785:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:39:45 ET
+Table 'Aoluta II' 9-max Seat #9 is the button
+Seat 1: Dera798 ($2.07 in chips)
+Seat 2: hfnbckfd ($2.82 in chips)
+Seat 3: Homsjunior ($3.27 in chips)
+Seat 4: Sjamaan II ($1.16 in chips)
+Seat 5: pokerHero1 ($3.31 in chips)
+Seat 6: sportmen86 ($0.87 in chips)
+Seat 7: zehni ($2.15 in chips)
+Seat 8: luna28277 ($0.80 in chips)
+Seat 9: WladimirBuryak ($1.53 in chips)
+Dera798: posts small blind $0.01
+hfnbckfd: posts big blind $0.02
+luna28277: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d Js]
+Homsjunior: calls $0.02
+Sjamaan II: folds
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+luna28277: raises $0.10 to $0.12
+WladimirBuryak: folds
+Dera798: calls $0.11
+hfnbckfd: folds
+Homsjunior: folds
+*** FLOP *** [7s 3s 6h]
+Dera798: checks
+luna28277: bets $0.12
+Dera798: raises $1.83 to $1.95 and is all-in
+luna28277: calls $0.56 and is all-in
+Uncalled bet ($1.27) returned to Dera798
+*** TURN *** [7s 3s 6h] [As]
+*** RIVER *** [7s 3s 6h As] [2d]
+*** SHOW DOWN ***
+Dera798: shows [9c 9s] (a pair of Nines)
+luna28277: shows [Kd Kh] (a pair of Kings)
+luna28277 collected $1.58 from pot
+*** SUMMARY ***
+Total pot $1.64 | Rake $0.06
+Board [7s 3s 6h As 2d]
+Seat 1: Dera798 (small blind) showed [9c 9s] and lost with a pair of Nines
+Seat 2: hfnbckfd (big blind) folded before Flop
+Seat 3: Homsjunior folded before Flop
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: luna28277 showed [Kd Kh] and won ($1.58) with a pair of Kings
+Seat 9: WladimirBuryak (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514558895:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:40:41 ET
+Table 'Aoluta II' 9-max Seat #1 is the button
+Seat 1: Dera798 ($1.27 in chips)
+Seat 2: hfnbckfd ($2.80 in chips)
+Seat 3: Homsjunior ($3.25 in chips)
+Seat 4: Sjamaan II ($1.16 in chips)
+Seat 5: pokerHero1 ($3.31 in chips)
+Seat 6: sportmen86 ($0.87 in chips)
+Seat 7: zehni ($2.15 in chips)
+Seat 8: luna28277 ($1.58 in chips)
+Seat 9: WladimirBuryak ($1.53 in chips)
+hfnbckfd: posts small blind $0.01
+Homsjunior: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc 6h]
+Sjamaan II: folds
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+luna28277: calls $0.02
+WladimirBuryak: folds
+Dera798: folds
+hfnbckfd: folds
+Homsjunior: checks
+*** FLOP *** [Kc 7s Ks]
+Homsjunior: checks
+luna28277: checks
+*** TURN *** [Kc 7s Ks] [Th]
+Homsjunior: checks
+luna28277: bets $0.02
+Homsjunior: calls $0.02
+*** RIVER *** [Kc 7s Ks Th] [3c]
+Homsjunior: bets $0.08
+luna28277: calls $0.08
+*** SHOW DOWN ***
+Homsjunior: shows [Kh 9d] (three of a kind, Kings)
+luna28277: mucks hand
+Homsjunior collected $0.24 from pot
+*** SUMMARY ***
+Total pot $0.25 | Rake $0.01
+Board [Kc 7s Ks Th 3c]
+Seat 1: Dera798 (button) folded before Flop (didn't bet)
+Seat 2: hfnbckfd (small blind) folded before Flop
+Seat 3: Homsjunior (big blind) showed [Kh 9d] and won ($0.24) with three of a kind, Kings
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: luna28277 mucked [Tc Ad]
+Seat 9: WladimirBuryak folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514611429:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:41:35 ET
+Table 'Aoluta II' 9-max Seat #2 is the button
+Seat 1: Dera798 ($1.27 in chips)
+Seat 2: hfnbckfd ($2.79 in chips)
+Seat 3: Homsjunior ($3.37 in chips)
+Seat 4: Sjamaan II ($1.16 in chips)
+Seat 5: pokerHero1 ($3.31 in chips)
+Seat 6: sportmen86 ($0.87 in chips)
+Seat 7: zehni ($2.15 in chips)
+Seat 8: luna28277 ($1.46 in chips)
+Seat 9: WladimirBuryak ($1.53 in chips)
+Homsjunior: posts small blind $0.01
+Sjamaan II: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3h Kh]
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+luna28277: calls $0.02
+WladimirBuryak: calls $0.02
+Dera798: folds
+hfnbckfd: folds
+Homsjunior: calls $0.01
+Sjamaan II: checks
+*** FLOP *** [8h Qs 6s]
+Homsjunior: checks
+Sjamaan II: bets $0.04
+luna28277: calls $0.04
+WladimirBuryak: folds
+Homsjunior: raises $0.06 to $0.10
+Sjamaan II: calls $0.06
+luna28277: calls $0.06
+*** TURN *** [8h Qs 6s] [7h]
+Homsjunior: checks
+Sjamaan II: bets $0.10
+luna28277: calls $0.10
+Homsjunior: calls $0.10
+*** RIVER *** [8h Qs 6s 7h] [4c]
+Homsjunior: checks
+Sjamaan II: checks
+luna28277: checks
+*** SHOW DOWN ***
+Homsjunior: shows [6d 8d] (two pair, Eights and Sixes)
+Sjamaan II: mucks hand
+luna28277: mucks hand
+Homsjunior collected $0.66 from pot
+*** SUMMARY ***
+Total pot $0.68 | Rake $0.02
+Board [8h Qs 6s 7h 4c]
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 2: hfnbckfd (button) folded before Flop (didn't bet)
+Seat 3: Homsjunior (small blind) showed [6d 8d] and won ($0.66) with two pair, Eights and Sixes
+Seat 4: Sjamaan II (big blind) mucked [Qd As]
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: luna28277 mucked [8s Tc]
+Seat 9: WladimirBuryak folded on the Flop
+
+
+
+PokerStars Hand #212514714328:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:43:20 ET
+Table 'Aoluta II' 9-max Seat #3 is the button
+Seat 1: Dera798 ($1.27 in chips)
+Seat 2: hfnbckfd ($2.79 in chips)
+Seat 3: Homsjunior ($3.81 in chips)
+Seat 4: Sjamaan II ($0.94 in chips)
+Seat 5: pokerHero1 ($3.31 in chips)
+Seat 6: sportmen86 ($0.87 in chips)
+Seat 7: zehni ($2.15 in chips)
+Seat 8: luna28277 ($1.24 in chips)
+Seat 9: WladimirBuryak ($1.51 in chips)
+Sjamaan II: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5h Ts]
+sportmen86: folds
+zehni: folds
+luna28277: folds
+WladimirBuryak: folds
+Dera798: folds
+hfnbckfd: raises $0.04 to $0.06
+Homsjunior: calls $0.06
+Sjamaan II: folds
+pokerHero1: folds
+*** FLOP *** [9h Tc Th]
+hfnbckfd: checks
+Homsjunior: bets $0.22
+hfnbckfd: folds
+Uncalled bet ($0.22) returned to Homsjunior
+Homsjunior collected $0.14 from pot
+Homsjunior: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [9h Tc Th]
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 2: hfnbckfd folded on the Flop
+Seat 3: Homsjunior (button) collected ($0.14)
+Seat 4: Sjamaan II (small blind) folded before Flop
+Seat 5: pokerHero1 (big blind) folded before Flop
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: luna28277 folded before Flop (didn't bet)
+Seat 9: WladimirBuryak folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514750658:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:43:56 ET
+Table 'Aoluta II' 9-max Seat #4 is the button
+Seat 1: Dera798 ($1.27 in chips)
+Seat 2: hfnbckfd ($2.73 in chips)
+Seat 3: Homsjunior ($3.89 in chips)
+Seat 4: Sjamaan II ($0.93 in chips)
+Seat 5: pokerHero1 ($3.29 in chips)
+Seat 6: sportmen86 ($0.87 in chips)
+Seat 7: zehni ($2.15 in chips)
+Seat 8: luna28277 ($1.24 in chips)
+Seat 9: WladimirBuryak ($1.51 in chips)
+pokerHero1: posts small blind $0.01
+sportmen86: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s 5h]
+zehni: folds
+luna28277: folds
+WladimirBuryak: folds
+Dera798: folds
+hfnbckfd: folds
+Homsjunior: calls $0.02
+Sjamaan II: raises $0.04 to $0.06
+pokerHero1: folds
+sportmen86: folds
+Homsjunior: calls $0.04
+*** FLOP *** [Ts Ac 7d]
+Homsjunior: checks
+WladimirBuryak leaves the table
+Sjamaan II: bets $0.06
+Homsjunior: folds
+Uncalled bet ($0.06) returned to Sjamaan II
+Sjamaan II collected $0.14 from pot
+Sjamaan II: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [Ts Ac 7d]
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 2: hfnbckfd folded before Flop (didn't bet)
+Seat 3: Homsjunior folded on the Flop
+Seat 4: Sjamaan II (button) collected ($0.14)
+Seat 5: pokerHero1 (small blind) folded before Flop
+Seat 6: sportmen86 (big blind) folded before Flop
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: luna28277 folded before Flop (didn't bet)
+Seat 9: WladimirBuryak folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514804719:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:44:41 ET
+Table 'Aoluta II' 9-max Seat #5 is the button
+Seat 1: Dera798 ($1.27 in chips)
+Seat 2: hfnbckfd ($2.73 in chips)
+Seat 4: Sjamaan II ($1.01 in chips)
+Seat 5: pokerHero1 ($3.28 in chips)
+Seat 6: sportmen86 ($0.85 in chips)
+Seat 7: zehni ($2.15 in chips)
+Seat 8: luna28277 ($1.24 in chips)
+sportmen86: posts small blind $0.01
+zehni: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js 9h]
+luna28277: folds
+Dera798: folds
+hfnbckfd: folds
+Sjamaan II: folds
+pokerHero1: folds
+sportmen86: folds
+Uncalled bet ($0.01) returned to zehni
+zehni collected $0.02 from pot
+zehni: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 2: hfnbckfd folded before Flop (didn't bet)
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 6: sportmen86 (small blind) folded before Flop
+Seat 7: zehni (big blind) collected ($0.02)
+Seat 8: luna28277 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514814582:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:44:51 ET
+Table 'Aoluta II' 9-max Seat #6 is the button
+Seat 1: Dera798 ($1.27 in chips)
+Seat 2: hfnbckfd ($2.73 in chips)
+Seat 4: Sjamaan II ($1.01 in chips)
+Seat 5: pokerHero1 ($3.28 in chips)
+Seat 6: sportmen86 ($0.84 in chips)
+Seat 7: zehni ($2.16 in chips)
+Seat 8: luna28277 ($1.24 in chips)
+zehni: posts small blind $0.01
+luna28277: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5c 9s]
+Dera798: folds
+hfnbckfd: folds
+Sjamaan II: folds
+pokerHero1: folds
+sportmen86: folds
+zehni: calls $0.01
+luna28277: checks
+*** FLOP *** [6c Qh 5s]
+zehni: bets $0.02
+luna28277: calls $0.02
+*** TURN *** [6c Qh 5s] [7d]
+zehni: bets $0.04
+luna28277: calls $0.04
+*** RIVER *** [6c Qh 5s 7d] [As]
+zehni: bets $0.08
+luna28277: folds
+Uncalled bet ($0.08) returned to zehni
+zehni collected $0.15 from pot
+zehni: doesn't show hand
+*** SUMMARY ***
+Total pot $0.16 | Rake $0.01
+Board [6c Qh 5s 7d As]
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 2: hfnbckfd folded before Flop (didn't bet)
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 (button) folded before Flop (didn't bet)
+Seat 7: zehni (small blind) collected ($0.15)
+Seat 8: luna28277 (big blind) folded on the River
+
+
+
+PokerStars Hand #212514846043:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:45:23 ET
+Table 'Aoluta II' 9-max Seat #7 is the button
+Seat 1: Dera798 ($1.27 in chips)
+Seat 2: hfnbckfd ($2.73 in chips)
+Seat 4: Sjamaan II ($1.01 in chips)
+Seat 5: pokerHero1 ($3.28 in chips)
+Seat 6: sportmen86 ($0.84 in chips)
+Seat 7: zehni ($2.23 in chips)
+Seat 8: luna28277 ($1.16 in chips)
+luna28277: posts small blind $0.01
+Dera798: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc Qd]
+Ingvarrs joins the table at seat #9
+hfnbckfd: folds
+Sjamaan II: folds
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+luna28277: calls $0.01
+Dera798: checks
+*** FLOP *** [3h 2d Ks]
+luna28277: checks
+Dera798: checks
+*** TURN *** [3h 2d Ks] [Td]
+luna28277: checks
+Dera798: bets $0.02
+luna28277: calls $0.02
+*** RIVER *** [3h 2d Ks Td] [7h]
+luna28277: checks
+Dera798 has timed out
+Dera798: checks
+*** SHOW DOWN ***
+luna28277: shows [9d Ad] (high card Ace)
+Dera798: shows [8s 2h] (a pair of Deuces)
+Dera798 collected $0.08 from pot
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Board [3h 2d Ks Td 7h]
+Seat 1: Dera798 (big blind) showed [8s 2h] and won ($0.08) with a pair of Deuces
+Seat 2: hfnbckfd folded before Flop (didn't bet)
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni (button) folded before Flop (didn't bet)
+Seat 8: luna28277 (small blind) showed [9d Ad] and lost with high card Ace
+
+
+
+PokerStars Hand #212514931810:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:46:51 ET
+Table 'Aoluta II' 9-max Seat #8 is the button
+Seat 1: Dera798 ($1.31 in chips)
+Seat 2: hfnbckfd ($2.73 in chips)
+Seat 4: Sjamaan II ($1.01 in chips)
+Seat 5: pokerHero1 ($3.28 in chips)
+Seat 6: sportmen86 ($0.84 in chips)
+Seat 7: zehni ($2.23 in chips)
+Seat 8: luna28277 ($1.12 in chips)
+Dera798: posts small blind $0.01
+hfnbckfd: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2s As]
+Sjamaan II: folds
+pokerHero1: raises $0.06 to $0.08
+sportmen86: folds
+zehni: folds
+luna28277: folds
+Dera798: raises $1.23 to $1.31 and is all-in
+hfnbckfd: folds
+pokerHero1: folds
+Uncalled bet ($1.23) returned to Dera798
+Dera798 collected $0.18 from pot
+Dera798: doesn't show hand
+*** SUMMARY ***
+Total pot $0.18 | Rake $0
+Seat 1: Dera798 (small blind) collected ($0.18)
+Seat 2: hfnbckfd (big blind) folded before Flop
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: luna28277 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212514955503:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:47:15 ET
+Table 'Aoluta II' 9-max Seat #1 is the button
+Seat 1: Dera798 ($1.41 in chips)
+Seat 2: hfnbckfd ($2.71 in chips)
+Seat 4: Sjamaan II ($1.01 in chips)
+Seat 5: pokerHero1 ($3.20 in chips)
+Seat 6: sportmen86 ($0.84 in chips)
+Seat 7: zehni ($2.23 in chips)
+Seat 8: luna28277 ($1.12 in chips)
+hfnbckfd: posts small blind $0.01
+Sjamaan II: posts big blind $0.02
+Ingvarrs: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d Th]
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+luna28277: folds
+Dera798: raises $0.02 to $0.04
+luna28277 leaves the table
+hfnbckfd: folds
+Sjamaan II: calls $0.02
+*** FLOP *** [Qc 3s 8c]
+Sjamaan II: checks
+Dera798: bets $0.06
+Sjamaan II: calls $0.06
+*** TURN *** [Qc 3s 8c] [Js]
+Sjamaan II: checks
+Dera798: bets $0.20
+kunokw joins the table at seat #8
+Sjamaan II: calls $0.20
+*** RIVER *** [Qc 3s 8c Js] [5d]
+Sjamaan II: checks
+Dera798: bets $0.20
+Sjamaan II: folds
+Uncalled bet ($0.20) returned to Dera798
+Dera798 collected $0.59 from pot
+Dera798: doesn't show hand
+*** SUMMARY ***
+Total pot $0.61 | Rake $0.02
+Board [Qc 3s 8c Js 5d]
+Seat 1: Dera798 (button) collected ($0.59)
+Seat 2: hfnbckfd (small blind) folded before Flop
+Seat 4: Sjamaan II (big blind) folded on the River
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: luna28277 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515009946:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:48:10 ET
+Table 'Aoluta II' 9-max Seat #2 is the button
+Seat 1: Dera798 ($1.70 in chips)
+Seat 2: hfnbckfd ($2.70 in chips)
+Seat 4: Sjamaan II ($0.71 in chips)
+Seat 5: pokerHero1 ($3.20 in chips)
+Seat 6: sportmen86 ($0.84 in chips)
+Seat 7: zehni ($2.23 in chips)
+Seat 8: kunokw ($0.80 in chips)
+Sjamaan II: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+kunokw: posts big blind $0.02
+Ingvarrs: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As 2h]
+sportmen86: folds
+zehni: folds
+kunokw: checks
+Dera798: folds
+hfnbckfd: folds
+Sjamaan II: calls $0.01
+pokerHero1: checks
+*** FLOP *** [3s Tc 5c]
+Sjamaan II has timed out
+Sjamaan II: checks
+pokerHero1: checks
+kunokw: checks
+*** TURN *** [3s Tc 5c] [5h]
+Sjamaan II: checks
+pokerHero1: checks
+kunokw: checks
+*** RIVER *** [3s Tc 5c 5h] [9h]
+Sjamaan II: checks
+pokerHero1: checks
+kunokw: checks
+*** SHOW DOWN ***
+Sjamaan II: shows [7d 4d] (a pair of Fives)
+pokerHero1: shows [As 2h] (a pair of Fives - Ace kicker)
+kunokw: shows [9s 3d] (two pair, Nines and Fives)
+kunokw collected $0.06 from pot
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [3s Tc 5c 5h 9h]
+Seat 1: Dera798 folded before Flop (didn't bet)
+Seat 2: hfnbckfd (button) folded before Flop (didn't bet)
+Seat 4: Sjamaan II (small blind) showed [7d 4d] and lost with a pair of Fives
+Seat 5: pokerHero1 (big blind) showed [As 2h] and lost with a pair of Fives
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: kunokw showed [9s 3d] and won ($0.06) with two pair, Nines and Fives
+
+
+
+PokerStars Hand #212515101307:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:49:43 ET
+Table 'Aoluta II' 9-max Seat #4 is the button
+Seat 3: Homsjunior ($3.83 in chips)
+Seat 4: Sjamaan II ($0.69 in chips)
+Seat 5: pokerHero1 ($3.18 in chips)
+Seat 6: sportmen86 ($0.84 in chips)
+Seat 7: zehni ($2.23 in chips)
+Seat 8: kunokw ($0.84 in chips)
+pokerHero1: posts small blind $0.01
+sportmen86: posts big blind $0.02
+Ingvarrs: sits out
+Homsjunior: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8s Qc]
+zehni: folds
+kunokw: calls $0.02
+Homsjunior: checks
+Sjamaan II has timed out
+Sjamaan II: folds
+pokerHero1: calls $0.01
+sportmen86: checks
+*** FLOP *** [5d 5s Kd]
+pokerHero1: checks
+sportmen86: checks
+kunokw: bets $0.04
+Homsjunior: folds
+pokerHero1: folds
+sportmen86: folds
+Uncalled bet ($0.04) returned to kunokw
+kunokw collected $0.09 from pot
+kunokw: doesn't show hand
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Board [5d 5s Kd]
+Seat 3: Homsjunior folded on the Flop (didn't bet)
+Seat 4: Sjamaan II (button) folded before Flop (didn't bet)
+Seat 5: pokerHero1 (small blind) folded on the Flop
+Seat 6: sportmen86 (big blind) folded on the Flop
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: kunokw collected ($0.09)
+
+
+
+PokerStars Hand #212515136423:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:50:19 ET
+Table 'Aoluta II' 9-max Seat #5 is the button
+Seat 3: Homsjunior ($3.80 in chips)
+Seat 4: Sjamaan II ($0.69 in chips)
+Seat 5: pokerHero1 ($3.16 in chips)
+Seat 6: sportmen86 ($0.82 in chips)
+Seat 7: zehni ($2.23 in chips)
+Seat 8: kunokw ($0.91 in chips)
+sportmen86: posts small blind $0.01
+zehni: posts big blind $0.02
+Ingvarrs: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc Qd]
+kunokw: raises $0.02 to $0.04
+Homsjunior: calls $0.04
+Sjamaan II: folds
+pokerHero1: raises $0.20 to $0.24
+sportmen86: folds
+zehni: folds
+kunokw: calls $0.20
+Homsjunior: folds
+*** FLOP *** [3d 3c 9s]
+kunokw: checks
+pokerHero1: bets $0.53
+kunokw: folds
+Uncalled bet ($0.53) returned to pokerHero1
+pokerHero1 collected $0.53 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.55 | Rake $0.02
+Board [3d 3c 9s]
+Seat 3: Homsjunior folded before Flop
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 (button) collected ($0.53)
+Seat 6: sportmen86 (small blind) folded before Flop
+Seat 7: zehni (big blind) folded before Flop
+Seat 8: kunokw folded on the Flop
+
+
+
+PokerStars Hand #212515190154:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:51:04 ET
+Table 'Aoluta II' 9-max Seat #6 is the button
+Seat 2: hfnbckfd ($2.70 in chips)
+Seat 3: Homsjunior ($3.76 in chips)
+Seat 4: Sjamaan II ($0.69 in chips)
+Seat 5: pokerHero1 ($3.45 in chips)
+Seat 6: sportmen86 ($0.81 in chips)
+Seat 7: zehni ($2.21 in chips)
+Seat 8: kunokw ($0.67 in chips)
+zehni: posts small blind $0.01
+kunokw: posts big blind $0.02
+Ingvarrs: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9h 5s]
+hfnbckfd: folds
+Homsjunior: calls $0.02
+Sjamaan II: folds
+pokerHero1: folds
+sportmen86: folds
+zehni: calls $0.01
+kunokw: checks
+*** FLOP *** [Qh Kd 8d]
+zehni: checks
+kunokw: checks
+Homsjunior: bets $0.02
+zehni: folds
+kunokw: calls $0.02
+*** TURN *** [Qh Kd 8d] [Ts]
+kunokw: bets $0.04
+Homsjunior: calls $0.04
+*** RIVER *** [Qh Kd 8d Ts] [As]
+kunokw: checks
+Homsjunior: bets $0.12
+kunokw: folds
+Uncalled bet ($0.12) returned to Homsjunior
+Homsjunior collected $0.17 from pot
+Homsjunior: doesn't show hand
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [Qh Kd 8d Ts As]
+Seat 2: hfnbckfd folded before Flop (didn't bet)
+Seat 3: Homsjunior collected ($0.17)
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 (button) folded before Flop (didn't bet)
+Seat 7: zehni (small blind) folded on the Flop
+Seat 8: kunokw (big blind) folded on the River
+
+
+
+PokerStars Hand #212515248241:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:52:03 ET
+Table 'Aoluta II' 9-max Seat #7 is the button
+Seat 2: hfnbckfd ($2.70 in chips)
+Seat 3: Homsjunior ($3.85 in chips)
+Seat 4: Sjamaan II ($0.69 in chips)
+Seat 5: pokerHero1 ($3.45 in chips)
+Seat 6: sportmen86 ($0.81 in chips)
+Seat 7: zehni ($2.19 in chips)
+Seat 8: kunokw ($0.59 in chips)
+Seat 9: Ingvarrs ($2 in chips)
+kunokw: posts small blind $0.01
+Ingvarrs: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d Kc]
+hfnbckfd: folds
+Homsjunior: folds
+Sjamaan II: raises $0.02 to $0.04
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+kunokw: raises $0.02 to $0.06
+Ingvarrs: calls $0.04
+Sjamaan II: calls $0.02
+*** FLOP *** [3c 3d 2h]
+kunokw: checks
+Ingvarrs: checks
+Sjamaan II: bets $0.09
+kunokw: folds
+Ingvarrs: folds
+Uncalled bet ($0.09) returned to Sjamaan II
+Sjamaan II collected $0.17 from pot
+Sjamaan II: doesn't show hand
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [3c 3d 2h]
+Seat 2: hfnbckfd folded before Flop (didn't bet)
+Seat 3: Homsjunior folded before Flop (didn't bet)
+Seat 4: Sjamaan II collected ($0.17)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni (button) folded before Flop (didn't bet)
+Seat 8: kunokw (small blind) folded on the Flop
+Seat 9: Ingvarrs (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212515293978:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:52:50 ET
+Table 'Aoluta II' 9-max Seat #8 is the button
+Seat 2: hfnbckfd ($2.70 in chips)
+Seat 3: Homsjunior ($3.85 in chips)
+Seat 4: Sjamaan II ($0.80 in chips)
+Seat 5: pokerHero1 ($3.45 in chips)
+Seat 6: sportmen86 ($0.81 in chips)
+Seat 7: zehni ($2.19 in chips)
+Seat 8: kunokw ($0.53 in chips)
+Seat 9: Ingvarrs ($2 in chips)
+Ingvarrs: posts small blind $0.01
+hfnbckfd: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8d Jd]
+Homsjunior: folds
+Sjamaan II: calls $0.02
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+kunokw: folds
+Ingvarrs: folds
+hfnbckfd: checks
+*** FLOP *** [Ah Kd Jh]
+hfnbckfd: checks
+Sjamaan II: bets $0.02
+hfnbckfd: folds
+Uncalled bet ($0.02) returned to Sjamaan II
+Sjamaan II collected $0.05 from pot
+Sjamaan II: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [Ah Kd Jh]
+Seat 2: hfnbckfd (big blind) folded on the Flop
+Seat 3: Homsjunior folded before Flop (didn't bet)
+Seat 4: Sjamaan II collected ($0.05)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: kunokw (button) folded before Flop (didn't bet)
+Seat 9: Ingvarrs (small blind) folded before Flop
+
+
+
+PokerStars Hand #212515321294:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:53:18 ET
+Table 'Aoluta II' 9-max Seat #9 is the button
+Seat 2: hfnbckfd ($2.68 in chips)
+Seat 3: Homsjunior ($3.85 in chips)
+Seat 4: Sjamaan II ($0.83 in chips)
+Seat 5: pokerHero1 ($3.45 in chips)
+Seat 6: sportmen86 ($0.81 in chips)
+Seat 7: zehni ($2.19 in chips)
+Seat 8: kunokw ($0.53 in chips)
+Seat 9: Ingvarrs ($2 in chips)
+hfnbckfd: posts small blind $0.01
+Homsjunior: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d Td]
+Sjamaan II: folds
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+kunokw: calls $0.02
+Ingvarrs: raises $0.06 to $0.08
+hfnbckfd: folds
+Homsjunior: folds
+kunokw: raises $0.06 to $0.14
+Ingvarrs: calls $0.06
+*** FLOP *** [Ah 7h Tc]
+hfnbckfd leaves the table
+kunokw: bets $0.06
+Ingvarrs: calls $0.06
+*** TURN *** [Ah 7h Tc] [Kc]
+kunokw: bets $0.08
+Ingvarrs: folds
+Uncalled bet ($0.08) returned to kunokw
+kunokw collected $0.41 from pot
+kunokw: doesn't show hand
+*** SUMMARY ***
+Total pot $0.43 | Rake $0.02
+Board [Ah 7h Tc Kc]
+Seat 2: hfnbckfd (small blind) folded before Flop
+Seat 3: Homsjunior (big blind) folded before Flop
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: kunokw collected ($0.41)
+Seat 9: Ingvarrs (button) folded on the Turn
+
+
+
+PokerStars Hand #212515393292:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:54:32 ET
+Table 'Aoluta II' 9-max Seat #3 is the button
+Seat 3: Homsjunior ($3.83 in chips)
+Seat 4: Sjamaan II ($0.83 in chips)
+Seat 5: pokerHero1 ($3.45 in chips)
+Seat 6: sportmen86 ($0.81 in chips)
+Seat 7: zehni ($2.19 in chips)
+Seat 8: kunokw ($0.74 in chips)
+Seat 9: Ingvarrs ($2 in chips)
+Sjamaan II: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8h 3s]
+sportmen86: folds
+PocoLoco295 joins the table at seat #2
+zehni: calls $0.02
+kunokw: folds
+Ingvarrs: folds
+Homsjunior: calls $0.02
+Sjamaan II: folds
+pokerHero1: checks
+*** FLOP *** [9c 6d Kh]
+pokerHero1: checks
+zehni: checks
+Homsjunior: checks
+*** TURN *** [9c 6d Kh] [Qh]
+pokerHero1: checks
+zehni: checks
+Homsjunior: checks
+*** RIVER *** [9c 6d Kh Qh] [Jd]
+pokerHero1: checks
+zehni: checks
+Homsjunior: checks
+*** SHOW DOWN ***
+pokerHero1: shows [8h 3s] (high card King)
+zehni: shows [7s 6s] (a pair of Sixes)
+Homsjunior: mucks hand
+zehni collected $0.07 from pot
+*** SUMMARY ***
+Total pot $0.07 | Rake $0
+Board [9c 6d Kh Qh Jd]
+Seat 3: Homsjunior (button) mucked [2d 2c]
+Seat 4: Sjamaan II (small blind) folded before Flop
+Seat 5: pokerHero1 (big blind) showed [8h 3s] and lost with high card King
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni showed [7s 6s] and won ($0.07) with a pair of Sixes
+Seat 8: kunokw folded before Flop (didn't bet)
+Seat 9: Ingvarrs folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515428516:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:55:08 ET
+Table 'Aoluta II' 9-max Seat #5 is the button
+Seat 3: Homsjunior ($3.81 in chips)
+Seat 5: pokerHero1 ($3.43 in chips)
+Seat 6: sportmen86 ($0.81 in chips)
+Seat 7: zehni ($2.24 in chips)
+Seat 8: kunokw ($0.74 in chips)
+Seat 9: Ingvarrs ($2 in chips)
+sportmen86: posts small blind $0.01
+zehni: posts big blind $0.02
+PocoLoco295: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8c 2c]
+kunokw has timed out
+kunokw: folds
+Ingvarrs: raises $0.04 to $0.06
+Homsjunior: calls $0.06
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+*** FLOP *** [Ks Ts Ah]
+Ingvarrs: bets $0.11
+Homsjunior: calls $0.11
+*** TURN *** [Ks Ts Ah] [Jd]
+Ingvarrs: bets $0.18
+Dera798 leaves the table
+Homsjunior: calls $0.18
+*** RIVER *** [Ks Ts Ah Jd] [Qd]
+ruslanrz joins the table at seat #1
+Ingvarrs: checks
+Homsjunior: checks
+*** SHOW DOWN ***
+Ingvarrs: shows [Ad 6d] (a straight, Ten to Ace)
+Homsjunior: shows [Kc 7c] (a straight, Ten to Ace)
+Ingvarrs collected $0.35 from pot
+Homsjunior collected $0.35 from pot
+*** SUMMARY ***
+Total pot $0.73 | Rake $0.03
+Board [Ks Ts Ah Jd Qd]
+Seat 3: Homsjunior showed [Kc 7c] and won ($0.35) with a straight, Ten to Ace
+Seat 5: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 6: sportmen86 (small blind) folded before Flop
+Seat 7: zehni (big blind) folded before Flop
+Seat 8: kunokw folded before Flop (didn't bet)
+Seat 9: Ingvarrs showed [Ad 6d] and won ($0.35) with a straight, Ten to Ace
+
+
+
+PokerStars Hand #212515474955:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:56:15 ET
+Table 'Aoluta II' 9-max Seat #6 is the button
+Seat 3: Homsjunior ($3.81 in chips)
+Seat 5: pokerHero1 ($3.43 in chips)
+Seat 6: sportmen86 ($0.80 in chips)
+Seat 7: zehni ($2.22 in chips)
+Seat 8: kunokw ($0.74 in chips)
+Seat 9: Ingvarrs ($2 in chips)
+zehni: posts small blind $0.01
+kunokw: posts big blind $0.02
+ruslanrz: sits out
+PocoLoco295: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c Ts]
+ruslanrz leaves the table
+Ingvarrs: folds
+Homsjunior: folds
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+Uncalled bet ($0.01) returned to kunokw
+stmc57 joins the table at seat #1
+kunokw collected $0.02 from pot
+kunokw: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 3: Homsjunior folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 (button) folded before Flop (didn't bet)
+Seat 7: zehni (small blind) folded before Flop
+Seat 8: kunokw (big blind) collected ($0.02)
+Seat 9: Ingvarrs folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515492446:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:56:39 ET
+Table 'Aoluta II' 9-max Seat #7 is the button
+Seat 3: Homsjunior ($3.81 in chips)
+Seat 5: pokerHero1 ($3.43 in chips)
+Seat 6: sportmen86 ($0.80 in chips)
+Seat 7: zehni ($2.21 in chips)
+Seat 8: kunokw ($0.75 in chips)
+Seat 9: Ingvarrs ($2 in chips)
+kunokw: posts small blind $0.01
+Ingvarrs: posts big blind $0.02
+stmc57: sits out
+PocoLoco295: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9h 6s]
+Homsjunior: folds
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+kunokw: calls $0.01
+Ingvarrs: raises $0.04 to $0.06
+kunokw: calls $0.04
+*** FLOP *** [Ks Ah 7h]
+kunokw: bets $0.02
+Ingvarrs: raises $0.06 to $0.08
+kunokw: calls $0.06
+*** TURN *** [Ks Ah 7h] [2s]
+kunokw: bets $0.02
+Ingvarrs: calls $0.02
+*** RIVER *** [Ks Ah 7h 2s] [2c]
+kunokw: bets $0.12
+Ingvarrs: folds
+Uncalled bet ($0.12) returned to kunokw
+kunokw collected $0.31 from pot
+kunokw: doesn't show hand
+*** SUMMARY ***
+Total pot $0.32 | Rake $0.01
+Board [Ks Ah 7h 2s 2c]
+Seat 3: Homsjunior folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni (button) folded before Flop (didn't bet)
+Seat 8: kunokw (small blind) collected ($0.31)
+Seat 9: Ingvarrs (big blind) folded on the River
+
+
+
+PokerStars Hand #212515554415:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:58:06 ET
+Table 'Aoluta II' 9-max Seat #8 is the button
+Seat 1: stmc57 ($1.60 in chips)
+Seat 3: Homsjunior ($3.81 in chips)
+Seat 5: pokerHero1 ($3.43 in chips)
+Seat 6: sportmen86 ($0.80 in chips)
+Seat 7: zehni ($2.21 in chips)
+Seat 8: kunokw ($0.90 in chips)
+Seat 9: Ingvarrs ($2 in chips)
+Ingvarrs: posts small blind $0.01
+stmc57: posts big blind $0.02
+PocoLoco295: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ts 9s]
+Homsjunior: folds
+pokerHero1: calls $0.02
+sportmen86: folds
+zehni: calls $0.02
+kunokw: calls $0.02
+Ingvarrs: calls $0.01
+stmc57: checks
+*** FLOP *** [4h Td Ks]
+Ingvarrs: checks
+stmc57: checks
+pokerHero1: checks
+zehni: checks
+kunokw: checks
+*** TURN *** [4h Td Ks] [6c]
+Ingvarrs: checks
+stmc57: checks
+pokerHero1: checks
+zehni: checks
+kunokw: checks
+*** RIVER *** [4h Td Ks 6c] [3s]
+Ingvarrs: checks
+stmc57: checks
+pokerHero1: checks
+zehni: checks
+kunokw: checks
+*** SHOW DOWN ***
+Ingvarrs: shows [As 8c] (high card Ace)
+stmc57: shows [9d 3c] (a pair of Threes)
+pokerHero1: shows [Ts 9s] (a pair of Tens)
+zehni: mucks hand
+kunokw: mucks hand
+pokerHero1 collected $0.10 from pot
+*** SUMMARY ***
+Total pot $0.10 | Rake $0
+Board [4h Td Ks 6c 3s]
+Seat 1: stmc57 (big blind) showed [9d 3c] and lost with a pair of Threes
+Seat 3: Homsjunior folded before Flop (didn't bet)
+Seat 5: pokerHero1 showed [Ts 9s] and won ($0.10) with a pair of Tens
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni mucked [7d 8d]
+Seat 8: kunokw (button) mucked [9c Jc]
+Seat 9: Ingvarrs (small blind) showed [As 8c] and lost with high card Ace
+
+
+
+PokerStars Hand #212515604049:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:59:15 ET
+Table 'Aoluta II' 9-max Seat #9 is the button
+Seat 1: stmc57 ($1.58 in chips)
+Seat 2: PocoLoco295 ($2 in chips)
+Seat 3: Homsjunior ($3.81 in chips)
+Seat 5: pokerHero1 ($3.51 in chips)
+Seat 6: sportmen86 ($0.80 in chips)
+Seat 7: zehni ($2.19 in chips)
+Seat 8: kunokw ($0.88 in chips)
+Seat 9: Ingvarrs ($2 in chips)
+stmc57: posts small blind $0.01
+PocoLoco295: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s Qc]
+Homsjunior: calls $0.02
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+kunokw: folds
+Ingvarrs: raises $0.04 to $0.06
+stmc57: folds
+PocoLoco295: folds
+Homsjunior: calls $0.04
+*** FLOP *** [Td Jd Js]
+Homsjunior: checks
+Ingvarrs: checks
+*** TURN *** [Td Jd Js] [3s]
+Homsjunior: checks
+Ingvarrs: bets $0.11
+Homsjunior: folds
+Uncalled bet ($0.11) returned to Ingvarrs
+Ingvarrs collected $0.14 from pot
+Ingvarrs: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [Td Jd Js 3s]
+Seat 1: stmc57 (small blind) folded before Flop
+Seat 2: PocoLoco295 (big blind) folded before Flop
+Seat 3: Homsjunior folded on the Turn
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: kunokw folded before Flop (didn't bet)
+Seat 9: Ingvarrs (button) collected ($0.14)
+
+
+
+PokerStars Hand #212515634517:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 13:59:58 ET
+Table 'Aoluta II' 9-max Seat #1 is the button
+Seat 1: stmc57 ($1.57 in chips)
+Seat 2: PocoLoco295 ($1.98 in chips)
+Seat 3: Homsjunior ($3.75 in chips)
+Seat 4: Sjamaan II ($0.82 in chips)
+Seat 5: pokerHero1 ($3.51 in chips)
+Seat 6: sportmen86 ($0.80 in chips)
+Seat 7: zehni ($2.19 in chips)
+Seat 8: kunokw ($0.88 in chips)
+Seat 9: Ingvarrs ($2.08 in chips)
+PocoLoco295: posts small blind $0.01
+Homsjunior: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jh 3d]
+Sjamaan II: folds
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+kunokw: folds
+Ingvarrs: raises $0.04 to $0.06
+stmc57: folds
+PocoLoco295: folds
+Homsjunior: calls $0.04
+*** FLOP *** [Qh 8c 4h]
+Homsjunior: checks
+Ingvarrs: checks
+*** TURN *** [Qh 8c 4h] [8h]
+Homsjunior: checks
+Ingvarrs: checks
+*** RIVER *** [Qh 8c 4h 8h] [7s]
+Homsjunior: checks
+Ingvarrs: checks
+*** SHOW DOWN ***
+Homsjunior: shows [3c Kd] (a pair of Eights)
+Ingvarrs: shows [5h Kc] (a pair of Eights)
+Homsjunior collected $0.07 from pot
+Ingvarrs collected $0.06 from pot
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [Qh 8c 4h 8h 7s]
+Seat 1: stmc57 (button) folded before Flop (didn't bet)
+Seat 2: PocoLoco295 (small blind) folded before Flop
+Seat 3: Homsjunior (big blind) showed [3c Kd] and won ($0.07) with a pair of Eights
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: kunokw folded before Flop (didn't bet)
+Seat 9: Ingvarrs showed [5h Kc] and won ($0.06) with a pair of Eights
+
+
+
+PokerStars Hand #212515671280:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:00:43 ET
+Table 'Aoluta II' 9-max Seat #2 is the button
+Seat 1: stmc57 ($1.57 in chips)
+Seat 2: PocoLoco295 ($1.97 in chips)
+Seat 3: Homsjunior ($3.76 in chips)
+Seat 4: Sjamaan II ($0.82 in chips)
+Seat 5: pokerHero1 ($3.51 in chips)
+Seat 6: sportmen86 ($0.80 in chips)
+Seat 7: zehni ($2.19 in chips)
+Seat 8: kunokw ($0.88 in chips)
+Seat 9: Ingvarrs ($2.08 in chips)
+Homsjunior: posts small blind $0.01
+Sjamaan II: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ks 9c]
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+kunokw: folds
+Ingvarrs: folds
+stmc57: calls $0.02
+PocoLoco295: folds
+Homsjunior: calls $0.01
+Sjamaan II: checks
+*** FLOP *** [4c Jc 4h]
+Homsjunior: bets $0.08
+Sjamaan II: folds
+stmc57: folds
+Uncalled bet ($0.08) returned to Homsjunior
+Homsjunior collected $0.06 from pot
+Homsjunior: doesn't show hand
+*** SUMMARY ***
+Total pot $0.06 | Rake $0
+Board [4c Jc 4h]
+Seat 1: stmc57 folded on the Flop
+Seat 2: PocoLoco295 (button) folded before Flop (didn't bet)
+Seat 3: Homsjunior (small blind) collected ($0.06)
+Seat 4: Sjamaan II (big blind) folded on the Flop
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: kunokw folded before Flop (didn't bet)
+Seat 9: Ingvarrs folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515704228:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:01:21 ET
+Table 'Aoluta II' 9-max Seat #3 is the button
+Seat 1: stmc57 ($1.55 in chips)
+Seat 2: PocoLoco295 ($1.97 in chips)
+Seat 3: Homsjunior ($3.80 in chips)
+Seat 4: Sjamaan II ($0.80 in chips)
+Seat 5: pokerHero1 ($3.51 in chips)
+Seat 6: sportmen86 ($0.80 in chips)
+Seat 7: zehni ($2.19 in chips)
+Seat 8: kunokw ($0.88 in chips)
+Seat 9: Ingvarrs ($2.08 in chips)
+Sjamaan II: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2c Td]
+sportmen86: folds
+zehni: folds
+kunokw: calls $0.02
+Ingvarrs: folds
+stmc57: folds
+PocoLoco295: raises $0.04 to $0.06
+Homsjunior: calls $0.06
+Sjamaan II: folds
+pokerHero1: folds
+kunokw: calls $0.04
+*** FLOP *** [Ks Jh 5s]
+kunokw: checks
+PocoLoco295: checks
+Homsjunior: checks
+*** TURN *** [Ks Jh 5s] [5c]
+kunokw: bets $0.06
+PocoLoco295: calls $0.06
+Homsjunior: calls $0.06
+*** RIVER *** [Ks Jh 5s 5c] [3h]
+kunokw: bets $0.12
+PocoLoco295: folds
+Homsjunior: folds
+Uncalled bet ($0.12) returned to kunokw
+kunokw collected $0.38 from pot
+kunokw: doesn't show hand
+*** SUMMARY ***
+Total pot $0.39 | Rake $0.01
+Board [Ks Jh 5s 5c 3h]
+Seat 1: stmc57 folded before Flop (didn't bet)
+Seat 2: PocoLoco295 folded on the River
+Seat 3: Homsjunior (button) folded on the River
+Seat 4: Sjamaan II (small blind) folded before Flop
+Seat 5: pokerHero1 (big blind) folded before Flop
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: kunokw collected ($0.38)
+Seat 9: Ingvarrs folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515784527:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:02:44 ET
+Table 'Aoluta II' 9-max Seat #4 is the button
+Seat 1: stmc57 ($1.55 in chips)
+Seat 2: PocoLoco295 ($1.85 in chips)
+Seat 3: Homsjunior ($3.68 in chips)
+Seat 4: Sjamaan II ($0.79 in chips)
+Seat 5: pokerHero1 ($3.49 in chips)
+Seat 6: sportmen86 ($0.80 in chips)
+Seat 7: zehni ($2.19 in chips)
+Seat 8: kunokw ($1.14 in chips)
+Seat 9: Ingvarrs ($2.08 in chips)
+pokerHero1: posts small blind $0.01
+sportmen86: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d 9h]
+zehni: folds
+kunokw: folds
+Ingvarrs: raises $0.04 to $0.06
+stmc57: folds
+PocoLoco295: folds
+kunokw leaves the table
+Homsjunior: calls $0.06
+Sjamaan II: folds
+pokerHero1: folds
+sportmen86: folds
+*** FLOP *** [2s 4s 8d]
+Ingvarrs: checks
+Homsjunior: bets $0.10
+Ingvarrs: calls $0.10
+*** TURN *** [2s 4s 8d] [8s]
+Ingvarrs: checks
+Homsjunior: bets $0.12
+Ingvarrs: folds
+Uncalled bet ($0.12) returned to Homsjunior
+Homsjunior collected $0.34 from pot
+Homsjunior: doesn't show hand
+*** SUMMARY ***
+Total pot $0.35 | Rake $0.01
+Board [2s 4s 8d 8s]
+Seat 1: stmc57 folded before Flop (didn't bet)
+Seat 2: PocoLoco295 folded before Flop (didn't bet)
+Seat 3: Homsjunior collected ($0.34)
+Seat 4: Sjamaan II (button) folded before Flop (didn't bet)
+Seat 5: pokerHero1 (small blind) folded before Flop
+Seat 6: sportmen86 (big blind) folded before Flop
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 8: kunokw folded before Flop (didn't bet)
+Seat 9: Ingvarrs folded on the Turn
+
+
+
+PokerStars Hand #212515839787:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:03:40 ET
+Table 'Aoluta II' 9-max Seat #5 is the button
+Seat 1: stmc57 ($1.55 in chips)
+Seat 2: PocoLoco295 ($1.85 in chips)
+Seat 3: Homsjunior ($3.86 in chips)
+Seat 4: Sjamaan II ($0.79 in chips)
+Seat 5: pokerHero1 ($3.48 in chips)
+Seat 6: sportmen86 ($0.78 in chips)
+Seat 7: zehni ($2.19 in chips)
+Seat 9: Ingvarrs ($2 in chips)
+sportmen86: posts small blind $0.01
+zehni: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc 7s]
+Ingvarrs: folds
+stmc57: raises $0.04 to $0.06
+PocoLoco295: folds
+Homsjunior: calls $0.06
+Sjamaan II: folds
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+*** FLOP *** [9c Ah 2h]
+stmc57: bets $0.20
+Homsjunior: folds
+Uncalled bet ($0.20) returned to stmc57
+stmc57 collected $0.14 from pot
+stmc57: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [9c Ah 2h]
+Seat 1: stmc57 collected ($0.14)
+Seat 2: PocoLoco295 folded before Flop (didn't bet)
+Seat 3: Homsjunior folded on the Flop
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 6: sportmen86 (small blind) folded before Flop
+Seat 7: zehni (big blind) folded before Flop
+Seat 9: Ingvarrs folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212515870952:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:04:11 ET
+Table 'Aoluta II' 9-max Seat #6 is the button
+Seat 1: stmc57 ($1.63 in chips)
+Seat 2: PocoLoco295 ($1.85 in chips)
+Seat 3: Homsjunior ($3.80 in chips)
+Seat 4: Sjamaan II ($0.79 in chips)
+Seat 5: pokerHero1 ($3.48 in chips)
+Seat 6: sportmen86 ($0.77 in chips)
+Seat 7: zehni ($2.17 in chips)
+Seat 9: Ingvarrs ($2 in chips)
+zehni: posts small blind $0.01
+Ingvarrs: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6h Jd]
+stmc57: calls $0.02
+PocoLoco295: raises $0.04 to $0.06
+Homsjunior: calls $0.06
+Sjamaan II: folds
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+Ingvarrs: folds
+Ivan.Sologub joins the table at seat #8
+Ivan.Sologub is disconnected
+stmc57: folds
+*** FLOP *** [2c 5s 8s]
+PocoLoco295: checks
+Homsjunior: checks
+*** TURN *** [2c 5s 8s] [9h]
+PocoLoco295: checks
+Homsjunior: checks
+*** RIVER *** [2c 5s 8s 9h] [As]
+PocoLoco295: bets $0.08
+Homsjunior: folds
+Uncalled bet ($0.08) returned to PocoLoco295
+PocoLoco295 collected $0.16 from pot
+PocoLoco295: doesn't show hand
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [2c 5s 8s 9h As]
+Seat 1: stmc57 folded before Flop
+Seat 2: PocoLoco295 collected ($0.16)
+Seat 3: Homsjunior folded on the River
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 (button) folded before Flop (didn't bet)
+Seat 7: zehni (small blind) folded before Flop
+Seat 9: Ingvarrs (big blind) folded before Flop
+
+
+
+PokerStars Hand #212515924643:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:05:04 ET
+Table 'Aoluta II' 9-max Seat #7 is the button
+Seat 1: stmc57 ($1.61 in chips)
+Seat 2: PocoLoco295 ($1.95 in chips)
+Seat 3: Homsjunior ($3.74 in chips)
+Seat 4: Sjamaan II ($0.79 in chips)
+Seat 5: pokerHero1 ($3.48 in chips)
+Seat 6: sportmen86 ($0.77 in chips)
+Seat 7: zehni ($2.16 in chips)
+Seat 9: Ingvarrs ($2 in chips)
+Ingvarrs: posts small blind $0.01
+stmc57: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c 8s]
+PocoLoco295: folds
+Homsjunior: calls $0.02
+Sjamaan II: folds
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+Ingvarrs: raises $0.06 to $0.08
+stmc57: calls $0.06
+Homsjunior: calls $0.06
+*** FLOP *** [2d 6d Qd]
+Ingvarrs: bets $0.17
+stmc57: raises $0.17 to $0.34
+Homsjunior: folds
+Ingvarrs: folds
+Uncalled bet ($0.17) returned to stmc57
+stmc57 collected $0.56 from pot
+stmc57: doesn't show hand
+*** SUMMARY ***
+Total pot $0.58 | Rake $0.02
+Board [2d 6d Qd]
+Seat 1: stmc57 (big blind) collected ($0.56)
+Seat 2: PocoLoco295 folded before Flop (didn't bet)
+Seat 3: Homsjunior folded on the Flop
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni (button) folded before Flop (didn't bet)
+Seat 9: Ingvarrs (small blind) folded on the Flop
+
+
+
+PokerStars Hand #212515967251:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:05:46 ET
+Table 'Aoluta II' 9-max Seat #9 is the button
+Seat 1: stmc57 ($1.92 in chips)
+Seat 2: PocoLoco295 ($1.95 in chips)
+Seat 3: Homsjunior ($3.66 in chips)
+Seat 4: Sjamaan II ($0.79 in chips)
+Seat 5: pokerHero1 ($3.48 in chips)
+Seat 6: sportmen86 ($0.77 in chips)
+Seat 7: zehni ($2.16 in chips)
+Seat 9: Ingvarrs ($2 in chips)
+stmc57: posts small blind $0.01
+PocoLoco295: posts big blind $0.02
+Ivan.Sologub: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c Td]
+Homsjunior: folds
+Sjamaan II: folds
+pokerHero1: folds
+sportmen86: folds
+zehni: raises $0.03 to $0.05
+Ingvarrs: calls $0.05
+stmc57: folds
+PocoLoco295: folds
+*** FLOP *** [8s Ks 4c]
+zehni: bets $0.07
+Ingvarrs: folds
+Uncalled bet ($0.07) returned to zehni
+zehni collected $0.13 from pot
+zehni: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [8s Ks 4c]
+Seat 1: stmc57 (small blind) folded before Flop
+Seat 2: PocoLoco295 (big blind) folded before Flop
+Seat 3: Homsjunior folded before Flop (didn't bet)
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni collected ($0.13)
+Seat 9: Ingvarrs (button) folded on the Flop
+
+
+
+PokerStars Hand #212515994404:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/22 14:06:13 ET
+Table 'Aoluta II' 9-max Seat #1 is the button
+Seat 1: stmc57 ($1.91 in chips)
+Seat 2: PocoLoco295 ($1.93 in chips)
+Seat 3: Homsjunior ($3.66 in chips)
+Seat 4: Sjamaan II ($0.79 in chips)
+Seat 5: pokerHero1 ($3.48 in chips)
+Seat 6: sportmen86 ($0.77 in chips)
+Seat 7: zehni ($2.24 in chips)
+Seat 9: Ingvarrs ($2 in chips)
+PocoLoco295: posts small blind $0.01
+Homsjunior: posts big blind $0.02
+Ivan.Sologub: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5h Qs]
+Sjamaan II: folds
+pokerHero1: folds
+sportmen86: folds
+zehni: folds
+Ingvarrs: folds
+stmc57: folds
+PocoLoco295: folds
+Uncalled bet ($0.01) returned to Homsjunior
+Homsjunior collected $0.02 from pot
+Homsjunior: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: stmc57 (button) folded before Flop (didn't bet)
+Seat 2: PocoLoco295 (small blind) folded before Flop
+Seat 3: Homsjunior (big blind) collected ($0.02)
+Seat 4: Sjamaan II folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: sportmen86 folded before Flop (didn't bet)
+Seat 7: zehni folded before Flop (didn't bet)
+Seat 9: Ingvarrs folded before Flop (didn't bet)
+
+
+

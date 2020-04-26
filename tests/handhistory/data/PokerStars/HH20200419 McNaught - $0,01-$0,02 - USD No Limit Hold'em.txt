@@ -1,0 +1,839 @@
+﻿PokerStars Zoom Hand #212334886345:  Hold'em No Limit ($0.01/$0.02) - 2020/04/19 14:45:29 ET
+Table 'McNaught' 9-max Seat #1 is the button
+Seat 1: csaba972 ($2.52 in chips)
+Seat 2: Cacho763 ($1.75 in chips)
+Seat 3: pokerHero1 ($2 in chips)
+Seat 4: dnova1322 ($1.75 in chips)
+Seat 5: Berni0000 ($2.61 in chips)
+Seat 6: Stevdkk ($2.98 in chips)
+Seat 7: TallAlex2000 ($3.68 in chips)
+Seat 8: Dmitry077 ($2.01 in chips)
+Seat 9: Rashtw ($2.31 in chips)
+Cacho763: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad 5s]
+Stevdkk is disconnected
+dnova1322: raises $0.02 to $0.04
+Berni0000: folds
+Stevdkk: folds
+TallAlex2000: folds
+Dmitry077: folds
+Rashtw: calls $0.04
+csaba972: folds
+Cacho763: folds
+pokerHero1: folds
+*** FLOP *** [Ts Kd 7h]
+dnova1322: checks
+Rashtw: checks
+*** TURN *** [Ts Kd 7h] [6s]
+dnova1322: checks
+Rashtw: checks
+*** RIVER *** [Ts Kd 7h 6s] [Jh]
+dnova1322: checks
+Rashtw: checks
+*** SHOW DOWN ***
+dnova1322: shows [5c 5d] (a pair of Fives)
+Rashtw: shows [Jc 8c] (a pair of Jacks)
+Rashtw collected $0.11 from pot
+*** SUMMARY ***
+Total pot $0.11 | Rake $0
+Board [Ts Kd 7h 6s Jh]
+Seat 1: csaba972 (button) folded before Flop (didn't bet)
+Seat 2: Cacho763 (small blind) folded before Flop
+Seat 3: pokerHero1 (big blind) folded before Flop
+Seat 4: dnova1322 showed [5c 5d] and lost with a pair of Fives
+Seat 5: Berni0000 folded before Flop (didn't bet)
+Seat 6: Stevdkk folded before Flop (didn't bet)
+Seat 7: TallAlex2000 folded before Flop (didn't bet)
+Seat 8: Dmitry077 folded before Flop (didn't bet)
+Seat 9: Rashtw showed [Jc 8c] and won ($0.11) with a pair of Jacks
+
+
+
+PokerStars Zoom Hand #212334904491:  Hold'em No Limit ($0.01/$0.02) - 2020/04/19 14:45:43 ET
+Table 'McNaught' 9-max Seat #1 is the button
+Seat 1: Alex10101991 ($2.01 in chips)
+Seat 2: pokerHero1 ($1.98 in chips)
+Seat 3: DinnyesG ($5.03 in chips)
+Seat 4: jimmimax ($3.81 in chips)
+Seat 5: jbramble83 ($2.56 in chips)
+Seat 6: physioT ($1.57 in chips)
+Seat 7: FruitAndNut ($7.95 in chips)
+Seat 8: AlFonLur ($3.39 in chips)
+Seat 9: Bonyk_ukr ($2 in chips)
+pokerHero1: posts small blind $0.01
+DinnyesG: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad Qh]
+jimmimax: folds
+jbramble83: folds
+physioT: folds
+FruitAndNut: folds
+AlFonLur: folds
+Bonyk_ukr: raises $0.08 to $0.10
+Alex10101991: folds
+pokerHero1: folds
+DinnyesG: folds
+Uncalled bet ($0.08) returned to Bonyk_ukr
+Bonyk_ukr collected $0.05 from pot
+Bonyk_ukr: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: Alex10101991 (button) folded before Flop (didn't bet)
+Seat 2: pokerHero1 (small blind) folded before Flop
+Seat 3: DinnyesG (big blind) folded before Flop
+Seat 4: jimmimax folded before Flop (didn't bet)
+Seat 5: jbramble83 folded before Flop (didn't bet)
+Seat 6: physioT folded before Flop (didn't bet)
+Seat 7: FruitAndNut folded before Flop (didn't bet)
+Seat 8: AlFonLur folded before Flop (didn't bet)
+Seat 9: Bonyk_ukr collected ($0.05)
+
+
+
+PokerStars Zoom Hand #212334938023:  Hold'em No Limit ($0.01/$0.02) - 2020/04/19 14:46:09 ET
+Table 'McNaught' 9-max Seat #1 is the button
+Seat 1: cosmicfred ($1.80 in chips)
+Seat 2: Kaptsya ($2 in chips)
+Seat 3: kusto1488 ($2 in chips)
+Seat 4: Stevereno420 ($3.65 in chips)
+Seat 5: JairMonstro ($2.05 in chips)
+Seat 6: Rashtw ($2.38 in chips)
+Seat 7: jajo1000000 ($3.07 in chips)
+Seat 8: Teddy Judge ($2 in chips)
+Seat 9: pokerHero1 ($1.97 in chips)
+Kaptsya: posts small blind $0.01
+kusto1488: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jh 9d]
+Stevereno420: folds
+JairMonstro: folds
+Rashtw: folds
+jajo1000000: folds
+Teddy Judge: folds
+pokerHero1: folds
+cosmicfred: folds
+Kaptsya: folds
+Uncalled bet ($0.01) returned to kusto1488
+kusto1488 collected $0.02 from pot
+kusto1488: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: cosmicfred (button) folded before Flop (didn't bet)
+Seat 2: Kaptsya (small blind) folded before Flop
+Seat 3: kusto1488 (big blind) collected ($0.02)
+Seat 4: Stevereno420 folded before Flop (didn't bet)
+Seat 5: JairMonstro folded before Flop (didn't bet)
+Seat 6: Rashtw folded before Flop (didn't bet)
+Seat 7: jajo1000000 folded before Flop (didn't bet)
+Seat 8: Teddy Judge folded before Flop (didn't bet)
+Seat 9: pokerHero1 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #212334922638:  Hold'em No Limit ($0.01/$0.02) - 2020/04/19 14:45:57 ET
+Table 'McNaught' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($1.97 in chips)
+Seat 2: HermanX90 ($2.34 in chips)
+Seat 3: FRAN1517 ($3.16 in chips)
+Seat 4: blade666666 ($2.02 in chips)
+Seat 5: pokerwino ($1.07 in chips)
+Seat 6: OKEAN ($1.53 in chips)
+Seat 7: IgaMoL ($2.59 in chips)
+Seat 8: bens053rus ($1.72 in chips)
+Seat 9: Kaptsya ($2 in chips)
+HermanX90: posts small blind $0.01
+FRAN1517: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d 5h]
+blade666666: folds
+pokerwino: calls $0.02
+OKEAN: folds
+IgaMoL: folds
+bens053rus: folds
+Kaptsya: folds
+pokerHero1: folds
+HermanX90: raises $0.02 to $0.04
+FRAN1517: calls $0.02
+pokerwino: calls $0.02
+*** FLOP *** [3d 7s 6c]
+HermanX90: bets $0.08
+FRAN1517: calls $0.08
+pokerwino: folds
+*** TURN *** [3d 7s 6c] [9d]
+HermanX90: bets $0.08
+FRAN1517: raises $0.08 to $0.16
+HermanX90: calls $0.08
+*** RIVER *** [3d 7s 6c 9d] [4s]
+HermanX90: bets $0.10
+FRAN1517: raises $0.78 to $0.88
+HermanX90: folds
+Uncalled bet ($0.78) returned to FRAN1517
+FRAN1517 collected $0.77 from pot
+FRAN1517: doesn't show hand
+*** SUMMARY ***
+Total pot $0.80 | Rake $0.03
+Board [3d 7s 6c 9d 4s]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: HermanX90 (small blind) folded on the River
+Seat 3: FRAN1517 (big blind) collected ($0.77)
+Seat 4: blade666666 folded before Flop (didn't bet)
+Seat 5: pokerwino folded on the Flop
+Seat 6: OKEAN folded before Flop (didn't bet)
+Seat 7: IgaMoL folded before Flop (didn't bet)
+Seat 8: bens053rus folded before Flop (didn't bet)
+Seat 9: Kaptsya folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #212334962002:  Hold'em No Limit ($0.01/$0.02) - 2020/04/19 14:46:29 ET
+Table 'McNaught' 9-max Seat #1 is the button
+Seat 1: soullessAce ($2 in chips)
+Seat 2: arsen002knu ($2.99 in chips)
+Seat 3: cosmicfred ($1.80 in chips)
+Seat 4: name64 ($2.21 in chips)
+Seat 5: SandroVM ($2.13 in chips)
+Seat 6: Mark4757 ($1.86 in chips)
+Seat 7: sugar66643 ($1.36 in chips)
+Seat 8: pokerHero1 ($1.97 in chips)
+Seat 9: Caçapava22 ($3.21 in chips)
+arsen002knu: posts small blind $0.01
+cosmicfred: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kh Jc]
+name64: folds
+SandroVM: folds
+Mark4757 has timed out
+Mark4757: folds
+sugar66643: folds
+pokerHero1: raises $0.06 to $0.08
+Caçapava22: folds
+soullessAce: folds
+arsen002knu: folds
+cosmicfred: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: soullessAce (button) folded before Flop (didn't bet)
+Seat 2: arsen002knu (small blind) folded before Flop
+Seat 3: cosmicfred (big blind) folded before Flop
+Seat 4: name64 folded before Flop (didn't bet)
+Seat 5: SandroVM folded before Flop (didn't bet)
+Seat 6: Mark4757 folded before Flop (didn't bet)
+Seat 7: sugar66643 folded before Flop (didn't bet)
+Seat 8: pokerHero1 collected ($0.05)
+Seat 9: Caçapava22 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #212335004878:  Hold'em No Limit ($0.01/$0.02) - 2020/04/19 14:47:03 ET
+Table 'McNaught' 9-max Seat #1 is the button
+Seat 1: IgaMoL ($2.18 in chips)
+Seat 2: hstix ($3.30 in chips)
+Seat 3: evil910 ($1.60 in chips)
+Seat 4: legovDC ($1.38 in chips)
+Seat 5: TallAlex2000 ($3.65 in chips)
+Seat 6: soullessAce ($2 in chips)
+Seat 7: pokerHero1 ($2 in chips)
+Seat 8: arsen002knu ($2.98 in chips)
+Seat 9: JeffersonWd ($2.20 in chips)
+hstix: posts small blind $0.01
+evil910: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d 7c]
+legovDC: folds
+TallAlex2000: folds
+soullessAce: folds
+pokerHero1: folds
+arsen002knu: raises $0.05 to $0.07
+JeffersonWd: folds
+IgaMoL: folds
+hstix: folds
+evil910: calls $0.05
+*** FLOP *** [5c Ks 4c]
+evil910: checks
+arsen002knu: bets $0.14
+evil910: folds
+Uncalled bet ($0.14) returned to arsen002knu
+arsen002knu collected $0.14 from pot
+arsen002knu: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [5c Ks 4c]
+Seat 1: IgaMoL (button) folded before Flop (didn't bet)
+Seat 2: hstix (small blind) folded before Flop
+Seat 3: evil910 (big blind) folded on the Flop
+Seat 4: legovDC folded before Flop (didn't bet)
+Seat 5: TallAlex2000 folded before Flop (didn't bet)
+Seat 6: soullessAce folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: arsen002knu collected ($0.14)
+Seat 9: JeffersonWd folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #212335015234:  Hold'em No Limit ($0.01/$0.02) - 2020/04/19 14:47:11 ET
+Table 'McNaught' 9-max Seat #1 is the button
+Seat 1: Hidren ($2.42 in chips)
+Seat 2: gilberto98 ($2.95 in chips)
+Seat 3: bocacha27 ($1.43 in chips)
+Seat 4: marialazar ($2.31 in chips)
+Seat 5: jimmimax ($3.50 in chips)
+Seat 6: pokerHero1 ($2 in chips)
+Seat 7: soullessAce ($2 in chips)
+Seat 8: benpokermuc ($2 in chips)
+Seat 9: choo21 ($2.79 in chips)
+gilberto98: posts small blind $0.01
+bocacha27: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th As]
+marialazar: folds
+jimmimax: folds
+pokerHero1: raises $0.06 to $0.08
+soullessAce: folds
+benpokermuc: calls $0.08
+choo21: folds
+Hidren: folds
+gilberto98: folds
+bocacha27: folds
+*** FLOP *** [2h 3s 7c]
+pokerHero1: bets $0.10
+benpokermuc: folds
+Uncalled bet ($0.10) returned to pokerHero1
+pokerHero1 collected $0.18 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [2h 3s 7c]
+Seat 1: Hidren (button) folded before Flop (didn't bet)
+Seat 2: gilberto98 (small blind) folded before Flop
+Seat 3: bocacha27 (big blind) folded before Flop
+Seat 4: marialazar folded before Flop (didn't bet)
+Seat 5: jimmimax folded before Flop (didn't bet)
+Seat 6: pokerHero1 collected ($0.18)
+Seat 7: soullessAce folded before Flop (didn't bet)
+Seat 8: benpokermuc folded on the Flop
+Seat 9: choo21 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #212335060446:  Hold'em No Limit ($0.01/$0.02) - 2020/04/19 14:47:45 ET
+Table 'McNaught' 9-max Seat #1 is the button
+Seat 1: JeffersonWd ($2.81 in chips)
+Seat 2: alheocmo ($2.13 in chips)
+Seat 3: GrigoreC7 ($2 in chips)
+Seat 4: unegus ($1.83 in chips)
+Seat 5: pokerHero1 ($2.10 in chips)
+Seat 6: blade666666 ($2 in chips)
+Seat 7: lukewhitt22 ($0.85 in chips)
+Seat 8: IgaMoL ($2.18 in chips)
+Seat 9: jimmimax ($3.49 in chips)
+alheocmo: posts small blind $0.01
+GrigoreC7: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kc 8d]
+unegus: folds
+pokerHero1: folds
+blade666666: folds
+lukewhitt22: raises $0.10 to $0.12
+IgaMoL: folds
+jimmimax: folds
+JeffersonWd: folds
+alheocmo: folds
+GrigoreC7: folds
+Uncalled bet ($0.10) returned to lukewhitt22
+lukewhitt22 collected $0.05 from pot
+lukewhitt22: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: JeffersonWd (button) folded before Flop (didn't bet)
+Seat 2: alheocmo (small blind) folded before Flop
+Seat 3: GrigoreC7 (big blind) folded before Flop
+Seat 4: unegus folded before Flop (didn't bet)
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: blade666666 folded before Flop (didn't bet)
+Seat 7: lukewhitt22 collected ($0.05)
+Seat 8: IgaMoL folded before Flop (didn't bet)
+Seat 9: jimmimax folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #212335045926:  Hold'em No Limit ($0.01/$0.02) - 2020/04/19 14:47:34 ET
+Table 'McNaught' 9-max Seat #1 is the button
+Seat 1: KR_stylez ($3.61 in chips)
+Seat 2: serg.bliza1975 ($1.66 in chips)
+Seat 3: choo21 ($2.94 in chips)
+Seat 4: Kalmah077 ($6.80 in chips)
+Seat 5: pokerHero1 ($2.10 in chips)
+Seat 6: IgaMoL ($2 in chips)
+Seat 7: Caçapava22 ($2.33 in chips)
+Seat 8: soshka4 ($3.50 in chips)
+Seat 9: marialazar ($2.09 in chips)
+serg.bliza1975: posts small blind $0.01
+choo21: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc 2c]
+Kalmah077: raises $0.04 to $0.06
+pokerHero1: folds
+IgaMoL: folds
+Caçapava22: folds
+soshka4: calls $0.06
+marialazar: folds
+KR_stylez: folds
+serg.bliza1975: folds
+choo21: folds
+*** FLOP *** [2s 6c 8c]
+Kalmah077: bets $0.08
+soshka4: calls $0.08
+*** TURN *** [2s 6c 8c] [Qd]
+Kalmah077: checks
+soshka4: checks
+*** RIVER *** [2s 6c 8c Qd] [Kc]
+Kalmah077: checks
+soshka4: checks
+*** SHOW DOWN ***
+Kalmah077: shows [7s 7d] (a pair of Sevens)
+soshka4: shows [As 8s] (a pair of Eights)
+soshka4 collected $0.30 from pot
+*** SUMMARY ***
+Total pot $0.31 | Rake $0.01
+Board [2s 6c 8c Qd Kc]
+Seat 1: KR_stylez (button) folded before Flop (didn't bet)
+Seat 2: serg.bliza1975 (small blind) folded before Flop
+Seat 3: choo21 (big blind) folded before Flop
+Seat 4: Kalmah077 showed [7s 7d] and lost with a pair of Sevens
+Seat 5: pokerHero1 folded before Flop (didn't bet)
+Seat 6: IgaMoL folded before Flop (didn't bet)
+Seat 7: Caçapava22 folded before Flop (didn't bet)
+Seat 8: soshka4 showed [As 8s] and won ($0.30) with a pair of Eights
+Seat 9: marialazar folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #212335099993:  Hold'em No Limit ($0.01/$0.02) - 2020/04/19 14:48:15 ET
+Table 'McNaught' 9-max Seat #1 is the button
+Seat 1: soullessAce ($2.01 in chips)
+Seat 2: AlFonLur ($3.46 in chips)
+Seat 3: pokerHero1 ($2.10 in chips)
+Seat 4: Ziberttt ($2.18 in chips)
+Seat 5: HellNative ($3.71 in chips)
+Seat 6: DinnyesG ($3.61 in chips)
+Seat 7: bznx1 ($2.03 in chips)
+Seat 8: JairMonstro ($2 in chips)
+Seat 9: serg.bliza1975 ($1.68 in chips)
+AlFonLur: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5c 8s]
+Ziberttt: folds
+HellNative: folds
+DinnyesG: folds
+bznx1: raises $0.04 to $0.06
+JairMonstro: calls $0.06
+serg.bliza1975: folds
+soullessAce: folds
+AlFonLur: folds
+pokerHero1: folds
+*** FLOP *** [6d Kh 4c]
+bznx1: checks
+JairMonstro: checks
+*** TURN *** [6d Kh 4c] [9c]
+bznx1: bets $0.08
+JairMonstro: folds
+Uncalled bet ($0.08) returned to bznx1
+bznx1 collected $0.14 from pot
+bznx1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [6d Kh 4c 9c]
+Seat 1: soullessAce (button) folded before Flop (didn't bet)
+Seat 2: AlFonLur (small blind) folded before Flop
+Seat 3: pokerHero1 (big blind) folded before Flop
+Seat 4: Ziberttt folded before Flop (didn't bet)
+Seat 5: HellNative folded before Flop (didn't bet)
+Seat 6: DinnyesG folded before Flop (didn't bet)
+Seat 7: bznx1 collected ($0.14)
+Seat 8: JairMonstro folded on the Turn
+Seat 9: serg.bliza1975 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #212335155684:  Hold'em No Limit ($0.01/$0.02) - 2020/04/19 14:49:00 ET
+Table 'McNaught' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.07 in chips)
+Seat 2: partizan_vlg ($0.81 in chips)
+Seat 3: maxkriv11 ($1.34 in chips)
+Seat 4: legovDC ($1.14 in chips)
+Seat 5: DinnyesG ($1.20 in chips)
+Seat 6: blade666666 ($2.26 in chips)
+Seat 7: bznx1 ($2 in chips)
+Seat 8: 46MeLya46 ($2.26 in chips)
+Seat 9: kusto1488 ($2 in chips)
+partizan_vlg: posts small blind $0.01
+maxkriv11: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh Ah]
+legovDC: folds
+DinnyesG: folds
+blade666666: folds
+bznx1: folds
+46MeLya46: folds
+kusto1488: folds
+pokerHero1: raises $0.06 to $0.08
+partizan_vlg: folds
+maxkriv11: folds
+Uncalled bet ($0.06) returned to pokerHero1
+pokerHero1 collected $0.05 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (button) collected ($0.05)
+Seat 2: partizan_vlg (small blind) folded before Flop
+Seat 3: maxkriv11 (big blind) folded before Flop
+Seat 4: legovDC folded before Flop (didn't bet)
+Seat 5: DinnyesG folded before Flop (didn't bet)
+Seat 6: blade666666 folded before Flop (didn't bet)
+Seat 7: bznx1 folded before Flop (didn't bet)
+Seat 8: 46MeLya46 folded before Flop (didn't bet)
+Seat 9: kusto1488 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #212335130081:  Hold'em No Limit ($0.01/$0.02) - 2020/04/19 14:48:38 ET
+Table 'McNaught' 9-max Seat #1 is the button
+Seat 1: VV888V ($1.94 in chips)
+Seat 2: pokerHero1 ($2.08 in chips)
+Seat 3: Intacto1 ($2.93 in chips)
+Seat 4: dark33.rus ($2.04 in chips)
+Seat 5: soullessAce ($2 in chips)
+Seat 6: Loick16 ($2 in chips)
+Seat 7: Sendeski23 ($0.57 in chips)
+Seat 8: mandenodos ($0.77 in chips)
+Seat 9: AndBurtAs ($1.52 in chips)
+pokerHero1: posts small blind $0.01
+Intacto1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s 9c]
+dark33.rus: folds
+soullessAce: folds
+Loick16: calls $0.02
+Sendeski23 has timed out while disconnected
+Sendeski23: folds
+mandenodos: folds
+AndBurtAs: folds
+VV888V: calls $0.02
+pokerHero1: folds
+Intacto1: checks
+*** FLOP *** [Qc 3d Kc]
+Intacto1: checks
+Loick16: checks
+VV888V: bets $0.02
+Intacto1: folds
+Loick16: calls $0.02
+*** TURN *** [Qc 3d Kc] [6h]
+Loick16: checks
+VV888V: bets $0.02
+Loick16: calls $0.02
+*** RIVER *** [Qc 3d Kc 6h] [Jc]
+Loick16: bets $0.06
+VV888V: folds
+Uncalled bet ($0.06) returned to Loick16
+Loick16 collected $0.14 from pot
+Loick16: doesn't show hand
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [Qc 3d Kc 6h Jc]
+Seat 1: VV888V (button) folded on the River
+Seat 2: pokerHero1 (small blind) folded before Flop
+Seat 3: Intacto1 (big blind) folded on the Flop
+Seat 4: dark33.rus folded before Flop (didn't bet)
+Seat 5: soullessAce folded before Flop (didn't bet)
+Seat 6: Loick16 collected ($0.14)
+Seat 7: Sendeski23 folded before Flop (didn't bet)
+Seat 8: mandenodos folded before Flop (didn't bet)
+Seat 9: AndBurtAs folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #212335178942:  Hold'em No Limit ($0.01/$0.02) - 2020/04/19 14:49:19 ET
+Table 'McNaught' 9-max Seat #1 is the button
+Seat 1: youthwilldance ($4.90 in chips)
+Seat 2: markitosrave ($2 in chips)
+Seat 3: ifiret68 ($1.65 in chips)
+Seat 4: le corbusier ($2 in chips)
+Seat 5: Frakza ($0.72 in chips)
+Seat 6: N0SK0 ($2.37 in chips)
+Seat 7: markus543 ($1 in chips)
+Seat 8: pokerHero1 ($2.10 in chips)
+Seat 9: benpokermuc ($2 in chips)
+markitosrave: posts small blind $0.01
+ifiret68: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s Ts]
+le corbusier: folds
+Frakza: folds
+N0SK0: raises $0.04 to $0.06
+markus543: folds
+pokerHero1: folds
+benpokermuc: folds
+youthwilldance: folds
+markitosrave: folds
+ifiret68: folds
+Uncalled bet ($0.04) returned to N0SK0
+N0SK0 collected $0.05 from pot
+N0SK0: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: youthwilldance (button) folded before Flop (didn't bet)
+Seat 2: markitosrave (small blind) folded before Flop
+Seat 3: ifiret68 (big blind) folded before Flop
+Seat 4: le corbusier folded before Flop (didn't bet)
+Seat 5: Frakza folded before Flop (didn't bet)
+Seat 6: N0SK0 collected ($0.05)
+Seat 7: markus543 folded before Flop (didn't bet)
+Seat 8: pokerHero1 folded before Flop (didn't bet)
+Seat 9: benpokermuc folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #212335078993:  Hold'em No Limit ($0.01/$0.02) - 2020/04/19 14:47:59 ET
+Table 'McNaught' 9-max Seat #1 is the button
+Seat 1: sergio ryz ($2.07 in chips)
+Seat 2: Mark4757 ($1.84 in chips)
+Seat 3: siky123 ($1.81 in chips)
+Seat 4: yopov82 ($2.03 in chips)
+Seat 5: 7GhengisKhan ($2.46 in chips)
+Seat 6: Alex_hollywood ($2 in chips)
+Seat 7: spartanshooter ($5.12 in chips)
+Seat 8: DbIMAH ($1.95 in chips)
+Seat 9: pokerHero1 ($2.10 in chips)
+Mark4757: posts small blind $0.01
+siky123: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th 7h]
+yopov82: folds
+7GhengisKhan: raises $0.04 to $0.06
+Alex_hollywood: folds
+spartanshooter: raises $0.10 to $0.16
+DbIMAH: folds
+pokerHero1: folds
+sergio ryz: folds
+Mark4757: folds
+siky123: calls $0.14
+7GhengisKhan: calls $0.10
+*** FLOP *** [Kd 6h 3c]
+siky123: checks
+7GhengisKhan: checks
+spartanshooter: bets $0.26
+siky123: folds
+7GhengisKhan: calls $0.26
+*** TURN *** [Kd 6h 3c] [Ts]
+7GhengisKhan: checks
+spartanshooter: checks
+*** RIVER *** [Kd 6h 3c Ts] [Qh]
+7GhengisKhan: bets $0.64
+spartanshooter: folds
+Uncalled bet ($0.64) returned to 7GhengisKhan
+7GhengisKhan collected $0.97 from pot
+7GhengisKhan: doesn't show hand
+*** SUMMARY ***
+Total pot $1.01 | Rake $0.04
+Board [Kd 6h 3c Ts Qh]
+Seat 1: sergio ryz (button) folded before Flop (didn't bet)
+Seat 2: Mark4757 (small blind) folded before Flop
+Seat 3: siky123 (big blind) folded on the Flop
+Seat 4: yopov82 folded before Flop (didn't bet)
+Seat 5: 7GhengisKhan collected ($0.97)
+Seat 6: Alex_hollywood folded before Flop (didn't bet)
+Seat 7: spartanshooter folded on the River
+Seat 8: DbIMAH folded before Flop (didn't bet)
+Seat 9: pokerHero1 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #212335214738:  Hold'em No Limit ($0.01/$0.02) - 2020/04/19 14:49:47 ET
+Table 'McNaught' 9-max Seat #1 is the button
+Seat 1: KIYON_15 ($1.62 in chips)
+Seat 2: defo91 ($1.98 in chips)
+Seat 3: IgaMoL ($2.46 in chips)
+Seat 4: pokerHero1 ($2.10 in chips)
+Seat 5: bznx1 ($2.09 in chips)
+Seat 6: GeorgeRussel ($2.88 in chips)
+Seat 7: name64 ($2.12 in chips)
+Seat 8: rinat2905144 ($1.86 in chips)
+Seat 9: jajo1000000 ($2.86 in chips)
+defo91: posts small blind $0.01
+IgaMoL: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ah 2c]
+pokerHero1: folds
+bznx1: folds
+GeorgeRussel: folds
+name64: folds
+rinat2905144: raises $0.04 to $0.06
+jajo1000000: folds
+KIYON_15: folds
+defo91: folds
+IgaMoL: folds
+Uncalled bet ($0.04) returned to rinat2905144
+rinat2905144 collected $0.05 from pot
+rinat2905144: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: KIYON_15 (button) folded before Flop (didn't bet)
+Seat 2: defo91 (small blind) folded before Flop
+Seat 3: IgaMoL (big blind) folded before Flop
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: bznx1 folded before Flop (didn't bet)
+Seat 6: GeorgeRussel folded before Flop (didn't bet)
+Seat 7: name64 folded before Flop (didn't bet)
+Seat 8: rinat2905144 collected ($0.05)
+Seat 9: jajo1000000 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #212335190108:  Hold'em No Limit ($0.01/$0.02) - 2020/04/19 14:49:28 ET
+Table 'McNaught' 9-max Seat #1 is the button
+Seat 1: unegus ($1.97 in chips)
+Seat 2: OKEAN ($2.03 in chips)
+Seat 3: Mark4757 ($1.74 in chips)
+Seat 4: sergio ryz ($1.80 in chips)
+Seat 5: Stefan987695 ($2.13 in chips)
+Seat 6: Matanbukus ($3.15 in chips)
+Seat 7: pokerHero1 ($2.10 in chips)
+Seat 8: lukewhitt22 ($0.86 in chips)
+Seat 9: Mattes999 ($2.08 in chips)
+OKEAN: posts small blind $0.01
+Mark4757: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Th 2d]
+sergio ryz: folds
+Stefan987695: calls $0.02
+Matanbukus: folds
+pokerHero1: folds
+lukewhitt22: folds
+Mattes999: folds
+unegus: raises $0.06 to $0.08
+OKEAN: calls $0.07
+Mark4757: folds
+Stefan987695: calls $0.06
+*** FLOP *** [6s 8s 7h]
+OKEAN: bets $0.25
+Stefan987695: folds
+unegus: folds
+Uncalled bet ($0.25) returned to OKEAN
+OKEAN collected $0.25 from pot
+OKEAN: doesn't show hand
+*** SUMMARY ***
+Total pot $0.26 | Rake $0.01
+Board [6s 8s 7h]
+Seat 1: unegus (button) folded on the Flop
+Seat 2: OKEAN (small blind) collected ($0.25)
+Seat 3: Mark4757 (big blind) folded before Flop
+Seat 4: sergio ryz folded before Flop (didn't bet)
+Seat 5: Stefan987695 folded on the Flop
+Seat 6: Matanbukus folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: lukewhitt22 folded before Flop (didn't bet)
+Seat 9: Mattes999 folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #212335208143:  Hold'em No Limit ($0.01/$0.02) - 2020/04/19 14:49:42 ET
+Table 'McNaught' 9-max Seat #1 is the button
+Seat 1: HungrayHippo ($1.98 in chips)
+Seat 2: Caçapava22 ($2.30 in chips)
+Seat 3: partizan_vlg ($1.86 in chips)
+Seat 4: pokerHero1 ($2.10 in chips)
+Seat 5: ifiret68 ($1.63 in chips)
+Seat 6: Voha600 ($4.18 in chips)
+Seat 7: IgaMoL ($6.04 in chips)
+Seat 8: TNV1984 ($3.56 in chips)
+Seat 9: Matanbukus ($2.53 in chips)
+Caçapava22: posts small blind $0.01
+partizan_vlg: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c Js]
+pokerHero1: folds
+ifiret68: folds
+Voha600: folds
+IgaMoL: folds
+TNV1984: folds
+Matanbukus: folds
+HungrayHippo: raises $0.02 to $0.04
+Caçapava22: folds
+partizan_vlg: calls $0.02
+*** FLOP *** [8s 6d Ad]
+partizan_vlg: checks
+HungrayHippo: bets $0.09
+partizan_vlg: folds
+Uncalled bet ($0.09) returned to HungrayHippo
+HungrayHippo collected $0.09 from pot
+HungrayHippo: doesn't show hand
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Board [8s 6d Ad]
+Seat 1: HungrayHippo (button) collected ($0.09)
+Seat 2: Caçapava22 (small blind) folded before Flop
+Seat 3: partizan_vlg (big blind) folded on the Flop
+Seat 4: pokerHero1 folded before Flop (didn't bet)
+Seat 5: ifiret68 folded before Flop (didn't bet)
+Seat 6: Voha600 folded before Flop (didn't bet)
+Seat 7: IgaMoL folded before Flop (didn't bet)
+Seat 8: TNV1984 folded before Flop (didn't bet)
+Seat 9: Matanbukus folded before Flop (didn't bet)
+
+
+
+PokerStars Zoom Hand #212335200461:  Hold'em No Limit ($0.01/$0.02) - 2020/04/19 14:49:36 ET
+Table 'McNaught' 9-max Seat #1 is the button
+Seat 1: sugar66643 ($1.39 in chips)
+Seat 2: JeffersonWd ($2.81 in chips)
+Seat 3: AndreyKa1923 ($2.06 in chips)
+Seat 4: Sendeski23 ($0.57 in chips)
+Seat 5: OKEAN ($1.53 in chips)
+Seat 6: pokerHero1 ($2.10 in chips)
+Seat 7: TallAlex2000 ($0.78 in chips)
+Seat 8: IEVAL ($4.77 in chips)
+Seat 9: Juancarxx ($1.43 in chips)
+JeffersonWd: posts small blind $0.01
+AndreyKa1923: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh 4c]
+Sendeski23: folds
+OKEAN: folds
+pokerHero1: folds
+TallAlex2000: folds
+IEVAL: folds
+Juancarxx: raises $0.02 to $0.04
+sugar66643: calls $0.04
+JeffersonWd: calls $0.03
+AndreyKa1923: calls $0.02
+*** FLOP *** [Ah 6d 9h]
+JeffersonWd: checks
+AndreyKa1923: bets $0.02
+Juancarxx: raises $0.04 to $0.06
+sugar66643: folds
+JeffersonWd: folds
+AndreyKa1923: folds
+Uncalled bet ($0.04) returned to Juancarxx
+Juancarxx collected $0.19 from pot
+Juancarxx: doesn't show hand
+*** SUMMARY ***
+Total pot $0.20 | Rake $0.01
+Board [Ah 6d 9h]
+Seat 1: sugar66643 (button) folded on the Flop
+Seat 2: JeffersonWd (small blind) folded on the Flop
+Seat 3: AndreyKa1923 (big blind) folded on the Flop
+Seat 4: Sendeski23 folded before Flop (didn't bet)
+Seat 5: OKEAN folded before Flop (didn't bet)
+Seat 6: pokerHero1 folded before Flop (didn't bet)
+Seat 7: TallAlex2000 folded before Flop (didn't bet)
+Seat 8: IEVAL folded before Flop (didn't bet)
+Seat 9: Juancarxx collected ($0.19)
+
+
+

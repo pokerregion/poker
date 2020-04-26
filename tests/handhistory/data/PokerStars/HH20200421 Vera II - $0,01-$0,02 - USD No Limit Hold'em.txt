@@ -1,0 +1,937 @@
+﻿PokerStars Hand #212451283157:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:51:15 ET
+Table 'Vera II' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2 in chips)
+Seat 2: knight eight ($0.60 in chips)
+Seat 3: RuS PoKeR69 ($3.40 in chips)
+Seat 4: Ykycu_Moe ($2 in chips)
+Seat 5: leoLida7 ($2.33 in chips)
+Seat 6: KyJIaKoB ($3.92 in chips)
+Seat 7: olimpus22281 ($1.39 in chips)
+Seat 8: silverr8619 ($1.12 in chips)
+Seat 9: m4tu5h ($2.44 in chips)
+m4tu5h: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js 4c]
+knight eight: folds
+RuS PoKeR69: folds
+Ykycu_Moe: folds
+leoLida7: folds
+KyJIaKoB: folds
+olimpus22281: folds
+silverr8619: raises $0.04 to $0.06
+m4tu5h: calls $0.05
+pokerHero1: folds
+*** FLOP *** [Qd 4d 3s]
+m4tu5h: checks
+silverr8619: bets $0.10
+m4tu5h: folds
+Uncalled bet ($0.10) returned to silverr8619
+silverr8619 collected $0.14 from pot
+silverr8619: doesn't show hand
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [Qd 4d 3s]
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 2: knight eight folded before Flop (didn't bet)
+Seat 3: RuS PoKeR69 folded before Flop (didn't bet)
+Seat 4: Ykycu_Moe folded before Flop (didn't bet)
+Seat 5: leoLida7 folded before Flop (didn't bet)
+Seat 6: KyJIaKoB folded before Flop (didn't bet)
+Seat 7: olimpus22281 folded before Flop (didn't bet)
+Seat 8: silverr8619 (button) collected ($0.14)
+Seat 9: m4tu5h (small blind) folded on the Flop
+
+
+
+PokerStars Hand #212451322259:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:51:57 ET
+Table 'Vera II' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($1.98 in chips)
+Seat 2: knight eight ($0.60 in chips)
+Seat 3: RuS PoKeR69 ($3.40 in chips)
+Seat 4: Ykycu_Moe ($2 in chips)
+Seat 5: leoLida7 ($2.33 in chips)
+Seat 6: KyJIaKoB ($3.92 in chips)
+Seat 7: olimpus22281 ($1.39 in chips)
+Seat 8: silverr8619 ($1.20 in chips)
+Seat 9: m4tu5h ($2.38 in chips)
+pokerHero1: posts small blind $0.01
+knight eight: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh 6s]
+RuS PoKeR69: folds
+Ykycu_Moe: raises $0.04 to $0.06
+leoLida7: folds
+KyJIaKoB: folds
+olimpus22281: folds
+silverr8619: folds
+m4tu5h: folds
+pokerHero1: folds
+knight eight: calls $0.04
+*** FLOP *** [5s Jh 7c]
+knight eight: checks
+Ykycu_Moe: bets $0.08
+knight eight: folds
+Uncalled bet ($0.08) returned to Ykycu_Moe
+Ykycu_Moe collected $0.13 from pot
+Ykycu_Moe: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [5s Jh 7c]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 2: knight eight (big blind) folded on the Flop
+Seat 3: RuS PoKeR69 folded before Flop (didn't bet)
+Seat 4: Ykycu_Moe collected ($0.13)
+Seat 5: leoLida7 folded before Flop (didn't bet)
+Seat 6: KyJIaKoB folded before Flop (didn't bet)
+Seat 7: olimpus22281 folded before Flop (didn't bet)
+Seat 8: silverr8619 folded before Flop (didn't bet)
+Seat 9: m4tu5h (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451349909:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:52:27 ET
+Table 'Vera II' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($1.97 in chips)
+Seat 2: knight eight ($0.54 in chips)
+Seat 3: RuS PoKeR69 ($3.40 in chips)
+Seat 4: Ykycu_Moe ($2.07 in chips)
+Seat 5: leoLida7 ($2.33 in chips)
+Seat 6: KyJIaKoB ($3.92 in chips)
+Seat 7: olimpus22281 ($1.39 in chips)
+Seat 8: silverr8619 ($1.20 in chips)
+Seat 9: m4tu5h ($2.38 in chips)
+knight eight: posts small blind $0.01
+RuS PoKeR69: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c 3d]
+Ykycu_Moe: folds
+leoLida7: folds
+KyJIaKoB: folds
+olimpus22281: calls $0.02
+silverr8619: calls $0.02
+m4tu5h: raises $0.06 to $0.08
+pokerHero1: folds
+knight eight: folds
+RuS PoKeR69: folds
+olimpus22281: calls $0.06
+silverr8619: calls $0.06
+*** FLOP *** [5c Ad Ac]
+olimpus22281: checks
+silverr8619: checks
+m4tu5h: bets $0.09
+olimpus22281: calls $0.09
+silverr8619: folds
+*** TURN *** [5c Ad Ac] [8c]
+olimpus22281: checks
+m4tu5h: bets $0.16
+olimpus22281: calls $0.16
+*** RIVER *** [5c Ad Ac 8c] [8d]
+olimpus22281: checks
+m4tu5h: bets $0.56
+olimpus22281: folds
+Uncalled bet ($0.56) returned to m4tu5h
+m4tu5h collected $0.74 from pot
+m4tu5h: doesn't show hand
+*** SUMMARY ***
+Total pot $0.77 | Rake $0.03
+Board [5c Ad Ac 8c 8d]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 2: knight eight (small blind) folded before Flop
+Seat 3: RuS PoKeR69 (big blind) folded before Flop
+Seat 4: Ykycu_Moe folded before Flop (didn't bet)
+Seat 5: leoLida7 folded before Flop (didn't bet)
+Seat 6: KyJIaKoB folded before Flop (didn't bet)
+Seat 7: olimpus22281 folded on the River
+Seat 8: silverr8619 folded on the Flop
+Seat 9: m4tu5h collected ($0.74)
+
+
+
+PokerStars Hand #212451425592:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:53:48 ET
+Table 'Vera II' 9-max Seat #2 is the button
+Seat 1: pokerHero1 ($1.97 in chips)
+Seat 2: knight eight ($0.53 in chips)
+Seat 3: RuS PoKeR69 ($3.38 in chips)
+Seat 4: Ykycu_Moe ($2.07 in chips)
+Seat 5: leoLida7 ($2.33 in chips)
+Seat 6: KyJIaKoB ($3.92 in chips)
+Seat 7: olimpus22281 ($1.06 in chips)
+Seat 8: silverr8619 ($1.12 in chips)
+Seat 9: m4tu5h ($2.79 in chips)
+RuS PoKeR69: posts small blind $0.01
+Ykycu_Moe: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jc 6s]
+leoLida7: folds
+KyJIaKoB: folds
+olimpus22281: folds
+silverr8619: folds
+m4tu5h: raises $0.04 to $0.06
+pokerHero1: folds
+knight eight: folds
+RuS PoKeR69: folds
+Ykycu_Moe: folds
+Uncalled bet ($0.04) returned to m4tu5h
+m4tu5h collected $0.05 from pot
+m4tu5h: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: knight eight (button) folded before Flop (didn't bet)
+Seat 3: RuS PoKeR69 (small blind) folded before Flop
+Seat 4: Ykycu_Moe (big blind) folded before Flop
+Seat 5: leoLida7 folded before Flop (didn't bet)
+Seat 6: KyJIaKoB folded before Flop (didn't bet)
+Seat 7: olimpus22281 folded before Flop (didn't bet)
+Seat 8: silverr8619 folded before Flop (didn't bet)
+Seat 9: m4tu5h collected ($0.05)
+
+
+
+PokerStars Hand #212451444704:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:54:07 ET
+Table 'Vera II' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($1.97 in chips)
+Seat 2: knight eight ($0.53 in chips)
+Seat 3: RuS PoKeR69 ($3.37 in chips)
+Seat 4: Ykycu_Moe ($2.05 in chips)
+Seat 5: leoLida7 ($2.33 in chips)
+Seat 6: KyJIaKoB ($3.92 in chips)
+Seat 7: olimpus22281 ($1.06 in chips)
+Seat 8: silverr8619 ($1.12 in chips)
+Seat 9: m4tu5h ($2.82 in chips)
+Ykycu_Moe: posts small blind $0.01
+leoLida7: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc Kc]
+KyJIaKoB: folds
+olimpus22281: calls $0.02
+silverr8619: folds
+m4tu5h: folds
+pokerHero1: raises $0.06 to $0.08
+knight eight: folds
+RuS PoKeR69: folds
+Ykycu_Moe: folds
+leoLida7: folds
+olimpus22281: calls $0.06
+*** FLOP *** [Js 3s Kh]
+olimpus22281: checks
+pokerHero1: bets $0.14
+olimpus22281: calls $0.14
+*** TURN *** [Js 3s Kh] [Th]
+olimpus22281: checks
+pokerHero1: bets $0.34
+olimpus22281: folds
+Uncalled bet ($0.34) returned to pokerHero1
+pokerHero1 collected $0.45 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.47 | Rake $0.02
+Board [Js 3s Kh Th]
+Seat 1: pokerHero1 collected ($0.45)
+Seat 2: knight eight folded before Flop (didn't bet)
+Seat 3: RuS PoKeR69 (button) folded before Flop (didn't bet)
+Seat 4: Ykycu_Moe (small blind) folded before Flop
+Seat 5: leoLida7 (big blind) folded before Flop
+Seat 6: KyJIaKoB folded before Flop (didn't bet)
+Seat 7: olimpus22281 folded on the Turn
+Seat 8: silverr8619 folded before Flop (didn't bet)
+Seat 9: m4tu5h folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451500191:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:55:06 ET
+Table 'Vera II' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.20 in chips)
+Seat 2: knight eight ($0.53 in chips)
+Seat 3: RuS PoKeR69 ($3.37 in chips)
+Seat 4: Ykycu_Moe ($2.04 in chips)
+Seat 5: leoLida7 ($2.31 in chips)
+Seat 6: KyJIaKoB ($3.92 in chips)
+Seat 7: olimpus22281 ($0.84 in chips)
+Seat 8: silverr8619 ($1.12 in chips)
+Seat 9: m4tu5h ($2.82 in chips)
+leoLida7: posts small blind $0.01
+KyJIaKoB: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ts 7d]
+olimpus22281: folds
+silverr8619: folds
+m4tu5h: folds
+pokerHero1: folds
+knight eight: raises $0.02 to $0.04
+RuS PoKeR69: calls $0.04
+Ykycu_Moe: folds
+leoLida7: calls $0.03
+KyJIaKoB: folds
+*** FLOP *** [2s 2c 8c]
+leoLida7: checks
+knight eight: checks
+RuS PoKeR69: checks
+*** TURN *** [2s 2c 8c] [Tc]
+leoLida7: checks
+knight eight: bets $0.04
+RuS PoKeR69: folds
+leoLida7: folds
+Uncalled bet ($0.04) returned to knight eight
+knight eight collected $0.14 from pot
+knight eight: doesn't show hand
+*** SUMMARY ***
+Total pot $0.14 | Rake $0
+Board [2s 2c 8c Tc]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: knight eight collected ($0.14)
+Seat 3: RuS PoKeR69 folded on the Turn
+Seat 4: Ykycu_Moe (button) folded before Flop (didn't bet)
+Seat 5: leoLida7 (small blind) folded on the Turn
+Seat 6: KyJIaKoB (big blind) folded before Flop
+Seat 7: olimpus22281 folded before Flop (didn't bet)
+Seat 8: silverr8619 folded before Flop (didn't bet)
+Seat 9: m4tu5h folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451547368:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:56:13 ET
+Table 'Vera II' 9-max Seat #5 is the button
+Seat 1: pokerHero1 ($2.20 in chips)
+Seat 2: knight eight ($0.63 in chips)
+Seat 3: RuS PoKeR69 ($3.33 in chips)
+Seat 4: Ykycu_Moe ($2.04 in chips)
+Seat 5: leoLida7 ($2.27 in chips)
+Seat 6: KyJIaKoB ($3.90 in chips)
+Seat 7: olimpus22281 ($0.84 in chips)
+Seat 8: silverr8619 ($1.12 in chips)
+Seat 9: m4tu5h ($2.82 in chips)
+KyJIaKoB: posts small blind $0.01
+olimpus22281: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9d Td]
+silverr8619: folds
+m4tu5h: folds
+pokerHero1: calls $0.02
+knight eight: folds
+RuS PoKeR69: folds
+Ykycu_Moe: folds
+leoLida7: folds
+KyJIaKoB: folds
+olimpus22281: checks
+*** FLOP *** [Js Jc Tc]
+olimpus22281: checks
+pokerHero1: bets $0.04
+olimpus22281: calls $0.04
+*** TURN *** [Js Jc Tc] [Ad]
+olimpus22281: checks
+pokerHero1: checks
+*** RIVER *** [Js Jc Tc Ad] [3s]
+olimpus22281: bets $0.13
+pokerHero1: folds
+Uncalled bet ($0.13) returned to olimpus22281
+olimpus22281 collected $0.13 from pot
+olimpus22281: doesn't show hand
+*** SUMMARY ***
+Total pot $0.13 | Rake $0
+Board [Js Jc Tc Ad 3s]
+Seat 1: pokerHero1 folded on the River
+Seat 2: knight eight folded before Flop (didn't bet)
+Seat 3: RuS PoKeR69 folded before Flop (didn't bet)
+Seat 4: Ykycu_Moe folded before Flop (didn't bet)
+Seat 5: leoLida7 (button) folded before Flop (didn't bet)
+Seat 6: KyJIaKoB (small blind) folded before Flop
+Seat 7: olimpus22281 (big blind) collected ($0.13)
+Seat 8: silverr8619 folded before Flop (didn't bet)
+Seat 9: m4tu5h folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451582110:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:57:01 ET
+Table 'Vera II' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.14 in chips)
+Seat 2: knight eight ($0.63 in chips)
+Seat 3: RuS PoKeR69 ($3.33 in chips)
+Seat 4: Ykycu_Moe ($2.04 in chips)
+Seat 5: leoLida7 ($2.27 in chips)
+Seat 6: KyJIaKoB ($3.89 in chips)
+Seat 7: olimpus22281 ($0.91 in chips)
+Seat 8: silverr8619 ($1.12 in chips)
+Seat 9: m4tu5h ($2.82 in chips)
+olimpus22281: posts small blind $0.01
+silverr8619: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Kh 8d]
+m4tu5h: folds
+pokerHero1: folds
+knight eight has timed out
+knight eight: folds
+RuS PoKeR69: raises $0.02 to $0.04
+Ykycu_Moe: folds
+leoLida7: folds
+KyJIaKoB: folds
+olimpus22281: folds
+silverr8619: folds
+Uncalled bet ($0.02) returned to RuS PoKeR69
+RuS PoKeR69 collected $0.05 from pot
+RuS PoKeR69: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: knight eight folded before Flop (didn't bet)
+Seat 3: RuS PoKeR69 collected ($0.05)
+Seat 4: Ykycu_Moe folded before Flop (didn't bet)
+Seat 5: leoLida7 folded before Flop (didn't bet)
+Seat 6: KyJIaKoB (button) folded before Flop (didn't bet)
+Seat 7: olimpus22281 (small blind) folded before Flop
+Seat 8: silverr8619 (big blind) folded before Flop
+Seat 9: m4tu5h folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451608368:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:57:37 ET
+Table 'Vera II' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.14 in chips)
+Seat 2: knight eight ($0.63 in chips)
+Seat 3: RuS PoKeR69 ($3.36 in chips)
+Seat 4: Ykycu_Moe ($2.04 in chips)
+Seat 5: leoLida7 ($2.27 in chips)
+Seat 6: KyJIaKoB ($3.89 in chips)
+Seat 7: olimpus22281 ($0.90 in chips)
+Seat 8: silverr8619 ($1.10 in chips)
+Seat 9: m4tu5h ($2.82 in chips)
+silverr8619: posts small blind $0.01
+m4tu5h: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc 3c]
+pokerHero1: folds
+knight eight: raises $0.04 to $0.06
+RuS PoKeR69: raises $0.06 to $0.12
+Ykycu_Moe: folds
+leoLida7: folds
+KyJIaKoB: calls $0.12
+olimpus22281: folds
+silverr8619: folds
+m4tu5h: folds
+knight eight: calls $0.06
+*** FLOP *** [5d 8d 7d]
+knight eight: bets $0.08
+RuS PoKeR69: raises $0.08 to $0.16
+KyJIaKoB: calls $0.16
+knight eight: calls $0.08
+*** TURN *** [5d 8d 7d] [Js]
+knight eight: checks
+RuS PoKeR69: checks
+KyJIaKoB: bets $0.45
+knight eight: folds
+RuS PoKeR69: calls $0.45
+*** RIVER *** [5d 8d 7d Js] [2d]
+RuS PoKeR69: bets $0.86
+KyJIaKoB: calls $0.86
+*** SHOW DOWN ***
+RuS PoKeR69: shows [Kc Ad] (a flush, Ace high)
+KyJIaKoB: mucks hand
+RuS PoKeR69 collected $3.37 from pot
+*** SUMMARY ***
+Total pot $3.49 | Rake $0.12
+Board [5d 8d 7d Js 2d]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 2: knight eight folded on the Turn
+Seat 3: RuS PoKeR69 showed [Kc Ad] and won ($3.37) with a flush, Ace high
+Seat 4: Ykycu_Moe folded before Flop (didn't bet)
+Seat 5: leoLida7 folded before Flop (didn't bet)
+Seat 6: KyJIaKoB mucked [Jd Qd]
+Seat 7: olimpus22281 (button) folded before Flop (didn't bet)
+Seat 8: silverr8619 (small blind) folded before Flop
+Seat 9: m4tu5h (big blind) folded before Flop
+
+
+
+PokerStars Hand #212451658401:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:58:46 ET
+Table 'Vera II' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.14 in chips)
+Seat 2: knight eight ($0.35 in chips)
+Seat 3: RuS PoKeR69 ($5.14 in chips)
+Seat 4: Ykycu_Moe ($2.04 in chips)
+Seat 5: leoLida7 ($2.27 in chips)
+Seat 6: KyJIaKoB ($2.30 in chips)
+Seat 7: olimpus22281 ($0.90 in chips)
+Seat 8: silverr8619 ($1.09 in chips)
+Seat 9: m4tu5h ($2.80 in chips)
+m4tu5h: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qd 6s]
+knight eight: calls $0.02
+RuS PoKeR69: folds
+Ykycu_Moe: folds
+leoLida7: folds
+KyJIaKoB: folds
+olimpus22281: calls $0.02
+silverr8619: calls $0.02
+m4tu5h: folds
+pokerHero1: checks
+*** FLOP *** [Kh Jc 3c]
+pokerHero1: checks
+knight eight: bets $0.06
+olimpus22281: calls $0.06
+silverr8619: calls $0.06
+pokerHero1: folds
+*** TURN *** [Kh Jc 3c] [Tc]
+knight eight: bets $0.08
+olimpus22281: calls $0.08
+silverr8619: raises $0.93 to $1.01 and is all-in
+knight eight: calls $0.19 and is all-in
+olimpus22281: folds
+Uncalled bet ($0.74) returned to silverr8619
+*** RIVER *** [Kh Jc 3c Tc] [Ts]
+*** SHOW DOWN ***
+knight eight: shows [Td Qc] (three of a kind, Tens)
+silverr8619: shows [6c 4c] (a flush, Jack high)
+silverr8619 collected $0.86 from pot
+*** SUMMARY ***
+Total pot $0.89 | Rake $0.03
+Board [Kh Jc 3c Tc Ts]
+Seat 1: pokerHero1 (big blind) folded on the Flop
+Seat 2: knight eight showed [Td Qc] and lost with three of a kind, Tens
+Seat 3: RuS PoKeR69 folded before Flop (didn't bet)
+Seat 4: Ykycu_Moe folded before Flop (didn't bet)
+Seat 5: leoLida7 folded before Flop (didn't bet)
+Seat 6: KyJIaKoB folded before Flop (didn't bet)
+Seat 7: olimpus22281 folded on the Turn
+Seat 8: silverr8619 (button) showed [6c 4c] and won ($0.86) with a flush, Jack high
+Seat 9: m4tu5h (small blind) folded before Flop
+
+
+
+PokerStars Hand #212451711283:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 12:59:45 ET
+Table 'Vera II' 9-max Seat #9 is the button
+Seat 1: pokerHero1 ($2.12 in chips)
+Seat 3: RuS PoKeR69 ($5.14 in chips)
+Seat 4: Ykycu_Moe ($2.04 in chips)
+Seat 5: leoLida7 ($2.27 in chips)
+Seat 6: KyJIaKoB ($2.30 in chips)
+Seat 7: olimpus22281 ($0.74 in chips)
+Seat 8: silverr8619 ($1.60 in chips)
+Seat 9: m4tu5h ($2.79 in chips)
+pokerHero1: posts small blind $0.01
+RuS PoKeR69: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd As]
+Ykycu_Moe: folds
+leoLida7: raises $0.04 to $0.06
+KyJIaKoB: folds
+olimpus22281: calls $0.06
+silverr8619: calls $0.06
+m4tu5h: folds
+pokerHero1: folds
+RuS PoKeR69: folds
+*** FLOP *** [7h 6d 3d]
+leoLida7: bets $0.12
+olimpus22281: calls $0.12
+silverr8619: calls $0.12
+*** TURN *** [7h 6d 3d] [Qh]
+leoLida7: checks
+olimpus22281: checks
+silverr8619: checks
+*** RIVER *** [7h 6d 3d Qh] [Qc]
+leoLida7: checks
+olimpus22281: bets $0.06
+silverr8619: calls $0.06
+leoLida7: folds
+*** SHOW DOWN ***
+olimpus22281: shows [5h 6h] (two pair, Queens and Sixes)
+silverr8619: mucks hand
+olimpus22281 collected $0.67 from pot
+*** SUMMARY ***
+Total pot $0.69 | Rake $0.02
+Board [7h 6d 3d Qh Qc]
+Seat 1: pokerHero1 (small blind) folded before Flop
+Seat 3: RuS PoKeR69 (big blind) folded before Flop
+Seat 4: Ykycu_Moe folded before Flop (didn't bet)
+Seat 5: leoLida7 folded on the River
+Seat 6: KyJIaKoB folded before Flop (didn't bet)
+Seat 7: olimpus22281 showed [5h 6h] and won ($0.67) with two pair, Queens and Sixes
+Seat 8: silverr8619 mucked [Ah Ks]
+Seat 9: m4tu5h (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451768779:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:01:00 ET
+Table 'Vera II' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.11 in chips)
+Seat 3: RuS PoKeR69 ($5.12 in chips)
+Seat 4: Ykycu_Moe ($2.04 in chips)
+Seat 5: leoLida7 ($2.09 in chips)
+Seat 6: KyJIaKoB ($2.30 in chips)
+Seat 7: olimpus22281 ($1.17 in chips)
+Seat 8: silverr8619 ($1.36 in chips)
+Seat 9: m4tu5h ($2.79 in chips)
+RuS PoKeR69: posts small blind $0.01
+Ykycu_Moe: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9d 6s]
+leoLida7: folds
+KyJIaKoB: folds
+KyJIaKoB leaves the table
+olimpus22281: calls $0.02
+silverr8619: folds
+m4tu5h: folds
+pokerHero1: folds
+RuS PoKeR69: folds
+Ykycu_Moe: checks
+*** FLOP *** [3s Qc 9c]
+LYAK451 joins the table at seat #6
+Ykycu_Moe: bets $0.04
+olimpus22281: calls $0.04
+*** TURN *** [3s Qc 9c] [6c]
+Ykycu_Moe: bets $0.08
+olimpus22281: calls $0.08
+*** RIVER *** [3s Qc 9c 6c] [Th]
+Ykycu_Moe: bets $0.16
+olimpus22281: calls $0.16
+*** SHOW DOWN ***
+Ykycu_Moe: shows [Qs 9h] (two pair, Queens and Nines)
+olimpus22281: shows [8s 7s] (a straight, Six to Ten)
+olimpus22281 collected $0.59 from pot
+*** SUMMARY ***
+Total pot $0.61 | Rake $0.02
+Board [3s Qc 9c 6c Th]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 3: RuS PoKeR69 (small blind) folded before Flop
+Seat 4: Ykycu_Moe (big blind) showed [Qs 9h] and lost with two pair, Queens and Nines
+Seat 5: leoLida7 folded before Flop (didn't bet)
+Seat 6: KyJIaKoB folded before Flop (didn't bet)
+Seat 7: olimpus22281 showed [8s 7s] and won ($0.59) with a straight, Six to Ten
+Seat 8: silverr8619 folded before Flop (didn't bet)
+Seat 9: m4tu5h folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451800039:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:01:36 ET
+Table 'Vera II' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.11 in chips)
+Seat 3: RuS PoKeR69 ($5.11 in chips)
+Seat 4: Ykycu_Moe ($2 in chips)
+Seat 6: LYAK451 ($1.60 in chips)
+Seat 7: olimpus22281 ($1.46 in chips)
+Seat 8: silverr8619 ($1.36 in chips)
+Seat 9: m4tu5h ($2.79 in chips)
+Ykycu_Moe: posts small blind $0.01
+LYAK451: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Js 7d]
+olimpus22281: raises $0.04 to $0.06
+silverr8619: folds
+m4tu5h: folds
+pokerHero1: folds
+RuS PoKeR69: calls $0.06
+Ykycu_Moe: calls $0.05
+LYAK451: folds
+*** FLOP *** [6d 2d Kc]
+Ykycu_Moe: checks
+olimpus22281: checks
+RuS PoKeR69: checks
+*** TURN *** [6d 2d Kc] [4h]
+Ykycu_Moe: checks
+olimpus22281: checks
+RuS PoKeR69: checks
+*** RIVER *** [6d 2d Kc 4h] [Ah]
+Ykycu_Moe: checks
+olimpus22281: bets $0.19
+RuS PoKeR69: calls $0.19
+Ykycu_Moe: folds
+*** SHOW DOWN ***
+olimpus22281: shows [Kd Kh] (three of a kind, Kings)
+RuS PoKeR69: mucks hand
+olimpus22281 collected $0.56 from pot
+*** SUMMARY ***
+Total pot $0.58 | Rake $0.02
+Board [6d 2d Kc 4h Ah]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: RuS PoKeR69 (button) mucked [Jh Ad]
+Seat 4: Ykycu_Moe (small blind) folded on the River
+Seat 6: LYAK451 (big blind) folded before Flop
+Seat 7: olimpus22281 showed [Kd Kh] and won ($0.56) with three of a kind, Kings
+Seat 8: silverr8619 folded before Flop (didn't bet)
+Seat 9: m4tu5h folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451860730:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:02:42 ET
+Table 'Vera II' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.11 in chips)
+Seat 3: RuS PoKeR69 ($4.86 in chips)
+Seat 4: Ykycu_Moe ($2 in chips)
+Seat 6: LYAK451 ($1.58 in chips)
+Seat 7: olimpus22281 ($1.77 in chips)
+Seat 8: silverr8619 ($1.36 in chips)
+Seat 9: m4tu5h ($2.79 in chips)
+LYAK451: posts small blind $0.01
+olimpus22281: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8d Ts]
+silverr8619: folds
+m4tu5h: folds
+pokerHero1: folds
+RuS PoKeR69: raises $0.02 to $0.04
+Ykycu_Moe: folds
+LYAK451: calls $0.03
+olimpus22281: calls $0.02
+*** FLOP *** [Js 6c Jh]
+LYAK451: checks
+olimpus22281: checks
+RuS PoKeR69: bets $0.06
+LYAK451: folds
+olimpus22281: folds
+Uncalled bet ($0.06) returned to RuS PoKeR69
+RuS PoKeR69 collected $0.12 from pot
+RuS PoKeR69: doesn't show hand
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Board [Js 6c Jh]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: RuS PoKeR69 collected ($0.12)
+Seat 4: Ykycu_Moe (button) folded before Flop (didn't bet)
+Seat 6: LYAK451 (small blind) folded on the Flop
+Seat 7: olimpus22281 (big blind) folded on the Flop
+Seat 8: silverr8619 folded before Flop (didn't bet)
+Seat 9: m4tu5h folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451883187:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:03:06 ET
+Table 'Vera II' 9-max Seat #6 is the button
+Seat 1: pokerHero1 ($2.11 in chips)
+Seat 3: RuS PoKeR69 ($4.94 in chips)
+Seat 4: Ykycu_Moe ($2 in chips)
+Seat 6: LYAK451 ($1.54 in chips)
+Seat 7: olimpus22281 ($1.73 in chips)
+Seat 8: silverr8619 ($1.36 in chips)
+Seat 9: m4tu5h ($2.79 in chips)
+olimpus22281: posts small blind $0.01
+silverr8619: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d Qh]
+m4tu5h: folds
+pokerHero1: folds
+RuS PoKeR69: raises $0.02 to $0.04
+Ykycu_Moe: folds
+LYAK451: folds
+olimpus22281: calls $0.03
+silverr8619: calls $0.02
+*** FLOP *** [9h 5h Jc]
+olimpus22281: checks
+silverr8619: checks
+RuS PoKeR69: checks
+*** TURN *** [9h 5h Jc] [2h]
+olimpus22281: checks
+silverr8619: checks
+RuS PoKeR69: checks
+*** RIVER *** [9h 5h Jc 2h] [4s]
+olimpus22281: checks
+silverr8619: checks
+RuS PoKeR69: checks
+*** SHOW DOWN ***
+olimpus22281: shows [Ks 2d] (a pair of Deuces)
+silverr8619: shows [9c Qc] (a pair of Nines)
+RuS PoKeR69: mucks hand
+silverr8619 collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0
+Board [9h 5h Jc 2h 4s]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: RuS PoKeR69 mucked [Ah 5d]
+Seat 4: Ykycu_Moe folded before Flop (didn't bet)
+Seat 6: LYAK451 (button) folded before Flop (didn't bet)
+Seat 7: olimpus22281 (small blind) showed [Ks 2d] and lost with a pair of Deuces
+Seat 8: silverr8619 (big blind) showed [9c Qc] and won ($0.12) with a pair of Nines
+Seat 9: m4tu5h folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212451928568:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:03:54 ET
+Table 'Vera II' 9-max Seat #7 is the button
+Seat 1: pokerHero1 ($2.11 in chips)
+Seat 3: RuS PoKeR69 ($4.90 in chips)
+Seat 4: Ykycu_Moe ($2 in chips)
+Seat 6: LYAK451 ($1.54 in chips)
+Seat 7: olimpus22281 ($1.69 in chips)
+Seat 8: silverr8619 ($1.44 in chips)
+silverr8619: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3c Ts]
+RuS PoKeR69: folds
+Ykycu_Moe: folds
+LYAK451: raises $0.04 to $0.06
+olimpus22281: folds
+silverr8619: folds
+pokerHero1: folds
+Uncalled bet ($0.04) returned to LYAK451
+LYAK451 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: pokerHero1 (big blind) folded before Flop
+Seat 3: RuS PoKeR69 folded before Flop (didn't bet)
+Seat 4: Ykycu_Moe folded before Flop (didn't bet)
+Seat 6: LYAK451 collected ($0.05)
+Seat 7: olimpus22281 (button) folded before Flop (didn't bet)
+Seat 8: silverr8619 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212451947591:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:04:14 ET
+Table 'Vera II' 9-max Seat #8 is the button
+Seat 1: pokerHero1 ($2.09 in chips)
+Seat 3: RuS PoKeR69 ($4.90 in chips)
+Seat 4: Ykycu_Moe ($2 in chips)
+Seat 6: LYAK451 ($1.57 in chips)
+Seat 7: olimpus22281 ($1.69 in chips)
+Seat 8: silverr8619 ($1.43 in chips)
+pokerHero1: posts small blind $0.01
+RuS PoKeR69: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ts As]
+Ykycu_Moe: folds
+LYAK451: calls $0.02
+olimpus22281: folds
+silverr8619: calls $0.02
+pokerHero1: raises $0.06 to $0.08
+RuS PoKeR69: folds
+LYAK451: calls $0.06
+silverr8619: calls $0.06
+*** FLOP *** [2c Ah 3s]
+pokerHero1: bets $0.19
+LYAK451: folds
+silverr8619: folds
+Uncalled bet ($0.19) returned to pokerHero1
+pokerHero1 collected $0.25 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.26 | Rake $0.01
+Board [2c Ah 3s]
+Seat 1: pokerHero1 (small blind) collected ($0.25)
+Seat 3: RuS PoKeR69 (big blind) folded before Flop
+Seat 4: Ykycu_Moe folded before Flop (didn't bet)
+Seat 6: LYAK451 folded on the Flop
+Seat 7: olimpus22281 folded before Flop (didn't bet)
+Seat 8: silverr8619 (button) folded on the Flop
+
+
+
+PokerStars Hand #212451976261:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:04:44 ET
+Table 'Vera II' 9-max Seat #1 is the button
+Seat 1: pokerHero1 ($2.26 in chips)
+Seat 3: RuS PoKeR69 ($4.88 in chips)
+Seat 4: Ykycu_Moe ($2 in chips)
+Seat 6: LYAK451 ($1.49 in chips)
+Seat 7: olimpus22281 ($1.69 in chips)
+Seat 8: silverr8619 ($1.35 in chips)
+RuS PoKeR69: posts small blind $0.01
+Ykycu_Moe: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8c 7s]
+knight eight leaves the table
+LYAK451: folds
+olimpus22281: calls $0.02
+silverr8619: calls $0.02
+pokerHero1: folds
+RuS PoKeR69: folds
+Ykycu_Moe: checks
+*** FLOP *** [Ad 4s 9s]
+Ykycu_Moe: checks
+olimpus22281: checks
+silverr8619: bets $0.04
+Ykycu_Moe: folds
+olimpus22281: calls $0.04
+*** TURN *** [Ad 4s 9s] [5h]
+olimpus22281: checks
+silverr8619: bets $0.08
+olimpus22281: calls $0.08
+*** RIVER *** [Ad 4s 9s 5h] [4d]
+olimpus22281: checks
+silverr8619: bets $0.14
+olimpus22281: folds
+Uncalled bet ($0.14) returned to silverr8619
+silverr8619 collected $0.30 from pot
+silverr8619: doesn't show hand
+*** SUMMARY ***
+Total pot $0.31 | Rake $0.01
+Board [Ad 4s 9s 5h 4d]
+Seat 1: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 3: RuS PoKeR69 (small blind) folded before Flop
+Seat 4: Ykycu_Moe (big blind) folded on the Flop
+Seat 6: LYAK451 folded before Flop (didn't bet)
+Seat 7: olimpus22281 folded on the River
+Seat 8: silverr8619 collected ($0.30)
+
+
+
+PokerStars Hand #212452040575:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:05:51 ET
+Table 'Vera II' 9-max Seat #3 is the button
+Seat 1: pokerHero1 ($2.26 in chips)
+Seat 3: RuS PoKeR69 ($4.87 in chips)
+Seat 4: Ykycu_Moe ($2 in chips)
+Seat 6: LYAK451 ($1.49 in chips)
+Seat 7: olimpus22281 ($1.55 in chips)
+Seat 8: silverr8619 ($1.51 in chips)
+Ykycu_Moe: posts small blind $0.01
+LYAK451: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2s Jh]
+olimpus22281: folds
+silverr8619: folds
+pokerHero1: folds
+RuS PoKeR69: folds
+silverr8619 leaves the table
+Ykycu_Moe: folds
+Uncalled bet ($0.01) returned to LYAK451
+LYAK451 collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: RuS PoKeR69 (button) folded before Flop (didn't bet)
+Seat 4: Ykycu_Moe (small blind) folded before Flop
+Seat 6: LYAK451 (big blind) collected ($0.02)
+Seat 7: olimpus22281 folded before Flop (didn't bet)
+Seat 8: silverr8619 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212452052921:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/21 13:06:04 ET
+Table 'Vera II' 9-max Seat #4 is the button
+Seat 1: pokerHero1 ($2.26 in chips)
+Seat 3: RuS PoKeR69 ($4.87 in chips)
+Seat 4: Ykycu_Moe ($2 in chips)
+Seat 6: LYAK451 ($1.50 in chips)
+Seat 7: olimpus22281 ($1.55 in chips)
+LYAK451: posts small blind $0.01
+olimpus22281: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s Tc]
+pokerHero1: folds
+RuS PoKeR69: raises $0.02 to $0.04
+Ykycu_Moe: raises $0.10 to $0.14
+LYAK451: folds
+olimpus22281: calls $0.12
+RuS PoKeR69: folds
+*** FLOP *** [9d 6c 9s]
+olimpus22281: checks
+Ykycu_Moe: checks
+*** TURN *** [9d 6c 9s] [8s]
+olimpus22281: checks
+Ykycu_Moe: checks
+*** RIVER *** [9d 6c 9s 8s] [7h]
+olimpus22281: bets $1.41 and is all-in
+Ykycu_Moe: folds
+Uncalled bet ($1.41) returned to olimpus22281
+olimpus22281 collected $0.32 from pot
+olimpus22281: doesn't show hand
+*** SUMMARY ***
+Total pot $0.33 | Rake $0.01
+Board [9d 6c 9s 8s 7h]
+Seat 1: pokerHero1 folded before Flop (didn't bet)
+Seat 3: RuS PoKeR69 folded before Flop
+Seat 4: Ykycu_Moe (button) folded on the River
+Seat 6: LYAK451 (small blind) folded before Flop
+Seat 7: olimpus22281 (big blind) collected ($0.32)
+
+
+

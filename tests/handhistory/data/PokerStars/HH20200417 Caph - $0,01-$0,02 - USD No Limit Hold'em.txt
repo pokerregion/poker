@@ -1,0 +1,2440 @@
+﻿PokerStars Hand #212182123857:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:36:18 ET
+Table 'Caph' 9-max Seat #5 is the button
+Seat 1: Millers1234 ($1.32 in chips)
+Seat 3: sanuk1no ($1.07 in chips)
+Seat 4: Castesso ($2 in chips)
+Seat 5: vlatka69 ($3.10 in chips)
+Seat 6: ben456 ($2.01 in chips)
+Seat 7: pokerHero1 ($2 in chips)
+Seat 8: 2AceOfSpades ($3.06 in chips)
+Seat 9: LaiRaches71 ($1.66 in chips)
+ben456: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6d 2s]
+2AceOfSpades: folds
+LaiRaches71: folds
+Millers1234: folds
+2AceOfSpades leaves the table
+sanuk1no: calls $0.02
+Castesso: raises $0.03 to $0.05
+vlatka69: folds
+ben456: raises $0.17 to $0.22
+pokerHero1: folds
+Danilo joins the table at seat #8
+sanuk1no: folds
+Castesso: calls $0.17
+*** FLOP *** [2h 2d As]
+ben456: checks
+Castesso: checks
+*** TURN *** [2h 2d As] [Ad]
+ben456: bets $0.31
+Castesso: folds
+Uncalled bet ($0.31) returned to ben456
+ben456 collected $0.46 from pot
+ben456: doesn't show hand
+*** SUMMARY ***
+Total pot $0.48 | Rake $0.02
+Board [2h 2d As Ad]
+Seat 1: Millers1234 folded before Flop (didn't bet)
+Seat 3: sanuk1no folded before Flop
+Seat 4: Castesso folded on the Turn
+Seat 5: vlatka69 (button) folded before Flop (didn't bet)
+Seat 6: ben456 (small blind) collected ($0.46)
+Seat 7: pokerHero1 (big blind) folded before Flop
+Seat 8: 2AceOfSpades folded before Flop (didn't bet)
+Seat 9: LaiRaches71 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182179344:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:37:05 ET
+Table 'Caph' 9-max Seat #6 is the button
+Seat 1: Millers1234 ($1.32 in chips)
+Seat 3: sanuk1no ($1.05 in chips)
+Seat 4: Castesso ($2 in chips)
+Seat 5: vlatka69 ($3.10 in chips)
+Seat 6: ben456 ($2.25 in chips)
+Seat 7: pokerHero1 ($1.98 in chips)
+Seat 8: Danilo ($4.22 in chips)
+Seat 9: LaiRaches71 ($1.66 in chips)
+pokerHero1: posts small blind $0.01
+Danilo: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d Kc]
+LaiRaches71: folds
+Millers1234 has timed out
+Millers1234: folds
+sanuk1no: folds
+Castesso: folds
+vlatka69: folds
+ben456: folds
+pokerHero1: folds
+Uncalled bet ($0.01) returned to Danilo
+Danilo collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: Millers1234 folded before Flop (didn't bet)
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: vlatka69 folded before Flop (didn't bet)
+Seat 6: ben456 (button) folded before Flop (didn't bet)
+Seat 7: pokerHero1 (small blind) folded before Flop
+Seat 8: Danilo (big blind) collected ($0.02)
+Seat 9: LaiRaches71 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182207714:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:37:29 ET
+Table 'Caph' 9-max Seat #7 is the button
+Seat 3: sanuk1no ($1.05 in chips)
+Seat 4: Castesso ($2 in chips)
+Seat 5: vlatka69 ($3.10 in chips)
+Seat 6: ben456 ($2.25 in chips)
+Seat 7: pokerHero1 ($1.97 in chips)
+Seat 8: Danilo ($4.23 in chips)
+Seat 9: LaiRaches71 ($1.66 in chips)
+Danilo: posts small blind $0.01
+LaiRaches71: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5d 6h]
+sanuk1no: folds
+Castesso: folds
+vlatka69: folds
+ben456: folds
+pokerHero1: raises $0.04 to $0.06
+Danilo: calls $0.05
+LaiRaches71: calls $0.04
+*** FLOP *** [2c Kd 6d]
+Danilo: checks
+LaiRaches71: checks
+pokerHero1: bets $0.08
+Danilo: raises $0.20 to $0.28
+LaiRaches71: folds
+pokerHero1: folds
+Uncalled bet ($0.20) returned to Danilo
+Danilo collected $0.33 from pot
+*** SUMMARY ***
+Total pot $0.34 | Rake $0.01
+Board [2c Kd 6d]
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: vlatka69 folded before Flop (didn't bet)
+Seat 6: ben456 folded before Flop (didn't bet)
+Seat 7: pokerHero1 (button) folded on the Flop
+Seat 8: Danilo (small blind) collected ($0.33)
+Seat 9: LaiRaches71 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212182267670:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:38:11 ET
+Table 'Caph' 9-max Seat #8 is the button
+Seat 2: L0b0M ($1.99 in chips)
+Seat 3: sanuk1no ($1.05 in chips)
+Seat 4: Castesso ($2 in chips)
+Seat 5: vlatka69 ($3.10 in chips)
+Seat 6: ben456 ($2.25 in chips)
+Seat 7: pokerHero1 ($1.83 in chips)
+Seat 8: Danilo ($4.42 in chips)
+Seat 9: LaiRaches71 ($1.60 in chips)
+LaiRaches71: posts small blind $0.01
+L0b0M: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh Ah]
+sanuk1no has timed out
+sanuk1no: folds
+Castesso: folds
+vlatka69: folds
+ben456: raises $0.05 to $0.07
+pokerHero1: raises $0.13 to $0.20
+Danilo: folds
+LaiRaches71: folds
+L0b0M: folds
+ben456: calls $0.13
+*** FLOP *** [Ac 6h 6s]
+ben456: checks
+pokerHero1: bets $0.24
+ben456: calls $0.24
+*** TURN *** [Ac 6h 6s] [3h]
+ben456: checks
+pokerHero1: bets $0.40
+ben456: calls $0.40
+*** RIVER *** [Ac 6h 6s 3h] [Kh]
+ben456: checks
+pokerHero1: bets $0.99 and is all-in
+ben456: calls $0.99
+*** SHOW DOWN ***
+pokerHero1: shows [Qh Ah] (a flush, Ace high)
+ben456: shows [Qc Ad] (two pair, Aces and Sixes)
+pokerHero1 collected $3.56 from pot
+*** SUMMARY ***
+Total pot $3.69 | Rake $0.13
+Board [Ac 6h 6s 3h Kh]
+Seat 2: L0b0M (big blind) folded before Flop
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: vlatka69 folded before Flop (didn't bet)
+Seat 6: ben456 showed [Qc Ad] and lost with two pair, Aces and Sixes
+Seat 7: pokerHero1 showed [Qh Ah] and won ($3.56) with a flush, Ace high
+Seat 8: Danilo (button) folded before Flop (didn't bet)
+Seat 9: LaiRaches71 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212182371896:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:39:39 ET
+Table 'Caph' 9-max Seat #9 is the button
+Seat 2: L0b0M ($1.97 in chips)
+Seat 3: sanuk1no ($1.05 in chips)
+Seat 4: Castesso ($2 in chips)
+Seat 5: vlatka69 ($3.10 in chips)
+Seat 6: ben456 ($2 in chips)
+Seat 7: pokerHero1 ($3.56 in chips)
+Seat 8: Danilo ($4.42 in chips)
+Seat 9: LaiRaches71 ($1.59 in chips)
+L0b0M: posts small blind $0.01
+sanuk1no: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7c 6c]
+Castesso: folds
+vlatka69: calls $0.02
+ben456: folds
+pokerHero1: folds
+Danilo: folds
+ben456 leaves the table
+LaiRaches71: raises $0.07 to $0.09
+clai74 joins the table at seat #6
+L0b0M: folds
+sanuk1no: folds
+vlatka69: calls $0.07
+*** FLOP *** [Kd Th 2c]
+vlatka69: checks
+LaiRaches71: bets $0.10
+vlatka69: calls $0.10
+*** TURN *** [Kd Th 2c] [Jd]
+vlatka69: checks
+LaiRaches71: bets $0.20
+vlatka69: calls $0.20
+*** RIVER *** [Kd Th 2c Jd] [9s]
+vlatka69: checks
+LaiRaches71: bets $0.39
+vlatka69: calls $0.39
+*** SHOW DOWN ***
+LaiRaches71: shows [Qs Qc] (a straight, Nine to King)
+vlatka69: mucks hand
+LaiRaches71 collected $1.53 from pot
+*** SUMMARY ***
+Total pot $1.59 | Rake $0.06
+Board [Kd Th 2c Jd 9s]
+Seat 2: L0b0M (small blind) folded before Flop
+Seat 3: sanuk1no (big blind) folded before Flop
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: vlatka69 mucked [Ts Jh]
+Seat 6: ben456 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Danilo folded before Flop (didn't bet)
+Seat 9: LaiRaches71 (button) showed [Qs Qc] and won ($1.53) with a straight, Nine to King
+
+
+
+PokerStars Hand #212182437846:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:40:34 ET
+Table 'Caph' 9-max Seat #2 is the button
+Seat 2: L0b0M ($1.96 in chips)
+Seat 3: sanuk1no ($1.03 in chips)
+Seat 4: Castesso ($2 in chips)
+Seat 5: vlatka69 ($2.32 in chips)
+Seat 7: pokerHero1 ($3.56 in chips)
+Seat 8: Danilo ($4.42 in chips)
+Seat 9: LaiRaches71 ($2.34 in chips)
+sanuk1no: posts small blind $0.01
+Castesso: posts big blind $0.02
+clai74: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Td 6h]
+vlatka69: calls $0.02
+pokerHero1: folds
+Danilo: folds
+LaiRaches71: folds
+Millers1234 leaves the table
+L0b0M: raises $0.04 to $0.06
+sanuk1no: raises $0.97 to $1.03 and is all-in
+Castesso: folds
+vlatka69: folds
+L0b0M: folds
+Uncalled bet ($0.97) returned to sanuk1no
+sanuk1no collected $0.16 from pot
+sanuk1no: doesn't show hand
+*** SUMMARY ***
+Total pot $0.16 | Rake $0
+Seat 2: L0b0M (button) folded before Flop
+Seat 3: sanuk1no (small blind) collected ($0.16)
+Seat 4: Castesso (big blind) folded before Flop
+Seat 5: vlatka69 folded before Flop
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Danilo folded before Flop (didn't bet)
+Seat 9: LaiRaches71 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182470611:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:41:02 ET
+Table 'Caph' 9-max Seat #3 is the button
+Seat 2: L0b0M ($1.90 in chips)
+Seat 3: sanuk1no ($1.13 in chips)
+Seat 4: Castesso ($2 in chips)
+Seat 5: vlatka69 ($2.30 in chips)
+Seat 7: pokerHero1 ($3.56 in chips)
+Seat 8: Danilo ($4.42 in chips)
+Seat 9: LaiRaches71 ($2.34 in chips)
+Castesso: posts small blind $0.01
+vlatka69: posts big blind $0.02
+clai74: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh 8s]
+pokerHero1: folds
+Danilo: folds
+LaiRaches71: raises $0.03 to $0.05
+L0b0M: folds
+sanuk1no: folds
+Castesso: folds
+vlatka69: raises $0.11 to $0.16
+LaiRaches71: folds
+Uncalled bet ($0.11) returned to vlatka69
+vlatka69 collected $0.11 from pot
+vlatka69: doesn't show hand
+*** SUMMARY ***
+Total pot $0.11 | Rake $0
+Seat 2: L0b0M folded before Flop (didn't bet)
+Seat 3: sanuk1no (button) folded before Flop (didn't bet)
+Seat 4: Castesso (small blind) folded before Flop
+Seat 5: vlatka69 (big blind) collected ($0.11)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Danilo folded before Flop (didn't bet)
+Seat 9: LaiRaches71 folded before Flop
+
+
+
+PokerStars Hand #212182495315:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:41:22 ET
+Table 'Caph' 9-max Seat #4 is the button
+Seat 2: L0b0M ($1.90 in chips)
+Seat 3: sanuk1no ($1.13 in chips)
+Seat 4: Castesso ($2 in chips)
+Seat 5: vlatka69 ($2.36 in chips)
+Seat 6: clai74 ($2 in chips)
+Seat 7: pokerHero1 ($3.56 in chips)
+Seat 8: Danilo ($4.42 in chips)
+Seat 9: LaiRaches71 ($2.29 in chips)
+vlatka69: posts small blind $0.01
+clai74: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ad Kh]
+pokerHero1: raises $0.06 to $0.08
+Danilo: folds
+LaiRaches71: folds
+L0b0M: folds
+sanuk1no: folds
+Castesso: folds
+vlatka69: folds
+clai74: calls $0.06
+*** FLOP *** [Jh 8s Qd]
+clai74: checks
+pokerHero1: bets $0.12
+clai74: calls $0.12
+*** TURN *** [Jh 8s Qd] [7c]
+Talerz joins the table at seat #1
+clai74: checks
+pokerHero1: bets $0.28
+clai74: folds
+Uncalled bet ($0.28) returned to pokerHero1
+pokerHero1 collected $0.40 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.41 | Rake $0.01
+Board [Jh 8s Qd 7c]
+Seat 2: L0b0M folded before Flop (didn't bet)
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso (button) folded before Flop (didn't bet)
+Seat 5: vlatka69 (small blind) folded before Flop
+Seat 6: clai74 (big blind) folded on the Turn
+Seat 7: pokerHero1 collected ($0.40)
+Seat 8: Danilo folded before Flop (didn't bet)
+Seat 9: LaiRaches71 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182549633:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:42:07 ET
+Table 'Caph' 9-max Seat #5 is the button
+Seat 2: L0b0M ($1.90 in chips)
+Seat 3: sanuk1no ($1.13 in chips)
+Seat 4: Castesso ($2 in chips)
+Seat 5: vlatka69 ($2.35 in chips)
+Seat 6: clai74 ($1.80 in chips)
+Seat 7: pokerHero1 ($3.76 in chips)
+Seat 8: Danilo ($4.42 in chips)
+Seat 9: LaiRaches71 ($2.29 in chips)
+clai74: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+Talerz: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8h 8s]
+Danilo: folds
+LaiRaches71: raises $0.03 to $0.05
+L0b0M: folds
+sanuk1no: folds
+Castesso: calls $0.05
+vlatka69: folds
+clai74: calls $0.04
+pokerHero1: calls $0.03
+*** FLOP *** [Kh 4h 9c]
+clai74: checks
+pokerHero1: checks
+LaiRaches71: checks
+Castesso: checks
+*** TURN *** [Kh 4h 9c] [Kd]
+clai74: bets $0.10
+pokerHero1: folds
+LaiRaches71: calls $0.10
+Castesso: folds
+*** RIVER *** [Kh 4h 9c Kd] [Td]
+clai74: bets $0.10
+LaiRaches71: calls $0.10
+*** SHOW DOWN ***
+clai74: shows [9d 8d] (two pair, Kings and Nines)
+LaiRaches71: shows [Qs Qc] (two pair, Kings and Queens)
+LaiRaches71 collected $0.58 from pot
+*** SUMMARY ***
+Total pot $0.60 | Rake $0.02
+Board [Kh 4h 9c Kd Td]
+Seat 2: L0b0M folded before Flop (didn't bet)
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso folded on the Turn
+Seat 5: vlatka69 (button) folded before Flop (didn't bet)
+Seat 6: clai74 (small blind) showed [9d 8d] and lost with two pair, Kings and Nines
+Seat 7: pokerHero1 (big blind) folded on the Turn
+Seat 8: Danilo folded before Flop (didn't bet)
+Seat 9: LaiRaches71 showed [Qs Qc] and won ($0.58) with two pair, Kings and Queens
+
+
+
+PokerStars Hand #212182610443:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:42:57 ET
+Table 'Caph' 9-max Seat #6 is the button
+Seat 1: Talerz ($2 in chips)
+Seat 2: L0b0M ($1.90 in chips)
+Seat 3: sanuk1no ($1.13 in chips)
+Seat 4: Castesso ($2 in chips)
+Seat 5: vlatka69 ($2.35 in chips)
+Seat 6: clai74 ($1.55 in chips)
+Seat 7: pokerHero1 ($3.71 in chips)
+Seat 8: Danilo ($4.42 in chips)
+Seat 9: LaiRaches71 ($2.62 in chips)
+pokerHero1: posts small blind $0.01
+Danilo: posts big blind $0.02
+Talerz: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4d 9d]
+LaiRaches71: folds
+Talerz: checks
+L0b0M: calls $0.02
+sanuk1no: folds
+Castesso: folds
+vlatka69: calls $0.02
+clai74: folds
+pokerHero1: folds
+Danilo: checks
+*** FLOP *** [Jh Jd Qd]
+Danilo: checks
+Talerz: checks
+L0b0M: checks
+vlatka69: checks
+*** TURN *** [Jh Jd Qd] [7c]
+Danilo: checks
+Talerz: checks
+L0b0M: checks
+vlatka69: checks
+*** RIVER *** [Jh Jd Qd 7c] [6d]
+Danilo: checks
+Talerz: checks
+L0b0M: bets $0.04
+vlatka69: folds
+Danilo: calls $0.04
+Talerz: folds
+*** SHOW DOWN ***
+L0b0M: shows [6s As] (two pair, Jacks and Sixes)
+Danilo: shows [8h 7d] (two pair, Jacks and Sevens)
+Danilo collected $0.16 from pot
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [Jh Jd Qd 7c 6d]
+Seat 1: Talerz folded on the River (didn't bet)
+Seat 2: L0b0M showed [6s As] and lost with two pair, Jacks and Sixes
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: vlatka69 folded on the River
+Seat 6: clai74 (button) folded before Flop (didn't bet)
+Seat 7: pokerHero1 (small blind) folded before Flop
+Seat 8: Danilo (big blind) showed [8h 7d] and won ($0.16) with two pair, Jacks and Sevens
+Seat 9: LaiRaches71 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182688184:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:44:00 ET
+Table 'Caph' 9-max Seat #7 is the button
+Seat 1: Talerz ($1.98 in chips)
+Seat 2: L0b0M ($1.84 in chips)
+Seat 3: sanuk1no ($1.13 in chips)
+Seat 4: Castesso ($2 in chips)
+Seat 5: vlatka69 ($2.33 in chips)
+Seat 6: clai74 ($1.55 in chips)
+Seat 7: pokerHero1 ($3.70 in chips)
+Seat 8: Danilo ($4.52 in chips)
+Seat 9: LaiRaches71 ($2.62 in chips)
+Danilo: posts small blind $0.01
+LaiRaches71: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5h 3c]
+Talerz: raises $0.06 to $0.08
+L0b0M: folds
+sanuk1no: folds
+Castesso: folds
+vlatka69: folds
+clai74: raises $0.19 to $0.27
+pokerHero1: folds
+Danilo: folds
+LaiRaches71: folds
+Talerz: folds
+Uncalled bet ($0.19) returned to clai74
+clai74 collected $0.19 from pot
+clai74: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0
+Seat 1: Talerz folded before Flop
+Seat 2: L0b0M folded before Flop (didn't bet)
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: vlatka69 folded before Flop (didn't bet)
+Seat 6: clai74 collected ($0.19)
+Seat 7: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 8: Danilo (small blind) folded before Flop
+Seat 9: LaiRaches71 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212182737603:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:44:36 ET
+Table 'Caph' 9-max Seat #8 is the button
+Seat 1: Talerz ($1.90 in chips)
+Seat 2: L0b0M ($1.84 in chips)
+Seat 3: sanuk1no ($1.13 in chips)
+Seat 4: Castesso ($2 in chips)
+Seat 5: vlatka69 ($2.33 in chips)
+Seat 6: clai74 ($1.66 in chips)
+Seat 7: pokerHero1 ($3.70 in chips)
+Seat 8: Danilo ($4.51 in chips)
+Seat 9: LaiRaches71 ($2.60 in chips)
+LaiRaches71: posts small blind $0.01
+Talerz: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc 2h]
+L0b0M: folds
+sanuk1no: folds
+Castesso: folds
+vlatka69: folds
+clai74: folds
+pokerHero1: folds
+Danilo: folds
+LaiRaches71: folds
+Uncalled bet ($0.01) returned to Talerz
+Talerz collected $0.02 from pot
+Talerz: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: Talerz (big blind) collected ($0.02)
+Seat 2: L0b0M folded before Flop (didn't bet)
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: vlatka69 folded before Flop (didn't bet)
+Seat 6: clai74 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Danilo (button) folded before Flop (didn't bet)
+Seat 9: LaiRaches71 (small blind) folded before Flop
+
+
+
+PokerStars Hand #212182754425:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:44:49 ET
+Table 'Caph' 9-max Seat #9 is the button
+Seat 1: Talerz ($1.91 in chips)
+Seat 2: L0b0M ($1.84 in chips)
+Seat 3: sanuk1no ($1.13 in chips)
+Seat 4: Castesso ($2 in chips)
+Seat 5: vlatka69 ($2.33 in chips)
+Seat 6: clai74 ($1.66 in chips)
+Seat 7: pokerHero1 ($3.70 in chips)
+Seat 8: Danilo ($4.51 in chips)
+Seat 9: LaiRaches71 ($2.59 in chips)
+Talerz: posts small blind $0.01
+L0b0M: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6c Ts]
+sanuk1no: folds
+Castesso: folds
+vlatka69: calls $0.02
+clai74: folds
+pokerHero1: folds
+Danilo: folds
+LaiRaches71: folds
+Talerz: calls $0.01
+L0b0M: checks
+*** FLOP *** [7s 8c 5s]
+Talerz: checks
+L0b0M: checks
+vlatka69: bets $0.06
+Talerz: calls $0.06
+L0b0M: calls $0.06
+*** TURN *** [7s 8c 5s] [Ac]
+Talerz: checks
+L0b0M: checks
+vlatka69: bets $0.08
+Talerz: folds
+L0b0M: folds
+Uncalled bet ($0.08) returned to vlatka69
+vlatka69 collected $0.23 from pot
+vlatka69: doesn't show hand
+*** SUMMARY ***
+Total pot $0.24 | Rake $0.01
+Board [7s 8c 5s Ac]
+Seat 1: Talerz (small blind) folded on the Turn
+Seat 2: L0b0M (big blind) folded on the Turn
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: vlatka69 collected ($0.23)
+Seat 6: clai74 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Danilo folded before Flop (didn't bet)
+Seat 9: LaiRaches71 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182836903:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:45:57 ET
+Table 'Caph' 9-max Seat #1 is the button
+Seat 1: Talerz ($1.83 in chips)
+Seat 2: L0b0M ($1.76 in chips)
+Seat 3: sanuk1no ($1.13 in chips)
+Seat 4: Castesso ($2 in chips)
+Seat 5: vlatka69 ($2.48 in chips)
+Seat 6: clai74 ($1.66 in chips)
+Seat 7: pokerHero1 ($3.70 in chips)
+Seat 8: Danilo ($4.51 in chips)
+Seat 9: LaiRaches71 ($2.59 in chips)
+L0b0M: posts small blind $0.01
+sanuk1no: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d Ts]
+Castesso: folds
+vlatka69: calls $0.02
+clai74: raises $0.07 to $0.09
+pokerHero1: folds
+Danilo: folds
+LaiRaches71: folds
+Talerz: folds
+L0b0M: calls $0.08
+sanuk1no: folds
+vlatka69: calls $0.07
+*** FLOP *** [Js 5d 4h]
+L0b0M: checks
+vlatka69: checks
+clai74: bets $0.28
+L0b0M: folds
+vlatka69: calls $0.28
+*** TURN *** [Js 5d 4h] [8h]
+vlatka69: checks
+clai74: bets $1.29 and is all-in
+vlatka69: calls $1.29
+*** RIVER *** [Js 5d 4h 8h] [3s]
+*** SHOW DOWN ***
+vlatka69: shows [Ac 4c] (a pair of Fours)
+clai74: shows [5s 5c] (three of a kind, Fives)
+clai74 collected $3.31 from pot
+*** SUMMARY ***
+Total pot $3.43 | Rake $0.12
+Board [Js 5d 4h 8h 3s]
+Seat 1: Talerz (button) folded before Flop (didn't bet)
+Seat 2: L0b0M (small blind) folded on the Flop
+Seat 3: sanuk1no (big blind) folded before Flop
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: vlatka69 showed [Ac 4c] and lost with a pair of Fours
+Seat 6: clai74 showed [5s 5c] and won ($3.31) with three of a kind, Fives
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Danilo folded before Flop (didn't bet)
+Seat 9: LaiRaches71 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182887524:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:46:38 ET
+Table 'Caph' 9-max Seat #2 is the button
+Seat 1: Talerz ($1.83 in chips)
+Seat 2: L0b0M ($1.67 in chips)
+Seat 3: sanuk1no ($1.11 in chips)
+Seat 4: Castesso ($2 in chips)
+Seat 5: vlatka69 ($0.82 in chips)
+Seat 6: clai74 ($3.31 in chips)
+Seat 7: pokerHero1 ($3.70 in chips)
+Seat 8: Danilo ($4.51 in chips)
+Seat 9: LaiRaches71 ($2.59 in chips)
+sanuk1no: posts small blind $0.01
+Castesso: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [8d 6c]
+vlatka69: folds
+clai74: folds
+pokerHero1: folds
+Danilo: raises $0.05 to $0.07
+LaiRaches71: folds
+Talerz: folds
+L0b0M: calls $0.07
+sanuk1no: folds
+Castesso: raises $0.26 to $0.33
+Danilo: folds
+L0b0M: folds
+Uncalled bet ($0.26) returned to Castesso
+Castesso collected $0.22 from pot
+*** SUMMARY ***
+Total pot $0.22 | Rake $0
+Seat 1: Talerz folded before Flop (didn't bet)
+Seat 2: L0b0M (button) folded before Flop
+Seat 3: sanuk1no (small blind) folded before Flop
+Seat 4: Castesso (big blind) collected ($0.22)
+Seat 5: vlatka69 folded before Flop (didn't bet)
+Seat 6: clai74 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Danilo folded before Flop
+Seat 9: LaiRaches71 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212182957152:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:47:34 ET
+Table 'Caph' 9-max Seat #3 is the button
+Seat 1: Talerz ($1.83 in chips)
+Seat 2: L0b0M ($1.60 in chips)
+Seat 3: sanuk1no ($1.10 in chips)
+Seat 4: Castesso ($2.15 in chips)
+Seat 5: vlatka69 ($2 in chips)
+Seat 6: clai74 ($3.31 in chips)
+Seat 7: pokerHero1 ($3.70 in chips)
+Seat 8: Danilo ($4.44 in chips)
+Seat 9: LaiRaches71 ($2.59 in chips)
+Castesso: posts small blind $0.01
+vlatka69: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc 3h]
+clai74: folds
+pokerHero1: folds
+Danilo: folds
+LaiRaches71: folds
+Talerz: folds
+L0b0M: raises $0.04 to $0.06
+sanuk1no: folds
+Castesso: calls $0.05
+vlatka69: calls $0.04
+*** FLOP *** [Jd As 8h]
+Castesso: checks
+vlatka69: bets $0.17
+L0b0M: folds
+Castesso: calls $0.17
+*** TURN *** [Jd As 8h] [Ah]
+Castesso: checks
+vlatka69: checks
+*** RIVER *** [Jd As 8h Ah] [5c]
+Castesso: bets $0.25
+vlatka69: raises $0.33 to $0.58
+Castesso: raises $1.34 to $1.92 and is all-in
+vlatka69: calls $1.19 and is all-in
+Uncalled bet ($0.15) returned to Castesso
+*** SHOW DOWN ***
+Castesso: shows [Js Jh] (a full house, Jacks full of Aces)
+vlatka69: shows [Ks Ad] (three of a kind, Aces)
+Castesso collected $3.92 from pot
+*** SUMMARY ***
+Total pot $4.06 | Rake $0.14
+Board [Jd As 8h Ah 5c]
+Seat 1: Talerz folded before Flop (didn't bet)
+Seat 2: L0b0M folded on the Flop
+Seat 3: sanuk1no (button) folded before Flop (didn't bet)
+Seat 4: Castesso (small blind) showed [Js Jh] and won ($3.92) with a full house, Jacks full of Aces
+Seat 5: vlatka69 (big blind) showed [Ks Ad] and lost with three of a kind, Aces
+Seat 6: clai74 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Danilo folded before Flop (didn't bet)
+Seat 9: LaiRaches71 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183043118:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:48:44 ET
+Table 'Caph' 9-max Seat #4 is the button
+Seat 1: Talerz ($2 in chips)
+Seat 2: L0b0M ($1.54 in chips)
+Seat 3: sanuk1no ($1.10 in chips)
+Seat 4: Castesso ($4.07 in chips)
+Seat 6: clai74 ($3.31 in chips)
+Seat 7: pokerHero1 ($3.70 in chips)
+Seat 8: Danilo ($4.44 in chips)
+Seat 9: LaiRaches71 ($2.59 in chips)
+clai74: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qh Td]
+Danilo: folds
+LaiRaches71: folds
+Talerz: folds
+L0b0M: calls $0.02
+vlatka69 leaves the table
+sanuk1no: raises $0.04 to $0.06
+Castesso: folds
+clai74: calls $0.05
+pokerHero1: folds
+L0b0M: calls $0.04
+*** FLOP *** [9c As Qd]
+clai74: checks
+L0b0M: checks
+sanuk1no: bets $0.10
+Djangolinoo joins the table at seat #5
+clai74: folds
+L0b0M: folds
+Uncalled bet ($0.10) returned to sanuk1no
+sanuk1no collected $0.19 from pot
+sanuk1no: doesn't show hand
+*** SUMMARY ***
+Total pot $0.20 | Rake $0.01
+Board [9c As Qd]
+Seat 1: Talerz folded before Flop (didn't bet)
+Seat 2: L0b0M folded on the Flop
+Seat 3: sanuk1no collected ($0.19)
+Seat 4: Castesso (button) folded before Flop (didn't bet)
+Seat 6: clai74 (small blind) folded on the Flop
+Seat 7: pokerHero1 (big blind) folded before Flop
+Seat 8: Danilo folded before Flop (didn't bet)
+Seat 9: LaiRaches71 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183087913:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:49:21 ET
+Table 'Caph' 9-max Seat #6 is the button
+Seat 1: Talerz ($2 in chips)
+Seat 2: L0b0M ($1.48 in chips)
+Seat 3: sanuk1no ($1.23 in chips)
+Seat 4: Castesso ($4.07 in chips)
+Seat 6: clai74 ($3.25 in chips)
+Seat 7: pokerHero1 ($3.68 in chips)
+Seat 8: Danilo ($4.44 in chips)
+Seat 9: LaiRaches71 ($2.59 in chips)
+pokerHero1: posts small blind $0.01
+Danilo: posts big blind $0.02
+Djangolinoo: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9d As]
+LaiRaches71: folds
+Talerz: folds
+L0b0M: folds
+sanuk1no: folds
+Castesso: folds
+clai74: calls $0.02
+pokerHero1: raises $0.06 to $0.08
+Danilo: folds
+clai74: calls $0.06
+*** FLOP *** [Ts 6d Js]
+pokerHero1: checks
+clai74: checks
+*** TURN *** [Ts 6d Js] [Ah]
+pokerHero1: bets $0.08
+clai74: folds
+Uncalled bet ($0.08) returned to pokerHero1
+pokerHero1 collected $0.17 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [Ts 6d Js Ah]
+Seat 1: Talerz folded before Flop (didn't bet)
+Seat 2: L0b0M folded before Flop (didn't bet)
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 6: clai74 (button) folded on the Turn
+Seat 7: pokerHero1 (small blind) collected ($0.17)
+Seat 8: Danilo (big blind) folded before Flop
+Seat 9: LaiRaches71 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183132344:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:49:57 ET
+Table 'Caph' 9-max Seat #7 is the button
+Seat 1: Talerz ($2 in chips)
+Seat 2: L0b0M ($1.48 in chips)
+Seat 3: sanuk1no ($1.23 in chips)
+Seat 4: Castesso ($4.07 in chips)
+Seat 6: clai74 ($3.17 in chips)
+Seat 7: pokerHero1 ($3.77 in chips)
+Seat 8: Danilo ($4.42 in chips)
+Seat 9: LaiRaches71 ($2.59 in chips)
+Danilo: posts small blind $0.01
+LaiRaches71: posts big blind $0.02
+Djangolinoo: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ah 6h]
+Talerz: folds
+L0b0M: calls $0.02
+sanuk1no: folds
+Castesso: folds
+clai74: folds
+pokerHero1: raises $0.06 to $0.08
+Danilo: folds
+LaiRaches71: folds
+L0b0M: calls $0.06
+*** FLOP *** [4d 5h 3s]
+L0b0M: checks
+pokerHero1: bets $0.14
+L0b0M: calls $0.14
+*** TURN *** [4d 5h 3s] [2h]
+L0b0M: checks
+pokerHero1: bets $0.20
+L0b0M: folds
+Uncalled bet ($0.20) returned to pokerHero1
+pokerHero1 collected $0.45 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.47 | Rake $0.02
+Board [4d 5h 3s 2h]
+Seat 1: Talerz folded before Flop (didn't bet)
+Seat 2: L0b0M folded on the Turn
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 6: clai74 folded before Flop (didn't bet)
+Seat 7: pokerHero1 (button) collected ($0.45)
+Seat 8: Danilo (small blind) folded before Flop
+Seat 9: LaiRaches71 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212183199560:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:50:51 ET
+Table 'Caph' 9-max Seat #8 is the button
+Seat 1: Talerz ($2 in chips)
+Seat 2: L0b0M ($1.26 in chips)
+Seat 3: sanuk1no ($1.23 in chips)
+Seat 4: Castesso ($4.07 in chips)
+Seat 6: clai74 ($3.17 in chips)
+Seat 7: pokerHero1 ($4 in chips)
+Seat 8: Danilo ($4.41 in chips)
+Seat 9: LaiRaches71 ($2.57 in chips)
+LaiRaches71: posts small blind $0.01
+Talerz: posts big blind $0.02
+Djangolinoo: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jh 4d]
+L0b0M: raises $0.04 to $0.06
+sanuk1no: folds
+Castesso: folds
+clai74: calls $0.06
+pokerHero1: folds
+Danilo: folds
+LaiRaches71: calls $0.05
+Talerz: folds
+*** FLOP *** [4h Td Ac]
+LaiRaches71: checks
+L0b0M: bets $0.10
+clai74: calls $0.10
+LaiRaches71: folds
+*** TURN *** [4h Td Ac] [4c]
+L0b0M: bets $0.22
+clai74: calls $0.22
+*** RIVER *** [4h Td Ac 4c] [9d]
+L0b0M: bets $0.88 and is all-in
+clai74: folds
+Uncalled bet ($0.88) returned to L0b0M
+L0b0M collected $0.81 from pot
+L0b0M: doesn't show hand
+*** SUMMARY ***
+Total pot $0.84 | Rake $0.03
+Board [4h Td Ac 4c 9d]
+Seat 1: Talerz (big blind) folded before Flop
+Seat 2: L0b0M collected ($0.81)
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 6: clai74 folded on the River
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Danilo (button) folded before Flop (didn't bet)
+Seat 9: LaiRaches71 (small blind) folded on the Flop
+
+
+
+PokerStars Hand #212183269376:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:51:42 ET
+Table 'Caph' 9-max Seat #9 is the button
+Seat 1: Talerz ($1.98 in chips)
+Seat 2: L0b0M ($1.69 in chips)
+Seat 3: sanuk1no ($1.23 in chips)
+Seat 4: Castesso ($4.07 in chips)
+Seat 6: clai74 ($2.79 in chips)
+Seat 7: pokerHero1 ($4 in chips)
+Seat 8: Danilo ($4.41 in chips)
+Seat 9: LaiRaches71 ($2.51 in chips)
+Talerz: posts small blind $0.01
+L0b0M: posts big blind $0.02
+Djangolinoo: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [As Js]
+sanuk1no: folds
+Castesso: folds
+clai74: folds
+pokerHero1: raises $0.06 to $0.08
+Danilo: calls $0.08
+LaiRaches71: folds
+Talerz: folds
+L0b0M: folds
+*** FLOP *** [Qc Kd 7s]
+pokerHero1: checks
+Danilo: checks
+*** TURN *** [Qc Kd 7s] [Qd]
+pokerHero1: bets $0.10
+Danilo: folds
+Uncalled bet ($0.10) returned to pokerHero1
+pokerHero1 collected $0.18 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.19 | Rake $0.01
+Board [Qc Kd 7s Qd]
+Seat 1: Talerz (small blind) folded before Flop
+Seat 2: L0b0M (big blind) folded before Flop
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 6: clai74 folded before Flop (didn't bet)
+Seat 7: pokerHero1 collected ($0.18)
+Seat 8: Danilo folded on the Turn
+Seat 9: LaiRaches71 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183326041:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:52:28 ET
+Table 'Caph' 9-max Seat #1 is the button
+Seat 1: Talerz ($1.97 in chips)
+Seat 2: L0b0M ($1.67 in chips)
+Seat 3: sanuk1no ($1.23 in chips)
+Seat 4: Castesso ($4.07 in chips)
+Seat 6: clai74 ($2.79 in chips)
+Seat 7: pokerHero1 ($4.10 in chips)
+Seat 8: Danilo ($4.33 in chips)
+Seat 9: LaiRaches71 ($2.51 in chips)
+L0b0M: posts small blind $0.01
+sanuk1no: posts big blind $0.02
+Djangolinoo: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jh 4c]
+Castesso: folds
+clai74: folds
+pokerHero1: folds
+Danilo: raises $0.05 to $0.07
+LaiRaches71: folds
+Talerz: folds
+L0b0M: calls $0.06
+sanuk1no: folds
+*** FLOP *** [Ts Qd 7d]
+L0b0M: checks
+Danilo: bets $0.10
+L0b0M: calls $0.10
+*** TURN *** [Ts Qd 7d] [4s]
+L0b0M: checks
+Danilo: checks
+*** RIVER *** [Ts Qd 7d 4s] [5h]
+L0b0M: bets $0.35
+Danilo: folds
+Uncalled bet ($0.35) returned to L0b0M
+L0b0M collected $0.35 from pot
+L0b0M: doesn't show hand
+*** SUMMARY ***
+Total pot $0.36 | Rake $0.01
+Board [Ts Qd 7d 4s 5h]
+Seat 1: Talerz (button) folded before Flop (didn't bet)
+Seat 2: L0b0M (small blind) collected ($0.35)
+Seat 3: sanuk1no (big blind) folded before Flop
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 6: clai74 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Danilo folded on the River
+Seat 9: LaiRaches71 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183384150:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:53:15 ET
+Table 'Caph' 9-max Seat #2 is the button
+Seat 1: Talerz ($1.97 in chips)
+Seat 2: L0b0M ($1.85 in chips)
+Seat 3: sanuk1no ($1.21 in chips)
+Seat 4: Castesso ($4.07 in chips)
+Seat 6: clai74 ($2.79 in chips)
+Seat 7: pokerHero1 ($4.10 in chips)
+Seat 8: Danilo ($4.16 in chips)
+Seat 9: LaiRaches71 ($2.51 in chips)
+sanuk1no: posts small blind $0.01
+Castesso: posts big blind $0.02
+Djangolinoo: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5d 8s]
+clai74: folds
+pokerHero1: folds
+Danilo: folds
+LaiRaches71: folds
+Talerz: folds
+L0b0M: calls $0.02
+sanuk1no: folds
+Castesso: checks
+*** FLOP *** [9h Qs Kc]
+Castesso: checks
+L0b0M: checks
+*** TURN *** [9h Qs Kc] [4d]
+Castesso: checks
+L0b0M: bets $0.04
+Castesso: folds
+Uncalled bet ($0.04) returned to L0b0M
+L0b0M collected $0.05 from pot
+L0b0M: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Board [9h Qs Kc 4d]
+Seat 1: Talerz folded before Flop (didn't bet)
+Seat 2: L0b0M (button) collected ($0.05)
+Seat 3: sanuk1no (small blind) folded before Flop
+Seat 4: Castesso (big blind) folded on the Turn
+Seat 6: clai74 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Danilo folded before Flop (didn't bet)
+Seat 9: LaiRaches71 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183427037:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:53:50 ET
+Table 'Caph' 9-max Seat #3 is the button
+Seat 1: Talerz ($1.97 in chips)
+Seat 2: L0b0M ($1.88 in chips)
+Seat 3: sanuk1no ($1.20 in chips)
+Seat 4: Castesso ($4.05 in chips)
+Seat 5: Djangolinoo ($2 in chips)
+Seat 6: clai74 ($2.79 in chips)
+Seat 7: pokerHero1 ($4.10 in chips)
+Seat 8: Danilo ($4.16 in chips)
+Seat 9: LaiRaches71 ($2.51 in chips)
+Castesso: posts small blind $0.01
+Djangolinoo: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2d Ad]
+clai74: folds
+pokerHero1: folds
+Danilo: folds
+LaiRaches71: raises $0.02 to $0.04
+Talerz: folds
+L0b0M: folds
+sanuk1no: raises $0.04 to $0.08
+Castesso: folds
+Djangolinoo: calls $0.06
+LaiRaches71: calls $0.04
+*** FLOP *** [2s Qh Jc]
+Djangolinoo: bets $0.02
+LaiRaches71: folds
+sanuk1no: raises $1.10 to $1.12 and is all-in
+Djangolinoo: calls $1.10
+*** TURN *** [2s Qh Jc] [Td]
+*** RIVER *** [2s Qh Jc Td] [3s]
+*** SHOW DOWN ***
+Djangolinoo: shows [Ks Kc] (a pair of Kings)
+sanuk1no: shows [Qs Qc] (three of a kind, Queens)
+sanuk1no cashed out the hand for $2.09 | Cash Out Fee $0.02
+*** SUMMARY ***
+Total pot $2.49 | Rake $0.09
+Board [2s Qh Jc Td 3s]
+Seat 1: Talerz folded before Flop (didn't bet)
+Seat 2: L0b0M folded before Flop (didn't bet)
+Seat 3: sanuk1no (button) showed [Qs Qc] and won ($2.40) with three of a kind, Queens (pot not awarded as player cashed out)
+Seat 4: Castesso (small blind) folded before Flop
+Seat 5: Djangolinoo (big blind) showed [Ks Kc] and lost with a pair of Kings
+Seat 6: clai74 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Danilo folded before Flop (didn't bet)
+Seat 9: LaiRaches71 folded on the Flop
+
+
+
+PokerStars Hand #212183507209:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:54:55 ET
+Table 'Caph' 9-max Seat #4 is the button
+Seat 1: Talerz ($1.97 in chips)
+Seat 2: L0b0M ($1.88 in chips)
+Seat 3: sanuk1no ($2.09 in chips)
+Seat 4: Castesso ($4.04 in chips)
+Seat 5: Djangolinoo ($0.80 in chips)
+Seat 6: clai74 ($2.79 in chips)
+Seat 7: pokerHero1 ($4.10 in chips)
+Seat 8: Danilo ($4.16 in chips)
+Seat 9: LaiRaches71 ($2.43 in chips)
+Djangolinoo: posts small blind $0.01
+clai74: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h 5d]
+pokerHero1: folds
+Danilo: folds
+LaiRaches71: calls $0.02
+Talerz: folds
+L0b0M: folds
+sanuk1no: calls $0.02
+Castesso: folds
+Djangolinoo: calls $0.01
+clai74: checks
+*** FLOP *** [5h 3s 9c]
+Djangolinoo: checks
+clai74: checks
+LaiRaches71: checks
+sanuk1no: checks
+*** TURN *** [5h 3s 9c] [9h]
+Djangolinoo: checks
+clai74: checks
+LaiRaches71: checks
+sanuk1no: checks
+*** RIVER *** [5h 3s 9c 9h] [9d]
+Djangolinoo: checks
+clai74: checks
+LaiRaches71: checks
+sanuk1no: checks
+*** SHOW DOWN ***
+Djangolinoo: shows [5s Kc] (a full house, Nines full of Fives)
+clai74: mucks hand
+LaiRaches71: mucks hand
+sanuk1no: mucks hand
+Djangolinoo collected $0.08 from pot
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Board [5h 3s 9c 9h 9d]
+Seat 1: Talerz folded before Flop (didn't bet)
+Seat 2: L0b0M folded before Flop (didn't bet)
+Seat 3: sanuk1no mucked [Jd As]
+Seat 4: Castesso (button) folded before Flop (didn't bet)
+Seat 5: Djangolinoo (small blind) showed [5s Kc] and won ($0.08) with a full house, Nines full of Fives
+Seat 6: clai74 (big blind) mucked [6c Ad]
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Danilo folded before Flop (didn't bet)
+Seat 9: LaiRaches71 mucked [Ah 7h]
+
+
+
+PokerStars Hand #212183566284:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:55:56 ET
+Table 'Caph' 9-max Seat #5 is the button
+Seat 1: Talerz ($1.97 in chips)
+Seat 2: L0b0M ($1.88 in chips)
+Seat 3: sanuk1no ($2.07 in chips)
+Seat 4: Castesso ($4.04 in chips)
+Seat 5: Djangolinoo ($0.86 in chips)
+Seat 6: clai74 ($2.77 in chips)
+Seat 7: pokerHero1 ($4.10 in chips)
+Seat 8: Danilo ($4.16 in chips)
+Seat 9: LaiRaches71 ($2.41 in chips)
+clai74: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc Tc]
+Danilo: folds
+LaiRaches71: raises $0.03 to $0.05
+Talerz: folds
+L0b0M: folds
+sanuk1no: folds
+Castesso: calls $0.05
+Djangolinoo: folds
+clai74: calls $0.04
+pokerHero1: calls $0.03
+*** FLOP *** [9s 2c 3c]
+clai74: checks
+pokerHero1: bets $0.10
+LaiRaches71: folds
+Castesso: folds
+clai74: folds
+Uncalled bet ($0.10) returned to pokerHero1
+pokerHero1 collected $0.19 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.20 | Rake $0.01
+Board [9s 2c 3c]
+Seat 1: Talerz folded before Flop (didn't bet)
+Seat 2: L0b0M folded before Flop (didn't bet)
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso folded on the Flop
+Seat 5: Djangolinoo (button) folded before Flop (didn't bet)
+Seat 6: clai74 (small blind) folded on the Flop
+Seat 7: pokerHero1 (big blind) collected ($0.19)
+Seat 8: Danilo folded before Flop (didn't bet)
+Seat 9: LaiRaches71 folded on the Flop
+
+
+
+PokerStars Hand #212183600148:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:56:36 ET
+Table 'Caph' 9-max Seat #6 is the button
+Seat 1: Talerz ($1.97 in chips)
+Seat 2: L0b0M ($1.88 in chips)
+Seat 3: sanuk1no ($2.07 in chips)
+Seat 4: Castesso ($3.99 in chips)
+Seat 5: Djangolinoo ($0.86 in chips)
+Seat 6: clai74 ($2.72 in chips)
+Seat 7: pokerHero1 ($4.24 in chips)
+Seat 8: Danilo ($4.16 in chips)
+Seat 9: LaiRaches71 ($2.36 in chips)
+pokerHero1: posts small blind $0.01
+Danilo: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ah 8h]
+LaiRaches71 has timed out
+LaiRaches71: folds
+Talerz: calls $0.02
+L0b0M: calls $0.02
+sanuk1no: folds
+Castesso: folds
+Djangolinoo: calls $0.02
+clai74: raises $0.11 to $0.13
+pokerHero1: folds
+Danilo: folds
+Talerz: folds
+L0b0M: folds
+Djangolinoo: folds
+Uncalled bet ($0.11) returned to clai74
+clai74 collected $0.11 from pot
+clai74: doesn't show hand
+*** SUMMARY ***
+Total pot $0.11 | Rake $0
+Seat 1: Talerz folded before Flop
+Seat 2: L0b0M folded before Flop
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: Djangolinoo folded before Flop
+Seat 6: clai74 (button) collected ($0.11)
+Seat 7: pokerHero1 (small blind) folded before Flop
+Seat 8: Danilo (big blind) folded before Flop
+Seat 9: LaiRaches71 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183641989:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:57:25 ET
+Table 'Caph' 9-max Seat #7 is the button
+Seat 2: L0b0M ($1.86 in chips)
+Seat 4: Castesso ($3.99 in chips)
+Seat 5: Djangolinoo ($0.84 in chips)
+Seat 6: clai74 ($2.81 in chips)
+Seat 7: pokerHero1 ($4.23 in chips)
+Seat 8: Danilo ($4.14 in chips)
+Danilo: posts small blind $0.01
+Talerz: is sitting out
+L0b0M: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4h 9s]
+Castesso: folds
+Talerz leaves the table
+Djangolinoo: calls $0.02
+clai74: calls $0.02
+pokerHero1: folds
+Danilo: calls $0.01
+L0b0M: checks
+*** FLOP *** [7c 3d Th]
+Danilo: checks
+L0b0M: bets $0.04
+Djangolinoo: folds
+clai74: raises $0.16 to $0.20
+Danilo: folds
+L0b0M: folds
+Uncalled bet ($0.16) returned to clai74
+clai74 collected $0.15 from pot
+clai74: doesn't show hand
+*** SUMMARY ***
+Total pot $0.16 | Rake $0.01
+Board [7c 3d Th]
+Seat 2: L0b0M (big blind) folded on the Flop
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: Djangolinoo folded on the Flop
+Seat 6: clai74 collected ($0.15)
+Seat 7: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 8: Danilo (small blind) folded on the Flop
+
+
+
+PokerStars Hand #212183698546:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:58:30 ET
+Table 'Caph' 9-max Seat #8 is the button
+Seat 2: L0b0M ($1.80 in chips)
+Seat 4: Castesso ($3.99 in chips)
+Seat 5: Djangolinoo ($0.82 in chips)
+Seat 6: clai74 ($2.90 in chips)
+Seat 7: pokerHero1 ($4.23 in chips)
+Seat 8: Danilo ($4.12 in chips)
+L0b0M: posts small blind $0.01
+Castesso: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd 8s]
+Djangolinoo: calls $0.02
+clai74: raises $0.12 to $0.14
+pokerHero1: folds
+Danilo: folds
+L0b0M: folds
+Castesso: folds
+Djangolinoo: calls $0.12
+*** FLOP *** [Ts 7d 8d]
+Djangolinoo: checks
+clai74: bets $0.15
+Djangolinoo: calls $0.15
+*** TURN *** [Ts 7d 8d] [8h]
+Djangolinoo: checks
+clai74: bets $2.61 and is all-in
+Djangolinoo: calls $0.53 and is all-in
+Uncalled bet ($2.08) returned to clai74
+*** RIVER *** [Ts 7d 8d 8h] [Qc]
+*** SHOW DOWN ***
+Djangolinoo: shows [4d Ad] (a pair of Eights)
+clai74: shows [Ac As] (two pair, Aces and Eights)
+clai74 collected $1.61 from pot
+*** SUMMARY ***
+Total pot $1.67 | Rake $0.06
+Board [Ts 7d 8d 8h Qc]
+Seat 2: L0b0M (small blind) folded before Flop
+Seat 4: Castesso (big blind) folded before Flop
+Seat 5: Djangolinoo showed [4d Ad] and lost with a pair of Eights
+Seat 6: clai74 showed [Ac As] and won ($1.61) with two pair, Aces and Eights
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Danilo (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183751728:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:59:31 ET
+Table 'Caph' 9-max Seat #2 is the button
+Seat 2: L0b0M ($1.79 in chips)
+Seat 4: Castesso ($3.97 in chips)
+Seat 6: clai74 ($3.69 in chips)
+Seat 7: pokerHero1 ($4.23 in chips)
+Seat 8: Danilo ($4.12 in chips)
+Castesso: posts small blind $0.01
+clai74: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd 5h]
+pokerHero1: folds
+Danilo: folds
+L0b0M: folds
+Castesso: folds
+Uncalled bet ($0.01) returned to clai74
+clai74 collected $0.02 from pot
+clai74: doesn't show hand
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 2: L0b0M (button) folded before Flop (didn't bet)
+Seat 4: Castesso (small blind) folded before Flop
+Seat 6: clai74 (big blind) collected ($0.02)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Danilo folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183759580:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 14:59:40 ET
+Table 'Caph' 9-max Seat #4 is the button
+Seat 2: L0b0M ($1.79 in chips)
+Seat 4: Castesso ($3.96 in chips)
+Seat 6: clai74 ($3.70 in chips)
+Seat 7: pokerHero1 ($4.23 in chips)
+Seat 8: Danilo ($4.12 in chips)
+clai74: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7d Ks]
+Danilo: folds
+L0b0M: raises $0.04 to $0.06
+Castesso: calls $0.06
+clai74: calls $0.05
+pokerHero1: folds
+*** FLOP *** [5c Qc 2s]
+clai74: checks
+L0b0M: bets $0.10
+Castesso: calls $0.10
+clai74: folds
+*** TURN *** [5c Qc 2s] [3c]
+L0b0M: checks
+Castesso: bets $0.16
+L0b0M: calls $0.16
+*** RIVER *** [5c Qc 2s 3c] [Qs]
+chuckspoon96 joins the table at seat #1
+L0b0M: checks
+Castesso: bets $0.31
+Danilo is disconnected
+L0b0M: folds
+Uncalled bet ($0.31) returned to Castesso
+Castesso collected $0.69 from pot
+*** SUMMARY ***
+Total pot $0.72 | Rake $0.03
+Board [5c Qc 2s 3c Qs]
+Seat 2: L0b0M folded on the River
+Seat 4: Castesso (button) collected ($0.69)
+Seat 6: clai74 (small blind) folded on the Flop
+Seat 7: pokerHero1 (big blind) folded before Flop
+Seat 8: Danilo folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183830644:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:00:50 ET
+Table 'Caph' 9-max Seat #6 is the button
+Seat 1: chuckspoon96 ($1.60 in chips)
+Seat 2: L0b0M ($1.47 in chips)
+Seat 4: Castesso ($4.33 in chips)
+Seat 5: Djangolinoo ($2 in chips)
+Seat 6: clai74 ($3.64 in chips)
+Seat 7: pokerHero1 ($4.21 in chips)
+pokerHero1: posts small blind $0.01
+chuckspoon96: posts big blind $0.02
+sanuk1no: sits out
+Djangolinoo: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4h 5h]
+L0b0M: folds
+Castesso: folds
+Djangolinoo: checks
+clai74: calls $0.02
+pokerHero1: calls $0.01
+chuckspoon96: checks
+*** FLOP *** [8d Js 8c]
+pokerHero1: checks
+chuckspoon96: checks
+Djangolinoo: checks
+clai74: checks
+*** TURN *** [8d Js 8c] [4d]
+pokerHero1: checks
+chuckspoon96: checks
+Djangolinoo: bets $0.08
+clai74: folds
+pokerHero1: folds
+chuckspoon96: folds
+Uncalled bet ($0.08) returned to Djangolinoo
+Djangolinoo collected $0.09 from pot
+Djangolinoo: doesn't show hand
+*** SUMMARY ***
+Total pot $0.09 | Rake $0
+Board [8d Js 8c 4d]
+Seat 1: chuckspoon96 (big blind) folded on the Turn
+Seat 2: L0b0M folded before Flop (didn't bet)
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: Djangolinoo collected ($0.09)
+Seat 6: clai74 (button) folded on the Turn
+Seat 7: pokerHero1 (small blind) folded on the Turn
+
+
+
+PokerStars Hand #212183900671:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:01:56 ET
+Table 'Caph' 9-max Seat #7 is the button
+Seat 1: chuckspoon96 ($1.58 in chips)
+Seat 2: L0b0M ($1.47 in chips)
+Seat 4: Castesso ($4.33 in chips)
+Seat 5: Djangolinoo ($2.06 in chips)
+Seat 6: clai74 ($3.62 in chips)
+Seat 7: pokerHero1 ($4.19 in chips)
+chuckspoon96: posts small blind $0.01
+L0b0M: posts big blind $0.02
+sanuk1no: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s Js]
+Castesso: folds
+Djangolinoo: folds
+clai74: folds
+pokerHero1: folds
+chuckspoon96: calls $0.01
+L0b0M: raises $0.04 to $0.06
+chuckspoon96: folds
+Uncalled bet ($0.04) returned to L0b0M
+L0b0M collected $0.04 from pot
+L0b0M: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Seat 1: chuckspoon96 (small blind) folded before Flop
+Seat 2: L0b0M (big blind) collected ($0.04)
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: Djangolinoo folded before Flop (didn't bet)
+Seat 6: clai74 folded before Flop (didn't bet)
+Seat 7: pokerHero1 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183931076:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:02:21 ET
+Table 'Caph' 9-max Seat #1 is the button
+Seat 1: chuckspoon96 ($1.56 in chips)
+Seat 2: L0b0M ($1.49 in chips)
+Seat 3: sanuk1no ($2.07 in chips)
+Seat 4: Castesso ($4.33 in chips)
+Seat 5: Djangolinoo ($2.06 in chips)
+Seat 6: clai74 ($3.62 in chips)
+Seat 7: pokerHero1 ($4.19 in chips)
+Seat 9: LaiRaches71 ($2.36 in chips)
+L0b0M: posts small blind $0.01
+sanuk1no: posts big blind $0.02
+LaiRaches71: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Ah 5s]
+Castesso: folds
+LaiRaches71 said, "Mpainei kai o Provo se ligo...."
+Djangolinoo: folds
+clai74: raises $0.14 to $0.16
+pokerHero1: folds
+LaiRaches71: folds
+chuckspoon96: folds
+L0b0M: folds
+sanuk1no: folds
+Uncalled bet ($0.14) returned to clai74
+clai74 collected $0.08 from pot
+clai74: doesn't show hand
+*** SUMMARY ***
+Total pot $0.08 | Rake $0
+Seat 1: chuckspoon96 (button) folded before Flop (didn't bet)
+Seat 2: L0b0M (small blind) folded before Flop
+Seat 3: sanuk1no (big blind) folded before Flop
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: Djangolinoo folded before Flop (didn't bet)
+Seat 6: clai74 collected ($0.08)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 9: LaiRaches71 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212183969743:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:02:49 ET
+Table 'Caph' 9-max Seat #2 is the button
+Seat 1: chuckspoon96 ($1.56 in chips)
+Seat 2: L0b0M ($1.48 in chips)
+Seat 3: sanuk1no ($2.05 in chips)
+Seat 4: Castesso ($4.33 in chips)
+Seat 5: Djangolinoo ($2.06 in chips)
+Seat 6: clai74 ($3.68 in chips)
+Seat 7: pokerHero1 ($4.19 in chips)
+Seat 9: LaiRaches71 ($2.33 in chips)
+sanuk1no: posts small blind $0.01
+Castesso: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Tc Ad]
+Djangolinoo: calls $0.02
+clai74: calls $0.02
+pokerHero1: folds
+LaiRaches71: folds
+chuckspoon96: folds
+L0b0M: calls $0.02
+sanuk1no: folds
+Castesso: checks
+*** FLOP *** [7s Th Jc]
+Castesso: checks
+Djangolinoo: checks
+clai74: bets $0.22
+L0b0M: folds
+Castesso: folds
+Djangolinoo: calls $0.22
+*** TURN *** [7s Th Jc] [Qh]
+Djangolinoo: checks
+clai74: bets $0.26
+Djangolinoo: raises $1.56 to $1.82 and is all-in
+clai74: folds
+Uncalled bet ($1.56) returned to Djangolinoo
+Djangolinoo collected $1.01 from pot
+Djangolinoo: doesn't show hand
+*** SUMMARY ***
+Total pot $1.05 | Rake $0.04
+Board [7s Th Jc Qh]
+Seat 1: chuckspoon96 folded before Flop (didn't bet)
+Seat 2: L0b0M (button) folded on the Flop
+Seat 3: sanuk1no (small blind) folded before Flop
+Seat 4: Castesso (big blind) folded on the Flop
+Seat 5: Djangolinoo collected ($1.01)
+Seat 6: clai74 folded on the Turn
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 9: LaiRaches71 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184058260:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:03:59 ET
+Table 'Caph' 9-max Seat #3 is the button
+Seat 1: chuckspoon96 ($1.56 in chips)
+Seat 2: L0b0M ($1.46 in chips)
+Seat 3: sanuk1no ($2.04 in chips)
+Seat 4: Castesso ($4.31 in chips)
+Seat 5: Djangolinoo ($2.57 in chips)
+Seat 6: clai74 ($3.18 in chips)
+Seat 7: pokerHero1 ($4.19 in chips)
+Seat 9: LaiRaches71 ($2.33 in chips)
+Castesso: posts small blind $0.01
+Djangolinoo: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [3d Tc]
+clai74: raises $0.04 to $0.06
+pokerHero1: folds
+LaiRaches71: calls $0.06
+chuckspoon96: calls $0.06
+L0b0M: folds
+sanuk1no: folds
+Castesso: folds
+Djangolinoo: folds
+*** FLOP *** [4h Qc Kd]
+clai74: checks
+LaiRaches71: checks
+chuckspoon96: bets $0.02
+clai74: folds
+LaiRaches71: folds
+Uncalled bet ($0.02) returned to chuckspoon96
+chuckspoon96 collected $0.20 from pot
+chuckspoon96: doesn't show hand
+*** SUMMARY ***
+Total pot $0.21 | Rake $0.01
+Board [4h Qc Kd]
+Seat 1: chuckspoon96 collected ($0.20)
+Seat 2: L0b0M folded before Flop (didn't bet)
+Seat 3: sanuk1no (button) folded before Flop (didn't bet)
+Seat 4: Castesso (small blind) folded before Flop
+Seat 5: Djangolinoo (big blind) folded before Flop
+Seat 6: clai74 folded on the Flop
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 9: LaiRaches71 folded on the Flop
+
+
+
+PokerStars Hand #212184122079:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:04:46 ET
+Table 'Caph' 9-max Seat #4 is the button
+Seat 1: chuckspoon96 ($1.70 in chips)
+Seat 2: L0b0M ($1.46 in chips)
+Seat 3: sanuk1no ($2.04 in chips)
+Seat 4: Castesso ($4.30 in chips)
+Seat 5: Djangolinoo ($2.55 in chips)
+Seat 6: clai74 ($3.12 in chips)
+Seat 7: pokerHero1 ($4.19 in chips)
+Seat 9: LaiRaches71 ($2.27 in chips)
+Djangolinoo: posts small blind $0.01
+clai74: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c 8h]
+pokerHero1: folds
+LaiRaches71: folds
+chuckspoon96: folds
+L0b0M: folds
+sanuk1no: folds
+Castesso: raises $0.03 to $0.05
+Djangolinoo: folds
+clai74: folds
+Uncalled bet ($0.03) returned to Castesso
+Castesso collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: chuckspoon96 folded before Flop (didn't bet)
+Seat 2: L0b0M folded before Flop (didn't bet)
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso (button) collected ($0.05)
+Seat 5: Djangolinoo (small blind) folded before Flop
+Seat 6: clai74 (big blind) folded before Flop
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 9: LaiRaches71 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184143819:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:05:02 ET
+Table 'Caph' 9-max Seat #5 is the button
+Seat 1: chuckspoon96 ($1.70 in chips)
+Seat 2: L0b0M ($1.46 in chips)
+Seat 3: sanuk1no ($2.04 in chips)
+Seat 4: Castesso ($4.33 in chips)
+Seat 5: Djangolinoo ($2.54 in chips)
+Seat 6: clai74 ($3.10 in chips)
+Seat 7: pokerHero1 ($4.19 in chips)
+Seat 9: LaiRaches71 ($2.27 in chips)
+clai74: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc Kd]
+LaiRaches71: folds
+chuckspoon96: folds
+L0b0M: folds
+sanuk1no: folds
+Castesso: folds
+Djangolinoo: folds
+clai74: calls $0.01
+pokerHero1: checks
+*** FLOP *** [5d Jc 7s]
+clai74: checks
+pokerHero1: bets $0.04
+clai74: folds
+Uncalled bet ($0.04) returned to pokerHero1
+pokerHero1 collected $0.04 from pot
+pokerHero1: doesn't show hand
+*** SUMMARY ***
+Total pot $0.04 | Rake $0
+Board [5d Jc 7s]
+Seat 1: chuckspoon96 folded before Flop (didn't bet)
+Seat 2: L0b0M folded before Flop (didn't bet)
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: Djangolinoo (button) folded before Flop (didn't bet)
+Seat 6: clai74 (small blind) folded on the Flop
+Seat 7: pokerHero1 (big blind) collected ($0.04)
+Seat 9: LaiRaches71 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184179062:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:05:29 ET
+Table 'Caph' 9-max Seat #6 is the button
+Seat 1: chuckspoon96 ($1.70 in chips)
+Seat 2: L0b0M ($1.46 in chips)
+Seat 3: sanuk1no ($2.04 in chips)
+Seat 4: Castesso ($4.33 in chips)
+Seat 5: Djangolinoo ($2.54 in chips)
+Seat 6: clai74 ($3.08 in chips)
+Seat 7: pokerHero1 ($4.21 in chips)
+Seat 9: LaiRaches71 ($2.27 in chips)
+pokerHero1: posts small blind $0.01
+LaiRaches71: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9h 7s]
+chuckspoon96: calls $0.02
+L0b0M: folds
+sanuk1no: folds
+Castesso: folds
+Djangolinoo: calls $0.02
+clai74: raises $0.09 to $0.11
+pokerHero1: folds
+LaiRaches71: folds
+chuckspoon96: folds
+Djangolinoo: calls $0.09
+*** FLOP *** [4s 5d 3d]
+Djangolinoo: checks
+clai74: checks
+*** TURN *** [4s 5d 3d] [9s]
+Djangolinoo: checks
+clai74: bets $0.26
+Djangolinoo: calls $0.26
+*** RIVER *** [4s 5d 3d 9s] [Jh]
+Djangolinoo: checks
+clai74: checks
+*** SHOW DOWN ***
+Djangolinoo: shows [Qc Kc] (high card King)
+clai74: shows [Ad 9c] (a pair of Nines)
+clai74 collected $0.76 from pot
+*** SUMMARY ***
+Total pot $0.79 | Rake $0.03
+Board [4s 5d 3d 9s Jh]
+Seat 1: chuckspoon96 folded before Flop
+Seat 2: L0b0M folded before Flop (didn't bet)
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: Djangolinoo showed [Qc Kc] and lost with high card King
+Seat 6: clai74 (button) showed [Ad 9c] and won ($0.76) with a pair of Nines
+Seat 7: pokerHero1 (small blind) folded before Flop
+Seat 9: LaiRaches71 (big blind) folded before Flop
+
+
+
+PokerStars Hand #212184244432:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:06:18 ET
+Table 'Caph' 9-max Seat #7 is the button
+Seat 1: chuckspoon96 ($1.68 in chips)
+Seat 2: L0b0M ($1.46 in chips)
+Seat 3: sanuk1no ($2.04 in chips)
+Seat 4: Castesso ($4.33 in chips)
+Seat 5: Djangolinoo ($2.17 in chips)
+Seat 6: clai74 ($3.47 in chips)
+Seat 7: pokerHero1 ($4.20 in chips)
+Seat 9: LaiRaches71 ($2.25 in chips)
+LaiRaches71: posts small blind $0.01
+chuckspoon96: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7h 9s]
+L0b0M: folds
+sanuk1no: folds
+Castesso: folds
+Djangolinoo: calls $0.02
+clai74: folds
+pokerHero1: folds
+LaiRaches71: calls $0.01
+chuckspoon96: checks
+*** FLOP *** [Ad Qc 8h]
+LaiRaches71: checks
+chuckspoon96: checks
+Djangolinoo: checks
+*** TURN *** [Ad Qc 8h] [2h]
+LaiRaches71: bets $0.06
+chuckspoon96: folds
+Djangolinoo: calls $0.06
+*** RIVER *** [Ad Qc 8h 2h] [5c]
+LaiRaches71: bets $0.17
+Djangolinoo: calls $0.17
+*** SHOW DOWN ***
+LaiRaches71: shows [2s As] (two pair, Aces and Deuces)
+Djangolinoo: mucks hand
+LaiRaches71 collected $0.50 from pot
+*** SUMMARY ***
+Total pot $0.52 | Rake $0.02
+Board [Ad Qc 8h 2h 5c]
+Seat 1: chuckspoon96 (big blind) folded on the Turn
+Seat 2: L0b0M folded before Flop (didn't bet)
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: Djangolinoo mucked [Ah 7c]
+Seat 6: clai74 folded before Flop (didn't bet)
+Seat 7: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 9: LaiRaches71 (small blind) showed [2s As] and won ($0.50) with two pair, Aces and Deuces
+
+
+
+PokerStars Hand #212184296188:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:06:57 ET
+Table 'Caph' 9-max Seat #9 is the button
+Seat 1: chuckspoon96 ($1.66 in chips)
+Seat 2: L0b0M ($1.46 in chips)
+Seat 3: sanuk1no ($2.04 in chips)
+Seat 4: Castesso ($4.33 in chips)
+Seat 5: Djangolinoo ($1.92 in chips)
+Seat 6: clai74 ($3.47 in chips)
+Seat 7: pokerHero1 ($4.20 in chips)
+Seat 9: LaiRaches71 ($2.50 in chips)
+chuckspoon96: posts small blind $0.01
+L0b0M: posts big blind $0.02
+Danilo: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [9c 5h]
+sanuk1no: folds
+Castesso: folds
+Djangolinoo: folds
+clai74: folds
+pokerHero1: folds
+LaiRaches71: raises $0.03 to $0.05
+chuckspoon96: calls $0.04
+L0b0M: calls $0.03
+*** FLOP *** [5d 2c Qd]
+chuckspoon96: checks
+L0b0M: checks
+LaiRaches71: bets $0.14
+chuckspoon96: calls $0.14
+L0b0M: folds
+*** TURN *** [5d 2c Qd] [Js]
+chuckspoon96: checks
+LaiRaches71: bets $0.41
+chuckspoon96: calls $0.41
+*** RIVER *** [5d 2c Qd Js] [5c]
+chuckspoon96: checks
+LaiRaches71: checks
+*** SHOW DOWN ***
+chuckspoon96: shows [Td Qh] (two pair, Queens and Fives)
+LaiRaches71: shows [Qc 7c] (two pair, Queens and Fives)
+chuckspoon96 collected $0.61 from pot
+LaiRaches71 collected $0.60 from pot
+*** SUMMARY ***
+Total pot $1.25 | Rake $0.04
+Board [5d 2c Qd Js 5c]
+Seat 1: chuckspoon96 (small blind) showed [Td Qh] and won ($0.61) with two pair, Queens and Fives
+Seat 2: L0b0M (big blind) folded on the Flop
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: Djangolinoo folded before Flop (didn't bet)
+Seat 6: clai74 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 9: LaiRaches71 (button) showed [Qc 7c] and won ($0.60) with two pair, Queens and Fives
+
+
+
+PokerStars Hand #212184380123:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:07:54 ET
+Table 'Caph' 9-max Seat #1 is the button
+Seat 1: chuckspoon96 ($1.67 in chips)
+Seat 2: L0b0M ($1.41 in chips)
+Seat 3: sanuk1no ($2.04 in chips)
+Seat 4: Castesso ($4.33 in chips)
+Seat 5: Djangolinoo ($1.92 in chips)
+Seat 6: clai74 ($3.47 in chips)
+Seat 7: pokerHero1 ($4.20 in chips)
+Seat 9: LaiRaches71 ($2.50 in chips)
+L0b0M: posts small blind $0.01
+sanuk1no: posts big blind $0.02
+Danilo: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd 5c]
+Castesso: folds
+Djangolinoo: calls $0.02
+clai74: raises $0.07 to $0.09
+pokerHero1: folds
+LaiRaches71: folds
+chuckspoon96: calls $0.09
+L0b0M: folds
+sanuk1no: folds
+Djangolinoo: calls $0.07
+*** FLOP *** [6d 5h 4h]
+Djangolinoo: checks
+clai74: bets $0.29
+chuckspoon96: calls $0.29
+Djangolinoo: folds
+*** TURN *** [6d 5h 4h] [Qd]
+clai74: checks
+chuckspoon96: checks
+*** RIVER *** [6d 5h 4h Qd] [4c]
+clai74: bets $0.30
+chuckspoon96: calls $0.30
+*** SHOW DOWN ***
+clai74: shows [8d 8c] (two pair, Eights and Fours)
+chuckspoon96: mucks hand
+clai74 collected $1.43 from pot
+*** SUMMARY ***
+Total pot $1.48 | Rake $0.05
+Board [6d 5h 4h Qd 4c]
+Seat 1: chuckspoon96 (button) mucked [Kh As]
+Seat 2: L0b0M (small blind) folded before Flop
+Seat 3: sanuk1no (big blind) folded before Flop
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: Djangolinoo folded on the Flop
+Seat 6: clai74 showed [8d 8c] and won ($1.43) with two pair, Eights and Fours
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 9: LaiRaches71 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184462100:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:08:56 ET
+Table 'Caph' 9-max Seat #2 is the button
+Seat 1: chuckspoon96 ($0.99 in chips)
+Seat 2: L0b0M ($1.40 in chips)
+Seat 3: sanuk1no ($2.02 in chips)
+Seat 4: Castesso ($4.33 in chips)
+Seat 5: Djangolinoo ($1.83 in chips)
+Seat 6: clai74 ($4.22 in chips)
+Seat 7: pokerHero1 ($4.20 in chips)
+Seat 9: LaiRaches71 ($2.50 in chips)
+sanuk1no: posts small blind $0.01
+Castesso: posts big blind $0.02
+Danilo: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Qc 3d]
+Djangolinoo: folds
+clai74: folds
+pokerHero1: folds
+LaiRaches71: folds
+chuckspoon96: folds
+L0b0M: folds
+sanuk1no: folds
+Uncalled bet ($0.01) returned to Castesso
+Castesso collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0
+Seat 1: chuckspoon96 folded before Flop (didn't bet)
+Seat 2: L0b0M (button) folded before Flop (didn't bet)
+Seat 3: sanuk1no (small blind) folded before Flop
+Seat 4: Castesso (big blind) collected ($0.02)
+Seat 5: Djangolinoo folded before Flop (didn't bet)
+Seat 6: clai74 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 9: LaiRaches71 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184490757:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:09:18 ET
+Table 'Caph' 9-max Seat #3 is the button
+Seat 1: chuckspoon96 ($0.99 in chips)
+Seat 2: L0b0M ($1.40 in chips)
+Seat 3: sanuk1no ($2.01 in chips)
+Seat 4: Castesso ($4.34 in chips)
+Seat 5: Djangolinoo ($1.83 in chips)
+Seat 6: clai74 ($4.22 in chips)
+Seat 7: pokerHero1 ($4.20 in chips)
+Seat 9: LaiRaches71 ($2.50 in chips)
+Castesso: posts small blind $0.01
+Djangolinoo: posts big blind $0.02
+Danilo: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6s 5h]
+clai74: folds
+pokerHero1: folds
+LaiRaches71: folds
+chuckspoon96: folds
+L0b0M: raises $0.06 to $0.08
+sanuk1no: folds
+Castesso: folds
+Djangolinoo: calls $0.06
+*** FLOP *** [Ah Kc Th]
+Djangolinoo: checks
+L0b0M: bets $0.12
+Djangolinoo: folds
+Uncalled bet ($0.12) returned to L0b0M
+L0b0M collected $0.16 from pot
+L0b0M: doesn't show hand
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01
+Board [Ah Kc Th]
+Seat 1: chuckspoon96 folded before Flop (didn't bet)
+Seat 2: L0b0M collected ($0.16)
+Seat 3: sanuk1no (button) folded before Flop (didn't bet)
+Seat 4: Castesso (small blind) folded before Flop
+Seat 5: Djangolinoo (big blind) folded on the Flop
+Seat 6: clai74 folded before Flop (didn't bet)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 9: LaiRaches71 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184530714:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:09:47 ET
+Table 'Caph' 9-max Seat #4 is the button
+Seat 1: chuckspoon96 ($0.99 in chips)
+Seat 2: L0b0M ($1.48 in chips)
+Seat 3: sanuk1no ($2.01 in chips)
+Seat 4: Castesso ($4.33 in chips)
+Seat 5: Djangolinoo ($1.75 in chips)
+Seat 6: clai74 ($4.22 in chips)
+Seat 7: pokerHero1 ($4.20 in chips)
+Seat 9: LaiRaches71 ($2.50 in chips)
+Djangolinoo: posts small blind $0.01
+clai74: posts big blind $0.02
+Danilo: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jh 4h]
+pokerHero1: folds
+LaiRaches71: folds
+chuckspoon96: folds
+L0b0M: calls $0.02
+sanuk1no: folds
+Castesso: raises $0.03 to $0.05
+Djangolinoo: folds
+clai74: calls $0.03
+L0b0M: calls $0.03
+*** FLOP *** [6h 9s 4c]
+clai74: checks
+L0b0M: bets $0.08
+Castesso: calls $0.08
+clai74: calls $0.08
+*** TURN *** [6h 9s 4c] [8c]
+clai74: checks
+L0b0M: bets $0.39
+Castesso: folds
+clai74: folds
+Uncalled bet ($0.39) returned to L0b0M
+L0b0M collected $0.39 from pot
+L0b0M: doesn't show hand
+*** SUMMARY ***
+Total pot $0.40 | Rake $0.01
+Board [6h 9s 4c 8c]
+Seat 1: chuckspoon96 folded before Flop (didn't bet)
+Seat 2: L0b0M collected ($0.39)
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso (button) folded on the Turn
+Seat 5: Djangolinoo (small blind) folded before Flop
+Seat 6: clai74 (big blind) folded on the Turn
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 9: LaiRaches71 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184608818:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:10:49 ET
+Table 'Caph' 9-max Seat #5 is the button
+Seat 1: chuckspoon96 ($0.99 in chips)
+Seat 2: L0b0M ($1.74 in chips)
+Seat 3: sanuk1no ($2.01 in chips)
+Seat 4: Castesso ($4.20 in chips)
+Seat 5: Djangolinoo ($1.74 in chips)
+Seat 6: clai74 ($4.09 in chips)
+Seat 7: pokerHero1 ($4.20 in chips)
+Seat 9: LaiRaches71 ($2.50 in chips)
+clai74: posts small blind $0.01
+pokerHero1: posts big blind $0.02
+Danilo: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [2h Kd]
+LaiRaches71: raises $0.03 to $0.05
+chuckspoon96: raises $0.03 to $0.08
+L0b0M: calls $0.08
+sanuk1no: folds
+Castesso: folds
+Djangolinoo: folds
+clai74: folds
+pokerHero1: folds
+LaiRaches71: calls $0.03
+*** FLOP *** [5s 9s 7d]
+LaiRaches71: checks
+chuckspoon96: bets $0.13
+L0b0M: calls $0.13
+LaiRaches71: calls $0.13
+*** TURN *** [5s 9s 7d] [Td]
+LaiRaches71: bets $2.29 and is all-in
+chuckspoon96: calls $0.78 and is all-in
+L0b0M: folds
+Uncalled bet ($1.51) returned to LaiRaches71
+*** RIVER *** [5s 9s 7d Td] [Jc]
+*** SHOW DOWN ***
+LaiRaches71: shows [Qc Qh] (a pair of Queens)
+chuckspoon96: shows [Ah Ad] (a pair of Aces)
+chuckspoon96 collected $2.14 from pot
+*** SUMMARY ***
+Total pot $2.22 | Rake $0.08
+Board [5s 9s 7d Td Jc]
+Seat 1: chuckspoon96 showed [Ah Ad] and won ($2.14) with a pair of Aces
+Seat 2: L0b0M folded on the Turn
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: Djangolinoo (button) folded before Flop (didn't bet)
+Seat 6: clai74 (small blind) folded before Flop
+Seat 7: pokerHero1 (big blind) folded before Flop
+Seat 9: LaiRaches71 showed [Qc Qh] and lost with a pair of Queens
+
+
+
+PokerStars Hand #212184678693:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:11:43 ET
+Table 'Caph' 9-max Seat #6 is the button
+Seat 1: chuckspoon96 ($2.14 in chips)
+Seat 2: L0b0M ($1.53 in chips)
+Seat 3: sanuk1no ($2.01 in chips)
+Seat 4: Castesso ($4.20 in chips)
+Seat 5: Djangolinoo ($1.74 in chips)
+Seat 6: clai74 ($4.08 in chips)
+Seat 7: pokerHero1 ($4.18 in chips)
+Seat 8: Danilo ($4.12 in chips)
+Seat 9: LaiRaches71 ($1.51 in chips)
+pokerHero1: posts small blind $0.01
+Danilo: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jh 6d]
+LaiRaches71: folds
+chuckspoon96: folds
+L0b0M: folds
+sanuk1no: folds
+Castesso: folds
+LaiRaches71 leaves the table
+Djangolinoo: folds
+clai74: calls $0.02
+blackgoat4 joins the table at seat #9
+pokerHero1: folds
+Danilo: checks
+*** FLOP *** [Th 2h 7d]
+Danilo: bets $0.05
+clai74: calls $0.05
+*** TURN *** [Th 2h 7d] [5s]
+Danilo: bets $0.14
+clai74: folds
+Uncalled bet ($0.14) returned to Danilo
+Danilo collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01
+Board [Th 2h 7d 5s]
+Seat 1: chuckspoon96 folded before Flop (didn't bet)
+Seat 2: L0b0M folded before Flop (didn't bet)
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: Djangolinoo folded before Flop (didn't bet)
+Seat 6: clai74 (button) folded on the Turn
+Seat 7: pokerHero1 (small blind) folded before Flop
+Seat 8: Danilo (big blind) collected ($0.14)
+Seat 9: LaiRaches71 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184746221:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:12:36 ET
+Table 'Caph' 9-max Seat #7 is the button
+Seat 2: L0b0M ($1.53 in chips)
+Seat 3: sanuk1no ($2.01 in chips)
+Seat 4: Castesso ($4.20 in chips)
+Seat 5: Djangolinoo ($1.74 in chips)
+Seat 6: clai74 ($4.01 in chips)
+Seat 7: pokerHero1 ($4.17 in chips)
+Seat 8: Danilo ($4.19 in chips)
+Seat 9: blackgoat4 ($0.80 in chips)
+Danilo: posts small blind $0.01
+blackgoat4: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [5d 6h]
+L0b0M: raises $0.06 to $0.08
+sanuk1no: folds
+Castesso: folds
+Djangolinoo: calls $0.08
+clai74: calls $0.08
+pokerHero1: folds
+Danilo: folds
+blackgoat4: calls $0.06
+*** FLOP *** [Kh Td 6s]
+blackgoat4: checks
+L0b0M: bets $0.16
+Djangolinoo: folds
+clai74: calls $0.16
+blackgoat4: folds
+*** TURN *** [Kh Td 6s] [9s]
+L0b0M: bets $0.34
+clai74: calls $0.34
+*** RIVER *** [Kh Td 6s 9s] [Js]
+L0b0M: bets $0.95 and is all-in
+clai74: calls $0.95
+*** SHOW DOWN ***
+L0b0M: shows [Ah Kc] (a pair of Kings)
+clai74: shows [Ts 7s] (a flush, Jack high)
+clai74 collected $3.12 from pot
+*** SUMMARY ***
+Total pot $3.23 | Rake $0.11
+Board [Kh Td 6s 9s Js]
+Seat 2: L0b0M showed [Ah Kc] and lost with a pair of Kings
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: Djangolinoo folded on the Flop
+Seat 6: clai74 showed [Ts 7s] and won ($3.12) with a flush, Jack high
+Seat 7: pokerHero1 (button) folded before Flop (didn't bet)
+Seat 8: Danilo (small blind) folded before Flop
+Seat 9: blackgoat4 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #212184810385:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:13:24 ET
+Table 'Caph' 9-max Seat #8 is the button
+Seat 3: sanuk1no ($2.01 in chips)
+Seat 4: Castesso ($4.20 in chips)
+Seat 5: Djangolinoo ($1.66 in chips)
+Seat 6: clai74 ($5.60 in chips)
+Seat 7: pokerHero1 ($4.17 in chips)
+Seat 8: Danilo ($4.18 in chips)
+Seat 9: blackgoat4 ($0.72 in chips)
+blackgoat4: posts small blind $0.01
+sanuk1no: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [4s Ad]
+L0b0M leaves the table
+Castesso: folds
+Djangolinoo: folds
+clai74: calls $0.02
+pokerHero1: folds
+Danilo: calls $0.02
+blackgoat4: calls $0.01
+sanuk1no: checks
+*** FLOP *** [7d 5s Ts]
+blackgoat4: checks
+sanuk1no: checks
+clai74: checks
+Danilo: checks
+*** TURN *** [7d 5s Ts] [6d]
+blackgoat4: bets $0.08
+sanuk1no: folds
+clai74: calls $0.08
+PT BMT joins the table at seat #2
+Danilo: calls $0.08
+*** RIVER *** [7d 5s Ts 6d] [Qc]
+blackgoat4: checks
+clai74: bets $0.31
+Danilo: calls $0.31
+blackgoat4: folds
+*** SHOW DOWN ***
+clai74: shows [8c Qh] (a pair of Queens)
+Danilo: shows [6s 6c] (three of a kind, Sixes)
+Danilo collected $0.91 from pot
+*** SUMMARY ***
+Total pot $0.94 | Rake $0.03
+Board [7d 5s Ts 6d Qc]
+Seat 3: sanuk1no (big blind) folded on the Turn
+Seat 4: Castesso folded before Flop (didn't bet)
+Seat 5: Djangolinoo folded before Flop (didn't bet)
+Seat 6: clai74 showed [8c Qh] and lost with a pair of Queens
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Danilo (button) showed [6s 6c] and won ($0.91) with three of a kind, Sixes
+Seat 9: blackgoat4 (small blind) folded on the River
+
+
+
+PokerStars Hand #212184918326:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:14:48 ET
+Table 'Caph' 9-max Seat #9 is the button
+Seat 3: sanuk1no ($1.99 in chips)
+Seat 4: Castesso ($4.20 in chips)
+Seat 5: Djangolinoo ($1.66 in chips)
+Seat 6: clai74 ($5.19 in chips)
+Seat 7: pokerHero1 ($4.17 in chips)
+Seat 8: Danilo ($4.68 in chips)
+Seat 9: blackgoat4 ($0.62 in chips)
+sanuk1no: posts small blind $0.01
+Castesso: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to pokerHero1 [7h 7s]
+Djangolinoo: folds
+PT BMT leaves the table
+clai74: raises $0.18 to $0.20
+pokerHero1: folds
+Danilo: folds
+blackgoat4: folds
+sanuk1no: folds
+Castesso: folds
+Uncalled bet ($0.18) returned to clai74
+clai74 collected $0.05 from pot
+clai74: doesn't show hand
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 3: sanuk1no (small blind) folded before Flop
+Seat 4: Castesso (big blind) folded before Flop
+Seat 5: Djangolinoo folded before Flop (didn't bet)
+Seat 6: clai74 collected ($0.05)
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Danilo folded before Flop (didn't bet)
+Seat 9: blackgoat4 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #212184948377:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:15:10 ET
+Table 'Caph' 9-max Seat #3 is the button
+Seat 1: chuckspoon96 ($2.14 in chips)
+Seat 3: sanuk1no ($1.98 in chips)
+Seat 4: Castesso ($4.18 in chips)
+Seat 5: Djangolinoo ($1.66 in chips)
+Seat 6: clai74 ($5.22 in chips)
+Seat 7: pokerHero1 ($4.17 in chips)
+Seat 8: Danilo ($4.68 in chips)
+Seat 9: blackgoat4 ($0.62 in chips)
+Castesso: posts small blind $0.01
+Djangolinoo: posts big blind $0.02
+chuckspoon96: posts small & big blinds $0.03
+*** HOLE CARDS ***
+Dealt to pokerHero1 [6h 7d]
+clai74: calls $0.02
+pokerHero1: folds
+Danilo: folds
+blackgoat4: calls $0.02
+chuckspoon96: checks
+sanuk1no: folds
+Castesso: folds
+Djangolinoo: checks
+*** FLOP *** [6d Jd 5d]
+Djangolinoo: checks
+alaan2714 joins the table at seat #2
+alaan2714 is disconnected
+clai74: checks
+blackgoat4: checks
+chuckspoon96: bets $0.02
+Djangolinoo: folds
+clai74: folds
+blackgoat4: folds
+Uncalled bet ($0.02) returned to chuckspoon96
+chuckspoon96 collected $0.10 from pot
+chuckspoon96: doesn't show hand
+*** SUMMARY ***
+Total pot $0.10 | Rake $0
+Board [6d Jd 5d]
+Seat 1: chuckspoon96 collected ($0.10)
+Seat 3: sanuk1no (button) folded before Flop (didn't bet)
+Seat 4: Castesso (small blind) folded before Flop
+Seat 5: Djangolinoo (big blind) folded on the Flop
+Seat 6: clai74 folded on the Flop
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Danilo folded before Flop (didn't bet)
+Seat 9: blackgoat4 folded on the Flop
+
+
+
+PokerStars Hand #212185002312:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/17 15:15:50 ET
+Table 'Caph' 9-max Seat #4 is the button
+Seat 1: chuckspoon96 ($2.21 in chips)
+Seat 3: sanuk1no ($1.98 in chips)
+Seat 4: Castesso ($4.17 in chips)
+Seat 5: Djangolinoo ($1.64 in chips)
+Seat 6: clai74 ($5.20 in chips)
+Seat 7: pokerHero1 ($4.17 in chips)
+Seat 8: Danilo ($4.68 in chips)
+Seat 9: blackgoat4 ($0.60 in chips)
+Djangolinoo: posts small blind $0.01
+clai74: posts big blind $0.02
+alaan2714 is connected
+alaan2714: sits out
+*** HOLE CARDS ***
+Dealt to pokerHero1 [Jd 3c]
+pokerHero1: folds
+Danilo: folds
+blackgoat4: folds
+chuckspoon96: folds
+sanuk1no: folds
+Castesso: raises $0.04 to $0.06
+Djangolinoo: folds
+clai74: folds
+Uncalled bet ($0.04) returned to Castesso
+Castesso collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0
+Seat 1: chuckspoon96 folded before Flop (didn't bet)
+Seat 3: sanuk1no folded before Flop (didn't bet)
+Seat 4: Castesso (button) collected ($0.05)
+Seat 5: Djangolinoo (small blind) folded before Flop
+Seat 6: clai74 (big blind) folded before Flop
+Seat 7: pokerHero1 folded before Flop (didn't bet)
+Seat 8: Danilo folded before Flop (didn't bet)
+Seat 9: blackgoat4 folded before Flop (didn't bet)
+
+
+
