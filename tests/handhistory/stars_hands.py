@@ -1,5 +1,5 @@
 HAND1 = """
-PokerStars Hand #105024000105: Tournament #797469411, $3.19+$0.31 USD Hold'em No Limit - Level I (10/20) - 2013/10/04 19:53:27 CET [2013/10/04 13:53:27 ET]
+PokerStars Hand #105024000105: Tournament #797469411, $3.19+$0.31 USD Hold'em No Limit - Level I (10/20) - 2013/10/04 13:53:27 ET
 Table '797469411 15' 9-max Seat #1 is the button
 Seat 1: flettl2 (1500 in chips)
 Seat 2: santy312 (3000 in chips)
@@ -43,7 +43,7 @@ Seat 8: sinus91 folded before Flop (didn't bet)
 Seat 9: STBIJUJA folded before Flop (didn't bet)"""
 
 HAND2 = """\
-PokerStars Hand #105034215446: Tournament #797536898, $3.19+$0.31 USD Hold'em No Limit - Level XI (400/800) - 2013/10/04 23:22:20 CET [2013/10/04 17:22:20 ET]
+PokerStars Hand #105034215446: Tournament #797536898, $3.19+$0.31 USD Hold'em No Limit - Level XI (400/800) - 2013/10/04 17:22:20 ET
 Table '797536898 9' 9-max Seat #2 is the button
 Seat 1: RichFatWhale (12910 in chips)
 Seat 2: W2lkm2n (11815 in chips)
@@ -103,7 +103,7 @@ Seat 9: costamar showed [Kd Ac] and won (26310) with a pair of Kings"""
 
 
 HAND3 = """\
-PokerStars Hand #105026771696: Tournament #797469411, $3.19+$0.31 USD Hold'em No Limit - Level X (300/600) - 2013/10/04 20:50:56 CET [2013/10/04 14:50:56 ET]
+PokerStars Hand #105026771696: Tournament #797469411, $3.19+$0.31 USD Hold'em No Limit - Level X (300/600) - 2013/10/04 14:50:56 ET
 Table '797469411 11' 9-max Seat #8 is the button
 Seat 2: snelle_jel (4295 in chips)
 Seat 3: EuSh0wTelm0 (11501 in chips)
@@ -150,7 +150,7 @@ Seat 9: fischero68 (small blind) folded before Flop
 
 
 HAND4 = """\
-PokerStars Hand #105025168298: Tournament #797469411, $3.19+$0.31 USD Hold'em No Limit - Level IV (50/100) - 2013/10/04 20:19:17 CET [2013/10/04 14:19:17 ET]
+PokerStars Hand #105025168298: Tournament #797469411, $3.19+$0.31 USD Hold'em No Limit - Level IV (50/100) - 2013/10/04 14:19:17 ET
 Table '797469411 15' 9-max Seat #5 is the button
 Seat 1: flettl2 (3000 in chips)
 Seat 2: santy312 (5890 in chips)
@@ -204,7 +204,7 @@ Seat 9: STBIJUJA folded before Flop (didn't bet)
 """
 
 
-HAND5 = """PokerStars Hand #105039163226: Tournament #797613600, $3.19+$0.31 USD Hold'em No Limit - Level I (10/20) - 2013/10/05 1:18:18 CET [2013/10/04 19:18:18 ET]
+HAND5 = """PokerStars Hand #105039163226: Tournament #797613600, $3.19+$0.31 USD Hold'em No Limit - Level I (10/20) - 2013/10/04 19:18:18 ET
 Table '797613600 9' 9-max Seat #1 is the button
 Seat 1: pjo80 (1500 in chips)
 Seat 2: Brimill (3000 in chips)

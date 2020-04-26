@@ -58,7 +58,7 @@ def test_open_from_file(testdir):
 
 class TestHandHeaderNoLimitHoldemTourFreeroll:
     hand_text = """
-PokerStars Hand #152455023342: Tournament #1545783901, Freeroll  Hold'em No Limit - Level I (10/20) - 2016/04/25 23:22:00 BRT [2016/04/25 22:22:00 ET]
+PokerStars Hand #152455023342: Tournament #1545783901, Freeroll  Hold'em No Limit - Level I (10/20) - 2016/04/25 22:22:00 ET
     """  # noqa
 
     @pytest.mark.parametrize(
@@ -85,7 +85,7 @@ PokerStars Hand #152455023342: Tournament #1545783901, Freeroll  Hold'em No Limi
 
 class TestHandHeaderNoLimitHoldemTourPlayMoney:
     hand_text = """
-PokerStars Hand #152504147861: Tournament #1545751329, 870+130 Hold'em No Limit - Level I (10/20) - 2016/04/27 1:17:16 BRT [2016/04/27 0:17:16 ET]
+PokerStars Hand #152504147861: Tournament #1545751329, 870+130 Hold'em No Limit - Level I (10/20) - 2016/04/27 0:17:16 ET
     """  # noqa
 
     @pytest.mark.parametrize(
@@ -137,7 +137,7 @@ class TestHandHeaderNoLimitHoldemCashMoney:
 
 class TestHandHeaderLimitHoldemCashPlayMoney:
     hand_text = """
-PokerStars Hand #153769972916:  Hold'em Limit (10/20) - 2016/05/24 8:52:39 BRT [2016/05/24 7:52:39 ET]
+PokerStars Hand #153769972916:  Hold'em Limit (10/20) - 2016/05/24 7:52:39 ET
     """  # noqa
 
     @pytest.mark.parametrize(
@@ -164,7 +164,7 @@ PokerStars Hand #153769972916:  Hold'em Limit (10/20) - 2016/05/24 8:52:39 BRT [
 
 class TestHandHeaderNoLimitHoldemTourStarcoin:
     hand_text = """
-PokerStars Hand #153719873192: Tournament #1573768726, 184 SC Hold'em No Limit - Level I (25/50) - 2016/05/23 6:48:22 BRT [2016/05/23 5:48:22 ET]
+PokerStars Hand #153719873192: Tournament #1573768726, 184 SC Hold'em No Limit - Level I (25/50) - 2016/05/23 5:48:22 ET
     """  # noqa
 
     @pytest.mark.parametrize(
@@ -191,7 +191,7 @@ PokerStars Hand #153719873192: Tournament #1573768726, 184 SC Hold'em No Limit -
 
 class TestHandHeaderPotLimitOmahaCash:
     hand_text = """
-PokerStars Hand #107030112846: Omaha Pot Limit ($0.01/$0.02 USD) - 2013/11/15 9:03:10 AWST [2013/11/14 20:03:10 ET]
+PokerStars Hand #107030112846: Omaha Pot Limit ($0.01/$0.02 USD) - 2013/11/14 20:03:10 ET
     """  # noqa
 
     @pytest.mark.parametrize(
