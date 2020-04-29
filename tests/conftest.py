@@ -3,5 +3,5 @@ import pytest
 
 
 @pytest.fixture
-def testdir():
+def test_dir():
     return Path(__file__).parent

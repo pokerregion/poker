@@ -48,12 +48,13 @@ def flop():
     )
 
 
-def test_open_from_bb_file(testdir):
-    bbb_path = str(testdir.joinpath("handhistory/bbb.txt"))
+def test_open_from_bb_file(test_dir):
+    bbb_path = str(test_dir.joinpath("handhistory/bbb.txt"))
     hh = PokerStarsHandHistory.from_file(bbb_path)
     hh.parse()
     assert hh.ident == "138364355489"
     assert type(hh.raw) is str
+
 
 class TestHandHeaderNoLimitHoldemTourFreeroll:
     hand_text = """
@@ -82,6 +83,22 @@ PokerStars Hand #152455023342: Tournament #1545783901, Freeroll  Hold'em No Limi
         assert getattr(hand_header, attribute) == expected_value
 
 
+class TestParseBetCashGame:
+
+    @pytest.mark.parametrize(
+        ("bet_input, expected"),
+        [
+            ("pokerHero1: bets 0.14", Decimal("0.14")),
+            ("pokerHero1: bets $0.14", Decimal("0.14")),
+            ("Vladbrow: bets $0.60 and is all-in", Decimal("0.60")),
+            ("daoudi007708: bets 20", Decimal("20")),
+        ],
+    )
+    def test_bet_parsed(self, bet_input, expected):
+        action = _Street._parse_player_action(self, bet_input)
+        assert action[2] == expected
+
+
 class TestHandHeaderNoLimitHoldemTourPlayMoney:
     hand_text = """
 PokerStars Hand #152504147861: Tournament #1545751329, 870+130 Hold'em No Limit - Level I (10/20) - 2016/04/27 0:17:16 ET
@@ -108,6 +125,7 @@ PokerStars Hand #152504147861: Tournament #1545751329, 870+130 Hold'em No Limit 
     def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
         assert getattr(hand_header, attribute) == expected_value
 
+
 class TestHandHeaderNoLimitHoldemCashMoney:
     hand_text = """
         PokerStars Hand #212113412965:  Hold'em No Limit ($0.01/$0.02 USD) - 2020/04/16 13:58:12 ET
@@ -133,6 +151,7 @@ class TestHandHeaderNoLimitHoldemCashMoney:
     )
     def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
         assert getattr(hand_header, attribute) == expected_value
+
 
 class TestHandHeaderLimitHoldemCashPlayMoney:
     hand_text = """
@@ -214,8 +233,10 @@ PokerStars Hand #107030112846: Omaha Pot Limit ($0.01/$0.02 USD) - 2013/11/14 20
     def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
         assert getattr(hand_header, attribute) == expected_value
 
+
 class TestFreerollTournamentHand:
     hand_text = stars_hands.HAND6
+
 
 class TestTournamentHand:
     hand_text = stars_hands.HAND7

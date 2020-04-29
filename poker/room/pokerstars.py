@@ -67,6 +67,7 @@ class _Street(hh._BaseStreet):
         amount, _, _ = amount.partition(" ")
 
         if amount:
+            amount = str.replace(amount, "$", "")
             return name, Action(action), Decimal(amount)
         else:
             return name, Action(action), None
