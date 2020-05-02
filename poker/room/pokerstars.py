@@ -113,8 +113,8 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
         r"^Seat (?P<seat>\d+): (?P<name>.+?) \(\$?(?P<stack>\d+(\.\d+)?) in chips\)"
     )  # noqa
     _hero_re = re.compile(r"^Dealt to (?P<hero_name>.+?) \[(..) (..)\]")
-    _pot_re = re.compile(r"^Total pot (\d+(?:\.\d+)?) .*\| Rake (\d+(?:\.\d+)?)")
-    _winner_re = re.compile(r"^Seat (\d+): (.+?) collected \((\d+(?:\.\d+)?)\)")
+    _pot_re = re.compile(r"^Total pot \$?(\d+(?:\.\d+)?) .*\| Rake \$?(\d+(?:\.\d+)?)")
+    _winner_re = re.compile(r"^Seat (\d+): (.+?) collected \(\$?(\d+(?:\.\d+)?)\)")
     _showdown_re = re.compile(r"^Seat (\d+): (.+?) showed \[.+?\] and won")
     _ante_re = re.compile(r".*posts the ante (\d+(?:\.\d+)?)")
     _board_re = re.compile(r"(?<=[\[ ])(..)(?=[\] ])")
@@ -205,7 +205,7 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
             index = int(match.group("seat")) - 1
             self.players[index] = hh._Player(
                 name=match.group("name"),
-                stack=int(match.group("stack")),
+                stack=Decimal(match.group("stack")),
                 seat=int(match.group("seat")),
                 combo=None,
             )
