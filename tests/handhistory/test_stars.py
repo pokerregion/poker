@@ -99,6 +99,21 @@ class TestParseBetCashGame:
         assert action[2] == expected
 
 
+class TestParseBetRaiseCashGame:
+
+    @pytest.mark.parametrize(
+        ("bet_input, expected"),
+        [
+            ("ps25sp: raises $0.02 to $0.04", Decimal("0.02")),
+            ("pestarzt: raises $0.08 to $0.10", Decimal("0.08")),
+            ("faabiofonsec: raises $2.77 to $2.85 and is all-in", Decimal("2.77")),
+        ],
+    )
+    def test_rasie_parsed(self, bet_input, expected):
+        action = _Street._parse_player_action(self, bet_input)
+        assert action[2] == expected
+
+
 class TestHandHeaderNoLimitHoldemTourPlayMoney:
     hand_text = """
 PokerStars Hand #152504147861: Tournament #1545751329, 870+130 Hold'em No Limit - Level I (10/20) - 2016/04/27 0:17:16 ET
