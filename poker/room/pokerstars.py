@@ -18,7 +18,10 @@ __all__ = ["PokerStarsHandHistory", "Notes"]
 @implementer(hh.IStreet)
 class _Street(hh._BaseStreet):
     def _parse_cards(self, boardline):
-        self.cards = (Card(boardline[1:3]), Card(boardline[4:6]), Card(boardline[7:9]))
+        try:
+            self.cards = (Card(boardline[1:3]), Card(boardline[4:6]), Card(boardline[7:9]))
+        except:
+            self.cards = ()
 
     def _parse_actions(self, actionlines):
         actions = []
@@ -30,6 +33,12 @@ class _Street(hh._BaseStreet):
             elif "doesn't show hand" in line:
                 action = self._parse_muck(line)
             elif ' said, "' in line:  # skip chat lines
+                continue
+            elif "disconnected" in line:  # skip disconnects
+                continue
+            elif "returned" in line:  # skip return from sitouts
+                continue
+            elif "sitting out" in line:  # skip goes to sitout
                 continue
             elif ":" in line:
                 action = self._parse_player_action(line)
@@ -48,9 +57,9 @@ class _Street(hh._BaseStreet):
         return name, Action.RETURN, Decimal(amount)
 
     def _parse_collected(self, line):
-        first_space_index = line.find(" ")
+        first_space_index = line.find(" collected"))
         name = line[:first_space_index]
-        second_space_index = line.find(" ", first_space_index + 1)
+        second_space_index = line.find(" ", first_space_index + len(" collected"))
         third_space_index = line.find(" ", second_space_index + 1)
         amount = line[second_space_index + 1 : third_space_index]
         self.pot = Decimal(amount)
@@ -226,6 +235,8 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
         start = self._sections[0] + 3
         stop = self._sections[1]
         self.preflop_actions = tuple(self._splitted[start:stop])
+        prefloplines = self._splitted[start:stop]
+        self.preflop = _Street(prefloplines)
 
     def _parse_flop(self):
         try:
