@@ -1,13 +1,9 @@
 language: python
 python: "3.6"
-services:
-  - docker
 install: []
 
-before_script:
-  - docker pull python:3-alpine
 script:
   - python setup.py bdist_wheel
-  - docker build --tag "chris060986/pokerstars" .
+  - ls -l dist
 
 
