@@ -37,7 +37,7 @@ setup(
     long_description=Path("README.rst").read_text(),
     classifiers=classifiers,
     keywords="poker",
-    author="Kiss György",
+    author="Kiss Gyorgy",
     author_email="kissgyorgy@me.com",
     url="https://github.com/pokerregion/poker",
     license="MIT",
