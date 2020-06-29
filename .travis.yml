@@ -1,10 +1,8 @@
 language: python
 python: "3.6"
-install:
-  - "pip install ."
-  - "pip install pytest"
-  - "pip install coverage"
-  - "pip install coveralls"
+services:
+  - docker
+install: []
 
 before_script:
   - docker pull python:3-alpine
