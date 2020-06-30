@@ -3,3 +3,6 @@
 docs/_build/
 .idea
 venv/
+build/
+dist/
+poker.egg-info/
