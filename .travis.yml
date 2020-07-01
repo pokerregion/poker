@@ -4,6 +4,9 @@ services:
   - docker
 install: []
 
+env:
+  - COMMIT=${TRAVIS_COMMIT::8}
+
 script:
   - python setup.py bdist_wheel
   - ls -l dist
