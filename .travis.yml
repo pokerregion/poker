@@ -7,15 +7,15 @@ install: []
 script:
   - python setup.py bdist_wheel
   - ls -l dist
-
-after_success:
   - export IMAGE=chris060986/python-poker
   - export TAG=`grep -Po '\bversion\s*=\s*"\K.*?(?=")' setup.py`
-  - docker login -u $DOCKER_USER -p $DOCKER_PASS
   - docker --version  # document the version travis is using
   - docker build -t $IMAGE:$COMMIT .
   - docker tag $IMAGE:$COMMIT $IMAGE:$TAG
   - docker images --all
+
+after_success:
+  - docker login -u $DOCKER_USER -p $DOCKER_PASS
   - docker push $IMAGE:$COMMIT
   - docker push $IMAGE:$TAG
 
