@@ -17,7 +17,6 @@ script:
   - export IMAGE=chris060986/python-poker
   - export TAG=`grep -Po '\bversion\s*=\s*"\K.*?(?=")' setup.py`
   - echo $TAG
-  - grep -Po '\bversion\s*=\s*"\K.*?(?=")' setup.py
   - docker build -t $IMAGE:$COMMIT .
   - docker tag $IMAGE:$COMMIT $IMAGE:$TAG
   - docker images --all
