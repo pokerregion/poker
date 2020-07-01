@@ -7,6 +7,10 @@ install: []
 env:
   - COMMIT=${TRAVIS_COMMIT::8}
 
+before_script:
+  - docker --version  # document the version travis is using
+  - docker login -u $DOCKER_USER -p $DOCKER_PASS
+
 script:
   - python setup.py bdist_wheel
   - ls -l dist
@@ -14,8 +18,6 @@ script:
   - export TAG=`grep -Po '\bversion\s*=\s*"\K.*?(?=")' setup.py`
   - echo $TAG
   - grep -Po '\bversion\s*=\s*"\K.*?(?=")' setup.py
-  - docker --version  # document the version travis is using
-  - echo "$DOCKER_PASSWORD" | docker login -u $DOCKER_USER --password-stdin
   - docker build -t $IMAGE:$COMMIT .
   - docker tag $IMAGE:$COMMIT $IMAGE:$TAG
   - docker images --all
