@@ -1,9 +1,23 @@
 language: python
 python: "3.6"
+services:
+  - docker
 install: []
 
 script:
   - python setup.py bdist_wheel
   - ls -l dist
+  - docker build -t python-poker
 
+after_success:
+  - export IMAGE=chris060986/python-poker
+  - export TAG=`grep -Po '\bversion\s*=\s*"\K.*?(?=")' setup.py`
+  - docker login -u $DOCKER_USER -p $DOCKER_PASS
+  - docker --version  # document the version travis is using
+
+  - docker build -f Dockerfile -t $IMAGE:$COMMIT .
+  - docker tag $IMAGE:$COMMIT $IMAGE:$TAG
+  - docker images --all
+  - docker push $IMAGE:$COMMIT
+  - docker push $IMAGE:$TAG
 
