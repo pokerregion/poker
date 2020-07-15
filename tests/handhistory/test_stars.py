@@ -262,6 +262,38 @@ PokerStars Hand #107030112846: Omaha Pot Limit ($0.01/$0.02 USD) - 2013/11/14 20
     def test_values_after_header_parsed(self, hand_header, attribute, expected_value):
         assert getattr(hand_header, attribute) == expected_value
 
+class TestVillainCardsParsed:
+    hand_text = stars_hands.HAND12
+
+    @pytest.mark.parametrize(
+        ("attribute", "expected_value"),
+        [
+            ("button", _Player(name="sindyeichelbaum", stack=Decimal('0.63'), seat=8, combo=None)),#Combo("Ad9h"))),
+            ("hero", _Player(name="pokerhero", stack=Decimal('2.0'), seat=2, combo=Combo("Th5s"))),
+            (
+                "players",
+                [
+                    _Player(name='Empty Seat 1', stack=0, seat=1, combo=None),
+                    _Player(name="pokerhero", stack=Decimal('2.0'), seat=2, combo=Combo("Th5s")),
+                    _Player(name="oeggel", stack=Decimal('2.05'), seat=3, combo=None),
+                    _Player(name="3_Socks420", stack=Decimal('0.96'), seat=4, combo=None),
+                    _Player(name="Laandris09", stack=Decimal('3.55'), seat=5, combo=None),
+                    _Player(name="Ammageddon", stack=Decimal('3.48'), seat=6, combo=None),
+                    _Player(name="BigSiddyB", stack=Decimal('2.93'), seat=7, combo=Combo("QhAs")),
+                    _Player(name="sindyeichelbaum", stack=Decimal('0.63'), seat=8, combo=Combo("Ad9h")),
+                    _Player(name="masterhodge", stack=Decimal('1.80'), seat=9, combo=None),
+                ],
+            ),
+            ("turn", Card("7c")),
+            ("river", Card("Ks")),
+            ("board", (Card("3c"), Card("3h"), Card("3s"), Card("7c"), Card("Ks"))),
+            ("total_pot", Decimal('1.29')),
+            ("show_down", True),
+        ],
+    )
+    def test_body(self, hand, attribute, expected_value):
+        assert getattr(hand, attribute) == expected_value
+
 
 class TestFreerollTournamentHand:
     hand_text = stars_hands.HAND6
