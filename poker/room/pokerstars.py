@@ -115,7 +115,7 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
     _hero_re = re.compile(r"^Dealt to (?P<hero_name>.+?) \[(..) (..)\]")
     _pot_re = re.compile(r"^Total pot \$?(\d+(?:\.\d+)?) .*\| Rake \$?(\d+(?:\.\d+)?)")
     _winner_re = re.compile(r"^Seat (\d+): (.+?) collected \(\$?(\d+(?:\.\d+)?)\)")
-    _showdown_re = re.compile(r"^Seat (\d+): (.+?) showed \[.+?\] and won")
+    _showdown_re = re.compile(r"^Seat (\d+): (.+?) showed \[(.+?)\] and won")
     _ante_re = re.compile(r".*posts the ante (\d+(?:\.\d+)?)")
     _board_re = re.compile(r"(?<=[\[ ])(..)(?=[\] ])")
 
@@ -275,9 +275,14 @@ class PokerStarsHandHistory(hh._SplittableHandHistoryMixin, hh._BaseHandHistory)
             if not self.show_down and "collected" in line:
                 match = self._winner_re.match(line)
                 winners.add(match.group(2))
-            elif self.show_down and "won" in line:
+            elif self.show_down and "won" in line and "showed" in line:
                 match = self._showdown_re.match(line)
-                winners.add(match.group(2))
+                seat = int(match.group(1))
+                playername = match.group(2)
+                split = match.group(3).split()
+                playerCombo = Combo.from_cards(Card(split[0]),Card( split[1]))
+                self.players[seat - 1].combo = playerCombo
+                winners.add(playername)
 
         self.winners = tuple(winners)
 

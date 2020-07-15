@@ -268,7 +268,7 @@ class TestVillainCardsParsed:
     @pytest.mark.parametrize(
         ("attribute", "expected_value"),
         [
-            ("button", _Player(name="sindyeichelbaum", stack=Decimal('0.63'), seat=8, combo=None)),#Combo("Ad9h"))),
+            ("button", _Player(name="sindyeichelbaum", stack=Decimal('0.63'), seat=8, combo=Combo("Ad9h"))),#Combo("Ad9h"))),
             ("hero", _Player(name="pokerhero", stack=Decimal('2.0'), seat=2, combo=Combo("Th5s"))),
             (
                 "players",
@@ -279,7 +279,7 @@ class TestVillainCardsParsed:
                     _Player(name="3_Socks420", stack=Decimal('0.96'), seat=4, combo=None),
                     _Player(name="Laandris09", stack=Decimal('3.55'), seat=5, combo=None),
                     _Player(name="Ammageddon", stack=Decimal('3.48'), seat=6, combo=None),
-                    _Player(name="BigSiddyB", stack=Decimal('2.93'), seat=7, combo=Combo("QhAs")),
+                    _Player(name="BigSiddyB", stack=Decimal('2.93'), seat=7, combo=Combo("AsQh")),
                     _Player(name="sindyeichelbaum", stack=Decimal('0.63'), seat=8, combo=Combo("Ad9h")),
                     _Player(name="masterhodge", stack=Decimal('1.80'), seat=9, combo=None),
                 ],
