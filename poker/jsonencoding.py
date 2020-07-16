@@ -1,8 +1,9 @@
 import jsonpickle
 from jsonpickle.handlers import BaseHandler
-from poker.handhistory import IStreet
 
 from poker import Card
+from poker.handhistory import _BaseStreet
+
 
 #TODO: Create test case!!
 
@@ -19,14 +20,11 @@ class CardHandler(BaseHandler):
     def restore(self, obj):
         raise NotImplementedError
 
-CardHandler.handles(Card)
-
-@jsonpickle.handlers.register(IStreet, base=True)
+@jsonpickle.handlers.register(_BaseStreet, base=True)
 class StreetHandler(BaseHandler):
 
     def flatten(self, obj, data):
         data = {}
-        #Todo: implement like this
         if obj.cards is not None:
             cards = [self.context.flatten(x, reset=False) for x in obj.cards]
             data['cards'] = cards
@@ -34,3 +32,13 @@ class StreetHandler(BaseHandler):
 
     def restore(self, obj):
         raise NotImplementedError
+
+
+class JsonEncoder:
+
+    def __init__(self):
+        jsonpickle.handlers.register(CardHandler)
+        jsonpickle.handlers.register(StreetHandler)
+
+    def encode(self, obj):
+        return jsonpickle.encode(obj)
