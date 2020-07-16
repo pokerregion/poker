@@ -1,7 +1,6 @@
 import pytest
-from poker.card import Suit, Card
-from poker.hand import Hand, Combo, Range, PAIR_HANDS
 
+from poker.hand import Hand, Combo, Range, PAIR_HANDS
 
 # from worse to best (suit matter)
 DEUCE_COMBOS = (
