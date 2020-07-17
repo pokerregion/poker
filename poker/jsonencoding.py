@@ -1,7 +1,7 @@
 import jsonpickle
 from jsonpickle.handlers import BaseHandler
 
-from poker import Card
+from poker import Card, Combo
 from poker.handhistory import _BaseStreet, _BaseHandHistory
 
 
@@ -11,10 +11,22 @@ from poker.handhistory import _BaseStreet, _BaseHandHistory
 class CardHandler(BaseHandler):
 
     def flatten(self, obj, data):
-        print(obj.__getattribute__('suit'))
         data = {}
         data['rank'] = obj.rank.val
         data['suit'] = obj.suit.name
+        return data
+
+    def restore(self, obj):
+        raise NotImplementedError
+
+
+@jsonpickle.handlers.register(Combo, base=True)
+class ComboHandler(BaseHandler):
+
+    def flatten(self, obj, data):
+        data = {}
+        data['1'] = self.context.flatten(obj.first, reset=False)
+        data['2'] = self.context.flatten(obj.second, reset=False)
         return data
 
     def restore(self, obj):

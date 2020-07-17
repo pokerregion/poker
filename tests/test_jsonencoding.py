@@ -1,4 +1,6 @@
 import pytest
+from poker.hand import Combo
+
 from poker.room.pokerstars import _Street, PokerStarsHandHistory
 
 from poker.handhistory import _BaseStreet
@@ -19,9 +21,10 @@ class TestCardEncoding:
         card = Card("Ad")
         assert json_encoder.encode(card) == "{\"rank\": \"A\", \"suit\": \"DIAMONDS\"}"
 
-    def test_board_encoding(self, json_encoder):
-        # TODO
-        raise
+    def test_combo_encoding(self, json_encoder):
+        combo = Combo.from_cards(Card("Ad"), Card("Kc"))
+        assert json_encoder.encode(combo) == "{\"1\": {\"rank\": \"A\", \"suit\": \"DIAMONDS\"}, \"2\": {\"rank\": \"K\", \"suit\": \"CLUBS\"}}"
+
 
 class TestHeaderEncoding:
     # TODO: date, gametype etc.
