@@ -1,9 +1,11 @@
+from decimal import Decimal
+
 import pytest
 from poker.hand import Combo
 
 from poker.room.pokerstars import _Street, PokerStarsHandHistory
 
-from poker.handhistory import _BaseStreet
+from poker.handhistory import _BaseStreet, _Player
 
 from poker.card import Card
 from poker.jsonencoding import JsonEncoder
@@ -50,6 +52,19 @@ class TestStreetEncoding:
     def test_street_property_encoding(self, json_encoder):
         # TODO
         raise
+
+
+class TestPlayer:
+
+    def test_hero_encoding_with_combo(self, json_encoder):
+        hero_combo = Combo.from_cards(Card("Ad"), Card("Kc"))
+        hero = _Player(name="pokerHero", stack=Decimal('1.86'), seat=3, combo=hero_combo)
+        assert json_encoder.encode(hero) == "{\"hero\": {\"name\": \"pokerHero\", \"stack\": 1.86, \"seat\": 3, \"hand\": {\"1\": {\"rank\": \"A\", \"suit\": \"DIAMONDS\"}, \"2\": {\"rank\": \"K\", \"suit\": \"CLUBS\"}}}}"
+
+    def test_hero_encoding_without_combo(self, json_encoder):
+        hero = _Player(name="pokerHero", stack=Decimal('1.86'), seat=3, combo=None)
+        assert json_encoder.encode(hero) == "{\"hero\": {\"name\": \"pokerHero\", \"stack\": 1.86, \"seat\": 3}}"
+
 
 class TestFullPokerstarsHand:
 

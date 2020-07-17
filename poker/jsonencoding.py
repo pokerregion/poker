@@ -2,7 +2,7 @@ import jsonpickle
 from jsonpickle.handlers import BaseHandler
 
 from poker import Card, Combo
-from poker.handhistory import _BaseStreet, _BaseHandHistory
+from poker.handhistory import _BaseStreet, _BaseHandHistory, _Player
 
 
 #TODO: Create test case!!
@@ -27,6 +27,18 @@ class ComboHandler(BaseHandler):
         data = {}
         data['1'] = self.context.flatten(obj.first, reset=False)
         data['2'] = self.context.flatten(obj.second, reset=False)
+        return data
+
+    def restore(self, obj):
+        raise NotImplementedError
+
+
+@jsonpickle.handlers.register(_Player, base=True)
+class PlayerHandler(BaseHandler):
+
+    def flatten(self, obj, data):
+        data = {}
+        # TODO: implement player encoding
         return data
 
     def restore(self, obj):
