@@ -25,13 +25,14 @@ class TestCardEncoding:
 
     def test_combo_encoding(self, json_encoder):
         combo = Combo.from_cards(Card("Ad"), Card("Kc"))
-        assert json_encoder.encode(combo) == "{\"1\": {\"rank\": \"A\", \"suit\": \"DIAMONDS\"}, \"2\": {\"rank\": \"K\", \"suit\": \"CLUBS\"}}"
+        expected = "{\"1\": {\"rank\": \"A\", \"suit\": \"DIAMONDS\"}, \"2\": {\"rank\": \"K\", \"suit\": \"CLUBS\"}}"
+        assert json_encoder.encode(combo) == expected
 
 
 class TestHeaderEncoding:
     # TODO: date, gametype etc.
     def test_test(self, json_encoder):
-        raise
+        pass
 
 class TestStreetEncoding:
     # TODO: date, gametype etc.
@@ -43,7 +44,8 @@ class TestStreetEncoding:
         board = tuple([Card("Ad"), Card("Ks"), Card("Qc"), Card("Jh"), Card("Ts")])
         data={}
         data['board'] = list(board)
-        assert json_encoder.encode(data) == """{"board": [{"rank": "A", "suit": "DIAMONDS"}, {"rank": "K", "suit": "SPADES"}, {"rank": "Q", "suit": "CLUBS"}, {"rank": "J", "suit": "HEARTS"}, {"rank": "T", "suit": "SPADES"}]}"""
+        expected = """{"board": [{"rank": "A", "suit": "DIAMONDS"}, {"rank": "K", "suit": "SPADES"}, {"rank": "Q", "suit": "CLUBS"}, {"rank": "J", "suit": "HEARTS"}, {"rank": "T", "suit": "SPADES"}]}"""
+        assert json_encoder.encode(data) == expected
 
     def test_actions_encoding(self, json_encoder):
         # TODO
@@ -59,7 +61,9 @@ class TestPlayer:
     def test_hero_encoding_with_combo(self, json_encoder):
         hero_combo = Combo.from_cards(Card("Ad"), Card("Kc"))
         hero = _Player(name="pokerHero", stack=Decimal('1.86'), seat=3, combo=hero_combo)
-        assert json_encoder.encode(hero) == "{\"name\": \"pokerHero\", \"stack\": 1.86, \"seat\": 3, \"hand\": {\"1\": {\"rank\": \"A\", \"suit\": \"DIAMONDS\"}, \"2\": {\"rank\": \"K\", \"suit\": \"CLUBS\"}}}"
+        expected = "{\"name\": \"pokerHero\", \"stack\": 1.86, \"seat\": 3, \"hand\": " \
+                   "{\"1\": {\"rank\": \"A\", \"suit\": \"DIAMONDS\"}, \"2\": {\"rank\": \"K\", \"suit\": \"CLUBS\"}}}"
+        assert json_encoder.encode(hero) == expected
 
     def test_hero_encoding_without_combo(self, json_encoder):
         hero = _Player(name="pokerHero", stack=Decimal('1.86'), seat=3, combo=None)
@@ -74,5 +78,7 @@ class TestFullPokerstarsHand:
         hh = PokerStarsHandHistory(hand_text)
         hh.parse()
         json = json_encoder.encode(hh)
-        print(json)
-        assert "\"board\": " in json
+        expected = "{\"board\": [{\"rank\": \"3\", \"suit\": \"CLUBS\"}, {\"rank\": \"3\", \"suit\": \"HEARTS\"}, " \
+                   "{\"rank\": \"3\", \"suit\": \"SPADES\"}, {\"rank\": \"7\", \"suit\": \"CLUBS\"}, " \
+                   "{\"rank\": \"K\", \"suit\": \"SPADES\"}]}"
+        assert expected in json
