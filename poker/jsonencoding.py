@@ -38,7 +38,11 @@ class PlayerHandler(BaseHandler):
 
     def flatten(self, obj, data):
         data = {}
-        # TODO: implement player encoding
+        data['name']= obj.name
+        data['stack'] = float(obj.stack)
+        data['seat'] = obj.seat
+        if obj.combo is not None:
+            data['hand'] = self.context.flatten(obj.combo, reset=False)
         return data
 
     def restore(self, obj):
@@ -77,6 +81,7 @@ class JsonEncoder:
         jsonpickle.handlers.register(CardHandler)
         jsonpickle.handlers.register(StreetHandler)
         jsonpickle.handlers.register(HandHistoryHandler)
+        jsonpickle.handlers.register(PlayerHandler)
 
     def encode(self, obj):
         return jsonpickle.encode(obj)
