@@ -5,15 +5,11 @@ from poker import Card, Combo
 from poker.handhistory import _BaseStreet, _BaseHandHistory, _Player
 
 
-#TODO: Create test case!!
-
 @jsonpickle.handlers.register(Card, base=True)
 class CardHandler(BaseHandler):
 
     def flatten(self, obj, data):
-        data = {}
-        data['rank'] = obj.rank.val
-        data['suit'] = obj.suit.name
+        data = {'rank': obj.rank.val, 'suit': obj.suit.name}
         return data
 
     def restore(self, obj):
@@ -24,9 +20,7 @@ class CardHandler(BaseHandler):
 class ComboHandler(BaseHandler):
 
     def flatten(self, obj, data):
-        data = {}
-        data['1'] = self.context.flatten(obj.first, reset=False)
-        data['2'] = self.context.flatten(obj.second, reset=False)
+        data = {'1': self.context.flatten(obj.first, reset=False), '2': self.context.flatten(obj.second, reset=False)}
         return data
 
     def restore(self, obj):
@@ -37,10 +31,7 @@ class ComboHandler(BaseHandler):
 class PlayerHandler(BaseHandler):
 
     def flatten(self, obj, data):
-        data = {}
-        data['name']= obj.name
-        data['stack'] = float(obj.stack)
-        data['seat'] = obj.seat
+        data = {'name': obj.name, 'stack': float(obj.stack), 'seat': obj.seat}
         if obj.combo is not None:
             data['hand'] = self.context.flatten(obj.combo, reset=False)
         return data
@@ -63,6 +54,7 @@ class StreetHandler(BaseHandler):
     def restore(self, obj):
         raise NotImplementedError
 
+
 @jsonpickle.handlers.register(_BaseHandHistory, base=True)
 class HandHistoryHandler(BaseHandler):
 
@@ -70,10 +62,13 @@ class HandHistoryHandler(BaseHandler):
         data = {}
         # TODO: implement all the toplevel objects of handhistory
         data['board'] = [self.context.flatten(x, reset=False) for x in obj.board]
+        data['bb'] = float(obj.bb)
+        data['sb'] = float(obj.sb)
         return data
 
     def restore(self, obj):
         raise NotImplementedError
+
 
 class JsonEncoder:
 

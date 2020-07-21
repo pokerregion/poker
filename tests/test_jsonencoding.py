@@ -72,15 +72,28 @@ class TestPlayer:
         assert json_encoder.encode(hero) == "{\"name\": \"pokerHero\", \"stack\": 1.86, \"seat\": 3}"
 
 
+def get_parsed_hand():
+    hand_text = stars_hands.HAND12
+
+    hh = PokerStarsHandHistory(hand_text)
+    hh.parse()
+    return hh
+
+
 class TestFullPokerstarsHand:
 
     def test_hand(self, json_encoder):
-        hand_text = stars_hands.HAND12
-
-        hh = PokerStarsHandHistory(hand_text)
-        hh.parse()
-        json = json_encoder.encode(hh)
+        hand_history = get_parsed_hand()
+        json = json_encoder.encode(hand_history)
         expected = "{\"board\": [{\"rank\": \"3\", \"suit\": \"CLUBS\"}, {\"rank\": \"3\", \"suit\": \"HEARTS\"}, " \
                    "{\"rank\": \"3\", \"suit\": \"SPADES\"}, {\"rank\": \"7\", \"suit\": \"CLUBS\"}, " \
                    "{\"rank\": \"K\", \"suit\": \"SPADES\"}]}"
         assert expected in json
+
+    def test_bb(self, json_encoder):
+        json = json_encoder.encode(get_parsed_hand())
+        assert "\"bb\": 0.02" in json
+
+    def test_sb(self, json_encoder):
+        json = json_encoder.encode(get_parsed_hand())
+        assert "\"sb\": 0.01" in json
