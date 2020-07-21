@@ -64,6 +64,7 @@ class HandHistoryHandler(BaseHandler):
         data['board'] = [self.context.flatten(x, reset=False) for x in obj.board]
         data['bb'] = float(obj.bb)
         data['sb'] = float(obj.sb)
+        data['button'] = self.context.flatten(obj.button, reset=False)
         return data
 
     def restore(self, obj):

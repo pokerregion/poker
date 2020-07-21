@@ -82,7 +82,7 @@ def get_parsed_hand():
 
 class TestFullPokerstarsHand:
 
-    def test_hand(self, json_encoder):
+    def test_board(self, json_encoder):
         hand_history = get_parsed_hand()
         json = json_encoder.encode(hand_history)
         expected = "{\"board\": [{\"rank\": \"3\", \"suit\": \"CLUBS\"}, {\"rank\": \"3\", \"suit\": \"HEARTS\"}, " \
@@ -97,3 +97,12 @@ class TestFullPokerstarsHand:
     def test_sb(self, json_encoder):
         json = json_encoder.encode(get_parsed_hand())
         assert "\"sb\": 0.01" in json
+
+    def test_button(self, json_encoder):
+        json = json_encoder.encode(get_parsed_hand())
+        expected_button = "\"button\": {\"name\": \"sindyeichelbaum\", \"stack\": 0.63, \"seat\": 8, \"hand\": " \
+                          "{\"1\": {\"rank\": \"A\", \"suit\": \"DIAMONDS\"}, \"2\": " \
+                          "{\"rank\": \"9\", \"suit\": \"HEARTS\"}}}"
+        assert expected_button in json
+
+
