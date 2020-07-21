@@ -105,4 +105,14 @@ class TestFullPokerstarsHand:
                           "{\"rank\": \"9\", \"suit\": \"HEARTS\"}}}"
         assert expected_button in json
 
+    def test_currency(self, json_encoder):
+        json = json_encoder.encode(get_parsed_hand())
+        assert "\"currency\": \"USD\"" in json
 
+    def test_date(self, json_encoder):
+        json = json_encoder.encode(get_parsed_hand())
+        assert "\"timestamp\": \"2020-04-25 17:29:31+00:00\"" in json
+
+    def test_money_type(self, json_encoder):
+        json = json_encoder.encode(get_parsed_hand())
+        assert "\"moneytype\": \"real money\"" in json

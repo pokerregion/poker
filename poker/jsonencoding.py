@@ -65,6 +65,13 @@ class HandHistoryHandler(BaseHandler):
         data['bb'] = float(obj.bb)
         data['sb'] = float(obj.sb)
         data['button'] = self.context.flatten(obj.button, reset=False)
+        if obj.currency is not None:
+            data['currency'] = str(obj.currency)
+        data['timestamp'] = str(obj.date)
+        #fixme: need to get moneytype
+        #if obj.extra is not None:
+        #    data.update(obj.extra)
+
         return data
 
     def restore(self, obj):
