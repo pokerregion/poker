@@ -1,14 +1,12 @@
 from decimal import Decimal
 
 import pytest
-from poker.hand import Combo
-
-from poker.room.pokerstars import _Street, PokerStarsHandHistory
-
-from poker.handhistory import _BaseStreet, _Player
 
 from poker.card import Card
+from poker.hand import Combo
+from poker.handhistory import _Player
 from poker.jsonencoding import JsonEncoder
+from poker.room.pokerstars import _Street, PokerStarsHandHistory
 from tests.handhistory import stars_hands
 
 
@@ -34,17 +32,21 @@ class TestHeaderEncoding:
     def test_test(self, json_encoder):
         pass
 
+
 class TestStreetEncoding:
     # TODO: date, gametype etc.
     def test_street_flop_encoding(self, json_encoder):
         street = _Street(["[Ad Ks Qc]",],)
-        assert json_encoder.encode(street) == """{"cards": [{"rank": "A", "suit": "DIAMONDS"}, {"rank": "K", "suit": "SPADES"}, {"rank": "Q", "suit": "CLUBS"}]}"""
+        assert json_encoder.encode(street) == "{\"cards\": [{\"rank\": \"A\", \"suit\": \"DIAMONDS\"}, " \
+                                              "{\"rank\": \"K\", \"suit\": \"SPADES\"}, " \
+                                              "{\"rank\": \"Q\", \"suit\": \"CLUBS\"}]}"
 
     def test_board_tuple_encoding(self, json_encoder):
         board = tuple([Card("Ad"), Card("Ks"), Card("Qc"), Card("Jh"), Card("Ts")])
-        data={}
-        data['board'] = list(board)
-        expected = """{"board": [{"rank": "A", "suit": "DIAMONDS"}, {"rank": "K", "suit": "SPADES"}, {"rank": "Q", "suit": "CLUBS"}, {"rank": "J", "suit": "HEARTS"}, {"rank": "T", "suit": "SPADES"}]}"""
+        data= {'board': list(board)}
+        expected = "{\"board\": [{\"rank\": \"A\", \"suit\": \"DIAMONDS\"}, {\"rank\": \"K\", \"suit\": \"SPADES\"}, " \
+                   "{\"rank\": \"Q\", \"suit\": \"CLUBS\"}, {\"rank\": \"J\", \"suit\": \"HEARTS\"}, " \
+                   "{\"rank\": \"T\", \"suit\": \"SPADES\"}]}"
         assert json_encoder.encode(data) == expected
 
     def test_actions_encoding(self, json_encoder):
