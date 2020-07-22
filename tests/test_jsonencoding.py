@@ -60,14 +60,14 @@ class TestStreetEncoding:
 
 class TestPlayer:
 
-    def test_hero_encoding_with_combo(self, json_encoder):
+    def test_player_encoding_with_combo(self, json_encoder):
         hero_combo = Combo.from_cards(Card("Ad"), Card("Kc"))
         hero = _Player(name="pokerHero", stack=Decimal('1.86'), seat=3, combo=hero_combo)
         expected = "{\"name\": \"pokerHero\", \"stack\": 1.86, \"seat\": 3, \"hand\": " \
                    "{\"1\": {\"rank\": \"A\", \"suit\": \"DIAMONDS\"}, \"2\": {\"rank\": \"K\", \"suit\": \"CLUBS\"}}}"
         assert json_encoder.encode(hero) == expected
 
-    def test_hero_encoding_without_combo(self, json_encoder):
+    def test_player_encoding_without_combo(self, json_encoder):
         hero = _Player(name="pokerHero", stack=Decimal('1.86'), seat=3, combo=None)
         assert json_encoder.encode(hero) == "{\"name\": \"pokerHero\", \"stack\": 1.86, \"seat\": 3}"
 
@@ -100,9 +100,7 @@ class TestFullPokerstarsHand:
 
     def test_button(self, json_encoder):
         json = json_encoder.encode(get_parsed_hand())
-        expected_button = "\"button\": {\"name\": \"sindyeichelbaum\", \"stack\": 0.63, \"seat\": 8, \"hand\": " \
-                          "{\"1\": {\"rank\": \"A\", \"suit\": \"DIAMONDS\"}, \"2\": " \
-                          "{\"rank\": \"9\", \"suit\": \"HEARTS\"}}}"
+        expected_button = "\"button\": \"sindyeichelbaum\""
         assert expected_button in json
 
     def test_currency(self, json_encoder):
@@ -143,7 +141,7 @@ class TestFullPokerstarsHand:
 
     def test_hero(self, json_encoder):
         json = json_encoder.encode(get_parsed_hand())
-        assert "\"hero\": {\"name\": \"pokerhero\"" in json
+        assert "\"hero\": \"pokerhero\"" in json
 
     def test_rake(self, json_encoder):
         handhistory = get_parsed_hand()
@@ -165,7 +163,7 @@ class TestFullPokerstarsHand:
 
     def test_players(self, json_encoder):
         json = json_encoder.encode(get_parsed_hand())
-        assert "\"players\": [{\"name\": " in json
+        assert "\"players\": [{\"name\": \"Empty Seat 1\", \"stack\": 0.0, \"seat\": 1}, {\"name\": \"pokerhero\", \"stack\": 2.0, \"seat\": 2, \"hand\": {\"1\": {\"rank\": \"T\", \"suit\": \"HEARTS\"}, \"2\": {\"rank\": \"5\", \"suit\": \"SPADES\"}}}, {\"name\": \"oeggel\", \"stack\": 2.05, \"seat\": 3}, {\"name\": \"3_Socks420\", \"stack\": 0.96, \"seat\": 4}, {\"name\": \"Laandris09\", \"stack\": 3.55, \"seat\": 5}, {\"name\": \"Ammageddon\", \"stack\": 3.48, \"seat\": 6}, {\"name\": \"BigSiddyB\", \"stack\": 2.93, \"seat\": 7, \"hand\": {\"1\": {\"rank\": \"A\", \"suit\": \"SPADES\"}, \"2\": {\"rank\": \"Q\", \"suit\": \"HEARTS\"}}}, {\"name\": \"sindyeichelbaum\", \"stack\": 0.63, \"seat\": 8, \"hand\": {\"1\": {\"rank\": \"A\", \"suit\": \"DIAMONDS\"}, \"2\": {\"rank\": \"9\", \"suit\": \"HEARTS\"}}}, {\"name\": \"masterhodge\", \"stack\": 1.8, \"seat\": 9}]" in json
 
     def test_has_showdown(self, json_encoder):
         json = json_encoder.encode(get_parsed_hand())

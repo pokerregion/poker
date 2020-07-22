@@ -31,6 +31,7 @@ class ComboHandler(BaseHandler):
 class PlayerHandler(BaseHandler):
 
     def flatten(self, obj, data):
+        data.clear()
         data = {'name': obj.name, 'stack': float(obj.stack), 'seat': obj.seat}
         if obj.combo is not None:
             data['hand'] = self.context.flatten(obj.combo, reset=False)
@@ -70,8 +71,8 @@ class HandHistoryHandler(BaseHandler):
         data['gametype'] = str(obj.game_type)
         data['limit'] = str(obj.limit)
         data['max-players'] = obj.max_players
-        data['hero'] = self.context.flatten(obj.hero, reset=False)
-        data['button'] = self.context.flatten(obj.button, reset=False)
+        data['hero'] = obj.hero.name
+        data['button'] = obj.button.name
         data['showdown'] = str(obj.show_down)
         if obj.rake is not None:
             data['rake'] = float(obj.rake)
