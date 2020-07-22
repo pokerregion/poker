@@ -169,6 +169,19 @@ class TestFullPokerstarsHand:
         json = json_encoder.encode(get_parsed_hand())
         assert "\"showdown\": \"True\"" in json
 
+    def test_preflop(self, json_encoder):
+        json = json_encoder.encode(get_parsed_hand())
+        expected = "\"preflop\": {\"actions\": [\"KyJIaKoB leaves the table\", " \
+                   "\"oeggel: folds\", " \
+                   "\"3_Socks420: folds\", " \
+                   "\"Laandris09: folds\", " \
+                   "\"Ammageddon: folds\", " \
+                   "\"BigSiddyB: raises $0.02 to $0.04\", " \
+                   "\"sindyeichelbaum: raises $0.59 to $0.63 and is all-in\", " \
+                   "\"masterhodge: folds\", " \
+                   "\"pokerhero: folds\", " \
+                   "\"BigSiddyB: calls $0.59\"]"
+        assert expected in json
         #todo preflop actions
         #todo: flop
         #todo: turn
