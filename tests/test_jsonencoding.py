@@ -120,3 +120,49 @@ class TestFullPokerstarsHand:
     def test_ident(self, json_encoder):
         json = json_encoder.encode(get_parsed_hand())
         assert "\"id\": 212700439098" in json
+
+    def test_game(self, json_encoder):
+        json = json_encoder.encode(get_parsed_hand())
+        assert "\"game\": \"Hold\'em\"" in json
+
+    def test_game_type(self, json_encoder):
+        json = json_encoder.encode(get_parsed_hand())
+        assert "\"gametype\": \"Cash game\"" in json
+
+    def test_limit_type(self, json_encoder):
+        json = json_encoder.encode(get_parsed_hand())
+        assert "\"limit\": \"NL\"" in json
+
+    def test_table_name(self, json_encoder):
+        json = json_encoder.encode(get_parsed_hand())
+        assert "\"tablename\": \"Heike II\"" in json
+
+    def test_max_players(self, json_encoder):
+        json = json_encoder.encode(get_parsed_hand())
+        assert "\"max-players\": 9" in json
+
+    def test_hero(self, json_encoder):
+        json = json_encoder.encode(get_parsed_hand())
+        assert "\"hero\": {\"name\": \"pokerhero\"" in json
+
+    def test_rake(self, json_encoder):
+        handhistory = get_parsed_hand()
+        handhistory.rake = Decimal('0.10')
+        json = json_encoder.encode(handhistory)
+        assert "\"rake\": 0.1" in json
+
+    def test_tournament_id(self, json_encoder):
+        handhistory = get_parsed_hand()
+        handhistory.tournament_ident = 123456789
+        json = json_encoder.encode(handhistory)
+        assert "\"tournament-id\": 123456789" in json
+
+    def test_tournament_level(self, json_encoder):
+        handhistory = get_parsed_hand()
+        handhistory.tournament_level = "XI"
+        json = json_encoder.encode(handhistory)
+        assert "\"tournament-level\": \"XI\"" in json
+
+
+    # todo: players
+

@@ -63,26 +63,28 @@ class HandHistoryHandler(BaseHandler):
         # TODO: implement all the toplevel objects of handhistory
         data['timestamp'] = str(obj.date)
         data['id'] = int(obj.ident)
+        data['tablename'] = obj.table_name
         data['bb'] = float(obj.bb)
         data['sb'] = float(obj.sb)
+        data['game'] = str(obj.game)
+        data['gametype'] = str(obj.game_type)
+        data['limit'] = str(obj.limit)
+        data['max-players'] = obj.max_players
+        data['hero'] = self.context.flatten(obj.hero, reset=False)
         data['button'] = self.context.flatten(obj.button, reset=False)
-        data['board'] = [self.context.flatten(x, reset=False) for x in obj.board]
+        if obj.rake is not None:
+            data['rake'] = float(obj.rake)
+        if obj.tournament_ident is not None:
+            data['tournament-id'] = int(obj.tournament_ident)
+        if obj.tournament_level is not None:
+            data['tournament-level'] = str(obj.tournament_level)
+        # todo: players
+
         if obj.currency is not None:
             data['currency'] = str(obj.currency)
         if obj.extra is not None and obj.extra.get('money_type') is not None:
             data['moneytype'] = str(obj.extra.get('money_type'))
 
-        #todo: game e.g. holdem
-        #todo: game_type e.g. cash
-        #todo: limit e.g. NL/FL/PL
-        #todo: turnament_ident
-        #todo: turnament level
-        #todo: table_name
-        #todo rake
-        #todo max_players
-        #todo: hero
-        #todo: players
-        #todo: ident (handid)
         #todo preflop actions
         #todo: flop
         #todo: turn
@@ -90,6 +92,7 @@ class HandHistoryHandler(BaseHandler):
         #todo: river
         #todo: river_actions
         #todo: showdown (bool)
+        data['board'] = [self.context.flatten(x, reset=False) for x in obj.board]
         #todo winners
         return data
 
