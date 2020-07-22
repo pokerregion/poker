@@ -72,18 +72,18 @@ class HandHistoryHandler(BaseHandler):
         data['max-players'] = obj.max_players
         data['hero'] = self.context.flatten(obj.hero, reset=False)
         data['button'] = self.context.flatten(obj.button, reset=False)
+        data['showdown'] = str(obj.show_down)
         if obj.rake is not None:
             data['rake'] = float(obj.rake)
         if obj.tournament_ident is not None:
             data['tournament-id'] = int(obj.tournament_ident)
         if obj.tournament_level is not None:
             data['tournament-level'] = str(obj.tournament_level)
-        # todo: players
-
         if obj.currency is not None:
             data['currency'] = str(obj.currency)
         if obj.extra is not None and obj.extra.get('money_type') is not None:
             data['moneytype'] = str(obj.extra.get('money_type'))
+        data['players'] = [self.context.flatten(player, reset=False) for player in obj.players]
 
         #todo preflop actions
         #todo: flop
@@ -92,8 +92,8 @@ class HandHistoryHandler(BaseHandler):
         #todo: river
         #todo: river_actions
         #todo: showdown (bool)
-        data['board'] = [self.context.flatten(x, reset=False) for x in obj.board]
-        #todo winners
+        data['board'] = [self.context.flatten(card, reset=False) for card in obj.board]
+        data['winners'] = obj.winners
         return data
 
     def restore(self, obj):

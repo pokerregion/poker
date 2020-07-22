@@ -163,6 +163,21 @@ class TestFullPokerstarsHand:
         json = json_encoder.encode(handhistory)
         assert "\"tournament-level\": \"XI\"" in json
 
+    def test_players(self, json_encoder):
+        json = json_encoder.encode(get_parsed_hand())
+        assert "\"players\": [{\"name\": " in json
 
-    # todo: players
+    def test_has_showdown(self, json_encoder):
+        json = json_encoder.encode(get_parsed_hand())
+        assert "\"showdown\": \"True\"" in json
 
+        #todo preflop actions
+        #todo: flop
+        #todo: turn
+        #todo: turn_actions
+        #todo: river
+        #todo: river_actions
+
+    def test_winners(self, json_encoder):
+        json = json_encoder.encode(get_parsed_hand())
+        assert "\"winners\": [\"BigSiddyB\", \"sindyeichelbaum (button)\"]" in json
