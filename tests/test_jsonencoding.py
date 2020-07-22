@@ -85,9 +85,9 @@ class TestFullPokerstarsHand:
     def test_board(self, json_encoder):
         hand_history = get_parsed_hand()
         json = json_encoder.encode(hand_history)
-        expected = "{\"board\": [{\"rank\": \"3\", \"suit\": \"CLUBS\"}, {\"rank\": \"3\", \"suit\": \"HEARTS\"}, " \
+        expected = "\"board\": [{\"rank\": \"3\", \"suit\": \"CLUBS\"}, {\"rank\": \"3\", \"suit\": \"HEARTS\"}, " \
                    "{\"rank\": \"3\", \"suit\": \"SPADES\"}, {\"rank\": \"7\", \"suit\": \"CLUBS\"}, " \
-                   "{\"rank\": \"K\", \"suit\": \"SPADES\"}]}"
+                   "{\"rank\": \"K\", \"suit\": \"SPADES\"}]"
         assert expected in json
 
     def test_bb(self, json_encoder):
@@ -115,4 +115,8 @@ class TestFullPokerstarsHand:
 
     def test_money_type(self, json_encoder):
         json = json_encoder.encode(get_parsed_hand())
-        assert "\"moneytype\": \"real money\"" in json
+        assert "\"moneytype\": \"Real money\"" in json
+
+    def test_ident(self, json_encoder):
+        json = json_encoder.encode(get_parsed_hand())
+        assert "\"id\": 212700439098" in json
