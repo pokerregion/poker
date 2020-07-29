@@ -23,6 +23,14 @@ Documentation
 
 https://poker.readthedocs.org/
 
+State of the project
+--------------------
+
+As you can see, there is not much activity from me, because I don't play poker anymore and 
+I don't have motivation to develop this library. The PokerStars parser is broken because 
+a small change in PokerStars hand history format. A serious investment/donation would be
+required to allow me to work on this library.
+
 
 License
 -------
@@ -36,7 +44,6 @@ Repo and contact
 ----------------
 
 | Repo: https://github.com/pokerregion/poker
-| Issues: https://github.com/pokerregion/poker/issues
 | `@kissgyorgy <https://twitter.com/kissgyorgy>`_ on twitter
 | or you can reach me on my `public Github e-mail <https://github.com/kissgyorgy>`_.
 
