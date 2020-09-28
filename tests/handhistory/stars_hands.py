@@ -563,3 +563,56 @@ Seat 7: BigSiddyB showed [Qh As] and won ($0.62) with three of a kind, Threes
 Seat 8: sindyeichelbaum (button) showed [Ad 9h] and won ($0.62) with three of a kind, Threes
 Seat 9: masterhodge (small blind) folded before Flop
 """
+
+HAND13 = """PokerStars Hand #218853792406:  Hold'em No Limit ($0.02/$0.05 USD) - 2020/09/27 14:37:04 ET
+Table 'Jiangxi IV' 9-max Seat #2 is the button
+Seat 1: Mauor4ik ($6.96 in chips)
+Seat 2: pulman23 ($4 in chips)
+Seat 3: pokerhero ($5.06 in chips)
+Seat 4: ROMPAL76 ($5 in chips)
+Seat 5: BluffOnTable ($6.68 in chips)
+Seat 6: LPSkillz ($5.14 in chips)
+Seat 7: heureka3 ($2.80 in chips)
+Seat 8: pasha-s-1983 ($2.42 in chips)
+Seat 9: ErkZme ($5 in chips)
+pokerhero: posts small blind $0.02
+ROMPAL76: posts big blind $0.05
+*** HOLE CARDS ***
+Dealt to pokerhero [Ah 4c]
+BluffOnTable: folds
+LPSkillz: folds
+heureka3: calls $0.05
+pasha-s-1983: folds
+ErkZme: folds
+Mauor4ik: folds
+pulman23: folds
+pokerhero: calls $0.03
+ROMPAL76: checks
+*** FLOP *** [8s 5h Jh]
+pokerhero: checks
+ROMPAL76: bets $0.07
+heureka3: calls $0.07
+pokerhero: folds
+*** TURN *** [8s 5h Jh] [2h]
+ROMPAL76: checks
+heureka3: checks
+*** RIVER *** [8s 5h Jh 2h] [2c]
+ROMPAL76: bets $0.10
+heureka3: calls $0.10
+*** SHOW DOWN ***
+ROMPAL76: shows [Kh Jd] (two pair, Jacks and Deuces)
+heureka3: mucks hand
+ROMPAL76 collected $0.47 from pot
+*** SUMMARY ***
+Total pot $0.49 | Rake $0.02
+Board [8s 5h Jh 2h 2c]
+Seat 1: Mauor4ik folded before Flop (didn't bet)
+Seat 2: pulman23 (button) folded before Flop (didn't bet)
+Seat 3: pokerhero (small blind) folded on the Flop
+Seat 4: ROMPAL76 (big blind) showed [Kh Jd] and won ($0.47) with two pair, Jacks and Deuces
+Seat 5: BluffOnTable folded before Flop (didn't bet)
+Seat 6: LPSkillz folded before Flop (didn't bet)
+Seat 7: heureka3 mucked [As Qc]
+Seat 8: pasha-s-1983 folded before Flop (didn't bet)
+Seat 9: ErkZme folded before Flop (didn't bet)
+"""
