@@ -84,16 +84,27 @@ class HandHistoryHandler(BaseHandler):
             data['currency'] = str(obj.currency)
         if obj.extra is not None and obj.extra.get('money_type') is not None:
             data['moneytype'] = str(obj.extra.get('money_type'))
-        data['players'] = [self.context.flatten(player, reset=False) for player in obj.players]
+        data['players'] = [self.context.flatten(player, reset=True) for player in obj.players]
         data['preflop'] = {'actions': obj.preflop_actions}
-        #todo preflop actions
         #todo: flop
+        if obj.flop is not None:
+            flop = {}
+            # flop['actions'] = obj.flop.actions
+            flop['cards'] = [self.context.flatten(card, reset=True) for card in obj.flop.cards]
+            flop['flushdraw'] = obj.flop.has_flushdraw
+            flop['gutshot'] = obj.flop.has_gutshot
+            flop['paired'] = obj.flop.has_pair
+            flop['straightdraw'] = obj.flop.has_straightdraw
+            flop['monotone'] = obj.flop.is_monotone
+            flop['triplet'] = obj.flop.is_triplet
+            data['flop'] = flop
         #todo: turn
         #todo: turn_actions
         #todo: river
         #todo: river_actions
         #todo: showdown (bool)
-        data['board'] = [self.context.flatten(card, reset=False) for card in obj.board]
+        board_ = [self.context.flatten(card, reset=True) for card in obj.board]
+        data['board'] = board_
         data['winners'] = obj.winners
         return data
 

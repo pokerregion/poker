@@ -79,6 +79,12 @@ def get_parsed_hand():
     hh.parse()
     return hh
 
+def get_parsed_flop_hand13():
+    hand_text = stars_hands.HAND13
+    hh = PokerStarsHandHistory(hand_text)
+    hh.parse()
+    return hh
+
 
 class TestFullPokerstarsHand:
 
@@ -182,8 +188,61 @@ class TestFullPokerstarsHand:
                    "\"pokerhero: folds\", " \
                    "\"BigSiddyB: calls $0.59\"]"
         assert expected in json
+
         #todo preflop actions
-        #todo: flop
+    def test_flop_actions(self, json_encoder):
+        json = json_encoder.encode(get_parsed_flop_hand13())
+        # TODO: here player actions are available. add on Handler
+        expected = "\"flop\": {\"actions\": [\"pokerhero checks\", " \
+                   "\"ROMPAL76: bets $0.07\", " \
+                   "\"heureka3: calls $0.07\", " \
+                   "\"pokerhero: folds\"]"
+        assert expected in json
+
+    def test_flop_cards(self, json_encoder):
+        json = json_encoder.encode(get_parsed_flop_hand13())
+        # 8s 5h Jh
+        expected = ": [{\"rank\": \"8\", \"suit\": \"SPADES\"}, {\"rank\": \"5\", \"suit\": \"HEARTS\"}, " \
+                   "{\"rank\": \"J\", \"suit\": \"HEARTS\"}]"
+
+        assert expected in json
+
+    def test_flop_attribute_flushdraw(self, json_encoder):
+        json = json_encoder.encode(get_parsed_flop_hand13())
+        expected = "\"flushdraw\": true"
+
+        assert expected in json
+
+    def test_flop_attribute_gutshot(self, json_encoder):
+        json = json_encoder.encode(get_parsed_flop_hand13())
+        expected = "\"gutshot\": false"
+
+        assert expected in json
+
+    def test_flop_attribute_paired(self, json_encoder):
+        json = json_encoder.encode(get_parsed_flop_hand13())
+        expected = "\"paired\": false"
+
+        assert expected in json
+
+    def test_flop_attribute_straightdraw(self, json_encoder):
+        json = json_encoder.encode(get_parsed_flop_hand13())
+        expected = "\"straightdraw\": false"
+
+        assert expected in json
+
+    def test_flop_attribute_monotone(self, json_encoder):
+        json = json_encoder.encode(get_parsed_flop_hand13())
+        expected = "\"flushdraw\": true"
+
+        assert expected in json
+
+    def test_flop_attribute_triplet(self, json_encoder):
+        json = json_encoder.encode(get_parsed_flop_hand13())
+        expected = "\"triplet\": true"
+
+        assert expected in json
+        # #todo: flop
         #todo: turn
         #todo: turn_actions
         #todo: river
@@ -191,4 +250,5 @@ class TestFullPokerstarsHand:
 
     def test_winners(self, json_encoder):
         json = json_encoder.encode(get_parsed_hand())
+
         assert "\"winners\": [\"BigSiddyB\", \"sindyeichelbaum (button)\"]" in json
