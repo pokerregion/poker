@@ -55,6 +55,7 @@ class PlayerActionsHandler(BaseHandler):
     def restore(self, obj):
         raise NotImplementedError
 
+
 @jsonpickle.handlers.register(_BaseStreet, base=True)
 class StreetHandler(BaseHandler):
 
@@ -129,9 +130,9 @@ class HandHistoryHandler(BaseHandler):
                 river['actions'] = obj.river_actions
             data['river'] = river
 
-        #todo: showdown (bool)
-        board_ = [self.context.flatten(card, reset=True) for card in obj.board]
-        data['board'] = board_
+        if obj.board is not None:
+            board_ = [self.context.flatten(card, reset=True) for card in obj.board]
+            data['board'] = board_
         data['winners'] = obj.winners
         return data
 
@@ -140,12 +141,6 @@ class HandHistoryHandler(BaseHandler):
 
 
 class JsonEncoder:
-
-    def __init__(self):
-        jsonpickle.handlers.register(CardHandler)
-        jsonpickle.handlers.register(StreetHandler)
-        jsonpickle.handlers.register(HandHistoryHandler)
-        jsonpickle.handlers.register(PlayerHandler)
 
     def encode(self, obj):
         return jsonpickle.encode(obj)
