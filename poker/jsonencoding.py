@@ -2,7 +2,7 @@ import jsonpickle
 from jsonpickle.handlers import BaseHandler
 
 from poker import Card, Combo
-from poker.handhistory import _BaseStreet, _BaseHandHistory, _Player
+from poker.handhistory import _BaseStreet, _BaseHandHistory, _Player, _PlayerAction
 
 
 @jsonpickle.handlers.register(Card, base=True)
@@ -41,6 +41,20 @@ class PlayerHandler(BaseHandler):
         raise NotImplementedError
 
 
+@jsonpickle.handlers.register(_PlayerAction, base=True)
+class PlayerActionsHandler(BaseHandler):
+
+    def flatten(self, obj, data):
+        data = {}
+        data['name'] = obj.name
+        data['action'] = obj.action.name
+        if obj.amount is not None:
+            data['amount'] = float(obj.amount)
+        return data
+
+    def restore(self, obj):
+        raise NotImplementedError
+
 @jsonpickle.handlers.register(_BaseStreet, base=True)
 class StreetHandler(BaseHandler):
 
@@ -61,7 +75,6 @@ class HandHistoryHandler(BaseHandler):
 
     def flatten(self, obj, data):
         data = {}
-        # TODO: implement all the toplevel objects of handhistory
         data['timestamp'] = str(obj.date)
         data['id'] = int(obj.ident)
         data['tablename'] = obj.table_name
@@ -86,10 +99,11 @@ class HandHistoryHandler(BaseHandler):
             data['moneytype'] = str(obj.extra.get('money_type'))
         data['players'] = [self.context.flatten(player, reset=True) for player in obj.players]
         data['preflop'] = {'actions': obj.preflop_actions}
-        #todo: flop
+
         if obj.flop is not None:
             flop = {}
-            # flop['actions'] = obj.flop.actions
+            if obj.flop.actions is not None:
+                flop['actions'] = [self.context.flatten(action, reset=True) for action in obj.flop.actions]
             flop['cards'] = [self.context.flatten(card, reset=True) for card in obj.flop.cards]
             flop['flushdraw'] = obj.flop.has_flushdraw
             flop['gutshot'] = obj.flop.has_gutshot
@@ -98,10 +112,21 @@ class HandHistoryHandler(BaseHandler):
             flop['monotone'] = obj.flop.is_monotone
             flop['triplet'] = obj.flop.is_triplet
             data['flop'] = flop
-        #todo: turn
-        #todo: turn_actions
-        #todo: river
-        #todo: river_actions
+
+        if obj.turn is not None:
+            turn = {}
+            turn['card'] = self.context.flatten(obj.turn, reset=True)
+            if obj.turn_actions is not None:
+                turn['actions'] = obj.turn_actions
+            data['turn'] = turn
+
+        if obj.river is not None:
+            river = {}
+            river['card'] = self.context.flatten(obj.river, reset=True)
+            if obj.river_actions is not None:
+                river['actions'] = obj.river_actions
+            data['river'] = river
+
         #todo: showdown (bool)
         board_ = [self.context.flatten(card, reset=True) for card in obj.board]
         data['board'] = board_

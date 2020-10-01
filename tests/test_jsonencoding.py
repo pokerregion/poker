@@ -34,7 +34,6 @@ class TestHeaderEncoding:
 
 
 class TestStreetEncoding:
-    # TODO: date, gametype etc.
     def test_street_flop_encoding(self, json_encoder):
         street = _Street(["[Ad Ks Qc]",],)
         assert json_encoder.encode(street) == "{\"cards\": [{\"rank\": \"A\", \"suit\": \"DIAMONDS\"}, " \
@@ -50,12 +49,13 @@ class TestStreetEncoding:
         assert json_encoder.encode(data) == expected
 
     def test_actions_encoding(self, json_encoder):
-        # TODO
-        raise
-
-    def test_street_property_encoding(self, json_encoder):
-        # TODO
-        raise
+        street = _Street(["[8s 5h Jh]", "pokerhero: checks", "ROMPAL76: bets $0.07", "heureka3: calls $0.07", "pokerhero: folds"])
+        json = json_encoder.encode(street)
+        expected = "{\"actions\": [{\"name\": \"pokerhero\", \"action\": \"CHECK\"}, " \
+                   "{\"name\": \"ROMPAL76\", \"action\": \"BET\", \"amount\": 0.07}, " \
+                   "{\"name\": \"heureka3\", \"action\": \"CALL\", \"amount\": 0.07}, " \
+                   "{\"name\": \"pokerhero\", \"action\": \"FOLD\"}]"
+        assert expected in json
 
 
 class TestPlayer:
@@ -169,7 +169,18 @@ class TestFullPokerstarsHand:
 
     def test_players(self, json_encoder):
         json = json_encoder.encode(get_parsed_hand())
-        assert "\"players\": [{\"name\": \"Empty Seat 1\", \"stack\": 0.0, \"seat\": 1}, {\"name\": \"pokerhero\", \"stack\": 2.0, \"seat\": 2, \"hand\": {\"1\": {\"rank\": \"T\", \"suit\": \"HEARTS\"}, \"2\": {\"rank\": \"5\", \"suit\": \"SPADES\"}}}, {\"name\": \"oeggel\", \"stack\": 2.05, \"seat\": 3}, {\"name\": \"3_Socks420\", \"stack\": 0.96, \"seat\": 4}, {\"name\": \"Laandris09\", \"stack\": 3.55, \"seat\": 5}, {\"name\": \"Ammageddon\", \"stack\": 3.48, \"seat\": 6}, {\"name\": \"BigSiddyB\", \"stack\": 2.93, \"seat\": 7, \"hand\": {\"1\": {\"rank\": \"A\", \"suit\": \"SPADES\"}, \"2\": {\"rank\": \"Q\", \"suit\": \"HEARTS\"}}}, {\"name\": \"sindyeichelbaum\", \"stack\": 0.63, \"seat\": 8, \"hand\": {\"1\": {\"rank\": \"A\", \"suit\": \"DIAMONDS\"}, \"2\": {\"rank\": \"9\", \"suit\": \"HEARTS\"}}}, {\"name\": \"masterhodge\", \"stack\": 1.8, \"seat\": 9}]" in json
+        assert "\"players\": [{\"name\": \"Empty Seat 1\", \"stack\": 0.0, \"seat\": 1}, " \
+               "{\"name\": \"pokerhero\", \"stack\": 2.0, \"seat\": 2, " \
+                    "\"hand\": {\"1\": {\"rank\": \"T\", \"suit\": \"HEARTS\"}, \"2\": {\"rank\": \"5\", \"suit\": \"SPADES\"}}}, " \
+               "{\"name\": \"oeggel\", \"stack\": 2.05, \"seat\": 3}, " \
+               "{\"name\": \"3_Socks420\", \"stack\": 0.96, \"seat\": 4}, " \
+               "{\"name\": \"Laandris09\", \"stack\": 3.55, \"seat\": 5}, " \
+               "{\"name\": \"Ammageddon\", \"stack\": 3.48, \"seat\": 6}, " \
+               "{\"name\": \"BigSiddyB\", \"stack\": 2.93, \"seat\": 7, " \
+                    "\"hand\": {\"1\": {\"rank\": \"A\", \"suit\": \"SPADES\"}, \"2\": {\"rank\": \"Q\", \"suit\": \"HEARTS\"}}}, " \
+               "{\"name\": \"sindyeichelbaum\", \"stack\": 0.63, \"seat\": 8, " \
+                    "\"hand\": {\"1\": {\"rank\": \"A\", \"suit\": \"DIAMONDS\"}, \"2\": {\"rank\": \"9\", \"suit\": \"HEARTS\"}}}, " \
+               "{\"name\": \"masterhodge\", \"stack\": 1.8, \"seat\": 9}]" in json
 
     def test_has_showdown(self, json_encoder):
         json = json_encoder.encode(get_parsed_hand())
@@ -189,14 +200,12 @@ class TestFullPokerstarsHand:
                    "\"BigSiddyB: calls $0.59\"]"
         assert expected in json
 
-        #todo preflop actions
     def test_flop_actions(self, json_encoder):
         json = json_encoder.encode(get_parsed_flop_hand13())
-        # TODO: here player actions are available. add on Handler
-        expected = "\"flop\": {\"actions\": [\"pokerhero checks\", " \
-                   "\"ROMPAL76: bets $0.07\", " \
-                   "\"heureka3: calls $0.07\", " \
-                   "\"pokerhero: folds\"]"
+        expected = "\"flop\": {\"actions\": [{\"name\": \"pokerhero\", \"action\": \"CHECK\"}, " \
+                   "{\"name\": \"ROMPAL76\", \"action\": \"BET\", \"amount\": 0.07}, " \
+                   "{\"name\": \"heureka3\", \"action\": \"CALL\", \"amount\": 0.07}, " \
+                   "{\"name\": \"pokerhero\", \"action\": \"FOLD\"}]"
         assert expected in json
 
     def test_flop_cards(self, json_encoder):
@@ -242,13 +251,30 @@ class TestFullPokerstarsHand:
         expected = "\"triplet\": true"
 
         assert expected in json
-        # #todo: flop
-        #todo: turn
-        #todo: turn_actions
-        #todo: river
-        #todo: river_actions
+
+    def test_turn_card(self, json_encoder):
+        json = json_encoder.encode(get_parsed_flop_hand13())
+        expected = "\"card\": {\"rank\": \"2\", \"suit\": \"HEARTS\"}"
+        assert expected in json
+
+    def test_turn_actions(self, json_encoder):
+        json = json_encoder.encode(get_parsed_flop_hand13())
+        expected = "\"actions\": [\"ROMPAL76: checks\", \"heureka3: checks\"]"
+
+        assert expected in json
+
+    def test_river_card(self, json_encoder):
+        json = json_encoder.encode(get_parsed_flop_hand13())
+        expected = "\"card\": {\"rank\": \"2\", \"suit\": \"CLUBS\"}"
+        assert expected in json
+
+    def test_river_actions(self, json_encoder):
+        json = json_encoder.encode(get_parsed_flop_hand13())
+        expected = "\"actions\": [\"ROMPAL76: bets $0.10\", \"heureka3: calls $0.10\"]"
+
+        assert expected in json
 
     def test_winners(self, json_encoder):
         json = json_encoder.encode(get_parsed_hand())
-
+        # seems to be flaky sometimes, may change to check winners one by one
         assert "\"winners\": [\"BigSiddyB\", \"sindyeichelbaum (button)\"]" in json
