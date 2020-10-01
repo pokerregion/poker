@@ -278,3 +278,7 @@ class TestFullPokerstarsHand:
         json = json_encoder.encode(get_parsed_hand())
         # seems to be flaky sometimes, may change to check winners one by one
         assert "\"winners\": [\"BigSiddyB\", \"sindyeichelbaum (button)\"]" in json
+
+    def test_total_pot(self, json_encoder):
+        json = json_encoder.encode(get_parsed_flop_hand13())
+        assert "\"total_pot\": 0.49" in json

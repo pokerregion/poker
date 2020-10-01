@@ -87,6 +87,8 @@ class HandHistoryHandler(BaseHandler):
         data['hero'] = obj.hero.name
         data['button'] = obj.button.name
         data['showdown'] = str(obj.show_down)
+        if obj.total_pot is not None:
+            data['total_pot'] = float(obj.total_pot)
         if obj.rake is not None:
             data['rake'] = float(obj.rake)
         if obj.tournament_ident is not None:
