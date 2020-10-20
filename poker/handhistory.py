@@ -186,7 +186,7 @@ class _BaseHandHistory:
 
     def _parse_date(self, date_string):
         """Parse the date_string and return a datetime object as UTC."""
-        date = datetime.strptime(date_string, self._DATE_FORMAT)
+        date = datetime.strptime(date_string.strip(), self._DATE_FORMAT)
         self.date = self._TZ.localize(date).astimezone(pytz.UTC)
 
     def _init_seats(self, player_num):
