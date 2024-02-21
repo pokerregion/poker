@@ -1,8 +1,8 @@
-import collections
 import datetime as dt
-from dateutil import tz
-import click
+import typing
 
+import click
+from dateutil import tz
 
 LOCALTIMEZONE = tz.tzlocal()
 
@@ -24,7 +24,7 @@ def _print_values(*args):
             valueformat = "{:%Y-%m-%d (%A) %H:%M (%Z)}"
         elif isinstance(value, dt.date):
             valueformat = "{:%Y-%m-%d}"
-        elif isinstance(value, collections.Sequence) and not isinstance(value, str):
+        elif isinstance(value, typing.Sequence) and not isinstance(value, str):
             value = ", ".join(value)
         click.echo(("{:<20}" + valueformat).format(what + ": ", value))
 
@@ -61,8 +61,8 @@ def twoplustwo_player(username):
     """Get profile information about a Two plus Two Forum member given the username."""
 
     from .website.twoplustwo import (
-        ForumMember,
         AmbiguousUserNameError,
+        ForumMember,
         UserNotFoundError,
     )
 
@@ -150,12 +150,8 @@ def psstatus():
     status = get_status()
     _print_values(
         ("Info updated", status.updated),
-        ("Tables", status.tables),
-        ("Players", status.players),
-        ("Active tournaments", status.active_tournaments),
-        ("Total tournaments", status.total_tournaments),
-        ("Clubs", status.clubs),
-        ("Club members", status.club_members),
+        ("Next update", status.next_update),
+        ("Sites", [site.id for site in status.sites]),
     )
 
     site_format_str = (

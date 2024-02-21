@@ -1,8 +1,7 @@
 import attr
-from dateutil.parser import parse as parse_date
 import requests
+from dateutil.parser import parse as parse_date
 from lxml import etree
-
 
 __all__ = [
     "get_current_tournaments",
@@ -22,11 +21,11 @@ STATUS_URL = "http://www.psimg.com/datafeed/dyn_banners/summary.json.js"
 class _Tournament:
     """Upcoming pokerstars tournament."""
 
-    start_date = attr.ib(convert=parse_date)
+    start_date = attr.ib(converter=parse_date)
     name = attr.ib()
     game = attr.ib()
     buyin = attr.ib()
-    players = attr.ib(convert=int)
+    players = attr.ib(converter=int)
 
 
 def get_current_tournaments():
@@ -49,38 +48,34 @@ def get_current_tournaments():
 class _Status:
     """PokerStars status."""
 
-    updated = attr.ib(convert=parse_date)
-    tables = attr.ib()
+    updated = attr.ib(converter=parse_date)
     next_update = attr.ib()
-    players = attr.ib()
-    clubs = attr.ib()
-    active_tournaments = attr.ib()
-    total_tournaments = attr.ib()
     sites = attr.ib()  # list of sites, including Play Money
-    club_members = attr.ib()
 
 
 @attr.s(slots=True)
 class _SiteStatus:
     """PokerStars status on different subsites like FR, ES IT or Play Money."""
 
-    id = attr.ib()  # ".FR", ".ES", ".IT" or 'Play Money'
+    id = attr.ib()  # "COM", "FR", "ES", "IT"
     tables = attr.ib()
     players = attr.ib()
-    active_tournaments = attr.ib()
+    active_tournaments = attr.ib(converter=int)
+    total_tournaments = attr.ib(converter=int, default=0)
+    play_money = attr.ib(default=0)
+    clubs = attr.ib(default=0)
+    club_members = attr.ib(default=0)
 
 
 def get_status():
     """Get pokerstars status: players online, number of tables, etc."""
 
     res = requests.get(STATUS_URL)
-    status = res.json()["tournaments"]["summary"]
-
-    # move all sites under sites attribute, including play money
+    # breakpoint()
+    status = res.json()["tournaments"]["host"]
     sites = status.pop("site")
-    play_money = status.pop("play_money")
-    play_money["id"] = "Play Money"
-    sites.append(play_money)
     sites = tuple(_SiteStatus(**site) for site in sites)
 
-    return _Status(sites=sites, updated=status.pop("updated"), **status)
+    return _Status(
+        sites=sites, updated=status["updated"], next_update=status["next_update"]
+    )
