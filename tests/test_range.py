@@ -1,5 +1,4 @@
 import pytest
-from poker.card import Suit, Card
 from poker.hand import Hand, Combo, Range, PAIR_HANDS
 
 

@@ -1,14 +1,16 @@
-from decimal import Decimal
 from datetime import datetime
-import pytz
+from decimal import Decimal
+
 import pytest
+import pytz
+
 from poker.card import Card
+from poker.constants import Action, Currency, Game, GameType, Limit, MoneyType
 from poker.hand import Combo
-from poker.constants import Currency, GameType, Game, Limit, Action, MoneyType
 from poker.handhistory import _Player, _PlayerAction
 from poker.room.pokerstars import PokerStarsHandHistory, _Street
-from . import stars_hands
 
+from . import stars_hands
 
 ET = pytz.timezone("US/Eastern")
 
@@ -53,7 +55,7 @@ def test_open_from_file(testdir):
     hh = PokerStarsHandHistory.from_file(bbb_path)
     hh.parse()
     assert hh.ident == "138364355489"
-    assert type(hh.raw) is str
+    assert isinstance(hh.raw, str)
 
 
 class TestHandHeaderNoLimitHoldemTourFreeroll:

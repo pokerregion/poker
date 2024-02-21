@@ -1,8 +1,4 @@
-import pkg_resources
-
-__version__ = pkg_resources.get_distribution(__name__).version
-del pkg_resources
-
+# ruff: noqa: F401
 
 from poker._common import PokerEnum
 from poker.card import Suit, Rank, Card, FACE_RANKS, BROADWAY_RANKS

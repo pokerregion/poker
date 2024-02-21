@@ -1,6 +1,4 @@
-import sys
 import collections
-import contextlib
 import datetime as dt
 from dateutil import tz
 import click

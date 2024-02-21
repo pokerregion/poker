@@ -1,9 +1,10 @@
 from pathlib import Path
-from poker import Strategy, Range
-from poker.constants import Position
-from poker.strategy import _Situation
+
 import pytest
 
+from poker import Range, Strategy
+from poker.constants import Position
+from poker.strategy import _Situation
 
 filedir = Path(__file__).parent
 strategy = Strategy.from_file(filedir / "push.strategy")
@@ -96,7 +97,7 @@ def test_len():
 
 def test_get():
     assert strategy.get("10 BB") == tenBB
-    assert strategy.get("20 BB") == None
+    assert strategy.get("20 BB") is None
 
 
 def test_values():
@@ -105,4 +106,4 @@ def test_values():
 
 
 def test_get_first_position():
-    assert strategy.get_first_spot().position == Position.UTG
+    assert strategy.get_first_spot().position is Position.UTG

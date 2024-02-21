@@ -1,8 +1,6 @@
 HANDS = dict()
 
-HANDS[
-    "holdem_full"
-] = """
+HANDS["holdem_full"] = """
 Table #52121155 - Rapanui's Leela
 Starting Hand #2433297728
 Start time of hand: 05 Oct 2013 01:15:45
@@ -56,9 +54,7 @@ Seat 4: Walkman - $49.75
 Seat 6: barly123 - $55.42
 End of Hand #2433297728"""
 
-HANDS[
-    "holdem_preflop_only"
-] = """
+HANDS["holdem_preflop_only"] = """
 Table #52121155 - Rapanui's Leela
 Starting Hand #2433296988
 Start time of hand: 05 Oct 2013 01:13:39
@@ -90,9 +86,7 @@ Seat 3: Capricorn - $47.85
 Seat 4: Walkman - $50
 End of Hand #2433296988"""
 
-HANDS[
-    "omaha_no_show_down"
-] = """
+HANDS["omaha_no_show_down"] = """
 Table #52120858 - ***NO TABLE***
 Starting Hand #2433310836
 Start time of hand: 05 Oct 2013 01:58:02
@@ -145,9 +139,7 @@ Seat 6: Grinch77 - $131.79
 End of Hand #2433310836
 """
 
-HANDS[
-    "omaha_full"
-] = """
+HANDS["omaha_full"] = """
 Table #52120858 - ***NO TABLE***
 Starting Hand #2433311396
 Start time of hand: 05 Oct 2013 02:00:22
@@ -205,9 +197,7 @@ Seat 6: Grinch77 - $130.29
 End of Hand #2433311396
 """
 
-HANDS[
-    "omaha_two_players"
-] = """
+HANDS["omaha_two_players"] = """
 Table #52120611 - Saint Cloud
 Starting Hand #2433298488
 Start time of hand: 05 Oct 2013 01:17:51

@@ -1,16 +1,17 @@
 import re
-from decimal import Decimal
 from datetime import datetime
-import attr
-from lxml import etree
-import pytz
+from decimal import Decimal
 from pathlib import Path
+
+import attr
+import pytz
+from lxml import etree
 from zope.interface import implementer
+
 from .. import handhistory as hh
 from ..card import Card
+from ..constants import Action, Currency, Game, GameType, Limit, MoneyType
 from ..hand import Combo
-from ..constants import Limit, Game, GameType, Currency, Action, MoneyType
-
 
 __all__ = ["PokerStarsHandHistory", "Notes"]
 
