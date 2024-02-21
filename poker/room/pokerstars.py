@@ -366,7 +366,7 @@ class Notes:
         if label is not None and (label not in self.label_names):
             raise LabelNotFoundError(f"Invalid label: {label}")
         if update is None:
-            update = datetime.utcnow()
+            update = datetime.now(pytz.utc)
         # converted to timestamp, rounded to ones
         update = update.strftime("%s")
         label_id = self._get_label_id(label)
@@ -414,7 +414,7 @@ class Notes:
         timestamp = note.get("update")
         if timestamp:
             timestamp = int(timestamp)
-            update = datetime.utcfromtimestamp(timestamp).replace(tzinfo=pytz.UTC)
+            update = datetime.fromtimestamp(timestamp, pytz.UTC)
         else:
             update = None
         return _Note(note.get("player"), label, update, note.text)
