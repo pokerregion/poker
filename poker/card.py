@@ -1,7 +1,7 @@
 import itertools
 from functools import total_ordering
-from ._common import PokerEnum, _ReprMixin
 
+from ._common import PokerEnum, _ReprMixin
 
 __all__ = ["Suit", "Rank", "Card", "FACE_RANKS", "BROADWAY_RANKS"]
 

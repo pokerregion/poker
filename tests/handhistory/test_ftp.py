@@ -1,14 +1,16 @@
 from datetime import datetime
 from decimal import Decimal
-import pytz
+
 import pytest
+import pytz
+
 from poker.card import Card
+from poker.constants import Action, Currency, Game, GameType, Limit
 from poker.hand import Combo
-from poker.constants import Game, Currency, Limit, GameType, Action
 from poker.handhistory import _Player, _PlayerAction
 from poker.room.fulltiltpoker import FullTiltPokerHandHistory, _Street
-from . import ftp_hands
 
+from . import ftp_hands
 
 ET = pytz.timezone("US/Eastern")
 

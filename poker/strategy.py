@@ -1,9 +1,11 @@
 from collections.abc import Mapping
-from pathlib import Path
-import attr
 from configparser import ConfigParser
-from .hand import Range
+from pathlib import Path
+
+import attr
+
 from .constants import Position
+from .hand import Range
 
 
 @attr.s(slots=True)

@@ -1,7 +1,7 @@
-import random
-import functools
-from collections.abc import Iterable
 import enum
+import functools
+import random
+from collections.abc import Iterable
 
 
 class _PokerEnumMeta(enum.EnumMeta):

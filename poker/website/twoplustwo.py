@@ -1,13 +1,14 @@
 import re
 from datetime import datetime
-from lxml import etree
-import attr
-import requests
-import parsedatetime
-from dateutil.tz import tzoffset
-from pytz import UTC
-from .._common import _make_int
 
+import attr
+import parsedatetime
+import requests
+from dateutil.tz import tzoffset
+from lxml import etree
+from pytz import UTC
+
+from .._common import _make_int
 
 __all__ = [
     "search_userid",

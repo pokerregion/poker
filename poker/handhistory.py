@@ -5,10 +5,12 @@
 import io
 import itertools
 from datetime import datetime
+
 import attr
 import pytz
-from zope.interface import Interface, Attribute
 from cached_property import cached_property
+from zope.interface import Attribute, Interface
+
 from .card import Rank
 
 
