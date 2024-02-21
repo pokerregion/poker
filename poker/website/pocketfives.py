@@ -1,8 +1,8 @@
 import attr
 import requests
 from lxml import etree
-from .._common import _make_float
 
+from .._common import _make_float
 
 __all__ = ["get_ranked_players", "WEBSITE_URL", "RANKINGS_URL"]
 
@@ -17,13 +17,13 @@ class _Player:
 
     name = attr.ib()
     country = attr.ib()
-    triple_crowns = attr.ib(convert=int)
-    monthly_win = attr.ib(convert=int)
+    triple_crowns = attr.ib(converter=int)
+    monthly_win = attr.ib(converter=int)
     biggest_cash = attr.ib()
-    plb_score = attr.ib(convert=_make_float)
-    biggest_score = attr.ib(convert=_make_float)
-    average_score = attr.ib(convert=_make_float)
-    previous_rank = attr.ib(convert=_make_float)
+    plb_score = attr.ib(converter=_make_float)
+    biggest_score = attr.ib(converter=_make_float)
+    average_score = attr.ib(converter=_make_float)
+    previous_rank = attr.ib(converter=_make_float)
 
 
 def get_ranked_players():
