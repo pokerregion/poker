@@ -35,23 +35,6 @@ def hand(request):
     return hh
 
 
-@pytest.fixture
-def flop(scope="module"):
-    return _Street(
-        [
-            "[8h 4h Tc] (Total Pot: 230, 2 Players)",
-            "JohnyyR checks",
-            "FatalRevange has 15 seconds left to act",
-            "FatalRevange bets 120",
-            "JohnyyR folds",
-            "Uncalled bet of 120 returned to FatalRevange",
-            "FatalRevange mucks",
-            "FatalRevange wins the pot (230)",
-        ],
-        0,
-    )
-
-
 class TestHandWithFlopOnly:
     hand_text = ftp_hands.HAND1
 

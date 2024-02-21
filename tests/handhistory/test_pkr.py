@@ -27,21 +27,6 @@ def hand(request):
     return hh
 
 
-@pytest.fixture
-def flop(scope="module"):
-    return _Street(
-        [
-            "Flop [7 d][3 c][J d]",
-            "barly123 checks",
-            "Capricorn bets $1.37",
-            "barly123 raises to $4.11",
-            "Capricorn calls $4.11",
-            "Pot sizes: $10.97",
-        ],
-        0,
-    )
-
-
 class TestHoldemHand:
     hand_text = HANDS["holdem_full"]
 
